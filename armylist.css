@@ -1,0 +1,32 @@
+h1 {
+  margin-top: 1em;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+.unit-row-odd {
+  background-color: white;
+}
+
+.unit-row-even {
+  background-color: #EEEEEE;
+}
+
+.unit-row-top td {
+  padding-bottom: .15rem;
+}
+
+.unit-row-middle td {
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+}
+
+.unit-row-bottom td {
+  padding-top: .15rem;
+}
+
+.unit-name {
+  font-weight: 550;
+}
