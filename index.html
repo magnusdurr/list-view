@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="armylist.css">
+    <title>EA</title>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <div id="content"></div>
+    </div>
+
+    <script id="army-template" type="text/x-handlebars-template">
+      <h1>{{fraction}} - {{army}}</h1>
+      <p><small>Version {{version}} - {{release}}</small></p>
+
+      {{#if introduction}}
+      <p>{{introduction}}</p>
+      {{/if}}
+
+      {{#if usage}}
+      <h5>Using The Army List</h5>
+      {{#each usage}}
+      <p>{{this}}</p>
+      {{/each}}
+      {{/if}}
+
+      {{> special-rules}}
+
+      <h2>{{army}} Army List</h2>
+      <p>{{strategy}} {{initiative}}</p>
+
+      {{#each sections}}
+      {{> card-with-margin}}
+        <div class="card-header">{{name}}{{#if description}}<br><small>{{description}}</small>{{/if}}</div>
+        <div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Formation</th>
+                <th scope="col">Units</th>
+                <th scope="col">Upgrades</th>
+                <th scope="col">Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each formations}}
+              <tr>
+                <td>{{name}}</td>
+                <td>{{units}}</td>
+                <td>{{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</td>
+                <td>{{points}} points</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {{/each}}
+
+      {{#with upgrades}}
+      <div class="card" style="margin-top: .8rem">
+        <div class="card-header">{{title}}<br><small>{{description}}</small></div>
+        <div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Upgrades</th>
+                <th scope="col" colspan="2">Units</th>
+                <th scope="col">Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each items}}
+              {{#upgrade this}}
+              {{#unless options}}
+              <tr class="unit-row-{{oddEven @index}}">
+                <td>{{name}}</td>
+                <td colspan="2">{{description}}</td>
+                <td>{{points}}</td>
+              </tr>
+              {{else}}
+              <tr class="unit-row-{{oddEven @index}}">
+                <td rowspan="{{@options}}">{{name}}</td>
+                <td rowspan="{{@options}}">{{description}}</td>
+                {{#each options}}
+                {{#unless @first}}<tr class="unit-row-{{oddEven @../index}}">{{/unless}}
+                  <td>{{description}}</td>
+                  <td>{{points}}</td>
+                </tr>
+                {{/each}}
+              {{/unless}}
+              {{/upgrade}}
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {{/with}}
+
+      {{#each units}}
+      <h2>{{name}}</h2>
+
+      {{> card-with-margin}}
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Speed</th>
+            <th scope="col">Armour</th>
+            <th scope="col">CC</th>
+            <th scope="col">FF</th>
+            <th scope="col">Weapons</th>
+            <th scope="col">Range</th>
+            <th scope="col">Firepower</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each unit}}
+          {{#unit this}}
+          <tr class="unit-row-{{oddEven @index}} {{#unless @singleLine}}unit-row-top{{/unless}}">
+            <td rowspan="{{@weaponLines}}" class="unit-name">{{name}}</td>
+            <td rowspan="{{@weaponLines}}">{{#if type}}{{type}}{{else}}n/a{{/if}}</td>
+            <td rowspan="{{@weaponLines}}">{{#if speed}}{{appendOnNumber speed 'cm'}}{{else}}n/a{{/if}}</td>
+            <td rowspan="{{@weaponLines}}">{{#if armour}}{{armour}}+{{else}}n/a{{/if}}</td>
+            <td rowspan="{{@weaponLines}}">{{#if cc}}{{cc}}+{{else}}n/a{{/if}}</td>
+            <td rowspan="{{@weaponLines}}">{{#if ff}}{{ff}}+{{else}}n/a{{/if}}</td>
+            {{#each weapons}}
+            {{#each modes}}
+            {{#unless (and @../first @first)}}<tr class="unit-row-{{oddEven @../../index}} {{#if (and @last @hasNoNotes)}}unit-row-bottom{{else}}unit-row-middle{{/if}}">{{/unless}}
+            <td>{{#if join}}<i>{{join}}</i>{{else}}{{../name}}{{/if}}</td>
+            <td>{{appendOnNumber range 'cm'}}</td>
+            <td>{{firepower}}</td>
+            </tr>
+            {{/each}}
+            {{/each}}
+            {{#if @hasNotes}}
+            <tr class="unit-row-{{oddEven @index}} unit-row-bottom">
+              <td colspan="9" style="border-top: none">
+                <small>
+                Notes:
+                {{#each specialRules}}
+                  {{#unless @last}}<i>{{this}}</i>,{{/unless}}
+                  {{#if @last}}<i>{{this}}</i>.{{/if}}
+                {{/each}}
+                {{notes}}
+                </small>
+              </td>
+            </tr>
+            {{/if}}
+          {{/unit}}
+          {{/each}}
+        </tbody>
+      </table>
+      </div>
+
+      {{> special-rules}}
+      {{/each}}
+
+      <p>&nbsp;</p>
+
+    </script>
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function () {
+          console.log("[document-ready] initializing...");
+
+          var template = Handlebars.compile($("#army-template").html());
+
+          $.get("partials/special-rules.html").done(function (template) {
+              Handlebars.registerPartial('special-rules', template);
+          });
+
+          $.get("partials/card-with-margin.html").done(function (template) {
+              Handlebars.registerPartial('card-with-margin', template);
+          });
+
+          Handlebars.registerHelper('oddEven', function(index) {
+            return index % 2 == 0 ? 'even' : 'odd';
+          });
+
+          Handlebars.registerHelper('and', function(one, two) {
+            return true === one && true === two;
+          });
+
+          Handlebars.registerHelper('appendOnNumber', function(value, suffix) {
+            if (isNaN(value)) {
+              return value;
+            }
+            else {
+              return value + suffix;
+            }
+          });
+
+          Handlebars.registerHelper('upgrade', function(context, options) {
+            if (options.data) {
+              var data = Handlebars.createFrame(options.data);
+              data.options = context.options !== undefined ? context.options.length : 0;
+            }
+
+            return options.fn(context, { data: data })
+          });
+
+          Handlebars.registerHelper('unit', function(context, options) {
+            if (options.data) {
+              var data = Handlebars.createFrame(options.data);
+
+              var count = 0;
+              for (weapon in context.weapons)
+              {
+                count += context.weapons[weapon].modes.length;
+              }
+
+              data.weaponLines = count;
+              data.hasNotes = context.notes || context.specialRules;
+              data.hasNoNotes = !data.hasNotes;
+              data.singleLine = count == 1 && data.hasNoNotes;
+            }
+
+            return options.fn(context, { data: data })
+          });
+
+          var urlSearchParams = new URLSearchParams(new URL(window.location.href).search);
+          var race = urlSearchParams.get("race");
+          var list = urlSearchParams.get("list");
+
+          $.getJSON("lists/" + race + "/" + list +".json", function (data) {
+              $("#content").html(template(data));
+          })  .fail(function( jqxhr, textStatus, error ) {
+              $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list +'.json missing or invalid, error: ' + textStatus);
+          });
+        });
+    </script>
+  </body>
+</html>
