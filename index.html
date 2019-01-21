@@ -43,19 +43,19 @@
           <table class="table table-striped">
             <thead>
               <tr>
-                <th scope="col">Formation</th>
+                <th scope="col" style="white-space: nowrap;">Formation</th>
                 <th scope="col">Units</th>
                 <th scope="col">Upgrades</th>
-                <th scope="col">Cost</th>
+                <th scope="col" style="white-space: nowrap;">Cost</th>
               </tr>
             </thead>
             <tbody>
               {{#each formations}}
               <tr>
-                <td>{{name}}</td>
+                <td style="white-space: nowrap;">{{name}}</td>
                 <td>{{units}}</td>
                 <td>{{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</td>
-                <td>{{points}} points</td>
+                <td style="white-space: nowrap;">{{points}} points</td>
               </tr>
               {{/each}}
             </tbody>
@@ -83,7 +83,7 @@
               <tr class="unit-row-{{oddEven @index}}">
                 <td>{{name}}</td>
                 <td colspan="2">{{description}}</td>
-                <td>
+                <td style="white-space: nowrap;">
                   {{#if (isArray points)}}
                   {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
                   {{else}}
@@ -98,7 +98,7 @@
                 {{#each options}}
                 {{#unless @first}}<tr class="unit-row-{{oddEven @../index}}">{{/unless}}
                   <td>{{description}}</td>
-                  <td>
+                  <td style="white-space: nowrap;">
                     {{#if (isArray points)}}
                     {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
                     {{else}}
