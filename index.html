@@ -83,7 +83,13 @@
               <tr class="unit-row-{{oddEven @index}}">
                 <td>{{name}}</td>
                 <td colspan="2">{{description}}</td>
-                <td>{{points}}</td>
+                <td>
+                  {{#if (isArray points)}}
+                  {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                  {{else}}
+                  {{points}}
+                  {{/if}}
+                </td>
               </tr>
               {{else}}
               <tr class="unit-row-{{oddEven @index}}">
@@ -92,7 +98,13 @@
                 {{#each options}}
                 {{#unless @first}}<tr class="unit-row-{{oddEven @../index}}">{{/unless}}
                   <td>{{description}}</td>
-                  <td>{{points}}</td>
+                  <td>
+                    {{#if (isArray points)}}
+                    {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                    {{else}}
+                    {{points}}
+                    {{/if}}
+                  </td>
                 </tr>
                 {{/each}}
               {{/unless}}
@@ -203,6 +215,10 @@
             return true === one && true === two;
           });
 
+          Handlebars.registerHelper('isArray', function(object) {
+            return $.isArray(object);
+          });
+
           Handlebars.registerHelper('appendOnNumber', function(value, suffix) {
             if (isNaN(value)) {
               return value;
@@ -248,15 +264,11 @@
               $("#content").html(armyTemplate(data));
 
               $.getJSON("lists/" + race + "/" + race + ".json", function (units) {
-                var available = '[';
                 units.forEach(function(section) {
                   section.unit = section.unit.filter(function(unit) {
-                    available = available + '\"' + unit.name + '\",'
                     return data.units.includes(unit.name);
                   })
                 })
-                console.log(available + ']')
-
                 $("#units").html(unitsTemplate(units));
               })
           }).fail(function( jqxhr, textStatus, error ) {

@@ -19,731 +19,13 @@
     "The following army list allows you to field an army based on one of the Space Marine Chapters that closely follows the teachings of the Codex Astartes. It can also be used as a stand in army list for other Space Marine Chapters that do not follow the Codex Astartes, such as the Blood Angels, Dark Angels and Space Wolves."
   ],
   "units": [
-    {
-      "name": "White Scars Forces",
-      "specialRules": [
-        {
-          "title": "They Shall Know No Fear",
-          "description": [
-            "Space Marines are renowned for their tenacity and bravery. This is represented by the following rules:",
-            "* It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).",
-            "* Space Marine formations are only broken if they have 2 Blast markers per unit in the formation.",
-            "* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.",
-            "* When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1"
-          ]
-        }
-      ],
-      "unit": [
-        {
-          "name": "Chaptain",
-          "type": "CH",
-          "weapons": [
-            {
-              "name": "Power Weapon",
-              "modes": [
-                {
-                  "firepower": "Assault Weapons, EA(+1), MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Commander",
-            "Invulnerable Save",
-            "Leader"
-          ]
-        },
-        {
-          "name": "Chaplain",
-          "type": "CH",
-          "weapons": [
-            {
-              "name": "Power Weapon",
-              "modes": [
-                {
-                  "firepower": "Assault Weapons, EA(+1), MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Inspiring",
-            "Invulnerable Save",
-            "Leader"
-          ]
-        },
-        {
-          "name": "Librarian",
-          "type": "CH",
-          "weapons": [
-            {
-              "name": "Smite",
-              "modes": [
-                {
-                  "firepower": "Small Arms, EA(+1), MW"
-                }
-              ]
-            },
-            {
-              "name": "Power Weapon",
-              "modes": [
-                {
-                  "firepower": "Assault Weapons, EA(+1), MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Invulnerable Save",
-            "Leader"
-          ]
-        },
-        {
-          "name": "Supreme Commander",
-          "type": "CH",
-          "weapons": [
-            {
-              "name": "Power Weapon",
-              "modes": [
-                {
-                  "firepower": "Assault Weapons, EA(+1), MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Invulnerable Save",
-            "Supreme Commander"
-          ]
-        },
-        {
-          "name": "Assault",
-          "type": "INF",
-          "speed": 30,
-          "armour": 4,
-          "cc": 3,
-          "ff": 5,
-          "weapons": [
-            {
-              "name": "Bolt Pistols",
-              "modes": [
-                {
-                  "firepower": "Small Arms"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Jump Packs"
-          ]
-        },
-        {
-          "name": "Scout",
-          "type": "INF",
-          "speed": 15,
-          "armour": 5,
-          "cc": 4,
-          "ff": 5,
-          "weapons": [
-            {
-              "name": "Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP5+",
-                  "range": 30
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Infiltrator",
-            "Scout"
-          ]
-        },
-        {
-          "name": "Sternguard Veterans",
-          "type": "INF",
-          "speed": 15,
-          "armour": 4,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Missile Launcher",
-              "modes": [
-                {
-                  "firepower": "AP5+/AT6+",
-                  "range": 45
-                }
-              ]
-            },
-            {
-              "name": "Bolter",
-              "modes": [
-                {
-                  "firepower": "Small Arms, Sniper"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Infiltrator",
-            "Scout"
-          ]
-        },
-        {
-          "name": "Tactical",
-          "type": "INF",
-          "speed": 15,
-          "armour": 4,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Missile Launcher",
-              "modes": [
-                {
-                  "firepower": "AP5+/AT6+",
-                  "range": 45
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Terminator",
-          "type": "INF",
-          "speed": 15,
-          "armour": 4,
-          "cc": 3,
-          "ff": 3,
-          "weapons": [
-            {
-              "name": "2× Assault Cannon",
-              "modes": [
-                {
-                  "firepower": "AP5+/AT5+",
-                  "range": 30
-                }
-              ]
-            },
-            {
-              "name": "Power Weapons",
-              "modes": [
-                {
-                  "firepower": "Assault Weapons, EA(+1) MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Reinforced Armour",
-            "Teleport",
-            "Thick Rear Armour"
-          ]
-        },
-        {
-          "name": "Vanguard Assault Veterans",
-          "type": "INF",
-          "speed": 30,
-          "armour": 4,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Bolt Pistols",
-              "modes": [
-                {
-                  "firepower": "Small Arms"
-                }
-              ]
-            },
-            {
-              "name": "Power Weapons",
-              "modes": [
-                {
-                  "firepower": "Assault Weapons, EA(+1) MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Jump Packs"
-          ]
-        },
-        {
-          "name": "Vanguard Veterans",
-          "type": "INF",
-          "speed": 15,
-          "armour": 4,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Bolt Pistols",
-              "modes": [
-                {
-                  "firepower": "Small Arms"
-                }
-              ]
-            },
-            {
-              "name": "Power Weapons",
-              "modes": [
-                {
-                  "firepower": "Assault Weapons, EA(+1) MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Infiltrator"
-          ]
-        },
-        {
-          "name": "Bike",
-          "type": "INF",
-          "speed": 35,
-          "armour": 4,
-          "cc": 3,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Twin Bolters",
-              "modes": [
-                {
-                  "firepower": "Small Arms"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Mounted"
-          ]
-        },
-        {
-          "name": "Land Speeder",
-          "type": "LV",
-          "speed": 35,
-          "armour": 4,
-          "cc": 6,
-          "ff": 5,
-          "weapons": [
-            {
-              "name": "Multi-melta",
-              "modes": [
-                {
-                  "firepower": "MW5+",
-                  "range": 15
-                },
-                {
-                  "firepower": "Small Arms, MW",
-                  "join": "and"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Scout",
-            "Skimmer"
-          ]
-        },
-        {
-          "name": "Land Speeder Tornado",
-          "type": "LV",
-          "speed": 35,
-          "armour": 4,
-          "cc": 6,
-          "ff": 5,
-          "weapons": [
-            {
-              "name": "Assault Cannon",
-              "modes": [
-                {
-                  "firepower": "AP5+/AT5+",
-                  "range": 30
-                }
-              ]
-            },
-            {
-              "name": "Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP5+",
-                  "range": 30
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Scout",
-            "Skimmer"
-          ]
-        },
-        {
-          "name": "Land Speeder Typhoon",
-          "type": "LV",
-          "speed": 35,
-          "armour": 4,
-          "cc": 6,
-          "ff": 5,
-          "weapons": [
-            {
-              "name": "Twin Typhoon Missile",
-              "modes": [
-                {
-                  "firepower": "AP3+/AT5+",
-                  "range": 45
-                }
-              ]
-            },
-            {
-              "name": "Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP5+",
-                  "range": 30
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Scout",
-            "Skimmer"
-          ]
-        },
-        {
-          "name": "Attack Bike",
-          "type": "LV",
-          "speed": 35,
-          "armour": 4,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP5+",
-                  "range": 30
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Hunter",
-          "type": "AV",
-          "speed": 30,
-          "armour": 4,
-          "cc": 6,
-          "ff": 6,
-          "weapons": [
-            {
-              "name": "Hunter-Killer",
-              "modes": [
-                {
-                  "firepower": "AP4+/AA4+",
-                  "range": 60
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Razorback",
-          "type": "AV",
-          "speed": 30,
-          "armour": 5,
-          "cc": 6,
-          "ff": 5,
-          "weapons": [
-            {
-              "name": "0-1 Twin Lascannon",
-              "modes": [
-                {
-                  "firepower": "AT4+",
-                  "range": 45
-                }
-              ]
-            },
-            {
-              "name": "0-1 Twin Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP4+",
-                  "range": 30
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Transport"
-          ],
-          "notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
-        },
-        {
-          "name": "Rhino",
-          "type": "AV",
-          "speed": 30,
-          "armour": 5,
-          "cc": 6,
-          "ff": 6,
-          "weapons": [
-            {
-              "name": "Storm Bolter",
-              "modes": [
-                {
-                  "firepower": "Small Arms"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Transport"
-          ],
-          "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
-        },
-        {
-          "name": "Landing Craft",
-          "type": "AC/WE",
-          "speed": "Bomber",
-          "armour": 4,
-          "cc": 5,
-          "ff": 3,
-          "weapons": [
-            {
-              "name": "2× Twin Lascannon",
-              "modes": [
-                {
-                  "firepower": "AT4+",
-                  "range": 45
-                }
-              ]
-            },
-            {
-              "name": "3× Twin Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP4+/AA5+",
-                  "range": 15
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Damage Capacity 4",
-            "Fearless",
-            "Planetfall",
-            "Reinforced Armour",
-            "Transport"
-          ],
-          "notes": "May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up. Critical Hit Effect: The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
-        }, {
-          "name": "Storm Eagle",
-          "type": "AC/WE",
-          "speed": "Bomber",
-          "armour": 5,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Twin Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP4+/AA5+, FxF",
-                  "range": 30
-                }
-              ]
-            }, {
-              "name": "2× Twin Lascannon",
-              "modes": [
-                {
-                  "firepower": "AT4+, FxF",
-                  "range": 45
-                }
-              ]
-            },
-            {
-              "name": "Vengeance Launcher",
-              "modes": [
-                {
-                  "firepower": "Small Arms, EA(+2)"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Damage Capacity 2",
-            "Planetfall",
-            "Reinforced Armour",
-            "Transport"
-          ],
-          "notes": "May transport four infantry units without Mounted; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
-        },
-        {
-          "name": "Thunderhawk",
-          "type": "AC/WE",
-          "speed": "Bomber",
-          "armour": 4,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Battle Cannon",
-              "modes": [
-                {
-                  "firepower": "AP4+/AT4+, FxF",
-                  "range": 75
-                }
-              ]
-            },
-            {
-              "name": "2× Twin Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP4+/AA5+, FxF",
-                  "range": 30
-                }
-              ]
-            },
-            {
-              "name": "Twin Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP4+/AA5+, Left",
-                  "range": 15
-                }
-              ]
-            },
-            {
-              "name": "Twin Heavy Bolter",
-              "modes": [
-                {
-                  "firepower": "AP4+/AA5+, Right",
-                  "range": 15
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Damage Capacity 2",
-            "Planetfall",
-            "Reinforced Armour",
-            "Transport"
-          ],
-          "notes": "May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
-        },
-        {
-          "name": "Battle Barge",
-          "type": "SC",
-          "weapons": [
-            {
-              "name": "Orbital Bombardment",
-              "modes": [
-                {
-                  "firepower": "14BP, MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Slow and Steady",
-            "Transport"
-          ],
-          "notes": "May transport 60 infantry units, Attack Bikes, or Dreadnoughts; plus 60 armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
-        },
-        {
-          "name": "Strike Cruiser",
-          "type": "SC",
-          "weapons": [
-            {
-              "name": "Orbital Bombardment",
-              "modes": [
-                {
-                  "firepower": "5BP, MW"
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Transport"
-          ],
-          "notes": "May transport 20 infantry units, Attack Bikes, or Dreadnoughts; plus 20 light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
-        },
-        {
-          "name": "Drop Pod",
-          "weapons": [
-            {
-              "name": "Deathwind",
-              "modes": [
-                {
-                  "firepower": "AP5+/AT5+",
-                  "range": 15
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Planetfall",
-            "Transport"
-          ],
-          "notes": "May transport one formation of only the following units: Devastator, Dreadnought, Tactical. After the drop pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast marker for coming under fire, and an extra Blast marker for each casualty. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
-        }
-      ]
-    },
-    {
-      "name": "Titan Legion Forces",
-      "specialRules": [
-        {
-          "title": "Imperial Void Shields",
-          "description": [
-            "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan’s datasheet.",
-            "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
-            "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast markers or repair 1 shield and remove 1 Blast marker)."
-          ]
-        }
-      ],
-      "unit": [
-        {
-          "name": "Warhound",
-          "type": "AC/WE",
-          "speed": 30,
-          "armour": 5,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            {
-              "name": "Plasma Blastgun",
-              "modes": [
-                {
-                  "firepower": "2× MW2+, FwA Slw",
-                  "range": 45
-                }
-              ]
-            },
-            {
-              "name": "Vulcan Mega-Bolter",
-              "modes": [
-                {
-                  "firepower": "4x AP3+/AT5+, FwA",
-                  "range": 45
-                }
-              ]
-            }
-          ],
-          "specialRules": [
-            "Damage Capacity 3",
-            "Fearless",
-            "Reinforced Armour",
-            "2 Void Shields",
-            "Walker"
-          ],
-          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
-        }
-      ]
-    }
-  ],
+    "Chaptain","Chaplain","Librarian","Supreme Commander",
+    "Assault","Bike","Scout","Sternguard Veterans","Tactical","Terminator","Vanguard Assault Veterans","Vanguard Veterans",
+    "Attack Bike", "Land Speeder", "Land Speeder Storm", "Land Speeder Tempest","Land Speeder Tornado","Land Speeder Typhoon",
+    "Hunter","Razorback","Rhino",
+    "Storm Eagle","Storm Talon Gunship","Thunderhawk",
+    "Battle Barge","Strike Cruiser","Drop Pod",
+    "Warhound"],
   "sections": [
     {
       "name": "Ravenguard Core Detachments",
@@ -778,12 +60,23 @@
             "Storms"
           ],
           "points": 150
+        },
+        {
+          "name": "Tactical",
+          "units": "Four Tactical units plus transport",
+          "upgrades": [
+            "Commander",
+            "Land Speeders",
+            "Hunter",
+            "Razorbacks"
+          ],
+          "points": 200
         }
       ]
     },
     {
       "name": "Ravenguard Elite Detachments",
-      "description": "One elite detachment may be fielded for every two core detachments",
+      "description": "One elite detachment may be fielded per core detachments",
       "formations": [
         {
           "name": "Sternguard Veteran",
@@ -804,6 +97,26 @@
             "Commander"
           ],
           "points": 350
+        },
+        {
+          "name": "Vanguard Assault Veteran",
+          "units": "Four Vanguard Assault Veteran units",
+          "upgrades": [
+            "Commander",
+            "Land Speeders"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Vanguard Veteran",
+          "units": "Four Vanguard Veteran units plus transport",
+          "upgrades": [
+            "Commander",
+            "Hunter",
+            "Land Speeders",
+            "Razorbacks"
+          ],
+          "points": 250
         }
       ]
     },
@@ -839,18 +152,18 @@
     }
   ],
   "upgrades": {
-    "title": "White Scars Upgrades",
+    "title": "Ravenguard Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
+      {
+        "name": "Ambush",
+        "description": "Give all infantry units Self Planetfall; Formations with Ambush will not scatter when deployed.",
+        "points": "50 points"
+      },
       {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
         "points": "150 points"
-      },
-      {
-        "name": "Bike support",
-        "description": "Replace up to three White Scars Bike units with a White Scars Attack or Melta Bike",
-        "points": "Free"
       },
       {
         "name": "Commander",
@@ -877,6 +190,24 @@
         "points": "50 points"
       },
       {
+        "name": "Land Speeders",
+        "description": "Add any two of the following. These units have Planetfall.",
+        "options": [
+          {
+            "description": "Land Speeder, Land Speeder Tornado",
+            "points": "35 points each"
+          },
+          {
+            "description": "Land Speeder Typhoon",
+            "points": "45 points each"
+          },
+          {
+            "description": "Land Speeder Tempest",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
         "name": "Razorbacks",
         "description": "Add any number of Razorbacks, up to the number required to transport the formation",
         "points": "25 points each"
@@ -887,14 +218,19 @@
         "points": "10 points each"
       },
       {
+        "name": "Storms",
+        "description": "Add any number of Land Speeder Storms, up to the number required to transport the formation",
+        "points": ["25 points each", "75 points for four"]
+      },
+      {
+        "name": "Tempest",
+        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Tempest",
+        "points": "15 points each"
+      },
+      {
         "name": "Typhoons",
         "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
         "points": "10 points each"
-      },
-      {
-        "name": "Vindicators",
-        "description": "Add up to two White Scars Vindicators",
-        "points": "50 points each, 75 per pair"
       }
     ]
   }
