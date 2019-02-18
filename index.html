@@ -162,9 +162,14 @@
             {{#each weapons}}
             {{#each modes}}
             {{#unless (and @../first @first)}}<tr class="unit-row-{{oddEven @../../index}} {{#if (and @last @hasNoNotes)}}unit-row-bottom{{else}}unit-row-middle{{/if}}">{{/unless}}
-            <td>{{#if join}}<i>{{join}}</i>{{else}}{{../name}}{{/if}}</td>
+            <td>{{#if join}}<i>{{join}}</i>{{else}}{{#if ../count}}{{../count}}x {{/if}}{{../name}}{{/if}}</td>
             <td>{{appendOnNumber range 'cm'}}</td>
-            <td>{{firepower}}</td>
+            <td>
+              {{firepower}}
+              {{#each specialRules}}
+              , <i><abbr title="{{description}}">{{name}}</abbr></i>
+              {{/each}}
+            </td>
             </tr>
             {{/each}}
             {{/each}}
@@ -207,6 +212,10 @@
     <script>
       $(document).ready(function () {
           console.log("[document-ready] initializing...");
+
+          $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+          })
 
           var armyTemplate = Handlebars.compile($("#army-template").html());
           var unitsTemplate = Handlebars.compile($("#units-template").html());
@@ -272,22 +281,78 @@
           var race = urlSearchParams.get("race");
           var list = urlSearchParams.get("list");
 
+          var weaponsMap = {};
+
+          $.getJSON("lists/weapons.json", function(data){
+                var weaponRules = {}
+
+                data.rules.forEach(function(rule){
+                  weaponRules[rule.name] = rule;
+                })
+
+                console.log("Weapon rules: ", weaponRules);
+
+                data.weapons.forEach(function(item) {
+                  item.modes.forEach(function(mode) {
+                    if (mode.specialRules)
+                    {
+                      mode.specialRules = mode.specialRules.map(function(sRule) {
+                        return weaponRules[sRule];
+                      })
+                    }
+                  })
+                  weaponsMap[item.name] = item;
+                });
+          });
+
           $.getJSON("lists/" + race + "/" + list +".json", function (data) {
               $("#content").html(armyTemplate(data));
 
-              $.getJSON("lists/" + race + "/" + race + ".json", function (units) {
-                units.forEach(function(section) {
-                  section.unit = section.unit.filter(function(unit) {
-                    return data.units.includes(unit.name);
+              data.units.forEach(function(unitSection) {
+                $.getJSON("lists/" + unitSection.from, function (units) {
+                  units.forEach(function(section) {
+                    section.unit = section.unit.filter(function(unit) {
+                      return unitSection.units.includes(unit.name);
+                    });
+
+                    section.unit.forEach(function(unit) {
+                      unit.weapons = unit.weapons.map(function(weapon){
+                        if (typeof weapon === 'string') {
+                          var values = weapon.split('|');
+                          var weaponObject;
+                          if (isNaN(Number(values[0])))
+                          {
+                            weaponObject = Object.assign({}, weaponsMap[values[0]]);
+                          }
+                          else {
+                            weaponObject = Object.assign({}, weaponsMap[values[1]]);
+                            weaponObject.count = values[0];
+                          }
+
+                          if (weaponObject === null)
+                          {
+                            console.log("Undefined weapon, values ", values);
+                          }
+                          return weaponObject;
+                        }
+                        else {
+                          return weapon;
+                        }
+                      })
+                    })
+
+                    section.specialRules = section.specialRules.filter(function(rule) {
+                      return unitSection.unitRules.includes(rule.title);
+                    })
                   })
-                  section.specialRules = section.specialRules.filter(function(rule) {
-                    return data.unitRules.includes(rule.title);
-                  })
-                })
-                $("#units").html(unitsTemplate(units));
-              })
+
+                  console.log(units);
+                  $("#units").append(unitsTemplate(units));
+              });
+            });
           }).fail(function( jqxhr, textStatus, error ) {
               $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list +'.json missing or invalid, error: ' + textStatus);
+              console.log("Fail!", error);
           });
         });
     </script>

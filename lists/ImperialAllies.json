@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Titan Legion Forces",
+    "specialRules": [
+      {
+        "title": "Imperial Void Shields",
+        "description": [
+          "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan’s datasheet.",
+          "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
+          "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast markers or repair 1 shield and remove 1 Blast marker)."
+        ]
+      }
+    ],
+    "unit": [
+      {
+        "name": "Warhound",
+        "type": "AC/WE",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Plasma Blastgun",
+            "modes": [
+              {
+                "firepower": "2× MW2+, FwA Slw",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "Vulcan Mega-Bolter",
+            "modes": [
+              {
+                "firepower": "4x AP3+/AT5+, FwA",
+                "range": 45
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Fearless",
+          "Reinforced Armour",
+          "2 Void Shields",
+          "Walker"
+        ],
+        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+      }
+    ]
+  }
+]

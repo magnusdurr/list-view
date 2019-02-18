@@ -19,15 +19,24 @@
     "The following army list allows you to field an army based on the White Scars, or one of their successor chapters, using their preferred operational methods."
   ],
   "units": [
-    "Chaptain","Chaplain","Librarian","Supreme Commander",
-    "Assault","Scout","Tactical","Terminator","White Scars Bike","White Scars Scout Bike",
-    "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","White Scars Attack Bike","White Scars Melta Bike",
-    "Hunter","Land Raider","Land Raider Crusader","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","White Scar Vindicator",
-    "Landing Craft","Storm Talon Gunship","Thunderhawk","Thunderhawk Transporter",
-    "Battle Barge","Strike Cruiser","Drop Pod",
-    "Warhound"
+    {
+      "from": "SM.json",
+      "units": [
+        "Chaptain","Chaplain","Librarian","Supreme Commander",
+        "Assault","Scout","Tactical","Terminator","White Scars Bike","White Scars Scout Bike",
+        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","White Scars Attack Bike","White Scars Melta Bike",
+        "Hunter","Land Raider","Land Raider Crusader","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","White Scar Vindicator",
+        "Landing Craft","Storm Talon Gunship","Thunderhawk","Thunderhawk Transporter",
+        "Battle Barge","Strike Cruiser","Drop Pod"
+      ],
+      "unitRules": ["They Shall Know No Fear"]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": ["Warhound"],
+      "unitRules": ["Imperial Void Shields"]
+    }
   ],
-  "unitRules": ["They Shall Know No Fear"],
   "sections": [
     {
       "name": "White Scars Core Detachments",
@@ -43,7 +52,7 @@
         },
         {
           "name": "Bikes",
-          "units": "\tEight White Scars Bikes",
+          "units": "Eight White Scars Bikes",
           "upgrades": [
             "Attack Bikes",
             "Commander"

@@ -18,14 +18,7 @@
         "name": "Chaptain",
         "type": "CH",
         "weapons": [
-          {
-            "name": "Power Weapon",
-            "modes": [
-              {
-                "firepower": "Assault Weapons, EA(+1), MW"
-              }
-            ]
-          }
+          "Power Weapon"
         ],
         "specialRules": [
           "Commander",
@@ -37,14 +30,7 @@
         "name": "Chaplain",
         "type": "CH",
         "weapons": [
-          {
-            "name": "Power Weapon",
-            "modes": [
-              {
-                "firepower": "Assault Weapons, EA(+1), MW"
-              }
-            ]
-          }
+          "Power Weapon"
         ],
         "specialRules": [
           "Inspiring",
@@ -82,14 +68,7 @@
         "name": "Supreme Commander",
         "type": "CH",
         "weapons": [
-          {
-            "name": "Power Weapon",
-            "modes": [
-              {
-                "firepower": "Assault Weapons, EA(+1), MW"
-              }
-            ]
-          }
+          "Power Weapon"
         ],
         "specialRules": [
           "Invulnerable Save",
@@ -104,14 +83,7 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Bolt Pistols",
-            "modes": [
-              {
-                "firepower": "Small Arms"
-              }
-            ]
-          }
+          "Bolt Pistols"
         ],
         "specialRules": [
           "Jump Packs"
@@ -125,14 +97,7 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Twin Bolters",
-            "modes": [
-              {
-                "firepower": "Small Arms"
-              }
-            ]
-          }
+          "Twin Bolters"
         ],
         "specialRules": [
           "Mounted"
@@ -146,15 +111,7 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP5+",
-                "range": 30
-              }
-            ]
-          }
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Infiltrator",
@@ -169,23 +126,8 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Missile Launcher",
-            "modes": [
-              {
-                "firepower": "AP5+/AT6+",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "Bolters",
-            "modes": [
-              {
-                "firepower": "Small Arms, Sniper"
-              }
-            ]
-          }
+          "Missile Launcher",
+          "Sternguard Bolters"
         ],
         "specialRules": [
           "Infiltrator",
@@ -200,15 +142,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Missile Launcher",
-            "modes": [
-              {
-                "firepower": "AP5+/AT6+",
-                "range": 45
-              }
-            ]
-          }
+          "Missile Launcher"
         ]
       },
       {
@@ -219,23 +153,8 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-          {
-            "name": "2× Assault Cannon",
-            "modes": [
-              {
-                "firepower": "AP5+/AT5+",
-                "range": 30
-              }
-            ]
-          },
-          {
-            "name": "Power Weapons",
-            "modes": [
-              {
-                "firepower": "Assault Weapons EA(+1) MW"
-              }
-            ]
-          }
+          "2|Assault Cannon",
+          "Power Weapons"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -251,22 +170,8 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Bolt Pistols",
-            "modes": [
-              {
-                "firepower": "Small Arms"
-              }
-            ]
-          },
-          {
-            "name": "Power Weapons",
-            "modes": [
-              {
-                "firepower": "Assault Weapons, EA(+1) MW"
-              }
-            ]
-          }
+          "Bolt Pistols",
+          "Power Weapons"
         ],
         "specialRules": [
           "Jump Packs"
@@ -280,22 +185,8 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Bolt Pistols",
-            "modes": [
-              {
-                "firepower": "Small Arms"
-              }
-            ]
-          },
-          {
-            "name": "Power Weapons",
-            "modes": [
-              {
-                "firepower": "Assault Weapons, EA(+1) MW"
-              }
-            ]
-          }
+          "Bolt Pistols",
+          "Power Weapons"
         ],
         "specialRules": [
           "Infiltrator"
@@ -309,14 +200,7 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Twin Bolters",
-            "modes": [
-              {
-                "firepower": "Small Arms"
-              }
-            ]
-          }
+          "Twin Bolters"
         ],
         "specialRules": [
           "Mounted",
@@ -331,14 +215,7 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Twin Bolters",
-            "modes": [
-              {
-                "firepower": "Small Arms"
-              }
-            ]
-          }
+          "Twin Bolters"
         ],
         "specialRules": [
           "Mounted",
@@ -354,15 +231,7 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP5+",
-                "range": 30
-              }
-            ]
-          }
+          "Heavy Bolter"
         ]
       },
       {
@@ -373,19 +242,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Multi-melta",
-            "modes": [
-              {
-                "firepower": "MW5+",
-                "range": 15
-              },
-              {
-                "firepower": "Small Arms, MW",
-                "join": "and"
-              }
-            ]
-          }
+          "Multi-melta"
         ],
         "specialRules": [
           "Scout",
@@ -400,24 +257,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Assault Cannon",
-            "modes": [
-              {
-                "firepower": "AP5+/AT5+",
-                "range": 30
-              }
-            ]
-          },
-          {
-            "name": "Tempest Missile Launcher",
-            "modes": [
-              {
-                "firepower": "AP4+/AT5+/AA5+",
-                "range": 45
-              }
-            ]
-          }
+          "Assault Cannon",
+          "Tempest Missile Launcher"
         ],
         "specialRules": [
           "Skimmer"
@@ -431,15 +272,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP5+",
-                "range": 30
-              }
-            ]
-          }
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Skimmer",
@@ -455,24 +288,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Assault Cannon",
-            "modes": [
-              {
-                "firepower": "AP5+/AT5+",
-                "range": 30
-              }
-            ]
-          },
-          {
-            "name": "Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP5+",
-                "range": 30
-              }
-            ]
-          }
+          "Assault Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Scout",
@@ -487,24 +304,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Twin Typhoon Missile",
-            "modes": [
-              {
-                "firepower": "AP3+/AT5+",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP5+",
-                "range": 30
-              }
-            ]
-          }
+          "Twin Typhoon Missile",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Scout",
@@ -519,15 +320,7 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP5+",
-                "range": 30
-              }
-            ]
-          }
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Walker"
@@ -541,19 +334,7 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Multi-melta",
-            "modes": [
-              {
-                "firepower": "MW5+",
-                "range": 15
-              },
-              {
-                "firepower": "Small Arms, MW",
-                "join": "and"
-              }
-            ]
-          }
+          "Multi-melta"
         ],
         "specialRules": [
           "Walker"
@@ -567,15 +348,7 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          {
-            "name": "Hunter-Killer",
-            "modes": [
-              {
-                "firepower": "AP4+/AA4+",
-                "range": 60
-              }
-            ]
-          }
+          "Hunter-Killer"
         ]
       },
       {
@@ -586,24 +359,8 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          {
-            "name": "2× Twin Lascannon",
-            "modes": [
-              {
-                "firepower": "AT4+",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+",
-                "range": 30
-              }
-            ]
-          }
+          "2|Twin Lascannon",
+          "Twin Heavy Bolter"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -620,23 +377,8 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Twin Assault Cannon",
-            "modes": [
-              {
-                "firepower": "AP4+/AT4+",
-                "range": 30
-              }
-            ]
-          },
-          {
-            "name": "2× Hurricane Bolters",
-            "modes": [
-              {
-                "firepower": "Small Arms, EA(+1)"
-              }
-            ]
-          }
+          "Twin Assault Cannon",
+          "2|Hurricane Bolter"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -653,24 +395,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Twin Lascannon",
-            "modes": [
-              {
-                "firepower": "AT4+",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "2x Lascannon",
-            "modes": [
-              {
-                "firepower": "AT5+",
-                "range": 45
-              }
-            ]
-          }
+          "Twin Lascannon",
+          "2|Lascannon"
         ]
       },
       {
@@ -681,24 +407,8 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          {
-            "name": "Autocannon",
-            "modes": [
-              {
-                "firepower": "AP5+/AT6+",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "2x Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP5+",
-                "range": 30
-              }
-            ]
-          }
+          "Autocannon",
+          "2|Heavy Bolter"
         ]
       },
       {
@@ -741,14 +451,7 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          {
-            "name": "Storm Bolter",
-            "modes": [
-              {
-                "firepower": "Small Arms"
-              }
-            ]
-          }
+          "Storm Bolter"
         ],
         "specialRules": [
           "Transport"
@@ -763,15 +466,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          {
-            "name": "Whirlwind",
-            "modes": [
-              {
-                "firepower": "1BP, Ind",
-                "range": 45
-              }
-            ]
-          }
+          "Whirlwind"
         ]
       },
       {
@@ -782,15 +477,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Demolisher",
-            "modes": [
-              {
-                "firepower": "AP3+/AT4+ IC",
-                "range": 30
-              }
-            ]
-          }
+          "Demolisher"
         ]
       },
       {
@@ -801,24 +488,8 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          {
-            "name": "2× Twin Lascannon",
-            "modes": [
-              {
-                "firepower": "AT4+",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "3× Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+",
-                "range": 15
-              }
-            ]
-          }
+          "2|Twin Lascannon",
+          "3|Twin Anti-Air Bolter"
         ],
         "specialRules": [
           "Damage Capacity 4",
@@ -845,7 +516,8 @@
                 "range": 30
               }
             ]
-          }, {
+          },
+          {
             "name": "2× Twin Lascannon",
             "modes": [
               {
@@ -1040,57 +712,6 @@
           "Transport"
         ],
         "notes": "May transport one formation of only the following units: Devastator, Dreadnought, Sternguard Veteran, Tactical, Vanguard Veteran. After the drop pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast marker for coming under fire, and an extra Blast marker for each casualty. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
-      }
-    ]
-  },
-  {
-    "name": "Titan Legion Forces",
-    "specialRules": [
-      {
-        "title": "Imperial Void Shields",
-        "description": [
-          "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan’s datasheet.",
-          "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
-          "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast markers or repair 1 shield and remove 1 Blast marker)."
-        ]
-      }
-    ],
-    "unit": [
-      {
-        "name": "Warhound",
-        "type": "AC/WE",
-        "speed": 30,
-        "armour": 5,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          {
-            "name": "Plasma Blastgun",
-            "modes": [
-              {
-                "firepower": "2× MW2+, FwA Slw",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "Vulcan Mega-Bolter",
-            "modes": [
-              {
-                "firepower": "4x AP3+/AT5+, FwA",
-                "range": 45
-              }
-            ]
-          }
-        ],
-        "specialRules": [
-          "Damage Capacity 3",
-          "Fearless",
-          "Reinforced Armour",
-          "2 Void Shields",
-          "Walker"
-        ],
-        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
       }
     ]
   }
