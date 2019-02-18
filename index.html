@@ -34,7 +34,7 @@
       {{> special-rules}}
 
       <h2>{{army}} Army List</h2>
-      <p>{{strategy}} {{initiative}}</p>
+      <p>{{strategy}} {{initiative}} {{{armyRules}}}</p>
 
       {{#each sections}}
       {{> card-with-margin}}
@@ -53,10 +53,16 @@
               {{#each formations}}
               <tr>
                 <td>{{name}}</td>
-                <td>{{units}}</td>
+                <td>
+                  {{units}}
+                  {{#if notes}}
+                    <br><small>{{notes}}</small>
+                  {{/if}}
+                </td>
                 <td>{{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</td>
                 <td>{{points}} points</td>
               </tr>
+
               {{/each}}
             </tbody>
           </table>
@@ -94,10 +100,16 @@
               {{else}}
               <tr class="unit-row-{{oddEven @index}}">
                 <td rowspan="{{@options}}">{{name}}</td>
+                {{#if description}}
                 <td rowspan="{{@options}}">{{description}}</td>
+                {{/if}}
                 {{#each options}}
                 {{#unless @first}}<tr class="unit-row-{{oddEven @../index}}">{{/unless}}
+                  {{#if ../description}}
                   <td>{{description}}</td>
+                  {{else}}
+                  <td colspan="2">{{description}}</td>
+                  {{/if}}
                   <td>
                     {{#if (isArray points)}}
                     {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
@@ -267,6 +279,9 @@
                 units.forEach(function(section) {
                   section.unit = section.unit.filter(function(unit) {
                     return data.units.includes(unit.name);
+                  })
+                  section.specialRules = section.specialRules.filter(function(rule) {
+                    return data.unitRules.includes(rule.title);
                   })
                 })
                 $("#units").html(unitsTemplate(units));

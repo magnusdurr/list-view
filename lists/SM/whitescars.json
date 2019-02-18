@@ -16,7 +16,7 @@
     }
   ],
   "usage": [
-    "The following army list allows you to field an army based on one of the Space Marine Chapters that closely follows the teachings of the Codex Astartes. It can also be used as a stand in army list for other Space Marine Chapters that do not follow the Codex Astartes, such as the Blood Angels, Dark Angels and Space Wolves."
+    "The following army list allows you to field an army based on the White Scars, or one of their successor chapters, using their preferred operational methods."
   ],
   "units": [
     "Chaptain","Chaplain","Librarian","Supreme Commander",
@@ -27,6 +27,7 @@
     "Battle Barge","Strike Cruiser","Drop Pod",
     "Warhound"
   ],
+  "unitRules": ["They Shall Know No Fear"],
   "sections": [
     {
       "name": "White Scars Core Detachments",
@@ -238,7 +239,7 @@
       {
         "name": "Vindicators",
         "description": "Add up to two White Scars Vindicators",
-        "points": "50 points each, 75 per pair"
+        "points": ["50 points each", "75 points per pair"]
       }
     ]
   }

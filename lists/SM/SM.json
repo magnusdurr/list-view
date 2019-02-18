@@ -11,6 +11,18 @@
           "* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.",
           "* When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1"
         ]
+      },
+      {
+        "title": "Cult of the Machine",
+        "description": [
+          "If ANY friendly Titan or an Venerable Dreadnought is destroyed, all formations within 30cm receive 1 blast marker marking the deep loss it represents to the chapter."
+        ]
+      },
+      {
+        "title": "Bionics",
+        "description": [
+          "The extensive bionic modifications undergone by the Battle-Brothers of the Iron Hands increases their resistance to physical trauma. Units with the Bionics special ability have their armour saves increased to 3+."
+        ]
       }
     ],
     "unit": [
@@ -51,6 +63,63 @@
           "Invulnerable Save",
           "Leader"
         ]
+      },
+      {
+        "name": "Iron Captain",
+        "type": "CH",
+        "weapons": [
+          {
+            "name": "Power Weapon",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Bionics",
+          "Commander",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Iron Hands Veteran Sergeant",
+        "type": "CH",
+        "weapons": [
+          {
+            "name": "Power Weapon",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Bionics",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Iron Hands Techmarine",
+        "type": "CH",
+        "weapons": [
+          {
+            "name": "Power Weapon",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Bionics",
+          "Leader"
+        ],
+        "notes": "All Iron Hands Devastator and Tactical units in the same formation replace their Missile Launchers with Graviton Guns"
       },
       {
         "name": "Librarian",
@@ -137,6 +206,83 @@
         "specialRules": [
           "Mounted"
         ]
+      },
+      {
+        "name": "Devastator",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          {
+            "name": "2x Missile Launcher",
+            "modes": [
+              {
+                "firepower": "AP5+/AT6+",
+                "range": 45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Iron Hands Devastator",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          {
+            "name": "0-2 Missile Launcher",
+            "modes": [
+              {
+                "firepower": "AP5+/AT6+",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "0-2 Graviton Gun",
+            "modes": [
+              {
+                "firepower": "AP5+/AT5+, D",
+                "range": 30
+              }
+            ]
+          }
+        ],
+        "notes": "Armed with Missile Launchers. If the formation is joined by an Iron Hands Techmarine the Missile Launchers are replaced with Graviton Guns"
+      },
+      {
+        "name": "Iron Hands Tactical",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "0-1 Missile Launcher",
+            "modes": [
+              {
+                "firepower": "AP5+/AT6+",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "0-1 Graviton Gun",
+            "modes": [
+              {
+                "firepower": "AP5+/AT5+, D",
+                "range": 30
+              }
+            ]
+          }
+        ],
+        "notes": "Armed with Missile Launchers. If the formation is joined by an Iron Hands Techmarine the Missile Launchers are replaced with Graviton Guns"
       },
       {
         "name": "Scout",
@@ -561,6 +707,178 @@
         ]
       },
       {
+        "name": "Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Assault Cannon",
+            "modes": [
+              {
+                "firepower": "AP5+/AT5+",
+                "range": 30
+              }
+            ]
+          },
+          {
+            "name": "Power Fist",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Dreadnought, Hellfire",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Missile Launcher",
+            "modes": [
+              {
+                "firepower": "AP5+/AT6+",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "Twin Lascannon",
+            "modes": [
+              {
+                "firepower": "AT4+",
+                "range": 45
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Walker"
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported"
+      },
+      {
+        "name": "Dreadnought, Ironclad",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Hurricane Bolter",
+            "modes": [
+              {
+                "firepower": "Small Arms, EA(+1)"
+              }
+            ]
+          },
+          {
+            "name": "Siege Drill",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Walker"
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported"
+      },
+      {
+        "name": "Dreadnought, Siege",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Flamestorm Cannon",
+            "modes": [
+              {
+                "firepower": "AP3+, IC",
+                "range": 15
+              }
+            ]
+          },
+          {
+            "name": "Heavy Flamer",
+            "modes": [
+              {
+                "firepower": "AP4+, IC",
+                "range": 15
+              },
+              {
+                "firepower": "Small Arms, IC",
+                "join": "and"
+              }
+            ]
+          },
+          {
+            "name": "Siege Drill",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Walker"
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported"
+      },
+      {
+        "name": "Dreadnought, Venerable",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Assault Cannon",
+            "modes": [
+              {
+                "firepower": "AP5+/AT5+",
+                "range": 30
+              }
+            ]
+          },
+          {
+            "name": "Power Fist",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Fearless",
+          "Inspiring",
+          "Invulnerable Save",
+          "Reinforced Armour",
+          "Walker"
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported"
+      },
+      {
         "name": "Hunter",
         "type": "AV",
         "speed": 30,
@@ -614,6 +932,30 @@
         "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
+        "name": "Land Raider Anvilarum",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Storm Bolters",
+            "modes": [
+              {
+                "firepower": "Small Arms"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ],
+        "notes": "May transport one Dreadnough or two units of infantry without Jump Packs or Mounted; Terminator units and Dreadnoughts count as two units each. Counts as a Land Raider for the purposes of being transported"
+      },
+      {
         "name": "Land Raider Crusader",
         "type": "AV",
         "speed": 25,
@@ -645,6 +987,74 @@
           "Transport"
         ],
         "notes": "May transport three infantry units without Jump Packs or Mounted; Terminator units count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+      },
+      {
+        "name": "Land Raider Helios",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "2× Twin Lascannon",
+            "modes": [
+              {
+                "firepower": "AT4+",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "0-1 Whirlwind Launcher",
+            "modes": [
+              {
+                "firepower": "1BP, Ind",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "0-1 Hyperios Launcher",
+            "modes": [
+              {
+                "firepower": "AT6+/AA5+",
+                "range": 45
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ],
+        "notes": "Armed with either a Whirlwind or Hyperios Launcher. May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
+      },
+      {
+        "name": "Land Raider Prometheus",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "4× Twin Heavy Bolter",
+            "modes": [
+              {
+                "firepower": "AP4+",
+                "range": 30
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ],
+        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may ignore the 5cm restriction when using commander. Counts as a Land Raider for the purposes of being transported."
       },
       {
         "name": "Predator Annihilator",
@@ -757,6 +1167,28 @@
         "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
       },
       {
+        "name": "Vindicator",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          {
+            "name": "Demolisher",
+            "modes": [
+              {
+                "firepower": "AP3+/AT4+, IC",
+                "range": 30
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      },
+      {
         "name": "Whirlwind",
         "type": "AV",
         "speed": 30,
@@ -787,7 +1219,7 @@
             "name": "Demolisher",
             "modes": [
               {
-                "firepower": "AP3+/AT4+ IC",
+                "firepower": "AP3+/AT4+, IC",
                 "range": 30
               }
             ]
