@@ -16,16 +16,26 @@
     }
   ],
   "usage": [
-    "The following army list allows you to field an army based on one of the Space Marine Chapters that closely follows the teachings of the Codex Astartes. It can also be used as a stand in army list for other Space Marine Chapters that do not follow the Codex Astartes, such as the Blood Angels, Dark Angels and Space Wolves."
+    "The following army list allows you to field an army based on the White Scars, or one of their successor chapters, using their preferred operational methods."
   ],
   "units": [
-    "Chaptain","Chaplain","Librarian","Supreme Commander",
-    "Assault","Scout","Tactical","Terminator","White Scars Bike","White Scars Scout Bike",
-    "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","White Scars Attack Bike","White Scars Melta Bike",
-    "Hunter","Land Raider","Land Raider Crusader","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","White Scar Vindicator",
-    "Landing Craft","Storm Talon Gunship","Thunderhawk","Thunderhawk Transporter",
-    "Battle Barge","Strike Cruiser","Drop Pod",
-    "Warhound"
+    {
+      "from": "SM.json",
+      "units": [
+        "Chaptain","Chaplain","Librarian","Supreme Commander",
+        "Assault","Scout","Tactical","Terminator","White Scars Bike","White Scars Scout Bike",
+        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","White Scars Attack Bike","White Scars Melta Bike",
+        "Hunter","Land Raider","Land Raider Crusader","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","White Scar Vindicator",
+        "Landing Craft","Storm Talon Gunship","Thunderhawk","Thunderhawk Transporter",
+        "Battle Barge","Strike Cruiser","Drop Pod"
+      ],
+      "unitRules": ["They Shall Know No Fear"]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": ["Warhound"],
+      "unitRules": ["Imperial Void Shields"]
+    }
   ],
   "sections": [
     {
@@ -42,7 +52,7 @@
         },
         {
           "name": "Bikes",
-          "units": "\tEight White Scars Bikes",
+          "units": "Eight White Scars Bikes",
           "upgrades": [
             "Attack Bikes",
             "Commander"
@@ -238,7 +248,7 @@
       {
         "name": "Vindicators",
         "description": "Add up to two White Scars Vindicators",
-        "points": "50 points each, 75 per pair"
+        "points": ["50 points each", "75 points per pair"]
       }
     ]
   }

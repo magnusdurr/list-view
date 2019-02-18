@@ -21,13 +21,51 @@
     "The following army list allows you to field an army based on the Ravenguard Space Marine army and successor chapters."
   ],
   "units": [
-    "Chaptain","Chaplain","Librarian","Supreme Commander",
-    "Assault","Bike","Scout","Sternguard Veterans","Tactical","Terminator","Vanguard Assault Veterans","Vanguard Veterans",
-    "Attack Bike", "Land Speeder", "Land Speeder Storm", "Land Speeder Tempest","Land Speeder Tornado","Land Speeder Typhoon",
-    "Hunter","Razorback","Rhino",
-    "Storm Eagle","Storm Talon Gunship","Thunderhawk",
-    "Battle Barge","Strike Cruiser","Drop Pod",
-    "Warhound"],
+    {
+      "from": "SM.json",
+      "units": [
+        "Chaptain",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Assault",
+        "Bike",
+        "Scout",
+        "Sternguard Veterans",
+        "Tactical",
+        "Terminator",
+        "Vanguard Assault Veterans",
+        "Vanguard Veterans",
+        "Attack Bike",
+        "Land Speeder",
+        "Land Speeder Storm",
+        "Land Speeder Tempest",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Hunter",
+        "Razorback",
+        "Rhino",
+        "Storm Eagle",
+        "Storm Talon Gunship",
+        "Thunderhawk",
+        "Battle Barge",
+        "Strike Cruiser",
+        "Drop Pod"
+      ],
+      "unitRules": [
+        "They Shall Know No Fear"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Warhound"
+      ],
+      "unitRules": [
+        "Imperial Void Shields"
+      ]
+    }
+  ],
   "sections": [
     {
       "name": "Ravenguard Core Detachments",
@@ -130,7 +168,8 @@
           "name": "Bike",
           "units": "Any five of the following units: Attack Bike, Bike",
           "upgrades": [
-            "Commander", "Land Speeders"
+            "Commander",
+            "Land Speeders"
           ],
           "points": 200
         },
@@ -138,7 +177,9 @@
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
           "upgrades": [
-            "Commander", "Tempest", "Typhoon"
+            "Commander",
+            "Tempest",
+            "Typhoon"
           ],
           "points": 200
         },
@@ -251,7 +292,10 @@
       {
         "name": "Storms",
         "description": "Add any number of Land Speeder Storms, up to the number required to transport the formation",
-        "points": ["25 points each", "75 points for four"]
+        "points": [
+          "25 points each",
+          "75 points for four"
+        ]
       },
       {
         "name": "Tempest",

@@ -1,0 +1,242 @@
+{
+  "weapons": [
+    {
+      "name": "Assault Cannon",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Autocannon",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Bolt Pistols",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Demolisher",
+      "modes": [
+        {
+          "firepower": "AP3+/AT4+",
+          "range": 30,
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Bolter",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Hunter-Killer",
+      "modes": [
+        {
+          "firepower": "AP4+/AA4+",
+          "range": 60
+        }
+      ]
+    },
+    {
+      "name": "Hurricane Bolter",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lascannon",
+      "modes": [
+        {
+          "firepower": "AT5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Missile Launcher",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Multi-melta",
+      "modes": [
+        {
+          "firepower": "MW5+",
+          "range": 15
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Weapons",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Weapon",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sternguard Bolters",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": ["S"]
+        }
+      ]
+    },
+    {
+      "name": "Storm Bolter",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Tempest Missile Launcher",
+      "modes": [
+        {
+          "firepower": "AP4+/AT5+/AA5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Twin Anti-Air Bolter",
+      "modes": [
+        {
+          "firepower": "AP4+/AA5+",
+          "range": 15
+        }
+      ]
+    },
+    {
+      "name": "Twin Assault Cannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Twin Bolters",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Twin Heavy Bolter",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Twin Lascannon",
+      "modes": [
+        {
+          "firepower": "AT4+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Twin Typhoon Missile",
+      "modes": [
+        {
+          "firepower": "AP3+/AT5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Whirlwind",
+      "modes": [
+        {
+          "firepower": "1BP",
+          "range": 45,
+          "specialRules": [
+            "Ind"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "EA(+1)",
+      "description": "Extra Attack +1"
+    },
+    {
+      "name": "IC",
+      "description": "Ignore Cover"
+    },
+    {
+      "name": "Ind",
+      "description": "Indirect Fire"
+    },
+    {
+      "name": "MW",
+      "description": "Macro Weapon"
+    },
+    {
+      "name": "S",
+      "description": "Sniper"
+    }
+  ]
+}
