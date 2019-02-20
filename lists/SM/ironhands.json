@@ -2,7 +2,7 @@
   "fraction": "Space Marines",
   "army": "Iron Hands",
   "version": "0.9",
-  "release": "2019-01-20",
+  "release": "2019-02-20",
   "strategy": "Iron Hands Space Marine armies have a strategy rating of 5.",
   "initiative": "All formations have an initiative rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> and <i>Kult of the Machine</i> special rules applies to all Iron Hands detachments and aircraft formations.",
@@ -22,15 +22,60 @@
     "The following army list allows you to field an army based on the Iron Hands, or one of their successor chapters, using their preferred operational methods."
   ],
   "units": [
-    "Iron Captain", "Iron Hands Veteran Sergeant", "Iron Hands Techmarine",
-    "Iron Hands Devastator", "Scout", "Iron Hands Tactical",
-    "Land Speeder", "Land Speeder Tornado", "Land Speeder Typhoon",
-    "Dreadnought", "Dreadnought, Hellfire", "Dreadnought, Ironclad", "Dreadnought, Siege", "Dreadnought, Venerable",
-    "Land Raider", "Land Raider Anvilarum", "Land Raider Helios", "Land Raider Prometheus", "Predator Annihilator", "Predator Destructor", "Razorback", "Rhino", "Vindicator", "Whirlwind",
-    "Storm Talon Gunship", "Thunderhawk Transporter",
-    "Battle Barge","Strike Cruiser","Drop Pod"
+    {
+      "from": "SM.json",
+      "units": [
+        "Iron Captain",
+        "Iron Hands Veteran Sergeant",
+        "Iron Hands Techmarine",
+        "Iron Hands Devastator",
+        "Iron Hands Tactical",
+        "Scout",
+        "Land Speeder",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Dreadnought",
+        "Dreadnought, Hellfire",
+        "Dreadnought, Ironclad",
+        "Dreadnought, Siege",
+        "Dreadnought, Venerable",
+        "Land Raider",
+        "Land Raider Anvilarum",
+        "Land Raider Helios",
+        "Land Raider Prometheus",
+        "Predator Annihilator",
+        "Predator Destructor",
+        "Razorback",
+        "Rhino",
+        "Vindicator",
+        "Whirlwind",
+        "Storm Talon Gunship",
+        "Thunderhawk Transporter",
+        "Battle Barge",
+        "Strike Cruiser",
+        "Drop Pod"
+      ],
+      "unitRules": [
+        "They Shall Know No Fear",
+        "Cult of the Machine",
+        "Bionics"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Reaver",
+        "Reaver, Close Assault Configuration",
+        "Reaver, Support Configuration",
+        "Warhound",
+        "Warhound, Support Configuration",
+        "Warhound, Tank Hunter Configuration"
+      ],
+      "unitRules": [
+        "Imperial Void Shields"
+      ]
+    }
   ],
-  "unitRules": ["They Shall Know No Fear", "Cult of the Machine", "Bionics"],
   "sections": [
     {
       "name": "Iron Hands Core Detachments",
@@ -159,6 +204,22 @@
             "Thunderhawk Transporter"
           ],
           "points": 175
+        },
+        {
+          "name": "Reaver",
+          "units": "One Reaver Class Titan, Standard or Support Configuration",
+          "upgrades": [
+            "Close Assault Configuration +25 points"
+          ],
+          "points": 650
+        },
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhound Class Titan, Standard or Support Configuration",
+          "upgrades": [
+            "Tank Hunter Configuration +50 points"
+          ],
+          "points": 500
         }
       ]
     }
@@ -192,7 +253,7 @@
           },
           {
             "description": "Replace the Veteran Sergeant with a Venerable Dreadnought with the Supreme Commander special ability (0-1 per army)",
-            "points": "125 points"
+            "points": "150 points"
           }
         ]
       },
@@ -234,7 +295,10 @@
       {
         "name": "Hunter",
         "description": "Add one or two Hunters",
-        "points": ["75 points for one", "125 points for two"]
+        "points": [
+          "75 points for one",
+          "125 points for two"
+        ]
       },
       {
         "name": "Land Raiders",
@@ -242,7 +306,10 @@
         "options": [
           {
             "description": "Land Raider",
-            "points": ["75 points each", "125 points per pair"]
+            "points": [
+              "75 points each",
+              "125 points per pair"
+            ]
           },
           {
             "description": "Land Raider Anvilarum",
@@ -261,7 +328,10 @@
       {
         "name": "Razorbacks",
         "description": "Add any number of Razorbacks, up to the number required to transport the formation",
-        "points": ["25 points each", "75 points for four"]
+        "points": [
+          "25 points each",
+          "75 points for four"
+        ]
       },
       {
         "name": "Thunderhawk Transporter",
@@ -286,7 +356,10 @@
       {
         "name": "Vindicators",
         "description": "Add up to two Vindicators",
-        "points": ["50 points for one", "75 points for two"]
+        "points": [
+          "50 points for one",
+          "75 points for two"
+        ]
       }
     ]
   }

@@ -10,6 +10,16 @@
       ]
     },
     {
+      "name": "Apocalypse Missile Launcher",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 60,
+          "specialRules": ["D"]
+        }
+      ]
+    },
+    {
       "name": "Autocannon",
       "modes": [
         {
@@ -48,11 +58,54 @@
       ]
     },
     {
+      "name": "Flamestorm Cannon",
+      "modes": [
+        {
+          "firepower": "AP3+",
+          "range": 15,
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graviton Gun",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+",
+          "range": 30,
+          "specialRules": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Bolter",
       "modes": [
         {
           "firepower": "AP5+",
           "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Heavy Flamer",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 15,
+          "specialRules": [
+            "IC"
+          ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "IC"
+          ]
         }
       ]
     },
@@ -77,11 +130,45 @@
       ]
     },
     {
+      "name": "Hyperios Launcher",
+      "modes": [
+        {
+          "firepower": "AT6+/AA5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Inferno Gun",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 30,
+          "specialRules": ["IC"]
+        }
+      ]
+    },
+    {
       "name": "Lascannon",
       "modes": [
         {
           "firepower": "AT5+",
           "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Melta Cannon",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 30,
+          "specialRules": ["TK(D3)"]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": ["EA(+1)","TK(D6)"]
         }
       ]
     },
@@ -116,7 +203,21 @@
         {
           "firepower": "MW2+",
           "range": 45,
-          "specialRules": ["Slw"]
+          "specialRules": [
+            "Slw"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Fist",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ]
     },
@@ -145,11 +246,46 @@
       ]
     },
     {
+      "name": "Scout Turbo-Laser Destructor",
+      "modes": [
+        {
+          "firepower": "4x AP5+/AT3+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Servo Arm",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Siege Drill",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Sternguard Bolters",
       "modes": [
         {
           "firepower": "Small Arms",
-          "specialRules": ["S"]
+          "specialRules": [
+            "S"
+          ]
         }
       ]
     },
@@ -162,11 +298,29 @@
       ]
     },
     {
+      "name": "Titan Power Fist",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": ["EA(+1)", "TK(D3+3)"]
+        }
+      ]
+    },
+    {
       "name": "Tempest Missile Launcher",
       "modes": [
         {
           "firepower": "AP4+/AT5+/AA5+",
           "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Turbo-Laser Destructor",
+      "modes": [
+        {
+          "firepower": "4x AP5+/AT3+",
+          "range": 60
         }
       ]
     },
@@ -268,7 +422,7 @@
       ]
     },
     {
-      "name": "Whirlwind",
+      "name": "Whirlwind Launcher",
       "modes": [
         {
           "firepower": "1BP",
@@ -281,6 +435,10 @@
     }
   ],
   "rules": [
+    {
+      "name": "D",
+      "description": "Disrupt"
+    },
     {
       "name": "EA(+1)",
       "description": "Extra Attack +1"
@@ -320,6 +478,18 @@
     {
       "name": "Slw",
       "description": "Slow Firing"
+    },
+    {
+      "name": "TK(D3+3)",
+      "description": "Titan Killer"
+    },
+    {
+      "name": "TK(D3)",
+      "description": "Titan Killer"
+    },
+    {
+      "name": "TK(D6)",
+      "description": "Titan Killer"
     }
   ]
 }
