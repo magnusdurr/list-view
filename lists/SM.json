@@ -153,7 +153,7 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-          "2|Assault Cannon",
+          "Assault Cannon|2",
           "Power Weapons"
         ],
         "specialRules": [
@@ -359,7 +359,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "2|Twin Lascannon",
+          "Twin Lascannon|2",
           "Twin Heavy Bolter"
         ],
         "specialRules": [
@@ -378,7 +378,7 @@
         "ff": 5,
         "weapons": [
           "Twin Assault Cannon",
-          "2|Hurricane Bolter"
+          "Hurricane Bolter|2"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -396,7 +396,7 @@
         "ff": 5,
         "weapons": [
           "Twin Lascannon",
-          "2|Lascannon"
+          "Lascannon|2"
         ]
       },
       {
@@ -408,7 +408,7 @@
         "ff": 3,
         "weapons": [
           "Autocannon",
-          "2|Heavy Bolter"
+          "Heavy Bolter|2"
         ]
       },
       {
@@ -488,8 +488,8 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "2|Twin Lascannon",
-          "3|Twin Anti-Air Bolter"
+          "Twin Lascannon|2",
+          "Twin Anti-Air Bolter|3"
         ],
         "specialRules": [
           "Damage Capacity 4",
@@ -507,34 +507,7 @@
         "armour": 5,
         "cc": 5,
         "ff": 4,
-        "weapons": [
-          {
-            "name": "Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+, FxF",
-                "range": 30
-              }
-            ]
-          },
-          {
-            "name": "2× Twin Lascannon",
-            "modes": [
-              {
-                "firepower": "AT4+, FxF",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "Vengeance Launcher",
-            "modes": [
-              {
-                "firepower": "Small Arms, EA(+2)"
-              }
-            ]
-          }
-        ],
+        "weapons": ["Twin Anti-Air Bolter||FxF", "Twin Air Lascannon|2|FxF", "Vengeance Launcher"],
         "specialRules": [
           "Damage Capacity 2",
           "Planetfall",
@@ -548,26 +521,7 @@
         "type": "AC",
         "speed": "Fighter",
         "armour": 5,
-        "weapons": [
-          {
-            "name": "Twin Assault Cannon",
-            "modes": [
-              {
-                "firepower": "AP4+/AT4+/AA5+, FwA",
-                "range": 30
-              }
-            ]
-          },
-          {
-            "name": "Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+, FxF",
-                "range": 15
-              }
-            ]
-          }
-        ]
+        "weapons": ["Twin Air Assault Cannon||FwA", "Twin Anti-Air Bolter||FxF"]
       },
       {
         "name": "Thunderhawk",
@@ -577,42 +531,10 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          {
-            "name": "Battle Cannon",
-            "modes": [
-              {
-                "firepower": "AP4+/AT4+, FxF",
-                "range": 75
-              }
-            ]
-          },
-          {
-            "name": "2× Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+, FxF",
-                "range": 30
-              }
-            ]
-          },
-          {
-            "name": "Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+, Left",
-                "range": 15
-              }
-            ]
-          },
-          {
-            "name": "Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+, Right",
-                "range": 15
-              }
-            ]
-          }
+          "Battle Cannon||FxF",
+          "Twin Heavy Anti-Air Bolter|2|FxF",
+          "Twin Anti-Air Bolter||Left",
+          "Twin Anti-Air Bolter||Right"
         ],
         "specialRules": [
           "Damage Capacity 2",
@@ -629,26 +551,7 @@
         "armour": 4,
         "cc": 6,
         "ff": 5,
-        "weapons": [
-          {
-            "name": "2x Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+, Left",
-                "range": 15
-              }
-            ]
-          },
-          {
-            "name": "2x Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+/AA5+, Right",
-                "range": 15
-              }
-            ]
-          }
-        ],
+        "weapons": ["Twin Anti-Air Bolter|2|Left","Twin Anti-Air Bolter|2|Right"],
         "specialRules": [
           "Damage Capacity 2",
           "Planetfall",

@@ -19,6 +19,15 @@
       ]
     },
     {
+      "name": "Battle Cannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+",
+          "range": 75
+        }
+      ]
+    },
+    {
       "name": "Bolt Pistols",
       "modes": [
         {
@@ -102,6 +111,16 @@
       ]
     },
     {
+      "name": "Plasma Blastgun",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 45,
+          "specialRules": ["Slw"]
+        }
+      ]
+    },
+    {
       "name": "Power Weapons",
       "modes": [
         {
@@ -161,10 +180,37 @@
       ]
     },
     {
+      "name": "Twin Heavy Anti-Air Bolter",
+      "modes": [
+        {
+          "firepower": "AP4+/AA5+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Twin Assault Cannon",
       "modes": [
         {
           "firepower": "AP4+/AT4+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Twin Air Assault Cannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+/AA5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Twin Air Lascannon",
+      "modes": [
+        {
+          "firepower": "AT4+/AA5+",
           "range": 30
         }
       ]
@@ -205,6 +251,23 @@
       ]
     },
     {
+      "name": "Vengeance Launcher",
+      "modes": [
+        {
+          "firepower": "Small Arms, EA(+2)"
+        }
+      ]
+    },
+    {
+      "name": "Vulcan Mega-Bolter",
+      "modes": [
+        {
+          "firepower": "4x AP3+/AT5+",
+          "range": 45
+        }
+      ]
+    },
+    {
       "name": "Whirlwind",
       "modes": [
         {
@@ -223,6 +286,14 @@
       "description": "Extra Attack +1"
     },
     {
+      "name": "FxF",
+      "description": "Fixed Forward"
+    },
+    {
+      "name": "FwA",
+      "description": "Forward Arc"
+    },
+    {
       "name": "IC",
       "description": "Ignore Cover"
     },
@@ -231,12 +302,24 @@
       "description": "Indirect Fire"
     },
     {
+      "name": "Left",
+      "description": "Left Arc"
+    },
+    {
       "name": "MW",
       "description": "Macro Weapon"
     },
     {
+      "name": "Right",
+      "description": "Right Arc"
+    },
+    {
       "name": "S",
       "description": "Sniper"
+    },
+    {
+      "name": "Slw",
+      "description": "Slow Firing"
     }
   ]
 }

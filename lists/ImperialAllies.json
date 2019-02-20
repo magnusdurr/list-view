@@ -19,26 +19,7 @@
         "armour": 5,
         "cc": 4,
         "ff": 4,
-        "weapons": [
-          {
-            "name": "Plasma Blastgun",
-            "modes": [
-              {
-                "firepower": "2× MW2+, FwA Slw",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "Vulcan Mega-Bolter",
-            "modes": [
-              {
-                "firepower": "4x AP3+/AT5+, FwA",
-                "range": 45
-              }
-            ]
-          }
-        ],
+        "weapons": ["Plasma Blastgun||FwA", "Vulcan Mega-Bolter||FwA"],
         "specialRules": [
           "Damage Capacity 3",
           "Fearless",

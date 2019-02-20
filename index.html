@@ -282,10 +282,9 @@
           var list = urlSearchParams.get("list");
 
           var weaponsMap = {};
+          var weaponRules = {}
 
           $.getJSON("lists/weapons.json", function(data){
-                var weaponRules = {}
-
                 data.rules.forEach(function(rule){
                   weaponRules[rule.name] = rule;
                 })
@@ -319,14 +318,25 @@
                       unit.weapons = unit.weapons.map(function(weapon){
                         if (typeof weapon === 'string') {
                           var values = weapon.split('|');
-                          var weaponObject;
-                          if (isNaN(Number(values[0])))
+                          var weaponObject = JSON.parse(JSON.stringify(weaponsMap[values[0]]))// Object.assign({}, weaponsMap[values[0]]);
+
+                          // More than one weapon
+                          if (values.length > 1 && values[1])
                           {
-                            weaponObject = Object.assign({}, weaponsMap[values[0]]);
+                            weaponObject.count = values[1];
                           }
-                          else {
-                            weaponObject = Object.assign({}, weaponsMap[values[1]]);
-                            weaponObject.count = values[0];
+
+                          // Extra special rules
+                          if (values.length > 2 && values[2])
+                          {
+                            weaponObject.modes.forEach(function(mode)
+                            {
+                              if (!mode.specialRules)
+                              {
+                                mode.specialRules = [];
+                              }
+                              mode.specialRules.push(weaponRules[values[2]]);
+                            });
                           }
 
                           if (weaponObject === null)
