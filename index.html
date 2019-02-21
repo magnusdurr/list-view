@@ -283,13 +283,24 @@
 
           var weaponsMap = {};
           var weaponRules = {}
+          var specialRules = {}
+
+          var rulesLoaded = $.Deferred();
+          var weaponsLoaded = $.Deferred();
+
+          $.getJSON("lists/specialRules.json", function(data){
+                data.rules.forEach(function(rule){
+                  console.log("Adding rule", rule);
+                  specialRules[rule.title] = rule;
+                });
+
+                rulesLoaded.resolve();
+            });
 
           $.getJSON("lists/weapons.json", function(data){
                 data.rules.forEach(function(rule){
                   weaponRules[rule.name] = rule;
                 })
-
-                console.log("Weapon rules: ", weaponRules);
 
                 data.weapons.forEach(function(item) {
                   item.modes.forEach(function(mode) {
@@ -302,9 +313,25 @@
                   })
                   weaponsMap[item.name] = item;
                 });
+
+                weaponsLoaded.resolve();
           });
 
-          $.getJSON("lists/" + race + "/" + list +".json", function (data) {
+          $.when(rulesLoaded, weaponsLoaded).done (function()
+          {
+            $.getJSON("lists/" + race + "/" + list +".json", function (data) {
+              data.specialRules = data.specialRules.map(function(rule){
+                if (typeof rule === 'string')
+                {
+                  console.log(rule + ' replaced with ', specialRules[rule]);
+                  return specialRules[rule];
+                }
+                else
+                {
+                  return rule;
+                }
+              });
+
               $("#content").html(armyTemplate(data));
 
               data.units.forEach(function(unitSection) {
@@ -366,10 +393,12 @@
                   $("#units").append(unitsTemplate(units));
               });
             });
-          }).fail(function( jqxhr, textStatus, error ) {
+          }
+          ).fail(function( jqxhr, textStatus, error ) {
               $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list +'.json missing or invalid, error: ' + textStatus);
               console.log("Fail!", error);
           });
+        });
         });
     </script>
   </body>
