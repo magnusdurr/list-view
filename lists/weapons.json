@@ -9,12 +9,75 @@
         }
       ]
     },
+
+    {
+      "name": "Aircraft Pulse Laser",
+      "modes": [
+        {
+          "firepower": "2x AT4+",
+          "range": 30,
+          "specialRules": [
+            "FxF"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Spinner Array",
+      "modes": [
+        {
+          "firepower": "1BP",
+          "range": 15,
+          "specialRules": [
+            "FxF",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Scatter Laser",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+/AA5+",
+          "range": 30,
+          "specialRules": [
+            "FxF"
+          ]
+        }
+      ]
+    },
     {
       "name": "Aircraft Storm Bolters",
       "modes": [
         {
           "firepower": "AP4+/AA5+ FxF",
           "range": 15
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Twin Shuriken Cannons",
+      "modes": [
+        {
+          "firepower": "AP4+/AA5+",
+          "range": 15,
+          "specialRules": [
+            "FxF"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Twin Bright Lances",
+      "modes": [
+        {
+          "firepower": "AT4+/AA5+ ",
+          "range": 30,
+          "specialRules": [
+            "FxF",
+            "Lance"
+          ]
         }
       ]
     },
@@ -90,6 +153,29 @@
       ]
     },
     {
+      "name": "Autarch Ranged Weapon",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Avenger Shuriken Catapults",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Baneblade Battlecannon",
           "modes": [
             {
@@ -111,10 +197,65 @@
       ]
     },
     {
+      "name": "Bright Lance",
+      "modes": [
+        {
+          "firepower": "AT5+",
+          "range": 30,
+          "specialRules": [
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Banshee Mask",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Bolt Pistols",
       "modes": [
         {
           "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Cobra D-Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+ FxF",
+            "range": 15,
+            "specialRules": [
+              "TK(D6)"
+          ]
+          },
+          {
+            "firepower": "3BP FxF",
+            "join": "or",
+            "specialRules": [
+              "MW",
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Court of the Young King",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ]
     },
@@ -126,6 +267,41 @@
           "range": 30,
           "specialRules": [
             "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diresword",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Distort Cannon",
+      "modes": [
+        {
+          "firepower": "MW5+",
+          "range": 30,
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Death Spinners",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+
           ]
         }
       ]
@@ -159,11 +335,120 @@
             },
             {
               "firepower": "1BP",
-              "join": "and",
+              "join": "or",
               "specialRules": [
                 "Ind"
             ]
           }
+      ]
+    },
+    {
+      "name": "Eldar Missile Launcher",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+/AA6+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eldar Power Fist",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eldar Power Weapon",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exarch Close Combat Weapon",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Executioner",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Exarch Ranged Weapon",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Firepike ",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fusion Guns",
+        "modes": [
+          {
+            "firepower": "MW5+",
+            "range": 15
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Firestorm Battery",
+      "modes": [
+        {
+          "firepower": "2× AP5+/AT5+/AA4+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -345,6 +630,28 @@
       ]
     },
     {
+      "name": "Lasblasters",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Long Rifles",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "specialRules": [
+            "S"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Melta Cannon",
       "modes": [
         {
@@ -404,6 +711,7 @@
         }
       ]
     },
+
     {
       "name": "Multi-melta",
       "modes": [
@@ -416,6 +724,30 @@
           "join": "and",
           "specialRules": [
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mandiblasters",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Night Spinner",
+      "modes": [
+        {
+          "firepower": "1BP",
+          "range": 45,
+          "specialRules": [
+            "D"
           ]
         }
       ]
@@ -485,12 +817,103 @@
       ]
     },
     {
+      "name": "Pin Point",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "specialRules": [
+            "TK(D3)",
+            "GMK"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Lances",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prism Cannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+/AA5+",
+          "range": 30,
+          "specialRules": [
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pulse Laser",
+      "modes": [
+        {
+          "firepower": "2x AT4+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Psychic Lance",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 30,
+            "specialRules": [
+              "IC",
+              "TK(D3)"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+2)",
+              "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Rending Claws",
       "modes": [
         {
           "firepower": "Assault Weapons",
           "specialRules": [
             "FS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reaper Missile Launchers",
+      "modes": [
+        {
+          "firepower": "2x AP5+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revenant Pulsar",
+      "modes": [
+        {
+          "firepower": "2x MW3+",
+          "range": 45,
+          "specialRules": [
+            "MW"
           ]
         }
       ]
@@ -578,6 +1001,50 @@
       "modes": [
         {
           "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Starlance",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shrunken Pistols",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scatter Laser",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shuriken Cannon",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30,
+          "specialRules": [
+          ]
         }
       ]
     },
@@ -707,10 +1174,104 @@
       ]
     },
     {
+      "name": "Twin Shuriken Catapults",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Shuriken Cannons",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Pulsars",
+      "modes": [
+        {
+          "firepower": "2× MW2+",
+          "range": 75,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Pulse Lasers",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Titan Pulsar",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 75,
+          "specialRules": [
+            "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Titan Power Fist",
+        "modes": [
+          {
+            "firepower": "6x AP4+/AT4+",
+            "range": 30,
+            "specialRules": [
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+3)"
+          ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "or",
+          "specialRules": [
+            "EA(+2)",
+            "TK(D3)"
+        ]
+      }
+      ]
+    },
+    {
       "name": "Vengeance Launcher",
       "modes": [
         {
           "firepower": "Small Arms, EA(+2)"
+        }
+      ]
+    },
+    {
+      "name": "Void Spinner",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 60,
+          "specialRules": [
+            "D",
+            "Ind"
+          ]
         }
       ]
     },
@@ -734,9 +1295,69 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Wraith Cannon",
+        "modes": [
+          {
+            "firepower": "MW5+",
+            "range": 15
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch Blades",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wailing Doom",
+        "modes": [
+          {
+            "firepower": "MW5+",
+            "range": 30
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ],
   "rules": [
+
     {
       "name": "D",
       "description": "Disrupt"
@@ -746,12 +1367,24 @@
       "description": "Extra Attack +1"
     },
     {
+      "name": "EA(+2)",
+      "description": "Extra Attack +2"
+    },
+    {
+      "name": "EA(+3)",
+      "description": "Extra Attack +3"
+    },
+    {
       "name": "FxF",
       "description": "Fixed Forward"
     },
     {
       "name": "FwA",
       "description": "Forward Arc"
+    },
+    {
+      "name": "GMK",
+      "description": "God Machine Killer TK(D6)"
     },
     {
       "name": "IC",
@@ -764,6 +1397,10 @@
     {
       "name": "Left",
       "description": "Left Arc"
+    },
+    {
+      "name": "Lance",
+      "description": "Lance"
     },
     {
       "name": "MW",
@@ -801,5 +1438,6 @@
       "name": "FS",
       "description": "First Strike"
     }
+
   ]
 }
