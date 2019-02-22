@@ -1,6 +1,19 @@
 {
   "rules": [
     {
+      "title": "Knight Units (AV-K)",
+      "description": [
+        "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attack in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+      ]
+    },
+
+
+
+
+
+
+
+    {
       "title": "Space Marine Transports",
       "description": [
         "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
@@ -10,6 +23,72 @@
         "Before each game, after the opposing army is known but before objectives are placed, the Space Marine player may choose which formations with the plus transport aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
       ]
     },
+
+
+
+
+
+
+    {
+      "title": "Avatar",
+      "description": [
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Seer Council or Farseer unit.",
+        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
+      ]
+    },
+    {
+      "title": "Eldar May Not Garrison",
+      "description": [
+        "A Craftworld Eldar army that includes any webway portals may place up to three formations in reserve for each webway portal included in the army, infantry units in these reserve formations may count as mounted in their transports.",
+        "These formations may enter play by activating and moving onto the table through a friendly webway portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
+        "A webway portal may only be used once per turn, and if the formation fails to activate and chooses not to enter play this still counts as using the portal that turn. Only infantry, light vehicles or armoured vehicles with the walker ability may use webway portals. "
+      ]
+    },
+    {
+      "title": "Farsight",
+      "description": [
+        "Eldar formations that include a unit with the farsight ability may ignore the -1 penalty to Action test rolls when attempting to retain the initiative.",
+        "In addition once per turn the Eldar player may attempt to retain the initiative twice in a row (i.e. allowing the Eldar player to take 3 activations in a row). Any Eldar formation may be selected, including those without a unit with farsight, but at least one unit with the farsight ability must be in play on the battlefield.",
+        "The formation selected must still carry out an action test with a -1 modifier for the first retain and -2 for the second retain, unless the selected formation has a unit with the farsight ability."
+      ]
+    },
+    {
+      "title": "Hit and Run",
+      "description": [
+        "Eldar formations that select an advance or double action may choose to shoot either before or after each move, but may still only shoot once. If the formation chooses to double the -1 to hit penalty applies even if the shot is taken before moving. Eldar formations that win an assault may consolidate up to their speed value rather than the normal 5cms. "
+      ]
+    },
+    {
+      "title": "Holofields (x)",
+      "description": [
+        "Holofields provide Eldar Titans with a saving throw to the value of 'x'. This save may always be taken even against weapons with the macro weapon or titan killer abilities.",
+        "If an Eldar Titan has reinforced armour it may use its re-roll unless hit by a lance, macro weapon or titan killer attack but the re-roll uses the Titan’s armour value. Hits saved by the holofield do not generate blast markers, even if they have the disrupt ability.",
+        "Against titan killer attacks that cause extra damage make one holofield save roll, if this is successful the Eldar Titan takes no damage, if the roll fails the Titan suffers all the damage. Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the sniper ability. "
+      ]
+    },
+    {
+      "title": "Lance",
+      "description": [
+        "When units with reinforced armour are hit by a weapon with the lance ability they do not get to re-roll failed armour saves. "
+      ]
+    },
+    {
+      "title": "Seers of Ulthwé",
+      "description": [
+        "Ulthwe armies have a strategy rating of 4. However for all deployment purposes (such as choosing teleport order or picking spaceship arrival turn) Ulthwe armies count as having a strategy rating of 5. An Ulthwe army gets +1 to the strategy roll on the turn the Avatar arrives."
+      ]
+    },
+    {
+      "title": "Webway Portal",
+      "description": [
+        "Only Eldar Ranger and War Walker troupes may set up using the tournament game garrison rule."
+      ]
+    },
+
+
+
+
 
 
 
