@@ -1,0 +1,270 @@
+{
+  "fraction": "Genestealer Cult",
+  "army": "Bohemoid Undercult",
+  "version": "1.05",
+  "release": "2019-02-22",
+  "strategy": "Bohemoid Undercult Genestealer armies have a strategy rating of 1.",
+  "initiative": "All formations have an initiative rating of 1+. All Cult Guard formantions have an initative rating 2+.",
+
+  "specialRules": ["Patriarch Host","Genestealer Magus","Cult Guard","Cult Ambush","Extreme Mobility"],
+  "usage": [
+    "The following army list allows you to field an army based on the Bohemoid Undercult, a genestealer infection delivered from the Tyranid Behemoth Hive Fleet."
+  ],
+  "units": [
+    {
+      "from": "GS.json",
+      "units": [
+        "Patriarch Coven",
+        "Genestealer Magus",
+        "Genestealer Primus",
+        "Broodlord",
+        "Jackal Alphus",
+        "Acolyte Hybrid",
+        "Aberrations",
+        "Atalan Jackals",
+        "Brood Brothers",
+        "Cult Fire Support",
+        "Genestealers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrid",
+        "Purestrain Genestealers",
+        "Achilles Ridgerunner",
+        "Atalan Jackal Quad Bike",
+        "Goliath Rockgrinder",
+        "Goliath Truck"
+
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+
+        "Basilisk",
+        "Bombard",
+        "Chimera",
+        "Deathstrike",
+        "Hydra",
+        "Leman Russ",
+        "Sentinel",
+        "Baneblade"
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "NIDS.json",
+      "units": [
+        "Lictors"
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Cult Broods (One Genestealer Brood for each Patriarch Coven, Brood Brothers or Hybrid Brood formations.)",
+      "formations": [
+        {
+          "name": "0-1 Patriarch Host (1 Must be taken.)",
+          "units": "One Patriarch Coven, Three Purestrain Genestealers and Six Hybrid Metamorphs.",
+          "upgrades": [
+            "Armoured Limousines",
+            "Aberrations"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Hybrid Brood",
+          "units": "Eight Acolyte Hybrids",
+          "upgrades": [
+            "Primus",
+            "Neophyte Hybrid",
+            "Transport",
+            "Aberrations"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Brood Brothers",
+          "units": "Ten Brood Brother Units and a Genestealer Primus",
+          "upgrades": [
+            "Extended Family",
+            "Fire Support",
+            "Hydra",
+            "Cult Chimeras"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Genestealer Brood",
+          "units": "Six Genestealer Units, One Broodlord",
+          "upgrades": [
+            "Genestealers"
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Cult Support Formations",
+      "description": "Two Cult Support Formations may be fielded per Cult Brood.",
+      "formations": [
+        {
+          "name": "Lictor Swarm",
+          "units": "Five Lictors",
+          "upgrades": [
+            "Add 0-2 Lictors for 25 points each"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Purestrain Genestealers",
+          "units": "Six Purestrain Genestealer Units and One Broodlord",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Atalan Jackals",
+          "units": "Ten of any combination of Atalan Jackals or Atalan Jackals Quad Bikes and One Jackal Alphus.",
+          "upgrades": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Hybrid Metamorphs",
+          "units": "Eight Hybrid Metamorphs",
+          "upgrades": [
+            "Primus"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Achilles Ridgerunner",
+          "units": "Six Achilles Ridgerunners",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Cult Superheavy",
+          "units": "One Cult Baneblades",
+          "points": 200
+        },
+        {
+          "name": "Cult Artillery",
+          "units": "Three Bombards or Three Basilisks",
+          "upgrades": [
+            "Flak"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Cult Tank Platoon",
+          "units": "Six Leman Russ Tanks",
+          "upgrades": [
+            "Flak"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Cult Sentinels",
+          "units": "Four Sentinels",
+          "points": 100
+        },
+        {
+          "name": "0-1 Cult Deathstrike",
+          "units": "Two Deathstrikes",
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Bohemoid Undercult Aircraft",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Cult Thunderbolt Squadron",
+          "units": "2 Thunderbolt Fighters",
+          "points": 150
+        }
+      ]
+    }
+
+  ],
+  "upgrades": {
+    "title": "Bohemoid Undercult Upgrades",
+    "description": "Each upgrade may be taken once per Formation",
+    "items": [
+      {
+        "name": "Primus",
+        "description": "A Genestealer Primus to a formation.",
+        "points": "50 points"
+      },
+      {
+        "name": "Neophyte Hybrids",
+        "description": "Replace Acolyte Hybrids with Neophyte Hybrids",
+        "points": "10 points each"
+      },
+      {
+        "name": "Extended Family",
+        "description": "Add Six Brood Brother Units",
+        "points": "75 points"
+      },
+      {
+        "name": "Genestealers",
+        "description": "Add Three Genestealer Units",
+        "points": "75 points"
+      },
+      {
+        "name": "Transport",
+        "description": "Add enough transports to transport the entire formation.",
+        "options": [
+          {
+            "description": "Add Goliath Truck ",
+            "points": "25 points each"
+          },
+          {
+            "description": "Add Goliath Rock Grinders",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Fire Support",
+        "description": "Add Four Cult Fire Support Units",
+        "points": "100 points"
+      },
+      {
+        "name": "Hybrids",
+        "description": "Add Four Genestealer Hybrid Units",
+        "points": "100 points"
+      },
+      {
+        "name": "Aberrations",
+        "description": "Add up to Two Aberrations to Formation",
+        "points": "25 points each"
+      },
+      {
+        "name": "Cult Chimeras",
+        "description": "Add Five Chimeras",
+        "points": "125 points"
+      },
+      {
+        "name": "Armoured Limousines",
+        "description": "Transport the entire formation with Armoured Limousines",
+        "points": "Free"
+      }
+    ]
+  }
+}

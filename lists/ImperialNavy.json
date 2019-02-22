@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Imperial Navy",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Thunderbolt",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 6,
+      "weapons": [
+        "Aircraft Multilaser", "Aircraft Underwing Rockets", "Aircraft Storm Bolters"
+      ],
+      "specialRules": [
+
+      ]
+    }
+    ]
+  }
+]

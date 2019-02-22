@@ -1,11 +1,47 @@
 {
   "weapons": [
     {
+      "name": "Aircraft Multilaser",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+/AA5+ FxF",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Storm Bolters",
+      "modes": [
+        {
+          "firepower": "AP4+/AA5+ FxF",
+          "range": 15
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Underwing Rockets",
+      "modes": [
+        {
+          "firepower": "AT4+ FxF",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Assault Cannon",
       "modes": [
         {
           "firepower": "AP5+/AT5+",
           "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Autocannon",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 45
         }
       ]
     },
@@ -20,11 +56,48 @@
       ]
     },
     {
+      "name": "Atalan Incinerator",
+          "modes": [
+            {
+              "firepower": "AP5+",
+              "range": 15
+            },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Autocannon",
       "modes": [
         {
           "firepower": "AP5+/AT6+",
           "range": 45
+        }
+      ]
+    },
+    {
+      "name": "2x Autocannon",
+      "modes": [
+        {
+          "firepower": "2x AP5+/AT6+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Baneblade Battlecannon",
+          "modes": [
+            {
+              "firepower": "AP3+/AT3+",
+              "range": 120,
+              "specialRules": [
+                "IC"
+          ]
         }
       ]
     },
@@ -58,6 +131,42 @@
       ]
     },
     {
+      "name": "Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons"
+        }
+      ]
+    },
+    {
+      "name": "Deathstrike Missile",
+          "modes": [
+            {
+              "firepower": "MW2+",
+              "range": "Unlimited",
+              "specialRules": [
+                "TK(D6)","Ind","SS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earthshaker Cannon",
+          "modes": [
+            {
+              "firepower": "AP4+/AT4+",
+              "range": 120
+            },
+            {
+              "firepower": "1BP",
+              "join": "and",
+              "specialRules": [
+                "Ind"
+            ]
+          }
+      ]
+    },
+    {
       "name": "Flamestorm Cannon",
       "modes": [
         {
@@ -65,6 +174,25 @@
           "range": 15,
           "specialRules": [
             "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flesh Hooks",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Giant Mauls",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)", "MW"
           ]
         }
       ]
@@ -110,6 +238,26 @@
       ]
     },
     {
+      "name": "Heavy Mining Laser",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Host Weapons",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hunter-Killer",
       "modes": [
         {
@@ -149,11 +297,50 @@
       ]
     },
     {
+      "name": "Jackal Guns",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Jackel Sniper Rifle",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30,
+          "specialRules": [
+            "S"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Large Rending Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "MW","FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Lascannon",
       "modes": [
         {
           "firepower": "AT5+",
           "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Lasguns",
+      "modes": [
+        {
+          "firepower": "Small Arms"
         }
       ]
     },
@@ -173,11 +360,47 @@
       ]
     },
     {
+      "name": "Metamorph Guns",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Metamorph Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Missile Launcher",
       "modes": [
         {
           "firepower": "AP5+/AT6+",
           "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Mounted Guns",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Multilaser",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 30
         }
       ]
     },
@@ -246,6 +469,33 @@
       ]
     },
     {
+      "name": "Psyker powers",
+        "modes": [
+          {
+            "firepower": "MW5+",
+            "range": 15
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rending Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Scout Turbo-Laser Destructor",
       "modes": [
         {
@@ -254,6 +504,18 @@
         }
       ]
     },
+    {
+      "name": "Scythed Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)", "S"
+          ]
+        }
+      ]
+    },
+
     {
       "name": "Servo Arm",
       "modes": [
@@ -266,6 +528,7 @@
         }
       ]
     },
+
     {
       "name": "Siege Drill",
       "modes": [
@@ -275,6 +538,27 @@
             "EA(+1)",
             "MW"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Siege Mortar",
+          "modes": [
+            {
+              "firepower": "2BP",
+              "range": 45,
+              "specialRules": [
+                "IC","Ind","Slw"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seismic Cannons",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 30
         }
       ]
     },
@@ -343,6 +627,15 @@
       ]
     },
     {
+      "name": "Twin Hydra Autocannon",
+          "modes": [
+            {
+              "firepower": "AP4+/AT5+/AA5+",
+              "range": 45
+        }
+      ]
+    },
+    {
       "name": "Twin Assault Cannon",
       "modes": [
         {
@@ -357,6 +650,15 @@
         {
           "firepower": "AP4+/AT4+/AA5+",
           "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Twin Autocannon",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 45
         }
       ]
     },
@@ -480,6 +782,10 @@
       "description": "Slow Firing"
     },
     {
+      "name": "SS",
+      "description": "Single Shot"
+    },
+    {
       "name": "TK(D3+3)",
       "description": "Titan Killer"
     },
@@ -490,6 +796,10 @@
     {
       "name": "TK(D6)",
       "description": "Titan Killer"
+    },
+    {
+      "name": "FS",
+      "description": "First Strike"
     }
   ]
 }

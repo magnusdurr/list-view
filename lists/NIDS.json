@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Tyranid Forces",
+    "specialRules": [
+      {
+        "title": "Extreme Mobility",
+        "description": [
+          "Tyranid Armoured Vehicles and War Engines units do not take dangerous terrain tests. Tyranid Light Vehicles move through terrain and receive cover as if they were infantry. Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally."
+        ]
+      }
+    ],
+    "unit": [
+      {
+      "name": "Lictors",
+      "type": "LV",
+      "speed": 15,
+      "armour": "5",
+      "cc": 3,
+      "ff": 6,
+      "weapons": [
+        "Flesh Hooks", "Scythed Claws"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Infiltrators",
+        "Scout",
+        "Invulnerable Save",
+        "Teleport"
+      ]
+    }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Astra Militarum Forces",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Sentinel",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multilaser"
+      ],
+      "specialRules": [
+        "Scout", "Walker"
+      ]
+    },
+    {
+      "name": "Basilisk",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Earthshaker Cannon", "Heavy Bolter"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Bombard",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Siege Mortar", "Heavy Bolter"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multilaser", "Heavy Bolter"
+      ],
+      "specialRules": [
+        "Transport (May carry 2 infantry units without jump packs or mounted)."
+      ]
+    },
+    {
+      "name": "Deathstrike",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Deathstrike Missile", "Heavy Bolter"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Leman Russ",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Battle Cannon", "Lascannon", "Heavy Bolter"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Hydra",
+      "type": "AV",
+      "speed": 30,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Hydra Autocannon", "Heavy Bolter"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Baneblade",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Baneblade Battlecannon",
+        "Autocannon",
+        "Demolisher",
+        "Lascannon",
+        "Twin Heavy Bolter"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour"
+      ],
+      "notes": "Critical Hit Effect: The unit is destroyed."
+    }
+    ]
+  }
+]
