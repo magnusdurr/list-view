@@ -1,143 +1,167 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="armylist.css">
+
+    <script src="script/units.js?v=1"></script>
     <title>EA</title>
-  </head>
-  <body>
-    <div id="container" class="container">
-      <div id="content"></div>
-      <div id="units"></div>
-    </div>
+</head>
+<body>
+<div id="container" class="container">
+    <div id="errors"></div>
+    <div id="content"></div>
+    <div id="units"></div>
+</div>
 
-    <script id="army-template" type="text/x-handlebars-template">
-      <h1>{{fraction}} - {{army}}</h1>
-      <p><small>Version {{version}} - {{release}}</small></p>
+<script id="error-template" type="text/x-handlebars-template">
+    {{#if errors}}
+    <h1 class="text-danger">Data validation errors:</h1>
+    <ul>
+        {{#each errors}}
+        <li class="text-danger">{{this}}</li>
+        {{/each}}
+    </ul>
+    {{/if}}
+</script>
 
-      {{#if introduction}}
-      <p>{{introduction}}</p>
-      {{/if}}
+<script id="army-template" type="text/x-handlebars-template">
+    <h1>{{fraction}} - {{army}}</h1>
+    <p>
+        <small>Version {{version}} - {{release}}</small>
+    </p>
 
-      {{#if usage}}
-      <h5>Using The Army List</h5>
-      {{#each usage}}
-      <p>{{this}}</p>
-      {{/each}}
-      {{/if}}
+    {{#if introduction}}
+    <p>{{introduction}}</p>
+    {{/if}}
 
-      {{> special-rules}}
+    {{#if usage}}
+    <h5>Using The Army List</h5>
+    {{#each usage}}
+    <p>{{this}}</p>
+    {{/each}}
+    {{/if}}
+
+    {{> special-rules}}
 
       <h2>{{army}} Army List</h2>
-      <p>{{strategy}} {{initiative}} {{{armyRules}}}</p>
+    <p>{{strategy}} {{initiative}} {{{armyRules}}}</p>
 
-      {{#each sections}}
-      {{> card-with-margin}}
-        <div class="card-header">{{name}}{{#if description}}<br><small>{{description}}</small>{{/if}}</div>
-        <div>
-          <table class="table table-striped">
+    {{#each sections}}
+    {{> card-with-margin}}
+    <div class="card-header"><b>{{name}}</b>{{#if description}}<br>
+        <small>{{description}}</small>
+        {{/if}}
+    </div>
+    <div>
+        <table class="table table-striped">
             <thead>
-              <tr>
+            <tr>
                 <th scope="col" style="white-space: nowrap;">Formation</th>
                 <th scope="col">Units</th>
                 <th scope="col">Upgrades</th>
                 <th scope="col" style="white-space: nowrap;">Cost</th>
-              </tr>
+            </tr>
             </thead>
             <tbody>
-              {{#each formations}}
-              <tr>
+            {{#each formations}}
+            <tr>
                 <td>{{name}}</td>
                 <td>
-                  {{units}}
-                  {{#if notes}}
-                    <br><small>{{notes}}</small>
-                  {{/if}}
+                    {{units}}
+                    {{#if notes}}
+                    <br>
+                    <small>{{notes}}</small>
+                    {{/if}}
                 </td>
                 <td>{{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</td>
                 <td style="white-space: nowrap;">{{points}} points</td>
-              </tr>
+            </tr>
 
-              {{/each}}
+            {{/each}}
             </tbody>
-          </table>
-        </div>
-      </div>
-      {{/each}}
+        </table>
+    </div>
+    </div>
+    {{/each}}
 
-      {{#with upgrades}}
-      <div class="card" style="margin-top: .8rem">
-        <div class="card-header">{{title}}<br><small>{{description}}</small></div>
+    {{#with upgrades}}
+    <div class="card" style="margin-top: .8rem">
+        <div class="card-header"><b>{{title}}</b><br>
+            <small>{{description}}</small>
+        </div>
         <div>
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Upgrades</th>
-                <th scope="col" colspan="2">Units</th>
-                <th scope="col">Cost</th>
-              </tr>
-            </thead>
-            <tbody>
-              {{#each items}}
-              {{#upgrade this}}
-              {{#unless options}}
-              <tr class="unit-row-{{oddEven @index}}">
-                <td>{{name}}</td>
-                <td colspan="2">{{description}}</td>
-                <td style="white-space: nowrap;">
-                  {{#if (isArray points)}}
-                  {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
-                  {{else}}
-                  {{points}}
-                  {{/if}}
-                </td>
-              </tr>
-              {{else}}
-              <tr class="unit-row-{{oddEven @index}}">
-                <td rowspan="{{@options}}">{{name}}</td>
-                {{#if description}}
-                <td rowspan="{{@options}}">{{description}}</td>
-                {{/if}}
-                {{#each options}}
-                {{#unless @first}}<tr class="unit-row-{{oddEven @../index}}">{{/unless}}
-                  {{#if ../description}}
-                  <td>{{description}}</td>
-                  {{else}}
-                  <td colspan="2">{{description}}</td>
-                  {{/if}}
-                  <td>
-                    {{#if (isArray points)}}
-                    {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
-                    {{else}}
-                    {{points}}
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Upgrades</th>
+                    <th scope="col" colspan="2">Units</th>
+                    <th scope="col">Cost</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each items}}
+                {{#upgrade this}}
+                {{#unless options}}
+                <tr class="unit-row-{{oddEven @index}}">
+                    <td>{{name}}</td>
+                    <td colspan="2">{{description}}</td>
+                    <td style="white-space: nowrap;">
+                        {{#if (isArray points)}}
+                        {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                        {{else}}
+                        {{points}}
+                        {{/if}}
+                    </td>
+                </tr>
+                {{else}}
+                <tr class="unit-row-{{oddEven @index}}">
+                    <td rowspan="{{@options}}">{{name}}</td>
+                    {{#if description}}
+                    <td rowspan="{{@options}}">{{description}}</td>
                     {{/if}}
-                  </td>
+                    {{#each options}}
+                    {{#unless @first}}
+                <tr class="unit-row-{{oddEven @../index}}">{{/unless}}
+                    {{#if ../description}}
+                    <td>{{description}}</td>
+                    {{else}}
+                    <td colspan="2">{{description}}</td>
+                    {{/if}}
+                    <td>
+                        {{#if (isArray points)}}
+                        {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                        {{else}}
+                        {{points}}
+                        {{/if}}
+                    </td>
                 </tr>
                 {{/each}}
-              {{/unless}}
-              {{/upgrade}}
-              {{/each}}
-            </tbody>
-          </table>
+                {{/unless}}
+                {{/upgrade}}
+                {{/each}}
+                </tbody>
+            </table>
         </div>
-      </div>
-      {{/with}}
-    </script>
+    </div>
+    {{/with}}
+</script>
 
-    <script id="units-template" type="text/x-handlebars-template">
-      {{#each this}}
-      {{#if unit.length}}
-      <h2>{{name}}</h2>
+<script id="units-template" type="text/x-handlebars-template">
+    {{#each this}}
+    {{#if unit.length}}
+    <h2>{{name}}</h2>
 
-      {{> card-with-margin}}
-      <table class="table">
+    {{> card-with-margin}}
+    <table class="table">
         <thead>
-          <tr>
+        <tr>
             <th scope="col">Name</th>
             <th scope="col">Type</th>
             <th scope="col">Speed</th>
@@ -147,12 +171,12 @@
             <th scope="col">Weapons</th>
             <th scope="col">Range</th>
             <th scope="col">Firepower</th>
-          </tr>
+        </tr>
         </thead>
         <tbody>
-          {{#each unit}}
-          {{#unit this}}
-          <tr class="unit-row-{{oddEven @index}} {{#unless @singleLine}}unit-row-top{{/unless}}">
+        {{#each unit}}
+        {{#unit this}}
+        <tr class="unit-row-{{oddEven @index}} {{#unless @singleLine}}unit-row-top{{/unless}}">
             <td rowspan="{{@weaponLines}}" class="unit-name">{{name}}</td>
             <td rowspan="{{@weaponLines}}">{{#if type}}{{type}}{{else}}n/a{{/if}}</td>
             <td rowspan="{{@weaponLines}}">{{#if speed}}{{appendOnNumber speed 'cm'}}{{else}}n/a{{/if}}</td>
@@ -161,245 +185,153 @@
             <td rowspan="{{@weaponLines}}">{{#if ff}}{{ff}}+{{else}}n/a{{/if}}</td>
             {{#each weapons}}
             {{#each modes}}
-            {{#unless (and @../first @first)}}<tr class="unit-row-{{oddEven @../../index}} {{#if (and @last @hasNoNotes)}}unit-row-bottom{{else}}unit-row-middle{{/if}}">{{/unless}}
+            {{#unless (and @../first @first)}}
+        <tr class="unit-row-{{oddEven @../../index}} {{#if (and @last @hasNoNotes)}}unit-row-bottom{{else}}unit-row-middle{{/if}}">
+            {{/unless}}
             <td>{{#if join}}<i>{{join}}</i>{{else}}{{#if ../count}}{{../count}}x {{/if}}{{../name}}{{/if}}</td>
             <td>{{appendOnNumber range 'cm'}}</td>
             <td>
-              {{firepower}}
-              {{#each specialRules}}
-              , <i><abbr title="{{description}}">{{name}}</abbr></i>
-              {{/each}}
-            </td>
-            </tr>
-            {{/each}}
-            {{/each}}
-            {{#if @hasNotes}}
-            <tr class="unit-row-{{oddEven @index}} unit-row-bottom">
-              <td colspan="9" style="border-top: none">
-                <small>
-                Notes:
+                {{firepower}}
                 {{#each specialRules}}
-                  {{#unless @last}}<i>{{this}}</i>,{{/unless}}
-                  {{#if @last}}<i>{{this}}</i>.{{/if}}
+                , <i><abbr title="{{description}}">{{name}}</abbr></i>
                 {{/each}}
-                {{notes}}
+            </td>
+        </tr>
+        {{/each}}
+        {{/each}}
+        {{#if @hasNotes}}
+        <tr class="unit-row-{{oddEven @index}} unit-row-bottom">
+            <td colspan="9" style="border-top: none">
+                <small>
+                    Notes:
+                    {{#each specialRules}}
+                    {{#unless @last}}<i>{{this}}</i>,{{/unless}}
+                    {{#if @last}}<i>{{this}}</i>.{{/if}}
+                    {{/each}}
+                    {{notes}}
                 </small>
-              </td>
-            </tr>
-            {{/if}}
-          {{/unit}}
-          {{/each}}
+            </td>
+        </tr>
+        {{/if}}
+        {{/unit}}
+        {{/each}}
         </tbody>
-      </table>
-      </div>
+    </table>
+    </div>
 
-      {{> special-rules}}
-      {{/if}}
-      {{/each}}
+    {{> special-rules}}
+    {{/if}}
+    {{/each}}
 
-      <p>&nbsp;</p>
+    <p>&nbsp;</p>
 
-    </script>
+</script>
 
-    <!-- Optional JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+<!-- Optional JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-    <script>
-      $(document).ready(function () {
-          console.log("[document-ready] initializing...");
+<script>
+    $(document).ready(function () {
+        console.log("[document-ready] initializing...");
 
-          $(function () {
+        $(function () {
             $('[data-toggle="tooltip"]').tooltip()
-          })
+        })
 
-          var armyTemplate = Handlebars.compile($("#army-template").html());
-          var unitsTemplate = Handlebars.compile($("#units-template").html());
+        var errorTemplate = Handlebars.compile($("#error-template").html());
+        var armyTemplate = Handlebars.compile($("#army-template").html());
+        var unitsTemplate = Handlebars.compile($("#units-template").html());
 
-          $.get("partials/special-rules.html").done(function (template) {
-              Handlebars.registerPartial('special-rules', template);
-          });
+        $.get("partials/special-rules.html").done(function (template) {
+            Handlebars.registerPartial('special-rules', template);
+        });
 
-          $.get("partials/card-with-margin.html").done(function (template) {
-              Handlebars.registerPartial('card-with-margin', template);
-          });
+        $.get("partials/card-with-margin.html").done(function (template) {
+            Handlebars.registerPartial('card-with-margin', template);
+        });
 
-          Handlebars.registerHelper('oddEven', function(index) {
+        Handlebars.registerHelper('oddEven', function (index) {
             return index % 2 == 0 ? 'even' : 'odd';
-          });
+        });
 
-          Handlebars.registerHelper('and', function(one, two) {
+        Handlebars.registerHelper('and', function (one, two) {
             return true === one && true === two;
-          });
+        });
 
-          Handlebars.registerHelper('isArray', function(object) {
+        Handlebars.registerHelper('isArray', function (object) {
             return $.isArray(object);
-          });
+        });
 
-          Handlebars.registerHelper('appendOnNumber', function(value, suffix) {
-            if (isNaN(value)) {
-              return value;
+        Handlebars.registerHelper('appendOnNumber', function (value, suffix) {
+            if (isNaN(value))
+            {
+                return value;
             }
-            else {
-              return value + suffix;
+            else
+            {
+                return value + suffix;
             }
-          });
+        });
 
-          Handlebars.registerHelper('upgrade', function(context, options) {
-            if (options.data) {
-              var data = Handlebars.createFrame(options.data);
-              data.options = context.options !== undefined ? context.options.length : 0;
-            }
-
-            return options.fn(context, { data: data })
-          });
-
-          Handlebars.registerHelper('unit', function(context, options) {
-            if (options.data) {
-              var data = Handlebars.createFrame(options.data);
-
-              var count = 0;
-              for (weapon in context.weapons)
-              {
-                count += context.weapons[weapon].modes.length;
-              }
-
-              data.weaponLines = count;
-              data.hasNotes = context.notes || context.specialRules;
-              data.hasNoNotes = !data.hasNotes;
-              data.singleLine = count == 1 && data.hasNoNotes;
+        Handlebars.registerHelper('upgrade', function (context, options) {
+            if (options.data)
+            {
+                var data = Handlebars.createFrame(options.data);
+                data.options = context.options !== undefined ? context.options.length : 0;
             }
 
-            return options.fn(context, { data: data })
-          });
+            return options.fn(context, {data: data})
+        });
 
-          var urlSearchParams = new URLSearchParams(new URL(window.location.href).search);
-          var race = urlSearchParams.get("race");
-          var list = urlSearchParams.get("list");
+        Handlebars.registerHelper('unit', function (context, options) {
+            if (options.data)
+            {
+                var data = Handlebars.createFrame(options.data);
 
-          var weaponsMap = {};
-          var weaponRules = {}
-          var specialRules = {}
+                var count = 0;
+                for (weapon in context.weapons)
+                {
+                    count += context.weapons[weapon].modes.length;
+                }
 
-          var rulesLoaded = $.Deferred();
-          var weaponsLoaded = $.Deferred();
+                data.weaponLines = count;
+                data.hasNotes = context.notes || context.specialRules;
+                data.hasNoNotes = !data.hasNotes;
+                data.singleLine = count == 1 && data.hasNoNotes;
+            }
 
-          $.getJSON("lists/specialRules.json", function(data){
-                data.rules.forEach(function(rule){
-                  console.log("Adding rule", rule);
-                  specialRules[rule.title] = rule;
-                });
+            return options.fn(context, {data: data})
+        });
 
-                rulesLoaded.resolve();
-            });
+        var urlSearchParams = new URLSearchParams(new URL(window.location.href).search);
+        var race = urlSearchParams.get("race");
+        var list = urlSearchParams.get("list");
 
-          $.getJSON("lists/weapons.json", function(data){
-                data.rules.forEach(function(rule){
-                  weaponRules[rule.name] = rule;
-                })
+        $.when(units.loadSpecialRules(), units.loadWeapons()).done(function (specialRules, weapons) {
+            $.getJSON("lists/" + race + "/" + list + ".json", function (data) {
+                        $("#content").html(armyTemplate(units.formatSpecialRules(data, specialRules)));
 
-                data.weapons.forEach(function(item) {
-                  item.modes.forEach(function(mode) {
-                    if (mode.specialRules)
-                    {
-                      mode.specialRules = mode.specialRules.map(function(sRule) {
-                        return weaponRules[sRule];
-                      })
+                        units.formatUnits(data, specialRules, weapons).forEach(function (units) {
+                            $("#units").append(unitsTemplate(units));
+                        });
+
+                        $("#errors").html(errorTemplate({"errors": units.errors}))
                     }
-                  })
-                  weaponsMap[item.name] = item;
-                });
-
-                weaponsLoaded.resolve();
-          });
-
-          $.when(rulesLoaded, weaponsLoaded).done (function()
-          {
-            $.getJSON("lists/" + race + "/" + list +".json", function (data) {
-              data.specialRules = data.specialRules.map(function(rule){
-                if (typeof rule === 'string')
-                {
-                  console.log(rule + ' replaced with ', specialRules[rule]);
-                  return specialRules[rule];
-                }
-                else
-                {
-                  return rule;
-                }
-              });
-
-              $("#content").html(armyTemplate(data));
-
-              data.units.forEach(function(unitSection) {
-                $.getJSON("lists/" + unitSection.from, function (units) {
-                  units.forEach(function(section) {
-                    section.unit = section.unit.filter(function(unit) {
-                      return unitSection.units.includes(unit.name);
-                    });
-
-                    section.unit.forEach(function(unit) {
-                      unit.weapons = unit.weapons.map(function(weapon){
-                        if (typeof weapon === 'string') {
-                          var values = weapon.split('|');
-
-                          if (!weaponsMap[values[0]])
-                          {
-                            console.log("Weapon definition missing: ", values[0]);
-                          }
-
-                          var weaponObject = JSON.parse(JSON.stringify(weaponsMap[values[0]]))
-
-                          // More than one weapon
-                          if (values.length > 1 && values[1])
-                          {
-                            weaponObject.count = values[1];
-                          }
-
-                          // Extra special rules
-                          if (values.length > 2 && values[2])
-                          {
-                            weaponObject.modes.forEach(function(mode)
-                            {
-                              if (!mode.specialRules)
-                              {
-                                mode.specialRules = [];
-                              }
-                              mode.specialRules.push(weaponRules[values[2]]);
-                            });
-                          }
-
-                          if (weaponObject === null)
-                          {
-                            console.log("Undefined weapon, values ", values);
-                          }
-                          return weaponObject;
-                        }
-                        else {
-                          return weapon;
-                        }
-                      })
-                    })
-
-                    section.specialRules = section.specialRules.filter(function(rule) {
-                      return unitSection.unitRules.includes(rule.title);
-                    })
-                  })
-
-                  console.log(units);
-                  $("#units").append(unitsTemplate(units));
-              });
+            ).fail(function (jqxhr, textStatus, error) {
+                $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid, error: ' + textStatus);
+                console.log("Fail!", error);
             });
-          }
-          ).fail(function( jqxhr, textStatus, error ) {
-              $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list +'.json missing or invalid, error: ' + textStatus);
-              console.log("Fail!", error);
-          });
         });
-        });
-    </script>
-  </body>
+    });
+</script>
+</body>
 </html>
