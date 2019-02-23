@@ -44,7 +44,7 @@
     {{#if usage}}
     <h5>Using The Army List</h5>
     {{#each usage}}
-    <p>{{this}}</p>
+    <p>{{{this}}}</p>
     {{/each}}
     {{/if}}
 
@@ -80,8 +80,20 @@
                     <small>{{notes}}</small>
                     {{/if}}
                 </td>
-                <td>{{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</td>
-                <td style="white-space: nowrap;">{{points}} points</td>
+                <td>
+                    {{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+                    {{#if extraUnits}}
+                    <ul style="padding-left: 1rem">
+                        {{#each extraUnits}}<li>{{this}}</li>{{/each}}
+                    </ul>
+                    {{/if}}
+                </td>
+                <td style="white-space: nowrap; text-align: right">
+                    {{#if points}}{{points}} points{{/if}}
+                    {{#if pointsOptions}}
+                        {{#each pointsOptions}}{{this.name}} - {{this.points}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                    {{/if}}
+                </td>
             </tr>
 
             {{/each}}
