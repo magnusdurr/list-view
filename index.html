@@ -54,6 +54,7 @@
         var errorTemplate = Handlebars.compile($("#error-template").html());
         var unitsTemplate;
         var armyTemplate;
+        var listTemplate;
 
         $.get("templates/army.html").done(function (template) {
             armyTemplate = Handlebars.compile(template);
@@ -61,6 +62,10 @@
 
         $.get("templates/units.html").done(function (template) {
             unitsTemplate = Handlebars.compile(template);
+        });
+
+        $.get("templates/list.html").done(function (template) {
+            listTemplate = Handlebars.compile(template);
         });
 
         $.get("partials/special-rules.html").done(function (template) {
@@ -128,21 +133,31 @@
         var race = urlSearchParams.get("race");
         var list = urlSearchParams.get("list");
 
-        $.when(units.loadSpecialRules(), units.loadWeapons()).done(function (specialRules, weapons) {
-            $.getJSON("lists/" + race + "/" + list + ".json", function (data) {
-                        $("#content").html(armyTemplate(units.formatSpecialRules(data, specialRules)));
+        if (race && list)
+        {
+            $.when(units.loadSpecialRules(), units.loadWeapons()).done(function (specialRules, weapons) {
+                $.getJSON("lists/" + race + "/" + list + ".json", function (data) {
+                            $("#content").html(armyTemplate(units.formatSpecialRules(data, specialRules)));
 
-                        units.formatUnits(data, specialRules, weapons).forEach(function (units) {
-                            $("#units").append(unitsTemplate(units));
-                        });
+                            units.formatUnits(data, specialRules, weapons).forEach(function (units) {
+                                $("#units").append(unitsTemplate(units));
+                            });
 
-                        $("#errors").html(errorTemplate({"errors": units.errors}))
-                    }
-            ).fail(function (jqxhr, textStatus, error) {
-                $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid, error: ' + textStatus);
-                console.log("Fail!", error);
+                            $("#errors").html(errorTemplate({"errors": units.errors}))
+                        }
+                ).fail(function (jqxhr, textStatus, error) {
+                    $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid, error: ' + textStatus);
+                    console.log("Fail!", error);
+                });
             });
-        });
+        }
+        else
+        {
+            console.info("TODO: index");
+            $.getJSON("lists/index.json", function (data) {
+                $("#content").html(listTemplate(data))
+            });
+        }
     });
 </script>
 </body>

@@ -1,0 +1,32 @@
+{
+  "index": [
+    {
+      "name": "Adeptus Mechanicus",
+      "abbreviation": "AM",
+      "lists": [
+        {
+          "name": "Explorator Fleet",
+          "file": "exploratorFleet"
+        }
+      ]
+    },
+    {
+      "name": "Space Marines",
+      "abbreviation": "SM",
+      "lists": [
+        {
+          "name": "Iron Hands",
+          "file": "ironhands"
+        },
+        {
+          "name": "Raven Guard",
+          "file": "ravenguard"
+        },
+        {
+          "name": "White Scars",
+          "file": "whitescars"
+        }
+      ]
+    }
+  ]
+}
