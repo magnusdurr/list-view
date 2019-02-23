@@ -31,214 +31,6 @@
     {{/if}}
 </script>
 
-<script id="army-template" type="text/x-handlebars-template">
-    <h1>{{fraction}} - {{army}}</h1>
-    <p>
-        <small>Version {{version}} - {{release}}</small>
-    </p>
-
-    {{#if introduction}}
-    <p>{{introduction}}</p>
-    {{/if}}
-
-    {{#if usage}}
-    <h5>Using The Army List</h5>
-    {{#each usage}}
-    <p>{{{this}}}</p>
-    {{/each}}
-    {{/if}}
-
-    {{> special-rules}}
-
-      <h2>{{army}} Army List</h2>
-    <p>{{strategy}} {{initiative}} {{{armyRules}}}</p>
-
-    {{#each sections}}
-    {{> card-with-margin}}
-    <div class="card-header"><b>{{name}}</b>{{#if description}}<br>
-        <small>{{description}}</small>
-        {{/if}}
-    </div>
-    <div>
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                <th scope="col" style="white-space: nowrap;">Formation</th>
-                <th scope="col">Units</th>
-                <th scope="col">Upgrades</th>
-                <th scope="col" style="white-space: nowrap;">Cost</th>
-            </tr>
-            </thead>
-            <tbody>
-            {{#each formations}}
-            <tr>
-                <td>{{name}}</td>
-                <td>
-                    {{units}}
-                    {{#if notes}}
-                    <br>
-                    <small>{{notes}}</small>
-                    {{/if}}
-                </td>
-                <td>
-                    {{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
-                    {{#if extraUnits}}
-                    <ul style="padding-left: 1rem">
-                        {{#each extraUnits}}<li>{{this}}</li>{{/each}}
-                    </ul>
-                    {{/if}}
-                </td>
-                <td style="white-space: nowrap; text-align: right">
-                    {{#if points}}{{points}} points{{/if}}
-                    {{#if pointsOptions}}
-                        {{#each pointsOptions}}{{this.name}} - {{this.points}}{{#unless @last}}<br>{{/unless}}{{/each}}
-                    {{/if}}
-                </td>
-            </tr>
-
-            {{/each}}
-            </tbody>
-        </table>
-    </div>
-    </div>
-    {{/each}}
-
-    {{#with upgrades}}
-    <div class="card" style="margin-top: .8rem">
-        <div class="card-header"><b>{{title}}</b><br>
-            <small>{{description}}</small>
-        </div>
-        <div>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">Upgrades</th>
-                    <th scope="col" colspan="2">Units</th>
-                    <th scope="col">Cost</th>
-                </tr>
-                </thead>
-                <tbody>
-                {{#each items}}
-                {{#upgrade this}}
-                {{#unless options}}
-                <tr class="unit-row-{{oddEven @index}}">
-                    <td>{{name}}</td>
-                    <td colspan="2">{{description}}</td>
-                    <td style="white-space: nowrap;">
-                        {{#if (isArray points)}}
-                        {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
-                        {{else}}
-                        {{points}}
-                        {{/if}}
-                    </td>
-                </tr>
-                {{else}}
-                <tr class="unit-row-{{oddEven @index}}">
-                    <td rowspan="{{@options}}">{{name}}</td>
-                    {{#if description}}
-                    <td rowspan="{{@options}}">{{description}}</td>
-                    {{/if}}
-                    {{#each options}}
-                    {{#unless @first}}
-                <tr class="unit-row-{{oddEven @../index}}">{{/unless}}
-                    {{#if ../description}}
-                    <td>{{description}}</td>
-                    {{else}}
-                    <td colspan="2">{{description}}</td>
-                    {{/if}}
-                    <td>
-                        {{#if (isArray points)}}
-                        {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
-                        {{else}}
-                        {{points}}
-                        {{/if}}
-                    </td>
-                </tr>
-                {{/each}}
-                {{/unless}}
-                {{/upgrade}}
-                {{/each}}
-                </tbody>
-            </table>
-        </div>
-    </div>
-    {{/with}}
-</script>
-
-<script id="units-template" type="text/x-handlebars-template">
-    {{#each this}}
-    {{#if unit.length}}
-    <h2>{{name}}</h2>
-
-    {{> card-with-margin}}
-    <table class="table">
-        <thead>
-        <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Type</th>
-            <th scope="col">Speed</th>
-            <th scope="col">Armour</th>
-            <th scope="col">CC</th>
-            <th scope="col">FF</th>
-            <th scope="col">Weapons</th>
-            <th scope="col">Range</th>
-            <th scope="col">Firepower</th>
-        </tr>
-        </thead>
-        <tbody>
-        {{#each unit}}
-        {{#unit this}}
-        <tr class="unit-row-{{oddEven @index}} {{#unless @singleLine}}unit-row-top{{/unless}}">
-            <td rowspan="{{@weaponLines}}" class="unit-name">{{name}}</td>
-            <td rowspan="{{@weaponLines}}">{{#if type}}{{type}}{{else}}n/a{{/if}}</td>
-            <td rowspan="{{@weaponLines}}">{{#if speed}}{{appendOnNumber speed 'cm'}}{{else}}n/a{{/if}}</td>
-            <td rowspan="{{@weaponLines}}">{{#if armour}}{{armour}}+{{else}}n/a{{/if}}</td>
-            <td rowspan="{{@weaponLines}}">{{#if cc}}{{cc}}+{{else}}n/a{{/if}}</td>
-            <td rowspan="{{@weaponLines}}">{{#if ff}}{{ff}}+{{else}}n/a{{/if}}</td>
-            {{#each weapons}}
-            {{#each modes}}
-            {{#unless (and @../first @first)}}
-        <tr class="unit-row-{{oddEven @../../index}} {{#if (and @last @hasNoNotes)}}unit-row-bottom{{else}}unit-row-middle{{/if}}">
-            {{/unless}}
-            <td>{{#if join}}<i>{{join}}</i>{{else}}{{#if ../count}}{{../count}}x {{/if}}{{../name}}{{/if}}</td>
-            <td>{{appendOnNumber range 'cm'}}</td>
-            <td>
-                {{firepower}}
-                {{#each specialRules}}
-                , <i><abbr title="{{description}}">{{name}}</abbr></i>
-                {{/each}}
-            </td>
-        </tr>
-        {{/each}}
-        {{/each}}
-        {{#if @hasNotes}}
-        <tr class="unit-row-{{oddEven @index}} unit-row-bottom">
-            <td colspan="9" style="border-top: none">
-                <small>
-                    Notes:
-                    {{#each specialRules}}
-                    {{#unless @last}}<i>{{this}}</i>,{{/unless}}
-                    {{#if @last}}<i>{{this}}</i>.{{/if}}
-                    {{/each}}
-                    {{notes}}
-                </small>
-            </td>
-        </tr>
-        {{/if}}
-        {{/unit}}
-        {{/each}}
-        </tbody>
-    </table>
-    </div>
-
-    {{> special-rules}}
-    {{/if}}
-    {{/each}}
-
-    <p>&nbsp;</p>
-
-</script>
-
 <!-- Optional JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
 
@@ -260,8 +52,16 @@
         })
 
         var errorTemplate = Handlebars.compile($("#error-template").html());
-        var armyTemplate = Handlebars.compile($("#army-template").html());
-        var unitsTemplate = Handlebars.compile($("#units-template").html());
+        var unitsTemplate;
+        var armyTemplate;
+
+        $.get("templates/army.html").done(function (template) {
+            armyTemplate = Handlebars.compile(template);
+        });
+
+        $.get("templates/units.html").done(function (template) {
+            unitsTemplate = Handlebars.compile(template);
+        });
 
         $.get("partials/special-rules.html").done(function (template) {
             Handlebars.registerPartial('special-rules', template);

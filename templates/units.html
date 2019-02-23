@@ -1,0 +1,70 @@
+{{#each this}}
+{{#if unit.length}}
+<h2>{{name}}</h2>
+
+{{> card-with-margin}}
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Speed</th>
+        <th scope="col">Armour</th>
+        <th scope="col">CC</th>
+        <th scope="col">FF</th>
+        <th scope="col">Weapons</th>
+        <th scope="col">Range</th>
+        <th scope="col">Firepower</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each unit}}
+    {{#unit this}}
+    <tr class="unit-row-{{oddEven @index}} {{#unless @singleLine}}unit-row-top{{/unless}}">
+        <td rowspan="{{@weaponLines}}" class="unit-name">{{name}}</td>
+        <td rowspan="{{@weaponLines}}">{{#if type}}{{type}}{{else}}n/a{{/if}}</td>
+        <td rowspan="{{@weaponLines}}">{{#if speed}}{{appendOnNumber speed 'cm'}}{{else}}n/a{{/if}}</td>
+        <td rowspan="{{@weaponLines}}">{{#if armour}}{{armour}}+{{else}}n/a{{/if}}</td>
+        <td rowspan="{{@weaponLines}}">{{#if cc}}{{cc}}+{{else}}n/a{{/if}}</td>
+        <td rowspan="{{@weaponLines}}">{{#if ff}}{{ff}}+{{else}}n/a{{/if}}</td>
+        {{#each weapons}}
+        {{#each modes}}
+        {{#unless (and @../first @first)}}
+    <tr class="unit-row-{{oddEven @../../index}} {{#if (and @last @hasNoNotes)}}unit-row-bottom{{else}}unit-row-middle{{/if}}">
+        {{/unless}}
+        <td>{{#if join}}<i>{{join}}</i>{{else}}{{#if ../count}}{{../count}}x {{/if}}{{../name}}{{/if}}</td>
+        <td>{{appendOnNumber range 'cm'}}</td>
+        <td>
+            {{firepower}}
+            {{#each specialRules}}
+            , <i><abbr title="{{description}}">{{name}}</abbr></i>
+            {{/each}}
+        </td>
+    </tr>
+    {{/each}}
+    {{/each}}
+    {{#if @hasNotes}}
+    <tr class="unit-row-{{oddEven @index}} unit-row-bottom">
+        <td colspan="9" style="border-top: none">
+            <small>
+                Notes:
+                {{#each specialRules}}
+                {{#unless @last}}<i>{{this}}</i>,{{/unless}}
+                {{#if @last}}<i>{{this}}</i>.{{/if}}
+                {{/each}}
+                {{notes}}
+            </small>
+        </td>
+    </tr>
+    {{/if}}
+    {{/unit}}
+    {{/each}}
+    </tbody>
+</table>
+</div>
+
+{{> special-rules}}
+{{/if}}
+{{/each}}
+
+<p>&nbsp;</p>
