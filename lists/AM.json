@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Adeptus Mechanicus Forces",
+    "specialRules": [
+      {
+        "title": "Automaton",
+        "description": [
+          "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
+          "A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast marker however.",
+          "If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker then it may attempt to save normally.",
+          "Automaton units killed in an assault count for the purposes of working out its result."
+        ]
+      }
+    ],
+    "unit": [
+      {
+          "name": "Archmagos",
+          "type": "INF",
+          "speed": 15,
+          "armour": 3,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Solar Atomiser",
+            "Omnissian Axe"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Inspiring",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Magos",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Eradication Ray",
+            "Omnissian Axe"
+          ],
+          "specialRules": [
+            "Commander",
+            "Inspiring",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Tech Priest",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Eradication Ray",
+            "Omnissian Axe"
+          ],
+          "specialRules": [
+            "Leader",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Skitarii Vanguard",
+          "type": "INF",
+          "speed": 15,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Radium Carbine"
+          ],
+          "specialRules": [
+          ]
+      },
+      {
+          "name": "Kataphron Breacher",
+          "type": "INF",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 5,
+          "weapons": [
+            "Heavy Arc Rifle",
+            "Hydraulic Claw"
+          ],
+          "specialRules": [
+            "Notes: Automaton",
+            "Invulnerable Save",
+            "Count as 2 for the purpose of being transported"
+          ]
+      },
+      {
+          "name": "Kataphron Destroyer",
+          "type": "INF",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 5,
+          "weapons": [
+            "Plasma Culverin",
+            "Cognis Flamer"
+          ],
+          "specialRules": [
+            "Notes: Automaton",
+            "Invulnerable Save",
+            "Count as 2 for the purpose of being transported"
+          ]
+      },
+      {
+          "name": "Skitarii Rangers",
+          "type": "INF",
+          "speed": 15,
+          "armour": 6,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Transuranic Arquebus"
+          ],
+          "specialRules": [
+          ]
+      },
+      {
+          "name": "Secutarii",
+          "type": "INF",
+          "speed": 15,
+          "armour": 5,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Kinetic Hammershot"
+          ],
+          "specialRules": [
+          ]
+      },
+      {
+          "name": "Electro-Priests",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Electroleech Staff",
+            "Electro Charges"
+          ],
+          "specialRules": [
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Sicarian Infiltrators",
+          "type": "INF",
+          "speed": 20,
+          "armour": 4,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Stubcarbine",
+            "Taser Goad"
+          ],
+          "specialRules": [
+            "Teleport"
+          ]
+      },
+      {
+          "name": "Sicarian Ruststalkers",
+          "type": "INF",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "weapons": [
+            "Transonic Blades"
+          ],
+          "specialRules": [
+            "Infiltrator"
+          ]
+      },
+      {
+          "name": "Kastelan Robots",
+          "type": "LV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Phosphor Blaster",
+            "Power Fist"
+          ],
+          "specialRules": [
+            "Automaton",
+            "Walker",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Ironstrider Ballistarius",
+          "type": "LV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Twin Autocannon|0-1|",
+            "Twin Lascannon|0-1|"
+          ],
+          "specialRules": [
+            "Scout",
+            "Walker",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Sydonian Dragoon",
+          "type": "LV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Radium Jezzail",
+            "Taser Lance"
+          ],
+          "specialRules": [
+            "Infiltrator",
+            "Scout",
+            "Walker",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Onager Dunecrawler",
+          "type": "AV",
+          "speed": 20,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Eradication Beamer",
+            "Icarus Array"
+          ],
+          "specialRules": [
+            "Walker",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Chimeradon",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Conqueror Cannon",
+            "Heavy Bolter"
+          ],
+          "specialRules": [
+            "Transport: May transport two infantry units without Jump Packs or Mounted."
+          ]
+      },
+      {
+          "name": "Terrax Pattern Termite Assault Drill",
+          "type": "AV",
+          "speed": 20,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Volkite Charges"
+          ],
+          "specialRules": [
+            " Tunneler",
+            "Transport: May transport two infantry units without Jump Packs or Mounted"
+          ]
+      }
+
+    ]
+  }
+]

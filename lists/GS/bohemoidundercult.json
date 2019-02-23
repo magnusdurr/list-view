@@ -30,6 +30,7 @@
         "Purestrain Genestealers",
         "Achilles Ridgerunner",
         "Atalan Jackal Quad Bike",
+        "Armoured Limousine",
         "Goliath Rockgrinder",
         "Goliath Truck"
 
@@ -72,7 +73,8 @@
 ],
 "sections": [
     {
-      "name": "Cult Broods (One Genestealer Brood for each Patriarch Coven, Brood Brothers or Hybrid Brood formations.)",
+      "name": "Cult Broods",
+      "description": "One Genestealer Brood for each Patriarch Coven, Brood Brothers or Hybrid Brood formations.",
       "formations": [
         {
           "name": "0-1 Patriarch Host (1 Must be taken.)",
@@ -107,6 +109,7 @@
         },
         {
           "name": "Genestealer Brood",
+
           "units": "Six Genestealer Units, One Broodlord",
           "upgrades": [
             "Genestealers"

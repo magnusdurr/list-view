@@ -21,7 +21,28 @@
       "specialRules": [
 
       ]
+    },
+    {
+      "name": "Avenger Strike Fighters",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 5,
+      "weapons": [
+        "Aircraft Avenger Bolt Cannon", "Aircraft Twin Lascannon", "Aircraft Heavy Stubber"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Ark Mechanicus Battleship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 6BP|0-1 1|",
+        "Pin Point|0-1 2|"
+      ]
     }
+
     ]
   }
 ]

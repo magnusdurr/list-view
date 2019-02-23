@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Eldar Aircraft and Spacecraft",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Nightwing Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Twin Shuriken Cannons",
+        "Aircraft Twin Bright Lances"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Phoenix Bomber",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Twin Shuriken Cannons",
+        "Aircraft Pulse Laser",
+        "Aircraft Spinner Array"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Vampire Raider",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "Aircraft Pulse Laser|2|",
+        "Aircraft Scatter Laser"
+      ],
+      "specialRules": [
+        "Planetfall",
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Transport (May carry up to eight of the following: Warlock, Farseer, Guardian, Wraithguard, Ranger, Pathfinder, Heavy Weapon Platform, Support Weapon Platform, Howling Banshee, Striking Scorpion, Fire Dragon, Dire Avenger, Dark Reaper, Warp Spider & Swooping Hawk units).",
+        "Critical Hit Effect: The Vampire and all on board are destroyed."
+
+      ]
+    },
+    {
+      "name": "Vampire Hunter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "Aircraft Hunter Twin Pulsars",
+        "Aircraft Twin Eldar Missile Launchers",
+        "Aircraft Scatter Laser"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Wraithship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 4BP|0-1|",
+        "Pin Point|0-1|"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Dragonship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 8BP|0-1 1|",
+        "Pin Point|0-1 2|"
+      ],
+      "specialRules": [
+        "Transport (May carry up to 12 Vampires and any units transported within them)"
+      ]
+    }
+    ]
+  }
+]

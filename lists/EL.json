@@ -1,0 +1,704 @@
+[
+  {
+    "name": "Eldar Forces",
+    "specialRules": [
+
+    ],
+    "unit": [
+    {
+      "name": "Wild Rider Chieftain",
+      "type": "CH",
+      "weapons": [
+        "Eldar Power Weapon",
+        "Shuriken Cannon"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Invulnerable Save",
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Eldar Autarch",
+      "type": "CH",
+      "weapons": [
+        "Eldar Power Weapon",
+        "Autarch Ranged Weapon"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Invulnerable Save",
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Seer Council",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Witch Blades",
+        "Psychic Powers"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Farsight",
+        "Invulnerable Save",
+        "Seer Council units can be used to summon the Avatar"
+      ]
+    },
+    {
+      "name": "Wraithseer",
+      "type": "CH",
+      "weapons": [
+        "Singing Spear"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Farsight",
+        "Wraithseer units can be used to summon the Avatar"
+      ]
+    },
+    {
+      "name": "Spiritseer",
+      "type": "CH",
+      "weapons": [
+        "Singing Spear"
+      ],
+      "specialRules": [
+        "Commander",
+        "Farsight",
+        "Spiritseer units can be used to summon the Avatar"
+      ]
+    },
+    {
+      "name": "Avatar",
+      "type": "WE",
+      "speed": 15,
+      "armour": 3,
+      "cc": 2,
+      "ff": 5,
+      "weapons": [
+        "Wailing Doom",
+        "Court of the Young King"],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Commander",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Avatar is destroyed. All Eldar formations with a line of sight to the Avatar receive one blast marker."
+    },
+    {
+      "name": "Eldar Exarch",
+      "type": "CH",
+      "weapons": [
+        "Diresword",
+        "Exarch Ranged Weapon",
+        "Exarch Close Combat Weapon",
+        "Executioner",
+        "Firepike",
+        "Starlance"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Leader",
+        "Inspiring"
+      ],
+      "notes": "Leader, Inspiring, Invulnerable Save. Dire Avenger Exarchs are armed with a Diresword; Striking Scorpion Exarchs are armed with an Exarch Close Combat Weapon. Swooping Hawk, Warp Spider & Dark Reaper Exarchs are armed with Exarch Ranged Weapons. Fire Dragon Exarchs are armed with a Firepike, Howling Banshee Exarchs are armed with an Executioner and Shining Spear Exarchs are armed with a Starlance."
+    },
+    {
+      "name": "Mounted Farseer",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Witch Blades",
+        "Twin Shuriken Catapults"
+      ],
+      "specialRules": [
+        "Commander",
+        "Farsight",
+        "Invulnerable Save",
+        "Mounted",
+        "Skimmer",
+        "Mounted Farseer units can be used to summon the Avatar"
+      ]
+    },
+    {
+      "name": "Eldar Farseer",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Witch Blades",
+        "Shuriken Pistols"
+      ],
+      "specialRules": [
+        "Farsight",
+        "Commander",
+        "Farseer units can be used to summon the Avatar"
+      ]
+    },
+    {
+      "name": "Eldar Warlock",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Witch Blades",
+        "Shuriken Pistols"
+      ],
+      "specialRules": [
+        "Commander"
+      ]
+    },
+    {
+      "name": "Eldar Guardians",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Shuriken Catapults"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Black Guardians",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Shuriken Catapults"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Eldar Heavy Weapons Platform",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Scatter Laser"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Support Weapons Platform",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Distort Cannon"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Eldar Rangers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Long Rifles",
+       "Shuriken Pistols"
+      ],
+      "specialRules": [
+        "Scouts"
+      ]
+    },
+    {
+      "name": "Eldar Jetbikes",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Twin Shuriken Catapults"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Saim Hann Wild Riders",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Twin Shuriken Catapults"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Skimmer",
+        "Invulnerable Save"
+      ]
+    },
+    {
+      "name": "Dire Avenger",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Avenger Shuriken Catapults"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Fire Dragon",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Fusion Guns"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Dark Reapers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Reaper Missile Launchers"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Striking Scorpion",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Mandiblasters",
+        "Shuriken Pistols"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Howling Banshee",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 2,
+      "ff": 5,
+      "weapons": [
+        "Banshee Mask",
+        "Shuriken Pistols"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Shinning Spear",
+      "type": "INF",
+      "speed": 35,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Power Lances",
+        "Twin Shuriken Catapults"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Swooping Hawk",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Lasblasters"
+      ],
+      "specialRules": [
+        "Jump packs",
+        "Scout",
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Warp Spider",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Death Spinners"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Infiltrators",
+        "Jump Packs"
+      ]
+    },
+    {
+      "name": "Wraithblade",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 3,
+      "weapons": [
+        "Wraith Blades"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Invulnerable Save",
+        "Counts as a Wraithguard unit for the purposes of being transported"
+      ]
+    },
+    {
+      "name": "Wraithguard",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Wraith Cannons"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Invulnerable Save"
+      ]
+    },
+    {
+      "name": "Vyper",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Scatter Laser"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "War Walkers",
+      "type": "LV",
+      "speed": 20,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Scatter Laser",
+        "Bright Lance"
+      ],
+      "specialRules": [
+        "Scout",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Hornet",
+      "type": "LV",
+      "speed": 40,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Hornet Pulse Laser"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Scout"
+      ]
+    },
+    {
+      "name": "Wraithlord",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Eldar Power Fist",
+        "Bright Lance"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Reinforced Armour",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Wave Serpent",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Twin Shuriken Cannons"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Skimmer",
+        "Transport (May carry up to two of the following: Warlock, Farseer, Guardian, Heavy Weapon Platform, Howling Banshee, Striking Scorpion, Fire Dragon, Dire Avenger, Dark Reaper & Swooping Hawk units or one Wraithguard unit)"
+      ]
+    },
+    {
+      "name": "Falcon",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Pulse Laser",
+        "Scatter Laser"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Transport (May carry up to one of the following: Warlock, Farseer, Guardian, Heavy Weapon Platform, Howling Banshee, Striking Scorpion, Fire Dragon, Dire Avenger, Dark Reaper & Swooping Hawk units or one Wraithguard unit)"
+      ]
+    },
+    {
+      "name": "Fire Prism",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Prism Cannon"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Night Spinner",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Night Spinner"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Fire Storm",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Firestorm Battery"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Wraithknight",
+      "type": "AV-K",
+      "speed": 30,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Wraith Knight Cannons"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Scorpion",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Pulsars",
+        "Shuriken Cannon"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Skimmer"
+      ],
+      "notes": "Critical Hit Effect: The Cobra is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+    },
+    {
+      "name": "Cobra",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Cobra D-Cannon",
+        "Eldar Missile Launcher",
+        "Shuriken Cannon"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Skimmer"
+      ],
+      "notes": "Critical Hit Effect: The Cobra is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+    },
+    {
+      "name": "Storm Serpent",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Pulse Lasers",
+        "Scatter Laser"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Webway Portal",
+        "Skimmer"
+      ],
+      "notes": "Critical Hit Effect: The Cobra is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+    },
+    {
+      "name": "Void Spinner",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Void Spinner"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Skimmer"
+      ],
+      "notes": "Critical Hit Effect: The Cobra is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+    },
+    {
+      "name": "Revenant Titan",
+      "type": "WE",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Revenant Pulsar|2|",
+        "Eldar Missile Launcher|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Fearless",
+        "Holofield (4+)",
+        "Jump Pack",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Revenant’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
+    },
+    {
+      "name": "Phantom Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+        "Titan Pulsar|1-2|",
+        "Eldar Titan Power Fist|0-1|",
+        "Twin Eldar Missile Launcher|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Fearless",
+        "Holofield (3+)",
+        "Leader",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Phantom Titan's holofields are destroyed. Any further critical hits cause an additional point of damage."
+    },
+    {
+      "name": "Warlock Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+        "Psychic Lance",
+        "Eldar Titan Power Fist",
+        "Twin Eldar Missile Launcher|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Fearless",
+        "Holofield (3+)",
+        "Inspiring",
+        "Farsight",
+        "Leader",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Warlock’s holofields are destroyed. Any further critical hits cause an additional point of damage."
+    }
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Questoris Mechanicus Knights",
+    "specialRules": [
+      {
+        "title": "Bravery",
+        "description": [
+          "All Knight formations receive a +1 modifier to their action test when carrying out an Engage action, and a +1 modifier to their rally tests."
+        ]
+      },
+      {
+        "title": "Honour",
+        "description": [
+          "Reduce the damage caused by blast markers to a broken Knight formation by 1, and reduce the number of extra hits suffered by a Knight formation that loses an assault by 1."
+        ]
+      },
+      {
+        "title": "Ion Shield (X)",
+        "description": [
+          "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
+          "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
+          "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
+        ]
+      },
+      {
+        "title": "Shield Piercer",
+        "description": [
+          "Ignores Power Fields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
+        ]
+      },
+      {
+        "title": "Lightning Charge",
+        "description": [
+          "Weapon gains First Strike when the wielder's formation initiated the Engage"
+        ]
+      },
+      {
+        "title": "Unstable",
+        "description": [
+          "If a natural 1 is rolled when rolling to hit, roll another dice. If the result is yet another natural 1, the wielder is destroyed."
+        ]
+      },
+      {
+        "title": "Knight Units (AV-K)",
+        "description": [
+          "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attack in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+        ]
+      }
+    ],
+    "unit": [
+      {
+          "name": "Dominus Knight-Castellan",
+          "type": "AV-K",
+          "speed": 15,
+          "armour": 3,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Volcano Lance",
+            "Plasma Decimator",
+            "Twin Siegebreaker Cannon|2|",
+            "Shieldbreaker Missiles|2|",
+            "Twin Melta Guns"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Questoris Knight-Paladin",
+          "type": "AV-K",
+          "speed": 15,
+          "armour": 3,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Rapid Fire Battle Cannon",
+            "Heavy Stubber|2|",
+            "Shock Field",
+            "Reaper Chainsword"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Knight-Crusader",
+          "type": "AV-K",
+          "speed": 15,
+          "armour": 3,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Rapid Fire Battle Cannon",
+            "Avenger Gatling Cannon",
+            "Heavy Stubber|2|",
+            "Twin Icarus Autocannon"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      }
+    ]
+  }
+]

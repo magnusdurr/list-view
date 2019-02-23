@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Necron Aircraft and Spacecraft",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+
+    {
+      "name": "Night Scythe",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Twin Tesla Destructor", "Aircraft Gate Projector Array"
+      ],
+      "specialRules": [
+        "Portal"
+      ]
+    },
+    {
+      "name": "Doom Scythe",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Twin Tesla Destructor", "Aircraft Death Ray"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Night Shroud Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "Aircraft Twin Tesla Destructor", "Aircraft Death Spheres"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Scythe Class Harvester",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 4BP",
+        "Pin Point|2|"
+      ]
+    }
+
+    ]
+  }
+]
