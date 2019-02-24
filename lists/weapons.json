@@ -45,10 +45,6 @@
         }
       ]
     },
-
-
-
-
     {
       "name": "Aircraft Avenger Bolt Cannon",
         "modes": [
@@ -86,6 +82,22 @@
       ]
     },
     {
+      "name": "Aircraft Disintegrator Array",
+        "modes": [
+          {
+            "firepower": "AA5+",
+            "range": 30
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+2)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aircraft Gate Projector Array",
         "modes": [
           {
@@ -94,6 +106,20 @@
               "Portal"
           ]
           }
+      ]
+    },
+    {
+      "name": "Aircraft Heavy Phantom Lance",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 45,
+            "specialRules": [
+              "TK(D3)",
+              "FxF"
+
+          ]
+        }
       ]
     },
     {
@@ -122,6 +148,19 @@
       ]
     },
     {
+      "name": "Aircraft Moonscythe Missiles",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 30,
+            "specialRules": [
+              "D",
+              "FxF"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aircraft Multilaser",
       "modes": [
         {
@@ -130,7 +169,6 @@
         }
       ]
     },
-
     {
       "name": "Aircraft Pulse Laser",
       "modes": [
@@ -169,11 +207,37 @@
       ]
     },
     {
+      "name": "Aircraft Splinter Cannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AA5+",
+            "range": 15,
+            "specialRules": [
+              "FxF"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aircraft Storm Bolters",
       "modes": [
         {
           "firepower": "AP4+/AA5+ FxF",
           "range": 15
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Turreted Splinter Cannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AA5+",
+            "range": 15,
+            "specialRules": [
+              "Lance",
+              "FxF"
+
+          ]
         }
       ]
     },
@@ -186,6 +250,19 @@
           "specialRules": [
             "FxF",
             "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Twin Dark Lances",
+        "modes": [
+          {
+            "firepower": "AT4+/AA5+",
+            "range": 30,
+            "specialRules": [
+              "Lance",
+              "FxF"
           ]
         }
       ]
@@ -239,6 +316,33 @@
       ]
     },
     {
+      "name": "Aircraft Twin Void Lances",
+        "modes": [
+          {
+            "firepower": "AT3+/AA5+",
+            "range": 30,
+            "specialRules": [
+              "Lance",
+              "FxF"
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aircraft Void Mines",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 15,
+            "specialRules": [
+              "Lance",
+              "FxF"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aircraft Underwing Rockets",
       "modes": [
         {
@@ -260,12 +364,35 @@
       ]
     },
     {
+      "name": "Agonizer",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Apocalypse Missile Launcher",
       "modes": [
         {
           "firepower": "3BP",
           "range": 60,
           "specialRules": ["D"]
+        }
+      ]
+    },
+    {
+      "name": "Arcane Terrors",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)"
+          ]
         }
       ]
     },
@@ -341,6 +468,16 @@
       ]
     },
     {
+      "name": "Balefire",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Baneblade Battlecannon",
           "modes": [
             {
@@ -368,6 +505,16 @@
           "firepower": "Assault Weapons",
           "specialRules": [
             "FS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
           ]
         }
       ]
@@ -425,6 +572,18 @@
       ]
     },
     {
+      "name": "Dark Lance",
+        "modes": [
+          {
+            "firepower": "AT5+",
+            "range": 30,
+            "specialRules": [
+              "Lance"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Death Spinners",
       "modes": [
         {
@@ -448,6 +607,18 @@
       ]
     },
     {
+      "name": "Desolator",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 30,
+            "specialRules": [
+              "D"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Diresword",
       "modes": [
         {
@@ -455,6 +626,17 @@
           "specialRules": [
             "EA(+1)",
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disintegrator",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
+            "range": 30,
+            "specialRules": [
           ]
         }
       ]
@@ -850,6 +1032,16 @@
       ]
     },
     {
+      "name": "Grotesques Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Harvesters",
         "modes": [
           {
@@ -945,6 +1137,16 @@
         {
           "firepower": "AP6+",
           "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Hellglaives",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
         }
       ]
     },
@@ -1045,6 +1247,18 @@
       ]
     },
     {
+      "name": "Klaives",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Large Rending Claws",
       "modes": [
         {
@@ -1083,7 +1297,30 @@
         }
       ]
     },
-
+    {
+      "name": "Liquefiers",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Long Barrelled Splinter Cannons",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 45,
+            "specialRules": [
+              "Lance"
+          ]
+        }
+      ]
+    },
     {
       "name": "Long Rifles",
       "modes": [
@@ -1102,6 +1339,16 @@
           "firepower": "Assault Weapons",
           "specialRules": [
             "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mandrake Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
           ]
         }
       ]
@@ -1207,6 +1454,18 @@
       ]
     },
     {
+      "name": "Paralyzer",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Particle Accelerator",
         "modes": [
           {
@@ -1262,12 +1521,46 @@
       ]
     },
     {
+      "name": "Perditor Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Phantom Lance",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 45,
+            "specialRules": [
+              "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Phosphor Blaster",
         "modes": [
           {
             "firepower": "AP5+/AT6+",
             "range":30
           }
+      ]
+    },
+    {
+      "name": "Poison Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -1575,6 +1868,17 @@
       ]
     },
     {
+      "name": "Scissor Hands",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Scout Turbo-Laser Destructor",
       "modes": [
         {
@@ -1726,6 +2030,57 @@
       ]
     },
     {
+      "name": "Splinter Cannons",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 15,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Splinter Carbines",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Splinter Pistols",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Splinter Pods",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Splinter Rifles",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Solar Atomiser",
         "modes": [
           {
@@ -1833,6 +2188,18 @@
       ]
     },
     {
+      "name": "Talos Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Taser Goad",
         "modes": [
           {
@@ -1849,6 +2216,17 @@
               "FS"
           ]
           }
+      ]
+    },
+    {
+      "name": "Teeth and Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+        }
       ]
     },
     {
@@ -1941,6 +2319,28 @@
             "MW"
           ]
           }
+      ]
+    },
+    {
+      "name": "Tormentors",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tormentor Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+2)",
+              "TK(1)"
+          ]
+        }
       ]
     },
     {
@@ -2171,6 +2571,16 @@
       ]
     },
     {
+      "name": "Twin Splinter Rifles",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Twin Tesla Carbines",
         "modes": [
           {
@@ -2295,6 +2705,18 @@
       ]
     },
     {
+      "name": "Widowmaker",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "specialRules": [
+              "D",
+              "Ind"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Witch Blades",
       "modes": [
         {
@@ -2360,7 +2782,7 @@
           ]
         }
       ]
-    }
+    },
 
   ],
   "rules": [
