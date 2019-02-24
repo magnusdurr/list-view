@@ -13,6 +13,17 @@
       ]
     },
     {
+      "name": "Orbital Bombardment 3BP",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "specialRules": [
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Orbital Bombardment 4BP",
       "modes": [
         {
@@ -55,6 +66,33 @@
               "FxF"
           ]
           }
+      ]
+    },
+    {
+      "name": "Aircraft Bomb Racks",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 15,
+            "specialRules": [
+              "IC",
+              "FxF"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Aircraft Collossus Bomb",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 15,
+          "specialRules": [
+            "TK(D3)",
+            "Slw",
+            "FxF"
+          ]
+        }
       ]
     },
     {
@@ -277,6 +315,18 @@
             "FxF"
           ]
         }
+      ]
+    },
+    {
+      "name": "Aircraft Twin Heavy Bolter",
+        "modes": [
+          {
+            "firepower": "AA5+",
+            "range": 15,
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {
@@ -540,6 +590,18 @@
       ]
     },
     {
+      "name": "Catachan Missile Launcher",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+/AA5+",
+            "range": 45,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Cobra D-Cannon",
         "modes": [
           {
@@ -729,6 +791,18 @@
       ]
     },
     {
+      "name": "Demolisher Cannon",
+      "modes": [
+        {
+          "firepower": "AP3+/AT4+",
+          "range": 45,
+          "specialRules": [
+            "IC"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Doomsday Cannon",
         "modes": [
           {
@@ -911,6 +985,18 @@
           "firepower": "2× AP5+/AT5+/AA4+",
           "range": 45,
           "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flamer",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+
+          "specialRules": [
+            "IC"
           ]
         }
       ]
@@ -1116,6 +1202,15 @@
         }
       ]
     },
+    {
+      "name": "Heavy Bolters",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30
+        }
+      ]
+    },
 
     {
       "name": "Heavy Gauss Cannon",
@@ -1158,6 +1253,18 @@
       ]
     },
     {
+      "name": "Heavy Mortar",
+      "modes": [
+        {
+          "firepower": "1BP",
+          "range": 30,
+          "specialRules": [
+            "Ind"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Stubber",
       "modes": [
         {
@@ -1174,6 +1281,19 @@
             "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Hellstrike Missiles",
+        "modes": [
+          {
+            "firepower": "AT2+",
+            "range": 120,
+            "specialRules": [
+              "SS"
+
+          ]
+          }
       ]
     },
     {
@@ -1244,6 +1364,25 @@
       ]
     },
     {
+      "name": "Inferno Cannon",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 30,
+            "specialRules": [
+              "IC"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Jackal Guns",
       "modes": [
         {
@@ -1261,6 +1400,17 @@
             "S"
           ]
         }
+      ]
+    },
+    {
+      "name": "Jungle Knives",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {
@@ -1316,6 +1466,14 @@
       ]
     },
     {
+      "name": "Laspistols",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
       "name": "Lasguns",
       "modes": [
         {
@@ -1323,6 +1481,7 @@
         }
       ]
     },
+
     {
       "name": "Liquefiers",
         "modes": [
@@ -1395,6 +1554,17 @@
       ]
     },
     {
+      "name": "Melta Gun",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Metamorph Claws",
       "modes": [
         {
@@ -1439,6 +1609,19 @@
       ]
     },
     {
+      "name": "Mortar",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 30,
+            "specialRules": [
+              "Ind"
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Mounted Guns",
       "modes": [
         {
@@ -1446,6 +1629,23 @@
         }
       ]
     },
+    {
+      "name": "Multi Melta",
+        "modes": [
+          {
+            "firepower": "MW5+",
+            "range": 15
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "MW"
+          ]
+        }
+      ]
+    },
+
     {
       "name": "Multilaser",
       "modes": [
@@ -1463,6 +1663,18 @@
           "range": 45,
           "specialRules": [
             "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ogryn Weapons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
           ]
         }
       ]
@@ -1635,6 +1847,31 @@
           }
       ]
     },
+    {
+      "name": "Plasma Cannons",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 30,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Plasma Gun",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 15,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+
     {
       "name": "Power Lances",
       "modes": [
@@ -1838,6 +2075,16 @@
       ]
     },
     {
+      "name": "Ripper Guns",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Rods of Covenant",
         "modes": [
           {
@@ -1853,6 +2100,34 @@
               "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "Rocket Launcher",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 120,
+            "specialRules": [
+              "D",
+              "Ind",
+              "Slw"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Rocket Pods",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 30,
+            "specialRules": [
+              "D"
+
+          ]
+          }
       ]
     },
     {
@@ -2051,6 +2326,30 @@
         {
           "firepower": "Small Arms",
           "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sniper Rifle",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 30,
+            "specialRules": [
+              "S"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sniper Rifles",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 30,
+            "specialRules": [
+              "S"
           ]
         }
       ]
@@ -2650,6 +2949,18 @@
       ]
     },
     {
+      "name": "Vanquisher Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT2+",
+            "range": 75,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Vengeance Launcher",
       "modes": [
         {
@@ -2668,6 +2979,18 @@
             "Ind"
           ]
         }
+      ]
+    },
+    {
+      "name": "Volcano Cannon",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 90,
+            "specialRules": [
+              "TK(D3)"
+          ]
+          }
       ]
     },
     {
@@ -2820,6 +3143,13 @@
         }
       ]
     }
+
+
+
+
+
+
+
 
 
 

@@ -16,7 +16,9 @@
       "speed": "Fighter Bomber",
       "armour": 6,
       "weapons": [
-        "Aircraft Multilaser", "Aircraft Underwing Rockets", "Aircraft Storm Bolters"
+        "Aircraft Multilaser",
+        "Aircraft Underwing Rockets",
+        "Aircraft Storm Bolters"
       ],
       "specialRules": [
 
@@ -28,10 +30,59 @@
       "speed": "Fighter Bomber",
       "armour": 5,
       "weapons": [
-        "Aircraft Avenger Bolt Cannon", "Aircraft Twin Lascannon", "Aircraft Heavy Stubber"
+        "Aircraft Avenger Bolt Cannon",
+        "Aircraft Twin Lascannon",
+        "Aircraft Heavy Stubber"
       ],
       "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Twin Lascannon",
+        "Aircraft Bomb Racks",
+        "Aircraft Twin Heavy Bolter|2|"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Marauder Colossus Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Twin Lascannon",
+        "Aircraft Collossus Bomb",
+        "Aircraft Twin Heavy Bolter|2|"
+      ],
+      "specialRules": [
+
+      ]
+    },
+
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 3BP",
+        "Pin Point"
+      ]
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 8BP"
+      ],
+      "specialRules": [
+        "Slow to Arrive"
       ]
     },
     {

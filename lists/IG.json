@@ -11,6 +11,281 @@
     ],
     "unit": [
     {
+      "name": "Catachan Supreme Commander",
+      "type": "CH",
+      "weapons": [
+        "Power Weapon",
+        "Heavy Flamer"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Inspiring",
+        "Fearless"
+      ]
+    },
+    {
+      "name": "Steel Legion Supreme Commander",
+      "type": "CH",
+      "weapons": [
+        "Power Weapon",
+        "Autocannon"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
+      "name": "Catachan Commander",
+      "type": "CH",
+      "weapons": [
+        "Power Weapon",
+        "Heavy Flamer"
+      ],
+      "specialRules": [
+        "Commander",
+        "Inspiring",
+        "Fearless"
+      ]
+    },
+    {
+      "name": "Steel Legion Commander",
+      "type": "CH",
+      "weapons": [
+        "Autocannon"
+      ],
+      "specialRules": [
+        "Commander"
+      ]
+    },
+    {
+      "name": "Tempestor",
+      "type": "CH",
+      "weapons": [
+        "Plasma Gun"
+      ],
+      "specialRules": [
+        "Commander",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "weapons": [
+        "Power Weapon",
+        "Melta Gun"
+      ],
+      "specialRules": [
+        "Leader",
+        "Inspiring",
+        "Fearless",
+        "Has Melta Gun if attached to a WE, AV or LV unit, or Power Weapon if attached to an INF unit"
+      ]
+    },
+    {
+      "name": "Lord Commissar",
+      "type": "CH",
+      "weapons": [
+        "Power Weapon",
+        "Melta Gun"
+      ],
+      "specialRules": [
+        "Leader",
+        "Inspiring",
+        "Has Melta Gun if attached to a WE, AV or LV unit, or Power Weapon if attached to an INF unit",
+        "All units in a formation joined by a Lord Commissar gain Fearless. If the Lord Commissar is killed then all these units lose Fearless and the formation receives an additional D3 Blast markers."
+      ]
+    },
+
+    {
+      "name": "Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Autocannon",
+        "Lasguns"
+      ],
+      "specialRules": [
+        "One in every two has an Autocannon"
+      ]
+    },
+    {
+      "name": "Catachan Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Jungle Knives",
+        "Flamer"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Catachan Mortar Squad",
+      "type": "INF",
+      "speed": 15,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Jungle Knives",
+        "Mortar"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Catachan Missile Team",
+      "type": "INF",
+      "speed": 15,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Jungle Knives",
+        "Catachan Missile Launcher"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Ogryns",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Ogryn Weapons",
+        "Ripper Guns"
+      ],
+      "specialRules": [
+        "Counts as 2 infantry for the purpose of being transported"
+
+      ]
+    },
+    {
+      "name": "Rough Riders",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Laspistols",
+        "Power Lances"
+      ],
+      "specialRules": [
+        "Infiltrator",
+        "Mounted",
+        "Scout"
+      ]
+    },
+    {
+      "name": "Catachan Sniper",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Jungle Knives",
+        "Sniper Rifles"
+      ],
+      "specialRules": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Sniper",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Sniper Rifles"
+      ],
+      "specialRules": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Deathworld Veterans",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Heavy Flamer",
+        "Jungle Knives"
+      ],
+      "specialRules": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Death World Devils",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Multi Melta",
+        "Jungle Knives"
+      ],
+      "specialRules": [
+        "Scout",
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Tempestus Scions",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Plasma Gun"
+      ],
+      "specialRules": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Support Squad",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Autocannon|2|"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Death World Sentinel",
+      "type": "LV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Inferno Cannon"
+      ],
+      "specialRules": [
+        "Scout",
+        "Walker"
+      ]
+    },
+    {
       "name": "Sentinel",
       "type": "LV",
       "speed": 20,
@@ -21,7 +296,8 @@
         "Multilaser"
       ],
       "specialRules": [
-        "Scout", "Walker"
+        "Scout",
+        "Walker"
       ]
     },
     {
@@ -67,6 +343,20 @@
       ]
     },
     {
+      "name": "Taurox",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Assault Cannon"
+      ],
+      "specialRules": [
+        "Transport (May carry 2 infantry units without jump packs or mounted)."
+      ]
+    },
+    {
       "name": "Deathstrike",
       "type": "AV",
       "speed": 20,
@@ -80,17 +370,31 @@
       ]
     },
     {
-      "name": "Leman Russ",
+      "name": "Griffon",
       "type": "AV",
-      "speed": 20,
-      "armour": 4,
+      "speed": 30,
+      "armour": 6,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
-        "Battle Cannon", "Lascannon", "Heavy Bolter|2"
+        "Heavy Mortar", "Heavy Bolter"
       ],
       "specialRules": [
-        "Reinforced Armour"
+
+      ]
+    },
+    {
+      "name": "Hellhound",
+      "type": "AV",
+      "speed": 30,
+      "armour": 4,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Inferno Cannon", "Heavy Bolter"
+      ],
+      "specialRules": [
+
       ]
     },
     {
@@ -108,6 +412,112 @@
       ]
     },
     {
+      "name": "Leman Russ",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Battle Cannon", "Lascannon", "Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Demolisher Cannon", "Lascannon", "Plasma Cannons|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Leman Russ Vanquisher",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Vanquisher Cannon", "Lascannon", "Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Manticore",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Rocket Launcher", "Heavy Bolter"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Valkyrie",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Rocket Pods",
+        "Multilaser",
+        "Heavy Bolters|2|"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Scout",
+        "Transport (May carry 2 infantry units without jump pack out mounted)"
+      ]
+    },
+    {
+      "name": "Vulture",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Hellstrike Missiles|2|",
+        "Twin Autocannon",
+        "Heavy Bolters"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Scout"
+      ]
+    },
+    {
+      "name": "Vendetta",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Lascannon|3|",
+        "Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Scout"
+      ]
+    },
+    {
       "name": "Baneblade",
       "type": "WE",
       "speed": "15cm",
@@ -120,6 +530,23 @@
         "Demolisher",
         "Lascannon|2",
         "Twin Heavy Bolter|3"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour"
+      ],
+      "notes": "Critical Hit Effect: The unit is destroyed."
+    },
+    {
+      "name": "Shadowsword",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Volcano Cannon",
+        "Twin Heavy Bolter|2"
       ],
       "specialRules": [
         "Damage Capacity 3",

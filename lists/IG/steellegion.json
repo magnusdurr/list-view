@@ -14,44 +14,55 @@
     {
       "from": "IG.json",
       "units": [
-
+        "Steel Legion Supreme Commander",
+        "Steel Legion Commander",
+        "Tempestor",
+        "Commissar",
+        "Lord Commissar",
+        "Infantry ",
+        "Ogryns",
+        "Rough Riders",
+        "Sniper",
+        "Tempestus Scions",
+        "Support Squad",
+        "Sentinel",
+        "Basilisk",
+        "Bombard",
+        "Chimera",
+        "Taurox",
+        "Deathstrike",
+        "Griffon",
+        "Hellhound",
+        "Hydra",
+        "Leman Russ",
+        "Leman Russ Demolisher",
+        "Leman Russ Vanquisher",
+        "Manticore",
+        "Valkyrie",
+        "Vulture",
+        "Shadowsword",
+        "Baneblade"
       ],
         "unitRules": [
-          "Steel Legion Supreme Commander ",
-          "Steel Legion Commander",
-          "Tempestor",
-          "Commissar",
-          "Lord Commissar",
-          "Infantry ",
-          "Ogryns",
-          "Rough Riders",
-          "Sniper",
-          "Tempestus Scions",
-          "Support Squad",
-          "Sentinel",
-          "Basilisk",
-          "Bombard",
-          "Chimera",
-          "Taurox",
-          "Deathstrike",
-          "Griffon",
-          "Hellhound",
-          "Hydra",
-          "Leman Russ",
-          "Leman Russ Demolisher",
-          "Leman Russ Vanquisher",
-          "Manticore",
-          "Valkyrie",
-          "Vulture",
-          "Baneblade",
-          "Shadowsword"
+
+
           ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Reaver",
+        "Warhound"
+      ],
+      "unitRules": [
+        "Imperial Void Shields"
+      ]
     },
 
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Thunderbolt Strike Fighters",
+        "Thunderbolt",
         "Marauder Bomber",
         "Lunar Class Cruiser",
         "Emperor Class Battleship"
