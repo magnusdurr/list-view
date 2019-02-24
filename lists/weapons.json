@@ -186,6 +186,18 @@
       ]
     },
     {
+      "name": "Aircraft Lascannon",
+        "modes": [
+          {
+            "firepower": "AT5+/AA5+",
+            "range": 45,
+            "specialRules": [
+              "FxF"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Moonscythe Missiles",
         "modes": [
           {
@@ -447,6 +459,38 @@
       ]
     },
     {
+      "name": "Ardent Blade",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+2)",
+              "MW"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assassin Weapons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "S",
+              "FS"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Assault Cannon",
       "modes": [
         {
@@ -560,6 +604,51 @@
       ]
     },
     {
+      "name": "Big Choppas",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Big Shoota",
+        "modes": [
+          {
+            "firepower": "AP6+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Big Shootas",
+        "modes": [
+          {
+            "firepower": "AP6+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Big Gun",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Blades",
         "modes": [
           {
@@ -570,11 +659,34 @@
       ]
     },
     {
+      "name": "Blessed Weapon",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Bolt Pistols",
       "modes": [
         {
           "firepower": "Small Arms"
         }
+      ]
+    },
+    {
+      "name": "Bolters",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {
@@ -597,6 +709,16 @@
             "range": 45,
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Choppas",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
           ]
           }
       ]
@@ -658,6 +780,17 @@
       ]
     },
     {
+      "name": "Combat Flails",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Conqueror Cannon",
         "modes": [
           {
@@ -665,6 +798,18 @@
             "range": 45,
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Cyboar",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
           ]
           }
       ]
@@ -932,6 +1077,18 @@
       ]
     },
     {
+      "name": "Eviserator",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Exarch Close Combat Weapon",
       "modes": [
         {
@@ -966,6 +1123,29 @@
       ]
     },
     {
+      "name": "Exorcist Launcher",
+        "modes": [
+          {
+            "firepower": "2x AP6+/AT4+",
+            "range": 45,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Exterminators",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Firepike",
       "modes": [
         {
@@ -987,6 +1167,18 @@
           "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Fist of Gork",
+        "modes": [
+          {
+            "firepower": "MW5+/AA5+",
+            "range": 30,
+            "specialRules": [
+              "MW"
+          ]
+          }
       ]
     },
     {
@@ -1130,6 +1322,26 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Goring Tusks",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+D3)",
+            "MW"
+        ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+            "EA(+1)",
+            "TK(D3)"
+        ]
+      }
+    ]
     },
     {
       "name": "Graviton Gun",
@@ -1518,6 +1730,18 @@
       ]
     },
     {
+    "name": "Mega-choppa",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "TK(D3)"
+        ]
+        }
+    ]
+    },
+    {
       "name": "Mandiblasters",
       "modes": [
         {
@@ -1562,6 +1786,17 @@
             "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "Melta Guns",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "MW"
+          ]
+          }
       ]
     },
     {
@@ -1656,6 +1891,17 @@
       ]
     },
     {
+      "name": "Neural Whips",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Night Spinner",
       "modes": [
         {
@@ -1689,6 +1935,17 @@
               "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "'Ore Dakka",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
       ]
     },
     {
@@ -1871,6 +2128,30 @@
           }
       ]
     },
+    {
+      "name": "Plasma Guns",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 15,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Power Claw",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
+      ]
+    },
 
     {
       "name": "Power Lances",
@@ -1893,6 +2174,18 @@
             "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "Power Saws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
       ]
     },
     {
@@ -2300,6 +2593,16 @@
       ]
     },
     {
+      "name": "Shootas",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Shuriken Cannon",
       "modes": [
         {
@@ -2453,6 +2756,30 @@
       ]
     },
     {
+      "name": "Soopaguns",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 75,
+            "specialRules": [
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Squig Catapult",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 45,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Staff of Light",
         "modes": [
           {
@@ -2563,6 +2890,18 @@
               "EA(+1)"
           ]
         }
+      ]
+    },
+    {
+      "name": "Teeth and Horns",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "TK(1)"
+          ]
+          }
       ]
     },
     {
@@ -2770,11 +3109,33 @@
       ]
     },
     {
+      "name": "Twin Big Shootas",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Twin Bolters",
       "modes": [
         {
           "firepower": "Small Arms"
         }
+      ]
+    },
+    {
+      "name": "Twin Boltpistols",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {
@@ -2852,6 +3213,22 @@
               "MW"
           ]
           }
+      ]
+    },
+    {
+      "name": "Twin Multi Melta",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 15
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "MW"
+          ]
+        }
       ]
     },
     {
@@ -3167,6 +3544,12 @@
 
 
 
+
+
+
+
+
+
   ],
   "rules": [
 
@@ -3185,6 +3568,10 @@
     {
       "name": "EA(+3)",
       "description": "Extra Attack +3"
+    },
+    {
+      "name": "EA(+D3)",
+      "description": "Extra Attack +D3"
     },
     {
       "name": "FxF",
