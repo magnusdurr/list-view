@@ -857,7 +857,7 @@
 
             "specialRules": [
               "EA(+2)",
-              "TK"
+              "TK(1)"
           ]
           }
       ]
@@ -2440,6 +2440,10 @@
     {
       "name": "SS",
       "description": "Single Shot"
+    },
+    {
+      "name": "TK(1)",
+      "description": "Titan Killer"
     },
     {
       "name": "TK(D3+3)",
