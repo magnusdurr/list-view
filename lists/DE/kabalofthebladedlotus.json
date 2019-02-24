@@ -6,7 +6,15 @@
   "strategy": "Kabal of the Bladed Lotus armies have a strategy rating of 4.",
   "initiative": " Dark Eldar Kabal, Tormentor, and Executioner formations have an initiative of 1+. All other formations have an initiative rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
 
-  "specialRules": [],
+  "specialRules": [
+        "Fleet of Foot",
+        "Hit and Run",
+        "Lance",
+        "Kabal Coterie",
+        "Dark Eldar May not Garrison",
+        "Webway Portal",
+        "Shadowfields"
+      ],
   "usage": [
     "The following army list allows you to field an army based on the Kabal of the Bladed Lotus"
   ],
@@ -14,11 +22,32 @@
     {
       "from": "DE.json",
       "units": [
-
+        "Archon",
+        "Dracon",
+        "Succubus",
+        "Haemonoculus Ancient",
+        "Incubi",
+        "Warriors",
+        "Mandrake",
+        "Scourge",
+        "Haemonculi",
+        "Wracks",
+        "Grotesques",
+        "Wyche",
+        "Warp Beasts",
+        "Hellion",
+        "Reavers",
+        "Dark Eldar Venom",
+        "Raider",
+        "Ravager",
+        "Talos",
+        "Perditor",
+        "Barge of Pleasure",
+        "Vessel of Pain",
+        "Tormentor Titan"
       ],
         "unitRules": [
 
-          "Tormentor Titan"
       ]
     },
     {
