@@ -6,6 +6,14 @@
         "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attack in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
       ]
     },
+    {
+      "title": "Super-Expendable",
+      "description": [
+        "A formation does not receive a Blast marker when a unit with super-expendable is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. If a super-expendable unit is hit by a weapon with disrupt it does not inflict a Blast marker.",
+        "Super-expendable units killed in an assault do not count when working out the result.",
+        "If a formation is comprised completely of expendable and/or super-expendable units then they do not benefit from any of the rules above."
+        ]
+    },
 
 
 
@@ -23,9 +31,6 @@
         "You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
         ]
     },
-
-
-
     {
       "title": "Commissars and Catachan Heroism",
       "description": [
@@ -33,6 +38,27 @@
         "Catachan Jungle Fighters do no add commissars like your usual Imperial Guard Armies. Instead for Commanders/Supreme Commanders are inspiring and fearless."
       ]
     },
+
+
+
+
+
+    {
+      "title": "Acts of Faith",
+      "description": [
+        "Any company formation with the Faithful special rule may perform the Acts of Faith, the formation activates at -1 initiative, however the Acts of Faith does not apply if the formation fails its initiative roll. The formation receives Fearless and Invulnerable Save special rules which lasts until the end phase."
+      ]
+    },
+    {
+      "title": "Adepta Sororitas Rhinos",
+      "description": [
+        "When ever a formation is listed as having 'Optional Rhinos', the formation may be add enough rhinos to trasnport the infantry in the formation with no rhinos left over empty."
+      ]
+    },
+
+
+
+
 
 
 
@@ -267,9 +293,78 @@
 
 
 
+    {
+      "title": "Snakebite Clan Warlords",
+      "description": [
+        "Every Snakebite Clan army must include a Supreme Command character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. The Warlord is attached to the largest formation in the army, each DC counts towards working out formation sizes."
+      ]
+    },
+
+    {
+      "title": "Mob Rule",
+      "description": [
+        "Orks believe that as long as there’s a bunch of them still fighting together (slightly more than they can count up to is ideal!) then there’s always a chance that they’ll prevail, no matter the odds. To represent this, Ork formations with more than five units (i.e., too many to count on the fingers of one hand), not including Gretchin or Big Gunz units, receive a +1 modifier to any rally rolls they make, and formations with more than 10 such units receive a  +2 modifier. For the purposes of this rule war engine’s count each point of starting damage capacity as a unit."
+        ]
+    },
+    {
+      "title": "Power of the Waaagh!",
+      "description": [
+        " Orks are not noted for their organisational abilities, and thus usually have a pretty low initiative rating. However, if there is one thing that will galvanise an Ork warband, it’s the thought of a good punch-up!Because of this, Ork formations that are attempting to take engage or double actions receive a +2 modifier to their action test roll. Ork flyboyz similarly relish the chance to shoot things up, and receive a +2 modifier to their action test roll when attempting to carry out interception or ground attack actions (see Aircraft)."
+        ]
+    },
 
 
 
+
+
+
+
+
+    {
+      "title": "Coordinated Fire",
+      "description": [
+        "Some units are noted as being able to call in coordinated fire. These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action.",
+        "Make a single initiative roll for all formations, counting a single -1 modifier if any have blast markers. If the test is failed then the original formation (containing the unit calling for coordinated fire) receives a Blast marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an advance, double or sustained fire action.",
+        "There is no obligation for all formations to take the same action, and these actions may be resolved in any order, but they must all fire at the same target formation. The formations don’t have to stay within a given distance of each other and will complete their actions one after the other. Each formations action is declared and resolved (including testing to see if the target formation is broken) before moving on to the next Tau formation.",
+        "Note that units with this ability confer the coordinated fire ability to any formation that they join. For example, a Pathfinder upgrade purchased to be added to a Fire Warrior Cadre, adds the coordinated fire ability to all units in the Cadre.",
+        "There are no requirements with regards which action from sustain, advance or double a formation takes.",
+        "If an action with a movement component is chosen there are no specific movement restrictions. You may move as normal in any allowed direction or manner. You don't have to move towards the coordinated fire target or even make any attempt to get any weapons in range if you don't want to.",
+        "The only requirement is that if you choose to shoot it must be at the formation picked as the target of the coordinated fire.",
+        "The target of the coordinated fire being destroyed or moving to a position where it cannot be shot has no impact on any movement component of the action chosen. It just means that you will not be able to shoot."
+      ]
+    },
+    {
+      "title": "Deflector Shield",
+      "description": [
+        "Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+."
+      ]
+    },
+    {
+      "title": "Deflector Shield",
+      "description": [
+        "Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+."
+      ]
+    },
+    {
+      "title": "Guided Missiles",
+      "description": [
+        "Guided missiles may only be fired at a target formation that is marked, but guided missiles may be fired without line of fire if the target is marked.",
+        "Guided missiles follow all the normal suppression rules. So if a unit with a guided missile weapon is in range and has LOF to a unit in the target formation then it is counted for suppression purposes. It is counted even if it cannot fire because for instance - the target is not marked, or an aircraft (note: unless landed, aircraft never count as marked).",
+        "Additionally guided missiles count as having LOF to all units in a marked formation for the purpose of suppression, crossfire and when shooting as part of an overwatch action."
+      ]
+    },
+    {
+      "title": "Markerlights",
+      "description": [
+        "All enemy formations with at least one unit within 30cm range and line of fire (Line of Fire) of at least one Tau unit with the markerlights ability is considered to be marked. When shooting at a marked formation, all ranged firepower attacks add +1 to their to-hit roll. This bonus for shooting at a marked enemy may not be used when making Anti-Aircraft attacks. A Tau formation that is broken or marched this turn may not mark an enemy formation."
+      ]
+    },
+    {
+      "title": "Tau Jet Packs",
+      "description": [
+        "Tau jet packs follow all the rules for Jump Packs. Additionally, units with Tau jet packs are allowed to make an additional move of 10cm at the end of an advance, double or march order. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual. No extra movement is allowed on any orders other than advance, double or a march. In formations where only some of the units have Tau jet packs, the units without Tau jet packs are not allowed the extra move."
+      ]
+    },
 
 
 

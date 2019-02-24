@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Ork Forces",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          ""
+        ]
+      }
+    ],
+    "unit": [
+      {
+      "name": "Warlord",
+      "type": "CH",
+      "weapons": [
+        "'Ore Dakka",
+        "Power Claw"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
+      "name": "Ork Wyrdboy",
+      "type": "CH",
+      "weapons": [
+        "Fist of Gork"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Pigdok on Cyboar",
+      "type": "CH",
+      "weapons": [
+        "Cyboar"
+      ],
+      "specialRules": [
+        "Leader"
+      ]
+    },
+
+    {
+      "name": "Boyz",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Big Shoota"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Grotz",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Shootas"
+      ],
+      "specialRules": [
+        "Super-Expendable"
+      ]
+    },
+    {
+      "name": "Nobz",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Big Shoota|2|",
+        "Big Choppas"
+      ],
+      "specialRules": [
+        "Leader"
+      ]
+    },
+    {
+      "name": "Ork Wildboyz",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+
+      "weapons": [
+        "Choppas"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Ork Madboyz",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Choppas",
+        "Shootas"
+      ],
+      "specialRules": [
+        "Fearless"
+      ]
+    },
+    {
+      "name": "Ork Boarboyz",
+      "type": "INF",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Choppas",
+        "Shootas"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Infiltrator"
+      ]
+    },
+    {
+      "name": "Ork Squig Catapult",
+      "type": "INF",
+      "speed": 10,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Squig Catapult"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Orks Junkatruckz",
+      "type": "LV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 5,
+      "ff": 6,
+      "weapons": [
+      "Big Shootas"
+      ],
+      "specialRules": [
+        "Transport (may carry one of the following units: Boyz, Nobz, Wildboyz. May carry one Grotz in addition to any other units)."
+      ]
+    },
+    {
+      "name": "Ork Squiggoth",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Twin Big Shootas|2|",
+        "Teeth & Horns",
+        "Big Gun"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Transport (may carry up to four of the following units: Boyz, Nobz, Wildboyz. May carry up to two Grotz in addition to any other units). "
+
+      ]
+    },
+    {
+      "name": "Orkeosaurus",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Twin Big Shootas|4|",
+        "Goring Tusks",
+        "Big Gun|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Reinforced Armour",
+        "Transport (may carry up to twelve of the following units: Boyz, Nobz, Wildboyz. May carry up to six Grotz in addition to any other units)"
+      ],
+      "notes": "Critical Hit Effect: The unit takes a point of damage and moves 3D6cm in a random direction. If it moves into impassable terrain it stops and is destroyed. If it moves into another unit or units, it stops and one of those units suffers a macro-weapon hit"
+    },
+    {
+      "name": "Ork Steam Gargant",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Fist of Gork",
+        "Soopaguns|0-2|",
+        "Mega-choppa|0-2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 4",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "May be armed with 2 Soopagun or 1 Soopagun and 1 Mega-choppa or 2 Mega-Choppa."
+      ],
+      "notes": "Critical Hit Effect: The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 2D6cm of the model suffer a hit."
+    }
+    ]
+  }
+]
