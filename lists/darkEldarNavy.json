@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Dark Eldar Aircraft and Spacecraft",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Razorwing Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Twin Dark Lances",
+        "Aircraft Moonscythe Missiles",
+        "Aircraft Splinter Cannon"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Voidraven Bomber",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Void Mines",
+        "Aircraft Twin Void Lances"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Slavebringer Assault Boat",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Aircraft Twin Dark Lances|2|",
+        "Aircraft Turreted Splinter Cannon"
+      ],
+      "specialRules": [
+        "Planetfall",
+        "Shadowfields 1",
+        "Transport (May carry up to eight of the following: Warlock, Farseer, Guardian, Wraithguard, Ranger, Pathfinder, Heavy Weapon Platform, Support Weapon Platform, Howling Banshee, Striking Scorpion, Fire Dragon, Dire Avenger, Dark Reaper, Warp Spider & Swooping Hawk units).",
+        "Critical Hit Effect: The Vampire and all on board are destroyed."
+
+      ]
+    },
+    {
+      "name": "Executioner Assault Ship",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Aircraft Heavy Phantom Lance",
+        "Aircraft Twin Dark Lances|2|",
+        "Aircraft Disintegrator Array"
+      ],
+      "specialRules": [
+        "Planetfall",
+        "Shadowfields 1",
+        "Reinforced Armour",
+        "Fearless",
+        "Transport: may carry up to twelve of the following units: Warrior, Incubi, Haemonculi, Hellion, Mandrakes, Grotesques, Scourge, Wrack, Warp Beasts and Wych units.",
+        "Critical Hit Effect: The Exercutioner crashes to the ground and is destroyed along with all on board."
+      ]
+    },
+    {
+      "name": "Torture Class Cruiser",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 6BP",
+        "Pin Point|2|"
+      ],
+      "specialRules": [
+        "Transport (may carry up to one Executioner Assault Ship and two Slavebringer Assault Boats; or up to four Slavebringer Assault Boats, plus the troops carried in them."
+      ]
+    }
+    ]
+  }
+]

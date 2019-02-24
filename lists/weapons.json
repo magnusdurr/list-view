@@ -572,6 +572,42 @@
       ]
     },
     {
+      "name": "Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons"
+        }
+      ]
+    },
+    {
+      "name": "Cognis Flamer",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conqueror Cannon",
+        "modes": [
+          {
+            "firepower": "AT5+/AT5+",
+            "range": 45,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Dark Lance",
         "modes": [
           {
@@ -579,6 +615,32 @@
             "range": 30,
             "specialRules": [
               "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Lance L",
+        "modes": [
+          {
+            "firepower": "AT5+",
+            "range": 30,
+            "specialRules": [
+              "Lance",
+              "Left"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Lance R",
+        "modes": [
+          {
+            "firepower": "AT5+",
+            "range": 30,
+            "specialRules": [
+              "Lance",
+              "Right"
           ]
         }
       ]
@@ -613,7 +675,8 @@
             "firepower": "2BP",
             "range": 30,
             "specialRules": [
-              "D"
+              "D",
+              "FxF"
           ]
         }
       ]
@@ -651,43 +714,6 @@
             "MW"
           ]
         }
-      ]
-    },
-
-    {
-      "name": "Claws",
-      "modes": [
-        {
-          "firepower": "Assault Weapons"
-        }
-      ]
-    },
-    {
-      "name": "Cognis Flamer",
-        "modes": [
-          {
-            "firepower": "AP4+",
-            "range": 15
-          },
-          {
-            "firepower": "Small Arms",
-            "join": "and",
-            "specialRules": [
-              "IC"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Conqueror Cannon",
-        "modes": [
-          {
-            "firepower": "AT5+/AT5+",
-            "range": 45,
-            "specialRules": [
-              "IC"
-          ]
-          }
       ]
     },
     {
@@ -2782,7 +2808,7 @@
           ]
         }
       ]
-    },
+    }
 
   ],
   "rules": [
