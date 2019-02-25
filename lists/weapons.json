@@ -8,6 +8,62 @@
             }
         ]
       },
+      {
+        "name": "Orbital Bombardment 3BP",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 4BP",
+        "modes": [
+          {
+            "firepower": "4BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 6BP",
+        "modes": [
+          {
+            "firepower": "6BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 8BP",
+        "modes": [
+          {
+            "firepower": "8BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Pin Point",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "specialRules": [
+              "TK(D3)",
+              "GMK"
+            ]
+          }
+        ]
+      },
     {
       "name": "Aircraft Avenger Bolt Cannon",
         "modes": [
@@ -2414,50 +2470,6 @@
       ]
     },
     {
-      "name": "Orbital Bombardment 3BP",
-      "modes": [
-        {
-          "firepower": "3BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
-      "name": "Orbital Bombardment 4BP",
-      "modes": [
-        {
-          "firepower": "4BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
-      "name": "Orbital Bombardment 6BP",
-      "modes": [
-        {
-          "firepower": "6BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
-      "name": "Orbital Bombardment 8BP",
-      "modes": [
-        {
-          "firepower": "8BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
       "name": "'Ore Dakka",
         "modes": [
           {
@@ -2566,18 +2578,6 @@
             "firepower": "AP5+/AT6+",
             "range":30
           }
-      ]
-    },
-    {
-      "name": "Pin Point",
-      "modes": [
-        {
-          "firepower": "MW2+",
-          "specialRules": [
-            "TK(D3)",
-            "GMK"
-          ]
-        }
       ]
     },
     {
@@ -3299,7 +3299,7 @@
           "firepower": "Small Arms",
           "specialRules": [
             "EA(+1)",
-            "LC"
+            "Lightning Charge"
           ]
         }
       ]
