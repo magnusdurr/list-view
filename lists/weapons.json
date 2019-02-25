@@ -57,6 +57,18 @@
       ]
     },
     {
+      "name": "Gravitic Tracer Salvo",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "specialRules": [
+              "GM",
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Avenger Bolt Cannon",
         "modes": [
           {
@@ -186,6 +198,18 @@
       ]
     },
     {
+      "name": "Aircraft Ion Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+/AA5+",
+            "range": 30,
+            "specialRules": [
+              "FxF"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Lascannon",
         "modes": [
           {
@@ -220,6 +244,19 @@
       ]
     },
     {
+      "name": "Aircraft Pulse Bomber Generators",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 15,
+            "specialRules": [
+              "FxF"
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Pulse Laser",
       "modes": [
         {
@@ -241,6 +278,18 @@
             "FxF"
           ]
         }
+      ]
+    },
+    {
+      "name": "Aircraft Seeker Missiles",
+        "modes": [
+          {
+            "firepower": "AT6+",
+            "range": 45,
+            "specialRules": [
+              "GM"
+          ]
+          }
       ]
     },
     {
@@ -305,6 +354,18 @@
       ]
     },
     {
+      "name": "Aircraft Twin Burst Cannon",
+        "modes": [
+          {
+            "firepower": "AA6+",
+            "range": 15,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Twin Dark Lances",
         "modes": [
           {
@@ -341,6 +402,7 @@
           }
       ]
     },
+
     {
       "name": "Aircraft Twin Lascannon",
         "modes": [
@@ -349,6 +411,32 @@
             "range": 30,
             "specialRules": [
               "FxF"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Aircraft Twin Missile Pods",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 45,
+            "specialRules": [
+              "FxF"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Aircraft Twin Railcannons",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 45,
+            "specialRules": [
+              "TK(D3)",
+              "FxF"
+
           ]
           }
       ]
@@ -702,6 +790,18 @@
       ]
     },
     {
+      "name": "Burst Cannon & Gun Drones",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 15,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Catachan Missile Launcher",
         "modes": [
           {
@@ -761,6 +861,17 @@
         {
           "firepower": "Assault Weapons"
         }
+      ]
+    },
+    {
+      "name": "Krootox Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
       ]
     },
     {
@@ -1135,12 +1246,33 @@
       ]
     },
     {
+      "name": "Experimental Weapons",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Exterminators",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Fangs",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
           ]
           }
       ]
@@ -1456,6 +1588,18 @@
       ]
     },
     {
+      "name": "Heavy Ion Phalanx",
+      "modes": [
+        {
+          "firepower": "AP3+/AT4+",
+          "range": 75,
+          "specialRules": [
+            "FxF"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Mining Laser",
       "modes": [
         {
@@ -1509,6 +1653,17 @@
       ]
     },
     {
+      "name": "Honour Blade",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Host Weapons",
       "modes": [
         {
@@ -1526,6 +1681,18 @@
           "firepower": "AP4+/AA4+",
           "range": 60
         }
+      ]
+    },
+    {
+      "name": "Hunter Missiles",
+        "modes": [
+          {
+            "firepower": "AA5+",
+            "range": 60,
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {
@@ -1595,6 +1762,17 @@
       ]
     },
     {
+      "name": "Ion Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
+            "range": 60,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Jackal Guns",
       "modes": [
         {
@@ -1644,6 +1822,27 @@
               "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "Kroot Guns",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kroot Rifles",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
       ]
     },
     {
@@ -1760,6 +1959,16 @@
             "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Mercenary Weapons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+          }
       ]
     },
     {
@@ -2225,6 +2434,29 @@
       ]
     },
     {
+      "name": "Pulse Carbines",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30,
+          "specialRules": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pulse Rifles",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Pulse Laser",
       "modes": [
         {
@@ -2310,6 +2542,36 @@
               "S"
           ]
         }
+      ]
+    },
+    {
+      "name": "Railgun",
+        "modes": [
+          {
+            "firepower": "AT4+",
+            "range": 75,
+            "specialRules": [
+              "Lance"
+          ]
+          },
+          {
+            "firepower": "AP5+",
+            "join": "or",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rail Rifles",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 30,
+            "specialRules": [
+              "S"
+          ]
+          }
       ]
     },
     {
@@ -2493,6 +2755,18 @@
       ]
     },
     {
+      "name": "Seeker Missiles",
+        "modes": [
+          {
+            "firepower": "AT6+",
+            "range": 90,
+            "specialRules": [
+              "GM"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Servo Arm",
       "modes": [
         {
@@ -2538,6 +2812,18 @@
                 "IC","Ind","Slw"
           ]
         }
+      ]
+    },
+    {
+      "name": "Silenced Burst Cannons",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+          }
       ]
     },
     {
@@ -2631,6 +2917,19 @@
           "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Smart Missile System",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 30,
+            "specialRules": [
+              "IC"
+
+          ]
+          }
       ]
     },
     {
@@ -2925,6 +3224,17 @@
       ]
     },
     {
+      "name": "Tetra Pulse Rifles",
+        "modes": [
+          {
+            "firepower": "AP6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Titan Power Fist",
       "modes": [
         {
@@ -3150,6 +3460,28 @@
       ]
     },
     {
+      "name": "Twin Fusion Blasters",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 15,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Fusion Cannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Twin Heavy Anti-Air Bolter",
       "modes": [
         {
@@ -3164,6 +3496,19 @@
         {
           "firepower": "AP4+",
           "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Twin Heavy Railcannons",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 90,
+          "specialRules": [
+            "TK(D3+1)",
+            "FxF"
+          ]
         }
       ]
     },
@@ -3204,6 +3549,17 @@
       ]
     },
     {
+      "name": "Twin Manta Burst Cannons",
+      "modes": [
+        {
+          "firepower": "AP5+/AA6+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Twin Melta Guns",
         "modes": [
           {
@@ -3213,6 +3569,18 @@
               "MW"
           ]
           }
+      ]
+    },
+
+    {
+      "name": "Twin Missile Pods",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -3227,6 +3595,29 @@
             "join": "and",
             "specialRules": [
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Plasma Rifles",
+      "modes": [
+        {
+          "firepower": "AP4+/AT6+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Pulse Carbines",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30,
+          "specialRules": [
+            "D"
           ]
         }
       ]
@@ -3251,6 +3642,18 @@
           "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Twin Railguns",
+        "modes": [
+          {
+            "firepower": "AT3+",
+            "range": 60,
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {
@@ -3522,34 +3925,6 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ],
   "rules": [
 
@@ -3580,6 +3955,10 @@
     {
       "name": "FwA",
       "description": "Forward Arc"
+    },
+    {
+      "name": "GM",
+      "description": "Guided Missiles"
     },
     {
       "name": "GMK",
@@ -3635,6 +4014,10 @@
     },
     {
       "name": "TK(1)",
+      "description": "Titan Killer"
+    },
+    {
+      "name": "TK(D3+1)",
       "description": "Titan Killer"
     },
     {
