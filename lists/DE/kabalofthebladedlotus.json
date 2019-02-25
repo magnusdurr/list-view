@@ -65,156 +65,164 @@
 ],
 "sections": [
     {
-      "name": "Biel-Tan Special",
+      "name": "Kabal of the Bladed Lotus Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
-          "units": "One Avatar",
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Dark Eldar players half of the table with a Wraithgate, this counts as an objective marker and a webway portal which may not be attacked or damaged in any way.",
 
-          "points": "Free"
+          "points": 50
         },
         {
-          "name": "0-1 Wraithgate",
-          "units": "Replace one objective marker in the Eldar players half of the table with a Wraithgate, this counts as an objective marker and a webway portal which may not be attacked or damaged in any way. ",
+          "name": "0-1 Portable Webway Portal",
+          "units": "Add a portable webway portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable webway may be used once in a game. After the characters formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a webway portal which may not be attacked or damaged in any way. Remove this webway portal marker in the end phase of the turn before any rallying.",
 
           "points": 50
         }
       ]
     },
     {
-      "name": "Biel-Tan Hosts",
+      "name": "Bladed Lotus Kabals",
       "formations": [
         {
-          "name": "Aspect Warrior Warhost",
-          "units": "Eight Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders ",
+          "name": "Kabal Coterie",
+          "units": "Four Incubi and one Archon character",
           "upgrades": [
-            "Autarch, Exarchs, Transport"
-          ],
-          "points": 300
-        },
-        {
-          "name": "Guardian Warhost",
-          "units": "One Warlock unit and seven Guardian units",
-          "upgrades": [
-            "Farseer, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
-            "OR",
-            "Farseer, Heavy Weapons, Transport"
-          ],
-          "points": 150
-        }
-      ]
-    },
-    {
-      "name": "Biel-Tan Troupes",
-      "description": "Up to three for each Biel-Tan host taken",
-      "formations": [
-        {
-          "name": "Engine of Vaul Troupe",
-          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
-          "upgrades": [
-            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+            "Barge, Haemonculi, Incubi, Scourges, Ravager, Transport, Warriors, Wyches"
           ],
           "points": 250
         },
         {
-          "name": "Falcon Troupe",
-          "units": "Five Falcons",
+          "name": "Kabal Flotilla",
+          "units": "Four Ravagers",
           "upgrades": [
-            "Firestorm"
-          ],
-          "points": 250
-        },
-        {
-          "name": "Fire Prism Troupe ",
-          "units": "Three Fire Prisms",
-          "upgrades": [
-          ],
-          "points": 250
-        },
-        {
-          "name": "Night Spinner Troupe",
-          "units": "Three Night Spinners",
-          "upgrades": [
-          ],
-          "points": 175
-        },
-        {
-          "name": "Ranger Troupe",
-          "units": "Four Ranger units",
-          "upgrades": [
-            "0-4 Rangers 25 points each"
-          ],
-          "points": 100
-        },
-        {
-          "name": "Void Spinner Troupe",
-          "units": "One Void Spinner",
-          "upgrades": [
-          ],
-          "points": 300
-        },
-        {
-          "name": "War Walker Troupe",
-          "units": "Four War Walkers",
-          "upgrades": [
-          ],
-          "points": 125
-        },
-        {
-          "name": "Wind Rider Troupe ",
-          "units": "Six Jetbike units",
-          "upgrades": [
-            "Vypers"
-          ],
-          "points": 200
-        }
-
-
-      ]
-    },
-    {
-      "name": "Biel-Tan Aircraft, Spacecraft and Titans",
-      "description": "Up to a third of the points available may be spent on these formations",
-      "formations": [
-        {
-          "name": "Nightwing Interceptors ",
-          "units": "2 Nightwing Interceptors ",
-          "upgrades": [
-            "Add 1 Nightwing Interceptor +75 Points"
+            "Dracon, Ravager"
           ],
           "points": 225
         },
         {
-          "name": "Phoenix Bombers",
-          "units": "Two Phoenix Bombers",
+          "name": "Kabal Syndicate",
+          "units": "Six Dark Eldar Warrior units",
           "upgrades": [
-            "Add 1 Phoenix Bombers +75 Points"
+            "Barge, Dracon, Haemonculi, Scourges, Ravager, Transport, Warriors, Wyches"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Bladed Lotus Partisans",
+      "description": "Up to two for each Bladed Lotus Kabals taken",
+      "formations": [
+        {
+          "name": "Haemonculi Coven",
+          "units": "Two Haemonculi units and four Wracks units",
+          "upgrades": [
+            "Ancient, Barges, Grotesques, Talos, Transport"
           ],
           "points": 250
         },
         {
-          "name": "Vampire",
-          "units": "One Vampire Raider",
+          "name": "Heavy Barge",
+          "units": "One Vessell of Pain",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Mandrakes",
+          "units": "Six Mandrake units",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Scourges",
+          "units": "Six Scourge units",
+          "upgrades": [
+            "Succubus, Scourges"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Talos",
+          "units": "Four Talos",
+          "upgrades": [
+            "Talos, Perditors"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Hellions",
+          "units": "Six Hellion units",
+          "upgrades": [
+            "Succubus, Hellions"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Reavers",
+          "units": "Six Reaver units",
+          "upgrades": [
+            "Succubus, Reavers"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Wych Cult",
+          "units": "Six Wych units",
+          "upgrades": [
+            "Barges, Beasts, Succubus, Transport, Wyches"
+          ],
+          "points": 200
+        }
+
+
+      ]
+    },
+    {
+      "name": "Bladed Lotus Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Razorwings",
+          "units": "Two to Three Razorwing Fighters",
+          "upgrades": [
+
+          ],
+          "points": "100 points each"
+        },
+        {
+          "name": "Voidravens",
+          "units": "Two Void Raven Bombers",
+          "upgrades": [
+
+          ],
+          "points": 225
+        },
+        {
+          "name": "Slavebringer",
+          "units": "One Slavebringer Assault Boat",
           "upgrades": [
 
           ],
           "points": 200
         },
         {
-          "name": "Revenants",
-          "units": "Two Revenant Titans",
+          "name": "Tormentor",
+          "units": "One Tormentor Titan",
           "upgrades": [
 
           ],
-          "points": 600
+          "points": 350
         },
         {
-          "name": "Phantom",
-          "units": "One Phantom Titan",
+          "name": "Executioner",
+          "units": "One Executioner Assault Ship",
           "upgrades": [
 
           ],
-          "points": 750
+          "points": 400
         },
         {
           "name": "0-1 Warlock",
@@ -226,68 +234,88 @@
         },
         {
           "name": "0-1 Spacecraft",
-          "units": "One Wraithship",
+          "units": "One Torture Class Cruiser",
           "upgrades": [
-            "Replace with Dragonship for +150 Points"
+
           ],
-          "points": 150
+          "points": 300
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Biel-Tan Upgrades",
+    "title": "Bladed Lotus Upgrades",
     "description": "Each upgrade may be taken once per Formation",
     "items": [
       {
-        "name": "Autarch",
-        "description": "Replace one Eldar Exarch character with an Eldar Autarch character. (1 per army)",
-        "points": "25 points"
-      },
-      {
-        "name": "Exarch",
-        "description": "Add 0-2 Eldar Exarch character to an Eldar Aspect Warrior unit",
-        "points": "50 points each"
-      },
-      {
-        "name": "Firestorm",
-        "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
-      },
-      {
-        "name": "Heavy Weapons",
-        "description": "Replace up to three Eldar Guardian units with Eldar Heavy Weapon Platform units",
-        "points": "Free"
-      },
-      {
-        "name": "Support Weapons",
-        "description": "Add three Eldar Support Weapon Platform units",
+        "name": "Ancient",
+        "description": "Add one Dark Eldar Haemonculus Ancient Character to a unit in the formation",
         "points": "50 points"
       },
       {
-        "name": "Farseer",
-        "description": "Replace a Warlock unit  with a Farseer Unit",
-        "points": "25 points"
-      },
-      {
-        "name": "Transport",
-        "description": "Add enough Wave Serpents to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
+        "name": "Beasts",
+        "description": "Two Warp Beast units",
         "points": "50 points each"
       },
       {
-        "name": "Vypers",
-        "description": "Replace any number of Eldar Jetbike units with Eldar Vypers",
-        "points": "Free"
+        "name": "Dracon/Succubus",
+        "description": "Add one Dark Eldar Dracon or Dark Eldar Succubus to a unit in the formation",
+        "points": "50 points"
       },
       {
-        "name": "Wraithguard",
-        "description": "Add three Eldar Wraithguard units",
-        "points": "125 points"
+        "name": "Grotesques",
+        "description": "Two Grotesque units",
+        "points": "75 points"
       },
       {
-        "name": "Wraithlord",
-        "description": "Add three Eldar Wraithlords",
-        "points": "175 points"
+        "name": "Haemonculi",
+        "description": "One Haemonculi unit and One Grotesques unit",
+        "points": "75 points"
+      },
+      {
+        "name": "Incubi",
+        "description": "Two Dark Eldar Incubi units",
+        "points": "75 points"
+      },
+      {
+        "name": "Hellions",
+        "description": "Two Dark Eldar Hellion units",
+        "points": "50 points each"
+      },
+      {
+        "name": "Perditor",
+        "description": "One or two Perditors",
+        "points": "125 points each"
+      },
+      {
+        "name": "Ravager",
+        "description": "One or two Dark Eldar Ravagers",
+        "points": "50 points"
+      },
+      {
+        "name": "Reavers",
+        "description": "Two Dark Eldar Reaver units",
+        "points": "50 points"
+      },
+      {
+        "name": "Scourges",
+        "description": "Two Scourges units",
+        "points": "75 points"
+      },
+      {
+        "name": "Talos",
+        "description": "Add up to four Dark Eldar Talos",
+        "points": "50 points each"
+      },
+      {
+        "name": "Warriors",
+        "description": "Two Dark Eldar Warrior units",
+        "points": "50 points"
+      },
+      {
+        "name": "Wyches",
+        "description": "Two Dark Eldar Wych units",
+        "points": "50 points"
       }
     ]
   }
