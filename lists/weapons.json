@@ -1,74 +1,6 @@
 {
   "weapons": [
     {
-      "name": "Pin Point",
-      "modes": [
-        {
-          "firepower": "MW2+",
-          "specialRules": [
-            "TK(D3)",
-            "GMK"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Orbital Bombardment 3BP",
-      "modes": [
-        {
-          "firepower": "3BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
-      "name": "Orbital Bombardment 4BP",
-      "modes": [
-        {
-          "firepower": "4BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
-      "name": "Orbital Bombardment 6BP",
-      "modes": [
-        {
-          "firepower": "6BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
-      "name": "Orbital Bombardment 8BP",
-      "modes": [
-        {
-          "firepower": "8BP",
-          "specialRules": [
-            "MW"
-        ]
-        }
-      ]
-    },
-    {
-      "name": "Gravitic Tracer Salvo",
-        "modes": [
-          {
-            "firepower": "3x MW3+",
-            "specialRules": [
-              "GM",
-              "IC"
-          ]
-          }
-      ]
-    },
-    {
       "name": "Aircraft Avenger Bolt Cannon",
         "modes": [
           {
@@ -616,6 +548,26 @@
       ]
     },
     {
+      "name": "Atrapos Lascutter",
+          "modes": [
+            {
+              "firepower": "Small Arms",
+              "specialRules": [
+              "EA(+1)",
+              "Lance"
+          ]
+            },
+            {
+              "firepower": "Assault Weapons",
+              "join": "and",
+              "specialRules": [
+              "EA(+1)",
+              "TK(D2)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Autarch Ranged Weapon",
       "modes": [
         {
@@ -644,8 +596,6 @@
           "firepower": "6x AP6+/AT6+",
           "range": 45,
           "specialRules": [
-            "EA(+1)",
-            "MW"
           ]
         }
       ]
@@ -838,6 +788,40 @@
       ]
     },
     {
+      "name": "Castigator Cannon",
+        "modes": [
+          {
+            "firepower": "3x AP3+/AT5+",
+            "range": 45,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Cerastus Shock Lance",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          "EA(+1)",
+          "Lance",
+          "LC"
+        ]
+    },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+            "EA(+1)",
+            "TK(1)",
+            "LC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Choppas",
         "modes": [
           {
@@ -862,6 +846,18 @@
             "join": "or",
             "specialRules": [
               "MW",
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conflagration Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 30,
+            "specialRules": [
               "IC"
           ]
         }
@@ -1386,6 +1382,18 @@
       ]
     },
     {
+      "name": "Flame Cannon",
+      "modes": [
+        {
+          "firepower": "2BP",
+          "range": 15,
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Flayed Ones Claws",
         "modes": [
           {
@@ -1548,6 +1556,18 @@
     ]
     },
     {
+      "name": "Gravitic Tracer Salvo",
+        "modes": [
+          {
+            "firepower": "3x MW3+",
+            "specialRules": [
+              "GM",
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Graviton Gun",
       "modes": [
         {
@@ -1555,6 +1575,20 @@
           "range": 30,
           "specialRules": [
             "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graviton Singularity Cannon",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 30,
+          "specialRules": [
+            "TK(D3+1)",
+            "Unstable",
+            "Shield Piercer"
           ]
         }
       ]
@@ -1724,6 +1758,18 @@
       ]
     },
     {
+      "name": "Hekaton Siege Claw",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(D2)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hellglaives",
         "modes": [
           {
@@ -1878,6 +1924,17 @@
       ]
     },
     {
+      "name": "Ironstorm Missile Pod",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 60,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Jackal Guns",
       "modes": [
         {
@@ -1997,7 +2054,34 @@
         }
       ]
     },
-
+    {
+      "name": "Las Impulsor",
+      "modes": [
+        {
+          "firepower": "2x AT3+",
+          "range": 45,
+          "specialRules": [
+            "Lance"
+        ]
+    },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": ["EA(+1)"]
+        }
+      ]
+    },
+    {
+      "name": "Lightning Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 45,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
     {
       "name": "Liquefiers",
         "modes": [
@@ -2265,6 +2349,50 @@
       ]
     },
     {
+      "name": "Orbital Bombardment 3BP",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "specialRules": [
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Orbital Bombardment 4BP",
+      "modes": [
+        {
+          "firepower": "4BP",
+          "specialRules": [
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Orbital Bombardment 6BP",
+      "modes": [
+        {
+          "firepower": "6BP",
+          "specialRules": [
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Orbital Bombardment 8BP",
+      "modes": [
+        {
+          "firepower": "8BP",
+          "specialRules": [
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
       "name": "'Ore Dakka",
         "modes": [
           {
@@ -2376,25 +2504,15 @@
       ]
     },
     {
-      "name": "Poison Blades",
-        "modes": [
-          {
-            "firepower": "Assault Weapons",
-            "specialRules": [
+      "name": "Pin Point",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "specialRules": [
+            "TK(D3)",
+            "GMK"
           ]
         }
-      ]
-    },
-    {
-      "name": "Psychic Powers",
-        "modes": [
-          {
-            "firepower": "Small Arms",
-            "specialRules": [
-              "EA(+1)",
-              "MW"
-            ]
-          }
       ]
     },
     {
@@ -2425,7 +2543,6 @@
             "firepower": "2x MW3+",
             "range": 30,
             "specialRules": [
-              "TK(1)",
               "Slw"
           ]
           }
@@ -2479,6 +2596,16 @@
 
           ]
           }
+      ]
+    },
+    {
+      "name": "Poison Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -2563,6 +2690,18 @@
             "Lance"
           ]
         }
+      ]
+    },
+    {
+      "name": "Psychic Powers",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+            ]
+          }
       ]
     },
     {
@@ -2686,6 +2825,17 @@
       ]
     },
     {
+      "name": "Twin Rad Cleanser",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Radium Carbine",
         "modes": [
           {
@@ -2747,8 +2897,38 @@
       "name": "Rapid Fire Battle Cannon",
       "modes": [
         {
-          "firepower": "AP4+/AT4+",
+          "firepower": "2x AP4+/AT4+",
           "range": 60
+        }
+      ]
+    },
+    {
+      "name": "Reaper Chain-Cleaver",
+      "modes": [
+        {
+          "firepower": "Assault Weapon",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reaper Chainfist",
+      "modes": [
+          {
+            "firepower": "AP4+",
+            "specialRules": [
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "TK(1)"
+          ]
         }
       ]
     },
@@ -2951,7 +3131,7 @@
       "name": "Shieldbreaker Missiles",
         "modes": [
           {
-            "firepower": "AT2+",
+            "firepower": "AT3+",
             "range": 120,
             "specialRules": [
               "SS"
@@ -3406,7 +3586,18 @@
       ]
     },
     {
-      "name": "Tessla Cannon",
+      "name": "Tempest Warblade",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Tesla Cannon",
         "modes": [
           {
             "firepower": "AP5+",
@@ -3425,6 +3616,76 @@
             "specialRules": [
           ]
           }
+      ]
+    },
+    {
+      "name": "Tetra Pulse Rifles",
+        "modes": [
+          {
+            "firepower": "AP6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Thermal Cannon",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 30,
+          "specialRules": [
+          ]
+      },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thermal Spear",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 15,
+          "specialRules": [
+          ]
+      },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thundercoil Harpoon",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)",
+                "TK(1)",
+                "Shield Piercer"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Thunderstrike Gauntlet",
+      "modes": [
+        {
+          "firepower": "Assault Weapon",
+          "specialRules": ["EA(+1)", "TK(1)"]
+        }
       ]
     },
     {
@@ -3999,6 +4260,19 @@
       ]
     },
     {
+      "name": "Volkite Chierovile",
+        "modes": [
+          {
+            "firepower": "3x AP3+/AT4+",
+            "range": 45,
+            "specialRules": [
+              "IC",
+              "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Vulcan Mega-Bolter",
       "modes": [
         {
@@ -4182,6 +4456,10 @@
       "description": "Extra Attack +D3"
     },
     {
+      "name": "FS",
+      "description": "First Strike"
+    },
+    {
       "name": "FxF",
       "description": "Fixed Forward"
     },
@@ -4246,7 +4524,15 @@
       "description": "Single Shot"
     },
     {
+      "name": "Shield Piercer",
+      "description": "Shield Piercer"
+    },
+    {
       "name": "TK(1)",
+      "description": "Titan Killer"
+    },
+    {
+      "name": "TK(D2)",
       "description": "Titan Killer"
     },
     {
@@ -4266,8 +4552,8 @@
       "description": "Titan Killer"
     },
     {
-      "name": "FS",
-      "description": "First Strike"
+      "name": "Unstable",
+      "description": "Unstable"
     }
 
   ]
