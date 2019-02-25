@@ -22,35 +22,11 @@
   ],
   "units": [
     {
-      "from": "AM.json",
-      "units": [
-        "Archmagos",
-        "Magos",
-        "Tech Priest",
-        "Skitarii Vanguard",
-        "Secutarii",
-        "Kataphron Destroyer",
-        "Kataphron Breacher",
-        "Skitarii Rangers",
-        "Electro-Priests",
-        "Sicarian Infiltrators",
-        "Sicarian Ruststalkers",
-
-        "Kastelan Robots",
-        "Ironstrider Ballistarius",
-        "Sydonian Dragoon",
-
-        "Onager Dunecrawler",
-        "Chimeradon",
-        "Terrax Pattern Termite Assault Drill"
-    ],
-        "unitRules": [
-
-      ]
-    },
-    {
       "from": "QK.json",
       "units": [
+        "Baron",
+        "Seneschal",
+
         "Dominus Knight-Castellan",
         "Dominus Knight-Valiant",
         "Questoris Knight-Paladin",
@@ -69,12 +45,37 @@
         "Armiger Knight-Helverin",
 
         "Questoris Relic Knight-Styrix",
-        "Questoris Relic Knight-Magaera"
+        "Questoris Relic Knight-Magaera",
+
+        "Acastus Knight-Porphyrion",
+        "Acastus Knight-Mechanicum"
       ],
               "unitRules": [
 
       ]
     },
+    {
+      "from": "AM.json",
+      "units": [
+        "Tech Priest",
+        "Skitarii Vanguard",
+
+        "Kastelan Robots",
+
+        "Onager Dunecrawler"
+    ],
+        "unitRules": [
+
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Gorgon"
+      ],
+        "unitRules": [
+      ]
+  },
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -83,7 +84,7 @@
       ],
         "unitRules": [
       ]
-    }
+  }
 ],
 "sections": [
     {

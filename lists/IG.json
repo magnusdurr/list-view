@@ -481,7 +481,7 @@
       "specialRules": [
         "Skimmer",
         "Scout",
-        "Transport (May carry 2 infantry units without jump pack out mounted)"
+        "Transport (May carry 2 infantry units without jump pack or mounted)"
       ]
     },
     {
@@ -516,6 +516,24 @@
         "Skimmer",
         "Scout"
       ]
+    },
+    {
+      "name": "Gorgon",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Gorgon Mortars",
+        "Twin Heavy Stubbers"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Transport (May carry 10 infantry units without jump pack or mounted)"
+      ],
+      "notes": "Critical Hit Effect: The Gorgon is immobilized, and D3 transported units takes a hit. Subsequent critical hits destroys the Gorgon."
     },
     {
       "name": "Baneblade",

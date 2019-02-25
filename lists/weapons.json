@@ -1,5 +1,13 @@
 {
   "weapons": [
+      {
+        "name": "n/a",
+          "modes": [
+            {
+              "firepower": "n/a"
+            }
+        ]
+      },
     {
       "name": "Aircraft Avenger Bolt Cannon",
         "modes": [
@@ -453,6 +461,18 @@
             "specialRules": [
               "EA(+1)",
               "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Acastus Conversion Beamer",
+        "modes": [
+          {
+            "firepower": "MW3+",
+              "range": 90,
+            "specialRules": [
+              "FxF"
           ]
           }
       ]
@@ -1536,6 +1556,20 @@
       ]
     },
     {
+      "name": "Gorgon Mortars",
+      "modes": [
+        {
+          "firepower": "2 BP",
+          "range": 30,
+          "specialRules": [
+            "Ind",
+            "SS",
+            "FxF"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Goring Tusks",
       "modes": [
         {
@@ -1758,6 +1792,15 @@
       ]
     },
     {
+      "name": "Twin Heavy Stubbers",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Hekaton Siege Claw",
         "modes": [
           {
@@ -1767,6 +1810,15 @@
                 "TK(D2)"
           ]
         }
+      ]
+    },
+    {
+      "name": "Helios Defense Missiles",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT6+/AA5+",
+            "range": 45
+          }
       ]
     },
     {
@@ -2116,6 +2168,19 @@
           ]
         }
       ]
+    },
+    {
+    "name": "Twin Magna Lascannon",
+      "modes": [
+        {
+          "firepower": "AT2+",
+          "range": 75,
+          "specialRules": [
+            "Lance",
+            "FxF"
+        ]
+        }
+    ]
     },
     {
     "name": "Mega-choppa",

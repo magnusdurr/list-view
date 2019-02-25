@@ -5,6 +5,28 @@
 
     ],
     "unit": [
+        {
+          "name": "Baron",
+          "type": "CH",
+          "weapons": [
+              "n/a"
+            ],
+          "specialRules": [
+            "Supreme Commander",
+            "Fearless"
+          ]
+        },
+        {
+          "name": "Seneschal",
+          "type": "CH",
+          "weapons": [
+              "n/a"
+             ],
+          "specialRules": [
+            "Commander",
+            "Leader"
+          ]
+        },
       {
           "name": "Dominus Knight-Castellan",
           "type": "AV-K",
@@ -295,7 +317,46 @@
             "Walker",
             "Ion Shield (3+)"
           ]
-      }
+      },
+      {
+      "name": "Acastus Knight-Porphyrion",
+      "type": "WE",
+      "speed": 20,
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Twin Magna Lascannon|2|",
+        "Autocannon|2|",
+        "Helios Defense Missiles"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Walker",
+        "Ion Shield (4+)"
+    ],
+            "notes": "Critical Hit Effect: The Acastus Knight takes 1 additional damage."
+    },
+  {
+  "name": "Acastus Knight-Mechanicum",
+  "type": "WE",
+  "speed": 20,
+  "armour": 4,
+  "cc": 5,
+  "ff": 4,
+  "weapons": [
+    "Acastus Conversion Beamer|2|",
+    "Twin Rad Cleanser"
+        ],
+  "specialRules": [
+    "Damage Capacity 3",
+    "Reinforced Armour",
+    "Walker",
+    "Ion Shield (3+)"
+    ],
+        "notes": "Critical Hit Effect: The Acastus Knight takes 1 additional damage."
+    }
     ]
   }
 ]
