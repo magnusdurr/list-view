@@ -1,9 +1,9 @@
 {
   "fraction": "Tau",
-  "army": "Sa’ Cea",
+  "army": "Vior'la",
   "version": "1.1",
   "release": "2019-02-22",
-  "strategy": "Sa’ Cea armies have a strategy rating of 3.",
+  "strategy": "Vior'la armies have a strategy rating of 3.",
   "initiative": "Crisis Battlesuit Cadre and Manta Dropship formations have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
 
   "specialRules": [
@@ -11,7 +11,8 @@
             "Deflector Shield",
             "Guided Missiles",
             "Markerlights",
-            "Tau Jet Packs"
+            "Tau Jet Packs",
+            "Knight Units (AV-K)"
           ],
 
   "usage": [
@@ -27,18 +28,17 @@
         "Crisis Battlesuits",
         "Fire Warriors",
         "Gun Drones",
-        "Kroot Hounds",
-        "Kroot Master Shapers",
-        "Kroot Warriors",
-        "Krootox",
         "Pathfinders",
         "Stealth Battlesuits",
         "Broadside Battlesuit",
         "Piranha",
         "Tetra",
         "Devilfish",
-        "Hammerhead",
         "Skyray",
+        "Ghostkeel",
+        "KV-104 Riptide",
+        "KX-128 Stormsurge",
+        "KX-139 Supremacy Suit",
         "Manta"
       ],
         "unitRules": [
@@ -60,7 +60,7 @@
 ],
 "sections": [
     {
-      "name": "Sa’ Cea Cadres",
+      "name": "Vior'la Cadres",
       "formations": [
         {
           "name": "Crisis Battlesuit Cadre",
@@ -74,23 +74,23 @@
           "name": "Fire Warrior Cadre",
           "units": "Eight Fire Warriors or Six Fire Warriors and three Devilfish",
           "upgrades": [
-            "Bonded Team, Broadsides, Ethereal, Fire Warriors, Gun Drones, Hammerheads, Pathfinders, Piranhas, Skyray"
+            "Bonded Team, Broadsides, Ethereal, Fire Warriors, Gun Drones, Pathfinders, Piranhas, Skyray"
           ],
           "points": 225
         }
       ]
     },
     {
-      "name": "Sa’ Cea Support Formations ",
-      "description": "Up to three for each Sa’ Cea Cadre taken",
+      "name": "Vior'la Support Formations ",
+      "description": "Up to three for each Vior'la Cadre taken",
       "formations": [
         {
-          "name": "Armour Support Group",
-          "units": "Four Hammerheads",
+          "name": "Battle Suits",
+          "units": "Three Riptides and one Shas’el",
           "upgrades": [
-            "Hammerheads, Skyray, Note: One or more Hammerheads with Railguns cost +25 points"
+            "Add 1 Riptides for 100 Points"
           ],
-          "points": 200
+          "points": 350
         },
         {
           "name": "Broadside Group",
@@ -101,12 +101,12 @@
           "points": 300
         },
         {
-          "name": "Kroot Kindred",
-          "units": "One Kroot Master Shapers unit and nine Kroot Warriors",
+          "name": "Heavy Battle Suits",
+          "units": "2 Storm Surges and one Shas’el",
           "upgrades": [
-            "Kroot, Kroot Hounds, Krootox"
+
           ],
-          "points": 175
+          "points": 250
         },
         {
           "name": "Pathfinder Group",
@@ -134,16 +134,16 @@
         },
         {
           "name": "Stealth Group",
-          "units": "Six Stealth Battlesuits",
+          "units": "Four Stealth Battlesuits and 2 Ghostkeel units",
           "upgrades": [
             "Gun Drones"
           ],
-          "points": 225
+          "points": 250
         }
       ]
     },
     {
-      "name": "Sa’ Cea Aircraft, Spacecraft and Titans",
+      "name": "Vior'la Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -263,49 +263,6 @@
           {
             "description": "Add two Gun Drones",
             "points": "25 points"
-          }
-        ]
-      },
-      {
-        "name": "Hammerheads",
-        "options": [
-          {
-            "description": "Add any one of the following options: "
-          },
-          {
-            "description": "Add two Hammerheads with Ion Cannons",
-            "points": "75 points"
-          },
-          {
-            "description": "Add up to two Hammerheads with Railguns or Twin Fusion Cannons",
-            "points": "50 points each"
-          }
-        ]
-      },
-      {
-        "name": "Kroot",
-        "options": [
-          {
-            "description": "Add five Kroot Warriors",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
-        "name": "Kroot Hounds",
-        "options": [
-          {
-            "description": "Add three Kroot Hounds",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Krootox",
-        "options": [
-          {
-            "description": "Add three Krootox",
-            "points": "50 points"
           }
         ]
       },

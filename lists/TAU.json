@@ -284,6 +284,86 @@
       ]
     },
     {
+      "name": "Ghostkeel",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Twin Fusion Blasters",
+       "Cyclic Ion Raker"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Walker",
+        "First Strike",
+        "Teleport",
+        "Tau Jet Pack",
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "KV-104 Riptide",
+      "type": "AV-K",
+      "speed": 25,
+      "armour": 3,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Ion Accelerator",
+       "Heavy Burst Cannons|2|"
+      ],
+      "specialRules": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "KX-128 Stormsurge",
+      "type": "AV-K",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Pulse Driver Cannon",
+       "Destroyer Missiles|2|",
+       "Burst Cannons"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "KX-139 Supremacy Suit",
+      "type": "WE",
+      "speed": 20,
+      "armour": 5,
+
+      "ff": 4,
+      "weapons": [
+        "Seeker Missiles|2|",
+        "Fusion Eradicators|2|",
+        "Velocity Tracker",
+        "Heavy Rail Cannon|0-1|",
+        "Nexus Missile System|0-1|",
+        "Pulse Ordinance Multi-Driver|0-1|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Tau Deflector Shield",
+        "Walker",
+        "Armed with either a Heavy Rail Cannon, a Nexus Missile System or a Pulse Ordinance Multi Driver"
+      ],
+      "notes": "Critical Hit Effect: The Supremacy Suit is destoryed."
+    },
+    {
       "name": "Manta",
       "type": "WE",
       "speed": 20,

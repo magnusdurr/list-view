@@ -790,6 +790,18 @@
       ]
     },
     {
+      "name": "Burst Cannons",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 30,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Burst Cannon & Gun Drones",
         "modes": [
           {
@@ -926,6 +938,17 @@
       ]
     },
     {
+      "name": "Cyclic Ion Raker",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 15,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Dark Lance",
         "modes": [
           {
@@ -1056,6 +1079,18 @@
             "IC"
         ]
         }
+      ]
+    },
+    {
+      "name": "Destroyer Missiles",
+        "modes": [
+          {
+            "firepower": "AT5+",
+            "range": 90,
+            "specialRules": [
+              "GM"
+          ]
+          }
       ]
     },
     {
@@ -1357,6 +1392,17 @@
       ]
     },
     {
+      "name": "Fusion Eradicators",
+        "modes": [
+          {
+            "firepower": "2x AP4+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Fusion Guns",
         "modes": [
           {
@@ -1372,6 +1418,7 @@
         }
       ]
     },
+
     {
       "name": "Gauss Blasters",
         "modes": [
@@ -1555,7 +1602,17 @@
         }
       ]
     },
-
+    {
+      "name": "Heavy Burst Cannons",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
     {
       "name": "Heavy Gauss Cannon",
         "modes": [
@@ -1618,6 +1675,18 @@
             "Ind"
         ]
         }
+      ]
+    },
+    {
+      "name": "Heavy Rail Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 90,
+            "specialRules": [
+              "TK(D3+1)"
+          ]
+          }
       ]
     },
     {
@@ -1759,6 +1828,17 @@
               "IC"
           ]
         }
+      ]
+    },
+    {
+      "name": "Ion Accelerator",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
       ]
     },
     {
@@ -2111,6 +2191,19 @@
       ]
     },
     {
+      "name": "Nexus Missile System",
+        "modes": [
+          {
+            "firepower": "6x MW5+",
+            "range": 90,
+            "specialRules": [
+              "MW",
+              "Slw"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Night Spinner",
       "modes": [
         {
@@ -2446,6 +2539,18 @@
       ]
     },
     {
+      "name": "Pulse Driver Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 75,
+            "specialRules": [
+              "GM"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Pulse Rifles",
       "modes": [
         {
@@ -2486,6 +2591,18 @@
               "TK(D3)"
           ]
         }
+      ]
+    },
+    {
+      "name": "Pulse Ordinance Multi-Driver",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT5+",
+            "range": 60,
+            "specialRules": [
+              "Ind"
+          ]
+          }
       ]
     },
     {
@@ -3729,6 +3846,17 @@
       ]
     },
     {
+      "name": "Velocity Tracker",
+        "modes": [
+          {
+            "firepower": "AA6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Vanquisher Cannon",
         "modes": [
           {
@@ -3923,6 +4051,32 @@
         }
       ]
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   ],
