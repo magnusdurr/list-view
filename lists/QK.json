@@ -8,16 +8,15 @@
       {
           "name": "Dominus Knight-Castellan",
           "type": "AV-K",
-          "speed": 15,
-          "armour": 3,
-          "cc": 3,
-          "ff": 4,
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
           "weapons": [
             "Volcano Lance",
             "Plasma Decimator",
             "Twin Siegebreaker Cannon|2|",
-            "Shieldbreaker Missiles|2|",
-            "Twin Melta Guns"
+            "Shieldbreaker Missiles|2|"
           ],
           "specialRules": [
             "Reinforced Armour",
@@ -26,16 +25,34 @@
           ]
       },
       {
+          "name": "Dominus Knight-Valiant",
+          "type": "AV-K",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": [
+            "Conflagration Cannon",
+            "Thundercoil Harpoon",
+            "Twin Siegebreaker Cannon",
+            "Shieldbreaker Missiles|4|"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (3+)"
+          ]
+      },
+      {
           "name": "Questoris Knight-Paladin",
           "type": "AV-K",
-          "speed": 15,
-          "armour": 3,
+          "speed": 25,
+          "armour": 5,
           "cc": 3,
           "ff": 4,
           "weapons": [
             "Rapid Fire Battle Cannon",
             "Heavy Stubber|2|",
-            "Shock Field",
             "Reaper Chainsword"
           ],
           "specialRules": [
@@ -45,11 +62,29 @@
           ]
       },
       {
-          "name": "Knight-Crusader",
+          "name": "Questoris Knight-Errant",
           "type": "AV-K",
-          "speed": 15,
-          "armour": 3,
+          "speed": 25,
+          "armour": 5,
           "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Thermal Cannon",
+            "Heavy Stubber",
+            "Thunderstrike Gauntlet"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Questoris Knight-Crusader",
+          "type": "AV-K",
+          "speed": 20,
+          "armour": 5,
+          "cc": 4,
           "ff": 4,
           "weapons": [
             "Rapid Fire Battle Cannon",
@@ -61,6 +96,204 @@
             "Reinforced Armour",
             "Walker",
             "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Questoris Knight-Gallant",
+          "type": "AV-K",
+          "speed": 25,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Reaper Chainsword",
+            "Thunderstrike Gauntlet",
+            "Heavy Stubber",
+            "Twin Icarus Autocannon"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Questoris Knight-Warden",
+          "type": "AV-K",
+          "speed": 25,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Ironstorm Missile Pod",
+            "Avenger Gatling Cannon",
+            "Heavy Stubber",
+            "Reaper Chainsword"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Questoris Knight-Preceptor",
+          "type": "AV-K",
+          "speed": 25,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Las Impulsor",
+            "Reaper Chainsword",
+            "Heavy Stubber"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Cerastus Knight-Lancer",
+          "type": "AV-K",
+          "speed": 30,
+          "armour": 5,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Cerastus Shock Lance"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Scout",
+            "Ion Shield (3+)"
+          ]
+      },
+      {
+          "name": "Cerastus Knight-Acheron",
+          "type": "AV-K",
+          "speed": 30,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Flame Cannon",
+            "Reaper Chainfist"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Scout",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Cerastus Knight-Castigator",
+          "type": "AV-K",
+          "speed": 30,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Castigator Cannon",
+            "Tempest Warblade"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Scout",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Cerastus Knight-Atrapos",
+          "type": "AV-K",
+          "speed": 30,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Graviton Singularity Cannon",
+            "Atrapos Lascutter"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Scout",
+            "Ion Shield (3+)"
+          ]
+      },
+      {
+          "name": "Armiger Knight-Warglaive",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Thermal Spear",
+            "Heavy Stubber",
+            "Reaper Chain-Cleaver"
+          ],
+          "specialRules": [
+            "Walker",
+            "Scout",
+            "Ion Shield (5+)"
+          ]
+      },
+      {
+          "name": "Armiger Knight-Helverin",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Autocannon|2|",
+            "Heavy Stubber"
+          ],
+          "specialRules": [
+            "Walker",
+            "Scout",
+            "Ion Shield (5+)"
+          ]
+      },
+      {
+          "name": "Questoris Relic Knight-Styrix",
+          "type": "AV-K",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Volkite Chierovile",
+            "Twin Rad Cleanser",
+            "Hekaton Siege Claw"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+      {
+          "name": "Questoris Relic Knight-Magaera",
+          "type": "AV-K",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Lightning Cannon",
+            "Twin Rad Cleanser",
+            "Hekaton Siege Claw"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (3+)"
           ]
       }
     ]
