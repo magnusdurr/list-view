@@ -553,6 +553,44 @@
         "Reinforced Armour"
       ],
       "notes": "Critical Hit Effect: The unit is destroyed."
+    },
+    {
+      "name": "Stormblade",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Plasma Blastgun",
+        "Heavy Bolter",
+        "Lascannon|2|",
+        "Twin Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour"
+      ],
+      "notes": "Critical Hit Effect: The unit is destroyed."
+    },
+    {
+      "name": "Stormsword",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Siege Cannon",
+        "Heavy Bolter",
+        "Heavy Flamer|2|",
+        "Twin Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour"
+      ],
+      "notes": "Critical Hit Effect: The unit is destroyed."
     }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "1.10",
+  "version": "1.11",
   "release": "2019-02-22",
   "strategy": "Steel Legion armies have a stratergy rating of 2.",
   "initiative": "All formations have a initiative rating of 2+. All Imerial Titans have an initiative rating 1+.",
@@ -41,7 +41,9 @@
         "Valkyrie",
         "Vulture",
         "Shadowsword",
-        "Baneblade"
+        "Baneblade",
+        "Stormsword",
+        "Stormblade"
       ],
         "unitRules": [
 
@@ -104,6 +106,11 @@
           "points": 650
         },
         {
+          "name": "Super-heavy Tank Company",
+          "units": "Three Baneblades or Shadowswords in any combination",
+          "points": 500
+        },
+        {
           "name": "Artillery Company",
           "units": "Nine Basilisk or nine Manticore and nine gun emlpacements.",
           "upgrades": [
@@ -164,9 +171,10 @@
         },
         {
           "name": "Super-heavy Tank Platoon",
-          "units": "One Baneblade or Shadowsword",
+          "units": "One Baneblade, Shadowsword, Stormsword or Stormblade",
           "points": 200
         },
+
         {
           "name": "Vulture Squadron",
           "units": "Four Vultures",
