@@ -5,8 +5,7 @@
   "release": "2019-01-20",
   "strategy": "Adepta Sororitas Army has a Strategy Rating of 3",
   "initiative": "All Sister of Battle formations have an initiative of 1+, Inquisitorial Warband, Crusaders, Conclave, Penitence, Imperial Navy and Spacecraft formations have an initiative of 2+.",
-  "specialRules": ["Acts of Faith",
-                   "Adepta Sororitas Rhinos"
+  "specialRules": ["Acts of Faith"
                   ],
   "usage": [
     "The following army list allows you to field an army based on the Adepta Sororitas from the Ordo Heriticus"
@@ -73,7 +72,7 @@
           "name": "Mission",
           "units": "8 Battle Sisters Units",
           "upgrades": [
-            "Optional Rhinos",
+
             "Exorcist",
             "Priest",
             "Superior",
@@ -86,7 +85,7 @@
           "name": "Retribution",
           "units": "6 Retributor Sister Units or 4 Retributor Sisters 2 Dominion Sisters or 4 Retributor Sisters 2 Celestian Sisters (+15)",
           "upgrades": [
-            "Optional Rhinos",
+
             "Priest",
             "Palatine",
             "Transport"
@@ -120,7 +119,7 @@
           "name": "Coven",
           "units": "4 Dominion Sister",
           "upgrades": [
-            "Optional Rhinos",
+
             "Transports"
           ],
           "points": 200
@@ -129,7 +128,7 @@
           "name": "Repentance",
           "units": "6 Repentia Sister Units plus a Mistress character",
           "upgrades": [
-            "Optional Rhinos",
+
             "Engines",
             "Priest",
             "Transport"
@@ -171,7 +170,7 @@
           "name": "Conclave",
           "units": "6 Arco Flagellant Units",
           "upgrades": [
-            "Optional Rhinos",
+            "Transport",
             "Engines"
           ],
           "points": 250
@@ -280,6 +279,24 @@
         "name": "Landing Party",
         "description": "Add 4 Valkyrie to transport the formation",
         "points": "150 points"
+      },
+      {
+        "name": "Transport",
+        "description": "",
+        "options": [
+          {
+            "description": "Add Immolator",
+            "points": "25 points each"
+          },
+          {
+            "description": "Add Repressor",
+            "points": "25 points each"
+          },
+          {
+            "description": "Add Rhinos (In any combination, You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible)",
+            "points": "Free"
+          }
+        ]
       }
     ]
   }
