@@ -14,6 +14,68 @@
         "If a formation is comprised completely of expendable and/or super-expendable units then they do not benefit from any of the rules above."
         ]
     },
+    {
+      "title": "Automaton",
+      "description": [
+        "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
+        "A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast marker however.",
+        "If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker then it may attempt to save normally.",
+        "Automaton units killed in an assault count for the purposes of working out its result."
+      ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "title": "Bravery",
+      "description": [
+        "All Knight formations receive a +1 modifier to their action test when carrying out an Engage action, and a +1 modifier to their rally tests."
+      ]
+    },
+    {
+      "title": "Honour",
+      "description": [
+        "Reduce the damage caused by blast markers to a broken Knight formation by 1, and reduce the number of extra hits suffered by a Knight formation that loses an assault by 1."
+      ]
+    },
+    {
+      "title": "Ion Shield (X)",
+      "description": [
+        "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
+        "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
+        "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
+      ]
+    },
+    {
+      "title": "Shield Piercer",
+      "description": [
+        "Ignores Power Fields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
+      ]
+    },
+    {
+      "title": "Lightning Charge",
+      "description": [
+        "Weapon gains First Strike when the wielder's formation initiated the Engage"
+      ]
+    },
+    {
+      "title": "Unstable",
+      "description": [
+        "If a natural 1 is rolled when rolling to hit, roll another dice. If the result is yet another natural 1, the wielder is destroyed."
+      ]
+    },
+
+
+
+
+
+
 
 
 

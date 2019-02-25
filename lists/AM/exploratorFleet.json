@@ -6,7 +6,17 @@
   "strategy": "Explorator Fleets have a stratergy rating of 3.",
   "initiative": "All formations have a initiative rating of 2+.",
 
-  "specialRules": [],
+  "specialRules": [
+          "Automaton",
+          "Bravery",
+          "Honour",
+          "Ion Shield (X)",
+          "Shield Piercer",
+          "Lightning Charge",
+          "Unstable",
+          "Knight Units (AV-K)"
+
+  ],
   "usage": [
     "The following army list allows you to field an army based on a Explorator Fleet of the Adeptus Mechancius"
   ],
@@ -35,7 +45,7 @@
         "Terrax Pattern Termite Assault Drill"
       ],
         "unitRules": [
-          "Automaton"
+
       ]
     },
     {
@@ -46,13 +56,7 @@
         "Knight-Crusader"
       ],
         "unitRules": [
-          "Bravery",
-          "Honour",
-          "Ion Shield (X)",
-          "Shield Piercer",
-          "Lightning Charge",
-          "Unstable",
-          "Knight Units (AV-K)"
+
       ]
     },
     {
