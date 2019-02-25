@@ -76,6 +76,16 @@
         "unitRules": [
       ]
   },
+  {
+    "from": "ImperialAllies.json",
+    "units": [
+      "Warhound",
+      "Warhound, Support Configuration",
+      "Warhound, Tank Hunter Configuration"
+    ],
+      "unitRules": [
+    ]
+},
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -88,71 +98,77 @@
 ],
 "sections": [
     {
-      "name": "Explorator Fleet Core Formations",
+      "name": "Questoris Lances",
       "formations": [
         {
-          "name": "0-1 Secutarii Guard",
-          "units": "7 Secutarii",
+          "name": "Questoris",
+          "units": "2 Questoris Knights (any combination of configurations)",
           "upgrades": [
-            "Commander, Transports"
+            "Questoris, Seneschal, Baron"
           ],
-          "points": 200
-        },
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Cerastus Lances",
+      "description": "Up to one Cerasus Lance for each Questoris Lance.",
+      "formations": [
         {
-          "name": "Vanguard Maniple",
-          "units": "7 Skitarii Vanguard",
+          "name": "Cerasus",
+          "units": "2 Cerastus Knights (any combination of configurations), 1 Seneschal character",
           "upgrades": [
-            "Commander, Transports"
+            "Knight-Atrapos"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Armiger Lances",
+      "description": "Up to one Armiger Lance for each Questoris or Cerastus Lance.",
+      "formations": [
+        {
+          "name": "Armiger",
+          "units": "4 Knight-Warglaives or 4 Knight-Helverins",
+          "upgrades": [
           ],
           "points": 175
         }
       ]
     },
     {
-      "name": "Explorator Fleet Support Formations",
-      "description": "Up to a Two Support Formations for each Core Formation.",
+      "name": "Relic Lances",
+      "description": "Up to one Relic Lance for each Questoris Lance.",
       "formations": [
         {
-          "name": "Ranger Centuria",
-          "units": "4 Skitarii Rangers",
+          "name": "0-1 Questoris Reliquae",
+          "units": "2 Questoris Relic Knights (any combination of configurations)",
           "upgrades": [
-            "Skitarii Rangers"
+              "Questoris Reliquae",
+              "Acastus Reliquae"
           ],
+          "points": 300
+      },
+      {
+        "name": "0-1 Acastus Reliquae",
+        "units": "2 Acastus Knights, each with 1 Seneschal (any combination of configurations)",
+        "upgrades": [
+            "Questoris Reliquae",
+            "Acastus Reliquae"
+        ],
+        "points": 425
+      }
+      ]
+    },
+    {
+      "name": "Skitarii, AMTL and Imperial Navy Allies",
+      "description": "Up to one choice may be made for each Questoris Lance. Up to a third of the points available may be spent on Skitarii, AMTL and Imperial Navy Allies.",
+      "formations": [
+        {
+          "name": "Skitarii Maniple",
+          "units": "1 Tech Priest, 9 Skitarii Vanguard, 1 Gorgon",
           "points": 100
-        },
-        {
-          "name": "Ruststalker Killclade",
-          "units": "6 Sicarian Ruststalkers ",
-          "upgrades": [
-            "Tech-Priest, Subterranean Assault"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Infiltrator Killclade",
-          "units": "6 Sicarian Infiltrators",
-          "upgrades": [
-            "Tech-Priest, Subterranean Assault"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Fulgurite Maniple",
-          "units": "6 Fulgurite Electro-Priests",
-          "upgrades": [
-            "Tech-Priest, Subterranean Assault"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Ironstrider Cavaliers",
-          "units": "6 Ironstrider Ballistarius",
-          "points": 175
-        },
-        {
-          "name": "Sydonian Dragoons",
-          "units": "6 Sydonian Dragoons",
-          "points": 175
         },
         {
           "name": "Onager Cohort",
@@ -160,56 +176,14 @@
           "points": 200
         },
         {
-          "name": "Kastelan Maniple",
-          "units": "5 Kastelan Robots and 1 Tech Preist Dominus",
-          "points": 200
+          "name": "Warhound Pack",
+          "units": "2 Warhound Scout Titans, Standard or Close Support Configuration",
+          "upgrades": [
+              "Tank Hunter Configuration: +25 Points",
+              "Independent"
+          ],
+          "points": 500
         },
-        {
-          "name": "Kataphron Maniple",
-          "units": "6 Kataphron Destroyers or Kataphron Breachers",
-          "upgrades": [
-            "Tech-Priest, Subterranean Assault"
-          ],
-          "points": 200
-        }
-      ]
-    },
-    {
-      "name": "Explorator Fleet Heavy Support",
-      "description": "Four Knights for each 3k points. Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
-      "formations": [
-        {
-          "name": "Dominus Knight",
-          "units": "One Dominus Knight",
-          "upgrades": [
-            ""
-          ],
-          "points": 150
-        },
-        {
-          "name": "Questoris Knight",
-          "units": "One Questoris Knight",
-          "upgrades": [
-            ""
-          ],
-          "points": 100
-        },
-        {
-          "name": "Crusader Knight",
-          "units": "One Crusader Knight",
-          "upgrades": [
-            ""
-          ],
-          "points": 125
-        }
-
-
-      ]
-    },
-    {
-      "name": "Explorator Fleet Aircraft, Spacecraft",
-      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
-      "formations": [
         {
           "name": "Avenger Strike Fighters",
           "units": "2 Avenger Strike Fighters",
@@ -224,71 +198,67 @@
     }
   ],
   "upgrades": {
-    "title": "Explorator Fleet Upgrades",
+    "title": "Questoris Mechanicus Upgrades",
     "description": "Each upgrade may be taken once per Formation",
     "items": [
+        {
+          "name": "0-1 Baron",
+          "options": [
+            {
+              "description": "Replace the Seneschal with a Baron",
+              "points": "50 points"
+            }
+          ]
+        },
       {
-        "name": "Commander",
+        "name": "Seneschal",
         "options": [
+        {
+              "description": "Add 1 of the following:"
+        },
           {
-            "description": "Add 1 of the following:"
-          },
-          {
-            "description": "0-1 per army Archmagos",
-            "points": "75 points"
-          },
-          {
-            "description": "Magos",
-            "points": "50 points"
-          },
-          {
-            "description": "Tech Preist Dominus",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Tech Priest",
-        "options": [
-          {
-            "description": "Add 1 Tech Preist Dominus",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Skitarii Rangers",
-        "options": [
-          {
-            "description": "Add 1-2 Skitarii Rangers",
-            "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Transports",
-        "options": [
-          {
-            "description": "Add enough Chimeradons to transport the entire formation",
+            "description": "Add 1 Seneschal character to the formation",
             "points": "25 points"
+        },
+        {
+          "description": "Add 1 Seneschal in a Dominus Knight to the formation",
+          "points": "175 points"
+        }
+        ]
+      },
+      {
+        "name": "Questoris",
+        "options": [
+          {
+            "description": "Add one 1 Questoris Knight of any configuration",
+            "points": "100 points"
           }
         ]
       },
       {
-        "name": "Subterranean Assault",
+        "name": "0-1 Knight-Atrapos",
         "options": [
           {
-            "description": "Add enough Terrax Pattern Termite Assault Drills to transport the entire formation",
-            "points": "25 points"
-          }
-        ]
-      },
-      {
-        "name": "Tech Priest",
-        "options": [
-          {
-            "description": "Add 1 Tech Preist Dominus",
+            "description": "Replace the Seneschal's Cerastus Knight with a Cerastus Knight-Atrapos",
             "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Questoris Reliquae",
+        "options": [
+          {
+            "description": "Add one 1 Questoris Relic Knight of any configuration",
+            "points": "125 points"
+          }
+        ]
+      },
+      {
+        "name": "Acastus Reliquae",
+        "options": [
+          {
+            "description": "Add 1 Acastus Knight (of any configuration) with 1 Seneschal character",
+            "points": "200 points"
           }
         ]
       }
