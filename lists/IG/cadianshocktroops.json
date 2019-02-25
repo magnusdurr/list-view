@@ -6,7 +6,7 @@
   "strategy": "Cadian Shock Troops armies have a stratergy rating of 2.",
   "initiative": "All formations have a initiative rating of 2+. All Imerial Titans have an initiative rating 1+.",
 
-  "specialRules": ["Commissars"],
+  "specialRules": ["Commissars", "Independent"],
   "usage": [
     "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
   ],
@@ -54,10 +54,15 @@
       "from": "ImperialAllies.json",
       "units": [
         "Reaver",
-        "Warhound"
+        "Reaver, Close Assault Configuration",
+        "Reaver, Support Configuration",
+        "Warhound",
+        "Warhound, Support Configuration",
+        "Warhound, Tank Hunter Configuration"
       ],
       "unitRules": [
-        "Imperial Void Shields"
+        "Imperial Void Shields",
+        "Independent"
       ]
     },
 
@@ -170,13 +175,36 @@
       ]
     },
     {
+      "name": "Imperial Titans",
+      "description": "Up to a third of the points available may be spent on Imperial Titans, Aircraft and Spacecraft",
+      "formations": [
+        {
+          "name": "Reaver",
+          "units": "One Reaver Class Titan, Standard or Support Configuration",
+          "upgrades": [
+            "Close Assault Configuration +25 points"
+          ],
+          "points": 650
+        },
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhound Class Titan, Standard or Support Configuration",
+          "upgrades": [
+            "Tank Hunter Configuration +50 points",
+            "Independent +50 points"
+          ],
+          "points": 500
+        }
+      ]
+    },
+    {
       "name": "Cadian Aircraft, Spacecraft",
-      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
+      "description": "Up to a third of the points available may be spent on Imperial Titans, Aircraft and Spacecraft",
       "formations": [
         {
           "name": "Thunderbolt Squadron",
           "units": "2 Thunderbolt Strike Fighters",
-          "points": 175
+          "points": 150
         },
         {
           "name": "Maurader Squadron",
