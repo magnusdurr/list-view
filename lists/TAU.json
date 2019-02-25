@@ -184,6 +184,40 @@
       ]
     },
     {
+      "name": "SniperDrones",
+      "type": "INF",
+      "speed": 20,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Sniper Drone"
+      ],
+      "specialRules": [
+        "Scout",
+        "Teleport",
+        "Tau Jet Packs",
+        "Counts as Gun Drone for the purpose of being transported."
+      ]
+    },
+    {
+      "name": "Firesight Marksmen",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Sniper Drone"
+      ],
+      "specialRules": [
+        "Teleport",
+        "Markerlights",
+        "Scouts",
+        "Counts as Fire Warrior for the purpose of being transported."
+      ]
+    },
+    {
       "name": "Broadside Battlesuit",
       "type": "LV",
       "speed": 15,
@@ -313,6 +347,40 @@
       "weapons": [
        "Ion Accelerator",
        "Heavy Burst Cannons|2|"
+      ],
+      "specialRules": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "XV107 R‘varna",
+      "type": "AV-K",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Pulse Submunition Cannons|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "XV109 Y‘vahra",
+      "type": "AV-K",
+      "speed": 25,
+      "armour": 3,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Plasma Flamer",
+       "EMP Discharge Cannon"
       ],
       "specialRules": [
         "Tau Deflector Shield",

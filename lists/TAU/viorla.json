@@ -16,7 +16,7 @@
           ],
 
   "usage": [
-    "The following army list allows you to field an army based on the Sa’ Cea Military world of the Tau Empire"
+    "The following army list allows you to field an army based on the Vior'la Military world of the Tau Empire"
   ],
   "units": [
     {
@@ -102,7 +102,7 @@
         },
         {
           "name": "Heavy Battle Suits",
-          "units": "2 Storm Surges and one Shas’el",
+          "units": "Two Storm Surges and one Shas’el",
           "upgrades": [
 
           ],
@@ -136,7 +136,7 @@
           "name": "Stealth Group",
           "units": "Four Stealth Battlesuits and 2 Ghostkeel units",
           "upgrades": [
-            "Gun Drones"
+            "Bonded Team"
           ],
           "points": 250
         }
@@ -146,6 +146,21 @@
       "name": "Vior'la Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
+        {
+          "name": "Supremacy Suit",
+          "units": "One KV139 Supremacy unit",
+          "upgrades": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Manta Dropship",
+          "units": "One Manta",
+          "upgrades": [
+
+          ],
+          "points": 500
+        },
         {
           "name": "Barracuda Squadron",
           "units": "Two Barracudas",
@@ -178,18 +193,10 @@
           "points": 175
         },
         {
-          "name": "Manta Dropship",
-          "units": "One Manta",
-          "upgrades": [
-
-          ],
-          "points": 500
-        },
-        {
           "name": "0–1 Spacecraft",
           "units": "Protector Class Cruiser",
           "upgrades": [
-            "Replace with a Custodian Class Battleship (+25 Points)"
+            "Replace with a Custodian Class Battleship (+50 Points)"
 
           ],
           "points": 200

@@ -269,6 +269,18 @@
       ]
     },
     {
+      "name": "Aircraft Quad Iron Turrets",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+/AA5+ ",
+            "range": 30,
+            "specialRules": [
+              "FxF"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Scatter Laser",
       "modes": [
         {
@@ -1174,6 +1186,19 @@
             "firepower": "Assault Weapons",
             "specialRules": [
             "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "EMP Discharge Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+              "D"
+
           ]
           }
       ]
@@ -2419,6 +2444,20 @@
       ]
     },
     {
+      "name": "Plasma Flamer",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 15,
+            "specialRules": [
+              "TK(1)",
+              "IC"
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Plasma Gun",
         "modes": [
           {
@@ -2550,6 +2589,7 @@
           }
       ]
     },
+
     {
       "name": "Pulse Rifles",
       "modes": [
@@ -2601,6 +2641,18 @@
             "range": 60,
             "specialRules": [
               "Ind"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Pulse Submunition Cannons",
+        "modes": [
+          {
+            "firepower": "AP3+/AT5+",
+            "range": 45,
+            "specialRules": [
+
           ]
           }
       ]
@@ -3045,6 +3097,18 @@
             "specialRules": [
               "IC"
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Sniper Drone",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range": 30,
+            "specialRules": [
+              "S"
           ]
           }
       ]
@@ -4051,6 +4115,9 @@
         }
       ]
     }
+
+
+
 
 
 
