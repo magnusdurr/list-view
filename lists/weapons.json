@@ -714,7 +714,21 @@
       "modes": [
         {
           "firepower": "AP4+/AT4+",
-          "range": 75
+          "range": 120,
+          "specialRules": [
+        ]
+        }
+      ]
+    },
+
+    {
+      "name": "Battlehead",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+2)"
+      ]
         }
       ]
     },
@@ -847,6 +861,18 @@
             "range": 15,
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Cannon of Chaos",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 90,
+            "specialRules": [
+                "MW"
           ]
           }
       ]
@@ -1082,6 +1108,18 @@
       ]
     },
     {
+      "name": "Death Storm",
+      "modes": [
+        {
+          "firepower": "4x AP4+/AT4+",
+          "range": 45,
+          "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
       "name": "Demolisher",
       "modes": [
         {
@@ -1173,6 +1211,19 @@
             "range": 90,
             "specialRules": [
               "GM"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Doom Burner",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 45,
+            "specialRules": [
+                "TK(D3)",
+                "IC"
           ]
           }
       ]
@@ -1694,6 +1745,24 @@
       ]
     },
     {
+      "name": "Guntail",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+",
+          "range": 75,
+          "specialRules": [
+        ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "EA(+1)"
+        ]
+      }
+    ]
+    },
+    {
       "name": "Harvesters",
         "modes": [
           {
@@ -1702,6 +1771,19 @@
             "specialRules": [
               "EA(+2)",
               "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Havoc Barrage Missile",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 60,
+            "specialRules": [
+              "SS",
+              "Ind"
           ]
           }
       ]
@@ -1883,6 +1965,18 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hellmouth",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 45,
+            "specialRules": [
+                "IC"
           ]
         }
       ]
