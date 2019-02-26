@@ -732,6 +732,18 @@
         }
       ]
     },
+    {
+      "name": "Battle Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+              "EA(+1)",
+              "MW"
+        ]
+        }
+      ]
+    },
 
     {
       "name": "Battlehead",
@@ -976,6 +988,16 @@
       ]
     },
     {
+      "name": "Chainswords",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Choppas",
         "modes": [
           {
@@ -1001,6 +1023,26 @@
             "specialRules": [
               "MW",
               "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combi-Bolter",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combi-Bolters",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
           ]
         }
       ]
@@ -1179,6 +1221,18 @@
           "range": 45,
           "specialRules": [
 
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Decimator Cannon",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 45,
+          "specialRules": [
+              "IC"
           ]
         }
       ]
@@ -1827,6 +1881,17 @@
     ]
     },
     {
+      "name": "Hades Autocannon",
+        "modes": [
+          {
+            "firepower": "3x AP5+/AT6+/AA6+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Harvesters",
         "modes": [
           {
@@ -2443,6 +2508,17 @@
         "modes": [
           {
             "firepower": "Assault Weapon",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manifested Body Weapons",
+        "modes": [
+          {
+            "firepower": "3x AP5+/AT5+/AA6+",
+            "range": 45,
             "specialRules": [
           ]
         }
@@ -3193,6 +3269,15 @@
       "modes": [
         {
           "firepower": "AP4+/AT6+",
+          "range": 30
+            }
+      ]
+    },
+    {
+      "name": "Twin Reaper Autocannon",
+      "modes": [
+        {
+          "firepower": "AP3+/AT5+",
           "range": 30
             }
       ]
