@@ -103,7 +103,7 @@
       "formations": [
         {
           "name": "Black Legion Retinue",
-          "units": "Eight Chaos Space Marines, 1 Chaos Lord or Sorcerer Lord",
+          "units": "Eight Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
           "upgrades": [
             "Supreme Commander",
             "Transport",
@@ -127,17 +127,16 @@
       "formations": [
         {
           "name": "Chosen",
-          "units": "4 Chosen",
+          "units": "Four Chosen, two Chaos Rhinos",
           "upgrades": [
-            "Rhinos",
             "Dreadnoughts",
             "Daemonic Pact"
           ],
-          "points": 125
+          "points": 150
         },
         {
           "name": "Chaos Terminators",
-          "units": "4 Chaos Terminators, 1 Chaos Lord or Sorcerer Lord",
+          "units": "Four Chaos Terminators, one Chaos Lord or Sorcerer Lord",
           "upgrades": [
               "Supreme Commander",
               "Transport",
@@ -159,7 +158,7 @@
     "formations": [
       {
         "name": "Bike Company",
-        "units": "Eight Chaos Space Marine Assault Bikes, 1 Chaos Lord or Sorcerer Lord",
+        "units": "Eight Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
         "upgrades": [
           "Daemonic Pact",
           "Icon Bearer"
@@ -168,7 +167,7 @@
     },
     {
       "name": "Raptor Cult",
-      "units": "Six Raptors, 1 Chaos Lord or Sorcerer Lord",
+      "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
       "upgrades": [
           "Daemonic Pact"
       ],
@@ -185,7 +184,7 @@
     },
     {
   "name": "Havocs",
-  "units": "4 Havocs, 1 Chaos Lord or Sorcerer Lord, 2 Rhinos",
+  "units": "Four Havocs, one Chaos Lord or Sorcerer Lord, two Rhinos",
   "upgrades": [
       "Land Raiders",
       "Stalker",
@@ -201,61 +200,61 @@
       "formations": [
           {
             "name": "Defiler Pack",
-            "units": "4 Defilers",
+            "units": "Four Defilers",
             "points": 225
           },
           {
             "name": "Decimators",
-            "units": "1 Decimator",
+            "units": "One Decimator",
             "upgrades": [
-              "Add 1 Decimator for 150 Points"
+              "Add one Decimator for 150 Points"
             ],
             "points": 200
           },
           {
             "name": "Deathwheels",
-            "units": "1 Deathwheel",
+            "units": "One Deathwheel",
             "upgrades": [
-              "Add 1 Deathwheel for 225 Points"
+              "Add one Deathwheel for 225 Points"
             ],
             "points": 275
           },
           {
             "name": "Chaos Warhound",
-            "units": "1 Chaos Warhound Scout Titan",
+            "units": "One Chaos Warhound Scout Titan",
             "upgrades": [
-              "Add 1 Chaos Warhound for 225 Points"
+              "Add one Chaos Warhound for 225 Points"
             ],
             "points": 275
           },
           {
             "name": "Chaos Reaver",
-            "units": "1 Chaos Reaver Titan",
+            "units": "One Chaos Reaver Titan",
             "points": 625
           },
           {
             "name": "Chaos Warlord",
-            "units": "1 Chaos Warlord Titan",
+            "units": "One Chaos Warlord Titan",
             "points": 750
           },
         {
           "name": "Hell Blade Squadron",
-          "units": "3 Hell Blade Interceptors",
+          "units": "Three Hell Blade Interceptors",
           "points": 200
         },
         {
           "name": "Hell Talon Squadron",
-          "units": "2 Hell Talon Fighter-Bombers",
+          "units": "Two Hell Talon Fighter-Bombers",
           "points": 225
         },
         {
           "name": "0-1 Harbringer",
-          "units": "1 Harbringer Bomber",
+          "units": "One Harbringer Bomber",
           "points": 325
         },
         {
           "name": "0-1 Chaos Cruiser",
-          "units": "1 Devastation Class Cruiser",
+          "units": "One Devastation Class Cruiser",
           "upgrades": [
             "Battleship"
           ],
@@ -290,28 +289,45 @@
         ]
       },
       {
+        "name": "Transport",
+        "options": [
+          {
+            "description": "Add up to four Chaos Rhinos (Retinue only)",
+            "points": "10 points each"
+          },
+          {
+            "description": "Add up to four Chaos Land Raiders",
+            "points": "50 points each"
+        },
+        {
+          "description": "(No more than needed to transport the formation with no space left over)",
+          "points": ""
+      }
+        ]
+      },
+      {
         "name": "Daemonic Pact",
-        "description": "Add Daemonic Pact to the formation, and 1 point to the Lesser Daemon Pool",
+        "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
         "points": "25 points"
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add 2 Chaos Dreadnoughts to the formation",
+        "description": "Add two Chaos Dreadnoughts to the formation",
         "points": "75 points"
       },
       {
         "name": "Champion",
-        "description": "Add 1 Champion character to the formation",
+        "description": "Add one Champion character to the formation",
         "points": "50 points"
       },
       {
         "name": "Icon Bearer",
-        "description": "Add 1 Icon Bearer character",
+        "description": "Add one Icon Bearer character",
         "points": "25 points"
       },
       {
         "name": "Stalker",
-        "description": "Add 1 Chaos Stalker to the formation",
+        "description": "Add one Chaos Stalker to the formation",
         "points": "50 points"
       },
       {
@@ -321,12 +337,12 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add 2 Chaos Vindicators",
+        "description": "Add two Chaos Vindicators",
         "points": "50 points"
       },
       {
         "name": "Havocs",
-        "description": "Replace 4 Chaos Space Marines with 4 Havocs",
+        "description": "Replace four Chaos Space Marines with four Havocs",
         "points": "50 points"
       },
       {
@@ -336,26 +352,26 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace 4 Chaos Space Marines with 4 Noise Marines",
+            "description": "Replace four Chaos Space Marines with four Noise Marines",
             "points": "50 points"
           },
           {
-            "description": "Replace 4 Chaos Space Marines with 4 Plague Marines",
+            "description": "Replace four Chaos Space Marines with four Plague Marines",
             "points": "50 points"
           },
           {
-            "description": "Replace 4 Chaos Space Marines with 4 Khorne Berzerkers",
+            "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
             "points": "25 points"
           },
           {
-            "description": "Replace 4 Chaos Space Marines with 4 Rubric Marines",
+            "description": "Replace four Chaos Space Marines with four Rubric Marines",
             "points": "50 points"
           }
         ]
       },
       {
         "name": "Obliterators",
-        "description": "Replace up to 2 Chaos Terminators with Obliterators",
+        "description": "Replace up to two Chaos Terminators with Obliterators",
         "points": "35 points each"
       }
     ]
