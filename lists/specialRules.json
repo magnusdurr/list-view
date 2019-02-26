@@ -245,7 +245,71 @@
 
 
 
+    {
+       "title": "Daemon Engine (x)",
+       "description": [
+         "Formations completely made up of units with the Daemon Engine (x) special rule, and that have the same faction within its brackets, gain the bonus associated with that faction:",
+         "Slaanesh: Formation gains +1 to activate when attempting to Double.",
+         "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
+         "Khorne: Formation gains +1 to activate when attempting to Engage.",
+         "Tzeench: Formation gains +1 to activate when attempting to Advance.",
+         "Chaos Undivided: Formations ignores the -1 modifier for enemy formations within 30cm when rallying."
+       ]
+     },
 
+     {
+       "title": "Summoning",
+       "description": [
+         "Any formation that either has a unit with Daemonic Pact or a Daemonic Pact formation upgrade may summon Daemons. Each Daemonic Pact in the army automatically provides 1 point to the Lesser Daemon Pool. (The player may also purchase additional Lesser Daemon Pool points and/or Greater Daemon Pool points).",
+         "Daemon Pools are not faction specific. The size of the Daemon Pool must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As daemons are summoned the pool must be changed to reflect its current size.",
+         "To summon daemons the formation declares its intention to summon before any action roll is made (but after the choice of action). The player then rolls 2D3 to generate the number of summoning points available for this formation. The formation may then summon daemons up to the number of summoning points generated, with any points not used lost, up to the number of points left in the daemonic pool.",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time.",
+         "Summoned units must be setup with their base completely within 5cm of any non-summoned unit in the summoning formation (i.e. You cannot place a chain of summoned units). If the summoning formation has the Transport ability, newly summoned units can be set up inside if there is space left. They cannot be placed in enemy zones of control or impassable terrain. Summoned units become part of the summoning formation for all rules purposes as long as they remain on the battlefield.",
+         "Summoned units count as part of the formation for all rules purposes as long as they remain on the battlefield. Summoned units are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution.",
+         "Summoned units that are destroyed are removed from play and the summoning cost of each unit is lost from the players daemonic pool. Summoned units remain in play until the end phase of the turn in which they were summoned. After all formations have attempted to rally any summoned units are removed from play and the total of their summoning points returned to the relevant daemonic pool. Note – this may cause the formation to now have more blast markers than its number of units an will therefore become broken.",
+         "When a formation becomes broken all summoned units are destroyed.",
+         "When calculating victory points, the Lesser Daemon pool scores half points if the pool has less than or equal to half (round up) its original number of daemons remaining. The Lesser Daemon pool scores full points if the pool has less than or equal to a quarter (round up) its daemons remaining. Treat Greater Daemons as War Engines for the purpose of calculating victory points."
+       ]
+     },
+
+     {
+       "title": "Black Legion Summoning Rules",
+       "description": [
+         "All formations in the Black Legion worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
+         "Lesser Daemons: Daemonettes (1), Plaguebearers (1), Bloodletters (1), Horrors (1), Daemonic Beasts (1)",
+         "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
+         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+       ]
+     },
+
+     {
+       "title": "Augment Summoning (+x)",
+       "description": [
+         "Some units are noted as having Augment Summoning (+x). Units with this ability add a number of summoning points equal to 'x' when the formation they are in summons daemons (see Summoning). For example, a unit noted as having Augment Summoning (+2) would allow a formation with a Daemonic Pact to roll 2D3+2 for summoning points as opposed to the usual 2D3."
+       ]
+     },
+     {
+       "title": "Daemonic Focus",
+       "description": [
+         "Daemonic Focus: Certain units may have Daemonic Focus. Units with this ability may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Chaos units with Daemonic Focus may not be used to keep summoned units in play if the formation is broken. Multiples of Daemonic Focus has no additional effect."
+       ]
+     },
+
+     {
+       "title": "Fickle Masters",
+       "description": [
+         "In the strategy phase of each turn if the Black Legion rolls a 6, they are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled 1D3 summoning points is lost from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect."
+       ]
+     },
+
+     {
+       "title": "Black Legion Dreadclaws",
+       "description": [
+         "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+
+         "The following units may be deployed using Dreadclaws: Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Obliterators, Chaos Dreadnoughts, Daemon Prince of Chaos Undivided."
+       ]
+     },
 
 
 
@@ -398,12 +462,6 @@
         "If an action with a movement component is chosen there are no specific movement restrictions. You may move as normal in any allowed direction or manner. You don't have to move towards the coordinated fire target or even make any attempt to get any weapons in range if you don't want to.",
         "The only requirement is that if you choose to shoot it must be at the formation picked as the target of the coordinated fire.",
         "The target of the coordinated fire being destroyed or moving to a position where it cannot be shot has no impact on any movement component of the action chosen. It just means that you will not be able to shoot."
-      ]
-    },
-    {
-      "title": "Deflector Shield",
-      "description": [
-        "Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+."
       ]
     },
     {
