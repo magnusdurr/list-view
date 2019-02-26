@@ -35,6 +35,17 @@
       ]
     },
     {
+      "name": "Cadian Supreme Commander",
+      "type": "CH",
+      "weapons": [
+        "Power Weapon",
+        "Autocannon"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
       "name": "Catachan Commander",
       "type": "CH",
       "weapons": [
@@ -49,6 +60,16 @@
     },
     {
       "name": "Steel Legion Commander",
+      "type": "CH",
+      "weapons": [
+        "Autocannon"
+      ],
+      "specialRules": [
+        "Commander"
+      ]
+    },
+    {
+      "name": "Cadian Commander",
       "type": "CH",
       "weapons": [
         "Autocannon"
@@ -109,6 +130,19 @@
       ],
       "specialRules": [
         "One in every two has an Autocannon"
+      ]
+    },
+    {
+      "name": "White Shield Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Lasguns"
+      ],
+      "specialRules": [
+
       ]
     },
     {
@@ -241,6 +275,19 @@
       "specialRules": [
         "Scout",
         "Teleport"
+      ]
+    },
+    {
+      "name": "Kasrkin",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Plasma Gun"
+      ],
+      "specialRules": [
       ]
     },
     {
@@ -384,6 +431,32 @@
       ]
     },
     {
+      "name": "Medusa Platform",
+      "type": "LV",
+      "speed": "Immobile",
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Medusa Siege Gun"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Heavy AA Platform",
+      "type": "LV",
+      "speed": "Immobile",
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy AA Gun"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
       "name": "Hellhound",
       "type": "AV",
       "speed": 30,
@@ -518,6 +591,39 @@
       ]
     },
     {
+      "name": "Praetor Armoured Assault Launcher",
+      "type": "AV-K",
+      "speed": "20cm",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Bolter",
+        "Praetor launcher"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ],
+      "notes": "Critical Hit Effect: The unit is destroyed."
+    },
+    {
+      "name": "Crassus Amoured Assaults",
+      "type": "AV-K",
+      "speed": "20cm",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Bolter",
+        "Storm Bolters"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Transport: May transport 4 infantry units without jumppack or mounted"
+      ],
+      "notes": "Critical Hit Effect: The unit is destroyed."
+    },
+    {
       "name": "Gorgon",
       "type": "WE",
       "speed": "20cm",
@@ -552,6 +658,25 @@
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour"
+      ],
+      "notes": "Critical Hit Effect: The unit is destroyed."
+    },
+    {
+      "name": "Stormlord",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Vulcan Mega-Bolter",
+        "Heavy Flamer|2|",
+        "Twin Heavy Bolter|3|"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Transport: May transport 8 infantry units without jumppack or mounted, 4 may fire from the firing deck and FF in assaults."
       ],
       "notes": "Critical Hit Effect: The unit is destroyed."
     },

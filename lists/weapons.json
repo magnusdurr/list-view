@@ -1807,6 +1807,17 @@
       ]
     },
     {
+      "name": "Heavy AA Gun",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+/AA5+",
+            "range": 60,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Arc Rifle",
         "modes": [
           {
@@ -2412,6 +2423,18 @@
       ]
     },
     {
+      "name": "Medusa Siege Gun",
+        "modes": [
+          {
+            "firepower": "AP3+/AT4+",
+            "range": 60,
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Mercenary Weapons",
         "modes": [
           {
@@ -2845,6 +2868,18 @@
           "specialRules": [
             "EA(+1)",
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Praetor launcher",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 75,
+            "specialRules": [
+              "IC"
           ]
         }
       ]
@@ -3667,6 +3702,16 @@
       "modes": [
         {
           "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
+      "name": "Storm Bolters",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
         }
       ]
     },
@@ -4570,8 +4615,6 @@
         }
       ]
     }
-
-
 
 
 
