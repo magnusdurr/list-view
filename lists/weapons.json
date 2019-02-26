@@ -533,6 +533,18 @@
           }
       ]
     },
+        {
+      "name": "Æther Blade",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+2)",
+              "MW"
+          ]
+        }
+      ]
+    },
     {
       "name": "Agonizer",
         "modes": [
@@ -799,6 +811,18 @@
       ]
     },
     {
+      "name": "Blastmaster",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+                "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Blessed Weapon",
         "modes": [
           {
@@ -830,6 +854,24 @@
       ]
     },
     {
+      "name": "Bolters and Blight Grenades",
+        "modes": [
+            {
+              "firepower": "Small Arms",
+              "specialRules": [
+              "IC"
+            ]
+        },
+            {
+              "firepower": "Assault Weapons",
+              "join": "and",
+              "specialRules": [
+                "IC"
+              ]
+            }
+      ]
+    },
+        {
       "name": "Bright Lance",
       "modes": [
         {
@@ -921,6 +963,16 @@
             "Lightning Charge"
           ]
         }
+      ]
+    },
+    {
+      "name": "Chain Axes",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+          }
       ]
     },
     {
@@ -1054,6 +1106,18 @@
             "firepower": "AP5+/AT5+",
             "range": 15,
             "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Daemonic Bolt",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "FS"
           ]
           }
       ]
@@ -2075,6 +2139,14 @@
       ]
     },
     {
+      "name": "Inferno Bolters",
+        "modes": [
+          {
+            "firepower": "Small Arms"
+          }
+      ]
+    },
+    {
       "name": "Inferno Gun",
       "modes": [
         {
@@ -2768,6 +2840,16 @@
       ]
     },
     {
+      "name": "Plasma Pistols",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Poison Blades",
         "modes": [
           {
@@ -3069,6 +3151,15 @@
           "firepower": "2x AP4+/AT4+",
           "range": 60
         }
+      ]
+    },
+    {
+      "name": "Reaper Autocannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT6+",
+          "range": 30
+            }
       ]
     },
     {
@@ -4475,6 +4566,18 @@
             "range": 30,
             "specialRules": [
 
+            ]
+          }
+      ]
+    },
+    {
+          "name": "Warp Bolt",
+          "modes": [
+            {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
             ]
           }
       ]
