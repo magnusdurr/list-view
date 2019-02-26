@@ -1,7 +1,7 @@
 {
   "fraction": "Genestealer Cult",
   "army": "Bohemoid Undercult",
-  "version": "1.05",
+  "version": "1.1",
   "release": "2019-02-22",
   "strategy": "Bohemoid Undercult Genestealer armies have a strategy rating of 1.",
   "initiative": "All formations have an initiative rating of 1+. All Cult Guard formantions have an initative rating 2+.",
@@ -29,7 +29,7 @@
         "Neophyte Hybrid",
         "Purestrain Genestealers",
         "Achilles Ridgerunner",
-        "Atalan Jackal Quad Bike",
+        "Wolfquad",
         "Armoured Limousine",
         "Goliath Rockgrinder",
         "Goliath Truck"
@@ -41,8 +41,6 @@
     {
       "from": "IG.json",
       "units": [
-
-        "Basilisk",
         "Bombard",
         "Chimera",
         "Deathstrike",
@@ -139,10 +137,10 @@
         },
         {
           "name": "Atalan Jackals",
-          "units": "Ten of any combination of Atalan Jackals or Atalan Jackals Quad Bikes and One Jackal Alphus.",
+          "units": "Ten of any combination of Atalan Jackals or Wolfquads and One Jackal Alphus.",
           "upgrades": [
           ],
-          "points": 150
+          "points": 200
         },
         {
           "name": "Hybrid Metamorphs",
@@ -150,7 +148,7 @@
           "upgrades": [
             "Primus"
           ],
-          "points": 225
+          "points": 275
         },
         {
           "name": "Achilles Ridgerunner",
@@ -166,7 +164,7 @@
         },
         {
           "name": "Cult Artillery",
-          "units": "Three Bombards or Three Basilisks",
+          "units": "Three Bombards",
           "upgrades": [
             "Flak"
           ],

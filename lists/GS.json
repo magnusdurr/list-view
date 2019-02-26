@@ -2,28 +2,6 @@
   {
     "name": "Genestealer Forces",
     "specialRules": [
-      {
-        "title": "Bionics",
-        "description": [
-          "The extensive bionic modifications undergone by the Battle-Brothers of the Iron Hands increases their resistance to physical trauma. Units with the Bionics special ability have their armour saves increased to 3+."
-        ]
-      },
-      {
-        "title": "Cult of the Machine",
-        "description": [
-          "If ANY friendly Titan or an Iron Hands Venerable Dreadnought is destroyed, all formations within 30cm receive 1 blast marker marking the deep loss it represents to the chapter."
-        ]
-      },
-      {
-        "title": "They Shall Know No Fear",
-        "description": [
-          "Space Marines are renowned for their tenacity and bravery. This is represented by the following rules:",
-          "* It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).",
-          "* Space Marine formations are only broken if they have 2 Blast markers per unit in the formation.",
-          "* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.",
-          "* When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1"
-        ]
-      }
     ],
     "unit": [
       {
@@ -110,7 +88,7 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-       "Heavy Mining Laser","Claws"
+       "Mining Laser","Claws"
       ],
       "specialRules": [
         "Cult Ambush"
@@ -210,7 +188,7 @@
       ]
     },
     {
-      "name": "Atalan Jackal Quad Bike",
+      "name": "Wolfquad",
       "type": "LV",
       "speed": 35,
       "armour": 5,
