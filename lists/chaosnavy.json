@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Chaos Navy",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Hell Blade",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 6,
+      "weapons": [
+        "Aircraft Multilaser",
+        "Aircraft Underwing Rockets",
+        "Aircraft Storm Bolters"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "Aircraft Lascannon",
+        "Aircraft Underwing Rockets"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Harbringer",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 5,
+      "weapons": [
+        "Aircraft Avenger Bolt Cannon",
+        "Aircraft Twin Lascannon",
+        "Aircraft Heavy Stubber"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Devastation Class Cruiser",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 3BP",
+        "Pin Point"
+      ]
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 8BP"
+      ],
+      "specialRules": [
+        "Slow to Arrive"
+      ]
+    }
+
+    ]
+  }
+]
