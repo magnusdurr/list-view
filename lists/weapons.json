@@ -1240,6 +1240,19 @@
       ]
     },
     {
+      "name": "Leviathan Doomsday Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 75,
+            "specialRules": [
+              "MW",
+              "FxF"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Earthshaker Cannon",
           "modes": [
             {
@@ -4204,6 +4217,30 @@
         {
           "firepower": "AP4+/AT4+/AA5+",
           "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Twin Lascannon R",
+      "modes": [
+        {
+          "firepower": "AT4+",
+          "range": 45,
+          "specialRules": [
+            "Right"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Lascannon L",
+      "modes": [
+        {
+          "firepower": "AT4+",
+          "range": 45,
+          "specialRules": [
+            "Left"
+          ]
         }
       ]
     },

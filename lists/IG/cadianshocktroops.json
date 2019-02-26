@@ -8,7 +8,7 @@
 
   "specialRules": ["Commissars", "Independent"],
   "usage": [
-    "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
+    "The following army list allows you to field an army based on the Cadian Storm Trooper Regiment"
   ],
   "units": [
     {
@@ -27,6 +27,7 @@
         "Hellhound",
         "Crassus Amoured Assaults",
         "Praetor Armoured Assault Launcher",
+        "Leviathan Mobile Command Center",
         "Stormlord",
         "Shadowsword",
         "Baneblade",
@@ -40,12 +41,12 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Reaver",
-        "Warhound"
+        "Warhound",
+        "Reaver"
+
       ],
       "unitRules": [
-        "Imperial Void Shields",
-        "Independent"
+        "Imperial Void Shields"
       ]
     },
 
@@ -93,17 +94,9 @@
       "description": "Up to a Two Support Formations for each Core Formation.",
       "formations": [
         {
-          "name": "0–1 Deathstrike Battery",
-          "units": "Two Deathstrikes",
-          "upgrades": [
-            "May add gun emplacements for +25 points"
-          ],
-          "points": 200
-        },
-        {
           "name": "Assault Launcher Platoon",
           "units": "Three Praetor Armoured Assault Launcher",
-          "points": 300,
+          "points": 275,
           "upgrades": [
             "Add one Hydra for +50 points"
 
@@ -162,19 +155,25 @@
       "description": "Up to a third of the points available may be spent on Imperial Titans, Aircraft and Spacecraft",
       "formations": [
         {
-          "name": "Reaver",
-          "units": "One Reaver Class Titan",
+          "name": "Warhound Titan",
+          "units": "One Warhound Class Titan",
           "upgrades": [
           ],
-          "points": 650
+          "points": 275
         },
         {
           "name": "Warhound Pack",
           "units": "Two Warhound Class Titan",
           "upgrades": [
-            "Independent +50 points"
           ],
           "points": 500
+        },
+        {
+          "name": "Reaver",
+          "units": "One Reaver Class Titan",
+          "upgrades": [
+          ],
+          "points": 650
         }
       ]
     },

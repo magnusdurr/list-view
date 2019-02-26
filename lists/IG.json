@@ -642,6 +642,27 @@
       "notes": "Critical Hit Effect: The Gorgon is immobilized, and D3 transported units takes a hit. Subsequent critical hits destroys the Gorgon."
     },
     {
+      "name": "Leviathan Mobile Command Center",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Leviathan Doomsday Cannon",
+        "Twin Lascannon R|3|",
+        "Twin Lascannon L|3|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 4",
+        "Void Shields: 2",
+        "Reinforced Armour",
+        "Fearless",
+        "Transport: Transport 16 infantry units without jumppack or mounted. Up to six units may Fire and FF from the fighting platform."
+      ],
+      "notes": "Critical Hit Effect: 1st hit immobilizes, subsequent critical hits the unit is destroyed"
+    },
+    {
       "name": "Baneblade",
       "type": "WE",
       "speed": "15cm",
