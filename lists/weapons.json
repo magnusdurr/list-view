@@ -104,6 +104,17 @@
       ]
     },
     {
+      "name": "AC Combi-Bolters",
+      "modes": [
+        {
+          "firepower": "AP5+/AA5+",
+          "range": 15,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aircraft Death Ray",
         "modes": [
           {
@@ -277,6 +288,28 @@
       ]
     },
     {
+      "name": "AC Reaper Autocannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT6+/AA6+ ",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Twin Reaper Autocannon",
+        "modes": [
+          {
+            "firepower": "AP3+/AT5+/AA5+ ",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Scatter Laser",
       "modes": [
         {
@@ -410,7 +443,42 @@
           }
       ]
     },
+    {
+      "name": "AC Heavy Incendiary Bombs",
+        "modes": [
+          {
+            "firepower": "6BP",
+            "range": 15,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Havoc Launcher",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 45,
+            "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Incendiary Bombs",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 15,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
     {
       "name": "Aircraft Twin Lascannon",
         "modes": [
@@ -700,6 +768,18 @@
       ]
     },
     {
+      "name": "Axe of Khorne",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+2)",
+            "TK(D2)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Balefire",
         "modes": [
           {
@@ -763,6 +843,18 @@
           "firepower": "Assault Weapons",
           "specialRules": [
             "FS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bedlam Staff",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
           ]
         }
       ]
@@ -1086,6 +1178,16 @@
             "firepower": "Assault Weapons",
             "specialRules": [
               "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Cloud of Flies",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
           ]
           }
       ]
@@ -1577,6 +1679,18 @@
             "firepower": "Assault Weapons",
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Filth Mace",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
           ]
           }
       ]
@@ -2113,6 +2227,17 @@
       ]
     },
     {
+      "name": "Hellblades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hellglaives",
         "modes": [
           {
@@ -2398,6 +2523,20 @@
         {
           "firepower": "AT5+",
           "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Lash of Torment",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+              "EA(+1)",
+              "MW",
+              "FS"
+
+          ]
         }
       ]
     },
@@ -2866,6 +3005,29 @@
             "firepower": "AP5+/AT6+",
             "range":30
           }
+      ]
+    },
+    {
+      "name": "Piercing Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "FS"
+          ]
+          }
+
+      ]
+    },
+    {
+      "name": "Plagueswords",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+          }
+
       ]
     },
     {
@@ -3521,15 +3683,77 @@
       ]
     },
     {
+      "name": "Seismic Cannons",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Shieldbreaker Missiles",
         "modes": [
           {
-            "firepower": "AT3+",
+            "firepower": "AT2+",
             "range": 120,
             "specialRules": [
               "SS"
           ]
           }
+      ]
+    },
+    {
+      "name": "Shock Field",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)",
+            "Lightning Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shootas",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Shuriken Cannon",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shuriken Catapults",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shuriken Pistols",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -3612,63 +3836,21 @@
       ]
     },
     {
-      "name": "Seismic Cannons",
+      "name": "Slicing Shards",
       "modes": [
         {
-          "firepower": "AP5+/AT6+",
-          "range": 30
-        }
-      ]
-    },
-    {
-      "name": "Shock Field",
-      "modes": [
+          "firepower": "3x MW4+",
+            "range": 30,
+          "specialRules": [
+        ]
+        },
         {
           "firepower": "Small Arms",
+          "join": "and",
           "specialRules": [
             "EA(+1)",
-            "Lightning Charge"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Shootas",
-        "modes": [
-          {
-            "firepower": "Small Arms",
-            "specialRules": [
-          ]
-          }
-      ]
-    },
-    {
-      "name": "Shuriken Cannon",
-      "modes": [
-        {
-          "firepower": "AP5+",
-          "range": 30,
-          "specialRules": [
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Shuriken Catapults",
-      "modes": [
-        {
-          "firepower": "Small Arms",
-          "specialRules": [
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Shuriken Pistols",
-      "modes": [
-        {
-          "firepower": "Small Arms",
-          "specialRules": [
+            "MW",
+            "FS"
           ]
         }
       ]
@@ -3833,6 +4015,16 @@
       ]
     },
     {
+      "name": "Sorcerous Bolts",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Squig Catapult",
         "modes": [
           {
@@ -3900,6 +4092,26 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stream of Corruption",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range":15,
+            "specialRules": [
+              "IC"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "IC"
           ]
         }
       ]
@@ -4781,6 +4993,23 @@
           "specialRules": [
             "EA(+1)",
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Withering Gaze",
+        "modes": [
+          {
+            "firepower": "2x MW3+",
+            "range": 45
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+                "EA(+1)",
+              "MW"
           ]
         }
       ]

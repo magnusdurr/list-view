@@ -6,128 +6,159 @@
     "unit": [
       {
         "name": "Keeper of Secrets",
-        "type": "CH",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "Commander",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Daemonettes",
-        "type": "CH",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "Inspiring",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Great Unclean One",
-        "type": "CH",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "Bionics",
-          "Commander",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Plaguebearers",
-        "type": "CH",
-        "weapons": [
-          "Bolt Pistols"
-        ],
-        "specialRules": [
-          "Bionics",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Bloodthirster",
-        "type": "CH",
-        "weapons": [
-          "Servo Arm"
-        ],
-        "specialRules": [
-          "Bionics",
-          "Invulnerable Save",
-          "Leader"
-        ],
-        "notes": "Tactical and Devastator units in the same formation excahnge their Missile Launchers for Graviton Guns"
-      },
-      {
-        "name": "Bloodletters",
-        "type": "CH",
-        "weapons": [
-          {
-            "name": "Smite",
-            "modes": [
-              {
-                "firepower": "Small Arms, EA(+1), MW"
-              }
-            ]
-          },
-          {
-            "name": "Power Weapon",
-            "modes": [
-              {
-                "firepower": "Assault Weapons, EA(+1), MW"
-              }
-            ]
-          }
-        ],
-        "specialRules": [
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Lord of Change",
-        "type": "CH",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "Invulnerable Save",
-          "Supreme Commander"
-        ]
-      },
-      {
-        "name": "Horrors",
-        "type": "INF",
-        "speed": 30,
-        "armour": 4,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Bolt Pistols"
-        ],
-        "specialRules": [
-          "Jump Packs"
-        ]
-      },
-      {
-        "name": "Daemonic Beasts",
-        "type": "INF",
-        "speed": 35,
+        "type": "WE",
+        "speed": 20,
         "armour": 4,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Twin Bolters"
+          "Slicing Shards",
+          "Lash of Torment"
         ],
         "specialRules": [
-          "Mounted"
+            "Damage Capacity 3",
+            "Reinforced Armour",
+            "Inspiring",
+            "Daemonic Focus",
+            "Walker",
+            "Augment Summoning (+1D3)"
+      ],
+        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+      },
+      {
+        "name": "Daemonettes of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Piercing Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save"
+            ]
+      },
+      {
+        "name": "Great Unclean One",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Stream of Corruption",
+          "Filth Mace"
+        ],
+        "specialRules": [
+            "Damage Capacity 4",
+            "Reinforced Armour",
+            "Inspiring",
+            "Daemonic Focus",
+            "Walker",
+            "Augment Summoning (+1D3)"
+        ],
+        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+      },
+      {
+        "name": "Plaguebearers of Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Plagueswords",
+          "Cloud of Flies"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Bloodthirster",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Axe of Khorne"
+        ],
+        "specialRules": [
+            "Damage Capacity 3",
+            "Reinforced Armour",
+            "Inspiring",
+            "Daemonic Focus",
+            "Walker",
+            "Jump Pack",
+            "Augment Summoning (+1D3)"
+        ],
+        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+      },
+      {
+        "name": "Bloodletters of Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+          "Hellblades"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Lord of Change",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "weapons": [
+          "Withering Gaze",
+          "Bedlam Staff"
+        ],
+        "specialRules": [
+            "Damage Capacity 3",
+            "Reinforced Armour",
+            "Inspiring",
+            "Daemonic Focus",
+            "Walker",
+            "Jump Pack",
+            "Augment Summoning (+1D3)"
+        ],
+        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+      },
+      {
+        "name": "Horrors of Tzeench",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Sorcerous Bolts"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Daemonic Beasts of Chaos Undivided",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+          "Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Invulnerable Save"
         ]
       }
     ]

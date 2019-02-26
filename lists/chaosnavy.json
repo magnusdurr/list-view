@@ -3,53 +3,55 @@
     "name": "Chaos Navy",
     "specialRules": [
       {
-        "title": "",
+        "title": "God Machine Killer (GMK)",
         "description": [
-          "Template"
+          "Has TK(D6) against WE with the God Machine special rule."
         ]
-      }
+    }
     ],
     "unit": [
     {
-      "name": "Hell Blade",
-      "type": "AC",
-      "speed": "Fighter Bomber",
-      "armour": 6,
-      "weapons": [
-        "Aircraft Multilaser",
-        "Aircraft Underwing Rockets",
-        "Aircraft Storm Bolters"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Hell Talon",
+      "name": "Hell Blade Interceptor",
       "type": "AC",
       "speed": "Fighter",
       "armour": 6,
       "weapons": [
-        "Aircraft Lascannon",
-        "Aircraft Underwing Rockets"
+        "AC Reaper Autocannon|2|FxF"
       ],
       "specialRules": [
 
       ]
     },
     {
-      "name": "Harbringer",
+      "name": "Hell Talon Fighter-Bomber",
       "type": "AC",
-      "speed": "Fighter Bomber",
+      "speed": "Fighter-Bomber",
       "armour": 5,
       "weapons": [
-        "Aircraft Avenger Bolt Cannon",
+        "AC Havoc Launcher",
         "Aircraft Twin Lascannon",
-        "Aircraft Heavy Stubber"
+        "AC Incendiary Bombs"
       ],
       "specialRules": [
 
       ]
+    },
+    {
+      "name": "Harbringer Bomber",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Heavy Incendiary Bombs||FxF",
+        "AC Twin Reaper Autocannon|2|FxF",
+        "AC Combi-Bolters||Left",
+        "AC Combi-Bolters||Right"
+      ],
+      "specialRules": [
+          "Damage Capacity 4",
+          "Reinforced Armour"
+      ],
+    "notes": "Critical Hit Effect: The Harbringer Bomber is destroyed"
     },
     {
       "name": "Devastation Class Cruiser",
@@ -57,17 +59,20 @@
       "weapons": [
         "Orbital Bombardment 3BP",
         "Pin Point"
-      ]
+    ],
+        "notes": "Transport. May transport 20 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
     },
     {
       "name": "Despoiler Class Battleship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 8BP"
+        "Orbital Bombardment 3BP",
+        "Pin Point|2|"
       ],
       "specialRules": [
-        "Slow to Arrive"
-      ]
+        "Slow to Arrive (May only arrive from turn 2 onwards)"
+    ],
+        "notes": "Transport. May transport 30 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
     }
 
     ]
