@@ -16,30 +16,18 @@
       "units": [
         "Cadian Supreme Commander",
         "Cadian Commander",
-        "Tempestor",
         "Commissar",
         "Lord Commissar",
-        "Infantry ",
-        "Ogryns",
-        "Rough Riders",
-        "Sniper",
-        "Tempestus Scions",
-        "Support Squad",
+        "White Shield Infantry",
+        "Kasrkin",
         "Sentinel",
-        "Basilisk",
-        "Bombard",
-        "Chimera",
-        "Taurox",
+        "Medusa Platform",
+        "Heavy AA Platform",
         "Deathstrike",
-        "Griffon",
         "Hellhound",
-        "Hydra",
-        "Leman Russ",
-        "Leman Russ Demolisher",
-        "Leman Russ Vanquisher",
-        "Manticore",
-        "Valkyrie",
-        "Vulture",
+        "Crassus Amoured Assaults",
+        "Praetor Armoured Assault Launcher",
+        "Stormlord",
         "Shadowsword",
         "Baneblade",
         "Stormsword",
@@ -47,18 +35,13 @@
       ],
         "unitRules": [
 
-
           ]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
         "Reaver",
-        "Reaver, Close Assault Configuration",
-        "Reaver, Support Configuration",
-        "Warhound",
-        "Warhound, Support Configuration",
-        "Warhound, Tank Hunter Configuration"
+        "Warhound"
       ],
       "unitRules": [
         "Imperial Void Shields",
@@ -129,7 +112,7 @@
         },
         {
           "name": "Medusa Battery",
-          "units": "Three Medusa Carriages",
+          "units": "Three Medusa Platforms",
           "upgrades": [
             "May add gun emplacements for +25 points"
           ],
@@ -137,7 +120,7 @@
         },
         {
           "name": "Flak Battery",
-          "units": "Three Hydras ",
+          "units": "Three Heavy AA Platforms",
           "upgrades": [
             "May add gun emplacements for +25 points"
           ],
@@ -180,17 +163,15 @@
       "formations": [
         {
           "name": "Reaver",
-          "units": "One Reaver Class Titan, Standard or Support Configuration",
+          "units": "One Reaver Class Titan",
           "upgrades": [
-            "Close Assault Configuration +25 points"
           ],
           "points": 650
         },
         {
           "name": "Warhound Pack",
-          "units": "Two Warhound Class Titan, Standard or Support Configuration",
+          "units": "Two Warhound Class Titan",
           "upgrades": [
-            "Tank Hunter Configuration +50 points",
             "Independent +50 points"
           ],
           "points": 500
