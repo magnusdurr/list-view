@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Chaos Space Marine Forces",
+
+    "specialRules": [
+    ],
+
+    "unit": [
+        {
+          "name": "Warlord",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Invulnerable Save"
+          ]
+        },
+      {
+        "name": "Chaos Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Sorcerer Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+            "Invulnerable Save",
+            "Leader"
+        ],
+        "notes": "May not be added to a formation containing Khorne Berzerkers"
+      },
+      {
+        "name": "Champion of Chaos Undivided",
+        "type": "CH",
+        "weapons": [
+          "Bolt Pistols"
+        ],
+        "specialRules": [
+          "Bionics",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Icon Bearer",
+        "type": "CH",
+        "weapons": [
+          "Servo Arm"
+        ],
+        "specialRules": [
+          "Bionics",
+          "Invulnerable Save",
+          "Leader"
+        ],
+        "notes": "Tactical and Devastator units in the same formation excahnge their Missile Launchers for Graviton Guns"
+      },
+      {
+        "name": "Daemon Prince of Chaos Undivided",
+        "type": "CH",
+        "weapons": [
+          {
+            "name": "Smite",
+            "modes": [
+              {
+                "firepower": "Small Arms, EA(+1), MW"
+              }
+            ]
+          },
+          {
+            "name": "Power Weapon",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Chaos Space Marines",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Bolt Pistols"
+        ],
+        "specialRules": [
+          "Jump Packs"
+        ]
+      },
+      {
+        "name": "Havocs",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Twin Bolters"
+        ],
+        "specialRules": [
+          "Mounted"
+        ]
+      },
+      {
+        "name": "Chosen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Missile Launcher|2"
+        ]
+      },
+      {
+        "name": "Raptors",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Missile Launcher|0-2",
+          "Graviton Gun|0-2"
+        ],
+        "notes": "Armed with Missile Launchers. If the formation contains a Iron Hands Techmarine, the Missile Launchers will be replaced by Graviton Guns."
+      },
+      {
+        "name": "Chaos Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Missile Launcher|0-1",
+          "Graviton Gun|0-1"
+        ],
+        "notes": "Armed with a Missile Launcher. If the formation contains a Iron Hands Techmarine, the Missile Launcherswill be replaced by a Graviton Guns."
+      },
+      {
+        "name": "Noise Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Infiltrator",
+          "Scout"
+        ]
+      },
+      {
+        "name": "Plague Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Missile Launcher",
+          "Sternguard Bolters"
+        ],
+        "specialRules": [
+          "Infiltrator",
+          "Scout"
+        ]
+      },
+      {
+        "name": "Khorne Berzerkers",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Missile Launcher"
+        ]
+      },
+      {
+        "name": "Rubric Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Assault Cannon|2",
+          "Power Weapons"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+        ]
+      },
+      {
+        "name": "Obliterators",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolt Pistols",
+          "Power Weapons"
+        ],
+        "specialRules": [
+          "Jump Packs"
+        ]
+      },
+      {
+        "name": "Chaos Space Marine Bikes",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolt Pistols",
+          "Power Weapons"
+        ],
+        "specialRules": [
+          "Infiltrator"
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Heavy Bolter"
+        ]
+      },
+      {
+        "name": "Chaos Land Raider",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multi-melta"
+        ],
+        "specialRules": [
+          "Scout",
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "Chaos Predator",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Assault Cannon",
+          "Tempest Missile Launcher"
+        ],
+        "specialRules": [
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "Chaos Vindicator",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Skimmer",
+          "Transport"
+        ],
+        "notes": "May transport one Scout unit"
+      },
+      {
+        "name": "Chaos Dreadnought",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Assault Cannon",
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Scout",
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "Chaos Stalker",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Twin Typhoon Missile",
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Scout",
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "Defiler",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Decimator",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Multi-melta"
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Deathwheel",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Power Fist",
+          "Assault Cannon"
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      }
+    ]
+  }
+]

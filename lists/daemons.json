@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Daemon Legions",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Keeper of Secrets",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Daemonettes",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Great Unclean One",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Bionics",
+          "Commander",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Plaguebearers",
+        "type": "CH",
+        "weapons": [
+          "Bolt Pistols"
+        ],
+        "specialRules": [
+          "Bionics",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Bloodthirster",
+        "type": "CH",
+        "weapons": [
+          "Servo Arm"
+        ],
+        "specialRules": [
+          "Bionics",
+          "Invulnerable Save",
+          "Leader"
+        ],
+        "notes": "Tactical and Devastator units in the same formation excahnge their Missile Launchers for Graviton Guns"
+      },
+      {
+        "name": "Bloodletters",
+        "type": "CH",
+        "weapons": [
+          {
+            "name": "Smite",
+            "modes": [
+              {
+                "firepower": "Small Arms, EA(+1), MW"
+              }
+            ]
+          },
+          {
+            "name": "Power Weapon",
+            "modes": [
+              {
+                "firepower": "Assault Weapons, EA(+1), MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Lord of Change",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Invulnerable Save",
+          "Supreme Commander"
+        ]
+      },
+      {
+        "name": "Horrors",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Bolt Pistols"
+        ],
+        "specialRules": [
+          "Jump Packs"
+        ]
+      },
+      {
+        "name": "Daemonic Beasts",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Twin Bolters"
+        ],
+        "specialRules": [
+          "Mounted"
+        ]
+      }
+    ]
+  }
+]
