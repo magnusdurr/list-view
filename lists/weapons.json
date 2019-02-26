@@ -2366,16 +2366,6 @@
       ]
     },
     {
-      "name": "Mercenary Weapons",
-        "modes": [
-          {
-            "firepower": "Assault Weapons",
-            "specialRules": [
-          ]
-          }
-      ]
-    },
-    {
       "name": "Melta Cannon",
       "modes": [
         {
@@ -2413,6 +2403,25 @@
       ]
     },
     {
+      "name": "Mining Laser",
+      "modes": [
+        {
+          "firepower": "AT5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Mercenary Weapons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Metamorph Claws",
       "modes": [
         {
@@ -2431,15 +2440,7 @@
         }
       ]
     },
-    {
-      "name": "Mining Laser",
-      "modes": [
-        {
-          "firepower": "AP5+/AT6+",
-          "range": 30
-        }
-      ]
-    },
+
     {
       "name": "Missile Launcher",
       "modes": [
