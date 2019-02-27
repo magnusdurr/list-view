@@ -6,59 +6,63 @@
 <table class="table">
     <thead>
     <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Type</th>
-        <th scope="col">Speed</th>
-        <th scope="col">Armour</th>
-        <th scope="col">CC</th>
-        <th scope="col">FF</th>
-        <th scope="col">Weapons</th>
-        <th scope="col">Range</th>
-        <th scope="col">Firepower</th>
+        <th scope="col">
+            <div class="row">
+                <div class="col-12 col-md-5">Units</div>
+                <div class="d-none d-md-inline col-md-7">Weapons</div>
+            </div>
+        </th>
     </tr>
     </thead>
     <tbody>
     {{#each unit}}
     {{#unit this}}
-    <tr class="unit-row-{{oddEven @index}} {{#unless @singleLine}}unit-row-top{{/unless}}">
-        <td rowspan="{{@weaponLines}}" class="unit-name">{{name}}</td>
-        <td rowspan="{{@weaponLines}}">{{#if type}}{{type}}{{else}}n/a{{/if}}</td>
-        <td rowspan="{{@weaponLines}}">{{#if speed}}{{appendOnNumber speed 'cm'}}{{else}}n/a{{/if}}</td>
-        <td rowspan="{{@weaponLines}}">{{#if armour}}{{armour}}+{{else}}n/a{{/if}}</td>
-        <td rowspan="{{@weaponLines}}">{{#if cc}}{{cc}}+{{else}}n/a{{/if}}</td>
-        <td rowspan="{{@weaponLines}}">{{#if ff}}{{ff}}+{{else}}n/a{{/if}}</td>
-        {{#each weapons}}
-        {{#each modes}}
-        {{#unless (and @../first @first)}}
-    <tr class="unit-row-{{oddEven @../../index}} {{#if (and @last @hasNoNotes)}}unit-row-bottom{{else}}unit-row-middle{{/if}}">
-        {{/unless}}
-        <td>{{#if join}}<i>{{join}}</i>{{else}}{{#if ../count}}{{../count}}x {{/if}}{{../name}}{{/if}}</td>
-        <td>{{appendOnNumber range 'cm'}}</td>
+    <tr class="unit-row-{{oddEven @index}}">
         <td>
-            {{firepower}}
-            {{#each specialRules}}
-            , <i><abbr title="{{description}}">{{name}}</abbr></i>
-            {{/each}}
+            <div class="row">
+                <div class="col-12">
+                    <b>{{name}}</b>
+                </div>
+                <div class="col-md-5">
+                    <table class="table-sm stats-table">
+                        <tbody>
+                        <tr>
+                            <td>Type</td>
+                            <td>Speed</td>
+                            <td>Armour</td>
+                            <td>CC</td>
+                            <td>FF</td>
+                        </tr>
+                        <tr>
+                            <td>{{#if type}}{{type}}{{else}}n/a{{/if}}</td>
+                            <td>{{#if speed}}{{appendOnNumber speed 'cm'}}{{else}}n/a{{/if}}</td>
+                            <td>{{#if armour}}{{armour}}+{{else}}n/a{{/if}}</td>
+                            <td>{{#if cc}}{{cc}}+{{else}}n/a{{/if}}</td>
+                            <td colspan="3">{{#if ff}}{{ff}}+{{else}}n/a{{/if}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="col-12 col-md-7">{{> weapons}}</div>
+            </div>
+            {{#if @hasNotes}}
+            <div class="row">
+                <div class="col">
+                    <small>
+                        <b>Notes:</b>
+                        {{#each specialRules}}
+                        {{#unless @last}}<i>{{this}}</i>,{{/unless}}
+                        {{#if @last}}<i>{{this}}</i>.{{/if}}
+                        {{/each}}
+                        {{notes}}
+                    </small>
+                </div>
+            </div>
+            {{/if}}
         </td>
-    </tr>
-    {{/each}}
-    {{/each}}
-    {{#if @hasNotes}}
-    <tr class="unit-row-{{oddEven @index}} unit-row-bottom">
-        <td colspan="9" style="border-top: none">
-            <small>
-                Notes:
-                {{#each specialRules}}
-                {{#unless @last}}<i>{{this}}</i>,{{/unless}}
-                {{#if @last}}<i>{{this}}</i>.{{/if}}
-                {{/each}}
-                {{notes}}
-            </small>
-        </td>
-    </tr>
-    {{/if}}
-    {{/unit}}
-    {{/each}}
+        {{/unit}}
+        {{/each}}
     </tbody>
 </table>
 </div>
