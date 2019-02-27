@@ -76,6 +76,10 @@
             Handlebars.registerPartial('card-with-margin', template);
         });
 
+        $.get("partials/weapons.html").done(function (template) {
+            Handlebars.registerPartial('weapons', template);
+        });
+
         Handlebars.registerHelper('oddEven', function (index) {
             return index % 2 == 0 ? 'even' : 'odd';
         });
