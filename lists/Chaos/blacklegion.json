@@ -4,7 +4,7 @@
   "version": "1.32",
   "release": "2019-02-26",
   "strategy": "Black Legion armies have a strategy rating of 4.",
-  "initiative": "All formations have an initiative rating of 1+.",
+  "initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an initiative rating of 1+. All other formations have an initiative of 2+.",
   "specialRules":
     [
       "Daemon Engine (x)",
@@ -38,7 +38,7 @@
         "Khorne Berzerkers",
         "Rubric Marines",
         "Obliterators",
-        "Chaos Space Marine Bikes",
+        "Chaos Space Marine Assault Bikes",
         "Chaos Rhino",
         "Chaos Land Raider",
         "Chaos Predator",
@@ -56,20 +56,17 @@
     {
       "from": "daemons.json",
       "units": [
-        "Daemonettes",
-        "Plaguebearers",
-        "Bloodletters",
-        "Horrors",
+        "Daemonettes of Slaanesh",
+        "Plaguebearers of Nurgle",
+        "Bloodletters of Khorne",
+        "Horrors of Tzeench",
         "Keeper of Secrets",
         "Great Unclean One",
         "Bloodthirster",
         "Lord of Change",
-        "Daemonic Beasts"
+        "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
-        "Imperial Void Shields",
-        "God Machine",
-        "Split Fire"
     ]
   },
     {
@@ -88,301 +85,294 @@
   {
     "from": "chaosnavy.json",
     "units": [
-      "Hell Blade",
-      "Hell Talon",
-      "Harbringer",
+      "Hell Blade Interceptor",
+      "Hell Talon Fighter-Bomber",
+      "Harbringer Bomber",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
   ],
   "unitRules": [
+      "God Machine Killer (GMK)"
 
   ]
   }
   ],
   "sections": [
     {
-      "name": "Iron Hands Core Detachments",
+      "name": "Black Legion Core Formations",
       "formations": [
         {
-          "name": "Dreadnought Clan",
-          "units": "Four Tactical units plus transport, one Veteran Sergeant and any two of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+          "name": "Black Legion Retinue",
+          "units": "Eight Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
           "upgrades": [
-            "Clan Commander",
-            "Devastators",
-            "Dreadnought",
-            "Hunter",
-            "Land Raiders",
-            "Veterans"
-          ],
-          "points": 300
-        },
-        {
-          "name": "Mechanized Clan",
-          "units": "Four Tactical units plus transport, one Veteran Sergeant and any two of the following units: Predator Annihilator, Predator Destructor or Vindicator*",
-          "upgrades": [
-            "Clan Commander",
-            "Devastators",
-            "Hunter",
-            "Land Raiders",
-            "Razorbacks",
-            "Veterans",
-            "Vindicators"
-          ],
-          "points": 300,
-          "notes": "* If only Vindicators are selected, any Rhinos in the formation may be equipped with Dozer Blades (speed reduced to 25cm and the unit gains the Walker special ability)"
-        }
-      ]
-    },
-    {
-      "name": "Iron Hands Support Detachments",
-      "description": "Two support detachment may be fielded per core detachment",
-      "formations": [
-        {
-          "name": "Dreadnought Talon",
-          "units": "Any four of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
-          "upgrades": [
-            "Dreadnought",
-            "Drop Pods",
-            "Venerable Dreadnought"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Land Raiders",
-          "units": "Four Land Raiders",
-          "upgrades": [
-            "Helios",
-            "Hunter",
-            "Vindicators"
-          ],
-          "points": 325
-        },
-        {
-          "name": "Land Speeder",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
-            "Commander",
-            "Typhoons"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Predator",
-          "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
-          "upgrades": [
-            "Hunter"
-          ],
-          "points": 250
-        },
-        {
-          "name": "Scout",
-          "units": "Four Scout units plus transport",
-          "upgrades": [
-            "Commander",
-            "Razorbacks",
-            "Snipers"
-          ],
-          "points": 150
-        },
-        {
-          "name": "0-1 Strike Cruiser",
-          "units": "One Strike Cruiser",
-          "upgrades": [
-            "Battle Barge"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Vindicator",
-          "units": "Four Vindicator units",
-          "upgrades": [
-            "Hunter",
-            "Vindicators"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Whirlwinds",
-          "units": "Four Whirlwind units",
-          "upgrades": [
-            "Hunter"
+            "Supreme Commander",
+            "Transport",
+            "Champion",
+            "Daemonic Pact",
+            "Stalker",
+            "Dreadclaws",
+            "Icon Bearer",
+            "Vindicators",
+            "Havocs",
+            "Cult Marines",
+            "Dreadnoughts"
           ],
           "points": 275
         }
       ]
     },
     {
-      "name": "Iron Hands Aircraft & Imperial Allies",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "name": "Black Legion Elite Formations",
+      "description": "One Elite formation may be fielded per Core formation",
       "formations": [
         {
-          "name": "Storm Talon Squadron",
-          "units": "Two Storm Talons",
+          "name": "Chosen",
+          "units": "Four Chosen, two Chaos Rhinos",
+          "upgrades": [
+            "Dreadnoughts",
+            "Daemonic Pact"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Chaos Terminators",
+          "units": "Four Chaos Terminators, one Chaos Lord or Sorcerer Lord",
+          "upgrades": [
+              "Supreme Commander",
+              "Transport",
+              "Champion",
+              "Daemonic Pact",
+              "Stalker",
+              "Dreadclaws",
+              "Icon Bearer",
+              "Obliterators",
+              "Dreadnoughts"
+          ],
+          "points": 275
+      }
+    ]
+  },
+  {
+    "name": "Black Legion Support Formations",
+    "description": "Two Support formations may be fielded per Core formation",
+    "formations": [
+      {
+        "name": "Bike Company",
+        "units": "Eight Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
+        "upgrades": [
+          "Daemonic Pact",
+          "Icon Bearer"
+        ],
+        "points": 300
+    },
+    {
+      "name": "Raptor Cult",
+      "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
+      "upgrades": [
+          "Daemonic Pact"
+      ],
+      "points": 225
+  },
+  {
+    "name": "Predator Company",
+    "units": "Four Chaos Predators",
+    "upgrades": [
+        "Stalker",
+        "Vindicator"
+    ],
+    "points": 200
+    },
+    {
+  "name": "Havocs",
+  "units": "Four Havocs, one Chaos Lord or Sorcerer Lord, two Rhinos",
+  "upgrades": [
+      "Land Raiders",
+      "Stalker",
+      "Vindicator"
+  ],
+  "points": 225
+    }
+    ]
+  },
+        {
+      "name": "Black Legion Daemon Engines, Traitor Titans and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Defiler Pack",
+            "units": "Four Defilers",
+            "points": 225
+          },
+          {
+            "name": "Decimators",
+            "units": "One Decimator",
+            "upgrades": [
+              "Add one Decimator for 150 Points"
+            ],
+            "points": 200
+          },
+          {
+            "name": "Deathwheels",
+            "units": "One Deathwheel",
+            "upgrades": [
+              "Add one Deathwheel for 225 Points"
+            ],
+            "points": 275
+          },
+          {
+            "name": "Chaos Warhound",
+            "units": "One Chaos Warhound Scout Titan",
+            "upgrades": [
+              "Add one Chaos Warhound for 225 Points"
+            ],
+            "points": 275
+          },
+          {
+            "name": "Chaos Reaver",
+            "units": "One Chaos Reaver Titan",
+            "points": 625
+          },
+          {
+            "name": "Chaos Warlord",
+            "units": "One Chaos Warlord Titan",
+            "points": 750
+          },
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
           "points": 200
         },
         {
-          "name": "Thunderhawk Transporter",
-          "units": "One Thunderhawk Transporter",
-          "upgrades": [
-            "Thunderhawk Transporter"
-          ],
-          "points": 175
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
         },
         {
-          "name": "Reaver",
-          "units": "One Reaver Class Titan, Standard or Support Configuration",
-          "upgrades": [
-            "Close Assault Configuration +25 points"
-          ],
-          "points": 650
+          "name": "0-1 Harbringer",
+          "units": "One Harbringer Bomber",
+          "points": 325
         },
         {
-          "name": "Warhound Pack",
-          "units": "Two Warhound Class Titan, Standard or Support Configuration",
+          "name": "0-1 Chaos Cruiser",
+          "units": "One Devastation Class Cruiser",
           "upgrades": [
-            "Tank Hunter Configuration +50 points"
+            "Battleship"
           ],
-          "points": 500
+          "points": 150
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Iron Hands Upgrades",
-    "description": "Each upgrade may be taken once per detachment",
+    "title": "Black Legion Upgrades",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Battle Barge",
-        "description": "Replace the Strike Cruiser with a Battle Barge",
-        "points": "150 points"
+        "name": "Battleship",
+        "description": "Replace the Devastation Class Cruiser with a Despoiler Class Battleship",
+        "points": "50 points"
       },
       {
-        "name": "Clan Commander",
+        "name": "0-1 Supreme Commander",
         "options": [
           {
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace the Veteran Sergeant with an Iron Captain or an Iron Hands Techmarine",
-            "points": "25 points"
-          },
-          {
-            "description": "Replace one Dreadnought with a Venerable Dreadnought",
+            "description": "Replace the Chaos Lord with a Warlord",
             "points": "50 points"
           },
           {
-            "description": "Add one Venerable Dreadnought",
-            "points": "100 points"
-          },
-          {
-            "description": "Replace the Veteran Sergeant with a Venerable Dreadnought with the Supreme Commander special ability (0-1 per army)",
-            "points": "150 points"
+            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Chaos Undivided",
+            "points": "75 points"
           }
         ]
       },
       {
-        "name": "Devastators",
-        "description": "Replace all Tactical units in the formaiton with Devastators",
-        "points": "50 points"
+        "name": "Transport",
+        "options": [
+          {
+            "description": "Add up to four Chaos Rhinos (Retinue only)",
+            "points": "10 points each"
+          },
+          {
+            "description": "Add up to four Chaos Land Raiders",
+            "points": "50 points each"
+        },
+        {
+          "description": "(No more than needed to transport the formation with no space left over)",
+          "points": ""
+      }
+        ]
+      },
+      {
+        "name": "Daemonic Pact",
+        "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
+        "points": "25 points"
       },
       {
         "name": "Dreadnoughts",
-        "options": [
-          {
-            "description": "Choose up to two of the following:"
-          },
-          {
-            "description": "Replace a Dreadnought with an Ironclad Dreadnought",
-            "points": "25 points each"
-          },
-          {
-            "description": "Add one Dreadnought, Hellfire Dreadnought or Siege Dreadnought",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add one Ironclad Dreadnought",
-            "points": "75 points each"
-          }
-        ]
+        "description": "Add two Chaos Dreadnoughts to the formation",
+        "points": "75 points"
       },
       {
-        "name": "Drop Pods",
-        "description": "The formation may be deployed in a Drop Pod",
-        "points": "25 points"
-      },
-      {
-        "name": "Helios",
-        "description": "Upgrade any number of Land Raiders to Land Raider Helios",
-        "points": "25 points each"
-      },
-      {
-        "name": "Hunter",
-        "description": "Add one or two Hunters",
-        "points": [
-          "75 points for one",
-          "125 points for two"
-        ]
-      },
-      {
-        "name": "Land Raiders",
-        "description": "Add any number of Land Raider variants, up to the number required to transport the formation",
-        "options": [
-          {
-            "description": "Land Raider",
-            "points": [
-              "75 points each",
-              "125 points per pair"
-            ]
-          },
-          {
-            "description": "Land Raider Anvilarum",
-            "points": "50 points each"
-          },
-          {
-            "description": "Land Raider Helios",
-            "points": "100 points each"
-          },
-          {
-            "description": "0-1 Land Raider Prometheus",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Razorbacks",
-        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
-        "points": [
-          "25 points each",
-          "75 points for four"
-        ]
-      },
-      {
-        "name": "Thunderhawk Transporter",
-        "description": "Add one Thunderhawk Transporter",
-        "points": "100 points"
-      },
-      {
-        "name": "Typhoons",
-        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
-        "points": "10 points each"
-      },
-      {
-        "name": "Venerable Dreadnought",
-        "description": "Replace one Dreadnought with a Venerable Dreadnought",
+        "name": "Champion",
+        "description": "Add one Champion character to the formation",
         "points": "50 points"
       },
       {
-        "name": "0-1 Veterans",
-        "description": "All infantry units in the formation gains the Bionics special rule",
+        "name": "Icon Bearer",
+        "description": "Add one Icon Bearer character",
         "points": "25 points"
       },
       {
+        "name": "Stalker",
+        "description": "Add one Chaos Stalker to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
+        "points": "5 points per unit"
+      },
+      {
         "name": "Vindicators",
-        "description": "Add up to two Vindicators",
-        "points": [
-          "50 points for one",
-          "75 points for two"
+        "description": "Add two Chaos Vindicators",
+        "points": "50 points"
+      },
+      {
+        "name": "Havocs",
+        "description": "Replace four Chaos Space Marines with four Havocs",
+        "points": "50 points"
+      },
+      {
+        "name": "Cult Marines",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Noise Marines",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Plague Marines",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
+            "points": "25 points"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Rubric Marines",
+            "points": "50 points"
+          }
         ]
+      },
+      {
+        "name": "Obliterators",
+        "description": "Replace up to two Chaos Terminators with Obliterators",
+        "points": "35 points each"
       }
     ]
   }
