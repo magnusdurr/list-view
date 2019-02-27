@@ -848,6 +848,17 @@
       ]
     },
     {
+      "name": "Barbed Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Bedlam Staff",
       "modes": [
         {
@@ -919,6 +930,18 @@
         "modes": [
           {
             "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+                "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Blastmaster",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
             "range": 30,
             "specialRules": [
                 "D"
@@ -1457,6 +1480,25 @@
             "specialRules": [
           ]
           }
+      ]
+    },
+    {
+      "name": "Doom Siren",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "FS"
+          ]
+        }
       ]
     },
     {
@@ -2267,6 +2309,18 @@
             "range": 45,
             "specialRules": [
                 "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hellslicer Battle Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(D3)"
           ]
         }
       ]
@@ -3452,6 +3506,19 @@
       ]
     },
     {
+      "name": "Rapturous Blade",
+      "modes": [
+        {
+          "firepower": "Assault Weapon",
+          "specialRules": [
+            "EA(+1)",
+            "MW",
+            "FS"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Reaper Autocannon",
       "modes": [
         {
@@ -4276,6 +4343,24 @@
       ]
     },
     {
+      "name": "Thermal Lance",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 30,
+          "specialRules": [
+          ]
+      },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Thermal Spear",
       "modes": [
         {
@@ -4405,6 +4490,18 @@
             "specialRules": [
               "EA(+2)",
               "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tormentor Cannons",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 30,
+            "specialRules": [
+              "D"
           ]
         }
       ]

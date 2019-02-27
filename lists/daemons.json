@@ -40,6 +40,37 @@
             ]
       },
       {
+        "name": "Fiends of Slaanesh",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Invulnerable Save"
+            ]
+      },
+      {
+        "name": "Seekers of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Barbed Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Mounted",
+            "Invulnerable Save"
+            ]
+      },
+      {
         "name": "Great Unclean One",
         "type": "WE",
         "speed": 15,

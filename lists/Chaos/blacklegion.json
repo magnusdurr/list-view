@@ -7,7 +7,6 @@
   "initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an initiative rating of 1+. All other formations have an initiative of 2+.",
   "specialRules":
     [
-      "Daemon Engine (x)",
       "Summoning",
       "Black Legion Summoning Rules",
       "Augment Summoning (+x)",
@@ -44,14 +43,22 @@
         "Chaos Predator",
         "Chaos Vindicator",
         "Chaos Dreadnought",
-        "Chaos Stalker",
-        "Defiler",
-        "Decimator",
-        "Deathwheel"
+        "Chaos Stalker"
     ],
     "unitRules": [
 
     ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Defiler",
+            "Decimator",
+            "Deathwheel"
+        ],
+        "unitRules": [
+          "Daemon Engine (x)"
+        ]
     },
     {
       "from": "daemons.json",
@@ -77,7 +84,7 @@
         "Chaos Warlord"
       ],
       "unitRules": [
-        "Imperial Void Shields",
+        "Void Shields",
         "God Machine",
         "Split Fire"
     ]
@@ -142,7 +149,6 @@
               "Transport",
               "Champion",
               "Daemonic Pact",
-              "Stalker",
               "Dreadclaws",
               "Icon Bearer",
               "Obliterators",
@@ -195,7 +201,7 @@
     ]
   },
         {
-      "name": "Black Legion Daemon Engines, Traitor Titans and Chaos Navy",
+      "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
           {
@@ -203,11 +209,14 @@
             "units": "Four Defilers",
             "points": 225
           },
+          "upgrades": [
+            "Add up to two Defilers for 50 points each"
+          ],
           {
             "name": "Decimators",
             "units": "One Decimator",
             "upgrades": [
-              "Add one Decimator for 150 Points"
+              "Add one Decimator for 150 points"
             ],
             "points": 200
           },
@@ -215,7 +224,7 @@
             "name": "Deathwheels",
             "units": "One Deathwheel",
             "upgrades": [
-              "Add one Deathwheel for 225 Points"
+              "Add one Deathwheel for 225 points"
             ],
             "points": 275
           },
@@ -317,7 +326,7 @@
       },
       {
         "name": "Champion",
-        "description": "Add one Champion character to the formation",
+        "description": "Add one Champion of Chaos Undivided character to the formation",
         "points": "50 points"
       },
       {
@@ -332,7 +341,7 @@
       },
       {
         "name": "Dreadclaws",
-        "description": "Transport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
         "points": "5 points per unit"
       },
       {
