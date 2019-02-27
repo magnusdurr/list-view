@@ -603,8 +603,7 @@
       ],
       "specialRules": [
         "Reinforced Armour"
-      ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      ]
     },
     {
       "name": "Crassus Amoured Assaults",
@@ -620,8 +619,7 @@
       "specialRules": [
         "Reinforced Armour",
         "Transport: May transport 4 infantry units without jumppack or mounted"
-      ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      ]
     },
     {
       "name": "Gorgon",
@@ -644,8 +642,8 @@
     {
       "name": "Leviathan Mobile Command Center",
       "type": "WE",
-      "speed": "15cm",
-      "armour": 4,
+      "speed": "20cm",
+      "armour": 5,
       "cc": 6,
       "ff": 4,
       "weapons": [

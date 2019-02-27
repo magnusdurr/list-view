@@ -1,10 +1,10 @@
 {
   "fraction": "Dark Eldar",
   "army": "Kabal of the Bladed Lotus",
-  "version": "1.1",
+  "version": "1.11",
   "release": "2019-02-22",
   "strategy": "Kabal of the Bladed Lotus armies have a strategy rating of 4.",
-  "initiative": " Dark Eldar Kabal, Tormentor, and Executioner formations have an initiative of 1+. All other formations have an initiative rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
+  "initiative": " Dark Eldar Kabal, Tormentor, Torture Titans, and Executioner formations have an initiative of 1+. All other formations have an initiative rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -44,7 +44,8 @@
         "Perditor",
         "Barge of Pleasure",
         "Vessel of Pain",
-        "Tormentor Titan"
+        "Tormentor Titan",
+        "Torture Titan"
       ],
         "unitRules": [
 
@@ -217,20 +218,20 @@
           "points": 350
         },
         {
+          "name": "Torture Class Titan",
+          "units": "One Torture Titan",
+          "upgrades": [
+
+          ],
+          "points": 550
+        },
+        {
           "name": "Executioner",
           "units": "One Executioner Assault Ship",
           "upgrades": [
 
           ],
           "points": 400
-        },
-        {
-          "name": "0-1 Warlock",
-          "units": "One Warlock Titan",
-          "upgrades": [
-
-          ],
-          "points": 850
         },
         {
           "name": "0-1 Spacecraft",

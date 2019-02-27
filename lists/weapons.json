@@ -1997,6 +1997,18 @@
       ]
     },
     {
+      "name": "Heavy Phantom Lance",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 75,
+            "specialRules": [
+              "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Rail Cannon",
         "modes": [
           {
@@ -4096,6 +4108,18 @@
             "specialRules": [
               "EA(+2)",
               "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Torture Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+2)",
+              "TK(D3)"
           ]
         }
       ]

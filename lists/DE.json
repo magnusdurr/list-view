@@ -355,6 +355,27 @@
         "Walker"
       ],
       "notes": "Critical Hit Effect: Tormentor Titan explodes and is destroyed."
+    },
+    {
+      "name": "Torture Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Heavy Phantom Lance|2|",
+        "Dark Lance|2|",
+        "Torture Blades"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Shadowfields 3",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Torture Titan shield generator explodes. Any remaing Shadowfields are lost and the titan suffers D3 MW hits."
     }
     ]
   }
