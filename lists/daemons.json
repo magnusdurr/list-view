@@ -176,6 +176,37 @@
         ]
       },
       {
+        "name": "Fleshhounds of Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Claws and Fangs"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Bloodcrushers of Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Juggernaut"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Mounted",
+            "Infiltrators",
+            "Invulnerable Save"
+        ]
+      },
+      {
         "name": "Lord of Change",
         "type": "WE",
         "speed": 30,

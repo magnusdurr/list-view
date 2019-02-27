@@ -15,7 +15,7 @@
       "World Eaters Dreadclaws"
     ],
   "usage": [
-    "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
+    "The following army list allows you to field an army based on the World Eaters, using their preferred operational methods."
   ],
   "units": [
     {
@@ -88,44 +88,34 @@
   ],
   "sections": [
     {
-      "name": "Black Legion Core Formations",
+      "name": "World Eaters Core Formations",
       "formations": [
         {
-          "name": "Black Legion Retinue",
-          "units": "Eight Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
+          "name": "World Eaters Retinue",
+          "units": "Four Khorne Berzerkers, four Chaos Space Marines, one Skull Lord",
           "upgrades": [
             "Supreme Commander",
             "Transport",
             "Champion",
             "Daemonic Pact",
-            "Stalker",
             "Dreadclaws",
             "Icon Bearer",
             "Vindicators",
-            "Havocs",
-            "Cult Marines",
-            "Dreadnoughts"
+            "Berzerkers",
+            "Dreadnoughts",
+            "Predators"
           ],
-          "points": 275
+          "points": 300
         }
       ]
     },
     {
-      "name": "Black Legion Elite Formations",
-      "description": "One Elite formation may be fielded per Core formation",
+      "name": "World Eaters Support Formations",
+      "description": "Two Support formations may be fielded per Core formation",
       "formations": [
         {
-          "name": "Chosen",
-          "units": "Four Chosen, two Chaos Rhinos",
-          "upgrades": [
-            "Dreadnoughts",
-            "Daemonic Pact"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Chaos Terminators",
-          "units": "Four Chaos Terminators, one Chaos Lord or Sorcerer Lord",
+          "name": "Skullseeker Terminators",
+          "units": "Four Skullseeker Terminators, one Skull Lord",
           "upgrades": [
               "Supreme Commander",
               "Transport",
@@ -133,116 +123,126 @@
               "Daemonic Pact",
               "Dreadclaws",
               "Icon Bearer",
-              "Obliterators",
+              "Mutilators",
               "Dreadnoughts"
           ],
-          "points": 275
+          "points": 375
+      },
+      {
+        "name": "Juggernaut Riders",
+        "units": "Eight Juggernaut Riders, one Skull Lord, Daemonic Pact",
+        "upgrades": [
+            "Supreme Commander",
+            "Icon Bearer",
+            "Champion"
+        ],
+        "points": 400
+      },
+          {
+            "name": "Berzerker Bikes",
+            "units": "Eight Khorne Berzerker Assault Bikes, one Skull Lord",
+            "upgrades": [
+                "Icon Bearer",
+                "Daemonic Pact"
+            ],
+            "points": 350
+        },
+        {
+          "name": "World Eaters Renegades",
+          "units": "Four Chaos Space Marines, two Chaos Rhinos",
+          "upgrades": [
+            "Predators",
+            "Land Raiders",
+            "Vindicators",
+            "Berzerkers",
+            "Daemonic Pact"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Predator Company",
+          "units": "Four Chaos Predators",
+          "upgrades": [
+              "Vindicators"
+          ],
+          "points": 200
       }
     ]
   },
   {
-    "name": "Black Legion Support Formations",
-    "description": "Two Support formations may be fielded per Core formation",
+    "name": "Minor Daemon Engine Formations",
+    "description": "One Lesser Daemon Engine formations may be fielded per Core formation",
     "formations": [
       {
-        "name": "Bike Company",
-        "units": "Eight Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
+        "name": "Khorne Defilers",
+        "units": "Five Slaughterfiends",
         "upgrades": [
-          "Daemonic Pact",
-          "Icon Bearer"
+          "Add up to three Slaughterfiends for 35 points each"
         ],
-        "points": 300
+        "points": 225
     },
     {
-      "name": "Raptor Cult",
-      "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
+      "name": "Daemonic Assault Engines",
+      "units": "Six Daemonic Assault Engines",
       "upgrades": [
-          "Daemonic Pact"
       ],
-      "points": 225
+      "points": 300
   },
   {
-    "name": "Predator Company",
-    "units": "Four Chaos Predators",
+    "name": "Doomblasters",
+    "units": "Four Doomblasters",
     "upgrades": [
-        "Stalker",
-        "Vindicator"
+        "Forgefiends"
     ],
-    "points": 200
+    "points": 225
     },
     {
-  "name": "Havocs",
-  "units": "Four Havocs, one Chaos Lord or Sorcerer Lord, two Rhinos",
-  "upgrades": [
-      "Land Raiders",
-      "Stalker",
-      "Vindicator"
-  ],
-  "points": 225
-    }
+      "name": "Hell Cannons",
+      "units": "Four Hell Cannons",
+      "upgrades": [
+          "Forgefiends"
+      ],
+      "points": 225
+      }
     ]
   },
         {
-      "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
+      "name": "Major Daemon Engine and Chaos Navy Formations",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
           {
-            "name": "Defiler Pack",
-            "units": "Four Defilers",
+            "name": "Greater Brass Scorpion",
+            "units": "One Greater Brass Scorpion",
           "upgrades": [
-            "Add up to two Defilers for 50 points each"
+            "Add up to one Greater Brass Scorpion for 175 points"
           ],
           "points": 225
             },
           {
-            "name": "Decimators",
-            "units": "One Decimator",
+            "name": "Lord of Battles",
+            "units": "One Lord of Battles",
             "upgrades": [
-              "Add one Decimator for 150 points"
             ],
-            "points": 200
+            "points": 375
           },
           {
-            "name": "Deathwheels",
-            "units": "One Deathwheel",
+            "name": "0-1 Tower of Skulls",
+            "units": "One Tower of Skulls",
             "upgrades": [
-              "Add one Deathwheel for 225 points"
             ],
-            "points": 275
-          },
-          {
-            "name": "Chaos Warhound",
-            "units": "One Chaos Warhound Scout Titan",
-            "upgrades": [
-              "Add one Chaos Warhound for 225 Points"
-            ],
-            "points": 275
-          },
-          {
-            "name": "Chaos Reaver",
-            "units": "One Chaos Reaver Titan",
-            "points": 625
-          },
-          {
-            "name": "Chaos Warlord",
-            "units": "One Chaos Warlord Titan",
-            "points": 750
+            "points": 700
           },
         {
-          "name": "Hell Blade Squadron",
-          "units": "Three Hell Blade Interceptors",
+          "name": "Heldrake Flight",
+          "units": "Two Heldrake Interceptors",
           "points": 200
         },
         {
-          "name": "Hell Talon Squadron",
-          "units": "Two Hell Talon Fighter-Bombers",
-          "points": 225
+          "name": "Baledrake Flight",
+          "units": "Two Baledrake Fighter-Bombers",
+          "points": 200
         },
-        {
-          "name": "0-1 Harbringer",
-          "units": "One Harbringer Bomber",
-          "points": 325
-        },
+
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
@@ -255,7 +255,7 @@
     }
   ],
   "upgrades": {
-    "title": "Black Legion Upgrades",
+    "title": "World Eaters Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
@@ -270,11 +270,11 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace the Chaos Lord with a Warlord",
+            "description": "Replace the Skull Lord with a Blood Lord",
             "points": "50 points"
           },
           {
-            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Chaos Undivided",
+            "description": "Replace the Skulle Lord and its unit with a Daemon Prince of Khorne",
             "points": "75 points"
           }
         ]
@@ -283,12 +283,12 @@
         "name": "Transport",
         "options": [
           {
-            "description": "Add up to four Chaos Rhinos (Retinue only)",
-            "points": "10 points each"
+            "description": "Add four Chaos Rhinos (Retinue only)",
+            "points": "Free"
           },
           {
-            "description": "Add up to four Chaos Land Raiders",
-            "points": "50 points each"
+            "description": "Add four World Eaters Land Raiders",
+            "points": "200 points each"
         },
         {
           "description": "(No more than needed to transport the formation with no space left over)",
@@ -297,13 +297,23 @@
         ]
       },
       {
+        "name": "Land Raiders",
+        "description": "Replace two Chaos Rhinos with two World Eaters Land Raiders",
+        "points": "100 points"
+      },
+      {
+        "name": "Predators",
+        "description": "Add 2 Chaos Predators",
+        "points": "75 points"
+      },
+      {
         "name": "Daemonic Pact",
         "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
         "points": "25 points"
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add two Chaos Dreadnoughts to the formation",
+        "description": "Add two World Eaters Dreadnoughts to the formation",
         "points": "75 points"
       },
       {
@@ -317,14 +327,9 @@
         "points": "25 points"
       },
       {
-        "name": "Stalker",
-        "description": "Add one Chaos Stalker to the formation",
-        "points": "50 points"
-      },
-      {
         "name": "Dreadclaws",
         "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
-        "points": "5 points per unit"
+        "points": "Free"
       },
       {
         "name": "Vindicators",
@@ -332,38 +337,14 @@
         "points": "50 points"
       },
       {
-        "name": "Havocs",
-        "description": "Replace four Chaos Space Marines with four Havocs",
-        "points": "50 points"
+        "name": "Berzerkers",
+        "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
+        "points": "25"
       },
       {
-        "name": "Cult Marines",
-        "options": [
-          {
-            "description": "Choose one of the following:"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Noise Marines",
-            "points": "50 points"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Plague Marines",
-            "points": "50 points"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
-            "points": "25 points"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Rubric Marines",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Obliterators",
-        "description": "Replace up to two Chaos Terminators with Obliterators",
-        "points": "35 points each"
+        "name": "Mutilators",
+        "description": "Replace up to two Skullseeker Terminators with Mutilators",
+        "points": "25 points each"
       }
     ]
   }
