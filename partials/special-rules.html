@@ -1,13 +1,17 @@
 {{#if specialRules}}
-  <h5 style="margin-top: .8rem">Special Rules</h5>
-  {{#each specialRules}}
-  {{> card-with-margin}}
-    <div class="card-header">{{title}}</div>
+<div class="card" style="margin-top: .8rem">
+    <div class="card-header"><b>Special Rules</b></div>
     <div class="card-body">
-      {{#each description}}
-        <p class="card-text">{{this}}</p>
-      {{/each}}
+        <dl class="row">
+            {{#each specialRules}}
+            <dt class="col-md-2">{{title}}</dt>
+            <dd class="col-md-10">
+                {{#each description}}
+                <p class="card-text">{{this}}</p>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
     </div>
-  </div>
-  {{/each}}
+</div>
 {{/if}}
