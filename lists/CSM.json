@@ -66,6 +66,18 @@
         "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a blast marker"
       },
       {
+        "name": "Champion of Nurgle",
+        "type": "CH",
+        "weapons": [
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+            "Augment Summoning (+2D3)",
+            "Invulnerable Save"
+        ],
+        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a blast marker"
+      },
+      {
         "name": "Icon Bearer",
         "type": "CH",
         "weapons": [
@@ -92,10 +104,10 @@
         "specialRules": [
           "Supreme Commander",
           "Reinforced Armour",
+          "Jump Pack",
           "Teleport",
           "Fearless",
-          "Daemonic Focus",
-          "Jump Pack"
+          "Daemonic Focus"
         ]
       },
       {
@@ -112,6 +124,26 @@
         "specialRules": [
           "Supreme Commander",
           "Reinforced Armour",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Daemon Prince of Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+            "Plague Squall",
+            "Blade of Rot"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Invulnerable Save",
           "Teleport",
           "Fearless",
           "Daemonic Focus"
@@ -196,6 +228,25 @@
       "specialRules": [
           "Fearless",
           "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Blightlord Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Blight Launcher|2|",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Invulnerable Save",
           "Teleport",
           "Thick Rear Armour"
       ]
@@ -320,6 +371,22 @@
       "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
       },
       {
+        "name": "Death Guard Rhino",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Combi-Bolter"
+      ],
+      "specialRules": [
+          "Invulnerable Save",
+        "Transport"
+    ],
+      "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+      },
+      {
         "name": "Chaos Land Raider",
         "type": "AV",
         "speed": 25,
@@ -335,7 +402,7 @@
             "Thick Rear Armour",
             "Transport"
         ],
-        "notes": "May transport one Sirenshriek Terminator unit or two infantry units without Jump Packs or Mounted."
+        "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
           },
         {
           "name": "Emperor's Children Land Raider",
@@ -355,6 +422,25 @@
           ],
     "notes": "May transport one Sirenshriek Terminator unit or two infantry units without Jump Packs or Mounted."
       },
+      {
+        "name": "Death Guard Land Raider",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2|",
+          "Twin Blight Launcher"
+        ],
+        "specialRules": [
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Thick Rear Armour",
+            "Transport"
+        ],
+  "notes": "May transport one Blightlord Terminator unit or two infantry units without Jump Packs or Mounted."
+    },
       {
         "name": "Chaos Predator",
         "type": "AV",
@@ -394,6 +480,21 @@
         ]
       },
       {
+        "name": "Death Guard Vindicator",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Demolisher"
+        ],
+        "specialRules": [
+            "Invulnerable Save",
+          "Walker"
+        ]
+      },
+      {
         "name": "Chaos Dreadnought",
         "type": "AV",
         "speed": 15,
@@ -426,6 +527,23 @@
         ]
       },
       {
+        "name": "Death Guard Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Twin Blight Launcher",
+          "Power Fist"
+        ],
+        "specialRules": [
+            "Invulnerable Save",
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
         "name": "Chaos Stalker",
         "type": "AV",
         "speed": 30,
@@ -436,6 +554,20 @@
           "Hades Autocannon"
         ]
     },
+    {
+      "name": "Death Guard Stalker",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Hades Autocannon"
+    ],
+    "specialRules": [
+        "Invulnerable Save"
+    ]
+  },
     {
       "name": "Chaos Thunderhawk",
       "type": "AC/WE",

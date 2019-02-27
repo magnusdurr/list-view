@@ -70,6 +70,44 @@
           ]
         },
         {
+          "name": "Desecrator",
+          "type": "AV",
+          "speed": 15,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Reaper Autocannon|2|",
+            "Vomit Cannon",
+            "Battle Claws"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Infiltrators",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
+          "name": "Greater Blight Drone",
+          "type": "LV",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Reaper Autocannon",
+            "Maw Cannon"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Skimmer",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
           "name": "Hell-Knight",
           "type": "AV-K",
           "speed": 30,
@@ -188,7 +226,28 @@
               "Daemon Engine (Chaos Undivided)"
           ],
           "notes": "Critical Hit Effect: Move the Deathwheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Deathwheel is then destroyed"
-        }
+      },
+      {
+        "name": "Plague Tower",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Battle Cannon|3|FxF",
+          "Plague Mortar||FxF"
+        ],
+        "specialRules": [
+            "Damage Capacity 6",
+            "Reinforced Armour",
+            "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)",
+            "Transport"
+        ],
+        "notes": "May transport fourteen infantry units, Blight Drones or Dreadnoughts. Terminator units, Daemon Princes, Blight Drones and Dreadnoughts count as two units each. Critical Hit Effect: The Plague Tower takes 1 additional point of damage. 1D3 random units carried inside takes 1 hit."
+      }
     ]
   }
 ]

@@ -108,6 +108,39 @@
         ]
       },
       {
+        "name": "Beasts of Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "weapons": [
+          "Overeager Affection"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Plague Drones of Nurgle",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Death's Heads",
+          "Blight Fly"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Mounted",
+            "Jump Packs",
+            "Invulnerable Save"
+        ]
+      },
+      {
         "name": "Bloodthirster",
         "type": "WE",
         "speed": 30,

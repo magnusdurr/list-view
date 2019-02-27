@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Chaos Cultists",
+    "specialRules": [
+        {
+          "title": "Infestation",
+          "description": [
+            "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
+            "Formations containing any units with the infestation ability may only contest scenario objectives."
+          ]
+        }
+    ],
+    "unit": [
+        {
+          "name": "Plague Zombies",
+          "type": "INF",
+          "speed": 10,
+          "cc": 4,
+          "weapons": ["Death Storm||FwA", "Hellmouth||FwA", "Battlehead"],
+          "specialRules": [
+            "Damage Capacity 3",
+            "Fearless",
+            "Reinforced Armour",
+            "2 Void Shields",
+            "Walker"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        }
+    ]
+  }
+]
