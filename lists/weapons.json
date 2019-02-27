@@ -77,6 +77,18 @@
       ]
     },
     {
+      "name": "AC Baleflamer",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 30,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Blight Bombs",
         "modes": [
           {
@@ -166,7 +178,7 @@
           ]
         }
       ]
-    },
+          },
     {
       "name": "Aircraft Gate Projector Array",
         "modes": [
@@ -176,6 +188,17 @@
               "Portal"
           ]
           }
+      ]
+    },
+    {
+      "name": "AC Hades Autocannon",
+        "modes": [
+          {
+            "firepower": "3x AP5+/AT6+/AA6+",
+            "range": 30,
+            "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -488,6 +511,17 @@
             "range": 15,
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Piston-Driven Claws",
+        "modes": [
+          {
+            "firepower": "AA6+",
+            "range": 15,
+            "specialRules": [
           ]
           }
       ]
@@ -951,6 +985,17 @@
       ]
     },
     {
+      "name": "Blood Cannon",
+        "modes": [
+          {
+            "firepower": "2x AP4+/AT5+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Blastmaster",
         "modes": [
           {
@@ -1175,6 +1220,18 @@
       ]
     },
     {
+      "name": "Chainfist",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+3)",
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Chainswords",
         "modes": [
           {
@@ -1357,6 +1414,17 @@
             "specialRules": [
               "EA(+1)",
               "FS"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Daemonic Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+D3)"
           ]
           }
       ]
@@ -1549,6 +1617,18 @@
             "range": 90,
             "specialRules": [
               "GM"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Doomblaster",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 60,
+            "specialRules": [
+                "IC"
           ]
           }
       ]
@@ -2156,6 +2236,17 @@
       ]
     },
     {
+      "name": "Twin Hades Autocannon",
+        "modes": [
+          {
+            "firepower": "3x AP4+/AT5+/AA5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Harvesters",
         "modes": [
           {
@@ -2242,6 +2333,17 @@
         "modes": [
           {
             "firepower": "AP4+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Heavy Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+",
             "range": 45,
             "specialRules": [
           ]
@@ -2387,11 +2489,32 @@
       ]
     },
     {
+      "name": "Hellfire Cannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 75
+          }
+      ]
+    },
+    {
       "name": "Hellglaives",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hellmaw",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+                "IC"
           ]
         }
       ]
@@ -2418,6 +2541,20 @@
                 "TK(D3)"
           ]
         }
+      ]
+    },
+    {
+      "name": "Hellstrike Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 60,
+            "specialRules": [
+              "MW",
+              "IC"
+
+          ]
+          }
       ]
     },
     {
@@ -2610,6 +2747,17 @@
             "firepower": "Assault Weapons",
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Juggernaut",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)"
           ]
           }
       ]
@@ -2833,6 +2981,18 @@
             "firepower": "3x AP5+/AT5+/AA6+",
             "range": 45,
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manifested Melee Weapons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+2)",
+                "MW"
           ]
         }
       ]
@@ -3917,6 +4077,29 @@
             "firepower": "Assault Weapons",
             "specialRules": [
               "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scorpion Cannon",
+      "modes": [
+        {
+          "firepower": "3x AP3+/AT5+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scorpion Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+2)",
+              "MW"
           ]
         }
       ]

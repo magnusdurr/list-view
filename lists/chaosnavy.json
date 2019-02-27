@@ -23,6 +23,19 @@
       ]
     },
     {
+      "name": "Heldrake Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "AC Hades Autocannon||FxF",
+        "AC Piston-Driven Claws"
+      ],
+      "specialRules": [
+          "Invulnerable Save"
+      ]
+    },
+    {
       "name": "Hell Talon Fighter-Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
@@ -34,6 +47,19 @@
       ],
       "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Baledrake Fighter-Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 6,
+      "weapons": [
+        "AC Baleflamer||FxF",
+        "AC Piston-Driven Claws"
+      ],
+      "specialRules": [
+          "Invulnerable Save"
       ]
     },
     {

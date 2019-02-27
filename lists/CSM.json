@@ -17,6 +17,18 @@
             "Invulnerable Save"
           ]
         },
+        {
+          "name": "Blood Lord",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Inspiring",
+            "Invulnerable Save"
+          ]
+        },
       {
         "name": "Chaos Lord",
         "type": "CH",
@@ -25,8 +37,22 @@
         ],
         "specialRules": [
           "Commander",
-          "Invulnerable Save",
-          "Leader"
+          "Leader",
+          "Invulnerable Save"
+
+        ]
+      },
+      {
+        "name": "Skull Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Inspiring",
+          "Invulnerable Save"
         ]
       },
       {
@@ -36,8 +62,9 @@
           "Warp Bolt"
         ],
         "specialRules": [
-            "Invulnerable Save",
-            "Leader"
+            "Leader",
+            "Invulnerable Save"
+
         ],
         "notes": "May not be added to a formation containing Khorne Berzerkers"
       },
@@ -67,6 +94,18 @@
       },
       {
         "name": "Champion of Nurgle",
+        "type": "CH",
+        "weapons": [
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+            "Augment Summoning (+2D3)",
+            "Invulnerable Save"
+        ],
+        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a blast marker"
+      },
+      {
+        "name": "Champion of Khorne",
         "type": "CH",
         "weapons": [
           "Daemon Weapon"
@@ -146,6 +185,25 @@
           "Invulnerable Save",
           "Teleport",
           "Fearless",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Daemon Prince of Khorne",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+            "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Inspiring",
           "Daemonic Focus"
         ]
       },
@@ -252,6 +310,24 @@
       ]
       },
       {
+        "name": "Skullseeker Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Reaper Autocannon",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
         "name": "Noise Marines",
         "type": "INF",
         "speed": 15,
@@ -341,6 +417,22 @@
         ]
       },
       {
+        "name": "Mutilators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Manifested Melee Weapons"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Teleport"
+        ]
+      },
+      {
         "name": "Chaos Space Marine Assault Bikes",
         "type": "INF",
         "speed": 35,
@@ -353,6 +445,40 @@
         ],
         "specialRules": [
           "Mounted"
+        ]
+      },
+      {
+        "name": "Khorne Berzerker Assault Bikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Bolt Pistols",
+          "Chain Axes"
+        ],
+        "specialRules": [
+            "Fearless",
+          "Mounted"
+        ]
+      },
+      {
+        "name": "Juggernaut Riders",
+        "type": "INF",
+        "speed": 20,
+        "armour": 3,
+        "cc": 3,
+        "ff": 6,
+        "weapons": [
+          "Juggernaut"
+        ],
+        "specialRules": [
+            "Fearless",
+             "Mounted",
+             "Walker",
+             "Infiltrators",
+             "Invulnerable Save"
         ]
       },
       {
@@ -441,6 +567,25 @@
         ],
   "notes": "May transport one Blightlord Terminator unit or two infantry units without Jump Packs or Mounted."
     },
+    {
+      "name": "World Eater Land Raider",
+      "type": "AV",
+      "speed": 25,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Lascannon|2|",
+        "Twin Heavy Bolter"
+      ],
+      "specialRules": [
+          "Walker",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+      ],
+      "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+        },
       {
         "name": "Chaos Predator",
         "type": "AV",
