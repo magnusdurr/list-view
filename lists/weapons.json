@@ -77,14 +77,27 @@
       ]
     },
     {
+      "name": "AC Blight Bombs",
+        "modes": [
+          {
+            "firepower": "4BP",
+            "range": 15,
+            "specialRules": [
+              "D",
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Bomb Racks",
         "modes": [
           {
-            "firepower": "3BP",
-            "range": 15,
-            "specialRules": [
-              "IC",
-              "FxF"
+              "firepower": "3BP",
+              "range": 15,
+              "specialRules": [
+                "IC",
+                "FxF"
           ]
           }
       ]
@@ -926,6 +939,18 @@
       ]
     },
     {
+      "name": "Blade of Rot",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Blastmaster",
         "modes": [
           {
@@ -959,6 +984,53 @@
               "MW"
           ]
           }
+      ]
+    },
+    {
+      "name": "Blight Fly",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Blight Launcher",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 30,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Blight Launcher",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 30,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Boil Cannon",
+      "modes": [
+        {
+            "firepower": "4x AP3+/AT6+",
+            "range": 30,
+            "specialRules": [
+              "D"
+          ]
+        }
       ]
     },
     {
@@ -1290,6 +1362,18 @@
       ]
     },
     {
+      "name": "Daemon Weapon",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "FS"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Dark Lance",
         "modes": [
           {
@@ -1418,6 +1502,17 @@
           "range": 30,
           "specialRules": [
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Death's Heads",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "IC"
           ]
         }
       ]
@@ -2743,6 +2838,18 @@
       ]
     },
     {
+      "name": "Maw Cannon",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 30,
+            "specialRules": [
+                "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Melta Cannon",
       "modes": [
         {
@@ -2974,6 +3081,16 @@
       ]
     },
     {
+      "name": "Overeager Affection",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Paralyzer",
         "modes": [
           {
@@ -3086,11 +3203,72 @@
       ]
     },
     {
+      "name": "Plague Catapult",
+        "modes": [
+          {
+              "firepower": "1BP",
+              "range":45,
+            "specialRules": [
+                "D",
+                "Ind"
+          ]
+          }
+
+      ]
+    },
+    {
+      "name": "Plague Flail",
+        "modes": [
+          {
+            "firepower": "2x AP2+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "TK(D2)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plague Mortar",
+        "modes": [
+          {
+              "firepower": "3BP",
+              "range":60,
+            "specialRules": [
+                "D",
+                "IC"
+          ]
+          }
+
+      ]
+    },
+    {
       "name": "Plagueswords",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+          ]
+          }
+
+      ]
+    },
+    {
+      "name": "Plague Squall",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+2)",
+                "IC"
           ]
           }
 
@@ -3291,6 +3469,19 @@
           "range": 30,
           "specialRules": [
             "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pus Cannon",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 30,
+          "specialRules": [
+            "D",
+            "IC"
           ]
         }
       ]
@@ -3661,6 +3852,19 @@
           {
             "firepower": "1BP",
             "range": 30,
+            "specialRules": [
+              "D"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Rot Cannon",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT5+",
+            "range": 60,
             "specialRules": [
               "D"
 
@@ -4245,6 +4449,16 @@
               "FS"
           ]
           }
+      ]
+    },
+    {
+      "name": "Teeth",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -5027,6 +5241,18 @@
             "range": 45,
             "specialRules": [
               "IC",
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Vomit Cannon",
+        "modes": [
+          {
+            "firepower": "2x AP4+/AT6+",
+            "range": 30,
+            "specialRules": [
               "D"
           ]
           }

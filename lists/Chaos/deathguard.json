@@ -55,6 +55,7 @@
         "units": [
             "Desecrator",
             "Greater Blight Drone",
+            "Contagion Tower",
             "Plague Tower"
         ],
         "unitRules": [
@@ -75,9 +76,8 @@
     {
       "from": "traitortitanlegions.json",
       "units": [
-        "Chaos Warhound",
-        "Chaos Reaver",
-        "Chaos Warlord"
+        "Plaguehound Titan",
+        "Repugnant Titan"
       ],
       "unitRules": [
         "Void Shields"
@@ -99,22 +99,21 @@
   ],
   "sections": [
     {
-      "name": "Black Legion Core Formations",
+      "name": "Death Guard Core Formations",
       "formations": [
         {
-          "name": "Black Legion Retinue",
-          "units": "Eight Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
+          "name": "Death Guard Retinue",
+          "units": "Four Plague Marines, three Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
           "upgrades": [
             "Supreme Commander",
             "Transport",
             "Champion",
             "Daemonic Pact",
             "Stalker",
-            "Dreadclaws",
             "Icon Bearer",
             "Vindicators",
             "Havocs",
-            "Cult Marines",
+            "Plague Marines",
             "Dreadnoughts"
           ],
           "points": 275
@@ -122,122 +121,94 @@
       ]
     },
     {
-      "name": "Black Legion Elite Formations",
+      "name": "Death Guard Elite Formations",
       "description": "One Elite formation may be fielded per Core formation",
       "formations": [
         {
           "name": "Chosen",
-          "units": "Four Chosen, two Chaos Rhinos",
+          "units": "Four Chosen, two Death Guard Rhinos",
           "upgrades": [
             "Dreadnoughts",
-            "Daemonic Pact"
+            "Daemonic Pact",
+            "Icon Bearer",
+            "Vindicators"
           ],
           "points": 150
         },
         {
-          "name": "Chaos Terminators",
-          "units": "Four Chaos Terminators, one Chaos Lord or Sorcerer Lord",
+          "name": "Death Guard Terminators",
+          "units": "Four Blightlord Terminators, one Chaos Lord or Sorcerer Lord",
           "upgrades": [
               "Supreme Commander",
               "Transport",
               "Champion",
               "Daemonic Pact",
-              "Dreadclaws",
               "Icon Bearer",
-              "Obliterators",
               "Dreadnoughts"
           ],
-          "points": 275
+          "points": 350
+      },
+      {
+        "name": "Vindicators",
+        "units": "Five Death Guard Vindicators",
+        "upgrades": [
+          "Vindicators"
+        ],
+        "points": 200
       }
     ]
   },
   {
-    "name": "Black Legion Support Formations",
-    "description": "Two Support formations may be fielded per Core formation",
+    "name": "Daemon Engine Formations",
+    "description": "Two Daemon Engine formations may be fielded per Core formation",
     "formations": [
       {
-        "name": "Bike Company",
-        "units": "Eight Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
+        "name": "Contagion Towers",
+        "units": "Four Contagion Towers",
         "upgrades": [
-          "Daemonic Pact",
-          "Icon Bearer"
         ],
-        "points": 300
+        "points": 325
     },
     {
-      "name": "Raptor Cult",
-      "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
+      "name": "Plaguetower",
+      "units": "One Plaguetower",
       "upgrades": [
-          "Daemonic Pact"
       ],
-      "points": 225
+      "points": 325
   },
   {
-    "name": "Predator Company",
-    "units": "Four Chaos Predators",
+    "name": "Nurgle Defiler Pack",
+    "units": "Four Desecrators",
     "upgrades": [
-        "Stalker",
-        "Vindicator"
+        "Add up to three Desecrators for 50 points each"
     ],
-    "points": 200
-    },
-    {
-  "name": "Havocs",
-  "units": "Four Havocs, one Chaos Lord or Sorcerer Lord, two Rhinos",
-  "upgrades": [
-      "Land Raiders",
-      "Stalker",
-      "Vindicator"
-  ],
-  "points": 225
+    "points": 250
     }
     ]
   },
         {
-      "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
+      "name": "Traitor Titans, Plague Zombies and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
           {
-            "name": "Defiler Pack",
-            "units": "Four Defilers",
-          "upgrades": [
-            "Add up to two Defilers for 50 points each"
-          ],
-          "points": 225
+            "name": "Plague Zombie Infestation",
+            "units": "3 x 2D6 Plague Zombies",
+            "points": 175
             },
           {
-            "name": "Decimators",
-            "units": "One Decimator",
+            "name": "Plaguehounds",
+            "units": "One Plaguehound Titan",
             "upgrades": [
-              "Add one Decimator for 150 points"
+              "Add one Plaguehound Titan for 250 points"
             ],
-            "points": 200
+            "points": 300
           },
           {
-            "name": "Deathwheels",
-            "units": "One Deathwheel",
+            "name": "Repugnant",
+            "units": "One Repugnant Titan",
             "upgrades": [
-              "Add one Deathwheel for 225 points"
             ],
-            "points": 275
-          },
-          {
-            "name": "Chaos Warhound",
-            "units": "One Chaos Warhound Scout Titan",
-            "upgrades": [
-              "Add one Chaos Warhound for 225 Points"
-            ],
-            "points": 275
-          },
-          {
-            "name": "Chaos Reaver",
-            "units": "One Chaos Reaver Titan",
             "points": 625
-          },
-          {
-            "name": "Chaos Warlord",
-            "units": "One Chaos Warlord Titan",
-            "points": 750
           },
         {
           "name": "Hell Blade Squadron",
@@ -250,30 +221,22 @@
           "points": 225
         },
         {
-          "name": "0-1 Harbringer",
-          "units": "One Harbringer Bomber",
-          "points": 325
+          "name": "0-1 Blightbringer",
+          "units": "One Blightbringer Bomber",
+          "points": 350
         },
         {
-          "name": "0-1 Chaos Cruiser",
-          "units": "One Devastation Class Cruiser",
-          "upgrades": [
-            "Battleship"
-          ],
-          "points": 150
+          "name": "0-1 Plagueship",
+          "units": "One Plagueship",
+          "points": 100
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Black Legion Upgrades",
+    "title": "Death Guard Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-      {
-        "name": "Battleship",
-        "description": "Replace the Devastation Class Cruiser with a Despoiler Class Battleship",
-        "points": "50 points"
-      },
       {
         "name": "0-1 Supreme Commander",
         "options": [
@@ -285,7 +248,7 @@
             "points": "50 points"
           },
           {
-            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Chaos Undivided",
+            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Nurgle",
             "points": "75 points"
           }
         ]
@@ -294,11 +257,11 @@
         "name": "Transport",
         "options": [
           {
-            "description": "Add up to four Chaos Rhinos (Retinue only)",
+            "description": "Add up to four Death Guard Rhinos (Retinue only)",
             "points": "10 points each"
           },
           {
-            "description": "Add up to four Chaos Land Raiders",
+            "description": "Add up to four Death Guard Land Raiders",
             "points": "50 points each"
         },
         {
@@ -314,12 +277,12 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add two Chaos Dreadnoughts to the formation",
+        "description": "Add two Death Guard Dreadnoughts to the formation",
         "points": "75 points"
       },
       {
         "name": "Champion",
-        "description": "Add one Champion of Chaos Undivided character to the formation",
+        "description": "Add one Champion of Nurgle character to the formation",
         "points": "50 points"
       },
       {
@@ -329,52 +292,23 @@
       },
       {
         "name": "Stalker",
-        "description": "Add one Chaos Stalker to the formation",
+        "description": "Add one Death Guard Stalker to the formation",
         "points": "50 points"
       },
       {
-        "name": "Dreadclaws",
-        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
-        "points": "5 points per unit"
-      },
-      {
         "name": "Vindicators",
-        "description": "Add two Chaos Vindicators",
+        "description": "Add two Death Guard Vindicators",
         "points": "50 points"
       },
       {
         "name": "Havocs",
-        "description": "Replace four Chaos Space Marines with four Havocs",
-        "points": "50 points"
+        "description": "Replace three Chaos Space Marines with three Havocs",
+        "points": "35 points"
       },
       {
-        "name": "Cult Marines",
-        "options": [
-          {
-            "description": "Choose one of the following:"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Noise Marines",
-            "points": "50 points"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Plague Marines",
-            "points": "50 points"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
-            "points": "25 points"
-          },
-          {
-            "description": "Replace four Chaos Space Marines with four Rubric Marines",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Obliterators",
-        "description": "Replace up to two Chaos Terminators with Obliterators",
-        "points": "35 points each"
+        "name": "Plague Marines",
+        "description": "Replace three Chaos Space Marines with three Plague Marines",
+        "points": "25 points"
       }
     ]
   }

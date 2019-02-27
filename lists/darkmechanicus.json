@@ -108,6 +108,23 @@
           ]
         },
         {
+          "name": "Contagion Tower",
+          "type": "AV",
+          "speed": 15,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Plague Catapult",
+            "Vomit Cannon"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
           "name": "Hell-Knight",
           "type": "AV-K",
           "speed": 30,
