@@ -2365,6 +2365,26 @@
       ]
     },
     {
+      "name": "Infected Earthshaker Cannon",
+          "modes": [
+            {
+              "firepower": "AP4+/AT4+",
+              "range": 120,
+              "specialRules": [
+                "D"
+            ]
+            },
+            {
+              "firepower": "1BP",
+              "join": "or",
+              "specialRules": [
+                "Ind",
+                "D"
+            ]
+          }
+      ]
+    },
+    {
       "name": "Inferno Bolters",
         "modes": [
           {
