@@ -213,7 +213,7 @@
             "name": "Greater Brass Scorpion",
             "units": "One Greater Brass Scorpion",
           "upgrades": [
-            "Add up to one Greater Brass Scorpion for 175 points"
+            "Add one Greater Brass Scorpion for 175 points"
           ],
           "points": 225
             },
@@ -344,7 +344,20 @@
         "name": "Mutilators",
         "description": "Replace up to two Skullseeker Terminators with Mutilators",
         "points": "25 points each"
-      }
+    },
+    {
+      "name": "Daemon Pool",
+      "options": [
+        {
+          "description": "Add any number of Lesser Daemon Pool points",
+          "points": "15 points each"
+        },
+        {
+          "description": "(1+) Add any number of Greater Daemon Pool points",
+          "points": "50 points each. The first one is free"
+        }
+      ]
+    }
     ]
   }
 }

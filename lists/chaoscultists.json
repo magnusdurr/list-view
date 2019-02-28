@@ -12,6 +12,123 @@
     ],
     "unit": [
         {
+          "name": "Arch Heretic",
+          "type": "CH",
+          "weapons": [
+              "Daemon Weapon"
+          ],
+          "specialRules": [
+              "Supreme Commander"
+          ]
+      },
+      {
+        "name": "Icon Bearer",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save",
+            "Leader"
+        ]
+      },
+      {
+        "name": "Demagogue",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+            "Heavy Weapons",
+            "Daemon Weapon",
+            "Warp Bolt"
+        ],
+        "specialRules": [
+            "Invulnerable Save",
+            "Augment Summoning (+2D3)"
+        ]
+    },
+    {
+      "name": "Aspiring Champion of Chaos Undivided",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+          "Autocannon",
+          "Daemon Weapon"
+      ],
+      "specialRules": [
+          "Invulnerable Save",
+          "Commander",
+          "Leader"
+      ]
+  },
+      {
+        "name": "Daemon Prince of Chaos Undivided",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+            "Warp Bolt",
+            "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Cultists",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+            "Heavy Weapons"
+        ],
+        "specialRules": [
+            ]
+    },
+        {
+          "name": "Mutants",
+          "type": "INF",
+          "speed": 15,
+          "armour": 6,
+          "cc": 4,
+          "ff": 6,
+          "weapons": [
+              "Autopistols",
+              "Chainswords"
+          ],
+          "specialRules": [
+              ]
+      },
+      {
+        "name": "Big Mutants",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+            "Massive Melee Weapons",
+            "Heavy Weapons|2|"
+        ],
+        "specialRules": [
+            ]
+    },
+        {
           "name": "Chaos Spawn",
           "type": "INF",
           "speed": 15,
@@ -25,8 +142,68 @@
               "Infiltrators"
           ]
       },
+      {
+        "name": "Chaos Hounds",
+        "type": "INF",
+        "speed": 30,
+        "armour": 6,
+        "cc": 4,
+        "weapons": [
+            "Claws and Fangs"
+        ],
+        "specialRules": [
+            ]
+    },
         {
-          "name": "Plague Zombies",
+          "name": "Land Transporter",
+          "type": "LV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 6,
+          "weapons": [
+              "Heavy Weapons"
+          ],
+          "specialRules": [
+          ],
+                "notes": "May transport two infantry units without Mounted or Jump Packs. Chaos Spawns and Big Mutants takes two space each."
+      },
+      {
+        "name": "Technical",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+            "Twin Heavy Stubbers on AA mount"
+        ],
+        "specialRules": [
+        ]
+    },
+    {
+      "name": "Chaos Altar",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+          "Arcane Technology"
+      ],
+      "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Fearless",
+          "Inspiring",
+          "Daemonic Focus",
+          "Augmented Summoning (+1D3)"
+      ],
+                "notes": "Critical Hit Effect: The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
+  },
+        {
+          "name": "Plague Zombies of Nurgle",
           "type": "INF",
           "speed": 10,
           "cc": 6,

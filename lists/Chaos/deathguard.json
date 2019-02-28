@@ -44,7 +44,7 @@
     {
         "from": "chaoscultists.json",
         "units": [
-            "Plague Zombies"
+            "Plague Zombies of Nurgle"
         ],
         "unitRules": [
           "Infestation"
@@ -309,7 +309,20 @@
         "name": "Plague Marines",
         "description": "Replace three Chaos Space Marines with three Plague Marines",
         "points": "25 points"
-      }
+    },
+    {
+      "name": "Daemon Pool",
+      "options": [
+        {
+          "description": "Add any number of Lesser Daemon Pool points",
+          "points": "15 points each"
+        },
+        {
+          "description": "(1+) Add any number of Greater Daemon Pool points",
+          "points": "50 points each. The first one is free"
+        }
+      ]
+    }
     ]
   }
 }

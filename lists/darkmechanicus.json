@@ -178,6 +178,25 @@
           ]
         },
         {
+          "name": "Hell-Strider",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Lascannon",
+            "Multi-melta"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Scout",
+            "Invulnerable Save",
+            "Daemon Engine (Slaanesh)"
+          ]
+        },
+        {
           "name": "Hell-Knight",
           "type": "AV-K",
           "speed": 30,
@@ -517,7 +536,7 @@
         "name": "Warp Palace",
         "type": "WE",
         "speed": 20,
-        "armour": 4,
+        "armour": 5,
         "cc": 5,
         "ff": 3,
         "weapons": [
@@ -527,10 +546,10 @@
         ],
         "specialRules": [
           "Damage Capacity 6",
+          "Reinforced Armour",
           "Fearless",
           "Skimmer",
-          "Invulnerable Save",
-          "Thick Rear Armour",
+          "Invulnerable Save (5+)",
           "Daemon Engine (Tzeench)"
       ],
           "notes": "The Warp Palace takes 1 additional damage. Any units within 5cm takes an additional hit with MW on 6+."

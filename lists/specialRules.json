@@ -276,7 +276,7 @@
          "All formations in the Black Legion worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeench (1), Daemonic Beasts of Chaos Undivided (1)",
          "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
          "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
@@ -286,7 +286,7 @@
          "All formations in Emperor's Children worship the Prince of Pleasure, Slaanesh. All formations with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
          "Greater Daemons: Keeper of Secrets (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
          "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
@@ -296,7 +296,7 @@
          "All formations in Death Guard worship the Plague Lord, Nurgle. All formations with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
          "Greater Daemons: Great Unclean One (7)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
          "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
@@ -306,7 +306,7 @@
          "All formations in Death Guard worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
          "Greater Daemons: Bloodthirster (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
          "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
@@ -316,9 +316,19 @@
          "All formations in Thousand Sons worship the Changer of Ways, Tzeench. All formations with either Daemonic Pact or a unit with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers of Tzeench (2)",
          "Greater Daemons: Lord of Change (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
          "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
          "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Aspiring Sorcerer, Exalted Sorcerer, Daemon Prince of Tzeench) or formation with Daemonic Pact."
+       ]
+     },
+     {
+       "title": "Lost and the Damned Summoning Rules",
+       "description": [
+           "All Chaos Cultists formations in the Lost and the Damned worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
+           "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
+           "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
+           "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
+           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
 
@@ -367,6 +377,22 @@
          "The following units may be deployed using Dreadclaws: Khorne Berzerkers, Chaos Space Marines, Skullseeker Terminators, World Eaters Dreadnoughts, Mutilators."
        ]
      },
+
+     {
+       "title": "Infestation",
+       "description": [
+         "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
+         "Formations containing any units with the infestation ability may only contest scenario objectives."
+       ]
+       },
+        {
+       "title": "LatD Eternal Animosity",
+       "description": [
+         "Each Support Coven in a Lost and the Damned army owes allegiance to either one of the Gods of Chaos or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "A Lost and the Damned army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+         "A Lost and the Damned army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
+       ]
+        },
 
 
 

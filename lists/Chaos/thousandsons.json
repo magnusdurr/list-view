@@ -306,14 +306,27 @@
           },
           {
             "description": "Add one Chaos Spawn to the formation",
-            "points": "35 points"
+            "points": "50 points"
           },
           {
             "description": "Add one Vortex Beast to the formation",
             "points": "75 points"
           }
         ]
-      }
+    },
+    {
+      "name": "Daemon Pool",
+      "options": [
+        {
+          "description": "Add any number of Lesser Daemon Pool points",
+          "points": "15 points each"
+        },
+        {
+          "description": "(1+) Add any number of Greater Daemon Pool points",
+          "points": "50 points each. The first one is free"
+        }
+      ]
+    }
     ]
   }
 }

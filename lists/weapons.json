@@ -717,6 +717,17 @@
       ]
     },
     {
+      "name": "Arcane Technology",
+        "modes": [
+          {
+            "firepower": "D3x AP4+/AT4+/AA4+",
+          "range": 45,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Arcane Terrors",
         "modes": [
           {
@@ -2600,6 +2611,15 @@
       ]
     },
     {
+      "name": "Twin Heavy Stubbers on AA mount",
+      "modes": [
+        {
+          "firepower": "AP5+/AA6+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Heavy Warpflamer",
           "modes": [
             {
@@ -2616,6 +2636,15 @@
                 "IC"
             ]
           }
+      ]
+    },
+    {
+      "name": "Heavy Weapons",
+      "modes": [
+        {
+          "firepower": "AP6+/AT6+",
+          "range": 30
+        }
       ]
     },
     {
@@ -3152,6 +3181,18 @@
           "specialRules": [
             "Lance",
             "FxF"
+        ]
+        }
+    ]
+    },
+        {
+    "name": "Massive Melee Weapons",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
         ]
         }
     ]
