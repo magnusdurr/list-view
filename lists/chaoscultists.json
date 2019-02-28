@@ -12,6 +12,20 @@
     ],
     "unit": [
         {
+          "name": "Chaos Spawn",
+          "type": "INF",
+          "speed": 15,
+          "armour": 3,
+          "cc": 3,
+          "weapons": [
+              "Horrific Mutations"
+          ],
+          "specialRules": [
+              "Fearless",
+              "Infiltrators"
+          ]
+      },
+        {
           "name": "Plague Zombies",
           "type": "INF",
           "speed": 10,
@@ -22,7 +36,57 @@
             "Infiltrators",
             "Infestation"
           ]
-        }
+      },
+        {
+          "name": "Tzaangors",
+          "type": "INF",
+          "speed": 15,
+          "armour": 6,
+          "cc": 4,
+          "ff": 6,
+          "weapons": [
+              "Autopistols",
+              "Chainswords"
+          ],
+          "specialRules": [
+          ]
+      },
+          {
+            "name": "Tzaangor Disc Riders",
+            "type": "INF",
+            "speed": 30,
+            "armour": 5,
+            "cc": 5,
+            "ff": 5,
+            "weapons": [
+                "Divining Spear"
+            ],
+            "specialRules": [
+                "Mounted",
+                "Jump Packs",
+                "Invulnerable Save"
+            ]
+        },
+        {
+          "name": "Mutalith Vortex Beast",
+          "type": "LV",
+          "speed": 20,
+          "armour": 3,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+              "Beam of Unreality",
+              "Mælstrom of Madness"
+          ],
+          "specialRules": [
+              "Fearless",
+              "Infiltrators",
+              "Invulnerable Save",
+              "Daemonic Focus",
+              "Augment Summoning (+2D3)"
+          ]
+      }
+
     ]
   }
 ]

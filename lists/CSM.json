@@ -29,6 +29,21 @@
             "Invulnerable Save"
           ]
         },
+        {
+          "name": "Exalted Sorcerer",
+          "type": "CH",
+          "weapons": [
+              "Blue Fire of Metamorphosis",
+            "Daemon Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Teleport Homer",
+            "Daemonic Pact",
+            "Augmented Summoning (+1D3)",
+            "Invulnerable Save"
+          ]
+        },
       {
         "name": "Chaos Lord",
         "type": "CH",
@@ -52,6 +67,22 @@
           "Commander",
           "Leader",
           "Inspiring",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Aspiring Sorcerer",
+        "type": "CH",
+        "weapons": [
+          "Red Fire of Alteration",
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Teleport Homer",
+          "Daemonic Pact",
+          "Augmented Summoning (+1)",
           "Invulnerable Save"
         ]
       },
@@ -208,6 +239,28 @@
         ]
       },
       {
+        "name": "Daemon Prince of Tzeench",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+            "Blue Fire of Metamorphosis",
+            "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Pact",
+          "Augment Summoning (+1D3)",
+          "Daemonic Focus"
+        ]
+      },
+      {
         "name": "Chaos Space Marines",
         "type": "INF",
         "speed": 15,
@@ -323,6 +376,25 @@
       "specialRules": [
           "Fearless",
           "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Scarab Occult Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Inferno Combi-Bolters",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Invulnerable Save",
           "Teleport",
           "Thick Rear Armour"
       ]
@@ -587,6 +659,24 @@
       ],
       "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
         },
+        {
+          "name": "Thousand Sons Land Raider",
+          "type": "AV",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Twin Lascannon|2|",
+            "Heavy Warpflamer"
+          ],
+          "specialRules": [
+              "Reinforced Armour",
+              "Thick Rear Armour",
+              "Transport"
+          ],
+          "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+            },
       {
         "name": "Chaos Predator",
         "type": "AV",
@@ -609,6 +699,18 @@
         "weapons": [
           "Twin Lascannon",
           "Blastmaster|2|"
+        ]
+      },
+      {
+        "name": "Thousand Sons Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon",
+          "Heavy Warpflamer|2|"
         ]
       },
       {

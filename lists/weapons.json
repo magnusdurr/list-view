@@ -179,6 +179,18 @@
         }
       ]
           },
+          {
+            "name": "AC Flame Cannon",
+            "modes": [
+              {
+                "firepower": "AP4+/AT5+/AA5+",
+                "range": 30,
+                "specialRules": [
+                  "IC"
+              ]
+              }
+          ]
+                },
     {
       "name": "Aircraft Gate Projector Array",
         "modes": [
@@ -527,6 +539,17 @@
       ]
     },
     {
+      "name": "AC Twin Lascannon",
+        "modes": [
+          {
+            "firepower": "AT4+/AA4+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Twin Lascannon",
         "modes": [
           {
@@ -683,6 +706,17 @@
       ]
     },
     {
+      "name": "Arcane Cannons",
+        "modes": [
+          {
+            "firepower": "3x AP4+/AT4+",
+          "range": 45,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Arcane Terrors",
         "modes": [
           {
@@ -789,6 +823,16 @@
         {
           "firepower": "AP5+/AT6+",
           "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Autopistols",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
         }
       ]
     },
@@ -906,6 +950,29 @@
       ]
     },
     {
+      "name": "Beam of Unreality",
+      "modes": [
+        {
+          "firepower": "D3x AP3+",
+          "range": 30,
+          "specialRules": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beam of Power",
+      "modes": [
+        {
+          "firepower": "MW5+",
+          "range": 60,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Bedlam Staff",
       "modes": [
         {
@@ -991,6 +1058,18 @@
             "firepower": "2x AP4+/AT5+",
             "range": 30,
             "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Blue Fire of Metamorphosis",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)",
+                "TK(1)"
           ]
           }
       ]
@@ -1438,6 +1517,18 @@
       ]
     },
     {
+      "name": "Daemon Maw",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+2)",
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Daemon Weapon",
         "modes": [
           {
@@ -1578,6 +1669,17 @@
           "range": 30,
           "specialRules": [
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Divining Spear",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "S"
           ]
         }
       ]
@@ -1841,6 +1943,17 @@
       ]
     },
     {
+      "name": "Eye of Magnus",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT5+/AA6+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Exarch Close Combat Weapon",
       "modes": [
         {
@@ -2002,6 +2115,16 @@
       ]
     },
     {
+      "name": "Flames of Tzeench",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules":[
+          ]
+        }
+      ]
+    },
+    {
       "name": "Flamestorm Cannon",
       "modes": [
         {
@@ -2115,6 +2238,18 @@
           {
             "firepower": "AT5+/AA5+",
             "range": 60,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Gaze of Tzeench",
+        "modes": [
+          {
+            "firepower": "3x MW4+",
+            "range": 30,
             "specialRules": [
 
           ]
@@ -2351,7 +2486,7 @@
       "name": "Heavy Cannon",
         "modes": [
           {
-            "firepower": "AP4+/AT4+",
+            "firepower": "AP5+/AT5+",
             "range": 45,
             "specialRules": [
           ]
@@ -2462,6 +2597,25 @@
           "firepower": "AP5+",
           "range": 30
         }
+      ]
+    },
+    {
+      "name": "Heavy Warpflamer",
+          "modes": [
+            {
+              "firepower": "AP4+",
+              "range": 15,
+              "specialRules": [
+                "IC"
+            ]
+            },
+            {
+              "firepower": "Small Arms",
+              "join": "or",
+              "specialRules": [
+                "IC"
+            ]
+          }
       ]
     },
     {
@@ -2590,6 +2744,17 @@
       ]
     },
     {
+      "name": "Horrific Mutations",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+D3)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Host Weapons",
       "modes": [
         {
@@ -2683,6 +2848,17 @@
         "modes": [
           {
             "firepower": "Small Arms"
+          }
+      ]
+    },
+    {
+      "name": "Inferno Combi-Bolters",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)"
+          ]
           }
       ]
     },
@@ -2957,6 +3133,17 @@
       ]
     },
     {
+    "name": "Mælstrom of Madness",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+D3)"
+        ]
+        }
+    ]
+    },
+    {
     "name": "Twin Magna Lascannon",
       "modes": [
         {
@@ -2969,7 +3156,7 @@
         }
     ]
     },
-    {
+        {
     "name": "Mega-choppa",
       "modes": [
         {
@@ -3276,6 +3463,18 @@
             "specialRules": [
           ]
           }
+      ]
+    },
+    {
+      "name": "Pandæmonium",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+2)",
+              "FS"
+          ]
+        }
       ]
     },
     {
@@ -3985,6 +4184,17 @@
           "firepower": "2x AP5+",
           "range": 45,
           "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Red Fire of Alteration",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+              "EA(+1)"
           ]
         }
       ]
@@ -5536,6 +5746,19 @@
             "specialRules": [
                 "EA(+1)",
                 "MW"
+            ]
+          }
+      ]
+    },
+    {
+          "name": "Warpfire of Tzeench",
+          "modes": [
+            {
+            "firepower": "3BP",
+            "range": 30,
+            "specialRules": [
+                "TK(D3)",
+                "IC"
             ]
           }
       ]
