@@ -18,12 +18,12 @@
         "Units with the God Machine special rule are themselves immune to this effect."
       ]
   },
-  {
-    "title": "Split Fire",
-    "description": [
-      "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon, and gets no +1 to-hit modifier from performing a Sustain Fire."
-    ]
-}
+      {
+        "title": "Split Fire",
+        "description": [
+          "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon, and gets no +1 to-hit modifier from performing a Sustain Fire."
+        ]
+    }
     ],
     "unit": [
         {
@@ -36,7 +36,7 @@
           "weapons": ["Death Storm||FwA", "Hellmouth||FwA", "Battlehead"],
           "specialRules": [
             "Damage Capacity 3",
-            "2 Void Shields",
+            "Void Shields 2",
             "Fearless",
             "Reinforced Armour",
             "Walker"
@@ -53,7 +53,24 @@
           "weapons": ["Pus Cannon||FwA", "Boil Cannon||FwA"],
           "specialRules": [
             "Damage Capacity 4",
-            "2 Void Shields",
+            "Void Shields 2",
+            "Fearless",
+            "Reinforced Armour",
+            "Walker"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        },
+        {
+          "name": "Warphound Titan",
+          "type": "WE",
+          "speed": 30,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": ["Arcane Cannons||FwA", "Gaze of Tzeench||FwA", "Daemon Maw"],
+          "specialRules": [
+            "Damage Capacity 3",
+            "Void Shields 2",
             "Fearless",
             "Reinforced Armour",
             "Walker"
@@ -70,7 +87,7 @@
         "weapons": ["Death Storm|2|FwA", "Doom Burner||FxF", "Guntail"],
         "specialRules": [
           "Damage Capacity 6",
-          "4 Void Shields",
+          "Void Shields 4",
           "Fearless",
           "Reinforced Armour",
           "Walker"
@@ -87,7 +104,7 @@
         "weapons": ["Plague Mortar||FxF", "Rot Cannon||FwA", "Plague Flail"],
         "specialRules": [
           "Damage Capacity 7",
-          "4 Void Shields",
+          "Void Shields 4",
           "Fearless",
           "Reinforced Armour",
           "Walker"
@@ -106,7 +123,7 @@
         "God Machine",
         "Split Fire",
           "Damage Capacity 8",
-          "6 Void Shields",
+          "Void Shields 6",
           "Fearless",
           "Reinforced Armour",
           "Thick Rear Armour",
