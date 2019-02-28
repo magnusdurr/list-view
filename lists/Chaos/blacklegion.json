@@ -270,7 +270,23 @@
           "points": 150
         }
       ]
-    }
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+      },
+      {
+        "name": "Greater Daemon Pool",
+        "units": "Any amount of Greater Daemon Pool points",
+        "points": 50
+      }
+    ]
+}
   ],
   "upgrades": {
     "title": "Black Legion Upgrades",
@@ -382,19 +398,6 @@
         "name": "Obliterators",
         "description": "Replace up to two Chaos Terminators with Obliterators",
         "points": "35 points each"
-    },
-    {
-      "name": "Daemon Pool",
-      "options": [
-        {
-          "description": "Add any number of Lesser Daemon Pool points",
-          "points": "15 points each"
-        },
-        {
-          "description": "Add any number of Greater Daemon Pool points",
-          "points": "50 points each"
-        }
-      ]
     }
     ]
   }

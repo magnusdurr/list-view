@@ -101,6 +101,18 @@
       ]
     },
 
+    {
+      "title": "Fortified Positions",
+      "description": [
+        "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up, with the exception of Gun Emplacements that are listed as part of a formation’s 'units'.  While these Gun Emplacements are not actually units, they are set up at the same time and with coherency of the formation they are part of.",
+        "Fortified positions may be set up anywhere a vehicle may deploy on the player’s half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a “chain” without any gaps of more than 5cm.",
+        "Once set up, fortified positions may be used by any unit(including enemy units).",
+        "Trench: Provides a cover save of 4+ to INF. May contain 1 unit per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
+        "Razorwire: Counts as Dangerous Terrain for INF",
+        "Gun Emplacement: Provides a cover save of 4+ to a single unit of INF or AV.",
+        "Bunker: Provides a cover save of 3+ and Thick Rear Armour to up to three units of INF. Counts as Dangerous Terrain for AV and WE."
+      ]
+    },
 
 
 
@@ -331,6 +343,15 @@
            "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
+     {
+       "title": "Slaves to Darkness Summoning Rules",
+       "description": [
+           "All formations in the Slaves to Darkness worship Chaos Undivided. All formations with either a Daemonic Icon unit or a Daemonic Pact formation upgrade may summon the following Daemons:",
+           "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
+           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+           "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Daemonic Icon) or formation with Daemonic Pact."
+       ]
+     },
 
      {
        "title": "Augment Summoning (+x)",
@@ -391,6 +412,14 @@
          "Each Support Coven in a Lost and the Damned army owes allegiance to either one of the Gods of Chaos or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Lost and the Damned army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Lost and the Damned army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
+       ]
+        },
+        {
+       "title": "StD Eternal Animosity",
+       "description": [
+         "Each Dark Mechanicus and Infestation allied formation in a Slaves to Darkness army owes allegiance to either one of the Gods of Chaos or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "A Slaves to Darkness army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+         "A Slaves to Darkness army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
         },
 

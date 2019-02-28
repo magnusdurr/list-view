@@ -69,6 +69,39 @@
       ]
   },
       {
+        "name": "Fallen Commander",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+            "Autocannon",
+            "Daemonic Bolt",
+            "Power Weapon"
+        ],
+        "specialRules": [
+            "Commander"
+        ]
+    },
+        {
+          "name": "Daemonic Icon",
+          "type": "INF",
+          "speed": 15,
+          "armour": 6,
+          "cc": 4,
+          "ff": 6,
+          "weapons": [
+              "Autopistols",
+              "Chainswords"
+          ],
+          "specialRules": [
+              "Daemonic Pact",
+              "Augment Summoning (+1D3)",
+              "Invulnerable Save"
+          ]
+      },
+      {
         "name": "Daemon Prince of Chaos Undivided",
         "type": "INF",
         "speed": 30,

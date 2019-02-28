@@ -203,17 +203,18 @@
     {
       "name": "Rough Riders",
       "type": "INF",
-      "speed": 15,
+      "speed": 20,
       "armour": 6,
       "cc": 4,
       "ff": 6,
       "weapons": [
         "Laspistols",
-        "Power Lances"
+        "Hunting Lances"
       ],
       "specialRules": [
         "Infiltrator",
         "Mounted",
+        "Walker",
         "Scout"
       ]
     },
@@ -353,7 +354,7 @@
       "speed": 20,
       "armour": 6,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Infected Earthshaker Cannon", "Heavy Bolter"
       ],
@@ -367,7 +368,7 @@
       "speed": 20,
       "armour": 6,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Earthshaker Cannon", "Heavy Bolter"
       ],

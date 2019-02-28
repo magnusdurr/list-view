@@ -2816,6 +2816,17 @@
       ]
     },
     {
+      "name": "Hunting Lances",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+                "FS"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Hurricane Bolter",
       "modes": [
         {
@@ -3824,7 +3835,7 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "Lance"
+            "FS"
           ]
         }
       ]
