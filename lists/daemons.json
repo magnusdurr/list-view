@@ -40,6 +40,38 @@
             ]
       },
       {
+        "name": "Fiends of Slaanesh",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Invulnerable Save"
+            ]
+      },
+      {
+        "name": "Seekers of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Barbed Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Mounted",
+            "Walker",
+            "Invulnerable Save"
+            ]
+      },
+      {
         "name": "Great Unclean One",
         "type": "WE",
         "speed": 15,
@@ -77,6 +109,39 @@
         ]
       },
       {
+        "name": "Beasts of Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "weapons": [
+          "Overeager Affection"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Plague Drones of Nurgle",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Death's Heads",
+          "Blight Fly"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Mounted",
+            "Jump Packs",
+            "Invulnerable Save"
+        ]
+      },
+      {
         "name": "Bloodthirster",
         "type": "WE",
         "speed": 30,
@@ -107,6 +172,37 @@
         ],
         "specialRules": [
             "Expendable",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Fleshhounds of Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Claws and Fangs"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Infiltrators",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Bloodcrushers of Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Juggernaut"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Mounted",
+            "Infiltrators",
             "Invulnerable Save"
         ]
       },

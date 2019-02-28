@@ -243,20 +243,6 @@
       ]
     },
 
-
-
-    {
-       "title": "Daemon Engine (x)",
-       "description": [
-         "Formations completely made up of units with the Daemon Engine (x) special rule, and that have the same faction within its brackets, gain the bonus associated with that faction:",
-         "Slaanesh: Formation gains +1 to activate when attempting to Double.",
-         "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
-         "Khorne: Formation gains +1 to activate when attempting to Engage.",
-         "Tzeench: Formation gains +1 to activate when attempting to Advance.",
-         "Chaos Undivided: Formations ignores the -1 modifier for enemy formations within 30cm when rallying."
-       ]
-     },
-
      {
        "title": "Summoning",
        "description": [
@@ -277,7 +263,37 @@
          "All formations in the Black Legion worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeench (1), Daemonic Beasts of Chaos Undivided (1)",
          "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+       ]
+     },
+     {
+       "title": "Emperor's Children Summoning Rules",
+       "description": [
+         "All formations in Emperor's Children worship the Prince of Pleasure, Slaanesh. All formations with Daemonic Pact may summon the following Daemons:",
+         "Lesser Daemons: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
+         "Greater Daemons: Keeper of Secrets (8)",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+       ]
+     },
+     {
+       "title": "Death Guard Summoning Rules",
+       "description": [
+         "All formations in Death Guard worship the Plague Lord, Nurgle. All formations with Daemonic Pact may summon the following Daemons:",
+         "Lesser Daemons: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
+         "Greater Daemons: Great Unclean One (7)",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
+         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+       ]
+     },
+     {
+       "title": "World Eaters Summoning Rules",
+       "description": [
+         "All formations in Death Guard worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons:",
+         "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
+         "Greater Daemons: Bloodthirster (8)",
+         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than 1 Greater Daemon at a time.",
          "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
@@ -291,7 +307,7 @@
      {
        "title": "Daemonic Focus",
        "description": [
-         "Daemonic Focus: Certain units may have Daemonic Focus. Units with this ability may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Chaos units with Daemonic Focus may not be used to keep summoned units in play if the formation is broken. Multiples of Daemonic Focus has no additional effect."
+         "Units with Daemonic focus may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Daemonic Focus may not be used to keep summoned units in play if the formation is broken. Multiples of Daemonic Focus has no additional effect."
        ]
      },
 
@@ -307,10 +323,26 @@
        "description": [
          "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
 
-         "The following units may be deployed using Dreadclaws: Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Obliterators, Chaos Dreadnoughts, Daemon Prince of Chaos Undivided."
+         "The following units may be deployed using Dreadclaws: Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Obliterators, Chaos Dreadnoughts."
        ]
      },
 
+     {
+       "title": "Emperor's Children Dreadclaws",
+       "description": [
+         "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+
+         "The following units may be deployed using Dreadclaws: Noise Marines, Chaos Space Marines, Havocs, Sirenshriek Terminators, Chaos Dreadnoughts, Daemon Prince of Slaanesh."
+       ]
+     },
+     {
+       "title": "World Eaters Dreadclaws",
+       "description": [
+         "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+
+         "The following units may be deployed using Dreadclaws: Khorne Berzerkers, Chaos Space Marines, Skullseeker Terminators, World Eaters Dreadnoughts, Mutilators."
+       ]
+     },
 
 
 

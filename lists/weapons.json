@@ -77,14 +77,39 @@
       ]
     },
     {
+      "name": "AC Baleflamer",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 30,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Blight Bombs",
+        "modes": [
+          {
+            "firepower": "4BP",
+            "range": 15,
+            "specialRules": [
+              "D",
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Aircraft Bomb Racks",
         "modes": [
           {
-            "firepower": "3BP",
-            "range": 15,
-            "specialRules": [
-              "IC",
-              "FxF"
+              "firepower": "3BP",
+              "range": 15,
+              "specialRules": [
+                "IC",
+                "FxF"
           ]
           }
       ]
@@ -153,7 +178,7 @@
           ]
         }
       ]
-    },
+          },
     {
       "name": "Aircraft Gate Projector Array",
         "modes": [
@@ -163,6 +188,17 @@
               "Portal"
           ]
           }
+      ]
+    },
+    {
+      "name": "AC Hades Autocannon",
+        "modes": [
+          {
+            "firepower": "3x AP5+/AT6+/AA6+",
+            "range": 30,
+            "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -475,6 +511,17 @@
             "range": 15,
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Piston-Driven Claws",
+        "modes": [
+          {
+            "firepower": "AA6+",
+            "range": 15,
+            "specialRules": [
           ]
           }
       ]
@@ -848,6 +895,17 @@
       ]
     },
     {
+      "name": "Barbed Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Bedlam Staff",
       "modes": [
         {
@@ -915,10 +973,45 @@
       ]
     },
     {
+      "name": "Blade of Rot",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Cannon",
+        "modes": [
+          {
+            "firepower": "2x AP4+/AT5+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Blastmaster",
         "modes": [
           {
             "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+                "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Blastmaster",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
             "range": 30,
             "specialRules": [
                 "D"
@@ -936,6 +1029,53 @@
               "MW"
           ]
           }
+      ]
+    },
+    {
+      "name": "Blight Fly",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Blight Launcher",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 30,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Blight Launcher",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 30,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Boil Cannon",
+      "modes": [
+        {
+            "firepower": "4x AP3+/AT6+",
+            "range": 30,
+            "specialRules": [
+              "D"
+          ]
+        }
       ]
     },
     {
@@ -1080,6 +1220,18 @@
       ]
     },
     {
+      "name": "Chainfist",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+3)",
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Chainswords",
         "modes": [
           {
@@ -1165,6 +1317,14 @@
     },
     {
       "name": "Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons"
+        }
+      ]
+    },
+    {
+      "name": "Claws and Fangs",
       "modes": [
         {
           "firepower": "Assault Weapons"
@@ -1259,6 +1419,29 @@
         "modes": [
           {
             "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "FS"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Daemonic Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+D3)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Daemon Weapon",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
             "specialRules": [
               "EA(+1)",
               "FS"
@@ -1400,6 +1583,17 @@
       ]
     },
     {
+      "name": "Death's Heads",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Deathstrike Missile",
           "modes": [
             {
@@ -1436,6 +1630,18 @@
       ]
     },
     {
+      "name": "Doomblaster",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 60,
+            "specialRules": [
+                "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Doom Burner",
         "modes": [
           {
@@ -1457,6 +1663,25 @@
             "specialRules": [
           ]
           }
+      ]
+    },
+    {
+      "name": "Doom Siren",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "FS"
+          ]
+        }
       ]
     },
     {
@@ -2019,6 +2244,17 @@
       ]
     },
     {
+      "name": "Twin Hades Autocannon",
+        "modes": [
+          {
+            "firepower": "3x AP4+/AT5+/AA5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Harvesters",
         "modes": [
           {
@@ -2105,6 +2341,17 @@
         "modes": [
           {
             "firepower": "AP4+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Heavy Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+",
             "range": 45,
             "specialRules": [
           ]
@@ -2250,11 +2497,32 @@
       ]
     },
     {
+      "name": "Hellfire Cannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 75
+          }
+      ]
+    },
+    {
       "name": "Hellglaives",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hellmaw",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+                "IC"
           ]
         }
       ]
@@ -2269,6 +2537,32 @@
                 "IC"
           ]
         }
+      ]
+    },
+    {
+      "name": "Hellslicer Battle Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hellstrike Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 60,
+            "specialRules": [
+              "MW",
+              "IC"
+
+          ]
+          }
       ]
     },
     {
@@ -2481,6 +2775,17 @@
             "firepower": "Assault Weapons",
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Juggernaut",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)"
           ]
           }
       ]
@@ -2704,6 +3009,30 @@
             "firepower": "3x AP5+/AT5+/AA6+",
             "range": 45,
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manifested Melee Weapons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+2)",
+                "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maw Cannon",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 30,
+            "specialRules": [
+                "IC"
           ]
         }
       ]
@@ -2940,6 +3269,16 @@
       ]
     },
     {
+      "name": "Overeager Affection",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Paralyzer",
         "modes": [
           {
@@ -3052,11 +3391,72 @@
       ]
     },
     {
+      "name": "Plague Catapult",
+        "modes": [
+          {
+              "firepower": "1BP",
+              "range":45,
+            "specialRules": [
+                "D",
+                "Ind"
+          ]
+          }
+
+      ]
+    },
+    {
+      "name": "Plague Flail",
+        "modes": [
+          {
+            "firepower": "2x AP2+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "TK(D2)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plague Mortar",
+        "modes": [
+          {
+              "firepower": "3BP",
+              "range":60,
+            "specialRules": [
+                "D",
+                "IC"
+          ]
+          }
+
+      ]
+    },
+    {
       "name": "Plagueswords",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+          ]
+          }
+
+      ]
+    },
+    {
+      "name": "Plague Squall",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+2)",
+                "IC"
           ]
           }
 
@@ -3257,6 +3657,19 @@
           "range": 30,
           "specialRules": [
             "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pus Cannon",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 30,
+          "specialRules": [
+            "D",
+            "IC"
           ]
         }
       ]
@@ -3472,6 +3885,19 @@
       ]
     },
     {
+      "name": "Rapturous Blade",
+      "modes": [
+        {
+          "firepower": "Assault Weapon",
+          "specialRules": [
+            "EA(+1)",
+            "MW",
+            "FS"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Reaper Autocannon",
       "modes": [
         {
@@ -3485,6 +3911,15 @@
       "modes": [
         {
           "firepower": "AP3+/AT5+",
+          "range": 30
+            }
+      ]
+    },
+    {
+      "name": "Twin Reaper Autocannon (AA mounted)",
+      "modes": [
+        {
+          "firepower": "AP3+/AT5+/AA5+",
           "range": 30
             }
       ]
@@ -3622,6 +4057,19 @@
       ]
     },
     {
+      "name": "Rot Cannon",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT5+",
+            "range": 60,
+            "specialRules": [
+              "D"
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Scarab Swarm",
         "modes": [
           {
@@ -3666,6 +4114,29 @@
             "firepower": "Assault Weapons",
             "specialRules": [
               "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scorpion Cannon",
+      "modes": [
+        {
+          "firepower": "3x AP3+/AT5+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scorpion Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+2)",
+              "MW"
           ]
         }
       ]
@@ -4201,6 +4672,16 @@
       ]
     },
     {
+      "name": "Teeth",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Teeth and Claws",
         "modes": [
           {
@@ -4290,6 +4771,24 @@
           "join": "and",
           "specialRules": [
             "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thermal Lance",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 30,
+          "specialRules": [
+          ]
+      },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
             "MW"
           ]
         }
@@ -4425,6 +4924,18 @@
             "specialRules": [
               "EA(+2)",
               "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tormentor Cannons",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 30,
+            "specialRules": [
+              "D"
           ]
         }
       ]
@@ -4950,6 +5461,18 @@
             "range": 45,
             "specialRules": [
               "IC",
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Vomit Cannon",
+        "modes": [
+          {
+            "firepower": "2x AP4+/AT6+",
+            "range": 30,
+            "specialRules": [
               "D"
           ]
           }

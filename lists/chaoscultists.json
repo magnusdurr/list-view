@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Chaos Cultist Forces",
+    "specialRules": [
+        {
+          "title": "Infestation",
+          "description": [
+            "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
+            "Formations containing any units with the infestation ability may only contest scenario objectives."
+          ]
+        }
+    ],
+    "unit": [
+        {
+          "name": "Plague Zombies",
+          "type": "INF",
+          "speed": 10,
+          "cc": 6,
+          "weapons": ["Teeth"],
+          "specialRules": [
+            "Fearless",
+            "Infiltrators",
+            "Infestation"
+          ]
+        }
+    ]
+  }
+]

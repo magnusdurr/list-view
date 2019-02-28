@@ -3,9 +3,8 @@
     "name": "Traitor Titan Legion Forces",
     "specialRules": [
       {
-        "title": "Imperial Void Shields",
+        "title": "Void Shields",
         "description": [
-          "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan’s datasheet.",
           "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
           "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast markers or repair 1 shield and remove 1 Blast marker)."
         ]
@@ -37,9 +36,26 @@
           "weapons": ["Death Storm||FwA", "Hellmouth||FwA", "Battlehead"],
           "specialRules": [
             "Damage Capacity 3",
+            "2 Void Shields",
             "Fearless",
             "Reinforced Armour",
+            "Walker"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        },
+        {
+          "name": "Plaguehound Titan",
+          "type": "WE",
+          "speed": 25,
+          "armour": 5,
+          "cc": 4,
+          "ff": 5,
+          "weapons": ["Pus Cannon||FwA", "Boil Cannon||FwA"],
+          "specialRules": [
+            "Damage Capacity 4",
             "2 Void Shields",
+            "Fearless",
+            "Reinforced Armour",
             "Walker"
           ],
           "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
@@ -54,9 +70,26 @@
         "weapons": ["Death Storm|2|FwA", "Doom Burner||FxF", "Guntail"],
         "specialRules": [
           "Damage Capacity 6",
+          "4 Void Shields",
           "Fearless",
           "Reinforced Armour",
+          "Walker"
+        ],
+        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      },
+      {
+        "name": "Repugnant Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": ["Plague Mortar||FxF", "Rot Cannon||FwA", "Plague Flail"],
+        "specialRules": [
+          "Damage Capacity 7",
           "4 Void Shields",
+          "Fearless",
+          "Reinforced Armour",
           "Walker"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
@@ -73,10 +106,10 @@
         "God Machine",
         "Split Fire",
           "Damage Capacity 8",
+          "6 Void Shields",
           "Fearless",
           "Reinforced Armour",
           "Thick Rear Armour",
-          "4 Void Shields",
           "Walker"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
