@@ -1,652 +1,168 @@
-﻿<!DOCTYPE html>
-<html xmlns="">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Epic Apocalypse Tournament Pack</title>
-<meta content="Home of EA Apocalypse" name="description">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- CSS
-================================================== -->
-<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="bootstrap.css">
-<link rel="stylesheet" href="bootstrap-responsive.css">
-<link rel="stylesheet" href="css/prettyPhoto.css" />
-<link rel="stylesheet" href="css/flexslider.css" />
-<link rel="stylesheet" href="custom-styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="armylist.css">
 
-<!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <link rel="stylesheet" href="css/style-ie.css"/>
-<![endif]--> 
+    <script src="script/units.js?v=1"></script>
+    <title>EA</title>
+</head>
+<body>
+<div id="container" class="container">
+    <div id="errors"></div>
+    <div id="content"></div>
+    <div id="units"></div>
+</div>
 
-<!-- Favicons
-================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
-<!-- JS
-================================================== -->
-<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/jquery.custom.js"></script>
-<script type="text/javascript">
-$(document).ready(function () {
-
-    $("#btn-blog-next").click(function () {
-      $('#blogCarousel').carousel('next')
-    });
-     $("#btn-blog-prev").click(function () {
-      $('#blogCarousel').carousel('prev')
-    });
-
-     $("#btn-client-next").click(function () {
-      $('#clientCarousel').carousel('next')
-    });
-     $("#btn-client-prev").click(function () {
-      $('#clientCarousel').carousel('prev')
-    });
-    
-});
-
- $(window).load(function(){
-
-    $('.flexslider').flexslider({
-        animation: "slide",
-        slideshow: true,
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-    });  
-});
-
+<script id="error-template" type="text/x-handlebars-template">
+    {{#if errors}}
+    <h1 class="text-danger">Data validation errors:</h1>
+    <ul>
+        {{#each errors}}
+        <li class="text-danger">{{this}}</li>
+        {{/each}}
+    </ul>
+    {{/if}}
 </script>
 
-<style type="text/css">
-            
+<!-- Optional JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        console.log("[document-ready] initializing...");
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+        var errorTemplate = Handlebars.compile($("#error-template").html());
+        var unitsTemplate;
+        var armyTemplate;
+        var listTemplate;
+
+        $.get("templates/army.html").done(function (template) {
+            armyTemplate = Handlebars.compile(template);
+        });
+
+        $.get("templates/units.html").done(function (template) {
+            unitsTemplate = Handlebars.compile(template);
+        });
+
+        $.get("templates/list.html").done(function (template) {
+            listTemplate = Handlebars.compile(template);
+        });
+
+        $.get("partials/special-rules.html").done(function (template) {
+            Handlebars.registerPartial('special-rules', template);
+        });
+
+        $.get("partials/card-with-margin.html").done(function (template) {
+            Handlebars.registerPartial('card-with-margin', template);
+        });
+
+        $.get("partials/weapons.html").done(function (template) {
+            Handlebars.registerPartial('weapons', template);
+        });
+
+        Handlebars.registerHelper('oddEven', function (index) {
+            return index % 2 == 0 ? 'even' : 'odd';
+        });
+
+        Handlebars.registerHelper('and', function (one, two) {
+            return true === one && true === two;
+        });
+
+        Handlebars.registerHelper('isArray', function (object) {
+            return $.isArray(object);
+        });
+
+        Handlebars.registerHelper('appendOnNumber', function (value, suffix) {
+            if (isNaN(value))
+            {
+                return value;
+            }
+            else
+            {
+                return value + suffix;
+            }
+        });
+
+        Handlebars.registerHelper('upgrade', function (context, options) {
+            if (options.data)
+            {
+                var data = Handlebars.createFrame(options.data);
+                data.options = context.options !== undefined ? context.options.length : 0;
+            }
+
+            return options.fn(context, {data: data})
+        });
+
+        Handlebars.registerHelper('unit', function (context, options) {
+            if (options.data)
+            {
+                var data = Handlebars.createFrame(options.data);
+
+                var count = 0;
+                for (weapon in context.weapons)
+                {
+                    count += context.weapons[weapon].modes.length;
+                }
+
+                data.weaponLines = count;
+                data.hasNotes = context.notes || context.specialRules;
+                data.hasNoNotes = !data.hasNotes;
+                data.singleLine = count == 1 && data.hasNoNotes;
+            }
+
+            return options.fn(context, {data: data})
+        });
+
+        var urlSearchParams = new URLSearchParams(new URL(window.location.href).search);
+        var race = urlSearchParams.get("race");
+        var list = urlSearchParams.get("list");
+
+        if (race && list)
+        {
+            $.when(units.loadSpecialRules(), units.loadWeapons()).done(function (specialRules, weapons) {
+                $.getJSON("lists/" + race + "/" + list + ".json", function (data) {
+                            $("#content").html(armyTemplate(units.formatSpecialRules(data, specialRules)));
+
+                            units.formatUnits(data, specialRules, weapons).forEach(function (units) {
+                                $("#units").append(unitsTemplate(units));
+                            });
+
+                            $("#errors").html(errorTemplate({"errors": units.errors}))
+                        }
+                ).fail(function (jqxhr, textStatus, error) {
+                    $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid, error: ' + textStatus);
+                    console.log("Fail!", error);
+                });
+            });
         }
-
-
-
-
-.auto-style3 {
-
-}
-.auto-style2 {
-	border: 1px solid #777777;
-	background-color: #C0C0C0;
-}
-.auto-style3 {
-	font-size: small;
-	border: 1px solid #777777;
-
-}
-.auto-style4 {
-	font-size: small;
-	border: 1px solid #777777;
-	background-color: #C0C0C0;
-}
-
-
-
-
-.auto-style5 {
-	font-weight: bold;
-}
-.auto-style6 {
-	font-size: small;
-	border: 1px solid #777777;
-	background-color: #C0C0C0;
-	text-align: left;
-}
-.auto-style7 {
-	font-size: small;
-	text-align: left;
-	border: 1px solid #777777;
-}
-
-
-
-
-</style>
-
-</head>
-
-<body class="home">
-    <!-- Color Bars (above header)-->
-	<div class="color-bar-1"></div>
-    <div class="color-bar-2 color-bg"></div>
-    
-    <div class="container">
-    
-      <div class="row header"><!-- Begin Header -->
-      
-        <!-- Logo
-        ================================================== -->
-        
-        <!-- Main Navigation
-        ================================================== -->
-        <div class="span7 navigation" style="width: 100%">
-            <td><img width="100%" height="100%" src="img/warhammer_40k_green_tide_by_peter1punk_d47oyyd-fullview.jpg" /></td>
-
-            
-            <!-- Mobile Nav
-            ================================================== -->
-        </div>
-      </div><!-- End Header -->
-     
-   <div class="row">
-        <div class="span12">
-        <!-- Main Navigation
-        ================================================== -->
-           <div class="navbar" style="left: 100%; top: 100%; height: 100%">
-           <ul class="nav"> 
-           <li><a href="index.html">Tournemant Pack</a></li>
-           <li><a href="ruleset.htm">Ruleset</a></li>
-           <li><a href="https://magnusdurr.github.io/snapfire/war/indexEAA.html">Army Builder</a></li>
-           </ul>
-           </div>
-
-           
-           
-           
-           
-            
-      <!-- Blog Content
-    ================================================== --> 
-    <div class="row"><!--Container row-->
-
-        <!-- Blog Full Post
-        ================================================== --> 
-        <br/>
-        <div class="span8 blog" style="width: 657px">
-
-            <!-- Blog Post 1 -->
-            <article>
-                <h3 class="title-bg" style="text-align: left">Tournament Pack</h3>
-						
-						
-						
-						<table style="width: 100%" class="auto-style3">
-							<tr>
-								<td style="width: 305px; height: 21px;" class="auto-style4">
-								<span class="auto-style5">Scenarios</span></td>
-								<td style="width: 226px; height: 21px;" class="auto-style2">
-								<strong>Codex</strong></td>
-								<td class="auto-style2" style="height: 21px; width: 72px"><strong>Version</strong></td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Battle Line</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Scenario&list=battleline">Scenario</a> 
-								- Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">1</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Fog of War</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Scenario&list=fogofwar">Scenario</a> 
-								- Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">1</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Fire the Beacons</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Scenario&list=firethebeacons">Scenario</a> 
-								- Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">1</td>
-							</tr>
-						</table>
-						
-						
-						<br/>
-						<table style="width: 100%" class="auto-style3">
-							<tr>
-								<td style="height: 21px;" class="auto-style6">
-								<strong>Deployment Types</strong></td>
-							</tr>
-							<tr class="auto-style3">
-								<td class="auto-style7">
-								<a href="deploymentStandard.htm">Standard Deployment</a></td>
-							</tr>
-							<tr class="auto-style3">
-								<td class="auto-style7">
-								<a href="deploymentCorner.htm">Corner Deployment</a></td>
-							</tr>
-							</table>
-
-						
-						<br/>
-
-						<table style="width: 100%" class="auto-style3">
-							<tr>
-								<td style="height: 21px;" class="auto-style6">
-								<strong>Tournament Information</strong></td>
-							</tr>
-							<tr class="auto-style3">
-								<td class="auto-style7">
-								<a href="">EA-Apocalypse FAQ</a></td>
-							</tr>
-							<tr class="auto-style3">
-								<td class="auto-style7">
-								<a href="">Tournament Rules</a></td>
-							</tr>
-							</table>
-
-						
-						<br/>
-
-						
-						<table style="width: 100%" class="auto-style3">
-							<tr>
-								<td style="width: 305px; height: 21px;" class="auto-style4">
-								<strong>Army Lists</strong></td>
-								<td style="width: 226px; height: 21px;" class="auto-style2">
-								<strong>Codex</strong></td>
-								<td class="auto-style2" style="height: 21px; width: 72px"><strong>Version</strong></td>
-							</tr>
-							<tr>
-								<td style="width: 305px" class="auto-style3">
-								Adeptus Astertes - Iron Hands</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=SM&amp;list=ironhands">
-								Codex</a> - Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr>
-								<td style="width: 305px" class="auto-style3">
-								Adeptus Astartes -
-								Raven Guard</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=SM&amp;list=ravenguard">Codex</a> - Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr>
-								<td style="width: 305px" class="auto-style3">
-								Adeptus Astartes -
-								White Scars</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=SM&amp;list=whitescars">Codex</a> - Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Adeptus Mechanicus - 
-								Explorator Fleet</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=AM&amp;list=exploratorFleet">Codex</a> - Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Adeptus Mechanicus - 
-								Knight World</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex 
-								- Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Adeptus Mechanicus - 
-								Questoris Mechanicus</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=AM&amp;list=questorismechanicus">Codex</a> 
-								- Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Adeptus Mechanicus - 
-								Skitarii</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex 
-								- Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos - 
-								Black Legion</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Chaos&amp;list=blacklegion">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos - 
-								Death Guard</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Chaos&amp;list=deathguard">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos - 
-								Emperors Children</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Chaos&amp;list=emperorschildren">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos - 
-								Thousand Sons</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Chaos&amp;list=thousandsons">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos - 
-								World Eaters</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Chaos&amp;list=worldeaters">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos - 
-								Traitor Titans</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos Cultists - Lost and the Damned</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Cultists&amp;list=LatD">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos Cultists - Slaves to Darkness</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Cultists&amp;list=StD">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Chaos Cultists - Daemonic Incursion</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=Cultists&amp;list=DI">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Dark Eldar -Kabal of the Bladed Lotus</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=DE&amp;list=kabalofthebladedlotus">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Eldar -
-								Biel Tan</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=EL&amp;list=bieltan">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Eldar -
-								Iyanden</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=EL&amp;list=iyanden">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Eldar -
-								Saim Hann</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=EL&amp;list=saimhann">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Eldar -
-								Ulthwe</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=EL&amp;list=ulthwe">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Harlequins - Masque of the Veiled Path</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=HQ&amp;list=masqueoftheveiledpath">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Harlequins - Masque of the Midnight Sorrow</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=HQ&amp;list=masqueofthemidnightsorrow">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Imperial Guard -
-								Baran Siege Masters</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Imperial Guard -
-								Catachan Death World</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=IG&amp;list=catachandeathworld">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Imperial Guard - Cadians</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=IG&amp;list=cadianshocktroops">
-								Codex</a> - Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Imperial Guard -
-								Death Korps of Krieg</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Imperial Guard - Steel Legion</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=IG&amp;list=steellegion">
-								Codex</a> - Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Imperial Inquisition - Adepta Sororitas</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=IQ&amp;list=adeptasororitas">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Orks - Snakebite Clan</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=O&amp;list=snakebiteclan">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Orks -
-								Gargant Big Mob</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Orks -
-								Warhorde</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Necron - 
-								Maynarkh Dynasty</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=NC&amp;list=maynarkhdynasty">Codex</a> - 
-								Quick Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Necron - 
-								Sautekh Dynasty</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=NC&amp;list=sautekhdynasty">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">Tau 
-								- Ke'lshan</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=TAU&amp;list=kelshan">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">Tau 
-								- 
-								Sa'Cae</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=TAU&amp;list=sacea">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">Tau 
-								- 
-								Vior'la</td>
-								<td style="width: 226px" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=TAU&amp;list=viorla">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px" class="auto-style3">
-								Tyranid - 
-								Hive Fleet Dagon</td>
-								<td style="width: 226px" class="auto-style3">
-								Codex - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px">WIP</td>
-							</tr>
-							<tr class="auto-style3">
-								<td style="width: 305px; height: 20px;" class="auto-style3">
-								Genesteeler Cult - Cult of the Four Armed 
-								Emperor</td>
-								<td style="width: 226px; height: 20px;" class="auto-style3">
-								<a href="https://magnusdurr.github.io/list-view/index.html?race=GS&amp;list=cultofthefourarmedemperor">Codex</a> - Quick 
-								Reference</td>
-								<td class="auto-style3" style="width: 72px; height: 20px;">
-								WIP</td>
-							</tr>
-						</table>
-
-
-                <div class="post-content">
-                    &nbsp;<div class="post-body">
-                        <p>
-						&nbsp;</p>
-						<p>&nbsp;</p>
-
-                    </div>
-
-                </div>
-            </article>
-
-            <!-- About the Author -->
-
-        <!-- Post Comments
-        ================================================== --> 
-            <!-- Close comments section-->
-
-        </div><!--Close container row-->
-
-        <!-- Blog Sidebar
-        ================================================== --> 
-
-    </div>
-    
-    </div> <!-- End Container -->
-
-
-    <!-- Footer Area
-        ================================================== -->
-	<div class="footer-container"><!-- Begin Footer -->
-    	<div class="container">
-
-            <div class="row"><!-- Begin Sub Footer -->
-                <div class="span12 footer-col footer-sub">
-                    <div class="row no-margin">
-                        <div class="span6"><span class="left">
-							Epic Apocalypse Tournament Pack<br>
-							This website is unofficial and in no way endorsed by 
-							Games Workshop Limited. </span></div>
-                        <div class="span6">
-                            <span class="right">
-                            <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<a href="liststatus.htm">Development 
-							Status</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span></div>
-                    </div>
-                </div>
-            </div><!-- End Sub Footer -->
-
-        </div>
-    </div><!-- End Footer -->
-
-    <!-- Scroll to Top -->  
-    <div id="toTop" class="hidden-phone hidden-tablet">Back to Top</div>
-    
+        else
+        {
+            console.info("TODO: index");
+            $.getJSON("lists/index.json", function (data) {
+                $("#content").html(listTemplate(data))
+            });
+        }
+    });
+</script>
 </body>
 </html>
