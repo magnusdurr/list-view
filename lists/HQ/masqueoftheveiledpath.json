@@ -65,6 +65,24 @@
       ]
     },
     {
+      "from": "HQ.json",
+      "units": [
+        "Harlequin Avatar",
+        "Shadowseer",
+        "Master Mime",
+        "Solitaire",
+        "Mime",
+        "Death Jesters",
+        "Harlequin Troupe",
+        "Harlequin Skyweavers",
+        "Harlequin Venoms",
+        "Voidweavers"
+      ],
+        "unitRules": [
+
+      ]
+    },
+    {
       "from": "eldarNavy.json",
       "units": [
         "Nightwing Interceptor",
@@ -79,7 +97,7 @@
 ],
 "sections": [
     {
-      "name": "Biel-Tan Special",
+      "name": "Veiled Path Special",
       "formations": [
         {
           "name": "0-1 Avatar",
@@ -96,47 +114,46 @@
       ]
     },
     {
-      "name": "Biel-Tan Hosts",
+      "name": "Lugganath Hosts",
+      "description": "One Aspect Warrior Warhost per Guardian Warhost",
       "formations": [
         {
-          "name": "Aspect Warrior Warhost",
-          "units": "Eight Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders ",
+          "name": "Guardian Warhost",
+          "units": "Five Guardians, five Lugganath Venoms",
           "upgrades": [
-            "Autarch, Exarchs, Transport"
+            "Farseer, Windriders"
           ],
-          "points": 300
+          "points": 225
         },
         {
-          "name": "Guardian Warhost",
-          "units": "One Warlock unit and seven Guardian units",
+          "name": "Aspect Warrior Warhost",
+          "units": "Any four of either Dire Avengers or Dark Reapers, two Wave Serpents",
           "upgrades": [
-            "Farseer, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
-            "OR",
-            "Farseer, Heavy Weapons, Transport"
+            "Exarch, Autarch, May exchange two Wave Serpents for four Falcons: 75 points"
           ],
-          "points": 150
+          "points": 250
         }
       ]
     },
     {
-      "name": "Biel-Tan Troupes",
-      "description": "Up to three for each Biel-Tan host taken",
+      "name": "Lugganath Troupes",
+      "description": "Up to two for each 'Lugganath Hosts' taken",
       "formations": [
         {
-          "name": "Engine of Vaul Troupe",
-          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
+          "name": "Wasp Walkers",
+          "units": "Four Corsair Wasp Walkers",
           "upgrades": [
-            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+
           ],
-          "points": 250
+          "points": 150
         },
         {
-          "name": "Falcon Troupe",
-          "units": "Five Falcons",
+          "name": "Ghost Walkers",
+          "units": "Four Corsair Ghost Walkers",
           "upgrades": [
-            "Firestorm"
+
           ],
-          "points": 250
+          "points": 150
         },
         {
           "name": "Fire Prism Troupe ",
@@ -146,69 +163,97 @@
           "points": 250
         },
         {
-          "name": "Night Spinner Troupe",
-          "units": "Three Night Spinners",
+          "name": "Warp Spiders Aspect Warriors",
+          "units": "Six Warp Spiders",
           "upgrades": [
+            "Exarch, Autarch"
           ],
-          "points": 175
+          "points": 250
         },
         {
-          "name": "Ranger Troupe",
-          "units": "Four Ranger units",
+          "name": "Heavy Wraithguard",
+          "units": "Three D-Scythe Wraithguard, three Wave Serpents",
           "upgrades": [
-            "0-4 Rangers 25 points each"
+            "Firestorm"
           ],
-          "points": 100
+          "points": 275
         },
         {
-          "name": "Void Spinner Troupe",
-          "units": "One Void Spinner",
+          "name": "Engine of Vaul",
+          "units": "Any one of the following units: Cobra, Storm Serpent",
           "upgrades": [
+            "Add up to any two of the following units for 200 points each: Cobra, Storm Serpent"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Harlequin Saedaths",
+      "description": "Up to one for each 'Lugganath Hosts' taken",
+      "formations": [
+        {
+          "name": "0-2 Serpent's Blood",
+          "units": "One Harlequin Avatar, four Harlequin Skyweavers, two Voidweavers",
+          "upgrades": [
+
           ],
           "points": 300
         },
         {
-          "name": "War Walker Troupe",
-          "units": "Four War Walkers",
+          "name": "0-1 Devourer's Thirst",
+          "units": "Four Corsair Ghost Walkers",
           "upgrades": [
+
           ],
-          "points": 125
+          "points": 300
         },
         {
-          "name": "Wind Rider Troupe ",
-          "units": "Six Jetbike units",
+          "name": "0-1 Cegorath's Revenge",
+          "units": "Three Fire Prisms",
           "upgrades": [
-            "Vypers"
           ],
-          "points": 200
+          "points": 400
+        },
+        {
+          "name": "0-1 Isha's Tears",
+          "units": "Six Warp Spiders",
+          "upgrades": [
+            "Exarch, Supreme Commander"
+          ],
+          "points": 450
+        },
+        {
+          "name": "0-1 Dance Without End",
+          "units": "Three D-Scythe Wraithguard, three Wave Serpents",
+          "upgrades": [
+            "Firestorm"
+          ],
+          "points": 550
         }
-
-
       ]
     },
     {
-      "name": "Biel-Tan Aircraft, Spacecraft and Titans",
+      "name": "Lugganath Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
           "name": "Nightwing Interceptors ",
           "units": "2 Nightwing Interceptors ",
           "upgrades": [
-            "Add 1 Nightwing Interceptor +75 Points"
           ],
           "points": 225
         },
         {
-          "name": "Phoenix Bombers",
-          "units": "Two Phoenix Bombers",
+          "name": "Hemlock Wraithfighters",
+          "units": "Two Hemlock Wraithfighters",
           "upgrades": [
-            "Add 1 Phoenix Bombers +75 Points"
           ],
-          "points": 250
+          "points": 225
         },
         {
-          "name": "Vampire",
-          "units": "One Vampire Raider",
+          "name": "Corsair Vampire Hunter",
+          "units": "One Corsair Vampire Hunter",
           "upgrades": [
 
           ],
@@ -223,22 +268,6 @@
           "points": 550
         },
         {
-          "name": "Phantom",
-          "units": "One Phantom Titan",
-          "upgrades": [
-
-          ],
-          "points": 750
-        },
-        {
-          "name": "0-1 Warlock",
-          "units": "One Warlock Titan",
-          "upgrades": [
-
-          ],
-          "points": 850
-        },
-        {
           "name": "0-1 Spacecraft",
           "units": "One Wraithship",
           "upgrades": [
@@ -250,17 +279,17 @@
     }
   ],
   "upgrades": {
-    "title": "Biel-Tan Upgrades",
+    "title": "Upgrades",
     "description": "Each upgrade may be taken once per Formation",
     "items": [
       {
         "name": "Autarch",
-        "description": "Replace one Eldar Exarch character with an Eldar Autarch character. (1 per army)",
-        "points": "25 points"
+        "description": "Add an Eldar Autarch character. (1 per army)",
+        "points": "75 points"
       },
       {
         "name": "Exarch",
-        "description": "Add 0-2 Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
         "points": "50 points each"
       },
       {
@@ -269,39 +298,14 @@
         "points": "Free"
       },
       {
-        "name": "Heavy Weapons",
-        "description": "Replace up to three Eldar Guardian units with Eldar Heavy Weapon Platform units",
-        "points": "Free"
-      },
-      {
-        "name": "Support Weapons",
-        "description": "Add three Eldar Support Weapon Platform units",
-        "points": "50 points"
-      },
-      {
         "name": "Farseer",
-        "description": "Replace a Warlock unit  with a Farseer Unit",
-        "points": "25 points"
+        "description": "Add one Farseer character to a Guardian unit",
+        "points": 25
       },
       {
-        "name": "Transport",
-        "description": "Add enough Wave Serpents to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
-        "points": "50 points each"
-      },
-      {
-        "name": "Vypers",
-        "description": "Replace any number of Eldar Jetbike units with Eldar Vypers",
-        "points": "Free"
-      },
-      {
-        "name": "Wraithguard",
-        "description": "Add three Eldar Wraithguard units",
-        "points": "125 points"
-      },
-      {
-        "name": "Wraithlord",
-        "description": "Add three Eldar Wraithlords",
-        "points": "175 points"
+        "name": "Windriders",
+        "description": "Add up to six Lugganath Jetbikes to the formation",
+        "points": "25 points each"
       }
     ]
   }
