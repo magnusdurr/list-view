@@ -4094,7 +4094,18 @@
           }
       ]
     },
-
+    {
+      "name": "Pulse Disintegrators",
+        "modes": [
+          {
+            "firepower": "2x AT5+",
+            "range": 30,
+            "specialRules": [
+              "Lance"
+          ]
+          }
+      ]
+    },
     {
       "name": "Pulse Rifles",
       "modes": [
@@ -5050,6 +5061,18 @@
             "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Storm Vortex Projector",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range":45,
+            "specialRules": [
+              "Lance"
+          ]
+          }
       ]
     },
     {
