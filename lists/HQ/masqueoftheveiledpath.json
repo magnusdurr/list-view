@@ -30,36 +30,22 @@
         "Avatar",
         "Eldar Exarch",
         "Eldar Farseer",
-        "Eldar Warlock",
         "Eldar Guardians",
-        "Eldar Heavy Weapons Platform",
-        "Support Weapons Platform",
-        "Eldar Rangers",
+        "Ghost Walkers",
         "Eldar Jetbikes",
         "Dire Avenger",
-        "Fire Dragon",
         "Dark Reapers",
-        "Howling Banshee",
-        "Striking Scorpion",
-        "Shinning Spear",
-        "Swooping Hawk",
         "Warp Spider",
-        "Wraithguard",
+        "Three D-Scythe Wraithguard",
         "Vyper",
-        "War Walkers",
+        "Wasp Walkers",
         "Wraithlord",
         "Wave Serpent",
-        "Falcon",
         "Fire Prism",
-        "Night Spinner",
         "Fire Storm",
-        "Scorpion",
         "Cobra",
         "Storm Serpent",
-        "Void Spinner",
-        "Revenant Titan",
-        "Phantom Titan",
-        "Warlock Titan"
+        "Revenant Titan"
       ],
         "unitRules": [
       ]
@@ -86,8 +72,8 @@
       "from": "eldarNavy.json",
       "units": [
         "Nightwing Interceptor",
-        "Phoenix Bomber",
-        "Vampire Raider",
+        "Hemlock Wraithfighters",
+        "Lugganath Vampire Hunter",
         "Wraithship",
         "Dragonship"
       ],
@@ -97,7 +83,7 @@
 ],
 "sections": [
     {
-      "name": "Veiled Path Special",
+      "name": "Lugganath Special",
       "formations": [
         {
           "name": "0-1 Avatar",
@@ -141,7 +127,7 @@
       "formations": [
         {
           "name": "Wasp Walkers",
-          "units": "Four Corsair Wasp Walkers",
+          "units": "Four Wasp Walkers",
           "upgrades": [
 
           ],
@@ -149,7 +135,7 @@
         },
         {
           "name": "Ghost Walkers",
-          "units": "Four Corsair Ghost Walkers",
+          "units": "Four Ghost Walkers",
           "upgrades": [
 
           ],
@@ -172,11 +158,13 @@
         },
         {
           "name": "Heavy Wraithguard",
-          "units": "Three D-Scythe Wraithguard, three Wave Serpents",
+          "units": "Three D-Scythe Wraithguard",
           "upgrades": [
-            "Firestorm"
+            "Add three Wave Serpents 75 Points",
+            "Firestorm",
+            "Add 2 Wraithlords + 125 points"
           ],
-          "points": 275
+          "points": 200
         },
         {
           "name": "Engine of Vaul",
@@ -202,7 +190,7 @@
         },
         {
           "name": "0-1 Devourer's Thirst",
-          "units": "Four Corsair Ghost Walkers",
+          "units": "One Master Mime, six Mimes",
           "upgrades": [
 
           ],
@@ -210,24 +198,22 @@
         },
         {
           "name": "0-1 Cegorath's Revenge",
-          "units": "Three Fire Prisms",
+          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters units, 6 Harlequin Venoms",
           "upgrades": [
           ],
           "points": 400
         },
         {
           "name": "0-1 Isha's Tears",
-          "units": "Six Warp Spiders",
+          "units": "One Harlequin Avatar,a one Shadowseer, four Death Jesters units, two Harlequin Troupes, 6 Harlequin Venoms",
           "upgrades": [
-            "Exarch, Supreme Commander"
           ],
           "points": 450
         },
         {
           "name": "0-1 Dance Without End",
-          "units": "Three D-Scythe Wraithguard, three Wave Serpents",
+          "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters units, two Mimes units, three Harlequin Troupes, 8 Harlequin Venoms",
           "upgrades": [
-            "Firestorm"
           ],
           "points": 550
         }

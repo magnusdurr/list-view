@@ -239,19 +239,7 @@
           }
       ]
     },
-    {
-      "name": "Aircraft Hunter Twin Pulsars",
-      "modes": [
-        {
-          "firepower": "MW2+",
-          "range": 30,
-          "specialRules": [
-            "FxF",
-            "MW"
-          ]
-        }
-      ]
-    },
+
     {
       "name": "Aircraft Ion Cannon",
         "modes": [
@@ -491,6 +479,20 @@
           }
       ]
     },
+
+    {
+          "name": "Aircraft Heavy D-Scythes",
+          "modes": [
+            {
+            "firepower": "MW3+",
+            "range": 15,
+            "specialRules": [
+              "TK(D3)",
+              "FxF"
+              ]
+          }
+      ]
+    },
     {
       "name": "AC Heavy Incendiary Bombs",
         "modes": [
@@ -574,6 +576,30 @@
       ]
     },
     {
+          "name": "Aircraft Twin Phoenix Missile Launcher",
+          "modes": [
+            {
+            "firepower": "3BP",
+            "range": 15,
+            "specialRules": [
+                "FxF"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Aircraft Twin Shuriken Cannons",
+      "modes": [
+        {
+          "firepower": "AP4+/AA5+",
+          "range": 15,
+          "specialRules": [
+            "FxF"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aircraft Twin Railcannons",
         "modes": [
           {
@@ -599,18 +625,7 @@
           }
       ]
     },
-    {
-      "name": "Aircraft Twin Shuriken Cannons",
-      "modes": [
-        {
-          "firepower": "AP4+/AA5+",
-          "range": 15,
-          "specialRules": [
-            "FxF"
-          ]
-        }
-      ]
-    },
+
     {
       "name": "Aircraft Twin Void Lances",
         "modes": [
@@ -657,6 +672,19 @@
               "MW"
           ]
           }
+      ]
+    },
+    {
+      "name": "Aircraft Vampire Hunter Twin Pulsar",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 30,
+          "specialRules": [
+            "FxF",
+            "MW"
+          ]
+        }
       ]
     },
     {
@@ -2423,6 +2451,41 @@
       ]
     },
     {
+          "name": "Harlequin's Caress",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "S"
+              ]
+          }
+      ]
+    },
+    {
+          "name": "Harlequin's Embrace",
+          "modes": [
+            {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "FS"
+              ]
+          }
+      ]
+    },
+    {
+          "name": "Harlequins Kiss",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+              ]
+          }
+      ]
+    },
+    {
       "name": "Harvesters",
         "modes": [
           {
@@ -3407,6 +3470,18 @@
       ]
     },
     {
+          "name": "Mime Concealed Blades",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "FS"
+              ]
+          }
+      ]
+    },
+    {
       "name": "Multi-melta",
       "modes": [
         {
@@ -3420,6 +3495,18 @@
             "MW"
           ]
         }
+      ]
+    },
+    {
+          "name": "Monomolecular Blade",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+2)",
+              "FS"
+              ]
+          }
       ]
     },
     {
@@ -3933,6 +4020,7 @@
         }
       ]
     },
+
     {
       "name": "Prism Cannon",
       "modes": [
@@ -3943,6 +4031,18 @@
             "Lance"
           ]
         }
+      ]
+    },
+    {
+          "name": "Prismatic Cannon",
+          "modes": [
+            {
+            "firepower": "AP5+/AT3+",
+            "range": 45,
+            "specialRules": [
+              "Lance"
+              ]
+          }
       ]
     },
     {
@@ -4514,6 +4614,27 @@
       ]
     },
     {
+      "name": "Shards of Light Miststave",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+2)",
+              "FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Shieldbreaker Missiles",
         "modes": [
           {
@@ -4544,6 +4665,19 @@
             "firepower": "Small Arms",
             "specialRules": [
           ]
+          }
+      ]
+    },
+    {
+          "name": "Shrieker Cannons",
+          "modes": [
+            {
+            "firepower": "2x AP4+",
+            "range": 30,
+            "specialRules": [
+              "IC",
+              "D"
+              ]
           }
       ]
     },
@@ -6006,7 +6140,31 @@
           ]
         }
       ]
+    },
+    {
+          "name": "Zepyrglaive",
+          "modes": [
+            {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "FS"
+              ]
+          }
+      ]
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

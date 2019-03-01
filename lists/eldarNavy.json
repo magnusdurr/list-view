@@ -38,6 +38,18 @@
       ]
     },
     {
+      "name": "Hemlock Wraithfighters",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 4,
+      "weapons": [
+        "Aircraft Heavy D-Scythes"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
       "name": "Vampire Raider",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -63,13 +75,30 @@
       "speed": "Bomber",
       "armour": 5,
       "weapons": [
-        "Aircraft Hunter Twin Pulsars",
+        "Aircraft Vampire Hunter Twin Pulsar",
         "Aircraft Twin Eldar Missile Launchers",
         "Aircraft Scatter Laser"
       ],
       "specialRules": [
         "Reinforced Armour",
         "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Lugganath Vampire Hunter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "Aircraft Vampire Hunter Twin Pulsar",
+        "Aircraft Twin Phoenix Missile Launcher",
+        "Aircraft Scatter Laser"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Transport: (May carry 4 Ghost Walkers or 4 Wasp Walkers)",
+        "Critical Hit: Vampire Hunter and all transported units are destroyed"
       ]
     },
     {
