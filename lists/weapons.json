@@ -1051,6 +1051,17 @@
       ]
     },
     {
+      "name": "Blade of Putrefaction",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Blade of Rot",
         "modes": [
           {
@@ -1215,6 +1226,17 @@
             "Lance"
           ]
         }
+      ]
+    },
+    {
+      "name": "Burning Chariot",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)"
+          ]
+          }
       ]
     },
     {
@@ -2409,6 +2431,17 @@
             "specialRules": [
               "EA(+2)",
               "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Harvester Cannon",
+        "modes": [
+          {
+            "firepower": "3x AP4+/AT6+/AA6+",
+            "range": 30,
+            "specialRules": [
           ]
           }
       ]
@@ -4436,6 +4469,18 @@
       ]
     },
     {
+      "name": "Seeker Chariot",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "FS"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Seeker Missiles",
         "modes": [
           {
@@ -4910,6 +4955,17 @@
             "range": 30,
             "specialRules": [
               "S"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Sword of Blood",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
           ]
           }
       ]
@@ -5682,6 +5738,22 @@
       ]
     },
     {
+      "name": "Violet Fire of Tzeench",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT5+",
+            "range": 30
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+2)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Void Spinner",
       "modes": [
         {
@@ -5811,6 +5883,18 @@
             "specialRules": [
                 "TK(D3)",
                 "IC"
+            ]
+          }
+      ]
+    },
+    {
+          "name": "Warpsword",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
             ]
           }
       ]

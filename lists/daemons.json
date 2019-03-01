@@ -4,6 +4,28 @@
     "specialRules": [
     ],
     "unit": [
+        {
+          "name": "Exalted Keeper of Secrets",
+          "type": "WE",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Slicing Shards",
+            "Lash of Torment"
+          ],
+          "specialRules": [
+              "Damage Capacity 4",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Augment Summoning (+2D3)"
+        ],
+          "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
+        },
       {
         "name": "Keeper of Secrets",
         "type": "WE",
@@ -24,6 +46,40 @@
             "Augment Summoning (+1D3)"
       ],
         "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+      },
+      {
+        "name": "Herald of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 3,
+        "cc": 2,
+        "weapons": [
+          "Barbed Claws"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+            ]
+      },
+      {
+        "name": "Mounted Herald of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 3,
+        "cc": 2,
+        "weapons": [
+          "Barbed Claws",
+          "Seeker Chariot"
+        ],
+        "specialRules": [
+            "Mounted",
+            "Walker",
+            "Infiltrators",
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+            ]
       },
       {
         "name": "Daemonettes of Slaanesh",
@@ -72,6 +128,28 @@
             ]
       },
       {
+        "name": "Exalted Great Unclean One",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Stream of Corruption",
+          "Filth Mace"
+        ],
+        "specialRules": [
+            "Damage Capacity 5",
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Inspiring",
+            "Daemonic Focus",
+            "Walker",
+            "Augment Summoning (+2D3)"
+        ],
+         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
+      },
+      {
         "name": "Great Unclean One",
         "type": "WE",
         "speed": 15,
@@ -91,6 +169,43 @@
             "Augment Summoning (+1D3)"
         ],
         "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+      },
+      {
+        "name": "Herald of Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Death's Heads",
+          "Blade of Putrefaction"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Mounted Herald of Nurgle",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Death's Heads",
+          "Blade of Putrefaction",
+          "Blight Fly"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Mounted",
+            "Jump Packs",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+        ]
       },
       {
         "name": "Plaguebearers of Nurgle",
@@ -142,6 +257,27 @@
         ]
       },
       {
+        "name": "Exalted Bloodthirster",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Axe of Khorne"
+        ],
+        "specialRules": [
+            "Damage Capacity 4",
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Inspiring",
+            "Daemonic Focus",
+            "Walker",
+            "Jump Pack",
+            "Augment Summoning (+2D3)"
+        ],
+         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
+      },
+      {
         "name": "Bloodthirster",
         "type": "WE",
         "speed": 30,
@@ -160,6 +296,40 @@
             "Augment Summoning (+1D3)"
         ],
         "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+      },
+      {
+        "name": "Herald of Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Sword of Blood"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Mounted Herald of Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Sword of Blood",
+          "Juggernaut"
+        ],
+        "specialRules": [
+            "Infiltrators",
+            "Mounted",
+            "Walker",
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+        ]
       },
       {
         "name": "Bloodletters of Khorne",
@@ -202,9 +372,33 @@
         "specialRules": [
             "Expendable",
             "Mounted",
+            "Walker",
             "Infiltrators",
             "Invulnerable Save"
         ]
+      },
+      {
+        "name": "Exalted Lord of Change",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Withering Gaze",
+          "Bedlam Staff"
+        ],
+        "specialRules": [
+            "Damage Capacity 4",
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Inspiring",
+            "Daemonic Focus",
+            "Walker",
+            "Jump Pack",
+            "Augment Summoning (+2D3)"
+        ],
+         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
       },
       {
         "name": "Lord of Change",
@@ -212,6 +406,7 @@
         "speed": 30,
         "armour": 4,
         "cc": 5,
+        "ff": 3,
         "weapons": [
           "Withering Gaze",
           "Bedlam Staff"
@@ -225,7 +420,42 @@
             "Jump Pack",
             "Augment Summoning (+1D3)"
         ],
-        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+."
+      },
+      {
+        "name": "Herald of Tzeench",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Violet Fire of Tzeench"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Mounted Herald of Tzeench",
+        "type": "INF",
+        "speed": 30,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Violet Fire of Tzeench",
+          "Burning Chariot"
+        ],
+        "specialRules": [
+            "Jump Packs",
+            "Mounted",
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save"
+        ]
       },
       {
         "name": "Horrors of Tzeench",
@@ -286,7 +516,24 @@
             "Infiltrators",
             "Invulnerable Save"
         ]
-      }
+    },
+    {
+      "name": "Soul Grinder",
+      "type": "AV",
+      "speed": 20,
+      "armour": 3,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Harvester Cannon",
+        "Warpsword"
+      ],
+      "specialRules": [
+          "Infiltrators",
+          "Walker",
+          "Invulnerable Save"
+      ]
+    }
     ]
   }
 ]

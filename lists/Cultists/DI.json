@@ -1,0 +1,233 @@
+{
+  "fraction": "Chaos Cultists",
+  "army": "Daemonic Incursion",
+  "version": "2.2",
+  "release": "2019-03-01",
+  "strategy": "Daemonic Incursion armies have a strategy rating of 0.",
+  "initiative": "All Daemon formations have an initiative of 1+. Mortal formations have an initiative of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "Daemonic Incursion Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Instability",
+      "Reign of Chaos",
+      "The Great Ritual",
+      "Terror From Beyond",
+      "Warp Rift",
+      "Chaos Gate",
+      "DI Eternal Animosity"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on a Daemonic Incursion, aided and abetted by mortal Chaos Cultist allies."
+  ],
+  "units": [
+          {
+          "from": "chaoscultists.json",
+          "units": [
+              "Demagogue",
+              "Cultists",
+              "Mutants",
+              "Chaos Altar",
+              "Chaos Spawn"
+          ],
+          "unitRules": [
+          ]
+      },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Herald of Slaanesh",
+        "Mounted Herald of Slaanesh",
+        "Daemonettes of Slaanesh",
+        "Fiends of Slaanesh",
+        "Seekers of Slaanesh",
+        "Herald of Nurgle",
+        "Mounted Herald of Nurgle",
+        "Plaguebearers of Nurgle",
+        "Beasts of Nurgle",
+        "Plague Drones of Nurgle",
+        "Herald of Khorne",
+        "Mounted Herald of Khorne",
+        "Bloodletters of Khorne",
+        "Fleshhounds of Khorne",
+        "Bloodcrushers of Khorne",
+        "Herald of Tzeench",
+        "Mounted Herald of Tzeench",
+        "Horrors of Tzeench",
+        "Flamers of Tzeench",
+        "Screamers of Tzeench",
+        "Exalted Keeper of Secrets",
+        "Keeper of Secrets",
+        "Exalted Great Unclean One",
+        "Great Unclean One",
+        "Exalted Bloodthirster",
+        "Bloodthirster",
+        "Exalted Lord of Change",
+        "Lord of Change",
+        "Daemonic Beasts of Chaos Undivided",
+        "Soul Grinder"
+      ],
+      "unitRules": [
+    ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "1+ Exalted Greater Daemons. Max one Exalted Greater Daemon for each part of 1000 points in the army.",
+      "formations": [
+        {
+          "name": "Exalted Greater Daemon of Slaanesh",
+          "units": "One Exalted Keeper of Secrets ",
+          "upgrades": [
+            "Soul Grinders"
+          ],
+          "points": 250
+      },
+          {
+            "name": "Exalted Greater Daemon of Nurgle",
+            "units": "One Exalted Great Unclean One",
+            "upgrades": [
+              "Soul Grinders"
+            ],
+            "points": 250
+        },
+        {
+          "name": "Exalted Greater Daemon of Khorne",
+          "units": "One Exalted Bloodthirster",
+          "upgrades": [
+            "Soul Grinders"
+          ],
+          "points": 250
+      },
+      {
+        "name": "Exalted Greater Daemon of Tzeench",
+        "units": "One Exalted Lord of Change",
+        "upgrades": [
+          "Soul Grinders"
+        ],
+        "points": 250
+      }
+      ]
+    },
+    {
+      "name": "Daemon Legions",
+     "description": "",
+      "formations": [
+          {
+            "name": "Daemon Legion of Slaanesh",
+            "units": "3 Herald of Slaanesh, 3 Lesser Daemon Pool points",
+            "upgrades": [
+                "Keeper of Secrets",
+                "Herald Mounts",
+                "Soul Grinder"
+            ],
+            "points": 175
+            },
+            {
+              "name": "Daemon Legion of Nurgle",
+              "units": "3 Herald of Nurgle, 3 Lesser Daemon Pool points",
+              "upgrades": [
+                  "Great Unclean One",
+                  "Herald Mounts",
+                  "Soul Grinder"
+              ],
+              "points": 175
+              },
+              {
+                "name": "Daemon Legion of Khorne",
+                "units": "3 Herald of Khorne, 3 Lesser Daemon Pool points",
+                "upgrades": [
+                    "Bloodthirster",
+                    "Herald Mounts",
+                    "Soul Grinder"
+                ],
+                "points": 175
+                },
+                {
+                  "name": "Daemon Legion of Tzeench",
+                  "units": "3 Herald of Tzeench, 3 Lesser Daemon Pool points",
+                  "upgrades": [
+                      "Lord of Change",
+                      "Herald Mounts",
+                      "Soul Grinder"
+                  ],
+                  "points": 175
+              }
+              ]
+            },
+            {
+      "name": "Mortals",
+      "description": "Up to a fourth of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Cultist Coven of Chaos Undivided",
+            "units": "One Demagogue, five Cultist and/or Mutants, 1 Chaos Altar",
+            "upgrades": [
+                "Chaos Spawn",
+                "Chaos Gate"
+            ],
+            "points": 225
+          }
+      ]
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+      }
+    ]
+}
+  ],
+  "upgrades": {
+    "title": "Daemonic Incursion Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Soul Grinders",
+        "description": "Add up to three Soul Grinders",
+        "points": "50 points each"
+      },
+      {
+        "name": "Keeper of Secrets",
+        "description": "Replace one Herald of Slaanesh with a Keeper of Secrets",
+        "points": "75 points"
+      },
+      {
+        "name": "Great Unclean One",
+        "description": "Replace one Herald of Nurgle with a Great Unclean One",
+        "points": "75 points"
+      },
+      {
+        "name": "Bloodthirster",
+        "description": "Replace one Herald of Khorne with a Bloodthirster",
+        "points": "75 points"
+      },
+      {
+        "name": "Lord of Change",
+        "description": "Replace one Herald of Tzeench with a Lord of Change",
+        "points": "75 points"
+      },
+      {
+        "name": "Herald Mounts",
+        "description": "Replace up to three Heralds with Mounted Heralds",
+        "points": "25 points per unit"
+      },
+      {
+        "name": "Chaos Spawn",
+        "description": "Replace up to five Cultists with Chaos Spawn",
+        "points": "35 points each"
+      },
+      {
+        "name": "Chaos Gate",
+        "description": "Add a Chaos Gate to a Chaos Altar",
+        "points": "75 points"
+      }
+    ]
+  }
+}
