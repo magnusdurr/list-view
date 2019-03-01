@@ -393,17 +393,7 @@
          "In the strategy phase of each turn if the Black Legion rolls a 6, they are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled 1D3 summoning points is lost from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect."
        ]
      },
-     {
-       "title": "Reign of Chaos",
-       "description": [
-         "During the Strategy Phase the Daemon Incursion player rolls 2d6 and picks the highest. In addition add the dice together and consult the following table:",
-         "(2-3) The Wind Recedes All players loses 1D3 Lesser Daemons Pool points. Daemon Incursion players loses an additional D3. If the pool is empty nothing happens.",
-         "(4-5) Chaotic Ebb No Daemons may use their Invulnerable Save for the rest of the turn.",
-         "(6-8) Eye of the Storm Nothing happens.",
-         "(9-10) Chaotic Surge All Daemons without Invulnerable Save gains it for the rest of the turn.",
-         "(11-12) Summoned From Beyond All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3."
-       ]
-     },
+
 
 
 
@@ -464,6 +454,18 @@
          "A Daemonic Incursion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Daemonic Incursion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
+        },
+
+        {
+          "title": "Reign of Chaos",
+          "description": [
+            "During the Strategy Phase the Daemon Incursion player rolls 2d6 and picks the highest. In addition add the dice together and consult the following table:",
+            "(2-3) *The Wind Recedes* All players loses 1D3 Lesser Daemons Pool points. Daemon Incursion players loses an additional D3. If the pool is empty nothing happens.",
+            "(4-5) *Chaotic Ebb* No Daemons may use their Invulnerable Save for the rest of the turn.",
+            "(6-8) *Eye of the Storm* Nothing happens.",
+            "(9-10) *Chaotic Surge* All Daemons without Invulnerable Save gains it for the rest of the turn.",
+            "(11-12) *Summoned From Beyond* All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3."
+          ]
         },
 
         {
