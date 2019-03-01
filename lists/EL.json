@@ -230,6 +230,22 @@
       ]
     },
     {
+      "name": "Ghost Walkers",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+       "Long Rifles",
+       "Shuriken Pistols"
+      ],
+      "specialRules": [
+        "Scouts",
+        "Jump Packs"
+      ]
+    },
+    {
       "name": "Eldar Jetbikes",
       "type": "INF",
       "speed": 35,
@@ -406,6 +422,21 @@
       ]
     },
     {
+      "name": "Heavy Wraithguard",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "D-Scythes"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Invulnerable Save"
+      ]
+    },
+    {
       "name": "Vyper",
       "type": "LV",
       "speed": 35,
@@ -417,6 +448,22 @@
       ],
       "specialRules": [
         "Skimmer"
+      ]
+    },
+    {
+      "name": "Lugganath Venom",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Splinter Cannon",
+        "Twin Splinter Rifles"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Transport may carry 2 infantry units without jump packs or mounted."
       ]
     },
     {
