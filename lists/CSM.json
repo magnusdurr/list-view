@@ -3,6 +3,12 @@
     "name": "Chaos Space Marine Forces",
 
     "specialRules": [
+        {
+          "title": "Stubborn",
+          "description": [
+            "Reduce the damage caused by blast markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+          ]
+        }
     ],
 
     "unit": [
@@ -259,6 +265,20 @@
           "Augment Summoning (+1D3)",
           "Daemonic Focus"
         ]
+      },
+      {
+        "name": "Alpha Legion Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Autocannon"
+      ],
+      "specialRules": [
+          "Stubborn"
+      ]
       },
       {
         "name": "Chaos Space Marines",
@@ -565,6 +585,22 @@
           "Combi-Bolter"
       ],
       "specialRules": [
+        "Transport"
+    ],
+      "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Alpha Legion Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Combi-Bolter"
+      ],
+      "specialRules": [
+          "Stubborn",
         "Transport"
     ],
       "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."

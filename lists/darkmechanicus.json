@@ -40,9 +40,60 @@
          "description": [
            "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
          ]
-       }
+     },
+     {
+       "title": "Stubborn",
+       "description": [
+         "Reduce the damage caused by blast markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+       ]
+     }
     ],
+
     "unit": [
+        {
+          "name": "Heretek",
+          "type": "CH",
+          "weapons": [
+            "Forbidden Technology"
+          ],
+          "specialRules": [
+            "Commander",
+            "Invulnerable Save"
+          ]
+        },
+        {
+          "name": "Chaos Squat Excavators",
+          "type": "INF",
+          "speed": 15,
+          "armour": 6,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Phospex Serpenta"
+          ],
+          "specialRules": [
+              "Stubborn"
+          ]
+        },
+        {
+          "name": "Hades Land Raider",
+          "type": "AV",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Twin Lascannon|2|",
+            "Phospex Blaster"
+          ],
+          "specialRules": [
+              "Stubborn",
+              "Reinforced Armour",
+              "Thick Rear Armour",
+              "Transport"
+          ],
+          "notes": "May transport one unit in Exoarmour or two infantry units without Jump Packs or Mounted."
+            },
         {
           "name": "Defiler",
           "type": "AV",
@@ -108,6 +159,26 @@
           ],
           "specialRules": [
             "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Knight-Renegade",
+          "type": "AV-K",
+          "speed": 25,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Rapid Fire Battle Cannon",
+            "Hyperwave Clarion",
+            "Renegade Chainsword"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
             "Invulnerable Save",
             "Daemon Engine (Chaos Undivided)"
           ]
@@ -334,6 +405,26 @@
           ]
         },
         {
+          "name": "Knight-Decayer",
+          "type": "AV-K",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Corruptor Gatling Cannon",
+            "Pus Launcher Pod",
+            "Renegade Chainsword"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
           "name": "Plague Tower",
           "type": "WE",
           "speed": 20,
@@ -391,6 +482,26 @@
           "specialRules": [
             "Fearless",
             "Reinforced Armour",
+            "Invulnerable Save",
+            "Daemon Engine (Khorne)"
+          ]
+        },
+        {
+          "name": "Knight-Mauler",
+          "type": "AV-K",
+          "speed": 30,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Twin Reaper Autocannon",
+            "Doomgauntlet",
+            "Renegade Chainsword"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
             "Invulnerable Save",
             "Daemon Engine (Khorne)"
           ]
@@ -465,7 +576,8 @@
                 "Fearless",
                 "Thick Rear Armour",
                 "Invulnerable Save (5+)",
-                "Daemon Engine (Khorne)"
+                "Daemon Engine (Khorne)",
+                "Daemonic Pact"
             ],
             "notes": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
         },
@@ -494,26 +606,7 @@
             "Daemon Engine (Tzeench)"
           ]
         },
-        {
-          "name": "Mirrorfiend",
-          "type": "WE",
-          "speed": 25,
-          "armour": 3,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-            "Pandæmonium",
-            "Battle Claws"
-          ],
-          "specialRules": [
-            "Damage Capacity 2",
-            "Fearless",
-            "Jump Pack",
-            "Invulnerable Save",
-            "Daemon Engine (Tzeench)"
-        ],
-            "notes": "The runes that bind the imprisoned daemon are broken, and the Mirrorfiend is destroyed. All models within 5cm take a hit."
-        },
+
         {
           "name": "Silver Tower",
           "type": "AV",
@@ -531,6 +624,46 @@
             "Invulnerable Save",
             "Daemon Engine (Tzeench)"
           ]
+      },
+      {
+        "name": "Knight-Mutator",
+        "type": "AV-K",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Rapid Fire Battle Cannon",
+          "Corruptor Gatling Cannon",
+          "Warp Blast Pod"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Invulnerable Save",
+          "Daemon Engine (Tzeench)"
+        ]
+      },
+      {
+        "name": "Mirrorfiend",
+        "type": "WE",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Pandæmonium",
+          "Battle Claws"
+        ],
+        "specialRules": [
+          "Damage Capacity 2",
+          "Fearless",
+          "Jump Pack",
+          "Invulnerable Save",
+          "Daemon Engine (Tzeench)"
+      ],
+          "notes": "The runes that bind the imprisoned daemon are broken, and the Mirrorfiend is destroyed. All models within 5cm take a hit."
       },
       {
         "name": "Warp Palace",

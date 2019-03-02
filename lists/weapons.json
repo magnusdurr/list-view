@@ -688,6 +688,18 @@
       ]
     },
     {
+      "name": "AA Flame Cannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT5+/AA5+",
+          "range": 45,
+          "specialRules": [
+            "IC"
+        ]
+        }
+    ]
+          },
+    {
       "name": "Acastus Conversion Beamer",
         "modes": [
           {
@@ -989,14 +1001,61 @@
       ]
     },
     {
-      "name": "Beam of Unreality",
+      "name": "Beam Blaster",
       "modes": [
         {
-          "firepower": "D3x AP3+",
-          "range": 30,
+          "firepower": "5x AP5+/AT3+",
+          "range": 60,
           "specialRules": [
-            "D"
-          ]
+                    ]
+        }
+      ]
+    },
+    {
+      "name": "Beam of Change",
+      "modes": [
+        {
+          "firepower": "2x MW3+",
+          "range": 90,
+          "specialRules": [
+              "TK(1)"
+                    ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Beam of Change",
+      "modes": [
+        {
+          "firepower": "2x MW2+",
+          "range": 90,
+          "specialRules": [
+              "TK(1)"
+                    ]
+        }
+      ]
+    },
+    {
+      "name": "Beam of Ecstasy",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 75,
+          "specialRules": [
+              "TK(D3+1)"
+                    ]
+        }
+      ]
+    },
+    {
+      "name": "Beam of Mutation",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 90,
+          "specialRules": [
+              "TK(1)"
+                    ]
         }
       ]
     },
@@ -1007,6 +1066,30 @@
           "firepower": "MW5+",
           "range": 60,
           "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beam of Rapture",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 90,
+          "specialRules": [
+              "TK(D6)"
+                    ]
+        }
+      ]
+    },
+    {
+      "name": "Beam of Unreality",
+      "modes": [
+        {
+          "firepower": "D3x AP3+",
+          "range": 30,
+          "specialRules": [
+            "D"
           ]
         }
       ]
@@ -1444,6 +1527,40 @@
       ]
     },
     {
+      "name": "Corruption Cannon",
+        "modes": [
+          {
+            "firepower": "3x MW4+",
+            "range": 60,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corruptor Gatling Cannon",
+        "modes": [
+          {
+            "firepower": "6x AP6+/AT6+",
+            "range": 45,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coruscant Hail",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 60,
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Court of the Young King",
       "modes": [
         {
@@ -1451,6 +1568,17 @@
           "specialRules": [
             "EA(+1)",
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyclone Cannon",
+      "modes": [
+        {
+          "firepower": "5x AP4+/AT4+",
+            "range": 75,
+          "specialRules": [
           ]
         }
       ]
@@ -1687,6 +1815,17 @@
       ]
     },
     {
+      "name": "Devourer Cannon",
+      "modes": [
+        {
+          "firepower": "4x MW4+",
+          "range": 75,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Demolisher",
       "modes": [
         {
@@ -1826,6 +1965,59 @@
                 "TK(D3)",
                 "IC"
           ]
+          }
+      ]
+    },
+    {
+      "name": "Doomclaw",
+          "modes": [
+            {
+              "firepower": "3x AP4+/AT4+",
+              "range": 30
+            },
+            {
+              "firepower": "Assault Weapons",
+              "join": "or",
+              "specialRules": [
+                "EA(+1)",
+                "TK(D3+1)"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Doomfist",
+          "modes": [
+            {
+              "firepower": "4x AP4+/AT4+",
+              "range": 30
+            },
+            {
+              "firepower": "Assault Weapons",
+              "join": "or",
+              "specialRules": [
+                "EA(+2)",
+                "TK(D3+1)"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Doomgauntlet",
+          "modes": [
+            {
+              "firepower": "Small Arms",
+              "specialRules": [
+                "EA(+1)"
+            ]
+            },
+            {
+              "firepower": "Assault Weapons",
+              "join": "or",
+              "specialRules": [
+                "EA(+2)",
+                "TK(1)"
+            ]
           }
       ]
     },
@@ -2218,6 +2410,18 @@
       ]
     },
     {
+      "name": "Forbidden Technology",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+D3)",
+            "FS"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Fusion Eradicators",
         "modes": [
           {
@@ -2535,6 +2739,19 @@
       ]
     },
     {
+      "name": "Havoc Warp Missile",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 90,
+            "specialRules": [
+              "SS",
+              "Shield Piercer"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Heat Ray",
         "modes": [
           {
@@ -2605,7 +2822,7 @@
       "name": "Heavy Cannon",
         "modes": [
           {
-            "firepower": "AP5+/AT5+",
+            "firepower": "AP4+/AT4+",
             "range": 45,
             "specialRules": [
           ]
@@ -2684,6 +2901,19 @@
             "range": 75,
             "specialRules": [
               "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Plague Mortar",
+        "modes": [
+          {
+            "firepower": "6BP",
+            "range": 60,
+            "specialRules": [
+              "D",
+              "IC"
           ]
         }
       ]
@@ -2843,6 +3073,18 @@
       ]
     },
     {
+      "name": "Hellstorm Cannon",
+        "modes": [
+          {
+            "firepower": "10BP",
+            "range": 75,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Hellstrike Cannon",
         "modes": [
           {
@@ -2864,6 +3106,18 @@
             "range": 120,
             "specialRules": [
               "SS"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Hex Cannon",
+        "modes": [
+          {
+            "firepower": "4x AP4+/AT4+",
+            "range": 75,
+            "specialRules": [
 
           ]
           }
@@ -2960,6 +3214,19 @@
           "firepower": "AT6+/AA5+",
           "range": 45
         }
+      ]
+    },
+    {
+      "name": "Hyperwave Clarion",
+      "modes": [
+        {
+          "firepower": "3x AP5+/AT6+/AA6+",
+          "range": 30,
+          "specialRules": [
+            "D"
+          ]
+        }
+
       ]
     },
     {
@@ -3269,13 +3536,30 @@
         }
       ]
     },
-    {
+        {
       "name": "Long Rifles",
       "modes": [
         {
           "firepower": "AP5+",
           "specialRules": [
             "S"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lust Lash",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+",
+          "range": 75
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+              "EA(+1)",
+              "FS"
           ]
         }
       ]
@@ -3350,6 +3634,18 @@
       ]
     },
     {
+      "name": "Manglers",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+2)",
+                "TK(D3+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Manifested Body Weapons",
         "modes": [
           {
@@ -3372,6 +3668,7 @@
         }
       ]
     },
+
     {
       "name": "Maw Cannon",
         "modes": [
@@ -3507,6 +3804,18 @@
             "MW"
           ]
         }
+      ]
+    },
+    {
+          "name": "Musk Flail",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "TK(D3+1)"
+              ]
+          }
       ]
     },
     {
@@ -3846,11 +4155,35 @@
       ]
     },
     {
+      "name": "Plasma Annihilator",
+        "modes": [
+          {
+            "firepower": "6x MW3+",
+            "range": 100,
+            "specialRules": [
+                "Slw"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Plasma Blastgun",
       "modes": [
         {
-          "firepower": "MW2+",
+          "firepower": "2x MW2+",
           "range": 45,
+          "specialRules": [
+            "Slw"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plasma Cremator",
+      "modes": [
+        {
+          "firepower": "3x MW2+",
+          "range": 60,
           "specialRules": [
             "Slw"
           ]
@@ -3867,18 +4200,6 @@
       ]
     },
     {
-      "name": "Plasma Decimator",
-        "modes": [
-          {
-            "firepower": "2x MW3+",
-            "range": 30,
-            "specialRules": [
-              "Slw"
-          ]
-          }
-      ]
-    },
-    {
       "name": "Plasma Cannons",
         "modes": [
           {
@@ -3891,6 +4212,19 @@
       ]
     },
     {
+      "name": "Plasma Decimator",
+        "modes": [
+          {
+            "firepower": "2x MW3+",
+            "range": 30,
+            "specialRules": [
+              "Slw"
+          ]
+          }
+      ]
+    },
+
+    {
       "name": "Plasma Flamer",
         "modes": [
           {
@@ -3900,6 +4234,18 @@
               "TK(1)",
               "IC"
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Plasma Furnace",
+        "modes": [
+          {
+            "firepower": "2x MW3+",
+            "range": 45,
+            "specialRules": [
+                "Slw"
           ]
           }
       ]
@@ -3929,6 +4275,18 @@
       ]
     },
     {
+      "name": "Plasma Incinerator",
+        "modes": [
+          {
+            "firepower": "4x MW3+",
+            "range": 75,
+            "specialRules": [
+                "Slw"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Plasma Pistols",
         "modes": [
           {
@@ -3946,6 +4304,30 @@
             "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Phospex Blaster",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT5+",
+            "range": 30,
+            "specialRules": [
+                "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Phospex Serpenta",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 15,
+            "specialRules": [
+                "D"
+          ]
+          }
       ]
     },
     {
@@ -4066,6 +4448,18 @@
           "specialRules": [
             "D",
             "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pus Launcher Pod",
+      "modes": [
+        {
+          "firepower": "1BP",
+          "range": 60,
+          "specialRules": [
+            "D"
           ]
         }
       ]
@@ -4419,6 +4813,18 @@
       ]
     },
     {
+      "name": "Renegade Chainsword",
+      "modes": [
+        {
+          "firepower": "Assault Weapon",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Revenant Pulsar",
       "modes": [
         {
@@ -4492,6 +4898,19 @@
           {
             "firepower": "4x AP3+/AT5+",
             "range": 60,
+            "specialRules": [
+              "D"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Rot Storm",
+        "modes": [
+          {
+            "firepower": "5x AP3+/AT5+",
+            "range": 75,
             "specialRules": [
               "D"
 
@@ -4884,6 +5303,42 @@
       ]
     },
     {
+      "name": "Sonic Desolator",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT4+",
+            "range": 60,
+            "specialRules": [
+                "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sonic Devastator",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT4+",
+            "range": 45,
+            "specialRules": [
+                "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paired Sonic Devastators",
+        "modes": [
+          {
+            "firepower": "8x AP3+/AT4+",
+            "range": 45,
+            "specialRules": [
+                "D"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Splinter Cannon",
         "modes": [
           {
@@ -5140,6 +5595,19 @@
       ]
     },
     {
+      "name": "Ursus Claw",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "TK(D2)",
+              "Shield Piercer"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Talos Blades",
         "modes": [
           {
@@ -5219,6 +5687,53 @@
             "firepower": "Assault Weapons",
             "specialRules": [
               "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Temple of Putrefaction",
+        "modes": [
+          {
+            "firepower": "AA4+",
+            "range": 60,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Temple of Rage",
+        "modes": [
+          {
+            "firepower": "AT2+/AA4+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Temple of Temptation",
+        "modes": [
+          {
+            "firepower": "AP3+/AA5+",
+            "range": 45,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Temple of Transformation",
+        "modes": [
+          {
+            "firepower": "3x AP6+/AT6+",
+            "range": 45,
+            "specialRules": [
+              "D"
           ]
           }
       ]
@@ -5484,6 +5999,15 @@
             "S"
           ]
           }
+      ]
+    },
+    {
+      "name": "Turbo Blaster",
+      "modes": [
+        {
+          "firepower": "4x AP5+/AT3+",
+          "range": 60
+        }
       ]
     },
     {
@@ -5876,6 +6400,18 @@
       ]
     },
     {
+      "name": "Tzeench Cannon",
+      "modes": [
+        {
+          "firepower": "3x AP3+/AT3+",
+          "range": 90,
+          "specialRules": [
+              "IC"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Velocity Tracker",
         "modes": [
           {
@@ -6032,6 +6568,18 @@
       ]
     },
     {
+          "name": "Warp Blast Pod",
+          "modes": [
+            {
+            "firepower": "1BP",
+            "range": 60,
+            "specialRules": [
+                "IC"
+            ]
+          }
+      ]
+    },
+    {
           "name": "Warp Bolt",
           "modes": [
             {
@@ -6056,6 +6604,7 @@
           }
       ]
     },
+
     {
           "name": "Warpsword",
           "modes": [
@@ -6346,6 +6895,10 @@
     },
     {
       "name": "TK(D6)",
+      "description": "Titan Killer"
+    },
+    {
+      "name": "TK(D6+2)",
       "description": "Titan Killer"
     },
     {
