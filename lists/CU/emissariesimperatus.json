@@ -1,7 +1,7 @@
 {
   "fraction": "Adeptus Custodes",
   "army": "Emissaries Imperatus",
-  "version": "1.0",
+  "version": "1.1",
   "release": "2019-03-03",
   "strategy": "Adeptus Custodes armies have a strategy rating of 5.",
   "initiative": "All formations have an initiative rating of 1+.",
@@ -53,10 +53,9 @@
       "formations": [
         {
           "name": "Custodes Guardian Squad",
-          "units": "Two Sagittarum plus either Two Guardian OR Two Sentinel Guard and 2 Venerable Land Raiders",
+          "units": "Two Sagittarum plus either Two Guardian OR Two Sentinel Guard and 2 Venerable Land Raiders or 2 Coronus",
           "upgrades": [
-            "Commander",
-            "Transport"
+            "Commander"
           ],
           "points": 375
         }
@@ -71,6 +70,7 @@
           "units": "5 Wardens",
           "upgrades": [
             "Commander",
+            "Dreadnaught",
             "Transport"
           ],
           "points": 325
@@ -79,6 +79,7 @@
           "name": "Dreadnaught Wing",
           "units": "3 of the following in any combination: Contemptor Dreadnought Achilles or Telemon Heavy Dreadnoughts",
           "upgrades": [
+            "Dreadnaught"
           ],
           "points": 300
         },
@@ -87,6 +88,7 @@
           "units": "Four Aquilon Terminators",
           "upgrades": [
             "Commander",
+            "Dreadnaught",
             "Transport"
           ],
           "points": 375
@@ -200,11 +202,11 @@
         "options": [
           {
             "description": "Venerable Land Raiders",
-            "points": "65 points each"
+            "points": "50 points each"
           },
           {
             "description": "Coronus",
-            "points": "65 points each"
+            "points": "50 points each"
           }
         ]
       }
