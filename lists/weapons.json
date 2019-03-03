@@ -2056,7 +2056,7 @@
             },
             {
               "firepower": "Assault Weapons",
-              "join": "or",
+              "join": "and",
               "specialRules": [
                 "EA(+1)",
                 "TK(D3+1)"
@@ -2073,7 +2073,7 @@
             },
             {
               "firepower": "Assault Weapons",
-              "join": "or",
+              "join": "and",
               "specialRules": [
                 "EA(+1)",
                 "TK(D3+3)"
@@ -2092,7 +2092,7 @@
             },
             {
               "firepower": "Assault Weapons",
-              "join": "or",
+              "join": "and",
               "specialRules": [
                 "EA(+2)",
                 "TK(1)"
@@ -3085,7 +3085,7 @@
             },
             {
               "firepower": "Small Arms",
-              "join": "or",
+              "join": "and",
               "specialRules": [
                 "IC"
             ]
