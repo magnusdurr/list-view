@@ -64,6 +64,15 @@
           }
         ]
       },
+      {
+        "name": "AC Arachnus Heavy Blaze Cannon",
+          "modes": [
+            {
+              "firepower": "MW4+",
+              "range": 30
+            }
+        ]
+      },
     {
       "name": "Aircraft Avenger Bolt Cannon",
         "modes": [
@@ -552,6 +561,15 @@
       ]
     },
     {
+      "name": "AC Spiculus Heavy Bolt Launcher",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+/AA5+",
+            "range": 30
+          }
+      ]
+    },
+    {
       "name": "Aircraft Twin Lascannon",
         "modes": [
           {
@@ -561,6 +579,17 @@
               "FxF"
           ]
           }
+      ]
+    },
+    {
+          "name": "AC Twin-linked Lastrum Bolt Cannon",
+          "modes": [
+            {
+            "firepower": "2x AP4+/AT6+/AA5+",
+            "specialRules": [
+
+          ]
+        }
       ]
     },
     {
@@ -711,7 +740,23 @@
           }
       ]
     },
-        {
+    {
+      "name": "Adrastus Bolt Caliver",
+        "modes": [
+          {
+            "firepower": "2x AP5+",
+            "range": 30
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Æther Blade",
         "modes": [
           {
@@ -789,6 +834,18 @@
       ]
     },
     {
+          "name": "Achilles Power Lance",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Ardent Blade",
         "modes": [
           {
@@ -804,6 +861,16 @@
             "specialRules": [
               "EA(+1)",
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+          "name": "Archeotech Kinetic Destroyer",
+          "modes": [
+            {
+            "firepower": "Small Arms",
+            "specialRules": [
           ]
         }
       ]
@@ -2589,6 +2656,7 @@
           }
       ]
     },
+
     {
       "name": "Gauss Flayers Array",
         "modes": [
@@ -2726,6 +2794,17 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+          "name": "Guardian Spear",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
           ]
         }
       ]
@@ -3648,6 +3727,40 @@
           "firepower": "Small Arms",
           "join": "and",
           "specialRules": ["EA(+1)"]
+        }
+      ]
+    },
+    {
+          "name": "Lastrum Bolt Cannon",
+          "modes": [
+            {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
+          "name": "Lastrum Storm Bolter",
+          "modes": [
+            {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+          "name": "Lastrum Storm Bolters",
+          "modes": [
+            {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)"
+          ]
         }
       ]
     },
@@ -5281,6 +5394,16 @@
       ]
     },
     {
+          "name": "Sentinel War Blade",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Servo Arm",
       "modes": [
         {
@@ -5582,6 +5705,15 @@
                 "D"
           ]
         }
+      ]
+    },
+    {
+      "name": "Spiculus Bolt Launcher",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AA6+",
+            "range": 45
+          }
       ]
     },
     {
@@ -5915,6 +6047,25 @@
               "TK(1)"
           ]
           }
+      ]
+    },
+    {
+      "name": "Telemon Caestus",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "IC"
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
       ]
     },
     {
@@ -6486,6 +6637,46 @@
       ]
     },
     {
+      "name": "Twin-linked Arachnus Blaze Cannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 45
+          }
+      ]
+    },
+    {
+      "name": "Twin-linked Arachnus Heavy Blaze Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 75
+          }
+      ]
+    },
+    {
+      "name": "Twin-linked Iliastus Accelator Cannon",
+        "modes": [
+          {
+            "firepower": "2x AP4+/AT5+",
+            "range": 60
+          }
+      ]
+    },
+    {
+          "name": "Twin-linked Lastrum Bolt Cannon",
+
+            "modes": [
+            {
+            "firepower": "AP4+/AT5+",
+            "range": 30,
+            "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
       "name": "Twin Manta Burst Cannons",
       "modes": [
         {
@@ -6678,6 +6869,17 @@
       ]
     },
     {
+      "name": "Vanquisher Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT2+",
+            "range": 75,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Velocity Tracker",
         "modes": [
           {
@@ -6689,14 +6891,14 @@
       ]
     },
     {
-      "name": "Vanquisher Cannon",
-        "modes": [
-          {
-            "firepower": "AP4+/AT2+",
-            "range": 75,
+          "name": "Venatari Lance",
+          "modes": [
+            {
+            "firepower": "Assault Weapons",
             "specialRules": [
+              "EA(+1)"
           ]
-          }
+        }
       ]
     },
     {
@@ -7041,10 +7243,6 @@
           }
       ]
     }
-
-
-
-
 
 
 

@@ -19,6 +19,16 @@
       ]
     },
     {
+      "name": "Adeptus Custodes",
+      "abbreviation": "CU",
+      "lists": [
+        {
+          "name": "Emissaries Imperatus",
+          "file": "emissariesimperatus"
+        }
+      ]
+    },
+    {
       "name": "Adeptus Mechanicus",
       "abbreviation": "AM",
       "lists": [
@@ -29,11 +39,7 @@
       {
         "name": "Questoris Mechanicus",
         "file": "questorismechanicus"
-    },
-        {
-          "name": "Titan Legions",
-          "file": "AMTL"
-      }
+    }
       ]
     },
     {
@@ -49,7 +55,7 @@
           "file": "cadianshocktroops"
         },
         {
-          "name": "Armageddon Steel Legion",
+          "name": "Steel Legion",
           "file": "steellegion"
         }
       ]
