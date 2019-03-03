@@ -32,6 +32,10 @@
       "name": "Adeptus Mechanicus",
       "abbreviation": "AM",
       "lists": [
+          {
+            "name": "Skitarii",
+            "file": "skitarii"
+        },
         {
           "name": "Explorator Fleet",
           "file": "exploratorFleet"
@@ -40,10 +44,10 @@
         "name": "Questoris Mechanicus",
         "file": "questorismechanicus"
     },
-    {
-      "name": "Titan Legion",
-      "file": "AMTL"
-  }
+        {
+          "name": "Titan Legion",
+          "file": "amtl"
+      }
       ]
     },
     {
