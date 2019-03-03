@@ -2,7 +2,15 @@
   {
     "name": "Adeptus Mechanicus Forces",
     "specialRules": [
-
+        {
+          "title": "Automaton",
+          "description": [
+            "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
+            "A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast marker however.",
+            "If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker then it may attempt to save normally.",
+            "Automaton units killed in an assault count for the purposes of working out its result."
+          ]
+        }
     ],
     "unit": [
       {
@@ -68,6 +76,7 @@
           "specialRules": [
           ]
       },
+
       {
           "name": "Kataphron Breacher",
           "type": "INF",
@@ -172,6 +181,20 @@
           ]
       },
       {
+          "name": "Battle Servitors",
+          "type": "INF",
+          "speed": 15,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Body Weapons"
+          ],
+          "specialRules": [
+            "Automaton",
+            "Invulnerable Save"
+          ]
+      },
+      {
           "name": "Kastelan Robots",
           "type": "LV",
           "speed": 15,
@@ -266,10 +289,72 @@
             "Volkite Charges"
           ],
           "specialRules": [
-            " Tunneler",
+            "Tunneler",
             "Transport: May transport two infantry units without Jump Packs or Mounted"
           ]
-      }
+      },
+      {
+          "name": "Ordinatus Minoris",
+          "type": "WE",
+          "speed": 20,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Turbo-Laser Destructor|0-1|FxF",
+            "Apocalypse Missile Launcher|0-1|FxF",
+            "Triple-Twin Hydra Autocannon|0-1|",
+            "Battle Titan Plasma Cannon|0-1|FxF",
+            "Heavy Bolter|2|"
+          ],
+          "specialRules": [
+            "Damage Capacity 2",
+            "Void Shields 2",
+            "Reinforced Armour",
+            "Fearless",
+            "Must be armed with either Turbo-Laser Destructor, Apocalypse Missile Launcher, Triple-Twin Hydra Autocannon or Battle Titan Plasma Cannon"
+          ]
+      },
+      {
+        "name": "Gorgon",
+        "type": "WE",
+        "speed": "20cm",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Gorgon Mortars",
+          "Twin Heavy Stubbers"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Transport (May carry 10 infantry units without jump pack or mounted)"
+        ],
+        "notes": "Critical Hit Effect: The Gorgon is immobilized, and D3 transported units takes a hit. Subsequent critical hits destroys the Gorgon."
+    },
+    {
+      "name": "Avenger Strike Fighters",
+      "type": "AC",
+      "speed": "Fighter Bomber",
+      "armour": 5,
+      "weapons": [
+        "Aircraft Avenger Bolt Cannon",
+        "Aircraft Twin Lascannon",
+        "Aircraft Heavy Stubber"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Ark Mechanicus Battleship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 6BP|0-1 1|",
+        "Pin Point|0-1 2|"
+      ]
+    }
 
     ]
   }

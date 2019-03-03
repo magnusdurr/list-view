@@ -9,58 +9,281 @@
           "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
           "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast markers or repair 1 shield and remove 1 Blast marker)."
         ]
-      }
+    },
+    {
+      "title": "God Machine",
+      "description": [
+        "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
+        "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
+        "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+        "Units with the God Machine special rule are themselves immune to this effect."
+      ]
+  },
+      {
+        "title": "Split Fire",
+        "description": [
+          "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon, and gets no +1 to-hit modifier from performing a Sustain Fire."
+        ]
+    },
+    {
+      "title": "Independent",
+      "description": ["Allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Warhound is destroyed, the other one in the pack receives a blastmarker"
+      ]
+    }
     ],
     "unit": [
-      {
-        "name": "Reaver",
+        {
+          "name": "Legate",
+          "type": "CH",
+          "weapons": ["n/a"],
+          "specialRules": [
+              "Supreme Commander"
+          ]
+        },
+        {
+          "name": "Veteran Princeps",
+          "type": "CH",
+          "weapons": ["n/a"],
+          "specialRules": [
+              "Commander",
+              "Leader"
+          ]
+        },
+        {
+          "name": "Imperator Titan",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": ["Hellstorm Cannon||FwA", "Plasma Annihilator||FwA", "Quake Cannon||FxF", "Defense Laser||", "Battle Cannon|4|"],
+          "specialRules": [
+            "Damage Capacity 10",
+            "Void Shields 8",
+            "God Machine",
+            "Split Fire",
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
+            "Transport: May transport up to six infantry units without Jump Packs or Mounted"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        },
+        {
+          "name": "Warmonger Titan",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": ["Venegance Cannon||FwA", "Doomstrike Missile|8|FwA", "Quad Hydra Autocannon|4|", "Head Gun||FxF"],
+          "specialRules": [
+            "Damage Capacity 10",
+            "Void Shields 8",
+            "God Machine",
+            "Split Fire",
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
+            "Transport: May transport up to six infantry units without Jump Packs or Mounted"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        },
+        {
+          "name": "Warlord Titan",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 3,
+          "weapons": ["Macro-Gatling Blaster||FwA", "Belicosa Vulcano Cannon||FwA", "Paired Turbo-Laser Destructor|0-1|FxF", "Paired Apocalypse Missile Launcher|0-1|FxF", "Paired Macro-Gatling Blaster|0-1|FxF"],
+          "specialRules": [
+            "Damage Capacity 8",
+            "Void Shields 6",
+            "God Machine",
+            "Split Fire",
+            "Fearless",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Walker",
+            "Must be armed with either Paired Turbo-Laser Destructors, Paired Apocalypse Missile Launchers or Paired Macro-Gatling Blasters"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        },
+        {
+          "name": "Warlord Titan, Siegemaker Configuration",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 3,
+          "weapons": ["Quake Cannon|2|FwA", "Barrage Missile|0-2|FxF", "Vortex Missile|0-2|FxF", "Paired Apocalypse Missile Launcher|0-1|FxF"],
+          "specialRules": [
+            "Damage Capacity 8",
+            "Void Shields 6",
+            "God Machine",
+            "Split Fire",
+            "Fearless",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Walker",
+            "Must be armed with either two Barrage Missiles, two Vortex Missiles or Paired Apocalypse Missile Launcer"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        },
+        {
+          "name": "Warlord Titan, Deathbringer Configuration",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 3,
+          "weapons": ["Macro-Gatling Blaster|0-2|FwA", "Laser Blaster|0-2|FwA", "Paired Laser Blasters||FxF"],
+          "specialRules": [
+            "Damage Capacity 8",
+            "Void Shields 6",
+            "God Machine",
+            "Split Fire",
+            "Fearless",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Walker",
+            "Must be armed with either two Laser Blasters or two Macro-Gatling Blasters"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        },
+        {
+          "name": "Warlord Titan, Stormseeker Configuration",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 3,
+          "weapons": ["Titan Power Fist|0-1|", "Laser Burner|0-1|", "Macro-Gatling Blaster||FwA", "Paired Melta Cannons||FxF"],
+          "specialRules": [
+            "Damage Capacity 8",
+            "Void Shields 6",
+            "God Machine",
+            "Split Fire",
+            "Fearless",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Walker",
+            "Must be armed with either Titan Power Fist or Laser Burner"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        },
+        {
+          "name": "Warlord Titan, Nemesis Configuration",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 3,
+          "weapons": ["Belicosa Vulcano Cannon|0-2|FwA", "Plasma Destructor|0-2|FwA", "Paired Battle Titan Plasma Cannons||FxF"],
+          "specialRules": [
+            "Damage Capacity 8",
+            "Void Shields 6",
+            "God Machine",
+            "Split Fire",
+            "Fearless",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Walker",
+            "Must be armed with either two Belicosa Vulcano Cannons or two Plasma Destructors"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        },
+              {
+        "name": "Reaver Titan",
         "type": "WE",
         "speed": 20,
         "armour": 4,
         "cc": 4,
         "ff": 3,
-        "weapons": ["Turbo-Laser Destructor|2|FwA", "Apocalypse Missile Launcher||FxF"],
+        "weapons": ["Turbo-Laser Destructor|0-2|FwA", "Gatling Blaster|0-2|FwA", "Apocalypse Missile Launcher||FxF"],
         "specialRules": [
           "Damage Capacity 6",
+          "Void Shields 4",
           "Fearless",
           "Reinforced Armour",
-          "4 Void Shields",
-          "Walker"
+          "Walker",
+          "Must be armed with either two Turbo-Laser Destructors or two Gatling Blasters"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
       },
       {
-        "name": "Reaver, Close Assault Configuration",
+        "name": "Reaver Titan, Close Assault Configuration",
         "type": "WE",
         "speed": 20,
         "armour": 4,
         "cc": 4,
         "ff": 3,
-        "weapons": ["Titan Power Fist", "Melta Cannon||FwA"],
+        "weapons": ["Melta Cannon||FxF", "Corvus Assault Pod", "Titan Power Fist|0-1|", "Laser Burner|0-1|"],
         "specialRules": [
           "Damage Capacity 6",
+          "Void Shields 4",
           "Fearless",
           "Reinforced Armour",
-          "Transport",
-          "4 Void Shields",
-          "Walker"
+          "Walker",
+          "Corvus Assault Pod: May transport ten infantry units or Dreadnoughts; Dreadnoughts count as two units each",
+          "Must be armed with either Titan Power Fist or Laser Burner"
         ],
-        "notes": "Corvus Assault Pods: May transport ten infantry units or Dreadnoughts; Dreadnoughts count as two units each. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
       },
       {
-        "name": "Reaver, Support Configuration",
+        "name": "Reaver Titan, Support Configuration",
         "type": "WE",
         "speed": 20,
         "armour": 4,
         "cc": 4,
         "ff": 3,
-        "weapons": ["Apocalypse Missile Launcher|2|FwA", "Apocalypse Missile Launcher||FxF"],
+        "weapons": ["Apocalypse Missile Launcher|2|FwA", "Apocalypse Missile Launcher|0-1|FxF", "Triple-Twin Hydra Autocannon|0-1|"],
         "specialRules": [
           "Damage Capacity 6",
+          "Void Shields 4",
           "Fearless",
           "Reinforced Armour",
-          "4 Void Shields",
-          "Walker"
+          "Walker",
+          "Must be armed with either Apocalypse Missile Launcher or Triple-Twin Hydra Autocannon"
+
+        ],
+        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+      },
+      {
+        "name": "Reaver Titan, Artillery Configuration",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": ["Apocalypse Missile Launcher|2|FwA", "Apocalypse Missile Launcher|0-1|FxF", "Triple-Twin Hydra Autocannon|0-1|", "Carapace Landing Pad|0-1|"],
+        "specialRules": [
+          "Damage Capacity 6",
+          "Void Shields 4",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Carapace Landing Pad: All the unit's BP-type weapons gain the Indirect Fire special rule",
+          "Must be armed with either Apocalypse Missile Launcher, Triple-Twin Hydra Autocannon or Carapace Landing Pad"
+        ],
+        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+      },
+      {
+        "name": "Reaver Titan, Titan Hunter Configuration",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": ["Battle Titan Plasma Cannon|2|FwA", "Warp Missile|0-1|FxF", "Deathstrike Missile|0-1|FxF"],
+        "specialRules": [
+          "Damage Capacity 6",
+          "Void Shields 4",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Must be armed with either Warp Missile or Deathstrike Missile"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
       },
@@ -74,9 +297,9 @@
         "weapons": ["Plasma Blastgun||FwA", "Vulcan Mega-Bolter||FwA"],
         "specialRules": [
           "Damage Capacity 3",
+          "Void Shields 2",
           "Fearless",
           "Reinforced Armour",
-          "2 Void Shields",
           "Walker"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
@@ -91,9 +314,9 @@
         "weapons": ["Inferno Gun||FwA", "Vulcan Mega-Bolter||FwA"],
         "specialRules": [
           "Damage Capacity 3",
+          "Void Shields 2",
           "Fearless",
           "Reinforced Armour",
-          "2 Void Shields",
           "Walker"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
@@ -108,13 +331,25 @@
         "weapons": ["Plasma Blastgun||FwA", "Scout Turbo-Laser Destructor||FwA"],
         "specialRules": [
           "Damage Capacity 3",
+          "Void Shields 2",
           "Fearless",
           "Reinforced Armour",
-          "2 Void Shields",
           "Walker"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
-      }
+    },
+    {
+      "name": "Lysander Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "Aircraft Storm Bolters"
+      ],
+      "specialRules": [
+
+      ]
+    }
     ]
   }
 ]

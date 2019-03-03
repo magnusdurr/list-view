@@ -746,6 +746,16 @@
       ]
     },
     {
+      "name": "Paired Apocalypse Missile Launcher",
+      "modes": [
+        {
+          "firepower": "6BP",
+          "range": 60,
+          "specialRules": ["D"]
+        }
+      ]
+    },
+    {
       "name": "Arcane Cannons",
         "modes": [
           {
@@ -944,6 +954,19 @@
       ]
     },
     {
+      "name": "Barrage Missile",
+          "modes": [
+            {
+              "firepower": "6BP",
+              "range": "Unlimited",
+              "specialRules": [
+                "SS",
+                "Ind"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Battle Cannon",
       "modes": [
         {
@@ -1104,6 +1127,18 @@
             "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "Belicosa Vulcano Cannon",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 90,
+            "specialRules": [
+                "TK(D3+1)"
+          ]
+          }
       ]
     },
     {
@@ -1279,6 +1314,16 @@
       ]
     },
     {
+      "name": "Body Weapons",
+      "modes": [
+        {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Boil Cannon",
       "modes": [
         {
@@ -1387,13 +1432,12 @@
       ]
     },
     {
-      "name": "Catachan Missile Launcher",
+      "name": "Carapace Landing Pad",
         "modes": [
           {
-            "firepower": "AP5+/AT5+/AA5+",
-            "range": 45,
+            "firepower": "n/a",
             "specialRules": [
-
+                "Spec"
           ]
           }
       ]
@@ -1403,6 +1447,18 @@
         "modes": [
           {
             "firepower": "3x AP3+/AT5+",
+            "range": 45,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Catachan Missile Launcher",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+/AA5+",
             "range": 45,
             "specialRules": [
 
@@ -1557,6 +1613,17 @@
             "specialRules": [
               "IC"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Corvus Assault Pod",
+        "modes": [
+          {
+            "firepower": "n/a",
+            "specialRules": [
+                "Spec"
+              ]
         }
       ]
     },
@@ -1815,6 +1882,18 @@
       ]
     },
     {
+      "name": "Defense Laser",
+      "modes": [
+        {
+          "firepower": "MW2+/AA5+",
+          "range": 60,
+          "specialRules": [
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Devourer Cannon",
       "modes": [
         {
@@ -1996,8 +2075,8 @@
               "firepower": "Assault Weapons",
               "join": "or",
               "specialRules": [
-                "EA(+2)",
-                "TK(D3+1)"
+                "EA(+1)",
+                "TK(D3+3)"
             ]
           }
       ]
@@ -2060,6 +2139,20 @@
             "specialRules": [
               "MW",
               "FxF"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Doomstrike Missile",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": "Unlimited",
+            "specialRules": [
+                "D",
+                "Ind",
+                "SS"
           ]
           }
       ]
@@ -2448,7 +2541,18 @@
         }
       ]
     },
+    {
+      "name": "Gatling Blaster",
+        "modes": [
+          {
+            "firepower": "4x AP4+/AT4+",
+            "range": 60,
+            "specialRules": [
 
+          ]
+          }
+      ]
+    },
     {
       "name": "Gauss Blasters",
         "modes": [
@@ -2747,6 +2851,18 @@
             "specialRules": [
               "SS",
               "Shield Piercer"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Head Gun",
+        "modes": [
+          {
+            "firepower": "AP3+/AT3+",
+            "range": 60,
+            "specialRules": [
+              "IC"
           ]
           }
       ]
@@ -3455,6 +3571,40 @@
       ]
     },
     {
+      "name": "Laser Blaster",
+      "modes": [
+        {
+          "firepower": "6x AP5+/AT3+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paired Laser Blasters",
+      "modes": [
+        {
+          "firepower": "12x AP5+/AT3+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Laser Burner",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+              "EA(+3)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Lash of Torment",
       "modes": [
         {
@@ -3565,6 +3715,28 @@
       ]
     },
     {
+    "name": "Macro-Gatling Blaster",
+      "modes": [
+        {
+          "firepower": "5x AP4+/AT4+",
+          "range": 60,
+          "specialRules": [
+        ]
+        }
+    ]
+    },
+    {
+    "name": "Paired Macro-Gatling Blaster",
+      "modes": [
+        {
+          "firepower": "10x AP4+/AT4+",
+          "range": 60,
+          "specialRules": [
+        ]
+        }
+    ]
+    },
+    {
     "name": "Mælstrom of Madness",
       "modes": [
         {
@@ -3596,18 +3768,6 @@
           "specialRules": [
             "EA(+1)",
             "MW"
-        ]
-        }
-    ]
-    },
-        {
-    "name": "Mega-choppa",
-      "modes": [
-        {
-          "firepower": "Assault Weapons",
-          "specialRules": [
-            "EA(+1)",
-            "TK(D3)"
         ]
         }
     ]
@@ -3681,6 +3841,18 @@
         }
       ]
     },
+        {
+    "name": "Mega-choppa",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "TK(D3)"
+        ]
+        }
+         ]
+    },
     {
       "name": "Melta Cannon",
       "modes": [
@@ -3693,6 +3865,21 @@
           "firepower": "Small Arms",
           "join": "and",
           "specialRules": ["EA(+1)","TK(D6)"]
+        }
+      ]
+    },
+    {
+      "name": "Paired Melta Cannons",
+      "modes": [
+        {
+          "firepower": "2x MW2+",
+          "range": 30,
+          "specialRules": ["TK(D3)"]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": ["EA(+2)","TK(D6)"]
         }
       ]
     },
@@ -4212,6 +4399,30 @@
       ]
     },
     {
+      "name": "Battle Titan Plasma Cannon",
+        "modes": [
+          {
+            "firepower": "3x MW2+",
+            "range": 60,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Paired Battle Titan Plasma Cannons",
+        "modes": [
+          {
+            "firepower": "6x MW2+",
+            "range": 60,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Plasma Decimator",
         "modes": [
           {
@@ -4223,7 +4434,18 @@
           }
       ]
     },
-
+    {
+      "name": "Plasma Destructor",
+        "modes": [
+          {
+            "firepower": "4x MW3+",
+            "range": 90,
+            "specialRules": [
+                "Slw"
+          ]
+          }
+      ]
+    },
     {
       "name": "Plasma Flamer",
         "modes": [
@@ -4310,7 +4532,7 @@
       "name": "Phospex Blaster",
         "modes": [
           {
-            "firepower": "2x AP5+/AT5+",
+            "firepower": "AP5+/AT5+",
             "range": 30,
             "specialRules": [
                 "D"
@@ -4615,6 +4837,30 @@
 
             "specialRules": [
               "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Quad Hydra Autocannon",
+        "modes": [
+          {
+            "firepower": "2x AP4+/AT5+/AA5+",
+            "range":45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Quake Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range":120,
+            "specialRules": [
+              "MW",
+              "IC"
           ]
           }
       ]
@@ -6002,6 +6248,17 @@
       ]
     },
     {
+      "name": "Triple-Twin Hydra Autocannon",
+        "modes": [
+          {
+            "firepower": "3x AP4+/AT5+/AA5+",
+            "range":45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Turbo Blaster",
       "modes": [
         {
@@ -6015,6 +6272,15 @@
       "modes": [
         {
           "firepower": "4x AP5+/AT3+",
+          "range": 60
+        }
+      ]
+    },
+    {
+      "name": "Paired Turbo-Laser Destructor",
+      "modes": [
+        {
+          "firepower": "8x AP5+/AT3+",
           "range": 60
         }
       ]
@@ -6429,9 +6695,20 @@
             "firepower": "AP4+/AT2+",
             "range": 75,
             "specialRules": [
-
           ]
           }
+      ]
+    },
+    {
+      "name": "Venegance Cannon",
+      "modes": [
+        {
+            "firepower": "MW2+",
+            "range": 90,
+            "specialRules": [
+                "TK(D6+1)"
+          ]
+        }
       ]
     },
     {
@@ -6604,6 +6881,20 @@
           }
       ]
     },
+    {
+          "name": "Warp Missile",
+          "modes": [
+            {
+            "firepower": "MW2+",
+            "range": "Unlimited",
+            "specialRules": [
+                "SS",
+                "TK(D6)",
+                "Shield Piercer"
+            ]
+          }
+      ]
+    },
 
     {
           "name": "Warpsword",
@@ -6666,6 +6957,20 @@
             "specialRules": [
                 "EA(+1)",
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vortex Missile",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": "Unlimited",
+          "specialRules": [
+            "TK(1)",
+            "SS",
+            "Ind"
           ]
         }
       ]
@@ -6898,13 +7203,21 @@
       "description": "Titan Killer"
     },
     {
+      "name": "TK(D6+1)",
+      "description": "Titan Killer"
+    },
+    {
       "name": "TK(D6+2)",
       "description": "Titan Killer"
     },
     {
       "name": "Unstable",
       "description": "Unstable"
-    }
+  },
+  {
+    "name": "Spec",
+    "description": "Special Rule"
+  }
 
   ]
 }
