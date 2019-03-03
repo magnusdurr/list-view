@@ -40,12 +40,6 @@
          "description": [
            "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
          ]
-     },
-     {
-       "title": "Stubborn",
-       "description": [
-         "Reduce the damage caused by blast markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
-       ]
      }
     ],
 
@@ -72,7 +66,6 @@
             "Phospex Serpenta"
           ],
           "specialRules": [
-              "Stubborn"
           ]
         },
         {
@@ -87,7 +80,6 @@
             "Phospex Blaster"
           ],
           "specialRules": [
-              "Stubborn",
               "Reinforced Armour",
               "Thick Rear Armour",
               "Transport"
