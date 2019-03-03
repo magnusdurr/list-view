@@ -228,7 +228,14 @@
           "upgrades": [
           ],
           "points": 250
-      },
+      }
+
+    ]
+  },
+        {
+      "name": "Chaos Undivided Allies and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
           {
             "name": "Knights of Chaos Undivided",
             "units": "Two Knight-Renegades",
@@ -243,19 +250,13 @@
             "Add up to two Defilers for 50 points each"
           ],
           "points": 225
-            }
-    ]
-  },
-        {
-      "name": "Chaos Squats and Chaos Navy",
-      "description": "Up to a fourth of the points available may be spent on these formations",
-      "formations": [
+      },
           {
             "name": "Chaos Squats (Chaos Undivided)",
             "units": "One Heretek, four Chaos Squat Excavators, two Hades Land Raiders",
           "upgrades": [
               ],
-          "points": 200
+          "points": 225
             },
         {
           "name": "Hell Blade Squadron",
