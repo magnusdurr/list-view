@@ -39,9 +39,9 @@
       ]
     },
     {
-      "title": "Honour",
+      "title": "Stubborn",
       "description": [
-        "Reduce the damage caused by blast markers to a broken Knight formation by 1, and reduce the number of extra hits suffered by a Knight formation that loses an assault by 1."
+        "Reduce the damage caused by blast markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
       ]
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "title": "Independent",
-      "description": ["Allows a Warhound Pack to operate as two independent War Engines. If one Warhound is destroyed, the other one in the pack receives a blastmarker"
+      "description": ["Allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Warhound is destroyed, the other one in the pack receives a Blast Marker. "
       ]
     },
     {
@@ -416,11 +416,23 @@
        "title": "Daemonic Incursion Summoning Rules",
        "description": [
            "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
-           "Slaanesh: Daemonettes (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
-           "Nurgle: Plaguebearers (1), Beasts of Nurgle (1), Plague Drones (2)",
-           "Khorne: Bloodletters (1), Fleshhounds (1), Bloodcrushers (2)",
-           "Tzeentch: Horrors (1), Flamers (1), Screamers  of Tzeench (2)",
-           "Chaos Undivided: Bloodletters (2), Plaguebearers (2), Daemonettes (2), Horrors (2), Daemonic Beasts (1)",
+           "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
+           "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
+           "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
+           "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers  of Tzeench (2)",
+           "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
+           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+       ]
+     },
+     {
+       "title": "TTL Summoning Rules",
+       "description": [
+           "Formations in a Traitor Titan Legion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
+           "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
+           "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
+           "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
+           "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1)",
+           "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
            "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
@@ -504,6 +516,14 @@
          "Each Daemon Formation in a Daemonic Incursion army owes allegiance to either one of the Gods of Chaos. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Daemonic Incursion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Daemonic Incursion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
+       ]
+        },
+        {
+       "title": "TTL Eternal Animosity",
+       "description": [
+         "Each formation in a Traitor Titan Legion army owes allegiance to either one of the Gods of Chaos or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "A Traitor Titan Legion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+         "A Traitor Titan Legion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
         },
 

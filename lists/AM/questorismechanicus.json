@@ -9,7 +9,7 @@
   "specialRules": [
           "Automaton",
           "Bravery",
-          "Honour",
+          "Stubborn",
           "Ion Shield (X)",
           "Shield Piercer",
           "Lightning Charge",
@@ -18,7 +18,7 @@
 
   ],
   "usage": [
-    "The following army list allows you to field an army based on a the Questoris Mechanicus of the Adeptus Mechancius"
+    "The following army list allows you to field an army based on the Questoris Mechanicus of the Adeptus Mechancius"
   ],
   "units": [
     {
@@ -62,20 +62,13 @@
 
         "Kastelan Robots",
 
-        "Onager Dunecrawler"
+        "Onager Dunecrawler",
+        "Gorgon"
     ],
         "unitRules": [
 
       ]
     },
-    {
-      "from": "IG.json",
-      "units": [
-        "Gorgon"
-      ],
-        "unitRules": [
-      ]
-  },
   {
     "from": "ImperialAllies.json",
     "units": [
@@ -102,7 +95,7 @@
       "formations": [
         {
           "name": "Questoris",
-          "units": "2 Questoris Knights (any combination of configurations)",
+          "units": "Two Questoris Knights (any combination of configurations)",
           "upgrades": [
             "Questoris, Seneschal, Baron"
           ],
@@ -116,7 +109,7 @@
       "formations": [
         {
           "name": "Cerasus",
-          "units": "2 Cerastus Knights (any combination of configurations), 1 Seneschal character",
+          "units": "Two Cerastus Knights (any combination of configurations), one Seneschal character",
           "upgrades": [
             "Knight-Atrapos"
           ],
@@ -130,7 +123,7 @@
       "formations": [
         {
           "name": "Armiger",
-          "units": "4 Knight-Warglaives or 4 Knight-Helverins",
+          "units": "Four Knight-Warglaives or four Knight-Helverins",
           "upgrades": [
           ],
           "points": 175
@@ -143,7 +136,7 @@
       "formations": [
         {
           "name": "0-1 Questoris Reliquae",
-          "units": "2 Questoris Relic Knights (any combination of configurations)",
+          "units": "Two Questoris Relic Knights (any combination of configurations)",
           "upgrades": [
               "Questoris Reliquae",
               "Acastus Reliquae"
@@ -152,7 +145,7 @@
       },
       {
         "name": "0-1 Acastus Reliquae",
-        "units": "2 Acastus Knights, each with 1 Seneschal (any combination of configurations)",
+        "units": "Two Acastus Knights, each with one Seneschal (any combination of configurations)",
         "upgrades": [
             "Questoris Reliquae",
             "Acastus Reliquae"
@@ -167,17 +160,17 @@
       "formations": [
         {
           "name": "Skitarii Maniple",
-          "units": "1 Tech Priest, 9 Skitarii Vanguard, 1 Gorgon",
+          "units": "One Tech Priest, nine Skitarii Vanguard, one Gorgon",
           "points": 100
         },
         {
           "name": "Onager Cohort",
-          "units": "5 Onager Dunecrawler",
+          "units": "Five Onager Dunecrawlers",
           "points": 200
         },
         {
           "name": "Warhound Pack",
-          "units": "2 Warhound Scout Titans, Standard or Close Support Configuration",
+          "units": "Two Warhound Scout Titans, Standard or Close Support Configuration",
           "upgrades": [
               "Tank Hunter Configuration: +25 Points",
               "Independent"
@@ -186,12 +179,12 @@
         },
         {
           "name": "Avenger Strike Fighters",
-          "units": "2 Avenger Strike Fighters",
+          "units": "Two Avenger Strike Fighters",
           "points": 175
         },
         {
           "name": "Mechanicus Battleship",
-          "units": "1 Ark Mechanicus Battleship",
+          "units": "One Ark Mechanicus Battleship",
           "points": 175
         }
       ]
@@ -217,11 +210,11 @@
               "description": "One of the following:"
         },
           {
-            "description": "Add 1 Seneschal character to the formation",
+            "description": "Add one Seneschal character to the formation",
             "points": "25 points"
         },
         {
-          "description": "Add 1 Seneschal in a Dominus Knight to the formation",
+          "description": "Add a Seneschal in a Dominus Knight to the formation",
           "points": "175 points"
         }
         ]
@@ -230,7 +223,7 @@
         "name": "Questoris",
         "options": [
           {
-            "description": "Add one 1 Questoris Knight of any configuration",
+            "description": "Add one Questoris Knight of any configuration",
             "points": "100 points"
           }
         ]
@@ -248,7 +241,7 @@
         "name": "Questoris Reliquae",
         "options": [
           {
-            "description": "Add one 1 Questoris Relic Knight of any configuration",
+            "description": "Add one Questoris Relic Knight of any configuration",
             "points": "125 points"
           }
         ]
@@ -257,7 +250,7 @@
         "name": "Acastus Reliquae",
         "options": [
           {
-            "description": "Add 1 Acastus Knight (of any configuration) with 1 Seneschal character",
+            "description": "Add one Acastus Knight (of any configuration) with a Seneschal character",
             "points": "200 points"
           }
         ]

@@ -16,7 +16,7 @@
       "Fortified Positions"
   ],
   "usage": [
-    "The following army list allows you to field an army based on a Renegade Imperial Guard regiment with Chaos allies,"
+    "The following army list allows you to field an army based on a Renegade Imperial Guard regiment with Chaos allies."
   ],
   "units": [
     {
@@ -60,11 +60,11 @@
     {
       "from": "CSM.json",
       "units": [
-        "Chaos Space Marines",
-        "Chaos Rhino"
+        "Alpha Legion Marines",
+        "Alpha Legion Rhino"
     ],
     "unitRules": [
-
+        "Stubborn"
     ]
     },
     {
@@ -154,22 +154,22 @@
       "formations": [
           {
             "name": "Dark Mechanicus and Infestation Allies",
-            "units": "1 Dark Mechanicus and Infestation formation from the Lost and the Damned army list with no upgrades. All choices considered to be 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
+            "units": "One Dark Mechanicus and Infestation formation from the Lost and the Damned army list with no upgrades. All choices considered to be 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
             "points": 0
           },
           {
-            "name": "Chaos Renegades",
-            "units": "4 Chaos Space Marines, 2 Chaos Rhinos, Daemonic Pact",
+            "name": "Alpha Legion Marines",
+            "units": "Four Alpha Legion Marines, two Alpha Legion Rhinos",
             "points": 175
           },
         {
           "name": "Thunderbolt Squadron",
-          "units": "2 Thunderbolt Strike Fighters",
+          "units": "Two Thunderbolt Strike Fighters",
           "points": 150
         },
         {
           "name": "Maurader Squadron",
-          "units": "2 Maruder Bombers",
+          "units": "Two Maruder Bombers",
           "points": 225
         }
       ]
