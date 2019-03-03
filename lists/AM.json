@@ -181,6 +181,22 @@
           ]
       },
       {
+          "name": "Praetorians",
+          "type": "INF",
+          "speed": 15,
+          "armour": 3,
+          "cc": 4,
+          "ff": 5,
+          "weapons": [
+            "Assault Cannon",
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Automaton",
+            "Invulnerable Save"
+          ]
+      },
+      {
           "name": "Battle Servitors",
           "type": "INF",
           "speed": 15,
@@ -209,6 +225,36 @@
             "Automaton",
             "Walker",
             "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Conqueror Robot",
+          "type": "AV",
+          "speed": 10,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Autocannon",
+            "Heavy Bolter",
+            "Power Fist"
+          ],
+          "specialRules": [
+            "Automaton",
+            "Walker",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Rapier",
+          "type": "Inf",
+          "speed": 10,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Rapier Laser Destroyer"
+          ],
+          "specialRules": [
           ]
       },
       {

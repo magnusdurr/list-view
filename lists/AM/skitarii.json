@@ -20,9 +20,10 @@
       "units": [
         "Magos",
         "Tech Priest",
-        "Cybernetica Datasmith",
+
         "Skitarii Vanguard",
         "Secutarii",
+
         "Praetorians",
         "Kastelan Robot",
         "Conqueror Robot",
@@ -60,137 +61,114 @@
 ],
 "sections": [
     {
-      "name": "Explorator Fleet Core Formations",
+      "name": "Skitarii Core Formations",
       "formations": [
         {
-          "name": "0-1 Secutarii Guard",
-          "units": "7 Secutarii",
+          "name": "Skitarii Vanguard",
+          "units": "One Tech-Priest Dominus, nine Skitarii Vanguard",
           "upgrades": [
-            "Commander, Transports"
+            "Magos",
+            "Gorgon",
+            "Minoris",
+            "Dune Crawler"
           ],
-          "points": 200
-        },
-        {
-          "name": "Vanguard Maniple",
-          "units": "7 Skitarii Vanguard",
-          "upgrades": [
-            "Commander, Transports"
-          ],
-          "points": 175
+          "points": 225
         }
       ]
     },
     {
-      "name": "Explorator Fleet Support Formations",
+      "name": "Skitarii Line Formations",
       "description": "Up to a Two Support Formations for each Core Formation.",
       "formations": [
         {
-          "name": "Ranger Centuria",
-          "units": "4 Skitarii Rangers",
+          "name": "Sekutarii",
+          "units": "Four Secutarii, two Chimeradon",
           "upgrades": [
-            "Skitarii Rangers"
-          ],
-          "points": 100
-        },
-        {
-          "name": "Ruststalker Killclade",
-          "units": "6 Sicarian Ruststalkers ",
-          "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Hydra",
+            "Add two Secutarii and one Chimeradon for 50 points"
           ],
           "points": 200
         },
         {
-          "name": "Infiltrator Killclade",
-          "units": "6 Sicarian Infiltrators",
+          "name": "Praetorians",
+          "units": "Four Praetorians, one Tech Priest Dominus",
           "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Gorgon",
+            "Servitors"
           ],
           "points": 200
-        },
-        {
-          "name": "Fulgurite Maniple",
-          "units": "6 Fulgurite Electro-Priests",
-          "upgrades": [
-            "Tech-Priest, Subterranean Assault"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Ironstrider Cavaliers",
-          "units": "6 Ironstrider Ballistarius",
-          "points": 175
-        },
-        {
-          "name": "Sydonian Dragoons",
-          "units": "6 Sydonian Dragoons",
-          "points": 175
         },
         {
           "name": "Onager Cohort",
-          "units": "5 Onager Dunecrawler",
+          "units": "5 Onager Dunecrawlers",
           "points": 200
         },
         {
           "name": "Kastelan Maniple",
-          "units": "5 Kastelan Robots and 1 Tech Preist Dominus",
-          "points": 200
+          "units": "Five Kastelan Robots and one Tech Priest Dominus",
+          "upgrades": [
+            "Servitors"
+          ],
+          "points": 175
         },
         {
-          "name": "Kataphron Maniple",
-          "units": "6 Kataphron Destroyers or Kataphron Breachers",
+          "name": "Conqueror Maniple",
+          "units": "Four Conqueror Robots, three Rapiers",
+          "points": 175
+        },
+        {
+          "name": "Ordinatus Minoris",
+          "units": "Two Ordinatus Minoris",
           "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Ordinatus",
+            "Minoris Support Weapon"
           ],
-          "points": 200
-        }
+          "points": 300
+      },
+      {
+        "name": "0-1 Ordinatus Majoris",
+        "units": "One Ordinatus Armageddon (Nova Cannon)",
+        "upgrades": [
+          "Ordinatus Mars (Sonic Disruptor)",
+          "Ordinatus Golgotha (Hellfire Missiles)"
+        ],
+        "points": 450
+      }
       ]
     },
     {
-      "name": "Explorator Fleet Heavy Support",
-      "description": "Four Knights for each 3k points. Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
+      "name": "Adeptus Mechanicus Navy and Titan Legion Support",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-        {
-          "name": "0-2 Dominus Knight",
-          "units": "One Dominus Knight",
-          "upgrades": [
-            ""
-          ],
-          "points": 150
-        },
-        {
-          "name": "0-2 Questoris Knight",
-          "units": "One Questoris Knight",
-          "upgrades": [
-            ""
-          ],
-          "points": 100
-        },
-        {
-          "name": "0-2 Crusader Knight",
-          "units": "One Crusader Knight",
-          "upgrades": [
-            ""
-          ],
-          "points": 125
-        }
-
-
-      ]
-    },
-    {
-      "name": "Explorator Fleet Aircraft, Spacecraft",
-      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
-      "formations": [
+                {
+                  "name": "Warhound Pack",
+                  "units": "Two Warhound Scout Titans, both of either Standard or Close Support Configuration",
+                  "upgrades": [
+                      "Tank Hunter Configuration"
+                  ],
+                  "points": 500
+              },
+              {
+                "name": "Reaver Titan",
+                "units": "One Reaver Titan",
+                "upgrades": [
+                ],
+                "points": 600
+            },
+              {
+                "name": "0-1 Lysander Fighter for each Ordinatus Landing Pad",
+                "units": "One Lysander Fighter",
+                "points": 75
+              },
         {
           "name": "Avenger Strike Fighters",
-          "units": "2 Avenger Strike Fighters",
+          "units": "Two Avenger Strike Fighters",
           "points": 175
         },
         {
           "name": "Mechanicus Battleship",
-          "units": "1 Ark Mechanicus Battleship",
-          "points": 200
+          "units": "One Ark Mechanicus Battleship",
+          "points": 175
         }
       ]
     }
