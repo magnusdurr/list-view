@@ -347,26 +347,26 @@
           "cc": 6,
           "ff": 5,
           "weapons": [
+            "Heavy Bolter|2|",
+            "(Battle Weapons)",
             "Turbo-Laser Destructor|0-1|FxF",
             "Apocalypse Missile Launcher|0-1|FxF",
             "Triple-Twin Hydra Autocannon|0-1|",
             "Battle Titan Plasma Cannon|0-1|FxF",
-            "Support Weapons",
+            "(Support Weapons)",
             "Plasma Destructor|0-1|FxF",
             "Quake Cannon|0-1|FxF",
-            "Ordinatus Landing Platform|0-1|",
-            "Vulcano Cannon|0-1|FxF",
-            "Heavy Bolter|2|"
+            "Volcano Cannon|0-1|FxF",
+            "Ordinatus Landing Pad|0-1|"
+
           ],
           "specialRules": [
             "Damage Capacity 2",
             "Void Shields 2",
             "Reinforced Armour",
-            "Fearless",
-            "Must be armed with either Turbo-Laser Destructor, Apocalypse Missile Launcher, Triple-Twin Hydra Autocannon or Battle Titan Plasma Cannon",
-            "A Minoris with Support Weapon must be armed with either Plasma Destructor, Quake Cannon, Vulcano Cannon or Ordinatus Landing Platform"
+            "Fearless"
         ],
-          "notes": "Critical Hit Effect: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+          "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. Critical Hit Effect: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
           "name": "Ordinatus Minoris Support Weapons",

@@ -9,7 +9,14 @@
         ]
       },
       {
-        "name": "Support Weapons",
+        "name": "(Battle Weapons)",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": "(Support Weapons)",
           "modes": [
             {
             }
@@ -1507,6 +1514,17 @@
     },
     {
       "name": "Carapace Landing Pad",
+        "modes": [
+          {
+            "firepower": "n/a",
+            "specialRules": [
+                "Spec"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Ordinatus Landing Pad",
         "modes": [
           {
             "firepower": "n/a",
