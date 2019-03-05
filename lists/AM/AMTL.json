@@ -1,9 +1,9 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Titan Legion",
-  "version": "2.0b",
-  "release": "2019-03-03",
-  "strategy": "Titan Legion armies have a stratergy rating of 3.",
+  "version": "2.1b",
+  "release": "2019-03-05",
+  "strategy": "Titan Legion armies have a strategy rating of 3.",
   "initiative": "All formations Titan formations have an initiative rating of 1+, all other formations have an initiative of 2+.",
 
   "specialRules": [
@@ -17,20 +17,13 @@
         "units": [
             "Legate",
             "Veteran Princeps",
-          "Warhound",
-          "Warhound, Support Configuration",
-          "Warhound, Tank Hunter Configuration",
+          "Warhound ",
 
-          "Reaver Titan",
-          "Reaver Titan, Close Assault Configuration",
-          "Reaver Titan, Artillery Configuration",
-          "Reaver Titan, Titan Hunter Configuration",
+          "Reaver Titan, Hun Class",
+          "Reaver Titan, Goth Class",
 
-          "Warlord Titan",
-          "Warlord Titan, Siegemaker Configuration",
-          "Warlord Titan, Stormseeker Configuration",
-          "Warlord Titan, Deathbringer Configuration",
-          "Warlord Titan, Nemesis Configuration",
+          "Warlord Titan, Deathbringer Class",
+          "Warlord Titan, Nemesis Class",
 
           "Imperator Titan",
           "Warmonger Titan",
@@ -49,11 +42,9 @@
       "from": "AM.json",
       "units": [
         "Tech Priest",
-        "Cybernetica Datasmith",
         "Skitarii Vanguard",
-        "Battle Servitors",
         "Kastelan Robot",
-        "Ordinatus Minoris",
+        "Ordinatus Minoris ",
         "Gorgon",
         "Avenger Strike Fighters",
         "Ark Mechanicus Battleship"
@@ -96,9 +87,8 @@
       },
     {
       "name": "Warlord Titan",
-      "units": "One Warlord Titan",
+      "units": "One Warlord Titan (any configuration)",
       "upgrades": [
-        "Warlord Configurations",
         "Legate",
         "Veteran Princeps"
       ],
@@ -106,9 +96,8 @@
   },
   {
       "name": "Reaver Titan",
-      "units": "One Reaver Titan",
+      "units": "One Reaver Titan (any configuration)",
       "upgrades": [
-        "Reaver Configurations",
         "Veteran Princeps"
       ],
       "points": 600
@@ -132,29 +121,31 @@
     },
     {
       "name": "Adeptus Mechanicus Allies",
-      "description": "Up to two-fifths (40%) of the points available may be spent on Adeptus Mechanicus Allies.",
+      "description": "Up to 40% of the points available may be spent on Adeptus Mechanicus Allies.",
       "formations": [
         {
           "name": "Skitarii Maniple",
-          "units": "One Tech Priest, nine Skitarii Vanguard, one Gorgon",
-          "points": 300
+          "units": "One Tech Priest, nine Skitarii Vanguard",
+          "upgrades": [
+              "Gorgon"
+          ],
+          "points": 225
         },
         {
           "name": "Kastelan Maniple",
-          "units": "Five Kastelan Robots, one Cybernetica Datasmith",
+          "units": "Five Kastelan Robots, one Tech Priest Dominus",
           "upgrades": [
-              "Kastalans",
-              "Servitors"
+              "Kastelans"
           ],
           "points": 175
         },
         {
           "name": "Minoris Maniple",
-          "units": "Two Ordinatus Minoris (any combination of configurations)",
+          "units": "Two Ordinatus Minoris",
           "upgrades": [
           ],
           "points": 300
-      },
+        },
         {
           "name": "Questoris Banner",
           "units": "Two Questoris Knights (any combination of configurations)",
@@ -175,7 +166,7 @@
         {
           "name": "Mechanicus Battleship",
           "units": "One Ark Mechanicus Battleship",
-          "points": 150
+          "points": 175
         }
       ]
     }
@@ -202,38 +193,6 @@
             }
           ]
         },
-            {
-            "name": "Warlord Configurations",
-            "options": [
-            {
-                  "description": "One of the following:"
-            },
-              {
-                "description": "Upgrade the Warlord Titan to Deathbringer or Stormseeker configuration",
-                "points": "Free"
-            },
-            {
-              "description": "Upgrade the Warlord Titan to Siegemaker or Nemesis configuration",
-              "points": "25 points"
-            }
-            ]
-        },
-            {
-            "name": "Reaver Configurations",
-            "options": [
-            {
-                  "description": "One of the following:"
-            },
-              {
-                "description": "Upgrade the Reaver Titan to Close Assault configuration",
-                "points": "Free"
-            },
-            {
-              "description": "Upgrade the Reaver Titan to Artillery or Titan-Killer configuration",
-              "points": "25 points"
-            }
-            ]
-        },
         {
           "name": "Tank Hunter",
           "options": [
@@ -256,16 +215,25 @@
           "name": "Servitors",
           "options": [
             {
-              "description": "Add four Battle Servitors",
-              "points": "50 points"
+              "description": "Add six Battle Servitors",
+              "points": "75 points"
             }
           ]
       },
+      {
+        "name": "Gorgon",
+        "options": [
+          {
+            "description": "Add one AM Gorgon",
+            "points": "75 points"
+          }
+        ]
+    },
         {
           "name": "Kastalans",
           "options": [
             {
-              "description": "Add up to two Kastalan Robots",
+              "description": "Add up to three Kastalan Robots",
               "points": "25 points each"
             }
           ]

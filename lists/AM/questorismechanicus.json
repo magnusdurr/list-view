@@ -63,7 +63,7 @@
         "Kastelan Robot",
 
         "Onager Dunecrawler",
-        "Gorgon"
+        "AM Gorgon"
     ],
         "unitRules": [
 
@@ -72,11 +72,11 @@
   {
     "from": "ImperialAllies.json",
     "units": [
-      "Warhound",
-      "Warhound, Support Configuration",
-      "Warhound, Tank Hunter Configuration"
+      "Warhound "
     ],
       "unitRules": [
+          "Independent",
+          "Imperial Void Shields"
     ]
   },
     {
@@ -159,9 +159,9 @@
       "description": "Up to one choice may be made for each Questoris Lance. Up to a third of the points available may be spent on Skitarii, AMTL and Imperial Navy Allies.",
       "formations": [
         {
-          "name": "Skitarii Maniple",
-          "units": "One Tech Priest, nine Skitarii Vanguard, one Gorgon",
-          "points": 100
+          "name": "Mechanized Skitarii Maniple",
+          "units": "One Tech Priest, nine Skitarii Vanguard, one AM Gorgon",
+          "points": 300
         },
         {
           "name": "Onager Cohort",
@@ -254,7 +254,25 @@
             "points": "200 points"
           }
         ]
-      }
+    },
+        {
+          "name": "Tank Hunter",
+          "options": [
+            {
+              "description": "Upgrade both Warhounds to Tank Hunter Configuration",
+              "points": "50 points"
+            }
+          ]
+      },
+      {
+        "name": "Independent",
+        "options": [
+          {
+            "description": "Allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Warhound is destroyed, the other one in the pack receives a Blast Marker",
+            "points": "50 points"
+          }
+        ]
+    }
     ]
   }
 }

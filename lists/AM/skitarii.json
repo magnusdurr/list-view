@@ -7,9 +7,7 @@
   "initiative": "Titan Legion formations have an initiative of 1+. All other formations have a initiative rating of 2+",
 
   "specialRules": [
-          "Automaton",
-          "Shield Piercer"
-
+          "Automaton"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Skitarii of the Adeptus Mechancius"
@@ -32,9 +30,8 @@
         "Onager Dunecrawler",
         "Chimeradon",
         "Ordinatus Minoris",
-        "Ordinatus Minoris Support",
         "Ordinatus Majoris",
-        "Gorgon",
+        "AM Gorgon",
 
         "Avenger Strike Fighters",
         "Ark Mechanicus Battleship"
@@ -46,16 +43,15 @@
   {
     "from": "ImperialAllies.json",
     "units": [
-      "Warhound",
-      "Warhound, Support Configuration",
-      "Warhound, Tank Hunter Configuration",
-
+      "Warhound ",
       "Reaver Titan",
-
+      "Warlord Titan",
       "Lysander Fighter"
     ],
       "unitRules": [
-          "Imperial Void Shields"
+          "Imperial Void Shields",
+          "God Machine",
+          "Split Fire"
     ]
   }
 ],
@@ -67,10 +63,9 @@
           "name": "Skitarii Vanguard",
           "units": "One Tech-Priest Dominus, nine Skitarii Vanguard",
           "upgrades": [
-            "Magos",
+            "Archmagos",
             "Gorgon",
-            "Minoris",
-            "Dune Crawler"
+            "Dune Crawlers"
           ],
           "points": 225
         }
@@ -81,26 +76,27 @@
       "description": "Up to a Two Support Formations for each Core Formation.",
       "formations": [
         {
-          "name": "Sekutarii",
-          "units": "Four Secutarii, two Chimeradon",
+          "name": "Secutarii",
+          "units": "Four Secutarii",
           "upgrades": [
             "Hydra",
-            "Add two Secutarii and one Chimeradon for 50 points"
+            "Chimeradon"
           ],
-          "points": 200
+          "points": 150
         },
         {
           "name": "Praetorians",
-          "units": "Four Praetorians, one Tech Priest Dominus",
+          "units": "Five Praetorians, one Tech Priest Dominus",
           "upgrades": [
             "Gorgon",
-            "Servitors"
+            "Servitors",
+            "Dune Crawlers"
           ],
           "points": 200
         },
         {
           "name": "Onager Cohort",
-          "units": "5 Onager Dunecrawlers",
+          "units": "Five Onager Dunecrawlers",
           "points": 200
         },
         {
@@ -114,6 +110,9 @@
         {
           "name": "Conqueror Maniple",
           "units": "Four Conqueror Robots, three Rapiers",
+          "upgrades": [
+            "Servitors"
+          ],
           "points": 175
         },
         {
@@ -121,7 +120,7 @@
           "units": "Two Ordinatus Minoris",
           "upgrades": [
             "Ordinatus",
-            "Minoris Support Weapon"
+            "Support Weapon"
           ],
           "points": 300
       },
@@ -155,6 +154,13 @@
                 ],
                 "points": 600
             },
+            {
+              "name": "Warlord Titan",
+              "units": "One Warlord Titan",
+              "upgrades": [
+              ],
+              "points": 750
+          },
               {
                 "name": "0-1 Lysander Fighter for each Ordinatus Landing Pad",
                 "units": "One Lysander Fighter",
@@ -174,74 +180,115 @@
     }
   ],
   "upgrades": {
-    "title": "Explorator Fleet Upgrades",
+    "title": "Skitarii Upgrades",
     "description": "Each upgrade may be taken once per Formation",
     "items": [
       {
-        "name": "Commander",
+        "name": "0-1 Archmagos",
         "options": [
           {
-            "description": "Add 1 of the following:"
-          },
+            "description": "Replace the Tech Priest Dominus with an Archmagos",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Gorgon",
+        "options": [
           {
-            "description": "0-1 per army Archmagos",
+            "description": "Add one AM Gorgon",
             "points": "75 points"
-          },
-          {
-            "description": "Magos",
-            "points": "50 points"
-          },
-          {
-            "description": "Tech Priest Dominus",
-            "points": "50 points"
           }
         ]
       },
       {
-        "name": "Tech Priest",
+              "name": "Dune Crawlers",
+              "options": [
+                {
+                  "description": "Choose one of the following:"
+                },
+                {
+                  "description": "Add one Dune Crawler with Icarus Array",
+                  "points": "50 points"
+                },
+                {
+                  "description": "Add two Dune Crawlers with Eradication Beamer",
+                  "points": "75 points"
+                }
+              ]
+            },
+      {
+        "name": "Servitors",
         "options": [
           {
-            "description": "Add 1 Tech Priest Dominus",
+            "description": "Add four Battle Servitors",
             "points": "50 points"
           }
         ]
+    },
+        {
+          "name": "Hydra",
+          "options": [
+            {
+              "description": "Add one Hydra",
+              "points": "50 points"
+            }
+          ]
       },
       {
-        "name": "Skitarii Rangers",
+        "name": "Chimeradon",
         "options": [
           {
-            "description": "Add 1-2 Skitarii Rangers",
-            "points": "25 points each"
+            "description": "Add two Chimeradon",
+            "points": "50 points"
           }
         ]
-      },
+    },
       {
-        "name": "Transports",
+        "name": "Minoris",
         "options": [
           {
-            "description": "Add enough Chimeradons to transport the entire formation",
+            "description": "Add one Ordinatus Minoris",
+            "points": "125 points"
+          }
+        ]
+    },
+      {
+        "name": "Minoris Support Weapon",
+        "options": [
+          {
+            "description": "Upgrade one Minoris to carry a Support Weapon",
             "points": "25 points"
           }
         ]
-      },
+    },
+    {
+      "name": "Ordinatus Mars",
+      "options": [
+        {
+          "description": "Replace the Ordinatus Armageddon with an Ordinatus Mars (Sonic Disruptor)",
+          "points": "25 points"
+        }
+      ]
+  },
+  {
+    "name": "Ordinatus Golgotha",
+    "options": [
       {
-        "name": "Subterranean Assault",
-        "options": [
-          {
-            "description": "Add enough Terrax Pattern Termite Assault Drills to transport the entire formation",
-            "points": "25 points"
-          }
-        ]
-      },
-      {
-        "name": "Tech Priest",
-        "options": [
-          {
-            "description": "Add 1 Tech Preist Dominus",
-            "points": "50 points"
-          }
-        ]
+        "description": "Replace the Ordinatus Armageddon with an Ordinatus Golgotha (Hellfire Missiles)",
+        "points": "50 points"
       }
+    ]
+    },
+        {
+          "name": "Tank Hunter",
+          "options": [
+            {
+              "description": "Upgrade both Warhounds to Tank Hunter Configuration",
+              "points": "50 points"
+            }
+          ]
+        }
     ]
   }
 }

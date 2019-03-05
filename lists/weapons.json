@@ -9,14 +9,91 @@
         ]
       },
       {
-        "name": "(Battle Weapons)",
+        "name": "ARMS (choose one)",
           "modes": [
             {
             }
         ]
       },
       {
-        "name": "(Support Weapons)",
+        "name": "ARMS (choose two)",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": "ARMS (choose two. Max one 0-1)",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": "CARAPACE (choose one)",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Close Assault Configuration<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Standard Configuration<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Support Configuration<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Tank Hunter Configuration<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Ordinatus Armageddon<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Ordinatus Golgotha<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Ordinatus Mars<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Battle Weapons<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Support Weapons<",
           "modes": [
             {
             }
@@ -742,6 +819,17 @@
         }
     ]
           },
+          {
+            "name": "AA Multilaser Turret",
+            "modes": [
+              {
+                "firepower": "AP5+/AT6+/AA6+",
+                "range": 30,
+                "specialRules": [
+              ]
+              }
+          ]
+                },
     {
       "name": "Acastus Conversion Beamer",
         "modes": [
@@ -805,7 +893,7 @@
       ]
     },
     {
-      "name": "Paired Apocalypse Missile Launcher",
+      "name": "Paired Apocalypse Missile Launchers",
       "modes": [
         {
           "firepower": "6BP",
@@ -1035,7 +1123,7 @@
       ]
     },
     {
-      "name": "Barrage Missile",
+      "name": "2x Barrage Missile",
           "modes": [
             {
               "firepower": "6BP",
@@ -1211,7 +1299,19 @@
       ]
     },
     {
-      "name": "Belicosa Vulcano Cannon",
+      "name": "2x Belicosa Volcano Cannon",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 90,
+            "specialRules": [
+                "TK(D3+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Belicosa Volcano Cannon",
         "modes": [
           {
             "firepower": "MW2+",
@@ -3247,6 +3347,19 @@
       ]
     },
     {
+      "name": "Hellfire Missile",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 120,
+            "specialRules": [
+                "MW",
+                "Ind"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Hellglaives",
         "modes": [
           {
@@ -3675,10 +3788,30 @@
       ]
     },
     {
+      "name": "Lascannon Turret",
+      "modes": [
+        {
+          "firepower": "AT5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "2x Laser Blaster",
+      "modes": [
+        {
+          "firepower": "7x AP5+/AT3+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Laser Blaster",
       "modes": [
         {
-          "firepower": "6x AP5+/AT3+",
+          "firepower": "7x AP5+/AT3+",
           "range": 45,
           "specialRules": [
           ]
@@ -3689,7 +3822,7 @@
       "name": "Paired Laser Blasters",
       "modes": [
         {
-          "firepower": "12x AP5+/AT3+",
+          "firepower": "14x AP5+/AT3+",
           "range": 45,
           "specialRules": [
           ]
@@ -3790,6 +3923,17 @@
       ]
     },
     {
+          "name": "Leg Bastions",
+          "modes": [
+            {
+            "firepower": "n/a",
+            "specialRules": [
+              "Spec"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Lightning Cannon",
         "modes": [
           {
@@ -3864,7 +4008,7 @@
     ]
     },
     {
-    "name": "Paired Macro-Gatling Blaster",
+    "name": "Paired Macro-Gatling Blasters",
       "modes": [
         {
           "firepower": "10x AP4+/AT4+",
@@ -4239,6 +4383,18 @@
       ]
     },
     {
+      "name": "Nova Cannon",
+      "modes": [
+        {
+          "firepower": "4x MW2+",
+          "range": 100,
+          "specialRules": [
+            "TK(D2)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Ogryn Weapons",
         "modes": [
           {
@@ -4537,7 +4693,7 @@
       ]
     },
     {
-      "name": "Battle Titan Plasma Cannon",
+      "name": "Titan Plasma Cannon",
         "modes": [
           {
             "firepower": "3x MW2+",
@@ -4549,7 +4705,7 @@
       ]
     },
     {
-      "name": "Paired Battle Titan Plasma Cannons",
+      "name": "Paired Titan Plasma Cannons",
         "modes": [
           {
             "firepower": "6x MW2+",
@@ -4568,6 +4724,18 @@
             "range": 30,
             "specialRules": [
               "Slw"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "2x Plasma Destructor",
+        "modes": [
+          {
+            "firepower": "4x MW3+",
+            "range": 90,
+            "specialRules": [
+                "Slw"
           ]
           }
       ]
@@ -4986,6 +5154,19 @@
             "firepower": "2x AP4+/AT5+/AA5+",
             "range":45,
             "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "2x Quake Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range":120,
+            "specialRules": [
+              "MW",
+              "IC"
           ]
           }
       ]
@@ -5742,6 +5923,19 @@
       ]
     },
     {
+      "name": "Sonic Disruptor",
+        "modes": [
+          {
+            "firepower": "10BP",
+            "range": 100,
+            "specialRules": [
+                "IC",
+                "D"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Spiculus Bolt Launcher",
         "modes": [
           {
@@ -6462,7 +6656,7 @@
       ]
     },
     {
-      "name": "Paired Turbo-Laser Destructor",
+      "name": "Paired Turbo-Laser Destructors",
       "modes": [
         {
           "firepower": "8x AP5+/AT3+",
@@ -7198,7 +7392,7 @@
       ]
     },
     {
-      "name": "Vortex Missile",
+      "name": "2x Vortex Missile",
       "modes": [
         {
           "firepower": "3BP",
