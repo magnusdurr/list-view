@@ -4,23 +4,20 @@
   "version": "1.1",
   "release": "2019-02-22",
   "strategy": "Harlequin armies have a strategy rating of 4.",
-  "initiative": "Aspect Warrior formations, Titans, the Avatar and Harlequin formations have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
+  "initiative": "Aspect Warrior formations, Titans, and the Avatar have an initiative of 1+. All other formations have an initiative rating of 2+.",
 
   "specialRules": [
     "Avatar",
     "Eldar May Not Garrison",
     "Farsight",
     "Hit and Run",
-    "Holofields (x)",
     "Lance",
     "Webway Portal",
-    "Harlequin Allied Support",
-    "Masters of the Webway",
-    "Dance of Shadows",
-    "Dance of Death"
+    "Holofields (x)"
+
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
+    "The following army list allows you to field an army based on the Craftworld Lugganath, with Corsair support and Harlequin allies from the Masque of the Veiled Path."
   ],
   "units": [
     {
@@ -67,7 +64,9 @@
         "Voidweavers"
       ],
         "unitRules": [
-
+            "Masters of the Webway",
+            "Dance of Shadows",
+            "Dance of Death"
       ]
     },
     {
@@ -75,7 +74,7 @@
       "units": [
         "Nightwing Interceptor",
         "Hemlock Wraithfighters",
-        "Lugganath Vampire Hunter",
+        "Corsair Vampire Hunter",
         "Wraithship",
         "Dragonship"
       ],
@@ -85,7 +84,7 @@
 ],
 "sections": [
     {
-      "name": "Lugganath Special",
+      "name": "Craftworld Eldar Special",
       "formations": [
         {
           "name": "0-1 Avatar",
@@ -102,7 +101,7 @@
       ]
     },
     {
-      "name": "Lugganath Hosts",
+      "name": "Craftworld Lugganath Hosts",
       "description": "One Aspect Warrior Warhost per Guardian Warhost",
       "formations": [
         {
@@ -124,7 +123,7 @@
       ]
     },
     {
-      "name": "Lugganath Troupes",
+      "name": "Craftworld Lugganath Troupes",
       "description": "Up to two for each 'Lugganath Hosts' taken",
       "formations": [
         {
@@ -164,7 +163,7 @@
           "upgrades": [
             "Add three Wave Serpents 75 Points",
             "Firestorm",
-            "Add 2 Wraithlords + 125 points"
+            "Add two Wraithlords 125 points"
           ],
           "points": 200
         },
@@ -200,21 +199,21 @@
         },
         {
           "name": "0-1 Cegorath's Revenge",
-          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters units, 6 Harlequin Venoms",
+          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters units, six Harlequin Venoms",
           "upgrades": [
           ],
           "points": 350
         },
         {
           "name": "0-1 Isha's Tears",
-          "units": "One Harlequin Avatar,a one Shadowseer, four Death Jesters units, two Harlequin Troupes, 6 Harlequin Venoms",
+          "units": "One Harlequin Avatar,a one Shadowseer, four Death Jesters units, two Harlequin Troupes, six Harlequin Venoms",
           "upgrades": [
           ],
           "points": 400
         },
         {
           "name": "0-1 Dance Without End",
-          "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters units, two Mimes units, three Harlequin Troupes, 8 Harlequin Venoms",
+          "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters units, two Mimes units, three Harlequin Troupes, eight Harlequin Venoms",
           "upgrades": [
           ],
           "points": 500
@@ -222,12 +221,12 @@
       ]
     },
     {
-      "name": "Lugganath Aircraft, Spacecraft and Titans",
+      "name": "Craftworld Lugganath Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
           "name": "Nightwing Interceptors ",
-          "units": "2 Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors ",
           "upgrades": [
           ],
           "points": 225

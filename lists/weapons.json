@@ -1766,7 +1766,7 @@
       "name": "Conflagration Cannon",
         "modes": [
           {
-            "firepower": "3BP",
+            "firepower": "3x AP3+",
             "range": 30,
             "specialRules": [
               "IC"
@@ -2644,8 +2644,8 @@
       "name": "Flame Cannon",
       "modes": [
         {
-          "firepower": "2BP",
-          "range": 15,
+          "firepower": "2x AP3+",
+          "range": 30,
           "specialRules": [
             "IC"
           ]
@@ -2980,7 +2980,7 @@
             "firepower": "Assault Weapons",
             "specialRules": [
               "EA(+1)",
-              "S"
+              "MW"
               ]
           }
       ]
@@ -3003,7 +3003,8 @@
             "firepower": "Assault Weapons",
             "specialRules": [
               "EA(+1)",
-              "MW"
+              "FS",
+              "S"
               ]
           }
       ]
@@ -4196,15 +4197,6 @@
       ]
     },
     {
-      "name": "Mining Laser",
-      "modes": [
-        {
-          "firepower": "AT5+",
-          "range": 30
-        }
-      ]
-    },
-    {
       "name": "Medusa Siege Gun",
         "modes": [
           {
@@ -4256,6 +4248,27 @@
       ]
     },
     {
+      "name": "Mining Laser",
+      "modes": [
+        {
+          "firepower": "AT5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Miststave",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
           "name": "Mime Concealed Blades",
           "modes": [
             {
@@ -4301,8 +4314,9 @@
             {
             "firepower": "Assault Weapons",
             "specialRules": [
-              "EA(+2)",
-              "FS"
+              "EA(+1)",
+              "FS",
+              "S"
               ]
           }
       ]
@@ -5659,23 +5673,13 @@
       ]
     },
     {
-      "name": "Shards of Light Miststave",
-        "modes": [
-          {
-            "firepower": "Assault Weapon",
-            "specialRules": [
-              "EA(+1)",
-              "MW"
-          ]
-
-          },
-          {
-            "firepower": "Small Arms",
-            "join": "and",
-            "specialRules": [
-              "EA(+2)",
-              "FS"
-          ]
+      "name": "Shards of Light",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+2)"
+        ]
         }
       ]
     },
@@ -5683,7 +5687,7 @@
       "name": "Shieldbreaker Missiles",
         "modes": [
           {
-            "firepower": "AT2+",
+            "firepower": "AT3+",
             "range": 120,
             "specialRules": [
               "SS"
