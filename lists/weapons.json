@@ -3571,6 +3571,15 @@
       ]
     },
     {
+      "name": "Dual Icarus Stormcannons",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT5+/AA5+",
+            "range": 45
+          }
+      ]
+    },
+    {
       "name": "Infected Earthshaker Cannon",
           "modes": [
             {
@@ -4937,6 +4946,17 @@
             "range": 75,
             "specialRules": [
               "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Predator Cannon",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT6+",
+            "range": 45,
+            "specialRules": [
           ]
         }
       ]

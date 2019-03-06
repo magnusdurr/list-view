@@ -139,7 +139,7 @@
         ]
       },
       {
-        "name": "Bike",
+        "name": "Assault Bike",
         "type": "INF",
         "speed": 35,
         "armour": 4,
@@ -630,7 +630,7 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Autocannon",
+          "Predator Cannon",
           "Heavy Bolter|2"
         ]
       },
@@ -675,6 +675,21 @@
         "ff": 6,
         "weapons": [
           "Storm Bolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Stalker",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Dual Icarus Stormcannons"
         ],
         "specialRules": [
           "Transport"
@@ -813,16 +828,16 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "firepower": "14BP, MW"
+                "firepower": "10BP, MW"
               }
             ]
           }
         ],
         "specialRules": [
-          "Slow and Steady",
+          "Slow to Arrive (May only arrive from turn 2 onwards)",
           "Transport"
         ],
-        "notes": "May transport 60 infantry units, Attack Bikes, or Dreadnoughts; plus 60 armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+        "notes": "May transport forty infantry units, Attack Bikes, or Dreadnoughts; plus thirty armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
       },
       {
         "name": "Strike Cruiser",
@@ -832,7 +847,7 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "firepower": "5BP, MW"
+                "firepower": "4BP, MW"
               }
             ]
           }
@@ -840,7 +855,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport 20 infantry units, Attack Bikes, or Dreadnoughts; plus 20 light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+        "notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
       },
       {
         "name": "Drop Pod",
