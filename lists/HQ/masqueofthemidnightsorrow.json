@@ -4,7 +4,7 @@
   "version": "1.1",
   "release": "2019-02-22",
   "strategy": "Harlequin armies have a strategy rating of 4.",
-  "initiative": "Dark Eldar Kabals, Tormentor, Torture Titans, Executioner and Harlequin formations have an initiative of 1+. All other formations have an initiative rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
+  "initiative": "Dark Eldar Kabals have an initiative of 1+. All other formations have an initiative rating of 2+. Partisans and Harlequins receive a +1 modifier when attempting an engage action.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -13,14 +13,11 @@
         "Kabal Coterie",
         "Dark Eldar May not Garrison",
         "Webway Portal",
-        "Shadowfields",
-        "Harlequin Allied Support",
-        "Masters of the Webway",
-        "Dance of Shadows",
-        "Dance of Death"
+        "Shadowfields"
+
       ],
   "usage": [
-    "The following army list allows you to field an army based on the Kabal of the Bladed Lotus"
+    "The following army list allows you to field an army based on the Kabal of the Wraithkind, with Harlequin Allies from the Masque of the Midnight Sorrow."
   ],
   "units": [
     {
@@ -43,8 +40,7 @@
         "Raider",
         "Reaper",
         "Tantalus",
-        "Vessel of Pain",
-        "Tormentor Titan"
+        "Vessel of Pain"
       ],
         "unitRules": [
 
@@ -65,7 +61,9 @@
         "Voidweavers"
       ],
         "unitRules": [
-
+            "Masters of the Webway",
+            "Dance of Shadows",
+            "Dance of Death"
       ]
     },
     {
@@ -128,7 +126,7 @@
     },
     {
       "name": "Commorragh Partisans",
-      "description": "Up to two for each Bladed Lotus Kabals taken",
+      "description": "Up to two for each Commorragh Kabal taken",
       "formations": [
         {
           "name": "Haemonculi Coven",
@@ -140,7 +138,7 @@
         },
         {
           "name": "Heavy Barge",
-          "units": "One Vessell of Pain",
+          "units": "One Vessel of Pain",
           "upgrades": [
           ],
           "points": 250
@@ -175,7 +173,7 @@
     },
     {
       "name": "Harlequin Saedaths",
-      "description": "Up to one for each 'Lugganath Hosts' taken",
+      "description": "Up to one for each Commorragh Kabal taken",
       "formations": [
         {
           "name": "0-1 Serpent's Blood",
