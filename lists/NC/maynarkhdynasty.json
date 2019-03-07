@@ -58,13 +58,19 @@
 ],
 "sections": [
     {
-      "name": "Maynarkh Dynasty  Special",
+      "name": "Maynarkh Dynasty Special",
       "formations": [
         {
-          "name": "0–1 Tomb Complex",
+          "name": "0–1 per army - Tomb Complex",
           "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
 
           "points": "Free"
+        },
+        {
+          "name": "0–1 per army - Necron Overlord",
+          "units": "Replace a Necron Lord in the army with a Necron Overlord.",
+
+          "points": 75
         }
       ]
     },
