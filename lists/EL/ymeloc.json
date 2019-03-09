@@ -23,7 +23,8 @@
         "Towering Destroyer",
         "Revenant Titan",
         "Warlock Titan",
-        "Phantom Titan"
+        "Yme-Loc Phantom Titan",
+        "Fir Iolarion Phantom Titan"
 
       ],
         "unitRules": [
@@ -64,7 +65,7 @@
         },
         {
           "name": "Phantom Titan",
-          "units": "One Phantom Titan",
+          "units": "One Yme-Loc Phantom Titan or One Fir Iolarion Phantom Titan",
           "upgrades": [
             "Bonesinger"
           ],
@@ -102,11 +103,11 @@
         },
         {
           "name": "Bright Stallion Troupe",
-          "units": "Three Bright Stallion Knights",
+          "units": "Two Bright Stallion Knights",
           "upgrades": [
 
           ],
-          "points": 300
+          "points": 250
         },
         {
           "name": "Towering Destroyer",

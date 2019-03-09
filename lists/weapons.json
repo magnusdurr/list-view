@@ -999,6 +999,33 @@
       ]
     },
     {
+      "name": "Ashuna-Valcry'le",
+        "modes": [
+          {
+            "firepower": "2x MW5+",
+            "range": 30,
+            "specialRules": [
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+2)",
+              "MW"
+          ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "or",
+          "specialRules": [
+            "EA(+2)",
+            "TK(D3)"
+        ]
+      }
+      ]
+    },
+    {
       "name": "Atalan Incinerator",
           "modes": [
             {
@@ -1727,7 +1754,7 @@
         "modes": [
           {
             "firepower": "MW3+ FxF",
-            "range": 15,
+            "range": 30,
             "specialRules": [
               "TK(D6)"
           ]
@@ -2152,6 +2179,26 @@
           "range": 30,
           "specialRules": [
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Distortion Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+ FxF",
+            "range": 45,
+            "specialRules": [
+              "TK(D6)"
+          ]
+          },
+          {
+            "firepower": "3BP FxF",
+            "join": "or",
+            "specialRules": [
+              "MW",
+              "IC"
           ]
         }
       ]
@@ -6198,6 +6245,17 @@
             "firepower": "2x AP5+",
             "range":15
           }
+      ]
+    },
+    {
+      "name": "Suncannon",
+        "modes": [
+          {
+            "firepower": "4x AP4+/AT5+",
+            "range": 30,
+            "specialRules": [
+          ]
+        }
       ]
     },
     {

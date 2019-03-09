@@ -633,9 +633,9 @@
     {
       "name": "Fire Gale",
       "type": "AV-K",
-      "speed": 35,
-      "cc": 4,
-      "ff": 4,
+      "speed": 30,
+      "cc": 5,
+      "ff": 5,
       "weapons": [
         "Psychic Lance"
       ],
@@ -648,15 +648,16 @@
     {
       "name": "Bright Stallion",
       "type": "AV-K",
-      "speed": 40,
+      "speed": 35,
       "cc": 4,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Pulse Laser"
       ],
       "specialRules": [
         "Holofield (4+)",
         "Fearless",
+        "Scout",
         "Walker"
       ]
     },
@@ -785,6 +786,50 @@
         "Titan Pulsar|1-2|",
         "Eldar Titan Power Fist|0-1|",
         "Twin Eldar Missile Launcher|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Fearless",
+        "Holofield (3+)",
+        "Leader",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Phantom Titan's holofields are destroyed. Any further critical hits cause an additional point of damage."
+    },
+    {
+      "name": "Yme-Loc Phantom Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+        "Titan Pulsar|1-2|",
+        "Eldar Titan Power Fist|0-1|",
+        "Twin Eldar Missile Launcher|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Fearless",
+        "Holofield (3+)",
+        "Leader",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Phantom Titan's holofields are destroyed. Any further critical hits cause an additional point of damage."
+    },
+    {
+      "name": "Fir Iolarion Phantom Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+        "Distortion Cannon|1-2|",
+        "Ashuna-Valcry'le|0-1|",
+        "Suncannon"
       ],
       "specialRules": [
         "Damage Capacity: 6",
