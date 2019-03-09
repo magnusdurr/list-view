@@ -41,13 +41,10 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Warhound",
-        "Reaver"
-
-      ],
-      "unitRules": [
-        "Imperial Void Shields"
-      ]
+          "Warhound",
+          "Reaver Titan"
+        ],
+      "unitRules": ["Imperial Void Shields", "Independent"]
     },
 
     {
@@ -152,28 +149,22 @@
     },
     {
       "name": "Imperial Titans",
-      "description": "Up to a third of the points available may be spent on Imperial Titans, Aircraft and Spacecraft",
+      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
       "formations": [
         {
-          "name": "Warhound Titan",
-          "units": "One Warhound Class Titan",
-          "upgrades": [
-          ],
-          "points": 275
-        },
-        {
           "name": "Warhound Pack",
-          "units": "Two Warhound Class Titan",
+          "units": "Two Warhounds",
           "upgrades": [
+            "Warhound pack gains the 'Independent' special rule for +50 points."
           ],
           "points": 500
         },
         {
-          "name": "Reaver",
-          "units": "One Reaver Class Titan",
-          "upgrades": [
-          ],
-          "points": 650
+            "name": "Reaver",
+            "units": "One Reaver Titan",
+            "upgrades": [
+            ],
+            "points": 600
         }
       ]
     },
