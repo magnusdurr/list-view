@@ -39,16 +39,43 @@
     "notes": "Has 'Ore Dakka if added to a WE unit, or Power Claw if added to an INF unit"
     },
     {
+    "name": "Big Mek",
+    "type": "CH",
+    "weapons": [
+      "Kustom Blasta"
+    ],
+    "specialRules": [
+      "Supreme Commander"
+  ],
+  "notes": "Has 'Ore Dakka if added to a WE unit, or Power Claw if added to an INF unit"
+  },
+    {
       "name": "Oddboy",
       "type": "CH",
       "weapons": [
         "Supa-Zzap-Gun|0-1|",
         "Soopagun|0-1|",
-        "D3+1 Powerfields|0-1|"
+        "D3+1 Power Fields|0-1|",
+        "Weirdboy Tower|0-1|"
       ],
       "specialRules": [
-          "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3+1 power fields"
+          "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given D3+1 power fields"
       ]
+    },
+    {
+      "name": "Big Mob Oddboy",
+      "type": "CH",
+      "weapons": [
+        "Supa-Zzap-Gun|0-1|",
+        "Soopagun|0-1|",
+        "Weirdboy Tower|0-1|",
+        "D3+1 Power Fields|0-1|",
+        "'Uge Banner of Mork (or possibly Gork)|0-1|"
+      ],
+      "specialRules": [
+          "*'Uge Banner of Mork (or possibly Gork)*: The Gargant gains the Inspiring special rule (Gargants only)"
+      ],
+      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork)"
     },
     {
       "name": "Ork Wyrdboy",
@@ -349,11 +376,42 @@
       ],
       "specialRules": [
           "Damage Capacity 4",
-          "Powerfields 1D3",
+          "Power Fields 1D3",
           "Fearless",
           "Reinforced Armour",
           "Walker",
           "Armed with either three Soopaguns, or two Soopaguns and a Killa-Choppa"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Supa Stompa catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
+    },
+    {
+      "name": "Supa-Stompa ",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "'ED (choose one)",
+        "Gaze of Mork|0-1|",
+        "Flak Gun|0-1|",
+        "D3 Power Fields|0-1|",
+        "Grot-Guided Missile|0-1|FxF",
+        "ARMS (choose two)",
+        "Soopagun|0-2|FxF",
+        "Dakka Kannon|0-2|FxF",
+        "Killa-Choppa|0-2|FxF",
+        "BELLY (choose one)",
+        "Soopagun|0-1|FxF",
+        "Supa-Skorcha|0-1|FxF",
+        "Zzap-Gun|0-1|FxF"
+      ],
+      "specialRules": [
+          "Damage Capacity 4",
+          "Power Fields 1D3",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker"
       ],
       "notes": "¤Critical Hit Effect¤: The Supa Stompa catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
     },
@@ -365,17 +423,52 @@
       "cc": 4,
       "ff": 4,
       "weapons": [
+        "Big Gun",
         "Soopagun|2-3|FxF",
         "Supa-Zzap-Gun|0-1|FxF",
         "Mega-Choppa|0-1|FxF"
       ],
       "specialRules": [
           "Damage Capacity 7",
-          "Powerfields 1D3+3",
+          "Power Fields 1D3+3",
           "Fearless",
           "Reinforced Armour",
           "Walker",
           "Armed with either three Soopaguns or two Soopaguns and either Supa-Zzap-Gun or a Killa-Choppa"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
+    },
+    {
+      "name": "Gargant ",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+          "Big Gun",
+          "'ED (choose one)",
+          "Gaze of Mork|0-1|",
+          "Flak Gun|0-1|",
+          "D3 Power Fields|0-1|",
+          "Grot-Guided Missile|0-1|FxF",
+          "ARMS (choose two)",
+          "Soopagun|0-2|FxF",
+          "Dakka Kannon|0-2|FxF",
+          "Mega-Choppa|0-2|FxF",
+          "Zzap-Gun|0-2|FxF",
+          "BELLY (choose one)",
+          "Soopagun|0-1|FxF",
+          "Supa-Skorcha|0-1|FxF",
+          "Supa-Zzap-Gun|0-1|FxF",
+          "Snapper|0-1|"
+      ],
+      "specialRules": [
+          "Damage Capacity 7",
+          "Power Fields 1D3+3",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker"
       ],
       "notes": "¤Critical Hit Effect¤: The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
     },
@@ -395,7 +488,7 @@
       ],
       "specialRules": [
           "Damage Capacity 10",
-          "Powerfields 1D3+6",
+          "Power Fields 1D3+6",
           "God Machine",
           "Split Fire",
           "Fearless",
@@ -404,6 +497,68 @@
           "Armed with either two Twin Soopaguns or one Twin Soopagun and a Lifta-Droppa"
       ],
       "notes": "¤Critical Hit Effect¤: The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
+    },
+    {
+      "name": "Great Gargant ",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+          "Big Gun|2|",
+          "'ED (choose one)",
+          "Gaze of Mork|0-1|",
+          "Flak Gun|0-1|",
+          "D3 Power Fields|0-1|",
+          "Grot-Guided Missile|0-1|FxF",
+          "ARMS (choose two)",
+          "Twin Soopagun|0-2|FxF",
+          "Dakka-Dakka Kannon|0-2|FxF",
+          "Mega-Lobba|0-2|FxF",
+          "Lifta-Droppa|0-1|FxF",
+          "BELLY (choose one)",
+          "Soopagun|0-1|FxF",
+          "Supa-Skorcha|0-1|FxF",
+          "Supa-Zzap-Gun|0-1|FxF",
+          "Snapper|0-1|"
+      ],
+      "specialRules": [
+          "Damage Capacity 10",
+          "Power Fields 1D3+6",
+          "God Machine",
+          "Split Fire",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
+    },
+    {
+      "name": "Mega Gargant",
+      "type": "WE",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+          "Big Gun|4|",
+          "Gaze of Mork",
+          "Flak Gun|2|",
+          "2x Grot-Guided Missile",
+          "Twin Supa-Zzap-Gun||FwA",
+          "Soopagunz||FxF",
+          "Kombat Arms"
+      ],
+      "specialRules": [
+          "Damage Capacity 13",
+          "Power Fields 1D3+9",
+          "God Machine",
+          "Split Fire",
+          "Fearless",
+          "Reinforced Armour"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Mega Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
     },
     {
       "name": "Fighta-Bommer",
@@ -418,6 +573,21 @@
       "specialRules": [
 
       ]
+    },
+    {
+      "name": "Bommer",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+
+      "weapons": [
+        "AC Flakka-Dakka",
+        "AC Blasta Bombs||FxF"
+      ],
+      "specialRules": [
+          "Damage Capacity 2"
+      ],
+            "Notes": "¤Critical Hit Effect¤: The Bommer is destroyed"
     },
     {
       "name": "Landa",
