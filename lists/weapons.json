@@ -4230,18 +4230,6 @@
     },
     {
       "name": "Lifta-Droppa",
-        "modes": [
-          {
-            "firepower": "MW3+",
-            "range": 60,
-            "specialRules": [
-                "TK(D3)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Lifta-Droppa",
       "modes": [
         {
           "firepower": "MW3+",
@@ -4255,7 +4243,7 @@
           "join": "and",
           "specialRules": [
               "EA(+1)",
-              "TK(D3)"
+              "TK(1)"
           ]
         }
       ]
@@ -6247,12 +6235,20 @@
       "name": "Snapper",
         "modes": [
           {
-            "firepower": "Assault Weapons",
+            "firepower": "4x AP5+/AT5+",
+            "range": 45,
             "specialRules": [
-              "EA(+1)",
-              "TK(D3)"
+                "FxF"
           ]
-          }
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+                "EA(+1)",
+                "TK(D3)"
+          ]
+        }
       ]
     },
     {
