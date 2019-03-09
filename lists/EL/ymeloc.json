@@ -1,0 +1,157 @@
+{
+  "fraction": "Eldar",
+  "army": "Yme-Loc",
+  "version": "1.1",
+  "release": "2019-02-22",
+  "strategy": "Yme-Loc Eldar armies have a strategy rating of 4.",
+  "initiative": "Aspect Warrior formations, Titans and the Avatar have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
+
+  "specialRules": ["Avatar","Eldar May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal"],
+  "usage": [
+    "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Bonesinger",
+        "Wraithblade",
+        "Wraithguard",
+        "Wraithlord",
+        "Fire Gale",
+        "Bright Stallion",
+        "Towering Destroyer",
+        "Revenant Titan",
+        "Warlock Titan",
+        "Phantom Titan"
+
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nightwing Interceptor"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Yme-Loc Special",
+      "formations": [
+        {
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Eldar players half of the table with a Wraithgate, this counts as an objective marker and a webway portal which may not be attacked or damaged in any way. ",
+
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Yme-Loc Titans",
+      "description": "Choose one Yme-Loc Titan for the army. Max 1 for each 3k points",
+      "formations": [
+        {
+          "name": "Warlock Titan",
+          "units": "One Warlock Titan",
+          "upgrades": [
+            "Bonesinger"
+          ],
+          "points": 850
+        },
+        {
+          "name": "Phantom Titan",
+          "units": "One Phantom Titan",
+          "upgrades": [
+            "Bonesinger"
+          ],
+          "points": 750
+        }
+      ]
+    },
+    {
+      "name": "Yme-Loc Scout Titans",
+      "description": "Up to one Scout Titan for each 1000 points.",
+      "formations": [
+        {
+          "name": "Revenant Titan",
+          "units": "One Revenant Titan",
+          "upgrades": [
+            "Add one addtional Revenant Titan for 250 points"
+          ],
+          "points": 300
+        }
+
+      ]
+    },
+    {
+      "name": "Yme-Loc Support",
+      "description": "Up to two supports for each Scout Titan Taken.",
+      "formations": [
+
+        {
+          "name": "Fire Gale Troupe",
+          "units": "Two Fire Gale Knights",
+          "upgrades": [
+
+          ],
+          "points": 300
+        },
+        {
+          "name": "Bright Stallion Troupe",
+          "units": "Three Bright Stallion Knights",
+          "upgrades": [
+
+          ],
+          "points": 300
+        },
+        {
+          "name": "Towering Destroyer",
+          "units": "Three Towering Destroyer Knights",
+          "upgrades": [
+
+          ],
+          "points": 325
+        },
+        {
+          "name": "Spirit Troupe",
+          "units": "4 Wraithlords and 1 Spiritseer",
+          "upgrades": [
+            "Add 3 Wraithguard units for 100 points",
+            "Add 3 Wraithblade units for 100 points"
+
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Eldar Navy",
+      "description": "Up to one formation for each 1500 points.",
+      "formations": [
+        {
+          "name": "Nightwing Interceptors",
+          "units": "2 Nightwing Interceptors ",
+          "upgrades": [
+            "Add 1 Nightwing Interceptor +75 Points"
+          ],
+          "points": 225
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Yme-Loc Upgrades",
+    "description": "Each upgrade may be taken once per Formation",
+    "items": [
+      {
+        "name": "Bone Singer",
+        "description": "Add 1 Bone Singer to the a unit in the formation.",
+        "points": "free"
+      }
+    ]
+  }
+}

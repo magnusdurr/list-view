@@ -32,6 +32,17 @@
       ]
     },
     {
+      "name": "Bonesinger",
+      "type": "CH",
+      "weapons": [
+        ""
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Inspiring"
+      ]
+    },
+    {
       "name": "Seer Council",
       "type": "INF",
       "speed": 15,
@@ -615,6 +626,53 @@
       ],
       "specialRules": [
         "Holofield (4+)",
+        "Fearless",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Fire Gale",
+      "type": "AV-K",
+      "speed": 35,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Psychic Lance"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Bright Stallion",
+      "type": "AV-K",
+      "speed": 40,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Pulse Laser"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Towering Destroyer",
+      "type": "AV-K",
+      "speed": 30,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Wraith Knight Cannons"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Reinforced Armour",
         "Fearless",
         "Walker"
       ]
