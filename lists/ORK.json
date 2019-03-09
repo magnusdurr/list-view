@@ -3,10 +3,26 @@
     "name": "Ork Forces",
     "specialRules": [
       {
-        "title": "",
+            "title": "Battlefortresses and Gunfortresses",
+            "description": [
+              "Battlefortresses and Gunfortresses may only transport units from their own formation (i.e., the rules for War Engine transports do not apply to them when using the tournament army lists)."
+              ]
+
+      },
+      {
+            "title": "Power Fields",
+            "description": [
+              "Some Ork war engines are protected by banks of power fields. The number each war engine has is noted on its datasheet. Power fields work in exactly the same manner as Imperial Void Shields (see Imperial Void Shields), with the sole exception that they may not be repaired once they have been knocked down by a hit, and will instead remain down for the remainder of the battle. In the case of a variable amount of power fields, roll for them straight after the formation is deployed on the table or offboard."
+              ]
+
+      },
+      {
+        "title": "Super-Expendable",
         "description": [
-          ""
-        ]
+          "A formation does not receive a Blast marker when a unit with super-expendable is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. If a super-expendable unit is hit by a weapon with disrupt it does not inflict a Blast marker.",
+          "Super-expendable units killed in an assault do not count when working out the result.",
+          "If a formation is comprised completely of expendable and/or super-expendable units then they do not benefit from any of the rules above."
+          ]
       }
     ],
     "unit": [
@@ -19,6 +35,19 @@
       ],
       "specialRules": [
         "Supreme Commander"
+    ],
+    "notes": "Has 'Ore Dakka if added to a WE unit, or Power Claw if added to an INF unit"
+    },
+    {
+      "name": "Oddboy",
+      "type": "CH",
+      "weapons": [
+        "Supa-Zzap-Gun|0-1|",
+        "Soopagun|0-1|",
+        "D3+1 Powerfields|0-1|"
+      ],
+      "specialRules": [
+          "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3+1 power fields"
       ]
     },
     {
@@ -86,6 +115,348 @@
       ]
     },
     {
+      "name": "Big Gunz",
+      "type": "INF",
+      "speed": 10,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+          "Big Gun"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Kommandos",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Big Shoota"
+      ],
+      "specialRules": [
+          "Infiltrators",
+          "Scout"
+      ]
+    },
+    {
+      "name": "Stormboyz",
+      "type": "INF",
+      "speed": 30,
+      "armour": 6,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Shootas"
+      ],
+      "specialRules": [
+          "Jump Packs",
+          "Scout"
+      ]
+    },
+    {
+      "name": "Warbikes",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Twin Sawn-Off Big Shootas"
+      ],
+      "specialRules": [
+          "Mounted"
+      ]
+    },
+    {
+      "name": "Deth Kopta",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Twin Big Shoota"
+      ],
+      "specialRules": [
+          "Skimmer"
+      ]
+    },
+    {
+      "name": "Warbuggy",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Twin Big Shoota"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Skorcha",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Skorcha"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Battlewagon",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Twin Big Shoota|2|"
+      ],
+      "specialRules": [
+          "Transport: Two INF units without mounted or Jump Packs. Big Gunz takes two spaces each. May carry one unit of Grotz in addition to any other units transported"
+      ]
+    },
+    {
+      "name": "Gunwagon",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Big Gun"
+      ],
+      "specialRules": [
+          "Transport: One unit of Boyz, Nobz, Kommandos or Grotz"
+      ]
+    },
+    {
+      "name": "Flakwagon",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Flak Gun"
+      ],
+      "specialRules": [
+          "Transport: One unit of Boyz, Nobz, Kommandos or Grotz"
+      ]
+    },
+    {
+      "name": "Killa Kan",
+      "type": "AV",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 6,
+      "weapons": [
+        "Big Shoota",
+        "Kombat Klaws"
+      ],
+      "specialRules": [
+          "Walker"
+      ]
+    },
+    {
+      "name": "Dreadnought",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Big Shoota|2|",
+        "Kombat Klaws"
+      ],
+      "specialRules": [
+          "Walker"
+      ]
+    },
+    {
+      "name": "Stompa",
+      "type": "AV-K",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Big Gun|2-3|",
+        "Kombat 'Ammer|0-1|"
+      ],
+      "specialRules": [
+          "Reinforced Armour",
+          "Walker"
+      ],
+      "notes": "Armed with either three Big Gunz, or two Big Guns and a Kombat 'Ammer"
+    },
+    {
+      "name": "Battlefortress",
+      "type": "WE",
+      "speed": 30,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Twin Big Shoota|4|",
+        "Big Gun"
+      ],
+      "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Transport: Eight Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry four units of Grotz in addition to any other units transported"
+      ],
+      "notes": "¤Critical Hit Effect¤: Move the Battlefortress D6 cm in a random direction, all units moved over or contacted it suffer a hit. The Battlefortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
+    },
+    {
+      "name": "Gunfortress",
+      "type": "WE",
+      "speed": 30,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Twin Big Shoota|5|",
+        "Big Gun|3|"
+      ],
+      "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Transport: Four Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry two units of Grotz in addition to any other units transported"
+      ],
+      "notes": "¤Critical Hit Effect¤: Move the Gunfortress D6 cm in a random direction, all units moved over or contacted it suffer a hit. The Gunfortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
+    },
+    {
+      "name": "Supa-Stompa",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Gaze of Mork",
+        "Soopagun|2-3|FxF",
+        "Killa-Choppa|0-1|FxF"
+      ],
+      "specialRules": [
+          "Damage Capacity 4",
+          "Powerfields 1D3",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Armed with either three Soopaguns, or two Soopaguns and a Killa-Choppa"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Supa Stompa catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
+    },
+    {
+      "name": "Gargant",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Soopagun|2-3|FxF",
+        "Supa-Zzap-Gun|0-1|FxF",
+        "Mega-Choppa|0-1|FxF"
+      ],
+      "specialRules": [
+          "Damage Capacity 7",
+          "Powerfields 1D3+3",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Armed with either three Soopaguns or two Soopaguns and either Supa-Zzap-Gun or a Killa-Choppa"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
+    },
+    {
+      "name": "Great Gargant",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Gaze of Mork",
+        "Big Gun|2|",
+        "Soopagun||FxF",
+        "Twin Soopagun|1-2|FxF",
+        "Lifta-Droppa|0-1|FxF"
+      ],
+      "specialRules": [
+          "Damage Capacity 10",
+          "Powerfields 1D3+6",
+          "God Machine",
+          "Split Fire",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Armed with either two Twin Soopaguns or one Twin Soopagun and a Lifta-Droppa"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and blast markers like normal damage."
+    },
+    {
+      "name": "Fighta-Bommer",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 6,
+
+      "weapons": [
+        "AC Twin Big Shoota||FxF",
+        "AC Tankbusta Rokkits||FxF"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Landa",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "AC Flakka-Dakka Turrets",
+        "AC Tankbusta Rokkits|2|FxF"
+      ],
+      "specialRules": [
+          "Damage Capacity 3",
+          "Planetfall",
+          "Reinforced Armour",
+          "Transport: Ten Killa Kans, Warbikes, Boyz, Nobz, Kommandos, Stormboyz, Grotz. Big Gunz, Warbuggies, Skorchas, Dreadnoughts takes two spaces each. May carry fout units of Grotz in addition to any other units transported"
+      ],
+      "Notes": "¤Critical Hit Effect¤: The Landa and all units being transported are destroyed"
+    },
+    {
+      "name": "Kill Kroozer",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 1D6+1BP"
+    ]
+    },
+    {
+      "name": "Battlekroozer",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 1D6+4BP"
+    ],
+    "specialRules": [
+        "Slow to arrive (may only arrive from turn 2 onwards)",
+        "Transport: May transport 12 Landas and the units carried on them"
+    ]
+    },
+    {
       "name": "Ork Wildboyz",
       "type": "INF",
       "speed": 15,
@@ -96,6 +467,7 @@
         "Choppas"
       ],
       "specialRules": [
+          "Mounted"
 
       ]
     },
@@ -151,7 +523,7 @@
       "cc": 5,
       "ff": 6,
       "weapons": [
-      "Big Shootas"
+      "Big Shoota"
       ],
       "specialRules": [
         "Transport (may carry one of the following units: Boyz, Nobz, Wildboyz. May carry one Grotz in addition to any other units)."
@@ -165,7 +537,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Twin Big Shootas|2|",
+        "Twin Big Shoota|2|",
         "Teeth and Horns",
         "Big Gun"
       ],
@@ -183,7 +555,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Twin Big Shootas|4|",
+        "Twin Big Shoota|4|",
         "Goring Tusks",
         "Big Gun|2|"
       ],
@@ -203,15 +575,15 @@
       "ff": 4,
       "weapons": [
         "Fist of Gork",
-        "Soopaguns|0-2|",
-        "Mega-choppa|0-2|"
+        "Soopagun|0-2|FxF",
+        "Mega-Choppa|0-2|FxF"
       ],
       "specialRules": [
         "Damage Capacity: 4",
         "Fearless",
         "Reinforced Armour",
         "Walker",
-        "May be armed with 2 Soopagun or 1 Soopagun and 1 Mega-choppa or 2 Mega-Choppa."
+        "May be armed with either 2 Soopaguns, or 1 Soopagun and 1 Mega-Choppa, or 2 Mega-Choppa."
       ],
       "notes": "Critical Hit Effect: The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 2D6cm of the model suffer a hit."
     }
