@@ -15,12 +15,16 @@
       "from": "EL.json",
       "units": [
         "Bonesinger",
+        "Spiritseer",
         "Wraithblade",
         "Wraithguard",
         "Wraithlord",
         "Fire Gale",
         "Bright Stallion",
         "Towering Destroyer",
+        "Scorpion",
+        "Cobra",
+        "Storm Serpent",
         "Revenant Titan",
         "Warlock Titan",
         "Yme-Loc Phantom Titan",
@@ -118,11 +122,19 @@
           "points": 325
         },
         {
+          "name": "Engine of Vaul Troupe",
+          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
+          "upgrades": [
+            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+          ],
+          "points": 250
+        },
+        {
           "name": "Spirit Troupe",
-          "units": "4 Wraithlords and 1 Spiritseer",
+          "units": "Four Wraithlords and One Spiritseer",
           "upgrades": [
             "Add 3 Wraithguard units for 100 points",
-            "Add 3 Wraithblade units for 100 points"
+            "Add 3 Wraithblade units for 75 points"
 
           ],
           "points": 250
