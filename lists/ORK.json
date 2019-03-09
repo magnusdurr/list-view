@@ -77,6 +77,18 @@
       ],
       "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork)"
     },
+  {
+    "name": "Speed Freek Oddboy",
+    "type": "CH",
+    "weapons": [
+      "D3+1 Power Fields|0-1|",
+      "Deff-Rolla and Red Paint Job|0-1|",
+      "Lifta-Droppa|0-1|"
+    ],
+    "specialRules": [
+        "The unit is either given D3+1 power fields, replaces a Big Gun with a Lifta Droppa, or is equipped with a Deff-Rolla (Improve CC to 2+) and Red Pain Job (+5 cm movement)."
+    ]
+  },
     {
       "name": "Ork Wyrdboy",
       "type": "CH",
@@ -142,6 +154,22 @@
       ]
     },
     {
+      "name": "Nob Warbikes",
+      "type": "INF",
+      "speed": 35,
+      "armour": 4,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Big Shoota|2|",
+        "Big Choppas"
+      ],
+      "specialRules": [
+        "Leader",
+        "Mounted"
+      ]
+    },
+    {
       "name": "Big Gunz",
       "type": "INF",
       "speed": 10,
@@ -198,6 +226,21 @@
       ]
     },
     {
+      "name": "Warbike Outriders",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Twin Sawn-Off Big Shootas"
+      ],
+      "specialRules": [
+          "Mounted",
+          "Scout"
+      ]
+    },
+    {
       "name": "Deth Kopta",
       "type": "LV",
       "speed": 35,
@@ -238,6 +281,20 @@
       ]
     },
     {
+      "name": "Mekboy Speedsta",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Kustom Kannon"
+      ],
+      "specialRules": [
+          "D3 Power Fields"
+      ]
+    },
+    {
       "name": "Battlewagon",
       "type": "AV",
       "speed": 30,
@@ -263,6 +320,19 @@
       ],
       "specialRules": [
           "Transport: One unit of Boyz, Nobz, Kommandos or Grotz"
+      ]
+    },
+    {
+      "name": "Spleenrippa",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Battle Cannon"
+      ],
+      "specialRules": [
       ]
     },
     {
@@ -570,6 +640,19 @@
       ]
     },
     {
+      "name": "Speed Freek Fighta",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+
+      "weapons": [
+        "AC Twin Big Shoota|2|FxF"
+      ],
+      "specialRules": [
+          "Invulnerable Save"
+      ]
+    },
+    {
       "name": "Bommer",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -607,7 +690,7 @@
       "name": "Kill Kroozer",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 1D6+1BP"
+        "Orbital Bombardment 1D6BP"
     ]
     },
     {
@@ -619,6 +702,15 @@
     "specialRules": [
         "Slow to arrive (may only arrive from turn 2 onwards)",
         "Transport: May transport 12 Landas and the units carried on them"
+    ]
+    },
+    {
+      "name": "Evil Sunz Battlekroozer",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 1D6+3BP"
+    ],
+    "specialRules": [
     ]
     },
     {

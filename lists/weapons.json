@@ -115,10 +115,32 @@
         ]
       },
       {
+        "name": "Orbital Bombardment 1D6BP",
+        "modes": [
+          {
+            "firepower": "1D6BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
         "name": "Orbital Bombardment 1D6+1BP",
         "modes": [
           {
             "firepower": "1D6+1BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 1D6+3BP",
+        "modes": [
+          {
+            "firepower": "1D6+3BP",
             "specialRules": [
               "MW"
           ]
@@ -2227,6 +2249,17 @@
       ]
     },
     {
+      "name": "Deff-Rolla and Red Paint Job",
+      "modes": [
+        {
+          "firepower": "n/a",
+          "specialRules": [
+              "Spec"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Devourer Cannon",
       "modes": [
         {
@@ -4047,6 +4080,17 @@
             "specialRules": [
                 "EA(+1)",
                 "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kustom Kannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 45,
+            "specialRules": [
           ]
           }
       ]
