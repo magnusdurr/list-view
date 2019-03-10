@@ -805,12 +805,68 @@
 
 
 
+
+
+
+
+    {
+      "title": "Synapse",
+      "description": [
+        "The following rules applies to Primary and Secondary Synapse Swarm formations only. Synapse creatures are any unit with the 'Synapse' special rule. A Synapse Swarm with no remaining Synapse creatures has an initiative of 3+ and may neither capture nor contest objectives, including They Shall Not Pass.",
+        "A Synapse Swarm with remaining Synapse creatures can absorb other synapse swarm formations with no remaining Synapse creatures at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and blast markers of an absorbed formation become part of the formation. An absorbed formation is considered completely destroyed for the purposes of tiebreak and the Break Their Spirit objective."
+      ]
+    },
+    {
+      "title": "Hive Mind Locus",
+      "description": [
+        "As long as the Tyranid army still contains a Dominatrix and/or an Dagon Overlord it may re-roll a single failed Initiative test (of any type) once per turn (unless all models with Hive Mind Locus are located offboard).",
+        "Hive Mind Locus also allows for the removal of an additional blast marker when rallying.",
+        "Formations with at least one model with Hive Mind Locus ignores the -2 modifier for being broken when it is attempting to rally"
+      ]
+    },
+    {
+      "title": "Shoot the Big Ones!",
+      "description": [
+        "The enemies of the Tyranids have learned that destroying the Hive Mind's Synapse Creatures will cause Tyranid swarms to become disorganized. For this reason certain units which normally would be Infantry are instead Light Vehicles."
+      ]
+    },
     {
       "title": "Extreme Mobility",
       "description": [
         "Tyranid Armoured Vehicles and War Engines units do not take dangerous terrain tests. Tyranid Light Vehicles move through terrain and receive cover as if they were infantry. Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally."
       ]
     },
+    {
+      "title": "Gaunts",
+      "description": [
+        "Termagaunts, Hormagaunts, Dagon Gargoyles and Raveners that are killed in an assault do not count for combat resolution as long as the controlling Tyranid player initiated the assault and there is at least one model with Dagon Synapse still present in the formation. "
+      ]
+    },
+    {
+      "title": "Tunnelers",
+      "description": [
+        "Tunnellers are set up touching their own side's table edge before the battle starts at the same time that spacecraft are set up (see 4.3.1). Any units transported in tunnellers should be placed to one side at this time too. Secretly write down the location where the tunneller will surface at the same time and in the same manner that you record the coordinates of a drop zone (see 4.3.1). You must also secretly record the turn the tunneller will surface. If it is going to surface in your half of the table it may arrive from the second turn onwards. If it is going to surface in the opposing half of the table, it may arrive from turn three onwards.",
+        "Set up the tunneller units at the start of the stated turn, before determining who wins the strategy roll, at the location you wrote down. Surfacing does not count as movement for the purposes of triggering enemy overwatch fire. If a tunneller would have surfaced on terrain that is impassable for it, under a friendly unit, or in an enemy zone of control, then it is assumed that on-board sensor equipment would divert it towards another entry point. The unit should be moved to the nearest area where it can surface.",
+        "Formations of multiple tunnellers need only record one location where they will surface. Place the first tunneller unit at this location. All other tunneller units must be placed within 5cm of another tunneller unit that has already been placed and fully within a 15cm radius of the original surfacing coordinates. After all tunnellers have been placed any units being transported are allowed to disembark immediately. Disembarking triggers overwatch fire as normal. Tunnellers, and any units being transported in them, may take an action on the turn they appear."
+      ]
+    },
+    {
+      "title": "Vanguard Organisms",
+      "description": [
+        "Only Genestealers, Lictors and Nest Swarms may deploy as garrisons."
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
