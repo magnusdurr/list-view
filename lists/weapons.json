@@ -9,6 +9,13 @@
         ]
       },
       {
+        "name": "and one of the following",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
         "name": "'ED (choose one)",
           "modes": [
             {
@@ -2285,6 +2292,25 @@
       ]
     },
     {
+      "name": "Cyclops Demolition Charge",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "TK(1)"
+          ]
+          },
+          {
+            "firepower": "Assault Weapon 1BP",
+            "join": "or",
+            "specialRules": [
+              "MW",
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "D-Scythes",
         "modes": [
           {
@@ -4036,6 +4062,19 @@
       ]
     },
     {
+      "name": "Hunter-killer missile",
+        "modes": [
+          {
+            "firepower": "AT2+",
+            "range": 75,
+            "specialRules": [
+              "SS"
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Hunter Missiles",
         "modes": [
           {
@@ -4881,6 +4920,17 @@
     },
     {
       "name": "Melta Guns",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Melta-Gun",
         "modes": [
           {
             "firepower": "Small Arms",
@@ -6275,6 +6325,19 @@
             "range": 30,
             "specialRules": [
               "D"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Rocket Pod",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 30,
+            "specialRules": [
+              "Ind"
 
           ]
           }
@@ -7806,6 +7869,22 @@
       ]
     },
     {
+      "name": "Twin Heavy Flamer",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 15
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Twin Heavy Phosphor Blaster",
         "modes": [
           {
@@ -7963,6 +8042,18 @@
           "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Twin Linked Multilaser",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
+            "range":30,
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {

@@ -29,6 +29,10 @@
     {
       "name": "Steel Legion Supreme Commander",
       "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Power Weapon",
         "Autocannon"
@@ -80,6 +84,35 @@
       ],
       "specialRules": [
         "Supreme Commander"
+      ]
+    },
+    {
+      "name": "Elysian Supreme Commander",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Power Weapon",
+        "Autocannon"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
+      "name": "Elysian Commander",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Autocannon"
+      ],
+      "specialRules": [
+        "Commander"
       ]
     },
     {
@@ -234,6 +267,21 @@
         "Lasguns"
       ],
       "specialRules": [
+      ]
+    },
+    {
+      "name": "Elysian Drop Troops",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Melta-Gun",
+        "Lasguns"
+      ],
+      "specialRules": [
+        "One in every two units has a Meltagun"
       ]
     },
     {
@@ -549,6 +597,72 @@
       "specialRules": [
         "Scout",
         "Walker"
+      ]
+    },
+    {
+      "name": "Support Sentinel",
+      "type": "LV",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Bolter|0-1",
+        "Heavy Flamer|0-1",
+        "and one of the following",
+        "Hunter-killer missile|0-1",
+        "Multi Melta|0-1",
+        "Rocket Pod|0-1"
+
+      ],
+      "specialRules": [
+        "Scout",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Tauros Transports",
+      "type": "LV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Heavy Flamer"
+      ],
+      "specialRules": [
+        "Scout",
+        "Walker",
+        "Transport: May Transport 1 Infantry unit."
+      ]
+    },
+    {
+      "name": "Tauros Venators",
+      "type": "LV",
+      "speed": 30,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Linked Multilaser"
+      ],
+      "specialRules": [
+        "Walker",
+        "Transport: May Transport 1 Infantry unit."
+      ]
+    },
+    {
+      "name": "Cyclops Demolition Vehicles",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 4,
+      "weapons": [
+        "Cyclops Demolition Charge"
+      ],
+      "specialRules": [
+        "Walker",
+        "Cyclops Demolition Vehicle"
       ]
     },
     {
@@ -914,6 +1028,22 @@
         "Skimmer",
         "Scout",
         "Transport (May carry 2 infantry units without jump pack or mounted)"
+      ]
+    },
+    {
+      "name": "Sky Talon",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multilaser|2"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Elysian Deepstrike",
+        "Transport: May Transport either up to 4 Support Sentinels, 2 Tauros units, 2 Tauros Venator or 6 Cyclops Demolition Vehicles"
       ]
     },
     {
