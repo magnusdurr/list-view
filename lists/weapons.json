@@ -1263,7 +1263,7 @@
       ]
     },
     {
-      "name": "Baneblade Battlecannon",
+      "name": "Baneblade Cannon",
           "modes": [
             {
               "firepower": "AP3+/AT3+",
@@ -1340,6 +1340,16 @@
           "firepower": "Assault Weapons",
           "specialRules": [
             "FS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bayonets",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
           ]
         }
       ]
@@ -2767,6 +2777,22 @@
             },
             {
               "firepower": "1BP",
+              "join": "or",
+              "specialRules": [
+                "Ind"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Earthshaker Cannon",
+          "modes": [
+            {
+              "firepower": "AP3+/AT3+",
+              "range": 120
+            },
+            {
+              "firepower": "2BP",
               "join": "or",
               "specialRules": [
                 "Ind"
@@ -4731,6 +4757,17 @@
             "specialRules": [
                 "EA(+2)",
                 "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master-Crafted Weapons",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)"
           ]
         }
       ]

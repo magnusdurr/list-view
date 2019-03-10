@@ -3,10 +3,10 @@
   "army": "Steel Legion",
   "version": "1.11",
   "release": "2019-02-22",
-  "strategy": "Steel Legion armies have a stratergy rating of 2.",
-  "initiative": "All formations have a initiative rating of 2+. All Imerial Titans have an initiative rating 1+.",
+  "strategy": "Steel Legion armies have a strategy rating of 2.",
+  "initiative": "All Imperial Titans have an initiative of 1+. All other formations have an initiative of 2+.",
 
-  "specialRules": ["Commissars"],
+  "specialRules": ["Commissars", "Lord Commissar"],
   "usage": [
     "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
   ],
@@ -68,6 +68,7 @@
         "Emperor Class Battleship"
       ],
         "unitRules": [
+            "God Machine Killer (GMK)"
       ]
     }
 ],
@@ -110,7 +111,7 @@
         },
         {
           "name": "Artillery Company",
-          "units": "Six Basilisk or Six Manticore and nine gun emlpacements.",
+          "units": "Six Basilisk or six Manticore and six Gun Emplacements.",
           "upgrades": [
             "*Only the Flak Upgrade may be added to a Artillery Company."
           ],
@@ -126,7 +127,7 @@
           "name": "0–1 Deathstrike Battery",
           "units": "Two Deathstrikes",
           "upgrades": [
-            "May add gun emplacements for +25 points"
+            "May add Gun Emplacements for +25 points"
           ],
           "points": 200
         },
@@ -134,23 +135,23 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks or Manticores",
           "upgrades": [
-            "May add gun emplacements for +25 points"
+            "May add Gun Emplacements for +25 points"
           ],
           "points": 250
         },
         {
           "name": "Bombard Battery",
-          "units": "Three Bombards ",
+          "units": "Three Bombards",
           "upgrades": [
-            "May add gun emplacements for +25 points"
+            "May add Gun Emplacements for +25 points"
           ],
           "points": 225
         },
         {
           "name": "Flak Battery",
-          "units": "Three Hydras ",
+          "units": "Three Hydras",
           "upgrades": [
-            "May add gun emplacements for +25 points"
+            "May add Gun Emplacements for +25 points"
           ],
           "points": 150
         },
@@ -180,10 +181,10 @@
         },
         {
           "name": "Tempestus Scions",
-          "units": "Eight Tempestus Scions and One Tempestor",
+          "units": "Eight Tempestus Scions and one Tempestor",
           "points": 200,
           "upgrades": [
-              "Add 4 Taurox OR Add 4 Valkyries +150 points"
+              "Add four Taurox OR Add four Valkyries +150 points"
           ]
         }
       ]
@@ -215,20 +216,20 @@
       "formations": [
         {
           "name": "Thunderbolt Squadron",
-          "units": "2 Thunderbolt Strike Fighters",
+          "units": "Two Thunderbolt Strike Fighters",
           "points": 150
         },
         {
           "name": "Maurader Squadron",
-          "units": "2 Maruder Bombers",
+          "units": "Two Maruder Bombers",
           "points": 225
         },
         {
           "name": "0–1 Orbital Support",
-          "units": "Lunar Class Cruiser",
+          "units": "One Lunar Class Cruiser",
           "points": 150,
           "upgrades": [
-              "Replace with Emperor Class Battleship for +50 points"
+              "Replace with an Emperor Class Battleship for +50 points"
           ]
         }
       ]

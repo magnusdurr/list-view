@@ -5,7 +5,6 @@
       {
         "title": "",
         "description": [
-          "Template"
         ]
       }
     ],
@@ -40,6 +39,21 @@
     },
     {
       "name": "Baran Siegemaster",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Power Weapon",
+        "Twin Heavy Stubbers"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
+      "name": "DKoK Supreme Commander",
       "type": "INF",
       "speed": 15,
       "armour": 5,
@@ -103,7 +117,23 @@
       "name": "Baran Commander",
       "type": "INF",
       "speed": 15,
-      "cc": 6,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Power Weapon",
+        "Twin Heavy Stubbers"
+      ],
+      "specialRules": [
+        "Commander"
+      ]
+    },
+    {
+      "name": "DKoK Commander",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
       "ff": 5,
       "weapons": [
         "Power Weapon",
@@ -143,13 +173,13 @@
       "type": "CH",
       "weapons": [
         "Power Weapon",
-        "Melta Gun"
+        "Master-Crafted Weapons"
       ],
       "specialRules": [
         "Leader",
         "Inspiring",
         "Fearless",
-        "Has Melta Gun if attached to a WE, AV or LV unit, or Power Weapon if attached to an INF unit"
+        "Has Master-Crafted Weapons if attached to a WE, AV or LV unit, or Power Weapon if attached to an INF unit"
       ]
     },
     {
@@ -157,13 +187,12 @@
       "type": "CH",
       "weapons": [
         "Power Weapon",
-        "Melta Gun"
+        "Master-Crafted Weapons"
       ],
       "specialRules": [
         "Leader",
         "Inspiring",
-        "Has Melta Gun if attached to a WE, AV or LV unit, or Power Weapon if attached to an INF unit",
-        "All units in a formation joined by a Lord Commissar gain Fearless. If the Lord Commissar is killed then all these units lose Fearless and the formation receives an additional D3 Blast markers."
+        "Has Master-Crafted Weapons to a WE, AV or LV unit, or Power Weapon if attached to an INF unit"
       ]
     },
 
@@ -189,6 +218,19 @@
       "ff": 5,
       "weapons": [
         "Heavy Stubber",
+        "Lasguns"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Assault Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Bayonets",
         "Lasguns"
       ],
       "specialRules": [
@@ -288,6 +330,23 @@
       ]
     },
     {
+      "name": "Death Riders",
+      "type": "INF",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Laspistols",
+        "Hunting Lances"
+      ],
+      "specialRules": [
+        "Infiltrator",
+        "Mounted",
+        "Walker"
+      ]
+    },
+    {
       "name": "Rough Riders",
       "type": "INF",
       "speed": 20,
@@ -379,6 +438,19 @@
       ]
     },
     {
+      "name": "Grenadiers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Heavy Flamer"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
       "name": "Sappers",
       "type": "INF",
       "speed": 15,
@@ -450,6 +522,21 @@
       ]
     },
     {
+      "name": "Cadian Sentinel",
+      "type": "LV",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Autocannon"
+      ],
+      "specialRules": [
+        "Scout",
+        "Walker"
+      ]
+    },
+    {
       "name": "Sentinel",
       "type": "LV",
       "speed": 20,
@@ -492,6 +579,7 @@
 
       ]
     },
+
     {
       "name": "Basilisk",
       "type": "AV",
@@ -591,6 +679,34 @@
       ]
     },
     {
+      "name": "Earthshaker Gun",
+      "type": "LV",
+      "speed": "Immobile",
+      "armour": 6,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Earthshaker Cannon"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Trojan",
+      "type": "LV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+          "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Transport: One Earthshaker Gun, Heavy AA Gun or Medusa Gun"
+      ]
+    },
+    {
       "name": "Medusa Gun",
       "type": "LV",
       "speed": "Immobile",
@@ -664,7 +780,7 @@
       "cc": 6,
       "ff": 3,
       "weapons": [
-        "Inferno Cannon", "Heavy Stubber|3|"
+        "Inferno Cannon", "Heavy Bolter"
       ],
       "specialRules": [
           "Walker"
@@ -722,6 +838,20 @@
       "ff": 4,
       "weapons": [
         "Battle Cannon", "Lascannon", "Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Thunderer",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Demolisher Cannon"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -835,7 +965,7 @@
       ]
     },
     {
-      "name": "Crassus Amoured Assaults",
+      "name": "Crassus Amoured Assault Transport",
       "type": "AV-K",
       "speed": "20cm",
       "armour": 5,
@@ -849,6 +979,59 @@
         "Reinforced Armour",
         "Transport: May transport 4 infantry units without jumppack or mounted"
       ]
+    },
+    {
+      "name": "Minotaur",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Twin Earthshaker Cannon||FxF"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Reinforced Armour"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Minotaur is destroyed"
+    },
+    {
+      "name": "Macharius",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Battle Cannon|2|",
+        "Twin Heavy Stubbers",
+        "Heavy Bolters|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Reinforced Armour"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+    },
+    {
+      "name": "Macharius Command",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Vanquisher Cannon|0-2|",
+        "Vulcan Mega-Bolter|0-1|",
+        "Twin Heavy Stubbers",
+        "Heavy Bolters|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Reinforced Armour"
+      ],
+      "notes": "Must be equipped with either two Vanquisher Cannons or one Vulcan Mega-Bolter. ¤Critical Hit Effect¤: The Macharius is destroyed"
     },
     {
       "name": "Baran Macharius",
@@ -895,14 +1078,14 @@
       "ff": 5,
       "weapons": [
         "Gorgon Mortars",
-        "Twin Heavy Stubbers"
+        "Twin Heavy Stubbers|2|"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
         "Transport (May carry 10 infantry units without jump pack or mounted)"
       ],
-      "notes": "Critical Hit Effect: The Gorgon is immobilized, and D3 transported units takes a hit. Subsequent critical hits destroys the Gorgon."
+      "notes": "Critical Hit Effect: The Gorgon takes one damage, and D3 transported units takes a hit. Subsequent critical hits destroys the Gorgon."
     },
     {
       "name": "Leviathan Mobile Command Center",
@@ -933,7 +1116,7 @@
       "cc": 6,
       "ff": 3,
       "weapons": [
-        "Baneblade Battlecannon",
+        "Baneblade Cannon",
         "Autocannon",
         "Demolisher",
         "Lascannon|2",
@@ -960,9 +1143,9 @@
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
-        "Transport: May transport 8 infantry units without jumppack or mounted, 4 may fire from the firing deck and FF in assaults."
+        "Transport: May transport 8 infantry units without jumppack or mounted, 4 may fire from the firing deck and FF in assaults"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "notes": "Critical Hit Effect: The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit"
     },
     {
       "name": "Shadowsword",
