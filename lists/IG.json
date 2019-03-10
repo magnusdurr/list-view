@@ -12,7 +12,7 @@
     "unit": [
     {
       "name": "Catachan Supreme Commander",
-      "type": "CH",
+      "type": "INF",
       "weapons": [
         "Power Weapon",
         "Heavy Flamer"
@@ -25,7 +25,7 @@
     },
     {
       "name": "Steel Legion Supreme Commander",
-      "type": "CH",
+      "type": "INF",
       "weapons": [
         "Power Weapon",
         "Autocannon"
@@ -35,8 +35,23 @@
       ]
     },
     {
+      "name": "Baran Siegemaster",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Power Weapon",
+        "Twin Heavy Stubbers"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
       "name": "Cadian Supreme Commander",
-      "type": "CH",
+      "type": "INF",
       "weapons": [
         "Power Weapon",
         "Autocannon"
@@ -47,7 +62,7 @@
     },
     {
       "name": "Catachan Commander",
-      "type": "CH",
+      "type": "INF",
       "weapons": [
         "Power Weapon",
         "Heavy Flamer"
@@ -60,7 +75,7 @@
     },
     {
       "name": "Steel Legion Commander",
-      "type": "CH",
+      "type": "INF",
       "weapons": [
         "Autocannon"
       ],
@@ -69,8 +84,22 @@
       ]
     },
     {
+      "name": "Baran Commander",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Power Weapon",
+        "Twin Heavy Stubbers"
+      ],
+      "specialRules": [
+        "Commander"
+      ]
+    },
+    {
       "name": "Cadian Commander",
-      "type": "CH",
+      "type": "INF",
       "weapons": [
         "Autocannon"
       ],
@@ -80,7 +109,7 @@
     },
     {
       "name": "Tempestor",
-      "type": "CH",
+      "type": "INF",
       "weapons": [
         "Plasma Gun"
       ],
@@ -129,7 +158,20 @@
         "Lasguns"
       ],
       "specialRules": [
-        "One in every two has an Autocannon"
+        "One in every two units has an Autocannon"
+      ]
+    },
+    {
+      "name": "Siege Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Stubber",
+        "Lasguns"
+      ],
+      "specialRules": [
       ]
     },
     {
@@ -171,6 +213,7 @@
       "specialRules": [
       ]
     },
+
     {
       "name": "Catachan Missile Team",
       "type": "INF",
@@ -201,6 +244,30 @@
       ]
     },
     {
+      "name": "Thudd Gun",
+      "type": "INF",
+      "speed": 10,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Thudd Gun"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Rapier",
+      "type": "INF",
+      "speed": 10,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Rapier Laser Destroyer"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
       "name": "Rough Riders",
       "type": "INF",
       "speed": 20,
@@ -219,7 +286,7 @@
       ]
     },
     {
-      "name": "Catachan Sniper",
+      "name": "Catachan Snipers",
       "type": "INF",
       "speed": 15,
 
@@ -234,7 +301,7 @@
       ]
     },
     {
-      "name": "Sniper",
+      "name": "Snipers",
       "type": "INF",
       "speed": 15,
 
@@ -279,7 +346,7 @@
       ]
     },
     {
-      "name": "Kasrkin",
+      "name": "Karskin",
       "type": "INF",
       "speed": 15,
       "armour": 5,
@@ -289,6 +356,21 @@
         "Plasma Gun"
       ],
       "specialRules": [
+      ]
+    },
+    {
+      "name": "Sappers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Heavy Flamer",
+        "Melta Bombs"
+      ],
+      "specialRules": [
+          "Walker (also works against enemy fortifications)"
       ]
     },
     {
@@ -313,6 +395,20 @@
       "ff": 4,
       "weapons": [
         "Autocannon|2|"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Trench Support Squad",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Heavy Stubber|2|",
+        "Flamer"
       ],
       "specialRules": [
 
@@ -346,6 +442,20 @@
       "specialRules": [
         "Scout",
         "Walker"
+      ]
+    },
+    {
+      "name": "Siegfried Light Tank",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multilaser"
+      ],
+      "specialRules": [
+        "Scout"
       ]
     },
     {
@@ -446,7 +556,22 @@
       ]
     },
     {
-      "name": "Medusa Platform",
+      "name": "Medusa",
+      "type": "AV",
+      "speed": "20",
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Medusa Siege Gun",
+        "Heavy Bolter"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Medusa Gun",
       "type": "LV",
       "speed": "Immobile",
       "cc": 6,
@@ -459,13 +584,39 @@
       ]
     },
     {
-      "name": "Heavy AA Platform",
+      "name": "Heavy AA Gun",
       "type": "LV",
       "speed": "Immobile",
       "cc": 6,
       "ff": 6,
       "weapons": [
         "Heavy AA Gun"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Heavy Mortar",
+      "type": "LV",
+      "speed": "Immobile",
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy Mortar"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Howitzer",
+      "type": "LV",
+      "speed": "Immobile",
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Howitzer"
       ],
       "specialRules": [
 
@@ -486,6 +637,20 @@
       ]
     },
     {
+      "name": "Siegehound",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Inferno Cannon", "Heavy Stubber|3|"
+      ],
+      "specialRules": [
+          "Walker"
+      ]
+    },
+    {
       "name": "Hydra",
       "type": "AV",
       "speed": 30,
@@ -497,6 +662,35 @@
       ],
       "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Hades Breaching Drill",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Melta Cutter"
+      ],
+      "specialRules": [
+          "Provides its formation with the Tunnelers special rule"
+      ]
+    },
+    {
+      "name": "Ragnarok Heavy Tank",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Ragnarok Battle Cannon", "Heavy Stubber|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Walker"
       ]
     },
     {
@@ -635,6 +829,42 @@
         "Reinforced Armour",
         "Transport: May transport 4 infantry units without jumppack or mounted"
       ]
+    },
+    {
+      "name": "Baran Macharius",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Ragnarok Battle Cannon|2|",
+        "Twin Heavy Stubbers|3|"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+    },
+    {
+      "name": "Macharius Medusa",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Medusa Siege Gun||FxF",
+        "Twin Heavy Stubbers|3|"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
     },
     {
       "name": "Gorgon",
