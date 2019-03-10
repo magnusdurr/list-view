@@ -6,7 +6,7 @@
   "strategy": "Yme-Loc Eldar armies have a strategy rating of 4.",
   "initiative": "Titans have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
 
-  "specialRules": ["Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal"],
+  "specialRules": ["Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal","Independent Twins"],
   "usage": [
     "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
   ],
@@ -28,6 +28,8 @@
         "Revenant Titan",
         "Warlock Titan",
         "Yme-Loc Phantom Titan",
+        "Mymeara Phantom Titan",
+        "Kinshara Phantom Titan",
         "Fir Iolarion Phantom Titan"
 
       ],
@@ -69,7 +71,7 @@
         },
         {
           "name": "Phantom Titan",
-          "units": "One Yme-Loc Phantom Titan or One Fir Iolarion Phantom Titan",
+          "units": "One Yme-Loc Phantom Titan, One Fir Iolarion Phantom Titan, Kinshara Phantom Titan or Mymeara Phantom Titan",
           "upgrades": [
             "Bonesinger"
           ],
@@ -83,11 +85,11 @@
       "formations": [
         {
           "name": "Revenant Titan",
-          "units": "One Revenant Titan",
+          "units": "One Pair of Revenant Titan",
           "upgrades": [
-            "Add one addtional Revenant Titan for 250 points"
+            "'Independent Twins' +50 points (see special rules)"
           ],
-          "points": 300
+          "points": 550
         }
 
       ]

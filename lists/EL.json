@@ -842,6 +842,50 @@
       "notes": "Critical Hit Effect: The Phantom Titan's holofields are destroyed. Any further critical hits cause an additional point of damage."
     },
     {
+      "name": "Mymeara Phantom Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+        "Distortion Cannon|0-1|",
+        "Dire Pulsar|1-2|",
+        "Voidstorm Missile Launcher"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Fearless",
+        "Holofield (3+)",
+        "Leader",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Phantom Titan's holofields are destroyed. Any further critical hits cause an additional point of damage."
+    },
+    {
+      "name": "Kinshara Phantom Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+        "Vibro Cannon|1-2|",
+        "Star Pulsar|0-1|",
+        "Suncannon"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Fearless",
+        "Holofield (3+)",
+        "Leader",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Phantom Titan's holofields are destroyed. Any further critical hits cause an additional point of damage."
+    },
+    {
       "name": "Warlock Titan",
       "type": "WE",
       "speed": 25,

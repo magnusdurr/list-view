@@ -2261,6 +2261,17 @@
       ]
     },
     {
+      "name": "Dire Pulsar",
+        "modes": [
+          {
+            "firepower": "3x MW3+",
+            "range": 60,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Doomblaster",
         "modes": [
           {
@@ -6147,6 +6158,18 @@
       ]
     },
     {
+      "name": "Star Pulsar",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 75,
+          "specialRules": [
+            "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Staff of Light",
         "modes": [
           {
@@ -7240,6 +7263,20 @@
       ]
     },
     {
+      "name": "Vibro Cannon",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 60,
+          "specialRules": [
+            "MW",
+            "IC",
+            "Shield Piercer"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Violet Fire of Tzeench",
         "modes": [
           {
@@ -7264,6 +7301,18 @@
           "specialRules": [
             "D",
             "Ind"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Voidstorm Missile Launcher",
+      "modes": [
+        {
+          "firepower": "AA5+",
+          "range": 45,
+          "specialRules": [
+            "MW"
           ]
         }
       ]
