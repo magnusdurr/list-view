@@ -4,9 +4,10 @@
   "version": "1.1",
   "release": "2019-03-10",
   "strategy": "DKoK armies have a strategy rating of 2.",
-  "initiative": "Titan Legion formations have a initiative rating of 1+. All other formations have an initiative of 2+.",
+  "initiative": "Titan Legion formations have an initiative rating of 1+. All other formations have an initiative of 2+.",
 
   "specialRules": [
+      "DKoK Regimental HQ",
       "Fortified Positions",
       "Commissars",
       "Lord Commissar"
@@ -34,8 +35,10 @@
         "Bombard",
         "Medusa",
         "Deathstrike",
-        "Siegehound",
+        "Hellhound",
         "Thunderer",
+        "Malcador",
+        "Malcador Annihilator",
         "Minotaur",
         "Macharius",
         "Macharius Command",
@@ -45,7 +48,7 @@
         "Shadowsword"
       ],
         "unitRules": [
-
+            "Knight Units (AV-K)"
 
           ]
     },
@@ -78,37 +81,38 @@
       "formations": [
         {
           "name": "1 Regimental HQ",
-          "units": "One DKoK Supreme Commander, nineteen Assault Infantry",
-          "upgrades": [
+          "units": "One DKoK Supreme Commander, nine Assault Infantry",
+          "extraUnits": [
               "Lord Commissar",
-              "Gorgons",
+              "Gorgon Assault",
               "Macharius",
               "Trench Support",
               "Snipers",
-              "Siegehound Platoon",
-              "Thunderer Platoon",
-              "Entrenchments"
-          ],
-          "points": 400
-        },
-        {
-          "name": "Assault Infantry Company",
-          "units": "One DKoK Commander, nineteen Assault Infantry",
-          "upgrades": [
-              "Gorgons",
-              "Macharius",
-              "Trench Support",
-              "Snipers",
-              "Siegehound Platoon",
-              "Thunderer Platoon",
+              "Hellhounds",
+              "Malcadors",
               "Entrenchments"
           ],
           "points": 300
+        },
+        {
+          "name": "Assault Infantry Company",
+          "units": "One DKoK Commander, nine Assault Infantry",
+          "extraUnits": [
+              "Gorgon Assault",
+              "Macharius",
+              "Trench Support",
+              "Snipers",
+              "Hellhounds",
+              "Malcadors",
+              "Entrenchments"
+          ],
+          "points": 200
     },
         {
           "name": "Death Rider Company",
           "units": "Twelve Death Riders",
-          "upgrades": [
+          "extraUnits": [
+          "Hellhound Platoon"
           ],
           "points": 300
     }
@@ -120,7 +124,7 @@
       "formations": [
         {
           "name": "0–1 Deathstrike Battery",
-          "units": "Two Deathstrikes",
+          "units": "Two Deathstrikes, two Gun Emplacements",
           "upgrades": [
           ],
           "points": 200
@@ -129,13 +133,13 @@
           "name": "Earthshaker Battery",
           "units": "Three Earthshaker Guns, three Trojans",
           "upgrades": [
-              "Add three Earthshaker Guns, three Trojans: 200 points"
+              "Add three Earthshaker Guns, three Trojans: 175 points"
           ],
-          "points": 225
+          "points": 175
         },
         {
           "name": "Siege Artillery",
-          "units": "Three Bombards or three Medusa",
+          "units": "Three Bombards or three Medusa, three Gun Emplacements",
           "upgrades": [
           ],
           "points": 225
@@ -167,13 +171,6 @@
           "points": 250
         },
         {
-          "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ and/or Leman Russ Demolisher",
-          "upgrades": [
-          ],
-          "points": 350
-        },
-        {
           "name": "Macharius Platoon",
           "units": "Two Macharius, one Macharius Command",
           "upgrades": [
@@ -187,7 +184,7 @@
         },
 
         {
-          "name": "Grenadiers",
+          "name": "Grenadier Company",
           "units": "Eight Grenadiers",
           "upgrades": [
               "Add one Gorgon: 75 points"
@@ -255,11 +252,11 @@
         ]
       },
       {
-        "name": "Gorgons",
+        "name": "Gorgon Assault",
         "options": [
           {
-            "description": "Add three Gorgons",
-            "points": "200 points"
+            "description": "Add two Gorgons and ten Assault Infantry",
+            "points": "300 points"
           }
         ]
       },
@@ -282,20 +279,20 @@
         ]
       },
       {
-        "name": "Siegehound Platoon",
+        "name": "Hellhounds",
         "options": [
           {
-            "description": "Add three Siegehounds and three Gun Emplacements",
-            "points": "100 points"
+            "description": "Add up to three Hellhounds",
+            "points": "25 points each"
           }
         ]
       },
       {
-        "name": "Thunderer Platoon",
+        "name": "Malcadors",
         "options": [
           {
-            "description": "Add three Thunderers",
-            "points": "125 points"
+            "description": "Add up to two Malcadors and/or Malcador Annihilators",
+            "points": "75 points each"
           }
         ]
       },
@@ -312,7 +309,7 @@
         "name": "Entrenchments",
         "options": [
           {
-            "description": "60cm Razor Wire and 60cm Trenches",
+            "description": "60cm Razor Wire, 60cm Trenches",
             "points": "50 points"
           }
         ]

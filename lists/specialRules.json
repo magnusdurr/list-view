@@ -125,14 +125,20 @@
         "Once set up, fortified positions may be used by any unit (including enemy units).",
         "Trench: Provides a cover save of 4+ to INF. May contain 1 unit per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
         "Razorwire: Counts as Dangerous Terrain for INF",
-        "Gun Emplacement: Provides a cover save of 4+ to a single unit of INF or AV.",
+        "Gun Emplacement: Provides a cover save of 4+ to a single unit of INF or AV (not AV-K)",
         "Bunker: Provides a cover save of 3+ and Thick Rear Armour to up to three units of INF. Counts as Dangerous Terrain for AV and WE."
       ]
     },
     {
-      "title": "Regimental HQ",
+      "title": "Baran Regimental HQ",
       "description": [
         "When playing Epic tournament games, a Siegemaster army must include a Regimental HQ. The enemy count as having achieved the “Break Their Spirit” goal by destroying this formation or by destroying the most expensive formation in the army (see Victory Conditions)."
+        ]
+    },
+    {
+      "title": "DKoK Regimental HQ",
+      "description": [
+        "When playing Epic tournament games, a DKoK army must include a Regimental HQ. The enemy count as having achieved the “Break Their Spirit” goal by destroying this formation or by destroying the most expensive formation in the army (see Victory Conditions)."
         ]
     },
     {

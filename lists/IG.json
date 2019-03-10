@@ -2,11 +2,12 @@
   {
     "name": "Astra Militarum Forces",
     "specialRules": [
-      {
-        "title": "",
-        "description": [
-        ]
-      }
+        {
+          "title": "Knight Units (AV-K)",
+          "description": [
+            "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+          ]
+        }
     ],
     "unit": [
     {
@@ -950,9 +951,40 @@
       ]
     },
     {
+      "name": "Malcador",
+      "type": "AV-K",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Heavy Bolter",
+        "Battle Cannon",
+        "Heavy Stubber|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Malcador Annihilator",
+      "type": "AV-K",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Demolisher Cannon",
+        "Twin Lascannon"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
       "name": "Praetor Armoured Assault Launcher",
       "type": "AV-K",
-      "speed": "20cm",
+      "speed": 20,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -967,7 +999,7 @@
     {
       "name": "Crassus Amoured Assault Transport",
       "type": "AV-K",
-      "speed": "20cm",
+      "speed": 20,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -983,7 +1015,7 @@
     {
       "name": "Minotaur",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 6,
@@ -999,7 +1031,7 @@
     {
       "name": "Macharius",
       "type": "WE",
-      "speed": "20cm",
+      "speed": 20,
       "armour": 4,
       "cc": 6,
       "ff": 4,
@@ -1017,7 +1049,7 @@
     {
       "name": "Macharius Command",
       "type": "WE",
-      "speed": "20cm",
+      "speed": 20,
       "armour": 4,
       "cc": 6,
       "ff": 4,
@@ -1036,7 +1068,7 @@
     {
       "name": "Baran Macharius",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 4,
@@ -1054,7 +1086,7 @@
     {
       "name": "Macharius Medusa",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 4,
@@ -1072,7 +1104,7 @@
     {
       "name": "Gorgon",
       "type": "WE",
-      "speed": "20cm",
+      "speed": 20,
       "armour": 4,
       "cc": 6,
       "ff": 5,
@@ -1090,7 +1122,7 @@
     {
       "name": "Leviathan Mobile Command Center",
       "type": "WE",
-      "speed": "20cm",
+      "speed": 20,
       "armour": 5,
       "cc": 6,
       "ff": 4,
@@ -1111,7 +1143,7 @@
     {
       "name": "Baneblade",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 3,
@@ -1131,7 +1163,7 @@
     {
       "name": "Stormlord",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 3,
@@ -1150,7 +1182,7 @@
     {
       "name": "Shadowsword",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 5,
@@ -1167,7 +1199,7 @@
     {
       "name": "Stormblade",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 5,
@@ -1186,7 +1218,7 @@
     {
       "name": "Stormsword",
       "type": "WE",
-      "speed": "15cm",
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 4,
