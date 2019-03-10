@@ -13,6 +13,10 @@
     {
       "name": "Catachan Supreme Commander",
       "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Power Weapon",
         "Heavy Flamer"
@@ -52,6 +56,10 @@
     {
       "name": "Cadian Supreme Commander",
       "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Power Weapon",
         "Autocannon"
@@ -63,6 +71,10 @@
     {
       "name": "Catachan Commander",
       "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Power Weapon",
         "Heavy Flamer"
@@ -76,6 +88,10 @@
     {
       "name": "Steel Legion Commander",
       "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Autocannon"
       ],
@@ -100,6 +116,10 @@
     {
       "name": "Cadian Commander",
       "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Autocannon"
       ],
@@ -109,7 +129,7 @@
     },
     {
       "name": "Tempestor",
-      "type": "INF",
+      "type": "CH",
       "weapons": [
         "Plasma Gun"
       ],
@@ -346,7 +366,7 @@
       ]
     },
     {
-      "name": "Karskin",
+      "name": "Kasrkin",
       "type": "INF",
       "speed": 15,
       "armour": 5,
