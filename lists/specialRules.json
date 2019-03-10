@@ -7,14 +7,6 @@
       ]
     },
     {
-      "title": "Super-Expendable",
-      "description": [
-        "A formation does not receive a Blast marker when a unit with super-expendable is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. If a super-expendable unit is hit by a weapon with disrupt it does not inflict a Blast marker.",
-        "Super-expendable units killed in an assault do not count when working out the result.",
-        "If a formation is comprised completely of expendable and/or super-expendable units then they do not benefit from any of the rules above."
-        ]
-    },
-    {
       "title": "Automaton",
       "description": [
         "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
@@ -693,12 +685,23 @@
     },
 
 
-
+    {
+      "title": "Big Mek",
+      "description": [
+        "Every Gargant Big Mob army must include a Supreme Command character called a Big Mek, which is free. If the army includes any Mega Gargant, then the Big Mek must be placed in it. If there are no Mega Gargants in the army then the Big Mek will join a Great Gargant."
+      ]
+    },
     {
       "title": "Snakebite Clan Warlords",
       "description": [
         "Every Snakebite Clan army must include a Supreme Command character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. The Warlord is attached to the largest formation in the army, each DC counts towards working out formation sizes."
       ]
+    },
+    {
+      "title": "Push 'Em Harder Ladz",
+      "description": [
+        "Whenever a Supa-Stompa or any type of Gargant passes an Action Test that allows movement, the player may opt to change the unit's speed rating to 20cm for the entire duration of the chosen Action, however if this ability is used the model will receive a Critical Hit for with each move that is carried out."
+        ]
     },
 
     {
@@ -713,6 +716,22 @@
         " Orks are not noted for their organisational abilities, and thus usually have a pretty low initiative rating. However, if there is one thing that will galvanise an Ork warband, it’s the thought of a good punch-up!Because of this, Ork formations that are attempting to take engage or double actions receive a +2 modifier to their action test roll. Ork flyboyz similarly relish the chance to shoot things up, and receive a +2 modifier to their action test roll when attempting to carry out interception or ground attack actions (see Aircraft)."
         ]
     },
+
+    {
+      "title": "Clan Goffs Warlord",
+      "description": [
+        "Every Warhorde army must include a Supreme Commander character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. If the army includes any Gargants, then the Warlord must be placed in one of them. If there are no Gargants in the army then the Warlord will join a Supa-Stompa or Nobz unit."
+        ]
+    },
+
+    {
+      "title": "Speed Freeks Warlord",
+      "description": [
+        "Every Speed Freeks army must include a Supreme Commander character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. The Warlord must be placed in a Nob Warbikes or a Nobz unit."
+        ]
+    },
+
+
 
 
 

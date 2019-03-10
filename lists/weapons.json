@@ -9,6 +9,13 @@
         ]
       },
       {
+        "name": "'ED (choose one)",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
         "name": "ARMS (choose one)",
           "modes": [
             {
@@ -29,6 +36,14 @@
             }
         ]
       },
+      {
+        "name": "BELLY (choose one)",
+          "modes": [
+            {
+            }
+        ]
+      },
+
       {
         "name": "CARAPACE (choose one)",
           "modes": [
@@ -97,6 +112,50 @@
           "modes": [
             {
             }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 1D6BP",
+        "modes": [
+          {
+            "firepower": "1D6BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 1D6+1BP",
+        "modes": [
+          {
+            "firepower": "1D6+1BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 1D6+3BP",
+        "modes": [
+          {
+            "firepower": "1D6+3BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Bombardment 1D6+4BP",
+        "modes": [
+          {
+            "firepower": "1D6+4BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
         ]
       },
       {
@@ -184,6 +243,28 @@
             "range": 30,
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Twin Big Shoota",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+/AA5+",
+            "range": 15,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Blasta Bombs",
+        "modes": [
+          {
+            "firepower": "D3+1BP",
+            "range": 15,
+            "specialRules": [
           ]
           }
       ]
@@ -279,6 +360,28 @@
         }
       ]
           },
+          {
+            "name": "AC Flakka-Dakka",
+            "modes": [
+              {
+                "firepower": "D3x AP5+/AA6+",
+                "range": 15,
+                "specialRules": [
+              ]
+              }
+          ]
+                },
+          {
+            "name": "AC Flakka-Dakka Turrets",
+            "modes": [
+              {
+                "firepower": "D3+3x AP5+/AA6+",
+                "range": 15,
+                "specialRules": [
+              ]
+              }
+          ]
+                },
           {
             "name": "AC Flame Cannon",
             "modes": [
@@ -756,6 +859,17 @@
               "Lance",
               "FxF"
 
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AC Tankbusta Rokkits",
+        "modes": [
+          {
+            "firepower": "AT4+",
+            "range": 30,
+            "specialRules": [
           ]
         }
       ]
@@ -2028,6 +2142,28 @@
       ]
     },
     {
+      "name": "Dakka Kannon",
+        "modes": [
+          {
+            "firepower": "8x AP5+/AT5+",
+            "range": 60,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dakka-Dakka Kannon",
+        "modes": [
+          {
+            "firepower": "12x AP5+/AT5+",
+            "range": 60,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Dark Lance",
         "modes": [
           {
@@ -2108,6 +2244,17 @@
           "range": 60,
           "specialRules": [
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deff-Rolla and Red Paint Job",
+      "modes": [
+        {
+          "firepower": "n/a",
+          "specialRules": [
+              "Spec"
           ]
         }
       ]
@@ -2213,6 +2360,7 @@
         }
       ]
     },
+
     {
       "name": "Death's Heads",
       "modes": [
@@ -2687,6 +2835,18 @@
       ]
     },
     {
+      "name": "Flak Gun",
+      "modes": [
+        {
+          "firepower": "2x AP6+/AT6+/AA6+",
+            "range": 30,
+          "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
       "name": "Flamer",
       "modes": [
         {
@@ -2876,6 +3036,18 @@
       ]
     },
     {
+      "name": "Gaze of Mork",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 30,
+            "specialRules": [
+                "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Gaze of Tzeench",
         "modes": [
           {
@@ -2976,6 +3148,32 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grot-Guided Missile",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": "Unlimited",
+          "specialRules": [
+            "SS",
+            "Ind"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2x Grot-Guided Missile",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": "Unlimited",
+          "specialRules": [
+            "SS",
+            "Ind"
           ]
         }
       ]
@@ -3791,10 +3989,72 @@
       ]
     },
     {
+      "name": "Killa-Choppa",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Klaives",
         "modes": [
           {
             "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kombat Arms",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+2)",
+              "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kombat Klaws",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kombat 'Ammer",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
             "specialRules": [
               "EA(+1)",
               "MW"
@@ -3818,6 +4078,29 @@
         "modes": [
           {
             "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kustom Blasta",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kustom Kannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 45,
             "specialRules": [
           ]
           }
@@ -3996,6 +4279,26 @@
             "firepower": "n/a",
             "specialRules": [
               "Spec"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lifta-Droppa",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 60,
+          "specialRules": [
+              "TK(D3)"
+        ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+              "EA(+1)",
+              "TK(1)"
           ]
         }
       ]
@@ -4190,17 +4493,35 @@
         }
       ]
     },
-        {
-    "name": "Mega-choppa",
+    {
+      "name": "Mega-Choppa",
       "modes": [
         {
+          "firepower": "2x AP5+/AT5+",
+          "range": 45,
+          "specialRules": []
+        },
+        {
           "firepower": "Assault Weapons",
+          "join": "and",
           "specialRules": [
-            "EA(+1)",
-            "TK(D3)"
-        ]
+              "EA(+1)",
+              "TK(D3)"
+          ]
         }
-         ]
+      ]
+    },
+    {
+      "name": "Mega-Lobba",
+        "modes": [
+          {
+            "firepower": "2D3BP",
+            "range": 60,
+            "specialRules": [
+                "Ind"
+          ]
+        }
+      ]
     },
     {
       "name": "Melta Cannon",
@@ -4958,6 +5279,28 @@
           "firepower": "Assault Weapons",
           "specialRules": [
             "FS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D3 Power Fields",
+      "modes": [
+        {
+          "firepower": "n/a",
+          "specialRules": [
+            "Spec"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D3+1 Power Fields",
+      "modes": [
+        {
+          "firepower": "n/a",
+          "specialRules": [
+            "Spec"
           ]
         }
       ]
@@ -5919,6 +6262,18 @@
       ]
     },
     {
+      "name": "Skorcha",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+                "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Smart Missile System",
         "modes": [
           {
@@ -5929,6 +6284,26 @@
 
           ]
           }
+      ]
+    },
+    {
+      "name": "Snapper",
+        "modes": [
+          {
+            "firepower": "4x AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+                "FxF"
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+                "EA(+1)",
+                "TK(D3)"
+          ]
+        }
       ]
     },
     {
@@ -5987,6 +6362,42 @@
             "range": 45,
             "specialRules": [
                 "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soopagun",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 75,
+            "specialRules": [
+                "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Soopagun",
+        "modes": [
+          {
+            "firepower": "4BP",
+            "range": 75,
+            "specialRules": [
+                "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soopagunz",
+        "modes": [
+          {
+            "firepower": "10BP",
+            "range": 75,
+            "specialRules": [
+                "MW"
           ]
         }
       ]
@@ -6289,6 +6700,42 @@
             "range": 30,
             "specialRules": [
               "S"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Supa-Skorcha",
+        "modes": [
+          {
+            "firepower": "4BP",
+            "range": 30,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Supa-Zzap-Gun",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 60,
+            "specialRules": [
+              "TK(D3)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Supa-Zzap-Gun",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 60,
+            "specialRules": [
+              "TK(D3+1)"
           ]
           }
       ]
@@ -6815,11 +7262,22 @@
       ]
     },
     {
-      "name": "Twin Big Shootas",
+      "name": "Twin Big Shoota",
         "modes": [
           {
             "firepower": "AP5+/AT6+",
             "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Sawn-Off Big Shootas",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 15,
             "specialRules": [
           ]
           }
@@ -7210,6 +7668,17 @@
       ]
     },
     {
+      "name": "'Uge Banner of Mork (or possibly Gork)",
+        "modes": [
+          {
+            "firepower": "n/a",
+            "specialRules": [
+                "Spec"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Vanquisher Cannon",
         "modes": [
           {
@@ -7478,6 +7947,18 @@
       ]
     },
     {
+          "name": "Weirdboy Tower",
+          "modes": [
+            {
+            "firepower": "MW5+/AA6+",
+            "range": "45",
+            "specialRules": [
+                "MW"
+            ]
+          }
+      ]
+    },
+    {
       "name": "Whirlwind Launcher",
       "modes": [
         {
@@ -7595,6 +8076,17 @@
             "join": "and",
             "specialRules": [
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zzap-Gun",
+      "modes": [
+        {
+          "firepower": "2x MW3+",
+          "range": 45,
+          "specialRules": [
           ]
         }
       ]
