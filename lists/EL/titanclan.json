@@ -1,14 +1,14 @@
 {
   "fraction": "Eldar",
-  "army": "Yme-Loc",
+  "army": "Titan Force",
   "version": "1.1",
   "release": "2019-02-22",
-  "strategy": "Yme-Loc Eldar armies have a strategy rating of 4.",
+  "strategy": "Eldar Titan Force armies have a strategy rating of 4.",
   "initiative": "Titans have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
 
   "specialRules": ["Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal","Independent Twins"],
   "usage": [
-    "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
+    "The following army list allows you to field an army based on Eldar Titans and Eldar Knights."
   ],
   "units": [
     {
@@ -47,7 +47,7 @@
 ],
 "sections": [
     {
-      "name": "Yme-Loc Special",
+      "name": "Eldar Titans Special",
       "formations": [
         {
           "name": "0-1 Wraithgate",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "name": "Yme-Loc Titans",
-      "description": "Choose one Yme-Loc Titan for the army. Max 1 for each 3k points",
+      "name": "Eldar Titans",
+      "description": "Choose one Titan for the army. Max 1 for each 3k points",
       "formations": [
         {
           "name": "Warlock Titan",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "name": "Yme-Loc Scout Titans",
+      "name": "Eldar Scout Titans",
       "description": "Up to one Scout Titan for each 1000 points.",
       "formations": [
         {
@@ -95,8 +95,8 @@
       ]
     },
     {
-      "name": "Yme-Loc Support",
-      "description": "Up to two supports for each Scout Titan Taken.",
+      "name": "Eldar Titans Support",
+      "description": "Up to three supports for each Pair of Scout Titans Taken.",
       "formations": [
 
         {
@@ -159,7 +159,7 @@
     }
   ],
   "upgrades": {
-    "title": "Yme-Loc Upgrades",
+    "title": "Eldar Titans Upgrades",
     "description": "Each upgrade may be taken once per Formation",
     "items": [
       {
