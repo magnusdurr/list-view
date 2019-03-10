@@ -7,7 +7,7 @@
   "initiative": "All formations have a initiative rating of 2+.",
 
   "specialRules": [
-      "Regimental HQ",
+      "Baran Regimental HQ",
       "Siegemasters",
       "Tunnelers",
       "Fortified Positions",
@@ -68,10 +68,11 @@
         {
           "name": "1 Regimental HQ",
           "units": "One Baran Siegemaster unit, nine Siege Infantry",
-          "upgrades": [
+          "extraUnits": [
               "Rapiers",
               "Thudd Guns",
               "Trench Support",
+              "Siege Infantry",
               "Snipers",
               "Siegehound Platoon",
               "Fortified Positions"
@@ -81,10 +82,11 @@
         {
           "name": "Siege Infantry Company",
           "units": "One Baran Commander, eleven nine Infantry",
-          "upgrades": [
+          "extraUnits": [
               "Rapiers",
               "Thudd Guns",
               "Trench Support",
+              "Siege Infantry",
               "Snipers",
               "Siegehound Platoon",
               "Fortified Positions"
@@ -108,7 +110,7 @@
           "name": "Howitzer Battery",
           "units": "Three Howitzers, three Gun Emplacements",
           "upgrades": [
-              "Add three Howitzers, three Gun Emplacements: 175 points"
+              "Add three Howitzers, three Gun Emplacements: 150 points"
           ],
           "points": 150
         },
@@ -236,6 +238,15 @@
         ]
       },
       {
+        "name": "Siege Infantry",
+        "options": [
+          {
+            "description": "Add six Siege Infantry",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
         "name": "Siegehound Platoon",
         "options": [
           {
@@ -257,7 +268,7 @@
         "name": "Fortified Positions",
         "options": [
           {
-            "description": "60cm Razor Wire, 60cm Trenches and 3 Bunkers",
+            "description": "60cm Razor Wire, 60cm Trenches, three Bunkers",
             "points": "75 points"
           }
         ]
