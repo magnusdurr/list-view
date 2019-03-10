@@ -46,13 +46,14 @@
       ],
       "specialRules": [
         "Gaunts",
+        "Infiltrators",
         "Expendable"
       ]
       },
       {
       "name": "Gargoyles",
       "type": "INF",
-      "speed": 20,
+      "speed": 30,
       "cc": 6,
       "ff": 6,
       "weapons": [
@@ -72,7 +73,7 @@
       "cc": 4,
 
       "weapons": [
-        "Bio Claws and Fangs"
+        "Burrowclaws"
       ],
       "specialRules": [
         "Gaunts",
@@ -112,13 +113,13 @@
       },
       {
       "name": "Ravener Alphas",
-      "type": "INF",
+      "type": "LV",
       "speed": 20,
       "armour": 4,
       "cc": 4,
 
       "weapons": [
-        "Bio Claws and Fangs"
+        "Burrowclaws"
       ],
       "specialRules": [
         "Synapse",
@@ -130,18 +131,19 @@
       {
       "name": "Tyranid Warriors",
       "type": "LV",
-      "speed": "20cm (wings:30cm)",
-      "armour": "5+ (wings:6+)",
+      "speed": "20cm/30cm",
+      "armour": "5+/6",
       "cc": 2,
       "ff": 5,
       "weapons": [
-        "Death Spitters"
+        "Deathspitters"
       ],
       "specialRules": [
         "Synapse",
         "Fearless",
-        "Jump Packs if Wings are taken."
-      ]
+        "Jump Packs (Shrike)"
+    ],
+    "notes": "Gains Speed 30cm, Jump Pack and Armour 6+ if upgraded to Shrike (Wings)"
       },
       {
       "name": "Zoanthrope",
@@ -160,7 +162,7 @@
       ]
       },
       {
-      "name": "Lictors",
+      "name": "Lictor",
       "type": "LV",
       "speed": 15,
       "armour": "5",
@@ -180,12 +182,12 @@
       {
       "name": "Dagon Overlord",
       "type": "AV",
-      "speed": "20cm (wings:30cm)",
-      "armour": "3+ (wings:4+)",
+      "speed": "20cm/30cm",
+      "armour": "3+/4",
       "cc": 2,
 
       "weapons": [
-        "Quadrouple Boneswords"
+        "Boneswords"
       ],
       "specialRules": [
         "Hive Mind Locus",
@@ -195,14 +197,15 @@
         "Reinforced Armour",
         "Commander",
         "Leader",
-        "Jump Packs if Wings are taken."
-      ]
+        "Jump Packs (Shrike)"
+    ],
+        "notes": "Gains Speed 30cm, Jump Pack and Armour 4+ if upgraded to Shrike (Wings)"
       },
       {
       "name": "Hive Tyrant",
       "type": "AV",
-      "speed": "20cm (wings:30cm)",
-      "armour": "4+ (wings:5+)",
+      "speed": "20cm/30cm",
+      "armour": "4+/5",
       "cc": 3,
       "ff": 5,
       "weapons": [
@@ -215,8 +218,9 @@
         "Reinforced Armour",
         "Commander",
         "Leader",
-        "Jump Packs if Wings are taken."
-      ]
+        "Jump Packs (Shrike)"
+    ],
+            "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
       },
       {
       "name": "Carnifex",
@@ -281,7 +285,7 @@
       "type": "AV",
       "speed": 25,
       "armour": 5,
-      "cc": 4,
+      "cc": 5,
       "ff": 5,
       "weapons": [
         "Frag Spines",
@@ -326,7 +330,7 @@
         "Reinforced Armour",
         "Tunneler"
       ],
-      "notes": "Critical Hit Effect: The Trygon Prime is destoryed."
+      "notes": "¤Critical Hit Effect¤: The Trygon Prime is destoryed."
     },
     {
     "name": "Trygon",
@@ -343,7 +347,7 @@
       "Reinforced Armour",
       "Tunneler"
     ],
-    "notes": "Critical Hit Effect: The Trygon is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Trygon is destoryed."
     },
     {
     "name": "Harridan",
@@ -354,7 +358,7 @@
     "ff": 5,
     "weapons": [
       "Bio-Cannon",
-      "Large Fangs"
+      "Large Claws"
     ],
     "specialRules": [
       "Damage Capacity: 3",
@@ -364,7 +368,7 @@
       "Reinforced Armour",
       "Transport 4 (Gargoyles)"
     ],
-    "notes": "Critical Hit Effect: The Harridan is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Harridan is destoryed."
     },
     {
     "name": "Barbed Hierodule Prime",
@@ -375,7 +379,7 @@
     "ff": 5,
     "weapons": [
       "Twin Bio-Cannon",
-      "Large Fangs"
+      "Large Claws"
     ],
     "specialRules": [
       "Damage Capacity: 3",
@@ -384,7 +388,7 @@
       "Reinforced Armour",
       "Invulnerable Save"
     ],
-    "notes": "Critical Hit Effect: The Hierodule Prime is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Hierodule Prime is destoryed."
     },
     {
     "name": "Barbed Hierodule",
@@ -395,14 +399,14 @@
     "ff": 5,
     "weapons": [
       "Twin Bio-Cannon",
-      "Large Fangs"
+      "Large Claws"
     ],
     "specialRules": [
       "Damage Capacity: 3",
       "Reinforced Armour"
 
     ],
-    "notes": "Critical Hit Effect: The Hierodule is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Hierodule is destoryed."
 
     },
     {
@@ -424,7 +428,7 @@
       "Invulnerable Save"
 
     ],
-    "notes": "Critical Hit Effect: The Scythed Hierodule Prime is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule Prime is destoryed."
 
 
     },
@@ -445,7 +449,7 @@
 
 
     ],
-    "notes": "Critical Hit Effect: The Scythed Hierodule is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule is destoryed."
 
 
     },
@@ -457,8 +461,7 @@
     "cc": 5,
     "ff": 6,
     "weapons": [
-      "Bio-Cannon",
-      "Large Fangs"
+        "Ripper Swarms"
     ],
     "specialRules": [
       "Damage Capacity: 3",
@@ -466,7 +469,7 @@
       "Fearless",
       "Reinforced Armour"
     ],
-    "notes": "Critical Hit Effect: The Hive Nest is destroyed."
+    "notes": "¤Critical Hit Effect¤: The Hive Nest is destroyed."
 
 
     },
@@ -489,21 +492,21 @@
       "Invulnerable Save",
       "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
     ],
-    "notes": "Critical Hit Effect: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hierophant suffers 1 additional damage 6: The Hierodule is killed."
+    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hierophant suffers 1 additional damage 6: The Hierophant is killed."
 
 
     },
     {
     "name": "Dominatrix",
     "type": "WE",
-    "speed": 35,
+    "speed": 25,
     "armour": 5,
     "cc": 3,
     "ff": 5,
     "weapons": [
       "Bio-Titan Bio-Cannon",
       "Bio-Plasmic Ray",
-      "Bio-Plasma",
+      "Bio-Plasma Burst",
       "Monstrous Claws"
     ],
     "specialRules": [
@@ -519,20 +522,20 @@
       "Invulnerable Save (5+)",
       "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
     ],
-    "notes": "Critical Hit Effect: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
+    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
 
 
     },
     {
     "name": "Hydraphant",
     "type": "WE",
-    "speed": 35,
+    "speed": 25,
     "armour": 5,
     "cc": 3,
     "ff": 5,
     "weapons": [
       "Bio-Titan Bio-Cannon",
-      "Bio-Plasma",
+      "Bio-Plasma Burst",
       "Hail of Barbed Spears",
       "Ripper Tentacles",
       "Monstrous Claws"
@@ -545,7 +548,7 @@
       "Invulnerable Save (5+)",
       "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
     ],
-    "notes": "Critical Hit Effect: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."
+    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."
 
 
     }

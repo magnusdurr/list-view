@@ -957,6 +957,17 @@
       ]
     },
     {
+      "name": "Acid Jets",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Adrastus Bolt Caliver",
         "modes": [
           {
@@ -1497,6 +1508,116 @@
       ]
     },
     {
+      "name": "Bio-Acid-Venom Pods",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 45,
+            "specialRules": [
+                "D",
+                "Ind"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Bio-Cannon",
+        "modes": [
+          {
+            "firepower": "2x AP4+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Bio-Cannon",
+        "modes": [
+          {
+            "firepower": "3x AP3+/AT4+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Bio-Plasma",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Bio-Plasma Burst",
+        "modes": [
+          {
+            "firepower": "4BP",
+            "range": 15,
+            "specialRules": [
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Bio-Plasmic Cannon",
+        "modes": [
+            {
+              "firepower": "2x MW5+",
+              "range": 30,
+              "specialRules": [
+            ]
+        },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+                "MW"
+              ]
+            }
+      ]
+  },
+    {
+      "name": "Bio-Plasmic Ray",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+/AA5",
+            "range": 30,
+            "specialRules": [
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Bio-Plasmic Ray",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+/AA5",
+            "range": 30,
+            "specialRules": [
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Bio-Titan Bio-Cannon",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT4+",
+            "range": 60,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Big Gun",
         "modes": [
           {
@@ -1693,7 +1814,19 @@
               ]
             }
       ]
-    },
+  },
+      {
+        "name": "Boneswords",
+          "modes": [
+            {
+              "firepower": "Assault Weapons",
+              "specialRules": [
+                "EA(+2)",
+                "MW"
+              ]
+            }
+          ]
+        },
         {
       "name": "Bright Lance",
       "modes": [
@@ -1739,6 +1872,17 @@
 
           ]
           }
+      ]
+    },
+    {
+      "name": "Burrowclaws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons+",
+          "specialRules": [
+            "EA(+1)"
+        ]
+        }
       ]
     },
     {
@@ -1992,6 +2136,54 @@
       ]
     },
     {
+      "name": "Large Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Massive Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+2)",
+            "MW"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Massive Scything Talons",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+2)",
+            "TK(1)"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Monstrous Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+2)",
+            "TK(D3)"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Claws and Fangs",
       "modes": [
         {
@@ -2206,6 +2398,18 @@
       "modes": [
         {
           "firepower": "Small Arms",
+          "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deathspitters",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30,
           "specialRules": [
 
           ]
@@ -2904,6 +3108,14 @@
       ]
     },
     {
+      "name": "Fleshborers",
+      "modes": [
+        {
+          "firepower": "Small Arms"
+        }
+      ]
+    },
+    {
       "name": "Flesh Hooks",
       "modes": [
         {
@@ -2920,6 +3132,15 @@
             "EA(+D3)",
             "FS"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Frag Spines",
+      "modes": [
+        {
+          "firepower": "2x AP5+",
+          "range": 15
         }
       ]
     },
@@ -3105,6 +3326,17 @@
     ]
     },
     {
+      "name": "Grasping Talons",
+        "modes": [
+          {
+            "firepower": "AP5+/AA5+",
+            "range": 15,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Gravitic Tracer Salvo",
         "modes": [
           {
@@ -3225,6 +3457,17 @@
             "firepower": "3x AP4+/AT5+/AA5+",
             "range": 45,
             "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Hail of Barbed Spears",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+2)"
           ]
           }
       ]
@@ -5617,6 +5860,19 @@
       ]
     },
     {
+      "name": "Pyro-Acid",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+
+            "specialRules": [
+              "EA(+1)",
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Quad Hydra Autocannon",
         "modes": [
           {
@@ -5762,6 +6018,7 @@
         }
       ]
     },
+
     {
       "name": "Reaper Autocannon",
       "modes": [
@@ -5894,6 +6151,29 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ripper Swarms",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ripper Tentacles",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+3)",
+                "FS"
           ]
         }
       ]
@@ -6613,6 +6893,31 @@
       ]
     },
     {
+      "name": "Spore Cyst",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 15,
+            "specialRules": [
+                "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Spore Mines",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+                "Ind",
+                "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Star Pulsar",
       "modes": [
         {
@@ -6692,6 +6997,18 @@
             "range":45,
             "specialRules": [
               "Lance"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Stranglethorn Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT6+",
+            "range":30,
+            "specialRules": [
+              "D"
           ]
           }
       ]
@@ -6780,6 +7097,17 @@
             "range": 60,
             "specialRules": [
               "TK(D3+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Swarm Strike",
+        "modes": [
+          {
+            "firepower": "AA6+",
+            "range": 15,
+            "specialRules": [
           ]
           }
       ]
@@ -6952,6 +7280,18 @@
           {
             "firepower": "3x AP6+/AT6+",
             "range": 45,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Tentacles",
+        "modes": [
+          {
+            "firepower": "AP6+",
+            "range": 15,
             "specialRules": [
               "D"
           ]
@@ -7788,6 +8128,15 @@
       ]
     },
     {
+      "name": "Venom Cannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT5+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Vibro Cannon",
       "modes": [
         {
@@ -7936,6 +8285,22 @@
 
             ]
           }
+      ]
+    },
+    {
+      "name": "Warp Blast",
+        "modes": [
+          {
+            "firepower": "AP5+/AA6+",
+            "range": 30
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "MW"
+          ]
+        }
       ]
     },
     {

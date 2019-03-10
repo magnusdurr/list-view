@@ -1,12 +1,8 @@
 [
   {
-    "name": "Tyranid Hive Ships",
+    "name": "Tyranid Hive Fleet",
     "specialRules": [
       {
-        "title": "",
-        "description": [
-          "Template"
-        ]
       }
     ],
     "unit": [
@@ -16,7 +12,7 @@
       "type": "Special",
       "speed": "n/a",
       "weapons": [
-        "n/a"
+        "Tentacles"
       ],
       "specialRules": [
         "Planetfall",

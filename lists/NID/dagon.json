@@ -1,10 +1,10 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Dagon",
-  "version": "1.00",
-  "release": "2019-02-22",
-  "strategy": "Hive Fleet Dagon armies have a strategy rating of 1.",
-  "initiative": "Tyranid armies have a strategy rating of 1. All Tyranid formations have an initiative rating of 1+",
+  "version": "1.3",
+  "release": "2019-03-10",
+  "strategy": "Tyranid armies have a strategy rating of 1.",
+  "initiative": "All Tyranid formations have an initiative rating of 1+",
 
   "specialRules": [
                   "Synapse",
@@ -33,7 +33,7 @@
           "Ravener Alphas",
           "Tyranid Warriors",
           "Zoanthrope",
-          "Lictors",
+          "Lictor",
           "Dagon Overlord",
           "Hive Tyrant",
           "Carnifex",
@@ -77,7 +77,7 @@
     {
           "name": "0-1 Nexus Swarm",
           "units": "1 Dominatrix",
-          "upgrades": [
+          "extraUnits": [
             "2-4 Instinctive Swarms (except Mycetic Spore)"
           ],
           "points": 400
@@ -85,16 +85,20 @@
         {
           "name": "Major Swarm",
           "units": "1 Hive Tyrant, 4 Tyranid Warriors and/or Zoanthropes",
-          "upgrades": [
-            "2-4 Instinctive Swarms, 0-1 Hive Tyrant in the Army may be replaced with the Dagon Overlord: 100 points, Any Dagon Overlord, Hive Tyrant, Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+          "extraUnits": [
+            "2-4 Instinctive Swarms",
+            "0-1 Hive Tyrant in the Army may be replaced with the Dagon Overlord: 100 points",
+            "Any Dagon Overlord, Hive Tyrant, Tyranid Warriors may be upgraded to Shrike (Wings): Free"
           ],
           "points": 175
         },
         {
           "name": "Minor Swarm",
           "units": "3 Tyranid Warriors and/or Zoanthropes",
-          "upgrades": [
-            "2-4 Instinctive Swarms, 1+ Gaunts, Gargoyles or Biovores must be chosen., Any Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+          "extraUnits": [
+            "2-4 Instinctive Swarms",
+            "1+ Gaunts, Gargoyles or Biovores must be chosen.",
+            "Any Tyranid Warriors may be upgraded to Shrike (Wings): Free"
           ],
           "points": 100
         }
@@ -102,20 +106,21 @@
     },
     {
       "name": "Secondary Synapse Swarms",
-      "description": "one for each Primary Synapse Swarm.",
+      "description": "One for each Primary Synapse Swarm",
       "formations": [
         {
           "name": "Nest Swarm",
           "units": "1 Hive Nest",
-          "upgrades": [
-            "1-2 Instinctive Swarms chosen from Gaunts, Gargoyles, Biovores or Bio-Support 1+ Gaunts, Gargoyles or Biovores must be chosen"
+          "extraUnits": [
+            "1-2 Instinctive Swarms chosen from Gaunts, Gargoyles, Biovores or Bio-Support",
+            "1+ Gaunts, Gargoyles or Biovores must be chosen"
           ],
           "points": 125
         },
         {
           "name": "Attack Swarm",
           "units": "1 Hierodule Prime (Barbed or Scythed)",
-          "upgrades": [
+          "extraUnits": [
             "1-2 Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Bio-Support or Hierodule"
           ],
           "points": 150
@@ -123,7 +128,7 @@
         {
           "name": "Infestation Swarm",
           "units": "1 Trygon Prime or 3 Ravener Alphas",
-          "upgrades": [
+          "extraUnits": [
             "1-2 Burrower Instinctive Swarms"
           ],
           "points": "125 or 150"
@@ -131,7 +136,7 @@
         {
           "name": "Harasser Swarm",
           "units": "1 Harridan",
-          "upgrades": [
+          "extraUnits": [
             "1-2 Instinctive Swarms chosen from Gargoyles or Bio-Bombers"
           ],
           "points": 150
@@ -196,7 +201,7 @@
     },
     {
       "name": "Common Independent Swarms",
-      "description": "One for each Primary Synapse Swarm, max 33% of the army.",
+      "description": "One for each Primary Synapse Swarm, no more than a third of the army",
       "formations": [
         {
           "name": "Genestealer Swarm",
@@ -218,15 +223,15 @@
     },
     {
       "name": "Rare Independent Swarms",
-      "description": "One for each Primary Synapse Swarm, max 33% of the army.",
+      "description": "One for each Primary Synapse Swarm, no more than a third of the army",
       "formations": [
         {
           "name": "Bio-Titan",
           "units": "1 Hierophant Bio-Titan",
           "upgrades": [
-            "Replace the Hierophant with a Hydraphant Bio-Titan: 200 points"
+            "Replace the Hierophant with a Hydraphant Bio-Titan: 225 points"
           ],
-          "points": 325
+          "points": 300
         },
         {
           "name": "Bio-Vessel",
