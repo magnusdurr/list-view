@@ -5825,12 +5825,19 @@
     },
     {
       "name": "Purestrain Rending Claws",
-      "modes": [
-        {
-          "firepower": "Assault Weapons",
-          "specialRules": [
-            "EA(+1)",
-            "FS"
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "FS"
+            ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "FS"
           ]
         }
       ]
