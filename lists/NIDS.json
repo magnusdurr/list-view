@@ -21,7 +21,7 @@
         "Leader",
         "Invulnerable Save"
       ]
-      }
+    },
       {
       "name": "Termagaunts",
       "type": "INF",
@@ -72,7 +72,7 @@
       "cc": 4,
 
       "weapons": [
-        "Claws and Fangs"
+        "Bio Claws and Fangs"
       ],
       "specialRules": [
         "Gaunts",
@@ -118,7 +118,7 @@
       "cc": 4,
 
       "weapons": [
-        "Claws and Fangs"
+        "Bio Claws and Fangs"
       ],
       "specialRules": [
         "Synapse",
@@ -366,6 +366,190 @@
     ],
     "notes": "Critical Hit Effect: The Harridan is destoryed."
     },
-    ]
-  }
+    {
+    "name": "Barbed Hierodule Prime",
+    "type": "WE",
+    "speed": 30,
+    "armour": 5,
+    "cc": 4,
+    "ff": 5,
+    "weapons": [
+      "Twin Bio-Cannon",
+      "Large Fangs"
+    ],
+    "specialRules": [
+      "Damage Capacity: 3",
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Invulnerable Save"
+    ],
+    "notes": "Critical Hit Effect: The Hierodule Prime is destoryed."
+    },
+    {
+    "name": "Barbed Hierodule",
+    "type": "WE",
+    "speed": 30,
+    "armour": 5,
+    "cc": 4,
+    "ff": 5,
+    "weapons": [
+      "Twin Bio-Cannon",
+      "Large Fangs"
+    ],
+    "specialRules": [
+      "Damage Capacity: 3",
+      "Reinforced Armour"
+
+    ],
+    "notes": "Critical Hit Effect: The Hierodule is destoryed."
+
+    },
+    {
+    "name": "Scythed Hierodule Prime",
+    "type": "WE",
+    "speed": 30,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Pyro-Acid",
+      "Massive Scything Talons"
+    ],
+    "specialRules": [
+      "Damage Capacity: 3",
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Invulnerable Save"
+
+    ],
+    "notes": "Critical Hit Effect: The Scythed Hierodule Prime is destoryed."
+
+
+    },
+    {
+    "name": "Scythed Hierodule",
+    "type": "WE",
+    "speed": 30,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Pyro-Acid",
+      "Massive Scything Talons"
+    ],
+    "specialRules": [
+      "Damage Capacity: 3",
+      "Reinforced Armour"
+
+
+    ],
+    "notes": "Critical Hit Effect: The Scythed Hierodule is destoryed."
+
+
+    },
+    {
+    "name": "Hive Nest",
+    "type": "WE",
+    "speed": "Immobile",
+    "armour": 4,
+    "cc": 5,
+    "ff": 6,
+    "weapons": [
+      "Bio-Cannon",
+      "Large Fangs"
+    ],
+    "specialRules": [
+      "Damage Capacity: 3",
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour"
+    ],
+    "notes": "Critical Hit Effect: The Hive Nest is destroyed."
+
+
+    },
+    {
+    "name": "Hierophant",
+    "type": "WE",
+    "speed": 25,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Bio-Titan Bio-Cannon",
+      "Hail of Barbed Spears",
+      "Massive Scything Talons"
+    ],
+    "specialRules": [
+      "Damage Capacity: 5",
+      "Fearless",
+      "Reinforced Armour",
+      "Invulnerable Save",
+      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+    ],
+    "notes": "Critical Hit Effect: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hierophant suffers 1 additional damage 6: The Hierodule is killed."
+
+
+    },
+    {
+    "name": "Dominatrix",
+    "type": "WE",
+    "speed": 35,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Bio-Titan Bio-Cannon",
+      "Bio-Plasmic Ray",
+      "Bio-Plasma",
+      "Monstrous Claws"
+    ],
+    "specialRules": [
+      "Damage Capacity: 6",
+      "Hive Mind Locus",
+      "Synapse",
+      "Fearless",
+      "Leader",
+      "Commander",
+      "Inspiring",
+      "Reinforced Armour",
+      "Thick Rear Armor",
+      "Invulnerable Save (5+)",
+      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+    ],
+    "notes": "Critical Hit Effect: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
+
+
+    },
+    {
+    "name": "Hydraphant",
+    "type": "WE",
+    "speed": 35,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Bio-Titan Bio-Cannon",
+      "Bio-Plasma",
+      "Hail of Barbed Spears",
+      "Ripper Tentacles",
+      "Monstrous Claws"
+    ],
+    "specialRules": [
+      "Damage Capacity: 7",
+      "Fearless",
+      "Reinforced Armour",
+      "Thick Rear Armour",
+      "Invulnerable Save (5+)",
+      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+    ],
+    "notes": "Critical Hit Effect: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."
+
+
+    }
+
+]
+}
 ]

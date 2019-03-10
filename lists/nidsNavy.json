@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Tyranid Hive Ships",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+
+    {
+      "name": "Mycetic Spore",
+      "type": "Special",
+      "speed": "n/a",
+      "weapons": [
+        "n/a"
+      ],
+      "specialRules": [
+        "Planetfall",
+        "Transport (May transport a formation that consist exclusively of the following types of units: Termagaunts, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warrior, Zoanthropes) After the Mycetic Spore lands, they attack all enemy units within 15cm. Each enemy formation attacked receives a BM for coming under fire, and an extra BM for each casualty. Then transported formations set up within 5cm of the point the Mycetic Spore landed, or within 5cm of another already disembarqued unit from the same formation (but a maximum of 15cm from the point the formation's Mycetic Spore landed)."
+      ]
+    },
+    {
+      "name": "Razorfiend",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 3BP"
+      ],
+      "specialRules": [
+        "Transport (2 Mycetic Spores including cargo)"
+      ]
+    },
+    {
+      "name": "Hive Ship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 6BP"
+      ],
+      "specialRules": [
+        "Slow to Arrive", "(Can only arrive from turn 2 onwards) Transport (3 Mycetic Spores including cargo)"
+      ]
+    }
+
+    ]
+  }
+]
