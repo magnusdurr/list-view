@@ -11,6 +11,77 @@
     ],
     "unit": [
       {
+      "name": "Brood Lord",
+      "type": "CH",
+      "weapons": [
+        "n/a"
+      ],
+      "specialRules": [
+        "Inspiring",
+        "Leader",
+        "Invulnerable Save"
+      ]
+      }
+      {
+      "name": "Termagaunts",
+      "type": "INF",
+      "speed": 20,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Fleshborers"
+      ],
+      "specialRules": [
+        "Gaunts",
+        "Expendable"
+      ]
+      },
+      {
+      "name": "Hormagaunts",
+      "type": "INF",
+      "speed": 20,
+      "cc": 3,
+      "weapons": [
+        "Claws"
+      ],
+      "specialRules": [
+        "Gaunts",
+        "Expendable"
+      ]
+      },
+      {
+      "name": "Gargoyles",
+      "type": "INF",
+      "speed": 20,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Swarm Strike"
+      ],
+      "specialRules": [
+        "Gaunts",
+        "Jump Packs",
+        "Expendable"
+      ]
+      },
+      {
+      "name": "Raveners",
+      "type": "INF",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+
+      "weapons": [
+        "Claws and Fangs"
+      ],
+      "specialRules": [
+        "Gaunts",
+        "Tunneler",
+        "Infiltrators",
+        "Expendable"
+      ]
+      },
+      {
       "name": "Lictors",
       "type": "LV",
       "speed": 15,
@@ -27,7 +98,8 @@
         "Invulnerable Save",
         "Teleport"
       ]
-    }
+      },
+
     ]
   }
 ]
