@@ -82,6 +82,84 @@
       ]
       },
       {
+      "name": "Genestealers",
+      "type": "INF",
+      "speed": 20,
+      "armour": 6,
+      "cc": 2,
+
+      "weapons": [
+        "Rending Claws"
+      ],
+      "specialRules": [
+        "Scout",
+        "Infiltrators"
+      ]
+      },
+      {
+      "name": "Biovore",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Spore Mines"
+      ],
+      "specialRules": [
+        ""
+      ]
+      },
+      {
+      "name": "Ravener Alphas",
+      "type": "INF",
+      "speed": 20,
+      "armour": 4,
+      "cc": 4,
+
+      "weapons": [
+        "Claws and Fangs"
+      ],
+      "specialRules": [
+        "Synapse",
+        "Fearless",
+        "Tunneler",
+        "Infiltrators"
+      ]
+      },
+      {
+      "name": "Tyranid Warriors",
+      "type": "LV",
+      "speed": "20cm (wings:30cm)",
+      "armour": "5+ (wings:6+)",
+      "cc": 2,
+      "ff": 5,
+      "weapons": [
+        "Death Spitters"
+      ],
+      "specialRules": [
+        "Synapse",
+        "Fearless",
+        "Jump Packs if Wings are taken."
+      ]
+      },
+      {
+      "name": "Zoanthrope",
+      "type": "LV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Warp Blast"
+      ],
+      "specialRules": [
+        "Synapse",
+        "Fearless",
+        "Invulnerable Save"
+      ]
+      },
+      {
       "name": "Lictors",
       "type": "LV",
       "speed": 15,
@@ -99,7 +177,195 @@
         "Teleport"
       ]
       },
+      {
+      "name": "Dagon Overlord",
+      "type": "AV",
+      "speed": "20cm (wings:30cm)",
+      "armour": "3+ (wings:4+)",
+      "cc": 2,
 
+      "weapons": [
+        "Quadrouple Boneswords"
+      ],
+      "specialRules": [
+        "Hive Mind Locus",
+        "Inspiring",
+        "Synapse",
+        "Fearless",
+        "Reinforced Armour",
+        "Commander",
+        "Leader",
+        "Jump Packs if Wings are taken."
+      ]
+      },
+      {
+      "name": "Hive Tyrant",
+      "type": "AV",
+      "speed": "20cm (wings:30cm)",
+      "armour": "4+ (wings:5+)",
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Venom Cannon",
+        "Large Claws"
+      ],
+      "specialRules": [
+        "Synapse",
+        "Fearless",
+        "Reinforced Armour",
+        "Commander",
+        "Leader",
+        "Jump Packs if Wings are taken."
+      ]
+      },
+      {
+      "name": "Carnifex",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Bio-Plasma",
+        "Large Claws"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+      },
+      {
+      "name": "Dactylis",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Bio-Acid-Venom Pods"
+      ],
+      "specialRules": [
+
+      ]
+      },
+      {
+      "name": "Exocrine",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Bio-Plasmic Cannon"
+      ],
+      "specialRules": [
+
+      ]
+      },
+      {
+      "name": "Haruspex",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Acid Jets",
+        "Massive Claws"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+      },
+      {
+      "name": "Malefactor",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Frag Spines",
+        "Large Claws"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Transport 2 (Termagaunts, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each)"
+      ]
+      },
+      {
+      "name": "Harpy",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Stranglethorn Cannon",
+        "Spore Cyst",
+        "Grasping Talons"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Skimmer"
+      ]
+      },
+      {
+      "name": "Trygon Prime",
+      "type": "WE",
+      "speed": 25,
+      "armour": 4,
+      "cc": 3,
+      "ff": 6,
+      "weapons": [
+        "Large Claws"
+      ],
+      "specialRules": [
+        "Damage Capacity: 2",
+        "Synapse",
+        "Fearless",
+        "Reinforced Armour",
+        "Tunneler"
+      ],
+      "notes": "Critical Hit Effect: The Trygon Prime is destoryed."
+    },
+    {
+    "name": "Trygon",
+    "type": "WE",
+    "speed": 25,
+    "armour": 5,
+    "cc": 3,
+    "ff": 6,
+    "weapons": [
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Damage Capacity: 2",
+      "Reinforced Armour",
+      "Tunneler"
+    ],
+    "notes": "Critical Hit Effect: The Trygon is destoryed."
+    },
+    {
+    "name": "Harridan",
+    "type": "WE",
+    "speed": 35,
+    "armour": 5,
+    "cc": 5,
+    "ff": 5,
+    "weapons": [
+      "Bio-Cannon",
+      "Large Fangs"
+    ],
+    "specialRules": [
+      "Damage Capacity: 3",
+      "Synapse",
+      "Fearless",
+      "Skimmer",
+      "Reinforced Armour",
+      "Transport 4 (Gargoyles)"
+    ],
+    "notes": "Critical Hit Effect: The Harridan is destoryed."
+    },
     ]
   }
 ]
