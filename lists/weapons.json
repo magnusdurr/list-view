@@ -5037,6 +5037,18 @@
       ]
     },
     {
+      "name": "Neutron Laser",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 45,
+          "specialRules": [
+            "D"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Nexus Missile System",
         "modes": [
           {
@@ -7747,6 +7759,18 @@
           "firepower": "AP4+",
           "range": 30
         }
+      ]
+    },
+    {
+      "name": "Twin Heavy Phosphor Blaster",
+        "modes": [
+          {
+            "firepower": "AP3+/AT5+",
+            "range":45,
+            "specialRules": [
+                "D"
+          ]
+          }
       ]
     },
     {
