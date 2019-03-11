@@ -83,7 +83,7 @@
             "Valkyries",
             "Tauros Venators",
             "Tauros Transports",
-            "Grav Shutes",
+            "Grav Chutes",
             "Skytalons"
           ],
           "points": 225
@@ -116,7 +116,7 @@
           "name": "Support Sentinels",
           "units": "4 Support Sentinels",
           "upgrades": [
-            "Grav Shutes",
+            "Grav Chutes",
             "Skytalons"
           ],
           "points": 125
@@ -203,10 +203,10 @@
             ]
           },
           {
-            "name": "Grav Shutes",
+            "name": "Grav Chutes",
             "options": [
               {
-                "description": "Formation Gains Self Planetfall",
+                "description": "Formation gains Self Planetfall",
                 "points": "25 points"
               }
             ]
