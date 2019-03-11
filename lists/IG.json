@@ -278,11 +278,9 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Melta-Gun",
         "Lasguns"
       ],
       "specialRules": [
-        "One in every two units has a Meltagun"
       ]
     },
     {
@@ -608,13 +606,11 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Heavy Bolter|0-1",
-        "Heavy Flamer|0-1",
+        "Heavy Bolter",
         "and one of the following",
         "Hunter-killer missile|0-1",
-        "Multi Melta|0-1",
-        "Rocket Pod|0-1"
-
+        "Rocket Pod|0-1",
+        "Multi Melta|0-1"
       ],
       "specialRules": [
         "Scout",
@@ -624,7 +620,7 @@
     {
       "name": "Tauros Transports",
       "type": "LV",
-      "speed": 30,
+      "speed": 35,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -640,7 +636,7 @@
     {
       "name": "Tauros Venators",
       "type": "LV",
-      "speed": 30,
+      "speed": 35,
       "armour": 4,
       "cc": 6,
       "ff": 5,
@@ -650,6 +646,20 @@
       "specialRules": [
         "Walker",
         "Transport: May Transport 1 Infantry unit."
+      ]
+    },
+    {
+      "name": "Heavy Tauros Venators",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Lascannon"
+      ],
+      "specialRules": [
+        "Walker"
       ]
     },
     {
@@ -1043,8 +1053,8 @@
       ],
       "specialRules": [
         "Skimmer",
-        "Elysian Deepstrike",
-        "Transport: May Transport either up to 2 Tauros units, 2 Tauros Venator and any infantry trasnported on them or 6 Cyclops Demolition Vehicles or 4 Support Sentinels"
+        "Self Planetfall",
+        "Transport: May Transport up to two light vehicles and and infantry transported in them."
       ]
     },
     {

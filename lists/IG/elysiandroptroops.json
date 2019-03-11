@@ -1,12 +1,12 @@
 {
   "fraction": "Astra Militarum",
   "army": "Elysian Drop Troops",
-  "version": "1.10",
-  "release": "2019-02-22",
+  "version": "1.2",
+  "release": "2019-03-11",
   "strategy": "Elysian Drop Troop armies have a stratergy rating of 2.",
   "initiative": "All formations have a initiative rating of 2+.",
 
-  "specialRules": ["Commissars", "Lord Commissar", "Elysian Deep Strike", "Cyclops Demolition Vehicles", "Elysian Skytalons"],
+  "specialRules": ["Commissars", "Lord Commissar", "Cyclops Demolition Vehicles", "Grav Shutes", "Elysian Hit and Run"],
   "usage": [
     "The following army list allows you to field an army based on the Catachan Death World Regiment"
   ],
@@ -17,13 +17,13 @@
         "Elysian Supreme Commander",
         "Elysian Commander",
         "Tempestor",
-        "Infantry",
         "Elysian Drop Troops",
         "Tempest Scion",
         "Sentinel",
         "Support Sentinel",
         "Tauros Transports",
         "Tauros Venators",
+        "Heavy Tauros Venators",
         "Cyclops Demolition Vehicles",
         "Sky Talon",
         "Valkyrie",
@@ -41,7 +41,8 @@
       "units": [
         "Thunderbolt",
         "Marauder Bomber",
-        "Marauder Colossus Bomber"
+        "Marauder Colossus Bomber",
+        "Lunar Class Cruiser"
       ],
         "unitRules": [
       ]
@@ -53,21 +54,21 @@
       "formations": [
         {
           "name": "0-1 Regimental HQ",
-          "units": "One Elysian Supreme Commander unit and seven Infantry units.",
-          "extraUnits": [
-            "Add 4 Valkyries for 50 points",
-            "Add 4 Tauros Venators for Free"
-          ],
-          "points": 300
-        },
-        {
-          "name": "Regimental HQ",
-          "units": "One Elysian Commander unit and seven Infantry units.",
-          "extraUnits": [
-            "Add 4 Valkyries for 50 points",
-            "Add 4 Tauros Venators for Free"
+          "units": "One Elysian Supreme Commander unit and seven Elysian Drop Troop units.",
+          "upgrades": [
+            "Valkyries",
+            "Tauros Venators"
           ],
           "points": 250
+        },
+        {
+          "name": "Drop Troop Company",
+          "units": "One Elysian Commander unit and seven Elysian Drop Troop units.",
+          "upgrades": [
+            "Valkyries",
+            "Tauros Venators"
+          ],
+          "points": 200
         }
       ]
     },
@@ -78,24 +79,22 @@
         {
           "name": "Elysian Tempest Scions",
           "units": "Eight Tempest Scion units and one Tempestor",
-          "extraUnits": [
-            "Add 4 Valkyries for 50 points",
-            "Add Grav Shutes for free",
-            "Add 4 Tauros Transports for free",
-            "Add 4 Tauros Venators for Free"
+          "upgrades": [
+            "Valkyries",
+            "Tauros Venators",
+            "Tauros Transports",
+            "Grav Shutes",
+            "Skytalons"
           ],
-          "points": 300
+          "points": 225
         },
         {
-          "name": "Elysian Drop Troops",
-          "units": "Eight Drop Troops and one Elysian Commander",
-          "extraUnits": [
-            "Add 4 Valkyries for 50 points",
-            "Add Grav Shutes for free",
-            "Add 4 Tauros Transports for free",
-            "Add 4 Tauros Venators for Free"
+          "name": "Heavy Tauros Company",
+          "units": "Eight Heavy Tauros Venators",
+          "upgrades": [
+              "Skytalons"
           ],
-          "points": 275
+          "points": 225
         },
         {
           "name": "0-2 Cyclops Demolition Squadron",
@@ -116,17 +115,9 @@
         {
           "name": "Support Sentinels",
           "units": "4 Support Sentinels",
-          "extraUnits": [
-            "May be armed with one of the following",
-            "Heavy Bolter",
-            "Heavy Flamer",
-            "And one of the following",
-            "Hunter-killer missile",
-            "Multi-Melta",
-            "Rocket Pod",
-            "May also add Grav Shutes for +25 points"
-
-
+          "upgrades": [
+            "Grav Shutes",
+            "Skytalons"
           ],
           "points": 125
         },
@@ -139,14 +130,6 @@
           "name": "Vendetta Squadron",
           "units": "3 Vendettas",
           "points": 225
-        },
-        {
-          "name": "Skytalon Transports",
-          "units": "Add enough Skytalons to transport a Elysian formation to the battlefield. These must be purchased to be attached to a formation they transport.",
-          "upgrades": [
-            "Sky Talons at 50 for the first and 25 points each there after."
-          ],
-          "points": 0
         }
       ]
     },
@@ -168,8 +151,75 @@
           "name": "Maurader Colossus Squadron",
           "units": "2 Maurader Colossus Bombers",
           "points": 275
+        },
+        {
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
+          "points": 150,
+          "upgrades": [
+          ]
         }
       ]
     }
-  ]
-}
+  ],
+      "upgrades": {
+        "title": "Elysian Upgrades",
+        "description": "Each upgrade may be taken once per Formation",
+        "items": [
+          {
+            "name": "Lord Commissar",
+            "options": [
+              {
+                "description": "Replace a Commissar with a Lord Commissar.",
+                "points": "50 points"
+              }
+            ]
+          },
+          {
+            "name": "Skytalons",
+            "options": [
+              {
+                "description": "Add enough Skytalons to trasport the entire formation. Formations must entire via self planetfall if this upgrade is taken.",
+                "points": "25 points each"
+              }
+            ]
+          },
+          {
+            "name": "Valkyries",
+            "options": [
+              {
+                "description": "Add 4 Valkyries",
+                "points": "100 points"
+              }
+            ]
+          },
+          {
+            "name": "Tauros Venators",
+            "options": [
+              {
+                "description": "Add 8 Tauros Venators",
+                "points": "100 points"
+              }
+            ]
+          },
+          {
+            "name": "Grav Shutes",
+            "options": [
+              {
+                "description": "Formation Gains Self Planetfall",
+                "points": "25 points"
+              }
+            ]
+          },
+          {
+            "name": "Tauros Transports",
+            "options": [
+              {
+                "description": "8 Tauros Transports",
+                "points": "75 points"
+              }
+            ]
+          }
+      ]
+    }
+  }
