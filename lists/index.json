@@ -1,7 +1,7 @@
 {
   "index": [
     {
-      "name": "Scenario",
+      "name": "Scenarios",
       "abbreviation": "Scenario",
       "lists": [
         {
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "name": "Necron",
+      "name": "Necrons",
       "abbreviation": "NC",
       "lists": [
         {
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "name": "Ork",
+      "name": "Orks",
       "abbreviation": "O",
       "lists": [
           {
@@ -254,6 +254,16 @@
       ]
     },
     {
+      "name": "Squats",
+      "abbreviation": "SQ",
+      "lists": [
+        {
+          "name": "Wodan Stronghold",
+          "file": "squats"
+        }
+      ]
+  },
+    {
       "name": "Tau",
       "abbreviation": "TAU",
       "lists": [
@@ -272,7 +282,7 @@
       ]
     },
     {
-      "name": "Tyranid",
+      "name": "Tyranids",
       "abbreviation": "NID",
       "lists": [
         {
@@ -280,16 +290,7 @@
           "file": "dagon"
         }
       ]
-  },
-      {
-        "name": "Squats",
-        "abbreviation": "SQ",
-        "lists": [
-          {
-            "name": "Wodan Stronghold",
-            "file": "squats"
-          }
-        ]
-      }
+  }
+
   ]
 }
