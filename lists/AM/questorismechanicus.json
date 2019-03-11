@@ -63,10 +63,13 @@
         "Kastelan Robot",
 
         "Onager Dunecrawler",
-        "AM Gorgon"
+        "AM Gorgon",
+
+        "Avenger Strike Fighters",
+        "Ark Mechanicus Battleship"
     ],
         "unitRules": [
-
+            "God Machine Killer (GMK)"
       ]
     },
   {
@@ -78,15 +81,6 @@
           "Independent",
           "Imperial Void Shields"
     ]
-  },
-    {
-      "from": "ImperialNavy.json",
-      "units": [
-        "Avenger Strike Fighters",
-        "Ark Mechanicus Battleship"
-      ],
-        "unitRules": [
-      ]
   }
 ],
 "sections": [

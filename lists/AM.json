@@ -10,7 +10,13 @@
             "If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker then it may attempt to save normally.",
             "Automaton units killed in an assault count for the purposes of working out its result."
           ]
-        }
+      },
+      {
+            "title": "God Machine Killer (GMK)",
+            "description": [
+              "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
+        ]
+      }
     ],
     "unit": [
       {
@@ -301,9 +307,9 @@
           "ff": 5,
           "weapons": [
             "Eradication Beamer|0-1|",
-            "Icarus Array|0-1|",
             "Neutron Laser|0-1|",
-            "Twin Heavy Phosphor Blaster|0-1|"
+            "Twin Heavy Phosphor Blaster|0-1|",
+            "Icarus Array|0-1|"
           ],
           "specialRules": [
             "Walker",
@@ -431,7 +437,7 @@
         "ff": 5,
         "weapons": [
           "Gorgon Mortars",
-          "Twin Heavy Stubbers|2|"
+          "Heavy Bolters|2|"
         ],
         "specialRules": [
           "Damage Capacity 3",
@@ -460,7 +466,11 @@
       "weapons": [
         "Orbital Bombardment 6BP|0-1 1|",
         "Pin Point|0-1 2|"
-      ]
+    ],
+    "specialRules": [
+      "Is equipped with either Orbital Bombardment or two Pin Point attacks.",
+      "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
+    ]
     }
 
     ]

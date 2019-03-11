@@ -3,7 +3,7 @@
   "army": "Explorator Fleet",
   "version": "1.12",
   "release": "2019-02-22",
-  "strategy": "Explorator Fleets have a stratergy rating of 3.",
+  "strategy": "Explorator Fleets have a strategy rating of 3.",
   "initiative": "All formations have a initiative rating of 2+.",
 
   "specialRules": [
@@ -11,9 +11,6 @@
           "Bravery",
           "Stubborn",
           "Ion Shield (X)",
-          "Shield Piercer",
-          "Lightning Charge",
-          "Unstable",
           "Knight Units (AV-K)"
 
   ],
@@ -42,10 +39,13 @@
 
         "Onager Dunecrawler",
         "Chimeradon",
-        "Terrax Pattern Termite Assault Drill"
+        "Terrax Pattern Termite Assault Drill",
+
+        "Avenger Strike Fighters",
+        "Ark Mechanicus Battleship"
       ],
         "unitRules": [
-
+            "God Machine Killer (GMK)"
       ]
     },
     {
@@ -58,16 +58,8 @@
         "unitRules": [
 
       ]
-    },
-    {
-      "from": "ImperialNavy.json",
-      "units": [
-        "Avenger Strike Fighters",
-        "Ark Mechanicus Battleship"
-      ],
-        "unitRules": [
-      ]
     }
+
 ],
 "sections": [
     {

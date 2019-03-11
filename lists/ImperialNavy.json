@@ -72,7 +72,7 @@
       "armour": 4,
       "weapons": [
         "Aircraft Twin Lascannon",
-        "Aircraft Collossus Bomb",
+        "Aircraft Colossus Bomb",
         "Aircraft Twin Heavy Bolter|2|"
       ],
       "specialRules": [
@@ -95,17 +95,10 @@
         "Orbital Bombardment 8BP"
       ],
       "specialRules": [
-        "Slow to Arrive"
-      ]
-    },
-    {
-      "name": "Ark Mechanicus Battleship",
-      "type": "SC",
-      "weapons": [
-        "Orbital Bombardment 6BP|0-1 1|",
-        "Pin Point|0-1 2|"
+        "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
       ]
     }
+
 
     ]
   }
