@@ -38,9 +38,28 @@
 
 
 
+    {
+      "title": "Support Craft",
+      "description": [
+        "Support craft are skimmers, which for all line of sight and terrain purposes count as ‘popped up’ at all times. If the support craft has a transport option, it may embark and disembark units as normal. Embarked units are allowed a save (see 1.7.5) if the support craft is destroyed.",
+        "Support  craft  do  not  block  line  of  sight,  must  always  use  their  skimmer  ability  to  force  a  firefight  in engagements and Infantry in base contact with a support craft may not use it to count as being in cover."
+      ]
+  },
 
 
 
+        {
+          "title": "Spirit of the Ancients",
+          "description": [
+            "As long as he is alive, a Living Ancestor confers Invulnerable Save to all units in the formation."
+          ]
+      },
+      {
+        "title": "Shield Render",
+        "description": [
+          "A weapon with Shield Render ignores Ion Shields. In addition, it takes two Power Fields, Shadowfields or Void Shields to stop one damage."
+        ]
+    },
 
     {
       "title": "Bravery",
@@ -119,15 +138,15 @@
     {
       "title": "Cyclops Demolition Vehicles",
       "description": [
-        "When a Clyclops Demolition Vehicle Assaults a formation. Immediately after they attack they are removed from play.",
-        "Clyclops Demolition Formations cannon be broken."
+        "When a formation of Cyclops Demolition Vehicle engages an a formation, they are immediately removed from play after the engage has been resolved.",
+        "Cyclops Demolition Formations cannon be broken."
         ]
     },
 
     {
-      "title": "Grav Shutes",
+      "title": "Grav Chutes",
       "description": [
-        "Formations conisting of all units havinbg Grav Chutes allows the formation to be set up and enter play via Self Planetfall."
+        "A formation completely made up of units with Grav Chutes may be set up and enter play via Self Planetfall."
         ]
     },
     {

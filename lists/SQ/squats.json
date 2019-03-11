@@ -1,49 +1,50 @@
 {
   "fraction": "Squats",
-  "army": "Squat Homeworld",
+  "army": "Wodan Stronghold",
   "version": "1.0",
-  "release": "2019-02-22",
-  "strategy": "Squat Homeworld armies have a strategy rating of 3.",
-  "initiative": "Titan Legion formations have an initiative of 1+. All other formations have an initiative of 2+.",
+  "release": "2019-03-11",
+  "strategy": "Squat Stronghold armies have a strategy rating of 3.",
+  "initiative": "Squat War Engine formations have an initiative of 1+. All other formations have an initiative of 2+.",
 
-  "specialRules": ["Commissars", "Lord Commissar"],
+  "specialRules": [
+      "Stubborn",
+      "Spirit of the Ancients",
+      "Shield Render",
+      "Support Craft",
+      "Tunnelers"
+  ],
   "usage": [
-    "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
+    "The following army list allows you to field an army based on the Wodan Stronghold."
   ],
   "units": [
     {
-      "from": "IG.json",
+      "from": "SQ.json",
       "units": [
-        "Steel Legion Supreme Commander",
-        "Steel Legion Commander",
-        "Tempestor",
-        "Commissar",
-        "Lord Commissar",
-        "Infantry",
-        "Ogryns",
-        "Rough Riders",
-        "Snipers",
-        "Tempestus Scions",
-        "Support Squad",
-        "Sentinel",
-        "Basilisk",
-        "Bombard",
-        "Chimera",
-        "Taurox",
-        "Deathstrike",
-        "Griffon",
-        "Hellhound",
-        "Hydra",
-        "Leman Russ",
-        "Leman Russ Demolisher",
-        "Leman Russ Vanquisher",
-        "Manticore",
-        "Valkyrie",
-        "Vulture",
-        "Shadowsword",
-        "Baneblade",
-        "Stormsword",
-        "Stormblade"
+        "Wodan Warlord",
+        "Living Ancestor",
+        "Squat Lord",
+        "Squat Warriors",
+        "Wodan Berzerkers",
+        "Squat Bikers",
+        "Wodan Hearthguard",
+        "Thunderers",
+        "Rapier",
+        "Thudd Gun",
+        "Wodan Guildmaster",
+        "Squat Trike",
+        "Thunderfire",
+        "Squat Rhino",
+        "Squat Land Raider",
+        "Iron Eagle",
+        "Gyrokopter",
+        "Squat Mole",
+        "Squat Hellebore",
+        "Goliath Mega Cannon",
+        "Overlord",
+        "Squat Leviathan",
+        "Colossus",
+        "Cyclops",
+        "Land Train"
       ],
         "unitRules": [
 
@@ -51,25 +52,12 @@
           ]
     },
     {
-      "from": "ImperialAllies.json",
+      "from": "AM.json",
       "units": [
-          "Warhound",
-          "Reaver Titan"
+          "Conqueror Robot",
+          "Vultarax Robot"
         ],
-      "unitRules": ["Imperial Void Shields", "Independent"]
-    },
-
-    {
-      "from": "ImperialNavy.json",
-      "units": [
-        "Thunderbolt",
-        "Marauder Bomber",
-        "Lunar Class Cruiser",
-        "Emperor Class Battleship"
-      ],
-        "unitRules": [
-            "God Machine Killer (GMK)"
-      ]
+      "unitRules": ["Automaton"]
     }
 ],
 "sections": [
