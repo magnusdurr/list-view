@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Alpha Legion",
-  "version": "1.0",
-  "release": "2019-03-11",
+  "version": "1.1",
+  "release": "2019-03-12",
   "strategy": "Alpha Legion armies have a strategy rating of 4.",
   "initiative": "Alpha Legion Detachments have an initiative rating 1+. All other formations have an initiative rating of 2+.",
 
@@ -31,7 +31,7 @@
           "Alpha Legion Dreadnought",
           "Alpha Legion Predator",
           "Alpha Legion Rhino",
-          "Alpha Legion Vindicator Destroyer",
+          "Alpha Legion Laser Vindicator",
           "Alpha Legion Land Raider",
           "Alpha Legion Xiphon Interceptor",
           "Alpha Legion Thunderhawk",
@@ -59,14 +59,9 @@
         "Infantry",
         "Chimera",
         "Hydra",
-        "Griffon",
-        "Sentinel",
         "Leman Russ",
-        "Leman Russ Demolisher",
-        "Leman Russ Punisher",
         "Baneblade",
-        "Shadowsword",
-        "Stormblade"
+        "Shadowsword"
       ],
         "unitRules": [
 
@@ -87,7 +82,7 @@
               "Dreadnoughts",
               "Predators"
           ],
-          "points": 250
+          "points": 275
         }
       ]
     },
@@ -125,8 +120,8 @@
             "points": 250
           },
           {
-            "name": "Vindicator Destructors",
-            "units": "Four Alpha Legion Vindicator Destroyers",
+            "name": "Laser Vindicators",
+            "units": "Four Alpha Legion Laser Vindicators",
             "upgrades": [
             ],
             "points": 275
@@ -135,49 +130,38 @@
       ]
     },
   {
-    "name": "Traitor Imperial Guard Formations",
-    "description": "Up to two Traitor Imperial Guard Formation for each Alpha Legion Core Detachment.",
+    "name": "Traitor Imperial Guard Allies",
+    "description": "Up to a third of the points available may be spent on Traitor Imperial Guard Allies.",
     "formations": [
         {
-          "name": "Mechanized Traitor Company",
-          "units": "One Fallen Commander, seven Infantry units, four Chimeras",
+          "name": "Mechanized Traitor Platoon",
+          "units": "One Fallen Commander, five Infantry units, three Chimeras",
           "upgrades": [
-              "Hydra",
+              "Hydras",
               "Mutants",
-              "Chaos Hounds",
-              "Griffons"
+              "Chaos Hounds"
               ],
-              "points": 250
+              "points": 200
           },
-          {
-            "name": "Sentinels",
-            "units": "Four Sentinels",
-            "upgrades": [
-                ],
-                "points": 100
-            },
         {
-        "name": "Traitor Super-Heavy Tanks",
-        "units": "Choose any two: Baneblade, Shadowsword or Stormblade",
-        "points": 350
+        "name": "Super-Heavy Tank Platoon",
+        "units": "One Baneblade or Shadowsword",
+        "points": 200
       },
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks",
           "upgrades": [
-              "Hydra"
           ],
           "points": 250
       },
-        {
-          "name": "Leman Russ Platoon",
-          "units": "Choose any six: Leman Russ, Leman Russ Demolisher, Leman Russ Punisher",
-          "upgrades": [
-              "Hydra"
-          ],
-          "points": 350
-
-      }
+      {
+        "name": "Leman Russ Platoon",
+        "units": "Six Leman Russ",
+        "upgrades": [
+            ],
+            "points": 350
+        }
 
       ]
     },
@@ -188,6 +172,8 @@
         {
           "name": "Xiphon Squadron",
           "units": "Two Alpha Legion Xiphon Interceptors",
+          "upgrades": [
+          ],
           "points": 200
         },
         {
@@ -252,7 +238,7 @@
         "options": [
           {
             "description": "Add up to two Alpha Legion Dreadnoughts",
-            "points": "50 points for one , 75 points for two"
+            "points": "50 points for one, 75 points for two"
           }
         ]
       },
@@ -266,11 +252,11 @@
         ]
       },
       {
-        "name": "Hydra",
+        "name": "Hydras",
         "options": [
           {
-            "description": "Add one Hydra",
-            "points": "50 points"
+            "description": "Add up to two Hydras",
+            "points": "50 points each"
           }
         ]
       },
@@ -278,8 +264,8 @@
         "name": "Mutants",
         "options": [
           {
-            "description": "Add six Mutants and three Land Transporters",
-            "points": "75 points"
+            "description": "Add four Mutants and two Land Transporters",
+            "points": "50 points"
           }
         ]
       },
@@ -291,16 +277,7 @@
             "points": "25 points"
           }
         ]
-      },
-      {
-        "name": "Griffons",
-        "options": [
-          {
-            "description": "Add three Griffons",
-            "points": "50 points"
-          }
-        ]
-      }
+    }
 
   ]
 }
