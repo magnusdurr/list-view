@@ -1011,6 +1011,20 @@
       ]
     },
     {
+      "name": "Leman Russ Punisher",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Punisher Gatling Cannon", "Heavy Flamer", "Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
       "name": "Manticore",
       "type": "AV",
       "speed": 20,
@@ -1343,7 +1357,7 @@
       "speed": 15,
       "armour": 4,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
         "Plasma Blastgun",
         "Heavy Bolter",

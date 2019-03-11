@@ -8,7 +8,13 @@
           "description": [
             "Reduce the damage caused by blast markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
           ]
-        }
+      },
+      {
+        "title": "Lance",
+        "description": [
+          "When units with reinforced armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        ]
+      }
     ],
 
     "unit": [
@@ -64,6 +70,20 @@
         ]
       },
       {
+        "name": "Alpha Legion Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "'I'm Alpharius!'",
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
+
+        ]
+      },
+      {
         "name": "Skull Lord",
         "type": "CH",
         "weapons": [
@@ -104,6 +124,19 @@
 
         ],
         "notes": "May not be added to a formation containing Khorne Berzerkers"
+      },
+      {
+        "name": "Alpha Legion Sorcerer",
+        "type": "CH",
+        "weapons": [
+          "Warp Bolt"
+        ],
+        "specialRules": [
+            "Commander",
+            "Leader",
+            "Invulnerable Save"
+
+        ]
       },
       {
         "name": "Champion of Chaos Undivided",
@@ -303,6 +336,20 @@
         ]
       },
       {
+        "name": "Alpha Legion Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Autocannon|2|"
+      ],
+      "specialRules": [
+          "Stubborn"
+      ]
+      },
+      {
         "name": "Chosen",
         "type": "INF",
         "speed": 15,
@@ -317,6 +364,23 @@
       ]
       },
       {
+        "name": "Headhunters",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Heavy Bolter",
+          "Banestrike Combi-Bolters"
+      ],
+      "specialRules": [
+          "Stubborn",
+          "Scout",
+          "Sabotage"
+      ]
+      },
+      {
         "name": "Raptors",
         "type": "INF",
         "speed": 30,
@@ -326,7 +390,25 @@
         "weapons": [
           "Plasma Pistols",
           "Chainswords"
-        ]
+      ],
+      "specialRules": [
+          "Jump Packs"
+      ]
+      },
+      {
+        "name": "Alpha Legion Destroyers",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Rad Missile Launcher|2|"
+      ],
+      "specialRules": [
+          "Stubborn",
+          "Jump Packs"
+      ]
       },
       {
         "name": "Chaos Terminators",
@@ -340,6 +422,24 @@
           "Power Weapons"
       ],
       "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Lernaean Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 2,
+        "weapons": [
+          "Volkite Chargers",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Stubborn",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
@@ -639,6 +739,25 @@
         ],
         "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
           },
+          {
+            "name": "Alpha Legion Land Raider",
+            "type": "AV",
+            "speed": 25,
+            "armour": 4,
+            "cc": 6,
+            "ff": 4,
+            "weapons": [
+              "Twin Lascannon|2|",
+              "Twin Heavy Bolter"
+            ],
+            "specialRules": [
+                "Stubborn",
+                "Reinforced Armour",
+                "Thick Rear Armour",
+                "Transport"
+            ],
+            "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+              },
         {
           "name": "Emperor's Children Land Raider",
           "type": "AV",
@@ -726,6 +845,21 @@
         ]
       },
       {
+        "name": "Alpha Legion Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Predator Cannon",
+          "Lascannon|2|"
+      ],
+      "specialRules": [
+          "Stubborn"
+      ]
+      },
+      {
         "name": "Emperor's Children Predator",
         "type": "AV",
         "speed": 30,
@@ -764,6 +898,21 @@
         ]
       },
       {
+        "name": "Alpha Legion Vindicator Destroyer",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Laser Destroyer Array"
+        ],
+        "specialRules": [
+            "Stubborn",
+            "Walker"
+        ]
+      },
+      {
         "name": "Death Guard Vindicator",
         "type": "AV",
         "speed": 20,
@@ -791,6 +940,22 @@
         ],
         "specialRules": [
           "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Alpha Legion Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Twin Volkite Culvertin",
+          "Power Fist"
+        ],
+        "specialRules": [
+          "Stubborn",
           "Walker"
         ]
       },
@@ -852,6 +1017,19 @@
         "Invulnerable Save"
     ]
   },
+  {
+    "name": "Alpha Legion Xiphon Interceptor",
+    "type": "AC",
+    "speed": "Fighter",
+    "armour": 6,
+    "weapons": [
+      "AC Quad Lascannon||FxF",
+      "AC Xiphon Rotary Missile Launcher||FxF"
+    ],
+    "specialRules": [
+
+    ]
+  },
     {
       "name": "Chaos Thunderhawk",
       "type": "AC/WE",
@@ -872,7 +1050,67 @@
         "Transport"
       ],
       "notes": "May transport eight infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
-    }
+  },
+  {
+    "name": "Alpha Legion Thunderhawk",
+    "type": "AC/WE",
+    "speed": "Bomber",
+    "armour": 4,
+    "cc": 5,
+    "ff": 4,
+    "weapons": [
+      "Battle Cannon||FxF",
+      "Twin Heavy Anti-Air Bolter|2|FxF",
+      "Twin Anti-Air Bolter||Left",
+      "Twin Anti-Air Bolter||Right"
+    ],
+    "specialRules": [
+      "Damage Capacity 2",
+      "Stubborn",
+      "Planetfall",
+      "Reinforced Armour",
+      "Transport"
+    ],
+    "notes": "May transport eight infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+    },
+    {
+      "name": "Alpha Legion Thunderhawk Transporter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Anti-Air Bolter|2|Left",
+        "Twin Anti-Air Bolter|2|Right"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Stubborn",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ],
+      "notes": "May carry up to two of the following: Stalkers, Predators, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles. Critical Hit Effect: The unit and all units being carried are destroyed."
+  },
+  {
+    "name": "Alpha Legion Strike Cruiser",
+    "type": "SC",
+    "weapons": [
+      {
+        "name": "Orbital Bombardment",
+        "modes": [
+          {
+            "firepower": "4BP, MW"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Transport"
+    ],
+    "notes": "May transport twenty infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Gunships and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
+  }
     ]
   }
 ]

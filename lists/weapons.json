@@ -762,6 +762,17 @@
       ]
     },
     {
+      "name": "AC Quad Lascannon",
+        "modes": [
+          {
+            "firepower": "AT3+/AA3+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Spiculus Heavy Bolt Launcher",
         "modes": [
           {
@@ -904,18 +915,6 @@
       ]
     },
     {
-      "name": "Abyssal Staff",
-        "modes": [
-          {
-            "firepower": "Small Arms",
-            "specialRules": [
-              "EA(+1)",
-              "MW"
-          ]
-          }
-      ]
-    },
-    {
       "name": "Aircraft Vampire Hunter Twin Pulsar",
       "modes": [
         {
@@ -928,6 +927,28 @@
         }
       ]
     },
+    {
+      "name": "AC Xiphon Rotary Missile Launcher",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Staff",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
+      ]
+    },
+
     {
       "name": "AA Flame Cannon",
       "modes": [
@@ -1277,6 +1298,17 @@
               "range": 120,
               "specialRules": [
                 "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Banestrike Combi-Bolters",
+          "modes": [
+            {
+              "firepower": "Small Arms",
+              "specialRules": [
+                "S"
           ]
         }
       ]
@@ -4511,6 +4543,18 @@
       ]
     },
     {
+      "name": "Laser Destroyer Array",
+      "modes": [
+        {
+          "firepower": "AT4+",
+          "range": 60,
+          "specialRules": [
+          "Lance"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Lash of Torment",
       "modes": [
         {
@@ -5978,6 +6022,17 @@
       ]
     },
     {
+      "name": "Punisher Gatling Cannon",
+        "modes": [
+          {
+            "firepower": "4x AP6+/AT6+",
+            "range":45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Quad Hydra Autocannon",
         "modes": [
           {
@@ -6021,6 +6076,18 @@
             "firepower": "Small Arms",
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Rad Missile Launcher",
+        "modes": [
+          {
+            "firepower": "AP5+",
+            "range":30,
+            "specialRules": [
+              "D"
           ]
           }
       ]
@@ -8383,6 +8450,29 @@
       ]
     },
     {
+      "name": "Volkite Chargers",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "IC"
+              ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Volkite Culvertin",
+        "modes": [
+          {
+            "firepower": "AP3+/AT5+",
+            "range": 30,
+        "specialRules": [
+          "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Volkite Chierovile",
         "modes": [
           {
@@ -8795,6 +8885,10 @@
     {
       "name": "Rear",
       "description": "Rear Arc"
+    },
+    {
+      "name": "Shield Disruptor",
+      "description": "Shield Disruptor"
     },
     {
       "name": "S",

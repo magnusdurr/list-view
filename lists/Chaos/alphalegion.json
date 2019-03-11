@@ -1,0 +1,307 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Alpha Legion",
+  "version": "1.0",
+  "release": "2019-03-11",
+  "strategy": "Alpha Legion armies have a strategy rating of 4.",
+  "initiative": "Alpha Legion Detachments have an initiative rating 1+. All other formations have an initiative rating of 2+.",
+
+  "specialRules": [
+      "Deceit and Deception",
+      "Sabotage",
+      "Stubborn",
+      "'I'm Alpharius!'",
+      "Alpha Legion Transports",
+      "Alpha Legion Dreadclaws"
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on an Alpha Legion Strike Force with Traitor Imperial Guard allies."
+  ],
+  "units": [
+      {
+        "from": "CSM.json",
+        "units": [
+          "Alpha Legion Lord",
+          "Alpha Legion Sorcerer",
+          "Alpha Legion Marines",
+          "Alpha Legion Havocs",
+          "Headhunters",
+          "Alpha Legion Destroyers",
+          "Lernaean Terminators",
+          "Alpha Legion Dreadnought",
+          "Alpha Legion Predator",
+          "Alpha Legion Rhino",
+          "Alpha Legion Vindicator Destroyer",
+          "Alpha Legion Land Raider",
+          "Alpha Legion Xiphon Interceptor",
+          "Alpha Legion Thunderhawk",
+          "Alpha Legion Thunderhawk Transporter",
+          "Alpha Legion Strike Cruiser"
+      ],
+      "unitRules": [
+          "Lance"
+      ]
+      },
+    {
+      "from": "chaoscultists.json",
+      "units": [
+        "Fallen Commander",
+        "Mutants",
+        "Chaos Hounds",
+        "Land Transporter"
+      ],
+        "unitRules": [
+          ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Infantry",
+        "Chimera",
+        "Hydra",
+        "Griffon",
+        "Sentinel",
+        "Leman Russ",
+        "Leman Russ Demolisher",
+        "Leman Russ Punisher",
+        "Baneblade",
+        "Shadowsword",
+        "Stormblade"
+      ],
+        "unitRules": [
+
+
+          ]
+    }
+],
+"sections": [
+    {
+      "name": "Alpha Legion Core Detachments",
+      "formations": [
+        {
+          "name": "Alpha Legion Marines",
+          "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, six Alpha Legion Marines plus transport",
+          "upgrades": [
+              "Havocs",
+              "Land Raiders",
+              "Dreadnoughts",
+              "Predators"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Alpha Legion Elite Detachments",
+      "description": "Up to one Alpha Legion Elite Detachment for each Alpha Legion Core Detachment.",
+      "formations": [
+          {
+            "name": "Destroyers",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Destroyers",
+            "upgrades": [
+            ],
+            "points": 225
+          },
+          {
+            "name": "Terminators",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators",
+            "upgrades": [
+            ],
+            "points": 300
+          },
+          {
+            "name": "Headhunters",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Headhunters plus transport",
+            "upgrades": [
+                "Dreadnoughts"
+            ],
+            "points": 225
+          },
+          {
+            "name": "Predators",
+            "units": "Four Alpha Legion Predators",
+            "upgrades": [
+            ],
+            "points": 250
+          },
+          {
+            "name": "Vindicator Destructors",
+            "units": "Four Alpha Legion Vindicator Destroyers",
+            "upgrades": [
+            ],
+            "points": 275
+          }
+
+      ]
+    },
+  {
+    "name": "Traitor Imperial Guard Formations",
+    "description": "Up to two Traitor Imperial Guard Formation for each Alpha Legion Core Detachment.",
+    "formations": [
+        {
+          "name": "Mechanized Traitor Company",
+          "units": "One Fallen Commander, seven Infantry units, four Chimeras",
+          "upgrades": [
+              "Hydra",
+              "Mutants",
+              "Chaos Hounds",
+              "Griffons"
+              ],
+              "points": 250
+          },
+          {
+            "name": "Sentinels",
+            "units": "Four Sentinels",
+            "upgrades": [
+                ],
+                "points": 100
+            },
+        {
+        "name": "Traitor Super-Heavy Tanks",
+        "units": "Choose any two: Baneblades, Shadowswords or Stormblades",
+        "points": 350
+      },
+        {
+          "name": "Artillery Battery",
+          "units": "Three Basilisks",
+          "upgrades": [
+              "Hydra"
+          ],
+          "points": 250
+      },
+        {
+          "name": "Leman Russ Platoon",
+          "units": "Choose any six: Leman Russ, Leman Russ Demolisher, Leman Russ Punisher",
+          "upgrades": [
+              "Hydra"
+          ],
+          "points": 350
+
+      }
+
+      ]
+    },
+  {
+    "name": "Alpha Legion Navy",
+    "description": "Up to a third of the points available may be spent on Alpha Legion Navy.",
+    "formations": [
+        {
+          "name": "Xiphon Squadron",
+          "units": "Two Alpha Legion Xiphon Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Thunderhawk",
+          "units": "One Alpha Legion Thunderhawk",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Thunderhawk Transporters",
+          "units": "One Alpha Legion Thunderhawk Transporter",
+          "upgrades": [
+              "Transporter"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Strike Cruiser",
+          "units": "One Alpha Legion Strike Cruiser",
+          "upgrades": [
+          ],
+          "points": 200
+        }
+    ]
+}
+
+  ],
+  "upgrades": {
+    "title": "Alpha Legion Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Havocs",
+        "options": [
+          {
+            "description": "Replace three Alpha Legion Marines with Alpha Legion Havocs",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Land Raiders",
+        "options": [
+          {
+            "description": "Add up to three Alpha Legion Land Raiders",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
+        "name": "Predators",
+        "options": [
+          {
+            "description": "Add up to two Alpha Legion Predators",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
+        "name": "Dreadnoughts",
+        "options": [
+          {
+            "description": "Add up to two Alpha Legion Dreadnoughts",
+            "points": "50 points for one , 75 points for two"
+          }
+        ]
+      },
+      {
+        "name": "Transporter",
+        "options": [
+          {
+            "description": "Add one Alpha Legion Thunderhawk Transporter",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Hydra",
+        "options": [
+          {
+            "description": "Add one Hydra",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Mutants",
+        "options": [
+          {
+            "description": "Add six Mutants and three Land Transporters",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Chaos Hounds",
+        "options": [
+          {
+            "description": "Add three Chaos Hounds",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Griffons",
+        "options": [
+          {
+            "description": "Add three Griffons",
+            "points": "50 points"
+          }
+        ]
+      }
+
+  ]
+}
+}

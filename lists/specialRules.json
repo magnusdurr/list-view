@@ -55,9 +55,9 @@
           ]
       },
       {
-        "title": "Shield Render",
+        "title": "Shield Disruptor",
         "description": [
-          "A weapon with Shield Render ignores Ion Shields. In addition, it takes two Power Fields, Shadowfields or Void Shields to stop one damage."
+          "A weapon with Shield Disruptor ignores Ion Shields. In addition, each hit with will knock down two Power Fields, Shadowfields or Void Shields. If only one shield remains, the Shield Disruptor hit knocks it down and must then be saved normally."
         ]
     },
 
@@ -352,7 +352,7 @@
     {
       "title": "Lance",
       "description": [
-        "When units with reinforced armour are hit by a weapon with the lance ability they do not get to re-roll failed armour saves. "
+        "When units with reinforced armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
       ]
     },
     {
@@ -528,9 +528,17 @@
      {
        "title": "Black Legion Dreadclaws",
        "description": [
-         "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+         "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
 
          "The following units may be deployed using Dreadclaws: Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Obliterators, Chaos Dreadnoughts."
+       ]
+     },
+     {
+       "title": "Alpha Legion Dreadclaws",
+       "description": [
+         "Dreadclaws allow Alpha Legion formations to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+
+         "The following units may be deployed using Dreadclaws: Alpha Legion Marines, Alpha Legion Havocs, Headhunters, Lernaean Terminators, Alpha Legion Dreadnoughts."
        ]
      },
 
@@ -642,10 +650,35 @@
          "A Chaos Altar with a Chaos Gate also functions as Warp Rift token that may only be used by Infantry units. If the formation with the Chaos Altar is broken, any formations that uses the Chaos Gate suffers 1 Blast Marker."
        ]
         },
-
-
-
-
+        {
+        "title": "Deceit and Deception",
+        "description": [
+          "Alpha Legion armies have a strategy rating of 4. However for all deployment purposes (such as choosing teleport order or picking spaceship arrival turn) Alpha Legion armies count as having a strategy rating of 5."
+      ]
+       },
+       {
+       "title": "Sabotage",
+       "description": [
+         "Before rolling for the first turn and before teleports, for each formation of Headhunters on the table and not in the reserves, the Alpha Legion player may select an enemy formation that has been deployed on the board and roll a d6.",
+         "On 2-5, the enemy formation begins the game with a blast marker. On a roll of 6, it begins with d3 blast markers. On a roll of 1, the Headhunter formation recieves a blast marker. No formation may be subject to Sabotage more than once, even if the first attempt fails."
+     ]
+      },
+      {
+      "title": "Alpha Legion Transports",
+      "description": [
+          "The Alpha Legion are masters of strategy and will seek to tailor their attack to the enemy. Because of this, the points cost of a formation usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
+          "Formations that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.",
+          "Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.",
+          "In addition, you may choose to replace a formation’s Rhinos with Dreadclaws. If you do this then the detachment will enter play in a Dreadclaws using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Alpha Legion Strike Cruiser to deploy the Dreadclaws from.",
+          "Before each game, after the opposing army is known but before objectives are placed, the Alpha Legion player may choose which formations with the plus transport aspect are deployed in Rhinos, Dreadclaws or on foot. If the formation has any units unable to deploy in Dreadclaws then that option cannot be selected."
+    ]
+     },
+     {
+     "title": "'I'm Alpharius!'",
+     "description": [
+       "The Alpha Legion puts great emphasis on mission command, and its Lords are obsessive about their anonymity and obscurity. The Alpha Legion has access to a Supreme Commander re-roll as long as at least one Alpha Legion Lord in the army is alive. All Alpha Legion Lords are considered to be the Supreme Commander for the purposes of determining where it is located."
+   ]
+    },
 
 
 
