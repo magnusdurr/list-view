@@ -3608,8 +3608,8 @@
       "name": "Harvester Cannon",
         "modes": [
           {
-            "firepower": "3x AP4+/AT6+/AA6+",
-            "range": 30,
+            "firepower": "2x AP4+/AT6+/AA6+",
+            "range": 45,
             "specialRules": [
           ]
           }
@@ -5340,6 +5340,17 @@
       ]
     },
     {
+      "name": "Pavane of Slaanesh",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "FS"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Perditor Claws",
         "modes": [
           {
@@ -6160,6 +6171,17 @@
       ]
     },
     {
+      "name": "Rancid Visitations",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Rapid Fire Battle Cannon",
       "modes": [
         {
@@ -6778,6 +6800,18 @@
             "range": 15,
             "specialRules": [
                 "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Skull Cannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 30,
+            "specialRules": [
+                "D"
           ]
           }
       ]

@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Daemonic Incursion",
-  "version": "2.2",
-  "release": "2019-03-01",
+  "version": "2.3",
+  "release": "2019-03-12",
   "strategy": "Daemonic Incursion armies have a strategy rating of 0.",
   "initiative": "All Daemon formations have an initiative of 1+. Mortal formations have an initiative of 2+.",
   "specialRules":
@@ -23,18 +23,6 @@
     "The following army list allows you to field an army based on a Daemonic Incursion, aided and abetted by mortal Chaos Cultist allies."
   ],
   "units": [
-          {
-          "from": "chaoscultists.json",
-          "units": [
-              "Demagogue",
-              "Cultists",
-              "Mutants",
-              "Chaos Altar",
-              "Chaos Spawn"
-          ],
-          "unitRules": [
-          ]
-      },
     {
       "from": "daemons.json",
       "units": [
@@ -48,8 +36,8 @@
         "Plaguebearers of Nurgle",
         "Beasts of Nurgle",
         "Plague Drones of Nurgle",
-        "Herald of Khorne",
-        "Mounted Herald of Khorne",
+        "Herald of Khorne on Skull Cannon",
+        "Herald of Khorne on Juggernaut",
         "Bloodletters of Khorne",
         "Fleshhounds of Khorne",
         "Bloodcrushers of Khorne",
@@ -71,9 +59,38 @@
       ],
       "unitRules": [
     ]
+    },
+    {
+    "from": "chaoscultists.json",
+    "units": [
+        "Demagogue",
+        "Aspiring Champion of Chaos Undivided",
+        "Icon Bearer",
+        "Cultists",
+        "Mutants",
+        "Big Mutants",
+        "Chaos Altar",
+        "Chaos Spawn"
+    ],
+    "unitRules": [
+    ]
     }
   ],
   "sections": [
+          {
+    "name": "Daemonic Incursion Specials",
+    "description": "The Army must include one Chaos Gate",
+    "formations": [
+
+        {
+          "name": "1 Chaos Gate",
+          "units": "Replace one objective marker in the Daemonic Incursion player's half of the table with a Chaos Gate, this counts as an objective marker and a Chaos Gate which may not be attacked or damaged in any way",
+          "upgrades": [
+          ],
+          "points": 0
+      }
+    ]
+    },
     {
       "name": "1+ Exalted Greater Daemons. Max one for each part of 1000 points in the army.",
       "formations": [
@@ -81,33 +98,33 @@
           "name": "Exalted Greater Daemon of Slaanesh",
           "units": "One Exalted Keeper of Secrets ",
           "upgrades": [
-            "Soul Grinders"
+            "Soul Grinder"
           ],
-          "points": 250
+          "points": 275
       },
           {
             "name": "Exalted Greater Daemon of Nurgle",
             "units": "One Exalted Great Unclean One",
             "upgrades": [
-              "Soul Grinders"
+              "Soul Grinder"
             ],
-            "points": 250
+            "points": 275
         },
         {
           "name": "Exalted Greater Daemon of Khorne",
           "units": "One Exalted Bloodthirster",
           "upgrades": [
-            "Soul Grinders"
+            "Soul Grinder"
           ],
-          "points": 250
+          "points": 275
       },
       {
         "name": "Exalted Greater Daemon of Tzeench",
         "units": "One Exalted Lord of Change",
         "upgrades": [
-          "Soul Grinders"
+          "Soul Grinder"
         ],
-        "points": 250
+        "points": 275
       }
       ]
     },
@@ -116,44 +133,39 @@
      "description": "",
       "formations": [
           {
-            "name": "Daemon Legion of Slaanesh",
-            "units": "3 Herald of Slaanesh, 3 Lesser Daemon Pool points",
+            "name": "Slaneesh Legion of Excess",
+            "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
             "upgrades": [
                 "Keeper of Secrets",
-                "Herald Mounts",
-                "Soul Grinder"
+                "Herald Mounts"
             ],
-            "points": 175
+            "points": 250
             },
             {
-              "name": "Daemon Legion of Nurgle",
-              "units": "3 Herald of Nurgle, 3 Lesser Daemon Pool points",
+              "name": "Plague Legion of Nurgle",
+              "units": "Three Herald of Nurgle, five Lesser Daemon Pool points",
               "upgrades": [
                   "Great Unclean One",
-                  "Herald Mounts",
-                  "Soul Grinder"
+                  "Herald Mounts"
               ],
-              "points": 175
+              "points": 250
               },
               {
-                "name": "Daemon Legion of Khorne",
-                "units": "3 Herald of Khorne, 3 Lesser Daemon Pool points",
+                "name": "Blood Legion of Khorne",
+                "units": "Three Herald of Khorne on Juggernauts and/or Skull Cannons, five Lesser Daemon Pool points",
                 "upgrades": [
-                    "Bloodthirster",
-                    "Herald Mounts",
-                    "Soul Grinder"
+                    "Bloodthirster"
                 ],
-                "points": 175
+                "points": 250
                 },
                 {
-                  "name": "Daemon Legion of Tzeench",
-                  "units": "3 Herald of Tzeench, 3 Lesser Daemon Pool points",
+                  "name": "Scintillating Legion of Tzeench",
+                  "units": "Three Herald of Tzeench, five Lesser Daemon Pool points",
                   "upgrades": [
                       "Lord of Change",
-                      "Herald Mounts",
-                      "Soul Grinder"
+                      "Herald Mounts"
                   ],
-                  "points": 175
+                  "points": 250
               }
               ]
             },
@@ -161,14 +173,17 @@
       "name": "Mortals",
       "description": "Up to a fourth of the points available may be spent on these formations",
       "formations": [
+
           {
             "name": "Cultist Coven of Chaos Undivided",
-            "units": "One Demagogue, five Cultist and/or Mutants, one Chaos Altar",
-            "upgrades": [
-                "Chaos Spawn",
-                "Chaos Gate"
+            "units": "Nine Chaos Cultists and/or Mutants, one Demagogue or Aspiring Champion of Chaos Undivided",
+            "extraUnits": [
+              "Icon Bearer",
+              "Big Mutants",
+              "Chaos Spawn",
+              "Chaos Altar"
             ],
-            "points": 225
+            "points": 200
           }
       ]
   },
@@ -189,45 +204,50 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Soul Grinders",
-        "description": "Add up to three Soul Grinders",
-        "points": "50 points each"
+        "name": "Soul Grinder",
+        "description": "Add one Soul Grinder",
+        "points": "75 points"
       },
       {
         "name": "Keeper of Secrets",
-        "description": "Replace one Herald of Slaanesh with a Keeper of Secrets",
+        "description": "Replace three Heralds of Slaanesh with a Keeper of Secrets",
         "points": "75 points"
       },
       {
         "name": "Great Unclean One",
-        "description": "Replace one Herald of Nurgle with a Great Unclean One",
+        "description": "Replace three Heralds of Nurgle with a Great Unclean One",
         "points": "75 points"
       },
       {
         "name": "Bloodthirster",
-        "description": "Replace one Herald of Khorne with a Bloodthirster",
+        "description": "Replace three Heralds of Khorne with a Bloodthirster",
         "points": "75 points"
       },
       {
         "name": "Lord of Change",
-        "description": "Replace one Herald of Tzeench with a Lord of Change",
+        "description": "Replace three Heralds of Tzeench with a Lord of Change",
         "points": "75 points"
       },
       {
         "name": "Herald Mounts",
-        "description": "Replace up to three Heralds with Mounted Heralds",
-        "points": "25 points per unit"
+        "description": "Replace three Heralds with Mounted Heralds",
+        "points": "50 points"
       },
+      {
+        "name": "Icon Bearer",
+        "description": "Add an Icon Bearer to the formation",
+        "points": "25 points"
+        },
       {
         "name": "Chaos Spawn",
-        "description": "Replace up to five Cultists with Chaos Spawn",
-        "points": "35 points each"
-      },
-      {
-        "name": "Chaos Gate",
-        "description": "Add a Chaos Gate to a Chaos Altar",
-        "points": "75 points"
-      }
+        "description": "Replace up to three Cultists/Mutants with Chaos Spawn",
+        "points": "25 points each"
+    },
+    {
+      "name": "Chaos Altar",
+      "description": "Add a Chaos Altar to the formation",
+      "points": "150 points"
+    }
     ]
   }
 }

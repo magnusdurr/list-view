@@ -19,6 +19,7 @@
               "Damage Capacity 4",
               "Reinforced Armour",
               "Invulnerable Save",
+              "Leader",
               "Inspiring",
               "Daemonic Focus",
               "Walker",
@@ -53,12 +54,13 @@
         "speed": 20,
         "armour": 3,
         "cc": 2,
+        "ff": 4,
         "weapons": [
-          "Barbed Claws"
+          "Barbed Claws",
+          "Pavane of Slaanesh"
         ],
         "specialRules": [
             "Daemonic Focus",
-            "Augment Summoning (+1)",
             "Invulnerable Save"
             ]
       },
@@ -68,9 +70,11 @@
         "speed": 20,
         "armour": 3,
         "cc": 2,
+        "ff": 4,
         "weapons": [
           "Barbed Claws",
-          "Seeker Chariot"
+          "Seeker Chariot",
+          "Pavane of Slaanesh"
         ],
         "specialRules": [
             "Mounted",
@@ -142,6 +146,7 @@
             "Damage Capacity 5",
             "Reinforced Armour",
             "Invulnerable Save",
+            "Leader",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -176,14 +181,13 @@
         "speed": 15,
         "armour": 3,
         "cc": 3,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
-          "Death's Heads",
+          "Rancid Visitations",
           "Blade of Putrefaction"
         ],
         "specialRules": [
             "Daemonic Focus",
-            "Augment Summoning (+1)",
             "Invulnerable Save"
         ]
       },
@@ -193,9 +197,9 @@
         "speed": 25,
         "armour": 3,
         "cc": 3,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
-          "Death's Heads",
+          "Rancid Visitations",
           "Blade of Putrefaction",
           "Blight Fly"
         ],
@@ -269,6 +273,7 @@
             "Damage Capacity 4",
             "Reinforced Armour",
             "Invulnerable Save",
+            "Leader",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -298,22 +303,25 @@
         "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
       },
       {
-        "name": "Herald of Khorne",
+        "name": "Herald of Khorne on Skull Cannon",
         "type": "INF",
         "speed": 15,
         "armour": 3,
         "cc": 3,
+        "ff": 5,
         "weapons": [
-          "Sword of Blood"
+          "Skull Cannon"
         ],
         "specialRules": [
+            "Mounted",
+            "Walker",
             "Daemonic Focus",
             "Augment Summoning (+1)",
             "Invulnerable Save"
         ]
       },
       {
-        "name": "Mounted Herald of Khorne",
+        "name": "Herald of Khorne on Juggernaut",
         "type": "INF",
         "speed": 15,
         "armour": 3,
@@ -365,7 +373,7 @@
         "type": "INF",
         "speed": 15,
         "armour": 3,
-        "cc": 3,
+        "cc": 4,
         "weapons": [
           "Juggernaut"
         ],
@@ -392,13 +400,14 @@
             "Damage Capacity 4",
             "Reinforced Armour",
             "Invulnerable Save",
+            "Leader",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
             "Jump Pack",
             "Augment Summoning (+2D3)"
         ],
-         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
+         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
       },
       {
         "name": "Lord of Change",
@@ -420,7 +429,7 @@
             "Jump Pack",
             "Augment Summoning (+1D3)"
         ],
-        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+."
+        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All Daemon units within 5cm are destroyed on 6+."
       },
       {
         "name": "Herald of Tzeench",
@@ -434,7 +443,6 @@
         ],
         "specialRules": [
             "Daemonic Focus",
-            "Augment Summoning (+1)",
             "Invulnerable Save"
         ]
       },
@@ -529,9 +537,9 @@
         "Warpsword"
       ],
       "specialRules": [
+          "Daemonic Focus",
           "Infiltrators",
-          "Walker",
-          "Invulnerable Save"
+          "Walker"
       ]
     }
     ]
