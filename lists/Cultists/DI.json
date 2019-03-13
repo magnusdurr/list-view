@@ -65,11 +65,11 @@
     "units": [
         "Demagogue",
         "Aspiring Champion of Chaos Undivided",
-        "Icon Bearer",
         "Cultists",
         "Mutants",
         "Warp Altar",
-        "Chaos Spawn"
+        "Chaos Spawn",
+        "Land Transporter"
     ],
     "unitRules": [
     ]
@@ -139,36 +139,36 @@
                 "Herald Mounts",
                 "Soul Grinder"
             ],
-            "points": 250
+            "points": 225
             },
             {
-              "name": "Plague Legion of Nurgle",
+              "name": "Nurgle Plague Legion ",
               "units": "Three Herald of Nurgle, five Lesser Daemon Pool points",
               "upgrades": [
                   "Great Unclean One",
                   "Herald Mounts",
                   "Soul Grinder"
               ],
-              "points": 250
+              "points": 225
               },
               {
-                "name": "Blood Legion of Khorne",
+                "name": "Khorne Blood Legion",
                 "units": "Three Herald of Khorne on Juggernauts and/or Skull Cannons, five Lesser Daemon Pool points",
                 "upgrades": [
                     "Bloodthirster",
                     "Soul Grinder"
                 ],
-                "points": 250
+                "points": 225
                 },
                 {
-                  "name": "Scintillating Legion of Tzeench",
+                  "name": "Tzeench Scintillating Legion",
                   "units": "Three Herald of Tzeench, five Lesser Daemon Pool points",
                   "upgrades": [
                       "Lord of Change",
                       "Herald Mounts",
                       "Soul Grinder"
                   ],
-                  "points": 250
+                  "points": 225
               }
               ]
             },
@@ -185,12 +185,12 @@
         },
           {
             "name": "Lost and the Damned",
-            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, one Chaos Icon, five Chaos Cultists and/or Mutants",
+            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, seven Chaos Cultists and/or Mutants",
             "extraUnits": [
               "Chaos Spawn"
             ],
-            "points": 150
-          }
+            "points": 175
+        }
       ]
   },
   {
@@ -241,7 +241,7 @@
       },
       {
         "name": "Chaos Spawn",
-        "description": "Replace up to three Cultists/Mutants with Chaos Spawn",
+        "description": "Replace up to two Cultists/Mutants with Chaos Spawn",
         "points": "25 points each"
     }
     ]
