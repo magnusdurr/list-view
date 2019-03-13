@@ -6,7 +6,7 @@
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Titan Legion formations have an Initiative of 1+. All other formations have an Initiative of 2+.",
 
-  "specialRules": ["Steel Legion Regimental HQ", "Commissars", "Lord Commissar"],
+  "specialRules": ["Commissars", "Lord Commissar"],
   "usage": [
     "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
   ],
@@ -78,9 +78,10 @@
       "name": "Company Formations",
       "formations": [
         {
-          "name": "1 Regimental HQ",
+          "name": "Regimental HQ",
           "units": "One Supreme Commander unit, nine Infantry and five Chimeras",
           "upgrades": [
+              "All"
           ],
           "points": 400
         },
@@ -88,6 +89,7 @@
           "name": "Mechanized Infantry Company",
           "units": "One Commander unit, nine Infantry and five Chimeras",
           "upgrades": [
+              "All except Lord Commissar"
           ],
           "points": 300
         },
@@ -95,26 +97,30 @@
           "name": "Infantry Company",
           "units": "One Commander unit and twelve Infantry",
           "upgrades": [
+              "All except Lord Commissar"
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Leman Russ Company",
           "units": "Nine Leman Russ and one Leman Russ Vanquisher",
           "upgrades": [
+            "Flak, Griffon Battery, Hellhound and Leman Russ Squadron only"
           ],
           "points": 600
         },
         {
           "name": "Super-Heavy Tank Company",
           "units": "Three Baneblades and/or Shadowswords",
+          "upgrades": [
+          ],
           "points": 500
         },
         {
           "name": "Artillery Company",
           "units": "Six Basilisks or six Manticores. Six Gun Emplacements.",
           "upgrades": [
-            "*Only the Flak Upgrade may be added to a Artillery Company."
+            "Flak only"
           ],
           "points": 450
         }
@@ -122,7 +128,7 @@
     },
     {
       "name": "Support Formations",
-      "description": "Up to two Support Formations for each Core Formation.",
+      "description": "Up to two Support Formations for each Company.",
       "formations": [
         {
           "name": "0–1 Deathstrike Battery",
@@ -279,8 +285,8 @@
         "name": "Hellhound Squadron",
         "options": [
           {
-            "description": "Add up to three Hellhounds",
-            "points": "25 points each"
+            "description": "Three Hellhounds",
+            "points": "75 points"
           }
         ]
       },
@@ -306,13 +312,13 @@
         "name": "Snipers*",
         "options": [
           {
-            "description": "Add up to two Snipers",
-            "points": "25 points each"
+            "description": "Add two Snipers",
+            "points": "50 points"
           }
         ]
       },
       {
-        "name": "Tank Squadron",
+        "name": "Leman Russ Squadron",
         "options": [
           {
             "description": "Add three Leman Russ, Leman Russ Demolishers or Leman Russ Conquerors",
