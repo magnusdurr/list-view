@@ -187,7 +187,8 @@
             "name": "Lost and the Damned",
             "units": "One Demagogue or Aspiring Champion of Chaos Undivided, seven Chaos Cultists and/or Mutants",
             "extraUnits": [
-              "Chaos Spawn"
+              "Chaos Spawn",
+              "Land Transporters"
             ],
             "points": 175
         }
@@ -243,7 +244,12 @@
         "name": "Chaos Spawn",
         "description": "Replace up to two Cultists/Mutants with Chaos Spawn",
         "points": "25 points each"
-    }
+    },
+        {
+          "name": "Land Transporters",
+          "description": "Add enough Land Transporters to transport the formation with no space left over",
+          "points": "10 points each"
+      }
     ]
   }
 }
