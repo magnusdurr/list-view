@@ -44,7 +44,6 @@
         "Vulture",
         "Shadowsword",
         "Baneblade",
-        "Stormsword",
         "Stormblade"
       ],
         "unitRules": [
@@ -119,7 +118,7 @@
         },
         {
           "name": "Artillery Company",
-          "units": "Six Basilisks or six Manticores. Six Gun Emplacements.",
+          "units": "Six Basilisks and/or Manticores. Six Gun Emplacements.",
           "upgrades": [
             "Flak"
           ],
@@ -149,9 +148,8 @@
         },
         {
           "name": "Bombard Battery",
-          "units": "Three Bombards",
+          "units": "Three Bombards, three Gun Emplacements",
           "upgrades": [
-            "Add three Gun Emplacements for +25 points"
           ],
           "points": 225
         },
@@ -177,7 +175,7 @@
         },
         {
           "name": "Super-Heavy Tank Platoon",
-          "units": "One Baneblade, Shadowsword, Stormsword or Stormblade",
+          "units": "One Baneblade, Shadowsword or Stormblade",
           "points": 200
         },
         {
