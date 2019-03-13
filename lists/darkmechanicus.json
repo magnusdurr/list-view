@@ -36,9 +36,9 @@
        ]
    },
        {
-         "title": "Knight Units (AV-K)",
+         "title": "Heavy Armoured Vehicle (H-AV)",
          "description": [
-           "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+           "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
          ]
      }
     ],
@@ -157,7 +157,7 @@
         },
         {
           "name": "Knight-Renegade",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -261,7 +261,7 @@
         },
         {
           "name": "Hell-Knight",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 6,
@@ -279,7 +279,7 @@
         },
         {
           "name": "Hell-Scourge",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 6,
@@ -398,7 +398,7 @@
         },
         {
           "name": "Knight-Decayer",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 20,
           "armour": 4,
           "cc": 3,
@@ -480,7 +480,7 @@
         },
         {
           "name": "Knight-Mauler",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 3,
@@ -619,7 +619,7 @@
       },
       {
         "name": "Knight-Mutator",
-        "type": "AV-K",
+        "type": "H-AV",
         "speed": 20,
         "armour": 5,
         "cc": 4,

@@ -3,9 +3,9 @@
     "name": "Questoris Mechanicus Knights",
     "specialRules": [
         {
-          "title": "Knight Units (AV-K)",
+          "title": "Heavy Armoured Vehicle (H-AV)",
           "description": [
-            "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+            "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
           ]
         },
         {
@@ -72,7 +72,7 @@
         },
       {
           "name": "Dominus Knight-Castellan",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 20,
           "armour": 4,
           "cc": 4,
@@ -92,7 +92,7 @@
       },
       {
           "name": "Dominus Knight-Valiant",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 20,
           "armour": 4,
           "cc": 4,
@@ -112,7 +112,7 @@
       },
       {
           "name": "Questoris Knight-Paladin",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -131,7 +131,7 @@
       },
       {
           "name": "Questoris Knight-Errant",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -150,7 +150,7 @@
       },
       {
           "name": "Questoris Knight-Crusader",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 20,
           "armour": 5,
           "cc": 4,
@@ -170,7 +170,7 @@
       },
       {
           "name": "Questoris Knight-Gallant",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -190,7 +190,7 @@
       },
       {
           "name": "Questoris Knight-Warden",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -210,7 +210,7 @@
       },
       {
           "name": "Questoris Knight-Preceptor",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -229,7 +229,7 @@
       },
       {
           "name": "Cerastus Knight-Lancer",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 3,
@@ -247,7 +247,7 @@
       },
       {
           "name": "Cerastus Knight-Acheron",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 3,
@@ -266,7 +266,7 @@
       },
       {
           "name": "Cerastus Knight-Castigator",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 3,
@@ -285,7 +285,7 @@
       },
       {
           "name": "Cerastus Knight-Atrapos",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 3,
@@ -341,7 +341,7 @@
       },
       {
           "name": "Questoris Relic Knight-Styrix",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 20,
           "armour": 4,
           "cc": 3,
@@ -360,7 +360,7 @@
       },
       {
           "name": "Questoris Relic Knight-Magaera",
-          "type": "AV-K",
+          "type": "H-AV",
           "speed": 20,
           "armour": 4,
           "cc": 3,

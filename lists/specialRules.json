@@ -1,9 +1,9 @@
 {
   "rules": [
     {
-      "title": "Heavy Vehicle (HV)",
+      "title": "Heavy Armoured Vehicle (H-AV)",
       "description": [
-        "Units with the unit type HV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+        "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
       ]
     },
     {
@@ -164,7 +164,7 @@
         "Once set up, fortified positions may be used by any unit (including enemy units).",
         "Trench: Provides a cover save of 4+ to INF. May contain 1 unit per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
         "Razorwire: Counts as Dangerous Terrain for INF",
-        "Gun Emplacement: Provides a cover save of 4+ to a single unit of INF or AV (not AV-K)",
+        "Gun Emplacement: Provides a cover save of 4+ to a single unit of INF or AV (not H-AV)",
         "Bunker: Provides a cover save of 3+ and Thick Rear Armour to up to three units of INF. Counts as Dangerous Terrain for AV and WE."
       ]
     },
@@ -285,7 +285,7 @@
       "title": "Webway Portal",
       "description": [
         "A army that includes any webway portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly webway portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
-        "A webway portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use webway portals. AV-K units may not use portals unless noted otherwise."
+        "A webway portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use webway portals. H-AV units may not use portals unless noted otherwise."
         ]
     },
     {
