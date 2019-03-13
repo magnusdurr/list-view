@@ -4,7 +4,7 @@
   "version": "1.11",
   "release": "2019-02-22",
   "strategy": "Kabal of the Bladed Lotus armies have a Strategy Rating of 4.",
-  "Initiative": "Dark Eldar Kabal, Tormentor, Torture Titans, and Executioner formations have a Initiative Rating of 1+. All other formations have a Initiative Rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
+  "Initiative": "Dark Eldar Kabal, Tormentor, Torture Titans, and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -70,13 +70,13 @@
       "formations": [
         {
           "name": "0-1 Wraithgate",
-          "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a webway portal which may not be attacked or damaged in any way.",
+          "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
 
           "points": 50
         },
         {
           "name": "0-1 Portable Webway Portal",
-          "units": "Add a portable webway portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable webway may be used once in a game. After the characters formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a webway portal which may not be attacked or damaged in any way. Remove this webway portal marker in the end phase of the turn before any rallying.",
+          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable Webway may be used once in a game. After the characters formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the end phase of the turn before any rallying.",
 
           "points": 50
         }
@@ -103,7 +103,7 @@
         },
         {
           "name": "Kabal Syndicate",
-          "units": "Six Dark Eldar Warrior units",
+          "units": "Six Dark Eldar Warriors",
           "upgrades": [
             "Barge, Dracon, Haemonculi, Scourges, Ravager, Transport, Warriors, Wyches"
           ],
@@ -139,7 +139,7 @@
         },
         {
           "name": "Scourges",
-          "units": "Six Scourge units",
+          "units": "Six Scourges",
           "upgrades": [
             "Succubus, Scourges"
           ],
@@ -155,7 +155,7 @@
         },
         {
           "name": "Hellions",
-          "units": "Six Hellion units",
+          "units": "Six Hellions",
           "upgrades": [
             "Succubus, Hellions"
           ],
@@ -163,7 +163,7 @@
         },
         {
           "name": "Reavers",
-          "units": "Six Reaver units",
+          "units": "Six Reavers",
           "upgrades": [
             "Succubus, Reavers"
           ],
@@ -255,7 +255,7 @@
       },
       {
         "name": "Beasts",
-        "description": "Two Warp Beast units",
+        "description": "Two Warp Beasts",
         "points": "50 points each"
       },
       {
@@ -265,22 +265,22 @@
       },
       {
         "name": "Grotesques",
-        "description": "Two Grotesque units",
+        "description": "Two Grotesques",
         "points": "75 points"
       },
       {
         "name": "Haemonculi",
-        "description": "One Haemonculi unit and One Grotesques unit",
+        "description": "One Haemonculi unit and one Grotesques",
         "points": "75 points"
       },
       {
         "name": "Incubi",
-        "description": "Two Dark Eldar Incubi units",
+        "description": "Two Dark Eldar Incubi",
         "points": "75 points"
       },
       {
         "name": "Hellions",
-        "description": "Two Dark Eldar Hellion units",
+        "description": "Two Dark Eldar Hellions",
         "points": "50 points each"
       },
       {
@@ -295,12 +295,12 @@
       },
       {
         "name": "Reavers",
-        "description": "Two Dark Eldar Reaver units",
+        "description": "Two Dark Eldar Reavers",
         "points": "50 points"
       },
       {
         "name": "Scourges",
-        "description": "Two Scourges units",
+        "description": "Two Scourges",
         "points": "75 points"
       },
       {
@@ -310,7 +310,7 @@
       },
       {
         "name": "Warriors",
-        "description": "Two Dark Eldar Warrior units",
+        "description": "Two Dark Eldar Warriors",
         "points": "50 points"
       },
       {
