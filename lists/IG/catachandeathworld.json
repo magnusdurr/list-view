@@ -37,7 +37,7 @@
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Thunderbolt",
+        "Thunderbolt Fighter",
         "Marauder Bomber",
         "Marauder Colossus Bomber"
       ],
@@ -129,17 +129,17 @@
       "formations": [
         {
           "name": "Thunderbolt Squadron",
-          "units": "2 Thunderbolt Strike Fighters",
+          "units": "2 Thunderbolt Fighter Strike Fighters",
           "points": 150
         },
         {
-          "name": "Maruder Squadron",
-          "units": "2 Maruder Bombers",
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
           "points": 225
         },
         {
-          "name": "Maruder Colossus Squadron",
-          "units": "2 Maruder Colossus Bombers",
+          "name": "Marauder Colossus Squadron",
+          "units": "Two Marauder Colossus Bombers",
           "points": 275
         }
       ]
