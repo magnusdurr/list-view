@@ -8,7 +8,6 @@
 
   "specialRules": [
           "Bravery",
-          "Stubborn",
           "Fortified Positions"
 
   ],
@@ -25,9 +24,10 @@
         "Knight-Protector",
         "Knight-Custodian",
         "Knight-Vanguard",
-        "Knight-Guardian",
-        "Knight-Aggressor",
-        "Knight-Warden"
+        "Knight-Guardian Demolisher",
+        "Knight-Guardian Vanquisher",
+        "Knight-Guardian Skysweeper",
+        "Knight-Aggressor"
       ],
               "unitRules": [
           "Ion Shield (X)",
@@ -86,7 +86,7 @@
           "upgrades": [
             "Seneschal, Knight-Custodians"
           ],
-          "points": 225
+          "points": 250
       },
           {
             "name": "Vanguard Household",
@@ -149,7 +149,7 @@
     },
       {
         "name": "Light Mechanized",
-        "units": "Four PDF Infantry, four Centaurs",
+        "units": "Three PDF Infantry, three Centaurs",
         "upgrades": [
             "Thudd Guns", "Rapiers"
         ],
@@ -180,80 +180,91 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
         {
-          "name": "0-1 Baron",
+          "name": "Seneschal",
           "options": [
             {
-              "description": "Replace the Seneschal with a Baron",
-              "points": "50 points"
+              "description": "Add a Seneschal to the formation",
+              "points": "25 points"
+            }
+          ]
+        },
+        {
+          "name": "0-1 Knight-Baron",
+          "options": [
+            {
+              "description": "Replace the Seneschal and its Knight with a Knight-Baron",
+              "points": "75 points"
+            }
+          ]
+        },
+        {
+          "name": "Knight-Custodians",
+          "options": [
+            {
+              "description": "Add up to two Knight-Custodians",
+              "points": "100 points each"
+            }
+          ]
+        },
+        {
+          "name": "Knight-Vanguard",
+          "options": [
+            {
+              "description": "Add up to two Knight-Vanguard",
+              "points": "75 points each"
+            }
+          ]
+        },
+        {
+          "name": "Knight-Guardians",
+          "options": [
+            {
+              "description": "Add up to two Knight-Guardians of any configuration",
+              "points": "50 points each"
+            }
+          ]
+        },
+        {
+          "name": "Knight-Aggressors",
+          "options": [
+            {
+              "description": "Add up to two Knight-Aggressors",
+              "points": "75 points each"
             }
           ]
         },
       {
-        "name": "Seneschal",
-        "options": [
-        {
-              "description": "One of the following:"
-        },
-          {
-            "description": "Add one Seneschal character to the formation",
-            "points": "25 points"
-        },
-        {
-          "description": "Add a Seneschal in a Dominus Knight to the formation",
-          "points": "175 points"
-        }
-        ]
-      },
-      {
-        "name": "Questoris",
+        "name": "Rapiers",
         "options": [
           {
-            "description": "Add one Questoris Knight of any configuration",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "0-1 Knight-Atrapos",
-        "options": [
-          {
-            "description": "Replace the Seneschal's Cerastus Knight with a Cerastus Knight-Atrapos",
+            "description": "Add three Rapiers",
             "points": "50 points"
           }
         ]
       },
       {
-        "name": "Questoris Reliquae",
+        "name": "Thudd Guns",
         "options": [
           {
-            "description": "Add one Questoris Relic Knight of any configuration",
-            "points": "125 points"
+            "description": "Add three Thudd Guns",
+            "points": "75 points"
           }
         ]
       },
       {
-        "name": "Acastus Reliquae",
+        "name": "Snipers",
         "options": [
           {
-            "description": "Add one Acastus Knight (of any configuration) with a Seneschal character",
-            "points": "200 points"
+            "description": "Add up to two Snipers",
+            "points": "25 points each"
           }
         ]
-    },
-        {
-          "name": "Tank Hunter",
-          "options": [
-            {
-              "description": "Upgrade both Warhounds to Tank Hunter Configuration",
-              "points": "50 points"
-            }
-          ]
       },
       {
-        "name": "Independent",
+        "name": "Entrenchments",
         "options": [
           {
-            "description": "Allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Warhound is destroyed, the other one in the pack receives a Blast Marker",
+            "description": "60cm Razorwire, 60cm Trenches",
             "points": "50 points"
           }
         ]

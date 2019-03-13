@@ -56,9 +56,11 @@
             ],
           "specialRules": [
             "Supreme Commander",
+            "Inspiring",
             "Fearless"
           ]
         },
+
         {
           "name": "Seneschal",
           "type": "CH",
@@ -315,7 +317,6 @@
             "Reaper Chain-Cleaver"
           ],
           "specialRules": [
-            "Stubborn",
             "Walker",
             "Scout",
             "Ion Shield (5+)"
@@ -333,7 +334,6 @@
             "Heavy Stubber"
           ],
           "specialRules": [
-            "Stubborn",
             "Walker",
             "Scout",
             "Ion Shield (5+)"
@@ -398,26 +398,171 @@
     ],
             "notes": "Critical Hit Effect: The Acastus Knight takes 1 additional damage."
     },
-  {
-  "name": "Acastus Knight-Mechanicum",
-  "type": "WE",
-  "speed": 20,
-  "armour": 4,
-  "cc": 5,
-  "ff": 4,
-  "weapons": [
-    "Acastus Conversion Beamer|2|",
-    "Twin Rad Cleanser"
-        ],
-  "specialRules": [
-    "Damage Capacity 3",
-    "Stubborn",
-    "Reinforced Armour",
-    "Walker",
-    "Ion Shield (3+)"
-    ],
-        "notes": "Critical Hit Effect: The Acastus Knight takes 1 additional damage."
-    }
+          {
+          "name": "Acastus Knight-Mechanicum",
+          "type": "WE",
+          "speed": 20,
+          "armour": 4,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Acastus Conversion Beamer|2|",
+            "Twin Rad Cleanser"
+                ],
+          "specialRules": [
+            "Damage Capacity 3",
+            "Stubborn",
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (3+)"
+            ],
+                "notes": "Critical Hit Effect: The Acastus Knight takes 1 additional damage."
+            },
+            {
+                "name": "Knight-Baron",
+                "type": "H-AV",
+                "speed": 25,
+                "armour": 4,
+                "cc": 4,
+                "ff": 5,
+                "weapons": [
+                  "Rapid Fire Battle Cannon",
+                  "Shock Lance",
+                  "Thunderstrike Gauntlet"
+                ],
+                "specialRules": [
+                  "Supreme Commander",
+                  "Reinforced Armour",
+                  "Fearless",
+                  "Walker",
+                  "Inspiring",
+                  "Ion Shield (4+)"
+                ]
+            },
+            {
+                "name": "Knight-Protector",
+                "type": "H-AV",
+                "speed": 25,
+                "armour": 5,
+                "cc": 4,
+                "ff": 5,
+                "weapons": [
+                  "Battle Cannon",
+                  "Shock Lance",
+                  "Reaper Chainsword"
+                ],
+                "specialRules": [
+                  "Reinforced Armour",
+                  "Walker",
+                  "Ion Shield (4+)"
+                ]
+            },
+            {
+                "name": "Knight-Custodian",
+                "type": "H-AV",
+                "speed": 20,
+                "armour": 4,
+                "cc": 5,
+                "ff": 5,
+                "weapons": [
+                  "Long Cannon",
+                  "Multi-Barreled Autocannon|0-1|",
+                  "Twin Lascannon|0-1|"
+                ],
+                "specialRules": [
+                  "Reinforced Armour",
+                  "Walker",
+                  "Ion Shield (4+)"
+                ]
+            },
+            {
+                "name": "Knight-Vanguard",
+                "type": "H-AV",
+                "speed": 30,
+                "armour": 5,
+                "cc": 4,
+                "ff": 5,
+                "weapons": [
+                  "Battle Cannon",
+                  "Knight Power Lance"
+                ],
+                "specialRules": [
+                  "Reinforced Armour",
+                  "Walker",
+                  "Scout",
+                  "Ion Shield (4+)"
+                ]
+            },
+            {
+                "name": "Knight-Aggressor",
+                "type": "H-AV",
+                "speed": 25,
+                "armour": 5,
+                "cc": 4,
+                "ff": 5,
+                "weapons": [
+                  "Thermal Cannon",
+                  "Shock Lance",
+                  "Thunderstrike Gauntlet"
+                ],
+                "specialRules": [
+                  "Reinforced Armour",
+                  "Walker",
+                  "Scout",
+                  "Ion Shield (4+)"
+                ]
+            },
+            {
+                "name": "Knight-Guardian Demolisher",
+                "type": "H-AV",
+                "speed": 20,
+                "armour": 4,
+                "cc": 5,
+                "ff": 3,
+                "weapons": [
+                  "Demolisher Cannon",
+                  "Heavy Bolter|2|"
+                ],
+                "specialRules": [
+                  "Reinforced Armour",
+                  "Walker",
+                  "Ion Shield (4+)"
+                ]
+            },
+            {
+                "name": "Knight-Guardian Vanquisher",
+                "type": "H-AV",
+                "speed": 20,
+                "armour": 4,
+                "cc": 5,
+                "ff": 5,
+                "weapons": [
+                  "Vanquisher Cannon"
+                ],
+                "specialRules": [
+                  "Reinforced Armour",
+                  "Walker",
+                  "Ion Shield (4+)"
+                ]
+            },
+            {
+                "name": "Knight-Guardian Skysweeper",
+                "type": "H-AV",
+                "speed": 20,
+                "armour": 4,
+                "cc": 5,
+                "ff": 5,
+                "weapons": [
+                  "Skysweeper Missile Launcher",
+                  "Multilaser|2|"
+                ],
+                "specialRules": [
+                  "Reinforced Armour",
+                  "Walker",
+                  "Ion Shield (4+)"
+                ]
+            }
+
     ]
   }
 ]
