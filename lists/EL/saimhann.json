@@ -6,7 +6,7 @@
   "strategy": "Saim-Hann Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Avatar","Eldar May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal"],
+  "specialRules": ["Avatar","May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal"],
   "usage": [
     "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
   ],
@@ -77,7 +77,7 @@
       "formations": [
         {
           "name": "Wild Rider Host",
-          "units": "One Warlock unit and seven Guardian units",
+          "units": "One Warlock unit and seven Guardians",
           "upgrades": [
             "Six Saim-Hann Wild Rider units OR Nine Saim-Hann Wild Rider units OR Twelve Saim-Hann Wild Rider units"
           ],
@@ -140,7 +140,7 @@
           "name": "Ranger Troupe",
           "units": "Four Ranger units",
           "upgrades": [
-            "0-4 Rangers 25 points each"
+            "Add up to four Rangers for 25 points each"
           ],
           "points": 100
         },
@@ -167,9 +167,9 @@
       "formations": [
         {
           "name": "Nightwing Interceptors ",
-          "units": "2 Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors ",
           "upgrades": [
-            "Add 1 Nightwing Interceptor +75 Points"
+            "Add one Nightwing Interceptor +75 Points"
           ],
           "points": 225
         },
@@ -177,7 +177,7 @@
           "name": "Phoenix Bombers",
           "units": "Two Phoenix Bombers",
           "upgrades": [
-            "Add 1 Phoenix Bombers +75 Points"
+            "Add one Phoenix Bomber +75 Points"
           ],
           "points": 250
         },

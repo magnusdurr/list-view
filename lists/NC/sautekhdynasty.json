@@ -1,10 +1,10 @@
-{
+Four{
   "fraction": "Necron",
   "army": "Sautekh Dynasty",
   "version": "1.11",
   "release": "2019-02-22",
   "strategy": "Sautekh Dynasty armies have a Strategy Rating of 2.",
-  "Initiative": "Sautekh Dynasty armies have a Strategy Rating of 2. Formations have an Initiative Rating of 1+ unless otherwise noted.",
+  "Initiative": "All Necron formations have an Initiative Rating of 1+.",
 
   "specialRules": [
             "Necron Special Rules",
@@ -88,7 +88,7 @@
       "formations": [
         {
           "name": "Ghost Ark Phalanx",
-          "units": "Three Ghost Arks, Six Necron Warrior One Necron Lord.",
+          "units": "Three Ghost Arks, six Necron Warrior One Necron Lord.",
           "upgrades": [
             "Listed Below"
           ],
@@ -102,7 +102,7 @@
       "formations": [
         {
           "name": "Infantry Phalanx",
-          "units": "Eight Necron Warriors and One Necron Lord",
+          "units": "Eight Necron Warriors and one Necron Lord",
           "upgrades": [
             "Listed Below"
           ],
@@ -110,7 +110,7 @@
         },
         {
           "name": "Blade Maniple",
-          "units": "Six Tomb Blade units",
+          "units": "Six Tomb Blades",
           "upgrades": [
             "Listed Below"
           ],
@@ -134,7 +134,7 @@
         },
         {
           "name": "Monolith Maniple",
-          "units": "2 Monoliths and 2 Obelisks",
+          "units": "Two Monoliths and two Obelisks",
           "upgrades": [
             "Listed Below"
           ],
@@ -142,7 +142,7 @@
         },
         {
           "name": "Stalker Maniple",
-          "units": "4 Triarch Stalkers",
+          "units": "Four Triarch Stalkers",
           "upgrades": [
             "Listed Below"
           ],
@@ -150,7 +150,7 @@
         },
         {
           "name": "Sentry Maniple",
-          "units": "4 Sentry Pylons.",
+          "units": "Four Sentry Pylons.",
           "upgrades": [
             "Listed Below"
           ],
@@ -158,7 +158,7 @@
         },
         {
           "name": "Triarch Phalanx",
-          "units": "4 Triarch Praetorian Units",
+          "units": "Four Triarch Praetorian Units",
           "upgrades": [
             "Listed Below"
           ],
@@ -166,7 +166,7 @@
         },
         {
           "name": "Letum Maniple",
-          "units": "4 Death Marks ",
+          "units": "Four Death Marks ",
           "upgrades": [
             "Listed Below"
           ],
@@ -196,7 +196,7 @@
         },
         {
           "name": "Night Scythes",
-          "units": "2 Night Scythes",
+          "units": "Two Night Scythes",
           "upgrades": [
             "None"
           ],
@@ -204,7 +204,7 @@
         },
         {
           "name": "Doom Scythes",
-          "units": "2 Doom Scythe units",
+          "units": "Two Doom Scythe units",
           "upgrades": [
             "None"
           ],
@@ -212,7 +212,7 @@
         },
         {
           "name": "Night Shroud Bomber",
-          "units": "2 Night Shroud Bomber",
+          "units": "Two Night Shroud Bomber",
           "upgrades": [
             "None"
           ],
@@ -228,7 +228,7 @@
         "name": "Ghost Ark Phalanx",
         "options": [
           {
-            "description": "Add one Cryptek and 1 Ghost Ark",
+            "description": "Add one Cryptek and one Ghost Ark",
             "points": "100 Points"
           },
           {
@@ -240,7 +240,7 @@
             "points": "50 points each"
           },
           {
-            "description": "Add up to three Wraith units",
+            "description": "Add up to three Wraiths",
             "points": "50 points each"
           },
           {

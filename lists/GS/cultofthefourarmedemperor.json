@@ -23,7 +23,7 @@
         "Broodlord",
         "Jackal Alphus",
         "Acolyte Hybrid",
-        "Aberrations",
+        "Aberrants",
         "Atalan Jackals",
         "Brood Brothers",
         "Cult Fire Support",
@@ -79,7 +79,7 @@
     "formations": [
       {
         "name": "0-1 Tectonic Fragdrill",
-        "units": "Replace the blitz objective with a Tectonic Fragdrill, See special rules.",
+        "units": "Replace the Genestealer Cult Blitz objective with a Tectonic Fragdrill (see special rules).",
         "upgrades": [
         ],
         "points": 50
@@ -95,7 +95,7 @@
           "units": "One Patriarch Coven, Three Purestrain Genestealers and Six Hybrid Metamorphs.",
           "upgrades": [
             "Armoured Limousines",
-            "Aberrations"
+            "Aberrants"
           ],
           "points": 325
         },
@@ -106,7 +106,7 @@
             "Primus",
             "Neophyte Hybrid",
             "Transport",
-            "Aberrations"
+            "Aberrants"
           ],
           "points": 200
         },
@@ -124,7 +124,7 @@
         {
           "name": "Genestealer Brood",
 
-          "units": "Six Genestealer Units, One Broodlord",
+          "units": "Six Genestealer Units, one Broodlord",
           "upgrades": [
             "Genestealers"
           ],
@@ -146,14 +146,14 @@
         },
         {
           "name": "Purestrain Genestealers",
-          "units": "Six Purestrain Genestealer Units and One Broodlord",
+          "units": "Six Purestrain Genestealer Units and one Broodlord",
           "upgrades": [
           ],
           "points": 225
         },
         {
           "name": "Atalan Jackals",
-          "units": "Ten of any combination of Atalan Jackals or Wolfquads and One Jackal Alphus.",
+          "units": "Ten of any combination of Atalan Jackals or Wolfquads and one Jackal Alphus.",
           "upgrades": [
           ],
           "points": 200
@@ -180,7 +180,7 @@
         },
         {
           "name": "Cult Artillery",
-          "units": "Three Bombards or 3 Brood Brother Basilisks",
+          "units": "Three Bombards or three Brood Brother Basilisks",
           "upgrades": [
             "Flak"
           ],
@@ -212,7 +212,7 @@
       "formations": [
         {
           "name": "Cult Thunderbolt Squadron",
-          "units": "2 Thunderbolt Fighter Fighters",
+          "units": "Two Thunderbolt Fighters",
           "points": 150
         }
       ]
@@ -225,22 +225,22 @@
     "items": [
       {
         "name": "Primus",
-        "description": "A Genestealer Primus to a formation.",
+        "description": "Add a Genestealer Primus character.",
         "points": "50 points"
       },
       {
         "name": "Neophyte Hybrids",
-        "description": "Replace Acolyte Hybrids with Neophyte Hybrids",
+        "description": "Replace any number of Acolyte Hybrids with Neophyte Hybrids",
         "points": "10 points each"
       },
       {
         "name": "Extended Family",
-        "description": "Add Six Brood Brother Units",
+        "description": "Add six Brood Brother Units",
         "points": "75 points"
       },
       {
         "name": "Genestealers",
-        "description": "Add Three Genestealer Units",
+        "description": "Add three Genestealer Units",
         "points": "75 points"
       },
       {
@@ -248,38 +248,38 @@
         "description": "Add enough transports to transport the entire formation.",
         "options": [
           {
-            "description": "Add Goliath Truck ",
+            "description": "Goliath Trucks",
             "points": "25 points each"
           },
           {
-            "description": "Add Goliath Rock Grinders",
+            "description": "Goliath Rock Grinders",
             "points": "25 points each"
           }
         ]
       },
       {
         "name": "Fire Support",
-        "description": "Add Four Cult Fire Support Units",
+        "description": "Add four Cult Fire Support Units",
         "points": "100 points"
       },
       {
         "name": "Hybrids",
-        "description": "Add Four Genestealer Hybrid Units",
+        "description": "Add four Genestealer Hybrid Units",
         "points": "100 points"
       },
       {
-        "name": "Aberrations",
-        "description": "Add up to Two Aberrations to Formation",
+        "name": "Aberrants",
+        "description": "Add up to two Aberrants",
         "points": "25 points each"
       },
       {
         "name": "Cult Chimeras",
-        "description": "Add Five Chimeras",
+        "description": "Add five Chimeras",
         "points": "125 points"
       },
       {
         "name": "Armoured Limousines",
-        "description": "Transport the entire formation with Armoured Limousines",
+        "description": "Transport the entire formation in Armoured Limousines",
         "points": "Free"
       }
     ]

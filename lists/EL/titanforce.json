@@ -71,7 +71,7 @@
         },
         {
           "name": "Phantom Titan",
-          "units": "One Yme-Loc Phantom Titan, One Fir Iolarion Phantom Titan, Kinshara Phantom Titan or Mymeara Phantom Titan",
+          "units": "One Yme-Loc Phantom Titan, Fir Iolarion Phantom Titan, Kinshara Phantom Titan or Mymeara Phantom Titan",
           "upgrades": [
             "Bonesinger"
           ],
@@ -81,7 +81,7 @@
     },
     {
       "name": "Eldar Scout Titans",
-      "description": "Up to one Scout Titan for each 1000 points.",
+      "description": "Up to one Eldar Scout Titan formation for each 1000 points.",
       "formations": [
         {
           "name": "Revenant Titan",
@@ -96,7 +96,7 @@
     },
     {
       "name": "Eldar Titans Support",
-      "description": "Up to three supports for each Pair of Scout Titans Taken.",
+      "description": "Up to three Supports formations for each Pair of Scout Titans Taken.",
       "formations": [
 
         {
@@ -135,8 +135,8 @@
           "name": "Spirit Troupe",
           "units": "Four Wraithlords and One Spiritseer",
           "upgrades": [
-            "Add 3 Wraithguard units for 100 points",
-            "Add 3 Wraithblade units for 75 points"
+            "Add three Wraithguards for 100 points",
+            "Add three Wraithblades for 75 points"
 
           ],
           "points": 250
@@ -149,9 +149,9 @@
       "formations": [
         {
           "name": "Nightwing Interceptors",
-          "units": "2 Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors ",
           "upgrades": [
-            "Add 1 Nightwing Interceptor +75 Points"
+            "Add one Nightwing Interceptor +75 Points"
           ],
           "points": 225
         }
@@ -164,7 +164,7 @@
     "items": [
       {
         "name": "Bone Singer",
-        "description": "Add 1 Bone Singer to the a unit in the formation.",
+        "description": "Add one Bone Singer to the a unit in the formation.",
         "points": "free"
       }
     ]

@@ -6,7 +6,7 @@
   "strategy": "Ulthwé Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Seers of Ulthwé", "Avatar","Eldar May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal"],
+  "specialRules": ["Seers of Ulthwé", "Avatar","May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal"],
   "usage": [
     "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
   ],
@@ -88,7 +88,7 @@
         "formations": [
         {
             "name": "Black Guardian Warhost",
-            "units": "Two Farseer units and six Black Guardian units",
+            "units": "Two Farseer units and six Black Guardians",
             "upgrades": [
               "Seer Council, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord OR Seer Council, Heavy Weapons, Transport"
             ],
@@ -142,7 +142,7 @@
           "name": "Ranger Troupe",
           "units": "Four Ranger units",
           "upgrades": [
-            "0-4 Rangers 25 points each"
+            "Add up to four Rangers for 25 points each"
           ],
           "points": 100
         },
@@ -171,9 +171,9 @@
       "formations": [
         {
           "name": "Nightwing Interceptors ",
-          "units": "2 Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors ",
           "upgrades": [
-            "Add 1 Nightwing Interceptor +75 Points"
+            "Add one Nightwing Interceptor +75 Points"
           ],
           "points": 225
         },
@@ -181,7 +181,7 @@
           "name": "Phoenix Bombers",
           "units": "Two Phoenix Bombers",
           "upgrades": [
-            "Add 1 Phoenix Bombers +75 Points"
+            "Add one Phoenix Bomber +75 Points"
           ],
           "points": 250
         },
@@ -210,7 +210,7 @@
           "points": 750
         },
         {
-          "name": "0-1 Warlock",
+          "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
           "upgrades": [
 
@@ -249,7 +249,7 @@
       },
       {
         "name": "Heavy Weapons",
-        "description": "Replace up to three Eldar Guardian units with Eldar Heavy Weapon Platform units",
+        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platform units",
         "points": "Free"
       },
       {
@@ -269,12 +269,12 @@
       },
       {
         "name": "Vypers",
-        "description": "Replace any number of Eldar Jetbike units with Eldar Vypers",
+        "description": "Replace any number of Eldar Jetbikes with Eldar Vypers",
         "points": "Free"
       },
       {
         "name": "Wraithguard",
-        "description": "Add three Eldar Wraithguard units",
+        "description": "Add three Eldar Wraithguards",
         "points": "125 points"
       },
       {

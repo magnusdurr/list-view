@@ -4,7 +4,7 @@
   "version": "1.11",
   "release": "2019-02-22",
   "strategy": "Maynarkh Dynasty armies have a Strategy Rating of 2.",
-  "Initiative": "Maynarkh Dynasty armies have a Strategy Rating of 2. Formations have an Initiative Rating of 1+ unless otherwise noted.",
+  "Initiative": "All Necron formations have an Initiative Rating of 1+.",
 
   "specialRules": [
             "Necron Special Rules",
@@ -79,7 +79,7 @@
       "formations": [
         {
           "name": "Infantry Phalanx",
-          "units": "Eight Necron Warriors and One Necron Lord",
+          "units": "Eight Necron Warriors and one Necron Lord",
           "upgrades": [
             "Listed Below"
           ],
@@ -93,7 +93,7 @@
       "formations": [
         {
           "name": "Armoued Phalanx",
-          "units": "5 Obelisks",
+          "units": "Five Obelisks",
           "upgrades": [
             "None"
           ],
@@ -109,7 +109,7 @@
         },
         {
           "name": "Monolith Maniple",
-          "units": "2 Monoliths and 2 Obelisks",
+          "units": "Two Monoliths and two Obelisks",
           "upgrades": [
             "Listed Below"
           ],
@@ -183,11 +183,11 @@
             "points": "50 points each"
           },
           {
-            "description": "Swap up to 3 Necron Warriors for Immortals",
+            "description": "Swap up to three Necron Warriors for Immortals",
             "points": "25 points each"
           },
           {
-            "description": "Add 1 C'tan Shard 0-1 per army",
+            "description": "(0-1 per army) Add one C'tan Shard",
             "points": "100 points"
           }
         ]
@@ -196,7 +196,7 @@
         "name": "Eques Maniple",
         "options": [
           {
-            "description": "Add One Necron Lord",
+            "description": "Add one Necron Lord",
             "points": "25 points"
           },
           {
@@ -213,7 +213,7 @@
             "points": "50 points each"
           },
           {
-            "description": "Add up to one Monolith ",
+            "description": "Add one Monolith ",
             "points": "75 points each"
           }
         ]
@@ -222,7 +222,7 @@
         "name": "Venator Maniple",
         "options": [
           {
-            "description": "Add One Necron Lord",
+            "description": "Add one Necron Lord",
             "points": "25 points"
           },
           {
