@@ -1246,6 +1246,16 @@
       ]
     },
     {
+      "name": "Autoguns",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Autopistols",
       "modes": [
         {
@@ -4423,6 +4433,62 @@
       ]
     },
     {
+      "name": "Knight Power Lance",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+             "EA(+1)",
+             "Lightning Charge"
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "Lance",
+              "Lightning Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight Chainsword",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Knight Power Gauntlet",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kroot Guns",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Kroot Guns",
         "modes": [
           {
@@ -5722,27 +5788,7 @@
           }
       ]
     },
-    {
-      "name": "Knight Power Lance",
-        "modes": [
-          {
-            "firepower": "Small Arms",
-            "specialRules": [
-             "EA(+1)",
-             "Lightning Charge"
-          ]
-          },
-          {
-            "firepower": "Assault Weapons",
-            "join": "and",
-            "specialRules": [
-              "EA(+1)",
-              "Lance",
-              "Lightning Charge"
-          ]
-        }
-      ]
-    },
+
 
     {
       "name": "Power Lances",
@@ -6843,7 +6889,7 @@
       "name": "Skysweeper Missile Launcher",
         "modes": [
           {
-            "firepower": "AP5+/AT6+/AA5+",
+            "firepower": "2x AP5+/AT6+/AA5+",
             "range": 45,
             "specialRules": [
           ]
