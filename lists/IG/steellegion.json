@@ -24,7 +24,7 @@
         "Rough Riders",
         "Snipers",
         "Tempestus Scions",
-        "Support Squad",
+        "Fire Support Squad",
         "Sentinel",
         "Basilisk",
         "Bombard",
@@ -246,13 +246,13 @@
   ],
   "upgrades": {
     "title": "Steel Legion Upgrades",
-    "description": "Each upgrade may be taken once per Formation with the exception of valkyries and vendetta upgrades.",
+    "description": "Each upgrade may be taken once per formation. No more than three upgrades per Company",
     "items": [
       {
         "name": "Fire Support Platoon*",
         "options": [
           {
-            "description": "Add four Fire Support Squad units",
+            "description": "Add four Fire Support Squads",
             "points": "100 points"
           }
         ]
@@ -288,7 +288,7 @@
         "name": "Infantry Platoon*",
         "options": [
           {
-            "description": "Add six infantry units",
+            "description": "Add six Infantry",
             "points": "75 points"
           }
         ]
@@ -333,7 +333,7 @@
         "name": "",
         "options": [
           {
-            "description": "* These upgrades may add Chimeras. All infantry units in the formation must be transported in Chimeras and the minimum Chimeras are to be taken.",
+            "description": "* These upgrades may add Chimeras. If the formation contains Chimeras, then all INF in the formation must be transported in Chimeras.",
             "points": "+25 points each"
           }
         ]
