@@ -1,10 +1,10 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "1.2",
+  "version": "1.3",
   "release": "2019-02-22",
-  "strategy": "Steel Legion armies have a strategy rating of 2.",
-  "initiative": "Titan Legion formations have an initiative of 1+. All other formations have an initiative of 2+.",
+  "strategy": "Steel Legion armies have a Strategy Rating of 2.",
+  "Initiative": "Titan Legion formations have an Initiative of 1+. All other formations have an Initiative of 2+.",
 
   "specialRules": ["Commissars", "Lord Commissar"],
   "usage": [
@@ -18,7 +18,6 @@
         "Steel Legion Commander",
         "Tempestor",
         "Commissar",
-        "Lord Commissar",
         "Infantry",
         "Ogryns",
         "Rough Riders",
@@ -37,6 +36,7 @@
         "Leman Russ",
         "Leman Russ Demolisher",
         "Leman Russ Vanquisher",
+        "Leman Russ Conqueror",
         "Manticore",
         "Valkyrie",
         "Vulture",
@@ -127,7 +127,7 @@
           "name": "0–1 Deathstrike Battery",
           "units": "Two Deathstrikes",
           "upgrades": [
-            "May add Gun Emplacements for +25 points"
+            "Add two Gun Emplacements for +25 points"
           ],
           "points": 200
         },
@@ -135,7 +135,7 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks or Manticores",
           "upgrades": [
-            "May add Gun Emplacements for +25 points"
+            "Add three Gun Emplacements for +25 points"
           ],
           "points": 250
         },
@@ -143,7 +143,7 @@
           "name": "Bombard Battery",
           "units": "Three Bombards",
           "upgrades": [
-            "May add Gun Emplacements for +25 points"
+            "Add three Gun Emplacements for +25 points"
           ],
           "points": 225
         },
@@ -151,7 +151,7 @@
           "name": "Flak Battery",
           "units": "Three Hydras",
           "upgrades": [
-            "May add Gun Emplacements for +25 points"
+            "Add three Gun Emplacements for +25 points"
           ],
           "points": 150
         },
@@ -197,7 +197,7 @@
           "name": "Warhound Pack",
           "units": "Two Warhounds",
           "upgrades": [
-            "Warhound pack gains the 'Independent' special rule for +50 points."
+            "Warhound Pack gains the 'Independent' special rule for +50 points."
           ],
           "points": 500
         },
@@ -220,7 +220,7 @@
           "points": 150
         },
         {
-          "name": "Maurader Squadron",
+          "name": "Maruder Squadron",
           "units": "Two Maruder Bombers",
           "points": 225
         },
