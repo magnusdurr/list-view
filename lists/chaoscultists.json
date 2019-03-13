@@ -32,7 +32,8 @@
             "Augment Summoning (+1)",
             "Invulnerable Save",
             "Leader"
-        ]
+        ],
+        "notes": "May not be added to formation upgrades"
       },
       {
         "name": "Demagogue",
@@ -171,8 +172,7 @@
               "Horrific Mutations"
           ],
           "specialRules": [
-              "Fearless",
-              "Infiltrators"
+              "Fearless"
           ]
       },
       {
@@ -217,7 +217,7 @@
     {
       "name": "Chaos Altar",
       "type": "WE",
-      "speed": 15,
+      "speed": 20,
       "armour": 4,
       "cc": 4,
       "ff": 4,
@@ -235,6 +235,27 @@
       ],
                 "notes": "Critical Hit Effect: The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
   },
+      {
+        "name": "Warp Altar",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Arcane Technology"
+        ],
+        "specialRules": [
+            "Damage Capacity 3",
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Fearless",
+            "Inspiring",
+            "Daemonic Focus",
+            "Chaos Gate"
+        ],
+                  "notes": "Critical Hit Effect: The Warp Altar is destroyed. All Daemons within 5cm are destroyed, and other units within 5cm suffers a MW hit on 6+."
+    },
         {
           "name": "Plague Zombies of Nurgle",
           "type": "INF",

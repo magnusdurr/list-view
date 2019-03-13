@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Daemonic Incursion",
-  "version": "2.3",
-  "release": "2019-03-12",
+  "version": "2.4",
+  "release": "2019-03-13",
   "strategy": "Daemonic Incursion armies have a strategy rating of 0.",
   "initiative": "All Daemon formations have an initiative of 1+. Mortal formations have an initiative of 2+.",
   "specialRules":
@@ -16,7 +16,7 @@
       "The Great Ritual",
       "Terror From Beyond",
       "Warp Rift",
-      "Chaos Gate",
+      "Chaos Gates",
       "DI Eternal Animosity"
     ],
   "usage": [
@@ -68,8 +68,7 @@
         "Icon Bearer",
         "Cultists",
         "Mutants",
-        "Big Mutants",
-        "Chaos Altar",
+        "Warp Altar",
         "Chaos Spawn"
     ],
     "unitRules": [
@@ -84,7 +83,7 @@
 
         {
           "name": "1 Chaos Gate",
-          "units": "Replace one objective marker in the Daemonic Incursion player's half of the table with a Chaos Gate, this counts as an objective marker and a Chaos Gate which may not be attacked or damaged in any way",
+          "units": "Replace one objective marker in the Daemonic Incursion player's half of the table with a Chaos Gate. It counts both as an objective and a Chaos Gate.",
           "upgrades": [
           ],
           "points": 0
@@ -177,17 +176,20 @@
       "name": "Mortals",
       "description": "Up to a fourth of the points available may be spent on these formations",
       "formations": [
-
           {
-            "name": "Cultist Coven of Chaos Undivided",
-            "units": "Nine Chaos Cultists and/or Mutants, one Demagogue or Aspiring Champion of Chaos Undivided",
+            "name": "Warp Altar of Chaos Undivided",
+            "units": "One Warp Altar",
             "extraUnits": [
-              "Icon Bearer",
-              "Big Mutants",
-              "Chaos Spawn",
-              "Chaos Altar"
             ],
             "points": 200
+        },
+          {
+            "name": "Lost and the Damned",
+            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, one Chaos Icon, five Chaos Cultists and/or Mutants",
+            "extraUnits": [
+              "Chaos Spawn"
+            ],
+            "points": 150
           }
       ]
   },
@@ -238,19 +240,9 @@
         "points": "50 points"
       },
       {
-        "name": "Icon Bearer",
-        "description": "Add an Icon Bearer to the formation",
-        "points": "25 points"
-        },
-      {
         "name": "Chaos Spawn",
         "description": "Replace up to three Cultists/Mutants with Chaos Spawn",
         "points": "25 points each"
-    },
-    {
-      "name": "Chaos Altar",
-      "description": "Add a Chaos Altar to the formation",
-      "points": "150 points"
     }
     ]
   }

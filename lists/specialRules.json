@@ -1,9 +1,9 @@
 {
   "rules": [
     {
-      "title": "Knight Units (AV-K)",
+      "title": "Heavy Vehicle (HV)",
       "description": [
-        "Units with the unit type AV-K can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+        "Units with the unit type HV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
       ]
     },
     {
@@ -600,6 +600,9 @@
        ]
         },
 
+
+
+
         {
           "title": "Reign of Chaos",
           "description": [
@@ -615,7 +618,7 @@
         {
        "title": "The Great Ritual",
        "description": [
-         "All Exalted Greater Daemon or Daemon Legion formations must be held in the reserves at the start of the game, and may only enter the battlefield through a Warp Rift or Chaos Gate."
+         "All Exalted Greater Daemons and all Daemon Legion formations must be held in the reserves at the start of the game. Exalted Greater Daemons must enter play through a Warp Rift. Daemon Legion formations may only enter the battlefield through a Chaos Gate."
        ]
         },
 
@@ -623,7 +626,7 @@
        "title": "Terror From Beyond",
        "description": [
          "All Exalted Greater Daemon formations must be destroyed in order for the opponent to claim the Daemonic Incursion BTS objective. All Exalted Greater Daemon formations in the reserves are destroyed if they are still there during the End Phase of turn 3.",
-         "In addition, as long as the Daemon Incursion army still contains any Exalted Greater Daemons it may re-roll a single failed Initiative test of any type once per turn (unless all Exalted Greater Daemons are located in the reserves)."
+         "In addition, as long as the Daemon Incursion army still contains any Exalted Greater Daemons it may re-roll a single failed Initiative test of any type once per turn (unless all surviving Exalted Greater Daemons are located in the reserves)."
        ]
         },
         {
@@ -637,18 +640,22 @@
        "title": "Warp Rift",
        "description": [
          "Warp Rifts are plotted exactly as planetfall. Both the turn in which the formation arrives and the landing location is plotted. The exceptions are that, because the formation is entering the battlefield from a Warp Rift and not from a space ship, they may be plotted to arrive in the same turn that an enemy spacecraft is present. The also do not have to announce which turn they arrive.",
-         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with spacecraft. First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
-         "If the activation is successful, place a Warp Rift token at the plotted coordinates. This may be moved 15cm in any direction, and then scatters 2D6 cm. If the Warp Rift token lands on terrain that is impassable or dangerous for it, or on top of any sort of unit (friend or foe), or in an enemy zone of control, then it is moved by the opposing player to the nearest area of clear ground. If this happens, also place a Blast Marker on the activating formation.",
-         "With the final location of the the Warp Rift determined, it attacks any enemy formations within range of the Warp Rift (15cm, AP6+/AT6+, Disrupt). Finally, the activated formation carries out the order determined at the start of its action, and must move the entire formation out of the Warp Rift, measuring all moves from the centre point of the token.",
-         "Daemon Legion formations in the reserves may use a Warp Rift token created by an Exalted Greater Daemon from the same chaos power to move onto the Battlefield. If the Warp Rift token is under an enemy unit or within an enemy zone of control, any formation that exits through it must Engage that / those formations, maximizing base contact as much as possible. Leave the Warp Rift token in place until the end of the turn, and then remove it."
+         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with spacecraft. First the action for the formation must be decided. If the decision is to Engage, the Commander ability may be used to make a combined assault, where other formations in the reserves count as being within 5cm (except other formations scheduled to arrive via Warp Rift).",
+         "After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
+         "If the activation is successful, place a Warp Rift token at the plotted coordinates. This may be moved 15cm in any direction, and then scatters 3D6 cm. If the Warp Rift token lands on terrain that is impassable or dangerous for it, or on top of any sort of unit (friend or foe), or in an enemy zone of control, then it is moved by the opposing player to the nearest area of clear ground. If this happens, also place a Blast Marker on the activating formation.",
+         "With the final location of the the Warp Rift determined, it attacks any enemy formations within range of the Warp Rift (15cm, AP6+/AT6+, Disrupt). Finally, the activated formation(s) carries out the order determined at the start of its action, and must move the formation(s) out of the Warp Rift, measuring all moves from the centre point of the token.",
+         "After all units have exited the Warp Rift, the token is removed."
        ]
         },
         {
-       "title": "Chaos Gate",
+       "title": "Chaos Gates",
        "description": [
-         "A Chaos Gate is an objective that also functions as Warp Rift token that may only be used by Infantry units. It is considered to be of Chaos Undivided, and so can be used by any all-infantry Daemon Legion formation. The Chaos Gate cannot be targeted or destroyed."
+         "Chaos Gates functions as permanent Warp Rift tokens. A Chaos Gate that is also an objective can be used by all Daemon Legion formations, and cannot be targeted or destroyed. A Chaos Gate mounted on a War Engine can only be used by formations that are entirely made up of Infantry type units. War Engine Chaos Gates are destroyed if its unit is destroyed, and any formation that uses a Chaos Gate on a broken unit recieves a Blast Marker. Measure all movement from the centre the token or the unit with a Chaos Gate. If a Chaos Gate is under an enemy unit or within an enemy zone of control, any formation that exits through it must Engage that / those formations, maximizing base contact as much as possible."
        ]
         },
+
+
+
         {
         "title": "Deceit and Deception",
         "description": [

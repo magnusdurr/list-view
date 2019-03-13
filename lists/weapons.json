@@ -3608,7 +3608,7 @@
       "name": "Harvester Cannon",
         "modes": [
           {
-            "firepower": "2x AP4+/AT6+/AA6+",
+            "firepower": "3x AP5+/AT6+/AA6+",
             "range": 45,
             "specialRules": [
           ]
@@ -6808,8 +6808,8 @@
       "name": "Skull Cannon",
         "modes": [
           {
-            "firepower": "AP5+/AT5+",
-            "range": 30,
+            "firepower": "AP4+/AT4+",
+            "range": 45,
             "specialRules": [
                 "D"
           ]
@@ -8659,6 +8659,16 @@
                 "MW"
             ]
           }
+      ]
+    },
+    {
+      "name": "Whip of Torment",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
       ]
     },
     {

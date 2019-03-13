@@ -20,6 +20,7 @@
               "Reinforced Armour",
               "Invulnerable Save",
               "Leader",
+              "Commander",
               "Inspiring",
               "Daemonic Focus",
               "Walker",
@@ -147,6 +148,7 @@
             "Reinforced Armour",
             "Invulnerable Save",
             "Leader",
+            "Commander",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -266,14 +268,17 @@
         "speed": 30,
         "armour": 4,
         "cc": 3,
+        "ff": 6,
         "weapons": [
-          "Axe of Khorne"
+          "Axe of Khorne",
+          "Whip of Torment"
         ],
         "specialRules": [
             "Damage Capacity 4",
             "Reinforced Armour",
             "Invulnerable Save",
             "Leader",
+            "Commander",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -288,8 +293,10 @@
         "speed": 30,
         "armour": 4,
         "cc": 3,
+        "ff": 6,
         "weapons": [
-          "Axe of Khorne"
+          "Axe of Khorne",
+          "Whip of Torment"
         ],
         "specialRules": [
             "Damage Capacity 3",
@@ -305,10 +312,10 @@
       {
         "name": "Herald of Khorne on Skull Cannon",
         "type": "INF",
-        "speed": 15,
+        "speed": 20,
         "armour": 3,
-        "cc": 3,
-        "ff": 5,
+        "cc": 4,
+        "ff": 4,
         "weapons": [
           "Skull Cannon"
         ],
@@ -401,6 +408,7 @@
             "Reinforced Armour",
             "Invulnerable Save",
             "Leader",
+            "Commander",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -454,8 +462,7 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Violet Fire of Tzeench",
-          "Burning Chariot"
+          "Violet Fire of Tzeench"
         ],
         "specialRules": [
             "Jump Packs",
