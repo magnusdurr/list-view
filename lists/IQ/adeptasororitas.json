@@ -4,7 +4,7 @@
   "version": "1.0",
   "release": "2019-01-20",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
-  "Initiative": "All Sister of Battle formations have an Initiative Rating of 1+. All Support Detachments and Imperial Navy formations have an Initiative Rating of 2+.",
+  "Initiative": "All Sister of Battle formations have an Initiative Rating of 1+. All Inquisitorial Support Detachments and Imperial Navy formations have an Initiative Rating of 2+.",
   "specialRules": ["Act of Faith"
                   ],
   "usage": [
@@ -65,12 +65,12 @@
   ],
   "sections": [
     {
-      "name": "Adepta Sororitas Core Missions",
+      "name": "Adepta Sororitas Core Detachments",
       "description": "One Retribution Formation for each one Mission Formation",
       "formations": [
         {
           "name": "Mission",
-          "units": "8 Battle Sisters Units",
+          "units": "8 Battle Sisters",
           "upgrades": [
 
             "Exorcist",
@@ -83,9 +83,10 @@
         },
         {
           "name": "Retribution",
-          "units": "6 Retributor Sister Units or 4 Retributor Sisters 2 Dominion Sisters or 4 Retributor Sisters 2 Celestian Sisters (+15)",
+          "units": "Six Retributor Sisters",
           "upgrades": [
-
+              "Four Retributor Sisters and two Dominion Sisters (Free)",
+              "Four Retributor Sisters and two Celestian Sisters (15 points)",
             "Priest",
             "Palatine",
             "Transport"
@@ -95,8 +96,8 @@
       ]
     },
     {
-      "name": "Adepta Sororitas Detachments",
-      "description": "Two detachments may be fielded per Core Mission",
+      "name": "Adepta Sororita Support Detachments",
+      "description": "Two Support Detachments may be fielded per Core Mission",
       "formations": [
         {
           "name": "Exorcism",
@@ -109,7 +110,7 @@
         },
         {
           "name": "Choir",
-          "units": "6 Seraphim Sister Units",
+          "units": "6 Seraphim Sisters",
           "upgrades": [
             "Superior"
           ],
@@ -117,7 +118,7 @@
         },
         {
           "name": "Coven",
-          "units": "4 Dominion Sister",
+          "units": "4 Dominion Sisters",
           "upgrades": [
 
             "Transports"
@@ -126,7 +127,7 @@
         },
         {
           "name": "Repentance",
-          "units": "6 Repentia Sister Units plus a Mistress character",
+          "units": "6 Repentia Sisters plus a Mistress character",
           "upgrades": [
 
             "Engines",
@@ -137,7 +138,7 @@
         },
         {
           "name": "Purgeance",
-          "units": "6 Immolator or Repressors",
+          "units": "6 Immolators or Repressors",
           "upgrades": [
             "Hunter"
           ],
@@ -146,12 +147,12 @@
       ]
     },
     {
-      "name": "Adepta Sororitas Support Detachments",
-      "description": "Two support detachment may be fielded per Mission",
+      "name": "Inquisitorial Support Detachments",
+      "description": "Two Inquisitorial Support Detachments may be fielded per Mission",
       "formations": [
         {
           "name": "Penitence",
-          "units": "4 Penitent Engine",
+          "units": "4 Penitent Engines",
           "upgrades": [
             "Engines"
           ],
@@ -159,7 +160,7 @@
         },
         {
           "name": "Crusaders",
-          "units": "10 Redemptionist units plus a Priest character",
+          "units": "10 Redemptionists plus a Priest character",
           "upgrades": [
             "Chimeras",
             "Engines"
@@ -168,7 +169,7 @@
         },
         {
           "name": "Conclave",
-          "units": "6 Arco Flagellant Units",
+          "units": "6 Arco Flagellants",
           "upgrades": [
             "Transport",
             "Engines"
@@ -177,7 +178,7 @@
         },
         {
           "name": "0-1 per army Inquisitorial Strike Force",
-          "units": "8 Inqisitorial Storm Trooper Units plus and Inquisitor character",
+          "units": "8 Inqisitorial Storm Troopers plus an Inquisitor character",
           "upgrades": [
             "Chimeras or Landing Party",
             "Priest",
@@ -188,12 +189,12 @@
       ]
     },
     {
-      "name": "Adepta Sororitas Navy",
+      "name": "Imperial Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
           "name": "Lightning Squadron",
-          "units": "2 Lightning Squadron",
+          "units": "2 Lightning Strike Fighters",
           "points": 150
         },
         {
@@ -261,23 +262,23 @@
         "description": "",
         "options": [
           {
-            "description": "Replace two Battle Sisters units with two Celestian units",
+            "description": "Replace two Battle Sisters with two Celestians",
             "points": "25 points"
           },
           {
-            "description": "Replace two Battle Sisters units with two Dominion or Retributor Sisters units",
+            "description": "Replace two Battle Sisters with two Dominions or Retributor Sisters",
             "points": "15 points"
           }
         ]
       },
       {
         "name": "Retinue",
-        "description": "0-2 Replace Inquisitorial Storm Trooper units with Deathcult Assassins",
+        "description": "0-2 Replace Inquisitorial Storm Troopers with Deathcult Assassins",
         "points": "20 points each"
       },
       {
         "name": "Landing Party",
-        "description": "Add 4 Valkyrie to transport the formation",
+        "description": "Add 4 Valkyries to transport the formation",
         "points": "150 points"
       },
       {
@@ -285,11 +286,11 @@
         "description": "",
         "options": [
           {
-            "description": "Add Immolator",
+            "description": "Add up to eight Immolators",
             "points": "25 points each"
           },
           {
-            "description": "Add Repressor",
+            "description": "Add up to four Repressors",
             "points": "25 points each"
           },
           {
