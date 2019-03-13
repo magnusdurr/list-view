@@ -38,6 +38,7 @@
         "Leman Russ Demolisher",
         "Leman Russ Vanquisher",
         "Leman Russ Conqueror",
+        "Leman Russ Punisher",
         "Manticore",
         "Valkyrie",
         "Vulture",
@@ -103,9 +104,9 @@
         },
         {
           "name": "Leman Russ Company",
-          "units": "Nine Leman Russ and one Leman Russ Vanquisher",
+          "units": "One Leman Russ Vanquisher, nine Leman Russ",
           "upgrades": [
-            "Flak, Griffon Battery, Hellhound and Leman Russ Squadron only"
+            "Flak, Griffon Battery, Hellhound Squadron and Leman Russ Squadron only"
           ],
           "points": 600
         },
@@ -181,8 +182,8 @@
         },
         {
           "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ, Leman Russ Demolishers or Leman Russ Conquerors",
-          "points": 350
+          "units": "Six Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
+          "points": 400
         },
 
         {
@@ -208,7 +209,7 @@
             "name": "Warhound Pack",
             "units": "Two Warhounds",
             "upgrades": [
-              "Warhound Pack gains the 'Independent' special rule for +50 points."
+              "Warhound Pack gains the 'Independent' special rule (see special rules) for +50 points."
             ],
             "points": 500
           },
@@ -285,7 +286,7 @@
         "name": "Hellhound Squadron",
         "options": [
           {
-            "description": "Three Hellhounds",
+            "description": "Add three Hellhounds",
             "points": "75 points"
           }
         ]
@@ -321,7 +322,7 @@
         "name": "Leman Russ Squadron",
         "options": [
           {
-            "description": "Add three Leman Russ, Leman Russ Demolishers or Leman Russ Conquerors",
+            "description": "Add three Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
             "points": "175 points"
           }
         ]
