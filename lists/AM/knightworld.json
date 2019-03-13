@@ -1,87 +1,66 @@
 {
   "fraction": "Adeptus Mechanicus",
-  "army": "Questoris Mechanicus",
-  "version": "2.2",
-  "release": "2019-02-25",
-  "strategy": "Questoris Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "Titan Legion formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
+  "army": "Knight World",
+  "version": "1.6",
+  "release": "2019-03-13",
+  "strategy": "Knight World armies have a Strategy Rating of 2.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-          "Automaton",
           "Bravery",
           "Stubborn",
-          "Ion Shield (X)",
-          "Shield Piercer",
-          "Lightning Charge",
-          "Unstable",
-          "Heavy Armoured Vehicle (H-AV)"
+          "Fortified Positions"
 
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Questoris Mechanicus of the Adeptus Mechancius"
+    "The following army list allows you to field a Knight World army with Planetary Defence Force allies"
   ],
   "units": [
     {
       "from": "QK.json",
       "units": [
-        "Baron",
         "Seneschal",
 
-        "Dominus Knight-Castellan",
-        "Dominus Knight-Valiant",
-        "Questoris Knight-Paladin",
-        "Questoris Knight-Errant",
-        "Questoris Knight-Crusader",
-        "Questoris Knight-Gallant",
-        "Questoris Knight-Warden",
-        "Questoris Knight-Preceptor",
-
-        "Cerastus Knight-Lancer",
-        "Cerastus Knight-Acheron",
-        "Cerastus Knight-Castigator",
-        "Cerastus Knight-Atrapos",
-
-        "Armiger Knight-Warglaive",
-        "Armiger Knight-Helverin",
-
-        "Questoris Relic Knight-Styrix",
-        "Questoris Relic Knight-Magaera",
-
-        "Acastus Knight-Porphyrion",
-        "Acastus Knight-Mechanicum"
+        "Knight-Baron",
+        "Knight-Protector",
+        "Knight-Custodian",
+        "Knight-Vanguard",
+        "Knight-Guardian",
+        "Knight-Aggressor",
+        "Knight-Warden"
       ],
               "unitRules": [
-
+          "Ion Shield (X)",
+          "Lightning Charge",
+          "Heavy Armoured Vehicle (H-AV)",
+          "Lance"
       ]
     },
     {
-      "from": "AM.json",
+      "from": "IG.json",
       "units": [
-        "Tech Priest",
-        "Skitarii Vanguard",
-
-        "Kastelan Robot",
-
-        "Onager Dunecrawler",
-        "AM Gorgon",
-
-        "Avenger Strike Fighters",
-        "Ark Mechanicus Battleship"
+        "PDF Commander",
+        "PDF Infantry",
+        "Thudd Gun",
+        "Rapier",
+        "Snipers",
+        "Heavy AA Gun",
+        "Howitzer",
+        "Rough Riders",
+        "Centaur",
     ],
         "unitRules": [
-            "God Machine Killer (GMK)"
       ]
     },
-  {
-    "from": "ImperialAllies.json",
-    "units": [
-      "Warhound "
-    ],
-      "unitRules": [
-          "Independent",
-          "Imperial Void Shields"
-    ]
-  }
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter",
+        "Marauder Bomber"
+      ],
+        "unitRules": [
+      ]
+    }
 ],
 "sections": [
     {
