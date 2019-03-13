@@ -106,7 +106,7 @@
           "name": "Leman Russ Company",
           "units": "One Leman Russ Vanquisher, nine Leman Russ",
           "upgrades": [
-            "Flak, Griffon Battery, Hellhound Squadron and Leman Russ Squadron only"
+            "Flak, Griffon Battery, Hellhound Squadron, Leman Russ Squadron"
           ],
           "points": 600
         },
@@ -121,7 +121,7 @@
           "name": "Artillery Company",
           "units": "Six Basilisks or six Manticores. Six Gun Emplacements.",
           "upgrades": [
-            "Flak only"
+            "Flak"
           ],
           "points": 450
         }
@@ -268,7 +268,7 @@
         "name": "Flak",
         "options": [
           {
-            "description": "Add one Hydra",
+            "description": "Add one Hydra. If added to an Artillery Company, also add a Gun Emplacement",
             "points": "50 points"
           }
         ]
