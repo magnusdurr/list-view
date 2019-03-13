@@ -47,7 +47,7 @@
         "Heavy AA Gun",
         "Howitzer",
         "Rough Riders",
-        "Centaur",
+        "Centaur"
     ],
         "unitRules": [
       ]
@@ -64,108 +64,120 @@
 ],
 "sections": [
     {
-      "name": "Questoris Lances",
+      "name": "Knight World Core Households",
       "formations": [
         {
-          "name": "Questoris",
-          "units": "Two Questoris Knights (any combination of configurations)",
+          "name": "Protector Household",
+          "units": "Five Knight-Protectors",
           "upgrades": [
-            "Questoris, Seneschal, Baron"
+            "Seneschal, Knight-Protectors, Knight-Baron"
           ],
-          "points": 250
+          "points": 450
         }
       ]
     },
     {
-      "name": "Cerastus Lances",
-      "description": "Up to one Cerasus Lance for each Questoris Lance.",
+      "name": "Knight World Support Households",
+      "description": "Up to two Support Households for each Core Household.",
       "formations": [
         {
-          "name": "Cerasus",
-          "units": "Two Cerastus Knights (any combination of configurations), one Seneschal character",
+          "name": "Custodian Household",
+          "units": "Two Knight-Custodians",
           "upgrades": [
-            "Knight-Atrapos"
+            "Seneschal, Knight-Custodians"
           ],
-          "points": 300
-        }
-      ]
-    },
-    {
-      "name": "Armiger Lances",
-      "description": "Up to one Armiger Lance for each Questoris or Cerastus Lance.",
-      "formations": [
+          "points": 225
+      },
+          {
+            "name": "Vanguard Household",
+            "units": "Three Knight-Vanguard",
+            "upgrades": [
+              "Seneschal, Knight-Vanguard"
+            ],
+            "points": 325
+        },
         {
-          "name": "Armiger",
-          "units": "Four Knight-Warglaives or four Knight-Helverins",
+          "name": "Guardian Household",
+          "units": "Four Knight-Guardians (any combination of configurations)",
           "upgrades": [
+            "Seneschal, Knight-Guardians"
           ],
-          "points": 175
-        }
-      ]
-    },
-    {
-      "name": "Relic Lances",
-      "description": "Up to one Relic Lance for each Questoris Lance.",
-      "formations": [
-        {
-          "name": "0-1 Questoris Reliquae",
-          "units": "Two Questoris Relic Knights (any combination of configurations)",
-          "upgrades": [
-              "Questoris Reliquae",
-              "Acastus Reliquae"
-          ],
-          "points": 300
+          "points": 325
       },
       {
-        "name": "0-1 Acastus Reliquae",
-        "units": "Two Acastus Knights, each with one Seneschal (any combination of configurations)",
+        "name": "Aggressor Household",
+        "units": "Three Knight-Aggressors",
         "upgrades": [
-            "Questoris Reliquae",
-            "Acastus Reliquae"
+          "Seneschal, Knight-Aggressors"
         ],
-        "points": 425
-      }
+        "points": 300
+    }
       ]
     },
     {
-      "name": "Skitarii, AMTL and Imperial Navy Allies",
-      "description": "Up to one choice may be made for each Questoris Lance. Up to a third of the points available may be spent on Skitarii, AMTL and Imperial Navy Allies.",
+      "name": "Knight World Retainer Formations",
+      "description": "Up to two Retainer Formations for each Core Household.",
       "formations": [
         {
-          "name": "Mechanized Skitarii Maniple",
-          "units": "One Tech Priest, nine Skitarii Vanguard, one AM Gorgon",
-          "points": 300
-        },
-        {
-          "name": "Onager Cohort",
-          "units": "Five Onager Dunecrawlers. Max two different weapons in the formation.",
-          "points": 200
-        },
-        {
-          "name": "Warhound Pack",
-          "units": "Two Warhound Scout Titans, Standard or Close Support Configuration",
+          "name": "Planetary Defense Company",
+          "units": "One PDF Commander, nine PDF Infantry",
           "upgrades": [
-              "Tank Hunter Configuration: +25 Points",
-              "Independent"
+              "Thudd Guns", "Rapiers", "Snipers", "Entrenchments"
           ],
-          "points": 500
-        },
-        {
-          "name": "Avenger Strike Fighters",
-          "units": "Two Avenger Strike Fighters",
-          "points": 175
-        },
-        {
-          "name": "Mechanicus Battleship",
-          "units": "One Ark Mechanicus Battleship",
-          "points": 175
-        }
+          "points": 150
+      },
+      {
+        "name": "Flak Battery",
+        "units": "Three Heavy AA Guns, three Gun Emplacements",
+        "upgrades": [
+        ],
+        "points": 125
+    },
+      {
+        "name": "Howitzer Battery",
+        "units": "Three Howitzers, three Gun Emplacements",
+        "upgrades": [
+        ],
+        "points": 150
+    },
+      {
+        "name": "Rough Riders",
+        "units": "Six Rough Riders",
+        "upgrades": [
+        ],
+        "points": 150
+    },
+      {
+        "name": "Light Mechanized",
+        "units": "Four PDF Infantry, four Centaurs",
+        "upgrades": [
+            "Thudd Guns", "Rapiers"
+        ],
+        "points": 150
+      }
+      ]
+  },
+
+    {
+      "name": "Imperial Navy Formations",
+      "description": "Up to a fourth of the points available may be spent on Imperial Navy Formations.",
+      "formations": [
+          {
+            "name": "Thunderbolt Squadron",
+            "units": "Two Thunderbolt Fighters",
+            "points": 150
+          },
+          {
+            "name": "Marauder Squadron",
+            "units": "Two Marauder Bombers",
+            "points": 225
+          }
       ]
     }
   ],
   "upgrades": {
-    "title": "Questoris Mechanicus Upgrades",
-    "description": "Each upgrade may be taken once per Formation",
+    "title": "Knight World Upgrades",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
         {
           "name": "0-1 Baron",
