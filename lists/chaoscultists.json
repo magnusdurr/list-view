@@ -176,6 +176,20 @@
           ]
       },
       {
+        "name": "Winged Chaos Spawn",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+            "Horrific Mutations"
+        ],
+        "specialRules": [
+            "Fearless",
+            "Jump Packs"
+        ]
+    },
+      {
         "name": "Chaos Hounds",
         "type": "INF",
         "speed": 30,

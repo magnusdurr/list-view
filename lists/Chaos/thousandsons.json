@@ -15,7 +15,7 @@
       "Teleport Homer"
     ],
   "usage": [
-    "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
+    "The following army list allows you to field an army based on the Thousand Sons with Chaos Mutant allies."
   ],
   "units": [
     {
@@ -102,7 +102,7 @@
           "units": "Six Rubric Marines, one Aspiring Sorcerer",
           "upgrades": [
             "Supreme Commander",
-            "Retinue Transport",
+            "Transport",
             "Predators",
             "Dreadnoughts"
           ],
@@ -112,7 +112,7 @@
     },
     {
       "name": "Thousand Sons Elite Formations",
-      "description": "One Elite formation may be fielded per Core formation",
+      "description": "One Elite Formation may be fielded per Core Formation",
       "formations": [
         {
           "name": "Chaos Space Marines",
@@ -120,7 +120,7 @@
           "upgrades": [
             "Dreadnoughts",
             "Predators",
-            "CSM Transport"
+            "Transport"
           ],
           "points": 175
         },
@@ -145,7 +145,7 @@
   },
   {
     "name": "Chaos Cultist and Minor Daemon Engine Formations",
-    "description": "Two Chaos Cultist or Minor Daemon Engine formations may be fielded per Core formation",
+    "description": "Two Chaos Cultist and Minor Daemon Engine Formations may be fielded per Core Formation",
     "formations": [
       {
         "name": "Tzaangor Warhost",
@@ -266,31 +266,14 @@
         ]
       },
       {
-        "name": "Retinue Transport",
+        "name": "Transport",
         "options": [
           {
-            "description": "Add up three Chaos Rhinos",
+            "description": "Chaos Rhinos",
             "points": "10 points each"
           },
           {
-            "description": "Add up to three Thousand Sons Land Raiders",
-            "points": "50 points each"
-        },
-        {
-          "description": "(No more than needed to transport the formation with no space left over)",
-          "points": ""
-      }
-        ]
-      },
-      {
-        "name": "CSM Transport",
-        "options": [
-          {
-            "description": "Add up two Chaos Rhinos",
-            "points": "10 points each"
-          },
-          {
-            "description": "Add up to three Thousand Sons Land Raiders",
+            "description": "Thousand Sons Land Raiders",
             "points": "50 points each"
         },
         {
@@ -321,7 +304,7 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Add one Chaos Spawn to the formation",
+            "description": "Add one Winged Chaos Spawn to the formation",
             "points": "35 points"
           },
           {
