@@ -27,12 +27,12 @@
       "from": "daemons.json",
       "units": [
         "Herald of Slaanesh",
-        "Mounted Herald of Slaanesh",
+        "Herald of Slaanesh on Seeker Chariot",
         "Daemonettes of Slaanesh",
         "Fiends of Slaanesh",
         "Seekers of Slaanesh",
-        "Herald of Nurgle",
-        "Mounted Herald of Nurgle",
+        "Herald of Nurgle on Palaquin",
+        "Herald of Nurgle on Blight Fly",
         "Plaguebearers of Nurgle",
         "Beasts of Nurgle",
         "Plague Drones of Nurgle",
@@ -42,7 +42,7 @@
         "Fleshhounds of Khorne",
         "Bloodcrushers of Khorne",
         "Herald of Tzeench",
-        "Mounted Herald of Tzeench",
+        "Herald of Tzeench on Burning Chariot",
         "Horrors of Tzeench",
         "Flamers of Tzeench",
         "Screamers of Tzeench",
@@ -145,7 +145,7 @@
             "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
             "extraUnits": [
                 "Keeper of Secrets",
-                "Herald Mounts",
+                "Seeker Chariots",
                 "Soul Grinder"
             ],
             "points": 225
@@ -155,16 +155,17 @@
               "units": "Three Herald of Nurgle, five Lesser Daemon Pool points",
               "extraUnits": [
                   "Great Unclean One",
-                  "Herald Mounts",
+                  "Blight Flies",
                   "Soul Grinder"
               ],
               "points": 225
               },
               {
                 "name": "Khorne Blood Legion",
-                "units": "Three Herald of Khorne on Juggernauts and/or Skull Cannons, five Lesser Daemon Pool points",
+                "units": "Three Herald of Khorne on Juggernauts, five Lesser Daemon Pool points",
                 "extraUnits": [
                     "Bloodthirster",
+                    "Skull Cannons",
                     "Soul Grinder"
                 ],
                 "points": 225
@@ -174,7 +175,7 @@
                   "units": "Three Herald of Tzeench, five Lesser Daemon Pool points",
                   "extraUnits": [
                       "Lord of Change",
-                      "Herald Mounts",
+                      "Burning Chariots",
                       "Soul Grinder"
                   ],
                   "points": 225
@@ -191,16 +192,16 @@
             "extraUnits": [
                 "Defilers"
             ],
-            "points": 250
+            "points": 225
         },
           {
             "name": "Lost and the Damned",
-            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, one Chaos Icon and seven Chaos Cultists and/or Mutants",
+            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, one Chaos Icon, seven Chaos Cultists and/or Mutants",
             "extraUnits": [
               "Chaos Spawn",
               "Land Transporters"
             ],
-            "points": 200
+            "points": 175
         }
       ]
   },
