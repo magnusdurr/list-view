@@ -4,7 +4,7 @@
   "version": "2.5",
   "release": "2019-03-13",
   "strategy": "Daemonic Incursion armies have a Strategy Rating of 0.",
-  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Mortal formations have an Initiative Rating of 2+.",
+  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Daemon Engine and Mortal formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -144,8 +144,8 @@
             "name": "Slaneesh Legion of Excess",
             "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
             "extraUnits": [
-                "Keeper of Secrets",
-                "Seeker Chariots",
+                "Replace three Herald of Slaanesh with a Keeper of Secrets: 75 points",
+                "Replace three Herald of Slaanesh with three Herald of Slaanesh on Seeker Chariot: Free",
                 "Soul Grinder"
             ],
             "points": 225
@@ -154,8 +154,8 @@
               "name": "Nurgle Plague Legion ",
               "units": "Three Herald of Nurgle on Palaquin, five Lesser Daemon Pool points",
               "extraUnits": [
-                  "Great Unclean One",
-                  "Blight Flies",
+                  "Replace three Herald of Nurgle with a Great Unclean One: 75 points",
+                  "Replace three Herald of Nurgle on Palaquin with three Herald of Nurgle on Blight Fly: Free",
                   "Soul Grinder"
               ],
               "points": 225
@@ -164,8 +164,8 @@
                 "name": "Khorne Blood Legion",
                 "units": "Three Herald of Khorne on Juggernauts, five Lesser Daemon Pool points",
                 "extraUnits": [
-                    "Bloodthirster",
-                    "Skull Cannons",
+                    "Replace three Herald of Khorne with a Bloodthirster: 75 points",
+                    "Replace three Herald of Khorne on Juggernaut with three Herald of Khorne on Skull Cannon: Free",
                     "Soul Grinder"
                 ],
                 "points": 225
@@ -174,8 +174,8 @@
                   "name": "Tzeench Scintillating Legion",
                   "units": "Three Herald of Tzeench, five Lesser Daemon Pool points",
                   "extraUnits": [
-                      "Lord of Change",
-                      "Burning Chariots",
+                      "Replace three Herald of Tzeench with a Lord of Change: 75 points",
+                      "Replace three Herald of Tzeench with three Herald of Tzeench on Burning Chariot: Free",
                       "Soul Grinder"
                   ],
                   "points": 225
@@ -183,7 +183,7 @@
               ]
             },
             {
-      "name": "Altars and Mortals",
+      "name": "Portals & Mortals",
       "description": "Up to a fourth of the points available may be spent on these formations",
       "formations": [
           {
@@ -196,7 +196,7 @@
         },
           {
             "name": "Lost and the Damned",
-            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, one Chaos Icon, seven Chaos Cultists and/or Mutants",
+            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, seven Chaos Cultists and/or Mutants",
             "extraUnits": [
               "Chaos Spawn",
               "Land Transporters"
@@ -225,31 +225,6 @@
         "name": "Soul Grinder",
         "description": "Add one Soul Grinder",
         "points": "75 points"
-      },
-      {
-        "name": "Keeper of Secrets",
-        "description": "Replace three Heralds of Slaanesh with a Keeper of Secrets",
-        "points": "75 points"
-      },
-      {
-        "name": "Great Unclean One",
-        "description": "Replace three Heralds of Nurgle with a Great Unclean One",
-        "points": "75 points"
-      },
-      {
-        "name": "Bloodthirster",
-        "description": "Replace three Heralds of Khorne with a Bloodthirster",
-        "points": "75 points"
-      },
-      {
-        "name": "Lord of Change",
-        "description": "Replace three Heralds of Tzeench with a Lord of Change",
-        "points": "75 points"
-      },
-      {
-        "name": "Herald Mounts",
-        "description": "Replace three Heralds with Mounted Heralds",
-        "points": "50 points"
       },
       {
         "name": "Defilers",

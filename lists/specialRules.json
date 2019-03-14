@@ -10,8 +10,8 @@
       "title": "Automaton",
       "description": [
         "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
-        "A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast marker however.",
-        "If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker then it may attempt to save normally.",
+        "A formation does not receive a Blast Marker when a unit with automaton is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast Marker however.",
+        "If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast Marker then it may attempt to save normally.",
         "Automaton units killed in an assault count for the purposes of working out its result."
       ]
     },
@@ -28,11 +28,11 @@
       "title": "Adeptus Custodians",
       "description": [
         "Adeptus Custodian are renowned for their tenacity and bravery. This is represented by the following rules:",
-        "* It takes 2 Blast markers to suppress a Adeptus Custodian unit.",
-        "* Adeptus Custodian formations are only broken if they have 2 Blast markers per unit in the formation.",
-        "* Adeptus Custodian formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down).",
-        "* When a broken Adeptus Custodian formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Adeptus Custodians with the Leader special ability remove 2 Blast markers instead of 1",
-        "* All Adeptus Custodian units are consider fearless in all respects except they still have to end their move while broken outside of 15cm of an enemy foramtion. If they cant they are subject to standard hackdowns rules for broken non fearless units with in 15cm of a enemy unit taking into account the above rules for Adeptus Custodians and blast markers."
+        "* It takes 2 Blast Markers to suppress a Adeptus Custodian unit.",
+        "* Adeptus Custodian formations are only broken if they have 2 Blast Markers per unit in the formation.",
+        "* Adeptus Custodian formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast Markers if the formation has 1 Blast Marker before rounding down).",
+        "* When a broken Adeptus Custodian formation rallies, it receives a number of Blast Markers equal to the number of units, rather than half this number. Adeptus Custodians with the Leader special ability remove 2 Blast Markers instead of 1",
+        "* All Adeptus Custodian units are consider fearless in all respects except they still have to end their move while broken outside of 15cm of an enemy foramtion. If they cant they are subject to standard hackdowns rules for broken non fearless units with in 15cm of a enemy unit taking into account the above rules for Adeptus Custodians and Blast Markers."
       ]
     },
 
@@ -70,7 +70,7 @@
     {
       "title": "Stubborn",
       "description": [
-        "Reduce the damage caused by blast markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+        "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
       ]
     },
     {
@@ -125,7 +125,7 @@
     {
       "title": "Lord Commissar",
       "description": [
-        "All units in a formation joined by a Lord Commissar gain Fearless. If the Lord Commissar is killed then all these units lose Fearless and the formation receives an additional D3 Blast markers."
+        "All units in a formation joined by a Lord Commissar gain Fearless. If the Lord Commissar is killed then all these units lose Fearless and the formation receives an additional D3 Blast Markers."
         ]
     },
     {
@@ -285,7 +285,7 @@
     {
       "title": "Shadowfields",
       "description": [
-        "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate blast markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2) and so weapons (including AA) without the ignore cover ability shooting at it receive a -1 to hit modifier."
+        "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate Blast Markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2) and so weapons (including AA) without the ignore cover ability shooting at it receive a -1 to hit modifier."
         ]
     },
 
@@ -339,7 +339,7 @@
       "title": "Holofields (x)",
       "description": [
         "Holofields provide a saving throw to the value of 'x'. This save may always be taken even against weapons with the Macro Weapon or Titan Killer abilities.",
-        "If a unit has reinforced armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate blast markers, even if they have the disrupt ability.",
+        "If a unit has reinforced armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate Blast Markers, even if they have the disrupt ability.",
         "Against Titan Killer attacks that cause extra damage make one Holofield save roll, if this is successful the unit takes no damage, if the roll fails it suffers all the damage. Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the sniper ability. "
       ]
     },
@@ -394,8 +394,8 @@
          "Daemon Pools are not faction specific. The size of the Daemon Pool must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As daemons are summoned the pool must be changed to reflect its current size.",
          "To summon daemons the formation declares its intention to summon before any action roll is made (but after the choice of action). The player then rolls 2D3 to generate the number of summoning points available for this formation. The formation may then summon daemons up to the number of summoning points generated, with any points not used lost, up to the number of points left in the daemonic pool.",
          "Summoned units must be setup with their base completely within 5cm of any non-summoned unit in the summoning formation (i.e. You cannot place a chain of summoned units). If the summoning formation has the Transport ability, newly summoned units can be set up inside if there is space left. They cannot be placed in enemy zones of control or impassable terrain. Summoned units become part of the summoning formation for all rules purposes as long as they remain on the battlefield.",
-         "Summoned units count as part of the formation for all rules purposes as long as they remain on the battlefield. Summoned Lesser Daemons are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution.",
-         "Summoned units that are destroyed are removed from play and the summoning cost of each unit is lost from the players daemonic pool. Summoned units remain in play until the end phase of the turn in which they were summoned. After all formations have attempted to rally any summoned units are removed from play and the total of their summoning points returned to the relevant daemonic pool. Note – this may cause the formation to now have more blast markers than its number of units an will therefore become broken.",
+         "Summoned units count as part of the formation for all rules purposes as long as they remain on the battlefield. Summoned Lesser Daemons are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast Markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution.",
+         "Summoned units that are destroyed are removed from play and the summoning cost of each unit is lost from the players daemonic pool. Summoned units remain in play until the end phase of the turn in which they were summoned. After all formations have attempted to rally any summoned units are removed from play and the total of their summoning points returned to the relevant daemonic pool. Note – this may cause the formation to now have more Blast Markers than its number of units an will therefore become broken.",
          "When a formation becomes broken all summoned units are destroyed.",
          "When calculating victory points, the Lesser Daemon pool scores half points if the pool has less than or equal to half (round up) its original number of daemons remaining. The Lesser Daemon pool scores full points if the pool has less than or equal to a quarter (round up) its daemons remaining. Treat Greater Daemons as War Engines for the purpose of calculating victory points."
        ]
@@ -646,9 +646,9 @@
         {
        "title": "Chaos Gates",
        "description": [
-         "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn, but each time a specific Chaos Gate is used, all following formations attempting to enter the battlefield through that specific Chaos Gate the same turn suffers an accumulative -1 modifier to activate (i.e. 1st no penalty, 2nd -1, 3rd -2, etc).",
-         "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if its unit is destroyed.",
-         "Any formation that uses a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine. If a Chaos Gate is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
+         "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn, but each time a Chaos Gate is used, all following formations attempting to enter the battlefield through that specific Chaos Gate the same turn suffers an accumulative -1 modifier to activate (1st: No penalty, 2nd: -1, 3rd: -2, and so on).",
+         "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if the unit belongs to is destroyed.",
+         "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine. If a Chaos Gate is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
        ]
         },
 
@@ -664,7 +664,7 @@
        "title": "Sabotage",
        "description": [
          "Before rolling for the first turn and before teleports, for each formation of Headhunters on the table and not in the reserves, the Alpha Legion player may select an enemy formation that has been deployed on the board and roll a d6.",
-         "On 2-5, the enemy formation begins the game with a blast marker. On a roll of 6, it begins with d3 blast markers. On a roll of 1, the Headhunter formation recieves a blast marker. No formation may be subject to Sabotage more than once, even if the first attempt fails."
+         "On 2-5, the enemy formation begins the game with a Blast Marker. On a roll of 6, it begins with d3 Blast Markers. On a roll of 1, the Headhunter formation recieves a Blast Marker. No formation may be subject to Sabotage more than once, even if the first attempt fails."
      ]
       },
       {
@@ -758,7 +758,7 @@
       "title": "Necron",
       "description": [
         "Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet.",
-        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove blast markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 blast markers, or return 1 unit and remove 1 blast marker). Formations off board are restricted to using their regroup function to remove blast markers only."]
+        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."]
     },
     {
       "title": "Portal",
@@ -766,7 +766,7 @@
         "Necron Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Additionally, formations may leave the board by entering a portal, taking them into the reserves. Note that once in the reserves they can either re-enter play immediately via another portal, provided they have movement, or remain in the reserves.",
         "Necron Portals can only be used by war engines or armoured vehicles with walker, infantry, or light vehicles units. Each portal can be used only once per turn for either entering or exiting the battlefield, not for both. Thus a formation may enter one portal with part of their movement, and exit from a second, unused portal, continuing their movement from that portal.",
         "If, at the end of the movement, a unit is out of formation it is destroyed (see Formations). Example: if you moved a formation of four units through one portal and out another and two units were unable to make the full movement (i.e. get through the second portal), the Necron player would have to choose which units were to be destroyed, the two that moved through the portal or the two that didn’t.",
-        "Formations entering play via a broken portal receives a blast marker. If it enters 1 broken portal and leaves another broken portal it receives 2 blast markers."
+        "Formations entering play via a broken portal receives a Blast Marker. If it enters 1 broken portal and leaves another broken portal it receives 2 Blast Markers."
       ]
     },
     {
@@ -797,7 +797,7 @@
       "title": "Phase Out",
       "description": [
         "When a Necron formation becomes broken, it does not just fall back, but also vanishes from the battlefield without leaving any proof of its existence.",
-        "In the end phase of the turn, remove the formation from the board into the reserves, but keep it away from any destroyed units. The formation will roll to rally in the end phase, handling blast markers as per the core rules. It may re-enter by teleporting, or through a portal. If there are not enough portals to deal with all the off-table formations, then the formation must remain off the table until a portal is available for it to use. If the rally roll fails, the formation must remain in the reserves until it rallies. Note that with the exception of the C’tan, no Necron War Engines may phase out."
+        "In the end phase of the turn, remove the formation from the board into the reserves, but keep it away from any destroyed units. The formation will roll to rally in the end phase, handling Blast Markers as per the core rules. It may re-enter by teleporting, or through a portal. If there are not enough portals to deal with all the off-table formations, then the formation must remain off the table until a portal is available for it to use. If the rally roll fails, the formation must remain in the reserves until it rallies. Note that with the exception of the C’tan, no Necron War Engines may phase out."
       ]
     },
 
@@ -861,7 +861,7 @@
       "title": "Coordinated Fire",
       "description": [
         "Some units are noted as being able to call in coordinated fire. These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action.",
-        "Make a single Initiative roll for all formations, counting a single -1 modifier if any have blast markers. If the test is failed then the original formation (containing the unit calling for coordinated fire) receives a Blast marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an advance, double or sustained fire action.",
+        "Make a single Initiative roll for all formations, counting a single -1 modifier if any have Blast Markers. If the test is failed then the original formation (containing the unit calling for coordinated fire) receives a Blast Marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an advance, double or sustained fire action.",
         "There is no obligation for all formations to take the same action, and these actions may be resolved in any order, but they must all fire at the same target formation. The formations don’t have to stay within a given distance of each other and will complete their actions one after the other. Each formations action is declared and resolved (including testing to see if the target formation is broken) before moving on to the next Tau formation.",
         "Note that units with this ability confer the coordinated fire ability to any formation that they join. For example, a Pathfinder upgrade purchased to be added to a Fire Warrior Cadre, adds the coordinated fire ability to all units in the Cadre.",
         "There are no requirements with regards which action from sustain, advance or double a formation takes.",
@@ -910,14 +910,14 @@
       "title": "Synapse",
       "description": [
         "The following rules applies to Primary and Secondary Synapse Swarm formations only. Synapse creatures are any unit with the 'Synapse' special rule. A Synapse Swarm with no remaining Synapse creatures has an Initiative of 3+ and may neither capture nor contest objectives, including They Shall Not Pass.",
-        "A Synapse Swarm with remaining Synapse creatures can absorb other Synapse Swarm formations with no remaining Synapse creatures at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and blast markers of an absorbed formation become part of the formation. An absorbed formation is considered completely destroyed for the purposes of tie-break and the Break Their Spirit objective."
+        "A Synapse Swarm with remaining Synapse creatures can absorb other Synapse Swarm formations with no remaining Synapse creatures at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and Blast Markers of an absorbed formation become part of the formation. An absorbed formation is considered completely destroyed for the purposes of tie-break and the Break Their Spirit objective."
       ]
     },
     {
       "title": "Hive Mind Locus",
       "description": [
         "As long as the Tyranid army still contains a Dominatrix and/or an Dagon Overlord it may re-roll a single failed Initiative test (of any type) once per turn (unless all models with Hive Mind Locus are located offboard).",
-        "Hive Mind Locus also allows for the removal of an additional blast marker when rallying.",
+        "Hive Mind Locus also allows for the removal of an additional Blast Marker when rallying.",
         "Formations with at least one model with Hive Mind Locus ignores the -2 modifier for being broken when it is attempting to rally"
       ]
     },
