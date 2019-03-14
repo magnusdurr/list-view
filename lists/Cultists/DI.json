@@ -1,7 +1,7 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Daemonic Incursion",
-  "version": "2.4",
+  "version": "2.5",
   "release": "2019-03-13",
   "strategy": "Daemonic Incursion armies have a Strategy Rating of 0.",
   "Initiative": "All Daemon formations have an Initiative Rating of 1+. Mortal formations have an Initiative Rating of 2+.",
@@ -152,7 +152,7 @@
             },
             {
               "name": "Nurgle Plague Legion ",
-              "units": "Three Herald of Nurgle, five Lesser Daemon Pool points",
+              "units": "Three Herald of Nurgle on Palaquin, five Lesser Daemon Pool points",
               "extraUnits": [
                   "Great Unclean One",
                   "Blight Flies",
@@ -188,11 +188,11 @@
       "formations": [
           {
             "name": "Warp Altar",
-            "units": "One Warp Altar",
+            "units": "One Warp Altar and one Defiler",
             "extraUnits": [
                 "Defilers"
             ],
-            "points": 225
+            "points": 275
         },
           {
             "name": "Lost and the Damned",
@@ -253,8 +253,8 @@
       },
       {
         "name": "Defilers",
-        "description": "Add two Defilers of Chaos Undivided",
-        "points": "100 points"
+        "description": "Add up to three Defilers of Chaos Undivided",
+        "points": "50 points each"
     },
       {
         "name": "Chaos Spawn",

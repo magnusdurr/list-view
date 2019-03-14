@@ -42,6 +42,7 @@
         "specialRules": [
             "Damage Capacity 3",
             "Reinforced Armour",
+            "Invulnerable Save",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -58,7 +59,7 @@
         "ff": 4,
         "weapons": [
           "Barbed Claws",
-          "Pavane of Slaanesh"
+          "Cacophonic Chant"
         ],
         "specialRules": [
             "Daemonic Focus",
@@ -74,8 +75,7 @@
         "ff": 4,
         "weapons": [
           "Barbed Claws",
-          "Seeker Chariot",
-          "Pavane of Slaanesh"
+          "Cacophonic Chant"
         ],
         "specialRules": [
             "Mounted",
@@ -167,6 +167,7 @@
         "specialRules": [
             "Damage Capacity 4",
             "Reinforced Armour",
+            "Invulnerable Save",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -179,11 +180,10 @@
         "type": "INF",
         "speed": 15,
         "armour": 3,
-        "cc": 3,
+        "cc": 4,
         "ff": 4,
         "weapons": [
           "Rancid Visitations",
-          "Blade of Putrefaction",
           "Nurglings"
         ],
         "specialRules": [
@@ -196,17 +196,16 @@
         "type": "INF",
         "speed": 20,
         "armour": 3,
-        "cc": 3,
+        "cc": 4,
         "ff": 4,
         "weapons": [
           "Rancid Visitations",
-          "Blade of Putrefaction",
           "Blight Fly"
         ],
         "specialRules": [
             "Daemonic Focus",
             "Mounted",
-            "Infiltrators",
+            "Walker",
             "Jump Packs",
             "Invulnerable Save"
         ]
@@ -256,6 +255,7 @@
         "specialRules": [
             "Expendable",
             "Mounted",
+            "Walker",
             "Jump Packs",
             "Invulnerable Save"
         ]
@@ -299,6 +299,7 @@
         "specialRules": [
             "Damage Capacity 3",
             "Reinforced Armour",
+              "Invulnerable Save",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -426,6 +427,7 @@
         "specialRules": [
             "Damage Capacity 3",
             "Reinforced Armour",
+              "Invulnerable Save",
             "Inspiring",
             "Daemonic Focus",
             "Walker",
@@ -457,8 +459,7 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Violet Fire of Tzeench",
-          "Burning Chariot"
+          "Violet Fire of Tzeench"
         ],
         "specialRules": [
             "Jump Packs",
@@ -539,6 +540,7 @@
       ],
       "specialRules": [
           "Daemonic Focus",
+              "Invulnerable Save",
           "Infiltrators",
           "Walker"
       ]
