@@ -249,26 +249,6 @@
       ],
                 "notes": "Critical Hit Effect: The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
   },
-      {
-        "name": "Warp Altar",
-        "type": "WE",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Arcane Technology"
-        ],
-        "specialRules": [
-            "Damage Capacity 3",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Fearless",
-            "Daemonic Focus",
-            "Chaos Gate"
-        ],
-                  "notes": "Critical Hit Effect: The Warp Altar is destroyed. All Daemons within 5cm are destroyed, non-Daemons within 5cm suffers a MW hit on 6+."
-    },
         {
           "name": "Plague Zombies of Nurgle",
           "type": "INF",
