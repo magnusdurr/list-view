@@ -176,6 +176,27 @@
           ]
         },
         {
+          "name": "Warp Altar",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Arcane Technology"
+          ],
+          "specialRules": [
+              "Damage Capacity 3",
+              "Reinforced Armour",
+              "Invulnerable Save 5+",
+              "Fearless",
+              "Daemonic Focus",
+              "Chaos Gate",
+              "Daemon Engine (Chaos Undivided)"
+          ],
+                    "notes": "Critical Hit Effect: The Warp Altar is destroyed. All Daemons within 5cm are destroyed, non-Daemons within 5cm suffers a MW hit on 6+."
+      },
+        {
           "name": "Decimator",
           "type": "WE",
           "speed": 15,
@@ -660,7 +681,7 @@
       {
         "name": "Warp Palace",
         "type": "WE",
-        "speed": 20,
+        "speed": 25,
         "armour": 5,
         "cc": 5,
         "ff": 3,

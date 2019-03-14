@@ -480,7 +480,9 @@
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
            "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers  of Tzeench (2)",
            "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+
+           "When calculating Victory Points of the purposes of Tie Break, only the part of the Lesser Daemon Pool that was bought by itself is considered when checking if there is less than half remaining. Lesser Daemon Pool points that was bought as part of a formation are counted towards that formation's starting units."
        ]
      },
      {
@@ -634,17 +636,17 @@
        "title": "Warp Rift",
        "description": [
          "Warp Rifts are plotted exactly as planetfall. Both the turn in which the formation arrives and the landing location is plotted. The exceptions are that, because the formation is entering the battlefield from a Warp Rift and not from a space ship, they may be plotted to arrive in the same turn that an enemy spacecraft is present. The also do not have to announce which turn they arrive.",
-         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with spacecraft. First the action for the formation must be decided. If the decision is to Engage, the Commander ability may be used to make a combined assault, where other formations in the reserves count as being within 5cm (except other formations scheduled to arrive via Warp Rift).",
-         "After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
+         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with spacecraft.",
+         "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
          "If the activation is successful, place a Warp Rift token at the plotted coordinates. This may be moved 15cm in any direction, and then scatters 3D6 cm. If the Warp Rift token lands on terrain that is impassable or dangerous for it, or on top of any sort of unit (friend or foe), or in an enemy zone of control, then it is moved by the opposing player to the nearest area of clear ground. If this happens, also place a Blast Marker on the activating formation.",
-         "With the final location of the the Warp Rift determined, it attacks any enemy formations within range of the Warp Rift (15cm, AP6+/AT6+, Disrupt). Finally, the activated formation(s) carries out the order determined at the start of its action, and must move the formation(s) out of the Warp Rift, measuring all moves from the centre point of the token.",
+         "With the final location of the the Warp Rift determined, it attacks any enemy formations within range of the Warp Rift (15cm, AP6+/AT6+, Disrupt). Finally, the activated formation carries out the order determined at the start of its action, and must move the formation out of the Warp Rift, measuring all moves from the centre point of the token.",
          "After all units have exited the Warp Rift, the token is removed."
        ]
         },
         {
        "title": "Chaos Gates",
        "description": [
-         "Chaos Gates functions as permanent Warp Rift tokens. A Chaos Gate that is also an objective can be used by all Daemon Legion formations, and cannot be targeted or destroyed. A Chaos Gate mounted on a War Engine can only be used by formations that are entirely made up of Infantry type units. War Engine Chaos Gates are destroyed if its unit is destroyed, and any formation that uses a Chaos Gate on a broken unit recieves a Blast Marker. Measure all movement from the centre the token or the unit with a Chaos Gate. If a Chaos Gate is under an enemy unit or within an enemy zone of control, any formation that exits through it must Engage that / those formations, maximizing base contact as much as possible."
+         "Chaos Gates functions as permanent Warp Rift tokens. A Chaos Gate that is also an objective cannot be targeted or destroyed. Chaos Gates mounted on War Engines are destroyed if its unit is destroyed, and any formation that uses a Chaos Gate on a broken unit recieves a Blast Marker. Measure all movement from the centre the token or the unit with a Chaos Gate. If a Chaos Gate is under an enemy unit or within an enemy zone of control, any formation that exits through it must Engage that / those formations, maximizing base contact as much as possible."
        ]
         },
 

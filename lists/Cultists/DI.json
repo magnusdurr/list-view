@@ -20,7 +20,7 @@
       "DI Eternal Animosity"
     ],
   "usage": [
-    "The following army list allows you to field an army based on a Daemonic Incursion, aided and abetted by mortal Chaos Cultist allies."
+    "The following army list allows you to field an army based on a Daemonic Incursion, aided and abetted by the Lost and the Damned."
   ],
   "units": [
     {
@@ -67,13 +67,22 @@
         "Aspiring Champion of Chaos Undivided",
         "Cultists",
         "Mutants",
-        "Warp Altar",
         "Chaos Spawn",
         "Land Transporter"
     ],
     "unitRules": [
     ]
-    }
+},
+{
+    "from": "darkmechanicus.json",
+    "units": [
+        "Defiler",
+        "Warp Altar"
+    ],
+    "unitRules": [
+        "Daemon Engine (x)"
+    ]
+}
   ],
   "sections": [
           {
@@ -96,7 +105,7 @@
         {
           "name": "Exalted Greater Daemon of Slaanesh",
           "units": "One Exalted Keeper of Secrets ",
-          "upgrades": [
+          "extraUnits": [
             "Soul Grinder"
           ],
           "points": 275
@@ -104,7 +113,7 @@
           {
             "name": "Exalted Greater Daemon of Nurgle",
             "units": "One Exalted Great Unclean One",
-            "upgrades": [
+            "extraUnits": [
               "Soul Grinder"
             ],
             "points": 275
@@ -112,7 +121,7 @@
         {
           "name": "Exalted Greater Daemon of Khorne",
           "units": "One Exalted Bloodthirster",
-          "upgrades": [
+          "extraUnits": [
             "Soul Grinder"
           ],
           "points": 275
@@ -120,7 +129,7 @@
       {
         "name": "Exalted Greater Daemon of Tzeench",
         "units": "One Exalted Lord of Change",
-        "upgrades": [
+        "extraUnits": [
           "Soul Grinder"
         ],
         "points": 275
@@ -134,7 +143,7 @@
           {
             "name": "Slaneesh Legion of Excess",
             "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
-            "upgrades": [
+            "extraUnits": [
                 "Keeper of Secrets",
                 "Herald Mounts",
                 "Soul Grinder"
@@ -144,7 +153,7 @@
             {
               "name": "Nurgle Plague Legion ",
               "units": "Three Herald of Nurgle, five Lesser Daemon Pool points",
-              "upgrades": [
+              "extraUnits": [
                   "Great Unclean One",
                   "Herald Mounts",
                   "Soul Grinder"
@@ -154,7 +163,7 @@
               {
                 "name": "Khorne Blood Legion",
                 "units": "Three Herald of Khorne on Juggernauts and/or Skull Cannons, five Lesser Daemon Pool points",
-                "upgrades": [
+                "extraUnits": [
                     "Bloodthirster",
                     "Soul Grinder"
                 ],
@@ -163,7 +172,7 @@
                 {
                   "name": "Tzeench Scintillating Legion",
                   "units": "Three Herald of Tzeench, five Lesser Daemon Pool points",
-                  "upgrades": [
+                  "extraUnits": [
                       "Lord of Change",
                       "Herald Mounts",
                       "Soul Grinder"
@@ -173,24 +182,25 @@
               ]
             },
             {
-      "name": "Mortals",
+      "name": "Altars and Mortals",
       "description": "Up to a fourth of the points available may be spent on these formations",
       "formations": [
           {
-            "name": "Warp Altar of Chaos Undivided",
+            "name": "Warp Altar",
             "units": "One Warp Altar",
             "extraUnits": [
+                "Defilers"
             ],
-            "points": 200
+            "points": 250
         },
           {
             "name": "Lost and the Damned",
-            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, seven Chaos Cultists and/or Mutants",
+            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, one Chaos Icon and seven Chaos Cultists and/or Mutants",
             "extraUnits": [
               "Chaos Spawn",
               "Land Transporters"
             ],
-            "points": 175
+            "points": 200
         }
       ]
   },
@@ -240,6 +250,11 @@
         "description": "Replace three Heralds with Mounted Heralds",
         "points": "50 points"
       },
+      {
+        "name": "Defilers",
+        "description": "Add two Defilers of Chaos Undivided",
+        "points": "100 points"
+    },
       {
         "name": "Chaos Spawn",
         "description": "Replace up to two Cultists/Mutants with Chaos Spawn",
