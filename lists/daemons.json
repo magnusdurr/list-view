@@ -105,9 +105,9 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 3,
+        "cc": 4,
         "weapons": [
-          "Claws"
+          "Piercing Claws"
         ],
         "specialRules": [
             "Expendable",
@@ -118,7 +118,7 @@
       {
         "name": "Seekers of Slaanesh",
         "type": "INF",
-        "speed": 20,
+        "speed": 40,
         "armour": 4,
         "cc": 2,
         "weapons": [
@@ -126,7 +126,6 @@
         ],
         "specialRules": [
             "Expendable",
-            "Infiltrators",
             "Mounted",
             "Walker",
             "Invulnerable Save"
@@ -363,7 +362,7 @@
       {
         "name": "Fleshhounds of Khorne",
         "type": "INF",
-        "speed": 15,
+        "speed": 35,
         "armour": 4,
         "cc": 2,
         "weapons": [
@@ -371,7 +370,6 @@
         ],
         "specialRules": [
             "Expendable",
-            "Infiltrators",
             "Invulnerable Save"
         ]
       },
