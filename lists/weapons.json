@@ -6763,9 +6763,10 @@
       "name": "Shieldbreaker Missiles",
         "modes": [
           {
-            "firepower": "AT3+",
-            "range": 120,
+            "firepower": "AT4+",
+            "range": 75,
             "specialRules": [
+                "Shield Piercer",
               "SS"
           ]
           }
