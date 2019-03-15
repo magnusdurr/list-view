@@ -1954,7 +1954,7 @@
       ]
     },
     {
-      "name": "Cacophonic Chant",
+      "name": "Cacophonic Blast",
         "modes": [
           {
             "firepower": "3x AP6+/AT6+",
@@ -1966,7 +1966,7 @@
       ]
     },
     {
-      "name": "Cacophonic Chant",
+      "name": "Cacophonic Blast",
       "modes": [
         {
           "firepower": "2x AP5+/AT6",
@@ -5380,11 +5380,12 @@
       ]
     },
     {
-      "name": "Overeager Affection",
+      "name": "Slobbering Affection",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+                "EA(+1)"
           ]
           }
       ]
