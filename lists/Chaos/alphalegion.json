@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Alpha Legion",
-  "version": "1.1",
-  "release": "2019-03-12",
+  "version": "1.2",
+  "release": "2019-03-16",
   "strategy": "Alpha Legion armies have a Strategy Rating of 4.",
   "Initiative": "Alpha Legion Detachments have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -24,7 +24,7 @@
           "Alpha Legion Lord",
           "Alpha Legion Sorcerer",
           "Alpha Legion Marines",
-          "Alpha Legion Havocs",
+          "Alpha Legion Flakk Havocs",
           "Headhunters",
           "Alpha Legion Destroyers",
           "Lernaean Terminators",
@@ -77,7 +77,7 @@
           "name": "Alpha Legion Marines",
           "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, six Alpha Legion Marines plus transport",
           "upgrades": [
-              "Havocs",
+              "Flakk Havocs",
               "Land Raiders",
               "Dreadnoughts",
               "Predators"
@@ -210,7 +210,7 @@
         "name": "Havocs",
         "options": [
           {
-            "description": "Replace three Alpha Legion Marines with Alpha Legion Havocs",
+            "description": "Replace two Alpha Legion Marines with Alpha Legion Flakk Havocs",
             "points": "50 points"
           }
         ]
