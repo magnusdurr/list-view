@@ -4540,6 +4540,27 @@
       ]
     },
     {
+      "name": "Knight Psychic Lance",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 15,
+            "specialRules": [
+              "IC",
+              "TK(1)"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Knight Chainsword",
         "modes": [
           {
@@ -8978,7 +8999,7 @@
       ]
     },
     {
-      "name": "Wraith Knight Cannons",
+      "name": "Wraithknight Cannons",
         "modes": [
           {
             "firepower": "MW4+",
