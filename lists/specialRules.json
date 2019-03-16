@@ -922,14 +922,14 @@
     {
       "title": "Synapse",
       "description": [
-        "The following rules applies to Primary and Secondary Synapse Swarm formations only. Synapse creatures are any unit with the 'Synapse' special rule. A Synapse Swarm with no remaining Synapse creatures has an Initiative of 3+ and may neither capture nor contest objectives, including They Shall Not Pass.",
+        "The following rules applies to Primary and Secondary Synapse Swarm formations only. Synapse creatures are any unit with the 'Synapse' special rule. A Synapse Swarm with no remaining Synapse creatures has an Initiative Rating of 3+ and may neither capture nor contest objectives, including They Shall Not Pass.",
         "A Synapse Swarm with remaining Synapse creatures can absorb other Synapse Swarm formations with no remaining Synapse creatures at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and Blast Markers of an absorbed formation become part of the formation. An absorbed formation is considered completely destroyed for the purposes of tie-break and the Break Their Spirit objective."
       ]
     },
     {
       "title": "Hive Mind Locus",
       "description": [
-        "As long as the Tyranid army still contains a Dominatrix and/or an Dagon Overlord it may re-roll a single failed Initiative test (of any type) once per turn (unless all models with Hive Mind Locus are located offboard).",
+        "As long as the Tyranid army still contains a unit with Hive Mind Locus it may re-roll a single failed Initiative test (of any type) once per turn (unless all models with Hive Mind Locus are located offboard).",
         "Hive Mind Locus also allows for the removal of an additional Blast Marker when rallying.",
         "Formations with at least one model with Hive Mind Locus ignores the -2 modifier for being broken when it is attempting to rally"
       ]
@@ -960,10 +960,10 @@
     },
 
     {
-      "title": "Swarming (x)",
+      "title": "Swarm (x)",
       "description": [
-        "In the End Phase after all formations have rallied, 'Swarming' takes place.",
-        "Each unbroken formation with Swarming adds up the formation's combined total of Swarming points. For each Swarming point, one unit with the 'Gaunts' rule that has been lost from the army during the battle may be added to the formation. A formation cannot add types of 'Gaunts' that they could not ordinarily have.",
+        "After a formation has performed the 'Marshal' action, or in End Phase after all formations have rallied, formations that are both unbroken and have Synapse creatures remaining may 'Swarm'.",
+        "Formations with Swarm adds up the formation's combined total of Swarm points. For each Swarm point, one unit with the 'Gaunts' rule that has been lost from the army during the battle may be added to the formation. A formation can only add types of 'Gaunts' from the types of Instinctive Swarms that the formation has access to.",
         "All units returned to play in this manner must be placed within 5cm of a unit from the formation that was there prior to Swarming. These units may not be placed in enemy zones of control or in impassable terrain. Not all of the Swarm points available need to be used, but can't be saved for future turns."
       ]
     },
