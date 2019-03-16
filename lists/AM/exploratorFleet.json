@@ -7,12 +7,7 @@
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-          "Automaton",
-          "Bravery",
-          "Stubborn",
-          "Ion Shield (X)",
-          "Heavy Armoured Vehicle (H-AV)"
-
+          "Automaton"
   ],
   "usage": [
     "The following army list allows you to field an army based on a Explorator Fleet of the Adeptus Mechancius"
@@ -56,7 +51,11 @@
         "Questoris Knight-Crusader"
       ],
         "unitRules": [
-
+            "Bravery",
+            "Stubborn",
+            "Ion Shield (X)",
+            "Shield Piercer",
+            "Heavy Armoured Vehicle (H-AV)"
       ]
     }
 

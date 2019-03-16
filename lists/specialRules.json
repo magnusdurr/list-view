@@ -363,8 +363,8 @@
     },
     {
       "title": "Independent Twins",
-      "description": ["Allows a Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Revenant Titan is destroyed, the other Revenant Twin receives a Blast Marker.",
-                      "Additionally, Revenant Twins may use the commander ability but only with its Revenant Twin and this ability is increased to 25cm instead of the normal 5cm."
+      "description": ["Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Revenant Titan is destroyed, the other Revenant Twin receives a Blast Marker.",
+                      "Additionally, Revenant Twins may use the Commander ability but only with its Revenant Twin. The Commander ability is increased to 25cm instead of the normal 5cm."
       ]
     },
 
@@ -610,9 +610,9 @@
           "description": [
             "During the Strategy Phase the Daemon Incursion player rolls 2d6 and picks the highest. In addition add the dice together and consult the following table:",
             "(2-3) *The Wind Recedes* All players that can summon Daemons lose 1D3 Lesser Daemons Pool points. Daemon Incursion players lose an additional D3. If the pool is empty nothing happens.",
-            "(4-5) *Chaotic Ebb* All Daemon units (friend and foe) loses their Invulnerable Save ability for the rest of the turn.",
+            "(4-5) *Chaotic Ebb* All Daemon units (friend and foe) loses their Invulnerable Save for the rest of the turn.",
             "(6-8) *Eye of the Storm* Nothing happens.",
-            "(9-10) *Chaotic Surge* All Daemon units (friend and foe) may re-roll failed Invulnerable Saves for the rest of the turn",
+            "(9-10) *Chaotic Surge* All Daemon units (friend and foe) improves their Invulnerable Save to 5+ for the rest of the turn",
             "(11-12) *Summoned From Beyond* All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3."
           ]
         },
@@ -652,7 +652,7 @@
         {
        "title": "Chaos Gates",
        "description": [
-         "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn, but each time a Chaos Gate is used, all following formations attempting to enter the battlefield through that specific Chaos Gate during the same turn suffers an accumulative -1 modifier to activate (1st: No penalty, 2nd: -1, 3rd: -2, and so on).",
+         "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn.",
          "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if the unit belongs to is destroyed.",
          "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine. If a Chaos Gate is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
        ]

@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Daemonic Incursion",
-  "version": "2.5",
-  "release": "2019-03-13",
+  "version": "2.6",
+  "release": "2019-03-15",
   "strategy": "Daemonic Incursion armies have a Strategy Rating of 0.",
-  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Daemon Engine and Mortal formations have an Initiative Rating of 2+.",
+  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Dark Mechanicus and Chaos Cultist formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -31,7 +31,7 @@
         "Daemonettes of Slaanesh",
         "Fiends of Slaanesh",
         "Seekers of Slaanesh",
-        "Herald of Nurgle on Palaquin",
+        "Herald of Nurgle on Palanquin",
         "Herald of Nurgle on Blight Fly",
         "Plaguebearers of Nurgle",
         "Beasts of Nurgle",
@@ -108,7 +108,7 @@
           "extraUnits": [
             "Soul Grinder"
           ],
-          "points": 275
+          "points": 300
       },
           {
             "name": "Exalted Greater Daemon of Nurgle",
@@ -116,7 +116,7 @@
             "extraUnits": [
               "Soul Grinder"
             ],
-            "points": 275
+            "points": 300
         },
         {
           "name": "Exalted Greater Daemon of Khorne",
@@ -124,7 +124,7 @@
           "extraUnits": [
             "Soul Grinder"
           ],
-          "points": 275
+          "points": 300
       },
       {
         "name": "Exalted Greater Daemon of Tzeench",
@@ -132,7 +132,7 @@
         "extraUnits": [
           "Soul Grinder"
         ],
-        "points": 275
+        "points": 300
       }
       ]
     },
@@ -144,41 +144,41 @@
             "name": "Slaneesh Legion of Excess",
             "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
             "extraUnits": [
-                "Replace three Herald of Slaanesh with a Keeper of Secrets: 75 points",
+                "Replace three Herald of Slaanesh with a Keeper of Secrets: 100 points",
                 "Replace three Herald of Slaanesh with three Herald of Slaanesh on Seeker Chariot: Free",
                 "Soul Grinder"
             ],
-            "points": 225
+            "points": 200
             },
             {
               "name": "Nurgle Plague Legion ",
-              "units": "Three Herald of Nurgle on Palaquin, five Lesser Daemon Pool points",
+              "units": "Three Herald of Nurgle on Palanquin, five Lesser Daemon Pool points",
               "extraUnits": [
-                  "Replace three Herald of Nurgle with a Great Unclean One: 75 points",
-                  "Replace three Herald of Nurgle on Palaquin with three Herald of Nurgle on Blight Fly: Free",
+                  "Replace three Herald of Nurgle on Palanquin with a Great Unclean One: 100 points",
+                  "Replace three Herald of Nurgle on Palanquin with three Herald of Nurgle on Blight Fly: Free",
                   "Soul Grinder"
               ],
-              "points": 225
+              "points": 200
               },
               {
                 "name": "Khorne Blood Legion",
                 "units": "Three Herald of Khorne on Juggernauts, five Lesser Daemon Pool points",
                 "extraUnits": [
-                    "Replace three Herald of Khorne with a Bloodthirster: 75 points",
+                    "Replace three Herald of Khorne on Juggernaut with a Bloodthirster: 100 points",
                     "Replace three Herald of Khorne on Juggernaut with three Herald of Khorne on Skull Cannon: Free",
                     "Soul Grinder"
                 ],
-                "points": 225
+                "points": 200
                 },
                 {
                   "name": "Tzeench Scintillating Legion",
                   "units": "Three Herald of Tzeench, five Lesser Daemon Pool points",
                   "extraUnits": [
-                      "Replace three Herald of Tzeench with a Lord of Change: 75 points",
+                      "Replace three Herald of Tzeench with a Lord of Change: 100 points",
                       "Replace three Herald of Tzeench with three Herald of Tzeench on Burning Chariot: Free",
                       "Soul Grinder"
                   ],
-                  "points": 225
+                  "points": 200
               }
               ]
             },
@@ -188,11 +188,11 @@
       "formations": [
           {
             "name": "Warp Altar",
-            "units": "One Warp Altar and one Defiler",
+            "units": "One Warp Altar and two Defilers",
             "extraUnits": [
                 "Defilers"
             ],
-            "points": 275
+            "points": 325
         },
           {
             "name": "Lost and the Damned",
@@ -228,7 +228,7 @@
       },
       {
         "name": "Defilers",
-        "description": "Add up to three Defilers of Chaos Undivided",
+        "description": "Add up to two Defiler of Chaos Undivided",
         "points": "50 points each"
     },
       {

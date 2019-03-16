@@ -1954,7 +1954,7 @@
       ]
     },
     {
-      "name": "Cacophonic Chant",
+      "name": "Cacophonic Blast",
         "modes": [
           {
             "firepower": "3x AP6+/AT6+",
@@ -1966,7 +1966,7 @@
       ]
     },
     {
-      "name": "Cacophonic Chant",
+      "name": "Cacophonic Blast",
       "modes": [
         {
           "firepower": "2x AP5+/AT6",
@@ -3178,6 +3178,18 @@
         {
           "firepower": "2x AP6+/AT6+/AA6+",
             "range": 30,
+          "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flakk Missile Launcher",
+      "modes": [
+        {
+          "firepower": "AP5+/AA6+",
+            "range": 45,
           "specialRules": [
 
           ]
@@ -5381,11 +5393,12 @@
       ]
     },
     {
-      "name": "Overeager Affection",
+      "name": "Slobbering Affection",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+                "EA(+1)"
           ]
           }
       ]
@@ -6751,9 +6764,10 @@
       "name": "Shieldbreaker Missiles",
         "modes": [
           {
-            "firepower": "AT3+",
-            "range": 120,
+            "firepower": "AT4+",
+            "range": 75,
             "specialRules": [
+                "Shield Piercer",
               "SS"
           ]
           }

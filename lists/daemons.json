@@ -59,7 +59,7 @@
         "ff": 4,
         "weapons": [
           "Barbed Claws",
-          "Cacophonic Chant"
+          "Cacophonic Blast"
         ],
         "specialRules": [
             "Daemonic Focus",
@@ -75,11 +75,9 @@
         "ff": 4,
         "weapons": [
           "Barbed Claws",
-          "Cacophonic Chant"
+          "Cacophonic Blast"
         ],
         "specialRules": [
-            "Mounted",
-            "Walker",
             "Daemonic Focus",
             "Invulnerable Save"
             ]
@@ -101,7 +99,7 @@
       {
         "name": "Fiends of Slaanesh",
         "type": "INF",
-        "speed": 15,
+        "speed": 30,
         "armour": 4,
         "cc": 4,
         "weapons": [
@@ -109,7 +107,6 @@
         ],
         "specialRules": [
             "Expendable",
-            "Infiltrators",
             "Invulnerable Save"
             ]
       },
@@ -176,7 +173,7 @@
         "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
       },
       {
-        "name": "Herald of Nurgle on Palaquin",
+        "name": "Herald of Nurgle on Palanquin",
         "type": "INF",
         "speed": 15,
         "armour": 3,
@@ -194,7 +191,7 @@
       {
         "name": "Herald of Nurgle on Blight Fly",
         "type": "INF",
-        "speed": 20,
+        "speed": 25,
         "armour": 3,
         "cc": 4,
         "ff": 4,
@@ -205,7 +202,6 @@
         "specialRules": [
             "Daemonic Focus",
             "Mounted",
-            "Walker",
             "Jump Packs",
             "Invulnerable Save"
         ]
@@ -229,22 +225,21 @@
       {
         "name": "Beasts of Nurgle",
         "type": "INF",
-        "speed": 15,
+        "speed": 20,
         "armour": 3,
         "cc": 4,
         "weapons": [
-          "Overeager Affection"
+          "Slobbering Affection"
         ],
         "specialRules": [
             "Expendable",
-            "Infiltrators",
             "Invulnerable Save"
         ]
       },
       {
         "name": "Plague Drones of Nurgle",
         "type": "INF",
-        "speed": 20,
+        "speed": 25,
         "armour": 3,
         "cc": 4,
         "ff": 5,
@@ -255,7 +250,6 @@
         "specialRules": [
             "Expendable",
             "Mounted",
-            "Walker",
             "Jump Packs",
             "Invulnerable Save"
         ]
@@ -319,8 +313,6 @@
           "Skull Cannon"
         ],
         "specialRules": [
-            "Mounted",
-            "Walker",
             "Daemonic Focus",
             "Invulnerable Save"
         ]
@@ -328,7 +320,7 @@
       {
         "name": "Herald of Khorne on Juggernaut",
         "type": "INF",
-        "speed": 15,
+        "speed": 25,
         "armour": 3,
         "cc": 3,
         "weapons": [
@@ -336,7 +328,6 @@
           "Juggernaut"
         ],
         "specialRules": [
-            "Infiltrators",
             "Mounted",
             "Walker",
             "Daemonic Focus",
@@ -360,7 +351,7 @@
       {
         "name": "Fleshhounds of Khorne",
         "type": "INF",
-        "speed": 35,
+        "speed": 30,
         "armour": 4,
         "cc": 2,
         "weapons": [
@@ -374,9 +365,9 @@
       {
         "name": "Bloodcrushers of Khorne",
         "type": "INF",
-        "speed": 15,
+        "speed": 25,
         "armour": 3,
-        "cc": 4,
+        "cc": 3,
         "weapons": [
           "Juggernaut"
         ],
@@ -384,7 +375,6 @@
             "Expendable",
             "Mounted",
             "Walker",
-            "Infiltrators",
             "Invulnerable Save"
         ]
       },
@@ -515,7 +505,7 @@
       {
         "name": "Daemonic Beasts of Chaos Undivided",
         "type": "INF",
-        "speed": 15,
+        "speed": 30,
         "armour": 4,
         "cc": 4,
         "weapons": [
@@ -523,7 +513,6 @@
         ],
         "specialRules": [
             "Expendable",
-            "Infiltrators",
             "Invulnerable Save"
         ]
     },
