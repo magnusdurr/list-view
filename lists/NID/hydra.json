@@ -1,6 +1,6 @@
 {
   "fraction": "Tyranid",
-  "army": "Hive Fleet Gorgon",
+  "army": "Hive Fleet Hydra",
   "version": "1.0",
   "release": "",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
@@ -14,11 +14,11 @@
                   "Gaunts",
                   "Swarm (x)",
                   "Tunnelers",
-                  "Vanguard Organisms"
+                  "Hydra Vanguard Organisms"
           ],
 
   "usage": [
-    "The following army list allows you to field an army based on the Tyranid Hive Fleet Dagon."
+    "The following army list allows you to field an army based on the Tyranid Hive Fleet Hydra."
           ],
   "units": [
       {
@@ -49,7 +49,7 @@
           "Scythed Hierodule Prime",
           "Scythed Hierodule",
           "Hierophant",
-          "Gorgon Dominatrix",
+          "Hydra Dominatrix",
           "Hydraphant"
         ],
           "unitRules": [
@@ -74,7 +74,7 @@
     "formations": [
     {
           "name": "0-1 Nexus Swarm",
-          "units": "One Gorgon Dominatrix",
+          "units": "One Hydra Dominatrix",
           "extraUnits": [
             "Two to four Instinctive Swarms (except Mycetic Spore)"
           ],
@@ -110,7 +110,7 @@
             "name": "Spawn Swarm",
             "units": "One Tervigon Prime",
             "extraUnits": [
-              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawners"
+              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner"
             ],
             "points": 150
           },
@@ -118,7 +118,7 @@
           "name": "Attack Swarm",
           "units": "One Hierodule Prime (Barbed or Scythed)",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawners or Hierodule"
+            "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner or Hierodule"
           ],
           "points": 150
         },
@@ -175,9 +175,9 @@
           "points": 75
         },
         {
-          "name": "Spawners",
-          "units": "Two Tervigons",
-          "points": 125
+          "name": "Spawner",
+          "units": "One Tervigon",
+          "points": 75
         },
         {
           "name": "Hierodule",
