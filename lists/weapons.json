@@ -1611,6 +1611,26 @@
       ]
     },
     {
+      "name": "Bio-Energy Pulse",
+        "modes": [
+            {
+              "firepower": "3BP",
+              "range": 60,
+              "specialRules": [
+                  "MW"
+            ]
+        },
+            {
+              "firepower": "AA5+",
+              "range": 30,
+              "join": "and",
+              "specialRules": [
+                "MW"
+              ]
+            }
+      ]
+  },
+    {
       "name": "Bio-Plasma",
         "modes": [
           {
@@ -3325,6 +3345,28 @@
             "range": 60,
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Giant Gaunt Pouch",
+        "modes": [
+          {
+            "firepower": "n/a",
+            "specialRules": [
+                "Spec"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Gaunt Pouch",
+        "modes": [
+          {
+            "firepower": "n/a",
+            "specialRules": [
+                "Spec"
           ]
           }
       ]

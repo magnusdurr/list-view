@@ -7,7 +7,13 @@
         "description": [
           "Tyranid Armoured Vehicles and War Engines units do not take dangerous terrain tests. Tyranid Light Vehicles move through terrain and receive cover as if they were infantry. Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally."
         ]
-      }
+    },
+    {
+      "title": "Heavy Armoured Vehicle (H-AV)",
+      "description": [
+        "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+      ]
+    }
     ],
     "unit": [
       {
@@ -202,6 +208,29 @@
         "notes": "Gains Speed 30cm, Jump Pack and Armour 4+ if upgraded to Shrike (Wings)"
       },
       {
+      "name": "Swarmlord",
+      "type": "AV",
+      "speed": "20cm/30cm",
+      "armour": "4+/5",
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Venom Cannon",
+        "Large Claws"
+      ],
+      "specialRules": [
+        "Hive Mind Locus",
+        "Inspring",
+        "Synapse",
+        "Fearless",
+        "Reinforced Armour",
+        "Commander",
+        "Leader",
+        "Jump Packs (Shrike)"
+    ],
+            "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
+      },
+      {
       "name": "Hive Tyrant",
       "type": "AV",
       "speed": "20cm/30cm",
@@ -314,6 +343,42 @@
       ]
       },
       {
+      "name": "Tervigon Prime",
+      "type": "H-AV",
+      "speed": 25,
+      "armour": 4,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Gaunt Pouch",
+        "Frag Spines",
+        "Large Claws"
+      ],
+      "specialRules": [
+         "Synapse",
+         "Fearless",
+        "Reinforced Armour",
+        "Swarming (2)"
+      ]
+      },
+      {
+      "name": "Tervigon",
+      "type": "H-AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Gaunt Pouch",
+        "Frag Spines",
+        "Large Claws"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Swarming (2)"
+      ]
+      },
+      {
       "name": "Trygon Prime",
       "type": "WE",
       "speed": 25,
@@ -324,13 +389,13 @@
         "Large Claws"
       ],
       "specialRules": [
-        "Damage Capacity: 2",
+          "Damage Capacity: 2",
         "Synapse",
         "Fearless",
         "Reinforced Armour",
         "Tunneler"
-      ],
-      "notes": "¤Critical Hit Effect¤: The Trygon Prime is destoryed."
+    ],
+        "notes": "¤Critical Hit Effect¤: The Trygon Prime is destroyed."
     },
     {
     "name": "Trygon",
@@ -343,11 +408,11 @@
       "Large Claws"
     ],
     "specialRules": [
-      "Damage Capacity: 2",
+          "Damage Capacity: 2",
       "Reinforced Armour",
       "Tunneler"
-    ],
-    "notes": "¤Critical Hit Effect¤: The Trygon is destoryed."
+  ],
+          "notes": "¤Critical Hit Effect¤: The Trygon is destroyed."
     },
     {
     "name": "Harridan",
@@ -368,7 +433,29 @@
       "Reinforced Armour",
       "Transport 4 (Gargoyles)"
     ],
-    "notes": "¤Critical Hit Effect¤: The Harridan is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Harridan is destroyed."
+    },
+    {
+    "name": "Swarm Harridan",
+    "type": "WE",
+    "speed": 35,
+    "armour": 5,
+    "cc": 5,
+    "ff": 6,
+    "weapons": [
+      "Gaunt Pouch",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Damage Capacity: 3",
+      "Synapse",
+      "Fearless",
+      "Skimmer",
+      "Reinforced Armour",
+      "Swarming (2)",
+      "Transport 4 (Gargoyles)"
+    ],
+    "notes": "¤Critical Hit Effect¤: The Harridan is destroyed."
     },
     {
     "name": "Barbed Hierodule Prime",
@@ -388,7 +475,7 @@
       "Reinforced Armour",
       "Invulnerable Save"
     ],
-    "notes": "¤Critical Hit Effect¤: The Hierodule Prime is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Hierodule Prime is destroyed."
     },
     {
     "name": "Barbed Hierodule",
@@ -406,7 +493,7 @@
       "Reinforced Armour"
 
     ],
-    "notes": "¤Critical Hit Effect¤: The Hierodule is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Hierodule is destroyed."
 
     },
     {
@@ -428,7 +515,7 @@
       "Invulnerable Save"
 
     ],
-    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule Prime is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule Prime is destroyed."
 
 
     },
@@ -449,7 +536,7 @@
 
 
     ],
-    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule is destoryed."
+    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule is destroyed."
 
 
     },
@@ -497,7 +584,7 @@
 
     },
     {
-    "name": "Dominatrix",
+    "name": "Dagon Dominatrix",
     "type": "WE",
     "speed": 25,
     "armour": 5,
@@ -517,6 +604,36 @@
       "Leader",
       "Commander",
       "Inspiring",
+      "Reinforced Armour",
+      "Thick Rear Armor",
+      "Invulnerable Save (5+)",
+      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+    ],
+    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
+
+
+    },
+    {
+    "name": "Gorgon Dominatrix",
+    "type": "WE",
+    "speed": 25,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Giant Gaunt Pouch",
+      "Bio-Energy Pulse",
+      "Monstrous Claws"
+    ],
+    "specialRules": [
+      "Damage Capacity: 6",
+      "Hive Mind Locus",
+      "Synapse",
+      "Fearless",
+      "Leader",
+      "Commander",
+      "Inspiring",
+      "Swarming (4)",
       "Reinforced Armour",
       "Thick Rear Armor",
       "Invulnerable Save (5+)",
