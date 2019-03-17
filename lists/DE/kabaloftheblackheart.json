@@ -1,9 +1,9 @@
 {
   "fraction": "Dark Eldar",
-  "army": "Kabal of the Bladed Lotus",
-  "version": "1.11",
-  "release": "2019-02-22",
-  "strategy": "Kabal of the Bladed Lotus armies have a Strategy Rating of 4.",
+  "army": "Kabal of the Black Heart",
+  "version": "1.2",
+  "release": "2019-03-17",
+  "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
   "Initiative": "Dark Eldar Kabal, Tormentor, Torture Titans, and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
 
   "specialRules": [
@@ -66,7 +66,7 @@
 ],
 "sections": [
     {
-      "name": "Kabal of the Bladed Lotus Special",
+      "name": "Kabal of the Black Heart Special",
       "formations": [
         {
           "name": "0-1 Wraithgate",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "name": "Bladed Lotus Kabals",
+      "name": "Black Heart Kabals",
       "formations": [
         {
           "name": "Kabal Coterie",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "name": "Bladed Lotus Partisans",
+      "name": "Black Heart Partisans",
       "description": "Up to two for each Bladed Lotus Kabals taken",
       "formations": [
         {
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "name": "Bladed Lotus Aircraft, Spacecraft and Titans",
+      "name": "Black Heart Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -245,7 +245,7 @@
     }
   ],
   "upgrades": {
-    "title": "Bladed Lotus Upgrades",
+    "title": "Black Heart Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
