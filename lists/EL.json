@@ -19,6 +19,24 @@
       ]
     },
     {
+      "name": "Phoenix Lord",
+      "type": "INF",
+      "speed": 35,
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+
+      ],
+      "specialRules": [
+        "Jump Packs",
+        "Teleport",
+        "Supreme Commander",
+        "Invulnerable Save",
+        "Inspiring"
+      ]
+    },
+    {
       "name": "Eldar Autarch",
       "type": "CH",
       "weapons": [
@@ -387,6 +405,21 @@
       ]
     },
     {
+      "name": "Shadow Spectres",
+      "type": "INF",
+      "speed": 35,
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Prism Rifles"
+      ],
+      "specialRules": [
+        "Teleport",
+        "Jump packs"
+      ]
+    },
+    {
       "name": "Warp Spiders",
       "type": "INF",
       "speed": 15,
@@ -585,6 +618,20 @@
       ]
     },
     {
+      "name": "Warp Hunter",
+      "type": "AV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "D-Cannon"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
       "name": "Night Spinner",
       "type": "AV",
       "speed": 35,
@@ -610,6 +657,21 @@
       ],
       "specialRules": [
         "Skimmer"
+      ]
+    },
+    {
+      "name": "Skathach Wraithknight",
+      "type": "H-AV",
+      "speed": 30,
+      "cc": 4,
+      "ff": 3,
+      "weapons": [
+        "Deathshroud Cannon|2"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Walker"
       ]
     },
     {
@@ -673,6 +735,23 @@
         "Reinforced Armour",
         "Fearless",
         "Walker"
+      ]
+    },
+    {
+      "name": "Lynx",
+      "type": "H-AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Pulsar",
+        "Shuriken Cannon"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Skimmer"
       ]
     },
     {
@@ -824,7 +903,7 @@
       "cc": 3,
       "ff": 3,
       "weapons": [
-        "Distortion Cannon|1-2|",
+        "Titan D-Cannon|1-2|",
         "Ashuna-Valcry'le|0-1|",
         "Suncannon"
       ],
@@ -846,7 +925,7 @@
       "cc": 3,
       "ff": 3,
       "weapons": [
-        "Distortion Cannon|0-1|",
+        "Titan D-Cannon|0-1|",
         "Dire Pulsar|1-2|",
         "Voidstorm Missile Launcher"
       ],

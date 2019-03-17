@@ -1,0 +1,260 @@
+{
+  "fraction": "Eldar",
+  "army": "Mymeara",
+  "version": "1.1",
+  "release": "2019-02-22",
+  "strategy": "Mymeara armies have a Strategy Rating of 4.",
+  "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": [
+    "Avatar",
+    "May Not Garrison",
+    "Farsight",
+    "Hit and Run",
+    "Lance",
+    "Webway Portal",
+    "Holofields (x)"
+
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on the Craftworld Mymeara."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Phoenix Lord",
+        "Avatar",
+        "Eldar Exarch",
+        "Eldar Warlock",
+        "Eldar Farseer",
+        "Eldar Guardians",
+        "Eldar Heavy Weapons Platform",
+        "Support Weapons Platform",
+        "Shadow Spectres",
+        "Ghost Walkers",
+        "Dire Avengers",
+        "Fire Dragons",
+        "Dark Reapers",
+        "Howling Banshees",
+        "Striking Scorpions",
+        "Warp Spiders",
+        "Heavy Wraithguards",
+        "Wasp Walker",
+        "Wraithlord",
+        "Wave Serpent",
+        "Night Spinner",
+        "Fire Prism",
+        "Firestorm",
+        "Warp Hunter",
+        "Lynx",
+        "Scorpion",
+        "Cobra",
+        "Revenant Titan",
+        "Skathach Wraithknight",
+        "Mymeara Phantom Titan"
+
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nightshade Interceptor",
+        "Hemlock Wraithfighters",
+        "Wraithship",
+        "Dragonship"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Mymeara Craftworld Special",
+      "formations": [
+        {
+          "name": "0-1 Avatar",
+          "units": "One Avatar",
+
+          "points": "Free"
+        },
+        {
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
+
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Craftworld Mymeara Hosts",
+      "formations": [
+
+        {
+          "name": "0-1 Shadow Spectre Warhost",
+          "units": "Eight Shadow Spectres",
+          "upgrades": [
+            "Exarch, Phoenix Lord"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Aspect Warrior Warhost",
+          "units": "Two Wave Serpents and four Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions, Warp Spiders",
+          "upgrades": [
+            "Exarch"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Guardian Warhost",
+          "units": "Five Guardians, 1 Warlock, 3 Wave Serpents",
+          "upgrades": [
+            "Farseer"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Craftworld Mymeara Troupes",
+      "description": "Up to two for each 'Mymeara Hosts' taken",
+      "formations": [
+        {
+          "name": "Wasp Walkers",
+          "units": "Four Wasp Walkers",
+          "upgrades": [
+
+          ],
+          "points": 150
+        },
+        {
+          "name": "Heavy Wraithguard",
+          "units": "Three Heavy Wraithguard",
+          "upgrades": [
+            "Add three Wave Serpents 75 Points",
+            "Firestorm",
+            "Add two Wraithlords and 1 Spiritseer 150 points"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Hornets",
+          "units": "4 Hornets",
+          "upgrades": [
+            "Add up to two Hornets for 35 points each"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Night Spinner Troupe",
+          "units": "Three Night Spinners",
+          "upgrades": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Swords of Vaul",
+          "units": "Five Warp Hunters",
+          "upgrades": [
+            "Firestorm"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Fire Prism Troupe ",
+          "units": "Three Fire Prisms",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Armour of Vaul",
+          "units": "2 Lynx tanks",
+          "upgrades": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Engine of Vaul",
+          "units": "Any one of the following units: Cobra, Scorpion",
+          "upgrades": [
+            "Add up to any two of the following units for 200 points each: Cobra, Scorpion"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Craftworld Mymeara Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Nightshade Interceptor",
+          "units": "Two Nightshade Interceptors",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Hemlock Wraithfighters",
+          "units": "Two Hemlock Wraithfighters",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Wraithknights",
+          "units": "Three Skathach Wraithknight",
+          "upgrades": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Revenants",
+          "units": "Two Revenant Titans",
+          "upgrades": [
+            "'Independent Twins' +50 points (see special rules)"
+          ],
+          "points": 550
+        },
+        {
+          "name": "0-1 Spacecraft",
+          "units": "One Wraithship",
+          "upgrades": [
+            "Replace with Dragonship for +150 Points"
+          ],
+          "points": 150
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Phoenix Lord",
+        "description": "Add an Eldar Phoenix Lord character. (1 per army)",
+        "points": "75 points"
+      },
+      {
+        "name": "Exarch",
+        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "points": "50 points each"
+      },
+      {
+        "name": "Firestorm",
+        "description": "Replace one Falcon with a Firestorm",
+        "points": "Free"
+      },
+      {
+        "name": "Farseer",
+        "description": "Add one Farseer character to a Guardian unit",
+        "points": 25
+      }
+    ]
+  }
+}

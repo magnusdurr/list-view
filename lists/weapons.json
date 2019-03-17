@@ -2425,6 +2425,26 @@
       ]
     },
     {
+      "name": "D-Cannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 30,
+            "specialRules": [
+              "TK(1)",
+              "Shield Piercer"
+          ]
+          },
+          {
+            "firepower": "1BP",
+            "join": "or",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Daemonic Bolt",
         "modes": [
           {
@@ -2562,6 +2582,18 @@
           "range": 45,
           "specialRules": [
 
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deathshroud Cannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+",
+          "range": 45,
+          "specialRules": [
+            "D"
           ]
         }
       ]
@@ -6039,6 +6071,36 @@
       ]
     },
     {
+      "name": "Prism Rifles",
+        "modes": [
+          {
+            "firepower": "AT5+",
+            "range": 30,
+            "specialRules": [
+              "Lance"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pulsar",
+      "modes": [
+        {
+          "firepower": "2× MW3+",
+          "range": 75,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Pus Cannon",
       "modes": [
         {
@@ -7857,6 +7919,27 @@
         {
           "firepower": "Assault Weapon",
           "specialRules": ["EA(+1)", "TK(1)"]
+        }
+      ]
+    },
+    {
+      "name": "Titan D-Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+ FxF",
+            "range": 45,
+            "specialRules": [
+              "TK(D3+1)",
+              "Shield Piercer"
+          ]
+          },
+          {
+            "firepower": "3BP FxF",
+            "join": "or",
+            "specialRules": [
+              "MW",
+              "IC"
+          ]
         }
       ]
     },
