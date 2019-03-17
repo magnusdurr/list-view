@@ -89,8 +89,10 @@
         {
             "name": "Black Guardian Warhost",
             "units": "Two Farseer units and six Black Guardians",
-            "upgrades": [
-              "Seer Council, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord OR Seer Council, Heavy Weapons, Transport"
+            "extraUnits": [
+              "Seer Council, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord",
+              "OR",
+              "Seer Council, Heavy Weapons, Transport"
             ],
             "points": 200
           }

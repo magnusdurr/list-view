@@ -138,8 +138,8 @@
     {
       "title": "Cyclops Demolition Vehicles",
       "description": [
-        "When a formation of Cyclops Demolition Vehicles engages an a formation, they are immediately removed from play after the engage has been resolved.",
-        "Cyclops Demolition Vehicle Formations cannon be broken."
+        "When a formation of Cyclops Demolition Vehicles engages an a formation, they are immediately removed from play after the engagement has been resolved.",
+        "Additionally Cyclops Demolition Vehicle Formations cannot be broken."
         ]
     },
 
@@ -771,7 +771,8 @@
       "title": "Necron",
       "description": [
         "Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet.",
-        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."]
+        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."
+      ]
     },
     {
       "title": "Portal",
@@ -779,7 +780,7 @@
         "Necron Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Additionally, formations may leave the board by entering a portal, taking them into the reserves. Note that once in the reserves they can either re-enter play immediately via another portal, provided they have movement, or remain in the reserves.",
         "Necron Portals can only be used by war engines or armoured vehicles with walker, infantry, or light vehicles units. Each portal can be used only once per turn for either entering or exiting the battlefield, not for both. Thus a formation may enter one portal with part of their movement, and exit from a second, unused portal, continuing their movement from that portal.",
         "If, at the end of the movement, a unit is out of formation it is destroyed (see Formations). Example: if you moved a formation of four units through one portal and out another and two units were unable to make the full movement (i.e. get through the second portal), the Necron player would have to choose which units were to be destroyed, the two that moved through the portal or the two that didn’t.",
-        "Formations entering play via a broken portal receives a Blast Marker. If it enters 1 broken portal and leaves another broken portal it receives 2 Blast Markers."
+        "Formations entering play via a broken portal receives a Blast Marker. If a formation enters one broken portal and leaves another broken portal it receives two Blast Markers."
       ]
     },
     {
@@ -797,7 +798,7 @@
     {
       "title": "Enduring",
       "description": [
-        "Formations containing units with enduring don’t phase out in the end phase. If the formation has lost all the units with “Enduring” they phase out as normal and are considered destroyed as normal."
+        "Formations containing units with 'enduring' don’t phase out in the end phase. If the formation has lost all the units with 'Enduring' they phase out as normal and are considered destroyed as normal."
         ]
     },
     {
@@ -813,6 +814,16 @@
         "In the end phase of the turn, remove the formation from the board into the reserves, but keep it away from any destroyed units. The formation will roll to rally in the end phase, handling Blast Markers as per the core rules. It may re-enter by teleporting, or through a portal. If there are not enough portals to deal with all the off-table formations, then the formation must remain off the table until a portal is available for it to use. If the rally roll fails, the formation must remain in the reserves until it rallies. Note that with the exception of the C’tan, no Necron War Engines may phase out."
       ]
     },
+
+
+
+
+
+
+
+
+
+
 
 
     {
