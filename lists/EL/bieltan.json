@@ -98,7 +98,7 @@
         {
           "name": "Guardian Warhost",
           "units": "One Warlock unit and seven Guardians",
-          "upgrades": [
+          "extraUnits": [
             "Farseer, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
             "OR",
             "Farseer, Heavy Weapons, Transport"
@@ -111,13 +111,30 @@
       "name": "Biel-Tan Troupes",
       "description": "Up to three for each Biel-Tan host taken",
       "formations": [
+
         {
-          "name": "Engine of Vaul Troupe",
-          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
+          "name": "Ranger Troupe",
+          "units": "Four Ranger units",
           "upgrades": [
-            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+            "Add up to four Rangers for 25 points each"
           ],
-          "points": 250
+          "points": 100
+        },
+        {
+          "name": "War Walker Troupe",
+          "units": "Four War Walkers",
+          "upgrades": [
+              "Add up to two War Walkers for 25 points each"
+          ],
+          "points": 125
+        },
+        {
+          "name": "Wind Rider Troupe ",
+          "units": "Six Jetbike units",
+          "upgrades": [
+            "Vypers"
+          ],
+          "points": 200
         },
         {
           "name": "Falcon Troupe",
@@ -142,14 +159,6 @@
           "points": 175
         },
         {
-          "name": "Ranger Troupe",
-          "units": "Four Ranger units",
-          "upgrades": [
-            "Add up to four Rangers for 25 points each"
-          ],
-          "points": 100
-        },
-        {
           "name": "Void Spinner Troupe",
           "units": "One Void Spinner",
           "upgrades": [
@@ -157,21 +166,13 @@
           "points": 300
         },
         {
-          "name": "War Walker Troupe",
-          "units": "Four War Walkers",
+          "name": "Engine of Vaul Troupe",
+          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "upgrades": [
+            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
           ],
-          "points": 125
-        },
-        {
-          "name": "Wind Rider Troupe ",
-          "units": "Six Jetbike units",
-          "upgrades": [
-            "Vypers"
-          ],
-          "points": 200
+          "points": 250
         }
-
 
       ]
     },
