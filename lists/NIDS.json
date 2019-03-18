@@ -380,7 +380,7 @@
       },
       {
       "name": "Trygon Prime",
-      "type": "WE",
+      "type": "H-AV",
       "speed": 25,
       "armour": 4,
       "cc": 3,
@@ -389,17 +389,15 @@
         "Large Claws"
       ],
       "specialRules": [
-          "Damage Capacity: 2",
         "Synapse",
         "Fearless",
         "Reinforced Armour",
         "Tunneler"
-    ],
-        "notes": "¤Critical Hit Effect¤: The Trygon Prime is destroyed."
+    ]
     },
     {
     "name": "Trygon",
-    "type": "WE",
+    "type": "H-AV",
     "speed": 25,
     "armour": 5,
     "cc": 3,
@@ -408,11 +406,9 @@
       "Large Claws"
     ],
     "specialRules": [
-          "Damage Capacity: 2",
       "Reinforced Armour",
       "Tunneler"
-  ],
-          "notes": "¤Critical Hit Effect¤: The Trygon is destroyed."
+  ]
     },
     {
     "name": "Harridan",
