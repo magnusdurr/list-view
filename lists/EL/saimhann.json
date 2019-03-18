@@ -60,10 +60,10 @@
       "name": "Saim-Hann Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
+          "name": "1 Avatar",
           "units": "One Avatar",
 
-          "points": "Free"
+          "points": 0
         },
         {
           "name": "0-1 Wraithgate",
@@ -97,7 +97,7 @@
     },
     {
       "name": "Saim-Hann Troupes",
-      "description": "Up to three for each Saim-Hann host taken",
+      "description": "Up to three for each Saim-Hann Host taken",
       "formations": [
         {
           "name": "Mounted Aspect Warrior Troupe",
@@ -139,15 +139,15 @@
         },
         {
           "name": "Ranger Troupe",
-          "units": "Four Ranger units",
+          "units": "Four Eldar Rangers",
           "upgrades": [
-            "Add up to four Rangers for 25 points each"
+            "Add up to four Eldar Rangers for 25 points each"
           ],
           "points": 100
         },
         {
           "name": "Hornets",
-          "units": "4 Hornets",
+          "units": "Four Hornets",
           "upgrades": [
             "Add up to two Hornets for 35 points each"
           ],
@@ -167,7 +167,7 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Nightwing Interceptors ",
+          "name": "Nightwing Aerie",
           "units": "Two Nightwing Interceptors ",
           "upgrades": [
             "Add one Nightwing Interceptor +75 Points"
@@ -175,7 +175,7 @@
           "points": 225
         },
         {
-          "name": "Phoenix Bombers",
+          "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
           "upgrades": [
             "Add one Phoenix Bomber +75 Points"
@@ -206,8 +206,8 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Chieftain ",
-        "description": "Add one Eldar Wild Rider Chieftain character to a Wild Rider unit or Vyper 0-1 per army",
+        "name": "0-1 Chieftain",
+        "description": "Add one Eldar Wild Rider Chieftain character to a Wild Rider unit or Vyper",
         "points": "50 points"
       },
       {

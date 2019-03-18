@@ -56,7 +56,7 @@
         "Mimes",
         "Death Jesters",
         "Harlequin Troupe",
-        "Harlequin Skyweavers",
+        "Skyweaver",
         "Starweaver",
         "Voidweaver"
       ],
@@ -130,7 +130,7 @@
       "formations": [
         {
           "name": "Haemonculi Coven",
-          "units": "Two Haemonculi units and four Wracks units",
+          "units": "Two Haemonculi units and four Wracks",
           "upgrades": [
             "Ancient, Barges, Grotesques, Talos, Transport"
           ],
@@ -177,7 +177,7 @@
       "formations": [
         {
           "name": "0-1 Serpent's Blood",
-          "units": "One Harlequin Avatar, four Harlequin Skyweavers, two Voidweavers",
+          "units": "One Harlequin Avatar, four Skyweaver, two Voidweavers",
           "upgrades": [
 
           ],
@@ -219,15 +219,15 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Razorwings",
-          "units": "Two to Three Razorwing Fighters",
+          "name": "Razorwing Cast",
+          "units": "Two to three Razorwing Fighters",
           "upgrades": [
 
           ],
           "points": "100 points each"
         },
         {
-          "name": "Voidravens",
+          "name": "Voidraven Cast",
           "units": "Two Void Raven Bombers",
           "upgrades": [
 
@@ -311,7 +311,7 @@
       },
       {
         "name": "Tantalus",
-        "description": "Add Tantalus tranports to replace Raiders. There shouldnt be more then 1 Tantalus for every 2 infantry units without jump packs or mounted.",
+        "description": "Add Tantalus tranports to replace Raiders. There shouldnt be more than one Tantalus for every two infantry units without jump packs or mounted.",
         "points": "25 points each"
       }
     ]

@@ -7,7 +7,7 @@
   "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-    "Avatar",
+    "Avatar (Lugganath)",
     "May Not Garrison (Lugganath)",
     "Farsight",
     "Hit and Run",
@@ -60,7 +60,7 @@
         "Mimes",
         "Death Jesters",
         "Harlequin Troupe",
-        "Harlequin Skyweavers",
+        "Skyweaver",
         "Starweaver",
         "Voidweaver"
       ],
@@ -88,7 +88,7 @@
       "name": "Craftworld Eldar Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
+          "name": "1 Avatar",
           "units": "One Avatar",
 
           "points": "Free"
@@ -162,9 +162,9 @@
           "name": "Heavy Wraithguard",
           "units": "Three Heavy Wraithguard",
           "upgrades": [
-            "Add three Wave Serpents 75 Points",
+            "Add three Wave Serpents: 75 Points",
             "Firestorm",
-            "Add two Wraithlords 125 points"
+            "Add two Wraithlords: 125 points"
           ],
           "points": 200
         },
@@ -180,11 +180,11 @@
     },
     {
       "name": "Harlequin Saedaths",
-      "description": "Up to one for each 'Lugganath Hosts' taken",
+      "description": "Up to one for each 'Lugganath Host' taken",
       "formations": [
         {
           "name": "0-1 Serpent's Blood",
-          "units": "One Harlequin Avatar, four Harlequin Skyweavers, two Voidweavers",
+          "units": "One Harlequin Avatar, four Skyweavers, two Voidweavers",
           "upgrades": [
 
           ],
@@ -226,14 +226,14 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Nightwing Interceptors ",
-          "units": "Two Nightwing Interceptors ",
+          "name": "Nightwing Aerie",
+          "units": "Two Nightwing Interceptors",
           "upgrades": [
           ],
           "points": 225
         },
         {
-          "name": "Hemlock Wraithfighters",
+          "name": "Hemlock Wraithfighter Aerie",
           "units": "Two Hemlock Wraithfighters",
           "upgrades": [
           ],
@@ -271,8 +271,8 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Autarch",
-        "description": "Add an Eldar Autarch character. (1 per army)",
+        "name": "0-1 Autarch",
+        "description": "Add an Eldar Autarch character",
         "points": "75 points"
       },
       {
@@ -287,7 +287,7 @@
       },
       {
         "name": "Farseer",
-        "description": "Add one Farseer character to a Guardian unit",
+        "description": "Add one Farseer character to a unit of Guardians",
         "points": 25
       },
       {
