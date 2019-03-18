@@ -4,20 +4,24 @@
   "version": "1.1",
   "release": "2019-02-22",
   "strategy": "Mymeara armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-    "Avatar",
-    "May Not Garrison",
+    "Avatar (Mymeara)",
+    "May Not Garrison (Mymeara)",
     "Farsight",
     "Hit and Run",
     "Lance",
+    "Shield Piercer",
+    "Shield Disruptor",
     "Webway Portal",
-    "Holofields (x)"
+    "Holofields (x)",
+    "Independent Twins",
+    "Heavy Armoured Vehicle (H-AV)"
 
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Craftworld Mymeara."
+    "The following army list allows you to field an army based on the Eldar Craftworld Mymeara."
   ],
   "units": [
     {
@@ -44,6 +48,7 @@
         "Wraithlord",
         "Wave Serpent",
         "Night Spinner",
+        "Hornet",
         "Fire Prism",
         "Firestorm",
         "Warp Hunter",
@@ -75,10 +80,10 @@
       "name": "Mymeara Craftworld Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
+          "name": "1 Avatar",
           "units": "One Avatar",
 
-          "points": "Free"
+          "points": 0
         },
         {
           "name": "0-1 Wraithgate",
@@ -110,7 +115,7 @@
         },
         {
           "name": "Guardian Warhost",
-          "units": "Five Guardians, 1 Warlock, 3 Wave Serpents",
+          "units": "Five Guardians, one Warlock, three Wave Serpents",
           "upgrades": [
             "Farseer"
           ],
@@ -134,17 +139,17 @@
           "name": "Heavy Wraithguard",
           "units": "Three Heavy Wraithguard",
           "upgrades": [
-            "Add three Wave Serpents 75 Points",
+            "Add three Wave Serpents: 75 Points",
             "Firestorm",
-            "Add two Wraithlords and 1 Spiritseer 150 points"
+            "Add two Wraithlords and one Spiritseer: 150 points"
           ],
           "points": 200
         },
         {
           "name": "Hornets",
-          "units": "4 Hornets",
+          "units": "Four Hornets",
           "upgrades": [
-            "Add up to two Hornets for 35 points each"
+            "Add up to two Hornets: 35 points each"
           ],
           "points": 175
         },
@@ -172,7 +177,7 @@
         },
         {
           "name": "Armour of Vaul",
-          "units": "2 Lynx tanks",
+          "units": "Two Lynx",
           "upgrades": [
           ],
           "points": 300
@@ -192,14 +197,14 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Nightshade Interceptor",
+          "name": "Nightshade Aerie",
           "units": "Two Nightshade Interceptors",
           "upgrades": [
           ],
           "points": 225
         },
         {
-          "name": "Hemlock Wraithfighters",
+          "name": "Hemlock Wraithfighter Aerie",
           "units": "Two Hemlock Wraithfighters",
           "upgrades": [
           ],
@@ -236,13 +241,13 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Phoenix Lord",
-        "description": "Add an Eldar Phoenix Lord character. (1 per army)",
+        "name": "0-1 Phoenix Lord",
+        "description": "Add an Eldar Phoenix Lord character",
         "points": "75 points"
       },
       {
         "name": "Exarch",
-        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
         "points": "50 points each"
       },
       {
@@ -252,8 +257,8 @@
       },
       {
         "name": "Farseer",
-        "description": "Add one Farseer character to a Guardian unit",
-        "points": 25
+        "description": "Add one Farseer character to a unit of Guardians",
+        "points": "25 points"
       }
     ]
   }

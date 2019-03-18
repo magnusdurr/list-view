@@ -6,9 +6,9 @@
   "strategy": "Biel-Tan Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Avatar","May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance","Webway Portal"],
+  "specialRules": ["Avatar (Biel-Tan)","May Not Garrison (Biel-Tan)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer","Shield Disruptor", "Webway Portal"],
   "usage": [
-    "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
+    "The following army list allows you to field an army based on the Eldar Craftworld Biel-Tan."
   ],
   "units": [
     {
@@ -71,10 +71,10 @@
       "name": "Biel-Tan Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
+          "name": "1 Avatar",
           "units": "One Avatar",
 
-          "points": "Free"
+          "points": 0
         },
         {
           "name": "0-1 Wraithgate",
@@ -114,9 +114,9 @@
 
         {
           "name": "Ranger Troupe",
-          "units": "Four Ranger units",
+          "units": "Four Eldar Rangers",
           "upgrades": [
-            "Add up to four Rangers for 25 points each"
+            "Add up to four Eldar Rangers for 25 points each"
           ],
           "points": 100
         },
@@ -181,7 +181,7 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Nightwing Interceptors ",
+          "name": "Nightwing Aerie",
           "units": "Two Nightwing Interceptors ",
           "upgrades": [
             "Add one Nightwing Interceptor +75 Points"
@@ -189,7 +189,7 @@
           "points": 225
         },
         {
-          "name": "Phoenix Bombers",
+          "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
           "upgrades": [
             "Add one Phoenix Bomber +75 Points"
@@ -250,7 +250,7 @@
       },
       {
         "name": "Exarch",
-        "description": "Add 0-2 Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
         "points": "50 points each"
       },
       {

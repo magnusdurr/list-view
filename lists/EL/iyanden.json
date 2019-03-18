@@ -7,17 +7,19 @@
   "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-    "Heavy Armoured Vehicle (H-AV)",
-    "Avatar",
-    "May Not Garrison",
+    "Avatar (Iyanden)",
+    "May Not Garrison (Iyanden)",
     "Farsight",
     "Hit and Run",
     "Holofields (x)",
     "Lance",
-    "Webway Portal"
+    "Shield Piercer",
+    "Shield Disruptor",
+    "Webway Portal",
+    "Heavy Armoured Vehicle (H-AV)"
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Biel Tan Craftworld."
+    "The following army list allows you to field an army based on the Eldar Craftworld Iyanden ."
   ],
   "units": [
     {
@@ -83,10 +85,10 @@
       "name": "Iyanden Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
+          "name": "1 Avatar",
           "units": "One Avatar",
 
-          "points": "Free"
+          "points": 0
         },
         {
           "name": "0-1 Wraithgate",
@@ -117,7 +119,7 @@
           "points": 300
         },
         {
-          "name": "Spirit Walkers",
+          "name": "Spirit Walker",
           "units": "One Spiritseer character and six Wraithlords",
           "upgrades": [
             "Wraithseer"
@@ -180,9 +182,9 @@
         },
         {
           "name": "Ranger Troupe",
-          "units": "Four Rangers",
+          "units": "Four Eldar Rangers",
           "upgrades": [
-            "Add up to four Rangers for 25 points each"
+            "Add up to four Eldar Rangers for 25 points each"
           ],
           "points": 100
         },
@@ -210,7 +212,7 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Nightwing Interceptors",
+          "name": "Nightwing Aerie",
           "units": "Two Nightwing Interceptors ",
           "upgrades": [
             "Add one Nightwing Interceptor +75 Points"
@@ -218,7 +220,7 @@
           "points": 225
         },
         {
-          "name": "Phoenix Bombers",
+          "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
           "upgrades": [
             "Add one Phoenix Bomber +75 Points"
@@ -281,13 +283,13 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Wraithseer",
-        "description": "Replace one Spiritseer character with an Wraithseer. (1 per army)",
+        "name": "0-1 Wraithseer",
+        "description": "Replace one Spiritseer character with an Wraithseer",
         "points": "50 points"
       },
       {
         "name": "Exarch",
-        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
         "points": "50 points each"
       },
       {

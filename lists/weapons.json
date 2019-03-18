@@ -691,13 +691,14 @@
     },
 
     {
-          "name": "AC Heavy D-Scythes",
+          "name": "AC Heavy D-Scythe",
           "modes": [
             {
             "firepower": "MW3+",
             "range": 15,
             "specialRules": [
-              "TK(D3)",
+              "TK(D2)",
+              "Shield Disruptor",
               "FxF"
               ]
           }
@@ -2419,7 +2420,8 @@
             "firepower": "MW3+",
             "range": 15,
             "specialRules": [
-              "TK(1)"
+              "TK(1)",
+              "Shield Disruptor"
           ]
         }
       ]
@@ -4579,7 +4581,8 @@
             "range": 15,
             "specialRules": [
               "IC",
-              "TK(1)"
+              "TK(1)",
+              "Shield Disruptor"
           ]
           },
           {
@@ -6215,7 +6218,8 @@
             "range": 30,
             "specialRules": [
               "IC",
-              "TK(D3)"
+              "TK(D3)",
+              "Shield Disruptor"
           ]
           },
           {
@@ -7982,7 +7986,7 @@
       "name": "Titan Pulsar",
       "modes": [
         {
-          "firepower": "MW2+",
+          "firepower": "2x MW2+",
           "range": 75,
           "specialRules": [
             "TK(1)"
@@ -8703,10 +8707,10 @@
       "name": "Vibro Cannon",
       "modes": [
         {
-          "firepower": "3BP",
+          "firepower": "5x AT2+",
           "range": 60,
           "specialRules": [
-            "MW",
+            "D",
             "IC",
             "Shield Piercer"
           ]
@@ -8966,7 +8970,7 @@
       ]
     },
     {
-      "name": "Whip of Torment",
+      "name": "Lash of Khorne",
       "modes": [
         {
           "firepower": "Small Arms",
@@ -9071,7 +9075,7 @@
       ]
     },
     {
-      "name": "Wriath Claws",
+      "name": "Wraith Claws",
         "modes": [
           {
             "firepower": "Assault Weapons",
@@ -9085,7 +9089,7 @@
       "name": "Wraithknight Cannons",
         "modes": [
           {
-            "firepower": "MW4+",
+            "firepower": "2x MW4+",
             "range": 30
           },
           {
