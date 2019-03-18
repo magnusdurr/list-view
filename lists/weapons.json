@@ -691,13 +691,14 @@
     },
 
     {
-          "name": "AC Heavy D-Scythes",
+          "name": "AC Heavy D-Scythe",
           "modes": [
             {
             "firepower": "MW3+",
             "range": 15,
             "specialRules": [
               "TK(D3)",
+              "Shield Disruptor",
               "FxF"
               ]
           }
@@ -2419,7 +2420,8 @@
             "firepower": "MW3+",
             "range": 15,
             "specialRules": [
-              "TK(1)"
+              "TK(1)",
+              "Shield Disruptor"
           ]
         }
       ]
@@ -4579,7 +4581,8 @@
             "range": 15,
             "specialRules": [
               "IC",
-              "TK(1)"
+              "TK(1)",
+              "Shield Disruptor"
           ]
           },
           {
@@ -6215,7 +6218,8 @@
             "range": 30,
             "specialRules": [
               "IC",
-              "TK(D3)"
+              "TK(D3)",
+              "Shield Disruptor"
           ]
           },
           {
