@@ -10,8 +10,8 @@
       "title": "Automaton",
       "description": [
         "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
-        "A formation does not receive a Blast Marker when a unit with automaton is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast Marker however.",
-        "If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast Marker then it may attempt to save normally.",
+        "A formation does not receive a Blast Marker when a unit with Automaton is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with Disrupt do take a Blast Marker however.",
+        "If a hit is inflicted on an Automaton unit because it is in a broken formation which is receiving a Blast Marker then it may attempt to save normally.",
         "Automaton units killed in an assault count for the purposes of working out its result."
       ]
     },
@@ -315,9 +315,41 @@
         ]
     },
     {
-      "title": "Avatar",
+      "title": "Avatar (Biel-Tan)",
+      "description": [
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
+        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
+      ]
+    },
+    {
+      "title": "Avatar (Saim-Hann)",
+      "description": [
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Mounted Farseer unit.",
+        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
+      ]
+    },
+    {
+      "title": "Avatar (Iyanden)",
+      "description": [
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Spiritseer or Farseer unit.",
+        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
+      ]
+    },
+    {
+      "title": "Avatar (Ulthwé)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Seer Council or Farseer unit.",
+        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
+      ]
+    },
+    {
+      "title": "Avatar (Mymeara)",
+      "description": [
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
         " The Avatar counts as its own formation and may only enter playing this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
@@ -361,15 +393,15 @@
     {
       "title": "May Not Garrison (Eldar Titan Force)",
       "description": [
-        "Only Ghost Walkers, Wasp Walkers and Hornets are allowed to garrison objectives in the Epic tournament game scenario."
+        "Only Bright Stallions are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
       "title": "Farsight",
       "description": [
-        "Eldar formations that include a unit with the farsight ability may ignore the -1 penalty to Action test rolls when attempting to retain the Initiative.",
-        "In addition once per turn the Eldar player may attempt to retain the Initiative twice in a row (i.e. allowing the Eldar player to take 3 activations in a row). Any Eldar formation may be selected, including those without a unit with farsight, but at least one unit with the farsight ability must be in play on the battlefield.",
-        "The formation selected must still carry out an action test with a -1 modifier for the first retain and -2 for the second retain, unless the selected formation has a unit with the farsight ability."
+        "Eldar formations that include a unit with the Farsight ability may ignore the -1 penalty to Action test rolls when attempting to retain the Initiative.",
+        "In addition once per turn the Eldar player may attempt to retain the Initiative twice in a row (i.e. allowing the Eldar player to take 3 activations in a row). Any Eldar formation may be selected, including those without a unit with Farsight, but at least one unit with the Farsight ability must be in play on the battlefield.",
+        "The formation selected must still carry out an action test with a -1 modifier for the first retain and -2 for the second retain, unless the selected formation has a unit with the Farsight ability."
       ]
     },
     {
@@ -382,7 +414,7 @@
       "title": "Holofields (x)",
       "description": [
         "Holofields provide a saving throw to the value of 'x'. This save may always be taken even against weapons with the Macro Weapon or Titan Killer abilities.",
-        "If a unit has reinforced armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate Blast Markers, even if they have the disrupt ability.",
+        "If a unit has reinforced armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate Blast Markers, even if they have the Disrupt ability.",
         "Against Titan Killer attacks that cause extra damage make one Holofield save roll, if this is successful the unit takes no damage, if the roll fails it suffers all the damage. Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the sniper ability. "
       ]
     },
@@ -834,7 +866,7 @@
     {
       "title": "Implacable Advance",
       "description": [
-        "The Necron are an offensive army, always on the advance, stopping only to eliminate enemy positions before moving on to harvest others. While subject to disruption from losses and enemy fire, the mechanical nature of the Necron permits them to easily reorganize to maintain the offensive momentum. Necron formations receive a +1 bonus to Marshal actions. Due to their steady, deliberate, nature Necron formations cannot take a March action."
+        "The Necron are an offensive army, always on the advance, stopping only to eliminate enemy positions before moving on to harvest others. While subject to Disruption from losses and enemy fire, the mechanical nature of the Necron permits them to easily reorganize to maintain the offensive momentum. Necron formations receive a +1 bonus to Marshal actions. Due to their steady, deliberate, nature Necron formations cannot take a March action."
         ]
     },
     {
