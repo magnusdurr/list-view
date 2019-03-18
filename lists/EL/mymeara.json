@@ -4,11 +4,11 @@
   "version": "1.1",
   "release": "2019-02-22",
   "strategy": "Mymeara armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
     "Avatar",
-    "May Not Garrison",
+    "May Not Garrison (Mymeara)",
     "Farsight",
     "Hit and Run",
     "Lance",
@@ -47,6 +47,7 @@
         "Wraithlord",
         "Wave Serpent",
         "Night Spinner",
+        "Hornet",
         "Fire Prism",
         "Firestorm",
         "Warp Hunter",
@@ -113,7 +114,7 @@
         },
         {
           "name": "Guardian Warhost",
-          "units": "Five Guardians, 1 Warlock, 3 Wave Serpents",
+          "units": "Five Guardians, one Warlock, three Wave Serpents",
           "upgrades": [
             "Farseer"
           ],
@@ -137,17 +138,17 @@
           "name": "Heavy Wraithguard",
           "units": "Three Heavy Wraithguard",
           "upgrades": [
-            "Add three Wave Serpents 75 Points",
+            "Add three Wave Serpents: 75 Points",
             "Firestorm",
-            "Add two Wraithlords and 1 Spiritseer 150 points"
+            "Add two Wraithlords and one Spiritseer: 150 points"
           ],
           "points": 200
         },
         {
           "name": "Hornets",
-          "units": "4 Hornets",
+          "units": "Four Hornets",
           "upgrades": [
-            "Add up to two Hornets for 35 points each"
+            "Add up to two Hornets: 35 points each"
           ],
           "points": 175
         },
@@ -175,7 +176,7 @@
         },
         {
           "name": "Armour of Vaul",
-          "units": "2 Lynx tanks",
+          "units": "Two Lynx",
           "upgrades": [
           ],
           "points": 300
@@ -245,7 +246,7 @@
       },
       {
         "name": "Exarch",
-        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
         "points": "50 points each"
       },
       {

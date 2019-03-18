@@ -6,9 +6,9 @@
   "strategy": "Biel-Tan Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Avatar","May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer","Shield Disruptor", "Webway Portal"],
+  "specialRules": ["Avatar","May Not Garrison (Biel-Tan)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer","Shield Disruptor", "Webway Portal"],
   "usage": [
-    "The following army list allows you to field an army based on the Biel Tan, a Eldar Craftworld."
+    "The following army list allows you to field an army based on the Biel-Tan, a Eldar Craftworld."
   ],
   "units": [
     {
@@ -250,7 +250,7 @@
       },
       {
         "name": "Exarch",
-        "description": "Add 0-2 Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "description": "Add up to two Eldar Exarch characters to an Eldar Aspect Warrior unit",
         "points": "50 points each"
       },
       {
