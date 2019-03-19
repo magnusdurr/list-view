@@ -166,39 +166,7 @@
           "Mounted"
         ]
       },
-      {
-        "name": "Ravenwing Assault Bikes",
-        "type": "INF",
-        "speed": 35,
-        "armour": 4,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Twin Bolters"
-        ],
-        "specialRules": [
-          "Mounted",
-          "Invulnerable Save"
-        ]
-      },
-      {
-        "name": "Ravenwing Black Knights",
-        "type": "INF",
-        "speed": 35,
-        "armour": 4,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Plasma Talons",
-          "Corvus Hammers"
-        ],
-        "specialRules": [
-          "Mounted",
-          "Scout",
-          "Commander",
-          "Invulnerable Save"
-        ]
-      },
+
       {
         "name": "Devastators",
         "type": "INF",
@@ -331,7 +299,7 @@
         "armour": 4,
         "cc": 2,
         "weapons": [
-          "Thunderhammers and Stormshields"
+          "Thunder Hammers and Storm Shields"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -429,6 +397,39 @@
         "ff": 4,
         "weapons": [
           "Heavy Bolter"
+        ]
+      },
+      {
+        "name": "Ravenwing Assault Bikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Twin Bolters"
+        ],
+        "specialRules": [
+          "Mounted",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Ravenwing Black Knights",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasma Talons",
+          "Corvus Hammers"
+        ],
+        "specialRules": [
+          "Mounted",
+          "Scout",
+          "Commander",
+          "Invulnerable Save"
         ]
       },
       {
@@ -899,7 +900,7 @@
         "speed": 30,
         "armour": 5,
         "cc": 6,
-        "ff": 5,
+        "ff": "5+/4",
         "weapons": [
           {
             "name": "0-1 Twin Lascannon",
