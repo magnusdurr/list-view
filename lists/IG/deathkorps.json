@@ -1,14 +1,13 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "1.1",
-  "release": "2019-03-10",
+  "version": "1.2",
+  "release": "2019-03-19",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Titan Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
       "Fortified Positions",
-      "Commissars",
       "Lord Commissar"
   ],
   "usage": [
@@ -76,11 +75,11 @@
 ],
 "sections": [
     {
-      "name": "DKoK Company Formations",
+      "name": "DKoK Core Formations",
       "formations": [
         {
           "name": "Regimental HQ",
-          "units": "One DKoK Supreme Commander, fourteen Assault Infantry",
+          "units": "One DKoK Supreme Commander with a Commissar, fourteen Assault Infantry",
           "extraUnits": [
               "Lord Commissar",
               "Gorgon Assault",
@@ -95,7 +94,7 @@
         },
         {
           "name": "Assault Infantry Company",
-          "units": "One DKoK Commander, fourteen Assault Infantry",
+          "units": "One DKoK Commander with a Commissar, fourteen Assault Infantry",
           "extraUnits": [
               "Gorgon Assault",
               "Macharius",
@@ -109,7 +108,7 @@
     },
         {
           "name": "Death Rider Company",
-          "units": "Twelve Death Riders",
+          "units": "One Commissar, twelve Death Riders",
           "extraUnits": [
           "Hellhound Platoon"
           ],
@@ -132,7 +131,7 @@
           "name": "Earthshaker Battery",
           "units": "Three Earthshaker Guns, three Trojans",
           "upgrades": [
-              "Add three Earthshaker Guns, three Trojans: 175 points"
+              "Add three Earthshaker Guns, one Commissar, three Trojans: 175 points"
           ],
           "points": 175
         },
@@ -151,13 +150,13 @@
           "points": 150
         },
         {
-          "name": "Rough Rider Platoon",
-          "units": "Six Rough Riders",
-          "points": 150
+          "name": "Rough Rider Company",
+          "units": "One Commissar, nine Rough Riders",
+          "points": 250
         },
         {
           "name": "Super-Heavy Tank Company",
-          "units": "Any three chosen from Shadowsword, Baneblade, Stormsword",
+          "units": "One Commissar, and any three chosen from Shadowsword, Baneblade, Stormsword",
           "upgrades": [
           ],
           "points": 500
@@ -171,20 +170,20 @@
         },
         {
           "name": "Macharius Platoon",
-          "units": "Two Macharius, one Macharius Command",
+          "units": "One Macharius Command with a Commissar, two Macharius",
           "upgrades": [
           ],
           "points": 325
         },
         {
           "name": "Minotaur Battery",
-          "units": "Two Minotaurs",
+          "units": "One Commissar, two Minotaurs",
           "points": 350
         },
 
         {
           "name": "Grenadier Company",
-          "units": "Eight Grenadiers",
+          "units": "One DKoK Commander with a Commissar, seven Grenadiers",
           "upgrades": [
               "Add one Gorgon: 75 points"
           ],
@@ -308,7 +307,7 @@
         "name": "Entrenchments",
         "options": [
           {
-            "description": "60cm Razor Wire, 60cm Trenches",
+            "description": "60cm Razor Wire, 60cm Trenches. May not be combined with the Gorgon Assault upgrade",
             "points": "50 points"
           }
         ]
