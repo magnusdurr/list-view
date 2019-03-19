@@ -464,8 +464,15 @@
       "name": "Ark Mechanicus Battleship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 6BP|0-1 1|",
-        "Pin Point|0-1 2|"
+          {
+            "name": "0-1x Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "6BP, MW"
+              }
+            ]
+        },
+        "Pin Point|0-2|"
     ],
     "specialRules": [
       "Is equipped with either Orbital Bombardment or two Pin Point attacks.",

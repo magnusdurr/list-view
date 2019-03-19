@@ -23,7 +23,14 @@
       "name": "Razorfiend",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 3BP"
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+        }
       ],
       "specialRules": [
         "Transport (2 Mycetic Spores including cargo)"
@@ -33,7 +40,14 @@
       "name": "Hive Ship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 6BP"
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "6BP, MW"
+              }
+            ]
+        }
       ],
       "specialRules": [
         "Slow to Arrive", "(Can only arrive from turn 2 onwards) Transport (3 Mycetic Spores including cargo)"

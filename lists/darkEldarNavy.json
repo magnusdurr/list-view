@@ -83,7 +83,14 @@
       "name": "Torture Class Cruiser",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 6BP",
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "6BP, MW"
+              }
+            ]
+        },
         "Pin Point|2|"
       ],
       "specialRules": [

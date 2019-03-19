@@ -17,9 +17,9 @@
         "Iron Captain",
         "Iron Hands Veteran Sergeant",
         "Iron Hands Techmarine",
-        "Iron Hands Devastator",
-        "Iron Hands Tactical",
-        "Scout",
+        "Iron Hands Devastators",
+        "Iron Hands Tacticals",
+        "Scouts",
         "Land Speeder",
         "Land Speeder Tornado",
         "Land Speeder Typhoon",
@@ -67,7 +67,7 @@
       "formations": [
         {
           "name": "Dreadnought Clan",
-          "units": "Four Tactical units plus transport, one Veteran Sergeant and any two of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+          "units": "Four Tacticals plus transport, one Veteran Sergeant and any two of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "upgrades": [
             "Clan Commander",
             "Devastators",
@@ -80,7 +80,7 @@
         },
         {
           "name": "Mechanized Clan",
-          "units": "Four Tactical units plus transport, one Veteran Sergeant and any two of the following units: Predator Annihilator, Predator Destructor or Vindicator*",
+          "units": "Four Tacticals plus transport, one Veteran Sergeant and any two of the following units: Predator Annihilator, Predator Destructor or Vindicator*",
           "upgrades": [
             "Clan Commander",
             "Devastators",
@@ -97,7 +97,7 @@
     },
     {
       "name": "Iron Hands Support Detachments",
-      "description": "Two support detachment may be fielded per core detachment",
+      "description": "Two Support Detachments may be fielded per Core Detachment",
       "formations": [
         {
           "name": "Dreadnought Talon",
@@ -137,8 +137,8 @@
           "points": 250
         },
         {
-          "name": "Scout",
-          "units": "Four Scout units plus transport",
+          "name": "Scouts",
+          "units": "Four Scouts plus transport",
           "upgrades": [
             "Commander",
             "Razorbacks",
@@ -147,7 +147,7 @@
           "points": 150
         },
         {
-          "name": "0-1 Strike Cruiser",
+          "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
           "upgrades": [
             "Battle Barge"
@@ -164,7 +164,7 @@
           "points": 225
         },
         {
-          "name": "Whirlwinds",
+          "name": "Whirlwind Battery",
           "units": "Four Whirlwind units",
           "upgrades": [
             "Hunter"
@@ -244,7 +244,7 @@
       },
       {
         "name": "Devastators",
-        "description": "Replace all Tactical units in the formaiton with Devastators",
+        "description": "Replace all Tacticals in the formaiton with Devastators",
         "points": "50 points"
       },
       {

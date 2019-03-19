@@ -39,6 +39,19 @@
         ]
       },
       {
+        "name": "Dark Angels Captain",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Invulnerable Save",
+          "Leader",
+          "Teleport Homer"
+        ]
+      },
+      {
         "name": "Chaplain",
         "type": "CH",
         "weapons": [
@@ -125,21 +138,22 @@
         ]
       },
       {
-        "name": "Assault",
+        "name": "Assaults",
         "type": "INF",
         "speed": 30,
         "armour": 4,
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Bolt Pistols"
+          "Bolt Pistols",
+          "Chainswords"
         ],
         "specialRules": [
           "Jump Packs"
         ]
       },
       {
-        "name": "Assault Bike",
+        "name": "Assault Bikes",
         "type": "INF",
         "speed": 35,
         "armour": 4,
@@ -153,7 +167,40 @@
         ]
       },
       {
-        "name": "Devastator",
+        "name": "Ravenwing Assault Bikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Twin Bolters"
+        ],
+        "specialRules": [
+          "Mounted",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Ravenwing Black Knights",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasma Talons",
+          "Corvus Hammers"
+        ],
+        "specialRules": [
+          "Mounted",
+          "Scout",
+          "Commander",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Devastators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -164,7 +211,18 @@
         ]
       },
       {
-        "name": "Iron Hands Devastator",
+        "name": "Dark Angels Devastators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Plasma Cannon|2"
+        ]
+      },
+      {
+        "name": "Iron Hands Devastators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -177,7 +235,7 @@
         "notes": "Armed with Missile Launchers. If the formation contains a Iron Hands Techmarine, the Missile Launchers will be replaced by Graviton Guns."
       },
       {
-        "name": "Iron Hands Tactical",
+        "name": "Iron Hands Tacticals",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -190,7 +248,7 @@
         "notes": "Armed with a Missile Launcher. If the formation contains a Iron Hands Techmarine, the Missile Launcherswill be replaced by a Graviton Guns."
       },
       {
-        "name": "Scout",
+        "name": "Scouts",
         "type": "INF",
         "speed": 15,
         "armour": 5,
@@ -221,7 +279,7 @@
         ]
       },
       {
-        "name": "Tactical",
+        "name": "Tacticals",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -232,7 +290,7 @@
         ]
       },
       {
-        "name": "Terminator",
+        "name": "Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -246,6 +304,59 @@
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
+        ]
+      },
+      {
+        "name": "Deathwing Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Assault Cannon|2",
+          "Power Weapons"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour",
+          "Deathwing"
+        ]
+      },
+      {
+        "name": "Deathwing Knights",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Thunderhammers and Stormshields"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour",
+          "Deathwing",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Deathwing Cyclones",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Cyclone Missile Launchers",
+          "Power Weapons"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour",
+          "Deathwing"
         ]
       },
       {
@@ -279,7 +390,7 @@
         ]
       },
       {
-        "name": "White Scars Bike",
+        "name": "White Scars Bikes",
         "type": "INF",
         "speed": 35,
         "armour": 4,
@@ -294,7 +405,7 @@
         ]
       },
       {
-        "name": "White Scars Scout Bike",
+        "name": "White Scars Scout Bikes",
         "type": "INF",
         "speed": 35,
         "armour": 5,
@@ -321,6 +432,21 @@
         ]
       },
       {
+        "name": "Ravenwing Attack Bike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Heavy Bolter"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Teleport Homer"
+      ]
+      },
+      {
         "name": "Land Speeder",
         "type": "LV",
         "speed": 35,
@@ -328,11 +454,28 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Multi-melta"
+          "Multi-Melta"
         ],
         "specialRules": [
           "Scout",
           "Skimmer"
+        ]
+      },
+      {
+        "name": "Ravenwing Land Speeder",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multi-Melta"
+        ],
+        "specialRules": [
+          "Scout",
+          "Skimmer",
+          "Invulnerable Save",
+          "Teleport Homer"
         ]
       },
       {
@@ -383,6 +526,24 @@
         ]
       },
       {
+        "name": "Ravenwing Land Speeder Tornado",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Assault Cannon",
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Scout",
+          "Skimmer",
+          "Invulnerable Save",
+          "Teleport Homer"
+        ]
+      },
+      {
         "name": "Land Speeder Typhoon",
         "type": "LV",
         "speed": 35,
@@ -396,6 +557,24 @@
         "specialRules": [
           "Scout",
           "Skimmer"
+        ]
+      },
+      {
+        "name": "Ravenwing Land Speeder Tornado",
+        "type": "LV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Assault Cannon",
+          "Plasma Storm Battery"
+        ],
+        "specialRules": [
+          "Scout",
+          "Skimmer",
+          "Invulnerable Save",
+          "Teleport Homer"
         ]
       },
       {
@@ -420,7 +599,7 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Multi-melta"
+          "Multi-Melta"
         ],
         "specialRules": [
           "Walker"
@@ -439,6 +618,36 @@
         ],
         "specialRules": [
           "Walker"
+        ]
+      },
+      {
+        "name": "Dreadnought, Mortis",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Twin Mortis Autocannon|2"
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Dreadnought, Deathwing",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Power Fist",
+          "Plasma Cannon"
+        ],
+        "specialRules": [
+          "Walker",
+          "Deathwing"
         ]
       },
       {
@@ -541,6 +750,44 @@
         "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
+        "name": "Deathwing Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2",
+          "Twin Heavy Bolter"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport",
+          "Deathwing",
+          "Invulnerable Save"
+        ],
+        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Land Raider Ares",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Demolisher Cannon",
+          "Twin Assault Cannon",
+          "Heavy Flamer|2"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ]
+      },
+      {
         "name": "Land Raider Anvilarum",
         "type": "AV",
         "speed": 25,
@@ -572,7 +819,7 @@
           "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport three infantry units without Jump Packs or Mounted; Terminator units count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+        "notes": "May transport three infantry units without Jump Packs or Mounted; Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
       },
       {
         "name": "Land Raider Helios",
@@ -635,6 +882,18 @@
         ]
       },
       {
+        "name": "Deimos Predator Executioner",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Plasma Destroyer",
+          "Lascannon|2"
+        ]
+      },
+      {
         "name": "Razorback",
         "type": "AV",
         "speed": 30,
@@ -679,7 +938,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Stalker",
@@ -694,7 +953,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Vindicator",
@@ -707,6 +966,17 @@
           "Demolisher"
         ],
         "specialRules": ["Walker"]
+      },
+      {
+        "name": "Deimos Laser Vindicator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Laser Destroyer Array"
+        ]
       },
       {
         "name": "Whirlwind",
@@ -731,6 +1001,24 @@
         ]
       },
       {
+        "name": "Glaive",
+        "type": "WE",
+        "speed": "15",
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Volkite Carronade",
+          "Quad Lascannon|2|FxF",
+          "Twin Heavy Bolter||FxF"
+        ],
+        "specialRules": [
+            "Damage Capacity: 4",
+          "Reinforced Armour"
+        ],
+        "notes": "Critical Hit Effect: The Glaive is destroyed. All units within 5cm suffer a hit on a 6+."
+      },
+      {
         "name": "Landing Craft",
         "type": "AC/WE",
         "speed": "Bomber",
@@ -739,7 +1027,7 @@
         "ff": 3,
         "weapons": [
           "Twin Lascannon|2",
-          "Twin Anti-Air Bolter|3"
+          "AC Twin Heavy Bolter|3"
         ],
         "specialRules": [
           "Damage Capacity 4",
@@ -748,7 +1036,7 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up. Critical Hit Effect: The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
+        "notes": "May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up. Critical Hit Effect: The unit and all units being carried are destroyed. All units within 5cm suffer a hit on 4+."
       },
       {
         "name": "Storm Eagle",
@@ -758,7 +1046,7 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Twin Anti-Air Bolter||FxF",
+          "AC Twin Heavy Bolter||FxF",
           "Twin Air Lascannon|2|FxF",
           "Vengeance Launcher"
         ],
@@ -768,7 +1056,7 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport four infantry units without Mounted; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+        "notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
       },
       {
         "name": "Storm Talon Gunship",
@@ -777,8 +1065,36 @@
         "armour": 5,
         "weapons": [
           "Twin Air Assault Cannon||FwA",
-          "Twin Anti-Air Bolter||FxF"
+          "AC Twin Heavy Bolter||FxF"
         ]
+      },
+      {
+        "name": "Ravenwing Nephilim Interceptor",
+        "type": "AC",
+        "speed": "Fighter",
+        "armour": 6,
+        "weapons": [
+          "AC Twin Heavy Bolter||FxF",
+          "AC Twin Lascannon||FxF",
+          "AC Blacksword Missiles||FxF"
+      ],
+      "specialRules": [
+        "Invulnerable Save"
+    ]
+    },
+      {
+        "name": "Ravenwing Dark Talon Fighter-Bomber",
+        "type": "AC",
+        "speed": "Fighter-Bomber",
+        "armour": 6,
+        "weapons": [
+          "AC Rift Cannon||FxF",
+          "AC Hurricane Bolters||FxF",
+          "AC Stasis Bomb||FxF"
+      ],
+      "specialRules": [
+        "Invulnerable Save"
+      ]
       },
       {
         "name": "Thunderhawk",
@@ -789,9 +1105,9 @@
         "ff": 4,
         "weapons": [
           "Battle Cannon||FxF",
-          "Twin Heavy Anti-Air Bolter|2|FxF",
-          "Twin Anti-Air Bolter||Left",
-          "Twin Anti-Air Bolter||Right"
+          "AC Twin Heavy Bolter|2|FxF",
+          "AC Twin Heavy Bolter||Left",
+          "AC Twin Heavy Bolter||Right"
         ],
         "specialRules": [
           "Damage Capacity 2",
@@ -799,7 +1115,7 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+        "notes": "May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
       },
       {
         "name": "Thunderhawk Transporter",
@@ -809,8 +1125,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Twin Anti-Air Bolter|2|Left",
-          "Twin Anti-Air Bolter|2|Right"
+          "AC Twin Heavy Bolter|2|Left",
+          "AC Twin Heavy Bolter|2|Right"
         ],
         "specialRules": [
           "Damage Capacity 2",
@@ -838,6 +1154,24 @@
           "Transport"
         ],
         "notes": "May transport forty infantry units, Attack Bikes, or Dreadnoughts; plus thirty armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+      },
+      {
+        "name": "Hunter Class Destroyer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "1BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport four infantry units. These may only deploy on to the battlefield using Teleport"
       },
       {
         "name": "Strike Cruiser",

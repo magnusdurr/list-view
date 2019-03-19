@@ -686,7 +686,7 @@
       "specialRules": [
         "Transport"
     ],
-      "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Alpha Legion Rhino",
@@ -702,7 +702,7 @@
           "Stubborn",
         "Transport"
     ],
-      "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Death Guard Rhino",
@@ -718,7 +718,7 @@
           "Invulnerable Save",
         "Transport"
     ],
-      "notes": "May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Chaos Land Raider",
@@ -1038,9 +1038,9 @@
       "ff": 4,
       "weapons": [
         "Battle Cannon||FxF",
-        "Twin Heavy Anti-Air Bolter|2|FxF",
-        "Twin Anti-Air Bolter||Left",
-        "Twin Anti-Air Bolter||Right"
+        "AC Twin Heavy Bolter|2|FxF",
+        "AC Twin Heavy Bolter||Left",
+        "AC Twin Heavy Bolter||Right"
       ],
       "specialRules": [
         "Damage Capacity 2",
@@ -1048,7 +1048,7 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport eight infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+      "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
   },
   {
     "name": "Alpha Legion Thunderhawk",
@@ -1059,9 +1059,9 @@
     "ff": 4,
     "weapons": [
       "Battle Cannon||FxF",
-      "Twin Heavy Anti-Air Bolter|2|FxF",
-      "Twin Anti-Air Bolter||Left",
-      "Twin Anti-Air Bolter||Right"
+      "AC Twin Heavy Bolter|2|FxF",
+      "AC Twin Heavy Bolter||Left",
+      "AC Twin Heavy Bolter||Right"
     ],
     "specialRules": [
       "Damage Capacity 2",
@@ -1070,7 +1070,7 @@
       "Reinforced Armour",
       "Transport"
     ],
-    "notes": "May transport eight infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+    "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
     },
     {
       "name": "Alpha Legion Thunderhawk Transporter",
@@ -1080,8 +1080,8 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Anti-Air Bolter|2|Left",
-        "Twin Anti-Air Bolter|2|Right"
+        "AC Twin Heavy Bolter|2|Left",
+        "AC Twin Heavy Bolter|2|Right"
       ],
       "specialRules": [
         "Damage Capacity 2",

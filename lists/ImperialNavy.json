@@ -59,7 +59,7 @@
       "weapons": [
         "AC Twin Lascannon",
         "AC Bomb Racks",
-        "AC Twin Heavy Bolter|2|"
+        "AC Heavy Bolter Turrets|2|"
       ],
       "specialRules": [
 
@@ -73,7 +73,7 @@
       "weapons": [
         "AC Twin Lascannon",
         "AC Colossus Bomb",
-        "AC Twin Heavy Bolter|2|"
+        "AC Heavy Bolter Turrets|2|"
       ],
       "specialRules": [
 
@@ -84,7 +84,14 @@
       "name": "Lunar Class Cruiser",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 3BP",
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+        },
         "Pin Point"
       ]
     },
@@ -92,7 +99,14 @@
       "name": "Emperor Class Battleship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 8BP"
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "8BP, MW"
+              }
+            ]
+        }
       ],
       "specialRules": [
         "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"

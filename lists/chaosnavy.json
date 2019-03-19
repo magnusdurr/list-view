@@ -101,9 +101,16 @@
       "name": "Devastation Class Cruiser",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 3BP",
-        "Pin Point"
-    ],
+        {
+          "name": "Orbital Bombardment",
+          "modes": [
+            {
+              "firepower": "3BP, MW"
+            }
+          ]
+      },
+      "Pin Point"
+      ],
         "notes": "Transport. May transport 20 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
     },
     {
@@ -120,7 +127,14 @@
       "name": "Despoiler Class Battleship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 3BP",
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+        },
         "Pin Point|2|"
       ],
       "specialRules": [

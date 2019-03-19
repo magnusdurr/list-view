@@ -118,7 +118,14 @@
       "name": "Wraithship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 4BP|0-1|",
+          {
+            "name": "0-1x Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+        },
         "Pin Point|0-1|"
       ],
       "specialRules": [
@@ -128,7 +135,14 @@
       "name": "Dragonship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 8BP|0-1 1|",
+          {
+            "name": "0-1x Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "8BP, MW"
+              }
+            ]
+        },
         "Pin Point|0-1 2|"
       ],
       "specialRules": [

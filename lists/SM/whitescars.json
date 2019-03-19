@@ -23,8 +23,8 @@
     {
       "from": "SM.json",
       "units": [
-        "Chaptain","Chaplain","Librarian","Supreme Commander",
-        "Assault","Scout","Tactical","Terminator","White Scars Bike","White Scars Scout Bike",
+        "Captain","Chaplain","Librarian","Supreme Commander",
+        "Assaults","Scouts","Tacticals","Terminators","White Scars Bikes","White Scars Scout Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","White Scars Attack Bike","White Scars Melta Bike",
         "Hunter","Land Raider","Land Raider Crusader","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","White Scar Vindicator",
         "Landing Craft","Storm Talon Gunship","Thunderhawk","Thunderhawk Transporter",
@@ -43,8 +43,8 @@
       "name": "White Scars Core Detachments",
       "formations": [
         {
-          "name": "Assault",
-          "units": "Four Assault units",
+          "name": "Assaults",
+          "units": "Four Assaults",
           "upgrades": [
             "Commander",
             "Vindicators"
@@ -73,7 +73,7 @@
     },
     {
       "name": "White Scars Support Detachments",
-      "description": "Two support detachment may be fielded per core detachment",
+      "description": "Two Support Detachments may be fielded per Core Detachment",
       "formations": [
         {
           "name": "Land Speeder",
@@ -96,7 +96,7 @@
         },
         {
           "name": "Scout",
-          "units": "Four Scout units plus transport",
+          "units": "Four Scouts plus transport",
           "upgrades": [
             "Commander",
             "Razorbacks",
@@ -105,7 +105,7 @@
           "points": 150
         },
         {
-          "name": "0-1 Strike Cruiser",
+          "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
           "upgrades": [
             "Battle Barge"
@@ -113,8 +113,8 @@
           "points": 200
         },
         {
-          "name": "Tactical",
-          "units": "Six Tactical units plus transport",
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
           "upgrades": [
             "Commander",
             "Hunter",
@@ -124,8 +124,8 @@
           "points": 275
         },
         {
-          "name": "Terminator",
-          "units": "Four Terminator units plus transport",
+          "name": "Terminators",
+          "units": "Four Terminators plus transport",
           "upgrades": [
             "Commander",
             "Hunter",
@@ -135,7 +135,7 @@
           "points": 475
         },
         {
-          "name": "Whirlwind",
+          "name": "Whirlwind Battery",
           "units": "Four Whirlwinds",
           "upgrades": [
             "Commander",
@@ -189,7 +189,7 @@
     "items": [
       {
         "name": "Attack Bikes",
-        "description": "Replace up to three White Scars Bike units, or one White Scars Scout Bike unit, with an equal number of White Scars Attack or Melta Bikes",
+        "description": "Replace up to three White Scars Bikes, or one White Scars Scout Bikes, with an equal number of White Scars Attack or Melta Bikes",
         "points": "Free"
       },
       {
@@ -206,7 +206,7 @@
             "points": "50 points"
           },
           {
-            "description": "0–1 Supreme Commander per army",
+            "description": "0–1 Supreme Commander",
             "points": "100 points"
           }
         ]
@@ -233,7 +233,7 @@
       },
       {
         "name": "Snipers",
-        "description": "Give up to four Scout units Sniper",
+        "description": "Give up to four Scouts Sniper",
         "points": "10 points each"
       },
       {

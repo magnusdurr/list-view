@@ -13,10 +13,10 @@
     {
       "from": "SM.json",
       "units": [
-        "Chaptain","Chaplain","Librarian","Supreme Commander",
-        "Assault","Scout","Tactical","Terminator","Assault Bike",
+        "Captain","Chaplain","Librarian","Supreme Commander",
+        "Assaults","Scouts","Tacticals","Terminators","Assault Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Attack Bike",
-        "Hunter","Stalker", "Land Raider","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","Vindicator",
+        "Dreadnought", "Dreadnought, Hellfire", "Hunter","Stalker", "Land Raider","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","Vindicator",
         "Landing Craft","Storm Talon Gunship","Thunderhawk",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
@@ -39,7 +39,7 @@
       "formations": [
         {
           "name": "Assaults",
-          "units": "Four Assault units",
+          "units": "Four Assaults",
           "upgrades": [
             "Commander",
             "Vindicators"
@@ -92,7 +92,7 @@
       },
       {
         "name": "Predators",
-        "units": "Four Predator Annihilator or 4 Predator Destructor",
+        "units": "Four Predator Annihilator or four Predator Destructor",
         "upgrades": [
           "AAA",
           "Commander"
@@ -103,7 +103,7 @@
     },
     {
       "name": "Codex Astartes Support Detachments",
-      "description": "Two support detachment may be fielded per core detachment",
+      "description": "Three Support Detachments may be fielded per Core Detachment",
       "formations": [
         {
           "name": "Land Speeder",
@@ -126,7 +126,7 @@
         },
         {
           "name": "Scouts",
-          "units": "Four Scout units plus transport",
+          "units": "Four Scouts plus transport",
           "upgrades": [
             "Commander",
             "Razorbacks",
@@ -143,7 +143,7 @@
           "points": 200
         },
         {
-          "name": "Terminator",
+          "name": "Terminators",
           "units": "Four Terminators",
           "upgrades": [
             "Commander",
@@ -153,7 +153,7 @@
           "points": 350
         },
         {
-          "name": "Whirlwind",
+          "name": "Whirlwind Battery",
           "units": "Four Whirlwinds",
           "upgrades": [
             "Commander",
@@ -205,12 +205,12 @@
     "items": [
       {
         "name": "Attack Bikes",
-        "description": "Replace any number of Assault Bikes units with an equal number of Attack Bikes",
+        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
         "points": "Free"
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts",
+        "description": "Add up to two Dreadnoughts or Hellfire Dreadnoughts",
         "points": ["50 points each", "75 points per pair"]
       },
       {
@@ -227,7 +227,7 @@
             "points": "50 points"
           },
           {
-            "description": "0–1 Supreme Commander per army",
+            "description": "0–1 Supreme Commander",
             "points": "100 points"
           }
         ]
@@ -258,7 +258,7 @@
       },
       {
         "name": "Snipers",
-        "description": "Give up to four Scout units Sniper",
+        "description": "Give up to four Scouts Sniper",
         "points": "10 points each"
       },
       {

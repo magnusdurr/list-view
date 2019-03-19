@@ -266,6 +266,17 @@
       ]
     },
     {
+      "name": "AC Blacksword Missiles",
+        "modes": [
+          {
+            "firepower": "AP6+/AA6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Blasta Bombs",
         "modes": [
           {
@@ -605,6 +616,18 @@
       ]
     },
     {
+      "name": "AC Stasis Bomb",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+        }
+      ]
+    },
+    {
       "name": "AC Storm Bolters",
       "modes": [
         {
@@ -678,7 +701,7 @@
       ]
     },
     {
-      "name": "AC Twin Heavy Bolter",
+      "name": "AC Heavy Bolter Turrets",
         "modes": [
           {
             "firepower": "AA5+",
@@ -729,6 +752,18 @@
       ]
     },
     {
+      "name": "AC Hurricane Bolters",
+        "modes": [
+          {
+            "firepower": "AP5+/AA5+",
+            "range": 15,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Incendiary Bombs",
         "modes": [
           {
@@ -745,6 +780,17 @@
         "modes": [
           {
             "firepower": "AA6+",
+            "range": 15,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Rift Cannon",
+        "modes": [
+          {
+            "firepower": "MW4+",
             "range": 15,
             "specialRules": [
           ]
@@ -2226,6 +2272,17 @@
       ]
     },
     {
+      "name": "Corvus Hammers",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "MW"
+              ]
+        }
+      ]
+    },
+    {
       "name": "Court of the Young King",
       "modes": [
         {
@@ -2243,6 +2300,17 @@
         {
           "firepower": "5x AP4+/AT4+",
             "range": 75,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyclone Missile Launchers",
+      "modes": [
+        {
+          "firepower": "3x AP5+/AT6+",
+            "range": 45,
           "specialRules": [
           ]
         }
@@ -4706,6 +4774,15 @@
       ]
     },
     {
+      "name": "Quad Lascannon",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 45
+        }
+      ]
+    },
+    {
       "name": "Lascannon Turret",
       "modes": [
         {
@@ -5297,7 +5374,7 @@
       ]
     },
     {
-      "name": "Multi-melta",
+      "name": "Multi-Melta",
       "modes": [
         {
           "firepower": "MW5+",
@@ -5743,7 +5820,7 @@
       ]
     },
     {
-      "name": "Plasma Cannons",
+      "name": "Plasma Cannon",
         "modes": [
           {
             "firepower": "AP5+/AT5+",
@@ -5798,6 +5875,17 @@
             "range": 90,
             "specialRules": [
                 "Slw"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Plasma Destroyer",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 60,
+            "specialRules": [
           ]
           }
       ]
@@ -5884,6 +5972,28 @@
             "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Plasma Storm Battery",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT5+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Plasma Talons",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 15,
+            "specialRules": [
+          ]
+          }
       ]
     },
     {
@@ -7918,6 +8028,18 @@
       ]
     },
     {
+      "name": "Thunderhammers and Stormshields",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Thunderstrike Gauntlet",
       "modes": [
         {
@@ -8158,15 +8280,6 @@
       ]
     },
     {
-      "name": "Twin Anti-Air Bolter",
-      "modes": [
-        {
-          "firepower": "AP4+/AA5+",
-          "range": 15
-        }
-      ]
-    },
-    {
       "name": "Twin Assault Cannon",
       "modes": [
         {
@@ -8180,6 +8293,15 @@
       "modes": [
         {
           "firepower": "AP4+/AT5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Twin Mortis Autocannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT5+/AA6+",
           "range": 45
         }
       ]
@@ -8259,11 +8381,11 @@
       ]
     },
     {
-      "name": "Twin Heavy Anti-Air Bolter",
+      "name": "AC Twin Heavy Bolter",
       "modes": [
         {
-          "firepower": "AP4+/AA5+",
-          "range": 30
+          "firepower": "AP5+/AA5+",
+          "range": 15
         }
       ]
     },
@@ -8778,6 +8900,19 @@
             "range": 60,
             "specialRules": [
               "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Volkite Carronade",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT4+",
+            "range": 45,
+            "specialRules": [
+              "D",
+              "IC"
           ]
           }
       ]

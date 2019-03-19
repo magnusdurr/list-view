@@ -51,7 +51,14 @@
       "name": "Scythe Class Harvester",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 4BP",
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+        },
         "Pin Point|2|"
       ]
     }

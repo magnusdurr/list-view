@@ -13,16 +13,16 @@
     {
       "from": "SM.json",
       "units": [
-        "Chaptain",
+        "Captain",
         "Chaplain",
         "Librarian",
         "Supreme Commander",
-        "Assault",
-        "Assault Bike",
+        "Assaults",
+        "Assault Bikes",
         "Scout",
         "Sternguard Veterans",
-        "Tactical",
-        "Terminator",
+        "Tacticals",
+        "Terminators",
         "Vanguard Assault Veterans",
         "Vanguard Veterans",
         "Attack Bike",
@@ -60,8 +60,8 @@
       "name": "Ravenguard Core Detachments",
       "formations": [
         {
-          "name": "Assault",
-          "units": "Four Assault units",
+          "name": "Assaults",
+          "units": "Four Assaults",
           "upgrades": [
             "Commander",
             "Land Speeders"
@@ -69,7 +69,7 @@
           "points": 175
         },
         {
-          "name": "Devastator",
+          "name": "Devastators",
           "units": "Four Devastator units plus transport",
           "upgrades": [
             "Commander",
@@ -81,7 +81,7 @@
         },
         {
           "name": "Scout",
-          "units": "Four Scout units plus transport",
+          "units": "Four Scouts plus transport",
           "upgrades": [
             "Commander",
             "Land Speeders",
@@ -91,8 +91,8 @@
           "points": 150
         },
         {
-          "name": "Tactical",
-          "units": "Four Tactical units plus transport",
+          "name": "Tacticals",
+          "units": "Four Tacticals plus transport",
           "upgrades": [
             "Commander",
             "Land Speeders",
@@ -105,7 +105,7 @@
     },
     {
       "name": "Ravenguard Elite Detachments",
-      "description": "One elite detachment may be fielded per core detachments",
+      "description": "One Elite Detachment may be fielded per Core Detachment",
       "formations": [
         {
           "name": "Sternguard Veteran",
@@ -121,7 +121,7 @@
         },
         {
           "name": "0-1 Terminators",
-          "units": "Four Terminator units",
+          "units": "Four Terminators",
           "upgrades": [
             "Commander"
           ],
@@ -151,11 +151,11 @@
     },
     {
       "name": "Ravenguard Support Detachments",
-      "description": "One support detachment may be fielded per core detachment",
+      "description": "One Support Detachment may be fielded per Core Detachment",
       "formations": [
         {
-          "name": "Bike",
-          "units": "Any five of the following units: Attack Bike, Assault Bike",
+          "name": "Bikes",
+          "units": "Any five of the following units: Attack Bike, Assault Bikes",
           "upgrades": [
             "Commander",
             "Land Speeders"
@@ -163,7 +163,7 @@
           "points": 200
         },
         {
-          "name": "Land Speeder",
+          "name": "Land Speeders",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
           "upgrades": [
             "Commander",
@@ -173,7 +173,7 @@
           "points": 200
         },
         {
-          "name": "0-1 Strike Cruiser",
+          "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
           "upgrades": [
             "Battle Barge"
@@ -235,7 +235,7 @@
             "points": "50 points"
           },
           {
-            "description": "0–1 Supreme Commander per army",
+            "description": "0–1 Supreme Commander",
             "points": "100 points"
           }
         ]
@@ -275,7 +275,7 @@
       },
       {
         "name": "Snipers",
-        "description": "Give up to four Scout units Sniper",
+        "description": "Give up to four Scouts Sniper",
         "points": "10 points each"
       },
       {
