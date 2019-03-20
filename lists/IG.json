@@ -159,7 +159,8 @@
         "Twin Heavy Stubber"
       ],
       "specialRules": [
-        "Commander"
+        "Commander",
+        "Walker (also works against enemy fortifications)"
       ]
     },
 
@@ -976,6 +977,7 @@
         "Melta Cutter"
       ],
       "specialRules": [
+          "Walker (also works against enemy fortifications)",
           "Provides its formation with the Tunnelers special rule"
       ]
     },
@@ -1162,32 +1164,34 @@
       "name": "Malcador",
       "type": "H-AV",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Battle Cannon",
         "Heavy Bolter",
         "Heavy Stubber|2|"
       ],
       "specialRules": [
-        "Reinforced Armour"
+        "Reinforced Armour",
+        "Walker"
       ]
     },
     {
       "name": "Malcador Annihilator",
       "type": "H-AV",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Twin Lascannon",
         "Demolisher Cannon",
         "Heavy Stubber|2|"
       ],
       "specialRules": [
-        "Reinforced Armour"
+        "Reinforced Armour",
+        "Walker"
       ]
     },
     {

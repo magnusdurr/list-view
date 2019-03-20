@@ -117,7 +117,7 @@
     {
       "title": "Commissars",
       "description": [
-        "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points. Commissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander’s formation. Any further Commissars may be attached to any other formations.",
+        "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points. Commissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander’s formation. Any further Commissars must first be attached to a Company / Core formation and after that to Platoons / Support.",
         "You may not include more than one Commissar per formation, and you may not add Commissars to formation upgrade units.",
         "You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
             ]
@@ -125,7 +125,7 @@
     {
       "title": "Lord Commissar",
       "description": [
-        "All units in a formation joined by a Lord Commissar gain Fearless. If the Lord Commissar is killed then all these units lose Fearless and the formation receives an additional D3 Blast Markers."
+        "All units in a formation joined by a Lord Commissar gain Fearless. If the unit with the Lord Commissar is killed the formations loses Fearless and receives 1D3 Blast Markers."
         ]
     },
     {
@@ -177,7 +177,7 @@
     {
       "title": "Siegemasters",
       "description": [
-        "The Barans are trench warfare specialists, adept at both defending and clearing choke points and key objectives. Up to 4 formations that Garrison may start in Overwatch instead of the usual 2."
+        "The Barans are trench warfare specialists, adept at both defending and clearing choke points and key objectives. Up to four formations that Garrison may start in Overwatch instead of the usual two."
         ]
     },
     {
@@ -792,7 +792,7 @@
       "title": "Patriarch Host",
       "description": [
           "A Genestealer army must include a Patriarch Host. This formation is always considered to be the BTS even if it not the most expensive formation.",
-          "While the Partiach Brood Coven unit is on the table all units in the Patraich Host are consider fearless. If the Partiarch Brood Coven is removed from the table the Patraich Host immediatly loses Fearless.",
+          "While the Patriarch Brood Coven unit is on the table all units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediatly loses Fearless.",
           "In addition, while the Patriarch Host is alive and on the table, all units in a 'Cult Guard' formation with a Genestealer Primus are considered Expendable (except for the unit with the Genestealer Primus). If the Genestealer Primus dies, the 'Cult Guard' units immediately loses Expendable"
       ]
     },

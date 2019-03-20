@@ -1,8 +1,8 @@
 {
   "fraction": "Harlequin",
   "army": "Masque of the Veiled Path",
-  "version": "1.1",
-  "release": "2019-02-22",
+  "version": "1.2",
+  "release": "2019-03-19",
   "strategy": "Harlequin armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -31,7 +31,7 @@
         "Eldar Farseer",
         "Eldar Guardians",
         "Ghost Walkers",
-        "Eldar Jetbikes",
+        "Lugganath Jetbikes",
         "Dire Avengers",
         "Dark Reapers",
         "Warp Spiders",
@@ -42,6 +42,7 @@
         "Wraithlord",
         "Wave Serpent",
         "Fire Prism",
+        "Falcon",
         "Firestorm",
         "Cobra",
         "Storm Serpent",
@@ -80,6 +81,7 @@
         "Dragonship"
       ],
         "unitRules": [
+            "God Machine Killer (GMK)"
       ]
     }
 ],
@@ -91,7 +93,7 @@
           "name": "1 Avatar",
           "units": "One Avatar",
 
-          "points": "Free"
+          "points": "0"
         },
         {
           "name": "0-1 Wraithgate",
@@ -125,7 +127,7 @@
     },
     {
       "name": "Craftworld Lugganath Troupes",
-      "description": "Up to two for each 'Lugganath Hosts' taken",
+      "description": "Up to two for each 'Lugganath Host' taken",
       "formations": [
         {
           "name": "Wasp Walkers",
@@ -277,22 +279,22 @@
       },
       {
         "name": "Exarch",
-        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
-        "points": "50 points each"
+        "description": "Add up to one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "points": "50 points"
       },
       {
         "name": "Firestorm",
         "description": "Add one Firestorm",
-        "points": 50
+        "points": "50 points"
       },
       {
         "name": "Farseer",
-        "description": "Add one Farseer character to a unit of Guardians",
-        "points": 25
+        "description": "Add one Farseer and a Venom to the formation",
+        "points": "75 points"
       },
       {
         "name": "Windriders",
-        "description": "Add up to six Eldar Jetbikes to the formation",
+        "description": "Add up to six Lugganath Jetbikes to the formation",
         "points": "25 points each"
       }
     ]

@@ -1,12 +1,12 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "1.3",
-  "release": "2019-03-13",
+  "version": "1.4",
+  "release": "2019-03-19",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Titan Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Commissars", "Lord Commissar"],
+  "specialRules": ["Lord Commissar"],
   "usage": [
     "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
   ],
@@ -79,7 +79,7 @@
       "formations": [
         {
           "name": "Regimental HQ",
-          "units": "One Supreme Commander unit, nine Infantry and five Chimeras",
+          "units": "One Steel Legion Supreme Commander unit with a Commissar, nine Infantry and five Chimeras",
           "upgrades": [
               "All"
           ],
@@ -87,7 +87,7 @@
         },
         {
           "name": "Mechanized Infantry Company",
-          "units": "One Commander unit, nine Infantry and five Chimeras",
+          "units": "One Steel Legion Commander unit with a Commissar, nine Infantry and five Chimeras",
           "upgrades": [
               "All except Lord Commissar"
           ],
@@ -95,15 +95,15 @@
         },
         {
           "name": "Infantry Company",
-          "units": "One Commander unit and twelve Infantry",
+          "units": "One Steel Legion Commander unit with a Commissar and twelve Infantry",
           "upgrades": [
               "All except Lord Commissar"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Leman Russ Company",
-          "units": "One Leman Russ Vanquisher, nine Leman Russ",
+          "units": "One Leman Russ Vanquisher with a Commissar, nine Leman Russ",
           "upgrades": [
             "Flak, Griffon Battery, Hellhound Squadron, Leman Russ Squadron"
           ],
@@ -111,14 +111,15 @@
         },
         {
           "name": "Super-Heavy Tank Company",
-          "units": "Three Baneblades and/or Shadowswords",
+          "units": "Three Baneblades and/or Shadowswords, one with a Commissar",
           "upgrades": [
+              "Ogryns, Flak, Leman Russ Squadron, Hellhounds"
           ],
           "points": 500
         },
         {
           "name": "Artillery Company",
-          "units": "Six Basilisks and/or Manticores. Six Gun Emplacements.",
+          "units": "Six Basilisks and/or Manticores, one with a Commissar. Six Gun Emplacements.",
           "upgrades": [
             "Flak"
           ],
@@ -130,11 +131,20 @@
       "name": "Support Formations",
       "description": "Up to two Support Formations for each Company.",
       "formations": [
+          {
+            "name": "Mechanized Infantry Platoon",
+            "units": "Six Infantry and three Chimeras",
+            "upgrades": [
+                "Add up to three Hellhounds: 25 points each",
+                "Add a Commissar to the formation: 50 points"
+            ],
+            "points": 200
+          },
         {
           "name": "0–1 Deathstrike Battery",
           "units": "Two Deathstrikes",
           "upgrades": [
-            "Add two Gun Emplacements for +25 points"
+            "Add two Gun Emplacements: 25 points"
           ],
           "points": 200
         },
@@ -142,7 +152,7 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks or Manticores",
           "upgrades": [
-            "Add three Gun Emplacements for +25 points"
+            "Add three Gun Emplacements: 25 points"
           ],
           "points": 250
         },
@@ -157,13 +167,16 @@
           "name": "Flak Battery",
           "units": "Three Hydras",
           "upgrades": [
-            "Add three Gun Emplacements for +25 points"
+            "Add three Gun Emplacements: 25 points"
           ],
           "points": 150
         },
         {
           "name": "Rough Rider Platoon",
           "units": "Six Rough Riders",
+          "upgrades": [
+            "Add a Commissar to the formation: 50 points"
+          ],
           "points": 150
         },
         {
@@ -176,11 +189,17 @@
         {
           "name": "Super-Heavy Tank Platoon",
           "units": "One Baneblade, Shadowsword or Stormblade",
+          "upgrades": [
+            "Add a Commissar to the formation: 50 points"
+          ],
           "points": 200
         },
         {
           "name": "Leman Russ Platoon",
           "units": "Six Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
+          "upgrades": [
+            "Add a Commissar to the formation: 50 points"
+          ],
           "points": 400
         },
 
@@ -191,10 +210,10 @@
         },
         {
           "name": "Tempestus Scions",
-          "units": "Eight Tempestus Scions and one Tempestor",
-          "points": 200,
+          "units": "Eight Tempestus Scions and one Tempestor with a Commissar",
+          "points": 225,
           "upgrades": [
-              "Add four Taurox or four Valkyries: +150 points"
+              "Add four Taurox or four Valkyries: 150 points"
           ]
         }
       ]
@@ -284,8 +303,8 @@
         "name": "Hellhound Squadron",
         "options": [
           {
-            "description": "Add three Hellhounds",
-            "points": "75 points"
+            "description": "Add up to three Hellhounds",
+            "points": "25 points each"
           }
         ]
       },
@@ -311,8 +330,8 @@
         "name": "Snipers*",
         "options": [
           {
-            "description": "Add two Snipers",
-            "points": "50 points"
+            "description": "Add up to two Snipers",
+            "points": "25 points each"
           }
         ]
       },
@@ -321,7 +340,7 @@
         "options": [
           {
             "description": "Add three Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
-            "points": "175 points"
+            "points": "125 points"
           }
         ]
       },
