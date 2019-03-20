@@ -1,17 +1,17 @@
 {
   "fraction": "Astra Militarum",
   "army": "Baran Siegemasters",
-  "version": "1.4",
-  "release": "2019-03-09",
+  "version": "1.5",
+  "release": "2019-03-20",
   "strategy": "Siegemaster armies have a Strategy Rating of 1.",
-  "Initiative": "All formations have a Initiative of 2+.",
+  "Initiative": "Sappers have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+.",
 
   "specialRules": [
       "Baran Regimental HQ",
       "Siegemasters",
+      "Courage, Discipline and Loyalty",
       "Tunnelers",
-      "Fortified Positions",
-      "Courage, Discipline and Loyalty"
+      "Fortified Positions"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Baran Siegemasters"
@@ -26,7 +26,7 @@
         "Siege Infantry",
         "Trench Support Squad",
         "Sappers",
-        "Rough Riders",
+        "Death Riders",
         "Snipers",
         "Thudd Gun",
         "Rapier",
@@ -44,6 +44,7 @@
         "Baran Macharius",
         "Macharius Medusa",
         "Baneblade",
+        "Shadowsword",
         "Stormsword"
       ],
         "unitRules": [
@@ -67,7 +68,7 @@
       "formations": [
         {
           "name": "1 Regimental HQ",
-          "units": "One Baran Siegemaster unit with a Commissar, nine Siege Infantry",
+          "units": "One Baran Siegemaster with a Commissar, eleven Siege Infantry",
           "extraUnits": [
               "Rapiers",
               "Thudd Guns",
@@ -77,11 +78,11 @@
               "Siegehound Platoon",
               "Fortified Positions"
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Siege Infantry Company",
-          "units": "One Baran Commander with a Commissar, nine Siege Infantry",
+          "units": "One Baran Commander with a Commissar, eleven Siege Infantry",
           "extraUnits": [
               "Rapiers",
               "Thudd Guns",
@@ -91,7 +92,7 @@
               "Siegehound Platoon",
               "Fortified Positions"
           ],
-          "points": 175
+          "points": 200
     }
   ]
 },
@@ -110,7 +111,7 @@
           "name": "Howitzer Battery",
           "units": "Three Howitzers, three Gun Emplacements",
           "upgrades": [
-              "Add three Howitzers, one Commissar, three Gun Emplacements: 175 points"
+              "Howitzer Company"
           ],
           "points": 150
         },
@@ -136,12 +137,9 @@
           "points": 150
         },
         {
-          "name": "Rough Rider Platoon",
-          "units": "Six Rough Riders",
-          "upgrades": [
-              "Add one Commissar: 50 points"
-          ],
-          "points": 150
+          "name": "Death Rider Platoon",
+          "units": "Eight Death Riders",
+          "points": 200
         },
         {
           "name": "Light Tank Platoon",
@@ -149,17 +147,18 @@
           "upgrades": [
               "Add three Griffons: 75 points"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Heavy Tank Platoon",
-          "units": "Six Ragnarok Heavy Tanks, one Commissar, six Gun Emplacements",
+          "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements",
           "upgrades": [
+              "Heavy Tank Company"
           ],
-          "points": 325
+          "points": 350
         },
         {
-          "name": "Macharius Platoon",
+          "name": "Macharius Company",
           "units": "Three Baran Macharius, one Commissar",
           "upgrades": [
               "Replace up to three Baran Macharius with Macharius Medusa: 25 points each"
@@ -168,20 +167,17 @@
         },
         {
           "name": "Super-Heavy Tank Platoon",
-          "units": "One Baneblade or Stormsword",
-          "upgrades": [
-              "Add one Commissar: 50 points"
-          ],
+          "units": "One Baneblade, Shadowsword or Stormsword",
           "points": 200
         },
 
         {
-          "name": "Sapper Platoon",
-          "units": "One Baran Commander with a Commissar, seven Sappers",
+          "name": "Sapper Company",
+          "units": "One Baran Commander with a Commissar, seven Sappers, one Hades Breaching Drill",
           "upgrades": [
-              "Add one Hades Breaching Drill. Formation may only enter the battlefield by Tunneling: 50 points"
+              "Formation may only enter the battlefield by Tunneling"
           ],
-          "points": 250
+          "points": 300
         }
       ]
     },
@@ -216,12 +212,30 @@
     "title": "Baran Siegemaster Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
+        {
+          "name": "Howitzer Company",
+          "options": [
+            {
+              "description": "Add a Commissar, three Howitzers, three Gun Emplacements",
+              "points": "200 points"
+            }
+          ]
+        },
+        {
+          "name": "Heavy Tank Company",
+          "options": [
+            {
+              "description": "Add a Commissar, four Ragnarok Tanks, four Gun Emplacements",
+              "points": "200 points"
+            }
+          ]
+        },
       {
         "name": "Rapiers",
         "options": [
           {
-            "description": "Add three Rapiers",
-            "points": "25 points"
+            "description": "Add six Rapiers",
+            "points": "100 points"
           }
         ]
       },
@@ -229,8 +243,8 @@
         "name": "Thudd Gun",
         "options": [
           {
-            "description": "Add three Thudd Guns",
-            "points": "50 points"
+            "description": "Add six Thudd Guns",
+            "points": "150 points"
           }
         ]
       },
@@ -247,8 +261,8 @@
         "name": "Siege Infantry",
         "options": [
           {
-            "description": "Add six Siege Infantry",
-            "points": "50 points"
+            "description": "Add four Siege Infantry",
+            "points": "25 points"
           }
         ]
       },
@@ -278,7 +292,16 @@
             "points": "75 points"
           }
         ]
-      }
+    },
+    {
+      "name": "Entrenchments",
+      "options": [
+        {
+          "description": "60cm Razor Wire and 60cm Trenches",
+          "points": "50 points"
+        }
+      ]
+    }
     ]
   }
 }

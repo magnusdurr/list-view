@@ -176,7 +176,8 @@
         "Twin Heavy Stubber"
       ],
       "specialRules": [
-        "Commander"
+        "Commander",
+          "Walker (also works against enemy fortifications)"
       ]
     },
     {
@@ -526,6 +527,7 @@
         "Heavy Flamer"
       ],
       "specialRules": [
+          "Walker (also works against enemy fortifications)"
       ]
     },
     {
@@ -577,7 +579,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Heavy Stubber|2|",
+        "Twin Heavy Stubber|2|",
         "Flamer"
       ],
       "specialRules": [
@@ -906,7 +908,7 @@
     {
       "name": "Heavy Mortar",
       "type": "LV",
-      "speed": "Immobile",
+      "speed": 10,
       "cc": 6,
       "ff": 6,
       "weapons": [
@@ -1026,7 +1028,8 @@
         "Demolisher Cannon"
       ],
       "specialRules": [
-        "Reinforced Armour"
+        "Reinforced Armour",
+        "Walker"
       ]
     },
     {
@@ -1111,7 +1114,7 @@
         "Heavy Bolters|2|"
       ],
       "specialRules": [
-        "Skimmer"
+        "Skimmer",
         "Transport (May carry 2 infantry units without jump pack or mounted)"
       ]
     },
@@ -1283,7 +1286,7 @@
     {
       "name": "Baran Macharius",
       "type": "WE",
-      "speed": 15,
+      "speed": 20,
       "armour": 4,
       "cc": 6,
       "ff": 4,
@@ -1293,15 +1296,14 @@
       ],
       "specialRules": [
         "Damage Capacity 2",
-        "Reinforced Armour",
-        "Walker"
+        "Reinforced Armour"
       ],
       "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
     },
     {
       "name": "Macharius Medusa",
       "type": "WE",
-      "speed": 15,
+      "speed": 20,
       "armour": 4,
       "cc": 6,
       "ff": 4,
@@ -1311,8 +1313,7 @@
       ],
       "specialRules": [
         "Damage Capacity 2",
-        "Reinforced Armour",
-        "Walker"
+        "Reinforced Armour"
       ],
       "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
     },
@@ -1348,10 +1349,10 @@
       ],
       "specialRules": [
         "Damage Capacity: 4",
-        "Void Shields: 2",
+        "Void Shields: 4",
         "Reinforced Armour",
         "Fearless",
-        "Transport: Transport 16 infantry units without jumppack or mounted. Up to six units may Fire and FF from the fighting platform."
+        "Transport: Transport 16 infantry units without jumppack or mounted. Up to six units may shoot and FF from the fighting platform."
       ],
       "notes": "Critical Hit Effect: 1st hit immobilizes, subsequent critical hits the unit is destroyed"
     },
@@ -1390,7 +1391,7 @@
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
-        "Transport: May transport 8 infantry units without jumppack or mounted, 4 may fire from the firing deck and FF in assaults"
+        "Transport: May transport eight infantry units without jumppack or mounted, four may fire from the firing deck and FF in assaults"
       ],
       "notes": "Critical Hit Effect: The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit"
     },
