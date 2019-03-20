@@ -6358,9 +6358,11 @@
       "name": "Pulse Submunition Cannons",
         "modes": [
           {
-            "firepower": "AP3+/AT5+",
+            "firepower": "2x AP4+/AT5+",
             "range": 45,
             "specialRules": [
+              "IC"
+              "D"
 
           ]
           }
@@ -8351,7 +8353,7 @@
       "name": "Twin Eldar Missile Launcher",
       "modes": [
         {
-          "firepower": "AP5+/AT6+/AA6+",
+          "firepower": "AP4+/AT5+/AA5+",
           "range": 45,
           "specialRules": [
           ]
