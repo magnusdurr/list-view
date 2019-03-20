@@ -208,13 +208,17 @@
     },
     {
       "name": "Tempestor",
-      "type": "CH",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
       "weapons": [
-        "Plasma Gun"
+        "Plasma Gun|2|"
       ],
       "specialRules": [
-        "Commander",
-        "Leader"
+        "Scout",
+        "Commander"
       ]
     },
     {
@@ -785,6 +789,7 @@
         "Twin Assault Cannon"
       ],
       "specialRules": [
+        "Walker",
         "Transport (May carry 2 infantry units without jump packs or mounted)."
       ]
     },
@@ -1106,8 +1111,7 @@
         "Heavy Bolters|2|"
       ],
       "specialRules": [
-        "Skimmer",
-        "Scout",
+        "Skimmer"
         "Transport (May carry 2 infantry units without jump pack or mounted)"
       ]
     },
@@ -1140,8 +1144,7 @@
         "Heavy Bolters"
       ],
       "specialRules": [
-        "Skimmer",
-        "Scout"
+        "Skimmer"
       ]
     },
     {
@@ -1156,8 +1159,7 @@
         "Heavy Bolter|2|"
       ],
       "specialRules": [
-        "Skimmer",
-        "Scout"
+        "Skimmer"
       ]
     },
     {
