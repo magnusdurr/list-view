@@ -81,7 +81,7 @@
         {
           "name": "Regimental HQ",
           "units": "One Steel Legion Supreme Commander with a Commissar, nine Infantry and five Chimeras",
-          "upgrades": [
+          "extraUnits": [
               "All"
           ],
           "points": 400
@@ -89,7 +89,7 @@
         {
           "name": "Mechanized Infantry Company",
           "units": "One Steel Legion Commander with a Commissar, nine Infantry and five Chimeras",
-          "upgrades": [
+          "extraUnits": [
               "All except Lord Commissar"
           ],
           "points": 300
@@ -97,7 +97,7 @@
         {
           "name": "Infantry Company",
           "units": "One Steel Legion Commander with a Commissar and twelve Infantry",
-          "upgrades": [
+          "extraUnits": [
               "All except Lord Commissar"
           ],
           "points": 225
@@ -105,7 +105,7 @@
         {
           "name": "Leman Russ Company",
           "units": "One Leman Russ Vanquisher with a Commissar, nine Leman Russ",
-          "upgrades": [
+          "extraUnits": [
             "Flak, Griffon Battery, Hellhound Squadron, Leman Russ Squadron"
           ],
           "points": 550
@@ -113,18 +113,19 @@
         {
           "name": "Super-Heavy Tank Company",
           "units": "Three Baneblades and/or Shadowswords, one with a Commissar",
-          "upgrades": [
+          "extraUnits": [
               "Ogryns, Flak, Leman Russ Squadron, Hellhounds"
           ],
           "points": 500
         },
         {
           "name": "Artillery Company",
-          "units": "Six Basilisks and/or Manticores, one with a Commissar. Six Gun Emplacements.",
-          "upgrades": [
+          "units": "Six Basilisks, one with a Commissar. Six Gun Emplacements.",
+          "extraUnits": [
+              "Replace six Basilisks with Manticores: 50 points",
             "Flak"
           ],
-          "points": 450
+          "points": 400
         }
       ]
     },
@@ -135,7 +136,7 @@
           {
             "name": "Mechanized Infantry Platoon",
             "units": "Six Infantry and three Chimeras",
-            "upgrades": [
+            "extraUnits": [
                 "Add up to three Hellhounds: 25 points each"
             ],
             "points": 200
@@ -143,30 +144,32 @@
         {
           "name": "0–1 Deathstrike Battery",
           "units": "Two Deathstrikes",
-          "upgrades": [
+          "extraUnits": [
             "Add two Gun Emplacements: 25 points"
           ],
           "points": 200
         },
         {
           "name": "Artillery Battery",
-          "units": "Three Basilisks or Manticores",
-          "upgrades": [
+          "units": "Three Basilisks",
+          "extraUnits": [
+            "Replace three Basilisks with Manticores: 25 points",
             "Add three Gun Emplacements: 25 points"
+
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Bombard Battery",
           "units": "Three Bombards, three Gun Emplacements",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 225
         },
         {
           "name": "Flak Battery",
           "units": "Three Hydras",
-          "upgrades": [
+          "extraUnits": [
             "Add three Gun Emplacements: 25 points"
           ],
           "points": 150
@@ -179,7 +182,7 @@
         {
           "name": "Sentinel Squadron",
           "units": "Four Sentinels",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 100
         },
@@ -203,7 +206,7 @@
           "name": "Tempestus Scion Company",
           "units": "Seven Tempestus Scions and one Tempestor with a Commissar",
           "points": 200,
-          "upgrades": [
+          "extraUnits": [
               "Add four Taurox or four Valkyries: 150 points"
           ]
         }
@@ -216,7 +219,7 @@
           {
             "name": "Warhound Pack",
             "units": "Two Warhounds",
-            "upgrades": [
+            "extraUnits": [
               "Warhound Pack gains the 'Independent' special rule (see special rules) for +50 points."
             ],
             "points": 500
@@ -224,14 +227,14 @@
           {
               "name": "Reaver",
               "units": "One Reaver Titan",
-              "upgrades": [
+              "extraUnits": [
               ],
               "points": 600
           },
           {
               "name": "Warlord",
               "units": "One Warlord Titan",
-              "upgrades": [
+              "extraUnits": [
               ],
               "points": 750
           },
@@ -249,7 +252,7 @@
           "name": "0–1 Orbital Support",
           "units": "One Lunar Class Cruiser",
           "points": 150,
-          "upgrades": [
+          "extraUnits": [
               "Replace with an Emperor Class Battleship for +50 points"
           ]
         }
