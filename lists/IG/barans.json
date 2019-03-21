@@ -1,7 +1,7 @@
 {
   "fraction": "Astra Militarum",
   "army": "Baran Siegemasters",
-  "version": "1.5",
+  "version": "0.5.1",
   "release": "2019-03-20",
   "strategy": "Siegemaster armies have a Strategy Rating of 1.",
   "Initiative": "Sappers have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+.",
@@ -34,7 +34,7 @@
         "Heavy AA Gun",
         "Medusa",
         "Bombard",
-        "Deathstrike",
+        "Deathstrike Silo",
         "Griffon",
         "Siegehound",
         "Howitzer",
@@ -101,11 +101,11 @@
       "description": "Up to two Support Formations for each Company.",
       "formations": [
         {
-          "name": "0–1 Deathstrike Battery",
-          "units": "Two Deathstrikes, two Gun Emplacements",
+          "name": "0–1 Deathstrike Silo",
+          "units": "One Deathstrike Silo",
           "upgrades": [
           ],
-          "points": 200
+          "points": 250
         },
         {
           "name": "Howitzer Battery",
@@ -167,8 +167,11 @@
         },
         {
           "name": "Super-Heavy Tank Platoon",
-          "units": "One Baneblade, Shadowsword or Stormsword",
-          "points": 200
+          "units": "One Baneblade or Stormsword",
+          "upgrades": [
+              "Replace one Baneblade or Stormsword with a Shadowsword: 25 points"
+          ],
+          "points": 175
         },
 
         {

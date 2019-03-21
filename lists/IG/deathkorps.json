@@ -33,7 +33,7 @@
         "Trojan",
         "Bombard",
         "Medusa",
-        "Deathstrike",
+        "Deathstrike Silo",
         "Hellhound",
         "Leman Russ Annihilator",
         "Leman Russ Thunderer",
@@ -122,19 +122,19 @@
       "description": "Up to two Support Formations for each Company Formation.",
       "formations": [
         {
-          "name": "0–1 Deathstrike Battery",
-          "units": "Two Deathstrikes, two Gun Emplacements",
+          "name": "0–1 Deathstrike Silo",
+          "units": "One Deathstrike Silo",
           "upgrades": [
           ],
-          "points": 200
+          "points": 250
         },
         {
           "name": "Earthshaker Battery",
           "units": "Three Earthshaker Guns, three Trojans",
           "upgrades": [
-              "Add three Earthshaker Guns, one Commissar, three Trojans: 175 points"
+              "Add three Earthshaker Guns, one Commissar, three Trojans: 200 points"
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Siege Battery",

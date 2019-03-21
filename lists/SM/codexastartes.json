@@ -1,7 +1,7 @@
 {
   "fraction": "Space Marines",
   "army": "Codex Astartes",
-  "version": "0.8.3",
+  "version": "0.9.0",
   "release": "2019-03-21",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
@@ -35,7 +35,7 @@
   ],
   "sections": [
     {
-      "name": "Codex Astartes Core Detachments",
+      "name": "Codex Astartes Detachments",
       "formations": [
         {
           "name": "Assaults",
@@ -55,56 +55,50 @@
           ],
           "points": 200
         },
-        {
-          "name": "Tacticals",
-          "units": "Six Tacticals plus transport",
-          "upgrades": [
-            "Land Raiders",
-            "AAA",
-            "Commander",
-            "Razorback",
-            "Dreadnoughts",
-            "Vindicators"
-          ],
-          "points": 275
-      },
-      {
-        "name": "Devastators",
-        "units": "Four Devastators plus transport",
-        "upgrades": [
-          "Land Raiders",
-          "AAA",
-          "Commander",
-          "Razorback",
-          "Dreadnoughts",
-          "Vindicators"
-        ],
-        "points": 250
-    },
-      {
-        "name": "Land Raiders",
-        "units": "Three Land Raiders",
-        "upgrades": [
-          "AAA",
-          "Commander"
-        ],
-        "points": 250
-      },
-      {
-        "name": "Predators",
-        "units": "Four Predator Annihilator and/or Predator Destructor",
-        "upgrades": [
-          "AAA",
-          "Commander"
-        ],
-        "points": 250
-      }
-      ]
-    },
-    {
-      "name": "Codex Astartes Support Detachments",
-      "description": "Two Support Detachments may be fielded per Core Detachment",
-      "formations": [
+            {
+              "name": "Tacticals",
+              "units": "Six Tacticals plus transport",
+              "upgrades": [
+                "Land Raiders",
+                "AAA",
+                "Commander",
+                "Razorback",
+                "Dreadnoughts",
+                "Vindicators"
+              ],
+              "points": 275
+          },
+          {
+            "name": "Devastators",
+            "units": "Four Devastators plus transport",
+            "upgrades": [
+              "Land Raiders",
+              "AAA",
+              "Commander",
+              "Razorback",
+              "Dreadnoughts",
+              "Vindicators"
+            ],
+            "points": 250
+        },
+          {
+            "name": "Land Raiders",
+            "units": "Three Land Raiders",
+            "upgrades": [
+              "AAA",
+              "Commander"
+            ],
+            "points": 250
+          },
+          {
+            "name": "Predators",
+            "units": "Four Predator Annihilator and/or Predator Destructor",
+            "upgrades": [
+              "AAA",
+              "Commander"
+            ],
+            "points": 250
+        },
         {
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
@@ -167,6 +161,7 @@
       }
       ]
     },
+
     {
       "name": "Codex Astartes Aircraft & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations",

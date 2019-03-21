@@ -1,7 +1,7 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "release": "2019-03-21",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Titan Legion and Tempestus Scion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -181,8 +181,11 @@
         },
         {
           "name": "Super-Heavy Tank Platoon",
-          "units": "One Baneblade, Shadowsword or Stormblade",
-          "points": 200
+          "units": "One Baneblade or Stormblade",
+          "extraUnits": [
+            "Replace one Baneblade or Stormblade with a Shadowsword: 25 points"
+          ],
+          "points": 175
         },
         {
           "name": "Leman Russ Platoon",
@@ -193,7 +196,9 @@
         {
           "name": "Vulture Squadron",
           "units": "Three Vultures",
-          "points": 225
+          "points": 225,
+          "extraUnits": [
+              "Add one Vulture: 75 points"]
         },
         {
           "name": "Tempestus Scion Company",
@@ -213,7 +218,7 @@
             "name": "Warhound Pack",
             "units": "Two Warhounds",
             "extraUnits": [
-              "Warhound Pack gains the 'Independent' special rule (see special rules) for +50 points."
+              "Warhound Pack gains the 'Independent' special rule (see special rules) for 50 points."
             ],
             "points": 500
           },
@@ -352,7 +357,7 @@
         "options": [
           {
             "description": "* These upgrades may add Chimeras. If the formation contains Chimeras, then all INF in the formation must be transported in Chimeras.",
-            "points": "+25 points each"
+            "points": "25 points each"
           }
         ]
       }

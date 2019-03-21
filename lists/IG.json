@@ -784,7 +784,7 @@
       "name": "Taurox",
       "type": "AV",
       "speed": 30,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -807,6 +807,20 @@
       ],
       "specialRules": [
       ]
+    },
+    {
+      "name": "Deathstrike Silo",
+      "type": "WE",
+      "speed": "Immobile",
+      "armour": 5,
+      "weapons": [
+        "Deathstrike Missile|2"
+      ],
+      "specialRules": [
+          "Damage Capacity 2",
+          "Reinforced Armour"
+      ],
+      "notes": "Critical Hit: The Deathstrike Silo is destroyed. All units within 5cm takes a hit on 5+"
     },
     {
       "name": "Griffon",
@@ -1175,7 +1189,8 @@
         "Heavy Bolter"
       ],
       "specialRules": [
-        "Skimmer"
+        "Skimmer",
+        "Scout"
       ]
     },
     {
