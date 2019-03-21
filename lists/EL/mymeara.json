@@ -55,8 +55,8 @@
         "Lynx",
         "Scorpion",
         "Cobra",
+        "Wraithknights",
         "Revenant Titan",
-        "Skathach Wraithknight",
         "Mymeara Phantom Titan"
 
       ],
@@ -212,8 +212,9 @@
         },
         {
           "name": "Wraithknights",
-          "units": "Three Skathach Wraithknight",
+          "units": "Three Wraithknights",
           "upgrades": [
+
           ],
           "points": 325
         },
@@ -223,7 +224,7 @@
           "upgrades": [
             "'Independent Twins' +50 points (see special rules)"
           ],
-          "points": 550
+          "points": 650
         },
         {
           "name": "0-1 Spacecraft",
@@ -242,8 +243,8 @@
     "items": [
       {
         "name": "0-1 Phoenix Lord",
-        "description": "Add an Eldar Phoenix Lord character",
-        "points": "75 points"
+        "description": "Replace opne Eldar Exarch with a Eldar Phoenix Lord character",
+        "points": "25 points"
       },
       {
         "name": "Exarch",
