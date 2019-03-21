@@ -258,6 +258,23 @@
         ]
       },
       {
+        "name": "Death Company Marines",
+        "type": "INF",
+        "speed": "15cm/30cm",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Bolters"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Invulnerable Save"
+      ],
+      "notes": "Jump Packs increase Speed to 30cm"
+      },
+
+      {
         "name": "Terminators",
         "type": "INF",
         "speed": 15,
@@ -272,6 +289,22 @@
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
+        ]
+      },
+      {
+        "name": "Blood Angels Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Thunder Hammers and Storm Shields"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour",
+          "Invulnerable Save"
         ]
       },
       {
@@ -397,6 +430,19 @@
         "ff": 4,
         "weapons": [
           "Heavy Bolter"
+        ]
+      },
+      {
+        "name": "Melta Bike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Multi-Melta"
+        ],
+        "specialRules": [
         ]
       },
       {
@@ -606,6 +652,7 @@
           "Walker"
         ]
       },
+
       {
         "name": "Dreadnought",
         "type": "AV",
@@ -618,6 +665,37 @@
           "Assault Cannon"
         ],
         "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Furioso Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Power Fist",
+          "Frag Cannon"
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Death Company Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Blood Talons|2",
+          "Heavy Flamer"
+        ],
+        "specialRules": [
+          "Fearless",
           "Walker"
         ]
       },
@@ -692,7 +770,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Flamestorm Cannon",
+          "Flamestorm Cannon ",
           "Heavy Flamer",
           "Siege Drill"
         ],
@@ -733,6 +811,20 @@
         ]
       },
       {
+        "name": "Leman Russ Exterminator",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Autocannon", "Heavy Flamer", "Heavy Bolter|2|"
+        ],
+        "specialRules": [
+          "Reinforced Armour"
+        ]
+      },
+      {
         "name": "Land Raider",
         "type": "AV",
         "speed": 25,
@@ -742,6 +834,24 @@
         "weapons": [
           "Twin Lascannon|2",
           "Twin Heavy Bolter"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ],
+        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Land Raider Redeemer",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Flamestorm Cannon|2",
+          "Twin Assault Cannon"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -883,6 +993,30 @@
         ]
       },
       {
+        "name": "Baal Predator Hades",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Assault Cannon",
+          "Multi-Melta|2"
+        ]
+      },
+      {
+        "name": "Baal Predator Infernus",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Flamestorm Cannon ",
+          "Heavy Flamer|2"
+        ]
+      },
+      {
         "name": "Deimos Predator Executioner",
         "type": "AV",
         "speed": 30,
@@ -940,6 +1074,20 @@
           "Transport"
         ],
         "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Death Company Rhino",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Storm Bolter"
+      ],
+      "specialRules": [
+          "Fearless"
+      ]
       },
       {
         "name": "Stalker",
@@ -1048,7 +1196,7 @@
         "ff": 4,
         "weapons": [
           "AC Twin Heavy Bolter||FxF",
-          "Twin Air Lascannon|2|FxF",
+          "AC Twin Lascannon|2|FxF",
           "Vengeance Launcher"
         ],
         "specialRules": [
@@ -1065,9 +1213,29 @@
         "speed": "Fighter",
         "armour": 5,
         "weapons": [
-          "Twin Air Assault Cannon||FwA",
+          "AC Twin Assault Cannon||FwA",
           "AC Twin Heavy Bolter||FxF"
         ]
+      },
+      {
+        "name": "Storm Raven Gunship",
+        "type": "AC/WE",
+        "speed": "Bomber",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC Twin Assault Cannon||FxF",
+          "AC Twin Heavy Bolter||FxF",
+          "Hurricane Bolter|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity 1",
+        "Reinforced Armour",
+        "Planetfall",
+        "Transport"
+      ],
+      "notes": "May transport two infantry units without Mounted; Terminators and Dreadnoughts count as two units each."
       },
       {
         "name": "Ravenwing Nephilim Interceptor",

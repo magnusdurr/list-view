@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
-  "army": "Codex Astartes",
+  "army": "Blood Angels",
   "version": "1.1",
-  "release": "2019-03-06",
+  "release": "",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Space Marine Transports"],
@@ -13,47 +13,45 @@
     {
       "from": "SM.json",
       "units": [
-        "Captain","Chaplain","Librarian","Supreme Commander",
-        "Assaults","Scouts","Tacticals","Terminators","Assault Bikes",
-        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Attack Bike",
-        "Dreadnought", "Dreadnought, Hellfire", "Hunter","Stalker", "Land Raider","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","Vindicator",
-        "Landing Craft","Storm Talon Gunship","Thunderhawk",
+        "Captain","Chaplain", "Librarian", "Supreme Commander",
+        "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Thunderhammer Terminators", "Assault Bikes",
+        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
+        "Furioso Dreadnought", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino","Whirlwind","Vindicator",
+        "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
-      "unitRules": ["They Shall Know No Fear"
+      "unitRules": ["They Shall Know No Fear", "Death Company"
 
     ]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
-          "Warhound",
-          "Reaver Titan"
+          "Warhound"
         ],
       "unitRules": ["Void Shields"]
     }
   ],
   "sections": [
     {
-      "name": "Codex Astartes Core Detachments",
+      "name": "Blood Angels Core Detachments",
       "formations": [
+          {
+            "name": "1 Death Company",
+            "units": "One Chaplain, four Death Company Marines",
+            "extraUnits": [
+                "The Death Company may either be transported in two Death Company Rhinos, be equipped with Jump Packs, or be mounted in Drop Pods (Free).",
+                "If mounted in Drop Pods, two Death Company Dreadnoughts may be added for 100 points."
+            ],
+            "points": 250
+          },
         {
           "name": "Assaults",
           "units": "Four Assaults",
           "upgrades": [
-            "Commander",
-            "Vindicators"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Bikes",
-          "units": "Five Assault Bikes",
-          "upgrades": [
-            "Attack Bikes",
             "Commander"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Tacticals",
@@ -62,25 +60,11 @@
             "Land Raiders",
             "AAA",
             "Commander",
-            "Razorback",
-            "Dreadnoughts",
-            "Vindicators"
+            "Predators",
+            "Dreadnoughts"
           ],
           "points": 275
       },
-      {
-        "name": "Devastators",
-        "units": "Four Devastators plus transport",
-        "upgrades": [
-          "Land Raiders",
-          "AAA",
-          "Commander",
-          "Razorback",
-          "Dreadnoughts",
-          "Vindicators"
-        ],
-        "points": 250
-    },
       {
         "name": "Land Raiders",
         "units": "Three Land Raiders",
@@ -90,11 +74,11 @@
         ],
         "points": 250
       },
+
       {
-        "name": "Predators",
-        "units": "Four Predator Annihilator or four Predator Destructor",
+        "name": "Blood Angels Predators",
+        "units": "Four Baal Predator Hades or four Baal Predator Infernus",
         "upgrades": [
-          "AAA",
           "Commander"
         ],
         "points": 250
@@ -105,6 +89,28 @@
       "name": "Codex Astartes Support Detachments",
       "description": "Three Support Detachments may be fielded per Core Detachment",
       "formations": [
+          {
+            "name": "Bikes",
+            "units": "Five Assault Bikes",
+            "upgrades": [
+              "Attack Bikes",
+              "Commander"
+            ],
+            "points": 200
+          },
+
+          {
+            "name": "Devastators",
+            "units": "Four Devastators plus transport",
+            "upgrades": [
+              "Land Raiders",
+              "AAA",
+              "Commander",
+              "Predators",
+              "Dreadnoughts"
+            ],
+            "points": 250
+        },
         {
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
@@ -115,21 +121,10 @@
           "points": 200
         },
         {
-          "name": "Vindicators",
-          "units": "Four Vindicators",
-          "upgrades": [
-            "Commander",
-            "AAA",
-            "Vindicators"
-          ],
-          "points": 225
-        },
-        {
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "upgrades": [
             "Commander",
-            "Razorbacks",
             "Snipers"
           ],
           "points": 150
@@ -143,13 +138,14 @@
           "points": 200
         },
         {
-          "name": "Terminators",
-          "units": "Four Terminators",
-          "upgrades": [
-            "Commander",
-            "Land Raiders"
+          "name": "Blood Angels Terminators",
+          "units": "Three Terminators",
+          "extraUnits": [
+              "May Replace up to three Terminators with Thunderhammer Terminators: Free",
+              "Land Raiders",
+            "Commander"
           ],
-          "points": 350
+          "points": 275
         },
         {
           "name": "Whirlwind Battery",
@@ -168,7 +164,7 @@
       ]
     },
     {
-      "name": "Codex Astartes Aircraft & Titan Legion Allies",
+      "name": "Blood Angels Aircraft & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -177,9 +173,12 @@
           "points": 200
         },
         {
-          "name": "Thunderhawk",
-          "units": "One Thunderhawk Gunship",
-          "points": 200
+          "name": "Storm Raven Squadron",
+          "units": "Two Storm Ravens",
+          "upgrades": [
+              "Add one Storm Raven: 75 points"
+          ],
+          "points": 175
         },
         {
           "name": "Warhound Pack",
@@ -187,30 +186,23 @@
           "upgrades": [
           ],
           "points": 500
-      },
-      {
-        "name": "Reaver",
-        "units": "One Reaver Titan",
-        "upgrades": [
-        ],
-        "points": 600
-    }
+      }
       ]
     }
   ],
   "upgrades": {
-    "title": "Codex Astartes Upgrades",
+    "title": "Blood Angels Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
         "name": "Attack Bikes",
-        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
+        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes or Melta Bikes",
         "points": "Free"
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts or Hellfire Dreadnoughts",
-        "points": ["50 points each", "75 points per pair"]
+        "description": "Add up to two Furioso Dreadnoughts",
+        "points": ["50 points for one, 75 points for two"]
       },
       {
         "name": "Battle Barge",
@@ -247,13 +239,8 @@
       },
       {
         "name": "Land Raiders",
-        "description": "Add any number of Land Raiders, up to the number required to transport the formation",
+        "description": "Add any number of Land Raiders or Land Raider Redeemers, up to the number required to transport the formation",
         "points": "50 points each"
-      },
-      {
-        "name": "Razorbacks",
-        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
-        "points": "25 points each"
       },
       {
         "name": "Snipers",

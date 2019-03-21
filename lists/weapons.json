@@ -1809,6 +1809,18 @@
       ]
     },
     {
+      "name": "Blood Talons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Blue Fire of Metamorphosis",
         "modes": [
           {
@@ -3363,13 +3375,32 @@
       ]
     },
     {
-      "name": "Flamestorm Cannon",
+      "name": "Flamestorm Cannon ",
       "modes": [
         {
           "firepower": "AP3+",
-          "range": 15,
-          "specialRules": [
-            "IC"
+            "range": 15,
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flamestorm Cannon",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 15,
+            "specialRules": [
+              "IC"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
           ]
         }
       ]
@@ -3398,6 +3429,17 @@
           "specialRules": [
             "EA(+D3)",
             "FS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frag Cannon",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+2)"
           ]
         }
       ]
@@ -5434,23 +5476,6 @@
         }
       ]
     },
-    {
-      "name": "Multi Melta",
-        "modes": [
-          {
-            "firepower": "MW5+",
-            "range": 15
-          },
-          {
-            "firepower": "Small Arms",
-            "join": "and",
-            "specialRules": [
-              "MW"
-          ]
-        }
-      ]
-    },
-
     {
       "name": "Multilaser",
       "modes": [
@@ -8261,7 +8286,7 @@
     },
 
     {
-      "name": "Twin Air Assault Cannon",
+      "name": "AC Twin Assault Cannon",
       "modes": [
         {
           "firepower": "AP4+/AT4+/AA5+",
@@ -8270,7 +8295,7 @@
       ]
     },
     {
-      "name": "Twin Air Lascannon",
+      "name": "AC Twin Lascannon",
       "modes": [
         {
           "firepower": "AT4+/AA5+",
@@ -8586,7 +8611,7 @@
       ]
     },
     {
-      "name": "Twin Multi Melta",
+      "name": "Twin Multi-Melta",
         "modes": [
           {
             "firepower": "MW4+",

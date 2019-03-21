@@ -517,6 +517,21 @@
         ]
     },
     {
+      "name": "Furies of Chaos Undivided",
+      "type": "INF",
+      "speed": 25,
+      "armour": 4,
+      "cc": 4,
+      "weapons": [
+        "Claws"
+      ],
+      "specialRules": [
+          "Expendable",
+          "Invulnerable Save",
+          "Jump Packs"
+      ]
+  },
+    {
       "name": "Soul Grinder",
       "type": "AV",
       "speed": 20,
