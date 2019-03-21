@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Codex Astartes",
-  "version": "1.1",
-  "release": "2019-03-06",
+  "version": "0.8.2",
+  "release": "2019-03-21",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Space Marine Transports"],
@@ -241,7 +241,7 @@
           },
           {
             "description": "Add one Stalker",
-            "points": "50 points"
+            "points": "75 points"
           }
         ]
       },
@@ -257,8 +257,8 @@
       },
       {
         "name": "Snipers",
-        "description": "Give up to four Scouts Sniper",
-        "points": "10 points each"
+        "description": "Give two or four Scouts Sniper",
+        "points": ["25 points for two", "50 points for four"]
       },
       {
         "name": "Typhoons",
