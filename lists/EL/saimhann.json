@@ -79,8 +79,10 @@
         {
           "name": "Wild Rider Host",
           "units": "One Warlock unit and seven Guardians",
-          "upgrades": [
-            "Six Saim-Hann Wild Rider units OR Nine Saim-Hann Wild Rider units OR Twelve Saim-Hann Wild Rider units"
+          "extraUnits": [
+            "Six Saim-Hann Wild Rider units",
+            "OR Nine Saim-Hann Wild Rider units",
+            "OR Twelve Saim-Hann Wild Rider units"
           ],
           "points": "250 OR 325 OR 400"
         },
