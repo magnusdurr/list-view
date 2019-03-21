@@ -1139,7 +1139,7 @@
       "weapons": [
         "Rocket Pods",
         "Multilaser",
-        "Heavy Bolters|2|"
+        "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Skimmer",
@@ -1172,7 +1172,7 @@
       "weapons": [
         "Hellstrike Missiles|2|",
         "Twin Autocannon",
-        "Heavy Bolters"
+        "Heavy Bolter"
       ],
       "specialRules": [
         "Skimmer"
@@ -1284,7 +1284,7 @@
       "weapons": [
         "Battle Cannon|2|",
         "Twin Heavy Stubber",
-        "Heavy Bolters|2|"
+        "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Damage Capacity 2",
@@ -1303,7 +1303,7 @@
         "Vanquisher Cannon|0-2|",
         "Vulcan Mega-Bolter|0-1|",
         "Twin Heavy Stubber",
-        "Heavy Bolters|2|"
+        "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Damage Capacity 2",
@@ -1366,17 +1366,18 @@
     {
       "name": "Leviathan Mobile Command Center",
       "type": "WE",
-      "speed": 20,
-      "armour": 5,
+      "speed": 15,
+      "armour": 4,
       "cc": 6,
       "ff": 4,
       "weapons": [
         "Leviathan Doomsday Cannon",
-        "Twin Lascannon R|3|",
-        "Twin Lascannon L|3|"
+        "Heavy Bolter AA Turret|4|",
+        "Battle Cannon|3|Left",
+        "Battle Cannon|3|Right"
       ],
       "specialRules": [
-        "Damage Capacity: 4",
+        "Damage Capacity: 5",
         "Void Shields: 4",
         "Reinforced Armour",
         "Fearless",
@@ -1419,7 +1420,7 @@
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
-        "Transport: May transport ten infantry units without jumppack or mounted, four may fire from the firing deck and FF in assaults"
+        "Transport: May transport eight infantry units without jumppack or mounted, four may fire from the firing deck and FF in assaults"
       ],
       "notes": "Critical Hit Effect: The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit"
     },

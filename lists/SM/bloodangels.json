@@ -43,7 +43,7 @@
                 "The Death Company may either be transported in two Death Company Rhinos, be equipped with Jump Packs, or be mounted in Drop Pods (Free).",
                 "If mounted in Drop Pods, two Death Company Dreadnoughts may be added for 100 points."
             ],
-            "points": 250
+            "points": 300
           },
         {
           "name": "Assaults",
@@ -69,24 +69,26 @@
         "name": "Land Raiders",
         "units": "Three Land Raiders",
         "upgrades": [
-          "AAA",
-          "Commander"
+          "Commander",
+          "AAA"
+
         ],
         "points": 250
       },
 
       {
-        "name": "Blood Angels Predators",
+        "name": "Baal Predators",
         "units": "Four Baal Predator Hades or four Baal Predator Infernus",
         "upgrades": [
-          "Commander"
+          "Commander",
+          "AAA"
         ],
         "points": 250
       }
       ]
     },
     {
-      "name": "Codex Astartes Support Detachments",
+      "name": "Blood Angels Support Detachments",
       "description": "Three Support Detachments may be fielded per Core Detachment",
       "formations": [
           {
@@ -199,6 +201,12 @@
         "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes or Melta Bikes",
         "points": "Free"
       },
+
+      {
+        "name": "Predators",
+        "description": "Add up to two Baal Predator Hades or Baal Predator Infernus",
+        "points": ["75 points for one, 125 points for two"]
+      },
       {
         "name": "Dreadnoughts",
         "description": "Add up to two Furioso Dreadnoughts",
@@ -251,11 +259,6 @@
         "name": "Typhoons",
         "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
         "points": "10 points each"
-      },
-      {
-        "name": "Vindicators",
-        "description": "Add up to two Vindicators",
-        "points": ["50 points each", "75 points per pair"]
       }
     ]
   }

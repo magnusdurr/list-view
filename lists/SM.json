@@ -861,6 +861,23 @@
         "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
+        "name": "Land Raider Angel Infernus",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Flamestorm Cannon |2",
+          "Heavy Flamer|2",
+          "Twin Assault Cannon"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour"
+        ]
+      },
+      {
         "name": "Deathwing Land Raider",
         "type": "AV",
         "speed": 25,
