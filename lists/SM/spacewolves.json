@@ -1,41 +1,33 @@
 {
   "fraction": "Space Marines",
   "army": "Space Wolves",
-  "version": "1.0",
+  "version": "0.1.0",
   "release": "",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "specialRules": ["Space Marine Transports", "Eager to Engage"],
+  "specialRules": ["Space Marine Transports"],
   "usage": [
-    "The following army list allows you to field an army of Space Marines operating under the Codex Astartes doctrine."
+    "The following army list allows you to field an army of Space Marines from the Space Wolves Chapter."
   ],
   "units": [
     {
       "from": "SM.json",
       "units": [
-        "Wolf Lord","Wolf Priests","Rune Priests","Great Wolf",
-        "Assaults","Scouts","Tacticals","Terminators","Assault Bikes",
-        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Attack Bike",
-        "Dreadnought", "Leman Russ Exterminator", "Hunter","Stalker", "Land Raider","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","Vindicator",
+        "Wolf Lord","Wolf Priest","Great Wolf",
+        "Blood Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Long Fang Devastators", "Fenrisian Wolves", "Swiftclaw Assault Bikes", "Wolf Scout Bikes",
+        "Dreadnought", "Leman Russ Exterminator", "Hunter", "Land Raider","Land Raider Wrath of Mjalnar","Iron Wolf Knight","Rhino","Whirlwind","Vindicator",
+        "Wulfen", "Wulfen Dreadnought"
         "Landing Craft","Storm Talon Gunship","Stormwolf Assault Boat",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
       "unitRules": ["They Shall Know No Fear"
 
     ]
-    },
-    {
-      "from": "ImperialAllies.json",
-      "units": [
-          "Warhound",
-          "Reaver Titan"
-        ],
-      "unitRules": ["Void Shields"]
     }
   ],
   "sections": [
     {
-      "name": "Codex Astartes Core Detachments",
+      "name": "Space Wolves Core Detachments",
       "formations": [
         {
           "name": "Assaults",

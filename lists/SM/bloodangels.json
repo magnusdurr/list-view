@@ -1,7 +1,7 @@
 {
   "fraction": "Space Marines",
   "army": "Blood Angels",
-  "version": "1.1",
+  "version": "0.5.1",
   "release": "",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
@@ -14,7 +14,7 @@
       "from": "SM.json",
       "units": [
         "Captain","Chaplain", "Librarian", "Supreme Commander",
-        "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Thunderhammer Terminators", "Assault Bikes",
+        "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
         "Furioso Dreadnought", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino","Whirlwind","Vindicator",
         "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
@@ -45,11 +45,18 @@
             ],
             "points": 300
           },
+          {
+            "name": "0-1 Sanguinary Guard",
+            "units": "One Supreme Commander, six Sanguinary Guards",
+            "upgrades": [
+            ],
+            "points": 350
+          },
         {
           "name": "Assaults",
           "units": "Four Assaults",
           "upgrades": [
-            "Commander"
+              "Commander"
           ],
           "points": 175
         },
@@ -89,7 +96,7 @@
     },
     {
       "name": "Blood Angels Support Detachments",
-      "description": "Three Support Detachments may be fielded per Core Detachment",
+      "description": "Two Support Detachments may be fielded per Core Detachment",
       "formations": [
           {
             "name": "Bikes",
@@ -143,7 +150,7 @@
           "name": "Blood Angels Terminators",
           "units": "Three Terminators",
           "extraUnits": [
-              "May Replace up to three Terminators with Thunderhammer Terminators: Free",
+              "Replace up to three Terminators with Assault Terminators: Free",
               "Land Raiders",
             "Commander"
           ],
@@ -224,10 +231,6 @@
           {
             "description": "Captain, Chaplain, Librarian",
             "points": "50 points"
-          },
-          {
-            "description": "0–1 Supreme Commander",
-            "points": "100 points"
           }
         ]
       },
