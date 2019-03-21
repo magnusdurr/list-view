@@ -167,7 +167,7 @@
       "name": "Stealth Battlesuits",
       "type": "INF",
       "speed": 20,
-      "armour": 5,
+      "armour": 3,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -176,7 +176,6 @@
       "specialRules": [
         "First Strike",
         "Markerlights",
-        "Reinforced Armour",
         "Scouts",
         "Tau Jet Packs",
         "Teleport"
@@ -184,7 +183,7 @@
       ]
     },
     {
-      "name": "SniperDrones",
+      "name": "Sniper Drones",
       "type": "INF",
       "speed": 20,
       "armour": 5,
@@ -321,7 +320,7 @@
       "name": "Ghostkeel",
       "type": "AV",
       "speed": 20,
-      "armour": 4,
+      "armour": 3,
       "cc": 6,
       "ff": 4,
       "weapons": [
@@ -333,8 +332,7 @@
         "Walker",
         "First Strike",
         "Teleport",
-        "Tau Jet Pack",
-        "Reinforced Armour"
+        "Tau Jet Pack"
       ]
     },
     {
