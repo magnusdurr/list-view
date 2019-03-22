@@ -30,7 +30,6 @@
         "Avatar",
         "Eldar Exarch",
         "Eldar Farseer",
-        "Eldar Warlock",
         "Eldar Guardians",
         "Eldar Heavy Weapons Platform",
         "Support Weapons Platform",
@@ -85,10 +84,10 @@
       "name": "Iyanden Special",
       "formations": [
         {
-          "name": "1 Avatar",
+          "name": "0-1 Avatar",
           "units": "One Avatar",
 
-          "points": 0
+          "points": 50
         },
         {
           "name": "0-1 Wraithgate",
@@ -108,7 +107,7 @@
           "upgrades": [
             "Wraithseer, Wraithlord, Transport"
           ],
-          "points": 350
+          "points": 300
         },
         {
           "name": "Spirit Blades",
@@ -116,7 +115,7 @@
           "upgrades": [
             "Wraithseer, Wraithlord, Transport"
           ],
-          "points": 300
+          "points": 250
         },
         {
           "name": "Spirit Walker",
@@ -134,11 +133,11 @@
       "formations": [
         {
           "name": "Guardian Warhost",
-          "units": "One Warlock unit and seven Guardians",
+          "units": "One Farseer unit and seven Guardians",
           "extraUnits": [
-            "Farseer, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
+            "Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
             "OR",
-            "Farseer, Heavy Weapons, Transport"
+            "Heavy Weapons, Transport"
           ],
           "points": 150
         },
@@ -154,7 +153,7 @@
           "name": "Engine of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "upgrades": [
-            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+            "Add one or two additional Engine of Vaul for 200 points each, chosen from the following: Cobra, Scorpion, Storm Serpent"
           ],
           "points": 250
         },
@@ -213,9 +212,9 @@
       "formations": [
         {
           "name": "Nightwing Aerie",
-          "units": "Two Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors",
           "upgrades": [
-            "Add one Nightwing Interceptor +75 Points"
+            "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
         },
@@ -223,7 +222,7 @@
           "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
           "upgrades": [
-            "Add one Phoenix Bomber +75 Points"
+            "Add one Phoenix Bomber: 75 Points"
           ],
           "points": 250
         },
@@ -257,7 +256,7 @@
           "upgrades": [
 
           ],
-          "points": 750
+          "points": 700
         },
         {
           "name": "0-1 Warlock Titan",
@@ -265,7 +264,7 @@
           "upgrades": [
 
           ],
-          "points": 850
+          "points": 800
         },
         {
           "name": "0-1 Spacecraft",
@@ -289,8 +288,8 @@
       },
       {
         "name": "Exarch",
-        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
-        "points": "50 points each"
+        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "points": "50 points"
       },
       {
         "name": "Firestorm",
@@ -306,11 +305,6 @@
         "name": "Support Weapons",
         "description": "Add three Eldar Support Weapon Platform units",
         "points": "50 points"
-      },
-      {
-        "name": "Farseer",
-        "description": "Replace a Warlock unit with a Farseer Unit",
-        "points": "25 points"
       },
       {
         "name": "Transport",
