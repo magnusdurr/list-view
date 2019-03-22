@@ -16,7 +16,7 @@
         "Captain","Chaplain", "Librarian", "Supreme Commander",
         "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
-        "Furioso Dreadnought", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino","Whirlwind","Vindicator",
+        "Furioso Dreadnought", "Razorback", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino",
         "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
@@ -40,8 +40,8 @@
             "name": "1 Death Company",
             "units": "One Chaplain, four Death Company Marines",
             "extraUnits": [
-                "The Death Company may either be transported in two Death Company Rhinos, be equipped with Jump Packs, or be mounted in Drop Pods (Free).",
-                "If mounted in Drop Pods, two Death Company Dreadnoughts may be added for 100 points."
+                "The Death Company may either be transported in two Death Company Rhinos, be equipped with Jump Packs, or be mounted in Drop Pods if a Space Ship has been bought: Free",
+                "If mounted in Drop Pods, two Death Company Dreadnoughts may be added for 100 points"
             ],
             "points": 300
           },
@@ -49,6 +49,7 @@
             "name": "0-1 Sanguinary Guard",
             "units": "One Supreme Commander, six Sanguinary Guards",
             "upgrades": [
+            "Predators"
             ],
             "points": 350
           },
@@ -56,7 +57,8 @@
           "name": "Assaults",
           "units": "Four Assaults",
           "upgrades": [
-              "Commander"
+              "Commander",
+              "Predators"
           ],
           "points": 175
         },
@@ -133,7 +135,7 @@
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "upgrades": [
-            "Commander",
+            "Razorbacks",
             "Snipers"
           ],
           "points": 150
@@ -156,15 +158,6 @@
           ],
           "points": 275
         },
-        {
-          "name": "Whirlwind Battery",
-          "units": "Four Whirlwinds",
-          "upgrades": [
-            "Commander",
-            "AAA"
-          ],
-          "points": 275
-      },
       {
         "name": "Landing Craft",
         "units": "One Landing Craft",
@@ -220,6 +213,11 @@
         "points": ["50 points for one, 75 points for two"]
       },
       {
+        "name": "Razorbacks",
+        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "points": "25 points each"
+      },
+      {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
         "points": "75 points"
@@ -244,7 +242,7 @@
           },
           {
             "description": "Add one Stalker",
-            "points": "50 points"
+            "points": "75 points"
           }
         ]
       },
@@ -255,8 +253,8 @@
       },
       {
         "name": "Snipers",
-        "description": "Give up to four Scouts Sniper",
-        "points": "10 points each"
+        "description": "Give two or four Scouts Sniper",
+        "points": ["25 points for two", "50 points for four"]
       },
       {
         "name": "Typhoons",
