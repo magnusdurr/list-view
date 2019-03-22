@@ -60,10 +60,10 @@
       "name": "Saim-Hann Special",
       "formations": [
         {
-          "name": "1 Avatar",
+          "name": "0-1 Avatar",
           "units": "One Avatar",
 
-          "points": "0"
+          "points": 50
         },
         {
           "name": "0-1 Wraithgate",
@@ -78,20 +78,21 @@
       "formations": [
         {
           "name": "Wild Rider Host",
-          "units": "One Warlock unit and seven Guardians",
+          "units": "One Wild Riders unit and six Saim-Hann Jet Bikes",
           "extraUnits": [
-            "Six Saim-Hann Wild Rider units",
-            "OR Nine Saim-Hann Wild Rider units",
-            "OR Twelve Saim-Hann Wild Rider units"
+            "Add three Saim-Hann Jetbikes for 75 points, or six for 150 points",
+            "Replace any number of Saim-Hann Jetbikes with Saim-Hann Vypers: Free",
+            "Replace one Saim-Hann Jetbike with a Mounted Farseer: 25 points",
+            "(0-1 per army) Add a Wild Rider Chieftain to the Wild Riders unit: 50 points"
           ],
-          "points": "250 OR 325 OR 400"
+          "points": 250
         },
         {
           "name": "Shining Spears Warhost",
-          "description": "One Shining Spear Warhost for each One Wild Rider Host.",
-          "units": "Eight Shining Spears Aspect Warrior",
+          "description": "One Shining Spear Warhost for each Wild Rider Host.",
+          "units": "Eight Shining Spears",
           "upgrades": [
-            "Exarchs"
+            "Add up to two Exarchs for 50 points each"
           ],
           "points": 300
         }
@@ -113,7 +114,7 @@
           "name": "Engine of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "upgrades": [
-            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+            "Add one or two additional Engine of Vaul for 200 points each, chosen from the following: Cobra, Scorpion, Storm Serpent"
           ],
           "points": 250
         },
@@ -133,11 +134,11 @@
           "points": 250
         },
         {
-          "name": "Night Spinner Troupe",
-          "units": "Three Night Spinners",
+          "name": "Saim-Hann Night Spinner Troupe",
+          "units": "Four Night Spinners",
           "upgrades": [
           ],
-          "points": 175
+          "points": 250
         },
         {
           "name": "Ranger Troupe",
@@ -170,9 +171,9 @@
       "formations": [
         {
           "name": "Nightwing Aerie",
-          "units": "Two Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors",
           "upgrades": [
-            "Add one Nightwing Interceptor +75 Points"
+            "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
         },
@@ -180,7 +181,7 @@
           "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
           "upgrades": [
-            "Add one Phoenix Bomber +75 Points"
+            "Add one Phoenix Bomber: 75 Points"
           ],
           "points": 250
         },
@@ -208,28 +209,13 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "0-1 Chieftain",
-        "description": "Add one Eldar Wild Rider Chieftain character to a Wild Rider unit or Vyper",
-        "points": "50 points"
-      },
-      {
         "name": "Exarch",
-        "description": "Add up to two Eldar Exarch characters to a Shining Spears formation, or up to one Eldar Exarch to a Mounted Aspect Warrior Troupe",
-        "points": "50 points each"
+        "description": "Add up to one Eldar Exarch to a Mounted Aspect Warrior Troupe",
+        "points": "50 points"
       },
       {
         "name": "Firestorm",
         "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
-      },
-      {
-        "name": "Mounted Farseer",
-        "description": "Add one Eldar Mounted Farseer unit",
-        "points": "50 points each"
-      },
-      {
-        "name": "Vypers",
-        "description": "Replace any number of Wildrider units with Eldar Vypers",
         "points": "Free"
       }
     ]
