@@ -18,7 +18,6 @@
         "Avatar",
         "Eldar Exarch",
         "Eldar Farseer",
-        "Eldar Warlock",
         "Eldar Guardians",
         "Eldar Heavy Weapons Platform",
         "Support Weapons Platform",
@@ -71,10 +70,10 @@
       "name": "Biel-Tan Special",
       "formations": [
         {
-          "name": "1 Avatar",
+          "name": "0-1 Avatar",
           "units": "One Avatar",
 
-          "points": "0"
+          "points": 50
         },
         {
           "name": "0-1 Wraithgate",
@@ -97,11 +96,11 @@
         },
         {
           "name": "Guardian Warhost",
-          "units": "One Warlock unit and seven Guardians",
+          "units": "One Farseer unit and seven Guardians",
           "extraUnits": [
-            "Farseer, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
+            "Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
             "OR",
-            "Farseer, Heavy Weapons, Transport"
+            "Heavy Weapons, Transport"
           ],
           "points": 150
         }
@@ -182,9 +181,9 @@
       "formations": [
         {
           "name": "Nightwing Aerie",
-          "units": "Two Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors",
           "upgrades": [
-            "Add one Nightwing Interceptor +75 Points"
+            "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
         },
@@ -192,7 +191,7 @@
           "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
           "upgrades": [
-            "Add one Phoenix Bomber +75 Points"
+            "Add one Phoenix Bomber: 75 Points"
           ],
           "points": 250
         },
@@ -218,7 +217,7 @@
           "upgrades": [
 
           ],
-          "points": 750
+          "points": 700
         },
         {
           "name": "0-1 Warlock Titan",
@@ -226,7 +225,7 @@
           "upgrades": [
 
           ],
-          "points": 850
+          "points": 800
         },
         {
           "name": "0-1 Spacecraft",
@@ -267,11 +266,6 @@
         "name": "Support Weapons",
         "description": "Add three Eldar Support Weapon Platform units",
         "points": "50 points"
-      },
-      {
-        "name": "Farseer",
-        "description": "Replace a Warlock unit  with a Farseer Unit",
-        "points": "25 points"
       },
       {
         "name": "Transport",
