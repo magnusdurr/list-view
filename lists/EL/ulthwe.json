@@ -73,7 +73,7 @@
           "name": "1 Avatar",
           "units": "One Avatar",
 
-          "points": "0"
+          "points": 0
         },
         {
           "name": "0-1 Wraithgate",
@@ -173,9 +173,9 @@
       "formations": [
         {
           "name": "Nightwing Aerie",
-          "units": "Two Nightwing Interceptors ",
+          "units": "Two Nightwing Interceptors",
           "upgrades": [
-            "Add one Nightwing Interceptor +75 Points"
+            "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
         },
@@ -183,7 +183,7 @@
           "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
           "upgrades": [
-            "Add one Phoenix Bomber +75 Points"
+            "Add one Phoenix Bomber: 75 Points"
           ],
           "points": 250
         },
@@ -209,7 +209,7 @@
           "upgrades": [
 
           ],
-          "points": 750
+          "points": 700
         },
         {
           "name": "0-1 Warlock Titan",
@@ -217,7 +217,7 @@
           "upgrades": [
 
           ],
-          "points": 850
+          "points": 800
         },
         {
           "name": "0-1 Spacecraft",
@@ -241,8 +241,8 @@
       },
       {
         "name": "Exarch",
-        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
-        "points": "50 points each"
+        "description": "Add one Eldar Exarch character to a Eldar Aspect Warrior unit",
+        "points": "50 points"
       },
       {
         "name": "Firestorm",
@@ -251,18 +251,13 @@
       },
       {
         "name": "Heavy Weapons",
-        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platform units",
+        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms",
         "points": "Free"
       },
       {
         "name": "Support Weapons",
-        "description": "Add three Eldar Support Weapon Platform units",
+        "description": "Add three Eldar Support Weapon Platforms",
         "points": "50 points"
-      },
-      {
-        "name": "Farseer",
-        "description": "Replace a Warlock unit with a Farseer Unit",
-        "points": "25 points"
       },
       {
         "name": "Transport",
