@@ -25,9 +25,6 @@
         "* All Adeptus Custodian units are consider fearless in all respects except they still have to end their move while broken outside of 15cm of an enemy foramtion. If they cant they are subject to standard hackdowns rules for broken non fearless units with in 15cm of a enemy unit taking into account the above rules for Adeptus Custodians and Blast Markers."
       ]
     },
-
-
-
     {
       "title": "Support Craft",
       "description": [
@@ -228,7 +225,8 @@
     },
     {
       "title": "Independent",
-      "description": ["Allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Warhound is destroyed, the other one in the pack receives a Blast Marker. "
+      "description": [
+        "The independent special rule allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS (each Warhoud counts as its own formation worth half of the points value of the Warhoud pack including upgrades). If one Warhound is destroyed, the other one in the pack receives a Blast Marker."
       ]
     },
     {
@@ -238,6 +236,18 @@
         "In addition, formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or coordinate their teleport with their space ship's activation.",
         "In the latter case, the entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns. Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another."
         ]
+    },
+    {
+      "title": "Guerilla Tactics",
+      "description": [
+        "Ravenguard are known for their hit-and-run guerilla tactics. Ravenguard Elite formations (Sternguard & Vanguard) that wins an assault are allowed to move any distance up to their speed value when they consolidate, rather than being limited to a move of 5cm as would normally be the case."
+      ]
+    },
+    {
+      "title": "Expert Reconnaissance",
+      "description": [
+        "The Ravenguard relies heavily on their Scout Marines for reconnaissance to identify good drop sites for the rest of the Chapter's deployed forces. Drop Pods that lands within line of sight of a Scout Marine unit does not scatter"
+      ]
     },
 
 
