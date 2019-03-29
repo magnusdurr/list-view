@@ -1,0 +1,18 @@
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Army Lists
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        {{#each index}}
+        <li><a class="dropdown-item dropdown-toggle" href="#">{{name}}</a>
+            <ul class="dropdown-menu">
+                {{#each lists}}
+                <li><a class="dropdown-item"
+                       href="/content/list.html?race={{../abbreviation}}&list={{file}}">{{name}}</a></li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/each}}
+    </ul>
+</li>

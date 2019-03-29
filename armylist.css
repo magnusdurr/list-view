@@ -57,3 +57,7 @@ h2 {
   text-align: right;
   font-style: italic;
 }
+
+.dropdown-toggle.active-dropdown::after {
+  transform: rotate(-90deg);
+}
