@@ -1,8 +1,8 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Titan Legion",
-  "version": "2.1b",
-  "release": "2019-03-05",
+  "version": "0.7.1",
+  "release": "2019-04-01",
   "strategy": "Titan Legion armies have a Strategy Rating of 3.",
   "Initiative": "Titan Legion formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
 
@@ -41,12 +41,12 @@
     {
       "from": "AM.json",
       "units": [
-        "Tech Priest",
+        "Tech Priest Dominus",
         "Skitarii Vanguard",
         "Kastelan Robot",
         "Ordinatus Minoris ",
         "AM Gorgon",
-        "Avenger Strike Fighters",
+        "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
     ],
         "unitRules": [
@@ -126,7 +126,7 @@
       "formations": [
         {
           "name": "Skitarii Maniple",
-          "units": "One Tech Priest, nine Skitarii Vanguard",
+          "units": "One Tech Priest Dominus, nine Skitarii Vanguard",
           "upgrades": [
               "Gorgon"
           ],
@@ -152,7 +152,7 @@
           "units": "Two Questoris Knights (any combination of configurations)",
           "upgrades": [
           ],
-          "points": 250
+          "points": 275
       },
         {
           "name": "0-1 Lysander Fighter for each Warmonger Emperor Titan or Carapace Landing Pad",
