@@ -1,10 +1,10 @@
 {
   "fraction": "Eldar",
   "army": "Ulthwé",
-  "version": "1.1",
-  "release": "2019-02-22",
-  "strategy": "Ulthwé Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.7.1",
+  "release": "2019-04-02",
+  "strategy": "Craftworld Ulthwé armies have a Strategy Rating of 4.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
 
   "specialRules": ["Seers of Ulthwé", "Black Guardians","Avatar (Ulthwé)","May Not Garrison (Ulthwé)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Shield Disruptor", "Webway Portal"],
   "usage": [
@@ -18,19 +18,15 @@
         "Avatar",
         "Eldar Exarch",
         "Eldar Farseer",
-        "Black Guardians",
+        "Eldar Guardians",
         "Eldar Heavy Weapons Platform",
         "Support Weapons Platform",
-        "Eldar Rangers",
         "Eldar Jetbikes",
         "Dire Avengers",
         "Fire Dragons",
         "Dark Reapers",
         "Howling Banshees",
         "Striking Scorpions",
-        "Shining Spears",
-        "Swooping Hawks",
-        "Warp Spiders",
         "Wraithguards",
         "Vyper",
         "War Walker",
@@ -70,48 +66,47 @@
       "name": "Ulthwé Special",
       "formations": [
         {
-          "name": "1 Avatar",
+          "name": "0-1 Avatar",
           "units": "One Avatar",
 
-          "points": 0
+          "points": 50
         },
         {
-          "name": "0-1 Wraithgate",
+          "name": "1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
 
-          "points": 50
+          "points": 0
         }
       ]
     },
     {
-        "name": "Ulthwé Hosts",
+        "name": "Ulthwé Warhosts",
         "formations": [
         {
             "name": "Black Guardian Warhost",
-            "units": "Two Farseer units and six Black Guardians",
-            "extraUnits": [
-              "Seer Council, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord",
-              "OR",
-              "Seer Council, Heavy Weapons, Transport"
+            "units": "Two Farseer units, six Eldar Guardians",
+            "upgrades": [
+              "Transport, Seer Council, Heavy Weapons, Support Weapons, Wraithguards, Wraithlords, Windriders"
             ],
             "points": 200
-          }
+        }
         ]
     },
     {
       "name": "Ulthwé Troupes",
-      "description": "Up to three for each Ulthwé host taken",
+      "description": "Up to two for each Ulthwé Warhost taken",
       "formations": [
+          {
+            "name": "Aspect Warrior Troupe",
+            "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
+            "upgrades": [
+              "Exarch",
+              "Transport"
+            ],
+            "points": 250
+          },
         {
-              "name": "Aspect Warrior Warhost",
-              "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders ",
-              "upgrades": [
-                "Exarch, Transport"
-              ],
-              "points": 250
-        },
-        {
-          "name": "Engine of Vaul Troupe",
+          "name": "Engines of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "upgrades": [
             "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
@@ -119,7 +114,7 @@
           "points": 250
         },
         {
-          "name": "Falcon Troupe",
+          "name": "Swords of Vaul Troupe",
           "units": "Five Falcons",
           "upgrades": [
             "Firestorm"
@@ -138,33 +133,24 @@
           "units": "Three Night Spinners",
           "upgrades": [
           ],
-          "points": 175
-        },
-        {
-          "name": "Ranger Troupe",
-          "units": "Four Eldar Rangers",
-          "upgrades": [
-            "Add up to four Eldar Rangers for 25 points each"
-          ],
-          "points": 100
-        },
-        {
-          "name": "War Walker Troupe",
-          "units": "Four War Walkers",
-          "upgrades": [
-          ],
-          "points": 125
-        },
-        {
-          "name": "Wind Rider Troupe ",
-          "units": "Six Jetbikes",
-          "upgrades": [
-            "Vypers"
-          ],
           "points": 200
-        }
-
-
+      },
+      {
+        "name": "Windrider Troupe",
+        "units": "Six Eldar Jetbikes",
+        "upgrades": [
+          "Vypers"
+        ],
+        "points": 200
+    },
+      {
+        "name": "War Walker Troupe",
+        "units": "Four War Walkers",
+        "upgrades": [
+            "Add up to two War Walkers for 25 points each"
+        ],
+        "points": 125
+      }
       ]
     },
     {
@@ -173,19 +159,17 @@
       "formations": [
         {
           "name": "Nightwing Aerie",
-          "units": "Two Nightwing Interceptors",
+          "units": "Three Nightwing Interceptors",
           "upgrades": [
-            "Add one Nightwing Interceptor: 75 Points"
           ],
-          "points": 225
+          "points": 300
         },
         {
           "name": "Phoenix Aerie",
-          "units": "Two Phoenix Bombers",
+          "units": "Three Phoenix Bombers",
           "upgrades": [
-            "Add one Phoenix Bomber: 75 Points"
           ],
-          "points": 250
+          "points": 325
         },
         {
           "name": "Vampire",
@@ -223,7 +207,7 @@
           "name": "0-1 Spacecraft",
           "units": "One Wraithship",
           "upgrades": [
-            "Replace with Dragonship for +150 Points"
+            "Replace with Dragonship: 150 Points"
           ],
           "points": 150
         }
@@ -241,7 +225,7 @@
       },
       {
         "name": "Exarch",
-        "description": "Add one Eldar Exarch character to a Eldar Aspect Warrior unit",
+        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
         "points": "50 points"
       },
       {
@@ -261,7 +245,7 @@
       },
       {
         "name": "Transport",
-        "description": "Add enough Wave Serpents to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
+        "description": "Add enough Wave Serpents and/or Falcons to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
         "points": "50 points each"
       },
       {
@@ -270,15 +254,20 @@
         "points": "Free"
       },
       {
-        "name": "Wraithguard",
-        "description": "Add three Eldar Wraithguards",
-        "points": "125 points"
+        "name": "Windriders",
+        "description": "Add up to four Windriders to the formation",
+        "points": "25 points each"
       },
       {
-        "name": "Wraithlord",
-        "description": "Add three Eldar Wraithlords",
-        "points": "175 points"
-      }
+        "name": "Wraithguards",
+        "description": "Add two Eldar Wraithguards",
+        "points": "75 points"
+    },
+    {
+      "name": "Wraithlords",
+      "description": "Add three Eldar Wraithlords",
+      "points": "150 points"
+    }
     ]
   }
 }

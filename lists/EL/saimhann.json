@@ -1,12 +1,12 @@
 {
   "fraction": "Eldar",
   "army": "Saim-Hann",
-  "version": "1.1",
+  "version": "0.9.1",
   "release": "2019-02-22",
-  "strategy": "Saim-Hann Eldar armies have a Strategy Rating of 4.",
+  "strategy": "Craftworld Saim-Hann armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Avatar (Saim-Hann)","May Not Garrison (Saim-Hann)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Webway Portal"],
+  "specialRules": ["Avatar (Saim-Hann)","May Not Garrison (Saim-Hann)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Webway Portal","Independent Twins"],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Saim-Hann."
   ],
@@ -19,7 +19,7 @@
         "Eldar Exarch",
         "Mounted Farseer",
         "Eldar Rangers",
-        "Saim Hann Wild Riders",
+        "Saim-Hann Wild Riders",
         "Dire Avengers",
         "Fire Dragons",
         "Dark Reapers",
@@ -28,8 +28,8 @@
         "Shining Spears",
         "Swooping Hawks",
         "Warp Spiders",
-        "Hornet",
-        "Vyper",
+        "Saim-Hann Hornet",
+        "Saim-Hann Vyper",
         "War Walker",
         "Wave Serpent",
         "Falcon",
@@ -74,25 +74,25 @@
       ]
     },
     {
-      "name": "Saim-Hann Hosts",
+      "name": "Saim-Hann Warhosts",
+          "description": "Up to one Shining Spear Warhost for each Wild Rider Warhost",
       "formations": [
         {
-          "name": "Wild Rider Host",
-          "units": "One Wild Riders unit and six Saim-Hann Jet Bikes",
+          "name": "Wild Rider Warhost",
+          "units": "Six Saim-Hann Wild Riders",
           "extraUnits": [
-            "Add three Saim-Hann Jetbikes for 75 points, or six for 150 points",
-            "Replace any number of Saim-Hann Jetbikes with Saim-Hann Vypers: Free",
-            "Replace one Saim-Hann Jetbike with a Mounted Farseer: 25 points",
-            "(0-1 per army) Add a Wild Rider Chieftain to the Wild Riders unit: 50 points"
+            "Add three Saim-Hann Wild Riders for 75 points, or six for 150 points",
+            "Replace any number of Saim-Hann Wild Riders with Saim-Hann Vypers: Free",
+            "Replace one Saim-Hann Wild Rider with a Mounted Farseer: 25 points",
+            "(0-1 per army) Add a Wild Rider Chieftain to a Wild Riders unit: 50 points"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Shining Spears Warhost",
-          "description": "One Shining Spear Warhost for each Wild Rider Host.",
           "units": "Eight Shining Spears",
           "upgrades": [
-            "Add up to two Exarchs for 50 points each"
+            "Add up to two Exarchs: 50 points each"
           ],
           "points": 300
         }
@@ -100,18 +100,18 @@
     },
     {
       "name": "Saim-Hann Troupes",
-      "description": "Up to three for each Saim-Hann Host taken",
+      "description": "Up to two for each Saim-Hann Warhost taken",
       "formations": [
         {
           "name": "Mounted Aspect Warrior Troupe",
           "units": "Three Wave Serpents and six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
           "upgrades": [
-            "0-1 Exarch, Replace any number of Wave Serpents with two Eldar Falcons each, for 75 points each Wave Serpent replaced "
+            "Exarch"
           ],
           "points": 400
         },
         {
-          "name": "Engine of Vaul Troupe",
+          "name": "Engines of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "upgrades": [
             "Add one or two additional Engine of Vaul for 200 points each, chosen from the following: Cobra, Scorpion, Storm Serpent"
@@ -119,7 +119,7 @@
           "points": 250
         },
         {
-          "name": "Falcon Troupe",
+          "name": "Swords of Vaul Troupe",
           "units": "Five Falcons",
           "upgrades": [
             "Firestorm"
@@ -134,7 +134,7 @@
           "points": 250
         },
         {
-          "name": "Saim-Hann Night Spinner Troupe",
+          "name": "Night Spinner Troupe",
           "units": "Four Night Spinners",
           "upgrades": [
           ],
@@ -149,17 +149,18 @@
           "points": 100
         },
         {
-          "name": "Hornets",
-          "units": "Four Hornets",
+          "name": "Hornet Troupe",
+          "units": "Three Saim-Hann Hornets",
           "upgrades": [
-            "Add up to two Hornets for 35 points each"
+            "Add up to three Saim-Hann Hornets for 50 points each"
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "War Walker Troupe",
           "units": "Four War Walkers",
           "upgrades": [
+              "Add up to two War Walkers for 25 points each"
           ],
           "points": 125
         }
@@ -197,7 +198,7 @@
           "name": "Revenants",
           "units": "Two Revenant Titans",
           "upgrades": [
-
+              "Independent Twins"
           ],
           "points": 650
         }

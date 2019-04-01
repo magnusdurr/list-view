@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Biel-Tan",
-  "version": "1.1",
-  "release": "2019-02-22",
+  "version": "0.9.1",
+  "release": "2019-04-01",
   "strategy": "Biel-Tan Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "name": "Biel-Tan Hosts",
+      "name": "Biel-Tan Warhosts",
       "formations": [
         {
           "name": "Aspect Warrior Warhost",
@@ -98,9 +98,7 @@
           "name": "Guardian Warhost",
           "units": "One Farseer unit and seven Guardians",
           "extraUnits": [
-            "Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
-            "OR",
-            "Heavy Weapons, Transport"
+            "Transport, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord."
           ],
           "points": 150
         }
@@ -108,7 +106,7 @@
     },
     {
       "name": "Biel-Tan Troupes",
-      "description": "Up to three for each Biel-Tan host taken",
+      "description": "Up to three for each Biel-Tan Warhost taken",
       "formations": [
 
         {
@@ -165,7 +163,7 @@
           "points": 300
         },
         {
-          "name": "Engine of Vaul Troupe",
+          "name": "Engines of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "upgrades": [
             "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
@@ -269,7 +267,7 @@
       },
       {
         "name": "Transport",
-        "description": "Add enough Wave Serpents to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
+        "description": "Add enough Wave Serpents and/or Falcons to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
         "points": "50 points each"
       },
       {
@@ -279,13 +277,13 @@
       },
       {
         "name": "Wraithguard",
-        "description": "Add three Eldar Wraithguards",
-        "points": "125 points"
+        "description": "Add two Eldar Wraithguards",
+        "points": "75 points"
       },
       {
         "name": "Wraithlord",
         "description": "Add three Eldar Wraithlords",
-        "points": "175 points"
+        "points": "150 points"
       }
     ]
   }

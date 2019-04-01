@@ -172,34 +172,7 @@
       ]
     },
     {
-      "name": "Eldar Warlock",
-      "type": "INF",
-      "speed": 15,
-      "armour": 5,
-      "cc": 4,
-      "ff": 5,
-      "weapons": [
-        "Witch Blades",
-        "Shuriken Pistols"
-      ],
-      "specialRules": [
-        "Commander"
-      ]
-    },
-    {
       "name": "Eldar Guardians",
-      "type": "INF",
-      "speed": 15,
-      "cc": 6,
-      "ff": 4,
-      "weapons": [
-        "Shuriken Catapults"
-      ],
-      "specialRules": [
-      ]
-    },
-    {
-      "name": "Black Guardians",
       "type": "INF",
       "speed": 15,
       "cc": 6,
@@ -300,11 +273,11 @@
       ]
     },
     {
-      "name": "Saim Hann Wild Riders",
+      "name": "Saim-Hann Wild Riders",
       "type": "INF",
       "speed": 35,
       "armour": 5,
-      "cc": 5,
+      "cc": 4,
       "ff": 4,
       "weapons": [
         "Twin Shuriken Catapults"
@@ -503,6 +476,21 @@
       ]
     },
     {
+      "name": "Saim-Hann Vyper",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Scatter Laser"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Invulnerable Save"
+      ]
+    },
+    {
       "name": "Venom",
       "type": "LV",
       "speed": 35,
@@ -566,6 +554,22 @@
       ]
     },
     {
+      "name": "Saim-Hann Hornet",
+      "type": "LV",
+      "speed": 40,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Hornet Pulse Laser"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Scout",
+        "Invulnerable Save"
+      ]
+    },
+    {
       "name": "Wraithlord",
       "type": "AV",
       "speed": 15,
@@ -595,7 +599,7 @@
       "specialRules": [
         "Reinforced Armour",
         "Skimmer",
-        "Transport (May carry up to two of the following: Warlock, Farseer, Guardian, Heavy Weapon Platform, Howling Banshee, Striking Scorpion, Fire Dragon, Dire Avenger, Dark Reaper & Swooping Hawk units or one Wraithguard unit)"
+        "Transport (May carry up to two of the following: Farseer, Guardians, Eldar Rangers, Pathfinders, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders. Wraithguards and Wraithblades take two spaces each)"
       ]
     },
     {
@@ -611,7 +615,7 @@
       ],
       "specialRules": [
         "Skimmer",
-        "Transport (May carry up to one of the following: Warlock, Farseer, Guardian, Heavy Weapon Platform, Howling Banshee, Striking Scorpion, Fire Dragon, Dire Avenger, Dark Reaper & Swooping Hawk units or one Wraithguard unit)"
+        "Transport (May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Pathfinders, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders.)"
       ]
     },
     {
