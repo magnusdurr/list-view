@@ -1,8 +1,8 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Knight World",
-  "version": "0.9.1",
-  "release": "2019-03-13",
+  "version": "1.0.0",
+  "release": "2019-04-03",
   "strategy": "Knight World armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -116,7 +116,7 @@
     },
     {
       "name": "Knight World Retainer Formations",
-      "description": "Up to two Retainer Formations for each Core Household.",
+      "description": "Up to one Retainer Formation for each Core or Support Household.",
       "formations": [
         {
           "name": "Planetary Defense Company",
@@ -124,7 +124,7 @@
           "upgrades": [
               "Thudd Guns", "Rapiers", "Snipers", "Entrenchments"
           ],
-          "points": 150
+          "points": 175
       },
       {
         "name": "Flak Battery",
@@ -138,7 +138,7 @@
         "units": "Three Howitzers, three Gun Emplacements",
         "upgrades": [
         ],
-        "points": 150
+        "points": 175
     },
       {
         "name": "Rough Riders",

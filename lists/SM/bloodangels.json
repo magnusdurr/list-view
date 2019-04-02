@@ -1,7 +1,7 @@
 {
   "fraction": "Space Marines",
   "army": "Blood Angels",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "release": "",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
@@ -87,7 +87,6 @@
             "upgrades": [
               "Commander",
               "AAA"
-
             ],
             "points": 250
         },
@@ -213,8 +212,8 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Furioso Dreadnoughts",
-        "points": ["50 points for one, 75 points for two"]
+        "description": "Add up to three Furioso Dreadnoughts",
+        "points": ["50 points for one, 75 points for two, 125 points for three"]
       },
       {
         "name": "Battle Barge",
@@ -241,7 +240,7 @@
           },
           {
             "description": "Add one Stalker",
-            "points": "75 points"
+            "points": "50 points"
           }
         ]
       },
