@@ -1044,6 +1044,22 @@
         ]
       },
       {
+        "name": "Dark Angels Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Plasma Guns",
+          "Lascannon"
+      ],
+      "specialRules": [
+        "Transport"
+      ],
+      "notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted."
+      },
+      {
         "name": "Razorback",
         "type": "AV",
         "speed": 30,

@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Dark Angels",
-  "version": "1.2",
-  "release": "2019-03-19",
+  "version": "0.9.1",
+  "release": "2019-04-02",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Space Marine Transports", "Teleport Homer", "Deathwing"],
@@ -42,6 +42,7 @@
         "Predator Destructor",
         "Predator Annihilator",
         "Rhino",
+        "Dark Angels Razorback",
         "Whirlwind",
         "Vindicator",
         "Glaive",
@@ -60,13 +61,6 @@
     {
       "name": "Dark Angels Core Detachments",
       "formations": [
-        {
-          "name": "Assaults",
-          "units": "One Dark Angels Captain, six Assaults",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
         {
           "name": "Ravenwing",
           "units": "One Black Knights, four Ravenwing Assault Bikes, three Ravenwing Land Speeders",
@@ -90,7 +84,7 @@
         "name": "Devastators",
         "units": "Four Dark Angels Devastators plus transport",
         "extraUnits": [
-          "Land Raiders",
+          "Razorbacks",
           "AAA",
           "Commander"
         ],
@@ -100,7 +94,6 @@
         "name": "Land Raiders",
         "units": "Three Land Raiders",
         "extraUnits": [
-            "AAA"
         ],
         "points": 250
       },
@@ -120,10 +113,16 @@
       "description": "Three Support Detachments may be fielded per Core Detachment",
       "formations": [
           {
+            "name": "Assaults",
+            "units": "One Dark Angels Captain, six Assaults",
+            "extraUnits": [
+            ],
+            "points": 250
+          },
+          {
             "name": "Predators",
             "units": "Four Predator Annihilators or four Predator Destructors",
             "extraUnits": [
-              "AAA"
             ],
             "points": 250
         },
@@ -131,7 +130,6 @@
           "name": "Land Raider Ares",
           "units": "Three Land Raider Ares, three Vindicators",
           "extraUnits": [
-            "AAA"
           ],
           "points": 350
       },
@@ -147,12 +145,13 @@
           "name": "Scouts",
           "units": "Four Scouts, two Rhinos",
           "extraUnits": [
+            "Razorbacks",
             "Snipers"
           ],
           "points": 150
         },
         {
-          "name": "Whirlwind Battery",
+          "name": "Whirlwinds",
           "units": "Four Whirlwinds",
           "extraUnits": [
             "AAA"
@@ -236,16 +235,16 @@
         "description": "Add any one of the following units to the formation",
         "options": [
           {
-            "description": "Add one Hunter",
-            "points": "75 points"
+            "description": "Add two Hunters",
+            "points": "125 points"
           },
           {
             "description": "Add two Stalkers",
-            "points": "100 points"
+            "points": "125 points"
         },
         {
-          "description": "Add one or two Mortis Dreadnoughts",
-          "points": ["50 points for one", "75 points for two"]
+          "description": "Add two Mortis Dreadnoughts",
+          "points": "75 points"
         }
         ]
       },
@@ -255,9 +254,14 @@
         "points": "50 points each"
       },
       {
+        "name": "Razorbacks",
+        "description": "Add four Dark Angels Razorbacks to the formation",
+        "points": "100 points"
+      },
+      {
         "name": "Snipers",
-        "description": "Give up to four Scouts Sniper",
-        "points": "10 points each"
+        "description": "Give two or four Scouts Sniper",
+        "points": ["25 points for two", "50 points for four"]
       },
       {
         "name": "Venegance",
