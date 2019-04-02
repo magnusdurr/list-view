@@ -814,17 +814,7 @@
         ],
         "notes": "Counts as a Dreadnought for the purposes of being transported"
       },
-      {
-        "name": "Hunter",
-        "type": "AV",
-        "speed": 30,
-        "armour": 4,
-        "cc": 6,
-        "ff": 6,
-        "weapons": [
-          "Hunter-Killer"
-        ]
-      },
+
       {
         "name": "Leman Russ Exterminator",
         "type": "AV",
@@ -1121,6 +1111,17 @@
           "Transport"
       ],
           "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Hunter",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Hunter-Killer"
+        ]
       },
       {
         "name": "Stalker",

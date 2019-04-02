@@ -1,7 +1,7 @@
 {
   "fraction": "Space Marines",
   "army": "Blood Angels",
-  "version": "0.5.1",
+  "version": "0.6.1",
   "release": "",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
@@ -14,7 +14,7 @@
       "from": "SM.json",
       "units": [
         "Captain","Chaplain", "Librarian", "Supreme Commander",
-        "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
+        "Sanguinary Guards", "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
         "Furioso Dreadnought", "Razorback", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino",
         "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
@@ -27,7 +27,7 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-          "Warhound"
+          "Warhound "
         ],
       "unitRules": ["Void Shields"]
     }
@@ -40,18 +40,18 @@
             "name": "1 Death Company",
             "units": "One Chaplain, four Death Company Marines",
             "extraUnits": [
-                "The Death Company may either be transported in two Death Company Rhinos, be equipped with Jump Packs, or be mounted in Drop Pods if a Space Ship has been bought: Free",
-                "If mounted in Drop Pods, two Death Company Dreadnoughts may be added for 100 points"
+                "(Free) The Death Company may either be transported in two Death Company Rhinos, be equipped with Jump Packs, or be mounted in Drop Pods if a Space Ship has been bought",
+                "(100 points) If mounted in Drop Pods, two Death Company Dreadnoughts may be added"
             ],
-            "points": 300
+            "points": 250
           },
           {
             "name": "0-1 Sanguinary Guard",
-            "units": "One Supreme Commander, six Sanguinary Guards",
+            "units": "One Supreme Commander, four Sanguinary Guards",
             "upgrades": [
             "Predators"
             ],
-            "points": 350
+            "points": 250
           },
         {
           "name": "Assaults",
@@ -73,33 +73,33 @@
             "Dreadnoughts"
           ],
           "points": 275
-      },
-      {
-        "name": "Land Raiders",
-        "units": "Three Land Raiders",
-        "upgrades": [
-          "Commander",
-          "AAA"
-
-        ],
-        "points": 250
-      },
-
-      {
-        "name": "Baal Predators",
-        "units": "Four Baal Predator Hades or four Baal Predator Infernus",
-        "upgrades": [
-          "Commander",
-          "AAA"
-        ],
-        "points": 250
       }
+
       ]
     },
     {
       "name": "Blood Angels Support Detachments",
-      "description": "Two Support Detachments may be fielded per Core Detachment",
+      "description": "Three Support Detachments may be fielded per Core Detachment",
       "formations": [
+          {
+            "name": "Land Raiders",
+            "units": "Three Land Raiders",
+            "upgrades": [
+              "Commander",
+              "AAA"
+
+            ],
+            "points": 250
+        },
+          {
+            "name": "Baal Predators",
+            "units": "Four Baal Predator Hades or four Baal Predator Infernus",
+            "upgrades": [
+              "Commander",
+              "AAA"
+            ],
+            "points": 250
+        },
           {
             "name": "Bikes",
             "units": "Five Assault Bikes",
@@ -135,18 +135,12 @@
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "upgrades": [
+              "Commander",
             "Razorbacks",
             "Snipers"
+
           ],
           "points": 150
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "upgrades": [
-            "Battle Barge"
-          ],
-          "points": 200
         },
         {
           "name": "Blood Angels Terminators",
@@ -162,7 +156,15 @@
         "name": "Landing Craft",
         "units": "One Landing Craft",
         "points": 350
-      }
+    },
+    {
+      "name": "0-1 Orbital Support",
+      "units": "One Strike Cruiser",
+      "upgrades": [
+        "Battle Barge"
+      ],
+      "points": 200
+    }
       ]
     },
     {
@@ -184,8 +186,10 @@
         },
         {
           "name": "Warhound Pack",
-          "units": "Two Warhounds",
-          "upgrades": [
+          "units": "Two Warhounds (Standard Configuration)",
+          "extraUnits": [
+              "Support Configuration: Free",
+              "Tank Hunter Configuration: 50 points"
           ],
           "points": 500
       }
@@ -211,11 +215,6 @@
         "name": "Dreadnoughts",
         "description": "Add up to two Furioso Dreadnoughts",
         "points": ["50 points for one, 75 points for two"]
-      },
-      {
-        "name": "Razorbacks",
-        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
-        "points": "25 points each"
       },
       {
         "name": "Battle Barge",
@@ -250,6 +249,11 @@
         "name": "Land Raiders",
         "description": "Add any number of Land Raiders or Land Raider Redeemers, up to the number required to transport the formation",
         "points": "50 points each"
+      },
+      {
+        "name": "Razorbacks",
+        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "points": "25 points each"
       },
       {
         "name": "Snipers",
