@@ -82,11 +82,11 @@
       "formations": [
         {
           "name": "Custodian Household",
-          "units": "Two Knight-Custodians",
+          "units": "Two Knight-Custodians (any combination configurations)",
           "upgrades": [
             "Seneschal, Knight-Custodians"
           ],
-          "points": 275
+          "points": 250
       },
           {
             "name": "Vanguard Household",
@@ -201,7 +201,7 @@
           "name": "Knight-Custodians",
           "options": [
             {
-              "description": "Add up to two Knight-Custodians",
+              "description": "Add up to two Knight-Custodians of any configuration",
               "points": "100 points each"
             }
           ]
