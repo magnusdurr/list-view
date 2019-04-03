@@ -1,7 +1,7 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Knight World",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "release": "2019-04-03",
   "strategy": "Knight World armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
@@ -86,7 +86,7 @@
           "upgrades": [
             "Seneschal, Knight-Custodians"
           ],
-          "points": 250
+          "points": 275
       },
           {
             "name": "Vanguard Household",
@@ -94,7 +94,7 @@
             "upgrades": [
               "Seneschal, Knight-Vanguard"
             ],
-            "points": 300
+            "points": 325
         },
         {
           "name": "Guardian Household",
@@ -102,7 +102,7 @@
           "upgrades": [
             "Seneschal, Knight-Guardians"
           ],
-          "points": 300
+          "points": 325
       },
       {
         "name": "Aggressor Household",
@@ -110,7 +110,7 @@
         "upgrades": [
           "Seneschal, Knight-Aggressors"
         ],
-        "points": 300
+        "points": 325
     }
       ]
     },
@@ -153,7 +153,7 @@
         "upgrades": [
             "Thudd Guns or Rapiers"
         ],
-        "points": 125
+        "points": 100
       }
       ]
   },
