@@ -3,12 +3,12 @@
     "name": "Adeptus Mechanicus Forces",
     "specialRules": [
         {
-          "title": "Automaton",
+          "title": "Machine Spirit",
           "description": [
             "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
-            "A formation does not receive a Blast Marker when a unit with Automaton is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with Disrupt do take a Blast Marker however.",
-            "If a hit is inflicted on an Automaton unit because it is in a broken formation which is receiving a Blast Marker then it may attempt to save normally.",
-            "Automaton units killed in an assault count for the purposes of working out its result."
+            "A formation does not receive a Blast Marker when a unit with Machine Spirit is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Machine Spirit units hit by a weapon with Disrupt do take a Blast Marker however.",
+            "If a hit is inflicted on an Machine Spirit unit because it is in a broken formation which is receiving a Blast Marker then it may attempt to save normally.",
+            "Machine Spirit units killed in an assault count for the purposes of working out its result."
           ]
       },
       {
@@ -95,7 +95,7 @@
             "Hydraulic Claw"
           ],
           "specialRules": [
-            "Notes: Automaton",
+            "Notes: Machine Spirit",
             "Invulnerable Save",
             "Count as 2 for the purpose of being transported"
           ]
@@ -112,7 +112,7 @@
             "Cognis Flamer"
           ],
           "specialRules": [
-            "Notes: Automaton",
+            "Notes: Machine Spirit",
             "Invulnerable Save",
             "Count as 2 for the purpose of being transported"
           ]
@@ -198,7 +198,8 @@
             "Power Weapon"
           ],
           "specialRules": [
-            "Automaton",
+            "Machine Spirit",
+            "Expendable",
             "Invulnerable Save"
           ]
       },
@@ -212,7 +213,8 @@
             "Body Weapons"
           ],
           "specialRules": [
-            "Automaton",
+            "Machine Spirit",
+            "Expendable",
             "Invulnerable Save"
           ]
       },
@@ -228,7 +230,8 @@
             "Power Fist"
           ],
           "specialRules": [
-            "Automaton",
+            "Machine Spirit",
+            "Expendable",
             "Walker",
             "Invulnerable Save"
           ]
@@ -246,7 +249,8 @@
             "Power Fist"
           ],
           "specialRules": [
-            "Automaton",
+            "Machine Spirit",
+            "Expendable",
             "Walker",
             "Invulnerable Save"
           ]
