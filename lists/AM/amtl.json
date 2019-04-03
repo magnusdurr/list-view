@@ -41,6 +41,7 @@
     {
       "from": "AM.json",
       "units": [
+        "Magos",
         "Tech-Priest",
         "Skitarii Vanguard",
         "Kastelan Robot",
@@ -126,7 +127,7 @@
       "formations": [
         {
           "name": "Skitarii Maniple",
-          "units": "One Tech-Priest, nine Skitarii Vanguard",
+          "units": "One Magos, nine Skitarii Vanguard",
           "upgrades": [
               "Gorgon"
           ],

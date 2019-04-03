@@ -5,10 +5,7 @@
         {
           "title": "Machine Spirit",
           "description": [
-            "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
-            "A formation does not receive a Blast Marker when a unit with Machine Spirit is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Machine Spirit units hit by a weapon with Disrupt do take a Blast Marker however.",
-            "If a hit is inflicted on an Machine Spirit unit because it is in a broken formation which is receiving a Blast Marker then it may attempt to save normally.",
-            "Machine Spirit units killed in an assault count for the purposes of working out its result."
+        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such a formation can not capture objectives, but may only contest them."
           ]
       },
       {
@@ -20,7 +17,7 @@
     ],
     "unit": [
       {
-          "name": "Archmagos",
+          "name": "Arch-Magos",
           "type": "INF",
           "speed": 15,
           "armour": 3,
@@ -49,19 +46,18 @@
           ],
           "specialRules": [
             "Commander",
-            "Inspiring",
+            "Leader",
             "Invulnerable Save"
           ]
       },
       {
-          "name": "Tech-Priest Dominus",
+          "name": "Tech-Priest",
           "type": "INF",
           "speed": 15,
           "armour": 4,
           "cc": 4,
           "ff": 4,
           "weapons": [
-            "Eradication Ray",
             "Omnissian Axe"
           ],
           "specialRules": [
@@ -191,7 +187,7 @@
           "type": "INF",
           "speed": 15,
           "armour": 3,
-          "cc": 4,
+          "cc": 5,
           "ff": 5,
           "weapons": [
             "Assault Cannon",
@@ -199,23 +195,24 @@
           ],
           "specialRules": [
             "Machine Spirit",
-            "Expendable",
-            "Invulnerable Save"
+            "Fearless",
+            "Expendable"
           ]
       },
       {
           "name": "Battle Servitors",
           "type": "INF",
           "speed": 15,
-          "cc": 5,
+          "armour": 6,
+          "cc": 6,
           "ff": 5,
           "weapons": [
             "Body Weapons"
           ],
           "specialRules": [
             "Machine Spirit",
-            "Expendable",
-            "Invulnerable Save"
+            "Fearless",
+            "Expendable"
           ]
       },
       {
@@ -231,9 +228,8 @@
           ],
           "specialRules": [
             "Machine Spirit",
-            "Expendable",
-            "Walker",
-            "Invulnerable Save"
+            "Fearless",
+            "Expendable"
           ]
       },
       {
@@ -250,14 +246,13 @@
           ],
           "specialRules": [
             "Machine Spirit",
-            "Expendable",
-            "Walker",
-            "Invulnerable Save"
+            "Fearless",
+            "Expendable"
           ]
       },
       {
           "name": "Rapier",
-          "type": "Inf",
+          "type": "INF",
           "speed": 10,
           "cc": 6,
           "ff": 5,
@@ -322,9 +317,9 @@
         "notes": "Must choose either an Eradication Beamer, Icarus Array, Neutron Laser or Twin Heavy Phosphor Blaster."
       },
       {
-          "name": "Chimeradon",
+          "name": "Chimedon",
           "type": "AV",
-          "speed": 30,
+          "speed": 20,
           "armour": 5,
           "cc": 6,
           "ff": 5,
@@ -378,7 +373,7 @@
             "Void Shields 2",
             "Reinforced Armour",
             "Fearless",
-            "*Corvus Assault Pod* May transport eleven infantry units or Light Vehicle Robots; Light Vehicle Robots counts as two units each"
+            "*Corvus Assault Pod* May transport eleven infantry units. Praetorians counts as two units each"
         ],
           "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
@@ -403,7 +398,7 @@
             "Void Shields 2",
             "Reinforced Armour",
             "Fearless",
-            "*Corvus Assault Pod* May transport eleven infantry units or Light Vehicle Robots; Light Vehicle Robots counts as two units each"
+            "*Corvus Assault Pod* May transport eleven infantry units. Praetorians counts as two units each"
         ],
           "notes": "Armed with a single Battle Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },

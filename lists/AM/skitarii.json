@@ -1,8 +1,8 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Skitarii",
-  "version": "1.4",
-  "release": "2019-03-03",
+  "version": "0.7.1",
+  "release": "2019-04-03",
   "strategy": "The Skitarii have a Strategy Rating of 3.",
   "Initiative": "Titan Legion formations have an Initiative Rating of 1+. All other formations have a Initiative of 2+",
 
@@ -16,19 +16,22 @@
     {
       "from": "AM.json",
       "units": [
-        "Archmagos",
+        "Arch-Magos",
+        "Magos",
         "Tech-Priest",
 
         "Skitarii Vanguard",
         "Secutarii",
 
+        "Battle Servitors",
         "Praetorians",
         "Kastelan Robot",
         "Conqueror Robot",
+
         "Rapier",
 
         "Onager Dunecrawler",
-        "Chimeradon",
+        "Chimedon",
         "Ordinatus Minoris",
         "Ordinatus Majoris",
         "AM Gorgon",
@@ -61,11 +64,12 @@
       "formations": [
         {
           "name": "Skitarii Vanguard",
-          "units": "One Tech-Priest, nine Skitarii Vanguard",
+          "units": "One Magos, nine Skitarii Vanguard",
           "upgrades": [
-            "Archmagos",
-            "Gorgon",
-            "Dunecrawlers"
+            "Arch-Magos",
+            "Hydra",
+            "Transport",
+            "Rapiers"
           ],
           "points": 225
         }
@@ -76,21 +80,36 @@
       "description": "up to two Support Formations for each Core Formation.",
       "formations": [
         {
-          "name": "Secutarii",
+          "name": "Secutarii Maniple",
           "units": "Four Secutarii",
           "upgrades": [
             "Hydra",
-            "Chimeradon"
+            "Chimedons",
+            "Rapiers"
           ],
           "points": 150
         },
         {
-          "name": "Praetorians",
+          "name": "Praetorian Maniple",
           "units": "Five Praetorians, one Tech-Priest",
           "upgrades": [
-            "Gorgon",
-            "Servitors",
-            "Dunecrawlers"
+            "Servitors"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Kastelan Maniple",
+          "units": "Five Kastelan Robots, one Tech-Priest",
+          "upgrades": [
+            "Servitors"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Conqueror Maniple",
+          "units": "Five Conqueror Robots, one Tech-Priest",
+          "upgrades": [
+            "Servitors"
           ],
           "points": 200
         },
@@ -100,23 +119,7 @@
           "points": 225
         },
         {
-          "name": "Kastelan Maniple",
-          "units": "Five Kastelan Robots and one Tech-Priest",
-          "upgrades": [
-            "Servitors"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Conqueror Maniple",
-          "units": "Four Conqueror Robots, three Rapiers",
-          "upgrades": [
-            "Servitors"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Ordinatus Minoris",
+          "name": "Minoris Cohort",
           "units": "Two Ordinatus Minoris",
           "upgrades": [
             "Ordinatus",
@@ -141,7 +144,7 @@
       "formations": [
                 {
                   "name": "Warhound Pack",
-                  "units": "Two Warhound Scout Titans, both of either Standard or Close Support Configuration",
+                  "units": "Two Warhound Scout Titans, both of either Standard or Support Configuration",
                   "upgrades": [
                       "Tank Hunter Configuration"
                   ],
@@ -167,7 +170,7 @@
                 "points": 75
               },
         {
-          "name": "Avenger Strike Fighters",
+          "name": "Avenger Squadron",
           "units": "Two Avenger Strike Fighters",
           "points": 175
         },
@@ -184,39 +187,23 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "0-1 Archmagos",
+        "name": "0-1 Arch-Magos",
         "options": [
           {
-            "description": "Replace the Tech-Priest with an Archmagos",
+            "description": "Replace the Tech-Priest with an Arch-Magos",
             "points": "50 points"
           }
         ]
       },
       {
-        "name": "Gorgon",
+        "name": "Transport",
         "options": [
           {
-            "description": "Add one AM Gorgon",
-            "points": "75 points"
+            "description": "Add one AM Gorgon or five Chimedons",
+            "points": ["Gorgon: 75 points", "Chimedons: 175 points"]
           }
         ]
       },
-      {
-              "name": "Dune Crawlers",
-              "options": [
-                {
-                  "description": "Choose one of the following:"
-                },
-                {
-                  "description": "Add one Dune Crawler with Icarus Array",
-                  "points": "50 points"
-                },
-                {
-                  "description": "Add two Dune Crawlers with Eradication Beamer",
-                  "points": "75 points"
-                }
-              ]
-            },
       {
         "name": "Servitors",
         "options": [
@@ -227,6 +214,15 @@
         ]
     },
         {
+          "name": "Rapiers",
+          "options": [
+            {
+              "description": "Add three Rapiers",
+              "points": "50 points"
+            }
+          ]
+      },
+        {
           "name": "Hydra",
           "options": [
             {
@@ -236,10 +232,10 @@
           ]
       },
       {
-        "name": "Chimeradon",
+        "name": "Chimedons",
         "options": [
           {
-            "description": "Add two Chimeradon",
+            "description": "Add two Chimedons",
             "points": "50 points"
           }
         ]
