@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Baran Siegemasters",
-  "version": "0.5.1",
-  "release": "2019-03-20",
+  "version": "0.5.2",
+  "release": "2019-04-03",
   "strategy": "Siegemaster armies have a Strategy Rating of 1.",
   "Initiative": "Sappers have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+.",
 
@@ -113,7 +113,7 @@
           "upgrades": [
               "Howitzer Company"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Siege Artillery",
@@ -124,10 +124,10 @@
         },
         {
           "name": "Heavy Mortar Battery",
-          "units": "Three Heavy Mortars and three Gun Emplacements",
+          "units": "Four Heavy Mortars and four Gun Emplacements",
           "upgrades": [
           ],
-          "points": 125
+          "points": 175
         },
         {
           "name": "Flak Battery",
@@ -220,7 +220,7 @@
           "options": [
             {
               "description": "Add a Commissar, three Howitzers, three Gun Emplacements",
-              "points": "200 points"
+              "points": "175 points"
             }
           ]
         },
@@ -264,8 +264,8 @@
         "name": "Siege Infantry",
         "options": [
           {
-            "description": "Add four Siege Infantry",
-            "points": "25 points"
+            "description": "Add six Siege Infantry",
+            "points": "50 points"
           }
         ]
       },
