@@ -22,21 +22,21 @@
     <div class="text-center">
         <img src="website/img/banner.jpg" style="width: 50%">
     </div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light" style="margin-top:10px">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto" id="menu">
-                <li class="nav-item">
-                    <a class="nav-link" href="/content/intro.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/content/rules.html">Rules</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/content/armies.html">Armies</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="/content/intro.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/content/rules.html">Rules</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/content/armies.html">Armies</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/content/scenarios.html">Scenarios</a>
+        </li>
+    </ul>
+
 
     <div id="content"></div>
     <p>&nbsp;</p>
@@ -69,6 +69,11 @@
     $(document).ready(function () {
         console.log("[document-ready] initializing...");
         eaTemplating.initialize();
+
+        $('.nav-link').on('click', function () {
+            $('.nav-link').removeClass('active');
+            $(this).addClass('active');
+        });
 
         $(document).on('click', 'a:not(.external,.page-link,.dropdown-toggle)', eaNav.linkHandler);
         $(window).on('popstate', eaNav.historyBackHandler);
