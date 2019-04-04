@@ -230,6 +230,18 @@
             }
         ]
       },
+      {
+        "name": "AC Autocannon",
+          "modes": [
+            {
+              "firepower": "AP5+/AT6+/AA6+",
+              "range": 30,
+              "specialRules": [
+                "FxF"
+            ]
+            }
+        ]
+      },
     {
       "name": "AC Avenger Bolt Cannon",
         "modes": [
@@ -477,7 +489,7 @@
         "modes": [
           {
             "firepower": "AT5+/AA5+",
-            "range": 45,
+            "range": 30,
             "specialRules": [
               "FxF"
           ]
@@ -841,18 +853,6 @@
       ]
     },
     {
-      "name": "AC Twin Lascannon",
-        "modes": [
-          {
-            "firepower": "AT4+/AA4+",
-            "range": 30,
-            "specialRules": [
-              "FxF"
-          ]
-          }
-      ]
-    },
-    {
           "name": "AC Twin-linked Lastrum Bolt Cannon",
           "modes": [
             {
@@ -1175,16 +1175,15 @@
           {
             "firepower": "Assault Weapon",
             "specialRules": [
-              "EA(+2)",
-              "MW"
+              "EA(+1)",
+              "TK(1)"
           ]
           },
           {
             "firepower": "Small Arms",
             "join": "and",
             "specialRules": [
-              "EA(+1)",
-              "MW"
+              "IC"
           ]
         }
       ]
@@ -3239,7 +3238,7 @@
       "name": "Exorcist Launcher",
         "modes": [
           {
-            "firepower": "2x AP6+/AT4+",
+            "firepower": "2x AP5+/AT5+",
             "range": 45,
             "specialRules": [
 
@@ -4514,6 +4513,26 @@
             "range": 30,
             "specialRules": [
               "IC"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inferno Cannon ",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 30,
+            "specialRules": [
+              "IC",
+              "FxF"
           ]
           },
           {
@@ -8013,6 +8032,26 @@
       ]
     },
     {
+      "name": "Thermal Cannon ",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 30,
+          "specialRules": [
+              "FxF"
+          ]
+      },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Thermal Lance",
       "modes": [
         {
@@ -8320,7 +8359,7 @@
       "name": "AC Twin Lascannon",
       "modes": [
         {
-          "firepower": "AT4+/AA5+",
+          "firepower": "AT4+/AA4+",
           "range": 30
         }
       ]

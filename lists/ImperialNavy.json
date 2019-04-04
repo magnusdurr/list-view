@@ -25,13 +25,13 @@
       ]
     },
     {
-      "name": "Lightning Strike Fighter",
+      "name": "Lightning Interceptor",
       "type": "AC",
       "speed": "Fighter",
       "armour": 6,
       "weapons": [
-        "AC Lascannon",
-        "AC Underwing Rockets"
+        "AC Twin Lascannon||FxF",
+        "AC Autocannon"
       ],
       "specialRules": [
 
@@ -44,7 +44,7 @@
       "armour": 5,
       "weapons": [
         "AC Avenger Bolt Cannon",
-        "AC Twin Lascannon",
+        "AC Twin Lascannon||FxF",
         "AC Heavy Stubber Turret"
       ],
       "specialRules": [
@@ -57,7 +57,7 @@
       "speed": "Bomber",
       "armour": 4,
       "weapons": [
-        "AC Twin Lascannon",
+        "AC Twin Lascannon||FxF",
         "AC Bomb Racks",
         "AC Heavy Bolter Turret|2|"
       ],

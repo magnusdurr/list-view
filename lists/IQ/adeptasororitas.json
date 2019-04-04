@@ -1,14 +1,13 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "1.0",
-  "release": "2019-01-20",
+  "version": "0.7.1",
+  "release": "2019-04-04",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
-  "Initiative": "All Sister of Battle formations have an Initiative Rating of 1+. All Inquisitorial Support Detachments and Imperial Navy formations have an Initiative Rating of 2+.",
-  "specialRules": ["Act of Faith"
-                  ],
+  "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
+  "specialRules": ["Act of Faith", "Stubborn"],
   "usage": [
-    "The following army list allows you to field an army based on the Adepta Sororitas from the Ordo Heriticus"
+    "The following army list allows you to field an army based on the Adepta Sororitas from the Ordo Hereticus"
   ],
   "units": [
     {
@@ -22,29 +21,31 @@
         "Living Saint",
         "Arco-Flagellants",
         "Battle Sisters",
-        "Celestian Sister",
-        "Dominion Sister",
-        "Retributor Sister",
+        "Dominion Sisters",
+        "Retributor Sisters",
         "Redemptionists",
-        "Seraphim Sister",
-        "Death Cult Assassin",
-        "Inquisitorial Storm Trooper",
+        "Seraphim Sisters",
         "Repentia Sisters",
         "Penitent Engine",
         "Exorcist",
         "Sororitas Rhino",
         "Sororitas Hunter",
         "Repressor",
-        "Immolator"
+        "Immolator",
+        "Emperor's Chapel",
+        "Cathedral of the God-Emperor",
+        "IQ Land Transporter"
       ],
       "unitRules": [
-
+          "Void Shields",
+          "God Machine",
+          "Split Fire"
       ]
     },
     {
       "from": "IG.json",
       "units": [
-        "Chimera",
+        "Tempestus Scions",
         "Valkyrie"
       ],
       "unitRules": [
@@ -54,147 +55,134 @@
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Lightning Strike Fighter",
+        "Lightning Interceptor",
         "Marauder Bomber",
         "Lunar Class Cruiser"
       ],
       "unitRules": [
-
+          "God Machine Killer (GMK)"
       ]
     }
   ],
   "sections": [
     {
       "name": "Adepta Sororitas Core Detachments",
-      "description": "One Retribution Formation for each one Mission Formation",
+      "description": "",
       "formations": [
         {
           "name": "Mission",
-          "units": "Eight Battle Sisters",
-          "upgrades": [
-
-            "Exorcist",
-            "Priest",
+          "units": "One Palatine, eight Battle Sisters",
+          "extraUnits": [
+            "Exorcists",
             "Superior",
-            "Specialist",
+            "Hunter",
             "Transport"
           ],
           "points": 275
-        },
-        {
-          "name": "Retribution",
-          "units": "Six Retributor Sisters",
-          "upgrades": [
-              "Four Retributor Sisters and two Dominion Sisters (Free)",
-              "Four Retributor Sisters and two Celestian Sisters (15 points)",
-            "Priest",
-            "Palatine",
-            "Transport"
-          ],
-          "points": 250
-        }
-      ]
+
+      }
+    ]
     },
     {
-      "name": "Adepta Sororita Support Detachments",
-      "description": "Two Support Detachments may be fielded per Core Mission",
+      "name": "Adepta Sororita Support Detachment",
+      "description": "Two Support Detachments may be fielded per Core Detachment",
       "formations": [
         {
-          "name": "Exorcism",
-          "units": "Five Exorcists",
-          "upgrades": [
-            "Exorcist",
-            "Hunter"
-          ],
-          "points": 250
-        },
-        {
-          "name": "Choir",
-          "units": "Six Seraphim Sisters",
+          "name": "Seraphim",
+          "units": "One Palatine, six Seraphim Sisters",
           "upgrades": [
             "Superior"
           ],
           "points": 225
         },
         {
-          "name": "Coven",
-          "units": "Four Dominion Sisters",
+          "name": "Retribution",
+          "units": "Four Retributor Sisters",
           "upgrades": [
-
-            "Transports"
+              "Transport"
           ],
           "points": 200
-        },
+      },
         {
-          "name": "Repentance",
-          "units": "Six Repentia Sisters plus a Mistress character",
+          "name": "Dominion",
+          "units": "Four Dominion Sisters",
           "upgrades": [
-
-            "Engines",
-            "Priest",
             "Transport"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Purgeance",
-          "units": "Six Immolators or Repressors",
-          "upgrades": [
-            "Hunter"
-          ],
-          "points": 225
-        }
-      ]
-    },
-    {
-      "name": "Inquisitorial Support Detachments",
-      "description": "Two Inquisitorial Support Detachments may be fielded per Mission",
-      "formations": [
-        {
-          "name": "Penitence",
-          "units": "Four Penitent Engines",
-          "upgrades": [
-            "Engines"
           ],
           "points": 175
         },
         {
-          "name": "Crusaders",
-          "units": "Ten Redemptionists plus a Priest character",
+          "name": "Repentance",
+          "units": "Four Repentia Sisters",
           "upgrades": [
-            "Chimeras",
-            "Engines"
+            "Transport"
           ],
-          "points": 200
+          "points": 150
         },
         {
-          "name": "Conclave",
-          "units": "Six Arco Flagellants",
+          "name": "Exorcism",
+          "units": "Six Exorcists",
           "upgrades": [
-            "Transport",
-            "Engines"
+            "Hunter"
           ],
-          "points": 250
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Inquisitorial Support Formations",
+      "description": "One Inquisitorial Support Formations may be fielded per Core Detachment",
+      "formations": [
+        {
+          "name": "Redemption",
+          "units": "Eight Redemptionists",
+          "upgrades": [
+            "Add four IQ Land Transporters: 50 points"
+          ],
+          "points": 150
         },
         {
-          "name": "0-1 per army Inquisitorial Strike Force",
-          "units": "Eight Inqisitorial Storm Troopers plus an Inquisitor character",
+          "name": "Penitence",
+          "units": "Four Penitent Engines",
           "upgrades": [
-            "Chimeras or Landing Party",
-            "Priest",
-            "Retinue"
+            "Add two Penitent Engines: 50 points"
+          ],
+          "points": 175
+      },
+        {
+          "name": "Flagellant",
+          "units": "Six Arco-Flagellants",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "0-1 Inquisitorial Strike Force",
+          "units": "One Inquisitor, seven Tempestus Scions",
+          "upgrades": [
+            "Add four Valkyries: 150 points"
           ],
           "points": 200
         }
       ]
     },
     {
-      "name": "Imperial Navy Formations",
-      "description": "Up to a third of the points available may be spent on Imperial Navy Formations",
+      "name": "Adepta Sororitas War Engines and Imperial Navy Formations",
+      "description": "Up to a third of the points available may be spent on Adepta Sororitas War Engines and Imperial Navy formations",
       "formations": [
+          {
+            "name": "Chapel of Worship",
+            "units": "One Emperor's Chapel",
+            "points": 225
+          },
+          {
+            "name": "Cathedral of Glory",
+            "units": "One Cathedral of the God-Emperor",
+            "points": 700
+          },
         {
           "name": "Lightning Squadron",
-          "units": "Two Lightning Strike Fighters",
+          "units": "Two Lightning Interceptors",
           "points": 150
         },
         {
@@ -212,89 +200,46 @@
   ],
   "upgrades": {
     "title": "Upgrades",
-    "description": "Up to four upgrades may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
       {
         "name": "Superior",
-        "description": "Add any one of the following characters to any unit in the formation",
+        "description": "Choose one of the following",
         "options": [
           {
-            "description": "Add one Cannoness (1 per army)",
-            "points": "100 points"
-          },
-          {
-            "description": "Add one Living Saint (1 per army)",
+            "description": "Replace the Palatine with a Cannoness (1 per army)",
             "points": "75 points"
           },
           {
-            "description": "Add one Palatine",
+            "description": "Replace the Palatine and its unit with a Living Saint (1 per army)",
             "points": "50 points"
           }
         ]
       },
       {
-        "name": "Priest",
-        "description": "Add one Priest",
-        "points": "50 points"
-      },
-      {
-        "name": "Chimeras",
-        "description": "Enough Chimeras to transport the entire formation",
-        "points": "25 points each"
-      },
-      {
-        "name": "Engines",
-        "description": "Add up to three Penitent Engines",
-        "points": "35 points each"
-      },
-      {
-        "name": "Exorcist",
-        "description": "Add up to two Exorcists",
-        "points": "50 points"
+        "name": "Exorcists",
+        "description": "Add two Exorcists",
+        "points": "75 points"
       },
       {
         "name": "Hunter",
         "description": "Add one Sororitas Hunter",
-        "points": "50 points"
-      },
-      {
-        "name": "Specialist",
-        "description": "",
-        "options": [
-          {
-            "description": "Replace two Battle Sisters with two Celestians",
-            "points": "25 points"
-          },
-          {
-            "description": "Replace two Battle Sisters with two Dominions or Retributor Sisters",
-            "points": "15 points"
-          }
-        ]
-      },
-      {
-        "name": "Retinue",
-        "description": "Replace up to two Inquisitorial Storm Troopers with Deathcult Assassins",
-        "points": "20 points each"
-      },
-      {
-        "name": "Landing Party",
-        "description": "Add four Valkyries to transport the formation",
-        "points": "150 points"
+        "points": "75 points"
       },
       {
         "name": "Transport",
         "description": "",
         "options": [
+            {
+              "description": "You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible",
+              "points": ""
+            },
           {
-            "description": "Add up to eight Immolators",
+            "description": "Add any number of Immolators and/or Repressors",
             "points": "25 points each"
           },
           {
-            "description": "Add up to four Repressors",
-            "points": "25 points each"
-          },
-          {
-            "description": "Add Rhinos (In any combination, You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible)",
+            "description": "Add any number of Sororitas Rhinos",
             "points": "Free"
           }
         ]

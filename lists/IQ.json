@@ -1,12 +1,29 @@
 [
   {
-    "name": "Adepta Sororitas Forces",
+    "name": "Inquisitorial Forces",
     "specialRules": [
+        {
+          "title": "Void Shields",
+          "description": [
+            "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan’s datasheet.",
+            "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast Markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
+            "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast Markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast Markers or repair 1 shield and remove 1 Blast Marker)."
+          ]
+      },
       {
-        "title": "",
+        "title": "God Machine",
         "description": [
-          ""
+          "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
+          "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
+          "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+          "Units with the God Machine special rule are themselves immune to this effect."
         ]
+    },
+        {
+          "title": "Split Fire",
+          "description": [
+            "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon, and gets no +1 to-hit modifier from performing a Sustain Fire."
+          ]
       }
 
     ],
@@ -24,49 +41,15 @@
         ]
       },
       {
-        "name": "Inquisitor",
+        "name": "Palatine",
         "type": "CH",
         "weapons": [
           "Power Weapon"
         ],
         "specialRules": [
           "Commander",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Mistress",
-        "type": "CH",
-        "weapons": [
-          "Neural Whips"
-        ],
-        "specialRules": [
-          "Leader"
-        ]
-      },
-      {
-        "name": "Palatine",
-        "type": "CH",
-        "weapons": [
-          "Blessed Weapon"
-        ],
-        "specialRules": [
-          "Commander",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Priest",
-        "type": "CH",
-        "weapons": [
-          "Eviserator"
-        ],
-        "specialRules": [
-          "Invulnerable Save",
-          "Inspiring",
-          "Fearless"
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -75,30 +58,17 @@
         "speed": 30,
         "armour": 4,
         "cc": 3,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Ardent Blade"
         ],
         "specialRules": [
           "Reinforced Armour",
-          "Jump Packs",
           "Fearless",
+          "Faithful",
           "Inspiring",
+          "Jump Packs",
           "Invulnerable Save"
-        ]
-      },
-      {
-        "name": "Arco-Flagellants",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-
-        "weapons": [
-          "Combat Flails"
-        ],
-        "specialRules": [
-          "Fearless"
         ]
       },
       {
@@ -117,39 +87,40 @@
         ]
       },
       {
-        "name": "Celestian Sister",
+        "name": "Celestian Sisters",
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 5,
+        "cc": 6,
         "ff": 4,
         "weapons": [
-          "Multi-Melta"
+          "Multi-Melta|2|"
         ],
         "specialRules": [
           "Faithful"
         ]
       },
       {
-        "name": "Dominion Sister",
+        "name": "Dominion Sisters",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 5,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Melta Guns"
         ],
         "specialRules": [
-          "Faithful"
+          "Faithful",
+          "Scout"
         ]
       },
       {
-        "name": "Retributor Sister",
+        "name": "Retributor Sisters",
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 5,
+        "cc": 6,
         "ff": 4,
         "weapons": [
           "Heavy Flamer|2|"
@@ -158,25 +129,11 @@
           "Faithful"
         ]
       },
-      {
-        "name": "Redemptionists",
-        "type": "INF",
-        "speed": 15,
 
-        "cc": 4,
-        "ff": 6,
-        "weapons": [
-          "Exterminators",
-          "Laspistols"
-        ],
-        "specialRules": [
-
-        ]
-      },
       {
-        "name": "Seraphim Sister",
+        "name": "Seraphim Sisters",
         "type": "INF",
-        "speed": 15,
+        "speed": 30,
         "armour": 4,
         "cc": 4,
         "ff": 5,
@@ -184,33 +141,8 @@
           "Twin Boltpistols"
         ],
         "specialRules": [
-          "Faithful"
-        ]
-      },
-      {
-        "name": "Death Cult Assassin",
-        "type": "INF",
-        "speed": 15,
-        "armour": 5,
-        "cc": 3,
-
-        "weapons": [
-          "Assassin Weapons"
-        ],
-        "specialRules": [
-          "Infiltrators",
-          "Invulnerable Save"
-        ]
-      },
-      {
-        "name": "Inquisitorial Storm Trooper",
-        "type": "INF",
-        "speed": 15,
-        "armour": 5,
-        "cc": 5,
-        "ff": 4,
-        "weapons": [
-          "Plasma Guns"
+          "Faithful",
+          "Jump Packs"
         ]
       },
       {
@@ -250,7 +182,7 @@
         "name": "Exorcist",
         "type": "AV",
         "speed": 30,
-        "armour": 4,
+        "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
@@ -293,18 +225,19 @@
       {
         "name": "Repressor",
         "type": "AV",
-        "speed": 30,
+        "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Flamer",
-          "Storm Bolter"
-
+          "Heavy Flamer"
         ],
         "specialRules": [
-          "Faithful"
-        ]
+          "Faithful",
+          "Walker",
+          "Transport"
+      ],
+      "notes": "May transport one infantry unit without Mounted or Jet Packs."
       },
       {
         "name": "Immolator",
@@ -317,10 +250,144 @@
           "Twin Multi-Melta"
         ],
         "specialRules": [
-          "Faithful"
-        ],
-        "notes": "May transport one infantry units without Jump Packs or Mounted."
-      }
+          "Faithful",
+          "Transport"
+      ],
+      "notes": "May transport one infantry unit without Mounted or Jet Packs."
+    },
+    {
+      "name": "Emperor's Chapel",
+      "type": "WE",
+      "speed": 20,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Inferno Cannon |2|",
+        "Thermal Cannon "
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Void Shields 2",
+        "Reinforced Armour",
+        "Faithful",
+        "Transport"
+      ],
+      "notes": "May transport four infantry units without Mounted or Jet Packs. Critical Hit Effect: The Emperor's Chapel takes one additional damage, and D3 transported units takes a hit."
+  },
+  {
+    "name": "Cathedral of the God-Emperor",
+    "type": "WE",
+    "speed": 15,
+    "armour": 4,
+    "cc": 6,
+    "ff": 4,
+    "weapons": [
+      "Volcano Cannon||FxF",
+      "Battle Cannon|4|",
+      "Inferno Cannon |4|",
+      "Heavy Bolter AA Turret|2|"
+    ],
+    "specialRules": [
+      "Damage Capacity 8",
+      "Void Shields 6",
+      "God Machine",
+      "Split Fire",
+      "Reinforced Armour",
+      "Fearless",
+      "Faithful",
+      "Transport"
+    ],
+    "notes": "May transport eight infantry units without Mounted or Jet Packs. Critical Hit Effect: The Cathedral of the God-Emperor takes D3 additional damage, and D6 transported units takes a hit."
+},
+    {
+      "name": "Inquisitor",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Storm Bolter",
+        "Power Weapon"
+      ],
+      "specialRules": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Arco-Flagellants",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "weapons": [
+        "Combat Flails"
+      ],
+      "specialRules": [
+          "Infiltrators",
+        "Fearless"
+      ]
+    },
+    {
+      "name": "Death Cult Assassins",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 3,
+
+      "weapons": [
+        "Assassin Weapons"
+      ],
+      "specialRules": [
+        "Infiltrators",
+        "Invulnerable Save"
+      ]
+    },
+    {
+      "name": "Redemptionists",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+        "Exterminators",
+        "Flamer"
+      ],
+      "specialRules": [
+
+      ]
+  },
+  {
+    "name": "Crusaders",
+    "type": "INF",
+    "speed": 15,
+    "armour": 5,
+    "cc": 4,
+    "weapons": [
+      "Power Weapons"
+    ],
+    "specialRules": [
+        "Invulnerable Save"
+    ]
+},
+  {
+    "name": "IQ Land Transporter",
+    "type": "LV",
+    "speed": 30,
+    "armour": 5,
+    "cc": 6,
+    "ff": 6,
+    "weapons": [
+        "Heavy Stubber"
+    ],
+    "specialRules": [
+    ],
+          "notes": "May transport two infantry units without Mounted or Jump Packs."
+}
     ]
   }
 ]
