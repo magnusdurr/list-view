@@ -1,10 +1,6 @@
 <script>
     $(document).ready(function () {
-        console.log("[document-ready] initializing...");
-
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        });
+        console.log("[document-ready] initializing army list...");
 
         var urlSearchParams = new URLSearchParams(new URL('http://localhost' + history.state.url).search);
         var race = urlSearchParams.get("race");
@@ -33,10 +29,7 @@
         }
         else
         {
-            console.info("TODO: index");
-            $.getJSON("lists/index.json", function (data) {
-                $("#content").html(listTemplate(data))
-            });
+            $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid');
         }
     });
 </script>

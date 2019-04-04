@@ -19,19 +19,27 @@
 <body>
 
 <div id="container" class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top:10px">
-        <a class="navbar-brand" href="/content/intro.html">Epic:Ragnarök</a>
-
+    <div class="text-center">
+        <img src="website/img/banner.jpg" style="width: 50%">
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light" style="margin-top:10px">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto" id="menu">
                 <li class="nav-item">
+                    <a class="nav-link" href="/content/intro.html">About</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/content/rules.html">Rules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/content/armies.html">Armies</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div id="content"></div>
+    <p>&nbsp;</p>
 </div>
 
 <script id="error-template" type="text/x-handlebars-template">
@@ -65,40 +73,6 @@
         $(document).on('click', 'a:not(.external,.page-link,.dropdown-toggle)', eaNav.linkHandler);
         $(window).on('popstate', eaNav.historyBackHandler);
         eaNav.reload();
-
-        $.getJSON("lists/index.json", function (data) {
-            $("#menu").append(eaTemplating.templates['menu'](data))
-
-
-            $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
-                e.preventDefault();
-
-                var $el = $(this);
-                $el.toggleClass('active-dropdown');
-                var $parent = $(this).offsetParent(".dropdown-menu");
-                if (!$(this).next().hasClass('show'))
-                {
-                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-                }
-                var $subMenu = $(this).next(".dropdown-menu");
-                $subMenu.toggleClass('show');
-
-                $(this).parent("li").toggleClass('show');
-
-                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
-                    $('.dropdown-menu .show').removeClass("show");
-                    $el.removeClass('active-dropdown');
-                });
-
-                if (!$parent.parent().hasClass('navbar-nav'))
-                {
-                    $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
-                }
-
-                return false;
-            });
-
-        });
     });
 </script>
 

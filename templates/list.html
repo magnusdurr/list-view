@@ -1,19 +1,21 @@
-<h2>Army Lists</h2>
-<div class="row">
-    {{#each index}}
-    <div class="col-12 col-sm-6">
-        <div class="card" style="margin-top: .8rem">
-            <div class="card-body">
-                <h5 class="card-title">{{name}}</h5>
-                <ul class="card-text">
-                    {{#each lists}}
-                    <li><a href="index.html?race={{../abbreviation}}&list={{file}}">{{name}}</a></li>
-                    {{/each}}
-                </ul>
-            </div>
-        </div>
-    </div>
-    {{/each}}
+{{#each index}}
+<div class="text-center">
+    <h2>{{section}}</h2>
 </div>
-
-<p>&nbsp;</p>
+<div class="container">
+    <div class="row">
+        {{#each index}}
+        <div class="col-12 d-block d-sm-none"><h5>{{name}}</h5></div>
+        {{#each lists}}
+        <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+            <a href="/content/list.html?race={{../abbreviation}}&list={{file}}">
+                <img class="img-responsive 	d-none d-sm-block" style="width:100%" src="{{img}}" alt="{{name}}"/>
+                <small><span class="d-none d-sm-inline">{{../name}}<br></span>{{name}}<br class="d-none d-sm-inline">{{status}}
+                </small>
+            </a>
+        </div>
+        {{/each}}
+        {{/each}}
+    </div>
+</div>
+{{/each}}

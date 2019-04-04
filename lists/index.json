@@ -22,27 +22,31 @@
       "name": "Adeptus Mechanicus",
       "abbreviation": "AM",
       "lists": [
-
         {
           "name": "Explorator Fleet",
-          "file": "exploratorFleet"
-      },
-      {
-        "name": "Knight World",
-        "file": "knightworld"
-    },
-      {
-        "name": "Questoris Mechanicus",
-        "file": "questorismechanicus"
-      },
-      {
-        "name": "Skitarii",
-        "file": "skitarii"
-    },
-      {
+          "file": "exploratorFleet",
+          "status": "experimental"
+        },
+        {
+          "name": "Knight World",
+          "file": "knightworld",
+          "status": "approved"
+        },
+        {
+          "name": "Questoris Mechanicus",
+          "file": "questorismechanicus",
+          "status": "alpha"
+        },
+        {
+          "name": "Skitarii",
+          "file": "skitarii",
+          "status": "beta"
+        },
+        {
           "name": "Titan Legion",
-          "file": "amtl"
-      }
+          "file": "amtl",
+          "status": "beta"
+        }
       ]
     },
     {
@@ -50,88 +54,103 @@
       "abbreviation": "IG",
       "lists": [
         {
-        "name": "Baran Siegemasters",
-        "file": "barans"
+          "name": "Baran Siegemasters",
+          "file": "barans",
+          "status": "alpha"
         },
         {
           "name": "Cadian Shock Troops",
-          "file": "cadianshocktroops"
+          "file": "cadianshocktroops",
+          "status": "alpha"
         },
         {
           "name": "Catachan Death World",
-          "file": "catachandeathworld"
+          "file": "catachandeathworld",
+          "status": "alpha"
         },
         {
           "name": "Death Korps of Krieg",
-          "file": "deathkorps"
+          "file": "deathkorps",
+          "status": "beta"
         },
         {
           "name": "Steel Legion",
-          "file": "steellegion"
+          "file": "steellegion",
+          "status": "approved"
         },
         {
           "name": "Elysian Drop Troops",
-          "file": "elysiandroptroops"
+          "file": "elysiandroptroops",
+          "status": "experimental"
         }
       ]
     },
-
     {
       "name": "Chaos Space Marines",
       "abbreviation": "Chaos",
       "lists": [
-      {
-        "name": "Black Legion",
-        "file": "blacklegion"
-    },
-    {
-      "name": "Emperor's Children",
-      "file": "emperorschildren"
-    },
-    {
-        "name": "Death Guard",
-        "file": "deathguard"
-    },
-    {
-        "name": "World Eaters",
-        "file": "worldeaters"
-    },
-    {
-        "name": "Thousand Sons",
-        "file": "thousandsons"
-    },
-    {
-        "name": "Alpha Legion",
-        "file": "alphalegion"
-    }
+        {
+          "name": "Black Legion",
+          "file": "blacklegion",
+          "status": "approved"
+        },
+        {
+          "name": "Emperor's Children",
+          "file": "emperorschildren",
+          "status": "approved"
+        },
+        {
+          "name": "Death Guard",
+          "file": "deathguard",
+          "status": "alpha"
+        },
+        {
+          "name": "World Eaters",
+          "file": "worldeaters",
+          "status": "alpha"
+        },
+        {
+          "name": "Thousand Sons",
+          "file": "thousandsons",
+          "status": "beta"
+        },
+        {
+          "name": "Alpha Legion",
+          "file": "alphalegion",
+          "status": "alpha"
+        }
       ]
     },
     {
       "name": "Chaos Cultists",
       "abbreviation": "Cultists",
       "lists": [
-      {
-        "name": "Lost and the Damned",
-        "file": "LatD"
-    },
+        {
+          "name": "Lost and the Damned",
+          "file": "LatD",
+          "status": "alpha"
+        },
         {
           "name": "Slaves to Darkness",
-          "file": "StD"
-      },
-      {
-        "name": "Daemonic Incursion",
-        "file": "DI"
-    }
+          "file": "StD",
+          "status": "beta"
+        },
+        {
+          "name": "Daemonic Incursion",
+          "file": "DI",
+          "status": "alpha"
+        }
       ]
     },
     {
       "name": "Dark Mechanicus",
       "abbreviation": "DM",
       "lists": [
-      {
-        "name": "Traitor Titan Legion",
-        "file": "TTL"
-    }
+        {
+          "name": "Traitor Titan Legion",
+          "file": "TTL",
+          "status": "alpha"
+        }
       ]
     },
     {
@@ -140,7 +159,8 @@
       "lists": [
         {
           "name": "Kabal of the Black Heart",
-          "file": "kabaloftheblackheart"
+          "file": "kabaloftheblackheart",
+          "status": "beta"
         }
       ]
     },
@@ -150,27 +170,33 @@
       "lists": [
         {
           "name": "Biel-Tan",
-          "file": "bieltan"
+          "file": "bieltan",
+          "status": "beta"
         },
         {
           "name": "Iyanden",
-          "file": "iyanden"
+          "file": "iyanden",
+          "status": "beta"
         },
         {
           "name": "Mymeara",
-          "file": "mymeara"
+          "file": "mymeara",
+          "status": "experimental"
         },
         {
           "name": "Saim-Hann",
-          "file": "saimhann"
+          "file": "saimhann",
+          "status": "alpha"
         },
         {
           "name": "Ulthwé",
-          "file": "ulthwe"
+          "file": "ulthwe",
+          "status": "alpha"
         },
         {
           "name": "Eldar Titan Force",
-          "file": "titanforce"
+          "file": "titanforce",
+          "status": "alpha"
         }
       ]
     },
@@ -180,11 +206,13 @@
       "lists": [
         {
           "name": "Masque of the Veiled Path",
-          "file": "masqueoftheveiledpath"
+          "file": "masqueoftheveiledpath",
+          "status": "alpha"
         },
         {
           "name": "Masque of the Midnight Sorrow",
-          "file": "masqueofthemidnightsorrow"
+          "file": "masqueofthemidnightsorrow",
+          "status": "experimental"
         }
       ]
     },
@@ -194,7 +222,8 @@
       "lists": [
         {
           "name": "Cult of the Four Armed Emperor",
-          "file": "cultofthefourarmedemperor"
+          "file": "cultofthefourarmedemperor",
+          "status": "experimental"
         }
       ]
     },
@@ -204,7 +233,8 @@
       "lists": [
         {
           "name": "Adepta Sororitas",
-          "file": "adeptasororitas"
+          "file": "adeptasororitas",
+          "status": "beta"
         }
       ]
     },
@@ -214,11 +244,13 @@
       "lists": [
         {
           "name": "Maynarkh Dynasty",
-          "file": "maynarkhdynasty"
+          "file": "maynarkhdynasty",
+          "status": "beta"
         },
         {
           "name": "Sautekh Dynasty",
-          "file": "sautekhdynasty"
+          "file": "sautekhdynasty",
+          "status": "alpha"
         }
       ]
     },
@@ -226,21 +258,25 @@
       "name": "Orks",
       "abbreviation": "O",
       "lists": [
-          {
-            "name": "Clan Goffs Warhorde",
-            "file": "goffsclan"
-          },
-          {
-            "name": "Evil Sunz Gargant Big Mob",
-            "file": "gargants"
-          },
-          {
-            "name": "Evil Sunz Speed Freeks",
-            "file": "speedfreeks"
-          },
+        {
+          "name": "Clan Goffs Warhorde",
+          "file": "goffsclan",
+          "status": "approved"
+        },
+        {
+          "name": "Evil Sunz Gargant Big Mob",
+          "file": "gargants",
+          "status": "alpha"
+        },
+        {
+          "name": "Evil Sunz Speed Freeks",
+          "file": "speedfreeks",
+          "status": "alpha"
+        },
         {
           "name": "Snakebite Clan",
-          "file": "snakebiteclan"
+          "file": "snakebiteclan",
+          "status": "beta"
         }
       ]
     },
@@ -248,29 +284,35 @@
       "name": "Space Marines",
       "abbreviation": "SM",
       "lists": [
-          {
-            "name": "Blood Angels",
-            "file": "bloodangels"
-          },
-          {
-            "name": "Codex Astartes",
-            "file": "codexastartes"
-          },
-          {
-            "name": "Dark Angels",
-            "file": "darkangels"
-          },
+        {
+          "name": "Blood Angels",
+          "file": "bloodangels",
+          "status": "alpha"
+        },
+        {
+          "name": "Codex Astartes",
+          "file": "codexastartes",
+          "status": "approved"
+        },
+        {
+          "name": "Dark Angels",
+          "file": "darkangels",
+          "status": "beta"
+        },
         {
           "name": "Iron Hands",
-          "file": "ironhands"
+          "file": "ironhands",
+          "status": "alpha"
         },
         {
           "name": "Raven Guard",
-          "file": "ravenguard"
+          "file": "ravenguard",
+          "status": "alpha"
         },
         {
           "name": "White Scars",
-          "file": "whitescars"
+          "file": "whitescars",
+          "status": "beta"
         }
       ]
     },
@@ -280,25 +322,29 @@
       "lists": [
         {
           "name": "Wodan Stronghold",
-          "file": "squats"
+          "file": "squats",
+          "status": "experimental"
         }
       ]
-  },
+    },
     {
       "name": "Tau",
       "abbreviation": "TAU",
       "lists": [
         {
           "name": "Ke'lshan",
-          "file": "kelshan"
+          "file": "kelshan",
+          "status": "beta"
         },
         {
           "name": "Sa’ Cea",
-          "file": "sacea"
+          "file": "sacea",
+          "status": "alpha"
         },
         {
           "name": "Violra",
-          "file": "viorla"
+          "file": "viorla",
+          "status": "alpha"
         }
       ]
     },
@@ -308,14 +354,15 @@
       "lists": [
         {
           "name": "Hive Fleet Dagon",
-          "file": "dagon"
-      },
-      {
-        "name": "Hive Fleet Hydra",
-        "file": "Hydra"
-      }
+          "file": "dagon",
+          "status": "approved"
+        },
+        {
+          "name": "Hive Fleet Hydra",
+          "file": "Hydra",
+          "status": "beta"
+        }
       ]
-  }
-
+    }
   ]
 }
