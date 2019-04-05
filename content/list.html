@@ -13,7 +13,7 @@
                             $(document).prop('title',);
 
                             var content = $("#content");
-                            content.html(eaTemplating.templates['error']({"errors": units.errors}));
+                    content.append(eaTemplating.templates['error']({"errors": units.errors}));
 
                             content.append(eaTemplating.templates['army'](units.formatSpecialRules(data, specialRules)));
 

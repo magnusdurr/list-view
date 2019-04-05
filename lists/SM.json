@@ -166,7 +166,6 @@
           "Mounted"
         ]
       },
-
       {
         "name": "Devastators",
         "type": "INF",
@@ -266,14 +265,13 @@
         "ff": 4,
         "weapons": [
           "Bolters"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Fearless",
           "Invulnerable Save"
-      ],
-      "notes": "Jump Packs increase Speed to 30cm"
+        ],
+        "notes": "Jump Packs increase Speed to 30cm"
       },
-
       {
         "name": "Terminators",
         "type": "INF",
@@ -502,11 +500,11 @@
         "ff": 4,
         "weapons": [
           "Heavy Bolter"
-      ],
-      "specialRules": [
-        "Invulnerable Save",
-        "Teleport Homer"
-      ]
+        ],
+        "specialRules": [
+          "Invulnerable Save",
+          "Teleport Homer"
+        ]
       },
       {
         "name": "Land Speeder",
@@ -667,7 +665,6 @@
           "Walker"
         ]
       },
-
       {
         "name": "Dreadnought",
         "type": "AV",
@@ -814,7 +811,6 @@
         ],
         "notes": "Counts as a Dreadnought for the purposes of being transported"
       },
-
       {
         "name": "Leman Russ Exterminator",
         "type": "AV",
@@ -823,7 +819,9 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Twin Autocannon", "Heavy Flamer", "Heavy Bolter|2|"
+          "Twin Autocannon",
+          "Heavy Flamer",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
           "Reinforced Armour"
@@ -1043,11 +1041,11 @@
         "weapons": [
           "Plasma Guns",
           "Lascannon"
-      ],
-      "specialRules": [
-        "Transport"
-      ],
-      "notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted."
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted."
       },
       {
         "name": "Razorback",
@@ -1105,12 +1103,12 @@
         "ff": 6,
         "weapons": [
           "Storm Bolter"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Fearless",
           "Transport"
-      ],
-          "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Hunter",
@@ -1134,7 +1132,7 @@
           "Dual Icarus Stormcannons"
         ],
         "specialRules": [
-        ],
+        ]
       },
       {
         "name": "Vindicator",
@@ -1146,7 +1144,9 @@
         "weapons": [
           "Demolisher"
         ],
-        "specialRules": ["Walker"]
+        "specialRules": [
+          "Walker"
+        ]
       },
       {
         "name": "Deimos Laser Vindicator",
@@ -1194,7 +1194,7 @@
           "Twin Heavy Bolter||FxF"
         ],
         "specialRules": [
-            "Damage Capacity: 4",
+          "Damage Capacity: 4",
           "Reinforced Armour"
         ],
         "notes": "Critical Hit Effect: The Glaive is destroyed. All units within 5cm suffer a hit on a 6+."
@@ -1260,14 +1260,14 @@
           "AC Twin Assault Cannon||FxF",
           "AC Twin Heavy Bolter||FxF",
           "Hurricane Bolter|2|"
-      ],
-      "specialRules": [
-        "Damage Capacity 1",
-        "Reinforced Armour",
-        "Planetfall",
-        "Transport"
-      ],
-      "notes": "May transport two infantry units without Mounted; Terminators counts as two units each. May in addition transport one Dreadnought."
+        ],
+        "specialRules": [
+          "Damage Capacity 1",
+          "Reinforced Armour",
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "May transport two infantry units without Mounted; Terminators counts as two units each. May in addition transport one Dreadnought."
       },
       {
         "name": "Ravenwing Nephilim Interceptor",
@@ -1278,11 +1278,11 @@
           "AC Twin Heavy Bolter||FxF",
           "AC Twin Lascannon||FxF",
           "AC Blacksword Missiles||FxF"
-      ],
-      "specialRules": [
-        "Invulnerable Save"
-    ]
-    },
+        ],
+        "specialRules": [
+          "Invulnerable Save"
+        ]
+      },
       {
         "name": "Ravenwing Dark Talon Fighter-Bomber",
         "type": "AC",
@@ -1292,10 +1292,10 @@
           "AC Rift Cannon||FxF",
           "AC Hurricane Bolters||FxF",
           "AC Stasis Bomb||FxF"
-      ],
-      "specialRules": [
-        "Invulnerable Save"
-      ]
+        ],
+        "specialRules": [
+          "Invulnerable Save"
+        ]
       },
       {
         "name": "Thunderhawk",

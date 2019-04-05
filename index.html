@@ -157,10 +157,8 @@
         }
         else
         {
-            console.info("TODO: index");
-            $.getJSON("lists/index.json", function (data) {
-                $("#content").html(listTemplate(data))
-            });
+            console.info("Redirecting to site");
+            window.location.replace("/tmp.html");
         }
     });
 </script>
