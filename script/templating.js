@@ -37,6 +37,14 @@ var eaTemplating = {
             return index % 2 === 0 ? 'even' : 'odd';
         });
 
+        Handlebars.registerHelper('eq', function (v1, v2) {
+            return v1 === v2;
+        });
+
+        Handlebars.registerHelper('not', function (v1, v2) {
+            return v1 !== v2;
+        });
+
         Handlebars.registerHelper('and', function (one, two) {
             return true === one && true === two;
         });
