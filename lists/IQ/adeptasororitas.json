@@ -1,8 +1,8 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.7.1",
-  "release": "2019-04-04",
+  "version": "0.7.2",
+  "release": "2019-04-05",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
   "specialRules": ["Act of Faith", "Stubborn"],
@@ -25,7 +25,8 @@
         "Seraphim Sisters",
         "Repentia Sisters",
         "Penitent Engine",
-        "Exorcist",
+        "Exorcist Prioris",
+        "Exorcist Sanctorum",
         "Sororitas Rhino",
         "Sororitas Hunter",
         "Repressor",
@@ -46,7 +47,8 @@
         "Tempestus Scions",
         "Chimera",
         "Hellhound",
-        "Valkyrie"
+        "Valkyrie",
+        "Vendetta"
       ],
       "unitRules": [
 
@@ -56,7 +58,7 @@
       "from": "ImperialNavy.json",
       "units": [
         "Lightning Interceptor",
-        "Marauder Bomber",
+        "Marauder Colossus",
         "Lunar Class Cruiser"
       ],
       "unitRules": [
@@ -90,7 +92,7 @@
         {
           "name": "Seraphim",
           "units": "One Palatine, six Seraphim Sisters",
-          "upgrades": [
+          "extraUnits": [
             "Superior"
           ],
           "points": 225
@@ -98,7 +100,7 @@
         {
           "name": "Retribution",
           "units": "Four Retributor Sisters",
-          "upgrades": [
+          "extraUnits": [
               "Transport"
           ],
           "points": 200
@@ -106,7 +108,7 @@
         {
           "name": "Dominion",
           "units": "Four Dominion Sisters",
-          "upgrades": [
+          "extraUnits": [
             "Transport"
           ],
           "points": 175
@@ -114,15 +116,17 @@
         {
           "name": "Repentance",
           "units": "Four Repentia Sisters",
-          "upgrades": [
+          "extraUnits": [
+            "Add one Priest: 25 points",
             "Transport"
           ],
           "points": 150
         },
         {
           "name": "Exorcism",
-          "units": "Six Exorcists",
-          "upgrades": [
+          "units": "Six Exorcist Prioris",
+          "extraUnits": [
+            "Replace six Exorcist Prioris with four Exorcist Sanctorum: Free",
             "Hunter"
           ],
           "points": 275
@@ -136,16 +140,17 @@
         {
           "name": "Redemption",
           "units": "Eight Redemptionists",
-          "upgrades": [
+          "extraUnits": [
             "Add four IQ Land Transporters: 50 points",
-            "Add two Penitent Engines: 50 points"
+            "Add two Penitent Engines: 50 points",
+            "Add one Priest: 25 points"
           ],
           "points": 150
         },
         {
           "name": "Penitence",
           "units": "Four Penitent Engines",
-          "upgrades": [
+          "extraUnits": [
             "Add two Penitent Engines: 50 points"
           ],
           "points": 175
@@ -153,17 +158,17 @@
         {
           "name": "Flagellant",
           "units": "Six Arco-Flagellants",
-          "upgrades": [
+          "extraUnits": [
             "Add two Penitent Engines: 50 points"
           ],
           "points": 225
         },
         {
-          "name": "0-1 Inquisitor Hereticus",
+          "name": "0-1 Ordo Hereticus Inquisitor",
           "units": "One Inquisitor, seven Tempestus Scions, four Chimeras",
-          "upgrades": [
-          "Replace four Chimeras with four Valkyries: 50 points",
-          "Add three Hellhounds: 100 points"
+          "extraUnits": [
+          "Replace four Chimeras with three Valkyries and two Vendettas: 100 points",
+          "Add two Hellhounds: 50 points"
           ],
           "points": 300
       }
@@ -189,9 +194,9 @@
           "points": 150
         },
         {
-          "name": "Marauder Squadron",
-          "units": "Two Marauder Bombers",
-          "points": 225
+          "name": "Marauder Colossus Squadron",
+          "units": "Two Marauder Colossus",
+          "points": 275
         },
         {
           "name": "0–1 Orbital Support",
@@ -221,7 +226,7 @@
       },
       {
         "name": "Exorcists",
-        "description": "Add two Exorcists",
+        "description": "Add two Exorcist Prioris",
         "points": "75 points"
       },
       {
@@ -237,8 +242,12 @@
               "description": "You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible",
               "points": ""
             },
+            {
+              "description": "Add any number of Immolators",
+              "points": "25 points each"
+            },
           {
-            "description": "Add any number of Immolators and/or Repressors",
+            "description": "Add any number of Repressors",
             "points": "25 points each"
           },
           {

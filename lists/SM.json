@@ -898,6 +898,7 @@
         "specialRules": [
           "Reinforced Armour",
           "Thick Rear Armour",
+          "Walker",
           "Transport"
         ]
       },
@@ -1197,7 +1198,7 @@
           "Damage Capacity: 4",
           "Reinforced Armour"
         ],
-        "notes": "Critical Hit Effect: The Glaive is destroyed. All units within 5cm suffer a hit on a 6+."
+        "crit": "The Glaive is destroyed. All units within 5cm suffer a hit on a 6+."
       },
       {
         "name": "Landing Craft",
@@ -1277,8 +1278,7 @@
         "armour": 6,
         "weapons": [
           "AC Twin Heavy Bolter||FxF",
-          "AC Twin Lascannon||FxF",
-          "AC Blacksword Missiles||FxF"
+          "AC Twin Lascannon||FxF"
         ],
         "specialRules": [
           "Invulnerable Save"
