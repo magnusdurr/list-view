@@ -1,5 +1,5 @@
 var eaNav = (function () {
-    var defaultContent = '/content/intro.html';
+    var defaultContent = 'content/intro.html';
 
     // triggered by internal links
     var internalLink = function (event) {
