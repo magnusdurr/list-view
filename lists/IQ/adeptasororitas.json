@@ -15,9 +15,7 @@
       "units": [
         "Canoness",
         "Inquisitor",
-        "Mistress",
         "Palatine",
-        "Priest",
         "Living Saint",
         "Arco-Flagellants",
         "Battle Sisters",
@@ -46,6 +44,8 @@
       "from": "IG.json",
       "units": [
         "Tempestus Scions",
+        "Chimera",
+        "Hellhound",
         "Valkyrie"
       ],
       "unitRules": [
@@ -137,7 +137,8 @@
           "name": "Redemption",
           "units": "Eight Redemptionists",
           "upgrades": [
-            "Add four IQ Land Transporters: 50 points"
+            "Add four IQ Land Transporters: 50 points",
+            "Add two Penitent Engines: 50 points"
           ],
           "points": 150
         },
@@ -153,17 +154,19 @@
           "name": "Flagellant",
           "units": "Six Arco-Flagellants",
           "upgrades": [
+            "Add two Penitent Engines: 50 points"
           ],
           "points": 225
         },
         {
-          "name": "0-1 Inquisitorial Strike Force",
-          "units": "One Inquisitor, seven Tempestus Scions",
+          "name": "0-1 Inquisitor Hereticus",
+          "units": "One Inquisitor, seven Tempestus Scions, four Chimeras",
           "upgrades": [
-            "Add four Valkyries: 150 points"
+          "Replace four Chimeras with four Valkyries: 50 points",
+          "Add three Hellhounds: 100 points"
           ],
-          "points": 200
-        }
+          "points": 300
+      }
       ]
     },
     {
@@ -171,12 +174,12 @@
       "description": "Up to a third of the points available may be spent on Adepta Sororitas War Engines and Imperial Navy formations",
       "formations": [
           {
-            "name": "Chapel of Worship",
+            "name": "Engine of Worship",
             "units": "One Emperor's Chapel",
             "points": 250
           },
           {
-            "name": "Cathedral of Glory",
+            "name": "Engine of Magnificence",
             "units": "One Cathedral of the God-Emperor",
             "points": 700
           },
