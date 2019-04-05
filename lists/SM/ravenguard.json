@@ -34,6 +34,7 @@
         "Hunter",
         "Razorback",
         "Rhino",
+        "Stalker",
         "Storm Eagle",
         "Storm Talon Gunship",
         "Thunderhawk",
@@ -72,9 +73,9 @@
           "name": "Devastators",
           "units": "Four Devastator units plus transport",
           "upgrades": [
+            "Anti-Air",
             "Commander",
             "Land Speeders",
-            "Hunter",
             "Razorbacks"
           ],
           "points": 250
@@ -94,9 +95,9 @@
           "name": "Tacticals",
           "units": "Four Tacticals plus transport",
           "upgrades": [
+            "Anti-Air",
             "Commander",
             "Land Speeders",
-            "Hunter",
             "Razorbacks"
           ],
           "points": 200
@@ -112,8 +113,8 @@
           "units": "Four Sternguard Veteran units plus transport",
           "upgrades": [
             "Ambush",
+            "Anti-Air",
             "Commander",
-            "Hunter",
             "Land Speeders",
             "Razorbacks"
           ],
@@ -132,8 +133,8 @@
           "name": "Vanguard Veteran",
           "units": "Four Vanguard Veteran units plus transport",
           "upgrades": [
+            "Anti-Air",
             "Commander",
-            "Hunter",
             "Land Speeders",
             "Razorbacks"
           ],
@@ -241,9 +242,18 @@
         ]
       },
       {
-        "name": "Hunter",
-        "description": "Add one Hunter",
-        "points": "75 points"
+        "name": "Anti-Air",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          }
+        ]
       },
       {
         "name": "Independent",

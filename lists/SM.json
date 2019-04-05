@@ -1237,7 +1237,8 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+        "notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each.",
+        "crit": "The unit and all units being carried are destroyed."
       },
       {
         "name": "Storm Talon Gunship",
@@ -1316,7 +1317,8 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+        "notes": "May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each.",
+        "crit": "The unit and all units being carried are destroyed."
       },
       {
         "name": "Thunderhawk Transporter",
@@ -1335,7 +1337,10 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles. Critical Hit Effect: The unit and all units being carried are destroyed."
+        "notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
+        "crit": "The unit and all units being carried are destroyed."
+
+
       },
       {
         "name": "Battle Barge",

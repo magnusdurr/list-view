@@ -36,6 +36,7 @@
         "Predator Destructor",
         "Razorback",
         "Rhino",
+        "Stalker",
         "Vindicator",
         "Whirlwind",
         "Storm Talon Gunship",
@@ -72,7 +73,7 @@
             "Clan Commander",
             "Devastators",
             "Dreadnought",
-            "Hunter",
+            "Anti-Air",
             "Land Raiders",
             "Veterans"
           ],
@@ -84,7 +85,7 @@
           "upgrades": [
             "Clan Commander",
             "Devastators",
-            "Hunter",
+            "Anti-Air",
             "Land Raiders",
             "Razorbacks",
             "Veterans",
@@ -114,7 +115,7 @@
           "units": "Four Land Raiders",
           "upgrades": [
             "Helios",
-            "Hunter",
+            "Anti-Air",
             "Vindicators"
           ],
           "points": 325
@@ -132,7 +133,7 @@
           "name": "Predator",
           "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
           "upgrades": [
-            "Hunter"
+            "Anti-Air"
           ],
           "points": 250
         },
@@ -158,7 +159,7 @@
           "name": "Vindicator",
           "units": "Four Vindicator units",
           "upgrades": [
-            "Hunter",
+            "Anti-Air",
             "Vindicators"
           ],
           "points": 225
@@ -167,7 +168,7 @@
           "name": "Whirlwinds",
           "units": "Four Whirlwind units",
           "upgrades": [
-            "Hunter"
+            "Anti-Air"
           ],
           "points": 275
         }
@@ -278,11 +279,25 @@
         "points": "25 points each"
       },
       {
-        "name": "Hunter",
-        "description": "Add one or two Hunters",
-        "points": [
-          "75 points for one",
-          "125 points for two"
+        "name": "Anti-Air",
+        "description": "Add any of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add two Hunters",
+            "points": "125 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          },
+          {
+            "description": "Add two Stalkers",
+            "points": "100 points"
+          }
         ]
       },
       {

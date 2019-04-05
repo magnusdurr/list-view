@@ -12,7 +12,6 @@
         "The Space Marines are a highly mobile army. Because of this the points cost of a detachment usually includes enough transport vehicles to transport it and any upgrades that have been taken. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! The transport vehicles will be Land Raider Crusaders if the detachment is Terminators, Rhinos for any other form of detachment.",
         "Note that many formations don’t receive transports, usually because they can’t fit into them. Detachments that come with vehicles will be noted as having plus transport in the Units section of the detachment list below. White Scars detachments must take the transport vehicles for a detachment—you cannot leave them behind in order to use the unit as a garrison or to be deployed from a Thunderhawk gunship.",
         "In addition you may choose to replace a detachment’s vehicles with drop pods before each game, after the opposing army is known but before objectives are placed. If you choose to do this, all transported detachments in the army must deploy from drop pods—you can’t have some in transport vehicles and some deploying from drop pods. If you do choose to use drop pods, then the affected detachments will enter play in drop pods using the rules for Planetfall (see Planetfall). Note that you will require at least one Space Marine strike cruiser or battle barge to deploy the drop pods from."
-
       ]
     }
   ],
@@ -23,19 +22,51 @@
     {
       "from": "SM.json",
       "units": [
-        "Captain","Chaplain","Librarian","Supreme Commander",
-        "Assaults","Scouts","Tacticals","Terminators","White Scars Bikes","White Scars Scout Bikes",
-        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","White Scars Attack Bike","White Scars Melta Bike",
-        "Hunter","Land Raider","Land Raider Crusader","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","White Scar Vindicator",
-        "Landing Craft","Storm Talon Gunship","Thunderhawk","Thunderhawk Transporter",
-        "Battle Barge","Strike Cruiser","Drop Pod"
+        "Captain",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Assaults",
+        "Scouts",
+        "Tacticals",
+        "Terminators",
+        "White Scars Bikes",
+        "White Scars Scout Bikes",
+        "Land Speeder",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "White Scars Attack Bike",
+        "White Scars Melta Bike",
+        "Hunter",
+        "Land Raider",
+        "Land Raider Crusader",
+        "Predator Annihilator",
+        "Predator Destructor",
+        "Razorback",
+        "Rhino",
+        "Stalker",
+        "Whirlwind",
+        "White Scar Vindicator",
+        "Landing Craft",
+        "Storm Talon Gunship",
+        "Thunderhawk",
+        "Thunderhawk Transporter",
+        "Battle Barge",
+        "Strike Cruiser",
+        "Drop Pod"
       ],
-      "unitRules": ["They Shall Know No Fear"]
+      "unitRules": [
+        "They Shall Know No Fear"
+      ]
     },
     {
       "from": "ImperialAllies.json",
-      "units": ["Warhound"],
-      "unitRules": ["Void Shields"]
+      "units": [
+        "Warhound"
+      ],
+      "unitRules": [
+        "Void Shields"
+      ]
     }
   ],
   "sections": [
@@ -88,8 +119,8 @@
           "name": "Predator",
           "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
           "upgrades": [
+            "Anti-Air",
             "Commander",
-            "Hunter",
             "Vindicators"
           ],
           "points": 250
@@ -116,8 +147,8 @@
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "upgrades": [
+            "Anti-Air",
             "Commander",
-            "Hunter",
             "Razorbacks",
             "Vindicators"
           ],
@@ -127,8 +158,8 @@
           "name": "Terminators",
           "units": "Four Terminators plus transport",
           "upgrades": [
+            "Anti-Air",
             "Commander",
-            "Hunter",
             "Land Raiders",
             "Vindicators"
           ],
@@ -138,8 +169,8 @@
           "name": "Whirlwinds",
           "units": "Four Whirlwinds",
           "upgrades": [
-            "Commander",
-            "Hunter"
+            "Anti-Air",
+            "Commander"
           ],
           "points": 275
         }
@@ -212,9 +243,18 @@
         ]
       },
       {
-        "name": "Hunter",
-        "description": "Add one Hunter",
-        "points": "75 points"
+        "name": "Anti-Air",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          }
+        ]
       },
       {
         "name": "Independent",
@@ -249,7 +289,10 @@
       {
         "name": "Vindicators",
         "description": "Add up to two White Scars Vindicators",
-        "points": ["50 points each", "75 points per pair"]
+        "points": [
+          "50 points each",
+          "75 points per pair"
+        ]
       }
     ]
   }
