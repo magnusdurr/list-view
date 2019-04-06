@@ -1,8 +1,8 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.7.2",
-  "release": "2019-04-05",
+  "version": "0.7.3",
+  "release": "2019-04-06",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
   "specialRules": ["Act of Faith", "Stubborn"],
@@ -32,13 +32,10 @@
         "Repressor",
         "Immolator",
         "Emperor's Chapel",
-        "Cathedral of the God-Emperor",
         "IQ Land Transporter"
       ],
       "unitRules": [
-          "Void Shields",
-          "God Machine",
-          "Split Fire"
+          "Void Shields"
       ]
     },
     {
@@ -124,12 +121,12 @@
         },
         {
           "name": "Exorcism",
-          "units": "Six Exorcist Prioris",
+          "units": "Four Exorcist Prioris",
           "extraUnits": [
-            "Replace six Exorcist Prioris with four Exorcist Sanctorum: Free",
+            "Replace four Exorcist Prioris with four Exorcist Sanctorum: Free",
             "Hunter"
           ],
-          "points": 275
+          "points": 250
         }
       ]
     },
@@ -175,19 +172,9 @@
       ]
     },
     {
-      "name": "Adepta Sororitas War Engines and Imperial Navy Formations",
-      "description": "Up to a third of the points available may be spent on Adepta Sororitas War Engines and Imperial Navy formations",
+      "name": "Imperial Navy Formations",
+      "description": "Up to a fourth of the points available may be spent on Imperial Navy formations",
       "formations": [
-          {
-            "name": "Engine of Worship",
-            "units": "One Emperor's Chapel",
-            "points": 250
-          },
-          {
-            "name": "Engine of Magnificence",
-            "units": "One Cathedral of the God-Emperor",
-            "points": 700
-          },
         {
           "name": "Lightning Squadron",
           "units": "Two Lightning Interceptors",
@@ -241,6 +228,10 @@
             {
               "description": "You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible",
               "points": ""
+            },
+            {
+              "description": "Add any number of Emperor's Chapels (Mission and Retribution only)",
+              "points": "100 points each"
             },
             {
               "description": "Add any number of Immolators",
