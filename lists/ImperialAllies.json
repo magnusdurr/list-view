@@ -1,6 +1,6 @@
 [
   {
-    "name": "Titan Legion Forces",
+    "name": "Collegia Titanica Forces",
     "specialRules": [
       {
         "title": "Void Shields",
@@ -37,17 +37,17 @@
         "name": "Legate",
         "type": "CH",
         "weapons": [
-          "n/a"
+          "AA Multilaser Turret|4|"
         ],
         "specialRules": [
           "Supreme Commander"
-        ]
+              ]
       },
       {
         "name": "Veteran Princeps",
         "type": "CH",
         "weapons": [
-          "n/a"
+          "AA Multilaser Turret|2|"
         ],
         "specialRules": [
           "Commander",
@@ -174,7 +174,6 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "AA Multilaser Turret|4|",
           "CARAPACE (choose one)",
           "2x Barrage Missile|0-1|FxF",
           "2x Vortex Missile|0-1|FxF",
@@ -259,6 +258,7 @@
           "Apocalypse Missile Launcher|0-1|FxF",
           "Vulcan Mega-Bolter|0-1|FxF",
           "Turbo-Laser Destructor|0-1|FxF",
+          "Quad Hydra Autocannon|0-1|",
           "ARMS (choose two)",
           "Turbo-Laser Destructor|0-2|FwA",
           "Gatling Blaster|0-2|FwA",
