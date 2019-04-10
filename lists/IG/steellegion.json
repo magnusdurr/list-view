@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "0.6.0",
-  "release": "2019-03-21",
+  "version": "0.6.1",
+  "release": "2019-04-10",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Titan Legion and Tempestus Scion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -92,7 +92,7 @@
           "extraUnits": [
               "All except Lord Commissar"
           ],
-          "points": 300
+          "points": 325
         },
         {
           "name": "Infantry Company",
@@ -108,7 +108,7 @@
           "extraUnits": [
             "Flak, Griffon Battery, Hellhound Squadron, Leman Russ Squadron"
           ],
-          "points": 550
+          "points": 575
         },
         {
           "name": "Super-Heavy Tank Company",
@@ -120,7 +120,7 @@
         },
         {
           "name": "Artillery Company",
-          "units": "Six Basilisks, one with a Commissar. Six Gun Emplacements.",
+          "units": "Six Basilisks, one with a Commissar.",
           "extraUnits": [
               "Replace six Basilisks with Manticores: 50 points",
             "Flak"
@@ -139,13 +139,12 @@
             "extraUnits": [
                 "Add up to three Hellhounds: 25 points each"
             ],
-            "points": 200
+            "points": 225
           },
         {
           "name": "0–1 Deathstrike Battery",
           "units": "Two Deathstrikes",
           "extraUnits": [
-            "Add two Gun Emplacements: 25 points"
           ],
           "points": 200
         },
@@ -153,8 +152,7 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks or Bombards",
           "extraUnits": [
-            "Replace three Basilisks with Manticores: 25 points",
-            "Add three Gun Emplacements: 25 points"
+            "Replace three Basilisks with Manticores: 25 points"
 
           ],
           "points": 225
@@ -163,7 +161,6 @@
           "name": "Flak Battery",
           "units": "Three Hydras",
           "extraUnits": [
-            "Add three Gun Emplacements: 25 points"
           ],
           "points": 150
         },
