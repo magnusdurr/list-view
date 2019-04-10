@@ -242,6 +242,11 @@
       ]
     },
     {
+      "title": "Deathwatch",
+      "description": ["Formations containing at least one model with 'Deathwatch' does not need to scatter when making Self-Planetfall."
+      ]
+    },
+    {
       "title": "Independent",
       "description": [
         "The independent special rule allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS (each Warhoud counts as its own formation worth half of the points value of the Warhoud pack including upgrades). If one Warhound is destroyed, the other one in the pack receives a Blast Marker."
@@ -300,7 +305,8 @@
       "title": "Webway Portal",
       "description": [
         "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
-        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise."
+        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
+        "If a Webway is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
         ]
     },
     {
@@ -840,12 +846,6 @@
 
 
     {
-      "title": "Necron Special Rules",
-      "description": [
-        "The Implacable Advance rule applies to all Necron formations (see Implacable Advance) and the Phase Out rule applies to certain formations (see Phase Out). Additionally, certain units and weapons have special abilities described below."
-        ]
-    },
-    {
       "title": "Necron Reserves",
       "description": [
         "Any Necron formation may be held back in reserve (with the exception of the Aeonic Orb and Abattoir) if you are playing the Epic Tournament scenario. Note that formations that do not have teleport will only be able to enter play through portals. Any Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal."
@@ -854,36 +854,29 @@
     {
       "title": "Necron Garrisons",
       "description": [
-        "The Necron typically act in an offensive manner and as such, their formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex. To represent that a tomb may contain active Necron, the player may choose to garrison up to two Infantry Phalanx formations at the Tomb Complex."
+        "The Necron formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex. Two Infantry Phalanx formations may be garrisoned at the Tomb Complex objective."
         ]
     },
     {
       "title": "Necron",
       "description": [
-        "Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet.",
-        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."
+        "Units with 'Necron' that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."
       ]
     },
     {
-      "title": "Portal",
+      "title": "Necron Portals",
       "description": [
-        "Necron Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Additionally, formations may leave the board by entering a portal, taking them into the reserves. Note that once in the reserves they can either re-enter play immediately via another portal, provided they have movement, or remain in the reserves.",
-        "Necron Portals can only be used by war engines or armoured vehicles with walker, infantry, or light vehicles units. Each portal can be used only once per turn for either entering or exiting the battlefield, not for both. Thus a formation may enter one portal with part of their movement, and exit from a second, unused portal, continuing their movement from that portal.",
-        "If, at the end of the movement, a unit is out of formation it is destroyed (see Formations). Example: if you moved a formation of four units through one portal and out another and two units were unable to make the full movement (i.e. get through the second portal), the Necron player would have to choose which units were to be destroyed, the two that moved through the portal or the two that didn’t.",
-        "Formations entering play via a broken portal receives a Blast Marker. If a formation enters one broken portal and leaves another broken portal it receives two Blast Markers."
+        "Necron Portals can only be used by INF and LV, and WE or AV that has 'Walker'. Each portal can be used a single time each turn.",
+        "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board by entering a Portal with a move, entering the reserves. Once in the reserves they can either re-enter play immediately via another Portal (provided they have another Move left).",
+        "Formations that uses a broken Portal receives one Blast Marker.",
+        "If a Necron Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
       ]
     },
     {
       "title": "Living Metal",
       "description": [
-        "Units with Living Metal may roll a 4+ invulnerable save instead if their armour is negated. Example, by macro or Titan Killer."
+        "Units with Living Metal may roll a 4+ invulnerable save instead if their armour is negated. Example, by Macroweapon or Titan Killer."
       ]
-    },
-    {
-      "title": "Ponderous",
-      "description": [
-        "Units with this rule are very slow even by Necron standards. When broken they may only make a single withdrawal move, not the usual two."
-        ]
     },
     {
       "title": "Enduring",
@@ -894,14 +887,13 @@
     {
       "title": "Implacable Advance",
       "description": [
-        "The Necron are an offensive army, always on the advance, stopping only to eliminate enemy positions before moving on to harvest others. While subject to Disruption from losses and enemy fire, the mechanical nature of the Necron permits them to easily reorganize to maintain the offensive momentum. Necron formations receive a +1 bonus to Marshal actions. Due to their steady, deliberate, nature Necron formations cannot take a March action."
+        "Necron formations receive a +1 bonus to Marshal actions. Necron formations cannot take March actions, and may only do a single withdrawal move instead of two."
         ]
     },
     {
       "title": "Phase Out",
       "description": [
-        "When a Necron formation becomes broken, it does not just fall back, but also vanishes from the battlefield without leaving any proof of its existence.",
-        "In the end phase of the turn, remove the formation from the board into the reserves, but keep it away from any destroyed units. The formation will roll to rally in the end phase, handling Blast Markers as per the core rules. It may re-enter by teleporting, or through a portal. If there are not enough portals to deal with all the off-table formations, then the formation must remain off the table until a portal is available for it to use. If the rally roll fails, the formation must remain in the reserves until it rallies. Note that with the exception of the C’tan, no Necron War Engines may phase out."
+        "In the end phase of the turn, remove all broken Necron formations (except those where at least one unit has 'Enduring') from the board into the reserves. These formations will roll to rally in the end phase. They may re-enter by teleporting, or through a Portal. All formations that fail to rally must remain in the reserves."
       ]
     },
 

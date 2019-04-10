@@ -1,13 +1,13 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.7.4",
-  "release": "2019-04-06",
+  "version": "0.7.6",
+  "release": "2019-04-10",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
   "specialRules": ["Act of Faith", "Stubborn"],
   "usage": [
-    "The following army list allows you to field an army based on the Adepta Sororitas of the Ordo Hereticus"
+    "The following army list allows you to field an army based on the Adepta Sororitas, Chamber Militant of the Ordo Hereticus"
   ],
   "units": [
     {
@@ -16,6 +16,7 @@
         "Canoness",
         "Inquisitor",
         "Palatine",
+        "Priest",
         "Living Saint",
         "Arco-Flagellants",
         "Battle Sisters",
@@ -142,14 +143,13 @@
             "Add two Penitent Engines: 50 points",
             "Add one Priest: 25 points"
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Penitence",
           "units": "Six Penitent Engines",
           "extraUnits": [
-            "Add two Penitent Engines: 50 points"
-          ],
+              ],
           "points": 225
       },
         {
@@ -230,8 +230,8 @@
               "points": ""
             },
             {
-              "description": "Add any number of Emperor's Chapels (Mission and Retribution only)",
-              "points": "150 points each"
+              "description": "Add one Emperor's Chapel (Mission only)",
+              "points": "175 points"
             },
             {
               "description": "Add any number of Immolators",

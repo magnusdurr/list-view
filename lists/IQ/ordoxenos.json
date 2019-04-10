@@ -1,0 +1,196 @@
+{
+  "fraction": "Imperial Inquisition",
+  "army": "Ordo Xenos",
+  "version": "0.1.0",
+  "release": "",
+  "strategy": "Ordo Xenos armies have a Strategy Rating of 4.",
+  "Initiative": "Imperial Navy formations have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
+  "specialRules": ["Deathwatch"],
+  "usage": [
+    "The following army list allows you to field an army based on Ordo Xenos with Deathwatch allies"
+  ],
+  "units": [
+    {
+      "from": "IQ.json",
+      "units": [
+          "Inquisitor",
+          "Deathcult Assassins",
+          "Arvus Lighter",
+          ""
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "SM.json",
+      "units": [
+          "Deathwatch Marines",
+          "Deathwatch Black Shields",
+          "Deathwatch Terminators",
+          "Deathwatch Dreadnought"
+          "Deathwatch Land Speeder Tornado"
+          "Corvus Black Star"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Infantry",
+        "Tempestus Scions",
+        "Chimera",
+        "Crassus Amoured Assault Transport",
+        "Leman Russ",
+        "Leman Russ Conqueror",
+        "Leman Russ Exterminator"
+      ],
+      "unitRules": [
+
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Lightning Interceptor",
+        "Marauder Colossus",
+        "Lunar Class Cruiser"
+      ],
+      "unitRules": [
+          "God Machine Killer (GMK)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ordo Xenos Core Companies",
+      "description": "",
+      "formations": [
+          {
+            "name": "Ordo Xenos Inquisitor Retinue",
+            "units": "One Inquisitor, seven Kasrkin, two Crassus Armoured Assault Transports",
+            "extraUnits": [
+            "Inquisitor Lord",
+            "Leman Russ",
+            "Hydra"
+            ],
+            "points": 300
+        }
+    ]
+    },
+    {
+      "name": "Ordo Xenos Support Formations",
+      "description": "Two Ordo Xenos Support Formations may be fielded per Ordo Xenos Core Detachment",
+      "formations": [
+        {
+          "name": "Leman Russ Platoon",
+          "units": "Six Leman Russ, Leman Russ Conqueror or Leman Russ Exterminators",
+          "extraUnits": [
+          ],
+          "points": 350
+      },
+      {
+        "name": "Deathcult Assassins",
+        "units": "Four Deathcult Assassins",
+        "extraUnits": [
+            "Add two Arvus Lighters: 100 points"
+        ],
+        "points": 175
+    },
+        {
+          "name": "Assault Launcher Platoon",
+          "units": "Two Praetor Armoured Assault Launchers",
+          "points": 250,
+          "upgrades": [
+            "Add one Hydra: 50 points"
+          ]
+      },
+      {
+        "name": "Super-Heavy Tank Platoon",
+        "units": "One Baneblade or Stormblade",
+        "points": 175,
+        "upgrades": [
+          "Replace the Baneblade or Stormblade with a Shadowsword: 25 points"
+        ]
+    }
+      ]
+    },
+    {
+      "name": "Deathwatch Detachments",
+      "description": "Two Deatwatch Detachments may be fielded per Ordo Xenos Core Company",
+      "formations": [
+        {
+          "name": "Deathwatch Kill Team",
+          "units": "Four Deathwatch Marines",
+          "extraUnits": [
+            "Replace up to four Deathwatch Marines with Black Shields, Deathwatch ",
+            "",
+            "Add one Priest: 25 points"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Deathwatch Strike Team",
+          "units": "Three Deathwatch Terminators",
+          "extraUnits": [
+              "Commander"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Deathwatch Land Speeders",
+          "units": "Four Deathwatch Land Speeder Tornado",
+          "extraUnits": [
+              "Commander"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Corvus Black Star Squadron",
+          "units": "Two Corvus Black Stars",
+          "extraUnits": [
+            "Add one Corvus Black Star: 75 points"
+          ],
+          "points": 175
+      }
+      ]
+    },
+    {
+      "name": "Imperial Navy Formations",
+      "description": "Up to a fourth of the points available may be spent on Imperial Navy formations",
+      "formations": [
+        {
+          "name": "Lightning Squadron",
+          "units": "Two Lightning Interceptors",
+          "points": 150
+        },
+        {
+          "name": "Marauder Colossus Squadron",
+          "units": "Two Marauder Colossus",
+          "points": 275
+      },
+      {
+        "name": "0–1 Orbital Support",
+        "units": "One Lunar Class Cruiser",
+        "points": 125
+      }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Leman Russ",
+        "description": "Add three Leman Russ, Leman Russ Conquerors or Leman Russ Exterminators",
+        "points": "125 points"
+      },
+      {
+        "name": "Hydra",
+        "description": "Add one Hydra",
+        "points": "50 points"
+      }
+    ]
+  }
+}

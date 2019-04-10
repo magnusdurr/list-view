@@ -1277,17 +1277,16 @@
     {
       "name": "Crassus Amoured Assault Transport",
       "type": "H-AV",
-      "speed": 20,
+      "speed": 25,
       "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Heavy Bolter",
-        "Storm Bolters"
+        "Heavy Bolter"
       ],
       "specialRules": [
         "Reinforced Armour",
-        "Transport: May transport five infantry units without Jump Pack or Mounted"
+        "Transport: May transport four infantry units without Jump Pack or Mounted"
       ]
     },
     {

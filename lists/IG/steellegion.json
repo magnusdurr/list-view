@@ -6,7 +6,7 @@
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Titan Legion and Tempestus Scion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty", "Fortified Positions"],
+  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
   "usage": [
     "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
   ],
@@ -281,7 +281,7 @@
         "name": "Flak",
         "options": [
           {
-            "description": "Add one Hydra. If added to an Artillery Company, also add a Gun Emplacement",
+            "description": "Add one Hydra.",
             "points": "50 points"
           }
         ]
