@@ -3183,7 +3183,7 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-              "EA(+1)"
+              "MW"
           ]
           }
       ]
@@ -4115,6 +4115,15 @@
         {
           "firepower": "AP5+",
           "range": 30
+        }
+      ]
+    },
+    {
+      "name": "AC Twin Heavy Stubber",
+      "modes": [
+        {
+          "firepower": "AP5+/AA6+",
+          "range": 15
         }
       ]
     },

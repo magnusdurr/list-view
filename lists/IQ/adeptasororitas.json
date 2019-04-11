@@ -1,7 +1,7 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "release": "2019-04-10",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
@@ -21,6 +21,7 @@
         "Arco-Flagellants",
         "Battle Sisters",
         "Dominion Sisters",
+        "Celestian Sisters",
         "Retributor Sisters",
         "Redemptionists",
         "Seraphim Sisters",
@@ -87,6 +88,22 @@
       "name": "Adepta Sororita Support Detachment",
       "description": "Two Adepta Sororitas Support Detachments may be fielded per Adepta Sororitas Core Detachment",
       "formations": [
+          {
+            "name": "Exorcism",
+            "units": "Four Exorcist Prioris",
+            "extraUnits": [
+              "Replace four Exorcist Prioris with four Exorcist Sanctorum: 25 points",
+              "Hunter"
+            ],
+            "points": 250
+        },
+        {
+          "name": "Immolation",
+          "units": "Three Celestian Sisters, three Immolators",
+          "extraUnits": [
+          ],
+          "points": 235
+        },
         {
           "name": "Seraphim",
           "units": "One Palatine, six Seraphim Sisters",
@@ -95,13 +112,13 @@
           ],
           "points": 225
         },
+
         {
           "name": "Retribution",
-          "units": "Four Retributor Sisters",
+          "units": "Four Retributor Sisters, two Retributors",
           "extraUnits": [
-              "Transport"
           ],
-          "points": 175
+          "points": 200
       },
         {
           "name": "Dominion",
@@ -119,15 +136,6 @@
             "Transport"
           ],
           "points": 125
-        },
-        {
-          "name": "Exorcism",
-          "units": "Four Exorcist Prioris",
-          "extraUnits": [
-            "Replace four Exorcist Prioris with four Exorcist Sanctorum: 25 points",
-            "Hunter"
-          ],
-          "points": 250
         }
       ]
     },
@@ -135,23 +143,15 @@
       "name": "Ordo Hereticus Formations",
       "description": "Two Ordo Hereticus formations may be fielded per Adepta Sororitas Core Detachment",
       "formations": [
-        {
-          "name": "Redemption",
-          "units": "Ten Redemptionists",
-          "extraUnits": [
-            "Add 5 OH Land Transporters: 25 points",
-            "Add two Penitent Engines: 50 points",
-            "Add one Priest: 25 points"
-          ],
-          "points": 150
+          {
+            "name": "0-1 Ordo Hereticus Inquisitor",
+            "units": "One Inquisitor, seven Tempestus Scions, four Chimeras",
+            "extraUnits": [
+            "Replace four Chimeras with three Valkyries and two Vendettas: 100 points",
+            "Add two Hellhounds: 50 points"
+            ],
+            "points": 300
         },
-        {
-          "name": "Penitence",
-          "units": "Six Penitent Engines",
-          "extraUnits": [
-              ],
-          "points": 225
-      },
         {
           "name": "Flagellant",
           "units": "Six Arco-Flagellants",
@@ -161,13 +161,21 @@
           "points": 225
         },
         {
-          "name": "0-1 Ordo Hereticus Inquisitor",
-          "units": "One Inquisitor, seven Tempestus Scions, four Chimeras",
+          "name": "Penitence",
+          "units": "Four Penitent Engines",
           "extraUnits": [
-          "Replace four Chimeras with three Valkyries and two Vendettas: 100 points",
-          "Add two Hellhounds: 50 points"
-          ],
-          "points": 300
+              ],
+          "points": 175
+      },
+      {
+        "name": "Redemption",
+        "units": "Ten Redemptionists",
+        "extraUnits": [
+          "Add 5 OH Land Transporters: 25 points",
+          "Add two Penitent Engines: 50 points",
+          "Add one Priest: 25 points"
+        ],
+        "points": 150
       }
       ]
     },

@@ -82,6 +82,18 @@
           ]
         },
         {
+          "name": "Imperial Inquisition",
+          "abbreviation": "IQ",
+          "lists": [
+            {
+              "name": "Adepta Sororitas",
+              "file": "adeptasororitas",
+              "status": "beta",
+              "img": "website/img/Inquisition_Sisters.jpg"
+            }
+          ]
+        },
+        {
           "name": "Space Marines",
           "abbreviation": "SM",
           "lists": [
@@ -120,6 +132,18 @@
               "file": "whitescars",
               "status": "beta",
               "img": "website/img/AdeptusAstartes_White.jpg"
+            }
+            ]
+        },
+        {
+          "name": "Squats",
+          "abbreviation": "SQ",
+          "lists": [
+            {
+              "name": "Wodan Stronghold",
+              "file": "squats",
+              "status": "experimental",
+              "img": "website/img/template.jpg"
             }
           ]
         }
@@ -296,18 +320,6 @@
           ]
         },
         {
-          "name": "Imperial Inquisition",
-          "abbreviation": "IQ",
-          "lists": [
-            {
-              "name": "Adepta Sororitas",
-              "file": "adeptasororitas",
-              "status": "beta",
-              "img": "website/img/Inquisition_Sisters.jpg"
-            }
-          ]
-        },
-        {
           "name": "Necrons",
           "abbreviation": "NC",
           "lists": [
@@ -352,18 +364,6 @@
               "file": "snakebiteclan",
               "status": "beta",
               "img": "website/img/Ork_Snakebite.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Squats",
-          "abbreviation": "SQ",
-          "lists": [
-            {
-              "name": "Wodan Stronghold",
-              "file": "squats",
-              "status": "experimental",
-              "img": "website/img/template.jpg"
             }
           ]
         },
