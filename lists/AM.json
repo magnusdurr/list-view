@@ -375,7 +375,8 @@
             "Fearless",
             "*Corvus Assault Pod* May transport eleven infantry units. Praetorians counts as two units each"
         ],
-          "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+          "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
           "name": "Ordinatus Minoris ",
@@ -400,7 +401,8 @@
             "Fearless",
             "*Corvus Assault Pod* May transport eleven infantry units. Praetorians counts as two units each"
         ],
-          "notes": "Armed with a single Battle Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+          "notes": "Armed with a single Battle Weapon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
           "name": "Ordinatus Majoris",
@@ -425,7 +427,7 @@
             "Reinforced Armour",
             "Fearless"
         ],
-        "notes": "¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
         "name": "AM Gorgon",
@@ -435,14 +437,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Bolter|2|"
+          "Heavy Bolter|4|"
         ],
         "specialRules": [
           "Damage Capacity 3",
           "Reinforced Armour",
           "Transport (May carry 10 infantry units without jump pack or mounted. Praetorians counts as two units each)"
         ],
-        "notes": "¤Critical Hit Effect¤: The Gorgon takes one additional damage, and D3 transported units takes a hit."
+      "crit": "The Gorgon takes one additional damage, and D3 transported units takes a hit."
     },
     {
       "name": "Avenger Strike Fighter",

@@ -1286,7 +1286,7 @@
       ],
       "specialRules": [
         "Reinforced Armour",
-        "Transport: May transport four infantry units without Jump Pack or Mounted"
+        "Transport: May transport five infantry units without Jump Pack or Mounted"
       ]
     },
     {
@@ -1303,7 +1303,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Minotaur is destroyed"
+      "crit": "The Minotaur is destroyed"
     },
     {
       "name": "Macharius",
@@ -1321,7 +1321,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+      "crit": "The Macharius is destroyed"
     },
     {
       "name": "Macharius Command",
@@ -1340,7 +1340,8 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "Must be equipped with either two Vanquisher Cannons or one Vulcan Mega-Bolter. ¤Critical Hit Effect¤: The Macharius is destroyed"
+      "notes": "Must be equipped with either two Vanquisher Cannons or one Vulcan Mega-Bolter.",
+      "crit": "The Macharius is destroyed"
     },
     {
       "name": "Baran Macharius",
@@ -1357,7 +1358,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+      "crit": "The Macharius is destroyed"
     },
     {
       "name": "Macharius Medusa",
@@ -1374,7 +1375,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+      "crit": "The Macharius is destroyed"
     },
     {
       "name": "Gorgon",
@@ -1384,14 +1385,14 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Heavy Stubber|2|"
+        "Twin Heavy Stubber|4|"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
         "Transport (May carry 10 infantry units without jump pack or mounted)"
       ],
-      "notes": "Critical Hit Effect: The Gorgon takes one additional damage, and D3 transported units takes a hit."
+      "crit": "The Gorgon takes one additional damage, and D3 transported units takes a hit."
     },
     {
       "name": "Leviathan Mobile Command Center",
@@ -1413,7 +1414,7 @@
         "Fearless",
         "Transport: Transport 10 infantry units without jumppack or mounted. Up to four units may shoot and FF from the fighting platform."
       ],
-      "notes": "Critical Hit Effect: The Leviathan takes one additional damage, and D3 transported units takes a hit"
+      "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
     },
     {
       "name": "Baneblade",
@@ -1433,7 +1434,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "crit": "The unit is destroyed."
     },
     {
       "name": "Stormlord",
@@ -1452,7 +1453,7 @@
         "Reinforced Armour",
         "Transport: May transport eight infantry units without jumppack or mounted, four may fire from the firing deck and FF in assaults"
       ],
-      "notes": "Critical Hit Effect: The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit"
+      "crit": "The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit"
     },
     {
       "name": "Shadowsword",
@@ -1469,7 +1470,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "crit": "The unit is destroyed."
     },
     {
       "name": "Stormblade",
@@ -1488,7 +1489,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "crit": "The unit is destroyed."
     },
     {
       "name": "Stormsword",
@@ -1507,7 +1508,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "crit": "The unit is destroyed."
     }
     ]
   }
