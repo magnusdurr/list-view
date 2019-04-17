@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Iyanden",
-  "version": "0.8.1",
-  "release": "2019-04-01",
+  "version": "0.8.2",
+  "release": "2019-04-18",
   "strategy": "Craftworld Iyanden armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -87,7 +87,7 @@
           "name": "0-1 Avatar",
           "units": "One Avatar",
 
-          "points": 50
+          "points": 0
         },
         {
           "name": "0-1 Wraithgate",
@@ -99,28 +99,29 @@
     },
     {
       "name": "Iyanden Warhosts",
-      "description": "One Spirit Walker for each one Spirit Guard or Spirit Blades",
       "formations": [
         {
           "name": "Spirit Guard",
           "units": "One Spiritseer character and four Wraithguards",
-          "upgrades": [
-            "Wraithseer, Wraithlords, Wraithguards, Transport"
+          "extraUnits": [
+            "Wraithseer, Wraithlords, Wraithguards",
+            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Spirit Blades",
           "units": "One Spiritseer character and four Wraithblades",
-          "upgrades": [
-            "Wraithseer, Wraithlord, Transport"
+          "extraUnits": [
+            "Wraithseer, Wraithlord",
+            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Spirit Walker",
           "units": "One Spiritseer character and six Wraithlords",
-          "upgrades": [
+          "extraUnits": [
             "Wraithseer"
           ],
           "points": 350
@@ -129,28 +130,21 @@
     },
     {
       "name": "Iyanden Troupes",
-      "description": "Up to two for each Iyanden Warhost taken",
+      "description": "Up to one for each Iyanden Warhost taken",
       "formations": [
-        {
-          "name": "Guardian Warhost",
-          "units": "One Farseer unit and seven Guardians",
-          "extraUnits": [
-            "Transport, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord."
-          ],
-          "points": 150
-        },
         {
           "name": "Aspect Warrior Warhost",
           "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders ",
-          "upgrades": [
-            "Exarch, Transport"
+          "extraUnits": [
+            "Exarch",
+            "Add three Wave Serpents: 125 points (may only be taken if the entire formation can fit inside)"
           ],
           "points": 250
         },
         {
           "name": "Engines of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
-          "upgrades": [
+          "extraUnits": [
             "Add one or two additional Engine of Vaul for 200 points each, chosen from the following: Cobra, Scorpion, Storm Serpent"
           ],
           "points": 250
@@ -158,29 +152,31 @@
         {
           "name": "Falcon Troupe",
           "units": "Five Falcons",
-          "upgrades": [
-            "Firestorm"
+          "extraUnits": [
+            "Replace up to two Falcons with Firestorms: Free",
+            "OR",
+            "Add five Guardians to the formation: 100 points"
           ],
           "points": 250
         },
         {
           "name": "Fire Prism Troupe",
           "units": "Three Fire Prisms",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Night Spinner Troupe",
           "units": "Three Night Spinners",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 175
         },
         {
           "name": "Ranger Troupe",
           "units": "Four Eldar Rangers",
-          "upgrades": [
+          "extraUnits": [
             "Add up to four Eldar Rangers for 25 points each"
           ],
           "points": 100
@@ -188,14 +184,15 @@
         {
           "name": "War Walker Troupe",
           "units": "Four War Walkers",
-          "upgrades": [
+          "extraUnits": [
+              "Add up to two War Walkers for 25 points each"
           ],
           "points": 125
         },
         {
-          "name": "Wind Rider Troupe ",
+          "name": "Wind Rider Troupe",
           "units": "Six Jetbikes",
-          "upgrades": [
+          "extraUnits": [
             "Vypers"
           ],
           "points": 200
@@ -211,7 +208,7 @@
         {
           "name": "Nightwing Aerie",
           "units": "Two Nightwing Interceptors",
-          "upgrades": [
+          "extraUnits": [
             "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
@@ -219,7 +216,7 @@
         {
           "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
-          "upgrades": [
+          "extraUnits": [
             "Add one Phoenix Bomber: 75 Points"
           ],
           "points": 250
@@ -227,7 +224,7 @@
         {
           "name": "Vampire",
           "units": "One Vampire Raider",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 200
@@ -235,7 +232,7 @@
         {
           "name": "Wraithknights",
           "units": "Three Wraithknights",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 325
@@ -243,7 +240,7 @@
         {
           "name": "Revenants",
           "units": "Two Revenant Titans",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 650
@@ -251,7 +248,7 @@
         {
           "name": "Phantom",
           "units": "One Phantom Titan",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 700
@@ -259,7 +256,7 @@
         {
           "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 800
@@ -267,7 +264,7 @@
         {
           "name": "0-1 Spacecraft",
           "units": "One Wraithship",
-          "upgrades": [
+          "extraUnits": [
             "Replace with Dragonship for +150 Points"
           ],
           "points": 150
@@ -287,12 +284,7 @@
       {
         "name": "Exarch",
         "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
-        "points": "50 points"
-      },
-      {
-        "name": "Firestorm",
-        "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
+        "points": "25 points"
       },
       {
         "name": "Heavy Weapons",
@@ -303,11 +295,6 @@
         "name": "Support Weapons",
         "description": "Add three Eldar Support Weapon Platform units",
         "points": "50 points"
-      },
-      {
-        "name": "Transport",
-        "description": "Add enough Wave Serpents and/or Falcons to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
-        "points": "50 points each"
       },
       {
         "name": "Vypers",
@@ -321,8 +308,8 @@
       },
       {
         "name": "Wraithlord",
-        "description": "Add three Eldar Wraithlords",
-        "points": "150 points"
+        "description": "Add two Eldar Wraithlords",
+        "points": "100 points"
       }
     ]
   }

@@ -77,11 +77,11 @@
         "Harlequins Kiss"
       ],
       "specialRules": [
-        "Infiltrate",
         "Scout",
         "Inv. Save",
         "First Strike",
         "Fearless",
+        "Infiltrators",
         "Inspiring",
         "Holofield (3+)",
         "(no characters may join this unit)"
@@ -96,10 +96,10 @@
         "Mime Concealed Blades"
       ],
       "specialRules": [
-        "Infiltrate",
         "Scout",
         "Teleport",
-        "Holofield (5+)"
+        "Holofield (5+)",
+        "Infiltrators"
       ]
     },
     {
@@ -112,8 +112,8 @@
         "Shrieker Cannons"
       ],
       "specialRules": [
-        "Infiltrate",
-        "Holofield (5+)"
+        "Holofield (5+)",
+        "Infiltrators"
       ]
     },
     {
@@ -126,8 +126,8 @@
         "Harlequin's Embrace"
       ],
       "specialRules": [
-        "Infiltrate",
-        "Holofield (5+)"
+        "Holofield (5+)",
+        "Infiltrators"
       ]
     },
     {
@@ -152,7 +152,7 @@
       "speed": 35,
       "armour": 4,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Prismatic Cannon",
         "Shuriken Cannon"
@@ -175,7 +175,7 @@
       "specialRules": [
         "Skimmer",
         "Holofield (5+)",
-        "Transport 1 (May carry Harlequins Troupe, Death Jesters, Mimes, Solitaire)"
+        "Transport 1 (May carry one Harlequins Troupe, Death Jesters, Mimes or Solitaire)"
       ]
     }
     ]

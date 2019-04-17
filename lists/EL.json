@@ -129,8 +129,6 @@
         "Exarch Close Combat Weapon"
       ],
       "specialRules": [
-        "Invulnerable Save",
-        "Leader",
         "Inspiring"
       ]
     },
@@ -138,7 +136,7 @@
       "name": "Mounted Farseer",
       "type": "INF",
       "speed": 35,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 4,
       "weapons": [
@@ -229,7 +227,7 @@
     {
       "name": "Ghost Walkers",
       "type": "INF",
-      "speed": 35,
+      "speed": 30,
       "armour": 6,
       "cc": 5,
       "ff": 5,
@@ -318,9 +316,9 @@
       "name": "Dark Reapers",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
-      "ff": 3,
+      "ff": 4,
       "weapons": [
         "Reaper Missile Launchers"
       ],
@@ -512,7 +510,7 @@
       "speed": 20,
       "armour": 5,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Scatter Laser",
         "Bright Lance"
@@ -755,7 +753,7 @@
     {
       "name": "Lynx",
       "type": "H-AV",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -772,7 +770,7 @@
     {
       "name": "Scorpion",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -791,7 +789,7 @@
     {
       "name": "Cobra",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -811,10 +809,10 @@
     {
       "name": "Storm Serpent",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
         "Twin Pulse Lasers",
         "Scatter Laser"
@@ -831,7 +829,7 @@
     {
       "name": "Void Spinner",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,

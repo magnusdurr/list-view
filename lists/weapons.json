@@ -4914,15 +4914,22 @@
         }
       ]
     },
+
     {
       "name": "Laser Burner",
       "modes": [
         {
-          "firepower": "Small Arms",
+          "firepower": "MW5+",
+          "range": 30,
           "specialRules": [
-              "EA(+3)",
-              "MW"
-          ]
+        ]
+    },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "EA(+2)",
+            "MW"]
         }
       ]
     },
@@ -5921,7 +5928,7 @@
             "firepower": "3x MW2+",
             "range": 60,
             "specialRules": [
-
+                "Slw"
           ]
           }
       ]
@@ -5933,7 +5940,7 @@
             "firepower": "6x MW2+",
             "range": 60,
             "specialRules": [
-
+                "Slw"
           ]
           }
       ]
@@ -6754,7 +6761,7 @@
       "name": "Reaper Missile Launchers",
       "modes": [
         {
-          "firepower": "2x AP5+",
+          "firepower": "AP4+/AT6+",
           "range": 45,
           "specialRules": [
           ]
