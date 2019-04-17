@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Ulthwé",
-  "version": "0.7.1",
-  "release": "2019-04-02",
+  "version": "0.7.2",
+  "release": "2019-04-18",
   "strategy": "Craftworld Ulthwé armies have a Strategy Rating of 4.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
 
@@ -86,7 +86,8 @@
             "name": "Black Guardian Warhost",
             "units": "Two Farseer units, six Eldar Guardians",
             "upgrades": [
-              "Transport, Seer Council, Heavy Weapons, Support Weapons, Wraithguards, Wraithlords, Windriders"
+              "Seer Council, Heavy Weapons, Support Weapons, Wraithguards, Wraithlords, Windriders",
+              "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
             ],
             "points": 200
         }
@@ -101,7 +102,7 @@
             "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
             "upgrades": [
               "Exarch",
-              "Transport"
+              "Add three Wave Serpents: 100 points"
             ],
             "points": 250
           },
@@ -114,10 +115,19 @@
           "points": 250
         },
         {
+          "name": "Void Spinner Troupe",
+          "units": "One Void Spinner",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
           "name": "Swords of Vaul Troupe",
           "units": "Five Falcons",
           "upgrades": [
-            "Firestorm"
+              "Replace up to two Falcons with Firestorms: Free",
+              "OR",
+              "Add one Farseer and four Guardians to the formation: 100 points"
           ],
           "points": 250
         },
@@ -133,7 +143,7 @@
           "units": "Three Night Spinners",
           "upgrades": [
           ],
-          "points": 200
+          "points": 175
       },
       {
         "name": "Windrider Troupe",
@@ -226,12 +236,7 @@
       {
         "name": "Exarch",
         "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
-        "points": "50 points"
-      },
-      {
-        "name": "Firestorm",
-        "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
+        "points": "25 points"
       },
       {
         "name": "Heavy Weapons",
@@ -265,8 +270,8 @@
     },
     {
       "name": "Wraithlords",
-      "description": "Add three Eldar Wraithlords",
-      "points": "150 points"
+      "description": "Add two Eldar Wraithlords",
+      "points": "100 points"
     }
     ]
   }
