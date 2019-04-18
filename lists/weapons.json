@@ -2102,7 +2102,7 @@
           {
             "firepower": "n/a",
             "specialRules": [
-                "Spec"
+                "Spec[*]"
           ]
           }
       ]
@@ -2113,7 +2113,7 @@
           {
             "firepower": "n/a",
             "specialRules": [
-                "Spec"
+                "Spec[**]"
           ]
           }
       ]
@@ -2299,7 +2299,7 @@
           {
             "firepower": "n/a",
             "specialRules": [
-                "Spec"
+                "Spec[*]"
               ]
         }
       ]
@@ -2730,7 +2730,7 @@
         {
           "firepower": "n/a",
           "specialRules": [
-              "Spec"
+              "Spec[**]"
           ]
         }
       ]
@@ -3306,7 +3306,7 @@
       "name": "Firestorm Battery",
       "modes": [
         {
-          "firepower": "2× AP5+/AT5+/AA5+",
+          "firepower": "2× AP5+/AT5+/AA4+",
           "range": 45,
           "specialRules": [
           ]
@@ -3518,7 +3518,7 @@
           {
             "firepower": "n/a",
             "specialRules": [
-                "Spec"
+                "Spec[*]"
           ]
           }
       ]
@@ -3529,7 +3529,7 @@
           {
             "firepower": "n/a",
             "specialRules": [
-                "Spec"
+                "Spec[*]"
           ]
           }
       ]
@@ -5042,7 +5042,7 @@
             {
             "firepower": "n/a",
             "specialRules": [
-              "Spec"
+              "Spec[*]"
           ]
         }
       ]
@@ -5696,14 +5696,14 @@
       "name": "Particle Accelerator",
         "modes": [
           {
-            "firepower": "MW4+",
+            "firepower": "MW3+",
             "range": 120,
             "specialRules": [
               "TK(D3)"
           ]
           },
           {
-            "firepower": "AA4+",
+            "firepower": "AA6+",
             "join": "or",
             "range": 90,
             "specialRules": [
@@ -6161,7 +6161,7 @@
         {
           "firepower": "n/a",
           "specialRules": [
-            "Spec"
+            "Spec[*]"
           ]
         }
       ]
@@ -6172,7 +6172,7 @@
         {
           "firepower": "n/a",
           "specialRules": [
-            "Spec"
+            "Spec[*]"
           ]
         }
       ]
@@ -6526,6 +6526,7 @@
             "firepower": "3BP",
             "range":120,
             "specialRules": [
+              "Slw",
               "MW",
               "IC"
           ]
@@ -6539,6 +6540,7 @@
             "firepower": "3BP",
             "range":120,
             "specialRules": [
+              "Slw",
               "MW",
               "IC"
           ]
@@ -8868,7 +8870,7 @@
           {
             "firepower": "n/a",
             "specialRules": [
-                "Spec"
+                "Spec[**]"
           ]
           }
       ]
@@ -9539,9 +9541,13 @@
       "description": "Unstable"
   },
   {
-    "name": "Spec",
+    "name": "Spec[*]",
     "description": "Special Rule"
-  }
+    },
+    {
+      "name": "Spec[**]",
+      "description": "Special Rule [**]"
+    }
 
   ]
 }

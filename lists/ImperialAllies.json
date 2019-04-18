@@ -16,7 +16,7 @@
           "description": [
             "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
             "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-            "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+            "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
             "Units with the God Machine special rule are themselves immune to this effect."
           ]
         },
@@ -76,7 +76,7 @@
           "Fearless",
           "Reinforced Armour",
           "Walker",
-          "*Leg Bastions*: May transport up to ten infantry units without Jump Packs or Mounted"
+          "[*]Leg Bastions: May transport up to ten infantry units without Jump Packs or Mounted"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
         "crit": "The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
@@ -103,7 +103,7 @@
           "Fearless",
           "Reinforced Armour",
           "Walker",
-          "*Leg Bastions*: May transport up to ten infantry units without Jump Packs or Mounted"
+          "[*]Leg Bastions: May transport up to ten infantry units without Jump Packs or Mounted"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
         "crit": "The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
@@ -150,10 +150,11 @@
           "Paired Melta Cannons|0-1|FxF",
           "ARMS (choose two. Max one 0-1)",
           "Macro-Gatling Blaster|0-2|FwA",
-          "Belicosa Volcano Cannon|0-1|FwA",
-          "Plasma Destructor|0-1|FwA",
           "Laser Burner|0-2|FwA",
-          "Titan Power Fist|0-2|FwA"
+          "Titan Power Fist|0-2|FwA",
+          "Belicosa Volcano Cannon|0-1|FwA",
+          "Plasma Destructor|0-1|FwA"
+
         ],
         "specialRules": [
           "Damage Capacity 8",
@@ -244,7 +245,7 @@
           "Fearless",
           "Reinforced Armour",
           "Walker",
-          "*Corvus Assault Pod* May transport eleven infantry units or Dreadnoughts; Dreadnoughts count as two units each"
+          "[*]Corvus Assault Pod: May transport eleven infantry units or Dreadnoughts; Dreadnoughts count as two units each"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
         "crit": "The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
@@ -275,7 +276,7 @@
           "Fearless",
           "Reinforced Armour",
           "Walker",
-          "*Corvus Assault Pod* May transport eleven infantry units or Robots; Robots count as two units each"
+          "[*]Corvus Assault Pod: May transport eleven infantry units without Jump Packs or Mounted"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
         "crit": "The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
@@ -305,7 +306,7 @@
           "Fearless",
           "Reinforced Armour",
           "Walker",
-          "*Carapace Landing Pad* Gives all BP-type weapons in the formation 'Indirect Fire'. Allows the purchase of a Lysander Fighter"
+          "[*]Carapace Landing Pad: Gives all BP-type weapons in the formation 'Indirect Fire'. Allows the purchase of a Lysander Fighter"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
         "crit": "The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."

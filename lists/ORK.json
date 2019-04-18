@@ -29,7 +29,7 @@
         "description": [
           "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
           "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-          "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+          "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
           "Units with the God Machine special rule are themselves immune to this effect."
         ]
       },
@@ -88,9 +88,9 @@
         "'Uge Banner of Mork (or possibly Gork)|0-1|"
       ],
       "specialRules": [
-          "*'Uge Banner of Mork (or possibly Gork)*: (Gargants Only) The unit gains the Inspiring special rule"
+          "[**]'Uge Banner of Mork (or possibly Gork): (Gargants Only) The unit gains the Inspiring special rule"
       ],
-      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork)"
+      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given [*] D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork)"
     },
   {
     "name": "Speed Freek Oddboy",
@@ -101,7 +101,7 @@
       "Lifta-Droppa|0-1|"
     ],
     "specialRules": [
-        "The unit is given either D3+1 power fields, or replaces a Big Gun with a Lifta Droppa, or is equipped with a Deff-Rolla (Improve CC to 2+) and Red Paint Job (+5 cm movement)."
+        "The unit is given either [*] D3+1 power fields, or replaces a Big Gun with a Lifta Droppa, or is equipped with [**] Deff-Rolla (Improve CC to 2+) and Red Paint Job (+5 cm movement)."
     ]
   },
     {

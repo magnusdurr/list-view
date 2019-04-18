@@ -28,7 +28,7 @@
       "description": [
         "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
         "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-        "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+        "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
         "Units with the God Machine special rule are themselves immune to this effect."
       ]
     },
@@ -868,7 +868,7 @@
       "title": "Necron Portals",
       "description": [
         "Necron Portals can only be used by INF and LV, and WE or AV that has 'Walker'. Each portal can be used a single time each turn.",
-        "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board by entering a Portal with a move, entering the reserves. Once in the reserves they can either re-enter play immediately via another Portal (provided they have another Move left).",
+        "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board by entering a Portal with a move, entering the reserves. Once in the reserves they can either re-enter play immediately via another Portal (provided they have any moves left).",
         "Formations that uses a broken Portal receives one Blast Marker.",
         "If a Necron Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
       ]
@@ -876,7 +876,7 @@
     {
       "title": "Living Metal",
       "description": [
-        "Units with Living Metal may roll a 4+ invulnerable save instead if their armour is negated. Example, by Macroweapon or Titan Killer."
+        "Units with Living Metal may roll a 4+ invulnerable save instead if their armour is negated by MW or TK attacks."
       ]
     },
     {
