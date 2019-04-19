@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Ulthwé",
-  "version": "0.7.2",
-  "release": "2019-04-18",
+  "version": "0.7.3",
+  "release": "2019-04-19",
   "strategy": "Craftworld Ulthwé armies have a Strategy Rating of 4.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
 
@@ -40,7 +40,7 @@
         "Cobra",
         "Storm Serpent",
         "Void Spinner",
-        "Revenant Titan",
+        "Fire Gale",
         "Phantom Titan",
         "Warlock Titan"
       ],
@@ -57,7 +57,6 @@
         "Dragonship"
       ],
         "unitRules": [
-            "God Machine Killer (GMK)"
       ]
     }
 ],
@@ -190,12 +189,12 @@
           "points": 200
         },
         {
-          "name": "Revenants",
-          "units": "Two Revenant Titans",
+          "name": "Fire Gale Troupe",
+          "units": "Two Fire Gale Knights",
           "upgrades": [
 
           ],
-          "points": 650
+          "points": 300
         },
         {
           "name": "Phantom",
