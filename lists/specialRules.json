@@ -814,7 +814,7 @@
       "title": "Patriarch Host",
       "description": [
           "A Genestealer army must include a Patriarch Host. This formation is always considered to be the BTS even if it not the most expensive formation.",
-          "While the Patriarch Brood Coven unit is on the table all units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediatly loses Fearless.",
+          "While the Patriarch Brood Coven unit is on the table all units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediately loses Fearless.",
           "In addition, while the Patriarch Host is alive and on the table, all units in a 'Cult Guard' formation with a Genestealer Primus are considered Expendable (except for the unit with the Genestealer Primus). If the Genestealer Primus dies, the 'Cult Guard' units immediately loses Expendable"
       ]
     },
@@ -849,28 +849,28 @@
     {
       "title": "Necron Reserves",
       "description": [
-        "Any Necron formation may be held back in reserve (with the exception of the Aeonic Orb and Abattoir) if you are playing the Epic Tournament scenario. Note that formations that do not have teleport will only be able to enter play through portals. Any Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal."
+        "Any Necron formation may be held back in reserve (with the exception of the Aeonic Orb and Abattoir) if you are playing a Epic Tournament scenario. Note that formations that do not have teleport will only be able to enter play through Necron Portals. Any Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal."
         ]
     },
     {
       "title": "Necron Garrisons",
       "description": [
-        "The Necron formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex. Two Infantry Phalanx formations may be garrisoned at the Tomb Complex objective."
+        "Only Necron Phalanx formations may garrison in Epic Tournament scenarios, and may only garrison from a Tomb Complex Objective."
         ]
     },
     {
       "title": "Necron",
       "description": [
-        "Units with 'Necron' that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."
+        "Units with 'Necron' that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the End Phase of each turn. In addition, if a formation regroups it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both. Any unit containing a Character may only be brought back if the entire roll is dedicated to doing so. (example: If a two was rolled, either return 2 units to play, remove 2 Blast Markers, return 1 unit and remove 1 Blast Marker. Alternatively, the entire roll may be dedicated to bringing back a unit with a Character). "
       ]
     },
     {
       "title": "Necron Portals",
       "description": [
-        "Necron Portals can only be used by INF and LV, and WE or AV that has 'Walker'. Each portal can be used a single time each turn.",
+        "Necron Portals can only be used by INF and by LV, AV and H-AV with 'Walker'. Each Portal can be used a single time each turn.",
         "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board by entering a Portal with a move, entering the reserves. Once in the reserves they can either re-enter play immediately via another Portal (provided they have any moves left).",
-        "Formations that uses a broken Portal receives one Blast Marker.",
-        "If a Necron Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
+        "Each time a formation uses a broken Portal it receives one Blast Marker.",
+        "If a Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
       ]
     },
     {
@@ -889,6 +889,12 @@
       "title": "Implacable Advance",
       "description": [
         "Necron formations receive a +1 bonus to Marshal actions. In addition, Necron formations cannot take March actions."
+        ]
+    },
+    {
+      "title": "Ponderous",
+      "description": [
+        "May only make a single withdrawal move instead of two when becoming broken or failing to rally."
         ]
     },
     {

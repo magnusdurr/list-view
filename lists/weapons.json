@@ -355,8 +355,8 @@
       "name": "AC Death Ray",
         "modes": [
           {
-            "firepower": "MW3+",
-            "range": 15,
+            "firepower": "MW4+",
+            "range": 30,
             "specialRules": [
               "FxF"
           ]
@@ -429,9 +429,9 @@
       "name": "AC Gate Projector Array",
         "modes": [
           {
-            "firepower": "Portal",
+            "firepower": "Spec[*]",
             "specialRules": [
-              "Portal"
+
           ]
           }
       ]
@@ -918,7 +918,7 @@
       "name": "AC Twin Tesla Destructor",
         "modes": [
           {
-            "firepower": "2x AP4+/AT5+/AA5+",
+            "firepower": "AP3+/AT4+/AA4+",
             "range": 15,
             "specialRules": [
               "FxF"
@@ -3540,7 +3540,7 @@
         "modes": [
           {
             "firepower": "AP4+/AT6+",
-            "range": 15,
+            "range": 30,
             "specialRules": [
 
           ]
@@ -3552,7 +3552,7 @@
         "modes": [
           {
             "firepower": "AP4+/AT6+",
-            "range": 30,
+            "range": 45,
             "specialRules": [
 
           ]
@@ -3563,7 +3563,7 @@
       "name": "Gauss Flayers",
         "modes": [
           {
-            "firepower": "AP5+/AT6+",
+            "firepower": "AP4+/AT6+",
             "range": 15,
             "specialRules": [
 
@@ -3576,7 +3576,7 @@
       "name": "Gauss Flayers Array",
         "modes": [
           {
-            "firepower": "2x AP5+/AT6+",
+            "firepower": "2x AP4+/AT6+",
             "range": 15,
             "specialRules": [
           ]
@@ -4005,7 +4005,7 @@
         "modes": [
           {
             "firepower": "AT3+",
-            "range": 30,
+            "range": 45,
             "specialRules": [
 
           ]
@@ -5705,7 +5705,7 @@
           },
           {
             "firepower": "AA6+",
-            "join": "or",
+            "join": "and",
             "range": 90,
             "specialRules": [
               "TK(1)"
@@ -5717,7 +5717,7 @@
       "name": "Particle Cannon",
         "modes": [
           {
-            "firepower": "AP5+/AT3+ ",
+            "firepower": "AP3+/AT4+ ",
             "range": 60,
             "specialRules": [
 
@@ -5729,7 +5729,7 @@
       "name": "Particle Flail",
         "modes": [
           {
-            "firepower": "AP4+/AT4+",
+            "firepower": "AP3+/AT4+",
             "range": 45,
             "specialRules": [
           ]
@@ -5740,7 +5740,7 @@
       "name": "Particle Whip",
         "modes": [
           {
-            "firepower": "AP4+/AT4+",
+            "firepower": "AP3+/AT4+",
             "range": 30,
             "specialRules": [
 
@@ -6949,14 +6949,27 @@
           "firepower": "Small Arms",
           "join": "and",
           "specialRules": [
+            "EA(+1)",
             "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3x Scarab Swarm",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5",
+            "range": 30,
+            "specialRules": [
+              "IC"
           ]
         },
         {
-          "firepower": "Assault Weapons",
-          "join": "or",
+          "firepower": "Small Arms",
+          "join": "and",
           "specialRules": [
-            "EA(+1)",
+            "EA(+3)",
             "IC"
           ]
         }
@@ -7562,7 +7575,6 @@
             "join": "or",
             "range": 90,
             "specialRules": [
-
           ]
         }
       ]
@@ -8312,7 +8324,7 @@
       ]
     },
     {
-      "name": "Transdimentional Bolt",
+      "name": "Transdimensional Bolt",
         "modes": [
           {
             "firepower": "MW4+ ",
@@ -8837,7 +8849,7 @@
       "name": "Twin Tesla Destructor",
         "modes": [
           {
-            "firepower": "2x AP4+/AT5+",
+            "firepower": "AP3+/AT4+",
             "range": 30,
             "specialRules": [
           ]

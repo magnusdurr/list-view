@@ -3,12 +3,12 @@
     "name": "Necron Forces",
     "specialRules": [
       {
-        "title": "",
-        "description": [
-          ""
-        ]
-      }
-    ],
+            "title": "Heavy Armoured Vehicle (H-AV)",
+            "description": [
+              "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+          ]
+        }
+      ],
     "unit": [
       {
           "name": "Necron Overlord",
@@ -30,6 +30,17 @@
           "specialRules": [
             "Leader",
             "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Cryptek",
+          "type": "CH",
+          "weapons": [
+            "Abyssal Staff"
+          ],
+          "specialRules": [
+            "Inspiring",
+            "Invulnerable save"
           ]
       },
       {
@@ -108,21 +119,7 @@
             "Necron"
           ]
       },
-      {
-          "name": "Cryptek",
-          "type": "INF",
-          "speed": 15,
-          "armour": 4,
-          "cc": 4,
-          "ff": 3,
-          "weapons": [
-            "Abyssal Staff"
-          ],
-          "specialRules": [
-            "Inspiring",
-            "Invulnerable save"
-          ]
-      },
+
       {
           "name": "Wraiths",
           "type": "INF",
@@ -353,24 +350,26 @@
           "cc": 2,
           "ff": 4,
           "weapons": [
-            "Scarab Swarm|3|",
+            "3x Scarab Swarm",
             "Harvesters"
           ],
           "specialRules": [
-            "Damage Capacity 8",
+            "Damage Capacity 6",
             "Fearless",
             "Infiltrator",
             "Living Metal",
             "Portal",
             "Skimmer",
-            "Thick Rear Armour"
+            "Thick Rear Armour",
+            "Ponderous",
+            "Enduring"
           ],
-          "notes": "Critical Hit Effect: The unit and all units within 5cm of the unit suffer a Titan Killer hit on a roll of 4+"
+          "crit": "All units within 5cm of the unit suffer a TK hit on a roll of 4+"
       },
       {
           "name": "Aeonic Orb",
           "type": "WE",
-          "speed": 20,
+          "speed": 15,
           "armour": 3,
           "ff": 3,
           "weapons": [
@@ -380,10 +379,10 @@
             "Damage Capacity 6",
             "Fearless",
             "Living Metal",
-            "Skimmer",
+            "Support Craft",
             "Thick Rear Armour"
           ],
-          "notes": "Critical Hit Effect: Center the barrage template that is 12cm across on the unit and resolve the effect as if it were a 3BP macro-weapon barrage."
+          "crit": "Center the Orbital Barrage Template on the unit and resolve the effect as if it were a 1BP MW barrage."
       },
       {
           "name": "Pylon",
@@ -403,7 +402,7 @@
             "Teleport",
             "Thick Rear Armour"
           ],
-          "notes": "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+"
+          "crit": "The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+"
       },
       {
           "name": "Warbarque",
@@ -430,27 +429,26 @@
             "Teleport",
             "Thick Rear Armour"
           ],
-          "notes": "Critical Hit Effect: The unit loses Portal. Subsequent critical hits destroy the unit."
+          "crit": "The Warbarque is destroyed. All units within 5cm suffer a hit on a roll of 6+"
       },
       {
           "name": "C’tan Shard",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 20,
           "armour": 3,
           "cc": 4,
           "ff": 4,
           "weapons": [
-            "Transdimentional Bolt",
+            "Transdimensional Bolt",
             "Entropic Touch",
             "Pyreshards"
           ],
           "specialRules": [
-            "Damage Capacity 2",
+            "Walker",
             "Inspiring",
-            "Living Metal",
-            "C'tans can use portals. If the C’tan Shard becomes broken at any point it is immediatly removed from play, removing it in this way does not cause Blast Markers for hackdowns."
-          ],
-          "notes": "Critical Hit Effect: The C'tan is destroyed and removed from play."
+            "Living Metal"
+        ],
+          "notes": "If the C’tan Shard becomes broken it is immediately destroyed. Its destruction does not cause additional Blast Markers"
       },
       {
           "name": "Seraptek Heavy Construct",

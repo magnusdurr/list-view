@@ -10,11 +10,11 @@
             "Necron Reserves",
             "Necron Garrisons",
             "Necron",
-            "Portal",
+            "Necron Portals",
             "Living Metal",
-            "Ponderous",
             "Enduring",
             "Implacable Advance",
+            "Ponderous",
             "Phase Out"
           ],
 
@@ -44,11 +44,13 @@
         "C’tan Shard"
       ],
         "unitRules": [
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
       "from": "necronNavy.json",
       "units": [
+        "Night Scythe",
         "Doom Scythe",
         "Scythe Class Harvester"
       ],
@@ -75,7 +77,7 @@
       ]
     },
     {
-      "name": "Maynarkh Dynasty Phalanx’s",
+      "name": "Maynarkh Dynasty Phalanxes",
       "formations": [
         {
           "name": "Infantry Phalanx",
@@ -85,7 +87,7 @@
               "Add three Wraiths: 125 points",
               "Add one Cryptek: 50 points",
               "Replace up to three Necron Warriors with Immortals: 25 points each",
-              "(0-1 per army) Add one C'tan Shard: 100 points"
+              "(0-1 per army) Add one C'tan Shard: 75 points"
           ],
           "points": 275
         }
@@ -93,7 +95,7 @@
     },
     {
       "name": "Maynarkh Dynasty Support Formations",
-      "description": "Up to three for each Maynarkh Dynasty Phalanx taken",
+      "description": "Up to three for each Maynarkh Dynasty Phalanx",
       "formations": [
         {
           "name": "Armoued Phalanx",
@@ -112,13 +114,21 @@
           "points": 300
         },
         {
+          "name": "Pylon",
+          "units": "One Pylon",
+          "upgrades": [
+
+          ],
+          "points": 200
+        },
+        {
           "name": "Portal Maniple",
           "units": "Two Monoliths and two Obelisks",
           "extraUnits": [
                 "Add one Obelisk: 50 points",
                 "Add one Monolith: 75 points"
           ],
-          "points": 275
+          "points": 300
         },
         {
           "name": "Venator Maniple",
@@ -139,7 +149,7 @@
       "formations": [
         {
           "name": "0–1 Harvester Engine",
-          "units": "One of the following units: Abattoir, Æonic Orb",
+          "units": "Either an Abattoir or an Æonic Orb",
           "upgrades": [
 
           ],
@@ -151,15 +161,14 @@
           "upgrades": [
 
           ],
-          "points": 350
+          "points": 300
         },
         {
-          "name": "Pylon",
-          "units": "One Pylon",
+          "name": "Night Scythes",
+          "units": "Two Night Scythes",
           "upgrades": [
-
           ],
-          "points": 175
+          "points": 250
         },
         {
           "name": "Doom Scythes",
