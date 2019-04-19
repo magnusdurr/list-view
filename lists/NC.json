@@ -329,7 +329,7 @@
       {
           "name": "Triarch Stalker",
           "type": "AV",
-          "speed": 20,
+          "speed": 15,
           "armour": 4,
           "cc": 5,
           "ff": 4,
@@ -337,13 +337,14 @@
             "Heat Ray"
           ],
           "specialRules": [
-            "Walker"
+            "Walker",
+            "Infiltrators"
           ]
       },
       {
           "name": "Seraptek Heavy Construct",
           "type": "H-AV",
-          "speed": 20,
+          "speed": 15,
           "armour": 3,
           "cc": 4,
           "ff": 4,
@@ -355,7 +356,8 @@
             "Fearless",
             "Living Metal",
             "Regeneration",
-            "Walker"
+            "Walker",
+            "Infiltrators"
           ]
       },
       {
@@ -398,7 +400,7 @@
       {
           "name": "Abattoir",
           "type": "WE",
-          "speed": 20,
+          "speed": 15,
           "armour": 3,
           "cc": 2,
           "ff": 4,
@@ -435,6 +437,7 @@
             "Living Metal",
             "Regeneration",
             "Support Craft",
+            "Ponderous",
             "Thick Rear Armour"
           ],
           "crit": "The Æonic Orb is destroyed. All units within 10cm suffer a hit"
@@ -467,9 +470,8 @@
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Particle Cannon|2|",
-            "War Cannon|2|",
-            "Gauss Cannon|2|",
+            "Particle Cannon|2|FxF",
+            "Gauss Cannon|4|FxF",
             "Gauss Flux Arc"
           ],
           "specialRules": [
