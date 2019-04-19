@@ -861,13 +861,13 @@
     {
       "title": "Regeneration",
       "description": [
-        "Whenever a formation regroups (either by doing a Hold or a Marshal Action), roll one D6 for each lost INF, AV or LV unit with 'Regeneration'. On a roll of a 6, that unit is restored, and is placed within 5cm of a unit from the same formation. H-AV and WE with 'Regeneration' rolls one D6 per lost Damage Capacity instead, restoring one DC for each 6 rolled. H-AV and WE with 'Regeneration' may not be brought back to into the game once they are destroyed."
+        "Whenever a formation regroups (either by doing a Hold or a Marshal Action), roll one D6 for each INF, AV or LV unit with 'Regeneration' that formation has lost. On a roll of a 6, the unit regenerates, and is placed within 5cm of a unit from the same formation. H-AV and WE with 'Regeneration' rolls one D6 per lost Damage Capacity, restoring one DC for each 6 rolled. H-AV and WE with 'Regeneration' may not be brought back to into the game once they have been completely destroyed."
       ]
     },
     {
       "title": "Necron Portals",
       "description": [
-        "Necron Portals can only be used by INF and by units with 'Walker'. Each Portal can be used a single time each turn.",
+        "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each Portal can be used a single time each turn.",
         "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves. Formations with teleport that have re-entered the reserves may teleport at the start of the next turn as normal.",
         "Each time a formation uses a broken Portal it receives one Blast Marker.",
         "If a Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."

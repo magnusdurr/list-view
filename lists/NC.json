@@ -47,7 +47,7 @@
           "name": "Cryptek",
           "type": "INF",
           "speed": 15,
-          "armour": 4,
+          "armour": 5,
           "cc": 5,
           "ff": 4,
           "weapons": [
@@ -55,8 +55,7 @@
           ],
           "specialRules": [
             "Inspiring",
-            "Regeneration",
-            "Invulnerable save"
+            "Regeneration"
           ]
       },
       {
@@ -438,7 +437,7 @@
             "Support Craft",
             "Thick Rear Armour"
           ],
-          "crit": "The Æonic Orb is then destroyed. All units within 10cm suffer a hit"
+          "crit": "The Æonic Orb is destroyed. All units within 10cm suffer a hit"
       },
       {
           "name": "Pylon",
