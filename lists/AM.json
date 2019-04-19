@@ -5,15 +5,21 @@
         {
           "title": "Machine Spirit",
           "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such a formation may only move once instead of twice while being broken, and may only contest objectives."
+            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
           ]
-      },
+        },
       {
             "title": "God Machine Killer (GMK)",
             "description": [
               "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
         ]
-      }
+    },
+    {
+      "title": "Ponderous",
+      "description": [
+        "May only make a single withdrawal move instead of two when becoming broken or failing to rally."
+        ]
+    }
     ],
     "unit": [
       {
@@ -91,9 +97,10 @@
             "Hydraulic Claw"
           ],
           "specialRules": [
-            "Notes: Machine Spirit",
-            "Invulnerable Save",
-            "Count as 2 for the purpose of being transported"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -108,9 +115,10 @@
             "Cognis Flamer"
           ],
           "specialRules": [
-            "Notes: Machine Spirit",
-            "Invulnerable Save",
-            "Count as 2 for the purpose of being transported"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -196,7 +204,8 @@
           "specialRules": [
             "Machine Spirit",
             "Fearless",
-            "Expendable"
+            "Expendable",
+            "Ponderous"
           ]
       },
       {
@@ -210,9 +219,10 @@
             "Las-Locks"
           ],
           "specialRules": [
-            "Machine Spirit",
-            "Fearless",
-            "Expendable"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -227,9 +237,10 @@
             "Power Fist"
           ],
           "specialRules": [
-            "Machine Spirit",
-            "Fearless",
-            "Expendable"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -245,9 +256,10 @@
             "Power Fist"
           ],
           "specialRules": [
-            "Machine Spirit",
-            "Fearless",
-            "Expendable"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {

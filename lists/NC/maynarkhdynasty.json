@@ -1,7 +1,7 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.7.1",
+  "version": "0.8.1",
   "release": "2019-04-19",
   "strategy": "Necron armies have a Strategy Rating of 2",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
@@ -9,7 +9,7 @@
   "specialRules": [
             "Necron Reserves",
             "Necron Garrisons",
-            "Necron",
+            "Regeneration",
             "Necron Portals",
             "Living Metal",
             "Enduring",
@@ -38,10 +38,12 @@
         "Obelisk",
         "Tomb Spyder",
         "Abattoir",
-        "Aeonic Orb",
+        "Æonic Orb",
         "Pylon",
         "Warbarque",
-        "C’tan Shard"
+        "C’tan Shard",
+        "Seraptek Heavy Construct",
+        "Triarch Stalker"
       ],
         "unitRules": [
         "Heavy Armoured Vehicle (H-AV)"
@@ -50,9 +52,9 @@
     {
       "from": "necronNavy.json",
       "units": [
-        "Night Scythe",
-        "Doom Scythe",
-        "Scythe Class Harvester"
+        "Night Shroud Bomber",
+        "Doom Scythe Fighter-Bomber",
+        "Cairn Class Tomb Ship"
       ],
         "unitRules": [
       ]
@@ -60,19 +62,13 @@
 ],
 "sections": [
     {
-      "name": "Maynarkh Dynasty Special",
+      "name": "Maynarkh Dynasty Specials",
       "formations": [
         {
           "name": "0–1 Tomb Complex",
-          "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
+          "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
 
-          "points": 25
-        },
-        {
-          "name": "0–1 Necron Overlord",
-          "units": "Replace a Necron Lord in the army with a Necron Overlord.",
-
-          "points": 75
+          "points": 50
         }
       ]
     },
@@ -80,25 +76,26 @@
       "name": "Maynarkh Dynasty Phalanxes",
       "formations": [
         {
-          "name": "Infantry Phalanx",
-          "units": "Eight Necron Warriors and one Necron Lord",
+          "name": "Necron Phalanx",
+          "units": "Seven Necron Warriors and one Necron Lord",
           "extraUnits": [
-              "Add two Tomb Spyders: 100 points",
-              "Add three Wraiths: 125 points",
-              "Add one Cryptek: 50 points",
-              "Replace up to three Necron Warriors with Immortals: 25 points each",
-              "(0-1 per army) Add one C'tan Shard: 75 points"
+              "(0-1 per army) Replace the Necron Lord with a Necron Overlord",
+              "(0-1 per army) Add one C'tan Shard: 75 points",
+              "Add three Tomb Spyders: 100 points",
+              "Add two Wraiths: 75 points",
+              "Add three Immortals: 50 points",
+              "Add one Cryptek: 50 points"
           ],
-          "points": 275
+          "points": 225
         }
       ]
     },
     {
       "name": "Maynarkh Dynasty Support Formations",
-      "description": "Up to three for each Maynarkh Dynasty Phalanx",
+      "description": "Up to two for each Maynarkh Dynasty Phalanx",
       "formations": [
         {
-          "name": "Armoued Phalanx",
+          "name": "Obelisk Phalanx",
           "units": "Five Obelisks",
           "upgrades": [
           ],
@@ -108,10 +105,9 @@
           "name": "Eques Maniple",
           "units": "Any six of the following units: Destroyers, Heavy Destroyers",
           "extraUnits": [
-              "Add one Necron Lord: 25 points",
-              "Add three Wraiths: 125 points"
+              "Add up to two Destroyers and/or Heavy Destroyers: 25 points each"
           ],
-          "points": 300
+          "points": 250
         },
         {
           "name": "Pylon",
@@ -134,13 +130,17 @@
           "name": "Venator Maniple",
           "units": "Six Flayed Ones",
           "extraUnits": [
-              "Add one Necron Lord: 25 points",
-              "Add two Tomb Spyders: 100 points",
-              "Add three Wraiths: 125 points",
-              "Add one Cryptek: 50 points"
           ],
           "points": 200
-        }
+      },
+      {
+        "name": "Stalker Maniple",
+        "units": "Four Triarch Stalkers",
+        "extraUnits": [
+            "Add one Seraptek Heavy Construct: 125 points"
+        ],
+        "points": 200
+      }
       ]
     },
     {
@@ -153,30 +153,30 @@
           "upgrades": [
 
           ],
-          "points": 600
+          "points": 550
         },
         {
-          "name": "0–1 Spacecraft",
-          "units": "One Scythe Class Harvester",
+          "name": "0–1 Tomb Ship",
+          "units": "One Cairn Class Tomb Ship",
           "upgrades": [
 
           ],
-          "points": 300
-        },
-        {
-          "name": "Night Scythes",
-          "units": "Two Night Scythes",
-          "upgrades": [
-          ],
           "points": 250
         },
+        {
+          "name": "Night Shroud Bomber",
+          "units": "One Night Shroud Bomber",
+          "upgrades": [
+          ],
+          "points": 175
+      },
         {
           "name": "Doom Scythes",
-          "units": "Two Doom Scythes",
+          "units": "Two Doom Scythe Fighter-Bombers",
           "upgrades": [
 
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Warbarque",

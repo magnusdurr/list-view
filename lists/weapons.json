@@ -356,7 +356,7 @@
         "modes": [
           {
             "firepower": "MW4+",
-            "range": 30,
+            "range": 15,
             "specialRules": [
               "FxF"
           ]
@@ -370,6 +370,7 @@
             "firepower": "3BP",
             "range": 15,
             "specialRules": [
+              "D",
               "IC"
           ]
           }
@@ -426,11 +427,12 @@
           ]
                 },
     {
-      "name": "AC Gate Projector Array",
+      "name": "AC Wormhole Portal",
         "modes": [
           {
             "firepower": "Spec[*]",
             "specialRules": [
+                "SS"
 
           ]
           }
@@ -918,7 +920,7 @@
       "name": "AC Twin Tesla Destructor",
         "modes": [
           {
-            "firepower": "AP3+/AT4+/AA4+",
+            "firepower": "AP3+/AT5+/AA4+",
             "range": 15,
             "specialRules": [
               "FxF"
@@ -7254,7 +7256,7 @@
       ]
     },
     {
-      "name": "Singularity Generators",
+      "name": "Singularity Generator",
         "modes": [
           {
             "firepower": "AP4+/AT5+",
@@ -7665,6 +7667,26 @@
             "specialRules": [
               "EA(+1)",
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Staff of Radiance",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          },
+          {
+            "firepower": "Assault Weapon",
+            "join": "and",
+            "specialRules": [
+              "EA(+1)",
+              "TK(1)"
           ]
         }
       ]
@@ -8849,7 +8871,7 @@
       "name": "Twin Tesla Destructor",
         "modes": [
           {
-            "firepower": "AP3+/AT4+",
+            "firepower": "AP3+/AT5+",
             "range": 30,
             "specialRules": [
           ]

@@ -12,34 +12,50 @@
     "unit": [
       {
           "name": "Necron Overlord",
-          "type": "CH",
+          "type": "INF",
+          "speed": 15,
+          "armour": 3,
+          "cc": 3,
+          "ff": 4,
           "weapons": [
-            "Staff of Light"
+            "Staff of Radiance"
           ],
           "specialRules": [
             "Supreme Commander",
-            "Invulnerable Save"
+            "Living Metal",
+            "Thick Rear Armour",
+            "Regeneration"
           ]
       },
       {
           "name": "Necron Lord",
-          "type": "CH",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
           "weapons": [
             "Staff of Light"
           ],
           "specialRules": [
             "Leader",
+            "Regeneration",
             "Invulnerable Save"
           ]
       },
       {
           "name": "Cryptek",
-          "type": "CH",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 5,
+          "ff": 4,
           "weapons": [
             "Abyssal Staff"
           ],
           "specialRules": [
             "Inspiring",
+            "Regeneration",
             "Invulnerable save"
           ]
       },
@@ -55,7 +71,7 @@
           ],
           "specialRules": [
             "Mounted",
-            "Necron",
+            "Regeneration",
             "Skimmer"
           ]
       },
@@ -71,7 +87,7 @@
           ],
           "specialRules": [
             "Mounted",
-            "Necron",
+            "Regeneration",
             "Skimmer"
           ]
       },
@@ -86,7 +102,7 @@
           ],
           "specialRules": [
             "Infiltrator",
-            "Necron",
+            "Regeneration",
             "Scout",
             "Teleport"
           ]
@@ -102,7 +118,7 @@
             "Gauss Blasters"
           ],
           "specialRules": [
-            "Necron"
+            "Regeneration"
           ]
       },
       {
@@ -116,14 +132,14 @@
             "Gauss Flayers"
           ],
           "specialRules": [
-            "Necron"
+            "Regeneration"
           ]
       },
 
       {
           "name": "Wraiths",
           "type": "INF",
-          "speed": 15,
+          "speed": 20,
           "armour": 5,
           "cc": 5,
           "ff": 4,
@@ -133,7 +149,8 @@
           "specialRules": [
             "First Strike",
             "Invulnerable Save",
-            "Necron",
+            "Scout",
+            "Regeneration",
             "Jump Packs"
           ]
       },
@@ -148,7 +165,7 @@
             "Synaptic Disintegrator"
           ],
           "specialRules": [
-            "Necron",
+            "Regeneration",
             "Scout",
             "Teleport"
           ]
@@ -180,7 +197,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Necron",
+            "Regeneration",
             "Jump Packs"
           ]
       },
@@ -226,9 +243,9 @@
       },
       {
           "name": "Tomb Spyder",
-          "type": "AV",
+          "type": "LV",
           "speed": 15,
-          "armour": 4,
+          "armour": 3,
           "cc": 5,
           "ff": 5,
           "weapons": [
@@ -237,7 +254,6 @@
           ],
           "specialRules": [
             "Fearless",
-            "Leader",
             "Skimmer",
             "Walker"
           ]
@@ -315,15 +331,31 @@
           "name": "Triarch Stalker",
           "type": "AV",
           "speed": 20,
-          "armour": 5,
+          "armour": 4,
           "cc": 5,
           "ff": 4,
           "weapons": [
             "Heat Ray"
           ],
           "specialRules": [
-            "Reinforced Armour",
-            "Infiltrator",
+            "Walker"
+          ]
+      },
+      {
+          "name": "Seraptek Heavy Construct",
+          "type": "H-AV",
+          "speed": 20,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Singularity Generator|2|",
+            "Titanic Forelimbs"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Living Metal",
+            "Regeneration",
             "Walker"
           ]
       },
@@ -343,6 +375,28 @@
           ]
       },
       {
+          "name": "C’tan Shard",
+          "type": "H-AV",
+          "speed": 20,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Transdimensional Bolt",
+            "Entropic Touch",
+            "Pyreshards"
+          ],
+          "specialRules": [
+            "Walker",
+            "Leader",
+            "Commander",
+            "Inspiring",
+            "Living Metal",
+            "Regeneration"
+        ],
+          "notes": "If the C’tan Shard becomes broken it is immediately destroyed. Its destruction does not cause additional Blast Markers"
+      },
+      {
           "name": "Abattoir",
           "type": "WE",
           "speed": 20,
@@ -360,14 +414,15 @@
             "Living Metal",
             "Portal",
             "Skimmer",
+            "Regeneration",
             "Thick Rear Armour",
             "Ponderous",
             "Enduring"
           ],
-          "crit": "All units within 5cm of the unit suffer a TK hit on a roll of 4+"
+          "crit": "The Abattoir is destroyed. All units within 5cm suffer a hit"
       },
       {
-          "name": "Aeonic Orb",
+          "name": "Æonic Orb",
           "type": "WE",
           "speed": 15,
           "armour": 3,
@@ -379,17 +434,17 @@
             "Damage Capacity 6",
             "Fearless",
             "Living Metal",
+            "Regeneration",
             "Support Craft",
             "Thick Rear Armour"
           ],
-          "crit": "Center the Orbital Barrage Template on the unit and resolve the effect as if it were a 1BP MW barrage."
+          "crit": "The Æonic Orb is then destroyed. All units within 10cm suffer a hit"
       },
       {
           "name": "Pylon",
           "type": "WE",
           "speed": "Immobile",
           "armour": 3,
-          "cc": "",
           "ff": 4,
           "weapons": [
             "Particle Accelerator",
@@ -399,10 +454,11 @@
             "Damage Capacity 2",
             "Fearless",
             "Living Metal",
+            "Regeneration",
             "Teleport",
             "Thick Rear Armour"
           ],
-          "crit": "The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+"
+          "crit": "The Pylon is destroyed. All units within 5cm suffer a hit on a roll of 4+"
       },
       {
           "name": "Warbarque",
@@ -419,55 +475,16 @@
           ],
           "specialRules": [
             "Damage Capacity 3",
-            "Commander",
             "Fearless",
             "Ponderous",
-            "Leader",
             "Living Metal",
+            "Regeneration",
             "Portal",
             "Skimmer",
             "Teleport",
             "Thick Rear Armour"
           ],
-          "crit": "The Warbarque is destroyed. All units within 5cm suffer a hit on a roll of 6+"
-      },
-      {
-          "name": "C’tan Shard",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 3,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            "Transdimensional Bolt",
-            "Entropic Touch",
-            "Pyreshards"
-          ],
-          "specialRules": [
-            "Walker",
-            "Inspiring",
-            "Living Metal"
-        ],
-          "notes": "If the C’tan Shard becomes broken it is immediately destroyed. Its destruction does not cause additional Blast Markers"
-      },
-      {
-          "name": "Seraptek Heavy Construct",
-          "type": "WE",
-          "speed": 25,
-          "armour": 3,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            "Singularity Generators|2|",
-            "Titanic Forelimbs"
-          ],
-          "specialRules": [
-            "Damage Capacity 2",
-            "Fearless",
-            "Living Metal",
-            "Walker"
-          ],
-          "notes": "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+."
+          "crit": "The Warbarque is destroyed. All units within 5cm suffer a hit on a roll of 4+"
       }
 
 

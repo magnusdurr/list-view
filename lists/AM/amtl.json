@@ -1,10 +1,10 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Collegia Titanica",
-  "version": "0.8.2",
-  "release": "2019-04-11",
+  "version": "1.0.1",
+  "release": "2019-04-19",
   "strategy": "Collegia Titanica armies have a Strategy Rating of 3.",
-  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
+  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
   ],
@@ -52,6 +52,7 @@
     ],
         "unitRules": [
          "Machine Spirit",
+         "Ponderous",
          "God Machine Killer (GMK)"
       ]
     },
@@ -123,7 +124,7 @@
         "upgrades": [
             "Add one Questoris Knight of any configuration: 100 points"
         ],
-        "points": 275
+        "points": 250
     }
       ]
     },

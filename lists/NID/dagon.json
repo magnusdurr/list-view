@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Dagon",
-  "version": "1.0.0",
-  "release": "2019-03-10",
+  "version": "1.0.1",
+  "release": "2019-04-19",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+",
 
@@ -13,6 +13,7 @@
                   "Extreme Mobility",
                   "Gaunts",
                   "Tunnelers",
+                  "Regeneration",
                   "Dagon Vanguard Organisms",
                   "Heavy Armoured Vehicle (H-AV)"
           ],
@@ -231,7 +232,7 @@
           "upgrades": [
             "Replace the Hierophant with a Hydraphant Bio-Titan: 225 points"
           ],
-          "points": 300
+          "points": 325
         },
         {
           "name": "Bio-Vessel",

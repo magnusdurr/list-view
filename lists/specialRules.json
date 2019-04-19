@@ -9,7 +9,7 @@
     {
       "title": "Machine Spirit",
       "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such a formation may only move once instead of twice while being broken, and may only contest objectives."
+        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
       ]
     },
 
@@ -859,16 +859,16 @@
         ]
     },
     {
-      "title": "Necron",
+      "title": "Regeneration",
       "description": [
-        "Units with 'Necron' that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the End Phase of each turn. In addition, if a formation regroups it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both. Any unit containing a Character may only be brought back if the entire roll is dedicated to doing so. (example: If a two was rolled, either return 2 units to play, remove 2 Blast Markers, return 1 unit and remove 1 Blast Marker. Alternatively, the entire roll may be dedicated to bringing back a unit with a Character). "
+        "Whenever a formation regroups (either by doing a Hold or a Marshal Action), roll one D6 for each lost INF, AV or LV unit with 'Regeneration'. On a roll of a 6, that unit is restored, and is placed within 5cm of a unit from the same formation. H-AV and WE with 'Regeneration' rolls one D6 per lost Damage Capacity instead, restoring one DC for each 6 rolled. H-AV and WE with 'Regeneration' may not be brought back to into the game once they are destroyed."
       ]
     },
     {
       "title": "Necron Portals",
       "description": [
-        "Necron Portals can only be used by INF and by LV, AV and H-AV with 'Walker'. Each Portal can be used a single time each turn.",
-        "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board by entering a Portal with a move, entering the reserves. Once in the reserves they can either re-enter play immediately via another Portal (provided they have any moves left).",
+        "Necron Portals can only be used by INF and by units with 'Walker'. Each Portal can be used a single time each turn.",
+        "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves. Formations with teleport that have re-entered the reserves may teleport at the start of the next turn as normal.",
         "Each time a formation uses a broken Portal it receives one Blast Marker.",
         "If a Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
       ]
@@ -882,13 +882,13 @@
     {
       "title": "Enduring",
       "description": [
-        "Formations containing units with 'enduring' don’t phase out in the end phase. If the formation has lost all the units with 'Enduring' they phase out as normal and are considered destroyed as normal."
+        "Formations containing units with 'Enduring' don’t phase out in the end phase. If the formation has lost all the units with 'Enduring' they phase out as normal."
         ]
     },
     {
       "title": "Implacable Advance",
       "description": [
-        "Necron formations receive a +1 bonus to Marshal actions. In addition, Necron formations cannot take March actions."
+        "Necron formations receive a +1 bonus when attempting to perform a Marshal action. Necron formations may not take March actions."
         ]
     },
     {
@@ -900,7 +900,7 @@
     {
       "title": "Phase Out",
       "description": [
-        "In the end phase of the turn, remove all broken Necron formations (except those where at least one unit has 'Enduring') from the board into the reserves. These formations will roll to rally in the end phase. They may re-enter by teleporting, or through a Portal. All formations that fail to rally must remain in the reserves."
+        "In the end phase of the turn, remove all broken Necron formations (except those where at least one unit has 'Enduring') from the board into the reserves. These formations will roll to rally in the end phase. They may re-enter by teleporting, or through a Necron Portal. All formations that fail to rally must remain in the reserves."
       ]
     },
 

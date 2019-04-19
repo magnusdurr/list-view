@@ -42,7 +42,19 @@
          "description": [
            "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
          ]
-       }
+     },
+     {
+       "title": "Regeneration",
+       "description": [
+         "Whenever a formation conducts a Marshal action, roll one D6 for each lost INF, AV or LV unit with 'Regeneration'. On a roll of a 6, that unit is restored to the formation. Units from formations that have been completely destroyed may not regenerate. H-AV and WE with Regeneration rolls one D6 per lost Damage Capacity, but may not be Regenerated once destroyed."
+       ]
+     },
+     {
+       "title": "Living Metal",
+       "description": [
+         "The unit recieves a 4+ Invulnerable Save if its armour is negated by MW or TK"
+       ]
+     }
     ],
 
     "unit": [
@@ -543,7 +555,7 @@
               "Invulnerable Save",
               "Daemon Engine (Khorne)"
           ],
-          "notes": "Critical Hit Effect: The unit takes an additional point of damage. All units in base contact takes a hit on 6+"
+          "crit": "The unit takes an additional point of damage. All units in base contact takes a hit on 6+"
       },
         {
           "name": "Lord of Battles",
@@ -565,13 +577,13 @@
               "Invulnerable Save",
               "Daemon Engine (Khorne)"
           ],
-          "notes": "The Lord of Battles takes one additional damage, and immediately rampages a full 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Lord of Battles into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
+          "crit": "The Lord of Battles takes one additional damage, and immediately rampages a full 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Lord of Battles into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
           },
           {
             "name": "Tower of Skulls",
             "type": "WE",
             "speed": 20,
-            "armour": 5,
+            "armour": 3,
             "cc": 3,
             "ff": 3,
             "weapons": [
@@ -587,14 +599,13 @@
                 "God Machine",
                 "Split Fire",
                 "Leader",
-                "Reinforced Armour",
                 "Fearless",
                 "Thick Rear Armour",
-                "Invulnerable Save (5+)",
+                "Living Metal",
                 "Daemon Engine (Khorne)",
-                "Daemonic Pact"
+                "Regeneration"
             ],
-            "notes": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
+            "crit": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
         },
 
 
@@ -678,7 +689,7 @@
           "Invulnerable Save",
           "Daemon Engine (Tzeench)"
       ],
-          "notes": "The runes that bind the imprisoned daemon are broken, and the Mirrorfiend is destroyed. All models within 5cm take a hit on 4+."
+          "crit": "The runes that bind the imprisoned daemon are broken, and the Mirrorfiend is destroyed. All models within 5cm take a hit on 4+."
       },
       {
         "name": "Warp Palace",
@@ -698,9 +709,10 @@
           "Fearless",
           "Skimmer",
           "Invulnerable Save (5+)",
+          "Thick Rear Armour",
           "Daemon Engine (Tzeench)"
       ],
-          "notes": "The Warp Palace takes 1 additional damage. Any units within 5cm takes an additional hit with MW on 6+."
+          "crit": "The Warp Palace takes 1 additional damage. Any units within 5cm takes an additional hit with MW on 6+."
       },
       {
         "name": "Doomwing Interceptor",
