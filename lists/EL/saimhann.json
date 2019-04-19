@@ -49,9 +49,12 @@
       "units": [
         "Nightwing Interceptor",
         "Phoenix Bomber",
-        "Vampire Hunter"
+        "Vampire Hunter",
+        "Wraithship",
+        "Dragonship"
       ],
         "unitRules": [
+        "Shield Disruptor"
       ]
     }
 ],
@@ -217,7 +220,15 @@
               "Independent Twins"
           ],
           "points": 650
-        }
+      },
+      {
+        "name": "0-1 Spacecraft",
+        "units": "One Wraithship",
+        "extraUnits": [
+          "Replace with Dragonship for +150 Points"
+        ],
+        "points": 150
+      }
       ]
     }
   ],
