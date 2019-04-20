@@ -69,7 +69,7 @@
       {
         "title": "Shield Disruptor",
         "description": [
-          "A weapon with Shield Disruptor ignores Ion Shields. In addition, each hit with will knock down two Powerfields, Shadowfields or Void Shields. When only one field/shield remains, a Shield Disruptor hit will knock it down and must then be saved as a normal hit (it loses TK, MW or Lance)."
+          "Each Shield Disruptor hit knocks down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Ion Shields. "
         ]
     },
 
@@ -849,34 +849,28 @@
     {
       "title": "Necron Reserves",
       "description": [
-        "Any Necron formation may be held back in reserve (with the exception of the Aeonic Orb and Abattoir) if you are playing a Epic Tournament scenario. Note that formations that do not have teleport will only be able to enter play through Necron Portals. Any Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal."
+        "Any Necron formation that can enter the battlefield by Teleport or via a Necron Portal can be held back in reserve. Any Necron formation in the reserves in the End Phase (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal."
         ]
     },
     {
       "title": "Necron Garrisons",
       "description": [
-        "Only Necron Phalanx formations may garrison in Epic Tournament scenarios, and may only garrison from a Tomb Complex Objective."
+        "Only Necron Phalanx formations may garrison in Epic Tournament scenarios, and may only garrison from a Tomb Complex objective."
         ]
     },
     {
-      "title": "Regeneration",
+      "title": "Regeneration (x)",
       "description": [
-        "Whenever a formation regroups (either by doing a Hold or a Marshal Action), roll one D6 for each INF, AV or LV unit with 'Regeneration' that formation has lost. On a roll of 6, the unit regenerates, and is placed within 5cm of a unit from the same formation. H-AV and WE with 'Regeneration' rolls one D6 per lost Damage Capacity, restoring one DC for each 6 rolled. H-AV and WE with 'Regeneration' may not be brought back to into the game once they have been completely destroyed."
+        "If the unit's armour is completely negated by a hit with MW or TK, it recieves an Invulnerable Save (x)."
       ]
     },
     {
       "title": "Necron Portals",
       "description": [
         "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each Portal can be used a single time each turn.",
-        "A formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves. Formations with teleport that have re-entered the reserves may teleport at the start of the next turn as normal.",
+        "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves. Formations with teleport that have re-entered the reserves may teleport at the start of the next turn as normal.",
         "Each time a formation uses a broken Portal it receives one Blast Marker.",
         "If a Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
-      ]
-    },
-    {
-      "title": "Living Metal",
-      "description": [
-        "The unit recieves a 4+ Invulnerable Save if its armour is negated by MW or TK"
       ]
     },
     {
@@ -900,7 +894,7 @@
     {
       "title": "Phase Out",
       "description": [
-        "In the end phase of the turn, remove all broken Necron formations (except those where at least one unit has 'Enduring') from the board into the reserves. These formations will roll to rally in the end phase. They may re-enter by teleporting, or through a Necron Portal. All formations that fail to rally must remain in the reserves."
+        "In the end phase of the turn, remove all broken Necron formations (except those where at least one unit has 'Enduring') from the board into the reserves. These formations will roll to rally in the end phase. They may re-enter by teleporting, or through a Necron Portal. Formations that fail to rally must remain in the reserves."
       ]
     },
 

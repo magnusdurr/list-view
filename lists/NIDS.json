@@ -19,7 +19,7 @@
       "specialRules": [
         "Inspiring",
         "Leader",
-        "Invulnerable Save"
+        "Regeneration (6+)"
       ]
     },
       {
@@ -108,7 +108,6 @@
         "Spore Mines"
       ],
       "specialRules": [
-        ""
       ]
       },
       {
@@ -117,12 +116,12 @@
       "speed": 20,
       "armour": 4,
       "cc": 4,
-
       "weapons": [
         "Burrowclaws"
       ],
       "specialRules": [
         "Synapse",
+        "Regeneration (6+)",
         "Fearless",
         "Tunneler",
         "Infiltrators"
@@ -140,6 +139,7 @@
       ],
       "specialRules": [
         "Synapse",
+        "Regeneration (6+)",
         "Fearless",
         "Jump Packs (Shrike)"
     ],
@@ -158,14 +158,14 @@
       "specialRules": [
         "Synapse",
         "Fearless",
-        "Invulnerable Save"
+        "Regeneration (6+)"
       ]
       },
       {
       "name": "Lictor",
       "type": "LV",
       "speed": 15,
-      "armour": "5",
+      "armour": 5,
       "cc": 3,
       "ff": 6,
       "weapons": [
@@ -175,7 +175,7 @@
         "First Strike",
         "Infiltrators",
         "Scout",
-        "Invulnerable Save",
+        "Regeneration (6+)",
         "Teleport"
       ]
       },
@@ -195,6 +195,7 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
+        "Regeneration (5+)",
         "Commander",
         "Leader",
         "Jump Packs (Shrike)"
@@ -218,6 +219,7 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
+        "Regeneration (6+)",
         "Commander",
         "Leader",
         "Jump Packs (Shrike)"
@@ -239,6 +241,7 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
+        "Regeneration (6+)",
         "Commander",
         "Leader",
         "Jump Packs (Shrike)"
@@ -271,7 +274,6 @@
         "Bio-Acid-Venom Pods"
       ],
       "specialRules": [
-
       ]
       },
       {
@@ -285,7 +287,6 @@
         "Bio-Plasmic Cannon"
       ],
       "specialRules": [
-
       ]
       },
       {
@@ -351,7 +352,8 @@
       "specialRules": [
          "Synapse",
          "Fearless",
-        "Reinforced Armour",
+         "Reinforced Armour",
+        "Regeneration (6+)",
         "Swarm (2)"
       ]
       },
@@ -368,7 +370,7 @@
         "Large Claws"
       ],
       "specialRules": [
-        "Reinforced Armour",
+         "Reinforced Armour",
         "Swarm (2)"
       ]
       },
@@ -386,8 +388,7 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
-        "Regeneration",
-        "Invulnerable Save",
+        "Regeneration (6+)",
         "Tunneler"
     ]
     },
@@ -402,7 +403,7 @@
       "Large Claws"
     ],
     "specialRules": [
-      "Reinforced Armour",
+        "Reinforced Armour",
       "Tunneler"
   ]
     },
@@ -420,6 +421,7 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
+      "Regeneration (6+)",
       "Fearless",
       "Skimmer",
       "Reinforced Armour",
@@ -441,6 +443,7 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
+      "Regeneration (6+)",
       "Fearless",
       "Skimmer",
       "Reinforced Armour",
@@ -463,10 +466,9 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
+      "Regeneration (6+)",
       "Fearless",
-      "Reinforced Armour",
-      "Regeneration",
-      "Invulnerable Save"
+      "Reinforced Armour"
     ],
     "crit": "The Hierodule Prime is destroyed."
     },
@@ -503,10 +505,9 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
+      "Regeneration (6+)",
       "Fearless",
-      "Reinforced Armour",
-      "Regeneration",
-      "Invulnerable Save"
+      "Reinforced Armour"
 
     ],
     "crit": "The Scythed Hierodule Prime is destroyed."
@@ -527,8 +528,6 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Reinforced Armour"
-
-
     ],
     "crit": "The Scythed Hierodule is destroyed."
 
@@ -547,6 +546,7 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
+      "Regeneration (6+)",
       "Fearless",
       "Reinforced Armour"
     ],
@@ -569,11 +569,10 @@
     "specialRules": [
       "Damage Capacity: 5",
       "Fearless",
-      "Reinforced Armour",
-      "Invulnerable Save",
-      "Regeneration",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Regeneration (5+)",
+      "Reinforced Armour"
     ],
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hierophant suffers 1 additional damage 6: The Hierophant is killed."
 
 
@@ -582,7 +581,7 @@
     "name": "Dagon Dominatrix",
     "type": "WE",
     "speed": 25,
-    "armour": 5,
+    "armour": 4,
     "cc": 3,
     "ff": 5,
     "weapons": [
@@ -595,16 +594,14 @@
       "Damage Capacity: 6",
       "Hive Mind Locus",
       "Synapse",
+      "Regeneration (5+)",
       "Fearless",
       "Leader",
       "Commander",
       "Inspiring",
-      "Reinforced Armour",
-      "Thick Rear Armor",
-      "Regeneration",
-      "Invulnerable Save (5+)",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Reinforced Armour"
     ],
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
 
 
@@ -613,7 +610,7 @@
     "name": "Hydra Dominatrix",
     "type": "WE",
     "speed": 25,
-    "armour": 5,
+    "armour": 4,
     "cc": 3,
     "ff": 5,
     "weapons": [
@@ -625,17 +622,15 @@
       "Damage Capacity: 6",
       "Hive Mind Locus",
       "Synapse",
+      "Regeneration (5+)",
       "Fearless",
       "Leader",
       "Commander",
       "Inspiring",
       "Swarm (4)",
-      "Reinforced Armour",
-      "Thick Rear Armor",
-      "Regeneration",
-      "Invulnerable Save (5+)",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Reinforced Armour"
     ],
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
 
 
@@ -644,7 +639,7 @@
     "name": "Hydraphant",
     "type": "WE",
     "speed": 25,
-    "armour": 5,
+    "armour": 4,
     "cc": 3,
     "ff": 5,
     "weapons": [
@@ -659,10 +654,9 @@
       "Fearless",
       "Reinforced Armour",
       "Thick Rear Armour",
-      "Regeneration",
-      "Invulnerable Save (5+)",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Regeneration (5+)"
     ],
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."
 
 

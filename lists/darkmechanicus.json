@@ -44,15 +44,9 @@
          ]
      },
      {
-       "title": "Regeneration",
+       "title": "Regeneration (x)",
        "description": [
-         "Whenever a formation conducts a Marshal action, roll one D6 for each lost INF, AV or LV unit with 'Regeneration'. On a roll of a 6, that unit is restored to the formation. Units from formations that have been completely destroyed may not regenerate. H-AV and WE with Regeneration rolls one D6 per lost Damage Capacity, but may not be Regenerated once destroyed."
-       ]
-     },
-     {
-       "title": "Living Metal",
-       "description": [
-         "The unit recieves a 4+ Invulnerable Save if its armour is negated by MW or TK"
+         "If the unit's armour is completely negated by a hit with MW or TK, it recieves an Invulnerable Save (x)."
        ]
      }
     ],
@@ -601,9 +595,8 @@
                 "Leader",
                 "Fearless",
                 "Thick Rear Armour",
-                "Living Metal",
                 "Daemon Engine (Khorne)",
-                "Regeneration"
+                "Regeneration (4+)"
             ],
             "crit": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
         },

@@ -5,7 +5,7 @@
         {
           "title": "Shield Disruptor",
           "description": [
-            "A weapon with Shield Disruptor ignores Ion Shields. In addition, each hit with will knock down two Powerfields, Shadowfields or Void Shields. When only one field/shield remains, a Shield Disruptor hit will knock it down and must then be saved as a normal hit (it loses TK, MW or Lance)."
+            "Each Shield Disruptor hit knocks down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Ion Shields. "
           ]
       }
     ],
@@ -22,7 +22,7 @@
       "specialRules": [
         "Damage Capacity: 1",
         "Fearless",
-        "Living Metal",
+        "Regeneration (5+)",
         "[*]Portal. May only be used to enter the battlefield, not to move into the reserves. May only be used while landed."
       ]
     },
@@ -35,7 +35,7 @@
         "AC Twin Tesla Destructor", "AC Death Ray"
       ],
       "specialRules": [
-          "Living Metal"
+          "Regeneration (5+)"
       ]
     },
     {
@@ -47,7 +47,7 @@
         "AC Twin Tesla Destructor", "AC Death Spheres||FxF"
       ],
       "specialRules": [
-        "Living Metal"
+        "Regeneration (4+)"
       ]
     },
     {

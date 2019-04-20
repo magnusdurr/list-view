@@ -22,9 +22,8 @@
           ],
           "specialRules": [
             "Supreme Commander",
-            "Living Metal",
-            "Thick Rear Armour",
-            "Regeneration"
+            "Regeneration (4+)",
+            "Thick Rear Armour"
           ]
       },
       {
@@ -39,15 +38,14 @@
           ],
           "specialRules": [
             "Leader",
-            "Regeneration",
-            "Invulnerable Save"
+            "Regeneration (5+)"
           ]
       },
       {
           "name": "Cryptek",
           "type": "INF",
           "speed": 15,
-          "armour": 5,
+          "armour": 4,
           "cc": 5,
           "ff": 4,
           "weapons": [
@@ -55,7 +53,7 @@
           ],
           "specialRules": [
             "Inspiring",
-            "Regeneration"
+            "Regeneration (5+)"
           ]
       },
       {
@@ -70,7 +68,7 @@
           ],
           "specialRules": [
             "Mounted",
-            "Regeneration",
+            "Regeneration (5+)",
             "Skimmer"
           ]
       },
@@ -86,7 +84,7 @@
           ],
           "specialRules": [
             "Mounted",
-            "Regeneration",
+            "Regeneration (5+)",
             "Skimmer"
           ]
       },
@@ -101,7 +99,7 @@
           ],
           "specialRules": [
             "Infiltrator",
-            "Regeneration",
+            "Regeneration (5+)",
             "Scout",
             "Teleport"
           ]
@@ -117,7 +115,7 @@
             "Gauss Blasters"
           ],
           "specialRules": [
-            "Regeneration"
+            "Regeneration (5+)"
           ]
       },
       {
@@ -131,7 +129,7 @@
             "Gauss Flayers"
           ],
           "specialRules": [
-            "Regeneration"
+            "Regeneration (5+)"
           ]
       },
 
@@ -146,10 +144,10 @@
             "Wraith Claws"
           ],
           "specialRules": [
+            "Fearless",
             "First Strike",
-            "Invulnerable Save",
             "Scout",
-            "Regeneration",
+            "Regeneration (5+)",
             "Jump Packs"
           ]
       },
@@ -164,7 +162,7 @@
             "Synaptic Disintegrator"
           ],
           "specialRules": [
-            "Regeneration",
+            "Regeneration (5+)",
             "Scout",
             "Teleport"
           ]
@@ -180,6 +178,7 @@
             "Twin Tesla Carbines"
           ],
           "specialRules": [
+            "Regeneration (5+)",
             "Mounted",
             "Skimmer"
           ]
@@ -196,7 +195,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Regeneration",
+            "Regeneration (5+)",
             "Jump Packs"
           ]
       },
@@ -213,7 +212,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Living Metal",
+            "Regeneration (4+)",
             "Portal",
             "Skimmer",
             "Teleport",
@@ -233,7 +232,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Living Metal",
+            "Regeneration (4+)",
             "Skimmer",
             "Teleport",
             "Thick Rear Armour",
@@ -252,6 +251,7 @@
             "Tomb Spyder Claws"
           ],
           "specialRules": [
+            "Regeneration (4+)",
             "Fearless",
             "Skimmer",
             "Walker"
@@ -337,6 +337,7 @@
             "Heat Ray"
           ],
           "specialRules": [
+            "Regeneration (5+)",
             "Walker",
             "Infiltrators"
           ]
@@ -354,8 +355,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Living Metal",
-            "Regeneration",
+            "Regeneration (4+)",
             "Walker",
             "Infiltrators"
           ]
@@ -364,13 +364,13 @@
           "name": "Sentry Pylons",
           "type": "AV",
           "speed": "Immobile",
-          "armour": 5,
+          "armour": 4,
           "ff": 5,
           "weapons": [
             "Gauss Exterminator"
           ],
           "specialRules": [
-            "Reinforced Armour",
+            "Regeneration (5+)",
             "Fearless",
             "Teleport"
           ]
@@ -392,8 +392,7 @@
             "Leader",
             "Commander",
             "Inspiring",
-            "Living Metal",
-            "Regeneration"
+            "Regeneration (4+)"
         ],
           "notes": "If the C’tan Shard becomes broken it is immediately destroyed. Its destruction does not cause additional Blast Markers"
       },
@@ -412,10 +411,9 @@
             "Damage Capacity 6",
             "Fearless",
             "Infiltrator",
-            "Living Metal",
+            "Regeneration (4+)",
             "Portal",
             "Skimmer",
-            "Regeneration",
             "Thick Rear Armour",
             "Ponderous",
             "Enduring"
@@ -434,8 +432,7 @@
           "specialRules": [
             "Damage Capacity 4",
             "Fearless",
-            "Living Metal",
-            "Regeneration",
+            "Regeneration (4+)",
             "Support Craft",
             "Ponderous",
             "Thick Rear Armour",
@@ -456,8 +453,7 @@
           "specialRules": [
             "Damage Capacity 2",
             "Fearless",
-            "Living Metal",
-            "Regeneration",
+            "Regeneration (4+)",
             "Teleport",
             "Thick Rear Armour"
           ],
@@ -479,8 +475,7 @@
             "Damage Capacity 3",
             "Fearless",
             "Ponderous",
-            "Living Metal",
-            "Regeneration",
+            "Regeneration (4+)",
             "Portal",
             "Skimmer",
             "Teleport",
