@@ -15,45 +15,140 @@
           "type": "INF",
           "speed": 15,
           "armour": 3,
-          "cc": 3,
+          "cc": 4,
           "ff": 4,
           "weapons": [
-            "Staff of Radiance"
+            "Staff of Radiance",
+            "Resurrection Orb"
           ],
           "specialRules": [
             "Supreme Commander",
-            "Regeneration (4+)",
-            "Thick Rear Armour"
-          ]
+            "Inspiring",
+            "Regeneration (4+)"
+        ],
+        "notes": "[*] Declare the use of the Resurrection Orb after hits have been rolled, but before the wielder's formation makes armour saves. Until the end of the current action, all units in the formation gains Thick Rear Armour, and all hits on it made with MW or TK counts as normal hits instead. The Resurrection Orb may only be used once per battle."
       },
       {
           "name": "Necron Lord",
           "type": "INF",
           "speed": 15,
           "armour": 4,
-          "cc": 3,
+          "cc": 4,
           "ff": 4,
           "weapons": [
-            "Staff of Light"
+            "Staff of Light",
+            "Resurrection Orb"
           ],
           "specialRules": [
             "Leader",
             "Regeneration (5+)"
+        ],
+        "notes": "[*] Declare the use of the Resurrection Orb after hits have been rolled, but before the wielder's formation makes armour saves. Until the end of the current action, all units in the formation gains Thick Rear Armour, and all hits on it made with MW or TK counts as normal hits instead. The Resurrection Orb may only be used once per battle."
+      },
+      {
+          "name": "Necron Destroyer Lord",
+          "type": "INF",
+          "speed": 25,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Staff of Light",
+            "Resurrection Orb"
+          ],
+          "specialRules": [
+            "Leader",
+            "Regeneration (5+)"
+        ],
+        "notes": "[*] Declare the use of the Resurrection Orb after hits have been rolled, but before the wielder's formation makes armour saves. Until the end of the current action, all units in the formation gains Thick Rear Armour, and all hits on it made with MW or TK counts as normal hits instead. The Resurrection Orb may only be used once per battle."
+      },
+
+      {
+          "name": "Necron Warriors",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Gauss Flayers"
+          ],
+          "specialRules": [
+            "Machine Spirit",
+            "Fearless",
+            "Expendable",
+            "Regeneration (5+)"
           ]
       },
       {
-          "name": "Cryptek",
+          "name": "Flayed Ones",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "weapons": [
+            "Flayed Ones Claws"
+          ],
+          "specialRules": [
+            "Infiltrators",
+            "Regeneration (5+)",
+            "Teleport"
+        ],
+        "notes": "Flayed Ones may only contest objectives, and may not use Necron Portals."
+      },
+      {
+          "name": "Immortals",
           "type": "INF",
           "speed": 15,
           "armour": 4,
           "cc": 5,
           "ff": 4,
           "weapons": [
-            "Abyssal Staff"
+            "Gauss Blasters"
           ],
           "specialRules": [
-            "Inspiring",
             "Regeneration (5+)"
+          ]
+      },
+
+      {
+          "name": "Tomb Spyder",
+          "type": "LV",
+          "speed": 15,
+          "armour": 3,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Scarab Swarm",
+            "Tomb Spyder Claws"
+          ],
+          "specialRules": [
+            "Leader",
+            "Regeneration (4+)",
+            "Machine Spirit",
+            "Fearless",
+            "Expendable",
+            "Walker"
+          ]
+      },
+      {
+          "name": "Wraiths",
+          "type": "INF",
+          "speed": 20,
+          "armour": 4,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Wraith Claws"
+          ],
+          "specialRules": [
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
+            "First Strike",
+            "Scout",
+            "Regeneration (5+)",
+            "Jump Packs"
           ]
       },
       {
@@ -61,10 +156,10 @@
           "type": "INF",
           "speed": 25,
           "armour": 4,
-          "cc": 6,
+          "cc": 5,
           "ff": 3,
           "weapons": [
-            "Gauss Cannon|2|"
+            "Gauss Cannons"
           ],
           "specialRules": [
             "Mounted",
@@ -75,12 +170,12 @@
       {
           "name": "Heavy Destroyers",
           "type": "INF",
-          "speed": 25,
+          "speed": 20,
           "armour": 4,
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Heavy Gauss Cannon"
+            "Heavy Gauss Cannons"
           ],
           "specialRules": [
             "Mounted",
@@ -89,73 +184,10 @@
           ]
       },
       {
-          "name": "Flayed Ones",
-          "type": "INF",
-          "speed": 15,
-          "armour": 4,
-          "cc": 3,
-          "weapons": [
-            "Flayed Ones Claws"
-          ],
-          "specialRules": [
-            "Infiltrator",
-            "Regeneration (5+)",
-            "Scout",
-            "Teleport"
-          ]
-      },
-      {
-          "name": "Immortals",
-          "type": "INF",
-          "speed": 15,
-          "armour": 4,
-          "cc": 4,
-          "ff": 3,
-          "weapons": [
-            "Gauss Blasters"
-          ],
-          "specialRules": [
-            "Regeneration (5+)"
-          ]
-      },
-      {
-          "name": "Necron Warriors",
-          "type": "INF",
-          "speed": 15,
-          "armour": 5,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-            "Gauss Flayers"
-          ],
-          "specialRules": [
-            "Regeneration (5+)"
-          ]
-      },
-
-      {
-          "name": "Wraiths",
-          "type": "INF",
-          "speed": 20,
-          "armour": 5,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-            "Wraith Claws"
-          ],
-          "specialRules": [
-            "Fearless",
-            "First Strike",
-            "Scout",
-            "Regeneration (5+)",
-            "Jump Packs"
-          ]
-      },
-      {
           "name": "Deathmarks",
           "type": "INF",
           "speed": 15,
-          "armour": 5,
+          "armour": 4,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -239,24 +271,7 @@
             "Ponderous"
           ]
       },
-      {
-          "name": "Tomb Spyder",
-          "type": "LV",
-          "speed": 15,
-          "armour": 3,
-          "cc": 5,
-          "ff": 5,
-          "weapons": [
-            "Scarab Swarm",
-            "Tomb Spyder Claws"
-          ],
-          "specialRules": [
-            "Regeneration (4+)",
-            "Fearless",
-            "Skimmer",
-            "Walker"
-          ]
-      },
+
       {
           "name": "Ghost Ark",
           "type": "AV",
@@ -354,7 +369,7 @@
             "Titanic Forelimbs"
           ],
           "specialRules": [
-            "Fearless",
+          "Fearless",
             "Regeneration (4+)",
             "Walker",
             "Infiltrators"
@@ -371,7 +386,9 @@
           ],
           "specialRules": [
             "Regeneration (5+)",
+            "Machine Spirit",
             "Fearless",
+            "Expendable",
             "Teleport"
           ]
       },
@@ -381,7 +398,7 @@
           "speed": 20,
           "armour": 3,
           "cc": 4,
-          "ff": 4,
+          "ff": 3,
           "weapons": [
             "Transdimensional Bolt",
             "Entropic Touch",
@@ -394,12 +411,33 @@
             "Inspiring",
             "Regeneration (4+)"
         ],
-          "notes": "If the C’tan Shard becomes broken it is immediately destroyed. Its destruction does not cause additional Blast Markers"
+          "notes": "If the C’tan Shard becomes broken it is immediately destroyed, but does not cause additional Blast Markers."
+      },
+      {
+          "name": "Pylon",
+          "type": "WE",
+          "speed": "Immobile",
+          "armour": 3,
+          "ff": 4,
+          "weapons": [
+            "Particle Accelerator",
+            "Gauss Flux Arc"
+          ],
+          "specialRules": [
+            "Damage Capacity 2",
+            "Machine Spirit",
+            "Fearless",
+            "Expendable",
+            "Regeneration (4+)",
+            "Teleport",
+            "Thick Rear Armour"
+          ],
+          "crit": "The Pylon is destroyed. All units within 5cm suffer a hit on a roll of 4+."
       },
       {
           "name": "Abattoir",
           "type": "WE",
-          "speed": 15,
+          "speed": 25,
           "armour": 3,
           "cc": 2,
           "ff": 4,
@@ -410,7 +448,6 @@
           "specialRules": [
             "Damage Capacity 6",
             "Fearless",
-            "Infiltrator",
             "Regeneration (4+)",
             "Portal",
             "Skimmer",
@@ -418,7 +455,7 @@
             "Ponderous",
             "Enduring"
           ],
-          "crit": "The Abattoir is destroyed. All units within 5cm suffer a hit"
+          "crit": "The Abattoir is destroyed. All units within 5cm suffer a hit."
       },
       {
           "name": "Æonic Orb",
@@ -438,50 +475,33 @@
             "Thick Rear Armour",
             "Enduring"
           ],
-          "crit": "The Æonic Orb is destroyed. All units within 10cm suffer a hit"
+          "crit": "The Æonic Orb is destroyed. All units within 10cm suffer a hit."
       },
       {
-          "name": "Pylon",
+          "name": "Megalith",
           "type": "WE",
-          "speed": "Immobile",
-          "armour": 3,
-          "ff": 4,
-          "weapons": [
-            "Particle Accelerator",
-            "Gauss Flux Arc"
-          ],
-          "specialRules": [
-            "Damage Capacity 2",
-            "Fearless",
-            "Regeneration (4+)",
-            "Teleport",
-            "Thick Rear Armour"
-          ],
-          "crit": "The Pylon is destroyed. All units within 5cm suffer a hit on a roll of 4+"
-      },
-      {
-          "name": "Warbarque",
-          "type": "WE",
-          "speed": 20,
+          "speed": 15,
           "armour": 3,
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Particle Cannon|2|FxF",
-            "Gauss Cannon|4|FxF",
+            "Heavy Gauss Cannons|2|",
+            "Gauss Cannons|2|",
             "Gauss Flux Arc"
           ],
           "specialRules": [
             "Damage Capacity 3",
             "Fearless",
+            "Portal",
             "Ponderous",
             "Regeneration (4+)",
-            "Portal",
             "Skimmer",
             "Teleport",
-            "Thick Rear Armour"
+            "Thick Rear Armour",
+            "Transport"
           ],
-          "crit": "The Warbarque is destroyed. All units within 5cm suffer a hit on a roll of 4+"
+          "notes": "May transport up to four Monoliths or Obelisks",
+          "crit": "The Megalith and all transported units are destroyed. All units within 5cm suffer a hit on a roll of 4+."
       }
 
 

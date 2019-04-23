@@ -3550,10 +3550,10 @@
       ]
     },
     {
-      "name": "Gauss Cannon",
+      "name": "Gauss Cannons",
         "modes": [
           {
-            "firepower": "AP4+/AT6+",
+            "firepower": "AP3+/AT5+",
             "range": 45,
             "specialRules": [
 
@@ -4004,11 +4004,11 @@
       ]
     },
     {
-      "name": "Heavy Gauss Cannon",
+      "name": "Heavy Gauss Cannons",
         "modes": [
           {
-            "firepower": "AT3+",
-            "range": 45,
+            "firepower": "AP5+/AT3+",
+            "range": 60,
             "specialRules": [
 
           ]
@@ -5720,7 +5720,7 @@
       "name": "Particle Cannon",
         "modes": [
           {
-            "firepower": "AP4+/AT4+ ",
+            "firepower": "AP3+/AT5+ ",
             "range": 60,
             "specialRules": [
 
@@ -6804,6 +6804,18 @@
           "specialRules": [
             "EA(+1)",
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resurrection Orb",
+      "modes": [
+        {
+          "firepower": "n/a",
+          "specialRules": [
+              "Spec[*]",
+              "SS"
           ]
         }
       ]

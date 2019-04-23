@@ -849,13 +849,19 @@
     {
       "title": "Necron Reserves",
       "description": [
-        "Any Necron formation that can enter the battlefield by Teleport or via a Necron Portal can be held back in reserve. Any Necron formation in the reserves in the End Phase (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal."
+        "Any Necron formation that can enter the battlefield by Teleport or via a Necron Portal can be held back in reserve. Any Necron formation located in the reserves during the End Phase of the third turn and onwards is considered destroyed for the purpose of tiebreak and the Break Their Spirit tournament scenario objective."
         ]
     },
     {
       "title": "Necron Garrisons",
       "description": [
         "Only Necron Phalanx formations may garrison in Epic Tournament scenarios, and may only garrison from a Tomb Complex objective."
+        ]
+    },
+    {
+      "title": "The Uninvited",
+      "description": [
+        "Necron armies must contain at least one 'The Uninvited' formation. Flayed Ones may only contest objectives, and may not use Necron Portals."
         ]
     },
     {
@@ -888,13 +894,13 @@
     {
       "title": "Ponderous",
       "description": [
-        "May only make a single withdrawal move instead of two when becoming broken or failing to rally."
+        "Units with the 'Ponderous' special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally."
         ]
     },
     {
       "title": "Phase Out",
       "description": [
-        "In the end phase of the turn, remove all broken Necron formations (except those where at least one unit has 'Enduring') from the board into the reserves. These formations will roll to rally in the end phase. They may re-enter by teleporting, or through a Necron Portal. Formations that fail to rally must remain in the reserves."
+        "At the beginning of each turn's End Phase, before rallying, remove all broken Necron formations (except formations where at least one unit has 'Enduring') from the board into the reserves. Formations that fail to rally in the End Phase must remain in the reserves until the next turn's End Phase."
       ]
     },
 
