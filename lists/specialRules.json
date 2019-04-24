@@ -9,7 +9,7 @@
     {
       "title": "Machine Spirit",
       "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
+        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
       ]
     },
 
@@ -859,15 +859,21 @@
         ]
     },
     {
-      "title": "The Uninvited",
+      "title": "The Unbidden",
       "description": [
-        "Necron armies must contain at least one 'The Uninvited' formation. Flayed Ones may only contest objectives, and may not use Necron Portals."
+        "Necron armies must contain at least one 'The Unbidden' formation of Flayed Ones. Flayed Ones may only contest objectives, and may not use Necron Portals."
         ]
     },
     {
       "title": "Regeneration (x)",
       "description": [
-        "If the unit's armour is completely negated by a hit with MW or TK, it recieves an Invulnerable Save (x)."
+        "If the unit's armour is completely negated by a hit with MW or TK, it recieves an Invulnerable Save (x) instead."
+      ]
+    },
+    {
+      "title": "Resurrection Orb",
+      "description": [
+        "The use of the Resurrection Orb must be declared just before any rolls to hit during an Engage, or just before enemy rolls to hit with shooting. Until the end of the current action, all units in the wielder's formation gain Thick Rear Armour, and all hits on it made with MW or TK counts as being normal hits instead. The Resurrection Orb may only be used once per battle."
       ]
     },
     {
@@ -879,12 +885,7 @@
         "If a Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
       ]
     },
-    {
-      "title": "Enduring",
-      "description": [
-        "Formations containing units with 'Enduring' don’t phase out in the end phase. If the formation has lost all the units with 'Enduring' they phase out as normal."
-        ]
-    },
+
     {
       "title": "Implacable Advance",
       "description": [
@@ -903,7 +904,12 @@
         "At the beginning of each turn's End Phase, before rallying, remove all broken Necron formations (except formations where at least one unit has 'Enduring') from the board into the reserves. Formations that fail to rally in the End Phase must remain in the reserves until the next turn's End Phase."
       ]
     },
-
+    {
+      "title": "Enduring",
+      "description": [
+        "Necron formations containing units with 'Enduring' don’t phase out in the end phase. If the formation has lost all units with 'Enduring' it phases out as normal."
+        ]
+    },
 
 
 

@@ -18,15 +18,14 @@
           "cc": 4,
           "ff": 4,
           "weapons": [
-            "Staff of Radiance",
-            "Resurrection Orb"
+            "Staff of Radiance"
           ],
           "specialRules": [
             "Supreme Commander",
+            "Fearless",
             "Inspiring",
             "Regeneration (4+)"
-        ],
-        "notes": "[*] Declare the use of the Resurrection Orb after hits have been rolled, but before the wielder's formation makes armour saves. Until the end of the current action, all units in the formation gains Thick Rear Armour, and all hits on it made with MW or TK counts as normal hits instead. The Resurrection Orb may only be used once per battle."
+        ]
       },
       {
           "name": "Necron Lord",
@@ -36,14 +35,12 @@
           "cc": 4,
           "ff": 4,
           "weapons": [
-            "Staff of Light",
-            "Resurrection Orb"
+            "Staff of Light"
           ],
           "specialRules": [
             "Leader",
             "Regeneration (5+)"
-        ],
-        "notes": "[*] Declare the use of the Resurrection Orb after hits have been rolled, but before the wielder's formation makes armour saves. Until the end of the current action, all units in the formation gains Thick Rear Armour, and all hits on it made with MW or TK counts as normal hits instead. The Resurrection Orb may only be used once per battle."
+        ]
       },
       {
           "name": "Necron Destroyer Lord",
@@ -53,14 +50,12 @@
           "cc": 4,
           "ff": 4,
           "weapons": [
-            "Staff of Light",
-            "Resurrection Orb"
+            "Staff of Light"
           ],
           "specialRules": [
             "Leader",
             "Regeneration (5+)"
-        ],
-        "notes": "[*] Declare the use of the Resurrection Orb after hits have been rolled, but before the wielder's formation makes armour saves. Until the end of the current action, all units in the formation gains Thick Rear Armour, and all hits on it made with MW or TK counts as normal hits instead. The Resurrection Orb may only be used once per battle."
+        ]
       },
 
       {
@@ -75,8 +70,7 @@
           ],
           "specialRules": [
             "Machine Spirit",
-            "Fearless",
-            "Expendable",
+          "Expendable",
             "Regeneration (5+)"
           ]
       },
@@ -85,16 +79,16 @@
           "type": "INF",
           "speed": 15,
           "armour": 4,
-          "cc": 4,
+          "cc": 3,
           "weapons": [
-            "Flayed Ones Claws"
+            "Claws"
           ],
           "specialRules": [
             "Infiltrators",
             "Regeneration (5+)",
             "Teleport"
         ],
-        "notes": "Flayed Ones may only contest objectives, and may not use Necron Portals."
+        "notes": "'The Unbidden': Flayed Ones may only contest objectives, and may not use Necron Portals."
       },
       {
           "name": "Immortals",
@@ -123,11 +117,10 @@
             "Tomb Spyder Claws"
           ],
           "specialRules": [
+          "Machine Spirit",
+          "Expendable",
             "Leader",
             "Regeneration (4+)",
-            "Machine Spirit",
-            "Fearless",
-            "Expendable",
             "Walker"
           ]
       },
@@ -143,7 +136,6 @@
           ],
           "specialRules": [
           "Machine Spirit",
-          "Fearless",
           "Expendable",
             "First Strike",
             "Scout",
@@ -371,6 +363,7 @@
           "specialRules": [
           "Fearless",
             "Regeneration (4+)",
+            "Thick Rear Armour",
             "Walker",
             "Infiltrators"
           ]
@@ -388,14 +381,13 @@
             "Regeneration (5+)",
             "Machine Spirit",
             "Fearless",
-            "Expendable",
             "Teleport"
           ]
       },
       {
           "name": "C’tan Shard",
           "type": "H-AV",
-          "speed": 20,
+          "speed": 25,
           "armour": 3,
           "cc": 4,
           "ff": 3,
@@ -427,7 +419,6 @@
             "Damage Capacity 2",
             "Machine Spirit",
             "Fearless",
-            "Expendable",
             "Regeneration (4+)",
             "Teleport",
             "Thick Rear Armour"
@@ -467,7 +458,7 @@
             "Solar Flare"
           ],
           "specialRules": [
-            "Damage Capacity 4",
+            "Damage Capacity 3",
             "Fearless",
             "Regeneration (4+)",
             "Support Craft",
@@ -485,8 +476,7 @@
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Heavy Gauss Cannons|2|",
-            "Gauss Cannons|2|",
+            "Heavy Gauss Cannons|3|",
             "Gauss Flux Arc"
           ],
           "specialRules": [
@@ -500,7 +490,7 @@
             "Thick Rear Armour",
             "Transport"
           ],
-          "notes": "May transport up to four Monoliths or Obelisks",
+          "notes": "May transport up to two Monoliths",
           "crit": "The Megalith and all transported units are destroyed. All units within 5cm suffer a hit on a roll of 4+."
       }
 

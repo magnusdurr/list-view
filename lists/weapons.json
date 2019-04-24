@@ -3541,7 +3541,7 @@
       "name": "Gauss Blasters",
         "modes": [
           {
-            "firepower": "AP4+/AT6+",
+            "firepower": "AP3+/AT5+",
             "range": 30,
             "specialRules": [
 
@@ -3554,7 +3554,7 @@
         "modes": [
           {
             "firepower": "AP3+/AT5+",
-            "range": 30,
+            "range": 45,
             "specialRules": [
 
           ]
@@ -3566,7 +3566,7 @@
         "modes": [
           {
             "firepower": "AP4+/AT6+",
-            "range": 15,
+            "range": 30,
             "specialRules": [
 
           ]
@@ -4007,7 +4007,7 @@
       "name": "Heavy Gauss Cannons",
         "modes": [
           {
-            "firepower": "AP3+/AT5+",
+            "firepower": "AP2+/AT4+",
             "range": 45,
             "specialRules": [
 
@@ -6814,7 +6814,7 @@
         {
           "firepower": "n/a",
           "specialRules": [
-              "Spec[*]",
+              "Resurrection Orb",
               "SS"
           ]
         }
@@ -8283,7 +8283,7 @@
           {
             "firepower": "Assault Weapon",
             "specialRules": [
-              "EA(+2)",
+              "EA(+1)",
               "TK(1)"
           ]
           }
@@ -9516,6 +9516,10 @@
     {
       "name": "MW",
       "description": "Macro Weapon"
+    },
+    {
+      "name": "Resurrection Orb",
+      "description": "Resurrection Orb"
     },
     {
       "name": "Portal",
