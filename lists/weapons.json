@@ -3541,7 +3541,7 @@
       "name": "Gauss Blasters",
         "modes": [
           {
-            "firepower": "AP3+/AT5+",
+            "firepower": "AP4+/AT6+",
             "range": 30,
             "specialRules": [
 
@@ -3566,9 +3566,8 @@
         "modes": [
           {
             "firepower": "AP4+/AT6+",
-            "range": 30,
+            "range": 15,
             "specialRules": [
-
           ]
           }
       ]
@@ -5733,7 +5732,7 @@
         "modes": [
           {
             "firepower": "AP3+/AT4+",
-            "range": 45,
+            "range": 60,
             "specialRules": [
           ]
           }
@@ -9375,7 +9374,7 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-              "EA(+1)"
+              "FS"
           ]
           }
       ]

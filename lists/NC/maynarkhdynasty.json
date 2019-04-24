@@ -1,7 +1,7 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "release": "2019-04-24",
   "strategy": "Necron armies have a Strategy Rating of 2",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
@@ -20,7 +20,7 @@
           ],
 
   "usage": [
-    "The following army list allows you to field an army based on the Maynarkh Dynasty"
+    "The following army list allows you to field an army based on the Necrons of the Maynarkh Dynasty"
   ],
   "units": [
     {
@@ -86,11 +86,11 @@
           "extraUnits": [
               "(0-1 per army) Replace the Necron Lord with a Necron Overlord: 75 points",
               "(0-1 per army) Add one C'tan Shard: 75 points",
-              "Add two Tomb Spyders: 50 points",
-              "Add two Wraiths: 50 points",
-              "Add up to four Immortals: 25 points each"
+              "Add up to two Tomb Spyders: 50 points for one, 75 points for two",
+              "Add up to two Wraiths: 25 points each",
+              "Add three Immortals: 75 points"
           ],
-          "points": 225
+          "points": 200
       },
       {
         "name": "1+ The Unbidden",
@@ -110,7 +110,7 @@
           "units": "Five Obelisks",
           "upgrades": [
           ],
-          "points": 250
+          "points": 300
         },
         {
           "name": "Eques Maniple",
@@ -121,27 +121,26 @@
           "points": 200
         },
         {
-          "name": "Guardian Maniple",
+          "name": "Pylon",
           "units": "One Pylon",
           "upgrades": [
 
           ],
-          "points": 175
+          "points": 150
         },
         {
-          "name": "Portal Maniple",
-          "units": "Two Monoliths and two Obelisks",
+          "name": "Monolith Maniple",
+          "units": "Two Monoliths",
           "extraUnits": [
-                "Add one Obelisk: 50 points",
-                "Add one Monolith: 75 points"
+              "Add one Monolith: 75 points"
           ],
-          "points": 300
+          "points": 225
         },
       {
         "name": "Stalker Maniple",
         "units": "Four Triarch Stalkers",
         "extraUnits": [
-            "Add up to two Seraptek Heavy Constructs: 125 points each"
+            "Add up to two Seraptek Heavy Constructs: 100 points each"
         ],
         "points": 200
       }
@@ -155,9 +154,9 @@
           "name": "0–1 Harvester Engine",
           "units": "One Æonic Orb",
           "extraUnits": [
-              "Replace the Æonic Orb with an Abbatoir: 100 points"
+              "Replace the Æonic Orb with an Abbatoir: 125 points"
           ],
-          "points": 400
+          "points": 375
         },
         {
           "name": "0–1 Tomb Ship",
@@ -188,7 +187,7 @@
           "extraUnits": [
               "Add two Monoliths: 125 points"
           ],
-          "points": 275
+          "points": 225
         }
       ]
     }
