@@ -39,6 +39,7 @@
           ],
           "specialRules": [
             "Leader",
+            "Commander",
             "Regeneration (5+)"
         ]
       },
@@ -54,6 +55,7 @@
           ],
           "specialRules": [
             "Leader",
+            "Commander",
             "Regeneration (5+)"
         ]
       },
@@ -448,7 +450,7 @@
             "Transport"
           ],
           "notes": "May transport up to two Monoliths",
-          "crit": "The Megalith and all transported units are destroyed. All units within 5cm suffer a hit on a roll of 4+."
+          "crit": "The Megalith's Portal is destroyed. Subsequent critical hits cause one additional damage."
       },
       {
           "name": "Æonic Orb",

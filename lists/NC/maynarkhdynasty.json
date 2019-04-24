@@ -1,7 +1,7 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.8.4",
+  "version": "0.8.4.1",
   "release": "2019-04-24",
   "strategy": "Necron armies have a Strategy Rating of 2",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
@@ -116,7 +116,7 @@
           "name": "Eques Maniple",
           "units": "Any six of the following units: Destroyers, Heavy Destroyers",
           "extraUnits": [
-              "Replace one Destroyer with a Necron Destroyer Lord: 50 points"
+              "Replace one Destroyer with a Necron Destroyer Lord: 25 points"
           ],
           "points": 200
         },
