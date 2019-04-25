@@ -1,9 +1,9 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.8.4.1",
+  "version": "0.8.5",
   "release": "2019-04-24",
-  "strategy": "Necron armies have a Strategy Rating of 2",
+  "strategy": "Necron armies have a Strategy Rating of 1",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
 
   "specialRules": [
@@ -11,7 +11,7 @@
             "Necron Garrisons",
             "The Unbidden",
             "Necron Portals",
-            "Regeneration (x)",
+            "Regeneration",
             "Machine Spirit",
             "Implacable Advance",
             "Ponderous",
@@ -97,7 +97,7 @@
         "units": "Six Flayed Ones",
         "extraUnits": [
         ],
-        "points": 150
+        "points": 200
         }
       ]
     },
@@ -107,42 +107,45 @@
       "formations": [
         {
           "name": "Obelisk Phalanx",
-          "units": "Five Obelisks",
-          "upgrades": [
+          "units": "Four Obelisks",
+          "extraUnits": [
+              "Add up to two Obelisks: 50 points each"
           ],
-          "points": 300
+          "points": 250
         },
         {
-          "name": "Eques Maniple",
+          "name": "Eques Phalanx",
           "units": "Any six of the following units: Destroyers, Heavy Destroyers",
           "extraUnits": [
-              "Replace one Destroyer with a Necron Destroyer Lord: 25 points"
+              "Replace one Destroyer with a Necron Destroyer Lord: 25 points",
+              "Add up to two Tomb Spyders: 50 points for one, 75 points for two",
+              "Add up to two Wraiths: 25 points each"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Pylon",
           "units": "One Pylon",
           "upgrades": [
-
           ],
-          "points": 150
+          "points": 175
         },
         {
-          "name": "Monolith Maniple",
-          "units": "Two Monoliths",
+          "name": "Monolith Phalanx",
+          "units": "Two Monoliths, one Obelisk",
           "extraUnits": [
-              "Add one Monolith: 75 points"
+              "Add up to one Monolith: 75 points",
+              "Add up to one Obelisk: 50 points"
           ],
-          "points": 225
+          "points": 250
         },
       {
         "name": "Stalker Maniple",
         "units": "Four Triarch Stalkers",
         "extraUnits": [
-            "Add up to two Seraptek Heavy Constructs: 100 points each"
+            "Replace up to two Triarch Stalkers with Seraptek Heavy Constructs: 75 points each",
         ],
-        "points": 200
+        "points": 175
       }
       ]
     },
@@ -156,7 +159,7 @@
           "extraUnits": [
               "Replace the Æonic Orb with an Abbatoir: 125 points"
           ],
-          "points": 375
+          "points": 325
         },
         {
           "name": "0–1 Tomb Ship",
@@ -164,7 +167,7 @@
           "upgrades": [
 
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Night Shroud Bomber",
@@ -179,15 +182,15 @@
           "upgrades": [
 
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Megalith Maniple",
           "units": "One Megalith",
           "extraUnits": [
-              "Add two Monoliths: 125 points"
+              "Add two Monoliths: 100 points"
           ],
-          "points": 225
+          "points": 250
         }
       ]
     }

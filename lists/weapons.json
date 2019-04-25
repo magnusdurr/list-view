@@ -355,7 +355,7 @@
       "name": "AC Death Ray",
         "modes": [
           {
-            "firepower": "MW4+",
+            "firepower": "MW5+",
             "range": 15,
             "specialRules": [
               "FxF"
@@ -3541,8 +3541,8 @@
       "name": "Gauss Blasters",
         "modes": [
           {
-            "firepower": "AP4+/AT6+",
-            "range": 30,
+            "firepower": "AP3+/AT5+",
+            "range": 15,
             "specialRules": [
 
           ]
@@ -3554,7 +3554,7 @@
         "modes": [
           {
             "firepower": "AP3+/AT5+",
-            "range": 45,
+            "range": 30,
             "specialRules": [
 
           ]
@@ -4006,7 +4006,7 @@
       "name": "Heavy Gauss Cannons",
         "modes": [
           {
-            "firepower": "AP2+/AT4+",
+            "firepower": "AP3+/AT5+",
             "range": 45,
             "specialRules": [
 
@@ -5699,8 +5699,8 @@
       "name": "Particle Accelerator",
         "modes": [
           {
-            "firepower": "MW3+",
-            "range": 120,
+            "firepower": "MW4+",
+            "range": 90,
             "specialRules": [
               "TK(D3)"
           ]

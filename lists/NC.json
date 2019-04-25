@@ -24,7 +24,7 @@
             "Supreme Commander",
             "Fearless",
             "Inspiring",
-            "Regeneration (4+)"
+            "Regeneration"
         ]
       },
       {
@@ -40,7 +40,7 @@
           "specialRules": [
             "Leader",
             "Commander",
-            "Regeneration (5+)"
+            "Regeneration"
         ]
       },
       {
@@ -56,7 +56,7 @@
           "specialRules": [
             "Leader",
             "Commander",
-            "Regeneration (5+)"
+            "Regeneration"
         ]
       },
 
@@ -64,7 +64,7 @@
           "name": "Necron Warriors",
           "type": "INF",
           "speed": 15,
-          "armour": 4,
+          "armour": 5,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -73,44 +73,44 @@
           "specialRules": [
             "Machine Spirit",
             "Expendable",
-            "Regeneration (5+)"
+            "Regeneration"
           ]
       },
       {
           "name": "Flayed Ones",
           "type": "INF",
           "speed": 15,
-          "armour": 4,
+          "armour": 5,
           "cc": 4,
           "weapons": [
             "Claws"
           ],
           "specialRules": [
             "Infiltrators",
-            "Regeneration (5+)",
+            "Regeneration",
             "Teleport"
         ],
-        "notes": "'The Unbidden': Flayed Ones may only contest objectives, and may not use Necron Portals."
+        "notes": "'The Unbidden': Flayed Ones may only contest objectives, must start the game in the reserves, and may not use Necron Portals."
       },
       {
           "name": "Immortals",
           "type": "INF",
           "speed": 15,
-          "armour": 4,
+          "armour": 5,
           "cc": 6,
           "ff": 5,
           "weapons": [
             "Gauss Blasters"
           ],
           "specialRules": [
-            "Regeneration (5+)"
+            "Regeneration"
           ]
       },
 
       {
           "name": "Tomb Spyder",
           "type": "LV",
-          "speed": 15,
+          "speed": 20,
           "armour": 3,
           "cc": 5,
           "ff": 5,
@@ -121,26 +121,28 @@
           "specialRules": [
             "Fearless",
             "Machine Spirit",
+            "Expendable",
             "Skimmer",
             "Leader",
-            "Regeneration (4+)",
+            "Regeneration",
             "Walker"
           ]
       },
       {
           "name": "Wraiths",
           "type": "INF",
-          "speed": 20,
-          "armour": 4,
-          "cc": 3,
+          "speed": 25,
+          "armour": 5,
+          "cc": 4,
           "weapons": [
             "Wraith Claws"
           ],
           "specialRules": [
             "Fearless",
             "Machine Spirit",
+            "Expendable",
             "Scout",
-            "Regeneration (5+)",
+            "Regeneration",
             "Jump Packs"
           ]
       },
@@ -148,7 +150,7 @@
           "name": "Destroyers",
           "type": "INF",
           "speed": 25,
-          "armour": 4,
+          "armour": 5,
           "cc": 5,
           "ff": 4,
           "weapons": [
@@ -156,7 +158,7 @@
           ],
           "specialRules": [
             "Mounted",
-            "Regeneration (5+)",
+            "Regeneration",
             "Skimmer"
           ]
       },
@@ -164,7 +166,7 @@
           "name": "Heavy Destroyers",
           "type": "INF",
           "speed": 20,
-          "armour": 4,
+          "armour": 5,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -172,7 +174,7 @@
           ],
           "specialRules": [
             "Mounted",
-            "Regeneration (5+)",
+            "Regeneration",
             "Skimmer"
           ]
       },
@@ -187,7 +189,7 @@
             "Synaptic Disintegrator"
           ],
           "specialRules": [
-            "Regeneration (5+)",
+            "Regeneration",
             "Scout",
             "Teleport"
           ]
@@ -203,7 +205,7 @@
             "Twin Tesla Carbines"
           ],
           "specialRules": [
-            "Regeneration (5+)",
+            "Regeneration",
             "Mounted",
             "Skimmer"
           ]
@@ -220,7 +222,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Regeneration (5+)",
+            "Regeneration",
             "Jump Packs"
           ]
       },
@@ -228,7 +230,7 @@
           "name": "Monolith",
           "type": "AV",
           "speed": 15,
-          "armour": 3,
+          "armour": 4,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -237,7 +239,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Regeneration (4+)",
+            "Regeneration",
             "Portal",
             "Skimmer",
             "Teleport",
@@ -249,7 +251,7 @@
           "name": "Obelisk",
           "type": "AV",
           "speed": 15,
-          "armour": 3,
+          "armour": 4,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -257,7 +259,7 @@
           ],
           "specialRules": [
             "Fearless",
-            "Regeneration (4+)",
+            "Regeneration",
             "Skimmer",
             "Teleport",
             "Thick Rear Armour",
@@ -338,14 +340,14 @@
           "name": "Triarch Stalker",
           "type": "AV",
           "speed": 15,
-          "armour": 4,
+          "armour": 5,
           "cc": 5,
           "ff": 4,
           "weapons": [
             "Heat Ray"
           ],
           "specialRules": [
-            "Regeneration (5+)",
+            "Regeneration",
             "Walker",
             "Infiltrators"
           ]
@@ -364,7 +366,8 @@
           "specialRules": [
             "Fearless",
             "Machine Spirit",
-            "Regeneration (4+)",
+            "Expendable",
+            "Regeneration",
             "Thick Rear Armour",
             "Walker",
             "Infiltrators"
@@ -380,7 +383,7 @@
             "Gauss Exterminator"
           ],
           "specialRules": [
-            "Regeneration (5+)",
+            "Regeneration",
             "Fearless",
             "Machine Spirit",
             "Teleport"
@@ -403,7 +406,7 @@
             "Leader",
             "Commander",
             "Inspiring",
-            "Regeneration (4+)"
+            "Regeneration"
         ],
           "notes": "If the C’tan Shard becomes broken it is immediately destroyed, but does not cause additional Blast Markers."
       },
@@ -411,7 +414,7 @@
           "name": "Pylon",
           "type": "WE",
           "speed": "Immobile",
-          "armour": 3,
+          "armour": 4,
           "ff": 4,
           "weapons": [
             "Particle Accelerator",
@@ -421,7 +424,7 @@
             "Damage Capacity 2",
             "Fearless",
             "Machine Spirit",
-            "Regeneration (4+)",
+            "Regeneration",
             "Teleport",
             "Thick Rear Armour"
           ],
@@ -443,7 +446,7 @@
             "Fearless",
             "Portal",
             "Ponderous",
-            "Regeneration (4+)",
+            "Regeneration",
             "Skimmer",
             "Teleport",
             "Thick Rear Armour",
@@ -456,7 +459,7 @@
           "name": "Æonic Orb",
           "type": "WE",
           "speed": 15,
-          "armour": 3,
+          "armour": 4,
           "ff": 3,
           "weapons": [
             "Solar Flare"
@@ -464,10 +467,8 @@
           "specialRules": [
             "Damage Capacity 3",
             "Fearless",
-            "Regeneration (4+)",
+            "Regeneration",
             "Support Craft",
-            "Ponderous",
-            "Thick Rear Armour",
             "Enduring"
           ],
           "crit": "The Æonic Orb is destroyed. All units within 10cm suffer a hit."
@@ -486,14 +487,14 @@
           "specialRules": [
             "Damage Capacity 6",
             "Fearless",
-            "Regeneration (4+)",
+            "Regeneration",
             "Portal",
             "Skimmer",
             "Thick Rear Armour",
             "Ponderous",
             "Enduring"
           ],
-          "crit": "The Abattoir is destroyed. All units within 5cm suffer a hit."
+          "crit": "The Abattoir's Portal is destroyed. Subsequent critical hits cause one additional damage."
       }
     ]
   }

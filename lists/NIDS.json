@@ -19,7 +19,7 @@
       "specialRules": [
         "Inspiring",
         "Leader",
-        "Regeneration (6+)"
+        "Invulnerable Save"
       ]
     },
       {
@@ -121,7 +121,6 @@
       ],
       "specialRules": [
         "Synapse",
-        "Regeneration (6+)",
         "Fearless",
         "Tunneler",
         "Infiltrators"
@@ -139,7 +138,6 @@
       ],
       "specialRules": [
         "Synapse",
-        "Regeneration (6+)",
         "Fearless",
         "Jump Packs (Shrike)"
     ],
@@ -158,7 +156,7 @@
       "specialRules": [
         "Synapse",
         "Fearless",
-        "Regeneration (6+)"
+        "Invulnerable Save"
       ]
       },
       {
@@ -175,7 +173,7 @@
         "First Strike",
         "Infiltrators",
         "Scout",
-        "Regeneration (6+)",
+        "Invulnerable Save",
         "Teleport"
       ]
       },
@@ -195,7 +193,6 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
-        "Regeneration (5+)",
         "Commander",
         "Leader",
         "Jump Packs (Shrike)"
@@ -219,7 +216,6 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
-        "Regeneration (6+)",
         "Commander",
         "Leader",
         "Jump Packs (Shrike)"
@@ -241,7 +237,6 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
-        "Regeneration (6+)",
         "Commander",
         "Leader",
         "Jump Packs (Shrike)"
@@ -353,7 +348,6 @@
          "Synapse",
          "Fearless",
          "Reinforced Armour",
-        "Regeneration (6+)",
         "Swarm (2)"
       ]
       },
@@ -388,7 +382,6 @@
         "Synapse",
         "Fearless",
         "Reinforced Armour",
-        "Regeneration (6+)",
         "Tunneler"
     ]
     },
@@ -421,7 +414,6 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
-      "Regeneration (6+)",
       "Fearless",
       "Skimmer",
       "Reinforced Armour",
@@ -443,7 +435,6 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
-      "Regeneration (6+)",
       "Fearless",
       "Skimmer",
       "Reinforced Armour",
@@ -466,7 +457,6 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
-      "Regeneration (6+)",
       "Fearless",
       "Reinforced Armour"
     ],
@@ -505,7 +495,6 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
-      "Regeneration (6+)",
       "Fearless",
       "Reinforced Armour"
 
@@ -546,7 +535,6 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Synapse",
-      "Regeneration (6+)",
       "Fearless",
       "Reinforced Armour"
     ],
@@ -569,7 +557,7 @@
     "specialRules": [
       "Damage Capacity: 5",
       "Fearless",
-      "Regeneration (5+)",
+      "Invulnerable Save",
       "Reinforced Armour"
     ],
     "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
@@ -581,7 +569,7 @@
     "name": "Dagon Dominatrix",
     "type": "WE",
     "speed": 25,
-    "armour": 4,
+    "armour": 5,
     "cc": 3,
     "ff": 5,
     "weapons": [
@@ -594,7 +582,7 @@
       "Damage Capacity: 6",
       "Hive Mind Locus",
       "Synapse",
-      "Regeneration (5+)",
+      "Regeneration",
       "Fearless",
       "Leader",
       "Commander",
@@ -610,7 +598,7 @@
     "name": "Hydra Dominatrix",
     "type": "WE",
     "speed": 25,
-    "armour": 4,
+    "armour": 5,
     "cc": 3,
     "ff": 5,
     "weapons": [
@@ -622,7 +610,7 @@
       "Damage Capacity: 6",
       "Hive Mind Locus",
       "Synapse",
-      "Regeneration (5+)",
+      "Regeneration",
       "Fearless",
       "Leader",
       "Commander",
@@ -639,7 +627,7 @@
     "name": "Hydraphant",
     "type": "WE",
     "speed": 25,
-    "armour": 4,
+    "armour": 5,
     "cc": 3,
     "ff": 5,
     "weapons": [
@@ -654,7 +642,7 @@
       "Fearless",
       "Reinforced Armour",
       "Thick Rear Armour",
-      "Regeneration (5+)"
+      "Regeneration"
     ],
     "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."

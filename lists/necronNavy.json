@@ -14,15 +14,15 @@
     {
       "name": "Night Scythe Transporter",
       "type": "WE/AC",
-      "speed": "Fighter-Bomber",
-      "armour": 4,
+      "speed": "Bomber",
+      "armour": 5,
       "weapons": [
         "AC Twin Tesla Destructor", "AC Wormhole Portal"
       ],
       "specialRules": [
         "Damage Capacity: 1",
         "Fearless",
-        "Regeneration (5+)",
+        "Regeneration",
         "[*]Portal. May only be used to enter the battlefield, not to move into the reserves. May only be used while landed."
       ]
     },
@@ -30,24 +30,24 @@
       "name": "Doom Scythe Fighter-Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
-      "armour": 4,
+      "armour": 6,
       "weapons": [
         "AC Twin Tesla Destructor", "AC Death Ray"
       ],
       "specialRules": [
-          "Regeneration (5+)"
+          "Regeneration"
       ]
     },
     {
       "name": "Night Shroud Bomber",
       "type": "AC",
       "speed": "Bomber",
-      "armour": 3,
+      "armour": 5,
       "weapons": [
         "AC Twin Tesla Destructor", "AC Death Spheres||FxF"
       ],
       "specialRules": [
-        "Regeneration (4+)"
+        "Regeneration"
       ]
     },
     {

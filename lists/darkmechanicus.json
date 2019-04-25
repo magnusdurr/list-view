@@ -44,9 +44,9 @@
          ]
      },
      {
-       "title": "Regeneration (x)",
+       "title": "Regeneration",
        "description": [
-         "If the unit's armour is completely negated by a hit with MW or TK, it recieves an Invulnerable Save (x) instead."
+         "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+."
        ]
      }
     ],
@@ -577,7 +577,7 @@
             "name": "Tower of Skulls",
             "type": "WE",
             "speed": 20,
-            "armour": 3,
+            "armour": 5,
             "cc": 3,
             "ff": 3,
             "weapons": [
@@ -594,9 +594,10 @@
                 "Split Fire",
                 "Leader",
                 "Fearless",
+                "Reinforced Armour",
                 "Thick Rear Armour",
                 "Daemon Engine (Khorne)",
-                "Regeneration (4+)",
+                "Regeneration",
                 "Daemonic Pact"
             ],
             "crit": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
