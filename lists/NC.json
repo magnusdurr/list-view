@@ -106,7 +106,6 @@
             "Regeneration"
           ]
       },
-
       {
           "name": "Tomb Spyder",
           "type": "LV",
@@ -458,17 +457,18 @@
       {
           "name": "Æonic Orb",
           "type": "WE",
-          "speed": 15,
+          "speed": 20,
           "armour": 4,
           "ff": 3,
           "weapons": [
             "Solar Flare"
           ],
           "specialRules": [
-            "Damage Capacity 3",
+            "Damage Capacity 4",
             "Fearless",
             "Regeneration",
             "Support Craft",
+            "Thick Rear Armour",
             "Enduring"
           ],
           "crit": "The Æonic Orb is destroyed. All units within 10cm suffer a hit."

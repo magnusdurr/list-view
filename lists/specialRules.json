@@ -867,14 +867,16 @@
     {
       "title": "Regeneration",
       "description": [
-        "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+."
+        "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
+        "Against Titan Killer attacks, one Invulnerable Save has to be made against each point of damage."
       ]
     },
     {
       "title": "Necron Portals",
       "description": [
-        "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each Portal can be used a single time each turn.",
+        "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each portal can be used only once per turn for either entering or exiting the battlefield, but not both.",
         "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves. Formations with teleport that have re-entered the reserves may teleport at the start of the next turn as normal.",
+        "Any units that are out of coherency at the end of any move is destroyed.",
         "Each time a formation uses a broken Portal it receives one Blast Marker.",
         "If a Portal is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
       ]
