@@ -1,8 +1,8 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.8.5",
-  "release": "2019-04-24",
+  "version": "0.8.6",
+  "release": "2019-04-25",
   "strategy": "Necron armies have a Strategy Rating of 1",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
 
@@ -28,6 +28,7 @@
       "units": [
         "Necron Overlord",
         "Necron Lord",
+        "Necron Destroyer Overlord",
         "Necron Destroyer Lord",
         "Destroyers",
         "Heavy Destroyers",
@@ -84,8 +85,8 @@
           "name": "Necron Phalanx",
           "units": "Seven Necron Warriors and one Necron Lord",
           "extraUnits": [
-              "(0-1 per army) Replace the Necron Lord with a Necron Overlord: 75 points",
-              "(0-1 per army) Add one C'tan Shard: 75 points",
+              "Overlord",
+              "C'tan Shard",
               "Add up to two Tomb Spyders: 50 points for one, 75 points for two",
               "Add up to two Wraiths: 25 points each",
               "Add three Immortals: 75 points"
@@ -114,9 +115,11 @@
           "points": 225
         },
         {
-          "name": "Eques Phalanx",
+          "name": "Destroyer Phalanx",
           "units": "Any six of the following units: Destroyers, Heavy Destroyers",
           "extraUnits": [
+              "Overlord",
+              "C'tan Shard",
               "Replace one Destroyer with a Necron Destroyer Lord: 25 points",
               "Add up to two Tomb Spyders: 50 points for one, 75 points for two",
               "Add up to two Wraiths: 25 points each"
@@ -124,7 +127,7 @@
           "points": 225
         },
         {
-          "name": "Pylon Guardian",
+          "name": "Tomb Guardian",
           "units": "One Pylon",
           "upgrades": [
           ],
@@ -167,7 +170,7 @@
           "upgrades": [
 
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Night Shroud Bomber",
@@ -182,7 +185,7 @@
           "upgrades": [
 
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Megalith Conduit",
@@ -192,7 +195,23 @@
           ],
           "points": 275
         }
+    ]
+    }
+    ],
+    "upgrades": {
+      "title": "Maynarkh Dynasty Upgrades",
+      "description": "Each upgrade may be taken once per formation",
+      "items": [
+        {
+          "name": "0-1 Overlord",
+          "description": "Either replace one Necron Lord with a Necron Overlord, or replace a Necron Destroyer Lord with a Necron Destroyer Overlord",
+          "points": "75 points"
+      },
+      {
+        "name": "0-1 C'tan Shard",
+        "description": "Add one C'tan Shard to the formation",
+        "points": "75 points"
+      }
       ]
     }
-  ]
 }

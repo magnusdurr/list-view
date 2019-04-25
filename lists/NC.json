@@ -28,6 +28,25 @@
         ]
       },
       {
+          "name": "Necron Destroyer Overlord",
+          "type": "INF",
+          "speed": 25,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Staff of Radiance"
+          ],
+          "specialRules": [
+              "Supreme Commander",
+              "Fearless",
+              "Inspiring",
+            "Regeneration",
+            "Mounted",
+            "Skimmer"
+        ]
+      },
+      {
           "name": "Necron Lord",
           "type": "INF",
           "speed": 15,
@@ -56,7 +75,9 @@
           "specialRules": [
             "Leader",
             "Commander",
-            "Regeneration"
+            "Regeneration",
+            "Mounted",
+            "Skimmer"
         ]
       },
 
