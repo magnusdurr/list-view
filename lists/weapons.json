@@ -3565,14 +3565,13 @@
       "name": "Gauss Flayers",
         "modes": [
           {
-            "firepower": "AP4+/AT6+",
+            "firepower": "AP5+/AT6+",
             "range": 15,
             "specialRules": [
           ]
           }
       ]
     },
-
     {
       "name": "Gauss Flayers Array",
         "modes": [
@@ -3592,6 +3591,18 @@
 
             "specialRules": [
               "EA(+2)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Gauss Flux Array",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+
+            "specialRules": [
+              "EA(+3)"
           ]
           }
       ]
@@ -5260,7 +5271,7 @@
       ]
     },
     {
-      "name": "Master-Crafted Weapons",
+      "name": "Master-Crafted Gun",
         "modes": [
           {
             "firepower": "Small Arms",
@@ -5481,6 +5492,18 @@
               "FS"
               ]
           }
+      ]
+    },
+    {
+      "name": "Mole Mortar",
+      "modes": [
+        {
+          "firepower": "1 BP",
+          "specialRules": [
+            "Ind",
+            "D"
+        ]
+        }
       ]
     },
     {
@@ -6146,7 +6169,18 @@
         }
       ]
     },
-
+    {
+      "name": "Trike Power Lance",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ]
+    },
     {
       "name": "Power Lances",
       "modes": [
@@ -7579,17 +7613,19 @@
         "modes": [
           {
             "firepower": "MW3+",
-            "range": 90,
+            "range": 75,
             "specialRules": [
               "TK(D3+1)",
               "Shield Disruptor"
           ]
           },
           {
-            "firepower": "12BP",
+            "firepower": "3BP",
             "join": "or",
-            "range": 90,
+            "range": 75,
             "specialRules": [
+                "MW",
+                "IC"
           ]
         }
       ]
@@ -8188,6 +8224,17 @@
       ]
     },
     {
+      "name": "Thunder-Fire Cannons",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+/AA4+",
+            "range": 60,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Thunder Hammers and Storm Shields",
         "modes": [
           {
@@ -8431,6 +8478,15 @@
       ]
     },
     {
+      "name": "AC Twin Autocannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT5+/AA5+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "AC Twin Lascannon",
       "modes": [
         {
@@ -8544,7 +8600,7 @@
       "name": "AC Twin Heavy Bolter",
       "modes": [
         {
-          "firepower": "AP5+/AA5+",
+          "firepower": "AP4+/AA5+",
           "range": 15
         }
       ]

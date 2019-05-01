@@ -376,7 +376,7 @@
           "name": "Seraptek Heavy Construct",
           "type": "H-AV",
           "speed": 15,
-          "armour": 3,
+          "armour": 4,
           "cc": 4,
           "ff": 4,
           "weapons": [
@@ -388,7 +388,6 @@
             "Machine Spirit",
             "Expendable",
             "Regeneration",
-            "Thick Rear Armour",
             "Walker",
             "Infiltrators"
           ]
@@ -445,8 +444,8 @@
             "Fearless",
             "Machine Spirit",
             "Regeneration",
-            "Teleport",
-            "Thick Rear Armour"
+            "Thick Rear Armour",
+            "Enduring"
           ],
           "crit": "The Pylon is destroyed. All units within 5cm suffer a hit on a roll of 4+."
       },
@@ -459,7 +458,7 @@
           "ff": 5,
           "weapons": [
             "Particle Whip|3|",
-            "Gauss Flux Arc|2|"
+            "Gauss Flux Array"
           ],
           "specialRules": [
             "Damage Capacity 3",
@@ -480,12 +479,12 @@
           "type": "WE",
           "speed": 20,
           "armour": 4,
-          "ff": 3,
+          "ff": 5,
           "weapons": [
             "Solar Flare"
           ],
           "specialRules": [
-            "Damage Capacity 4",
+            "Damage Capacity 3",
             "Fearless",
             "Regeneration",
             "Support Craft",

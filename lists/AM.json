@@ -460,6 +460,39 @@
       "crit": "The Gorgon takes one additional damage, and D3 transported units takes a hit."
     },
     {
+        "name": "Termite",
+        "type": "AV",
+        "speed": "20",
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+            "Storm Bolter"
+        ],
+        "specialRules": [
+            "Tunneler",
+            "Transport"
+        ],
+        "notes": "May transport two infantry units without Jump Packs or Mounted."
+    },
+    {
+        "name": "Mole",
+        "type": "H-AV",
+        "speed": "Immobile",
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+            "Storm Bolter"
+        ],
+        "specialRules": [
+            "Reinforced Armour",
+            "Tunneler",
+            "Transport"
+        ],
+        "notes": "May transport five infantry units without Jump Packs or Mounted."
+    },
+    {
       "name": "Avenger Strike Fighter",
       "type": "AC",
       "speed": "Fighter-Bomber",

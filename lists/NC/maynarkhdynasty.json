@@ -1,8 +1,8 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.8.6",
-  "release": "2019-04-25",
+  "version": "0.8.7",
+  "release": "2019-05-01",
   "strategy": "Necron armies have a Strategy Rating of 1",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
 
@@ -73,7 +73,7 @@
           "name": "0–1 Necron Tomb Complex",
           "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
 
-          "points": 50
+          "points": 75
         }
       ]
     },
@@ -191,7 +191,7 @@
           "name": "Megalith Conduit",
           "units": "One Megalith",
           "extraUnits": [
-              "Add two Monoliths: 100 points"
+              "Add two Monoliths: 125 points"
           ],
           "points": 275
         }

@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Dark Angels",
-  "version": "0.8.2",
-  "release": "2019-04-02",
+  "version": "0.8.3",
+  "release": "2019-04-30",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
@@ -84,6 +84,53 @@
           ],
           "points": 275
         },
+
+        {
+          "name": "Deathwing Strike Detachment",
+          "units": "Any four of the following units: Deathwing Terminators, Deathwing Cyclones, Deathwing Knights",
+          "upgrades": [
+            "Commander"
+          ],
+          "points": 350
+      },
+      {
+        "name": "Land Raiders",
+        "units": "Three Land Raiders",
+        "upgrades": [
+            "Anti-Air",
+            "Commander"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Deathwing Armoured Detachment",
+        "units": "Three Deathwing Land Raiders, three Deathwing Terminators",
+        "upgrades": [
+            "Commander"
+        ],
+        "points": 450
+    },
+    {
+      "name": "Ares Siege Detachment",
+      "units": "Three Land Raider Ares, three Vindicators",
+      "upgrades": [
+          "Commander"
+      ],
+      "points": 350
+    }
+      ]
+    },
+    {
+      "name": "Dark Angels Support Detachments",
+      "description": "Two Support Detachments may be fielded per Core Detachment",
+      "formations": [
+        {
+          "name": "Assaults",
+          "units": "One Dark Angels Captain, six Assaults",
+          "upgrades": [
+          ],
+          "points": 250
+        },
         {
           "name": "Devastators",
           "units": "Four Dark Angels Devastators plus transport",
@@ -95,54 +142,14 @@
           "points": 250
         },
         {
-          "name": "Deathwing Terminators",
-          "units": "Any four of the following units: Deathwing Terminators, Deathwing Cyclones, Deathwing Knights",
-          "upgrades": [
-            "Commander"
-          ],
-          "points": 350
-      },
-      {
-        "name": "Deathwing Land Raiders",
-        "units": "Three Deathwing Land Raiders, three Deathwing Terminators",
-        "upgrades": [
-        ],
-        "points": 450
-    },
-    {
-      "name": "Land Raider Ares",
-      "units": "Three Land Raider Ares, three Vindicators",
-      "upgrades": [
-      ],
-      "points": 350
-    }
-      ]
-    },
-    {
-      "name": "Dark Angels Support Detachments",
-      "description": "Three Support Detachments may be fielded per Core Detachment",
-      "formations": [
-        {
-          "name": "Assaults",
-          "units": "One Dark Angels Captain, six Assaults",
-          "upgrades": [
-          ],
-          "points": 250
-        },
-        {
           "name": "Predators",
           "units": "Four Predator Annihilators or four Predator Destructors",
           "upgrades": [
+          "Anti-Air"
           ],
           "points": 250
         },
-        {
-          "name": "Land Raiders",
-          "units": "Three Land Raiders",
-          "upgrades": [
-          ],
-          "points": 250
-        },
+
         {
           "name": "Ravenwing Support",
           "units": "Four Ravenwing Land Speeder Tornado",

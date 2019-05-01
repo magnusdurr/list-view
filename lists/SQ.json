@@ -1,395 +1,431 @@
-[
-  {
-    "name": "Squat Forces",
-    "specialRules": [
+[{
+	"name": "Squat Forces",
+	"specialRules": [
 
-    ],
-    "unit": [
-      {
-        "name": "Wodan Warlord",
-        "type": "INF",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "Supreme Commander",
-          "Reinforced Armour",
-          "Thick Rear Armour"
-        ]
-      },
-      {
-        "name": "Living Ancestor",
-        "type": "CH",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "Inspiring",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Squat Lord",
-        "type": "INF",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "Bionics",
-          "Commander",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Squat Warriors",
-        "type": "INF",
-        "weapons": [
-          "Bolt Pistols"
-        ],
-        "specialRules": [
-          "Bionics",
-          "Leader"
-        ]
-      },
-      {
-        "name": "Wodan Berzerkers",
-        "type": "INF",
-        "speed": 30,
-        "armour": 4,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Bolt Pistols"
-        ],
-        "specialRules": [
-          "Jump Packs"
-        ]
-      },
-      {
-        "name": "Wodan Hearthguard",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Missile Launcher|2"
-        ]
-      },
-      {
-        "name": "Thunderers",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Missile Launcher|0-2",
-          "Graviton Gun|0-2"
-        ],
-        "notes": "Armed with Missile Launchers. If the formation contains a Iron Hands Techmarine, the Missile Launchers will be replaced by Graviton Guns."
-      },
-      {
-        "name": "Rapier",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Missile Launcher|0-1",
-          "Graviton Gun|0-1"
-        ],
-        "notes": "Armed with a Missile Launcher. If the formation contains a Iron Hands Techmarine, the Missile Launcherswill be replaced by a Graviton Guns."
-      },
-      {
-        "name": "Thudd Gun",
-        "type": "INF",
-        "speed": 15,
-        "armour": 5,
-        "cc": 4,
-        "ff": 5,
-        "weapons": [
-          "Heavy Bolter"
-        ],
-        "specialRules": [
-          "Infiltrator",
-          "Scout"
-        ]
-      },
-      {
-        "name": "Wodan Guildmaster",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Missile Launcher",
-          "Sternguard Bolters"
-        ],
-        "specialRules": [
-          "Infiltrator",
-          "Scout"
-        ]
-      },
-      {
-        "name": "Squat Bikers",
-        "type": "INF",
-        "speed": 35,
-        "armour": 4,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Twin Bolters"
-        ],
-        "specialRules": [
-          "Mounted"
-        ]
-      },
-      {
-        "name": "Squat Trike",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Missile Launcher"
-        ]
-      },
-      {
-        "name": "Thunderfire",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 3,
-        "ff": 3,
-        "weapons": [
-          "Assault Cannon|2",
-          "Power Weapons"
-        ],
-        "specialRules": [
-          "Reinforced Armour",
-          "Teleport",
-          "Thick Rear Armour"
-        ]
-      },
-      {
-        "name": "Squat Land Raider",
-        "type": "AV",
-        "speed": 25,
-        "armour": 4,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "Twin Lascannon|2",
-          "Twin Heavy Bolter"
-        ],
-        "specialRules": [
-          "Reinforced Armour",
-          "Thick Rear Armour",
-          "Transport"
-        ],
-        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
-      },
-      {
-        "name": "Squat Rhino",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 6,
-        "weapons": [
-          "Storm Bolter"
-        ],
-        "specialRules": [
-          "Transport"
-        ],
-        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
-      },
+	],
+	"unit": [{
+			"name": "Squat Living Ancestor",
+			"type": "CH",
+			"weapons": [
+				"n/a"
+			],
+			"specialRules": [
+				"Spirit of the Ancients",
+				"Inspiring",
+				"Leader"
+			]
+		},
+		{
+			"name": "Squat Grand Warlord",
+			"type": "CH",
+			"weapons": [
+				"Master-Crafted Gun"
+			],
+			"specialRules": [
+				"Supreme Commander"
+			]
+		},
+		{
+			"name": "Squat Warlord",
+			"type": "CH",
+			"weapons": [
+				"Power Weapon"
+			],
+			"specialRules": [
+				"Leader",
+				"Commander"
+			]
+		},
+		{
+			"name": "Squat Warriors",
+			"type": "INF",
+			"speed": 15,
+			"armour": 6,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Lasguns",
+				"Heavy Bolter"
+			],
+			"specialRules": [
+				"Stubborn"
+			]
+		},
+		{
+			"name": "Squat Berserkers",
+			"type": "INF",
+			"speed": 15,
+			"armour": 6,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Bolt Pistols",
+				"Chainswords"
+			],
+			"specialRules": [
+				"Stubborn",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Squat Hearthguard",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 3,
+			"ff": 5,
+			"weapons": [
+				"Power Weapon",
+				"Bolt Pistols"
+			],
+			"specialRules": [
+				"Stubborn",
+				"Reinforced Armour",
+				"Thick Rear Armour"
+			]
 
-      {
-        "name": "Iron Eagle",
-        "type": "AV",
-        "speed": 30,
-        "armour": 4,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "Demolisher"
-        ]
-      },
-      {
-        "name": "Gyrokopter",
-        "type": "AV",
-        "speed": 30,
-        "armour": 4,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "Demolisher"
-        ]
-      },
-      {
-        "name": "Mole",
-        "type": "AV",
-        "speed": 30,
-        "armour": 4,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "Demolisher"
-        ]
-      },
-      {
-        "name": "Hellebore",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Twin Lascannon|2",
-          "AC Twin Heavy Bolter|3"
-        ],
-        "specialRules": [
-          "Damage Capacity 4",
-          "Fearless",
-          "Planetfall",
-          "Reinforced Armour",
-          "Transport"
-      ],
-              "crit": "The unit and all units being carried are destroyed."
+		},
+		{
+			"name": "Thunderers",
+			"type": "INF",
+			"speed": 10,
+			"armour": 6,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Missile Launcher",
+				"Heavy Bolter|3|"
+			],
+			"specialRules": [
+				"Stubborn"
+			]
+		},
+		{
+			"name": "Squat Rapier",
+			"type": "INF",
+			"speed": 10,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Rapier Laser Destroyer"
+			],
+			"specialRules": [
+				"Stubborn"
+			]
+		},
+		{
+			"name": "Squat Mole Mortar",
+			"type": "INF",
+			"speed": 10,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Mole Mortar"
+			],
+			"specialRules": [
+				"Stubborn"
+			]
+		},
+		{
+			"name": "Squat Thudd Gun",
+			"type": "INF",
+			"speed": 10,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Thudd Gun"
+			],
+			"specialRules": [
+				"Stubborn"
+			]
+		},
+		{
+			"name": "Squat Guildmaster Trike",
+			"type": "LV",
+			"speed": 35,
+			"armour": 4,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Bolters",
+				"Trike Power Lance"
+			],
+			"specialRules": [
+				"Stubborn",
+				"Commander",
+				"Reinforced Armour",
+				"Leader"
+			]
+		},
+		{
+			"name": "Squat Trike",
+			"type": "LV",
+			"speed": 35,
+			"armour": 4,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Multi-Melta"
+			],
+			"specialRules": [
+				"Stubborn"
+			]
+		},
+		{
+			"name": "Squat Bikers",
+			"type": "INF",
+			"speed": 35,
+			"armour": 4,
+			"cc": 3,
+			"ff": 5,
+			"weapons": [
+				"Twin Bolters"
+			],
+			"specialRules": [
+				"Stubborn",
+				"Mounted"
+			]
+		},
+		{
+			"name": "Squat Thunder Fire",
+			"type": "AV",
+			"speed": "Immobile",
+			"armour": 4,
+			"ff": 5,
+			"weapons": [
+				"Thunder-Fire Cannons"
+			],
+			"specialRules": [
+				"Stubborn"
+			]
+		},
+		{
+			"name": "Squat Land Raider",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Twin Lascannon|2",
+				"Twin Heavy Bolter"
+			],
+			"specialRules": [
+				"Stubborn",
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport two infantry units without Jump Packs or Mounted or one Hearthguard unit."
+		},
+		{
+			"name": "Squat Rhino",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Storm Bolter"
+			],
+			"specialRules": [
+				"Stubborn",
+				"Transport"
+			],
+			"notes": "May transport two infantry units without Jump Packs or Mounted. May not transport Hearthguard units."
+		},
 
-      },
-      {
-        "name": "Goliath Mega Cannon",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 5,
-        "cc": 5,
-        "ff": 4,
-        "weapons": [
-          "AC Twin Heavy Bolter||FxF",
-          "AC Twin Lascannon|2|FxF",
-          "Vengeance Launcher"
-        ],
-        "specialRules": [
-          "Damage Capacity 2",
-          "Planetfall",
-          "Reinforced Armour",
-          "Transport"
-        ],
-        "crit": "The unit and all units being carried are destroyed."
-      },
-      {
-        "name": "Overlord",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Twin Lascannon|2",
-          "AC Twin Heavy Bolter|3"
-        ],
-        "specialRules": [
-          "Damage Capacity 4",
-          "Fearless",
-          "Planetfall",
-          "Reinforced Armour",
-          "Transport"
-      ],
-              "crit": "The unit and all units being carried are destroyed."
+		{
+			"name": "Squat Iron Eagle Gunship",
+			"type": "AC",
+			"speed": "Fighter-Bomber",
+			"armour": 5,
+			"weapons": [
+				"AC Twin Autocannon||FxF",
+				"Battle Cannon||FxF"
+			]
+		},
+		{
+			"name": "Squat Steel Hawk Gyrokopter",
+			"type": "AV",
+			"speed": 35,
+			"armour": 4,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Twin Lascannon",
+                "Multi-Melta"
+			],
+            "specialRules": [
+                "Stubborn",
+                "Scout",
+                "Skimmer"
+            ]
+		},
+		{
+			"name": "Squat Overlord",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannon|2",
+				"AC Twin Heavy Bolter|3"
+			],
+			"specialRules": [
+				"Damage Capacity 4",
+				"Fearless",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"crit": "The unit and all units being carried are destroyed."
 
-      },
-      {
-        "name": "Squat Leviathan",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Twin Lascannon|2",
-          "AC Twin Heavy Bolter|3"
-        ],
-        "specialRules": [
-          "Damage Capacity 4",
-          "Fearless",
-          "Planetfall",
-          "Reinforced Armour",
-          "Transport"
-      ],
-              "crit": "The unit and all units being carried are destroyed."
+		},
+		{
+			"name": "Termite",
+			"type": "AV",
+			"speed": "20",
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Storm Bolter"
+            ],
+			"specialRules": [
+				"Tunneler",
+				"Transport"
+			],
+			"notes": "May transport two infantry units without Jump Packs or Mounted. May not transport Hearthguards."
+		},
+		{
+			"name": "Hellebore",
+			"type": "WE",
+			"speed": "Immobile",
+			"armour": 5,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannon|2",
+				"AC Twin Heavy Bolter|3"
+			],
+			"specialRules": [s
+				"Damage Capacity 4",
+				"Fearless",
+				"Tunneler",
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport ten infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
+			"crit": "The unit and all units being carried are destroyed."
 
-      },
-      {
-        "name": "Colossus",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Twin Lascannon|2",
-          "AC Twin Heavy Bolter|3"
-        ],
-        "specialRules": [
-          "Damage Capacity 4",
-          "Fearless",
-          "Planetfall",
-          "Reinforced Armour",
-          "Transport"
-      ],
-              "crit": "The unit and all units being carried are destroyed."
+		},
+		{
+			"name": "Goliath Mega Cannon",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 5,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"AC Twin Heavy Bolter||FxF",
+				"AC Twin Lascannon|2|FxF",
+				"Vengeance Launcher"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"crit": "The unit and all units being carried are destroyed."
+		},
 
-      },
-      {
-        "name": "Cyclops",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Twin Lascannon|2",
-          "AC Twin Heavy Bolter|3"
-        ],
-        "specialRules": [
-          "Damage Capacity 4",
-          "Fearless",
-          "Planetfall",
-          "Reinforced Armour",
-          "Transport"
-      ],
-              "crit": "The unit and all units being carried are destroyed."
+		{
+			"name": "Squat Leviathan",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannon|2",
+				"AC Twin Heavy Bolter|3"
+			],
+			"specialRules": [
+				"Damage Capacity 4",
+				"Fearless",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"crit": "The unit and all units being carried are destroyed."
 
-      },
-      {
-        "name": "Land Train",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Twin Lascannon|2",
-          "AC Twin Heavy Bolter|3"
-        ],
-        "specialRules": [
-          "Damage Capacity 4",
-          "Fearless",
-          "Planetfall",
-          "Reinforced Armour",
-          "Transport"
-      ],
-              "crit": "The unit and all units being carried are destroyed."
+		},
+		{
+			"name": "Colossus",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannon|2",
+				"AC Twin Heavy Bolter|3"
+			],
+			"specialRules": [
+				"Damage Capacity 4",
+				"Fearless",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"crit": "The unit and all units being carried are destroyed."
 
-      }
-  ]
-}
-]
+		},
+		{
+			"name": "Cyclops",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannon|2",
+				"AC Twin Heavy Bolter|3"
+			],
+			"specialRules": [
+				"Damage Capacity 4",
+				"Fearless",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"crit": "The unit and all units being carried are destroyed."
+
+		},
+		{
+			"name": "Land Train",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannon|2",
+				"AC Twin Heavy Bolter|3"
+			],
+			"specialRules": [
+				"Damage Capacity 4",
+				"Fearless",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"crit": "The unit and all units being carried are destroyed."
+
+		}
+	]
+}]
