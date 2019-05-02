@@ -453,7 +453,7 @@
           "name": "Megalith",
           "type": "WE",
           "speed": 15,
-          "armour": 3,
+          "armour": 4,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -461,15 +461,16 @@
             "Gauss Flux Array"
           ],
           "specialRules": [
-            "Damage Capacity 3",
+            "Damage Capacity 4",
             "Fearless",
             "Portal",
-            "Ponderous",
             "Regeneration",
             "Skimmer",
             "Teleport",
             "Thick Rear Armour",
-            "Transport"
+            "Transport",
+            "Ponderous",
+            "Enduring"
           ],
           "notes": "May transport up to two Monoliths",
           "crit": "The Megalith's Portal is destroyed. Subsequent critical hits cause one additional damage."
@@ -497,12 +498,12 @@
       {
           "name": "Abattoir",
           "type": "WE",
-          "speed": 25,
-          "armour": 3,
+          "speed": 20,
+          "armour": 4,
           "cc": 2,
           "ff": 4,
           "weapons": [
-            "3x Scarab Swarm",
+            "Scarab Torrent",
             "Harvesters"
           ],
           "specialRules": [
