@@ -71,6 +71,7 @@
             "Invulnerable Save"
           ]
       },
+
       {
           "name": "Skitarii Vanguard",
           "type": "INF",
@@ -259,6 +260,26 @@
               "Machine Spirit",
               "Fearless",
               "Expendable",
+              "Ponderous"
+          ]
+      },
+      {
+          "name": "Vultarax Robot",
+          "type": "LV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Missile Launcher"
+          ],
+          "specialRules": [
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Skimmer",
+              "Scout",
+              "Invulnerable Save",
               "Ponderous"
           ]
       },

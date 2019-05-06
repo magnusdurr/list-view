@@ -1,8 +1,8 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.8.8",
-  "release": "2019-05-02",
+  "version": "0.8.9",
+  "release": "2019-05-05",
   "strategy": "Necron armies have a Strategy Rating of 1",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
 
@@ -158,11 +158,10 @@
       "formations": [
         {
           "name": "0–1 Harvester Engine",
-          "units": "One Æonic Orb",
+          "units": "Either an Æonic Orb or an Abbatoir",
           "extraUnits": [
-              "Replace the Æonic Orb with an Abbatoir: 100 points"
           ],
-          "points": 350
+          "points": 450
         },
         {
           "name": "0–1 Tomb Ship",

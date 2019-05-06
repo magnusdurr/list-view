@@ -37,6 +37,22 @@
 			]
 		},
 		{
+			"name": "Squat Tech-Priest",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"ff": 4,
+			"weapons": [
+			  "Omnissian Axe"
+			],
+			"specialRules": [
+			  "Stubborn",
+			  "Leader",
+			  "Invulnerable Save"
+			]
+		},
+		{
 			"name": "Squat Warriors",
 			"type": "INF",
 			"speed": 15,
@@ -70,7 +86,7 @@
 		{
 			"name": "Squat Hearthguard",
 			"type": "INF",
-			"speed": 15,
+			"speed": 10,
 			"armour": 4,
 			"cc": 3,
 			"ff": 5,
@@ -86,7 +102,7 @@
 
 		},
 		{
-			"name": "Thunderers",
+			"name": "Squat Thunderers",
 			"type": "INF",
 			"speed": 10,
 			"armour": 6,
@@ -187,13 +203,13 @@
 			]
 		},
 		{
-			"name": "Squat Thunder Fire",
+			"name": "Squat Thunderfire",
 			"type": "AV",
 			"speed": "Immobile",
 			"armour": 4,
 			"ff": 5,
 			"weapons": [
-				"Thunder Fire Cannons"
+				"Squat Thunderfire Cannons"
 			],
 			"specialRules": [
 				"Stubborn"
@@ -216,7 +232,7 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted or one Hearthguard unit."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
 		},
 		{
 			"name": "Squat Rhino",
@@ -232,23 +248,24 @@
 				"Stubborn",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. May not transport Hearthguard units."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
 		},
 
 		{
 			"name": "Squat Iron Eagle Gunship",
 			"type": "AC",
-			"speed": "Fighter-Bomber",
-			"armour": 5,
+			"speed": "Bomber[*]",
+			"armour": 4,
 			"weapons": [
 				"AC Twin Autocannon||FxF",
 				"Battle Cannon||FxF"
-			]
+			],
+			"notes": "[*]Squat Iron Eagle Gunships may CAP and Intercept."
 		},
 		{
 			"name": "Squat Steel Hawk Gyrokopter",
 			"type": "AV",
-			"speed": 35,
+			"speed": 30,
 			"armour": 4,
 			"cc": 6,
 			"ff": 5,
@@ -258,12 +275,11 @@
 			],
             "specialRules": [
                 "Stubborn",
-                "Scout",
                 "Skimmer"
             ]
 		},
 		{
-			"name": "Squat Overlord",
+			"name": "Squat Overlord Dirigible",
 			"type": "WE",
 			"speed": "20",
 			"armour": 4,
@@ -276,6 +292,7 @@
 			],
 			"specialRules": [
 				"Damage Capacity 3",
+				"Stubborn",
 				"Reinforced Armour",
 				"Support Craft"
 			],
@@ -285,8 +302,8 @@
 		{
 			"name": "Squat Termite",
 			"type": "AV",
-			"speed": "20",
-			"armour": 5,
+			"speed": "10",
+			"armour": 4,
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
@@ -297,134 +314,144 @@
 				"Tunneler",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. May not transport Hearthguards."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
 		},
 		{
-			"name": "Squat Hellebore",
+			"name": "Hellebore",
 			"type": "WE",
 			"speed": "Immobile",
 			"armour": 5,
-			"cc": 5,
-			"ff": 3,
+			"cc": 6,
+			"ff": 5,
 			"weapons": [
-				"Twin Lascannon|2",
-				"AC Twin Heavy Bolter|3"
+	        "Storm Bolter Array"
 			],
 			"specialRules": [
 				"Damage Capacity 4",
-				"Stubborn",
+				"Fearless",
 				"Tunneler",
 				"Reinforced Armour",
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport ten infantry units without Jump Packs or Mounted. Hearthguards take two spaces each.",
-			"crit": "The unit and all units being carried are destroyed."
+			"notes": "May transport ten infantry units without Jump Packs or Mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each.",
+			"crit": "The Hellebore and all units being transported are destroyed."
 
 		},
 		{
 			"name": "Squat Goliath Mega Cannon",
-			"type": "AC/WE",
-			"speed": "Bomber",
-			"armour": 5,
-			"cc": 5,
-			"ff": 4,
+			"type": "WE",
+			"speed": "5cm",
+			"armour": 6,
+			"ff": 6,
 			"weapons": [
-				"AC Twin Heavy Bolter||FxF",
-				"AC Twin Lascannon|2|FxF",
-				"Vengeance Launcher"
+				"Mega Cannon"
 			],
 			"specialRules": [
-				"Damage Capacity 2",
-				"Planetfall",
-				"Reinforced Armour",
-				"Transport"
+				"Damage Capacity 2"
 			],
-			"crit": "The unit and all units being carried are destroyed."
+			"crit": "The unit is destroyed. All units within 5cm takes a hit."
 		},
 
 		{
-			"name": "Squat Leviathan",
-			"type": "AC/WE",
-			"speed": "Bomber",
-			"armour": 4,
-			"cc": 5,
-			"ff": 3,
-			"weapons": [
-				"Twin Lascannon|2",
-				"AC Twin Heavy Bolter|3"
-			],
-			"specialRules": [
-				"Damage Capacity 4",
-				"Fearless",
-				"Planetfall",
-				"Reinforced Armour",
-				"Transport"
-			],
-			"crit": "The unit and all units being carried are destroyed."
-
-		},
+	      "name": "Squat Leviathan",
+	      "type": "WE",
+	      "speed": 20,
+	      "armour": 5,
+	      "cc": 6,
+	      "ff": 4,
+	      "weapons": [
+	        "Imperial Doomsday Cannon||FxF",
+	        "Battle Cannon",
+	        "Twin Lascannon|3|Left",
+	        "Twin Lascannon|3|Right",
+	        "Storm Bolter Array"
+	      ],
+	      "specialRules": [
+	        "Damage Capacity: 6",
+	        "Void Shields: 4",
+	        "Reinforced Armour",
+			"Thick Rear Armour",
+	        "Fearless"
+	      ],
+	      "notes": "May transport ten infantry units without jumppack or mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each. Up to two units may shoot and FF from the Leviathan's fighting platform",
+	      "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
+	    },
 		{
 			"name": "Squat Colossus",
-			"type": "AC/WE",
-			"speed": "Bomber",
+			"type": "WE",
+			"speed": "15",
 			"armour": 4,
-			"cc": 5,
-			"ff": 3,
+			"cc": 6,
+			"ff": 4,
 			"weapons": [
-				"Twin Lascannon|2",
-				"AC Twin Heavy Bolter|3"
+				"Imperial Doomsday Cannon||FxF",
+		        "Battle Cannon|4|FxF",
+		        "Demolisher||FxF",
+		        "Plasma Missile|4|FxF",
+		        "Storm Bolter Array"
 			],
 			"specialRules": [
-				"Damage Capacity 4",
-				"Fearless",
-				"Planetfall",
-				"Reinforced Armour",
+				"Damage Capacity: 6",
+		        "Void Shields: 4",
+		        "Reinforced Armour",
+				"Thick Rear Armour",
+		        "Fearless",
 				"Transport"
 			],
-			"crit": "The unit and all units being carried are destroyed."
+			"notes": "May transport one Steel Hawk Gyrokopter and up to five Vultarax Robots",
+			"crit": "The Colossus takes one an additional damage, and D3 transported units takes a hit."
 
 		},
 		{
 			"name": "Squat Cyclops",
-			"type": "AC/WE",
-			"speed": "Bomber",
-			"armour": 4,
-			"cc": 5,
-			"ff": 3,
+			"type": "WE",
+			"speed": "15",
+			"armour": 5,
+			"cc": 6,
+			"ff": 4,
 			"weapons": [
-				"Twin Lascannon|2",
-				"AC Twin Heavy Bolter|3"
+				"Hellfury Cannon||FxF",
+				"Battle Cannon",
+				"Plasma Missile|6|FxF",
+				"Storm Bolter Array"
 			],
 			"specialRules": [
-				"Damage Capacity 4",
-				"Fearless",
-				"Planetfall",
-				"Reinforced Armour",
-				"Transport"
+				"Damage Capacity: 6",
+		        "Void Shields: 4",
+		        "Reinforced Armour",
+				"Thick Rear Armour",
+		        "Fearless"
 			],
-			"crit": "The unit and all units being carried are destroyed."
+			"crit": "The Cyclops is destroyed. All units within 5cm takes a hit."
 
 		},
 		{
 			"name": "Squat Land Train",
-			"type": "AC/WE",
-			"speed": "Bomber",
+			"type": "WE",
+			"speed": "20",
 			"armour": 4,
 			"cc": 5,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
-				"Twin Lascannon|2",
-				"AC Twin Heavy Bolter|3"
+				"Imperial Doomsday Cannon||FxF",
+		        "Battle Cannon|2|",
+		        "Storm Bolter Array",
+				"BATTLE CAR WEAPONS",
+				"Berserker Battle Car",
+				"Dragon Battle Car",
+				"Siege Mortar Battle Car",
+				"0-1 Bomb Battle Car"
 			],
 			"specialRules": [
-				"Damage Capacity 4",
-				"Fearless",
-				"Planetfall",
+				"Damage Capacity: 2 + the current number of Battle Cars",
+				"Void Shields: the current number of Battle Cars",
 				"Reinforced Armour",
-				"Transport"
+				"Thick Rear Armour",
+		        "Fearless"
 			],
-			"crit": "The unit and all units being carried are destroyed."
+			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train.",
+			"crit": "The last Battle Car is destroyed. If no Battle Cars remain the Land Train is destroyed."
 
 		}
 	]

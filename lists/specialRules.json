@@ -82,7 +82,7 @@
     {
       "title": "Stubborn",
       "description": [
-        "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+        "Any formation where at least one unit has Stubborn are subject to the following rules: Reduce the damage caused by Blast Markers while the formation is broken by one. Reduce the number of extra hits from losing an assault by one."
       ]
     },
     {
@@ -214,7 +214,7 @@
     {
       "title": "Act of Faith",
       "description": [
-        "Formations where all units have the 'Faithful' special rule gains Fearless until end of turn when performing an Engage or a Marshal action. If the roll to activate fails, the formation does not recieve the Act of Faith bonus. Units with the 'Faithful' special rule also counts as being 'Stubborn'"
+        "Units that have the 'Faithful' special rule gains Fearless until end of turn when performing an Engage or a Marshal action. If the roll to activate fails, the units does not recieve the Act of Faith bonus. Units with the 'Faithful' special rule also counts as being 'Stubborn'"
       ]
   },
 

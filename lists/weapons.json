@@ -44,6 +44,13 @@
         ]
       },
       {
+        "name": "BATTLE CAR WEAPONS",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
         "name": "BELLY (choose one)",
           "modes": [
             {
@@ -1035,13 +1042,12 @@
           ]
                 },
     {
-      "name": "Acastus Conversion Beamer",
+      "name": "Acastus Twin Conversion Beamer",
         "modes": [
           {
             "firepower": "MW3+",
               "range": 90,
             "specialRules": [
-              "FxF"
           ]
           }
       ]
@@ -1447,6 +1453,55 @@
           "firepower": "Small Arms",
           "specialRules": [
             "EA(+2)"
+      ]
+        }
+      ]
+    },
+    {
+      "name": "Berserker Battle Car",
+      "modes": [
+        {
+          "firepower": "2x AP5+/AT6+",
+          "range": 45,
+          "specialRules": [
+              "Spec[*]"
+      ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Battle Car",
+      "modes": [
+        {
+          "firepower": "4x AP4+",
+          "range": 30,
+          "specialRules": [
+      ]
+        }
+      ]
+    },
+    {
+      "name": "Siege Mortar Battle Car",
+      "modes": [
+        {
+          "firepower": "2 BP",
+          "range": 45,
+          "specialRules": [
+              "Ind",
+              "Slw"
+      ]
+        }
+      ]
+    },
+    {
+      "name": "0-1 Bomb Battle Car",
+      "modes": [
+        {
+          "firepower": "8 BP",
+          "range": 60,
+          "specialRules": [
+              "MW",
+              "SS"
       ]
         }
       ]
@@ -1964,6 +2019,17 @@
             "firepower": "Small Arms",
             "specialRules": [
 
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Storm Bolter Array",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)"
           ]
           }
       ]
@@ -2977,7 +3043,7 @@
       ]
     },
     {
-      "name": "Doomsday Cannon",
+      "name": "Necron Doomsday Cannon",
         "modes": [
           {
             "firepower": "AP3+/AT3+",
@@ -3007,14 +3073,13 @@
       ]
     },
     {
-      "name": "Leviathan Doomsday Cannon",
+      "name": "Imperial Doomsday Cannon",
         "modes": [
           {
             "firepower": "3BP",
-            "range": 75,
+            "range": 90,
             "specialRules": [
-              "MW",
-              "FxF"
+              "MW"
           ]
           }
       ]
@@ -4233,6 +4298,19 @@
       ]
     },
     {
+      "name": "Hellfury Cannon",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 100,
+            "specialRules": [
+                "TK(D6)",
+                "Shield Disruptor"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Hellglaives",
         "modes": [
           {
@@ -5295,6 +5373,19 @@
       ]
     },
     {
+      "name": "Mega Cannon",
+        "modes": [
+          {
+            "firepower": "3 BP",
+            "range": 120,
+            "specialRules": [
+                "Ind",
+                "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Mega-Choppa",
       "modes": [
         {
@@ -5457,6 +5548,15 @@
       "modes": [
         {
           "firepower": "AP5+/AT6+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Havoc Missile Launcher",
+      "modes": [
+        {
+          "firepower": "AP6+/AT6+",
           "range": 45
         }
       ]
@@ -6087,6 +6187,19 @@
             "range": 75,
             "specialRules": [
                 "Slw"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Plasma Missile",
+        "modes": [
+          {
+            "firepower": "2 BP",
+            "range": 60,
+            "specialRules": [
+                "Ind",
+                "SS"
           ]
           }
       ]
@@ -7620,25 +7733,33 @@
       ]
     },
     {
-      "name": "Solar Flare",
+      "name": "Star Cage",
         "modes": [
           {
             "firepower": "MW3+",
-            "range": 75,
+            "range": 120,
             "specialRules": [
-              "TK(D3+1)",
+              "TK(D6+1)",
               "Shield Disruptor"
           ]
           },
           {
             "firepower": "3BP",
             "join": "or",
-            "range": 75,
+            "range": 120,
             "specialRules": [
                 "MW",
                 "IC"
           ]
-        }
+      },
+      {
+        "firepower": "Small Arms",
+        "join": "and",
+        "specialRules": [
+            "MW",
+            "IC"
+      ]
+    }
       ]
     },
     {
@@ -8235,7 +8356,7 @@
       ]
     },
     {
-      "name": "Thunder Fire Cannons",
+      "name": "Squat Thunderfire Cannons",
         "modes": [
           {
             "firepower": "AP4+/AT4+/AA4+",

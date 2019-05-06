@@ -1397,23 +1397,24 @@
     {
       "name": "Leviathan Mobile Command Center",
       "type": "WE",
-      "speed": 15,
-      "armour": 4,
+      "speed": 20,
+      "armour": 5,
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Leviathan Doomsday Cannon",
-        "Heavy Bolter AA Turret|4|",
-        "Battle Cannon|3|Left",
-        "Battle Cannon|3|Right"
+        "Imperial Doomsday Cannon",
+        "Battle Cannon",
+        "Storm Bolter Array",
+        "Twin Lascannon|3|Left",
+        "Twin Lascannon|3|Right"
       ],
       "specialRules": [
-        "Damage Capacity: 5",
+        "Damage Capacity: 6",
         "Void Shields: 4",
         "Reinforced Armour",
-        "Fearless",
-        "Transport: Transport 10 infantry units without jumppack or mounted. Up to four units may shoot and FF from the fighting platform."
+        "Fearless"
       ],
+      "notes": "May transport 10 infantry units without jumppack or mounted. Up to four units may shoot and FF from the fighting platform",
       "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
     },
     {
