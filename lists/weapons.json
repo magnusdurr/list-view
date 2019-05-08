@@ -545,7 +545,7 @@
       "name": "AC Pulse Laser",
       "modes": [
         {
-          "firepower": "2x AT4+",
+          "firepower": "AT4+",
           "range": 30,
           "specialRules": [
             "FxF"
@@ -7737,19 +7737,21 @@
         "modes": [
           {
             "firepower": "MW3+",
-            "range": 120,
+            "range": 100,
             "specialRules": [
               "TK(D6+1)",
-              "Shield Disruptor"
+              "Shield Disruptor",
+              "FxF"
           ]
           },
           {
             "firepower": "3BP",
             "join": "or",
-            "range": 120,
+            "range": 100,
             "specialRules": [
                 "MW",
-                "IC"
+                "IC",
+                "FxF"
           ]
       },
       {
