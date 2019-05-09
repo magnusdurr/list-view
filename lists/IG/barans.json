@@ -30,7 +30,7 @@
         "Snipers",
         "Thudd Gun",
         "Rapier",
-        "Heavy Mortar",
+        "Mole Launcher Squad",
         "Heavy AA Gun",
         "Medusa",
         "Bombard",
@@ -73,6 +73,7 @@
               "Rapiers",
               "Thudd Guns",
               "Trench Support",
+              "Mole Launchers",
               "Siege Infantry",
               "Snipers",
               "Siegehound Platoon",
@@ -87,6 +88,7 @@
               "Rapiers",
               "Thudd Guns",
               "Trench Support",
+              "Mole Launchers",
               "Siege Infantry",
               "Snipers",
               "Siegehound Platoon",
@@ -121,13 +123,6 @@
           "upgrades": [
           ],
           "points": 225
-        },
-        {
-          "name": "Heavy Mortar Battery",
-          "units": "Four Heavy Mortars and four Gun Emplacements",
-          "upgrades": [
-          ],
-          "points": 175
         },
         {
           "name": "Flak Battery",
@@ -237,7 +232,7 @@
         "name": "Rapiers",
         "options": [
           {
-            "description": "Add six Rapiers",
+            "description": "Add five Rapiers",
             "points": "100 points"
           }
         ]
@@ -246,7 +241,7 @@
         "name": "Thudd Gun",
         "options": [
           {
-            "description": "Add six Thudd Guns",
+            "description": "Add five Thudd Guns",
             "points": "150 points"
           }
         ]
@@ -257,6 +252,15 @@
           {
             "description": "Add four Trench Support Squads",
             "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Mole Launchers",
+        "options": [
+          {
+            "description": "Add three Mole Launcher Squads",
+            "points": "100 points"
           }
         ]
       },

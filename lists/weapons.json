@@ -2279,7 +2279,7 @@
       "name": "Cobra D-Cannon",
         "modes": [
           {
-            "firepower": "MW3+ FxF",
+            "firepower": "MW3+",
             "range": 30,
             "specialRules": [
               "TK(D3+1)",
@@ -2287,7 +2287,7 @@
           ]
           },
           {
-            "firepower": "3BP FxF",
+            "firepower": "3BP",
             "join": "or",
             "specialRules": [
               "MW",
@@ -5595,10 +5595,24 @@
       ]
     },
     {
+      "name": "Mole Launchers",
+      "modes": [
+        {
+          "firepower": "1 BP",
+          "range": 30,
+          "specialRules": [
+            "Ind",
+            "D"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Mole Mortar",
       "modes": [
         {
           "firepower": "1 BP",
+          "range": 30,
           "specialRules": [
             "Ind",
             "D"
