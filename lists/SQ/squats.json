@@ -112,7 +112,6 @@
           "name": "Dirigible",
           "units": "One Squat Overlord Dirigible",
           "extraUnits": [
-            "May add Gun Emplacements for +25 points"
           ],
           "points": 225
         },
@@ -132,7 +131,7 @@
               "Replace five Squat Mole Mortars with five Squat Thudd Guns: Free",
               "Rapiers"
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Vultarax Maniple",
@@ -164,14 +163,14 @@
           "units": "Two Squat Goliath Mega Cannons",
           "extraUnits": [
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Hellebore",
           "units": "One Hellebore",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 225
         },
         {
             "name": "Leviathan",
@@ -214,7 +213,7 @@
             "units": "Two Squat Iron Eagle Gunships",
             "extraUnits": [
             ],
-            "points": 200
+            "points": 175
         }
       ]
     }
@@ -239,7 +238,7 @@
         "options": [
           {
             "description": "Replace any number of Squat Warriors or Squat Berserkers with Squat Hearthguards",
-            "points": "25 points each"
+            "points": "15 points each"
           }
         ]
       },
@@ -266,7 +265,11 @@
           {
             "description": "Add enough Squat Termites to transport the entire formation with no space left over. The formation must enter the game by Tunneling",
             "points": "15 points each"
-          }
+        },
+        {
+          "description": "Add one Squat Leviathan to the formation.",
+          "points": "250 points"
+        }
         ]
       },
       {

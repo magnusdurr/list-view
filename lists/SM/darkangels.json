@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Dark Angels",
-  "version": "0.8.3",
-  "release": "2019-04-30",
+  "version": "0.8.4",
+  "release": "2019-05-15",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
@@ -94,15 +94,6 @@
           "points": 350
       },
       {
-        "name": "Land Raiders",
-        "units": "Three Land Raiders",
-        "upgrades": [
-            "Anti-Air",
-            "Commander"
-        ],
-        "points": 250
-      },
-      {
         "name": "Deathwing Armoured Detachment",
         "units": "Three Deathwing Land Raiders, three Deathwing Terminators",
         "upgrades": [
@@ -112,9 +103,10 @@
     },
     {
       "name": "Ares Siege Detachment",
-      "units": "Three Land Raider Ares, three Vindicators",
+      "units": "Three Land Raider Ares, two Vindicators",
       "upgrades": [
-          "Commander"
+          "Commander",
+          "Vindicators"
       ],
       "points": 350
     }
@@ -128,6 +120,15 @@
           "name": "Assaults",
           "units": "One Dark Angels Captain, six Assaults",
           "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Land Raiders",
+          "units": "Three Land Raiders",
+          "upgrades": [
+              "Anti-Air",
+              "Commander"
           ],
           "points": 250
         },
@@ -156,7 +157,7 @@
           "upgrades": [
             "Venegance"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Scouts",
@@ -190,7 +191,7 @@
             },
             {
               "name": "Deimos",
-              "points": "400"
+              "points": "450"
             }
           ]
         }
@@ -203,7 +204,7 @@
         {
           "name": "Nephilim Squadron",
           "units": "Two Ravenwing Nephilim Interceptors",
-          "points": 200
+          "points": 225
         },
         {
           "name": "Dark Talon Squadron",
@@ -229,6 +230,13 @@
         "name": "Attack Bikes",
         "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
         "points": "Free"
+      },
+      {
+        "name": "Vindicator",
+        "description": "Add up to two Vindicators",
+        "points":
+        "50 points for two",
+        "75 points for four"
       },
       {
         "name": "Strike Cruiser",
@@ -279,10 +287,9 @@
       },
       {
         "name": "Snipers",
-        "description": "Give two or four Scouts Sniper",
+        "description": "Give all Scouts Sniper",
         "points": [
-          "25 points for two",
-          "50 points for four"
+          "25 points"
         ]
       },
       {

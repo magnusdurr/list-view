@@ -1,8 +1,8 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "0.9.0",
-  "release": "2019-05-08",
+  "version": "0.9.1",
+  "release": "2019-05-15",
   "strategy": "Necron armies have a Strategy Rating of 1",
   "Initiative": "All Necron formations have an Initiative Rating of 1+",
 
@@ -108,11 +108,10 @@
       "formations": [
         {
           "name": "Obelisk Phalanx",
-          "units": "Four Obelisks",
+          "units": "Six Obelisks",
           "extraUnits": [
-              "Add up to two Obelisks: 50 points each"
           ],
-          "points": 225
+          "points": 300
         },
         {
           "name": "Destroyer Phalanx",
@@ -122,7 +121,7 @@
               "C'tan Shard",
               "Replace one Destroyer with a Necron Destroyer Lord: 25 points",
               "Add up to two Tomb Spyders: 50 points for one, 75 points for two",
-              "Add up to two Wraiths: 25 points each"
+              "Replace up to three Destroyers with Wraiths: Free"
           ],
           "points": 225
         },
@@ -135,12 +134,20 @@
         },
         {
           "name": "Monolith Phalanx",
-          "units": "Two Monoliths, one Obelisk",
+          "units": "Three Monoliths",
+          "extraUnits": [
+              "Add three Obelisks: 125 points"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Monolith Maniple",
+          "units": "One Monolith, two Obelisks",
           "extraUnits": [
               "Add up to one Monolith: 75 points",
               "Add up to one Obelisk: 50 points"
           ],
-          "points": 250
+          "points": 200
         },
       {
         "name": "Stalker Maniple",
