@@ -232,11 +232,11 @@
         "points": "Free"
       },
       {
-        "name": "Vindicator",
+        "name": "Vindicators",
         "description": "Add up to two Vindicators",
         "points":
-        "50 points for two",
-        "75 points for four"
+        ["50 points for one",
+        "75 points for two"]
       },
       {
         "name": "Strike Cruiser",
@@ -287,10 +287,8 @@
       },
       {
         "name": "Snipers",
-        "description": "Give all Scouts Sniper",
-        "points": [
-          "25 points"
-        ]
+        "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",
+        "points": "25 points"
       },
       {
         "name": "Venegance",
