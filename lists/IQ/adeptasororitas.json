@@ -1,11 +1,11 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.7.7",
-  "release": "2019-04-10",
+  "version": "0.8.0",
+  "release": "2019-05-17",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
-  "specialRules": ["Act of Faith", "Stubborn"],
+  "specialRules": ["Act of Faith"],
   "usage": [
     "The following army list allows you to field an army based on the Adepta Sororitas, Chamber Militant of the Ordo Hereticus"
   ],
@@ -79,7 +79,7 @@
             "Hunter",
             "Transport"
           ],
-          "points": 250
+          "points": 225
 
       }
     ]
@@ -102,7 +102,7 @@
           "units": "Three Celestian Sisters, three Immolators",
           "extraUnits": [
           ],
-          "points": 235
+          "points": 225
         },
         {
           "name": "Seraphim",
@@ -135,7 +135,7 @@
             "Add one Priest: 25 points",
             "Transport"
           ],
-          "points": 125
+          "points": 150
         }
       ]
     },
@@ -162,16 +162,16 @@
         },
         {
           "name": "Penitence",
-          "units": "Four Penitent Engines",
+          "units": "Six Penitent Engines",
           "extraUnits": [
               ],
-          "points": 175
+          "points": 250
       },
       {
         "name": "Redemption",
-        "units": "Ten Redemptionists",
+        "units": "Eight Redemptionists",
         "extraUnits": [
-          "Add 5 OH Land Transporters: 25 points",
+          "Add four OH Land Transporters: 50 points",
           "Add two Penitent Engines: 50 points",
           "Add one Priest: 25 points"
         ],
@@ -191,7 +191,7 @@
         {
           "name": "Marauder Colossus Squadron",
           "units": "Two Marauder Colossus",
-          "points": 275
+          "points": 250
         },
         {
           "name": "0–1 Orbital Support",
@@ -251,7 +251,7 @@
           },
           {
             "description": "Add any number of Sororitas Rhinos",
-            "points": "5 points each"
+            "points": "10 points each"
           }
         ]
       }
