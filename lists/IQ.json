@@ -52,7 +52,7 @@
         "name": "Living Saint",
         "type": "INF",
         "speed": 30,
-        "armour": 4,
+        "armour": 3,
         "cc": 3,
         "ff": 5,
         "weapons": [
@@ -91,7 +91,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Twin Multi-Melta"
+          "Multi-Melta|2|"
         ],
         "specialRules": [
           "Faithful"
@@ -314,14 +314,14 @@
     "crit":  "The Cathedral of the God-Emperor takes D3 additional damage, and D6 transported units takes a hit."
 },
     {
-      "name": "Inquisitor",
+      "name": "Ordo Hereticus Inquisitor",
       "type": "INF",
       "speed": 15,
       "armour": 3,
-      "cc": 4,
+      "cc": 3,
       "ff": 4,
       "weapons": [
-        "Storm Bolter",
+        "Heavy Flamer",
         "Power Weapon"
       ],
       "specialRules": [
@@ -329,6 +329,23 @@
         "Commander",
         "Invulnerable Save",
         "Leader"
+      ]
+    },
+    {
+      "name": "Ordo Hereticus Inquisitor Lord",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Heavy Flamer",
+        "Power Weapon"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Inspiring",
+        "Invulnerable Save",
       ]
     },
     {
@@ -389,7 +406,7 @@
     ]
 },
   {
-    "name": "OH Land Transporter",
+    "name": "Ordo Hereticus Land Transporter",
     "type": "LV",
     "speed": 30,
     "armour": 5,

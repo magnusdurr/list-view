@@ -75,7 +75,7 @@
           "units": "One Palatine, eight Battle Sisters",
           "extraUnits": [
             "Exorcists",
-            "Superior",
+            "Ordo Hereticus Superior",
             "Hunter",
             "Transport"
           ],
@@ -92,7 +92,7 @@
             "name": "Exorcism",
             "units": "Four Exorcist Prioris",
             "extraUnits": [
-              "Replace four Exorcist Prioris with four Exorcist Sanctorum: 25 points",
+              "Replace four Exorcist Prioris with four Exorcist Sanctorum: 25 point",
               "Hunter"
             ],
             "points": 250
@@ -102,7 +102,7 @@
           "units": "Three Celestian Sisters, three Immolators",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Seraphim",
@@ -144,13 +144,14 @@
       "description": "Two Ordo Hereticus formations may be fielded per Adepta Sororitas Core Detachment",
       "formations": [
           {
-            "name": "0-1 Ordo Hereticus Inquisitor",
-            "units": "One Inquisitor, seven Tempestus Scions, four Chimeras",
+            "name": "0-1 Inquisitor",
+            "units": "One Ordo Hereticus Inquisitor, five Tempestus Scions, three Chimeras",
             "extraUnits": [
-            "Replace four Chimeras with three Valkyries and two Vendettas: 100 points",
-            "Add two Hellhounds: 50 points"
+            "Ordo Hereticus Superior",
+            "Replace three Chimeras with two Valkyries and two Vendettas: 75 points",
+            "Add up to three Hellhounds: 25 points each"
             ],
-            "points": 300
+            "points": 250
         },
         {
           "name": "Flagellant",
@@ -171,7 +172,7 @@
         "name": "Redemption",
         "units": "Eight Redemptionists",
         "extraUnits": [
-          "Add four OH Land Transporters: 50 points",
+          "Add four Ordo Hereticus Land Transporters: 40 points",
           "Add two Penitent Engines: 50 points",
           "Add one Priest: 25 points"
         ],
@@ -191,7 +192,7 @@
         {
           "name": "Marauder Colossus Squadron",
           "units": "Two Marauder Colossus",
-          "points": 250
+          "points": 225
         },
         {
           "name": "0–1 Orbital Support",
@@ -206,18 +207,23 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Superior",
+        "name": "Ordo Hereticus Superior (0-1 per army)",
         "description": "Choose one of the following",
         "options": [
           {
-            "description": "Replace the Palatine with a Cannoness (1 per army)",
+            "description": "Replace the Palatine with a Cannoness (Mission and Seraphim Detachments only)",
             "points": "75 points"
           },
           {
-            "description": "Replace the Palatine and its unit with a Living Saint (1 per army)",
+            "description": "Replace the Inquisitor and its unit with an Inquisitor Lord (Ordo Hereticus Inquisitor Formation only)",
             "points": "50 points"
           }
         ]
+      },
+      {
+        "name": "Living Saint (0-1 per army)",
+        "description": "Replace the Palatine and its unit with a Living Saint",
+        "points": "50 points"
       },
       {
         "name": "Exorcists",
@@ -243,11 +249,11 @@
             },
             {
               "description": "Add any number of Immolators",
-              "points": "25 points each"
+              "points": "40 points each"
             },
           {
             "description": "Add any number of Repressors",
-            "points": "15 points each"
+            "points": "25 points each"
           },
           {
             "description": "Add any number of Sororitas Rhinos",
