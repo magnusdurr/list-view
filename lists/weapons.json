@@ -1487,6 +1487,7 @@
           "firepower": "2BP",
           "range": 45,
           "specialRules": [
+              "IC",
               "Ind",
               "Slw"
       ]
@@ -3079,7 +3080,7 @@
             "firepower": "3BP",
             "range": 90,
             "specialRules": [
-              "MW"
+              "IC"
           ]
           }
       ]
@@ -5379,8 +5380,9 @@
             "firepower": "2BP",
             "range": 120,
             "specialRules": [
-                "Ind",
-                "IC"
+                "IC",
+                "Ind"
+
           ]
         }
       ]
