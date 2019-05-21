@@ -22,7 +22,8 @@
 				"Master-Crafted Gun"
 			],
 			"specialRules": [
-				"Supreme Commander"
+				"Supreme Commander",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -33,7 +34,8 @@
 			],
 			"specialRules": [
 				"Leader",
-				"Commander"
+				"Commander",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -103,7 +105,7 @@
 			"speed": 10,
 			"armour": 6,
 			"cc": 6,
-			"ff": 4,
+			"ff": 3,
 			"weapons": [
 				"Missile Launcher",
 				"Heavy Bolter|3|"
@@ -150,24 +152,23 @@
 		{
 			"name": "Squat Guildmaster Trike",
 			"type": "LV",
-			"speed": 35,
-			"armour": 4,
-			"cc": 4,
+			"speed": 30,
+			"armour": 3,
+			"cc": 3,
 			"ff": 5,
 			"weapons": [
-				"Bolters",
+				"Twin Bolters",
 				"Trike Power Lance"
 			],
 			"specialRules": [
 				"Commander",
-				"Reinforced Armour",
 				"Leader"
 			]
 		},
 		{
 			"name": "Squat Trike",
 			"type": "LV",
-			"speed": 35,
+			"speed": 30,
 			"armour": 4,
 			"cc": 6,
 			"ff": 5,
@@ -182,7 +183,7 @@
 			"type": "INF",
 			"speed": 35,
 			"armour": 4,
-			"cc": 3,
+			"cc": 4,
 			"ff": 5,
 			"weapons": [
 				"Twin Bolters"
@@ -267,7 +268,7 @@
 			"name": "Squat Overlord Dirigible",
 			"type": "WE",
 			"speed": "20",
-			"armour": 4,
+			"armour": 5,
 			"ff": 4,
 			"weapons": [
 				"Battle Cannon|3|Left",
@@ -300,7 +301,7 @@
 			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
 		},
 		{
-			"name": "Hellebore",
+			"name": "Squat Hellebore",
 			"type": "WE",
 			"speed": "Immobile",
 			"armour": 5,
@@ -317,7 +318,7 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport ten infantry units without Jump Packs or Mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each.",
+			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each.",
 			"crit": "The Hellebore and all units being transported are destroyed."
 
 		},

@@ -1,8 +1,8 @@
 {
   "fraction": "Squats",
   "army": "Wodan Stronghold",
-  "version": "0.5.1",
-  "release": "2019-05-17",
+  "version": "0.6.0",
+  "release": "2019-05-21",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -59,7 +59,7 @@
           "Conqueror Robot",
           "Vultarax Robot"
         ],
-              "unitRules": ["Machine Spirit"]
+              "unitRules": ["Machine Spirit", "Ponderous"]
     }
 ],
 "sections": [
@@ -68,52 +68,54 @@
       "formations": [
         {
           "name": "Warriors",
-          "units": "One Squat Warlord and ten Squat Warriors",
+          "units": "One Squat Warlord and eight Squat Warriors",
           "extraUnits": [
               "Grand Warlord",
-              "Hearthguards",
               "Thunderers",
+              "Rapiers",
               "Transport"
 
           ],
           "points": 200
-        },
-        {
-          "name": "Berserkers",
-          "units": "One Squat Warlord and eight Squat Berserkers",
-          "extraUnits": [
-              "Grand Warlord",
-              "Hearthguards",
-              "Transport"
-          ],
-          "points": 175
-      }
+        }
       ]
     },
     {
       "name": "Wodan Stronghold Support Formations",
       "description": "up to two Stronghold Support Formations for each Stronghold Core Formation.",
       "formations": [
+          {
+            "name": "Berserkers",
+            "units": "One Squat Warlord and six Squat Berserkers",
+            "extraUnits": [
+                "Grand Warlord",
+                "Hearthguards",
+                "Transport"
+            ],
+            "points": 150
+        },
         {
           "name": "Bikers",
-          "units": "One Squat Guildmaster Trike and six Squat Bikers and/or Squat Trikes",
+          "units": "Six Squat Bikers",
           "extraUnits": [
+              "Add one Squat Guildmaster Trike: 25 points",
+              "Replace up to three Squat Bikers with Squat Trikes: Free"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Gyrokopters",
           "units": "Four Squat Steel Hawk Gyrokopters",
           "extraUnits": [
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Dirigible",
           "units": "One Squat Overlord Dirigible",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Thunderers",
@@ -169,6 +171,7 @@
           "name": "Hellebore",
           "units": "One Hellebore",
           "extraUnits": [
+                "Living Ancestor"
           ],
           "points": 225
         },
@@ -237,7 +240,7 @@
         "name": "Hearthguards",
         "options": [
           {
-            "description": "Replace any number of Squat Warriors or Squat Berserkers with Squat Hearthguards",
+            "description": "Replace up to three Squat Berserkers with Squat Hearthguards",
             "points": "15 points each"
           }
         ]
@@ -246,8 +249,8 @@
         "name": "Thunderers",
         "options": [
           {
-            "description": "Add up to four Squat Thunderers",
-            "points": "25 points each"
+            "description": "Replace up to four Squat Warriors with Squat Thunderers",
+            "points": "15 points each"
           }
         ]
       },
@@ -264,11 +267,7 @@
           },
           {
             "description": "Add enough Squat Termites to transport the entire formation with no space left over. The formation must enter the game by Tunneling",
-            "points": "15 points each"
-        },
-        {
-          "description": "Add one Squat Leviathan to the formation.",
-          "points": "250 points"
+            "points": "20 points each"
         }
         ]
       },
@@ -285,8 +284,8 @@
         "name": "Living Ancestor",
         "options": [
           {
-            "description": "(Max one per army) Add one Living Ancestor to the formation.",
-            "points": "75 points"
+            "description": "Add one Living Ancestor to the formation.",
+            "points": "50 points"
           }
         ]
       }
