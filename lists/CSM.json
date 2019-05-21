@@ -295,7 +295,7 @@
           "Teleport",
           "Fearless",
           "Daemonic Pact",
-          "Augment Summoning (+1D3)",
+          "Augment Summoning (+2D3)",
           "Daemonic Focus"
         ]
       },
@@ -591,6 +591,21 @@
           "Invulnerable Save"
         ]
       },
+      {
+        "name": "Sorcerer Disc Rider",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Sorcerous Bolts"
+        ],
+        "specialRules": [
+            "Jump Packs",
+            "Invulnerable Save"
+        ]
+    },
       {
         "name": "Obliterators",
         "type": "INF",
