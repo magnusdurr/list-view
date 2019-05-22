@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Thousand Sons",
-  "version": "0.8.2",
-  "release": "2019-05-21",
+  "version": "0.8.4",
+  "release": "2019-05-22",
   "strategy": "Thousand Sons armies have a Strategy Rating of 4.",
   "Initiative": "All Thousand Sons Core and Elite formations, as well as the Warphound Pack formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -88,7 +88,6 @@
 
   ],
   "unitRules": [
-      "Shield Disruptor"
 
   ]
   }
@@ -106,7 +105,7 @@
             "Predators",
             "Dreadnoughts"
           ],
-          "points": 275
+          "points": 300
         }
       ]
     },
@@ -131,7 +130,7 @@
               "Supreme Commander",
               "Terminator Transport"
           ],
-          "points": 350
+          "points": 400
       },
       {
         "name": "Predator Company",
@@ -147,8 +146,8 @@
       "upgrades": [
         "Supreme Commander"
       ],
-      "points": 225
-  },
+      "points": 250
+  }
     ]
   },
   {
@@ -215,9 +214,9 @@
             "name": "Firelord Squadron",
             "units": "Two Firelord Bombers",
             "upgrades": [
-              "Add one Firelord for 75 points"
+              "Add one Firelord for 100 points"
             ],
-            "points": 200
+            "points": 225
           },
         {
           "name": "0-1 Chaos Cruiser",
@@ -309,7 +308,7 @@
           },
           {
             "description": "Add one Vortex Beast to the formation",
-            "points": "75 points"
+            "points": "100 points"
           }
         ]
     }
