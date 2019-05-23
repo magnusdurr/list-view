@@ -1,8 +1,8 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.8.0",
-  "release": "2019-05-17",
+  "version": "0.8.1",
+  "release": "2019-05-24",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
   "specialRules": ["Act of Faith"],
@@ -14,10 +14,11 @@
       "from": "IQ.json",
       "units": [
         "Canoness",
-        "Inquisitor",
         "Palatine",
         "Priest",
         "Living Saint",
+        "Ordo Hereticus Inquisitor Lord",
+        "Ordo Hereticus Inquisitor",
         "Arco-Flagellants",
         "Battle Sisters",
         "Dominion Sisters",
@@ -34,7 +35,7 @@
         "Repressor",
         "Immolator",
         "Emperor's Chapel",
-        "OH Land Transporter"
+        "Ordo Hereticus Land Transporter"
       ],
       "unitRules": [
           "Void Shields"
@@ -75,10 +76,10 @@
           "extraUnits": [
             "Exorcists",
             "Ordo Hereticus Superior",
-            "Hunter",
+            "Hunters",
             "Transport"
           ],
-          "points": 225
+          "points": 250
 
       }
     ]
@@ -91,17 +92,17 @@
             "name": "Exorcism",
             "units": "Four Exorcist Prioris",
             "extraUnits": [
-              "Replace four Exorcist Prioris with four Exorcist Sanctorum: 25 point",
-              "Hunter"
+              "Replace four Exorcist Prioris with four Exorcist Sanctorum: Free",
+              "Hunters"
             ],
-            "points": 250
+            "points": 275
         },
         {
           "name": "Immolation",
           "units": "Three Celestian Sisters, three Immolators",
           "extraUnits": [
           ],
-          "points": 250
+          "points": 275
         },
         {
           "name": "Seraphim",
@@ -117,8 +118,16 @@
           "units": "Four Retributor Sisters, two Retributors",
           "extraUnits": [
           ],
-          "points": 200
+          "points": 225
       },
+      {
+        "name": "Repentance",
+        "units": "Four Repentia Sisters, two Repressors",
+        "extraUnits": [
+          "Add one Priest: 25 points"
+        ],
+        "points": 175
+    },
         {
           "name": "Dominion",
           "units": "Four Dominion Sisters",
@@ -126,16 +135,8 @@
             "Transport"
           ],
           "points": 150
-        },
-        {
-          "name": "Repentance",
-          "units": "Four Repentia Sisters",
-          "extraUnits": [
-            "Add one Priest: 25 points",
-            "Transport"
-          ],
-          "points": 150
         }
+
       ]
     },
     {
@@ -150,13 +151,13 @@
             "Replace three Chimeras with two Valkyries and two Vendettas: 75 points",
             "Add up to three Hellhounds: 25 points each"
             ],
-            "points": 250
+            "points": 275
         },
         {
           "name": "Flagellant",
           "units": "Six Arco-Flagellants",
           "extraUnits": [
-            "Add two Penitent Engines: 50 points"
+            "Add up to two Penitent Engines: 35 points each"
           ],
           "points": 225
         },
@@ -172,7 +173,7 @@
         "units": "Eight Redemptionists",
         "extraUnits": [
           "Add four Ordo Hereticus Land Transporters: 40 points",
-          "Add two Penitent Engines: 50 points",
+          "Add up to two Penitent Engines: 35 points each",
           "Add one Priest: 25 points"
         ],
         "points": 150
@@ -226,13 +227,19 @@
       },
       {
         "name": "Exorcists",
-        "description": "Add two Exorcist Prioris",
-        "points": "75 points"
+        "description": "Add up to two Exorcist Prioris",
+        "points": [
+          "50 points for one",
+          "75 points for two"
+        ]
       },
       {
-        "name": "Hunter",
-        "description": "Add one Sororitas Hunter",
-        "points": "75 points"
+        "name": "Hunters",
+        "description": "Add up to two Sororitas Hunters",
+        "points": [
+          "75 points for one",
+          "125 points for two"
+        ]
       },
       {
         "name": "Transport",
@@ -244,7 +251,7 @@
             },
             {
               "description": "Add one Emperor's Chapel (Mission only)",
-              "points": "175 points"
+              "points": "150 points"
             },
             {
               "description": "Add any number of Immolators",
@@ -252,7 +259,7 @@
             },
           {
             "description": "Add any number of Repressors",
-            "points": "25 points each"
+            "points": "20 points each"
           },
           {
             "description": "Add any number of Sororitas Rhinos",

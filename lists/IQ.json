@@ -67,6 +67,41 @@
           "Invulnerable Save"
         ]
       },
+      {
+        "name": "Ordo Hereticus Inquisitor Lord",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Heavy Flamer",
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Fearless",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Ordo Hereticus Inquisitor",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Heavy Flamer",
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Fearless",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
 
       {
         "name": "Battle Sisters",
@@ -313,41 +348,7 @@
     "notes": "May transport eight infantry units without Mounted or Jet Packs.",
     "crit":  "The Cathedral of the God-Emperor takes D3 additional damage, and D6 transported units takes a hit."
 },
-    {
-      "name": "Ordo Hereticus Inquisitor",
-      "type": "INF",
-      "speed": 15,
-      "armour": 3,
-      "cc": 3,
-      "ff": 4,
-      "weapons": [
-        "Heavy Flamer",
-        "Power Weapon"
-      ],
-      "specialRules": [
-        "Inspiring",
-        "Commander",
-        "Invulnerable Save",
-        "Leader"
-      ]
-    },
-    {
-      "name": "Ordo Hereticus Inquisitor Lord",
-      "type": "INF",
-      "speed": 15,
-      "armour": 3,
-      "cc": 3,
-      "ff": 4,
-      "weapons": [
-        "Heavy Flamer",
-        "Power Weapon"
-      ],
-      "specialRules": [
-        "Supreme Commander",
-        "Inspiring",
-        "Invulnerable Save",
-      ]
-    },
+
     {
       "name": "Arco-Flagellants",
       "type": "INF",
