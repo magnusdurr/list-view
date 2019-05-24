@@ -1,11 +1,11 @@
 {
   "fraction": "Space Marines",
   "army": "Blood Angels",
-  "version": "0.6.2",
-  "release": "",
+  "version": "0.6.3",
+  "release": "2019-05-24",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "specialRules": ["Space Marine Transports"],
+  "specialRules": ["Space Marine Transports", "Death Company", "Bodyguard"],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Blood Angels Chapter."
   ],
@@ -20,9 +20,7 @@
         "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
-      "unitRules": ["They Shall Know No Fear", "Death Company"
-
-    ]
+      "unitRules": ["They Shall Know No Fear"]
     },
     {
       "from": "ImperialAllies.json",
@@ -38,34 +36,26 @@
       "formations": [
           {
             "name": "1 Death Company",
-            "units": "One Chaplain, four Death Company Marines",
+            "units": "One Chaplain, four Death Company Marines plus transport",
             "extraUnits": [
-                "(Free) The Death Company may either be transported in two Death Company Rhinos, be equipped with Jump Packs, or be mounted in Drop Pods if a Space Ship has been bought",
-                "(100 points) If mounted in Drop Pods, two Death Company Dreadnoughts may be added"
+                "Replace the 'plus transport' option with Jump Packs: Free",
+                "Add two Death Company Dreadnoughts: 100 points"
             ],
-            "points": 250
+            "points": 300
           },
           {
             "name": "0-1 Sanguinary Guard",
-            "units": "One Supreme Commander, four Sanguinary Guards",
-            "upgrades": [
+            "units": "Four Sanguinary Guards",
+            "extraUnits": [
+            "Commander",
             "Predators"
             ],
             "points": 250
           },
         {
-          "name": "Assaults",
-          "units": "Four Assaults",
-          "upgrades": [
-              "Commander",
-              "Predators"
-          ],
-          "points": 175
-        },
-        {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Land Raiders",
             "AAA",
             "Commander",
@@ -73,18 +63,28 @@
             "Dreadnoughts"
           ],
           "points": 275
+      },
+      {
+        "name": "Assaults",
+        "units": "Four Assaults",
+        "extraUnits": [
+            "Commander",
+            "Predators"
+        ],
+        "points": 175
       }
 
       ]
     },
     {
       "name": "Blood Angels Support Detachments",
-      "description": "Three Support Detachments may be fielded per Core Detachment",
+      "description": "Two Support Detachments may be fielded per Core Detachment",
       "formations": [
+
           {
             "name": "Land Raiders",
             "units": "Three Land Raiders",
-            "upgrades": [
+            "extraUnits": [
               "Commander",
               "AAA"
             ],
@@ -93,7 +93,7 @@
           {
             "name": "Baal Predators",
             "units": "Four Baal Predator Hades or four Baal Predator Infernus",
-            "upgrades": [
+            "extraUnits": [
               "Commander",
               "AAA"
             ],
@@ -102,7 +102,7 @@
           {
             "name": "Bikes",
             "units": "Five Assault Bikes",
-            "upgrades": [
+            "extraUnits": [
               "Attack Bikes",
               "Commander"
             ],
@@ -112,7 +112,7 @@
           {
             "name": "Devastators",
             "units": "Four Devastators plus transport",
-            "upgrades": [
+            "extraUnits": [
               "Land Raiders",
               "AAA",
               "Commander",
@@ -124,7 +124,7 @@
         {
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Typhoons"
           ],
@@ -133,7 +133,7 @@
         {
           "name": "Scouts",
           "units": "Four Scouts plus transport",
-          "upgrades": [
+          "extraUnits": [
               "Commander",
             "Razorbacks",
             "Snipers"
@@ -145,7 +145,8 @@
           "name": "Blood Angels Terminators",
           "units": "Three Terminators",
           "extraUnits": [
-              "Replace up to three Terminators with Assault Terminators: Free",
+              "Add up to one Terminator: 75 points",
+              "Replace up to four Terminators with Assault Terminators: Free",
               "Land Raiders",
             "Commander"
           ],
@@ -159,7 +160,7 @@
     {
       "name": "0-1 Orbital Support",
       "units": "One Strike Cruiser",
-      "upgrades": [
+      "extraUnits": [
         "Battle Barge"
       ],
       "points": 200
@@ -178,7 +179,7 @@
         {
           "name": "Storm Raven Squadron",
           "units": "Two Storm Ravens",
-          "upgrades": [
+          "extraUnits": [
               "Add one Storm Raven: 75 points"
           ],
           "points": 175
@@ -213,7 +214,7 @@
       {
         "name": "Dreadnoughts",
         "description": "Add up to three Furioso Dreadnoughts",
-        "points": ["50 points for one, 75 points for two, 125 points for three"]
+        "points": ["50 points for one, 75 points for two, 100 points for three"]
       },
       {
         "name": "Battle Barge",
@@ -227,7 +228,11 @@
           {
             "description": "Captain, Chaplain, Librarian",
             "points": "50 points"
-          }
+        },
+        {
+          "description": "Upgrade one Captain in the army to a Supreme Commander",
+          "points": "50 points"
+        }
         ]
       },
       {
