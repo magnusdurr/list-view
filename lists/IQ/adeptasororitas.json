@@ -1,7 +1,7 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "release": "2019-05-24",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
@@ -154,29 +154,29 @@
             "points": 275
         },
         {
+          "name": "Penitence",
+          "units": "Five Penitent Engines",
+          "extraUnits": [
+              ],
+          "points": 225
+      },
+        {
           "name": "Flagellant",
-          "units": "Six Arco-Flagellants",
+          "units": "Five Arco-Flagellants",
           "extraUnits": [
             "Add up to two Penitent Engines: 35 points each"
           ],
-          "points": 225
+          "points": 200
         },
-        {
-          "name": "Penitence",
-          "units": "Six Penitent Engines",
-          "extraUnits": [
-              ],
-          "points": 250
-      },
       {
         "name": "Redemption",
-        "units": "Eight Redemptionists",
+        "units": "Six Redemptionists",
         "extraUnits": [
-          "Add four Ordo Hereticus Land Transporters: 40 points",
+          "Add three Ordo Hereticus Land Transporters: 25 points",
           "Add up to two Penitent Engines: 35 points each",
           "Add one Priest: 25 points"
         ],
-        "points": 150
+        "points": 125
       }
       ]
     },
