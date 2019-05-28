@@ -1,0 +1,213 @@
+{
+	"fraction": "Imperial Inquisition",
+	"army": "Grey Knights",
+	"version": "0.5.0",
+	"release": "2019-05-28",
+	"strategy": "Grey Knight armies have a Strategy Rating of 5.",
+	"Initiative": "All Grey Knight Detachments, Navy formations and the Ordo Malleus Inquisitor Retinue have an Initiative of 1+. All other formations have an initiative of 2+",
+	"specialRules": ["Grey Knight Transports", "Teleport Homer", "Act of Faith"],
+	"usage": [
+		"The following army list allows you to field an army based on the Grey Knights with Ordo Malleus allies"
+	],
+	"units": [{
+			"from": "IQ.json",
+			"units": [
+				"Ordo Malleus Inquisitor Lord",
+				"Ordo Malleus Inquisitor",
+                "Inquisitorial Land Transporter"
+			],
+			"unitRules": []
+		},
+		{
+			"from": "SM.json",
+			"units": [
+				"Grey Knight Grand Master",
+				"Grey Knight Justicar",
+				"Grey Knight Strike Squad",
+				"Grey Knight Purgation Squad",
+				"Grey Knight Terminators",
+				"Grey Knight Interceptors",
+				"Grey Knight Rhino",
+				"Grey Knight Razorback",
+				"Grey Knight Land Raider",
+				"Grey Knight Land Raider Redeemer",
+				"Doomglaive Dreadnought",
+				"Nemesis Dreadknight",
+				"Grey Knight Storm Talon Gunship",
+				"Grey Knight Thunderhawk Transporter",
+				"Grey Knight Landing Craft",
+                "Drop Pod"
+			],
+			"unitRules": [
+				"They Shall Know No Fear"
+			]
+		},
+		{
+			"from": "IG.json",
+			"units": [
+				"Kasrkin",
+				"Infantry",
+				"Whiteshields",
+				"Chimera",
+				"Hydra",
+				"Praetor Armoured Assault Launcher",
+				"Crassus Armoured Assault Transport",
+                "Leman Russ"
+			],
+			"unitRules": [
+				"Heavy Armoured Vehicle (H-AV)"
+			]
+		}
+	],
+	"sections": [{
+			"name": "Grey Knight Core Detachments",
+			"description": "",
+			"formations": [{
+					"name": "Grey Knight Strike Detachment",
+					"units": "One Grey Knight Justicar, three Grey Knight Strike Squads plus transport",
+					"extraUnits": [
+						"Ordo Malleus Superior"
+					],
+					"points": 325
+				},
+				{
+					"name": "Grey Knight Terminator Detachment",
+					"units": "One Grey Knight Justicar, two Grey Knight Terminators plus transport",
+					"extraUnits": [
+						"Ordo Malleus Superior"
+					],
+					"points": 325
+				}
+			]
+		},
+		{
+			"name": "Grey Knight Support Detachments",
+			"description": "One Grey Knight Support Detachment may be fielded per Grey Knights Core Detachment",
+			"formations": [
+
+				{
+					"name": "Dreadknight Detachment",
+					"units": "Two Nemesis Dreadknights",
+					"extraUnits": [],
+					"points": 350
+				},
+				{
+					"name": "Interceptor Detachment",
+					"units": "One Grey Knight Justicar, three Grey Knight Interceptor Squads",
+					"extraUnits": [
+						"Ordo Malleus Superior"
+					],
+					"points": 275
+				},
+				{
+					"name": "Purgation Detachment",
+					"units": "One Grey Knight Justicar, two Grey Knight Purgation Squads plus transport",
+					"extraUnits": [
+						"Ordo Malleus Superior"
+					],
+					"points": 300
+				},
+				{
+					"name": "Doomglaive Detachment",
+					"units": "Four Doomglaive Dreadnoughts plus transport",
+					"extraUnits": [],
+					"points": 325
+				}
+			]
+		},
+		{
+			"name": "Ordo Malleus Formations",
+			"description": "Two Ordo Malleus Formations may be taken for each Grey Knights Core Detachment",
+			"formations": [{
+					"name": "0-1 Ordo Malleus Inquisitor Retinue",
+					"units": "One Ordo Malleus Inquisitor, five Kasrkin, three Chimeras",
+					"extraUnits": [
+						"Replace three Chimeras with one Crassus Armoured Assault Transport: Free",
+						"Add one Hydra: 50 points",
+						"Ordo Malleus Superior"
+					],
+					"points": 275
+				},
+				{
+					"name": "Shock Trooper Platoon",
+					"units": "Six Infantry units, three Chimeras",
+					"extraUnits": [
+						"Replace three Chimeras with one Crassus Armoured Assault Transport: Free",
+						"Add one Hydra: 50 points"
+					],
+					"points": 225
+				},
+				{
+					"name": "Motorized Whiteshield Platoon",
+					"units": "Six Whiteshields, three Inquisitorial Land Transporters",
+					"extraUnits": [
+					],
+					"points": 175
+				},
+				{
+					"name": "Leman Russ Squadron",
+					"units": "Four Leman Russ",
+					"extraUnits": [
+						"Add one Hydra: 50 points"
+					],
+					"points": 250
+				},
+				{
+		          "name": "Praetor Platoon",
+		          "units": "One Praetor Armoured Assault Launcher",
+		          "points": 200,
+		          "upgrades": [
+		          ]
+		        }
+			]
+		},
+		{
+			"name": "Grey Knight Navy Formations",
+			"description": "Up to a third of the points available may be spent on Grey Knight Navy Formations",
+			"formations": [{
+					"name": "Grey Knight Storm Talons",
+					"units": "Two Grey Knight Storm Talon Gunships",
+					"points": 250
+				},
+				{
+					"name": "Grey Knight Thunderhawk Transporter",
+					"units": "One Grey Knight Thunderhawk Transporter",
+					"extraUnits": [],
+					"points": 250
+				},
+				{
+					"name": "Grey Knight Landing Craft",
+					"units": "One Grey Knight Landing Craft",
+					"extraUnits": [],
+					"points": 400
+				},
+				{
+					"name": "0–1 Orbital Support",
+					"units": "Strike Cruiser",
+					"extraUnits": [
+						"Replace the Strike Cruiser with a Battle Barge: 75 points"
+					],
+					"points": 200
+				}
+			]
+		}
+	],
+	"upgrades": {
+		"title": "Upgrades",
+		"description": "Each upgrade may be taken once per formation",
+		"items": [{
+				"name": "Ordo Malleus Superior (0-1 per army)",
+				"description": "Choose one of the following",
+				"options": [{
+						"description": "Replace the Justicar with a Grand Master (Grey Knight Detachments only)",
+						"points": "100 points"
+					},
+					{
+						"description": "Replace the Inquisitor and its unit with an Inquisitor Lord (Ordo Malleus Inquisitor Formation only)",
+						"points": "50 points"
+					}
+				]
+			}
+		]
+	}
+}

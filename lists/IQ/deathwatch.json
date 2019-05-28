@@ -1,0 +1,218 @@
+{
+	"fraction": "Imperial Inquisition",
+	"army": "Deathwatch",
+	"version": "0.1.0",
+	"release": "2019-05-28",
+	"strategy": "Deathwatch armies have a Strategy Rating of 5.",
+	"Initiative": "Planetary Defence Force formations have an Initiative of 2+. All other formations have an Initiative of 1+",
+	"specialRules": ["Xenos Horrificus"],
+	"usage": [
+		"The following army list allows you to field an army based on Ordo Xenos with Deathwatch allies"
+	],
+	"units": [{
+			"from": "IQ.json",
+			"units": [
+				"Ordo Xenos Inquisitor Lord",
+				"Ordo Xenos Inquisitor",
+				"Ordo Xenos Acolytes",
+				"Adeptus Arbites",
+				"Arbites Combat Bikes",
+				"Cyber Mastiffs",
+				"Arbites Repressor"
+			],
+			"unitRules": []
+		},
+		{
+			"from": "SM.json",
+			"units": [
+				"Watch Master",
+				"Watch Sergeant",
+				"Chaplain",
+				"Librarian",
+				"Deathwatch Tacticals",
+				"Assaults",
+				"Deathwatch Devastators",
+				"Terminators",
+				"Assault Terminators",
+				"Deathwatch Dreadnought",
+				"Land Speeder Tornado",
+				"Assault Bikes",
+				"Attack Bike",
+				"Rhino",
+				"Land Raider",
+				"Land Raider Crusader",
+				"Corvus Blackstar",
+				"Thunderhawk Transporter",
+				"Strike Cruiser",
+                "Drop Pod"
+			],
+			"unitRules": []
+		},
+		{
+			"from": "IG.json",
+			"units": [
+				"PDF Conscripts",
+				"Hydra",
+				"Leman Russ",
+				"Basilisk",
+				"PDF Land Transporter"
+			],
+			"unitRules": []
+		}
+	],
+	"sections": [
+
+        {
+                "name": "Deathwatch Specials",
+                "description": "",
+                "formations": [
+                    {
+                        "name": "0-1 Officio Assassinorum",
+                        "units": "Once per battle, during an Assault that the Deathwatch player initiated, a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules.",
+                        "points": 50
+                    }
+                ]
+            },
+        {
+			"name": "Deathwatch Core Detachments",
+			"description": "",
+			"formations": [{
+					"name": "0-1 Ordo Xenos Inquisitor Retinue",
+					"units": "One Inquisitor, five Ordo Xenos Acolytes, three Rhinos",
+					"extraUnits": [
+						"Replace three Rhinos with two Land Raider Crusaders: 100 points",
+						"Replace three Rhinos with three Land Raiders: 150 points",
+						"Ordo Xenos Superior"
+					],
+					"points": 250
+				},
+				{
+					"name": "Deathwatch Kill-Team",
+					"units": "Four Deathwatch Tacticals plus transport",
+					"extraUnits": [
+						"Replace two Deathwatch Tacticals with Deathwatch Devastators: 50 points",
+						"Add two Deathwatch Dreadnoughts: 75 points",
+						"Add two Land Raiders: 100 points",
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 200
+				}
+			]
+		},
+		{
+			"name": "Deathwatch Support Detachments",
+			"description": "One Deathwatch Support Detachment may be fielded per Deathwatch Core Detachment",
+			"formations": [{
+					"name": "Deathwatch Terminators",
+					"units": "Two Deathwatch Terminators",
+					"extraUnits": [
+						"Add one Land Raider Crusader (50 points) or two Land Raiders (100 points)",
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 250
+				},
+				{
+					"name": "Deathwatch Vanguard",
+					"units": "Three Land Speeder Tornado, three Assault Bikes",
+					"extraUnits": [
+						"Replace up to three Assault Bikes with Attack Bikes: Free",
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 275
+				},
+				{
+					"name": "Deathwatch Assault",
+					"units": "Four Assaults",
+					"extraUnits": [
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 200
+				}
+			]
+		},
+		{
+			"name": "Planetary Defense Force Formations",
+			"description": "Two Planetary Defense Force Formations may be fielded per Deathwatch Core Detachment",
+			"formations": [{
+					"name": "Adeptus Arbites Suppression Platoon",
+					"units": "Six Adeptus Arbites, three Arbites Repressors",
+					"upgrades": [
+						"Add one Hydra: 50 points"
+					],
+					"points": 175
+				},
+				{
+					"name": "Adeptus Arbites Interdiction Platoon",
+					"units": "Three Adeptus Arbites Combat Bikes, three Cyber Mastiffs",
+					"upgrades": [],
+					"points": 175
+				},
+				{
+					"name": "Leman Russ Platoon",
+					"units": "Six Leman Russ",
+					"extraUnits": [
+						"Add one Hydra: 50 points"
+					],
+					"points": 350
+				},
+				{
+					"name": "Motorized Planetary Defense Platoon",
+					"units": "Six PDF Conscripts, three PDF Land Transporters",
+					"upgrades": [],
+					"points": 175
+				}
+			]
+		},
+		{
+			"name": "Deathwatch Navy Detachments",
+			"description": "Up to a third of the points available may be spent on Deathwatch Navy Detachments",
+			"formations": [{
+					"name": "Corvus Dropship Squadron",
+					"units": "Two Corvus Blackstars",
+					"points": 225
+				},
+				{
+					"name": "Thunderhawk Transporter",
+					"units": "One Thunderhawk Transporter",
+					"extraUnits": [
+						"Add one Thunderhawk Transporter: 100 points"
+					],
+					"points": 175
+				},
+				{
+					"name": "0–1 Orbital Support",
+					"units": "Strike Cruiser",
+					"extraUnits": [],
+					"points": 200
+				}
+			]
+		}
+	],
+	"upgrades": {
+		"title": "Upgrades",
+		"description": "Each upgrade may be taken once per formation",
+		"items": [{
+				"name": "Commander",
+				"description": "Add a Captain, Chaplain or Librarian",
+				"points": 50
+			},
+			{
+				"name": "Ordo Xenos Superior (0-1 per army)",
+				"description": "Choose one of the following",
+				"options": [{
+						"description": "Replace the Watch Sergeant with a Watch Master (Death Watch Detachments only. May not be combined with the 'Commander' upgrade)",
+						"points": "75 points"
+					},
+					{
+						"description": "Replace the Inquisitor and its unit with an Inquisitor Lord (Ordo Xenos Inquisitor Retinue only)",
+						"points": "50 points"
+					}
+				]
+			}
+		]
+	}
+}

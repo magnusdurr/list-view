@@ -18,7 +18,7 @@
         "Cadian Commander",
         "Commissar",
         "Lord Commissar",
-        "White Shield Infantry",
+        "Whiteshield Infantry",
         "Infantry",
         "Kasrkin",
         "Cadian Sentinel",
@@ -76,13 +76,21 @@
           "points": 600
         },
         {
-          "name": "Whiteshield Company",
-          "units": "One Cadian Commander with a Commissar, thirteen Whiteshields. Transported in either two Stormlords OR three Crassus Armoured Assault Transports.",
+          "name": "Shock Trooper Company",
+          "units": "One Cadian Commander with a Commissar, eight Infantry. Transported in either one Stormlord OR two Crassus Armoured Assault Transports.",
           "upgrades": [
               "All except Lord Commissar"
           ],
-          "points": 400
-        }
+          "points": 350
+      },
+      {
+        "name": "Whiteshield Company",
+        "units": "One Cadian Commander with a Commissar, eleven Whiteshields. Transported in either two Stormlords OR two Crassus Armoured Assault Transports.",
+        "upgrades": [
+            "All except Lord Commissar"
+        ],
+        "points": 350
+      }
 
       ]
     },
@@ -92,10 +100,9 @@
       "formations": [
         {
           "name": "Assault Launcher Platoon",
-          "units": "Two Praetor Armoured Assault Launchers",
-          "points": 250,
+          "units": "One Praetor Armoured Assault Launcher",
+          "points": 200,
           "upgrades": [
-            "Add one Hydra: 50 points"
           ]
         },
         {
