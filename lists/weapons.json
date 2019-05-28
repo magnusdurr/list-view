@@ -295,6 +295,17 @@
       ]
     },
     {
+      "name": "AC Blackstar Rockets",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Blasta Bombs",
         "modes": [
           {
@@ -2024,6 +2035,16 @@
       ]
     },
     {
+      "name": "Dragonfire Bolters",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Storm Bolter Array",
         "modes": [
           {
@@ -3581,6 +3602,19 @@
       ]
     },
     {
+      "name": "Gatling Psilencer",
+        "modes": [
+          {
+            "firepower": "3x AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+                "D"
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Giant Gaunt Pouch",
         "modes": [
           {
@@ -4110,6 +4144,26 @@
       ]
     },
     {
+      "name": "Heavy Incinerator",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 15,
+            "specialRules": [
+              "IC",
+              "D"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Ion Phalanx",
       "modes": [
         {
@@ -4404,6 +4458,18 @@
             "specialRules": [
 
           ]
+          }
+      ]
+    },
+    {
+      "name": "Holocaust",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "IC"
+            ]
           }
       ]
     },
@@ -5692,6 +5758,53 @@
       ]
     },
     {
+      "name": "Nemesis Force Weapons",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)"
+        ]
+        }
+    ]
+    },
+    {
+      "name": "Nemesis Daemonhammers",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+        ]
+        }
+    ]
+    },
+    {
+      "name": "Nemesis Doomfist",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+        ]
+        }
+    ]
+    },
+    {
+      "name": "Nemesis Daemon Greathammer",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "TK(1)"
+        ]
+        }
+    ]
+    },
+    {
       "name": "Neural Whips",
         "modes": [
           {
@@ -6365,6 +6478,16 @@
       ]
     },
     {
+      "name": "Power Mauls",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Power Saws",
         "modes": [
           {
@@ -6401,13 +6524,13 @@
       ]
     },
     {
-      "name": "Praetor launcher",
+      "name": "Praetor Heavy Assault Launcher",
         "modes": [
           {
-            "firepower": "2BP",
-            "range": 120,
+            "firepower": "3BP",
+            "range": 60,
             "specialRules": [
-              "D"
+                "Ind"
           ]
         }
       ]
@@ -6503,6 +6626,55 @@
         }
       ]
     },
+    {
+      "name": "Psycannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+          "range": 30,
+            "specialRules": [
+              "D"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Heavy Psycannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+",
+          "range": 45,
+            "specialRules": [
+              "D"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Psycannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+",
+          "range": 30,
+            "specialRules": [
+              "D"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "AC Twin Psycannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+/AA5+",
+            "range": 15,
+            "specialRules": [
+              "D"
+            ]
+          }
+      ]
+    },
+
     {
       "name": "Psychic Powers",
         "modes": [
@@ -7328,6 +7500,16 @@
       ]
     },
     {
+      "name": "Shotguns",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
           "name": "Shrieker Cannons",
           "modes": [
             {
@@ -8013,6 +8195,16 @@
             "range": 30,
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Power Mauls & Suppression Shields",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
           ]
           }
       ]
