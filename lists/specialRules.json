@@ -219,7 +219,7 @@
     {
       "title": "Act of Faith",
       "description": [
-        "Units that have the 'Faithful' special rule gains Fearless and Invulnerable Save until end of turn when performing an Engage action. If the roll to activate fails, the units does not recieve the Act of Faith bonus."
+        "Units that have the 'Faithful' special rule gains Fearless and Invulnerable Save until end of turn when performing an Engage action. Units that already have an Invulnerable Save gain a 5+ Invulnerable Save instead. If the roll to activate fails, the units does not recieve the Act of Faith bonus."
       ]
   },
 
@@ -243,15 +243,29 @@
       ]
     },
     {
-      "title": "Deathwing",
-      "description": ["Formations containing at least one model with the rule 'Deathwing' removes an additional blast marker whenever that formation rallies or regroups."
+      "title": "Grey Knight Transports",
+      "description": [
+        "The Grey Knights are few in number, but compensates by being exceptionally well equipped and adaptive in their tactics. Because of this, the points cost of a Grey Knight Detachment usually includes enough Grey Knight Rhinos, Razorbacks, Land Raiders or Land Raider Redeemers to transport them. The number of such Grey Knight transport vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
+        "Detachments that come with Grey Knight transport vehicles will be noted as having plus transport in the units section of the army list opposite.",
+        "Also note that you don’t have to take Grey Knight transport vehicles if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Landing Craft, then you may do so.",
+        "In addition, you may choose to replace a detachment’s transport vehicles with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from.",
+        "Before each game, after the opposing army is known but before objectives are placed, the Grey Knight player may choose which formations with the plus transport aspect are deployed in Grey Knight transport vehicles, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
       ]
     },
     {
-      "title": "Deathwatch",
-      "description": ["Formations containing at least one model with 'Deathwatch' does not need to scatter when making Self-Planetfall."
+      "title": "Deathwing",
+      "description": [
+          "Formations containing at least one model with the rule 'Deathwing' removes an additional blast marker whenever that formation rallies or regroups."
       ]
     },
+    {
+      "title": "Xenos Horrificus",
+      "description": [
+          "The Deathwatch represents a galaxy's worth of hard-won familiarity with every conceivable Xenos threat. For this reason, they always win Strategy Rolls that result in a tie."
+      ]
+    },
+
+
     {
       "title": "Independent",
       "description": [
