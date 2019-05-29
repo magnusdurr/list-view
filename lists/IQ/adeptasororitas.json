@@ -76,7 +76,7 @@
           "extraUnits": [
             "Exorcists",
             "Ordo Hereticus Superior",
-            "Hunters",
+            "Hunter",
             "Transport"
           ],
           "points": 225
@@ -93,7 +93,7 @@
             "units": "Four Exorcist Prioris",
             "extraUnits": [
               "Replace four Exorcist Prioris with four Exorcist Sanctorum: Free",
-              "Hunters"
+              "Hunter"
             ],
             "points": 250
         },
@@ -124,7 +124,6 @@
         "name": "Repentance",
         "units": "Four Repentia Sisters, two Sororitas Repressors",
         "extraUnits": [
-          "Add one Priest: 25 points"
         ],
         "points": 150
     },
@@ -170,13 +169,10 @@
         },
       {
         "name": "Redemption",
-        "units": "Six Redemptionists",
+        "units": "Onw Priest, eight Redemptionists, four Inquisitorial Land Transporters",
         "extraUnits": [
-          "Add three Inquisitorial Land Transporters: 25 points",
-          "Add up to two Penitent Engines: 35 points each",
-          "Add one Priest: 25 points"
         ],
-        "points": 125
+        "points": 200
       }
       ]
     },
@@ -234,10 +230,10 @@
         ]
       },
       {
-        "name": "Hunters",
-        "description": "Add up to two Sororitas Hunters",
+        "name": "Hunter",
+        "description": "Add one Sororitas Hunter",
         "points": [
-          "50 points for one"
+          "50 points"
         ]
       },
       {
