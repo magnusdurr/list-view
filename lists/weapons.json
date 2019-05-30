@@ -2045,6 +2045,17 @@
       ]
     },
     {
+      "name": "Dragonfire Heavy Bolter",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Storm Bolter Array",
         "modes": [
           {
@@ -8582,6 +8593,29 @@
             "specialRules": [
                 "EA(+1)",
                 "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Heavy Thunder Hammer",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Heavy Thunder Hammers",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "TK(1)"
           ]
           }
       ]

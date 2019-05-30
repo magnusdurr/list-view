@@ -70,11 +70,10 @@
 			"name": "Watch Sergeant",
 			"type": "CH",
 			"weapons": [
-				"n/a"
+				"Power Weapon"
 			],
 			"specialRules": [
-				"Commander",
-				"Leader"
+				"Commander"
 			]
 		},
 		{
@@ -172,10 +171,10 @@
 			]
 		},
 		{
-			"name": "Watch Master",
+			"name": "Watch Commander",
 			"type": "CH",
 			"weapons": [
-				"Power Weapon"
+				"Heavy Thunder Hammer"
 			],
 			"specialRules": [
 				"Invulnerable Save",
@@ -239,9 +238,9 @@
             "speed": 15,
             "armour": 4,
             "cc": 5,
-            "ff": 3,
+            "ff": 2,
             "weapons": [
-                "Plasma Cannon|2"
+                "Dragonfire Heavy Bolter|2"
             ]
         },
 		{
@@ -320,10 +319,19 @@
             "cc": 4,
             "ff": 3,
             "weapons": [
-                "Heavy Bolter",
-                "Dragonfire Bolters"
+                "Dragonfire Heavy Bolter"
             ]
         },
+		{
+			"name": "Deathwatch Black Shields",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"weapons": [
+				"Heavy Thunder Hammers"
+			]
+		},
 		{
 			"name": "Death Company Marines",
 			"type": "INF",
@@ -373,6 +381,25 @@
 				"Thick Rear Armour",
 				"Invulnerable Save"
 			]
+		},
+		{
+			"name": "Deathwatch Terminators",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 3,
+			"ff": 3,
+			"weapons": [
+				"Assault Cannon|0-2",
+				"Power Weapons|0-1",
+				"Thunder Hammers and Storm Shields|0-1"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Teleport",
+				"Thick Rear Armour"
+			],
+			"notes": "Armed with either two Assault Cannons and Power Weapons, or Thunderhammers and Storm Shields. This may be decided at the start of the battle when the unit is deployed on the board or in the reserves."
 		},
 		{
 			"name": "Deathwing Terminators",
@@ -1564,7 +1591,7 @@
 			"notes": "May transport two infantry units without Mounted; Terminators counts as two units each. May in addition transport one Dreadnought."
 		},
 		{
-			"name": "Corvus Blackstar",
+			"name": "Corvus Blackstar Dropship",
 			"type": "AC/WE",
 			"speed": "Fighter-Bomber",
 			"armour": 4,
