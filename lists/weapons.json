@@ -5780,7 +5780,7 @@
     ]
     },
     {
-      "name": "Nemesis Daemonhammers",
+      "name": "Nemesis Daemon Hammers",
       "modes": [
         {
           "firepower": "Assault Weapons",
@@ -8605,6 +8605,18 @@
             "specialRules": [
                 "EA(+1)",
                 "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Heavy Daemon Hammer",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(D2)"
           ]
           }
       ]
