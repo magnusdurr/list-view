@@ -21,6 +21,7 @@
 			"from": "SM.json",
 			"units": [
 				"Grey Knight Grand Master",
+				"Grey Knight Captain",
 				"Grey Knight Justicar",
 				"Grey Knight Strike Squad",
 				"Grey Knight Purgation Squad",
@@ -145,17 +146,19 @@
 				},
 				{
 					"name": "Leman Russ Squadron",
-					"units": "Four Leman Russ",
+					"units": "Three Leman Russ",
 					"extraUnits": [
+						"Leman Russ Platoon",
 						"Add one Hydra: 50 points"
 					],
-					"points": 250
+					"points": 200
 				},
 				{
 		          "name": "Praetor Platoon",
 		          "units": "One Praetor Armoured Assault Launcher",
 		          "points": 200,
 		          "upgrades": [
+						"Add one Hydra: 50 points"
 		          ]
 		        }
 			]
@@ -194,11 +197,31 @@
 	"upgrades": {
 		"title": "Upgrades",
 		"description": "Each upgrade may be taken once per formation",
-		"items": [{
+		"items": [
+			{
+	          "name": "Leman Russ Platoon",
+	          "options": [
+	            {
+	              "description": "Add three Leman Russ",
+	              "points": "150 points"
+	            }
+	          ]
+	      },
+		  {
+	        "name": "Captain",
+	        "options": [
+	          {
+	            "description": "Replace the Grey Knight Justicar with a Grey Knight Captain.",
+	            "points": "25 points"
+	          }
+	        ]
+	    },
+
+			{
 				"name": "Ordo Malleus Superior (0-1 per army)",
 				"description": "Choose one of the following",
 				"options": [{
-						"description": "Replace the Justicar with a Grand Master (Grey Knight Detachments only)",
+						"description": "Replace the Grey Knight Justicar with a Grey Knight Grand Master (Grey Knight Detachments only)",
 						"points": "100 points"
 					},
 					{

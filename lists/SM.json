@@ -55,6 +55,18 @@
 			]
 		},
 		{
+				"name": "Grey Knight Captain",
+				"type": "CH",
+				"weapons": [
+					"Power Weapon"
+				],
+				"specialRules": [
+					"Commander",
+					"Leader",
+					"Teleport Homer"
+				]
+			},
+		{
 			"name": "Grey Knight Justicar",
 			"type": "CH",
 			"weapons": [
@@ -327,7 +339,7 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 4,
+			"cc": 3,
 			"weapons": [
 				"Heavy Thunder Hammers"
 			]
@@ -388,18 +400,17 @@
 			"speed": 15,
 			"armour": 4,
 			"cc": 3,
-			"ff": 3,
+			"ff": 5,
 			"weapons": [
-				"Assault Cannon|0-2",
-				"Power Weapons|0-1",
-				"Thunder Hammers and Storm Shields|0-1"
+				"Frag Cannon",
+				"Thunder Hammers and Storm Shields"
 			],
 			"specialRules": [
 				"Reinforced Armour",
+				"Invulnerable Save",
 				"Teleport",
 				"Thick Rear Armour"
-			],
-			"notes": "Armed with either two Assault Cannons and Power Weapons, or Thunderhammers and Storm Shields. This may be decided at the start of the battle when the unit is deployed on the board or in the reserves."
+			]
 		},
 		{
 			"name": "Deathwing Terminators",
@@ -498,6 +509,21 @@
 			"ff": 4,
 			"weapons": [
 				"Plasma Pistols",
+				"Power Weapons"
+			],
+			"specialRules": [
+				"Jump Packs"
+			]
+		},
+		{
+			"name": "Deathwatch Assault Veterans",
+			"type": "INF",
+			"speed": 30,
+			"armour": 4,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Bolt Pistols",
 				"Power Weapons"
 			],
 			"specialRules": [
@@ -610,6 +636,17 @@
 			"ff": 4,
 			"weapons": [
 				"Heavy Bolter"
+			]
+		},
+		{
+			"name": "Deathwatch Attack Bike",
+			"type": "LV",
+			"speed": 35,
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Dragonfire Heavy Bolter"
 			]
 		},
 		{
@@ -741,10 +778,26 @@
 			"speed": 35,
 			"armour": 4,
 			"cc": 6,
-			"ff": 5,
+			"ff": 4,
 			"weapons": [
 				"Assault Cannon",
 				"Heavy Bolter"
+			],
+			"specialRules": [
+				"Scout",
+				"Skimmer"
+			]
+		},
+		{
+			"name": "Deathwatch Land Speeder",
+			"type": "LV",
+			"speed": 35,
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Assault Cannon",
+				"Dragonfire Heavy Bolter"
 			],
 			"specialRules": [
 				"Scout",
@@ -1063,12 +1116,30 @@
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
+			"name": "Deathwatch Land Raider",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 6,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannon|2",
+				"Twin Dragonfire Heavy Bolter"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+		},
+		{
 			"name": "Land Raider Redeemer",
 			"type": "AV",
 			"speed": 25,
 			"armour": 4,
 			"cc": 5,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Flamestorm Cannon|2",
 				"Twin Assault Cannon"
@@ -1605,6 +1676,7 @@
 				"Damage Capacity 1",
 				"Invulnerable Save",
 				"Self-Planetfall",
+				"Scout",
 				"Transport"
 			],
 			"notes": "May transport two infantry units without Mounted; Terminators counts as two units each."

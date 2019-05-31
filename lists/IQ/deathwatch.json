@@ -1,10 +1,10 @@
 {
 	"fraction": "Imperial Inquisition",
 	"army": "Deathwatch",
-	"version": "0.5.0",
-	"release": "2019-05-30",
+	"version": "0.5.1",
+	"release": "2019-05-31",
 	"strategy": "Deathwatch armies have a Strategy Rating of 5.",
-	"Initiative": "Planetary Defence Force formations have an Initiative of 2+. All other formations have an Initiative of 1+",
+	"Initiative": "Deathwatch Detachments and the Ordo Xenos Inquisitor Retinue have an Initiative of 1+. All other formations have an Initiative of 2+",
 	"specialRules": ["Xenos Horrificus"],
 	"usage": [
 		"The following army list allows you to field an army based on Ordo Xenos with Deathwatch allies"
@@ -15,12 +15,11 @@
 				"Ordo Xenos Inquisitor Lord",
 				"Ordo Xenos Inquisitor",
 				"Ordo Xenos Acolytes",
-				"Adeptus Arbites",
-				"Arbites Combat Bikes",
-				"Cyber Mastiffs",
+				"Arbitrators",
 				"Arbites Repressor"
 			],
-			"unitRules": []
+			"unitRules": [
+			]
 		},
 		{
 			"from": "SM.json",
@@ -30,18 +29,15 @@
 				"Chaplain",
 				"Librarian",
 				"Deathwatch Tacticals",
-				"Vanguard Assault Veterans",
+				"Deathwatch Assault Veterans",
 				"Deathwatch Black Shields",
 				"Deathwatch Devastators",
 				"Deathwatch Terminators",
 				"Deathwatch Dreadnought",
-				"Land Speeder Tornado",
+				"Deathwatch Land Speeder",
 				"Assault Bikes",
-				"Attack Bike",
 				"Rhino",
-				"Stalker",
-				"Hunter",
-				"Land Raider",
+				"Deathwatch Land Raider",
 				"Land Raider Crusader",
 				"Storm Talon Gunship",
 				"Corvus Blackstar Dropship",
@@ -49,14 +45,17 @@
 				"Strike Cruiser",
                 "Drop Pod"
 			],
-			"unitRules": []
+			"unitRules": [
+				"They Shall Know No Fear"
+			]
 		},
 		{
 			"from": "IG.json",
 			"units": [
 				"PDF Conscripts",
 				"Leman Russ",
-				"Basilisk",
+				"Hydra",
+				"Vendetta",
 				"PDF Land Transporter"
 			],
 			"unitRules": []
@@ -78,26 +77,14 @@
         {
 			"name": "Deathwatch Core Detachments",
 			"description": "",
-			"formations": [{
-					"name": "0-1 Ordo Xenos Inquisitor Retinue",
-					"units": "One Ordo Xenos Inquisitor, five Ordo Xenos Acolytes, three Rhinos",
-					"extraUnits": [
-						"Replace three Rhinos with two Land Raider Crusaders: 100 points",
-						"Replace three Rhinos with three Land Raiders: 150 points",
-						"Anti-Air",
-						"Ordo Xenos Superior"
-					],
-					"points": 250
-				},
+			"formations": [
 				{
 					"name": "Deathwatch Kill-Team",
 					"units": "Four Deathwatch Tacticals plus transport",
 					"extraUnits": [
-						"Replace two Deathwatch Tacticals with two Deathwatch Devastators: 25 points",
-						"Replace two Deathwatch Tacticals with two Deathwatch Black Shields: 50 points",
+						"Replace one Deathwatch Tacticals with one Deathwatch Black Shields: 25 points",
 						"Add two Deathwatch Dreadnoughts: 75 points",
 						"Land Raiders",
-						"Anti-Air",
 						"Commander",
 						"Ordo Xenos Superior"
 					],
@@ -107,24 +94,19 @@
 		},
 		{
 			"name": "Deathwatch Support Detachments",
-			"description": "One Deathwatch Support Detachment may be fielded per Deathwatch Core Detachment",
+			"description": "Two Deathwatch Support Detachment may be fielded per Deathwatch Core Detachment",
 			"formations": [{
 					"name": "Deathwatch Terminators",
-					"units": "Two Deathwatch Terminators",
+					"units": "One Chaplain, two Deathwatch Terminators",
 					"extraUnits": [
-						"Land Raiders",
-						"Anti-Air",
-						"Commander",
-						"Ordo Xenos Superior"
+						"Land Raiders"
 					],
-					"points": 225
+					"points": 250
 				},
 				{
 					"name": "Deathwatch Attack",
-					"units": "Three Land Speeder Tornado, three Assault Bikes",
+					"units": "Three Deathwatch Land Speeders, three Assault Bikes",
 					"extraUnits": [
-						"Replace up to three Assault Bikes with Attack Bikes: Free",
-						"Anti-Air",
 						"Commander",
 						"Ordo Xenos Superior"
 					],
@@ -132,9 +114,19 @@
 				},
 				{
 					"name": "Deathwatch Vanguard",
-					"units": "Four Vanguard Assault Veterans",
+					"units": "Four Deathwatch Assault Veterans",
 					"extraUnits": [
-						"Anti-Air",
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 225
+				},
+				{
+					"name": "Deathwatch Devastators",
+					"units": "Four Deathwatch Devastators plus transport",
+					"extraUnits": [
+						"Add two Deathwatch Dreadnoughts: 75 points",
+						"Land Raiders",
 						"Commander",
 						"Ordo Xenos Superior"
 					],
@@ -143,32 +135,44 @@
 			]
 		},
 		{
-			"name": "Planetary Defense Force Formations",
-			"description": "Two Planetary Defense Force Formations may be fielded per Deathwatch Core Detachment",
-			"formations": [{
-					"name": "Adeptus Arbites Suppression Platoon",
-					"units": "Six Adeptus Arbites, three Arbites Repressors",
+			"name": "Ordo Xenos Formations",
+			"description": "Two Ordo Xenos Formations may be fielded per Deathwatch Core Detachment",
+			"formations": [
+				{
+						"name": "0-1 Ordo Xenos Inquisitor Retinue",
+						"units": "One Ordo Xenos Inquisitor, three Ordo Xenos Acolytes, four Vendettas",
+						"extraUnits": [
+							"Ordo Xenos Superior"
+						],
+						"points": 275
+					},
+				{
+					"name": "Adeptus Arbites Company",
+					"units": "Eight Arbitrators, four Arbites Repressors",
 					"extraUnits": [
 					],
-					"points": 175
+					"points": 225
 				},
 				{
-					"name": "Adeptus Arbites Interdiction Platoon",
-					"units": "Three Adeptus Arbites Combat Bikes, three Cyber Mastiffs",
+					"name": "Flak Battery",
+					"units": "Three Hydra",
 					"extraUnits": [],
-					"points": 175
+					"points": 150
 				},
 				{
-					"name": "Leman Russ Platoon",
-					"units": "Six Leman Russ",
+					"name": "Leman Russ Squadron",
+					"units": "Three Leman Russ",
 					"extraUnits": [
+						"Add three Leman Russ: 150 points",
+						"Add one Hydra: 50 points"
 					],
-					"points": 350
+					"points": 200
 				},
 				{
 					"name": "Motorized Planetary Defense Force Platoon",
 					"units": "Six PDF Conscripts, three PDF Land Transporters",
 					"extraUnits": [
+						"Add one Hydra: 50 points"
 					],
 					"points": 150
 				}
@@ -211,15 +215,8 @@
 		"items": [
 
 			{
-					"name": "Anti-Air",
-					"description": "Add one Stalker or one Hunter to the formation",
-					"points": [
-						"Stalker: 50 points", "Hunter: 75 points"
-					]
-				},
-				{
 					"name": "Land Raiders",
-					"description": "Add enough Land Raiders or Land Raider Crusaders to transport the formation with no space left over",
+					"description": "Add enough Deathwatch Land Raiders or Land Raider Crusaders to transport the formation with no space left over",
 					"points": "50 points each"
 				},
 			{
