@@ -1,7 +1,7 @@
 {
 	"fraction": "Imperial Inquisition",
 	"army": "Deathwatch",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"release": "2019-05-31",
 	"strategy": "Deathwatch armies have a Strategy Rating of 5.",
 	"Initiative": "Deathwatch Detachments and the Ordo Xenos Inquisitor Retinue have an Initiative of 1+. All other formations have an Initiative of 2+",
@@ -69,8 +69,8 @@
                 "formations": [
                     {
                         "name": "0-1 Officio Assassinorum",
-                        "units": "Once per battle, during an Assault that the Deathwatch player initiated, a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules.",
-                        "points": 50
+                        "units": "Once per battle, during an Assault that the Deathwatch player initiated, a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules. Any damage caused by these hits counts towards combat resolution.",
+                        "points": 75
                     }
                 ]
             },
