@@ -4166,6 +4166,26 @@
       ]
     },
     {
+      "name": "2x Heavy Flamer",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 15,
+          "specialRules": [
+            "IC",
+            "FxF"
+          ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Incinerator",
         "modes": [
           {
@@ -6550,7 +6570,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range": 60,
+            "range": 120,
             "specialRules": [
                 "Ind"
           ]
@@ -7582,7 +7602,7 @@
               "firepower": "3BP",
               "range": 45,
               "specialRules": [
-                "IC", "D", "FxF"
+                "IC", "D"
           ]
         }
       ]

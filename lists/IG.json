@@ -316,7 +316,7 @@
       ]
     },
     {
-      "name": "Whiteshield Infantry",
+      "name": "Whiteshields",
       "type": "INF",
       "speed": 15,
       "cc": 6,
@@ -1287,28 +1287,28 @@
       ]
     },
     {
-      "name": "Praetor Armoured Assault Launcher",
+      "name": "Praetor Assault Launcher",
       "type": "H-AV",
       "speed": 25,
       "armour": 3,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Heavy Bolter|2",
+        "Heavy Bolter|2",
         "Praetor Heavy Assault Launcher"
       ],
       "specialRules": [
       ]
     },
     {
-      "name": "Crassus Armoured Assault Transport",
+      "name": "Crassus Assault Transport",
       "type": "H-AV",
       "speed": 25,
       "armour": 3,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Heavy Bolter|2"
+        "Heavy Bolter|4"
       ],
       "specialRules": [
         "Transport: May transport six infantry units without Jump Pack or Mounted"
@@ -1339,8 +1339,8 @@
       "ff": 4,
       "weapons": [
         "Battle Cannon|2|",
-        "Twin Heavy Stubber",
-        "Heavy Bolter|2|"
+        "Twin Heavy Stubber||FxF",
+        "Heavy Bolter|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 2",
@@ -1357,9 +1357,9 @@
       "ff": 4,
       "weapons": [
         "Vanquisher Cannon|0-2|",
-        "Vulcan Mega-Bolter|0-1|",
-        "Twin Heavy Stubber",
-        "Heavy Bolter|2|"
+        "Vulcan Mega-Bolter|0-1|FxF",
+        "Twin Heavy Stubber||FxF",
+        "Heavy Bolter|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 2",
@@ -1377,7 +1377,7 @@
       "ff": 4,
       "weapons": [
         "Ragnarok Battle Cannon|2|",
-        "Twin Heavy Stubber|3|"
+        "Twin Heavy Stubber|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 2",
@@ -1420,29 +1420,6 @@
       "crit": "The Gorgon takes one additional damage, and D3 transported units takes a hit."
     },
     {
-      "name": "Leviathan Mobile Command Center",
-      "type": "WE",
-      "speed": 20,
-      "armour": 5,
-      "cc": 6,
-      "ff": 4,
-      "weapons": [
-        "Imperial Doomsday Cannon",
-        "Battle Cannon",
-        "Storm Bolter Array",
-        "Twin Lascannon|3|Left",
-        "Twin Lascannon|3|Right"
-      ],
-      "specialRules": [
-        "Damage Capacity: 6",
-        "Void Shields: 4",
-        "Reinforced Armour",
-        "Fearless"
-      ],
-      "notes": "May transport 10 infantry units without jumppack or mounted. Up to four units may shoot and FF from the fighting platform",
-      "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
-    },
-    {
       "name": "Baneblade",
       "type": "WE",
       "speed": 15,
@@ -1452,9 +1429,9 @@
       "weapons": [
         "Baneblade Cannon",
         "Autocannon",
-        "Demolisher",
-        "Lascannon|2",
-        "Twin Heavy Bolter|3"
+        "Demolisher||FxF",
+        "Lascannon|2|FxF",
+        "Twin Heavy Bolter|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1470,9 +1447,9 @@
       "cc": 6,
       "ff": 3,
       "weapons": [
-        "Vulcan Mega-Bolter",
-        "Heavy Flamer|2|",
-        "Twin Heavy Bolter|3|"
+        "Vulcan Mega-Bolter||FxF",
+        "2x Heavy Flamer",
+        "Twin Heavy Bolter|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1489,8 +1466,8 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Volcano Cannon",
-        "Twin Heavy Bolter|2"
+        "Volcano Cannon||FxF",
+        "Twin Heavy Bolter|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1506,10 +1483,10 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Plasma Blastgun",
-        "Heavy Bolter",
-        "Lascannon|2|",
-        "Twin Heavy Bolter|2|"
+        "Plasma Blastgun||FxF",
+        "Heavy Bolter||FxF",
+        "Lascannon|2|FxF",
+        "Twin Heavy Bolter|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1525,17 +1502,42 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Siege Cannon",
-        "Heavy Bolter",
-        "Heavy Flamer|2|",
-        "Twin Heavy Bolter|2|"
+        "Siege Cannon||FxF",
+        "Heavy Bolter||FxF",
+        "Heavy Flamer|2|FxF",
+        "Twin Heavy Bolter|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
       "crit": "The unit is destroyed."
-    }
+  },
+      {
+        "name": "Imperial Leviathan",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Imperial Doomsday Cannon||FxF",
+          "Battle Cannon",
+          "Twin Lascannon|3|Left",
+          "Twin Lascannon|3|Right",
+          "Storm Bolter Array"
+        ],
+        "specialRules": [
+          "Damage Capacity: 6",
+          "Void Shields: 4",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Fearless",
+          "Transport"
+        ],
+        "notes": "May transport ten infantry units without jumppack or mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
+        "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
+      }
     ]
   }
 ]

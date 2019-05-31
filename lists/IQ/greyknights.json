@@ -1,8 +1,8 @@
 {
 	"fraction": "Imperial Inquisition",
 	"army": "Grey Knights",
-	"version": "0.5.0",
-	"release": "2019-05-28",
+	"version": "0.5.1",
+	"release": "2019-05-31",
 	"strategy": "Grey Knight armies have a Strategy Rating of 5.",
 	"Initiative": "All Grey Knight Detachments, Navy formations and the Ordo Malleus Inquisitor Retinue have an Initiative of 1+. All other formations have an initiative of 2+",
 	"specialRules": ["Grey Knight Transports", "Teleport Homer", "Act of Faith"],
@@ -50,9 +50,10 @@
 				"Whiteshields",
 				"Chimera",
 				"Hydra",
-				"Praetor Armoured Assault Launcher",
-				"Crassus Armoured Assault Transport",
-                "Leman Russ"
+				"Praetor Assault Launcher",
+				"Crassus Assault Transport",
+                "Leman Russ",
+				"Stormlord"
 			],
 			"unitRules": [
 				"Heavy Armoured Vehicle (H-AV)"
@@ -122,7 +123,7 @@
 					"name": "0-1 Ordo Malleus Inquisitor Retinue",
 					"units": "One Ordo Malleus Inquisitor, five Kasrkin, three Chimeras",
 					"extraUnits": [
-						"Replace three Chimeras with one Crassus Armoured Assault Transport: Free",
+						"Replace three Chimeras with one Crassus Assault Transport: 25 points",
 						"Add one Hydra: 50 points",
 						"Ordo Malleus Superior"
 					],
@@ -132,11 +133,18 @@
 					"name": "Shock Trooper Platoon",
 					"units": "Six Infantry units, three Chimeras",
 					"extraUnits": [
-						"Replace three Chimeras with one Crassus Armoured Assault Transport: Free",
+						"Replace three Chimeras with one Crassus Assault Transport: 25 points",
 						"Add one Hydra: 50 points"
 					],
 					"points": 225
 				},
+				{
+				  "name": "Whiteshield Platoon",
+				  "units": "Eight Whiteshields, one Stormlord",
+				  "upgrades": [
+				  ],
+				  "points": 275
+			  },
 				{
 					"name": "Flak Battery",
 					"units": "Three Hydras",
@@ -154,11 +162,10 @@
 					"points": 200
 				},
 				{
-		          "name": "Praetor Platoon",
-		          "units": "One Praetor Armoured Assault Launcher",
-		          "points": 200,
+		          "name": "Praetor Battery",
+		          "units": "One Praetor Assault Launcher",
+		          "points": 275,
 		          "upgrades": [
-						"Add one Hydra: 50 points"
 		          ]
 		        }
 			]
