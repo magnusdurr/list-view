@@ -393,22 +393,7 @@
           }
       ]
     },
-    {
-      "name": "AC Disintegrator Array",
-        "modes": [
-          {
-            "firepower": "AA5+",
-            "range": 30
-          },
-          {
-            "firepower": "Small Arms",
-            "join": "and",
-            "specialRules": [
-              "EA(+2)"
-          ]
-        }
-      ]
-          },
+
           {
             "name": "AC Flakka-Dakka",
             "modes": [
@@ -505,6 +490,18 @@
       ]
     },
     {
+      "name": "AC Twin Ion Cannon",
+        "modes": [
+          {
+            "firepower": "AP3+/AT4+/AA4+",
+            "range": 30,
+            "specialRules": [
+              "FxF"
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Lascannon",
         "modes": [
           {
@@ -556,7 +553,7 @@
       "modes": [
         {
           "firepower": "2x AT4+",
-          "range": 30,
+          "range": 45,
           "specialRules": [
             "FxF"
           ]
@@ -2874,11 +2871,10 @@
       "name": "Desolator",
         "modes": [
           {
-            "firepower": "2BP",
+            "firepower": "3BP",
             "range": 30,
             "specialRules": [
-              "D",
-              "FxF"
+              "D"
           ]
         }
       ]
@@ -2906,6 +2902,17 @@
         }
       ]
     },
+    {
+      "name": "Heavy Disintegrator Array",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+3)"
+          ]
+        }
+      ]
+          },
     {
       "name": "Distort Cannon",
       "modes": [
@@ -3360,7 +3367,7 @@
       "name": "Experimental Weapons",
       "modes": [
         {
-          "firepower": "AP4+",
+          "firepower": "AP5+/AT5+",
           "range": 30,
           "specialRules": [
           ]
@@ -4981,18 +4988,7 @@
         "modes": [
           {
             "firepower": "AP5+/AT6+",
-            "range": 30,
-            "specialRules": [
-          ]
-          }
-      ]
-    },
-    {
-      "name": "Kroot Guns",
-        "modes": [
-          {
-            "firepower": "AP5+/AT6+",
-            "range": 30,
+            "range": 45,
             "specialRules": [
           ]
           }
@@ -6734,7 +6730,7 @@
       "modes": [
         {
           "firepower": "AP5+",
-          "range": 30,
+          "range": 15,
           "specialRules": [
             "D"
           ]
@@ -8722,8 +8718,8 @@
           "firepower": "Assault Weapons",
           "join": "or",
           "specialRules": [
-            "EA(+2)",
-            "TK(D3)"
+            "EA(+1)",
+            "TK(D3+3)"
         ]
       }
       ]
@@ -8732,7 +8728,7 @@
       "name": "Titan Pulsar",
       "modes": [
         {
-          "firepower": "2x MW2+",
+          "firepower": "3x MW3+",
           "range": 75,
           "specialRules": [
             "TK(1)"
@@ -9251,7 +9247,7 @@
       "modes": [
         {
           "firepower": "AP4+",
-          "range": 30,
+          "range": 15,
           "specialRules": [
             "D"
           ]

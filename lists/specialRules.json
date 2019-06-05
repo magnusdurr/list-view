@@ -313,25 +313,19 @@
     {
       "title": "Fleet of Foot",
       "description": [
-        "Dark Eldar formations do not suffer the usual penalties when taking a march action, so may still lend support fire in assaults, help claim a crossfire bonus, and even fire flak shots."
+        "Dark Eldar formations do not suffer the usual penalties when taking a march action, but may still lend support fire in assaults, help claim a crossfire bonus, and fire AA."
         ]
     },
     {
       "title": "Kabal Coterie",
       "description": [
-        "A  Dark  Eldar  army  must  include  a  Kabal  Coterie."
+        "The army must include a Kabal Coterie. The enemy count as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army."
         ]
     },
     {
-      "title": "Kabal Coterie BTS",
+      "title": "May not Garrison (Dark Eldar)",
       "description": [
-        "A  Dark  Eldar  army  must  include  a  Kabal  Coterie.  The  enemy  count  as  having  achieved  the  ‘Break  Their  Spirit’ victory condition if they destroy this formation or the most expensive formation in the army (6.1.7)."
-        ]
-    },
-    {
-      "title": "Dark Eldar May not Garrison",
-      "description": [
-        "Only Mandrake formations may set up using the tournament game garrison rule (6.1.5)."
+        "Only the Mandrake formation may Garrison."
         ]
     },
     {
@@ -468,7 +462,7 @@
       "description": [
         "Eldar formations that include a unit with the Farsight ability may ignore the -1 penalty to Action test rolls when attempting to retain the Initiative.",
         "In addition once per turn the Eldar player may attempt to retain the Initiative twice in a row (i.e. allowing the Eldar player to take 3 activations in a row). Any Eldar formation may be selected, including those without a unit with Farsight, but at least one unit with the Farsight ability must be in play on the battlefield.",
-        "The formation selected must still carry out an action test with a -1 modifier for the first retain and -2 for the second retain, unless the selected formation has a unit with the Farsight ability."
+        "The formation selected must still carry out an action test with a -1 modifier, unless the selected formation has a unit with the Farsight ability."
       ]
     },
     {
@@ -1041,14 +1035,19 @@
     {
       "title": "Tau Jet Packs",
       "description": [
-        "Tau jet packs follow all the rules for Jump Packs. Additionally, units with Tau jet packs are allowed to make an additional move of 10cm at the end of an advance, double or march order. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual. No extra movement is allowed on any orders other than advance, double or a march. In formations where only some of the units have Tau jet packs, the units without Tau jet packs are not allowed the extra move."
+        "Tau Jet Packs follow all the rules for Jump Packs. In addition, formations that exclusively consists of units with Tau Jet Packs are allowed to make an extra move of up to 10cm at the end of an Advance, Double, March or Marshal action. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual."
       ]
     },
 
 
 
 
-
+{
+  "title": "Tiger Shark Gun Drones",
+  "description": [
+    "Tiger Shark Squadrons may be given a Gun Drone formation to transport. Transported Gun Drone formations may be split across multiple Tiger Sharks as an exception to the normal aircraft transport rules. The Tiger Sharks cannot land, make an engagement, or embark units, but can disembark transported Gun Drones after an approach move. The Gun Drone formation may shoot when it disembarks as normal (see Transporting Ground Units), and counts as having activated for that turn. After this initial deployment the Gun Drones are a completely independent formation. Gun Drones being transported by Tiger Sharks do not generate blast markers for being destroyed until after they are disembarked"
+  ]
+},
 
 
 

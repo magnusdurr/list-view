@@ -1,9 +1,9 @@
 {
   "fraction": "Tau",
   "army": "Sa’ Cea",
-  "version": "0.9.0",
-  "release": "2019-02-22",
-  "strategy": "Sa’ Cea armies have a Strategy Rating of 3.",
+  "version": "0.9.1",
+  "release": "2019-06-05",
+  "strategy": "Tau armies have a Strategy Rating of 3.",
   "Initiative": "Crisis Battlesuit Cadre and Manta Dropship formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
@@ -11,11 +11,12 @@
             "Deflector Shield",
             "Guided Missiles",
             "Markerlights",
-            "Tau Jet Packs"
+            "Tau Jet Packs",
+            "Tiger Shark Gun Drones"
           ],
 
   "usage": [
-    "The following army list allows you to field an army based on the Sa’ Cea Military world of the Tau Empire"
+    "The following army list allows you to field an army based on the Sa’ Cea world of the Tau Empire"
   ],
   "units": [
     {
@@ -42,13 +43,14 @@
         "Manta"
       ],
         "unitRules": [
+        "Machine Spirit"
       ]
     },
     {
       "from": "tauNavy.json",
       "units": [
         "Barracuda",
-        "Sundshark Bomber",
+        "Tiger Shark Bomber",
         "Tiger Shark AX-1-0",
         "Orca",
         "Custodian Class Battleship",
@@ -155,15 +157,16 @@
           "points": 150
         },
         {
-          "name": "Sunshark Bomber",
-          "units": "Two Sun shark Bombers",
+          "name": "Tiger Shark Squadron",
+          "units": "Two Tiger Shark Bombers",
           "upgrades": [
+                "Add six Gun Drones: 75 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
-          "name": "Tiger Shark AX-1-0 Squadron",
-          "units": "Two Shark AX-1-0s",
+          "name": "AX-1-0s Squadron",
+          "units": "Two Tiger Shark AX-1-0s",
           "upgrades": [
 
           ],

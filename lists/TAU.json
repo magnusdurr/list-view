@@ -2,7 +2,12 @@
   {
     "name": "Tau Forces",
     "specialRules": [
-
+        {
+          "title": "Machine Spirit",
+          "description": [
+            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
+          ]
+        }
     ],
     "unit": [
     {
@@ -22,7 +27,7 @@
       "name": "Shas'el",
       "type": "CH",
       "weapons": [
-          "Experimental Weapons"
+          "n/a"
       ],
       "specialRules": [
         "Coordinated Fire",
@@ -84,7 +89,9 @@
         "Twin Pulse Carbines"
       ],
       "specialRules": [
-        "Tau Jet Packs"
+        "Tau Jet Packs",
+        "Machine Spirit",
+        "Expendable"
       ]
     },
     {
@@ -196,7 +203,9 @@
         "Scout",
         "Teleport",
         "Tau Jet Packs",
-        "Counts as Gun Drone for the purpose of being transported."
+        "Counts as Gun Drone for the purpose of being transported.",
+        "Machine Spirit",
+        "Expendable"
       ]
     },
     {

@@ -343,7 +343,7 @@
         "Skimmer",
         "Transport (may carry up to to four of the following units: Warrior, Incubi, Haemonculi, Grotesques, Wrack, Warp Beasts and Wych units). May only Transport units from its own formation."
       ],
-      "crit": "The Barge of Pleasure's shield generators explode, destroying the barge and causing a hit to any unit within 5cm on a 5+."
+      "crit": "The Barge of Pleasure's has its speed reduced to 15cm for the rest of the game. Subsequent criticals destroys the unit."
     },
     {
       "name": "Vessel of Pain",
@@ -362,12 +362,12 @@
         "Shadowfields 2",
         "Skimmer"
       ],
-      "crit": "The Vessel's phantom generator explodes, destroying the Vessel of Pain and causing a hit to any unit within 5cm on a 6+."
+      "crit": "The Vessel of Pain has its speed reduced to 15cm for the rest of the game. Subsequent criticals destroys the unit."
     },
     {
       "name": "Tormentor Titan",
       "type": "WE",
-      "speed": 35,
+      "speed": 40,
       "armour": 5,
       "cc": 3,
       "ff": 4,
@@ -376,34 +376,39 @@
         "Tormentor Blades"
       ],
       "specialRules": [
-        "Damage Capacity: 4",
+        "Damage Capacity: 3",
         "Shadowfields 2",
+        "Fearless",
         "Jump Packs",
         "Reinforced Armour",
         "Walker"
       ],
-      "crit": " Tormentor Titan explodes and is destroyed."
+      "crit": "The Tormentor Titan has its speed reduced to 15cm for the rest of the game. Subsequent criticals destroys the unit."
     },
     {
-      "name": "Torture Titan",
+      "name": "Executioner Landing Module",
       "type": "WE",
       "speed": 25,
       "armour": 5,
-      "cc": 3,
+      "cc": 6,
       "ff": 4,
       "weapons": [
         "Heavy Phantom Lance|2|",
-        "Dark Lance|2|",
-        "Torture Blades"
+        "Desolator|2|FxF",
+        "Disintegrator Array"
       ],
       "specialRules": [
-        "Damage Capacity: 6",
-        "Shadowfields 3",
-        "Fearless",
+        "Damage Capacity: 4",
+        "Shadowfields: 4",
+        "Planetfall",
+        "Support Craft",
         "Reinforced Armour",
-        "Walker"
-      ],
-      "crit": "The Torture Titan shield generator explodes. Any remaining Shadowfields are lost and the titan suffers D3 MW hits."
+        "Fearless",
+        "Transport",
+        "Critical Hit Effect:."
+    ],
+    "notes": "May transport up to twelve Infantry units. In addition it may carry up to six Light Vehicles with Skimmer, or up to two Vessels of Pain and/or Barges of Pleasure.",
+    "crit": "The Exercutioner has its speed reduced to 15cm for the rest of the game. Subsequent criticals destroys the unit."
     }
     ]
   }
