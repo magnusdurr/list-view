@@ -593,7 +593,7 @@
       "ff": 4,
       "weapons": [
         "Twin Heavy Stubber|2|",
-        "Flamer"
+        "Flamers"
       ],
       "specialRules": [
 
@@ -861,7 +861,7 @@
           "Damage Capacity 2",
           "Reinforced Armour"
       ],
-      "notes": "Critical Hit: The Deathstrike Silo is destroyed. All units within 5cm takes a hit on 5+"
+      "crit": "The Deathstrike Silo is destroyed. All units within 10cm takes a hit."
     },
     {
       "name": "Griffon",
@@ -1200,7 +1200,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry 2 infantry units without jump pack or mounted"
+    "notes": "May carry 2 infantry units without jump pack or mounted."
     },
     {
       "name": "Sky Talon",
@@ -1250,7 +1250,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry 1 infantry unit without jump pack or mounted"
+    "notes": "May carry 1 infantry unit without jump pack or mounted."
     },
     {
       "name": "Malcador",
@@ -1311,7 +1311,7 @@
         "Heavy Bolter|4"
       ],
       "specialRules": [
-        "Transport: May transport six infantry units without Jump Pack or Mounted"
+        "Transport: May transport six infantry units without Jump Pack or Mounted."
       ]
     },
     {
@@ -1328,7 +1328,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "crit": "The Minotaur is destroyed"
+      "crit": "The Minotaur is destroyed."
     },
     {
       "name": "Macharius",
@@ -1346,7 +1346,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "crit": "The Macharius is destroyed"
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Macharius Command",
@@ -1366,7 +1366,7 @@
         "Reinforced Armour"
       ],
       "notes": "Must be equipped with either two Vanquisher Cannons or one Vulcan Mega-Bolter.",
-      "crit": "The Macharius is destroyed"
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Baran Macharius",
@@ -1383,7 +1383,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "crit": "The Macharius is destroyed"
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Macharius Medusa",
@@ -1400,7 +1400,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "crit": "The Macharius is destroyed"
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Gorgon",
@@ -1415,9 +1415,10 @@
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
-        "Transport (May carry 10 infantry units without jump pack or mounted)"
+        "Walker",
+        "Transport (May carry 10 infantry units without Jump Pack or Mounted)"
       ],
-      "crit": "The Gorgon takes one additional damage, and D6 transported units takes a hit."
+      "crit": "The Gorgon is destroyed."
     },
     {
       "name": "Baneblade",

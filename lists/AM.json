@@ -460,7 +460,7 @@
       {
         "name": "AM Gorgon",
         "type": "WE",
-        "speed": "20cm",
+        "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 5,
@@ -470,9 +470,10 @@
         "specialRules": [
           "Damage Capacity 3",
           "Reinforced Armour",
+          "Walker",
           "Transport (May carry 10 infantry units without jump pack or mounted. Praetorians counts as two units each)"
         ],
-      "crit": "The Gorgon takes one additional damage, and D6 transported units takes a hit."
+      "crit": "The Gorgon is destroyed."
     },
     {
         "name": "Termite",
