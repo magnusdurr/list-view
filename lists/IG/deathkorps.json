@@ -22,7 +22,7 @@
         "DKoK Commander",
         "Lord Commissar",
         "Commissar",
-        "Assault Infantry",
+        "Siege Infantry",
         "Trench Support Squad",
         "Death Riders",
         "Rough Riders",
@@ -80,7 +80,7 @@
       "formations": [
         {
           "name": "Regimental HQ",
-          "units": "One DKoK Supreme Commander with a Commissar, fourteen Assault Infantry",
+          "units": "One DKoK Supreme Commander with a Commissar, fourteen Siege Infantry",
           "extraUnits": [
               "Lord Commissar",
               "Gorgon Assault",
@@ -95,7 +95,7 @@
         },
         {
           "name": "Assault Infantry Company",
-          "units": "One DKoK Commander with a Commissar, fourteen Assault Infantry",
+          "units": "One DKoK Commander with a Commissar, fourteen Siege Infantry",
           "extraUnits": [
               "Gorgon Assault",
               "Macharius",
@@ -249,7 +249,7 @@
         "name": "Gorgon Assault",
         "options": [
           {
-            "description": "Add two Gorgons and five Assault Infantry",
+            "description": "Add two Gorgons and five Siege Infantry",
             "points": "300 points"
           }
         ]

@@ -2,12 +2,6 @@
   {
     "name": "Tau Forces",
     "specialRules": [
-        {
-          "title": "Machine Spirit",
-          "description": [
-            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
-          ]
-        }
     ],
     "unit": [
     {
@@ -89,9 +83,7 @@
         "Twin Pulse Carbines"
       ],
       "specialRules": [
-        "Tau Jet Packs",
-        "Machine Spirit",
-        "Expendable"
+        "Tau Jet Packs"
       ]
     },
     {
@@ -203,9 +195,7 @@
         "Scout",
         "Teleport",
         "Tau Jet Packs",
-        "Counts as Gun Drone for the purpose of being transported.",
-        "Machine Spirit",
-        "Expendable"
+        "Counts as Gun Drone for the purpose of being transported."
       ]
     },
     {
