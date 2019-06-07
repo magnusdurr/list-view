@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "0.6.2",
-  "release": "2019-04-03",
+  "version": "0.6.3",
+  "release": "2019-06-07",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Titan Legion and Grenadier formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -132,7 +132,7 @@
           "name": "Earthshaker Battery",
           "units": "Three Earthshaker Guns, three Trojans",
           "upgrades": [
-              "Add three Earthshaker Guns, one Commissar, three Trojans: 200 points"
+              "Add three Earthshaker Guns, one Commissar, three Trojans: 225 points"
           ],
           "points": 200
         },
@@ -174,12 +174,14 @@
           "units": "One Macharius Command with a Commissar, two Macharius",
           "upgrades": [
           ],
-          "points": 325
+          "points": 375
         },
         {
           "name": "Minotaur Battery",
           "units": "Two Minotaurs",
-          "points": 350
+          "upgrades": [
+          ],
+          "points": 300
         },
 
         {
@@ -188,7 +190,7 @@
           "upgrades": [
               "Add four Storm Chimeras: 100 points"
           ],
-          "points": 225
+          "points": 200
         }
       ]
     },

@@ -782,7 +782,7 @@
     {
       "name": "Storm Chimera",
       "type": "AV",
-      "speed": 30,
+      "speed": 25,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -1108,7 +1108,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Demolisher Cannon"
+        "Demolisher"
       ],
       "specialRules": [
         "Reinforced Armour",
@@ -1137,7 +1137,7 @@
       "cc": 6,
       "ff": 3,
       "weapons": [
-        "Demolisher Cannon", "Lascannon", "Plasma Cannon|2|"
+        "Demolisher", "Lascannon", "Plasma Cannon|2|"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1278,7 +1278,7 @@
       "ff": 5,
       "weapons": [
         "Twin Lascannon",
-        "Demolisher Cannon",
+        "Demolisher",
         "Heavy Stubber|2|"
       ],
       "specialRules": [
@@ -1317,7 +1317,7 @@
     {
       "name": "Minotaur",
       "type": "WE",
-      "speed": 15,
+      "speed": 10,
       "armour": 4,
       "cc": 6,
       "ff": 6,
