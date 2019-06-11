@@ -1,10 +1,10 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "0.6.3",
-  "release": "2019-06-07",
+  "version": "0.6.4",
+  "release": "2019-06-11",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
-  "Initiative": "Titan Legion and Grenadier formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Collegia Titanica and Grenadier formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
       "Lord Commissar",
@@ -22,11 +22,10 @@
         "DKoK Commander",
         "Lord Commissar",
         "Commissar",
+        "Assault Infantry",
         "Siege Infantry",
-        "Trench Support Squad",
         "Death Riders",
         "Rough Riders",
-        "Snipers",
         "Grenadiers",
         "Earthshaker Gun",
         "Heavy AA Gun",
@@ -36,15 +35,16 @@
         "Deathstrike Silo",
         "Hellhound",
         "Storm Chimera",
+        "Leman Russ",
         "Leman Russ Annihilator",
         "Leman Russ Thunderer",
         "Malcador",
         "Malcador Annihilator",
-        "Minotaur",
         "Macharius",
         "Macharius Command",
         "Gorgon",
         "Baneblade",
+        "Stormblade",
         "Stormsword",
         "Shadowsword"
       ],
@@ -59,7 +59,8 @@
         "Warhound"
           ],
         "unitRules": [
-            "Void Shields"
+            "Void Shields",
+            "Independent"
       ]
     },
     {
@@ -76,44 +77,34 @@
 ],
 "sections": [
     {
-      "name": "DKoK Core Formations",
+      "name": "DKoK Core Companies",
       "formations": [
         {
           "name": "Regimental HQ",
-          "units": "One DKoK Supreme Commander with a Commissar, fourteen Siege Infantry",
+          "units": "One DKoK Supreme Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
               "Lord Commissar",
-              "Gorgon Assault",
               "Macharius",
-              "Trench Support",
-              "Snipers",
-              "Hellhounds",
-              "Malcadors",
-              "Entrenchments"
+              "Leman Russ Squadron"
           ],
           "points": 350
         },
         {
           "name": "Assault Infantry Company",
-          "units": "One DKoK Commander with a Commissar, fourteen Siege Infantry",
+          "units": "One DKoK Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
-              "Gorgon Assault",
               "Macharius",
-              "Trench Support",
-              "Snipers",
-              "Hellhounds",
-              "Malcadors",
-              "Entrenchments"
+              "Leman Russ Squadron"
           ],
-          "points": 250
+          "points": 275
     },
         {
           "name": "Death Rider Company",
           "units": "One Commissar, twelve Death Riders",
           "extraUnits": [
-          "Hellhound Platoon"
+          "Hellhounds"
           ],
-          "points": 300
+          "points": 250
     }
   ]
 },
@@ -129,19 +120,36 @@
           "points": 250
         },
         {
+          "name": "Siege Infantry Company",
+          "units": "One DKoK Commander with a Commissar, eleven Siege Infantry",
+          "extraUnits": [
+              "Malcador Squadron",
+              "Entrenchments"
+          ],
+          "points": 200
+      },
+      {
+        "name": "Siege Artillery Battery",
+        "units": "Three Bombards or Medusa, three Gun Emplacements",
+        "extraUnits": [
+        ],
+        "points": 225
+    },
+        {
+          "name": "Leman Russ Platoon",
+          "units": "Six Leman Russ, Leman Russ Thunderers or Leman Russ Annihilators",
+          "extraUnits": [
+              "Hellhounds"
+          ],
+          "points": 350
+        },
+        {
           "name": "Earthshaker Battery",
           "units": "Three Earthshaker Guns, three Trojans",
-          "upgrades": [
+          "extraUnits": [
               "Add three Earthshaker Guns, one Commissar, three Trojans: 225 points"
           ],
           "points": 200
-        },
-        {
-          "name": "Siege Battery",
-          "units": "Three Bombards or Medusa, three Gun Emplacements",
-          "upgrades": [
-          ],
-          "points": 225
         },
         {
           "name": "Flak Battery",
@@ -156,39 +164,27 @@
           "points": 150
         },
         {
-          "name": "Super-Heavy Tank Company",
-          "units": "One Commissar, and any three chosen from Shadowsword, Baneblade, Stormsword",
-          "upgrades": [
+          "name": "Super-Heavy Tank Platoon",
+          "units": "One Baneblade, Stormblade or Stormsword",
+          "extraUnits": [
+              "Replace a Baneblade with Shadowsword: 25 points"
           ],
-          "points": 500
-        },
-        {
-          "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ Thunderers or Leman Russ Annihilators",
-          "upgrades": [
-          ],
-          "points": 350
+          "points": 175
         },
         {
           "name": "Macharius Company",
           "units": "One Macharius Command with a Commissar, two Macharius",
           "upgrades": [
           ],
-          "points": 375
+          "points": 400
         },
-        {
-          "name": "Minotaur Battery",
-          "units": "Two Minotaurs",
-          "upgrades": [
-          ],
-          "points": 300
-        },
-
         {
           "name": "Grenadier Company",
           "units": "One DKoK Commander with a Commissar, seven Grenadiers",
-          "upgrades": [
-              "Add four Storm Chimeras: 100 points"
+          "extraUnits": [
+              "Add four Storm Chimeras or one Gorgon: 75 points",
+              "Leman Russ Squadron",
+              "Hellhounds"
           ],
           "points": 200
         }
@@ -201,7 +197,10 @@
           {
             "name": "Warhound Pack",
             "units": "Two Warhounds",
-            "points": 500
+            "points": 500,
+            "upgrades": [
+                "The formation gains the 'Independent' Special Rule"
+            ]
           },
         {
           "name": "Thunderbolt Squadron",
@@ -243,16 +242,7 @@
         "options": [
           {
             "description": "Replace a Commissar with a Lord Commissar",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Gorgon Assault",
-        "options": [
-          {
-            "description": "Add two Gorgons and five Siege Infantry",
-            "points": "300 points"
+            "points": 75
           }
         ]
       },
@@ -261,16 +251,7 @@
         "options": [
           {
             "description": "Add one Macharius",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Trench Support",
-        "options": [
-          {
-            "description": "Add four Trench Support Squads",
-            "points": "75 points"
+            "points": 125
           }
         ]
       },
@@ -284,20 +265,20 @@
         ]
       },
       {
-        "name": "Malcadors",
+        "name": "Malcador Squadron",
         "options": [
           {
-            "description": "Add up to two Malcadors and/or Malcador Annihilators",
-            "points": "75 points each"
+            "description": "Add three Malcadors or three Malcador Annihilators",
+            "points": 175
           }
         ]
       },
       {
-        "name": "Snipers",
+        "name": "Leman Russ Squadron",
         "options": [
           {
-            "description": "Add up to two Snipers",
-            "points": "25 points each"
+            "description": "Add three Leman Russ, Leman Russ Thunderers or Leman Russ Annihilators",
+            "points": 125
           }
         ]
       },
@@ -305,8 +286,8 @@
         "name": "Entrenchments",
         "options": [
           {
-            "description": "60cm Razor Wire, 60cm Trenches. May not be combined with the Gorgon Assault upgrade",
-            "points": "50 points"
+            "description": "60cm Razor Wire, 60cm Trenches",
+            "points": 50
           }
         ]
       }
