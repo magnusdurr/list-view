@@ -471,9 +471,10 @@
           "Damage Capacity 3",
           "Reinforced Armour",
           "Walker",
-          "Transport (May carry 10 infantry units without jump pack or mounted. Praetorians counts as two units each)"
+          "Transport"
         ],
-      "crit": "The Gorgon is destroyed."
+        "notes": "May carry 10 infantry units without Jump Pack or Mounted. Praetorians counts as two units each.",
+        "crit": "The Gorgon takes an additional damage. 1D3 units inside takes a hit."
     },
     {
         "name": "Termite",
