@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "0.6.4",
-  "release": "2019-06-11",
+  "version": "0.6.5",
+  "release": "2019-06-12",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica and Grenadier formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -80,14 +80,15 @@
       "name": "DKoK Core Companies",
       "formations": [
         {
-          "name": "Regimental HQ",
+          "name": "0-1 Death Korps Regimental HQ",
           "units": "One DKoK Supreme Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
+              "Add ten Assault Infantry and one Gorgon: 275 points"
               "Lord Commissar",
               "Macharius",
               "Leman Russ Squadron"
           ],
-          "points": 350
+          "points": 325
         },
         {
           "name": "Assault Infantry Company",
@@ -96,7 +97,7 @@
               "Macharius",
               "Leman Russ Squadron"
           ],
-          "points": 275
+          "points": 250
     },
         {
           "name": "Death Rider Company",
@@ -104,7 +105,7 @@
           "extraUnits": [
           "Hellhounds"
           ],
-          "points": 250
+          "points": 300
     }
   ]
 },
@@ -199,7 +200,6 @@
             "units": "Two Warhounds",
             "points": 500,
             "upgrades": [
-                "The formation gains the 'Independent' Special Rule"
             ]
           },
         {
@@ -242,7 +242,7 @@
         "options": [
           {
             "description": "Replace a Commissar with a Lord Commissar",
-            "points": 75
+            "points": 100
           }
         ]
       },
@@ -269,7 +269,7 @@
         "options": [
           {
             "description": "Add three Malcadors or three Malcador Annihilators",
-            "points": 175
+            "points": 150
           }
         ]
       },
