@@ -1,19 +1,12 @@
 {
   "fraction": "Space Marines",
   "army": "White Scars",
-  "version": "1.0",
-  "release": "2019-01-20",
+  "version": "1.0.0",
+  "release": "2019-06-13",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
-    {
-      "title": "White Scars Transports",
-      "description": [
-        "The Space Marines are a highly mobile army. Because of this the points cost of a detachment usually includes enough transport vehicles to transport it and any upgrades that have been taken. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! The transport vehicles will be Land Raider Crusaders if the detachment is Terminators, Rhinos for any other form of detachment.",
-        "Note that many formations don’t receive transports, usually because they can’t fit into them. Detachments that come with vehicles will be noted as having plus transport in the Units section of the detachment list below. White Scars detachments must take the transport vehicles for a detachment—you cannot leave them behind in order to use the unit as a garrison or to be deployed from a Thunderhawk gunship.",
-        "In addition you may choose to replace a detachment’s vehicles with drop pods before each game, after the opposing army is known but before objectives are placed. If you choose to do this, all transported detachments in the army must deploy from drop pods—you can’t have some in transport vehicles and some deploying from drop pods. If you do choose to use drop pods, then the affected detachments will enter play in drop pods using the rules for Planetfall (see Planetfall). Note that you will require at least one Space Marine strike cruiser or battle barge to deploy the drop pods from."
-      ]
-    }
+      "White Scars Transports"
   ],
   "usage": [
     "The following army list allows you to field an army based on the White Scars, or one of their successor chapters, using their preferred operational methods."
@@ -30,7 +23,7 @@
         "Scouts",
         "Tacticals",
         "Terminators",
-        "White Scars Bikes",
+        "White Scars Assault Bikes",
         "White Scars Scout Bikes",
         "Land Speeder",
         "Land Speeder Tornado",
@@ -50,7 +43,6 @@
         "Landing Craft",
         "Storm Talon Gunship",
         "Thunderhawk",
-        "Thunderhawk Transporter",
         "Battle Barge",
         "Strike Cruiser",
         "Drop Pod"
@@ -76,7 +68,7 @@
         {
           "name": "Assaults",
           "units": "Four Assaults",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Vindicators"
           ],
@@ -85,7 +77,7 @@
         {
           "name": "Bikes",
           "units": "Eight White Scars Bikes",
-          "upgrades": [
+          "extraUnits": [
             "Attack Bikes",
             "Commander"
           ],
@@ -94,7 +86,7 @@
         {
           "name": "Scout Bikes",
           "units": "Five Scout Bikes",
-          "upgrades": [
+          "extraUnits": [
             "Attack Bikes",
             "Commander"
           ],
@@ -109,7 +101,7 @@
         {
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Typhoons"
           ],
@@ -118,7 +110,7 @@
         {
           "name": "Predator",
           "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander",
             "Vindicators"
@@ -128,7 +120,7 @@
         {
           "name": "Scout",
           "units": "Four Scouts plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Razorbacks",
             "Snipers"
@@ -138,7 +130,7 @@
         {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
-          "upgrades": [
+          "extraUnits": [
             "Battle Barge"
           ],
           "points": 200
@@ -146,21 +138,22 @@
         {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander",
             "Razorbacks",
-            "Vindicators"
+            "Vindicators",
+            "Land Raiders"
           ],
           "points": 275
         },
         {
           "name": "Terminators",
-          "units": "Four Terminators plus transport",
-          "upgrades": [
+          "units": "Four Terminators, two Land Raider Crusaders",
+          "extraUnits": [
+            "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
             "Anti-Air",
             "Commander",
-            "Land Raiders",
             "Vindicators"
           ],
           "points": 450
@@ -168,23 +161,23 @@
         {
           "name": "Whirlwinds",
           "units": "Four Whirlwinds",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander"
           ],
           "points": 275
-        }
+      },
+      {
+        "name": "Landing Craft",
+        "units": "One Landing Craft",
+        "points": 350
+      }
       ]
     },
     {
-      "name": "White Scars Aircraft & Imperial Allies",
+      "name": "White Scars Aircraft & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-        {
-          "name": "Landing Craft",
-          "units": "One Landing Craft",
-          "points": 350
-        },
         {
           "name": "Storm Talon Squadron",
           "units": "Two Storm Talons",
@@ -196,17 +189,9 @@
           "points": 200
         },
         {
-          "name": "Thunderhawk Transporter",
-          "units": "One Thunderhawk Transporter",
-          "upgrades": [
-            "Thunderhawk Transporter"
-          ],
-          "points": 175
-        },
-        {
           "name": "Warhound Pack",
           "units": "Two Warhound Class Titans",
-          "upgrades": [
+          "extraUnits": [
             "Independent"
           ],
           "points": 500
@@ -220,13 +205,13 @@
     "items": [
       {
         "name": "Attack Bikes",
-        "description": "Replace up to three White Scars Bikes, or one White Scars Scout Bikes, with an equal number of White Scars Attack or Melta Bikes",
+        "description": "Replace up to three White Scars Assault Bikes, or one White Scars Scout Bikes, with an equal number of White Scars Attack or Melta Bikes",
         "points": "Free"
       },
       {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
-        "points": "150 points"
+        "points": "75 points"
       },
       {
         "name": "Commander",
@@ -258,12 +243,12 @@
       },
       {
         "name": "Independent",
-        "description": "Allows a Warhound Pack to operate as two independent War Engines. If one Warhound is destroyed, the other one in the pack receives a blastmarker",
+        "description": "Allows a Warhound Pack to operate as two independent formations. If one Warhound in a pack is destroyed, the other one in the pack receives a blastmarker",
         "points": "50 points"
       },
       {
         "name": "Land Raiders",
-        "description": "Replace up to two Land Raider Crusaders with two Land Raiders each",
+        "description": "Add up to three Land Raiders",
         "points": "50 points each"
       },
       {
@@ -275,11 +260,6 @@
         "name": "Snipers",
         "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",
         "points": "25 points"
-      },
-      {
-        "name": "Thunderhawk Transporter",
-        "description": "Add one Thunderhawk Transporter",
-        "points": "100 points"
       },
       {
         "name": "Typhoons",
