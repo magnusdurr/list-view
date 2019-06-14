@@ -36,7 +36,7 @@
         "Storm Chimera",
         "Leman Russ",
         "Leman Russ Annihilator",
-        "Leman Russ Thunderer",
+        "Leman Russ Demolisher",
         "Malcador",
         "Malcador Annihilator",
         "Macharius",
@@ -128,7 +128,7 @@
     },
         {
           "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ, Leman Russ Thunderers or Leman Russ Annihilators",
+          "units": "Six Leman Russ, Leman Russ Demolishers or Leman Russ Annihilators",
           "extraUnits": [
               "Hellhounds"
           ],
@@ -181,9 +181,7 @@
           "name": "Grenadier Company",
           "units": "One DKoK Commander with a Commissar, seven Grenadiers, one Gorgon",
           "extraUnits": [
-              "Replace the Gorgon with four Storm Chimeras: Free",
-              "Leman Russ Squadron",
-              "Hellhounds"
+              "Replace the Gorgon with four Storm Chimeras: Free"
           ],
           "points": 300
         }
@@ -240,7 +238,7 @@
         "options": [
           {
             "description": "Replace a Commissar with a Lord Commissar",
-            "points": 100
+            "points": "100 points"
           }
         ]
       },
@@ -249,7 +247,7 @@
         "options": [
           {
             "description": "Add one Macharius",
-            "points": 125
+            "points": "150 points"
           }
         ]
       },
@@ -266,8 +264,8 @@
         "name": "Malcadors",
         "options": [
           {
-            "description": "Add up to two Malcadors and/or Malcador Annihilators",
-            "points": "75 points each"
+            "description": "Add two Malcadors or Malcador Annihilators",
+            "points": "150 points"
           }
         ]
       },
@@ -275,8 +273,8 @@
         "name": "Leman Russ Squadron",
         "options": [
           {
-            "description": "Add three Leman Russ, Leman Russ Thunderers or Leman Russ Annihilators",
-            "points": 125
+            "description": "Add three Leman Russ or Leman Russ Demolishers",
+            "points": "150 points"
           }
         ]
       }
