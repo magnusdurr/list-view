@@ -1,15 +1,14 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "0.6.5",
-  "release": "2019-06-12",
+  "version": "0.6.6",
+  "release": "2019-06-14",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica and Grenadier formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
       "Lord Commissar",
-      "Courage, Discipline and Loyalty",
-      "Fortified Positions"
+      "Courage, Discipline and Loyalty"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Death Korps of Krieg"
@@ -32,7 +31,7 @@
         "Trojan",
         "Bombard",
         "Medusa",
-        "Deathstrike Silo",
+        "Deathstrike",
         "Hellhound",
         "Storm Chimera",
         "Leman Russ",
@@ -114,24 +113,15 @@
       "description": "Up to two Support Formations for each Company Formation.",
       "formations": [
         {
-          "name": "0–1 Deathstrike Silo",
-          "units": "One Deathstrike Silo",
+          "name": "0–1 Deathstrike Battery",
+          "units": "Two Deathstrikes",
           "upgrades": [
           ],
-          "points": 250
-        },
-        {
-          "name": "Siege Infantry Company",
-          "units": "One DKoK Commander with a Commissar, eleven Siege Infantry",
-          "extraUnits": [
-              "Malcador Squadron",
-              "Entrenchments"
-          ],
           "points": 200
-      },
+        },
       {
         "name": "Siege Artillery Battery",
-        "units": "Three Bombards or Medusa, three Gun Emplacements",
+        "units": "Three Bombards or Medusa",
         "extraUnits": [
         ],
         "points": 225
@@ -143,6 +133,14 @@
               "Hellhounds"
           ],
           "points": 350
+        },
+        {
+          "name": "Siege Infantry Platoon",
+          "units": "Eight Siege Infantry",
+          "extraUnits": [
+              "Malcadors"
+          ],
+          "points": 150
         },
         {
           "name": "Earthshaker Battery",
@@ -181,13 +179,13 @@
         },
         {
           "name": "Grenadier Company",
-          "units": "One DKoK Commander with a Commissar, seven Grenadiers",
+          "units": "One DKoK Commander with a Commissar, seven Grenadiers, one Gorgon",
           "extraUnits": [
-              "Add four Storm Chimeras or one Gorgon: 75 points",
+              "Replace the Gorgon with four Storm Chimeras: Free",
               "Leman Russ Squadron",
               "Hellhounds"
           ],
-          "points": 200
+          "points": 300
         }
       ]
     },
@@ -265,11 +263,11 @@
         ]
       },
       {
-        "name": "Malcador Squadron",
+        "name": "Malcadors",
         "options": [
           {
-            "description": "Add three Malcadors or Malcador Annihilators",
-            "points": 175
+            "description": "Add up to two Malcadors and/or Malcador Annihilators",
+            "points": "75 points each"
           }
         ]
       },
@@ -279,15 +277,6 @@
           {
             "description": "Add three Leman Russ, Leman Russ Thunderers or Leman Russ Annihilators",
             "points": 125
-          }
-        ]
-      },
-      {
-        "name": "Entrenchments",
-        "options": [
-          {
-            "description": "60cm Razor Wire, 60cm Trenches",
-            "points": 50
           }
         ]
       }

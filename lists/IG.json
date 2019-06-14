@@ -124,7 +124,6 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
         "Heavy Flamer"
       ],
       "specialRules": [
@@ -155,7 +154,6 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
         "Twin Heavy Stubber"
       ],
       "specialRules": [
@@ -172,7 +170,6 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
         "Twin Heavy Stubber"
       ],
       "specialRules": [
@@ -226,8 +223,8 @@
       "name": "Commissar",
       "type": "CH",
       "weapons": [
-        "Power Weapon",
-        "Master-Crafted Gun"
+        "Power Weapon|0-1",
+        "Master-Crafted Gun|0-1"
       ],
       "specialRules": [
         "Leader",
@@ -240,8 +237,8 @@
       "name": "Lord Commissar",
       "type": "CH",
       "weapons": [
-        "Power Weapon",
-        "Master-Crafted Gun"
+        "Power Weapon|0-1",
+        "Master-Crafted Gun|0-1"
       ],
       "specialRules": [
         "Lord Commissar",
