@@ -1441,6 +1441,17 @@
       ]
     },
     {
+      "name": "Twin Battle Cannon",
+      "modes": [
+        {
+          "firepower": "AP3+/AT3+",
+          "range": 75,
+          "specialRules": [
+        ]
+        }
+      ]
+    },
+    {
       "name": "Battle Claws",
       "modes": [
         {
@@ -6993,6 +7004,15 @@
       ]
     },
     {
+      "name": "Twin Ragnarok Battle Cannon",
+        "modes": [
+          {
+            "firepower": "AP3+/AT3+",
+            "range":60
+          }
+      ]
+    },
+    {
       "name": "Railgun",
         "modes": [
           {
@@ -9397,6 +9417,17 @@
         "modes": [
           {
             "firepower": "AP4+/AT2+",
+            "range": 75,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Vanquisher Cannon",
+        "modes": [
+          {
+            "firepower": "AP3+/AT2+",
             "range": 75,
             "specialRules": [
           ]
