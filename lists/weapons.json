@@ -632,10 +632,10 @@
       ]
     },
     {
-      "name": "AC Splinter Cannon",
+      "name": "AC Twin Splinter Cannons",
         "modes": [
           {
-            "firepower": "AP5+/AA5+",
+            "firepower": "AP4+/AA5+",
             "range": 15,
             "specialRules": [
               "FxF"
@@ -682,11 +682,11 @@
       "name": "AC Twin Bright Lances",
       "modes": [
         {
-          "firepower": "AT4+/AA5+ ",
+          "firepower": "AT4+/AA5+",
           "range": 30,
           "specialRules": [
-            "FxF",
-            "Lance"
+            "Lance",
+            "FxF"
           ]
         }
       ]
@@ -695,11 +695,11 @@
       "name": "AC Bright Lances",
       "modes": [
         {
-          "firepower": "AT5+/AA5+ ",
+          "firepower": "AT5+/AA5+",
           "range": 30,
           "specialRules": [
-            "FxF",
-            "Lance"
+            "Lance",
+            "FxF"
           ]
         }
       ]
@@ -1166,9 +1166,10 @@
       "name": "Arcane Terrors",
         "modes": [
           {
-            "firepower": "Small Arms",
+            "firepower": "AP3+",
+            "range": 15,
             "specialRules": [
-              "EA(+1)"
+              "D"
           ]
         }
       ]
@@ -2882,7 +2883,7 @@
       "name": "Desolator",
         "modes": [
           {
-            "firepower": "3BP",
+            "firepower": "2BP",
             "range": 30,
             "specialRules": [
               "D"
@@ -3129,6 +3130,17 @@
             "range": 90,
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Impalers and Shardnets",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "FS"
           ]
           }
       ]
@@ -4257,11 +4269,11 @@
       ]
     },
     {
-      "name": "Heavy Phantom Lance",
+      "name": "Twin Heavy Phantom Lances",
         "modes": [
           {
-            "firepower": "MW3+",
-            "range": 75,
+            "firepower": "MW2+",
+            "range": 60,
             "specialRules": [
               "TK(D3)"
           ]
@@ -5288,7 +5300,7 @@
       "name": "Liquefiers",
         "modes": [
           {
-            "firepower": "AP3+",
+            "firepower": "AP4+",
             "range": 15,
             "specialRules": [
               "D"
@@ -5421,7 +5433,7 @@
       "name": "Mandrake Blades",
         "modes": [
           {
-            "firepower": "Assault Weapon",
+            "firepower": "Assault Weapons",
             "specialRules": [
           ]
         }
@@ -5713,11 +5725,11 @@
       "name": "Mole Launchers",
       "modes": [
         {
-          "firepower": "1BP",
+          "firepower": "AP4+/AT6+",
           "range": 30,
           "specialRules": [
             "Ind",
-            "D"
+            "IC"
         ]
         }
       ]
@@ -5726,11 +5738,11 @@
       "name": "Mole Mortar",
       "modes": [
         {
-          "firepower": "1BP",
+          "firepower": "AP4+/AT6+",
           "range": 30,
           "specialRules": [
             "Ind",
-            "D"
+            "IC"
         ]
         }
       ]
@@ -5767,7 +5779,7 @@
           "name": "Monomolecular Blade",
           "modes": [
             {
-            "firepower": "Assault Weapons",
+            "firepower": "Assault Weapon",
             "specialRules": [
               "EA(+1)",
               "FS",
@@ -5997,7 +6009,7 @@
       "name": "Paralyzer",
         "modes": [
           {
-            "firepower": "AP5+",
+            "firepower": "AP4+",
             "range": 15,
             "specialRules": [
               "D"
@@ -6080,6 +6092,18 @@
             "range": 45,
             "specialRules": [
               "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Phantom Lances",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 45,
+            "specialRules": [
+              "TK(D2)"
           ]
         }
       ]
@@ -7971,6 +7995,28 @@
       ]
     },
     {
+      "name": "Splinter Blast",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AA5+",
+            "range": 30,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Splinter Storm",
+        "modes": [
+          {
+            "firepower": "4x AP5+/AA5+",
+            "range": 30,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Solar Atomiser",
         "modes": [
           {
@@ -8795,7 +8841,7 @@
       "name": "Tormentor Blades",
         "modes": [
           {
-            "firepower": "Assault Weapon",
+            "firepower": "Assault Weapons",
             "specialRules": [
               "EA(+2)",
               "TK(1)"
@@ -9528,6 +9574,19 @@
       ]
     },
     {
+      "name": "Twin Void Lances",
+        "modes": [
+          {
+            "firepower": "AT3+",
+            "range": 45,
+            "specialRules": [
+              "Lance"
+
+          ]
+        }
+      ]
+    },
+    {
       "name": "Voidstorm Missile Launcher",
       "modes": [
         {
@@ -9893,6 +9952,17 @@
               "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "Wych Weapons",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "FS"
+          ]
+          }
       ]
     },
     {

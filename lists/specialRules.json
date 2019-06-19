@@ -347,7 +347,7 @@
     {
       "title": "Shadowfields",
       "description": [
-        "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate Blast Markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2) and so weapons (including AA) without the ignore cover ability shooting at it receive a -1 to hit modifier."
+        "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate Blast Markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2), meaning that all shooting (including AA) without the Ignore Cover ability receive a -1 to hit modifier."
         ]
     },
 
@@ -490,7 +490,7 @@
     {
       "title": "Lance",
       "description": [
-        "When units with reinforced armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
       ]
     },
     {
