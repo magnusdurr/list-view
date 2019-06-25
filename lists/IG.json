@@ -605,6 +605,7 @@
         "Plasma Gun"
       ],
       "specialRules": [
+       "Scout"
       ]
     },
     {
@@ -618,6 +619,7 @@
         "Heavy Flamer"
       ],
       "specialRules": [
+          "Scout",
           "Walker (also works against enemy fortifications)"
       ]
     },
@@ -625,7 +627,7 @@
       "name": "Sappers",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
+      "armour": 6,
       "cc": 5,
       "ff": 5,
       "weapons": [
@@ -633,6 +635,7 @@
         "Melta Bombs"
       ],
       "specialRules": [
+          "Scout",
           "Walker (also works against enemy fortifications)"
       ]
     },
