@@ -43,7 +43,6 @@
         "Macharius Command",
         "Gorgon",
         "Baneblade",
-        "Stormblade",
         "Stormsword",
         "Shadowsword"
       ],
@@ -164,9 +163,9 @@
         },
         {
           "name": "Super-Heavy Tank Platoon",
-          "units": "One Baneblade, Stormblade or Stormsword",
+          "units": "One Baneblade or Stormsword",
           "extraUnits": [
-              "Replace a Baneblade with Shadowsword: 25 points"
+              "Replace a Baneblade or Stormsword with a Shadowsword: 25 points"
           ],
           "points": 175
         },
