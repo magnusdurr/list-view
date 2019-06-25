@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Cadian Shock Troops",
-  "version": "0.6.0",
-  "release": "2019-05-31",
+  "version": "0.6.2",
+  "release": "2019-06-25",
   "strategy": "Cadian Shock Troops armies have a Strategy Rating of 2.",
   "Initiative": "The Regimental HQ, Kasrkin Platoons and Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -122,13 +122,12 @@
           ]
         },
         {
-          "name": "Medusa Battery",
-          "units": "Four Medusa",
-          "upgrades": [
-            "Add one Hydra: 50 points"
-        ],
-          "points": 200
-        },
+          "name": "Siege Artillery Battery",
+          "units": "Three Bombards or four Medusa",
+          "extraUnits": [
+          ],
+          "points": 225
+      },
         {
           "name": "0-1 Deathstrike Battery",
           "units": "Two Deathstrike",
