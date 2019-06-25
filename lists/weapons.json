@@ -273,7 +273,7 @@
       ]
     },
     {
-      "name": "AC Twin Big Shoota",
+      "name": "AC Twin Big Shootas",
         "modes": [
           {
             "firepower": "AP5+/AT6+/AA5+",
@@ -839,7 +839,7 @@
       ]
     },
     {
-      "name": "AC Twin Lascannon",
+      "name": "AC Twin Lascannons",
         "modes": [
           {
             "firepower": "AT4+/AA4+",
@@ -1442,7 +1442,7 @@
       ]
     },
     {
-      "name": "Twin Battle Cannon",
+      "name": "Twin Battle Cannons",
       "modes": [
         {
           "firepower": "AP3+/AT3+",
@@ -2872,6 +2872,18 @@
       "modes": [
         {
           "firepower": "AP3+/AT4+",
+          "range": 30,
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Demolishers",
+      "modes": [
+        {
+          "firepower": "AP2+/AT3+",
           "range": 30,
           "specialRules": [
             "IC"
@@ -5152,10 +5164,22 @@
       ]
     },
     {
+      "name": "Laser Destroyer",
+      "modes": [
+        {
+          "firepower": "AT2+",
+          "range": 60,
+          "specialRules": [
+          "Lance"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Laser Destroyer Array",
       "modes": [
         {
-          "firepower": "AT4+",
+          "firepower": "AT2+",
           "range": 60,
           "specialRules": [
           "Lance"
@@ -5792,7 +5816,7 @@
       "name": "Mortar",
         "modes": [
           {
-            "firepower": "1BP",
+            "firepower": "AP5+",
             "range": 30,
             "specialRules": [
               "Ind"
@@ -6226,6 +6250,17 @@
       ]
     },
     {
+      "name": "Stormblade Plasma Blastgun",
+      "modes": [
+        {
+          "firepower": "2x AP2+/AT2+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Plasma Cremator",
       "modes": [
         {
@@ -6310,7 +6345,7 @@
       "name": "Plasma Destroyer",
         "modes": [
           {
-            "firepower": "MW4+",
+            "firepower": "AP3+/AT3+",
             "range": 60,
             "specialRules": [
           ]
@@ -8228,6 +8263,17 @@
       ]
     },
     {
+      "name": "Stormhammer Cannon",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range":75,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Stranglethorn Cannon",
         "modes": [
           {
@@ -8909,7 +8955,7 @@
       ]
     },
     {
-      "name": "Tri-Twin Hydra Autocannon",
+      "name": "Tri-Twin Hydra Autocannons",
         "modes": [
           {
             "firepower": "3x AP4+/AT5+/AA5+",
@@ -8948,7 +8994,7 @@
     },
 
     {
-      "name": "AC Twin Assault Cannon",
+      "name": "AC Twin Assault Cannons",
       "modes": [
         {
           "firepower": "AP4+/AT4+/AA5+",
@@ -8957,7 +9003,7 @@
       ]
     },
     {
-      "name": "AC Twin Autocannon",
+      "name": "AC Twin Autocannons",
       "modes": [
         {
           "firepower": "AP4+/AT5+/AA5+",
@@ -8966,7 +9012,7 @@
       ]
     },
     {
-      "name": "AC Twin Lascannon",
+      "name": "AC Twin Lascannons",
       "modes": [
         {
           "firepower": "AT4+/AA4+",
@@ -8975,7 +9021,7 @@
       ]
     },
     {
-      "name": "Twin Assault Cannon",
+      "name": "Twin Assault Cannons",
       "modes": [
         {
           "firepower": "AP4+/AT4+",
@@ -8984,7 +9030,7 @@
       ]
     },
     {
-      "name": "Twin Autocannon",
+      "name": "Twin Autocannons",
       "modes": [
         {
           "firepower": "AP4+/AT5+",
@@ -8993,7 +9039,7 @@
       ]
     },
     {
-      "name": "Twin Mortis Autocannon",
+      "name": "Twin Mortis Autocannons",
       "modes": [
         {
           "firepower": "AP5+/AT6+/AA6+",
@@ -9002,7 +9048,7 @@
       ]
     },
     {
-      "name": "Twin Big Shoota",
+      "name": "Twin Big Shootas",
         "modes": [
           {
             "firepower": "AP5+/AT6+",
@@ -9065,7 +9111,7 @@
       ]
     },
     {
-      "name": "Twin Fusion Cannon",
+      "name": "Twin Fusion Cannons",
         "modes": [
           {
             "firepower": "MW4+",
@@ -9076,7 +9122,7 @@
       ]
     },
     {
-      "name": "AC Twin Heavy Bolter",
+      "name": "AC Twin Heavy Bolters",
       "modes": [
         {
           "firepower": "AP4+/AA5+",
@@ -9085,7 +9131,7 @@
       ]
     },
     {
-      "name": "Twin Heavy Bolter",
+      "name": "Twin Heavy Bolters",
       "modes": [
         {
           "firepower": "AP4+",
@@ -9094,7 +9140,7 @@
       ]
     },
     {
-      "name": "Twin Heavy Flamer",
+      "name": "Twin Heavy Flamers",
         "modes": [
           {
             "firepower": "AP3+",
@@ -9110,7 +9156,7 @@
       ]
     },
     {
-      "name": "Twin Heavy Phosphor Blaster",
+      "name": "Twin Heavy Phosphor Blasters",
         "modes": [
           {
             "firepower": "AP4+/AT5+",
@@ -9135,7 +9181,7 @@
       ]
     },
     {
-      "name": "Twin Hornet Pulse Laser",
+      "name": "Twin Hornet Pulse Lasers",
       "modes": [
         {
           "firepower": "2x AT4+",
@@ -9144,7 +9190,7 @@
       ]
     },
     {
-      "name": "Twin Hydra Autocannon",
+      "name": "Twin Hydra Autocannons",
           "modes": [
             {
               "firepower": "AP4+/AT5+/AA5+",
@@ -9153,7 +9199,7 @@
       ]
     },
     {
-      "name": "Twin Icarus Autocannon",
+      "name": "Twin Icarus Autocannons",
       "modes": [
         {
           "firepower": "AP4+/AT5+/AA5+",
@@ -9162,7 +9208,7 @@
       ]
     },
     {
-      "name": "Twin Lascannon R",
+      "name": "Twin Lascannons R",
       "modes": [
         {
           "firepower": "AT4+",
@@ -9174,7 +9220,7 @@
       ]
     },
     {
-      "name": "Twin Lascannon L",
+      "name": "Twin Lascannons L",
       "modes": [
         {
           "firepower": "AT4+",
@@ -9186,7 +9232,7 @@
       ]
     },
     {
-      "name": "Twin Lascannon",
+      "name": "Twin Lascannons",
       "modes": [
         {
           "firepower": "AT4+",

@@ -16,6 +16,12 @@
 			]
 		},
 		{
+		  "title": "Act of Faith",
+		  "description": [
+			"Units that have the 'Faithful' special rule gains Fearless and Invulnerable Save until end of turn when performing an Engage action. Units that already have an Invulnerable Save gain a 5+ Invulnerable Save instead. If the roll to activate fails, the units does not recieve the Act of Faith bonus."
+		  ]
+	  },
+		{
 			"title": "Ponderous",
 			"description": [
 				"May only make a single withdrawal move instead of two when becoming broken or failing to rally."
@@ -47,15 +53,17 @@
 			]
 		},
 		{
-			"name": "Priest",
+			"name": "Ministorum Priest",
 			"type": "CH",
 			"weapons": [
 				"Power Weapon"
 			],
 			"specialRules": [
 				"Inspiring",
-				"Invulnerable Save"
-			]
+				"Invulnerable Save",
+				"Faithful"
+			],
+	         "notes": "Only has a Power Weapon if attached to an INF unit"
 		},
 		{
 			"name": "Living Saint",
@@ -335,7 +343,7 @@
 			"cc": 4,
 			"ff": 4,
 			"weapons": [
-				"Twin Heavy Flamer",
+				"Twin Heavy Flamers",
 				"Power Saws"
 			],
 			"specialRules": [

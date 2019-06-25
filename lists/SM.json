@@ -970,7 +970,7 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"Twin Mortis Autocannon|2"
+				"Twin Mortis Autocannons|2"
 			],
 			"specialRules": [
 				"Walker"
@@ -1002,7 +1002,7 @@
 			"ff": 4,
 			"weapons": [
 				"Missile Launcher",
-				"Twin Lascannon"
+				"Twin Lascannons"
 			],
 			"specialRules": [
 				"Walker"
@@ -1089,7 +1089,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Autocannon",
+				"Twin Autocannons",
 				"Heavy Flamer",
 				"Heavy Bolter|2|"
 			],
@@ -1105,8 +1105,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannon|2",
-				"Twin Heavy Bolter"
+				"Twin Lascannons|2",
+				"Twin Heavy Bolters"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1123,7 +1123,7 @@
 			"cc": 6,
 			"ff": 3,
 			"weapons": [
-				"Twin Lascannon|2",
+				"Twin Lascannons|2",
 				"Twin Dragonfire Heavy Bolter"
 			],
 			"specialRules": [
@@ -1142,7 +1142,7 @@
 			"ff": 4,
 			"weapons": [
 				"Flamestorm Cannon|2",
-				"Twin Assault Cannon"
+				"Twin Assault Cannons"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1159,8 +1159,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannon|2",
-				"Twin Heavy Bolter"
+				"Twin Lascannons|2",
+				"Twin Heavy Bolters"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1179,7 +1179,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannon|2",
+				"Twin Lascannons|2",
 				"Twin Psycannon"
 			],
 			"specialRules": [
@@ -1218,7 +1218,7 @@
 			"ff": 3,
 			"weapons": [
 				"Demolisher",
-				"Twin Assault Cannon",
+				"Twin Assault Cannons",
 				"Heavy Flamer|2"
 			],
 			"specialRules": [
@@ -1252,7 +1252,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Twin Assault Cannon",
+				"Twin Assault Cannons",
 				"Hurricane Bolter|2"
 			],
 			"specialRules": [
@@ -1270,7 +1270,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Twin Lascannon|2",
+				"Twin Lascannons|2",
 				"Hyperios Launcher|0-1",
 				"Whirlwind Launcher|0-1"
 			],
@@ -1289,7 +1289,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Bolter|4"
+				"Twin Heavy Bolters|4"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1306,7 +1306,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Lascannon",
+				"Twin Lascannons",
 				"Lascannon|2"
 			]
 		},
@@ -1330,7 +1330,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Assault Cannon",
+				"Twin Assault Cannons",
 				"Multi-Melta|2"
 			]
 		},
@@ -1367,14 +1367,14 @@
 			"cc": 6,
 			"ff": "5+/4",
 			"weapons": [{
-					"name": "0-1 Twin Lascannon",
+					"name": "0-1 Twin Lascannons",
 					"modes": [{
 						"firepower": "AT4+",
 						"range": 45
 					}]
 				},
 				{
-					"name": "0-1 Twin Heavy Bolter",
+					"name": "0-1 Twin Heavy Bolters",
 					"modes": [{
 						"firepower": "AP4+",
 						"range": 30
@@ -1384,7 +1384,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
+			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Armed with either a Twin Lascannons or a Twin Heavy Bolters. Razorbacks armed with a Twin Heavy Bolters have their firefight value increased to 4+."
 		},
 		{
 			"name": "Dark Angels Razorback",
@@ -1547,7 +1547,7 @@
 			"weapons": [
 				"Volkite Carronade",
 				"Quad Lascannon|2|FxF",
-				"Twin Heavy Bolter||FxF"
+				"Twin Heavy Bolters||FxF"
 			],
 			"specialRules": [
 				"Damage Capacity: 4",
@@ -1563,8 +1563,8 @@
 			"cc": 5,
 			"ff": 3,
 			"weapons": [
-				"Twin Lascannon|2",
-				"AC Twin Heavy Bolter|3"
+				"Twin Lascannons|2",
+				"AC Twin Heavy Bolters|3"
 			],
 			"specialRules": [
 				"Damage Capacity 4",
@@ -1583,7 +1583,7 @@
 			"cc": 5,
 			"ff": 3,
 			"weapons": [
-				"Twin Lascannon|2",
+				"Twin Lascannons|2",
 				"AC Twin Psycannon|3"
 			],
 			"specialRules": [
@@ -1605,8 +1605,8 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"AC Twin Heavy Bolter||FxF",
-				"AC Twin Lascannon|2|FxF",
+				"AC Twin Heavy Bolters||FxF",
+				"AC Twin Lascannons|2|FxF",
 				"Vengeance Launcher"
 			],
 			"specialRules": [
@@ -1624,8 +1624,8 @@
 			"speed": "Fighter",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Assault Cannon||FwA",
-				"AC Twin Heavy Bolter||FxF"
+				"AC Twin Assault Cannons||FwA",
+				"AC Twin Heavy Bolters||FxF"
 			]
 		},
 		{
@@ -1634,7 +1634,7 @@
 			"speed": "Fighter",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Assault Cannon||FwA",
+				"AC Twin Assault Cannons||FwA",
 				"AC Twin Psycannon||FxF"
 			],
 			"specialRules": [
@@ -1649,8 +1649,8 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"AC Twin Assault Cannon||FxF",
-				"AC Twin Heavy Bolter||FxF",
+				"AC Twin Assault Cannons||FxF",
+				"AC Twin Heavy Bolters||FxF",
 				"Hurricane Bolter|2|"
 			],
 			"specialRules": [
@@ -1669,7 +1669,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"AC Twin Assault Cannon||FxF",
+				"AC Twin Assault Cannons||FxF",
 				"AC Blackstar Rockets||FxF"
 			],
 			"specialRules": [
@@ -1687,8 +1687,8 @@
 			"speed": "Fighter",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Heavy Bolter||FxF",
-				"AC Twin Lascannon||FxF"
+				"AC Twin Heavy Bolters||FxF",
+				"AC Twin Lascannons||FxF"
 			],
 			"specialRules": [
 				"Invulnerable Save"
@@ -1717,9 +1717,9 @@
 			"ff": 4,
 			"weapons": [
 				"Battle Cannon||FxF",
-				"AC Twin Heavy Bolter|2|FxF",
-				"AC Twin Heavy Bolter||Left",
-				"AC Twin Heavy Bolter||Right"
+				"AC Twin Heavy Bolters|2|FxF",
+				"AC Twin Heavy Bolters||Left",
+				"AC Twin Heavy Bolters||Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -1738,8 +1738,8 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"AC Twin Heavy Bolter|2|Left",
-				"AC Twin Heavy Bolter|2|Right"
+				"AC Twin Heavy Bolters|2|Left",
+				"AC Twin Heavy Bolters|2|Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",

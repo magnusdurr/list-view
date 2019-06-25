@@ -212,8 +212,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannon|2",
-				"Twin Heavy Bolter"
+				"Twin Lascannons|2",
+				"Twin Heavy Bolters"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -244,7 +244,7 @@
 			"speed": "Bomber[*]",
 			"armour": 4,
 			"weapons": [
-				"AC Twin Autocannon||FxF",
+				"AC Twin Autocannons||FxF",
 				"Battle Cannon||FxF"
 			],
 			"notes": "[*] Squat Iron Eagle Gunships may perform the 'Intercept' action."
@@ -257,7 +257,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Lascannon",
+				"Twin Lascannons",
                 "Multi-Melta"
 			],
             "specialRules": [
@@ -273,7 +273,7 @@
 			"weapons": [
 				"Battle Cannon|3|Left",
 				"Battle Cannon|3|Right",
-				"Twin Autocannon|2|FxF",
+				"Twin Autocannons|2|FxF",
 				"Overlord Barrage||FxF"
 			],
 			"specialRules": [
@@ -301,7 +301,7 @@
 			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
 		},
 		{
-			"name": "Squat Hellebore",
+			"name": "Squat Hellbore",
 			"type": "WE",
 			"speed": "Immobile",
 			"armour": 5,
@@ -318,8 +318,8 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each.",
-			"crit": "The Hellebore and all units being transported are destroyed."
+			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
+			"crit": "The Hellbore is destroyed."
 
 		},
 		{
@@ -347,8 +347,8 @@
 	      "weapons": [
 	        "Imperial Doomsday Cannon||FxF",
 	        "Battle Cannon",
-	        "Twin Lascannon|3|Left",
-	        "Twin Lascannon|3|Right",
+	        "Twin Lascannons|3|Left",
+	        "Twin Lascannons|3|Right",
 	        "Storm Bolter Array"
 	      ],
 	      "specialRules": [

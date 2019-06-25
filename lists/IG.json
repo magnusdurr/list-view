@@ -103,6 +103,33 @@
       ]
     },
     {
+      "name": "Minervan Supreme Commander",
+      "type": "CH",
+      "weapons": [
+          "n/a"
+      ],
+      "specialRules": [
+        "Blitzkrieg",
+        "Supreme Commander"
+      ]
+    },
+    {
+      "name": "Valhallan Supreme Commander",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Power Weapon",
+        "Mortar",
+        "Flamer"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
       "name": "Elysian Commander",
       "type": "INF",
       "speed": 15,
@@ -161,7 +188,21 @@
         "Walker (also works against enemy fortifications)"
       ]
     },
-
+    {
+      "name": "Valhallan Commander",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+          "Mortar",
+          "Flamer"
+      ],
+      "specialRules": [
+        "Commander"
+      ]
+    },
     {
       "name": "DKoK Commander",
       "type": "INF",
@@ -175,6 +216,17 @@
       "specialRules": [
         "Commander",
           "Walker (also works against enemy fortifications)"
+      ]
+    },
+    {
+      "name": "Minervan Commander",
+      "type": "CH",
+      "weapons": [
+          "n/a"
+      ],
+      "specialRules": [
+        "Blitzkrieg",
+        "Commander"
       ]
     },
     {
@@ -247,7 +299,6 @@
       ],
           "notes":  "Has Master-Crafted Gun if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
     },
-
     {
       "name": "Infantry",
       "type": "INF",
@@ -259,7 +310,36 @@
         "Lasguns"
       ],
       "specialRules": [
-        "One in every two units has an Autocannon"
+        "One in every two units (rounding up) has an Autocannon"
+      ]
+    },
+    {
+      "name": "Tank Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Lasguns"
+      ],
+      "specialRules": [
+        "Expendable",
+        "Tank Riders"
+      ]
+    },
+    {
+      "name": "Valhallan Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Mortar",
+        "Flamer",
+        "Lasguns"
+      ],
+      "specialRules": [
+        "One in every two units (rounding up) has a Mortar"
       ]
     },
     {
@@ -669,7 +749,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Heavy Flamer"
+        "Twin Heavy Flamers"
       ],
       "specialRules": [
         "Scout",
@@ -700,7 +780,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Lascannon"
+        "Twin Lascannons"
       ],
       "specialRules": [
         "Walker"
@@ -723,7 +803,7 @@
     {
       "name": "Siegfried Light Tank",
       "type": "AV",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -732,6 +812,20 @@
       ],
       "specialRules": [
         "Scout"
+      ]
+    },
+    {
+      "name": "Salamander Scout Tank",
+      "type": "AV",
+      "speed": 30,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Autocannon", "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Scout"
       ]
     },
     {
@@ -828,7 +922,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Assault Cannon"
+        "Twin Assault Cannons"
       ],
       "specialRules": [
         "Walker",
@@ -874,6 +968,20 @@
       ],
       "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Valhallan Griffon",
+      "type": "AV",
+      "speed": 15,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Mortar", "Heavy Flamer"
+      ],
+      "specialRules": [
+          "Walker"
       ]
     },
     {
@@ -986,6 +1094,19 @@
       ]
     },
     {
+      "name": "Manticore",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Rocket Launcher", "Heavy Bolter"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
       "name": "Hellhound",
       "type": "AV",
       "speed": 30,
@@ -999,20 +1120,7 @@
 
       ]
     },
-    {
-      "name": "Siegehound",
-      "type": "AV",
-      "speed": 15,
-      "armour": 4,
-      "cc": 6,
-      "ff": 3,
-      "weapons": [
-        "Inferno Cannon", "Heavy Bolter"
-      ],
-      "specialRules": [
-          "Walker"
-      ]
-    },
+
     {
       "name": "Hydra",
       "type": "AV",
@@ -1021,7 +1129,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Hydra Autocannon|2", "Heavy Bolter"
+        "Twin Hydra Autocannons|2", "Heavy Bolter"
       ],
       "specialRules": [
 
@@ -1079,7 +1187,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Lascannon", "Heavy Bolter"
+        "Twin Lascannons", "Heavy Bolter"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1093,7 +1201,21 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Autocannon", "Heavy Flamer", "Heavy Bolter|2|"
+        "Twin Autocannons", "Heavy Flamer", "Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Leman Russ Executioner",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Plasma Destroyer", "Lascannon", "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1143,6 +1265,21 @@
       ]
     },
     {
+      "name": "Leman Russ Destroyer",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Laser Destroyer"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Walker"
+      ]
+    },
+    {
       "name": "Leman Russ Vanquisher",
       "type": "AV",
       "speed": 20,
@@ -1170,19 +1307,7 @@
         "Reinforced Armour"
       ]
     },
-    {
-      "name": "Manticore",
-      "type": "AV",
-      "speed": 20,
-      "armour": 6,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Rocket Launcher", "Heavy Bolter"
-      ],
-      "specialRules": [
-      ]
-    },
+
     {
       "name": "Valkyrie",
       "type": "AV",
@@ -1226,7 +1351,7 @@
       "ff": 5,
       "weapons": [
         "Hellstrike Missiles|2|",
-        "Twin Autocannon",
+        "Twin Autocannons",
         "Heavy Bolter"
       ],
       "specialRules": [
@@ -1276,7 +1401,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Lascannon",
+        "Twin Lascannons",
         "Demolisher",
         "Heavy Stubber|2|"
       ],
@@ -1337,7 +1462,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Battle Cannon",
+        "Twin Battle Cannons",
         "Twin Heavy Stubber||FxF",
         "Heavy Bolter|2|FxF"
       ],
@@ -1432,7 +1557,7 @@
         "Autocannon",
         "Demolisher||FxF",
         "Lascannon|2|FxF",
-        "Twin Heavy Bolter|3|FxF"
+        "Twin Heavy Bolters|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1450,7 +1575,7 @@
       "weapons": [
         "Vulcan Mega-Bolter||FxF",
         "2x Heavy Flamer",
-        "Twin Heavy Bolter|3|FxF"
+        "Twin Heavy Bolters|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1468,7 +1593,7 @@
       "ff": 5,
       "weapons": [
         "Volcano Cannon||FxF",
-        "Twin Heavy Bolter|2|FxF"
+        "Twin Heavy Bolters|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1485,9 +1610,8 @@
       "ff": 4,
       "weapons": [
         "Plasma Blastgun||FxF",
-        "Heavy Bolter||FxF",
-        "Lascannon|2|FxF",
-        "Twin Heavy Bolter|2|FxF"
+        "Lascannon|3|FxF",
+        "Twin Heavy Bolters|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1504,15 +1628,55 @@
       "ff": 4,
       "weapons": [
         "Siege Cannon||FxF",
-        "Heavy Bolter||FxF",
-        "Heavy Flamer|2|FxF",
-        "Twin Heavy Bolter|2|FxF"
+        "Twin Heavy Bolters|4|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
       "crit": "The unit is destroyed."
+  },
+      {
+        "name": "Stormhammer",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Twin Battle Cannons||",
+          "Twin Battle Cannons||FxF",
+          "Demolisher||FxF",
+          "Twin Heavy Bolters|4|FxF",
+          "Twin Heavy Flamers|2|"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour"
+        ],
+        "crit": "The unit is destroyed."
+    },
+  {
+      "name": "Hellbore",
+      "type": "WE",
+      "speed": "Immobile",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+      "Storm Bolter Array"
+      ],
+      "specialRules": [
+          "Damage Capacity 4",
+          "Fearless",
+          "Tunneler",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+      ],
+      "notes": "May transport twelve infantry units without Jump Packs or Mounted. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
+      "crit": "The Hellbore is destroyed."
+
   },
       {
         "name": "Imperial Leviathan",
@@ -1524,8 +1688,8 @@
         "weapons": [
           "Imperial Doomsday Cannon||FxF",
           "Battle Cannon",
-          "Twin Lascannon|3|Left",
-          "Twin Lascannon|3|Right",
+          "Twin Lascannons|3|Left",
+          "Twin Lascannons|3|Right",
           "Storm Bolter Array"
         ],
         "specialRules": [
