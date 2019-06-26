@@ -72,9 +72,7 @@
              "Catachan Snipers"
           ],
           "points": 300
-        }
-      ]
-    },
+      },
     {
       "name": "Catachan Infantry Company",
       "units": "One Catachan Commander, nine Catachan Infantry",
@@ -87,7 +85,7 @@
       "points": 225
         }
       ]
-    },
+  },
     {
       "name": "Catachan Support Formations",
       "description": "Up to two Support Formations for each Core Company.",
@@ -138,9 +136,11 @@
         {
           "name": "Mortar Platoon",
           "units": "Six Catachan Mortar Teams",
-          "Flakk Teams",
-          "Ogryns",
+          "extraUnits": [
+              "Flakk Teams",
+              "Ogryns",
               "Valkyries and Vendettas"
+          ],
           "points": 175
       },
       {
