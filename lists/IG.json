@@ -155,6 +155,7 @@
       ],
       "specialRules": [
         "Commander",
+        "Leader",
         "Inspiring",
         "Fearless"
       ]
@@ -420,7 +421,7 @@
       ]
     },
     {
-      "name": "Catachan Mortar Squad",
+      "name": "Catachan Mortar Team",
       "type": "INF",
       "speed": 15,
       "cc": 5,
@@ -434,14 +435,14 @@
     },
 
     {
-      "name": "Catachan Missile Team",
+      "name": "Catachan Flakk Team",
       "type": "INF",
       "speed": 15,
       "cc": 5,
       "ff": 5,
       "weapons": [
         "Jungle Knives",
-        "Catachan Missile Launcher"
+        "Flakk Missile Launcher|2|"
       ],
       "specialRules": [
       ]
@@ -564,12 +565,12 @@
       ]
     },
     {
-      "name": "Deathworld Veterans",
+      "name": "Death World Veterans",
       "type": "INF",
       "speed": 15,
       "armour": 5,
       "cc": 4,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
         "Heavy Flamer",
         "Jungle Knives"
@@ -579,7 +580,7 @@
       ]
     },
     {
-      "name": "Death World Devils",
+      "name": "Catachan Devils",
       "type": "INF",
       "speed": 15,
       "armour": 5,
@@ -681,14 +682,14 @@
       ]
     },
     {
-      "name": "Death World Sentinel",
+      "name": "Catachan Sentinel",
       "type": "LV",
       "speed": 20,
       "armour": 6,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Inferno Cannon"
+        "Heavy Flamer"
       ],
       "specialRules": [
         "Scout",
@@ -1327,7 +1328,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry 2 infantry units without jump pack or mounted."
+    "notes": "May carry 2 infantry units without Jump pack or Mounted. Ogryns take two spaces each."
     },
     {
       "name": "Sky Talon",
@@ -1377,7 +1378,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry 1 infantry unit without jump pack or mounted."
+    "notes": "May carry one Infantry unit without Jump Pack or Mounted. May not carry Ogryns."
     },
     {
       "name": "Malcador",
@@ -1560,6 +1561,26 @@
         "Autocannon",
         "Demolisher||FxF",
         "Lascannon|2|FxF",
+        "Twin Heavy Bolters|3|FxF"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour"
+      ],
+      "crit": "The unit is destroyed."
+    },
+    {
+      "name": "Hellhammer",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Hellhammer Cannon",
+        "Autocannon",
+        "Demolisher||FxF",
+        "Twin Heavy Flamer|2|",
         "Twin Heavy Bolters|3|FxF"
       ],
       "specialRules": [
