@@ -888,7 +888,7 @@
       "specialRules": [
         "Transport"
     ],
-    "notes": "May carry 2 infantry units without Jump Packs or Mounted"
+    "notes": "May carry two units of INF without Jump Packs or Mounted"
     },
     {
       "name": "Chimera",
@@ -901,8 +901,9 @@
         "Multilaser", "Heavy Bolter"
       ],
       "specialRules": [
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted"
     },
     {
       "name": "PDF Land Transporter",
@@ -915,8 +916,9 @@
         "Heavy Stubber"
       ],
       "specialRules": [
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted"
     },
     {
       "name": "Taurox",
@@ -930,8 +932,9 @@
       ],
       "specialRules": [
         "Walker",
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted"
     },
     {
       "name": "Deathstrike",
@@ -1328,7 +1331,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry 2 infantry units without Jump pack or Mounted. Ogryns take two spaces each."
+    "notes": "May carry two units of INF without Jump pack or Mounted."
     },
     {
       "name": "Sky Talon",
@@ -1378,7 +1381,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry one Infantry unit without Jump Pack or Mounted. May not carry Ogryns."
+    "notes": "May carry one unit of INF without Jump Pack or Mounted."
     },
     {
       "name": "Malcador",
@@ -1439,8 +1442,9 @@
         "Heavy Bolter|4"
       ],
       "specialRules": [
-        "Transport: May transport six infantry units without Jump Pack or Mounted."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry six units of INF without Jump Packs or Mounted"
     },
     {
       "name": "Minotaur",
@@ -1604,8 +1608,9 @@
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
-        "Transport: May transport nine infantry units without Jump Pack or Mounted, three may fire from the firing deck and participate with FF during assaults"
+        "Transport"
       ],
+      "notes": "May transport nine infantry units without Jump Pack or Mounted, three may fire from the firing deck and participate with FF during assaults",
       "crit": "The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit"
     },
     {
