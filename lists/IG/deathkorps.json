@@ -83,7 +83,6 @@
           "extraUnits": [
               "Add ten Assault Infantry and one Gorgon: 275 points",
               "Lord Commissar",
-              "Macharius",
               "Leman Russ Squadron"
           ],
           "points": 325
@@ -92,7 +91,6 @@
           "name": "Assault Infantry Company",
           "units": "One DKoK Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
-              "Macharius",
               "Leman Russ Squadron"
           ],
           "points": 250
@@ -174,15 +172,15 @@
           "units": "One Macharius Command with a Commissar, two Macharius",
           "upgrades": [
           ],
-          "points": 350
+          "points": 325
         },
         {
           "name": "Grenadier Company",
           "units": "One DKoK Commander with a Commissar, seven Grenadiers, four Storm Chimeras",
           "extraUnits": [
-              "Replace four Storm Chimeras with a Gorgon: 25 points"
+              "Replace four Storm Chimeras with a Gorgon: 50 points"
           ],
-          "points": 275
+          "points": 300
         }
       ]
     },
@@ -212,7 +210,7 @@
         "units": "One Lunar Class Cruiser",
         "points": 125,
         "upgrades": [
-            "Replace with an Emperor Class Battleship for +50 points"
+            "Replace the Cruiser with an Emperor Class Battleship: 50 points"
         ]
       }
       ]
@@ -242,15 +240,6 @@
         ]
       },
       {
-        "name": "Macharius",
-        "options": [
-          {
-            "description": "Add one Macharius",
-            "points": "125 points"
-          }
-        ]
-      },
-      {
         "name": "Hellhounds",
         "options": [
           {
@@ -264,7 +253,7 @@
         "options": [
           {
             "description": "Add two Malcadors or Malcador Annihilators",
-            "points": "150 points"
+            "points": "175 points"
           }
         ]
       },
