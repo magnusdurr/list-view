@@ -674,8 +674,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Heavy Stubber|2|",
-        "Flamers"
+        "Heavy Flamer|2|"
       ],
       "specialRules": [
 
@@ -1144,18 +1143,13 @@
     },
     {
       "name": "Hades Breaching Drill",
-      "type": "INF",
-      "speed": 15,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
+      "type": "Spec",
       "weapons": [
-        "Melta Cutter"
+        "n/a"
       ],
       "specialRules": [
-          "Walker (also works against enemy fortifications)",
-          "Provides its formation with the Tunnelers special rule"
-      ]
+      ],
+      			"notes": "When resolving tunnelers, first place the Hades Breaching Drill at the designated co-ordinates. Then place the remainder of the formation within 5cm of it, or within 5cm of another unit from the same formation that has already been placed, so long as all units are placed within 15cm of the Hades Breaching Drill. Finally, remove the Hades Breaching Drill from the board."
     },
     {
       "name": "Ragnarok Heavy Tank",
