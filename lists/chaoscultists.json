@@ -98,7 +98,7 @@
           ],
           "specialRules": [
               "Daemonic Pact",
-              "Augment Summoning (+1D3)",
+              "Augment Summoning (+1)",
               "Invulnerable Save"
           ]
       },
@@ -202,7 +202,7 @@
             "Claws and Fangs"
         ],
         "specialRules": [
-            ]
+        ]
     },
         {
           "name": "Land Transporter",
@@ -216,7 +216,7 @@
           ],
           "specialRules": [
           ],
-                "notes": "May transport two infantry units without Mounted or Jump Packs. Chaos Spawns and Big Mutants takes two space each."
+                "notes": "May transport two units of INF, except Chaos Hounds and INF with Mounted or Jump Packs. Chaos Spawn and Big Mutants take two spaces each."
       },
       {
         "name": "Technical",
@@ -224,7 +224,7 @@
         "speed": 30,
         "armour": 5,
         "cc": 6,
-        "ff": 6,
+        "ff": 5,
         "weapons": [
             "Twin Heavy Stubber on AA mount"
         ],

@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.8.1",
-  "release": "2019-03-27",
+  "version": "0.8.2",
+  "release": "2019-06-27",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 2.",
   "Initiative": "Alpha Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -23,12 +23,13 @@
       "from": "chaoscultists.json",
       "units": [
         "Arch Heretic",
-        "Fallen Commander",
         "Daemonic Icon",
         "Daemon Prince of Chaos Undivided",
         "Cultists",
         "Mutants",
         "Chaos Spawn",
+        "Chaos Hounds",
+        "Technical",
         "Land Transporter"
       ],
         "unitRules": [
@@ -38,12 +39,11 @@
       "from": "IG.json",
       "units": [
         "Infantry",
-        "Ogryns",
-        "Rough Riders",
         "Fire Support Squad",
         "Sentinel",
         "Basilisk",
         "Chimera",
+        "Griffon",
         "Hellhound",
         "Hydra",
         "Leman Russ",
@@ -94,37 +94,26 @@
       "name": "Traitor Guard Formations",
       "formations": [
         {
-          "name": "Traitor Company",
-          "units": "One Fallen Commander, one Daemonic Icon and eight Infantry units",
+          "name": "Traitor Guard",
+          "units": "One Daemonic Icon, five units of Infantry",
           "upgrades": [
               "All"
           ],
-          "points": 200
-        }
+          "points": 150
+      }
       ]
     },
     {
       "name": "Traitor Support Formations",
-      "description": "Up to one Support Formation for each Traitor Company.",
+      "description": "Up to one Support Formation for each Traitor Guard formation.",
       "formations": [
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks",
           "upgrades": [
+              "Flak"
           ],
           "points": 225
-        },
-        {
-          "name": "Flak Battery",
-          "units": "Three Hydras",
-          "upgrades": [
-          ],
-          "points": 150
-        },
-        {
-          "name": "Rough Rider Platoon",
-          "units": "Six Rough Riders",
-          "points": 150
         },
         {
           "name": "Sentinel Squadron",
@@ -135,20 +124,36 @@
           "points": 100
         },
         {
-        "name": "Traitor Super-Heavy Tanks",
-        "units": "Two Baneblades and/or Shadowswords",
-        "points": 350
+        "name": "Super-Heavy Platoon",
+        "units": "One Baneblade",
+        "upgrades": [
+            "Replace the Baneblade with a Shadowsword: 25 points"
+        ],
+        "points": 175
       },
 
         {
           "name": "Leman Russ Company",
           "units": "Six Leman Russ and/or Leman Russ Demolishers",
+          "upgrades": [
+              "Flak"
+          ],
           "points": 350
-        }
+      },
+      {
+        "name": "Thunderbolt Squadron",
+        "units": "Two Thunderbolt Fighters",
+        "points": 150
+      },
+      {
+        "name": "Marauder Squadron",
+        "units": "Two Marauder Bombers",
+        "points": 225
+      }
       ]
     },
     {
-      "name": "Chaos Allies and Traitor Aircraft",
+      "name": "Chaotic Allies",
       "description": "Up to a fourth of the points available may be spent on Chaos Allies and Traitor Aircraft",
       "formations": [
           {
@@ -160,17 +165,7 @@
             "name": "Alpha Legion Advisors",
             "units": "Four Alpha Legion Marines, two Alpha Legion Rhinos",
             "points": 175
-          },
-        {
-          "name": "Thunderbolt Squadron",
-          "units": "Two Thunderbolt Fighters",
-          "points": 150
-        },
-        {
-          "name": "Marauder Squadron",
-          "units": "Two Marauder Bombers",
-          "points": 225
-        }
+          }
       ]
   },
   {
@@ -188,7 +183,7 @@
   ],
   "upgrades": {
     "title": "Slaves to Darkness Upgrades",
-    "description": "Each upgrade may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
         {
           "name": "0-1 Supreme Commander",
@@ -197,12 +192,12 @@
               "description": "Choose one of the following:"
             },
             {
-              "description": "Add an Arch Heretic character to a Fallen Commander",
+              "description": "Add an Arch Heretic character to a Daemonic Icon",
               "points": "50 points"
             },
             {
-              "description": "Replace the Fallen Commander with a Daemon Prince of Chaos Undivided",
-              "points": "100 points"
+              "description": "Add one Daemon Prince of Chaos Undivided",
+              "points": "125 points"
             }
           ]
         },
@@ -210,8 +205,8 @@
         "name": "Fire Support Platoon",
         "options": [
           {
-            "description": "Add up to four Fire Support Squad units",
-            "points": "25 points each"
+            "description": "Add two Fire Support Squads",
+            "points": "50 points"
           }
         ]
       },
@@ -219,7 +214,7 @@
         "name": "Flak",
         "options": [
           {
-            "description": "Add one Hydra",
+            "description": "Add one Hydra or three Technicals",
             "points": "50 points"
           }
         ]
@@ -228,8 +223,17 @@
         "name": "Hellhounds",
         "options": [
           {
-            "description": "Add up to three Hellhounds",
+            "description": "Add up to two Hellhounds",
             "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Griffons",
+        "options": [
+          {
+            "description": "Add three Griffons",
+            "points": "50 points"
           }
         ]
       },
@@ -237,16 +241,7 @@
         "name": "Lost and the Damned",
         "options": [
           {
-            "description": "Add six Mutants or six Cultists",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Ogryns",
-        "options": [
-          {
-            "description": "Add two Ogryns",
+            "description": "Add six Mutants or Cultists",
             "points": "50 points"
           }
         ]
@@ -269,15 +264,7 @@
           }
         ]
       },
-      {
-        "name": "Entrenchments",
-        "options": [
-          {
-            "description": "Add 60cm of Razorwire and 60cm of Trenches (may not be combined with the Transport upgrade)",
-            "points": "50 points"
-          }
-        ]
-      },
+
       {
         "name": "Transport",
         "options": [

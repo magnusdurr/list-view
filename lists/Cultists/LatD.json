@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Lost and the Damned",
-  "version": "1.3",
-  "release": "2019-02-28",
+  "version": "0.7.0",
+  "release": "2019-06-28",
   "strategy": "Lost and the Damned armies have a Strategy Rating of 1.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -231,7 +231,7 @@
 
         {
       "name": "Chaos Navy",
-      "description": "Up to a fourth of the points available may be spent on these formations",
+      "description": "Up to one fourth of the points available may be spent on these formations",
       "formations": [
           {
             "name": "Heldrake Wing",
@@ -303,7 +303,7 @@
       {
         "name": "Big Mutants",
         "description": "Replace up to six Cultists/Mutants with Big Mutants",
-        "points": "15 points per unit"
+        "points": "15 points each"
       },
       {
         "name": "Chaos Spawn",
@@ -322,7 +322,7 @@
       },
       {
         "name": "Technicals",
-        "description": "Add up to two Technicals",
+        "description": "Add up to four Technicals",
         "points": "15 points each"
       },
       {
