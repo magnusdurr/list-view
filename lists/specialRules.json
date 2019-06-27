@@ -192,13 +192,14 @@
     {
       "title": "Fortified Positions",
       "description": [
-        "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up, with the exception of Gun Emplacements that are listed as part of a formation’s 'units'.  While these Gun Emplacements are not actually units, they are set up at the same time and with coherency of the formation they are part of.",
+        "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up, with the exception of Gun Emplacements that are listed as part of a formation’s 'units'.  While these Gun Emplacements are not actually units, they are set up at the same time as the rest of the formation. Gun Emplacements may not be deployed empty, but only with unit taking cover inside.",
         "Fortified positions may be set up anywhere a vehicle may deploy on the player’s half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a “chain” without any gaps of more than 5cm.",
         "Once set up, fortified positions may be used by any unit (including enemy units).",
-        "Trench: Provides a cover save of 4+ to INF. May contain 1 unit per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
-        "Razorwire: Counts as Dangerous Terrain for INF",
-        "Gun Emplacement: Provides a Cover Save of 4+ to a single unit of INF or a 5+ Cover Save to a single unit of AV (not H-AV)",
-        "Bunker: Provides a cover save of 3+ and Thick Rear Armour to up to three units of INF. Counts as Dangerous Terrain for AV and WE."
+        "Gun Emplacement: Are only set up along with the formation they belong to (see above). Provides a Cover Save of 4+ one unit of INF, or a 5+ Cover Save to one unit of AV or LV (but not H-AV).",
+        "Bunker: Provides a Cover Save of 3+ and Thick Rear Armour to up to three units of INF (without Mounted). Counts as Dangerous Terrain for AV and WE.",
+        "Trench: Provides a cover save of 4+ to INF. May contain one unit of INF (without Mounted) per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
+        "Razorwire: Counts as Dangerous Terrain for all INF, including those that have the Mounted special rule.",
+        "Units of INF that benefit from Cover inside a Trench/Bunker may only be Barged by WE such a way that they stay inside their Trench/Bunker."
       ]
     },
     {
