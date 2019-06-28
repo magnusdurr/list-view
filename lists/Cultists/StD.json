@@ -2,8 +2,8 @@
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
   "version": "0.8.2",
-  "release": "2019-06-27",
-  "strategy": "Slaves to Darkness armies have a Strategy Rating of 2.",
+  "release": "2019-06-28",
+  "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Alpha Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
@@ -26,6 +26,7 @@
         "Daemon Prince of Chaos Undivided",
         "Cultists",
         "Mutants",
+        "Ogryns",
         "Chaos Spawn",
         "Chaos Hounds",
         "Technical",
@@ -152,18 +153,18 @@
       ]
     },
     {
-      "name": "Chaotic Allies",
+      "name": "Dark Mechanicus and Alpha Legion",
       "description": "Up to a fourth of the points available may be spent on Chaos Allies and Traitor Aircraft",
       "formations": [
           {
             "name": "Dark Mechanicus and Infestation Allies",
-            "units": "One Dark Mechanicus and Infestation formation from the Lost and the Damned army list with no upgrades. All choices considered to be 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
+            "units": "One Dark Mechanicus and Infestation formation from the Lost and the Damned army list with no upgrades. All choices are 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
             "points": 0
           },
           {
-            "name": "Alpha Legion Advisors",
-            "units": "Four Alpha Legion Marines, two Alpha Legion Rhinos",
-            "points": 175
+            "name": "0-1 Alpha Legion Advisors",
+            "units": "Six Alpha Legion Marines, three Alpha Legion Rhinos",
+            "points": 225
           }
       ]
   },
@@ -191,7 +192,7 @@
               "description": "Choose one of the following:"
             },
             {
-              "description": "Add an Arch Heretic character to a Daemonic Icon",
+              "description": "Add an Arch Heretic to a Daemonic Icon",
               "points": "50 points"
             },
             {
@@ -204,8 +205,17 @@
         "name": "Fire Support Platoon",
         "options": [
           {
-            "description": "Add two Fire Support Squads",
-            "points": "50 points"
+            "description": "Add up to two Fire Support Squads",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Technicals",
+        "options": [
+          {
+            "description": "Add up to two Technicals",
+            "points": "15 points each"
           }
         ]
       },
@@ -213,7 +223,7 @@
         "name": "Flak",
         "options": [
           {
-            "description": "Add one Hydra or three Technicals",
+            "description": "Add one Hydra",
             "points": "50 points"
           }
         ]
@@ -240,17 +250,17 @@
         "name": "Lost and the Damned",
         "options": [
           {
-            "description": "Add six Mutants or Cultists",
-            "points": "50 points"
+            "description": "Add up to six Mutants/Cultists",
+            "points": "10 points each"
           }
         ]
       },
       {
-        "name": "Chaos Spawn",
+        "name": "Ogryns",
         "options": [
           {
-            "description": "Add one Chaos Spawn",
-            "points": "35 points"
+            "description": "Add up to two Ogryns",
+            "points": "25 points each"
           }
         ]
       },

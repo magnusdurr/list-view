@@ -1,7 +1,7 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Lost and the Damned",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "release": "2019-06-28",
   "strategy": "Lost and the Damned armies have a Strategy Rating of 1.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
@@ -110,12 +110,12 @@
             "Transport",
             "Technicals"
           ],
-          "points": 225
+          "points": 200
         }
       ]
     },
     {
-      "name": "Dark Mechanicus and Infestation Support Covens ",
+      "name": "Dark Mechanicus and Infestation Support Covens",
       "description": "Two formations may be fielded per Chaos Cultist formation. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations. All formations are 0-1 for each part of 1000 points in the army",
       "formations": [
           {
@@ -224,13 +224,13 @@
       "units": "Three Doomwing Interceptors",
       "upgrades": [
       ],
-      "points": 150
+      "points": 175
       }
     ]
 },
 
         {
-      "name": "Chaos Navy",
+      "name": "Chaos Navy and Alpha Legion",
       "description": "Up to one fourth of the points available may be spent on these formations",
       "formations": [
           {
@@ -250,7 +250,12 @@
             "upgrades": [
             ],
             "points": 150
-          }
+        },
+        {
+          "name": "0-1 Alpha Legion Advisors",
+          "units": "Six Alpha Legion Marines, three Alpha Legion Rhinos",
+          "points": 225
+        }
       ]
   },
   {
@@ -297,8 +302,8 @@
       },
       {
         "name": "Cultists/Mutants",
-        "description": "Add six Cultists or Mutants",
-        "points": "50 points"
+        "description": "Add up to four Cultists/Mutants",
+        "points": "10 points each"
       },
       {
         "name": "Big Mutants",
@@ -313,7 +318,7 @@
       {
         "name": "Chaos Hounds",
         "description": "Add three Chaos Hounds",
-        "points": "25 points"
+        "points": "35 points"
       },
       {
         "name": "Chaos Altar",
