@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Valhallan Ice Warriors",
-  "version": "0.5.1",
-  "release": "2019-06-27",
+  "version": "0.5.2",
+  "release": "2019-06-28",
   "strategy": "Valhallan Ice Warrior armies have a Strategy Rating of 2.",
   "Initiative": "All formations have a Initiative Rating of 2+.",
 
@@ -32,6 +32,8 @@
         "Sentinel",
         "Valhallan Griffon",
         "Ragnarok Heavy Tank",
+        "Macharius",
+        "Macharius Command",
         "Hellbore",
         "Baneblade",
         "Shadowsword",
@@ -102,21 +104,21 @@
               "Flak"
           ],
           "points": 400
-      },
-      {
-        "name": "Super-Heavy Tank Company",
-        "units": "Three Baneblades, Stormlords and/or Shadowswords, one with a Ministorum Priest",
-        "extraUnits": [
-            "Flak"
-        ],
-        "points": 500
-    }
+      }
+
       ]
   },
     {
       "name": "Valhallan Support Formations",
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
+          {
+            "name": "Macharius Company",
+            "units": "One Macharius Command with a Ministorum Priest, two Macharius",
+            "extraUnits": [
+            ],
+            "points": 325
+        }
       {
         "name": "Hellhound Platoon",
         "units": "Six Hellhounds",
