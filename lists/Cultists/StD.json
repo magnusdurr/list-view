@@ -3,7 +3,7 @@
   "army": "Slaves to Darkness",
   "version": "0.8.2",
   "release": "2019-06-28",
-  "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
+  "strategy": "Slaves to Darkness armies have a Strategy Rating of 2.",
   "Initiative": "Alpha Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
@@ -149,22 +149,22 @@
         "name": "Marauder Squadron",
         "units": "Two Marauder Bombers",
         "points": 225
-      }
+    },
+    {
+      "name": "0-1 Alpha Legion Advisors",
+      "units": "Six Alpha Legion Marines, three Alpha Legion Rhinos",
+      "points": 250
+    }
       ]
     },
     {
-      "name": "Dark Mechanicus and Alpha Legion",
-      "description": "Up to a fourth of the points available may be spent on Chaos Allies and Traitor Aircraft",
+      "name": "Lost and the Damned Support Covens",
+      "description": "Up to a fourth of the points available may be spent on Lost and the Damned Support Covens",
       "formations": [
           {
-            "name": "Dark Mechanicus and Infestation Allies",
-            "units": "One Dark Mechanicus and Infestation formation from the Lost and the Damned army list with no upgrades. All choices are 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
+            "name": "Support Covens",
+            "units": "One Support Coven formation from the Lost and the Damned army list with no upgrades. All choices are 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
             "points": 0
-          },
-          {
-            "name": "0-1 Alpha Legion Advisors",
-            "units": "Six Alpha Legion Marines, three Alpha Legion Rhinos",
-            "points": 225
           }
       ]
   },

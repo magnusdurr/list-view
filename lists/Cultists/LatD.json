@@ -4,7 +4,7 @@
   "version": "0.7.1",
   "release": "2019-06-28",
   "strategy": "Lost and the Damned armies have a Strategy Rating of 1.",
-  "Initiative": "All formations have an Initiative Rating of 2+.",
+  "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -83,11 +83,10 @@
     {
       "from": "CSM.json",
       "units": [
-        "Alpha Legion Marines",
-        "Alpha Legion Rhino"
+        "Chaos Space Marines",
+        "Chaos Rhino"
     ],
     "unitRules": [
-        "Stubborn"
     ]
     },
     {
@@ -240,8 +239,8 @@
 },
 
         {
-      "name": "Chaos Navy and Alpha Legion",
-      "description": "Up to one fourth of the points available may be spent on these formations",
+      "name": "Chaos Navy and Chaos Space Marines",
+      "description": "Up to one fifth of the points available may be spent on Chaos Navy and Chaos Space Marine formations",
       "formations": [
           {
             "name": "Heldrake Wing",
@@ -262,8 +261,11 @@
             "points": 150
         },
         {
-          "name": "0-1 Alpha Legion Advisors",
-          "units": "Six Alpha Legion Marines, three Alpha Legion Rhinos",
+          "name": "0-1 Chaos Space Marine Advisors",
+          "units": "Six Chaos Space Marines, three Chaos Rhinos",
+          "upgrades": [
+              "Daemonic Pact"
+          ],
           "points": 225
         }
       ]
