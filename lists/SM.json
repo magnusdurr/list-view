@@ -23,10 +23,10 @@
 			]
 		},
 		{
-		  "title": "Heavy Armoured Vehicle (H-AV)",
-		  "description": [
-			"Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
-		  ]
+			"title": "Heavy Armoured Vehicle (H-AV)",
+			"description": [
+				"Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+			]
 		}
 	],
 	"unit": [{
@@ -55,17 +55,17 @@
 			]
 		},
 		{
-				"name": "Grey Knight Captain",
-				"type": "CH",
-				"weapons": [
-					"Power Weapon"
-				],
-				"specialRules": [
-					"Commander",
-					"Leader",
-					"Teleport Homer"
-				]
-			},
+			"name": "Grey Knight Captain",
+			"type": "CH",
+			"weapons": [
+				"Power Weapon"
+			],
+			"specialRules": [
+				"Commander",
+				"Leader",
+				"Teleport Homer"
+			]
+		},
 		{
 			"name": "Grey Knight Justicar",
 			"type": "CH",
@@ -244,17 +244,17 @@
 				"Plasma Cannon|2"
 			]
 		},
-        {
-            "name": "Deathwatch Devastators",
-            "type": "INF",
-            "speed": 15,
-            "armour": 4,
-            "cc": 5,
-            "ff": 2,
-            "weapons": [
-                "Dragonfire Heavy Bolter|2"
-            ]
-        },
+		{
+			"name": "Deathwatch Devastators",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 5,
+			"ff": 2,
+			"weapons": [
+				"Dragonfire Heavy Bolter|2"
+			]
+		},
 		{
 			"name": "Iron Hands Devastators",
 			"type": "INF",
@@ -323,17 +323,17 @@
 				"Missile Launcher"
 			]
 		},
-        {
-            "name": "Deathwatch Tacticals",
-            "type": "INF",
-            "speed": 15,
-            "armour": 4,
-            "cc": 4,
-            "ff": 3,
-            "weapons": [
-                "Dragonfire Heavy Bolter"
-            ]
-        },
+		{
+			"name": "Deathwatch Tacticals",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"ff": 3,
+			"weapons": [
+				"Dragonfire Heavy Bolter"
+			]
+		},
 		{
 			"name": "Deathwatch Black Shields",
 			"type": "INF",
@@ -426,8 +426,7 @@
 			"specialRules": [
 				"Reinforced Armour",
 				"Teleport",
-				"Thick Rear Armour",
-				"Deathwing"
+				"Thick Rear Armour"
 			]
 		},
 		{
@@ -437,18 +436,17 @@
 			"armour": 4,
 			"cc": 2,
 			"weapons": [
-				"Thunder Hammers and Storm Shields"
+				"Maces of Absolution and Storm Shields"
 			],
 			"specialRules": [
 				"Reinforced Armour",
 				"Teleport",
 				"Thick Rear Armour",
-				"Deathwing",
 				"Invulnerable Save"
 			]
 		},
 		{
-			"name": "Deathwing Cyclones",
+			"name": "Cyclone Terminators",
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
@@ -461,8 +459,7 @@
 			"specialRules": [
 				"Reinforced Armour",
 				"Teleport",
-				"Thick Rear Armour",
-				"Deathwing"
+				"Thick Rear Armour"
 			]
 		},
 		{
@@ -489,7 +486,7 @@
 			"type": "INF",
 			"speed": 30,
 			"armour": 4,
-			"cc": 4,
+			"cc": 3,
 			"ff": 4,
 			"weapons": [
 				"Angelus Boltguns",
@@ -914,21 +911,21 @@
 				"Walker"
 			]
 		},
-        {
-            "name": "Deathwatch Dreadnought",
-            "type": "AV",
-            "speed": 15,
-            "armour": 3,
-            "cc": 4,
-            "ff": 5,
-            "weapons": [
-                "Power Fist",
-                "Frag Cannon"
-            ],
-            "specialRules": [
-                "Walker"
-            ]
-        },
+		{
+			"name": "Deathwatch Dreadnought",
+			"type": "AV",
+			"speed": 15,
+			"armour": 3,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Power Fist",
+				"Frag Cannon"
+			],
+			"specialRules": [
+				"Walker"
+			]
+		},
 		{
 			"name": "Death Company Dreadnought",
 			"type": "AV",
@@ -988,8 +985,7 @@
 				"Plasma Cannon"
 			],
 			"specialRules": [
-				"Walker",
-				"Deathwing"
+				"Walker"
 			]
 		},
 
@@ -1166,7 +1162,6 @@
 				"Reinforced Armour",
 				"Thick Rear Armour",
 				"Transport",
-				"Deathwing",
 				"Invulnerable Save"
 			],
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."

@@ -1,14 +1,13 @@
 {
   "fraction": "Space Marines",
   "army": "Dark Angels",
-  "version": "0.8.5",
-  "release": "2019-06-26",
+  "version": "0.9.0",
+  "release": "2019-07-08",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
     "Space Marine Transports",
-    "Teleport Homer",
-    "Deathwing"
+    "Teleport Homer"
   ],
   "usage": [
     "The following army list allows you to field an army of Dark Angels Space Marines."
@@ -25,9 +24,9 @@
         "Scouts",
         "Tacticals",
         "Dark Angels Devastators",
-        "Deathwing Terminators",
+        "Terminators",
         "Deathwing Knights",
-        "Deathwing Cyclones",
+        "Cyclone Terminators",
         "Ravenwing Black Knights",
         "Ravenwing Assault Bikes",
         "Ravenwing Attack Bike",
@@ -68,7 +67,7 @@
         {
           "name": "Ravenwing Attack Detachment",
           "units": "One Black Knights, four Ravenwing Assault Bikes, three Ravenwing Land Speeders",
-          "upgrades": [
+          "extraUnits": [
             "Attack Bikes",
             "Commander"
           ],
@@ -77,18 +76,19 @@
         {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander",
-            "Land Raiders"
+            "Land Raider Transport"
           ],
           "points": 275
         },
 
         {
           "name": "Deathwing Strike Detachment",
-          "units": "Any four of the following units: Deathwing Terminators, Deathwing Cyclones, Deathwing Knights",
-          "upgrades": [
+          "units": "Any four of the following units: Terminators, Cyclone Terminators",
+          "extraUnits": [
+            "Deathwing Knights",
             "Commander"
           ],
           "points": 350
@@ -96,7 +96,7 @@
       {
         "name": "Deathwing Armoured Detachment",
         "units": "Three Deathwing Land Raiders, three Deathwing Terminators",
-        "upgrades": [
+        "extraUnits": [
             "Commander"
         ],
         "points": 400
@@ -104,7 +104,7 @@
     {
       "name": "Ares Siege Detachment",
       "units": "Three Land Raider Ares, two Vindicators",
-      "upgrades": [
+      "extraUnits": [
           "Commander",
           "Vindicators"
       ],
@@ -119,14 +119,15 @@
         {
           "name": "Assaults",
           "units": "One Dark Angels Captain, six Assaults",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
-          "upgrades": [
+          "extraUnits": [
+              "Add one Land Raider: 75 points",
               "Anti-Air",
               "Commander"
           ],
@@ -135,7 +136,7 @@
         {
           "name": "Devastators",
           "units": "Four Dark Angels Devastators plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander",
             "Razorbacks"
@@ -145,7 +146,7 @@
         {
           "name": "Predators",
           "units": "Four Predator Annihilators or four Predator Destructors",
-          "upgrades": [
+          "extraUnits": [
           "Anti-Air"
           ],
           "points": 250
@@ -154,7 +155,7 @@
         {
           "name": "Ravenwing Support Squadron",
           "units": "Four Ravenwing Land Speeder Tornado",
-          "upgrades": [
+          "extraUnits": [
             "Venegance"
           ],
           "points": 175
@@ -162,7 +163,7 @@
         {
           "name": "Scouts",
           "units": "Four Scouts, two Rhinos",
-          "upgrades": [
+          "extraUnits": [
             "Razorbacks",
             "Snipers"
           ],
@@ -171,7 +172,7 @@
         {
           "name": "Whirlwinds",
           "units": "Four Whirlwinds",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air"
           ],
           "points": 275
@@ -191,7 +192,7 @@
             },
             {
               "name": "Deimos",
-              "points": "425"
+              "points": "450"
             }
           ]
         }
@@ -214,7 +215,7 @@
         {
           "name": "1 Swordwing Support",
           "units": "Hunter Class Destroyer",
-          "upgrades": [
+          "extraUnits": [
             "Strike Cruiser"
           ],
           "points": 75
@@ -230,6 +231,11 @@
         "name": "Attack Bikes",
         "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
         "points": "Free"
+      },
+      {
+        "name": "Deathwing Knights",
+        "description": "Replace one unit of Terminators with Deathwing Knights",
+        "points": "25 points"
       },
       {
         "name": "Vindicators",
@@ -276,7 +282,7 @@
         ]
       },
       {
-        "name": "Land Raiders",
+        "name": "Land Raider Transport",
         "description": "Add any number of Land Raiders, up to the number required to transport the formation",
         "points": "50 points each"
       },
