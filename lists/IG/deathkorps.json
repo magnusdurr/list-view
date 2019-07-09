@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "0.7.0",
-  "release": "2019-06-25",
+  "version": "0.7.1",
+  "release": "2019-07-09",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica and Grenadier formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -81,11 +81,11 @@
           "name": "0-1 Death Korps Regimental HQ",
           "units": "One DKoK Supreme Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
-              "Add ten Assault Infantry and one Gorgon: 275 points",
+              "Add ten Assault Infantry and one Gorgon: 250 points",
               "Lord Commissar",
               "Leman Russ Squadron"
           ],
-          "points": 325
+          "points": 350
         },
         {
           "name": "Assault Infantry Company",
@@ -93,7 +93,7 @@
           "extraUnits": [
               "Leman Russ Squadron"
           ],
-          "points": 250
+          "points": 275
     },
         {
           "name": "Death Rider Company",
@@ -178,7 +178,7 @@
           "name": "Grenadier Company",
           "units": "One DKoK Commander with a Commissar, seven Grenadiers, four Storm Chimeras",
           "extraUnits": [
-              "Replace four Storm Chimeras with a Gorgon: 50 points"
+              "Replace four Storm Chimeras with a Gorgon: 25 points"
           ],
           "points": 300
         }
