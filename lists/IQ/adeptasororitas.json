@@ -1,10 +1,10 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.8.4",
-  "release": "2019-05-28",
+  "version": "0.8.6",
+  "release": "2019-07-26",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
-  "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
+  "Initiative": "Ordo Hereticus and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
   "specialRules": ["Act of Faith"],
   "usage": [
     "The following army list allows you to field an army based on the Adepta Sororitas, Chamber Militant of the Ordo Hereticus"
@@ -44,7 +44,7 @@
     {
       "from": "IG.json",
       "units": [
-        "Tempestus Scions",
+        "Storm Troopers",
         "Chimera",
         "Hellhound",
         "Valkyrie"
@@ -114,7 +114,7 @@
 
         {
           "name": "Retribution",
-          "units": "Four Retributor Sisters, two Retributors",
+          "units": "Four Retributor Sisters, two Sororitas Repressors",
           "extraUnits": [
           ],
           "points": 175
@@ -143,13 +143,13 @@
       "formations": [
           {
             "name": "0-1 Ordo Hereticus Inquisitor Retinue",
-            "units": "One Ordo Hereticus Inquisitor, five Tempestus Scions, three Chimeras",
+            "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
             "extraUnits": [
             "Ordo Hereticus Superior",
             "Replace three Chimeras with three Valkyries: 25 points",
             "Add up to three Hellhounds: 25 points each"
             ],
-            "points": 275
+            "points": 250
         },
         {
           "name": "Penitence",
@@ -187,7 +187,7 @@
         {
           "name": "Marauder Colossus Squadron",
           "units": "Two Marauder Colossus",
-          "points": 225
+          "points": 275
         },
         {
           "name": "0–1 Orbital Support",
@@ -221,11 +221,10 @@
         "points": "50 points"
       },
       {
-        "name": "Exorcists",
-        "description": "Add up to two Exorcist Prioris",
+        "name": "Exorcist",
+        "description": "Replace two units of Battle Sisters with two Exorcist Prioris",
         "points": [
-          "50 points for one",
-          "75 points for two"
+          "50 points"
         ]
       },
       {

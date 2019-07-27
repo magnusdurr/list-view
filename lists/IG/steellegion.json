@@ -1,12 +1,12 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "1.0.1",
-  "release": "2019-04-10",
+  "version": "1.0.2",
+  "release": "2019-07-25",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Credence, Discipline and Loyalty"],
+  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
   "usage": [
     "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
   ],
@@ -16,14 +16,13 @@
       "units": [
         "Steel Legion Supreme Commander",
         "Steel Legion Commander",
-        "Tempestor",
         "Commissar",
         "Lord Commissar",
         "Infantry",
         "Ogryns",
         "Rough Riders",
         "Snipers",
-        "Tempestus Scions",
+        "Storm Troopers",
         "Fire Support Squad",
         "Sentinel",
         "Basilisk",
@@ -197,8 +196,8 @@
               "Add one Vulture: 75 points"]
         },
         {
-          "name": "Tempestus Scion Company",
-          "units": "Seven Tempestus Scions and one Tempestor with a Commissar",
+          "name": "Storm Trooper Company",
+          "units": "Eight Storm Troopers, one with a Commissar",
           "points": 200,
           "extraUnits": [
               "Add four Taurox or four Valkyries: 150 points"

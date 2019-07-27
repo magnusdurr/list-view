@@ -1,10 +1,10 @@
 {
 	"fraction": "Imperial Inquisition",
 	"army": "Grey Knights",
-	"version": "0.5.1",
-	"release": "2019-05-31",
+	"version": "0.5.2",
+	"release": "2019-07-26",
 	"strategy": "Grey Knight armies have a Strategy Rating of 5.",
-	"Initiative": "All Grey Knight Detachments, Navy formations and the Ordo Malleus Inquisitor Retinue have an Initiative of 1+. All other formations have an initiative of 2+",
+	"Initiative": "All Grey Knight Detachments and Navy formations have an Initiative of 1+. All other formations have an initiative of 2+.",
 	"specialRules": ["Grey Knight Transports", "Teleport Homer", "Act of Faith"],
 	"usage": [
 		"The following army list allows you to field an army based on the Grey Knights with Ordo Malleus allies"
@@ -127,7 +127,7 @@
 						"Add one Hydra: 50 points",
 						"Ordo Malleus Superior"
 					],
-					"points": 275
+					"points": 250
 				},
 				{
 					"name": "Shock Trooper Platoon",
