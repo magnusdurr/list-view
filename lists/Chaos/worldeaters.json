@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "World Eaters",
-  "version": "1.5",
-  "release": "2019-02-28",
-  "strategy": "World Eaters armies have a Strategy Rating of 4.",
-  "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.6.2",
+  "release": "2019-08-04",
+  "strategy": "World Eater armies have a Strategy Rating of 4.",
+  "Initiative": "All World Eaters Core and Support formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -48,6 +48,8 @@
             "Doomblaster",
             "Hellfire Cannon",
             "Forgefiend",
+            "Heldrake Interceptor",
+            "Baledrake Fighter-Bomber",
             "Slaughterfiend",
             "Daemonic Assault Engine",
             "Greater Brass Scorpion",
@@ -76,8 +78,6 @@
   {
     "from": "chaosnavy.json",
     "units": [
-        "Heldrake Interceptor",
-        "Baledrake Fighter-Bomber",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
   ],

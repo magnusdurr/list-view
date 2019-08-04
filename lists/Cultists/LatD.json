@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Lost and the Damned",
-  "version": "0.7.1",
-  "release": "2019-06-28",
+  "version": "0.7.2",
+  "release": "2019-08-04",
   "strategy": "Lost and the Damned armies have a Strategy Rating of 1.",
-  "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -47,6 +47,8 @@
             "Hellfire Cannon",
             "Doomblaster",
             "Forgefiend",
+            "Heldrake Interceptor",
+            "Baledrake Fighter-Bomber",
             "Hell-Strider",
             "Subjugator",
             "Questor",
@@ -78,25 +80,6 @@
         "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
-    ]
-    },
-    {
-      "from": "CSM.json",
-      "units": [
-        "Chaos Space Marines",
-        "Chaos Rhino"
-    ],
-    "unitRules": [
-    ]
-    },
-    {
-      "from": "chaosnavy.json",
-      "units": [
-        "Heldrake Interceptor",
-        "Baledrake Fighter-Bomber",
-        "Devastation Class Cruiser"
-    ],
-    "unitRules": [
     ]
     }
 
@@ -149,6 +132,16 @@
           "upgrades": [
           ],
           "points": 225
+            },
+            {
+              "name": "Heldrakes of Chaos Undivided",
+              "units": "Two Heldrake Interceptors",
+              "points": 200
+            },
+            {
+              "name": "Baledrakes of Chaos Undivided",
+              "units": "Two Baledrake Fighter-Bombers",
+              "points": 200
             },
             {
               "name": "Hell-Striders of Slaanesh",
@@ -238,38 +231,6 @@
     ]
 },
 
-        {
-      "name": "Chaos Navy and Chaos Space Marines",
-      "description": "Up to one fifth of the points available may be spent on Chaos Navy and Chaos Space Marine formations",
-      "formations": [
-          {
-            "name": "Heldrake Wing",
-            "units": "Two Heldrake Interceptors",
-            "points": 200
-          },
-          {
-            "name": "Baledrake Wing",
-            "units": "Two Baledrake Fighter-Bombers",
-            "points": 200
-          },
-
-          {
-            "name": "0-1 Chaos Cruiser",
-            "units": "One Devastation Class Cruiser",
-            "upgrades": [
-            ],
-            "points": 150
-        },
-        {
-          "name": "0-1 Chaos Space Marine Advisors",
-          "units": "Six Chaos Space Marines, three Chaos Rhinos",
-          "upgrades": [
-              "Daemonic Pact"
-          ],
-          "points": 225
-        }
-      ]
-  },
   {
     "name": "Daemon Pool",
     "description": "Any amount may be spent on Daemon Pool points",
@@ -340,7 +301,7 @@
       {
         "name": "Technicals",
         "description": "Add up to four Technicals",
-        "points": "15 points each"
+        "points": "20 points each"
       },
       {
         "name": "Land Transporters",

@@ -247,9 +247,33 @@
           "crit": " Move the Deathwheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Deathwheel is then destroyed"
       },
 
+      {
+        "name": "Heldrake Interceptor",
+        "type": "AC",
+        "speed": "Fighter",
+        "armour": 6,
+        "weapons": [
+          "AC Hades Autocannon||FxF",
+          "AC Piston-Driven Claws"
+        ],
+        "specialRules": [
+            "Invulnerable Save"
+        ]
+      },
 
-
-
+      {
+        "name": "Baledrake Fighter-Bomber",
+        "type": "AC",
+        "speed": "Fighter-Bomber",
+        "armour": 5,
+        "weapons": [
+          "AC Baleflamer||FxF",
+          "AC Piston-Driven Claws"
+        ],
+        "specialRules": [
+            "Invulnerable Save"
+        ]
+      },
         {
           "name": "Debaser",
           "type": "AV",
