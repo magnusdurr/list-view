@@ -53,7 +53,7 @@
         ]
     },
     {
-      "name": "Aspiring Champion of Chaos Undivided",
+      "name": "Aspiring Champion",
       "type": "INF",
       "speed": 15,
       "armour": 4,
@@ -70,6 +70,17 @@
       ]
   },
       {
+        "name": "Daemonic Icon",
+        "type": "CH",
+        "weapons": [
+        ],
+        "specialRules": [
+            "Invulnerable Save",
+            "Daemonic Pact",
+            "Augment Summoning (+1)"
+        ]
+    },
+      {
         "name": "Fallen Commander",
         "type": "INF",
         "speed": 15,
@@ -78,32 +89,15 @@
         "ff": 5,
         "weapons": [
             "Autocannon",
-            "Daemonic Bolt",
-            "Power Weapon"
+            "Daemon Weapon"
         ],
         "specialRules": [
             "Commander"
         ]
     },
-        {
-          "name": "Daemonic Icon",
-          "type": "INF",
-          "speed": 15,
-          "armour": 6,
-          "cc": 5,
-          "ff": 5,
-          "weapons": [
-              "Autocannon",
-              "Chainswords"
-          ],
-          "specialRules": [
-              "Daemonic Pact",
-              "Augment Summoning (+1)",
-              "Invulnerable Save"
-          ]
-      },
+
       {
-        "name": "Daemon Prince of Chaos Undivided",
+        "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -160,7 +154,9 @@
             "Heavy Weapons|2|"
         ],
         "specialRules": [
-            ]
+
+        ],
+        "notes": "Counts as two units of INF for the purpose of being transported."
     },
         {
           "name": "Chaos Spawn",
@@ -174,7 +170,8 @@
           "specialRules": [
               "Fearless",
               "Invulnerable Save"
-          ]
+          ],
+          "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Winged Chaos Spawn",
@@ -202,7 +199,8 @@
             "Claws and Fangs"
         ],
         "specialRules": [
-        ]
+        ],
+              "notes": "May not be transported."
     },
         {
           "name": "Land Transporter",
@@ -216,7 +214,7 @@
           ],
           "specialRules": [
           ],
-                "notes": "May transport two units of INF, except Chaos Hounds and INF with Mounted or Jump Packs. Chaos Spawn and Big Mutants take two spaces each."
+                "notes": "May transport two units of INF without Mounted or Jump Packs."
       },
       {
         "name": "Technical",

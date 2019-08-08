@@ -232,7 +232,7 @@
       },
 
       {
-        "name": "Heldrake Interceptor",
+        "name": "Heldrake",
         "type": "AC",
         "speed": "Fighter",
         "armour": 6,
@@ -352,7 +352,8 @@
               "Invulnerable Save",
               "Daemon Engine (Slaanesh)"
           ],
-          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the Questor into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
+          "crit": "The Questor takes a point of damage and is moved D6cm in a random direction. If this move takes the unit into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
       },
       {
         "name": "Subjugator",
@@ -374,7 +375,8 @@
             "Invulnerable Save",
             "Daemon Engine (Slaanesh)"
         ],
-        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the Subjugator into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
+          "crit": "The Subjugator takes a point of damage and is moved D6cm in a random direction. If this move takes the unit into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
     },
 
 
@@ -473,7 +475,8 @@
               "Daemon Engine (Nurgle)",
               "Transport"
           ],
-          "notes": "May transport fourteen infantry units, Blight Drones or Dreadnoughts. Terminators, Daemon Princes, Blight Drones and Dreadnoughts count as two units each. Critical Hit Effect: The Plague Tower takes 1 additional point of damage. 1D3 random units carried inside takes 1 hit."
+          "notes": "May transport fourteen infantry units, Blight Drones or Dreadnoughts. Terminators, Daemon Princes, Blight Drones and Dreadnoughts count as two units each.",
+          "crit": "The Plague Tower takes an additional point of damage. 1D3 random units carried inside takes a hit."
       },
 
 
@@ -626,7 +629,7 @@
                 "Regeneration",
                 "Daemonic Pact"
             ],
-            "crit": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
+            "crit": "The Tower of Skulls takes an additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
         },
 
 
@@ -736,7 +739,7 @@
           "crit": "The Warp Palace takes 1 additional damage. Any units within 5cm takes an additional hit with MW on 6+."
       },
       {
-        "name": "Doomwing Interceptor",
+        "name": "Doomwing",
         "type": "AC",
         "speed": "Fighter",
         "armour": 6,
@@ -748,7 +751,7 @@
         ]
       },
       {
-        "name": "Firelord Bomber",
+        "name": "Firelord",
         "type": "AC",
         "speed": "Bomber",
         "armour": 4,

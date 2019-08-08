@@ -1,7 +1,7 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "release": "2019-08-08",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -23,7 +23,9 @@
       "units": [
         "Arch Heretic",
         "Daemonic Icon",
-        "Daemon Prince of Chaos Undivided",
+        "Fallen Commander",
+        "Daemon Prince",
+        "Aspiring Champion",
         "Cultists",
         "Mutants",
         "Ogryns",
@@ -39,6 +41,7 @@
       "units": [
         "Infantry",
         "Fire Support Squad",
+        "Rough Riders",
         "Sentinel",
         "Basilisk",
         "Chimera",
@@ -110,21 +113,29 @@
 ],
 "sections": [
     {
-      "name": "Traitor Guard Formations",
+      "name": "Slaves to Darkness Core Formations",
       "formations": [
         {
           "name": "Traitor Guard",
-          "units": "One Daemonic Icon, five units of Infantry",
+          "units": "One Fallen Commander with a Daemonic Icon, five units of Infantry",
           "upgrades": [
               "All"
           ],
           "points": 175
-      }
+      },
+      {
+        "name": "0-1 Chaos Space Marines",
+        "units": "One Aspiring Champion, five Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
+        "upgrades": [
+            "Supreme Commander"
+        ],
+        "points": 275
+    }
       ]
     },
     {
       "name": "Traitor Support Formations",
-      "description": "Up to one Support Formation for each Traitor Guard formation.",
+      "description": "Up to one Support formation for each Traitor Guard formation.",
       "formations": [
         {
           "name": "Artillery Battery",
@@ -141,6 +152,14 @@
 
           ],
           "points": 100
+        },
+        {
+          "name": "Rough Rider Platoon",
+          "units": "Six Rough Riders",
+          "upgrades": [
+              "Add one Daemonic Icon for 50 points"
+          ],
+          "points": 150
         },
         {
         "name": "Super-Heavy Platoon",
@@ -168,11 +187,6 @@
         "name": "Marauder Squadron",
         "units": "Two Marauder Bombers",
         "points": 225
-    },
-    {
-      "name": "0-1 Chaos Space Marine Advisors",
-      "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
-      "points": 250
     }
       ]
     },
@@ -211,12 +225,12 @@
               "description": "Choose one of the following:"
             },
             {
-              "description": "Add an Arch Heretic to a Daemonic Icon",
+              "description": "Add an Arch Heretic to the Fallen Commander / Aspiring Champion",
               "points": "50 points"
             },
             {
-              "description": "Add one Daemon Prince of Chaos Undivided",
-              "points": "125 points"
+              "description": "Upgrade the Fallen Commander / Aspiring Champion to a Daemon Prince",
+              "points": "100 points"
             }
           ]
         },
@@ -230,11 +244,11 @@
         ]
       },
       {
-        "name": "Technicals",
+        "name": "Ogryns",
         "options": [
           {
-            "description": "Add up to two Technicals",
-            "points": "20 points each"
+            "description": "Add up to two Ogryns",
+            "points": "25 points each"
           }
         ]
       },
@@ -266,6 +280,15 @@
         ]
       },
       {
+        "name": "Leman Russ Platoon",
+        "options": [
+          {
+            "description": "Add three Leman Russ or Leman Russ Demolishers",
+            "points": "150 points"
+          }
+        ]
+      },
+      {
         "name": "Lost and the Damned",
         "options": [
           {
@@ -275,22 +298,18 @@
         ]
       },
       {
-        "name": "Ogryns",
+        "name": "Technicals",
         "options": [
           {
-            "description": "Add up to two Ogryns",
-            "points": "25 points each"
+            "description": "Add up to two Technicals",
+            "points": "20 points each"
           }
         ]
       },
       {
-        "name": "Leman Russ Platoon",
-        "options": [
-          {
-            "description": "Add three Leman Russ or Leman Russ Demolishers",
-            "points": "150 points"
-          }
-        ]
+        "name": "Chaos Spawn",
+        "description": "Add one Chaos Spawn",
+        "points": "35 points"
       },
 
       {

@@ -54,8 +54,8 @@
             "Mirrorfiend",
             "Silver Tower",
             "Warp Palace",
-            "Doomwing Interceptor",
-            "Firelord Bomber"
+            "Doomwing",
+            "Firelord"
         ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -204,17 +204,17 @@
             "points": 500
           },
           {
-            "name": "Doomwing Squadron",
-            "units": "Three Doomwing Interceptors",
+            "name": "Doomwings of Tzeench",
+            "units": "Three Doomwings",
             "upgrades": [
             ],
             "points": 175
           },
           {
-            "name": "Firelord Squadron",
-            "units": "Two Firelord Bombers",
+            "name": "Firelords of Tzeench",
+            "units": "Two Firelords",
             "upgrades": [
-              "Add one Firelord for 100 points"
+              "Add one Firelord: 100 points"
             ],
             "points": 225
           },
@@ -259,7 +259,7 @@
             "points": "50 points"
           },
           {
-            "description": "Replace the Aspiring Champion and its unit with a Daemon Prince of Tzeench",
+            "description": "Replace the Aspiring Sorcerer and its unit with a Daemon Prince of Tzeench",
             "points": "100 points"
           }
         ]

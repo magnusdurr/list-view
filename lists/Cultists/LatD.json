@@ -25,8 +25,8 @@
               "Arch Heretic",
               "Demagogue",
               "Icon Bearer",
-              "Aspiring Champion of Chaos Undivided",
-              "Daemon Prince of Chaos Undivided",
+              "Aspiring Champion",
+              "Daemon Prince",
               "Cultists",
               "Mutants",
               "Big Mutants",
@@ -46,8 +46,7 @@
             "Defiler",
             "Hellfire Cannon",
             "Forgefiend",
-            "Heldrake Interceptor",
-            "Baledrake Fighter-Bomber",
+            "Heldrake",
             "Hell-Strider",
             "Subjugator",
             "Questor",
@@ -58,7 +57,8 @@
             "Lord of Battles",
             "Silver Tower",
             "Warp Palace",
-            "Doomwing Interceptor"
+            "Doomwing",
+            "Firelord"
         ],
         "unitRules": [
             "Void Shields",
@@ -89,7 +89,7 @@
       "formations": [
         {
           "name": "Cultist Coven",
-          "units": "Nine Chaos Cultists and/or Mutants, one Demagogue or Aspiring Champion of Chaos Undivided, Daemonic Pact",
+          "units": "Nine Chaos Cultists and/or Mutants, one Demagogue or Aspiring Champion, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
@@ -107,7 +107,7 @@
     },
     {
       "name": "Dark Mechanicus and Infestation Support Covens",
-      "description": "Two formations may be fielded per Chaos Cultist formation. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations. All formations are 0-1 for each part of 1000 points in the army",
+      "description": "Two formations may be fielded per Chaos Cultist Coven. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations in the army. Support Covens are 0-1 for each part of 1000 points in the army",
       "formations": [
             {
               "name": "Hell Cannons of Chaos Undivided",
@@ -117,11 +117,11 @@
               "points": 225
           },
           {
-            "name": "Forge Fiends of Chaos Undivided",
-            "units": "Three Forge Fiends",
+            "name": "Forgefiends of Chaos Undivided",
+            "units": "Three Forgefiends",
             "upgrades": [
             ],
-            "points": 200
+            "points": 225
         },
           {
             "name": "Defiler Pack of Chaos Undivided",
@@ -132,13 +132,8 @@
             },
             {
               "name": "Heldrakes of Chaos Undivided",
-              "units": "Two Heldrake Interceptors",
-              "points": 200
-            },
-            {
-              "name": "Baledrakes of Chaos Undivided",
-              "units": "Two Baledrake Fighter-Bombers",
-              "points": 200
+              "units": "Two Heldrakes",
+              "points": 225
             },
             {
               "name": "Hell-Striders of Slaanesh",
@@ -151,9 +146,9 @@
               "name": "Questors of Slaanesh",
               "units": "One Questor",
               "upgrades": [
-                "Add one Questor: 225 points"
+                "Add one Questor: 250 points"
               ],
-              "points": 275
+              "points": 300
             },
             {
               "name": "Subjugators of Slaanesh",
@@ -217,12 +212,20 @@
         ],
         "points": 500
     },
-    {
-      "name": "Doomwings of Tzeench",
-      "units": "Three Doomwing Interceptors",
-      "upgrades": [
-      ],
-      "points": 175
+        {
+          "name": "Doomwings of Tzeench",
+          "units": "Three Doomwings",
+          "upgrades": [
+          ],
+          "points": 175
+      },
+      {
+        "name": "Firelords of Tzeench",
+        "units": "Two Firelords",
+        "upgrades": [
+          "Add one Firelord: 100 points"
+        ],
+        "points": 225
       }
     ]
 },
@@ -255,11 +258,11 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Add an Arch Heretic character to the Demagogue or Aspiring Champion of Chaos Undivided",
+            "description": "Add an Arch Heretic character to the Demagogue or Aspiring Champion",
             "points": "50 points"
           },
           {
-            "description": "Replace the Demagogue with a Daemon Prince of Chaos Undivided",
+            "description": "Replace the Demagogue with a Daemon Prince",
             "points": "100 points"
           }
         ]
