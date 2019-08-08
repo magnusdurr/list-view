@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Lost and the Damned",
-  "version": "0.7.2",
-  "release": "2019-08-04",
+  "version": "0.7.3",
+  "release": "2019-08-08",
   "strategy": "Lost and the Damned armies have a Strategy Rating of 1.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -45,7 +45,6 @@
         "units": [
             "Defiler",
             "Hellfire Cannon",
-            "Doomblaster",
             "Forgefiend",
             "Heldrake Interceptor",
             "Baledrake Fighter-Bomber",
@@ -54,8 +53,8 @@
             "Questor",
             "Plague Tower",
             "Contagion Engine",
+            "Doomblaster",
             "Daemonic Assault Engine",
-            "Greater Brass Scorpion",
             "Lord of Battles",
             "Silver Tower",
             "Warp Palace",
@@ -110,22 +109,20 @@
       "name": "Dark Mechanicus and Infestation Support Covens",
       "description": "Two formations may be fielded per Chaos Cultist formation. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations. All formations are 0-1 for each part of 1000 points in the army",
       "formations": [
-          {
-            "name": "Doomblasters of Chaos Undivided",
-            "units": "Four Doomblasters",
-            "upgrades": [
-                "Forgefiends"
-            ],
-            "points": 225
-            },
             {
               "name": "Hell Cannons of Chaos Undivided",
               "units": "Four Hell Cannons",
               "upgrades": [
-                  "Forgefiends"
               ],
               "points": 225
           },
+          {
+            "name": "Forge Fiends of Chaos Undivided",
+            "units": "Three Forge Fiends",
+            "upgrades": [
+            ],
+            "points": 200
+        },
           {
             "name": "Defiler Pack of Chaos Undivided",
             "units": "Four Defilers",
@@ -182,9 +179,16 @@
       },
       {
         "name": "Nurgle Plague Zombie Infestation",
-        "units": "3 x 2D6 Plague Zombies",
+        "units": "3 + 2D6 Plague Zombies",
         "points": 175
         },
+        {
+          "name": "Doomblasters of Khorne",
+          "units": "Four Doomblasters",
+          "upgrades": [
+          ],
+          "points": 225
+          },
           {
             "name": "Khorne Daemonic Assault Engines",
             "units": "Six Daemonic Assault Engines",
@@ -193,19 +197,11 @@
             "points": 300
         },
         {
-          "name": "Greater Brass Scorpion of Khorne",
-          "units": "One Greater Brass Scorpion",
-        "upgrades": [
-          "Add one Greater Brass Scorpion: 175 points"
-        ],
-        "points": 225
-          },
-        {
           "name": "Khorne Lord of Battles",
           "units": "One Lord of Battles",
           "upgrades": [
           ],
-          "points": 375
+          "points": 400
         },
             {
           "name": "Silver Towers of Tzeench",

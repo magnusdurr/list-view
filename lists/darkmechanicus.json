@@ -117,22 +117,6 @@
           ]
         },
         {
-          "name": "Doomblaster",
-          "type": "AV",
-          "speed": 15,
-          "armour": 4,
-          "cc": 6,
-          "ff": 5,
-          "weapons": [
-            "Doomblaster"
-          ],
-          "specialRules": [
-            "Fearless",
-            "Invulnerable Save",
-            "Daemon Engine (Chaos Undivided)"
-          ]
-        },
-        {
           "name": "Hellfire Cannon",
           "type": "AV",
           "speed": 15,
@@ -509,6 +493,23 @@
           "specialRules": [
             "Fearless",
             "Walker",
+            "Infiltrators",
+            "Invulnerable Save",
+            "Daemon Engine (Khorne)"
+          ]
+        },
+        {
+          "name": "Doomblaster",
+          "type": "AV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Doomblaster"
+          ],
+          "specialRules": [
+            "Fearless",
             "Infiltrators",
             "Invulnerable Save",
             "Daemon Engine (Khorne)"

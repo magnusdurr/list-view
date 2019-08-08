@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.8.3",
-  "release": "2019-08-04",
+  "version": "0.8.4",
+  "release": "2019-08-07",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
-  "Initiative": "Alpha Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
       "Summoning",
@@ -27,10 +27,9 @@
         "Cultists",
         "Mutants",
         "Ogryns",
-        "Chaos Spawn",
-        "Chaos Hounds",
         "Technical",
-        "Land Transporter"
+        "Land Transporter",
+        "Plague Zombies of Nurgle"
       ],
         "unitRules": [
           ]
@@ -59,11 +58,10 @@
     {
       "from": "CSM.json",
       "units": [
-        "Alpha Legion Marines",
-        "Alpha Legion Rhino"
+        "Chaos Space Marines",
+        "Chaos Rhino"
     ],
     "unitRules": [
-        "Stubborn"
     ]
     },
     {
@@ -78,7 +76,28 @@
       "unitRules": [
     ]
     },
-
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Defiler",
+            "Hellfire Cannon",
+            "Forgefiend",
+            "Hell-Strider",
+            "Subjugator",
+            "Questor",
+            "Plague Tower",
+            "Contagion Engine",
+            "Doomblaster",
+            "Daemonic Assault Engine",
+            "Lord of Battles",
+            "Silver Tower",
+            "Warp Palace"
+        ],
+        "unitRules": [
+            "Void Shields",
+            "Daemon Engine (x)"
+        ]
+    },
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -151,8 +170,8 @@
         "points": 225
     },
     {
-      "name": "0-1 Alpha Legion Advisors",
-      "units": "Six Alpha Legion Marines, three Alpha Legion Rhinos",
+      "name": "0-1 Chaos Space Marine Advisors",
+      "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
       "points": 250
     }
       ]
@@ -163,7 +182,7 @@
       "formations": [
           {
             "name": "Support Covens",
-            "units": "One Support Coven formation from the Lost and the Damned army list with no upgrades. All choices are 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
+            "units": "One Support Coven formation from the Lost and the Damned army list with no upgrades. AC formations may not be taken. All other choices are 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
             "points": 0
           }
       ]

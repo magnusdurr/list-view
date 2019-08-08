@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "World Eaters",
-  "version": "0.6.2",
-  "release": "2019-08-04",
+  "version": "0.6.3",
+  "release": "2019-08-08",
   "strategy": "World Eater armies have a Strategy Rating of 4.",
   "Initiative": "All World Eaters Core and Support formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -191,7 +191,6 @@
     "name": "Doomblasters",
     "units": "Four Doomblasters",
     "upgrades": [
-        "Forgefiends"
     ],
     "points": 225
     },
@@ -199,12 +198,18 @@
       "name": "Hell Cannons",
       "units": "Four Hell Cannons",
       "upgrades": [
-          "Forgefiends"
       ],
       "points": 225
-      }
-    ]
   },
+      {
+        "name": "Forge Fiends",
+        "units": "Three Forge Fiends",
+        "upgrades": [
+        ],
+        "points": 200
+        }
+      ]
+    },
         {
       "name": "Major Daemon Engine and Chaos Navy Formations",
       "description": "Up to a third of the points available may be spent on these formations",
@@ -222,7 +227,7 @@
             "units": "One Lord of Battles",
             "upgrades": [
             ],
-            "points": 375
+            "points": 400
           },
           {
             "name": "0-1 Tower of Skulls",
