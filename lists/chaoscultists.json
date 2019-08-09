@@ -53,6 +53,16 @@
         ]
     },
     {
+      "name": "Daemonic Icon",
+      "type": "CH",
+      "weapons": [
+      ],
+      "specialRules": [
+          "Daemonic Pact",
+          "Augment Summoning (+1)"
+      ]
+  },
+    {
       "name": "Aspiring Champion",
       "type": "INF",
       "speed": 15,
@@ -69,16 +79,7 @@
           "Leader"
       ]
   },
-      {
-        "name": "Daemonic Icon",
-        "type": "CH",
-        "weapons": [
-        ],
-        "specialRules": [
-            "Daemonic Pact",
-            "Augment Summoning (+1)"
-        ]
-    },
+
       {
         "name": "Fallen Commander",
         "type": "INF",
