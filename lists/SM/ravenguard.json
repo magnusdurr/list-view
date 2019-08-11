@@ -1,14 +1,18 @@
 {
   "fraction": "Space Marines",
   "army": "Ravenguard",
-  "version": "1.0",
-  "release": "2019-01-20",
+  "version": "0.9",
+  "release": "2019-04-06",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Expert Reconnaissance", "Guerilla Tactics", "Independent", "Space Marine Transports"],
   "usage": [
     "The following army list allows you to field an army based on the Ravenguard Space Marine army and successor chapters."
   ],
+  "theme": "",
+  "design": "",
+  "changeLog": [
+  ],   
   "units": [
     {
       "from": "SM.json",
