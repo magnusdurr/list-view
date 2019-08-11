@@ -1,0 +1,271 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Valhallan Ice Warriors",
+  "version": "0.5.3",
+  "release": "2019-07-27",
+  "strategy": "Valhallan Ice Warrior armies have a Strategy Rating of 2.",
+  "Initiative": "All formations have a Initiative Rating of 2+.",
+
+  "specialRules": [
+      "Grim Demeanour",
+      "Tunnelers",
+      "Fortified Positions"
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on the Valhallan Ice Warriors"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Valhallan Supreme Commander",
+        "Valhallan Commander",
+        "Valhallan Infantry",
+        "Fire Support Squad",
+        "Snipers",
+        "Hydra",
+        "Basilisk",
+        "Manticore",
+        "Hellhound",
+        "Deathstrike",
+        "Sentinel",
+        "Valhallan Griffon",
+        "Ragnarok Heavy Tank",
+        "Macharius",
+        "Macharius Command",
+        "Hellbore",
+        "Baneblade",
+        "Shadowsword",
+        "Stormlord"
+      ],
+        "unitRules": [
+          ]
+    },
+    {
+      "from": "IQ.json",
+      "units": [
+        "Ministorum Priest",
+        "Arco-Flagellants"
+      ],
+      "unitRules": [
+          "Act of Faith"
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter",
+        "Marauder Bomber",
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Valhallan Company Formations",
+      "formations": [
+        {
+          "name": "Valhallan Regimental HQ",
+          "units": "One Valhallan Supreme Commander with a Ministorum Priest, eleven Valhallan Infantry",
+          "extraUnits": [
+              "Griffons",
+              "Heavy Tanks",
+              "Ogryns",
+              "Snipers",
+              "Fire Support",
+              "Flak",
+              "Entrenchments"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Valhallan Infantry Company",
+          "units": "One Valhallan Commander with a Ministorum Priest, eleven Valhallan Infantry",
+          "extraUnits": [
+              "Griffons",
+              "Heavy Tanks",
+              "Ogryns",
+              "Snipers",
+              "Fire Support",
+              "Flak",
+              "Entrenchments"
+          ],
+          "points": 225
+    },
+        {
+          "name": "Artillery Company",
+          "units": "Six Basilisks, one with a Ministorum Priest.",
+          "extraUnits": [
+              "Replace six Basilisks with six Manticores: 50 points",
+              "Flak"
+          ],
+          "points": 400
+      }
+
+      ]
+  },
+    {
+      "name": "Valhallan Support Formations",
+      "description": "Up to two Support Formations for each Core Company.",
+      "formations": [
+          {
+            "name": "Macharius Company",
+            "units": "One Macharius Command with a Ministorum Priest, two Macharius",
+            "extraUnits": [
+            ],
+            "points": 325
+        },
+      {
+        "name": "Hellhound Platoon",
+        "units": "Six Hellhounds",
+        "points": 250,
+        "extraUnits": [
+          "Flak"
+        ]
+      },
+        {
+          "name": "0–1 Deathstrike Battery",
+          "units": "Two Deathstrikes",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Sentinel Squadron",
+          "units": "Four Sentinels",
+          "extraUnits": [
+          ],
+          "points": 100
+        },
+        {
+          "name": "Heavy Tank Platoon",
+          "units": "Six Ragnarok Heavy Tanks",
+          "extraUnits": [
+          "Griffons",
+          "Flak"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Super-Heavy Tank Platoon",
+          "units": "One Baneblade or Stormlord",
+          "extraUnits": [
+              "Replace one Baneblade or Stormlord with a Shadowsword: 25 points"
+          ],
+          "points": 175
+      }
+    ]
+  },
+    {
+      "name": "Adeptus Ministorum, Tunnelers and Imperial Navy Allies",
+      "description": "Up to a fourth of the points available may be spent on Adeptus Ministorum, Tunnelers and Imperial Navy Allies",
+      "formations": [
+          {
+            "name": "Ministorum Flagellants",
+            "units": "Six Arco-Flagellants",
+            "extraUnits": [
+            ],
+            "points": 200
+          },
+          {
+            "name": "Tunneler",
+            "units": "One Hellbore",
+            "extraUnits": [
+            ],
+            "points": 225
+          },
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+      },
+      {
+        "name": "0–1 Orbital Support",
+        "units": "One Lunar Class Cruiser",
+        "points": 125,
+        "extraUnits": [
+            "Replace the Cruiser with an Emperor Class Battleship: 50 points"
+        ]
+      }
+    ]
+  }
+
+],
+  "upgrades": {
+    "title": "Valhallan Upgrades",
+    "description": "Each upgrade may be taken once per formation. Max three upgrades per Company.",
+    "items": [
+        {
+          "name": "Griffons",
+          "options": [
+            {
+              "description": "Add three Valhallan Griffons",
+              "points": "100 points"
+            }
+          ]
+        },
+        {
+          "name": "Heavy Tanks",
+          "options": [
+            {
+              "description": "Add three Ragnarok Heavy Tanks",
+              "points": "150 points"
+            }
+          ]
+        },
+        {
+          "name": "Ogryns",
+          "options": [
+            {
+              "description": "Add up to two Ogryns",
+              "points": "25 points each"
+            }
+          ]
+        },
+        {
+          "name": "Flak",
+          "options": [
+            {
+              "description": "Add a Hydra to the formation",
+              "points": "50 points"
+            }
+          ]
+        },
+        {
+          "name": "Fire Support",
+          "options": [
+            {
+              "description": "Add two or four Fire Support Squads",
+              "points": "50 points for two, 100 points for four"
+            }
+          ]
+        },
+      {
+        "name": "Snipers",
+        "options": [
+          {
+            "description": "Add up to two Snipers",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Entrenchments",
+        "options": [
+          {
+            "description": "60cm Razor Wire, 60cm Trenches",
+            "points": "50 points"
+          }
+        ]
+    }
+    ]
+  }
+}

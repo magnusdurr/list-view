@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Thousand Sons",
-  "version": "0.8.1",
-  "release": "2019-02-28",
+  "version": "0.8.4",
+  "release": "2019-05-22",
   "strategy": "Thousand Sons armies have a Strategy Rating of 4.",
   "Initiative": "All Thousand Sons Core and Elite formations, as well as the Warphound Pack formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -27,6 +27,7 @@
         "Chaos Space Marines",
         "Scarab Occult Terminators",
         "Rubric Marines",
+        "Sorcerer Disc Rider",
         "Chaos Rhino",
         "Thousand Sons Land Raider",
         "Thousand Sons Predator",
@@ -40,8 +41,7 @@
         "from": "chaoscultists.json",
         "units": [
             "Tzaangors",
-            "Tzaangor Disc Riders",
-            "Winged Chaos Spawn",
+            "Chaos Spawn",
             "Mutalith Vortex Beast"
         ],
         "unitRules": [
@@ -54,8 +54,8 @@
             "Mirrorfiend",
             "Silver Tower",
             "Warp Palace",
-            "Doomwing Interceptor",
-            "Firelord Bomber"
+            "Doomwing",
+            "Firelord"
         ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -88,7 +88,6 @@
 
   ],
   "unitRules": [
-      "God Machine Killer (GMK)"
 
   ]
   }
@@ -106,7 +105,7 @@
             "Predators",
             "Dreadnoughts"
           ],
-          "points": 275
+          "points": 300
         }
       ]
     },
@@ -131,7 +130,7 @@
               "Supreme Commander",
               "Terminator Transport"
           ],
-          "points": 350
+          "points": 400
       },
       {
         "name": "Predator Company",
@@ -140,7 +139,15 @@
             "Predators"
         ],
         "points": 200
-    }
+    },
+    {
+      "name": "Sorcerer Disc Riders",
+      "units": "Six Sorcerer Disc Riders, one Aspiring Sorcerer",
+      "upgrades": [
+        "Supreme Commander"
+      ],
+      "points": 250
+  }
     ]
   },
   {
@@ -155,14 +162,6 @@
         ],
         "points": 200
     },
-    {
-      "name": "Tzaangor Disc Riders",
-      "units": "Nine Tzaangor Disc Riders, Daemonic Pact",
-      "upgrades": [
-          "Beasts of Chaos"
-      ],
-      "points": 250
-  },
   {
     "name": "Tzeench Defilers",
     "units": "Four Decievers",
@@ -205,19 +204,19 @@
             "points": 500
           },
           {
-            "name": "Doomwing Squadron",
-            "units": "Three Doomwing Interceptors",
+            "name": "Doomwings of Tzeench",
+            "units": "Three Doomwings",
             "upgrades": [
             ],
             "points": 175
           },
           {
-            "name": "Firelord Squadron",
-            "units": "Two Firelord Bombers",
+            "name": "Firelords of Tzeench",
+            "units": "Two Firelords",
             "upgrades": [
-              "Add one Firelord for 75 points"
+              "Add one Firelord: 100 points"
             ],
-            "points": 200
+            "points": 225
           },
         {
           "name": "0-1 Chaos Cruiser",
@@ -260,8 +259,8 @@
             "points": "50 points"
           },
           {
-            "description": "Replace the Aspiring Champion and its unit with a Daemon Prince of Tzeench",
-            "points": "75 points"
+            "description": "Replace the Aspiring Sorcerer and its unit with a Daemon Prince of Tzeench",
+            "points": "100 points"
           }
         ]
       },
@@ -304,12 +303,12 @@
             "description": "Choose up to one of each of the following:"
           },
           {
-            "description": "Add one Winged Chaos Spawn to the formation",
+            "description": "Add one Chaos Spawn to the formation",
             "points": "35 points"
           },
           {
             "description": "Add one Vortex Beast to the formation",
-            "points": "75 points"
+            "points": "100 points"
           }
         ]
     }

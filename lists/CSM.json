@@ -6,7 +6,7 @@
         {
           "title": "Stubborn",
           "description": [
-            "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+        "Any formation where at least one unit has Stubborn are subject to the following rules: Reduce the damage caused by Blast Markers while the formation is broken by one. Reduce the number of extra hits from losing an assault by one."
           ]
       },
       {
@@ -200,7 +200,7 @@
         ]
       },
       {
-        "name": "Daemon Prince of Chaos Undivided",
+        "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -295,7 +295,7 @@
           "Teleport",
           "Fearless",
           "Daemonic Pact",
-          "Augment Summoning (+1D3)",
+          "Augment Summoning (+2D3)",
           "Daemonic Focus"
         ]
       },
@@ -506,7 +506,7 @@
         "speed": 15,
         "armour": 4,
         "cc": 5,
-        "ff": 4,
+        "ff": 2,
         "weapons": [
           "Inferno Combi-Bolters",
           "Power Weapons"
@@ -591,6 +591,21 @@
           "Invulnerable Save"
         ]
       },
+      {
+        "name": "Sorcerer Disc Rider",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Sorcerous Bolts"
+        ],
+        "specialRules": [
+            "Jump Packs",
+            "Invulnerable Save"
+        ]
+    },
       {
         "name": "Obliterators",
         "type": "INF",
@@ -728,8 +743,8 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Twin Lascannon|2|",
-          "Twin Heavy Bolter"
+          "Twin Lascannons|2|",
+          "Twin Heavy Bolters"
         ],
         "specialRules": [
             "Reinforced Armour",
@@ -746,8 +761,8 @@
             "cc": 6,
             "ff": 4,
             "weapons": [
-              "Twin Lascannon|2|",
-              "Twin Heavy Bolter"
+              "Twin Lascannons|2|",
+              "Twin Heavy Bolters"
             ],
             "specialRules": [
                 "Stubborn",
@@ -765,7 +780,7 @@
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Twin Lascannon|2|",
+            "Twin Lascannons|2|",
             "Twin Blastmaster"
           ],
           "specialRules": [
@@ -783,7 +798,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Twin Lascannon|2|",
+          "Twin Lascannons|2|",
           "Twin Blight Launcher"
         ],
         "specialRules": [
@@ -802,8 +817,8 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Lascannon|2|",
-        "Twin Heavy Bolter"
+        "Twin Lascannons|2|",
+        "Twin Heavy Bolters"
       ],
       "specialRules": [
           "Walker",
@@ -821,7 +836,7 @@
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Twin Lascannon|2|",
+            "Twin Lascannons|2|",
             "Heavy Warpflamer"
           ],
           "specialRules": [
@@ -839,7 +854,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Twin Lascannon",
+          "Twin Lascannons",
           "Heavy Bolter|2|"
         ]
       },
@@ -866,7 +881,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Twin Lascannon",
+          "Twin Lascannons",
           "Blastmaster|2|"
         ]
       },
@@ -878,7 +893,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Twin Lascannon",
+          "Twin Lascannons",
           "Heavy Warpflamer|2|"
         ]
       },
@@ -934,7 +949,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Twin Autocannon",
+          "Twin Autocannons",
           "Power Fist"
         ],
         "specialRules": [
@@ -1038,9 +1053,9 @@
       "ff": 4,
       "weapons": [
         "Battle Cannon||FxF",
-        "AC Twin Heavy Bolter|2|FxF",
-        "AC Twin Heavy Bolter||Left",
-        "AC Twin Heavy Bolter||Right"
+        "AC Twin Heavy Bolters|2|FxF",
+        "AC Twin Heavy Bolters||Left",
+        "AC Twin Heavy Bolters||Right"
       ],
       "specialRules": [
         "Damage Capacity 2",
@@ -1059,9 +1074,9 @@
     "ff": 4,
     "weapons": [
       "Battle Cannon||FxF",
-      "AC Twin Heavy Bolter|2|FxF",
-      "AC Twin Heavy Bolter||Left",
-      "AC Twin Heavy Bolter||Right"
+      "AC Twin Heavy Bolters|2|FxF",
+      "AC Twin Heavy Bolters||Left",
+      "AC Twin Heavy Bolters||Right"
     ],
     "specialRules": [
       "Damage Capacity 2",
@@ -1080,8 +1095,8 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "AC Twin Heavy Bolter|2|Left",
-        "AC Twin Heavy Bolter|2|Right"
+        "AC Twin Heavy Bolters|2|Left",
+        "AC Twin Heavy Bolters|2|Right"
       ],
       "specialRules": [
         "Damage Capacity 2",

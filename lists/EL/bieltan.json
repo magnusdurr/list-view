@@ -1,12 +1,12 @@
 {
   "fraction": "Eldar",
   "army": "Biel-Tan",
-  "version": "0.9.1",
-  "release": "2019-04-01",
+  "version": "1.0.0",
+  "release": "2019-06-05",
   "strategy": "Biel-Tan Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Avatar (Biel-Tan)","May Not Garrison (Biel-Tan)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer","Shield Disruptor", "Webway Portal"],
+  "specialRules": ["Avatar (Biel-Tan)","May not Garrison (Biel-Tan)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Shield Disruptor", "Webway Portal"],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Biel-Tan."
   ],
@@ -61,7 +61,6 @@
         "Dragonship"
       ],
         "unitRules": [
-            "God Machine Killer (GMK)"
       ]
     }
 ],
@@ -70,11 +69,11 @@
       "name": "Biel-Tan Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
+          "name": "1 Avatar",
           "units": "One Avatar",
 
-          "points": 50
-        },
+          "points": 0
+      },
         {
           "name": "0-1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
@@ -89,8 +88,9 @@
         {
           "name": "Aspect Warrior Warhost",
           "units": "Eight Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
-          "upgrades": [
-            "Autarch, Exarchs, Transport"
+          "extraUnits": [
+            "Autarch, Exarchs",
+            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
           ],
           "points": 300
         },
@@ -98,7 +98,8 @@
           "name": "Guardian Warhost",
           "units": "One Farseer unit and seven Guardians",
           "extraUnits": [
-            "Transport, Heavy Weapons, Support Weapons, Wraithguard, Wraithlord."
+            "Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
+            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
           ],
           "points": 150
         }
@@ -106,21 +107,21 @@
     },
     {
       "name": "Biel-Tan Troupes",
-      "description": "Up to three for each Biel-Tan Warhost taken",
+      "description": "Up to two Biel-Tan Troupes may be taken for each Biel-Tan Warhost",
       "formations": [
 
         {
           "name": "Ranger Troupe",
           "units": "Four Eldar Rangers",
-          "upgrades": [
-            "Add up to four Eldar Rangers for 25 points each"
+          "extraUnits": [
+            "Add up to two Eldar Rangers for 25 points each"
           ],
           "points": 100
         },
         {
           "name": "War Walker Troupe",
           "units": "Four War Walkers",
-          "upgrades": [
+          "extraUnits": [
               "Add up to two War Walkers for 25 points each"
           ],
           "points": 125
@@ -128,7 +129,7 @@
         {
           "name": "Wind Rider Troupe ",
           "units": "Six Jetbike units",
-          "upgrades": [
+          "extraUnits": [
             "Vypers"
           ],
           "points": 200
@@ -136,37 +137,40 @@
         {
           "name": "Falcon Troupe",
           "units": "Five Falcons",
-          "upgrades": [
-            "Firestorm"
+          "extraUnits": [
+            "Replace up to two Falcons with Firestorms: Free",
+            "OR",
+            "Add five Guardians to the formation: 75 points"
           ],
           "points": 250
         },
         {
-          "name": "Fire Prism Troupe ",
+          "name": "Fire Prism Troupe",
           "units": "Three Fire Prisms",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Night Spinner Troupe",
           "units": "Three Night Spinners",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 175
         },
         {
           "name": "Void Spinner Troupe",
           "units": "One Void Spinner",
-          "upgrades": [
+          "extraUnits": [
+            "Add up to two Void Spinners for 250 points each"
           ],
           "points": 300
         },
         {
           "name": "Engines of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
-          "upgrades": [
-            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+          "extraUnits": [
+            "Add up to two additional Engine of Vaul for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
           ],
           "points": 250
         }
@@ -180,23 +184,22 @@
         {
           "name": "Nightwing Aerie",
           "units": "Two Nightwing Interceptors",
-          "upgrades": [
+          "extraUnits": [
             "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
         },
         {
           "name": "Phoenix Aerie",
-          "units": "Two Phoenix Bombers",
-          "upgrades": [
-            "Add one Phoenix Bomber: 75 Points"
+          "units": "Three Phoenix Bombers",
+          "extraUnits": [
           ],
-          "points": 250
+          "points": 325
         },
         {
           "name": "Vampire",
           "units": "One Vampire Raider",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 200
@@ -204,7 +207,7 @@
         {
           "name": "Revenants",
           "units": "Two Revenant Titans",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 650
@@ -212,7 +215,7 @@
         {
           "name": "Phantom",
           "units": "One Phantom Titan",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 700
@@ -220,7 +223,7 @@
         {
           "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 800
@@ -228,8 +231,8 @@
         {
           "name": "0-1 Spacecraft",
           "units": "One Wraithship",
-          "upgrades": [
-            "Replace with Dragonship for +150 Points"
+          "extraUnits": [
+            "Replace with a Dragonship: 150 Points"
           ],
           "points": 150
         }
@@ -241,34 +244,24 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "0-1 Autarch",
-        "description": "Replace one Eldar Exarch character with an Eldar Autarch character",
-        "points": "25 points"
+        "name": "Autarch (Max one per army)",
+        "description": "Replace one Eldar Exarch with an Eldar Autarch",
+        "points": "50 points"
       },
       {
-        "name": "Exarch",
-        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
-        "points": "50 points each"
-      },
-      {
-        "name": "Firestorm",
-        "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
+        "name": "Exarchs",
+        "description": "Add up to two Eldar Exarchs",
+        "points": "25 points each"
       },
       {
         "name": "Heavy Weapons",
-        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platform units",
+        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms",
         "points": "Free"
       },
       {
         "name": "Support Weapons",
-        "description": "Add three Eldar Support Weapon Platform units",
+        "description": "Add three Eldar Support Weapon Platforms",
         "points": "50 points"
-      },
-      {
-        "name": "Transport",
-        "description": "Add enough Wave Serpents and/or Falcons to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
-        "points": "50 points each"
       },
       {
         "name": "Vypers",
@@ -282,8 +275,8 @@
       },
       {
         "name": "Wraithlord",
-        "description": "Add three Eldar Wraithlords",
-        "points": "150 points"
+        "description": "Add two Eldar Wraithlords",
+        "points": "125 points"
       }
     ]
   }

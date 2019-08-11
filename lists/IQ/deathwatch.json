@@ -1,0 +1,242 @@
+{
+	"fraction": "Imperial Inquisition",
+	"army": "Deathwatch",
+	"version": "0.5.3",
+	"release": "2019-07-26",
+	"strategy": "Deathwatch armies have a Strategy Rating of 5.",
+	"Initiative": "Deathwatch Detachments have an Initiative of 1+. All other formations have an Initiative of 2+.",
+	"specialRules": ["Xenos Horrificus"],
+	"usage": [
+		"The following army list allows you to field an army based on Ordo Xenos with Deathwatch allies"
+	],
+	"units": [{
+			"from": "IQ.json",
+			"units": [
+				"Ordo Xenos Inquisitor Lord",
+				"Ordo Xenos Inquisitor",
+				"Ordo Xenos Acolytes",
+				"Arbitrators",
+				"Arbites Repressor"
+			],
+			"unitRules": [
+			]
+		},
+		{
+			"from": "SM.json",
+			"units": [
+				"Watch Commander",
+				"Captain",
+				"Chaplain",
+				"Librarian",
+				"Deathwatch Tacticals",
+				"Deathwatch Assault Veterans",
+				"Deathwatch Black Shields",
+				"Deathwatch Devastators",
+				"Deathwatch Terminators",
+				"Deathwatch Dreadnought",
+				"Deathwatch Land Speeder",
+				"Assault Bikes",
+				"Rhino",
+				"Deathwatch Land Raider",
+				"Land Raider Crusader",
+				"Storm Talon Gunship",
+				"Corvus Blackstar Dropship",
+				"Thunderhawk Transporter",
+				"Strike Cruiser",
+                "Drop Pod"
+			],
+			"unitRules": [
+				"They Shall Know No Fear"
+			]
+		},
+		{
+			"from": "IG.json",
+			"units": [
+				"PDF Conscripts",
+				"Leman Russ",
+				"Hydra",
+				"Vendetta",
+				"PDF Land Transporter"
+			],
+			"unitRules": []
+		}
+	],
+	"sections": [
+
+        {
+                "name": "Deathwatch Specials",
+                "description": "",
+                "formations": [
+                    {
+                        "name": "0-1 Officio Assassinorum",
+                        "units": "Once per battle, during an Assault that the Deathwatch player initiated, a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules. Any damage caused by these hits counts towards combat resolution.",
+                        "points": 75
+                    }
+                ]
+            },
+        {
+			"name": "Deathwatch Core Detachments",
+			"description": "",
+			"formations": [
+				{
+					"name": "Deathwatch Kill-Team",
+					"units": "Four Deathwatch Tacticals plus transport",
+					"extraUnits": [
+						"Replace one Deathwatch Tacticals with one Deathwatch Black Shields: 25 points",
+						"Add two Deathwatch Dreadnoughts: 75 points",
+						"Land Raiders",
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 200
+				}
+			]
+		},
+		{
+			"name": "Deathwatch Support Detachments",
+			"description": "Two Deathwatch Support Detachment may be fielded per Deathwatch Core Detachment",
+			"formations": [{
+					"name": "Deathwatch Terminators",
+					"units": "One Chaplain, two Deathwatch Terminators",
+					"extraUnits": [
+						"Land Raiders"
+					],
+					"points": 250
+				},
+				{
+					"name": "Deathwatch Attack",
+					"units": "Three Deathwatch Land Speeders, three Assault Bikes",
+					"extraUnits": [
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 250
+				},
+				{
+					"name": "Deathwatch Vanguard",
+					"units": "Four Deathwatch Assault Veterans",
+					"extraUnits": [
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 225
+				},
+				{
+					"name": "Deathwatch Devastators",
+					"units": "Four Deathwatch Devastators plus transport",
+					"extraUnits": [
+						"Add two Deathwatch Dreadnoughts: 75 points",
+						"Land Raiders",
+						"Commander",
+						"Ordo Xenos Superior"
+					],
+					"points": 250
+				}
+			]
+		},
+		{
+			"name": "Ordo Xenos Formations",
+			"description": "Two Ordo Xenos Formations may be fielded per Deathwatch Core Detachment",
+			"formations": [
+				{
+						"name": "0-1 Ordo Xenos Inquisitor Retinue",
+						"units": "One Ordo Xenos Inquisitor, three Ordo Xenos Acolytes, four Vendettas",
+						"extraUnits": [
+							"Ordo Xenos Superior"
+						],
+						"points": 250
+					},
+				{
+					"name": "Adeptus Arbites Company",
+					"units": "Eight Arbitrators, four Arbites Repressors",
+					"extraUnits": [
+					],
+					"points": 225
+				},
+				{
+					"name": "Flak Battery",
+					"units": "Three Hydra",
+					"extraUnits": [],
+					"points": 150
+				},
+				{
+					"name": "Leman Russ Squadron",
+					"units": "Three Leman Russ",
+					"extraUnits": [
+						"Add three Leman Russ: 150 points",
+						"Add one Hydra: 50 points"
+					],
+					"points": 200
+				},
+				{
+					"name": "Motorized Planetary Defense Force Platoon",
+					"units": "Six PDF Conscripts, three PDF Land Transporters",
+					"extraUnits": [
+						"Add one Hydra: 50 points"
+					],
+					"points": 150
+				}
+			]
+		},
+		{
+			"name": "Deathwatch Navy Detachments",
+			"description": "Up to a third of the points available may be spent on Deathwatch Navy Detachments",
+			"formations": [
+				{
+					"name": "Storm Talons",
+					"units": "Two Storm Talon Gunships",
+					"points": 200
+				},
+				{
+					"name": "Corvus Dropship Wing",
+					"units": "Two Corvus Blackstar Dropships",
+					"points": 250
+				},
+				{
+					"name": "Thunderhawk Transporter",
+					"units": "One Thunderhawk Transporter",
+					"extraUnits": [
+						"Add one Thunderhawk Transporter: 100 points"
+					],
+					"points": 175
+				},
+				{
+					"name": "0–1 Orbital Support",
+					"units": "Strike Cruiser",
+					"extraUnits": [],
+					"points": 200
+				}
+			]
+		}
+	],
+	"upgrades": {
+		"title": "Upgrades",
+		"description": "Each upgrade may be taken once per formation",
+		"items": [
+
+			{
+					"name": "Land Raiders",
+					"description": "Add enough Deathwatch Land Raiders or Land Raider Crusaders to transport the formation with no space left over",
+					"points": "50 points each"
+				},
+			{
+				"name": "Commander",
+				"description": "Add a Captain, Chaplain or Librarian",
+				"points": 50
+			},
+			{
+				"name": "Ordo Xenos Superior (0-1 per army)",
+				"description": "Choose one of the following",
+				"options": [{
+						"description": "Replace a Captain in the army with a Watch Commander (Death Watch Detachments only. May not be combined with the 'Commander' upgrade)",
+						"points": "75 points"
+					},
+					{
+						"description": "Replace the Ordo Xenos Inquisitor with an Ordo Xenos Inquisitor Lord (Ordo Xenos Inquisitor Retinue only)",
+						"points": "50 points"
+					}
+				]
+			}
+		]
+	}
+}

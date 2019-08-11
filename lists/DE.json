@@ -32,10 +32,9 @@
       "name": "Succubus",
       "type": "CH",
       "weapons": [
-        "Agonizer"
+        "Monomolecular Blade"
       ],
       "specialRules": [
-        "Leader",
         "Inspiring"
       ]
     },
@@ -47,8 +46,7 @@
         "Scissor Hands"
       ],
       "specialRules": [
-        "Leader",
-        "Inspiring"
+        "Invulnerable Save"
       ]
     },
     {
@@ -69,7 +67,7 @@
       "name": "Warriors",
       "type": "INF",
       "speed": 15,
-      "cc": 6,
+      "cc": 5,
       "ff": 4,
       "weapons": [
         "Splinter Rifles",
@@ -92,8 +90,9 @@
       ],
       "specialRules": [
         "First Strike",
+        "Infiltrators",
         "Invulnerable Save",
-        "Scouts",
+        "Scout",
         "Teleport"
       ]
     },
@@ -193,34 +192,35 @@
     {
       "name": "Wyches",
       "type": "INF",
-      "speed": 35,
-      "armour": 6,
+      "speed": 15,
       "cc": 3,
-      "ff": 5,
+      "ff": 6,
       "weapons": [
-        "Splinter Pistols"
+        "Splinter Pistols",
+        "Wych Weapons"
       ],
       "specialRules": [
-        "First Strike",
+        "Invulnerable Save",
         "Infiltrators"
       ]
     },
     {
       "name": "Warp Beasts",
       "type": "INF",
-      "speed": 20,
-      "armour": 6,
-      "cc": 4,
+      "speed": 30,
+      "armour": 5,
+      "cc": 3,
       "weapons": [
-        "Teeth and Claws"
+        "Claws"
       ],
       "specialRules": [
-        "First Strike",
-        "Infiltrators"
+        "Expendable",
+        "Invulnerable Save",
+        "First Strike"
       ]
     },
     {
-      "name": "Hellions",
+      "name": "Hellion Skyboards",
       "type": "INF",
       "speed": 30,
       "armour": 5,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "name": "Reavers",
+      "name": "Reaver Jet Bikes",
       "type": "INF",
       "speed": 40,
       "armour": 4,
@@ -264,8 +264,9 @@
       ],
       "specialRules": [
         "Skimmer",
-        "Transport may carry one infantry unit without jumppacks or mounted."
-      ]
+        "Transport"
+    ],
+        "notes": "May carry one unit of Warriors, Incubi, Haemonculi, Wracks or Wyches"
     },
     {
       "name": "Raider",
@@ -279,8 +280,9 @@
       ],
       "specialRules": [
         "Skimmer",
-        "Transport may carry two of the following: Warrior, Incubi, Haemonculi, Wrack, Grotesques and Wych units"
-      ]
+        "Transport"
+    ],
+    "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches"
     },
     {
       "name": "Ravager",
@@ -333,17 +335,17 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Dark Lance L",
-        "Dark Lance R",
-        "Long Barrelled Splinter Cannons|2|"
+        "Dark Lance|2|FxF",
+        "Long Barrelled Splinter Cannons|2|FxF"
       ],
       "specialRules": [
-        "Damage Capacity: 3",
+        "Damage Capacity 3",
         "Shadowfields 2",
         "Skimmer",
-        "Transport (may carry up to to four of the following units: Warrior, Incubi, Haemonculi, Grotesques, Wrack, Warp Beasts and Wych units). May only Transport units from its own formation."
+        "Transport"
       ],
-      "notes": "Critical Hit Effect: The Barge of Pleasure's shield generators explode, destroying the barge and causing a hit to any unit within 5cm on a 5+."
+      "notes": "May carry four units of Warriors, Incubi, Haemonculi, Wracks or Wyches. May only Transport units from its own formation.",
+      "crit": "The Barge takes an additional damage. 1D3 random units inside takes a hit."
     },
     {
       "name": "Vessel of Pain",
@@ -353,57 +355,62 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Phantom Lance",
-        "Long Barrelled Splinter Cannons|2|",
-        "Desolator"
+        "Phantom Lance|2|FxF",
+        "Long Barrelled Splinter Cannons|2|FxF",
+        "Desolator||FxF"
       ],
       "specialRules": [
-        "Damage Capacity: 3",
+        "Damage Capacity 3",
         "Shadowfields 2",
         "Skimmer"
       ],
-      "notes": "Critical Hit Effect: The Vessel's phantom generator explodes, destroying the Vessel of Pain and causing a hit to any unit within 5cm on a 6+."
+      "crit": "The Vessel of Pain is destroyed. All units within 5cm take a hit on 6+."
     },
     {
       "name": "Tormentor Titan",
       "type": "WE",
-      "speed": 35,
+      "speed": 40,
       "armour": 5,
       "cc": 3,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
-        "Phantom Lance|2|",
+        "Twin Void Lances",
+        "Splinter Blast",
         "Tormentor Blades"
       ],
       "specialRules": [
-        "Damage Capacity: 4",
-        "Shadowfields 2",
+        "Damage Capacity 4",
+        "Shadowfields 3",
+        "Fearless",
         "Jump Packs",
         "Reinforced Armour",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: Tormentor Titan explodes and is destroyed."
+      "crit": "The Tormentor Titan takes one additional damage and loses all remaining Shadowfields."
     },
     {
-      "name": "Torture Titan",
+      "name": "Executioner Landing Module",
       "type": "WE",
       "speed": 25,
       "armour": 5,
-      "cc": 3,
+      "cc": 6,
       "ff": 4,
       "weapons": [
-        "Heavy Phantom Lance|2|",
-        "Dark Lance|2|",
-        "Torture Blades"
+        "Twin Heavy Phantom Lances||FxF",
+        "Splinter Storm",
+        "Disintegrator Array"
       ],
       "specialRules": [
-        "Damage Capacity: 6",
-        "Shadowfields 3",
-        "Fearless",
+        "Damage Capacity 4",
+        "Shadowfields 4",
+        "Planetfall",
+        "Support Craft",
         "Reinforced Armour",
-        "Walker"
-      ],
-      "notes": "Critical Hit Effect: The Torture Titan shield generator explodes. Any remaining Shadowfields are lost and the titan suffers D3 MW hits."
+        "Fearless",
+        "Transport"
+    ],
+    "notes": "May transport up to ten Infantry units. In addition it may carry up to five Light Vehicles with Skimmer, or up to two Vessels of Pain and/or Barges of Pleasure.",
+    "crit": "The Executioner takes an additional damage. 1D3 random units inside takes a hit."
     }
     ]
   }

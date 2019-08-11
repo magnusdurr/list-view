@@ -4,7 +4,7 @@
   "version": "2.6",
   "release": "2019-03-15",
   "strategy": "Daemonic Incursion armies have a Strategy Rating of 0.",
-  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Dark Mechanicus and Chaos Cultist formations have an Initiative Rating of 2+.",
+  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Portals & Mortals formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -64,7 +64,7 @@
     "from": "chaoscultists.json",
     "units": [
         "Demagogue",
-        "Aspiring Champion of Chaos Undivided",
+        "Aspiring Champion",
         "Cultists",
         "Mutants",
         "Chaos Spawn",
@@ -196,7 +196,7 @@
         },
           {
             "name": "Lost and the Damned",
-            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, seven Chaos Cultists and/or Mutants",
+            "units": "One Demagogue or Aspiring Champion, seven Chaos Cultists and/or Mutants",
             "extraUnits": [
               "Chaos Spawn",
               "Land Transporters"

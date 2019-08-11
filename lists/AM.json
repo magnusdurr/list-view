@@ -5,15 +5,15 @@
         {
           "title": "Machine Spirit",
           "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such a formation may only move once instead of twice while being broken, and may only contest objectives."
+            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
           ]
-      },
-      {
-            "title": "God Machine Killer (GMK)",
-            "description": [
-              "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
+        },
+    {
+      "title": "Ponderous",
+      "description": [
+        "May only make a single withdrawal move instead of two when becoming broken or failing to rally."
         ]
-      }
+    }
     ],
     "unit": [
       {
@@ -65,6 +65,7 @@
             "Invulnerable Save"
           ]
       },
+
       {
           "name": "Skitarii Vanguard",
           "type": "INF",
@@ -91,9 +92,10 @@
             "Hydraulic Claw"
           ],
           "specialRules": [
-            "Notes: Machine Spirit",
-            "Invulnerable Save",
-            "Count as 2 for the purpose of being transported"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -108,9 +110,10 @@
             "Cognis Flamer"
           ],
           "specialRules": [
-            "Notes: Machine Spirit",
-            "Invulnerable Save",
-            "Count as 2 for the purpose of being transported"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -196,23 +199,25 @@
           "specialRules": [
             "Machine Spirit",
             "Fearless",
-            "Expendable"
+            "Expendable",
+            "Ponderous"
           ]
       },
       {
-          "name": "Battle Servitors",
+          "name": "Adsecularis",
           "type": "INF",
           "speed": 15,
           "armour": 6,
           "cc": 6,
           "ff": 5,
           "weapons": [
-            "Body Weapons"
+            "Las-Locks"
           ],
           "specialRules": [
-            "Machine Spirit",
-            "Fearless",
-            "Expendable"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -227,9 +232,10 @@
             "Power Fist"
           ],
           "specialRules": [
-            "Machine Spirit",
-            "Fearless",
-            "Expendable"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
       },
       {
@@ -245,9 +251,30 @@
             "Power Fist"
           ],
           "specialRules": [
-            "Machine Spirit",
-            "Fearless",
-            "Expendable"
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
+          ]
+      },
+      {
+          "name": "Vultarax Robot",
+          "type": "LV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Missile Launcher"
+          ],
+          "specialRules": [
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Skimmer",
+              "Scout",
+              "Invulnerable Save",
+              "Ponderous"
           ]
       },
       {
@@ -270,8 +297,8 @@
           "cc": 6,
           "ff": 5,
           "weapons": [
-            "Twin Autocannon|0-1|",
-            "Twin Lascannon|0-1|"
+            "Twin Autocannons|0-1|",
+            "Twin Lascannons|0-1|"
           ],
           "specialRules": [
             "Scout",
@@ -307,14 +334,14 @@
           "weapons": [
             "Eradication Beamer|0-1|",
             "Neutron Laser|0-1|",
-            "Twin Heavy Phosphor Blaster|0-1|",
+            "Twin Heavy Phosphor Blasters|0-1|",
             "Icarus Array|0-1|"
           ],
           "specialRules": [
             "Walker",
             "Invulnerable Save"
         ],
-        "notes": "Must choose either an Eradication Beamer, Icarus Array, Neutron Laser or Twin Heavy Phosphor Blaster."
+        "notes": "Must choose either an Eradication Beamer, Icarus Array, Neutron Laser or Twin Heavy Phosphor Blasters."
       },
       {
           "name": "Chimedon",
@@ -358,7 +385,7 @@
             ">Battle Weapons<",
             "Turbo-Laser Destructor|0-1|FxF",
             "Apocalypse Missile Launcher|0-1|FxF",
-            "Triple-Twin Hydra Autocannon|0-1|",
+            "Tri-Twin Hydra Autocannons|0-1|",
             "Titan Plasma Cannon|0-1|FxF",
             "Corvus Assault Pod|0-1|",
             ">Support Weapons<",
@@ -373,9 +400,11 @@
             "Void Shields 2",
             "Reinforced Armour",
             "Fearless",
-            "*Corvus Assault Pod* May transport eleven infantry units. Praetorians counts as two units each"
+            "[*]Corvus Assault Pod: May transport eleven infantry units. Praetorians counts as two units each",
+            "[**]Ordinatus Landing Pad: Gives all BP-type weapons in the formation 'Indirect Fire'. Allows the purchase of a Lysander Fighter"
         ],
-          "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+          "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
           "name": "Ordinatus Minoris ",
@@ -389,7 +418,7 @@
             ">Battle Weapons<",
             "Turbo-Laser Destructor|0-1|FxF",
             "Apocalypse Missile Launcher|0-1|FxF",
-            "Triple-Twin Hydra Autocannon|0-1|",
+            "Tri-Twin Hydra Autocannons|0-1|",
             "Titan Plasma Cannon|0-1|FxF",
             "Corvus Assault Pod|0-1|"
           ],
@@ -398,9 +427,10 @@
             "Void Shields 2",
             "Reinforced Armour",
             "Fearless",
-            "*Corvus Assault Pod* May transport eleven infantry units. Praetorians counts as two units each"
+            "*Corvus Assault Pod* May transport eleven infantry units or Robots. Praetorians and Robots counts as two units each"
         ],
-          "notes": "Armed with a single Battle Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+          "notes": "Armed with a single Battle Weapon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
           "name": "Ordinatus Majoris",
@@ -425,25 +455,59 @@
             "Reinforced Armour",
             "Fearless"
         ],
-        "notes": "¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
         "name": "AM Gorgon",
         "type": "WE",
-        "speed": "20cm",
+        "speed": 20,
         "armour": 4,
         "cc": 6,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
-          "Gorgon Mortars",
-          "Heavy Bolter|2|"
+          "Heavy Bolter|4|"
         ],
         "specialRules": [
           "Damage Capacity 3",
           "Reinforced Armour",
-          "Transport (May carry 10 infantry units without jump pack or mounted. Praetorians counts as two units each)"
+          "Walker",
+          "Transport"
         ],
-        "notes": "¤Critical Hit Effect¤: The Gorgon takes one additional damage, and D3 transported units takes a hit."
+        "notes": "May carry 10 infantry units without Jump Pack or Mounted. Praetorians counts as two units each.",
+        "crit": "The Gorgon is Immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon.."
+    },
+    {
+        "name": "Termite",
+        "type": "AV",
+        "speed": "20",
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+            "Storm Bolter"
+        ],
+        "specialRules": [
+            "Tunneler",
+            "Transport"
+        ],
+        "notes": "May transport two infantry units without Jump Packs or Mounted."
+    },
+    {
+        "name": "Mole",
+        "type": "H-AV",
+        "speed": "Immobile",
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+            "Storm Bolter"
+        ],
+        "specialRules": [
+            "Reinforced Armour",
+            "Tunneler",
+            "Transport"
+        ],
+        "notes": "May transport five infantry units without Jump Packs or Mounted."
     },
     {
       "name": "Avenger Strike Fighter",
@@ -452,7 +516,7 @@
       "armour": 5,
       "weapons": [
         "AC Avenger Bolt Cannon",
-        "AC Twin Lascannon||FxF",
+        "AC Twin Lascannons||FxF",
         "AC Heavy Stubber Turret"
       ],
       "specialRules": [
@@ -474,7 +538,7 @@
         "Pin Point|0-2|"
     ],
     "specialRules": [
-      "Is equipped with either Orbital Bombardment or two Pin Point attacks.",
+      "Is equipped with either Orbital Bombardment or two Pin Point attacks (may be chosen at the start of battle).",
       "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
     ]
     }

@@ -29,15 +29,15 @@
         "description": [
           "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
           "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-          "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+          "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
           "Units with the God Machine special rule are themselves immune to this effect."
         ]
-    },
-        {
-          "title": "Split Fire",
-          "description": [
-            "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon, and gets no +1 to-hit modifier from performing a Sustain Fire."
-          ]
+      },
+      {
+        "title": "Split Fire",
+        "description": [
+          "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire or Advance Action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon. If Split Fire is performed, the WE gets no +1 to-hit modifier if performing a Sustain Fire, and suffers a -1 to hit if doing an Advance."
+        ]
       }
     ],
     "unit": [
@@ -88,9 +88,9 @@
         "'Uge Banner of Mork (or possibly Gork)|0-1|"
       ],
       "specialRules": [
-          "*'Uge Banner of Mork (or possibly Gork)*: (Gargants Only) The unit gains the Inspiring special rule"
+          "[**]'Uge Banner of Mork (or possibly Gork): (Gargants Only) The unit gains the Inspiring special rule"
       ],
-      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork)"
+      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given [*] D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork)"
     },
   {
     "name": "Speed Freek Oddboy",
@@ -101,7 +101,7 @@
       "Lifta-Droppa|0-1|"
     ],
     "specialRules": [
-        "The unit is given either D3+1 power fields, or replaces a Big Gun with a Lifta Droppa, or is equipped with a Deff-Rolla (Improve CC to 2+) and Red Paint Job (+5 cm movement)."
+        "The unit is given either [*] D3+1 power fields, or replaces a Big Gun with a Lifta Droppa, or is equipped with [**] Deff-Rolla (Improve CC to 2+) and Red Paint Job (+5 cm movement)."
     ]
   },
     {
@@ -263,7 +263,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Twin Big Shoota"
+        "Twin Big Shootas"
       ],
       "specialRules": [
           "Skimmer"
@@ -277,7 +277,7 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Twin Big Shoota"
+        "Twin Big Shootas"
       ],
       "specialRules": [
       ]
@@ -317,7 +317,7 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Twin Big Shoota|2|"
+        "Twin Big Shootas|2|"
       ],
       "specialRules": [
           "Transport: Two units of Boyz, Nobz, Kommandos or Grotz. Big Gunz takes two spaces each. May carry one unit of Grotz in addition to any other units transported"
@@ -419,7 +419,7 @@
       "cc": 4,
       "ff": 4,
       "weapons": [
-        "Twin Big Shoota|4|",
+        "Twin Big Shootas|4|",
         "Big Gun"
       ],
       "specialRules": [
@@ -437,7 +437,7 @@
       "cc": 4,
       "ff": 4,
       "weapons": [
-        "Twin Big Shoota|5|",
+        "Twin Big Shootas|5|",
         "Big Gun|3|"
       ],
       "specialRules": [
@@ -647,7 +647,7 @@
       "armour": 6,
 
       "weapons": [
-        "AC Twin Big Shoota||FxF",
+        "AC Twin Big Shootas||FxF",
         "AC Tankbusta Rokkits||FxF"
       ],
       "specialRules": [
@@ -661,7 +661,7 @@
       "armour": 6,
 
       "weapons": [
-        "AC Twin Big Shoota|2|FxF"
+        "AC Twin Big Shootas|2|FxF"
       ],
       "specialRules": [
           "Invulnerable Save"
@@ -823,7 +823,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Twin Big Shoota|2|",
+        "Twin Big Shootas|2|",
         "Teeth and Horns",
         "Big Gun"
       ],
@@ -841,7 +841,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Twin Big Shoota|4|",
+        "Twin Big Shootas|4|",
         "Goring Tusks",
         "Big Gun|2|"
       ],
@@ -850,7 +850,7 @@
         "Reinforced Armour",
         "Transport (may carry up to twelve of the following units: Boyz, Nobz, Wildboyz. May carry up to six Grotz in addition to any other units)"
       ],
-      "notes": "Critical Hit Effect: The unit takes a point of damage and moves 3D6cm in a random direction. If it moves into impassable terrain it stops and is destroyed. If it moves into another unit or units, it stops and one of those units suffers a macro-weapon hit"
+      "crit": "The unit takes a point of damage and moves 3D6cm in a random direction. If it moves into impassable terrain it stops and is destroyed. If it moves into another unit or units, it stops and one of those units suffers a macro-weapon hit"
     },
     {
       "name": "Ork Steam Gargant",
@@ -871,7 +871,7 @@
         "Walker",
         "May be armed with either 2 Soopaguns, or 1 Soopagun and 1 Mega-Choppa, or 2 Mega-Choppa."
       ],
-      "notes": "Critical Hit Effect: The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 2D6cm of the model suffer a hit."
+      "crit": "The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 2D6cm of the model suffer a hit."
     }
     ]
   }

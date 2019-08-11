@@ -108,7 +108,6 @@
         "Spore Mines"
       ],
       "specialRules": [
-        ""
       ]
       },
       {
@@ -117,7 +116,6 @@
       "speed": 20,
       "armour": 4,
       "cc": 4,
-
       "weapons": [
         "Burrowclaws"
       ],
@@ -165,7 +163,7 @@
       "name": "Lictor",
       "type": "LV",
       "speed": 15,
-      "armour": "5",
+      "armour": 5,
       "cc": 3,
       "ff": 6,
       "weapons": [
@@ -271,7 +269,6 @@
         "Bio-Acid-Venom Pods"
       ],
       "specialRules": [
-
       ]
       },
       {
@@ -285,7 +282,6 @@
         "Bio-Plasmic Cannon"
       ],
       "specialRules": [
-
       ]
       },
       {
@@ -351,7 +347,7 @@
       "specialRules": [
          "Synapse",
          "Fearless",
-        "Reinforced Armour",
+         "Reinforced Armour",
         "Swarm (2)"
       ]
       },
@@ -368,7 +364,7 @@
         "Large Claws"
       ],
       "specialRules": [
-        "Reinforced Armour",
+         "Reinforced Armour",
         "Swarm (2)"
       ]
       },
@@ -400,7 +396,7 @@
       "Large Claws"
     ],
     "specialRules": [
-      "Reinforced Armour",
+        "Reinforced Armour",
       "Tunneler"
   ]
     },
@@ -423,7 +419,7 @@
       "Reinforced Armour",
       "Transport 4 (Gargoyles)"
     ],
-    "notes": "¤Critical Hit Effect¤: The Harridan is destroyed."
+    "crit": "The Harridan is destroyed."
     },
     {
     "name": "Spawn Harridan",
@@ -445,7 +441,7 @@
       "Swarm (2)",
       "Transport 4 (Gargoyles)"
     ],
-    "notes": "¤Critical Hit Effect¤: The Harridan is destroyed."
+    "crit": "The Harridan is destroyed."
     },
     {
     "name": "Barbed Hierodule Prime",
@@ -462,10 +458,9 @@
       "Damage Capacity: 3",
       "Synapse",
       "Fearless",
-      "Reinforced Armour",
-      "Invulnerable Save"
+      "Reinforced Armour"
     ],
-    "notes": "¤Critical Hit Effect¤: The Hierodule Prime is destroyed."
+    "crit": "The Hierodule Prime is destroyed."
     },
     {
     "name": "Barbed Hierodule",
@@ -483,7 +478,7 @@
       "Reinforced Armour"
 
     ],
-    "notes": "¤Critical Hit Effect¤: The Hierodule is destroyed."
+    "crit": "The Hierodule is destroyed."
 
     },
     {
@@ -501,11 +496,10 @@
       "Damage Capacity: 3",
       "Synapse",
       "Fearless",
-      "Reinforced Armour",
-      "Invulnerable Save"
+      "Reinforced Armour"
 
     ],
-    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule Prime is destroyed."
+    "crit": "The Scythed Hierodule Prime is destroyed."
 
 
     },
@@ -523,10 +517,8 @@
     "specialRules": [
       "Damage Capacity: 3",
       "Reinforced Armour"
-
-
     ],
-    "notes": "¤Critical Hit Effect¤: The Scythed Hierodule is destroyed."
+    "crit": "The Scythed Hierodule is destroyed."
 
 
     },
@@ -546,7 +538,7 @@
       "Fearless",
       "Reinforced Armour"
     ],
-    "notes": "¤Critical Hit Effect¤: The Hive Nest is destroyed."
+    "crit": "The Hive Nest is destroyed."
 
 
     },
@@ -565,11 +557,11 @@
     "specialRules": [
       "Damage Capacity: 5",
       "Fearless",
-      "Reinforced Armour",
       "Invulnerable Save",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Reinforced Armour"
     ],
-    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hierophant suffers 1 additional damage 6: The Hierophant is killed."
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hierophant suffers 1 additional damage 6: The Hierophant is killed."
 
 
     },
@@ -590,16 +582,15 @@
       "Damage Capacity: 6",
       "Hive Mind Locus",
       "Synapse",
+      "Regeneration",
       "Fearless",
       "Leader",
       "Commander",
       "Inspiring",
-      "Reinforced Armour",
-      "Thick Rear Armor",
-      "Invulnerable Save (5+)",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Reinforced Armour"
     ],
-    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
 
 
     },
@@ -619,17 +610,16 @@
       "Damage Capacity: 6",
       "Hive Mind Locus",
       "Synapse",
+      "Regeneration",
       "Fearless",
       "Leader",
       "Commander",
       "Inspiring",
       "Swarm (4)",
-      "Reinforced Armour",
-      "Thick Rear Armor",
-      "Invulnerable Save (5+)",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Reinforced Armour"
     ],
-    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
 
 
     },
@@ -652,10 +642,10 @@
       "Fearless",
       "Reinforced Armour",
       "Thick Rear Armour",
-      "Invulnerable Save (5+)",
-      "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide."
+      "Regeneration"
     ],
-    "notes": "¤Critical Hit Effect¤: Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."
 
 
     }

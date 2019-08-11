@@ -1,12 +1,12 @@
 {
   "fraction": "Eldar",
   "army": "Ulthwé",
-  "version": "0.7.1",
-  "release": "2019-04-02",
+  "version": "0.7.3",
+  "release": "2019-04-19",
   "strategy": "Craftworld Ulthwé armies have a Strategy Rating of 4.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
 
-  "specialRules": ["Seers of Ulthwé", "Black Guardians","Avatar (Ulthwé)","May Not Garrison (Ulthwé)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Shield Disruptor", "Webway Portal"],
+  "specialRules": ["Seers of Ulthwé", "Black Guardians","Avatar (Ulthwé)","May not Garrison (Ulthwé)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Webway Portal"],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Ulthwé."
   ],
@@ -40,11 +40,12 @@
         "Cobra",
         "Storm Serpent",
         "Void Spinner",
-        "Revenant Titan",
+        "Fire Gale",
         "Phantom Titan",
         "Warlock Titan"
       ],
         "unitRules": [
+            "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -57,7 +58,7 @@
         "Dragonship"
       ],
         "unitRules": [
-            "God Machine Killer (GMK)"
+        "Shield Disruptor"
       ]
     }
 ],
@@ -86,7 +87,8 @@
             "name": "Black Guardian Warhost",
             "units": "Two Farseer units, six Eldar Guardians",
             "upgrades": [
-              "Transport, Seer Council, Heavy Weapons, Support Weapons, Wraithguards, Wraithlords, Windriders"
+              "Seer Council, Heavy Weapons, Support Weapons, Wraithguards, Wraithlords, Windriders",
+              "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
             ],
             "points": 200
         }
@@ -101,7 +103,7 @@
             "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
             "upgrades": [
               "Exarch",
-              "Transport"
+              "Add three Wave Serpents: 100 points"
             ],
             "points": 250
           },
@@ -114,10 +116,19 @@
           "points": 250
         },
         {
+          "name": "Void Spinner Troupe",
+          "units": "One Void Spinner",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
           "name": "Swords of Vaul Troupe",
           "units": "Five Falcons",
           "upgrades": [
-            "Firestorm"
+              "Replace up to two Falcons with Firestorms: Free",
+              "OR",
+              "Add one Farseer and four Guardians to the formation: 100 points"
           ],
           "points": 250
         },
@@ -133,7 +144,7 @@
           "units": "Three Night Spinners",
           "upgrades": [
           ],
-          "points": 200
+          "points": 175
       },
       {
         "name": "Windrider Troupe",
@@ -180,12 +191,12 @@
           "points": 200
         },
         {
-          "name": "Revenants",
-          "units": "Two Revenant Titans",
+          "name": "Fire Gale Troupe",
+          "units": "Two Fire Gale Knights",
           "upgrades": [
 
           ],
-          "points": 650
+          "points": 300
         },
         {
           "name": "Phantom",
@@ -226,12 +237,7 @@
       {
         "name": "Exarch",
         "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
-        "points": "50 points"
-      },
-      {
-        "name": "Firestorm",
-        "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
+        "points": "25 points"
       },
       {
         "name": "Heavy Weapons",
@@ -242,11 +248,6 @@
         "name": "Support Weapons",
         "description": "Add three Eldar Support Weapon Platforms",
         "points": "50 points"
-      },
-      {
-        "name": "Transport",
-        "description": "Add enough Wave Serpents and/or Falcons to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
-        "points": "50 points each"
       },
       {
         "name": "Vypers",
@@ -265,8 +266,8 @@
     },
     {
       "name": "Wraithlords",
-      "description": "Add three Eldar Wraithlords",
-      "points": "150 points"
+      "description": "Add two Eldar Wraithlords",
+      "points": "100 points"
     }
     ]
   }

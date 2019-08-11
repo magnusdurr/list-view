@@ -1,0 +1,215 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Minervan Tank Legion",
+  "version": "0.5.1",
+  "release": "2019-06-25",
+  "strategy": "Minervan Tank Legion armies have a Strategy Rating of 2.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
+
+  "specialRules": ["Blitzkrieg", "Tank Riders", "Lord Commissar", "Courage, Discipline and Loyalty", "Lance"],
+  "usage": [
+    "The following army list allows you to field an army based on the Minervan Tank Legion Regiment"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Minervan Supreme Commander",
+        "Minervan Commander",
+        "Commissar",
+        "Lord Commissar",
+        "Chimera",
+        "Infantry",
+        "Tank Infantry",
+        "Deathstrike",
+        "Salamander Scout Vehicle",
+        "Medusa",
+        "Griffon",
+        "Hydra",
+        "Leman Russ",
+        "Leman Russ Demolisher",
+        "Leman Russ Vanquisher",
+        "Leman Russ Conqueror",
+        "Leman Russ Punisher",
+        "Leman Russ Destroyer",
+        "Leman Russ Thunderer",
+        "Leman Russ Executioner",
+        "Shadowsword",
+        "Baneblade",
+        "Stormblade",
+        "Stormhammer",
+        "Stormsword"
+      ],
+        "unitRules": [
+          ]
+    },
+
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter",
+        "Marauder Bomber",
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Company Formations",
+      "formations": [
+        {
+          "name": "Leman Russ Company",
+          "units": "One Leman Russ Vanquisher with a Minervan Commander and a Commissar, nine Leman Russ",
+          "extraUnits": [
+            "Replace any number of Leman Russ with Leman Russ Punishers, Leman Russ Executioners or Leman Russ Demolishers: Free",
+            "Add ten units of Tank Infantry to the formation: 150 points",
+            "Supreme Commander",
+            "Lord Commissar",
+            "Flak"
+          ],
+          "points": 575
+        },
+        {
+          "name": "Super-Heavy Tank Company",
+          "units": "Three Baneblades, Stormblades, Stormhammers, Stormswords and/or Shadowswords, one with a Minervan Commander and a Commissar",
+          "extraUnits": [
+              "Add six units of Tank Infantry to the formation: 100 points",
+              "Supreme Commander",
+              "Lord Commissar",
+              "Flak"
+
+          ],
+          "points": 500
+        },
+        {
+          "name": "Artillery Company",
+          "units": "Six Medusa, one with a Minervan Commander and a Commissar.",
+          "extraUnits": [
+            "Flak"
+          ],
+          "points": 350
+        }
+      ]
+    },
+    {
+      "name": "Support Formations",
+      "description": "Up to two Support Formations for each Company.",
+      "formations": [
+          {
+            "name": "Mechanized Infantry Platoon",
+            "units": "Six Infantry and three Chimeras",
+            "extraUnits": [
+            ],
+            "points": 225
+          },
+        {
+          "name": "0–1 Deathstrike Battery",
+          "units": "Two Deathstrikes",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Flak Battery",
+          "units": "Three Hydras",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Salamander Squadron",
+          "units": "Four Salamander Scout Tanks",
+          "extraUnits": [
+              "Add three Griffons: 75 points"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Super-Heavy Tank Platoon",
+          "units": "One Baneblade, Stormhammer, Stormsword or Stormblade",
+          "extraUnits": [
+            "Replace one Baneblade, Stormhammer or Stormblade with a Shadowsword: 25 points"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Minervan Leman Russ Platoon",
+          "units": "One Minervan Commander, six Leman Russ, Leman Russ Punishers, Leman Russ Thunderers, Leman Russ Executioners, Leman Russ Demolishers or Leman Russ Conquerors",
+          "extraUnits": [
+              "Add six units of Tank Infantry to the formation: 100 points",
+            "Flak"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Leman Russ Tank Hunter Squadron",
+          "units": "Three Leman Russ Destroyers",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Imperial Navy Formations",
+      "description": "Up to a fourth of the points available may be spent on Imperial Navy Formations",
+      "formations": [
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+        },
+        {
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
+          "points": 125,
+          "extraUnits": [
+              "Replace with an Emperor Class Battleship for +50 points"
+          ]
+        }
+      ]
+    }
+
+  ],
+  "upgrades": {
+    "title": "Minervan Tank Legion Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
+    "items": [
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Replace one Minervan Commander in the army with a Minervan Supreme Commander",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "0-1 Lord Commissar",
+        "options": [
+          {
+            "description": "Replace the Minervan Supreme Commander's Commissar with a Lord Commissar",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Flak",
+        "options": [
+          {
+            "description": "Add one Hydra",
+            "points": "50 points"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,10 +1,10 @@
 {
   "fraction": "Astra Militarum",
   "army": "Baran Siegemasters",
-  "version": "0.5.2",
-  "release": "2019-04-03",
+  "version": "0.6.3",
+  "release": "2019-06-27",
   "strategy": "Siegemaster armies have a Strategy Rating of 1.",
-  "Initiative": "Sappers have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+.",
+  "Initiative": "All formations have a Initiative Rating of 2+.",
 
   "specialRules": [
       "Baran Regimental HQ",
@@ -30,19 +30,18 @@
         "Snipers",
         "Thudd Gun",
         "Rapier",
-        "Heavy Mortar",
+        "Mole Launcher Squad",
         "Heavy AA Gun",
         "Medusa",
         "Bombard",
         "Deathstrike Silo",
         "Griffon",
-        "Siegehound",
         "Howitzer",
         "Ragnarok Heavy Tank",
         "Siegfried Light Tank",
         "Hades Breaching Drill",
-        "Baran Macharius",
-        "Macharius Medusa",
+        "Macharius",
+        "Macharius Command",
         "Baneblade",
         "Shadowsword",
         "Stormsword"
@@ -64,33 +63,31 @@
 ],
 "sections": [
     {
-      "name": "Baran Company Formations",
+      "name": "Core Company Formations",
       "formations": [
         {
-          "name": "1 Regimental HQ",
-          "units": "One Baran Siegemaster with a Commissar, eleven Siege Infantry",
+          "name": "1 Siegemaster Regimental HQ",
+          "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry",
           "extraUnits": [
               "Rapiers",
               "Thudd Guns",
-              "Trench Support",
-              "Siege Infantry",
+              "Mole Launchers",
               "Snipers",
-              "Siegehound Platoon",
-              "Fortified Positions"
+              "Heavy Tanks",
+              "Fortifications"
           ],
-          "points": 250
+          "points": 275
         },
         {
-          "name": "Siege Infantry Company",
-          "units": "One Baran Commander with a Commissar, eleven Siege Infantry",
+          "name": "Siege Company",
+          "units": "One Baran Commander with a Commissar, nine Siege Infantry",
           "extraUnits": [
               "Rapiers",
               "Thudd Guns",
-              "Trench Support",
-              "Siege Infantry",
+              "Mole Launchers",
               "Snipers",
-              "Siegehound Platoon",
-              "Fortified Positions"
+              "Heavy Tanks",
+              "Fortifications"
           ],
           "points": 200
     }
@@ -98,77 +95,69 @@
 },
     {
       "name": "Baran Support Formations",
-      "description": "Up to two Support Formations for each Company.",
+      "description": "Up to two Support Formations for each Core Company.",
       "formations": [
         {
-          "name": "0–1 Deathstrike Silo",
+          "name": "0–1 Deathstrike Emplacement",
           "units": "One Deathstrike Silo",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Howitzer Battery",
+          "name": "Howitzer Emplacement",
           "units": "Three Howitzers, three Gun Emplacements",
-          "upgrades": [
+          "extraUnits": [
               "Howitzer Company"
           ],
           "points": 175
         },
         {
-          "name": "Siege Artillery",
-          "units": "Three Bombards or three Medusa. Three Gun Emplacements",
-          "upgrades": [
+          "name": "Siege Artillery Emplacement",
+          "units": "Three Bombards and three Gun Emplacements, or four Medusa and four Gun Emplacements",
+          "extraUnits": [
           ],
           "points": 225
         },
         {
-          "name": "Heavy Mortar Battery",
-          "units": "Four Heavy Mortars and four Gun Emplacements",
-          "upgrades": [
+          "name": "Flak Emplacement",
+          "units": "Four Heavy AA Guns, four Gun Emplacements",
+          "extraUnits": [
           ],
           "points": 175
         },
         {
-          "name": "Flak Battery",
-          "units": "Four Heavy AA Guns, four Gun Emplacements",
-          "upgrades": [
+          "name": "Death Rider Platoon",
+          "units": "Six Death Riders",
+          "points": 150
+        },
+        {
+          "name": "Light Tank Squadron",
+          "units": "Four Siegfried Light Tanks",
+          "extraUnits": [
+              "Add three Griffons: 75 points"
           ],
           "points": 150
         },
         {
-          "name": "Death Rider Platoon",
-          "units": "Eight Death Riders",
-          "points": 200
-        },
-        {
-          "name": "Light Tank Platoon",
-          "units": "Six Siegfried Light Tanks",
-          "upgrades": [
-              "Add three Griffons: 75 points"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Heavy Tank Platoon",
+          "name": "Heavy Tank Emplacement",
           "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements",
-          "upgrades": [
+          "extraUnits": [
               "Heavy Tank Company"
           ],
           "points": 350
         },
         {
           "name": "Macharius Company",
-          "units": "Three Baran Macharius, one Commissar",
-          "upgrades": [
-              "Replace up to three Baran Macharius with Macharius Medusa: 25 points each"
+          "units": "One Macharius Command with a Commissar, two Macharius",
+          "extraUnits": [
           ],
-          "points": 275
+          "points": 325
         },
         {
           "name": "Super-Heavy Tank Platoon",
           "units": "One Baneblade or Stormsword",
-          "upgrades": [
+          "extraUnits": [
               "Replace one Baneblade or Stormsword with a Shadowsword: 25 points"
           ],
           "points": 175
@@ -177,10 +166,9 @@
         {
           "name": "Sapper Company",
           "units": "One Baran Commander with a Commissar, seven Sappers, one Hades Breaching Drill",
-          "upgrades": [
-              "Formation may only enter the battlefield by Tunneling"
+          "extraUnits": [
           ],
-          "points": 300
+          "points": 250
         }
       ]
     },
@@ -213,7 +201,7 @@
   ],
   "upgrades": {
     "title": "Baran Siegemaster Upgrades",
-    "description": "Each upgrade may be taken once per formation.",
+    "description": "Each upgrade may be taken once per formation. Max four upgrades per Company",
     "items": [
         {
           "name": "Howitzer Company",
@@ -228,8 +216,17 @@
           "name": "Heavy Tank Company",
           "options": [
             {
-              "description": "Add a Commissar, four Ragnarok Tanks, four Gun Emplacements",
+              "description": "Add a Commissar and two Malcadors or Malcador Annihilators",
               "points": "200 points"
+            }
+          ]
+        },
+        {
+          "name": "Trench Support",
+          "options": [
+            {
+              "description": "Add two or four Trench Support Squads",
+              "points": "50 points for two, 100 points for four"
             }
           ]
         },
@@ -237,43 +234,25 @@
         "name": "Rapiers",
         "options": [
           {
-            "description": "Add six Rapiers",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Thudd Gun",
-        "options": [
-          {
-            "description": "Add six Thudd Guns",
-            "points": "150 points"
-          }
-        ]
-      },
-      {
-        "name": "Trench Support",
-        "options": [
-          {
-            "description": "Add four Trench Support Squads",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
-        "name": "Siege Infantry",
-        "options": [
-          {
-            "description": "Add six Siege Infantry",
+            "description": "Add three Rapiers",
             "points": "50 points"
           }
         ]
       },
       {
-        "name": "Siegehound Platoon",
+        "name": "Thudd Guns",
         "options": [
           {
-            "description": "Add three Siegehounds and three Gun Emplacements",
+            "description": "Add four Thudd Guns",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Mole Launchers",
+        "options": [
+          {
+            "description": "Add four Mole Launcher Squads",
             "points": "100 points"
           }
         ]
@@ -288,22 +267,22 @@
         ]
       },
       {
-        "name": "Fortified Positions",
+        "name": "Heavy Tanks",
+        "options": [
+          {
+            "description": "Add three Ragnarok Heavy Tanks and three Gun Emplacements, or two Malcadors or Malcador Annihilators",
+            "points": "175 points"
+          }
+        ]
+      },
+      {
+        "name": "Fortifications",
         "options": [
           {
             "description": "60cm Razor Wire, 60cm Trenches, three Bunkers",
             "points": "75 points"
           }
         ]
-    },
-    {
-      "name": "Entrenchments",
-      "options": [
-        {
-          "description": "60cm Razor Wire and 60cm Trenches",
-          "points": "50 points"
-        }
-      ]
     }
     ]
   }

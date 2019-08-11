@@ -2,6 +2,12 @@
   {
     "name": "Eldar Forces",
     "specialRules": [
+        {
+              "title": "Heavy Armoured Vehicle (H-AV)",
+              "description": [
+                "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+            ]
+          }
     ],
     "unit": [
     {
@@ -107,10 +113,9 @@
       "speed": 15,
       "armour": 3,
       "cc": 2,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
-        "Wailing Doom",
-        "Court of the Young King"
+        "Wailing Doom"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -119,7 +124,7 @@
         "Invulnerable Save",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Avatar is destroyed. All Eldar formations with a line of sight to the Avatar receive one Blast Marker."
+      "crit": "The Avatar is destroyed. All Eldar formations with a line of sight to the Avatar receive one Blast Marker."
     },
     {
       "name": "Eldar Exarch",
@@ -129,8 +134,6 @@
         "Exarch Close Combat Weapon"
       ],
       "specialRules": [
-        "Invulnerable Save",
-        "Leader",
         "Inspiring"
       ]
     },
@@ -138,7 +141,7 @@
       "name": "Mounted Farseer",
       "type": "INF",
       "speed": 35,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 4,
       "weapons": [
@@ -229,7 +232,7 @@
     {
       "name": "Ghost Walkers",
       "type": "INF",
-      "speed": 35,
+      "speed": 30,
       "armour": 6,
       "cc": 5,
       "ff": 5,
@@ -318,9 +321,9 @@
       "name": "Dark Reapers",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
-      "ff": 3,
+      "ff": 4,
       "weapons": [
         "Reaper Missile Launchers"
       ],
@@ -512,7 +515,7 @@
       "speed": 20,
       "armour": 5,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
         "Scatter Laser",
         "Bright Lance"
@@ -546,7 +549,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Hornet Pulse Laser"
+        "Twin Hornet Pulse Lasers"
       ],
       "specialRules": [
         "Skimmer",
@@ -561,7 +564,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Hornet Pulse Laser"
+        "Twin Hornet Pulse Lasers"
       ],
       "specialRules": [
         "Skimmer",
@@ -755,7 +758,7 @@
     {
       "name": "Lynx",
       "type": "H-AV",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -772,7 +775,7 @@
     {
       "name": "Scorpion",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -786,17 +789,17 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "notes": "Critical Hit Effect: The Scorpion is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Scorpion is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
     },
     {
       "name": "Cobra",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Cobra D-Cannon",
+        "Cobra D-Cannon||FxF",
         "Eldar Missile Launcher",
         "Shuriken Cannon"
       ],
@@ -806,15 +809,15 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "notes": "Critical Hit Effect: The Cobra is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Cobra is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
     },
     {
       "name": "Storm Serpent",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
         "Twin Pulse Lasers",
         "Scatter Laser"
@@ -826,12 +829,12 @@
         "Webway Portal",
         "Skimmer"
       ],
-      "notes": "Critical Hit Effect: The Storm Serpent is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Storm Serpent is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
     },
     {
       "name": "Void Spinner",
       "type": "WE",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -844,7 +847,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "notes": "Critical Hit Effect: The Void Spinner is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Void Spinner is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
     },
     {
       "name": "Revenant Titan",
@@ -864,7 +867,7 @@
         "Jump Pack",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Revenant’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Revenant’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Phantom Titan",
@@ -886,7 +889,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Yme-Loc Phantom Titan",
@@ -908,7 +911,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Fir Iolarion Phantom Titan",
@@ -930,7 +933,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Mymeara Phantom Titan",
@@ -952,7 +955,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Kinshara Phantom Titan",
@@ -974,7 +977,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Warlock Titan",
@@ -998,7 +1001,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "notes": "Critical Hit Effect: The Warlock’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Warlock’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
     }
     ]
   }

@@ -5,9 +5,9 @@
         {
           "title": "Heavy Armoured Vehicle (H-AV)",
           "description": [
-            "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to Critically Hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+            "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
           ]
-        },
+      },
         {
           "title": "Bravery",
           "description": [
@@ -17,7 +17,7 @@
         {
           "title": "Stubborn",
           "description": [
-            "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+        "Any formation where at least one unit has Stubborn are subject to the following rules: Reduce the damage caused by Blast Markers while the formation is broken by one. Reduce the number of extra hits from losing an assault by one."
           ]
         },
         {
@@ -161,7 +161,7 @@
             "Rapid Fire Battle Cannon",
             "Avenger Gatling Cannon",
             "Heavy Stubber|2|",
-            "Twin Icarus Autocannon"
+            "Twin Icarus Autocannons"
           ],
           "specialRules": [
             "Stubborn",
@@ -181,7 +181,7 @@
             "Reaper Chainsword",
             "Thunderstrike Gauntlet",
             "Heavy Stubber",
-            "Twin Icarus Autocannon"
+            "Twin Icarus Autocannons"
           ],
           "specialRules": [
             "Stubborn",
@@ -396,17 +396,17 @@
         "Walker",
         "Ion Shield (4+)"
     ],
-            "notes": "Critical Hit Effect: The Acastus Knight takes 1 additional damage."
+            "crit": "The Acastus Knight takes 1 additional damage."
     },
           {
-          "name": "Acastus Knight-Mechanicum",
+          "name": "Acastus Knight-Asterius",
           "type": "WE",
           "speed": 20,
           "armour": 4,
           "cc": 5,
           "ff": 4,
           "weapons": [
-            "Acastus Conversion Beamer|2|",
+            "Acastus Twin Conversion Beamer|2|FxF",
             "Twin Rad Cleanser"
                 ],
           "specialRules": [
@@ -416,7 +416,7 @@
             "Walker",
             "Ion Shield (3+)"
             ],
-                "notes": "Critical Hit Effect: The Acastus Knight takes 1 additional damage."
+                "crit": "The Acastus Knight takes 1 additional damage."
             },
             {
                 "name": "Knight-Baron",
@@ -467,7 +467,7 @@
                 "weapons": [
                   "Long Cannon",
                   "Multi-Barreled Autocannon|0-1|",
-                  "Twin Lascannon|0-1|"
+                  "Twin Lascannons|0-1|"
                 ],
                 "specialRules": [
                   "Reinforced Armour",
@@ -519,7 +519,7 @@
                 "cc": 5,
                 "ff": 3,
                 "weapons": [
-                  "Demolisher Cannon",
+                  "Demolisher",
                   "Heavy Bolter|2|"
                 ],
                 "specialRules": [

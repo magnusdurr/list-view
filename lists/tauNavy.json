@@ -37,7 +37,7 @@
       ]
     },
     {
-      "name": "Sundshark Bomber",
+      "name": "Sun Shark Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
       "armour": 4,
@@ -47,8 +47,23 @@
         "AC Twin Missile Pods"
       ],
       "specialRules": [
-
       ]
+
+    },
+    {
+      "name": "Tiger Shark Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Ion Cannon",
+        "AC Twin Missile Pods",
+        "AC Seeker Missiles"
+      ],
+      "specialRules": [
+          "Transport"
+      ],
+      "notes": "May transport three Gun Drones"
     },
     {
       "name": "Tiger Shark AX-1-0",

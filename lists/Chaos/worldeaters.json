@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "World Eaters",
-  "version": "1.5",
-  "release": "2019-02-28",
-  "strategy": "World Eaters armies have a Strategy Rating of 4.",
-  "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.6.3",
+  "release": "2019-08-08",
+  "strategy": "World Eater armies have a Strategy Rating of 4.",
+  "Initiative": "All World Eaters Core and Support formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -48,6 +48,7 @@
             "Doomblaster",
             "Hellfire Cannon",
             "Forgefiend",
+            "Heldrake",
             "Slaughterfiend",
             "Daemonic Assault Engine",
             "Greater Brass Scorpion",
@@ -58,7 +59,8 @@
         "unitRules": [
           "Daemon Engine (x)",
           "God Machine",
-          "Split Fire"
+          "Split Fire",
+          "Regeneration"
         ]
     },
     {
@@ -75,13 +77,10 @@
   {
     "from": "chaosnavy.json",
     "units": [
-        "Heldrake Interceptor",
-        "Baledrake Fighter-Bomber",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
   ],
   "unitRules": [
-      "God Machine Killer (GMK)"
 
   ]
   }
@@ -126,7 +125,7 @@
               "Mutilators",
               "Dreadnoughts"
           ],
-          "points": 375
+          "points": 400
       },
       {
         "name": "Juggernaut Riders",
@@ -185,13 +184,12 @@
       "units": "Six Daemonic Assault Engines",
       "upgrades": [
       ],
-      "points": 275
+      "points": 300
   },
   {
     "name": "Doomblasters",
     "units": "Four Doomblasters",
     "upgrades": [
-        "Forgefiends"
     ],
     "points": 225
     },
@@ -199,12 +197,18 @@
       "name": "Hell Cannons",
       "units": "Four Hell Cannons",
       "upgrades": [
-          "Forgefiends"
       ],
       "points": 225
-      }
-    ]
   },
+      {
+        "name": "Forgefiends",
+        "units": "Three Forgefiends",
+        "upgrades": [
+        ],
+        "points": 225
+        }
+      ]
+    },
         {
       "name": "Major Daemon Engine and Chaos Navy Formations",
       "description": "Up to a third of the points available may be spent on these formations",
@@ -215,14 +219,14 @@
           "upgrades": [
             "Add one Greater Brass Scorpion for 175 points"
           ],
-          "points": 225
+          "points": 250
             },
           {
             "name": "Lord of Battles",
             "units": "One Lord of Battles",
             "upgrades": [
             ],
-            "points": 375
+            "points": 400
           },
           {
             "name": "0-1 Tower of Skulls",
@@ -232,16 +236,10 @@
             "points": 700
           },
         {
-          "name": "Heldrake Wing",
-          "units": "Two Heldrake Interceptors",
-          "points": 200
+          "name": "Heldrakes",
+          "units": "Two Heldrakes",
+          "points": 225
         },
-        {
-          "name": "Baledrake Wing",
-          "units": "Two Baledrake Fighter-Bombers",
-          "points": 200
-        },
-
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",

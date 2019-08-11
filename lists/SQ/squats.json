@@ -1,13 +1,13 @@
 {
   "fraction": "Squats",
   "army": "Wodan Stronghold",
-  "version": "1.0",
-  "release": "2019-03-11",
-  "strategy": "Squat Stronghold armies have a Strategy Rating of 3.",
-  "Initiative": "Squat War Engine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.6.0",
+  "release": "2019-05-21",
+  "strategy": "Squat armies have a Strategy Rating of 2.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-      "Stubborn",
+      "Indomitable",
       "Spirit of the Ancients",
       "Shield Disruptor",
       "Support Craft",
@@ -20,31 +20,33 @@
     {
       "from": "SQ.json",
       "units": [
-        "Wodan Warlord",
-        "Living Ancestor",
-        "Squat Lord",
+        "Squat Grand Warlord",
+        "Squat Warlord",
+        "Squat Living Ancestor",
+        "Squat Tech-Priest",
         "Squat Warriors",
-        "Wodan Berzerkers",
+        "Squat Berserkers",
         "Squat Bikers",
-        "Wodan Hearthguard",
-        "Thunderers",
-        "Rapier",
-        "Thudd Gun",
-        "Wodan Guildmaster",
+        "Squat Hearthguard",
+        "Squat Thunderers",
+        "Squat Mole Mortar",
+        "Squat Rapier",
+        "Squat Thudd Gun",
+        "Squat Guildmaster Trike",
         "Squat Trike",
-        "Thunderfire",
+        "Squat Thunderfire",
         "Squat Rhino",
         "Squat Land Raider",
-        "Iron Eagle",
-        "Gyrokopter",
-        "Squat Mole",
-        "Squat Hellebore",
-        "Goliath Mega Cannon",
-        "Overlord",
+        "Squat Iron Eagle Gunship",
+        "Squat Steel Hawk Gyrokopter",
+        "Squat Termite",
+        "Squat Hellbore",
+        "Squat Goliath Mega Cannon",
+        "Squat Overlord Dirigible",
         "Squat Leviathan",
-        "Colossus",
-        "Cyclops",
-        "Land Train"
+        "Squat Colossus",
+        "Squat Cyclops",
+        "Squat Land Train"
       ],
         "unitRules": [
 
@@ -57,273 +59,233 @@
           "Conqueror Robot",
           "Vultarax Robot"
         ],
-      "unitRules": ["Machine Spirit"]
+              "unitRules": ["Machine Spirit", "Ponderous"]
     }
 ],
 "sections": [
     {
-      "name": "Company Formations",
+      "name": "Wodan Stronghold Core Formations",
       "formations": [
         {
-          "name": "0–1 Regimental HQ",
-          "units": "One Supreme Commander unit, twelve Infantry units and seven Chimera",
-          "upgrades": [
+          "name": "Warriors",
+          "units": "One Squat Warlord and eight Squat Warriors",
+          "extraUnits": [
+              "Grand Warlord",
+              "Thunderers",
+              "Rapiers",
+              "Transport"
+
           ],
-          "points": 550
-        },
-        {
-          "name": "Mechanized Infantry Company",
-          "units": "One Commander unit, twelve Infantry units and seven Chimera",
-          "upgrades": [
-          ],
-          "points": 450
-        },
-        {
-          "name": "Infantry Company",
-          "units": "One Commander unit and twelve Infantry units",
-          "upgrades": [
-          ],
-          "points": 225
-        },
-        {
-          "name": "Tank Company",
-          "units": "Nine Leman Russ Tanks and One Vanquisher",
-          "upgrades": [
-          ],
-          "points": 650
-        },
-        {
-          "name": "Super-Heavy Tank Company",
-          "units": "Three Baneblades or Shadowswords in any combination",
-          "points": 500
-        },
-        {
-          "name": "Artillery Company",
-          "units": "Six Basilisk or six Manticore and six Gun Emplacements.",
-          "upgrades": [
-            "*Only the Flak Upgrade may be added to a Artillery Company."
-          ],
-          "points": 450
+          "points": 200
         }
       ]
     },
     {
-      "name": "Support Formations",
-      "description": "up to two Support Formations for each Core Formation.",
+      "name": "Wodan Stronghold Support Formations",
+      "description": "up to two Stronghold Support Formations for each Stronghold Core Formation.",
       "formations": [
+          {
+            "name": "Berserkers",
+            "units": "One Squat Warlord and six Squat Berserkers",
+            "extraUnits": [
+                "Grand Warlord",
+                "Hearthguards",
+                "Transport"
+            ],
+            "points": 150
+        },
         {
-          "name": "0–1 Deathstrike Battery",
-          "units": "Two Deathstrikes",
-          "upgrades": [
-            "May add Gun Emplacements for +25 points"
+          "name": "Bikers",
+          "units": "Six Squat Bikers",
+          "extraUnits": [
+              "Add one Squat Guildmaster Trike: 25 points",
+              "Replace up to three Squat Bikers with Squat Trikes: Free"
           ],
           "points": 200
         },
         {
-          "name": "Artillery Battery",
-          "units": "Three Basilisks or Manticores",
-          "upgrades": [
-            "May add Gun Emplacements for +25 points"
+          "name": "Gyrokopters",
+          "units": "Four Squat Steel Hawk Gyrokopters",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Dirigible",
+          "units": "One Squat Overlord Dirigible",
+          "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Bombard Battery",
-          "units": "Three Bombards",
-          "upgrades": [
-            "May add Gun Emplacements for +25 points"
+          "name": "Thunderers",
+          "units": "Four Squat Thunderers",
+          "extraUnits": [
+            "Rapiers",
+            "Transport"
           ],
-          "points": 225
+          "points": 175
         },
         {
-          "name": "Flak Battery",
-          "units": "Three Hydras",
-          "upgrades": [
-            "May add Gun Emplacements for +25 points"
+          "name": "Light Artillery Battery",
+          "units": "Five Squat Mole Mortars",
+          "extraUnits": [
+              "Replace five Squat Mole Mortars with five Squat Thudd Guns: Free",
+              "Rapiers"
           ],
-          "points": 150
+          "points": 200
         },
         {
-          "name": "Rough Rider Platoon",
-          "units": "Six Rough Riders",
-          "points": 150
-        },
-        {
-          "name": "Sentinel Squadron",
-          "units": "Four Sentinels",
-          "upgrades": [
+          "name": "Vultarax Maniple",
+          "units": "One Squat Steel Hawk Gyrokopter and five Vultarax Robots",
+          "extraUnits": [
 
           ],
-          "points": 100
+          "points": 200
         },
         {
-          "name": "Super-Heavy Tank Platoon",
-          "units": "One Baneblade, Shadowsword, Stormsword or Stormblade",
+          "name": "Conqueror Maniple",
+          "units": "One Squat Tech-Priest, five Conqueror Robots",
           "points": 200
         },
 
         {
-          "name": "Vulture Squadron",
-          "units": "Four Vultures",
-          "points": 300
-        },
-        {
-          "name": "Tempestus Scions",
-          "units": "Eight Tempestus Scions and one Tempestor",
-          "points": 200,
-          "upgrades": [
-              "Add four Taurox OR Add four Valkyries +150 points"
-          ]
+          "name": "Thunderfire Battery",
+          "units": "Three Squat Thunderfires, three Gun Emplacements",
+          "points": 175
         }
       ]
     },
     {
-      "name": "Imperial Titans",
-      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
+      "name": "Wodan Stronghold War Engines and Flyers",
+      "description": "Up to a third of the points available may be spent on Wodan Stronghold War Engines and Flyers",
       "formations": [
         {
-          "name": "Warhound Pack",
-          "units": "Two Warhounds",
-          "upgrades": [
-            "Warhound pack gains the 'Independent' special rule for +50 points."
+          "name": "Goliath Battery",
+          "units": "Two Squat Goliath Mega Cannons",
+          "extraUnits": [
           ],
-          "points": 500
+          "points": 275
         },
         {
-            "name": "Reaver",
-            "units": "One Reaver Titan",
-            "upgrades": [
-            ],
-            "points": 600
-        }
-      ]
-    },
-    {
-      "name": "Steel Legion Aircraft, Spacecraft",
-      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
-      "formations": [
-        {
-          "name": "Thunderbolt Squadron",
-          "units": "Two Thunderbolt Fighters",
-          "points": 150
-        },
-        {
-          "name": "Marauder Squadron",
-          "units": "Two Marauder Bombers",
+          "name": "Hellbore",
+          "units": "One Hellbore",
+          "extraUnits": [
+                "Living Ancestor"
+          ],
           "points": 225
         },
         {
-          "name": "0–1 Orbital Support",
-          "units": "One Lunar Class Cruiser",
-          "points": 150,
-          "upgrades": [
-              "Replace with an Emperor Class Battleship for +50 points"
-          ]
+            "name": "Leviathan",
+            "units": "One Squat Leviathan",
+            "extraUnits": [
+                "Living Ancestor"
+            ],
+            "points": 350
+        },
+        {
+            "name": "Colossus",
+            "units": "One Squat Colossus",
+            "extraUnits": [
+                "Living Ancestor"
+            ],
+            "points": 475
+        },
+        {
+            "name": "Cyclops",
+            "units": "One Squat Cyclops",
+            "extraUnits": [
+                "Living Ancestor"
+            ],
+            "points": 475
+        },
+        {
+            "name": "Land Train",
+            "units": "One Squat Land Train and between two and four Battle Cars",
+            "extraUnits": [
+                "Dragon Battle Car: 75 points each",
+                "Siege Mortar Battle Car: 75 points each",
+                "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
+                "0-1 Bomb Battle Car: 125 points",
+                "Living Ancestor"
+            ],
+            "points": 200
+        },
+        {
+            "name": "Iron Eagle Squadron",
+            "units": "Two Squat Iron Eagle Gunships",
+            "extraUnits": [
+            ],
+            "points": 175
         }
       ]
     }
 
 
-
-
-
-
-
-
-
-
   ],
   "upgrades": {
-    "title": "Steel Legion Upgrades",
-    "description": "Each upgrade may be taken once per formation with the exception of valkyries and vendetta upgrades.",
+    "title": "Wodan Stronghold Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
-        "name": "Fire Support Platoon*",
+        "name": "Grand Warlord",
         "options": [
           {
-            "description": "Add four Fire Support Squad units",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Flak",
-        "options": [
-          {
-            "description": "Add one Hydra",
+            "description": "Replace the Squat Warlord with a Squat Grand Warlord",
             "points": "50 points"
           }
         ]
       },
       {
-        "name": "Griffon Battery",
+        "name": "Hearthguards",
         "options": [
           {
-            "description": "Add three Griffons",
+            "description": "Replace up to three Squat Berserkers with Squat Hearthguards",
+            "points": "15 points each"
+          }
+        ]
+      },
+      {
+        "name": "Thunderers",
+        "options": [
+          {
+            "description": "Replace up to four Squat Warriors with Squat Thunderers",
+            "points": "15 points each"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "description": "Choose one of the following options:",
+        "options": [
+          {
+            "description": "Add enough Squat Rhinos and/or Squat Land Raiders to transport the entire formation with no space left over",
+            "points": [
+              "10 points for each Squat Rhino",
+              "50 points for each Squat Land Raider"
+            ]
+          },
+          {
+            "description": "Add enough Squat Termites to transport the entire formation with no space left over. The formation must enter the game by Tunneling",
+            "points": "20 points each"
+        }
+        ]
+      },
+      {
+        "name": "Rapiers",
+        "options": [
+          {
+            "description": "Add three Squat Rapiers",
             "points": "50 points"
           }
         ]
       },
       {
-        "name": "Hellhound Squadron",
+        "name": "Living Ancestor",
         "options": [
           {
-            "description": "Add three Hellhounds",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Infantry Platoon*",
-        "options": [
-          {
-            "description": "Add six infantry units",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Ogryns*",
-        "options": [
-          {
-            "description": "Add two Ogruns",
+            "description": "Add one Living Ancestor to the formation.",
             "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Snipers*",
-        "options": [
-          {
-            "description": "Add up to two Snipers",
-            "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Tank Squadron",
-        "options": [
-          {
-            "description": "Add three Leman Russ or Leman Russ Demolishers",
-            "points": "175 points"
-          }
-        ]
-      },
-      {
-        "name": "Lord Commissar",
-        "options": [
-          {
-            "description": "Replace a Commissar with a Lord Commissar.",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "",
-        "options": [
-          {
-            "description": "* These upgrades may add Chimeras. All infantry units in the formation must be transported in Chimeras and the minimum chimeras are to be taken.",
-            "points": "+25 points each"
           }
         ]
       }

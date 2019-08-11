@@ -2,7 +2,6 @@
   {
     "name": "Tau Forces",
     "specialRules": [
-
     ],
     "unit": [
     {
@@ -22,7 +21,7 @@
       "name": "Shas'el",
       "type": "CH",
       "weapons": [
-          "Experimental Weapons"
+          "n/a"
       ],
       "specialRules": [
         "Coordinated Fire",
@@ -291,12 +290,12 @@
        "Smart Missile System",
        "Seeker Missiles",
        "Ion Cannon|0-1|",
-       "Twin Fusion Cannon|0-1|",
+       "Twin Fusion Cannons|0-1|",
        "Railgun|0-1|"
       ],
       "specialRules": [
         "Skimmer",
-        "Armed with either a Railgun, Ion Cannon or Twin Fusion Cannon."
+        "Armed with either a Railgun, Ion Cannon or Twin Fusion Cannons."
       ]
     },
     {
@@ -427,7 +426,7 @@
         "Walker",
         "Armed with either a Heavy Rail Cannon, a Nexus Missile System or a Pulse Ordinance Multi Driver"
       ],
-      "notes": "Critical Hit Effect: The Supremacy Suit is destroyed."
+      "crit": "The Supremacy Suit is destroyed."
     },
     {
       "name": "Manta",
@@ -453,7 +452,7 @@
         "Tau Deflector Shield",
         "Transport (up to twenty: Fire Warriors, Pathfinders, Stealth, Gun Drones, Crisis, Broadsides, Kroot, Kroot Master Shaper, Kroot Hounds and Krootox. Crisis units take up two slots each. In addition may carry four vehicles of the following types: Devilfish, Hammerhead, Skyray, Piranha or Tetra. Three Tetras may be carried in each vehicle slot)."
       ],
-      "notes": "Critical Hit Effect: The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Further critical hits cause an additional point of damage."
+      "crit": "The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Further critical hits cause an additional point of damage."
     }
     ]
   }

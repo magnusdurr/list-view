@@ -40,14 +40,14 @@
       "from": "IG.json",
       "units": [
         "PDF Commander",
-        "PDF Infantry",
+        "PDF Conscripts",
         "Thudd Gun",
         "Rapier",
         "Snipers",
         "Heavy AA Gun",
         "Howitzer",
         "Rough Riders",
-        "Centaur"
+        "PDF Land Transporter"
     ],
         "unitRules": [
       ]
@@ -120,7 +120,7 @@
       "formations": [
         {
           "name": "Planetary Defense Company",
-          "units": "One PDF Commander, nine PDF Infantry",
+          "units": "One PDF Commander, eleven PDF Conscripts",
           "upgrades": [
               "Thudd Guns", "Rapiers", "Snipers", "Entrenchments"
           ],
@@ -147,14 +147,13 @@
         ],
         "points": 150
     },
-      {
-        "name": "Light Mechanized",
-        "units": "Three PDF Infantry, three Centaurs",
-        "upgrades": [
-            "Thudd Guns or Rapiers"
-        ],
-        "points": 100
-      }
+    {
+            "name": "Motorized PDF Platoon",
+            "units": "Six PDF Conscripts, three PDF Land Transporters",
+            "upgrades": [
+            ],
+            "points": 150
+        }
       ]
   },
 

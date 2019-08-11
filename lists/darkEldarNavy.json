@@ -2,30 +2,24 @@
   {
     "name": "Dark Eldar Navy",
     "specialRules": [
-      {
-        "title": "",
-        "description": [
-          "Template"
-        ]
-      }
+
     ],
     "unit": [
     {
-      "name": "Razorwing Fighter",
+      "name": "Razorwing Interceptor",
       "type": "AC",
       "speed": "Fighter",
       "armour": 4,
       "weapons": [
         "AC Twin Dark Lances",
-        "AC Moonscythe Missiles",
-        "AC Splinter Cannon"
+        "AC Twin Splinter Cannons"
       ],
       "specialRules": [
 
       ]
     },
     {
-      "name": "Voidraven Bomber",
+      "name": "Voidraven Interdictor",
       "type": "AC",
       "speed": "Fighter-Bomber",
       "armour": 4,
@@ -41,7 +35,7 @@
       "name": "Slavebringer Assault Boat",
       "type": "AC/WE",
       "speed": "Bomber",
-      "armour": 4,
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -49,36 +43,17 @@
         "AC Turreted Splinter Cannon"
       ],
       "specialRules": [
-        "Damage Capacity: 2",
+        "Damage Capacity 2",
         "Shadowfields 1",
-        "Planetfall",
-        "Transport (May carry up to eight infantry units).",
-        "Critical Hit Effect: The Slavebringer and all on board are destroyed."
-
-      ]
-    },
-    {
-      "name": "Executioner Assault Ship",
-      "type": "AC/WE",
-      "speed": "Bomber",
-      "armour": 5,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "AC Heavy Phantom Lance",
-        "AC Twin Dark Lances|2|",
-        "AC Disintegrator Array"
-      ],
-      "specialRules": [
-        "Damage Capacity: 4",
-        "Shadowfields 1",
-        "Planetfall",
         "Reinforced Armour",
-        "Fearless",
-        "Transport: may carry up to twelve infantry units.",
-        "Critical Hit Effect: The Exercutioner crashes to the ground and is destroyed along with all on board."
-      ]
+        "Planetfall",
+        "Transport"
+
+    ],
+    "notes": "May carry up to eight Infantry units.",
+    "crit": "The Slavebringer and all units on board are destroyed."
     },
+
     {
       "name": "Torture Class Cruiser",
       "type": "SC",
@@ -91,10 +66,10 @@
               }
             ]
         },
-        "Pin Point|2|"
+        "Pin Point"
       ],
       "specialRules": [
-        "Transport (may carry up to one Executioner Assault Ship and two Slavebringer Assault Boats; or up to four Slavebringer Assault Boats, plus the troops carried in them."
+        "Transport (may carry up to one Executioner Landing Module and two Slavebringer Assault Boats; or up to four Slavebringer Assault Boats, plus the troops carried in them."
       ]
     }
     ]

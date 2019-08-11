@@ -2,12 +2,7 @@
   {
     "name": "Chaos Navy",
     "specialRules": [
-      {
-        "title": "God Machine Killer (GMK)",
-        "description": [
-          "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
-        ]
-    }
+
     ],
     "unit": [
     {
@@ -22,19 +17,7 @@
 
       ]
     },
-    {
-      "name": "Heldrake Interceptor",
-      "type": "AC",
-      "speed": "Fighter",
-      "armour": 6,
-      "weapons": [
-        "AC Hades Autocannon||FxF",
-        "AC Piston-Driven Claws"
-      ],
-      "specialRules": [
-          "Invulnerable Save"
-      ]
-    },
+
     {
       "name": "Hell Talon Fighter-Bomber",
       "type": "AC",
@@ -42,26 +25,14 @@
       "armour": 5,
       "weapons": [
         "AC Havoc Launcher||FxF",
-        "AC Twin Lascannon",
+        "AC Twin Lascannons",
         "AC Incendiary Bombs||FxF"
       ],
       "specialRules": [
 
       ]
     },
-    {
-      "name": "Baledrake Fighter-Bomber",
-      "type": "AC",
-      "speed": "Fighter-Bomber",
-      "armour": 5,
-      "weapons": [
-        "AC Baleflamer||FxF",
-        "AC Piston-Driven Claws"
-      ],
-      "specialRules": [
-          "Invulnerable Save"
-      ]
-    },
+
     {
       "name": "Harbringer Bomber",
       "type": "AC/WE",
@@ -77,7 +48,7 @@
           "Damage Capacity 4",
           "Reinforced Armour"
       ],
-    "notes": "Critical Hit Effect: The Harbringer Bomber is destroyed"
+    "crit": "The Harbringer Bomber is destroyed"
     },
     {
       "name": "Blightbringer Bomber",
@@ -95,7 +66,7 @@
           "Invulnerable Save",
           "Reinforced Armour"
       ],
-    "notes": "Critical Hit Effect: The Blightbringer Bomber is destroyed"
+    "crit": "The Blightbringer Bomber is destroyed"
     },
     {
       "name": "Devastation Class Cruiser",

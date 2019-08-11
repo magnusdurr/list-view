@@ -1,25 +1,28 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "0.7.3",
-  "release": "2019-04-06",
+  "version": "1.0.0",
+  "release": "2019-07-28",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
-  "Initiative": "The Redemption, Penitence and Flagellant formations, and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+",
-  "specialRules": ["Act of Faith", "Stubborn"],
+  "Initiative": "Ordo Hereticus and the Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
+  "specialRules": ["Act of Faith"],
   "usage": [
-    "The following army list allows you to field an army based on the Adepta Sororitas from the Ordo Hereticus"
+    "The following army list allows you to field an army based on the Adepta Sororitas, Chamber Militant of the Ordo Hereticus"
   ],
   "units": [
     {
       "from": "IQ.json",
       "units": [
         "Canoness",
-        "Inquisitor",
         "Palatine",
+        "Ministorum Priest",
         "Living Saint",
+        "Ordo Hereticus Inquisitor Lord",
+        "Ordo Hereticus Inquisitor",
         "Arco-Flagellants",
         "Battle Sisters",
         "Dominion Sisters",
+        "Celestian Sisters",
         "Retributor Sisters",
         "Redemptionists",
         "Seraphim Sisters",
@@ -29,10 +32,10 @@
         "Exorcist Sanctorum",
         "Sororitas Rhino",
         "Sororitas Hunter",
-        "Repressor",
-        "Immolator",
+        "Sororitas Repressor",
+        "Sororitas Immolator",
         "Emperor's Chapel",
-        "IQ Land Transporter"
+        "Ordo Hereticus Land Transporter"
       ],
       "unitRules": [
           "Void Shields"
@@ -41,11 +44,10 @@
     {
       "from": "IG.json",
       "units": [
-        "Tempestus Scions",
+        "Storm Troopers",
         "Chimera",
         "Hellhound",
-        "Valkyrie",
-        "Vendetta"
+        "Valkyrie"
       ],
       "unitRules": [
 
@@ -55,11 +57,10 @@
       "from": "ImperialNavy.json",
       "units": [
         "Lightning Interceptor",
-        "Marauder Colossus",
+        "Marauder Bomber",
         "Lunar Class Cruiser"
       ],
       "unitRules": [
-          "God Machine Killer (GMK)"
       ]
     }
   ],
@@ -73,19 +74,35 @@
           "units": "One Palatine, eight Battle Sisters",
           "extraUnits": [
             "Exorcists",
-            "Superior",
+            "Ordo Hereticus Superior",
             "Hunter",
             "Transport"
           ],
-          "points": 275
+          "points": 225
 
       }
     ]
     },
     {
       "name": "Adepta Sororita Support Detachment",
-      "description": "Two Support Detachments may be fielded per Core Detachment",
+      "description": "Two Adepta Sororitas Support Detachments may be fielded per Adepta Sororitas Core Detachment",
       "formations": [
+          {
+            "name": "Exorcism",
+            "units": "Four Exorcist Prioris",
+            "extraUnits": [
+              "Replace four Exorcist Prioris with four Exorcist Sanctorum: Free",
+              "Hunter"
+            ],
+            "points": 250
+        },
+        {
+          "name": "Immolation",
+          "units": "Three Celestian Sisters, three Sororitas Immolators",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
         {
           "name": "Seraphim",
           "units": "One Palatine, six Seraphim Sisters",
@@ -94,80 +111,67 @@
           ],
           "points": 225
         },
+
         {
           "name": "Retribution",
-          "units": "Four Retributor Sisters",
+          "units": "Four Retributor Sisters, two Sororitas Repressors",
           "extraUnits": [
-              "Transport"
           ],
-          "points": 200
+          "points": 175
       },
+      {
+        "name": "Repentance",
+        "units": "Four Repentia Sisters, two Sororitas Repressors",
+        "extraUnits": [
+        ],
+        "points": 150
+    },
         {
           "name": "Dominion",
           "units": "Four Dominion Sisters",
           "extraUnits": [
             "Transport"
           ],
-          "points": 175
-        },
-        {
-          "name": "Repentance",
-          "units": "Four Repentia Sisters",
-          "extraUnits": [
-            "Add one Priest: 25 points",
-            "Transport"
-          ],
           "points": 150
-        },
-        {
-          "name": "Exorcism",
-          "units": "Four Exorcist Prioris",
-          "extraUnits": [
-            "Replace four Exorcist Prioris with four Exorcist Sanctorum: Free",
-            "Hunter"
-          ],
-          "points": 250
         }
+
       ]
     },
     {
-      "name": "Inquisitorial Support Formations",
-      "description": "One Inquisitorial Support Formations may be fielded per Core Detachment",
+      "name": "Ordo Hereticus Formations",
+      "description": "Two Ordo Hereticus formations may be fielded per Adepta Sororitas Core Detachment",
       "formations": [
-        {
-          "name": "Redemption",
-          "units": "Eight Redemptionists",
-          "extraUnits": [
-            "Add four IQ Land Transporters: 50 points",
-            "Add two Penitent Engines: 50 points",
-            "Add one Priest: 25 points"
-          ],
-          "points": 150
+          {
+            "name": "0-1 Ordo Hereticus Inquisitor Retinue",
+            "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
+            "extraUnits": [
+            "Ordo Hereticus Superior",
+            "Replace three Chimeras with three Valkyries: 25 points",
+            "Add up to three Hellhounds: 25 points each"
+            ],
+            "points": 250
         },
         {
           "name": "Penitence",
-          "units": "Four Penitent Engines",
+          "units": "Five Penitent Engines",
           "extraUnits": [
-            "Add two Penitent Engines: 50 points"
-          ],
-          "points": 175
+              ],
+          "points": 200
       },
         {
           "name": "Flagellant",
           "units": "Six Arco-Flagellants",
           "extraUnits": [
-            "Add two Penitent Engines: 50 points"
+            "Add up to two Penitent Engines: 35 points each"
           ],
-          "points": 225
+          "points": 200
         },
-        {
-          "name": "0-1 Ordo Hereticus Inquisitor",
-          "units": "One Inquisitor, seven Tempestus Scions, four Chimeras",
-          "extraUnits": [
-          "Replace four Chimeras with three Valkyries and two Vendettas: 100 points",
-          "Add two Hellhounds: 50 points"
-          ],
-          "points": 300
+      {
+        "name": "Redemption",
+        "units": "One Ministorum Priest, eight Redemptionists, four Ordo Hereticus Land Transporters",
+        "extraUnits": [
+        ],
+        "points": 200
       }
       ]
     },
@@ -181,14 +185,14 @@
           "points": 150
         },
         {
-          "name": "Marauder Colossus Squadron",
-          "units": "Two Marauder Colossus",
-          "points": 275
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
         },
         {
           "name": "0–1 Orbital Support",
           "units": "One Lunar Class Cruiser",
-          "points": 150
+          "points": 125
         }
       ]
     }
@@ -198,28 +202,37 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Superior",
+        "name": "Ordo Hereticus Superior (0-1 per army)",
         "description": "Choose one of the following",
         "options": [
           {
-            "description": "Replace the Palatine with a Cannoness (1 per army)",
+            "description": "Replace the Palatine with a Cannoness (Mission and Seraphim Detachments only)",
             "points": "75 points"
           },
           {
-            "description": "Replace the Palatine and its unit with a Living Saint (1 per army)",
+            "description": "Replace the Ordo Hereticus Inquisitor with an Ordo Hereticus Inquisitor Lord (Ordo Hereticus Inquisitor Formation only)",
             "points": "50 points"
           }
         ]
       },
       {
+        "name": "Living Saint (0-1 per army)",
+        "description": "Replace the Palatine and its unit with a Living Saint",
+        "points": "50 points"
+      },
+      {
         "name": "Exorcists",
-        "description": "Add two Exorcist Prioris",
-        "points": "75 points"
+        "description": "Replace two units of Battle Sisters with two Exorcist Prioris",
+        "points": [
+          "50 points"
+        ]
       },
       {
         "name": "Hunter",
         "description": "Add one Sororitas Hunter",
-        "points": "75 points"
+        "points": [
+          "50 points"
+        ]
       },
       {
         "name": "Transport",
@@ -230,20 +243,20 @@
               "points": ""
             },
             {
-              "description": "Add any number of Emperor's Chapels (Mission and Retribution only)",
-              "points": "100 points each"
+              "description": "Add one Emperor's Chapel (Mission only)",
+              "points": "150 points"
             },
             {
-              "description": "Add any number of Immolators",
-              "points": "25 points each"
+              "description": "Add any number of Sororitas Immolators",
+              "points": "40 points each"
             },
           {
-            "description": "Add any number of Repressors",
-            "points": "25 points each"
+            "description": "Add any number of Sororitas Repressors",
+            "points": "20 points each"
           },
           {
             "description": "Add any number of Sororitas Rhinos",
-            "points": "Free"
+            "points": "10 points each"
           }
         ]
       }

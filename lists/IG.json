@@ -5,7 +5,7 @@
         {
           "title": "Heavy Armoured Vehicle (H-AV)",
           "description": [
-            "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to Critically Hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+            "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
           ]
         }
     ],
@@ -103,6 +103,33 @@
       ]
     },
     {
+      "name": "Minervan Supreme Commander",
+      "type": "CH",
+      "weapons": [
+          "n/a"
+      ],
+      "specialRules": [
+        "Blitzkrieg",
+        "Supreme Commander"
+      ]
+    },
+    {
+      "name": "Valhallan Supreme Commander",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Power Weapon",
+        "Mortar",
+        "Flamer"
+      ],
+      "specialRules": [
+        "Supreme Commander"
+      ]
+    },
+    {
       "name": "Elysian Commander",
       "type": "INF",
       "speed": 15,
@@ -124,11 +151,11 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
         "Heavy Flamer"
       ],
       "specialRules": [
         "Commander",
+        "Leader",
         "Inspiring",
         "Fearless"
       ]
@@ -155,7 +182,6 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
         "Twin Heavy Stubber"
       ],
       "specialRules": [
@@ -163,7 +189,21 @@
         "Walker (also works against enemy fortifications)"
       ]
     },
-
+    {
+      "name": "Valhallan Commander",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+          "Mortar",
+          "Flamer"
+      ],
+      "specialRules": [
+        "Commander"
+      ]
+    },
     {
       "name": "DKoK Commander",
       "type": "INF",
@@ -172,12 +212,22 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
         "Twin Heavy Stubber"
       ],
       "specialRules": [
         "Commander",
           "Walker (also works against enemy fortifications)"
+      ]
+    },
+    {
+      "name": "Minervan Commander",
+      "type": "CH",
+      "weapons": [
+          "n/a"
+      ],
+      "specialRules": [
+        "Blitzkrieg",
+        "Commander"
       ]
     },
     {
@@ -226,30 +276,30 @@
       "name": "Commissar",
       "type": "CH",
       "weapons": [
-        "Power Weapon",
-        "Master-Crafted Weapons"
+        "Power Weapon|0-1",
+        "Master-Crafted Gun|0-1"
       ],
       "specialRules": [
         "Leader",
         "Inspiring",
         "Fearless"
     ],
-        "notes":  "Has Master-Crafted Weapons if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
+        "notes":  "Has Master-Crafted Gun if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
     },
     {
       "name": "Lord Commissar",
       "type": "CH",
       "weapons": [
-        "Power Weapon",
-        "Master-Crafted Weapons"
+        "Power Weapon|0-1",
+        "Master-Crafted Gun|0-1"
       ],
       "specialRules": [
+        "Lord Commissar",
         "Leader",
         "Inspiring"
       ],
-          "notes":  "Has Master-Crafted Weapons if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
+          "notes":  "Has Master-Crafted Gun if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
     },
-
     {
       "name": "Infantry",
       "type": "INF",
@@ -261,11 +311,40 @@
         "Lasguns"
       ],
       "specialRules": [
-        "One in every two units has an Autocannon"
+        "One in every two units (rounding up) has an Autocannon"
       ]
     },
     {
-      "name": "PDF Infantry",
+      "name": "Tank Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Lasguns"
+      ],
+      "specialRules": [
+        "Expendable",
+        "Tank Riders"
+      ]
+    },
+    {
+      "name": "Valhallan Infantry",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Mortar",
+        "Flamer",
+        "Lasguns"
+      ],
+      "specialRules": [
+        "One in every two units (rounding up) has a Mortar"
+      ]
+    },
+    {
+      "name": "PDF Conscripts",
       "type": "INF",
       "speed": 15,
       "cc": 6,
@@ -316,7 +395,7 @@
       ]
     },
     {
-      "name": "White Shield Infantry",
+      "name": "Whiteshields",
       "type": "INF",
       "speed": 15,
       "cc": 6,
@@ -342,7 +421,7 @@
       ]
     },
     {
-      "name": "Catachan Mortar Squad",
+      "name": "Catachan Mortar Team",
       "type": "INF",
       "speed": 15,
       "cc": 5,
@@ -356,14 +435,14 @@
     },
 
     {
-      "name": "Catachan Missile Team",
+      "name": "Catachan Flakk Team",
       "type": "INF",
       "speed": 15,
       "cc": 5,
       "ff": 5,
       "weapons": [
         "Jungle Knives",
-        "Catachan Missile Launcher"
+        "Flakk Missile Launcher|2|"
       ],
       "specialRules": [
       ]
@@ -380,9 +459,8 @@
         "Ripper Guns"
       ],
       "specialRules": [
-        "Counts as 2 infantry for the purpose of being transported"
-
-      ]
+      ],
+      "notes": "Counts as two units of INF for the purpose of being transported."
     },
     {
       "name": "Thudd Gun",
@@ -420,7 +498,7 @@
         "Hunting Lances"
       ],
       "specialRules": [
-        "Infiltrator",
+        "Infiltrators",
         "Mounted",
         "Walker"
       ]
@@ -437,7 +515,7 @@
         "Hunting Lances"
       ],
       "specialRules": [
-        "Infiltrator",
+        "Infiltrators",
         "Mounted",
         "Walker",
         "Scout"
@@ -473,12 +551,25 @@
       ]
     },
     {
-      "name": "Deathworld Veterans",
+      "name": "Mole Launcher Squad",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Mole Launchers"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Death World Veterans",
       "type": "INF",
       "speed": 15,
       "armour": 5,
       "cc": 4,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
         "Heavy Flamer",
         "Jungle Knives"
@@ -488,7 +579,7 @@
       ]
     },
     {
-      "name": "Death World Devils",
+      "name": "Catachan Devils",
       "type": "INF",
       "speed": 15,
       "armour": 5,
@@ -514,6 +605,7 @@
         "Plasma Gun"
       ],
       "specialRules": [
+       "Scout"
       ]
     },
     {
@@ -527,6 +619,7 @@
         "Heavy Flamer"
       ],
       "specialRules": [
+          "Scout",
           "Walker (also works against enemy fortifications)"
       ]
     },
@@ -534,7 +627,7 @@
       "name": "Sappers",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
+      "armour": 6,
       "cc": 5,
       "ff": 5,
       "weapons": [
@@ -542,11 +635,12 @@
         "Melta Bombs"
       ],
       "specialRules": [
+          "Scout",
           "Walker (also works against enemy fortifications)"
       ]
     },
     {
-      "name": "Tempestus Scions",
+      "name": "Storm Troopers",
       "type": "INF",
       "speed": 15,
       "armour": 5,
@@ -579,22 +673,21 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Heavy Stubber|2|",
-        "Flamer"
+        "Heavy Flamer|2|"
       ],
       "specialRules": [
 
       ]
     },
     {
-      "name": "Death World Sentinel",
+      "name": "Catachan Sentinel",
       "type": "LV",
       "speed": 20,
       "armour": 6,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Inferno Cannon"
+        "Heavy Flamer"
       ],
       "specialRules": [
         "Scout",
@@ -658,7 +751,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Heavy Flamer"
+        "Twin Heavy Flamers"
       ],
       "specialRules": [
         "Scout",
@@ -689,7 +782,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Lascannon"
+        "Twin Lascannons"
       ],
       "specialRules": [
         "Walker"
@@ -712,7 +805,7 @@
     {
       "name": "Siegfried Light Tank",
       "type": "AV",
-      "speed": 25,
+      "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -721,6 +814,20 @@
       ],
       "specialRules": [
         "Scout"
+      ]
+    },
+    {
+      "name": "Salamander Scout Tank",
+      "type": "AV",
+      "speed": 30,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Autocannon", "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Scout"
       ]
     },
     {
@@ -769,16 +876,17 @@
     {
       "name": "Storm Chimera",
       "type": "AV",
-      "speed": 30,
+      "speed": 25,
       "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Autocannon", "Heavy Bolter"
+        "Autocannon", "Heavy Flamer"
       ],
       "specialRules": [
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted."
     },
     {
       "name": "Chimera",
@@ -791,8 +899,24 @@
         "Multilaser", "Heavy Bolter"
       ],
       "specialRules": [
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted."
+    },
+    {
+      "name": "PDF Land Transporter",
+      "type": "LV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy Stubber"
+      ],
+      "specialRules": [
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted."
     },
     {
       "name": "Taurox",
@@ -802,12 +926,13 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Assault Cannon"
+        "Twin Assault Cannons"
       ],
       "specialRules": [
         "Walker",
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted"
     },
     {
       "name": "Deathstrike",
@@ -834,7 +959,7 @@
           "Damage Capacity 2",
           "Reinforced Armour"
       ],
-      "notes": "Critical Hit: The Deathstrike Silo is destroyed. All units within 5cm takes a hit on 5+"
+      "crit": "The Deathstrike Silo is destroyed. All units within 10cm takes a hit."
     },
     {
       "name": "Griffon",
@@ -848,6 +973,20 @@
       ],
       "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Valhallan Griffon",
+      "type": "AV",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Mortar", "Heavy Flamer"
+      ],
+      "specialRules": [
+          "Walker"
       ]
     },
     {
@@ -868,7 +1007,7 @@
     {
       "name": "Earthshaker Gun",
       "type": "LV",
-      "speed": "Immobile",
+      "speed": 5,
       "armour": 6,
       "cc": 6,
       "ff": 6,
@@ -910,7 +1049,7 @@
     {
       "name": "Medusa Gun",
       "type": "LV",
-      "speed": "Immobile",
+      "speed": 5,
       "cc": 6,
       "ff": 6,
       "weapons": [
@@ -923,7 +1062,7 @@
     {
       "name": "Heavy AA Gun",
       "type": "LV",
-      "speed": "Immobile",
+      "speed": 5,
       "cc": 6,
       "ff": 6,
       "weapons": [
@@ -949,7 +1088,7 @@
     {
       "name": "Howitzer",
       "type": "LV",
-      "speed": "Immobile",
+      "speed": 5,
       "cc": 6,
       "ff": 6,
       "weapons": [
@@ -957,6 +1096,19 @@
       ],
       "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Manticore",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Rocket Launcher", "Heavy Bolter"
+      ],
+      "specialRules": [
       ]
     },
     {
@@ -973,20 +1125,7 @@
 
       ]
     },
-    {
-      "name": "Siegehound",
-      "type": "AV",
-      "speed": 15,
-      "armour": 4,
-      "cc": 6,
-      "ff": 3,
-      "weapons": [
-        "Inferno Cannon", "Heavy Bolter"
-      ],
-      "specialRules": [
-          "Walker"
-      ]
-    },
+
     {
       "name": "Hydra",
       "type": "AV",
@@ -995,7 +1134,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Hydra Autocannon|2", "Heavy Bolter"
+        "Twin Hydra Autocannons|2", "Heavy Bolter"
       ],
       "specialRules": [
 
@@ -1003,18 +1142,13 @@
     },
     {
       "name": "Hades Breaching Drill",
-      "type": "AV",
-      "speed": 15,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
+      "type": "Spec",
       "weapons": [
-        "Melta Cutter"
+        "n/a"
       ],
       "specialRules": [
-          "Walker (also works against enemy fortifications)",
-          "Provides its formation with the Tunnelers special rule"
-      ]
+      ],
+      			"notes": "When resolving tunnelers, first place the Hades Breaching Drill at the designated co-ordinates. Then place the remainder of the formation within 5cm of it, or within 5cm of another unit from the same formation that has already been placed, so long as all units are placed within 15cm of the Hades Breaching Drill. Finally, remove the Hades Breaching Drill from the board."
     },
     {
       "name": "Ragnarok Heavy Tank",
@@ -1053,7 +1187,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Lascannon", "Heavy Bolter"
+        "Twin Lascannons", "Heavy Bolter"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1067,7 +1201,21 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Autocannon", "Heavy Flamer", "Heavy Bolter|2|"
+        "Twin Autocannons", "Heavy Flamer", "Heavy Bolter|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Leman Russ Executioner",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Plasma Destroyer", "Lascannon", "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1081,7 +1229,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Demolisher Cannon"
+        "Demolisher"
       ],
       "specialRules": [
         "Reinforced Armour",
@@ -1110,10 +1258,25 @@
       "cc": 6,
       "ff": 3,
       "weapons": [
-        "Demolisher Cannon", "Lascannon", "Plasma Cannon|2|"
+        "Demolisher", "Lascannon", "Plasma Cannon|2|"
       ],
       "specialRules": [
         "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Leman Russ Destroyer",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Laser Destroyer"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Walker"
       ]
     },
     {
@@ -1144,19 +1307,7 @@
         "Reinforced Armour"
       ]
     },
-    {
-      "name": "Manticore",
-      "type": "AV",
-      "speed": 20,
-      "armour": 6,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Rocket Launcher", "Heavy Bolter"
-      ],
-      "specialRules": [
-      ]
-    },
+
     {
       "name": "Valkyrie",
       "type": "AV",
@@ -1173,7 +1324,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry 2 infantry units without jump pack or mounted"
+    "notes": "May carry two units of INF without Jump pack or Mounted."
     },
     {
       "name": "Sky Talon",
@@ -1200,7 +1351,7 @@
       "ff": 5,
       "weapons": [
         "Hellstrike Missiles|2|",
-        "Twin Autocannon",
+        "Twin Autocannons",
         "Heavy Bolter"
       ],
       "specialRules": [
@@ -1223,7 +1374,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry 1 infantry unit without jump pack or mounted"
+    "notes": "May carry one unit of INF without Jump Pack or Mounted."
     },
     {
       "name": "Malcador",
@@ -1248,10 +1399,10 @@
       "speed": 15,
       "armour": 4,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
-        "Twin Lascannon",
-        "Demolisher Cannon",
+        "Twin Lascannons",
+        "Demolisher",
         "Heavy Stubber|2|"
       ],
       "specialRules": [
@@ -1260,40 +1411,38 @@
       ]
     },
     {
-      "name": "Praetor Armoured Assault Launcher",
+      "name": "Praetor Assault Launcher",
       "type": "H-AV",
-      "speed": 20,
-      "armour": 5,
+      "speed": 25,
+      "armour": 3,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Heavy Bolter",
-        "Praetor launcher"
+        "Heavy Bolter|2",
+        "Praetor Heavy Assault Launcher"
       ],
       "specialRules": [
-        "Reinforced Armour"
       ]
     },
     {
-      "name": "Crassus Amoured Assault Transport",
+      "name": "Crassus Assault Transport",
       "type": "H-AV",
-      "speed": 20,
-      "armour": 5,
+      "speed": 25,
+      "armour": 3,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Heavy Bolter",
-        "Storm Bolters"
+        "Heavy Bolter|4"
       ],
       "specialRules": [
-        "Reinforced Armour",
-        "Transport: May transport five infantry units without Jump Pack or Mounted"
-      ]
+        "Transport"
+    ],
+    "notes": "May carry six units of INF without Jump Packs or Mounted"
     },
     {
       "name": "Minotaur",
       "type": "WE",
-      "speed": 15,
+      "speed": 10,
       "armour": 4,
       "cc": 6,
       "ff": 6,
@@ -1304,7 +1453,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Minotaur is destroyed"
+      "crit": "The Minotaur is destroyed."
     },
     {
       "name": "Macharius",
@@ -1314,15 +1463,15 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Battle Cannon|2|",
-        "Twin Heavy Stubber",
-        "Heavy Bolter|2|"
+        "Twin Battle Cannons",
+        "Twin Heavy Stubber||FxF",
+        "Heavy Bolter|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Macharius Command",
@@ -1332,16 +1481,17 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Vanquisher Cannon|0-2|",
-        "Vulcan Mega-Bolter|0-1|",
-        "Twin Heavy Stubber",
-        "Heavy Bolter|2|"
+        "Twin Vanquisher Cannon|0-1|",
+        "Vulcan Mega-Bolter|0-1|FxF",
+        "Twin Heavy Stubber||FxF",
+        "Heavy Bolter|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "Must be equipped with either two Vanquisher Cannons or one Vulcan Mega-Bolter. ¤Critical Hit Effect¤: The Macharius is destroyed"
+      "notes": "Must be equipped with either a Twin Vanquisher Cannon or a Vulcan Mega-Bolter.",
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Baran Macharius",
@@ -1351,14 +1501,14 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Ragnarok Battle Cannon|2|",
-        "Twin Heavy Stubber|3|"
+        "Twin Ragnarok Battle Cannon",
+        "Twin Heavy Stubber|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Macharius Medusa",
@@ -1375,7 +1525,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Macharius is destroyed"
+      "crit": "The Macharius is destroyed."
     },
     {
       "name": "Gorgon",
@@ -1383,39 +1533,18 @@
       "speed": 20,
       "armour": 4,
       "cc": 6,
-      "ff": 5,
+      "ff": 6,
       "weapons": [
-        "Gorgon Mortars",
-        "Twin Heavy Stubber|2|"
+        "Twin Heavy Stubber|4|"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
-        "Transport (May carry 10 infantry units without jump pack or mounted)"
+        "Walker",
+        "Transport"
       ],
-      "notes": "Critical Hit Effect: The Gorgon takes one additional damage, and D3 transported units takes a hit."
-    },
-    {
-      "name": "Leviathan Mobile Command Center",
-      "type": "WE",
-      "speed": 15,
-      "armour": 4,
-      "cc": 6,
-      "ff": 4,
-      "weapons": [
-        "Leviathan Doomsday Cannon",
-        "Heavy Bolter AA Turret|4|",
-        "Battle Cannon|3|Left",
-        "Battle Cannon|3|Right"
-      ],
-      "specialRules": [
-        "Damage Capacity: 5",
-        "Void Shields: 4",
-        "Reinforced Armour",
-        "Fearless",
-        "Transport: Transport 10 infantry units without jumppack or mounted. Up to four units may shoot and FF from the fighting platform."
-      ],
-      "notes": "Critical Hit Effect: The Leviathan takes one additional damage, and D3 transported units takes a hit"
+      "notes": "May carry 10 infantry units without Jump Pack or Mounted.",
+      "crit": "The Gorgon is Immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon.."
     },
     {
       "name": "Baneblade",
@@ -1427,15 +1556,35 @@
       "weapons": [
         "Baneblade Cannon",
         "Autocannon",
-        "Demolisher",
-        "Lascannon|2",
-        "Twin Heavy Bolter|3"
+        "Demolisher||FxF",
+        "Lascannon|2|FxF",
+        "Twin Heavy Bolters|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "crit": "The unit is destroyed."
+    },
+    {
+      "name": "Hellhammer",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Hellhammer Cannon",
+        "Autocannon",
+        "Demolisher||FxF",
+        "Twin Heavy Flamers|2|",
+        "Twin Heavy Bolters|3|FxF"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour"
+      ],
+      "crit": "The unit is destroyed."
     },
     {
       "name": "Stormlord",
@@ -1445,16 +1594,17 @@
       "cc": 6,
       "ff": 3,
       "weapons": [
-        "Vulcan Mega-Bolter",
-        "Heavy Flamer|2|",
-        "Twin Heavy Bolter|3|"
+        "Vulcan Mega-Bolter||FxF",
+        "2x Heavy Flamer",
+        "Twin Heavy Bolters|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
-        "Transport: May transport eight infantry units without jumppack or mounted, four may fire from the firing deck and FF in assaults"
+        "Transport"
       ],
-      "notes": "Critical Hit Effect: The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit"
+      "notes": "May transport nine infantry units without Jump Pack or Mounted, three may fire from the firing deck and participate with FF during assaults.",
+      "crit": "The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit."
     },
     {
       "name": "Shadowsword",
@@ -1464,14 +1614,14 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Volcano Cannon",
-        "Twin Heavy Bolter|2"
+        "Volcano Cannon||FxF",
+        "Twin Heavy Bolters|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "crit": "The unit is destroyed."
     },
     {
       "name": "Stormblade",
@@ -1481,16 +1631,15 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Plasma Blastgun",
-        "Heavy Bolter",
-        "Lascannon|2|",
-        "Twin Heavy Bolter|2|"
+        "Plasma Blastgun||FxF",
+        "Lascannon|3|FxF",
+        "Twin Heavy Bolters|2|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
+      "crit": "The unit is destroyed."
     },
     {
       "name": "Stormsword",
@@ -1500,17 +1649,82 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Siege Cannon",
-        "Heavy Bolter",
-        "Heavy Flamer|2|",
-        "Twin Heavy Bolter|2|"
+        "Siege Cannon||FxF",
+        "Twin Heavy Bolters|4|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "notes": "Critical Hit Effect: The unit is destroyed."
-    }
+      "crit": "The unit is destroyed."
+  },
+      {
+        "name": "Stormhammer",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Twin Battle Cannons||",
+          "Twin Battle Cannons||FxF",
+          "Demolisher||FxF",
+          "Twin Heavy Bolters|4|FxF",
+          "Twin Heavy Flamers|2|"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour"
+        ],
+        "crit": "The unit is destroyed."
+    },
+  {
+      "name": "Hellbore",
+      "type": "WE",
+      "speed": "Immobile",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+      "Storm Bolter Array"
+      ],
+      "specialRules": [
+          "Damage Capacity 4",
+          "Fearless",
+          "Tunneler",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+      ],
+      "notes": "May transport twelve infantry units without Jump Packs or Mounted. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
+      "crit": "The Hellbore is destroyed."
+
+  },
+      {
+        "name": "Imperial Leviathan",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Imperial Doomsday Cannon||FxF",
+          "Battle Cannon",
+          "Twin Lascannons|3|Left",
+          "Twin Lascannons|3|Right",
+          "Storm Bolter Array"
+        ],
+        "specialRules": [
+          "Damage Capacity: 6",
+          "Void Shields: 4",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Fearless",
+          "Transport"
+        ],
+        "notes": "May transport ten infantry units without jumppack or mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
+        "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
+      }
     ]
   }
 ]

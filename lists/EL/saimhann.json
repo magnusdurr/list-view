@@ -1,12 +1,12 @@
 {
   "fraction": "Eldar",
   "army": "Saim-Hann",
-  "version": "0.9.1",
-  "release": "2019-02-22",
+  "version": "0.9.2",
+  "release": "2019-04-18",
   "strategy": "Craftworld Saim-Hann armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Avatar (Saim-Hann)","May Not Garrison (Saim-Hann)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Webway Portal","Independent Twins"],
+  "specialRules": ["Avatar (Saim-Hann)","May not Garrison (Saim-Hann)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Webway Portal","Independent Twins"],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Saim-Hann."
   ],
@@ -49,7 +49,9 @@
       "units": [
         "Nightwing Interceptor",
         "Phoenix Bomber",
-        "Vampire Hunter"
+        "Vampire Hunter",
+        "Wraithship",
+        "Dragonship"
       ],
         "unitRules": [
       ]
@@ -89,7 +91,7 @@
           "points": 225
         },
         {
-          "name": "Shining Spears Warhost",
+          "name": "Shining Spear Warhost",
           "units": "Eight Shining Spears",
           "upgrades": [
             "Add up to two Exarchs: 50 points each"
@@ -108,7 +110,14 @@
           "upgrades": [
             "Exarch"
           ],
-          "points": 400
+          "points": 350
+        },
+        {
+          "name": "Mounted Guardian Troupe",
+          "units": "Three Wave Serpents, six Guardians",
+          "upgrades": [
+          ],
+          "points": 250
         },
         {
           "name": "Engines of Vaul Troupe",
@@ -122,12 +131,14 @@
           "name": "Swords of Vaul Troupe",
           "units": "Five Falcons",
           "upgrades": [
-            "Firestorm"
+              "Replace up to two Falcons with Firestorms: Free",
+              "OR",
+              "Add five Guardians to the formation: 100 points"
           ],
           "points": 250
         },
         {
-          "name": "Fire Prism Troupe ",
+          "name": "Fire Prism Troupe",
           "units": "Three Fire Prisms",
           "upgrades": [
           ],
@@ -135,16 +146,23 @@
         },
         {
           "name": "Night Spinner Troupe",
-          "units": "Four Night Spinners",
+          "units": "Three Night Spinners",
           "upgrades": [
           ],
-          "points": 250
+          "points": 175
+        },
+        {
+          "name": "Void Spinner Troupe",
+          "units": "One Void Spinner",
+          "extraUnits": [
+          ],
+          "points": 300
         },
         {
           "name": "Ranger Troupe",
           "units": "Four Eldar Rangers",
           "upgrades": [
-            "Add up to four Eldar Rangers for 25 points each"
+            "Add up to two Eldar Rangers for 25 points each"
           ],
           "points": 100
         },
@@ -201,7 +219,15 @@
               "Independent Twins"
           ],
           "points": 650
-        }
+      },
+      {
+        "name": "0-1 Spacecraft",
+        "units": "One Wraithship",
+        "extraUnits": [
+          "Replace with Dragonship for +150 Points"
+        ],
+        "points": 150
+      }
       ]
     }
   ],
@@ -211,13 +237,8 @@
     "items": [
       {
         "name": "Exarch",
-        "description": "Add up to one Eldar Exarch to a Mounted Aspect Warrior Troupe",
-        "points": "50 points"
-      },
-      {
-        "name": "Firestorm",
-        "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
+        "description": "Add one Eldar Exarch to a Mounted Aspect Warrior Troupe",
+        "points": "25 points"
       }
     ]
   }

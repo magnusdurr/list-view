@@ -2,12 +2,7 @@
   {
     "name": "Imperial Navy",
     "specialRules": [
-      {
-            "title": "God Machine Killer (GMK)",
-            "description": [
-              "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
-        ]
-      }
+
     ],
     "unit": [
     {
@@ -30,8 +25,8 @@
       "speed": "Fighter",
       "armour": 6,
       "weapons": [
-        "AC Twin Lascannon||FxF",
-        "AC Autocannon"
+        "AC Twin Lascannons||FxF",
+        "AC Twin Heavy Stubber"
       ],
       "specialRules": [
 
@@ -44,7 +39,7 @@
       "armour": 5,
       "weapons": [
         "AC Avenger Bolt Cannon",
-        "AC Twin Lascannon||FxF",
+        "AC Twin Lascannons||FxF",
         "AC Heavy Stubber Turret"
       ],
       "specialRules": [
@@ -57,7 +52,7 @@
       "speed": "Bomber",
       "armour": 4,
       "weapons": [
-        "AC Twin Lascannon||FxF",
+        "AC Twin Lascannons||FxF",
         "AC Bomb Racks",
         "AC Heavy Bolter Turret|2|"
       ],
@@ -71,14 +66,13 @@
       "speed": "Bomber",
       "armour": 4,
       "weapons": [
-        "AC Twin Lascannon",
-        "AC Colossus Bomb",
+        "AC Twin Lascannons||FxF",
+        "AC Colossus Bomb||",
         "AC Heavy Bolter Turret|2|"
       ],
       "specialRules": [
 
-      ],
-      "notes": "The Colossus Bomb being 'Slow' means that the Marauder Colossus must perform a Stand Down order to be able to use it again"
+      ]
     },
 
     {

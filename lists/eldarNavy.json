@@ -3,9 +3,9 @@
     "name": "Craftworld Eldar Navy",
     "specialRules": [
         {
-              "title": "God Machine Killer (GMK)",
+              "title": "Shield Disruptor",
               "description": [
-                "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
+                          "Each Shield Disruptor hit knocks down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Ion Shields. "
           ]
         }
     ],
@@ -39,7 +39,7 @@
       "name": "Phoenix Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
-      "armour": 4,
+      "armour": 3,
       "weapons": [
         "AC Twin Shuriken Cannons",
         "AC Pulse Laser",
@@ -73,13 +73,15 @@
         "AC Scatter Laser"
       ],
       "specialRules": [
+        "Damage Capacity: 2",
         "Planetfall",
         "Reinforced Armour",
         "Holofield (5+)",
-        "Transport (May carry up to eight of the following: Farseer, Guardians, Eldar Rangers, Pathfinder, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders, Swooping Hawks. Wraithguards and Wraithblades take two spaces each).",
-        "Critical Hit Effect: The Vampire and all on board are destroyed."
+        "Transport (May carry up to eight of the following: Farseer, Guardians, Eldar Rangers, Pathfinder, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders, Swooping Hawks. Wraithguards and Wraithblades take two spaces each)."
 
-      ]
+
+    ],
+    "crit": "The Vampire Raider and all units on board are destroyed."
     },
     {
       "name": "Vampire Hunter",
@@ -92,9 +94,11 @@
         "AC Scatter Laser"
       ],
       "specialRules": [
+        "Damage Capacity: 2",
         "Reinforced Armour",
         "Holofield (5+)"
-      ]
+    ],
+    "crit": "The Vampire Hunter is destroyed."
     },
     {
       "name": "Corsair Vampire Hunter",
@@ -107,11 +111,12 @@
         "AC Scatter Laser"
       ],
       "specialRules": [
+        "Damage Capacity: 2",
         "Reinforced Armour",
         "Holofield (5+)",
-        "Transport: (May carry 4 Ghost Walkers or 4 Wasp Walkers)",
-        "Critical Hit: Vampire Hunter and all transported units are destroyed"
-      ]
+        "Transport: (May carry 4 Ghost Walkers or 4 Wasp Walkers)"
+    ],
+    "crit": "The Corsair Vampire Hunter and all units on board are destroyed."
     },
     {
       "name": "Wraithship",
@@ -128,6 +133,7 @@
         "Pin Point|0-1|"
       ],
       "specialRules": [
+          "Is equipped with either Orbital Bombardment or one Pin Point attack (may be chosen at the start of battle)."
       ]
     },
     {
@@ -145,6 +151,7 @@
         "Pin Point|0-1 2|"
       ],
       "specialRules": [
+          "Is equipped with either Orbital Bombardment or two Pin Point attacks (may be chosen at the start of battle).",
         "Transport (May carry up to 12 Vampires and any units transported within them)"
       ]
     }

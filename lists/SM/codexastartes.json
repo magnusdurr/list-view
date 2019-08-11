@@ -68,7 +68,7 @@
         {
           "name": "Assaults",
           "units": "Four Assaults",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Vindicators"
           ],
@@ -77,7 +77,7 @@
         {
           "name": "Bikes",
           "units": "Five Assault Bikes",
-          "upgrades": [
+          "extraUnits": [
             "Attack Bikes",
             "Commander"
           ],
@@ -86,11 +86,11 @@
         {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander",
             "Dreadnoughts",
-            "Land Raiders",
+            "Land Raider Transport",
             "Razorback",
             "Vindicators"
           ],
@@ -99,10 +99,10 @@
         {
           "name": "Devastators",
           "units": "Four Devastators plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander",
-            "Land Raiders",
+            "Land Raider Transport",
             "Dreadnoughts",
             "Razorback",
             "Vindicators"
@@ -112,7 +112,8 @@
         {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
-          "upgrades": [
+          "extraUnits": [
+            "Add one Land Raider: 75 points",
             "Anti-Air",
             "Commander"
           ],
@@ -121,7 +122,7 @@
         {
           "name": "Predators",
           "units": "Four Predator Annihilator and/or Predator Destructor",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander"
           ],
@@ -130,7 +131,7 @@
         {
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Typhoons"
           ],
@@ -139,7 +140,7 @@
         {
           "name": "Vindicators",
           "units": "Four Vindicators",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander"
           ],
@@ -148,7 +149,7 @@
         {
           "name": "Scouts",
           "units": "Four Scouts plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Razorbacks",
             "Snipers"
@@ -158,7 +159,7 @@
         {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
-          "upgrades": [
+          "extraUnits": [
             "Battle Barge"
           ],
           "points": 200
@@ -166,16 +167,16 @@
         {
           "name": "Terminators",
           "units": "Four Terminators",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
-            "Land Raiders"
+            "Land Raider Transport"
           ],
           "points": 350
         },
         {
           "name": "Whirlwinds",
           "units": "Four Whirlwinds",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Commander"
           ],
@@ -205,14 +206,14 @@
         {
           "name": "Warhound Pack",
           "units": "Two Warhounds",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 500
         },
         {
           "name": "Reaver",
           "units": "One Reaver Titan",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 600
         }
@@ -270,7 +271,7 @@
         ]
       },
       {
-        "name": "Land Raiders",
+        "name": "Land Raider Transport",
         "description": "Add any number of Land Raiders, up to the number required to transport the formation",
         "points": "50 points each"
       },
@@ -281,11 +282,8 @@
       },
       {
         "name": "Snipers",
-        "description": "Give two or four Scouts Sniper",
-        "points": [
-          "25 points for two",
-          "50 points for four"
-        ]
+        "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",
+        "points": "25 points"
       },
       {
         "name": "Typhoons",

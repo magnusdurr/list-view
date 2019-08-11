@@ -1,15 +1,15 @@
 {
   "fraction": "Adeptus Mechanicus",
-  "army": "Titan Legion",
-  "version": "0.7.1",
-  "release": "2019-04-01",
-  "strategy": "Titan Legion armies have a Strategy Rating of 3.",
-  "Initiative": "Titan Legion formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
+  "army": "Collegia Titanica",
+  "version": "1.0.1",
+  "release": "2019-04-19",
+  "strategy": "Collegia Titanica armies have a Strategy Rating of 3.",
+  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Titan Legions of the Adeptus Mechancius"
+    "The following army list allows you to field an army based on the Collegia Titanica of the Adeptus Mechancius"
   ],
   "units": [
       {
@@ -52,7 +52,7 @@
     ],
         "unitRules": [
          "Machine Spirit",
-         "God Machine Killer (GMK)"
+         "Ponderous"
       ]
     },
     {
@@ -81,15 +81,13 @@
           "name": "0-1 Emperor Titan",
           "units": "One Imperator Titan or Warmonger Titan",
           "upgrades": [
-            "Legate",
-            "Veteran Princeps",
-            "Servitors"
+            "Legate"
           ],
-          "points": 900
+          "points": 950
     },
     {
       "name": "Warlord Titan",
-      "units": "One Warlord Titan (any configuration)",
+      "units": "One Warlord Titan (Deathbringer or Nemesis Class)",
       "upgrades": [
         "Legate",
         "Veteran Princeps"
@@ -98,7 +96,7 @@
   },
   {
       "name": "Reaver Titan",
-      "units": "One Reaver Titan (any configuration)",
+      "units": "One Reaver Titan (Hun or Goth Class)",
       "upgrades": [
         "Veteran Princeps"
       ],
@@ -107,8 +105,8 @@
 ]
 },
   {
-      "name": "Scout Titan Formations",
-      "description": "Up to two Scout Titan formations for each Battle Titan formation",
+      "name": "Support Formations",
+      "description": "Up to three Support formations for each Battle Titan formation",
       "formations": [
         {
           "name": "Warhound Pack",
@@ -118,12 +116,20 @@
               "Independent"
           ],
           "points": 500
-        }
+      },
+      {
+        "name": "Questoris Banner",
+        "units": "Two Questoris Knights (any combination of configurations)",
+        "upgrades": [
+            "Add one Questoris Knight of any configuration: 100 points"
+        ],
+        "points": 250
+    }
       ]
     },
     {
       "name": "Adeptus Mechanicus Allies",
-      "description": "Up to 40% of the points available may be spent on Adeptus Mechanicus Allies.",
+      "description": "Up to one third of the points available may be spent on Adeptus Mechanicus Allies.",
       "formations": [
         {
           "name": "Skitarii Maniple",
@@ -142,19 +148,13 @@
           "points": 175
         },
         {
-          "name": "Minoris Maniple",
-          "units": "Two Ordinatus Minoris",
+          "name": "Minori",
+          "units": "One Ordinatus Minoris",
           "upgrades": [
+              "Add one Ordinatus Minoris for 125 points"
           ],
-          "points": 300
+          "points": 175
         },
-        {
-          "name": "Questoris Banner",
-          "units": "Two Questoris Knights (any combination of configurations)",
-          "upgrades": [
-          ],
-          "points": 275
-      },
         {
           "name": "0-1 Lysander Fighter for each Warmonger Emperor Titan or Carapace Landing Pad",
           "units": "One Lysander Fighter",
@@ -178,19 +178,15 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
         {
-          "name": "0-1 Supreme Commander",
+          "name": "Commander",
+          "description": "Choose one of the following",
           "options": [
             {
-              "description": "Add one Legate to the formation",
-              "points": "50 points"
-            }
-          ]
-        },
-        {
-          "name": "Veteran Princeps",
-          "options": [
+              "description": "Add one Legate (1 per army)",
+              "points": "Free"
+            },
             {
-              "description": "Add one Veteran Princeps to the formation",
+              "description": "Veteran Princeps",
               "points": "25 points"
             }
           ]

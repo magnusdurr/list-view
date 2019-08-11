@@ -53,7 +53,17 @@
         ]
     },
     {
-      "name": "Aspiring Champion of Chaos Undivided",
+      "name": "Daemonic Icon",
+      "type": "CH",
+      "weapons": [
+      ],
+      "specialRules": [
+          "Daemonic Pact",
+          "Augment Summoning (+1)"
+      ]
+  },
+    {
+      "name": "Aspiring Champion",
       "type": "INF",
       "speed": 15,
       "armour": 4,
@@ -69,6 +79,7 @@
           "Leader"
       ]
   },
+
       {
         "name": "Fallen Commander",
         "type": "INF",
@@ -78,32 +89,16 @@
         "ff": 5,
         "weapons": [
             "Autocannon",
-            "Daemonic Bolt",
-            "Power Weapon"
+            "Daemon Weapon"
         ],
         "specialRules": [
+            "Invulnerable Save",
             "Commander"
         ]
     },
-        {
-          "name": "Daemonic Icon",
-          "type": "INF",
-          "speed": 15,
-          "armour": 6,
-          "cc": 4,
-          "ff": 6,
-          "weapons": [
-              "Autopistols",
-              "Chainswords"
-          ],
-          "specialRules": [
-              "Daemonic Pact",
-              "Augment Summoning (+1D3)",
-              "Invulnerable Save"
-          ]
-      },
+
       {
-        "name": "Daemon Prince of Chaos Undivided",
+        "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -160,7 +155,9 @@
             "Heavy Weapons|2|"
         ],
         "specialRules": [
-            ]
+
+        ],
+        "notes": "Counts as two units of INF for the purpose of being transported."
     },
         {
           "name": "Chaos Spawn",
@@ -172,8 +169,10 @@
               "Horrific Mutations"
           ],
           "specialRules": [
-              "Fearless"
-          ]
+              "Fearless",
+              "Invulnerable Save"
+          ],
+          "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Winged Chaos Spawn",
@@ -201,7 +200,8 @@
             "Claws and Fangs"
         ],
         "specialRules": [
-            ]
+        ],
+              "notes": "May not be transported."
     },
         {
           "name": "Land Transporter",
@@ -215,7 +215,7 @@
           ],
           "specialRules": [
           ],
-                "notes": "May transport two infantry units without Mounted or Jump Packs. Chaos Spawns and Big Mutants takes two space each."
+                "notes": "May transport two units of INF without Mounted or Jump Packs."
       },
       {
         "name": "Technical",
@@ -223,7 +223,7 @@
         "speed": 30,
         "armour": 5,
         "cc": 6,
-        "ff": 6,
+        "ff": 5,
         "weapons": [
             "Twin Heavy Stubber on AA mount"
         ],
@@ -249,7 +249,7 @@
           "Daemonic Focus",
           "Augmented Summoning (+1D3)"
       ],
-                "notes": "Critical Hit Effect: The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
+                "crit": "The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
   },
         {
           "name": "Plague Zombies of Nurgle",
@@ -296,7 +296,7 @@
         {
           "name": "Mutalith Vortex Beast",
           "type": "LV",
-          "speed": 25,
+          "speed": 15,
           "armour": 3,
           "cc": 5,
           "ff": 5,
@@ -306,6 +306,7 @@
           ],
           "specialRules": [
               "Fearless",
+              "Walker",
               "Invulnerable Save",
               "Daemonic Focus",
               "Augment Summoning (+2D3)"

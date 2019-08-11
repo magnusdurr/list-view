@@ -2,37 +2,35 @@
   {
     "name": "Necron Navy",
     "specialRules": [
-      {
-        "title": "",
-        "description": [
-          "Template"
-        ]
-      }
+
     ],
     "unit": [
 
     {
-      "name": "Night Scythe",
-      "type": "AC",
-      "speed": "Fighter",
-      "armour": 4,
+      "name": "Night Scythe Transporter",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": 5,
       "weapons": [
-        "AC Twin Tesla Destructor", "AC Gate Projector Array"
+        "AC Twin Tesla Destructor", "AC Wormhole Portal"
       ],
       "specialRules": [
-        "Portal"
+        "Damage Capacity: 1",
+        "Fearless",
+        "Regeneration",
+        "[*]Portal. May only be used to enter the battlefield, not to move into the reserves. May only be used while landed."
       ]
     },
     {
-      "name": "Doom Scythe",
+      "name": "Doom Scythe Fighter-Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
-      "armour": 4,
+      "armour": 6,
       "weapons": [
         "AC Twin Tesla Destructor", "AC Death Ray"
       ],
       "specialRules": [
-
+          "Regeneration"
       ]
     },
     {
@@ -41,14 +39,14 @@
       "speed": "Bomber",
       "armour": 5,
       "weapons": [
-        "AC Twin Tesla Destructor", "AC Death Spheres"
+        "AC Twin Tesla Destructor", "AC Death Spheres||FxF"
       ],
       "specialRules": [
-        "Reinforced Armour"
+        "Regeneration"
       ]
     },
     {
-      "name": "Scythe Class Harvester",
+      "name": "Cairn Class Tomb Ship",
       "type": "SC",
       "weapons": [
           {
@@ -60,7 +58,11 @@
             ]
         },
         "Pin Point|2|"
-      ]
+    ],
+    "specialRules": [
+        "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
+    ]
+
     }
 
     ]

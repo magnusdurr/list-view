@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.8.1",
-  "release": "2019-03-27",
-  "strategy": "Slaves to Darkness armies have a Strategy Rating of 2.",
-  "Initiative": "Alpha Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.8.6",
+  "release": "2019-08-08",
+  "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
+  "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
       "Summoning",
@@ -12,8 +12,7 @@
       "Augment Summoning (+x)",
       "Daemonic Focus",
       "Fickle Masters",
-      "StD Eternal Animosity",
-      "Fortified Positions"
+      "StD Eternal Animosity"
   ],
   "usage": [
     "The following army list allows you to field an army based on a Renegade Imperial Guard regiment with Chaos allies."
@@ -23,13 +22,16 @@
       "from": "chaoscultists.json",
       "units": [
         "Arch Heretic",
-        "Fallen Commander",
         "Daemonic Icon",
-        "Daemon Prince of Chaos Undivided",
+        "Fallen Commander",
+        "Daemon Prince",
+        "Aspiring Champion",
         "Cultists",
         "Mutants",
-        "Chaos Spawn",
-        "Land Transporter"
+        "Ogryns",
+        "Technical",
+        "Land Transporter",
+        "Plague Zombies of Nurgle"
       ],
         "unitRules": [
           ]
@@ -38,12 +40,12 @@
       "from": "IG.json",
       "units": [
         "Infantry",
-        "Ogryns",
-        "Rough Riders",
         "Fire Support Squad",
+        "Rough Riders",
         "Sentinel",
         "Basilisk",
         "Chimera",
+        "Griffon",
         "Hellhound",
         "Hydra",
         "Leman Russ",
@@ -59,11 +61,10 @@
     {
       "from": "CSM.json",
       "units": [
-        "Alpha Legion Marines",
-        "Alpha Legion Rhino"
+        "Chaos Space Marines",
+        "Chaos Rhino"
     ],
     "unitRules": [
-        "Stubborn"
     ]
     },
     {
@@ -78,7 +79,28 @@
       "unitRules": [
     ]
     },
-
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Defiler",
+            "Hellfire Cannon",
+            "Forgefiend",
+            "Hell-Strider",
+            "Subjugator",
+            "Questor",
+            "Plague Tower",
+            "Contagion Engine",
+            "Doomblaster",
+            "Daemonic Assault Engine",
+            "Lord of Battles",
+            "Silver Tower",
+            "Warp Palace"
+        ],
+        "unitRules": [
+            "Void Shields",
+            "Daemon Engine (x)"
+        ]
+    },
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -91,40 +113,37 @@
 ],
 "sections": [
     {
-      "name": "Traitor Guard Formations",
+      "name": "Slaves to Darkness Core Formations",
       "formations": [
         {
-          "name": "Traitor Company",
-          "units": "One Fallen Commander, one Daemonic Icon and eight Infantry units",
+          "name": "Traitor Guard",
+          "units": "One Fallen Commander with a Daemonic Icon, five units of Infantry",
           "upgrades": [
               "All"
           ],
-          "points": 200
-        }
+          "points": 175
+      },
+      {
+        "name": "0-1 Chaos Space Marines",
+        "units": "One Aspiring Champion, five Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
+        "upgrades": [
+            "Supreme Commander"
+        ],
+        "points": 275
+    }
       ]
     },
     {
       "name": "Traitor Support Formations",
-      "description": "Up to one Support Formation for each Traitor Company.",
+      "description": "Up to one Support formation for each Traitor Guard formation.",
       "formations": [
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks",
           "upgrades": [
+              "Flak"
           ],
           "points": 225
-        },
-        {
-          "name": "Flak Battery",
-          "units": "Three Hydras",
-          "upgrades": [
-          ],
-          "points": 150
-        },
-        {
-          "name": "Rough Rider Platoon",
-          "units": "Six Rough Riders",
-          "points": 150
         },
         {
           "name": "Sentinel Squadron",
@@ -135,42 +154,51 @@
           "points": 100
         },
         {
-        "name": "Traitor Super-Heavy Tanks",
-        "units": "Two Baneblades and/or Shadowswords",
-        "points": 350
+          "name": "Rough Rider Platoon",
+          "units": "Six Rough Riders",
+          "upgrades": [
+              "Add one Daemonic Icon for 50 points"
+          ],
+          "points": 150
+        },
+        {
+        "name": "Super-Heavy Platoon",
+        "units": "One Baneblade",
+        "upgrades": [
+            "Replace the Baneblade with a Shadowsword: 25 points"
+        ],
+        "points": 175
       },
 
         {
           "name": "Leman Russ Company",
           "units": "Six Leman Russ and/or Leman Russ Demolishers",
+          "upgrades": [
+              "Flak"
+          ],
           "points": 350
-        }
+      },
+      {
+        "name": "Thunderbolt Squadron",
+        "units": "Two Thunderbolt Fighters",
+        "points": 150
+      },
+      {
+        "name": "Marauder Squadron",
+        "units": "Two Marauder Bombers",
+        "points": 225
+    }
       ]
     },
     {
-      "name": "Chaos Allies and Traitor Aircraft",
-      "description": "Up to a fourth of the points available may be spent on Chaos Allies and Traitor Aircraft",
+      "name": "Lost and the Damned Support Covens",
+      "description": "Up to a third of the points available may be spent on Lost and the Damned Support Covens",
       "formations": [
           {
-            "name": "Dark Mechanicus and Infestation Allies",
-            "units": "One Dark Mechanicus and Infestation formation from the Lost and the Damned army list with no upgrades. All choices considered to be 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
+            "name": "Support Covens",
+            "units": "One Support Coven formation from the Lost and the Damned army list with no upgrades. AC formations may not be taken. All other choices are 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
             "points": 0
-          },
-          {
-            "name": "Alpha Legion Advisors",
-            "units": "Four Alpha Legion Marines, two Alpha Legion Rhinos",
-            "points": 175
-          },
-        {
-          "name": "Thunderbolt Squadron",
-          "units": "Two Thunderbolt Fighters",
-          "points": 150
-        },
-        {
-          "name": "Marauder Squadron",
-          "units": "Two Marauder Bombers",
-          "points": 225
-        }
+          }
       ]
   },
   {
@@ -188,7 +216,7 @@
   ],
   "upgrades": {
     "title": "Slaves to Darkness Upgrades",
-    "description": "Each upgrade may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
         {
           "name": "0-1 Supreme Commander",
@@ -197,11 +225,11 @@
               "description": "Choose one of the following:"
             },
             {
-              "description": "Add an Arch Heretic character to a Fallen Commander",
+              "description": "Add an Arch Heretic to the Fallen Commander / Aspiring Champion",
               "points": "50 points"
             },
             {
-              "description": "Replace the Fallen Commander with a Daemon Prince of Chaos Undivided",
+              "description": "Upgrade the Fallen Commander / Aspiring Champion to a Daemon Prince",
               "points": "100 points"
             }
           ]
@@ -210,7 +238,16 @@
         "name": "Fire Support Platoon",
         "options": [
           {
-            "description": "Add up to four Fire Support Squad units",
+            "description": "Add up to two Fire Support Squads",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Ogryns",
+        "options": [
+          {
+            "description": "Add up to two Ogryns",
             "points": "25 points each"
           }
         ]
@@ -228,35 +265,17 @@
         "name": "Hellhounds",
         "options": [
           {
-            "description": "Add up to three Hellhounds",
+            "description": "Add up to two Hellhounds",
             "points": "25 points each"
           }
         ]
       },
       {
-        "name": "Mutants",
+        "name": "Griffons",
         "options": [
           {
-            "description": "Add six Mutants or 6 Cultists",
+            "description": "Add three Griffons",
             "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Ogryns",
-        "options": [
-          {
-            "description": "Add two Ogryns",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Chaos Spawn",
-        "options": [
-          {
-            "description": "Add one Chaos Spawn",
-            "points": "35 points"
           }
         ]
       },
@@ -270,14 +289,29 @@
         ]
       },
       {
-        "name": "Entrenchments",
+        "name": "Lost and the Damned",
         "options": [
           {
-            "description": "Add 60cm of Razorwire and 60cm of Trenches (may not be combined with the Transport upgrade)",
-            "points": "50 points"
+            "description": "Add up to six Mutants/Cultists",
+            "points": "10 points each"
           }
         ]
       },
+      {
+        "name": "Technicals",
+        "options": [
+          {
+            "description": "Add up to two Technicals",
+            "points": "20 points each"
+          }
+        ]
+      },
+      {
+        "name": "Chaos Spawn",
+        "description": "Add one Chaos Spawn",
+        "points": "35 points"
+      },
+
       {
         "name": "Transport",
         "options": [

@@ -1,13 +1,14 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Skitarii",
-  "version": "0.7.1",
-  "release": "2019-04-03",
+  "version": "0.7.2",
+  "release": "2019-07-16",
   "strategy": "The Skitarii have a Strategy Rating of 3.",
-  "Initiative": "Titan Legion formations have an Initiative Rating of 1+. All other formations have a Initiative of 2+",
+  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have a Initiative of 2+",
 
   "specialRules": [
-          "Machine Spirit"
+          "Machine Spirit",
+          "Ponderous"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Skitarii of the Adeptus Mechancius"
@@ -23,7 +24,7 @@
         "Skitarii Vanguard",
         "Secutarii",
 
-        "Battle Servitors",
+        "Adsecularis",
         "Praetorians",
         "Kastelan Robot",
         "Conqueror Robot",
@@ -40,7 +41,6 @@
         "Ark Mechanicus Battleship"
       ],
         "unitRules": [
-            "God Machine Killer (GMK)"
       ]
   },
   {
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "name": "Adeptus Mechanicus Navy and Titan Legion Support",
+      "name": "Adeptus Mechanicus Navy and Collegia Titanica Support",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
                 {
@@ -200,7 +200,7 @@
         "options": [
           {
             "description": "Add one AM Gorgon or five Chimedons",
-            "points": ["Gorgon: 75 points", "Chimedons: 175 points"]
+            "points": ["Gorgon: 100 points", "Chimedons: 175 points"]
           }
         ]
       },
@@ -208,7 +208,7 @@
         "name": "Servitors",
         "options": [
           {
-            "description": "Add four Battle Servitors",
+            "description": "Add four Adsecularis",
             "points": "50 points"
           }
         ]

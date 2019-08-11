@@ -9,10 +9,35 @@
     {
       "title": "Machine Spirit",
       "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshall, Sustained Fire and Overwatch actions. In addition, such a formation may only move once instead of twice while being broken, and may only contest objectives."
+        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
       ]
     },
 
+
+    {
+      "title": "Void Shields",
+      "description": [
+          "Each Void Shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Void Shields, nor allocate Blast Markers. Once all of the shields have been knocked down, the unit may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the unit.",
+          "The number of Void Shields each War Engine has is noted on the unit’s datasheet.",
+          "Each time a formation with Void Shields regroups (either by doing a Hold or a Marshal Action) roll one d6 for each Starting Damage Capacity of the unit(s) with Void Shields. For each roll of 6, one of that unit's lost Void Shields is restored.",
+          "In addition, one lost Void Shield is always restored in the End Phase."
+      ]
+    },
+    {
+      "title": "God Machine",
+      "description": [
+        "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
+        "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
+        "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+        "Units with the God Machine special rule are themselves immune to this effect."
+      ]
+    },
+    {
+      "title": "Split Fire",
+      "description": [
+        "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire or Advance Action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon. If Split Fire is performed, the WE gets no +1 to-hit modifier if performing a Sustain Fire, and suffers a -1 to hit if doing an Advance."
+      ]
+    },
 
     {
       "title": "Adeptus Custodians",
@@ -33,18 +58,23 @@
       ]
   },
 
-
+          {
+            "title": "Indomitable",
+            "description": [
+              "All Squat formations receive a +1 modifier to their action test when carrying out a Marshal action, and a +1 modifier to their rally tests. Does not apply to Squat formations that exclusively consists of units with the 'Machine Spirit' special rule."
+            ]
+        },
 
         {
           "title": "Spirit of the Ancients",
           "description": [
-            "As long as he is alive, a Living Ancestor confers Invulnerable Save to all units in the formation."
+            "A formation with a Living Ancestor does not suffer -1 when attempting to retain the initiative."
           ]
       },
       {
         "title": "Shield Disruptor",
         "description": [
-          "A weapon with Shield Disruptor ignores Ion Shields. In addition, each hit with will knock down two Powerfields, Shadowfields or Void Shields. When only one field/shield remains, a Shield Disruptor hit will knock it down and must then be saved as a normal hit (it loses TK, MW or Lance)."
+          "Each Shield Disruptor hit knocks down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Ion Shields. "
         ]
     },
 
@@ -57,7 +87,7 @@
     {
       "title": "Stubborn",
       "description": [
-        "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+        "Any formation where at least one unit has Stubborn are subject to the following rules: Reduce the damage caused by Blast Markers while the formation is broken by one. Reduce the number of extra hits from losing an assault by one."
       ]
     },
     {
@@ -104,7 +134,19 @@
     {
       "title": "Courage, Discipline and Loyalty",
       "description": [
-        "When the Supreme Commander re-roll is used on a formation with a Commissar or Lord Commissar, the formation counts as having 1+ Initiative Rating when re-rolling the Action Test"
+        "When the Supreme Commander re-roll is used on a formation that contains a Commissar or Lord Commissar, the formation counts as having 1+ Initiative Rating when re-rolling the Action Test"
+            ]
+    },
+    {
+      "title": "Grim Demeanour",
+      "description": [
+        "Valhallan formations that contain a Ministorum Priest gain +1 on their Action Test when attempting to Marshal."
+            ]
+    },
+    {
+      "title": "Tank Riders",
+      "description": [
+        "Units with the Tank Riders ability may ride into battle on the back of any Leman Russ or Super Heavy tank in their formation. Leman Russ units may carry one unit of Tank Riders, while Super Heavy Tanks may carry two. Units of Tank Riders are allowed to provide firefight in engagements even while being transported. Units being transported in this way are destroyed with no save allowed if the unit transporting them take a hit of any kind."
             ]
     },
     {
@@ -114,12 +156,18 @@
         ]
     },
     {
-      "title": "Commissars and Catachan Heroism",
+      "title": "Blitzkrieg",
       "description": [
-        "Catachan regiments generally lack Commissars. Even these tough and uncompromising officers are unable to assert their authority over the Catachan soldiers; in fact, they are resented by troops, and it is not uncommon for Commissars assigned to Catachan regiments to be 'fragged' by their own troops, or for them to simply go missing. Catachan Fighters aren't cowards or idlers, they are born killers, tough, ferocious and skilled - they just have no respect for commissars.",
-        "Catachan Jungle Fighters do no add commissars like your usual Imperial Guard Armies. Instead for Commanders/Supreme Commanders are inspiring and fearless."
+        "Formations containing a unit with the Blitzkrieg ability receive a +1 modifier to their action test when attempting to Double."
+        ]
+    },
+    {
+      "title": "Catachan Commanders",
+      "description": [
+        "When the Supreme Commander re-roll is used on any formation containing a Catachan Supreme Commander or Catachan Commander, the formation counts as having 1+ Initiative Rating when re-rolling the Action Test"
       ]
     },
+
     {
       "title": "Cyclops Demolition Vehicles",
       "description": [
@@ -144,13 +192,14 @@
     {
       "title": "Fortified Positions",
       "description": [
-        "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up, with the exception of Gun Emplacements that are listed as part of a formation’s 'units'.  While these Gun Emplacements are not actually units, they are set up at the same time and with coherency of the formation they are part of.",
+        "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up, with the exception of Gun Emplacements that are listed as part of a formation’s 'units'.  While these Gun Emplacements are not actually units, they are set up at the same time as the rest of the formation. Gun Emplacements may not be deployed empty, but only with unit taking cover inside.",
         "Fortified positions may be set up anywhere a vehicle may deploy on the player’s half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a “chain” without any gaps of more than 5cm.",
         "Once set up, fortified positions may be used by any unit (including enemy units).",
-        "Trench: Provides a cover save of 4+ to INF. May contain 1 unit per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
-        "Razorwire: Counts as Dangerous Terrain for INF",
-        "Gun Emplacement: Provides a Cover Save of 4+ to a single unit of INF or a 5+ Cover Save to a single unit of AV (not H-AV)",
-        "Bunker: Provides a cover save of 3+ and Thick Rear Armour to up to three units of INF. Counts as Dangerous Terrain for AV and WE."
+        "Gun Emplacement: Are only set up along with the formation they belong to (see above). Provides a Cover Save of 4+ one unit of INF, or a 5+ Cover Save to one unit of AV or LV (but not H-AV).",
+        "Bunker: Provides a Cover Save of 3+ and Thick Rear Armour to up to three units of INF (without Mounted). Counts as Dangerous Terrain for AV and WE.",
+        "Trench: Provides a cover save of 4+ to INF. May contain one unit of INF (without Mounted) per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
+        "Razorwire: Counts as Dangerous Terrain for all INF, including those that have the Mounted special rule.",
+        "Units of INF that benefit from Cover inside a Trench/Bunker may only be Barged by WE such a way that they stay inside their Trench/Bunker."
       ]
     },
     {
@@ -189,7 +238,7 @@
     {
       "title": "Act of Faith",
       "description": [
-        "Formations where all units have the 'Faithful' special rule gains Fearless until end of turn when performing an Engage or a Marshal action. If the roll to activate fails, the formation does not recieve the Act of Faith bonus. Faithful formations also counts as being 'Stubborn'"
+        "When successfully performing an Engage action, units that have the 'Faithful' special rule gain Fearless. In addition, all units in a formation that contain at least one unit with 'Faithful' gain Invulnerable Save. Units that already have an Invulnerable Save gain a 5+ Invulnerable Save instead. These effects last until the end of the current turn."
       ]
   },
 
@@ -213,10 +262,37 @@
       ]
     },
     {
-      "title": "Deathwing",
-      "description": ["Formations containing at least one model with the rule 'Deathwing' removes an additional blast marker whenever that formation rallies or regroups."
+      "title": "White Scars Transports",
+      "description": [
+        "The Space Marines are a highly mobile army. Because of this the points cost of a detachment usually includes enough transport vehicles to transport it and any upgrades that have been taken. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! The transport vehicles will be Land Raider Crusaders if the detachment is Terminators, Rhinos for any other form of detachment.",
+        "Note that many formations don’t receive transports, usually because they can’t fit into them. Detachments that come with vehicles will be noted as having plus transport in the Units section of the detachment list below. White Scars detachments must take the transport vehicles for a detachment—you cannot leave them behind in order to use the unit as a garrison, to use teleport or in order to be deployed by a Thunderhawk gunship.",
+        "In addition you may choose to replace a detachment’s vehicles with drop pods before each game, after the opposing army is known but before objectives are placed. If you choose to do this, all transported detachments in the army must deploy from drop pods—you can’t have some in transport vehicles and some deploying from drop pods. If you do choose to use drop pods, then the affected detachments will enter play in drop pods using the rules for Planetfall (see Planetfall). Note that you will require at least one Space Marine strike cruiser or battle barge to deploy the drop pods from."
+      ]
+  },
+    {
+      "title": "Grey Knight Transports",
+      "description": [
+        "The Grey Knights are few in number, but compensates by being exceptionally well equipped and adaptive in their tactics. Because of this, the points cost of a Grey Knight Detachment usually includes enough Grey Knight Rhinos, Razorbacks, Land Raiders or Land Raider Redeemers to transport them. The number of such Grey Knight transport vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
+        "Detachments that come with Grey Knight transport vehicles will be noted as having plus transport in the units section of the army list opposite.",
+        "Also note that you don’t have to take Grey Knight transport vehicles if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Landing Craft, then you may do so.",
+        "In addition, you may choose to replace a detachment’s transport vehicles with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from.",
+        "Before each game, after the opposing army is known but before objectives are placed, the Grey Knight player may choose which formations with the plus transport aspect are deployed in Grey Knight transport vehicles, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
       ]
     },
+    {
+      "title": "Deathwing",
+      "description": [
+          "Formations containing at least one model with the rule 'Deathwing' removes an additional blast marker whenever that formation rallies or regroups."
+      ]
+    },
+    {
+      "title": "Xenos Horrificus",
+      "description": [
+          "Together, the Deathwatch and the Ordo Xenos contain a galaxy's worth of experience of the Imperium's foes. For this reason, the Deathwatch player may re-roll one Strategy Roll per game."
+      ]
+    },
+
+
     {
       "title": "Independent",
       "description": [
@@ -231,6 +307,19 @@
         "In the latter case, the entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns. Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another."
         ]
     },
+    {
+      "title": "Death Company",
+      "description": [
+        "A Blood Angels army must contain exactly one Death Company formation. Death Company formations with 'plus transport' may choose between deploying on foot, in Death Company Rhinos or in Drop Pods"
+      ]
+    },
+    {
+      "title": "Bodyguard",
+      "description": [
+        "Units with 'Bodyguard' are considered Fearless as long as their formation contains a Supreme Commander character."
+      ]
+    },
+
     {
       "title": "Guerilla Tactics",
       "description": [
@@ -251,38 +340,33 @@
     {
       "title": "Fleet of Foot",
       "description": [
-        "Dark Eldar formations do not suffer the usual penalties when taking a march action, so may still lend support fire in assaults, help claim a crossfire bonus, and even fire flak shots."
+        "Dark Eldar formations do not suffer the usual penalties when taking a march action, but may still lend support fire in assaults, help claim a crossfire bonus, and fire AA."
         ]
     },
     {
       "title": "Kabal Coterie",
       "description": [
-        "A  Dark  Eldar  army  must  include  a  Kabal  Coterie."
+        "The army must include a Kabal Coterie. The enemy count as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army."
         ]
     },
     {
-      "title": "Kabal Coterie BTS",
+      "title": "May not Garrison (Dark Eldar)",
       "description": [
-        "A  Dark  Eldar  army  must  include  a  Kabal  Coterie.  The  enemy  count  as  having  achieved  the  ‘Break  Their  Spirit’ victory condition if they destroy this formation or the most expensive formation in the army (6.1.7)."
-        ]
-    },
-    {
-      "title": "Dark Eldar May not Garrison",
-      "description": [
-        "Only Mandrake formations may set up using the tournament game garrison rule (6.1.5)."
+        "Only the Mandrake formation may Garrison."
         ]
     },
     {
       "title": "Webway Portal",
       "description": [
         "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
-        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise."
+        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
+        "If a Webway is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
         ]
     },
     {
       "title": "Shadowfields",
       "description": [
-        "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate Blast Markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2) and so weapons (including AA) without the ignore cover ability shooting at it receive a -1 to hit modifier."
+        "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate Blast Markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2), meaning that all shooting (including AA) without the Ignore Cover ability receive a -1 to hit modifier."
         ]
     },
 
@@ -314,7 +398,7 @@
       "title": "Avatar (Biel-Tan)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
     },
@@ -322,7 +406,7 @@
       "title": "Avatar (Lugganath)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
     },
@@ -330,7 +414,7 @@
       "title": "Avatar (Saim-Hann)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Mounted Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
     },
@@ -338,7 +422,7 @@
       "title": "Avatar (Iyanden)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Spiritseer, Wraithseer or Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
     },
@@ -346,7 +430,7 @@
       "title": "Avatar (Ulthwé)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Seer Council or Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
     },
@@ -354,50 +438,68 @@
       "title": "Avatar (Mymeara)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
     },
     {
-      "title": "May Not Garrison (Saim-Hann)",
+      "title": "May not Garrison (Kabal of the Black Heart)",
+      "description": [
+        "Only Mandrakes are allowed to garrison objectives in the Epic tournament game scenario."
+      ]
+    },
+    {
+      "title": "May not Garrison (Saim-Hann)",
       "description": [
         "Only Eldar Rangers, War Walkers and Saim-Hann Hornets are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
-      "title": "May Not Garrison (Iyanden)",
+      "title": "May not Garrison (Iyanden)",
       "description": [
         "Only Eldar Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
-      "title": "May Not Garrison (Biel-Tan)",
+      "title": "May not Garrison (Biel-Tan)",
       "description": [
         "Only Eldar Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
-      "title": "May Not Garrison (Ulthwé)",
+      "title": "May not Garrison (Ulthwé)",
       "description": [
         "Only Eldar Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
-      "title": "May Not Garrison (Mymeara)",
+      "title": "May not Garrison (Mymeara)",
       "description": [
         "Only Ghost Walkers, Wasp Walkers and Hornets are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
-      "title": "May Not Garrison (Lugganath)",
+      "title": "May not Garrison (Lugganath)",
       "description": [
         "Only Ghost Walkers and Wasp Walkers are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
-      "title": "May Not Garrison (Eldar Titan Force)",
+      "title": "May not Garrison (Eldar Titan Force)",
       "description": [
         "Only Bright Stallions are allowed to garrison objectives in the Epic tournament game scenario."
+      ]
+    },
+    {
+      "title": "May not Garrison (Black Heart)",
+      "description": [
+        "Only Mandrakes are allowed to garrison objectives in the Epic tournament game scenario."
+      ]
+    },
+    {
+      "title": "May not Garrison (Wraithkind)",
+      "description": [
+        "No formations are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
@@ -405,7 +507,7 @@
       "description": [
         "Eldar formations that include a unit with the Farsight ability may ignore the -1 penalty to Action test rolls when attempting to retain the Initiative.",
         "In addition once per turn the Eldar player may attempt to retain the Initiative twice in a row (i.e. allowing the Eldar player to take 3 activations in a row). Any Eldar formation may be selected, including those without a unit with Farsight, but at least one unit with the Farsight ability must be in play on the battlefield.",
-        "The formation selected must still carry out an action test with a -1 modifier for the first retain and -2 for the second retain, unless the selected formation has a unit with the Farsight ability."
+        "The formation selected must still carry out an action test with a -1 modifier, unless the selected formation has a unit with the Farsight ability."
       ]
     },
     {
@@ -425,7 +527,7 @@
     {
       "title": "Lance",
       "description": [
-        "When units with reinforced armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
       ]
     },
     {
@@ -513,7 +615,7 @@
      {
        "title": "World Eaters Summoning Rules",
        "description": [
-         "All formations in Death Guard worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons:",
+         "All formations in World Eaters worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
          "Greater Daemons: Bloodthirster (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
@@ -675,9 +777,6 @@
        ]
         },
 
-
-
-
         {
           "title": "Reign of Chaos",
           "description": [
@@ -727,7 +826,8 @@
        "description": [
          "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn.",
          "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if the unit belongs to is destroyed.",
-         "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine. If a Chaos Gate is under an enemy unit or within an enemy zone of control, any formation that enters through it must Engage that / those formations, maximizing base contact as much as possible."
+         "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine.",
+        "If a Chaos Gate is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
        ]
         },
 
@@ -736,7 +836,7 @@
         {
         "title": "Deceit and Deception",
         "description": [
-          "Alpha Legion armies have a Strategy Rating of 4. However for all deployment purposes (such as choosing teleport order or picking spaceship arrival turn) Alpha Legion armies count as having a Strategy Rating of 5."
+          "Alpha Legion armies have a Strategy Rating of 4. However for all deployment purposes (such as determining teleport order or picking spaceship arrival turn) Alpha Legion armies count as having a Strategy Rating of 5."
       ]
        },
        {
@@ -783,7 +883,7 @@
       "title": "Patriarch Host",
       "description": [
           "A Genestealer army must include a Patriarch Host. This formation is always considered to be the BTS even if it not the most expensive formation.",
-          "While the Patriarch Brood Coven unit is on the table all units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediatly loses Fearless.",
+          "While the Patriarch Brood Coven unit is on the table all units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediately loses Fearless.",
           "In addition, while the Patriarch Host is alive and on the table, all units in a 'Cult Guard' formation with a Genestealer Primus are considered Expendable (except for the unit with the Genestealer Primus). If the Genestealer Primus dies, the 'Cult Guard' units immediately loses Expendable"
       ]
     },
@@ -816,71 +916,65 @@
 
 
     {
-      "title": "Necron Special Rules",
-      "description": [
-        "The Implacable Advance rule applies to all Necron formations (see Implacable Advance) and the Phase Out rule applies to certain formations (see Phase Out). Additionally, certain units and weapons have special abilities described below."
-        ]
-    },
-    {
       "title": "Necron Reserves",
       "description": [
-        "Any Necron formation may be held back in reserve (with the exception of the Aeonic Orb and Abattoir) if you are playing the Epic Tournament scenario. Note that formations that do not have teleport will only be able to enter play through portals. Any Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal."
+        "Any Necron formation that can enter the battlefield by Teleport or via a Necron Portal can be held back in reserve. Any Necron formation located in the reserves during the End Phase of the third turn and onwards is considered destroyed for the purpose of tiebreak and the Break Their Spirit tournament scenario objective."
         ]
     },
     {
       "title": "Necron Garrisons",
       "description": [
-        "The Necron typically act in an offensive manner and as such, their formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex. To represent that a tomb may contain active Necron, the player may choose to garrison up to two Infantry Phalanx formations at the Tomb Complex."
+        "Only Necron Phalanx and Tomb Guardian formations may garrison in Epic Tournament scenarios. Necron Phalanx may only garrison from a Tomb Complex objective."
         ]
     },
     {
-      "title": "Necron",
+      "title": "The Unbidden",
       "description": [
-        "Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet.",
-        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."
+        "Necron armies must contain at least one 'The Unbidden' formation of Flayed Ones. Flayed Ones may only contest objectives, must start the game in the reserves, and may not use Necron Portals."
+        ]
+    },
+    {
+      "title": "Regeneration",
+      "description": [
+        "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
+        "Against Titan Killer attacks, one Invulnerable Save has to be made against each point of damage."
       ]
     },
     {
-      "title": "Portal",
+      "title": "Necron Portals",
       "description": [
-        "Necron Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Additionally, formations may leave the board by entering a portal, taking them into the reserves. Note that once in the reserves they can either re-enter play immediately via another portal, provided they have movement, or remain in the reserves.",
-        "Necron Portals can only be used by war engines or armoured vehicles with walker, infantry, or light vehicles units. Each portal can be used only once per turn for either entering or exiting the battlefield, not for both. Thus a formation may enter one portal with part of their movement, and exit from a second, unused portal, continuing their movement from that portal.",
-        "If, at the end of the movement, a unit is out of formation it is destroyed (see Formations). Example: if you moved a formation of four units through one portal and out another and two units were unable to make the full movement (i.e. get through the second portal), the Necron player would have to choose which units were to be destroyed, the two that moved through the portal or the two that didn’t.",
-        "Formations entering play via a broken portal receives a Blast Marker. If a formation enters one broken portal and leaves another broken portal it receives two Blast Markers."
+        "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each portal can be used only once per turn for either entering or exiting the battlefield, but not both.",
+        "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves. Formations with teleport that have re-entered the reserves may teleport at the start of the next turn as normal.",
+        "Any units that are out of coherency at the end of any move is destroyed.",
+        "Each time a formation uses a broken Portal it receives one Blast Marker.",
+        "If a Portal is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
       ]
     },
+
     {
-      "title": "Living Metal",
+      "title": "Implacable Advance",
       "description": [
-        "Units with Living Metal may roll a 4+ invulnerable save instead if their armour is negated. Example, by macro or Titan Killer."
-      ]
+        "Necron formations receive a +1 bonus when attempting to perform a Marshal action. Necron formations may not take March actions."
+        ]
     },
     {
       "title": "Ponderous",
       "description": [
-        "Units with this rule are very slow even by Necron standards. When broken they may only make a single withdrawal move, not the usual two."
-        ]
-    },
-    {
-      "title": "Enduring",
-      "description": [
-        "Formations containing units with 'enduring' don’t phase out in the end phase. If the formation has lost all the units with 'Enduring' they phase out as normal and are considered destroyed as normal."
-        ]
-    },
-    {
-      "title": "Implacable Advance",
-      "description": [
-        "The Necron are an offensive army, always on the advance, stopping only to eliminate enemy positions before moving on to harvest others. While subject to Disruption from losses and enemy fire, the mechanical nature of the Necron permits them to easily reorganize to maintain the offensive momentum. Necron formations receive a +1 bonus to Marshal actions. Due to their steady, deliberate, nature Necron formations cannot take a March action."
+        "Units with the 'Ponderous' special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally."
         ]
     },
     {
       "title": "Phase Out",
       "description": [
-        "When a Necron formation becomes broken, it does not just fall back, but also vanishes from the battlefield without leaving any proof of its existence.",
-        "In the end phase of the turn, remove the formation from the board into the reserves, but keep it away from any destroyed units. The formation will roll to rally in the end phase, handling Blast Markers as per the core rules. It may re-enter by teleporting, or through a portal. If there are not enough portals to deal with all the off-table formations, then the formation must remain off the table until a portal is available for it to use. If the rally roll fails, the formation must remain in the reserves until it rallies. Note that with the exception of the C’tan, no Necron War Engines may phase out."
+        "At the beginning of each turn's End Phase, before rallying, remove all broken Necron formations (except formations where at least one unit has 'Enduring') from the board into the reserves. Formations that fail to rally in the End Phase must remain in the reserves until the next turn's End Phase."
       ]
     },
-
+    {
+      "title": "Enduring",
+      "description": [
+        "Necron formations containing units with 'Enduring' don’t phase out in the end phase. If the formation has lost all units with 'Enduring' it phases out as normal."
+        ]
+    },
 
 
 
@@ -983,14 +1077,19 @@
     {
       "title": "Tau Jet Packs",
       "description": [
-        "Tau jet packs follow all the rules for Jump Packs. Additionally, units with Tau jet packs are allowed to make an additional move of 10cm at the end of an advance, double or march order. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual. No extra movement is allowed on any orders other than advance, double or a march. In formations where only some of the units have Tau jet packs, the units without Tau jet packs are not allowed the extra move."
+        "Tau Jet Packs follow all the rules for Jump Packs. In addition, formations that exclusively consists of units with Tau Jet Packs are allowed to make an extra move of up to 10cm at the end of an Advance, Double or March action. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual."
       ]
     },
 
 
 
 
-
+{
+  "title": "Tiger Shark Gun Drones",
+  "description": [
+    "Tiger Shark Squadrons may be given a Gun Drone formation to transport. Transported Gun Drone formations may be split across multiple Tiger Sharks as an exception to the normal aircraft transport rules. The Tiger Sharks cannot land, make an engagement, or embark units, but can disembark transported Gun Drones after an approach move. The Gun Drone formation may shoot when it disembarks as normal (see Transporting Ground Units), and counts as having activated for that turn. After this initial deployment the Gun Drones are a completely independent formation."
+  ]
+},
 
 
 

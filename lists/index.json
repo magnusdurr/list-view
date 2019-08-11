@@ -32,9 +32,9 @@
               "img": "website/img/AdeptusMechanicus_Skitarii.jpg"
             },
             {
-              "name": "Titan Legion",
+              "name": "Collegia Titanica",
               "file": "amtl",
-              "status": "beta",
+              "status": "approved",
               "img": "website/img/AdeptusMechanicus_Titan.jpg"
             }
           ]
@@ -56,7 +56,7 @@
               "img": "website/img/AstraMilitarum_Cadian.jpg"
             },
             {
-              "name": "Catachan Death World",
+              "name": "Catachan Jungle Fighters",
               "file": "catachandeathworld",
               "status": "alpha",
               "img": "website/img/AstraMilitarum_Catachan.jpg"
@@ -64,14 +64,26 @@
             {
               "name": "Death Korps of Krieg",
               "file": "deathkorps",
-              "status": "beta",
+              "status": "approved",
               "img": "website/img/AstraMilitarum_Korps.jpg"
+            },
+            {
+              "name": "Minervan Tank Legion",
+              "file": "minervans",
+              "status": "alpha",
+              "img": "website/img/AstraMilitarum_Minervans.jpg"
             },
             {
               "name": "Steel Legion",
               "file": "steellegion",
               "status": "approved",
               "img": "website/img/AstraMilitarum_Steel.jpg"
+            },
+            {
+              "name": "Valhallan Ice Warriors",
+              "file": "valhallanicewarriors",
+              "status": "alpha",
+              "img": "website/img/AstraMilitarum_Valhallans.jpg"
             },
             {
               "name": "Elysian Drop Troops",
@@ -82,6 +94,30 @@
           ]
         },
         {
+          "name": "Imperial Inquisition",
+          "abbreviation": "IQ",
+          "lists": [
+            {
+              "name": "Adepta Sororitas",
+              "file": "adeptasororitas",
+              "status": "approved",
+              "img": "website/img/Inquisition_Sisters.jpg"
+          },
+          {
+            "name": "Grey Knights",
+            "file": "greyknights",
+            "status": "alpha",
+            "img": "website/img/Inquisition_GreyKnights.jpg"
+        },
+        {
+          "name": "Deathwatch",
+          "file": "deathwatch",
+          "status": "alpha",
+          "img": "website/img/Inquisition_Deathwatch.jpg"
+        }
+          ]
+        },
+        {
           "name": "Space Marines",
           "abbreviation": "SM",
           "lists": [
@@ -89,7 +125,7 @@
               "name": "Blood Angels",
               "file": "bloodangels",
               "status": "alpha",
-              "img": "website/img/template.jpg"
+              "img": "website/img/AdeptusAstartes_BloodAngels.jpg"
             },
             {
               "name": "Codex Astartes",
@@ -101,7 +137,7 @@
               "name": "Dark Angels",
               "file": "darkangels",
               "status": "beta",
-              "img": "website/img/template.jpg"
+              "img": "website/img/AdeptusAstartes_DarkAngels.jpg"
             },
             {
               "name": "Iron Hands",
@@ -118,8 +154,20 @@
             {
               "name": "White Scars",
               "file": "whitescars",
-              "status": "beta",
+              "status": "approved",
               "img": "website/img/AdeptusAstartes_White.jpg"
+            }
+            ]
+        },
+        {
+          "name": "Squats",
+          "abbreviation": "SQ",
+          "lists": [
+            {
+              "name": "Wodan Stronghold",
+              "file": "squats",
+              "status": "alpha",
+              "img": "website/img/Squats.jpg"
             }
           ]
         }
@@ -177,7 +225,7 @@
             {
               "name": "Lost and the Damned",
               "file": "LatD",
-              "status": "alpha",
+              "status": "beta",
               "img": "website/img/Cultist_Damned.jpg"
             },
             {
@@ -230,7 +278,7 @@
             {
               "name": "Biel-Tan",
               "file": "bieltan",
-              "status": "beta",
+              "status": "approved",
               "img": "website/img/Eldar_BielTan.jpg"
             },
             {
@@ -278,7 +326,7 @@
             {
               "name": "Masque of the Midnight Sorrow",
               "file": "masqueofthemidnightsorrow",
-              "status": "experimental",
+              "status": "alpha",
               "img": "website/img/Harlequin_Sorrow.jpg"
             }
           ]
@@ -296,25 +344,13 @@
           ]
         },
         {
-          "name": "Imperial Inquisition",
-          "abbreviation": "IQ",
-          "lists": [
-            {
-              "name": "Adepta Sororitas",
-              "file": "adeptasororitas",
-              "status": "beta",
-              "img": "website/img/Inquisition_Sisters.jpg"
-            }
-          ]
-        },
-        {
           "name": "Necrons",
           "abbreviation": "NC",
           "lists": [
             {
               "name": "Maynarkh Dynasty",
               "file": "maynarkhdynasty",
-              "status": "beta",
+              "status": "approved",
               "img": "website/img/Necron_Maynarkh.jpg"
             },
             {
@@ -356,31 +392,19 @@
           ]
         },
         {
-          "name": "Squats",
-          "abbreviation": "SQ",
-          "lists": [
-            {
-              "name": "Wodan Stronghold",
-              "file": "squats",
-              "status": "experimental",
-              "img": "website/img/template.jpg"
-            }
-          ]
-        },
-        {
           "name": "Tau",
           "abbreviation": "TAU",
           "lists": [
             {
               "name": "Ke'lshan",
               "file": "kelshan",
-              "status": "beta",
+              "status": "alpha",
               "img": "website/img/Tau_Kelshan.jpg"
             },
             {
               "name": "Sa’ Cea",
               "file": "sacea",
-              "status": "alpha",
+              "status": "approved",
               "img": "website/img/Tau_Sacea.jpg"
             },
             {

@@ -1,22 +1,22 @@
 {
   "fraction": "Necron",
   "army": "Sautekh Dynasty",
-  "version": "1.11",
-  "release": "2019-02-22",
+  "version": "0.5.0",
+  "release": "",
   "strategy": "Sautekh Dynasty armies have a Strategy Rating of 2.",
   "Initiative": "All Necron formations have an Initiative Rating of 1+.",
 
   "specialRules": [
-            "Necron Special Rules",
-            "Necron Reserves",
-            "Necron Garrisons",
-            "Necron",
-            "Portal",
-            "Living Metal",
-            "Ponderous",
-            "Enduring",
-            "Implacable Advance",
-            "Phase Out"
+      "Necron Reserves",
+      "Necron Garrisons",
+      "The Unbidden",
+      "Necron Portals",
+      "Regeneration",
+      "Machine Spirit",
+      "Implacable Advance",
+      "Ponderous",
+      "Phase Out",
+      "Enduring"
           ],
 
   "usage": [
@@ -73,7 +73,7 @@
         "name": "0–1 per army - Tomb Complex",
         "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
 
-        "points": "Free"
+        "points": 25
       },
       {
         "name": "0–1 per army - Necron Overlord",
@@ -166,7 +166,7 @@
         },
         {
           "name": "Letum Maniple",
-          "units": "Four Death Marks ",
+          "units": "Four Death Marks",
           "upgrades": [
             "Listed Below"
           ],
@@ -192,7 +192,7 @@
           "upgrades": [
             "None"
           ],
-          "points": 350
+          "points": 300
         },
         {
           "name": "Night Scythes",
@@ -204,7 +204,7 @@
         },
         {
           "name": "Doom Scythes",
-          "units": "Two Doom Scythe units",
+          "units": "Two Doom Scythes",
           "upgrades": [
             "None"
           ],
@@ -212,11 +212,11 @@
         },
         {
           "name": "Night Shroud Bomber",
-          "units": "Two Night Shroud Bomber",
+          "units": "One Night Shroud Bomber",
           "upgrades": [
             "None"
           ],
-          "points": 275
+          "points": 200
         }
       ]
     }
