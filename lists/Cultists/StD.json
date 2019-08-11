@@ -5,14 +5,13 @@
   "release": "2019-08-08",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
   "specialRules": [
-      "Summoning",
-      "Slaves to Darkness Summoning Rules",
-      "Augment Summoning (+x)",
-      "Daemonic Focus",
-      "Fickle Masters",
-      "StD Eternal Animosity"
+    "Summoning",
+    "Slaves to Darkness Summoning Rules",
+    "Augment Summoning (+x)",
+    "Daemonic Focus",
+    "Fickle Masters",
+    "StD Eternal Animosity"
   ],
   "usage": [
     "The following army list allows you to field an army based on a Renegade Imperial Guard regiment with Chaos allies."
@@ -33,8 +32,7 @@
         "Land Transporter",
         "Plague Zombies of Nurgle"
       ],
-        "unitRules": [
-          ]
+      "unitRules": []
     },
     {
       "from": "IG.json",
@@ -53,19 +51,15 @@
         "Shadowsword",
         "Baneblade"
       ],
-        "unitRules": [
-
-
-          ]
+      "unitRules": []
     },
     {
       "from": "CSM.json",
       "units": [
         "Chaos Space Marines",
         "Chaos Rhino"
-    ],
-    "unitRules": [
-    ]
+      ],
+      "unitRules": []
     },
     {
       "from": "daemons.json",
@@ -76,30 +70,29 @@
         "Horrors of Tzeench",
         "Daemonic Beasts of Chaos Undivided"
       ],
-      "unitRules": [
-    ]
+      "unitRules": []
     },
     {
-        "from": "darkmechanicus.json",
-        "units": [
-            "Defiler",
-            "Hellfire Cannon",
-            "Forgefiend",
-            "Hell-Strider",
-            "Subjugator",
-            "Questor",
-            "Plague Tower",
-            "Contagion Engine",
-            "Doomblaster",
-            "Daemonic Assault Engine",
-            "Lord of Battles",
-            "Silver Tower",
-            "Warp Palace"
-        ],
-        "unitRules": [
-            "Void Shields",
-            "Daemon Engine (x)"
-        ]
+      "from": "darkmechanicus.json",
+      "units": [
+        "Defiler",
+        "Hellfire Cannon",
+        "Forgefiend",
+        "Hell-Strider",
+        "Subjugator",
+        "Questor",
+        "Plague Tower",
+        "Contagion Engine",
+        "Doomblaster",
+        "Daemonic Assault Engine",
+        "Lord of Battles",
+        "Silver Tower",
+        "Warp Palace"
+      ],
+      "unitRules": [
+        "Void Shields",
+        "Daemon Engine (x)"
+      ]
     },
     {
       "from": "ImperialNavy.json",
@@ -107,11 +100,10 @@
         "Thunderbolt Fighter",
         "Marauder Bomber"
       ],
-        "unitRules": [
-      ]
+      "unitRules": []
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Slaves to Darkness Core Formations",
       "formations": [
@@ -119,18 +111,18 @@
           "name": "Traitor Guard",
           "units": "One Fallen Commander with a Daemonic Icon, five units of Infantry",
           "upgrades": [
-              "All"
+            "All"
           ],
           "points": 175
-      },
-      {
-        "name": "0-1 Chaos Space Marines",
-        "units": "One Aspiring Champion, five Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
-        "upgrades": [
+        },
+        {
+          "name": "0-1 Chaos Space Marines",
+          "units": "One Aspiring Champion, five Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
+          "upgrades": [
             "Supreme Commander"
-        ],
-        "points": 275
-    }
+          ],
+          "points": 275
+        }
       ]
     },
     {
@@ -141,99 +133,156 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks",
           "upgrades": [
-              "Flak"
+            "Flak"
           ],
           "points": 225
         },
         {
           "name": "Sentinel Squadron",
           "units": "Four Sentinels",
-          "upgrades": [
-
-          ],
+          "upgrades": [],
           "points": 100
         },
         {
           "name": "Rough Rider Platoon",
           "units": "Six Rough Riders",
           "upgrades": [
-              "Add one Daemonic Icon for 50 points"
+            "Add one Daemonic Icon for 50 points"
           ],
           "points": 150
         },
         {
-        "name": "Super-Heavy Platoon",
-        "units": "One Baneblade",
-        "upgrades": [
+          "name": "Super-Heavy Platoon",
+          "units": "One Baneblade",
+          "upgrades": [
             "Replace the Baneblade with a Shadowsword: 25 points"
-        ],
-        "points": 175
-      },
-
+          ],
+          "points": 175
+        },
         {
           "name": "Leman Russ Company",
           "units": "Six Leman Russ and/or Leman Russ Demolishers",
           "upgrades": [
-              "Flak"
+            "Flak"
           ],
           "points": 350
-      },
-      {
-        "name": "Thunderbolt Squadron",
-        "units": "Two Thunderbolt Fighters",
-        "points": 150
-      },
-      {
-        "name": "Marauder Squadron",
-        "units": "Two Marauder Bombers",
-        "points": 225
-    }
+        },
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+        }
       ]
     },
     {
       "name": "Lost and the Damned Support Covens",
       "description": "Up to a third of the points available may be spent on Lost and the Damned Support Covens",
       "formations": [
-          {
-            "name": "Support Covens",
-            "units": "One Support Coven formation from the Lost and the Damned army list with no upgrades. AC formations may not be taken. All other choices are 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
-            "points": 0
-          }
+        {
+          "name": "0-1 Hell Cannons of Chaos Undivided",
+          "units": "Four Hell Cannons",
+          "points": 225
+        },
+        {
+          "name": "0-1 Forgefiends of Chaos Undivided",
+          "units": "Three Forgefiends",
+          "points": 225
+        },
+        {
+          "name": "0-1 Defiler Pack of Chaos Undivided",
+          "units": "Four Defilers",
+          "points": 225
+        },
+
+        {
+          "name": "0-1 Hell-Striders of Slaanesh",
+          "units": "Four Hell-Striders",
+          "points": 200
+        },
+        {
+          "name": "0-1 Questor of Slaanesh",
+          "units": "One Questor",
+          "points": 300
+        },
+        {
+          "name": "0-1 Subjugator of Slaanesh",
+          "units": "One Subjugator",
+          "points": 250
+        },
+        {
+          "name": "0-1 Contagion Engines of Nurgle",
+          "units": "Four Contagion Engines",
+          "points": 325
+        },
+        {
+          "name": "0-1 Plaguetower of Nurgle",
+          "units": "One Plaguetower",
+          "points": 325
+        },
+        {
+          "name": "0-1 Doomblasters of Khorne",
+          "units": "Four Doomblasters",
+          "points": 225
+        },
+        {
+          "name": "0-1 Daemonic Assault Engines of Khorne",
+          "units": "Six Daemonic Assault Engines",
+          "points": 300
+        },
+        {
+          "name": "0-1 Khorne Lord of Battles",
+          "units": "One Lord of Battles",
+          "points": 400
+        },
+        {
+          "name": "0-1 Silver Towers of Tzeench",
+          "units": "Four Silver Towers",
+          "points": 300
+        },
+        {
+          "name": "0-1 Warp Palace of Tzeench",
+          "units": "One Warp Palace",
+          "points": 500
+        }
       ]
-  },
-  {
-    "name": "Daemon Pool",
-    "description": "Any amount may be spent on Daemon Pool points",
-    "formations": [
+    },
+    {
+      "name": "Daemon Pool",
+      "description": "Any amount may be spent on Daemon Pool points",
+      "formations": [
         {
           "name": "Lesser Daemon Pool",
           "units": "Any amount of Lesser Daemon Pool points",
           "points": 15
         }
-    ]
-}
-
+      ]
+    }
   ],
   "upgrades": {
     "title": "Slaves to Darkness Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
-        {
-          "name": "0-1 Supreme Commander",
-          "options": [
-            {
-              "description": "Choose one of the following:"
-            },
-            {
-              "description": "Add an Arch Heretic to the Fallen Commander / Aspiring Champion",
-              "points": "50 points"
-            },
-            {
-              "description": "Upgrade the Fallen Commander / Aspiring Champion to a Daemon Prince",
-              "points": "100 points"
-            }
-          ]
-        },
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Add an Arch Heretic to the Fallen Commander / Aspiring Champion",
+            "points": "50 points"
+          },
+          {
+            "description": "Upgrade the Fallen Commander / Aspiring Champion to a Daemon Prince",
+            "points": "100 points"
+          }
+        ]
+      },
       {
         "name": "Fire Support Platoon",
         "options": [
@@ -311,7 +360,6 @@
         "description": "Add one Chaos Spawn",
         "points": "35 points"
       },
-
       {
         "name": "Transport",
         "options": [
@@ -322,11 +370,11 @@
           {
             "description": "Add any number of Chimeras",
             "points": "25 points each"
-        },
-        {
-          "description": "(No more than needed to transport the formation with no space left over)",
-          "points": ""
-      }
+          },
+          {
+            "description": "(No more than needed to transport the formation with no space left over)",
+            "points": ""
+          }
         ]
       }
     ]
