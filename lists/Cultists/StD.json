@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.8.6",
-  "release": "2019-08-08",
+  "version": "0.8.7",
+  "release": "2019-08-18",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -29,8 +29,7 @@
         "Mutants",
         "Ogryns",
         "Technical",
-        "Land Transporter",
-        "Plague Zombies of Nurgle"
+        "Land Transporter"
       ],
       "unitRules": []
     },
@@ -77,13 +76,10 @@
       "units": [
         "Defiler",
         "Hellfire Cannon",
-        "Forgefiend",
-        "Hell-Strider",
         "Subjugator",
         "Questor",
         "Plague Tower",
-        "Contagion Engine",
-        "Doomblaster",
+        "Greater Blight Drone",
         "Daemonic Assault Engine",
         "Lord of Battles",
         "Silver Tower",
@@ -180,8 +176,8 @@
       ]
     },
     {
-      "name": "Lost and the Damned Support Covens",
-      "description": "Up to a third of the points available may be spent on Lost and the Damned Support Covens",
+      "name": "Dark Mechanicus Support Covens",
+      "description": "Up to a third of the points available may be spent on Dark Mechanicus Support Covens",
       "formations": [
         {
           "name": "0-1 Hellfire Cannons of Chaos Undivided",
@@ -191,18 +187,14 @@
         {
           "name": "0-1 Forgefiends of Chaos Undivided",
           "units": "Three Forgefiends",
+          "upgrades": [
+          ],
           "points": 225
-        },
+      },
         {
           "name": "0-1 Defiler Pack of Chaos Undivided",
           "units": "Four Defilers",
           "points": 225
-        },
-
-        {
-          "name": "0-1 Hell-Striders of Slaanesh",
-          "units": "Four Hell-Striders",
-          "points": 200
         },
         {
           "name": "0-1 Questor of Slaanesh",
@@ -215,19 +207,14 @@
           "points": 250
         },
         {
-          "name": "0-1 Contagion Engines of Nurgle",
-          "units": "Four Contagion Engines",
-          "points": 325
-        },
-        {
-          "name": "0-1 Plaguetower of Nurgle",
-          "units": "One Plaguetower",
-          "points": 325
-        },
-        {
-          "name": "0-1 Doomblasters of Khorne",
-          "units": "Four Doomblasters",
+          "name": "0-1 Plague Drones of Nurgle",
+          "units": "Seven Greater Blight Drones",
           "points": 225
+        },
+        {
+          "name": "0-1 Plague Tower of Nurgle",
+          "units": "One Plague Tower",
+          "points": 325
         },
         {
           "name": "0-1 Daemonic Assault Engines of Khorne",
