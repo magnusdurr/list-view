@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.8.7",
-  "release": "2019-08-18",
+  "version": "0.9.0",
+  "release": "2019-08-19",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -27,7 +27,6 @@
         "Aspiring Champion",
         "Cultists",
         "Mutants",
-        "Ogryns",
         "Technical",
         "Land Transporter"
       ],
@@ -38,6 +37,7 @@
       "units": [
         "Infantry",
         "Fire Support Squad",
+        "Ogryns",
         "Rough Riders",
         "Sentinel",
         "Basilisk",
@@ -75,7 +75,8 @@
       "from": "darkmechanicus.json",
       "units": [
         "Defiler",
-        "Hellfire Cannon",
+        "Decimator",
+        "Death Wheel",
         "Subjugator",
         "Questor",
         "Plague Tower",
@@ -105,8 +106,8 @@
       "formations": [
         {
           "name": "Traitor Guard",
-          "units": "One Fallen Commander with a Daemonic Icon, five units of Infantry",
-          "upgrades": [
+          "units": "One Fallen Commander, seven units of Infantry",
+          "extraUnits": [
             "All"
           ],
           "points": 175
@@ -114,7 +115,7 @@
         {
           "name": "0-1 Chaos Space Marines",
           "units": "One Aspiring Champion, five Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
-          "upgrades": [
+          "extraUnits": [
             "Supreme Commander"
           ],
           "points": 275
@@ -122,80 +123,85 @@
       ]
     },
     {
-      "name": "Traitor Support Formations",
-      "description": "Up to one Support formation for each Traitor Guard formation.",
+      "name": "Slaves to Darkness Ground Support",
+      "description": "Up to one Ground Support formation for each Traitor Guard formation.",
       "formations": [
+          {
+            "name": "Flak Battery",
+            "units": "Three Hydras",
+            "extraUnits": [
+            ],
+            "points": 150
+          },
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks",
-          "upgrades": [
-            "Flak"
+          "extraUnits": [
           ],
           "points": 225
         },
         {
           "name": "Sentinel Squadron",
           "units": "Four Sentinels",
-          "upgrades": [],
+          "extraUnits": [],
           "points": 100
         },
         {
           "name": "Rough Rider Platoon",
           "units": "Six Rough Riders",
-          "upgrades": [
-            "Add one Daemonic Icon for 50 points"
+          "extraUnits": [
+            "Daemonic Icon"
           ],
           "points": 150
         },
         {
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade",
-          "upgrades": [
+          "extraUnits": [
             "Replace the Baneblade with a Shadowsword: 25 points"
           ],
           "points": 175
         },
         {
-          "name": "Leman Russ Company",
+          "name": "Leman Russ Platoon",
           "units": "Six Leman Russ and/or Leman Russ Demolishers",
-          "upgrades": [
-            "Flak"
+          "extraUnits": [
           ],
           "points": 350
-        },
-        {
-          "name": "Thunderbolt Squadron",
-          "units": "Two Thunderbolt Fighters",
-          "points": 150
-        },
-        {
-          "name": "Marauder Squadron",
-          "units": "Two Marauder Bombers",
-          "points": 225
         }
       ]
     },
     {
-      "name": "Dark Mechanicus Support Covens",
-      "description": "Up to a third of the points available may be spent on Dark Mechanicus Support Covens",
+      "name": "Slaves to Darkness Air Support and Dark Mechanicus Allies",
+      "description": "Up to a third of the points available may be spent on Slaves to Darkness Air Support and Dark Mechanicus Allies",
       "formations": [
-        {
-          "name": "0-1 Hellfire Cannons of Chaos Undivided",
-          "units": "Four Hellfire Cannons",
-          "points": 225
+          {
+            "name": "Thunderbolt Squadron",
+            "units": "Two Thunderbolt Fighters",
+            "points": 150
+          },
+          {
+            "name": "Marauder Squadron",
+            "units": "Two Marauder Bombers",
+            "points": 225
         },
         {
-          "name": "0-1 Forgefiends of Chaos Undivided",
-          "units": "Three Forgefiends",
-          "upgrades": [
-          ],
-          "points": 225
-      },
+          "name": "0-1 Decimator of Chaos Undivided",
+          "units": "One Decimator",
+          "points": 200
+        },
         {
-          "name": "0-1 Defiler Pack of Chaos Undivided",
+          "name": "0-1 Defilers of Chaos Undivided",
           "units": "Four Defilers",
           "points": 225
         },
+        {
+          "name": "0-1 Death Wheel of Chaos Undivided",
+          "units": "One Death Wheel",
+          "upgrades": [
+          ],
+          "points": 275
+      },
         {
           "name": "0-1 Questor of Slaanesh",
           "units": "One Questor",
@@ -209,7 +215,7 @@
         {
           "name": "0-1 Plague Drones of Nurgle",
           "units": "Seven Greater Blight Drones",
-          "points": 225
+          "points": 275
         },
         {
           "name": "0-1 Plague Tower of Nurgle",
@@ -271,6 +277,15 @@
         ]
       },
       {
+        "name": "Daemonic Icon",
+        "options": [
+          {
+            "description": "Add one Daemonic Icon to a Fallen Commander, Daemon Prince or Rough Rider unit",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
         "name": "Fire Support Platoon",
         "options": [
           {
@@ -283,7 +298,7 @@
         "name": "Ogryns",
         "options": [
           {
-            "description": "Add up to two Ogryns",
+            "description": "Add up to two units of Ogryns",
             "points": "25 points each"
           }
         ]
@@ -328,7 +343,7 @@
         "name": "Lost and the Damned",
         "options": [
           {
-            "description": "Add up to six Mutants/Cultists",
+            "description": "Add up to six Mutants / Cultists",
             "points": "10 points each"
           }
         ]
