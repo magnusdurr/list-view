@@ -336,7 +336,6 @@
               "firepower": "3BP",
               "range": 15,
               "specialRules": [
-                "FxF"
           ]
           }
       ]
@@ -528,7 +527,7 @@
       "name": "AC Multilaser",
       "modes": [
         {
-          "firepower": "AP5+/AT6+/AA5+ FxF",
+          "firepower": "AP5+/AT6+/AA5+",
           "range": 30
         }
       ]
@@ -562,7 +561,7 @@
       "name": "AC Quad Iron Turrets",
         "modes": [
           {
-            "firepower": "AP4+/AT5+/AA5+ ",
+            "firepower": "AP4+/AT5+/AA5+",
             "range": 30,
             "specialRules": [
               "FxF"
@@ -574,7 +573,7 @@
       "name": "AC Reaper Autocannon",
         "modes": [
           {
-            "firepower": "AP4+/AT6+/AA6+ ",
+            "firepower": "AP4+/AT6+/AA6+",
             "range": 30,
             "specialRules": [
           ]
@@ -585,7 +584,7 @@
       "name": "AC Twin Reaper Autocannon",
         "modes": [
           {
-            "firepower": "AP3+/AT5+/AA5+ ",
+            "firepower": "AP3+/AT5+/AA5+",
             "range": 30,
             "specialRules": [
           ]
@@ -657,7 +656,7 @@
       "name": "AC Storm Bolters",
       "modes": [
         {
-          "firepower": "AP4+/AA5+ FxF",
+          "firepower": "AP4+/AA5+",
           "range": 15
         }
       ]
@@ -731,7 +730,7 @@
       "name": "AC Twin Eldar Missile Launchers",
       "modes": [
         {
-          "firepower": "AP4+/AT5+/AA5+ ",
+          "firepower": "AP4+/AT5+/AA5+",
           "range": 45,
           "specialRules": [
             "FxF"
@@ -983,7 +982,7 @@
       "name": "AC Underwing Rockets",
       "modes": [
         {
-          "firepower": "AT4+ FxF",
+          "firepower": "AT4+",
           "range": 30
         }
       ]
