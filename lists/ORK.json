@@ -296,6 +296,18 @@
       ]
     },
     {
+      "name": "Speed Freek Trukk",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "weapons": [
+      ],
+      "specialRules": [
+          "Transport: One unit of Boyz or Nobz. Units may Shoot and Firefight while being transported."
+      ]
+    },
+    {
       "name": "Mekboy Speedsta",
       "type": "AV",
       "speed": 35,
@@ -309,6 +321,7 @@
           "D3 Power Fields"
       ]
     },
+
     {
       "name": "Battlewagon",
       "type": "AV",
@@ -340,9 +353,9 @@
     {
       "name": "Spleenrippa",
       "type": "AV",
-      "speed": 30,
+      "speed": 25,
       "armour": 5,
-      "cc": 6,
+      "cc": 5,
       "ff": 5,
       "weapons": [
         "Battle Cannon"
@@ -427,7 +440,7 @@
           "Reinforced Armour",
           "Transport: Eight Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry four units of Grotz in addition to any other units transported"
       ],
-      "notes": "¤Critical Hit Effect¤: Move the Battlefortress D6 cm in a random direction, all units moved over or contacted it suffer a hit. The Battlefortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
+      "crit": "Move the Battlefortress D6 cm in a random direction, all units moved over or contacted it suffer a hit. The Battlefortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
     },
     {
       "name": "Gunfortress",
@@ -445,7 +458,7 @@
           "Reinforced Armour",
           "Transport: Four Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry two units of Grotz in addition to any other units transported"
       ],
-      "notes": "¤Critical Hit Effect¤: Move the Gunfortress D6 cm in a random direction, all units moved over or contacted it suffer a hit. The Gunfortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
+      "crit": "Move the Gunfortress D6 cm in a random direction, all units moved over or contacted it suffer a hit. The Gunfortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
     },
     {
       "name": "Supa-Stompa",
@@ -467,7 +480,7 @@
           "Walker",
           "Armed with either three Soopaguns, or two Soopaguns and a Killa-Choppa"
       ],
-      "notes": "¤Critical Hit Effect¤: The Supa Stompa catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Supa Stompa catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
     },
     {
       "name": "Supa-Stompa ",
@@ -493,7 +506,7 @@
           "Reinforced Armour",
           "Walker"
       ],
-      "notes": "¤Critical Hit Effect¤: The Supa Stompa catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Supa Stompa catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
     },
     {
       "name": "Gargant",
@@ -516,7 +529,7 @@
           "Walker",
           "Armed with either three Soopaguns or two Soopaguns and either Supa-Zzap-Gun or a Killa-Choppa"
       ],
-      "notes": "¤Critical Hit Effect¤: The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
     },
     {
       "name": "Gargant ",
@@ -550,7 +563,7 @@
           "Reinforced Armour",
           "Walker"
       ],
-      "notes": "¤Critical Hit Effect¤: The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
     },
     {
       "name": "Great Gargant",
@@ -576,7 +589,7 @@
           "Walker",
           "Armed with either two Twin Soopaguns or one Twin Soopagun and a Lifta-Droppa"
       ],
-      "notes": "¤Critical Hit Effect¤: The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
     },
     {
       "name": "Great Gargant ",
@@ -612,7 +625,7 @@
           "Reinforced Armour",
           "Walker"
       ],
-      "notes": "¤Critical Hit Effect¤: The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
     },
     {
       "name": "Mega Gargant",
@@ -638,7 +651,7 @@
           "Fearless",
           "Reinforced Armour"
       ],
-      "notes": "¤Critical Hit Effect¤: The Mega Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Mega Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
     },
     {
       "name": "Fighta-Bommer",
@@ -671,16 +684,17 @@
       "name": "Bommer",
       "type": "AC/WE",
       "speed": "Bomber",
-      "armour": 4,
+      "armour": 5,
 
       "weapons": [
         "AC Flakka-Dakka",
         "AC Blasta Bombs||FxF"
       ],
       "specialRules": [
+          "Reinforced Armour",
           "Damage Capacity 2"
       ],
-            "Notes": "¤Critical Hit Effect¤: The Bommer is destroyed"
+            "crit": "The Bommer is destroyed"
     },
     {
       "name": "Landa",
@@ -699,7 +713,7 @@
           "Reinforced Armour",
           "Transport: Ten Killa Kans, Warbikes, Boyz, Nobz, Kommandos, Stormboyz, Grotz. Big Gunz, Warbuggies, Skorchas, Dreadnoughts takes two spaces each. May carry fout units of Grotz in addition to any other units transported"
       ],
-      "Notes": "¤Critical Hit Effect¤: The Landa and all units being transported are destroyed"
+      "crit": "The Landa and all units being transported are destroyed"
     },
     {
       "name": "Kill Kroozer",

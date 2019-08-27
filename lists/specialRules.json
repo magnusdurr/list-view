@@ -781,11 +781,11 @@
           "title": "Reign of Chaos",
           "description": [
             "During the Strategy Phase the Daemon Incursion player rolls 2d6 and picks the highest. In addition add the dice together and consult the following table:",
-            "(2-3) *Chaotic Ebb* All Daemon units (friend and foe) loses their Invulnerable Save for the rest of the turn.",
+            "(2-3) *Chaotic Ebb* All Daemon Legion units (friend and foe) loses their Invulnerable Save for the rest of the turn.",
             "(4-5) *The Winds Recede* All players that can summon Daemons lose 1D3 Lesser Daemons Pool points. Daemon Incursion players lose an additional D3. If the pool is empty nothing happens.",
             "(6-8) *Eye of the Storm* Nothing happens.",
             "(9-10) *The Winds Wax* All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3.",
-            "(11-12) *Chaotic Surge* All Daemon units (friend and foe) improves their Invulnerable Save to 5+ for the rest of the turn"
+            "(11-12) *Chaotic Surge* All Daemon Legion units (friend and foe) improves their Invulnerable Save to 5+ for the rest of the turn."
           ]
         },
 
@@ -804,28 +804,28 @@
        ]
         },
         {
-       "title": "Daemon Instability",
+       "title": "Daemonic Instability",
        "description": [
-         "When any Exalted Greater Daemon or Daemon Legion formation becomes broken for any reason, it is destroyed."
+         "When any Daemon Legion formation becomes broken for any reason, it is destroyed."
        ]
         },
 
         {
        "title": "Warp Rift",
        "description": [
-         "Warp Rifts are plotted exactly as planetfall. Both the turn in which the formation arrives and the landing location is plotted. The exceptions are that, because the formation is entering the battlefield from a Warp Rift and not from a space ship, they may be plotted to arrive in the same turn that an enemy spacecraft is present. The also do not have to announce which turn they arrive.",
-         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with spacecraft.",
+         "Warp Rifts are plotted exactly as Self Planetfall. Both the turn in which the formation arrives and the landing coordinates must be recorded. The turn each formation arrives does not have to be announced.",
+         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with Self Planetfall.",
          "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
          "If the activation is successful, place a Warp Rift token at the plotted coordinates. This may be moved 15cm in any direction, and then scatters 3D6 cm. If the Warp Rift token lands on terrain that is impassable or dangerous for it, or on top of any sort of unit (friend or foe), or in an enemy zone of control, then it is moved by the opposing player to the nearest area of clear ground. If this happens, also place a Blast Marker on the activating formation.",
          "With the final location of the the Warp Rift determined, it attacks any enemy formations within range of the Warp Rift (15cm, AP6+/AT6+, Disrupt). Finally, the activated formation carries out the order determined at the start of its action, and must move the formation out of the Warp Rift, measuring all moves from the centre point of the token.",
-         "After all units have exited the Warp Rift, the token is removed."
+         "All units from the activating formation must move out of the Warp Rift. Any units that are unable to exit the Warp Rift are destroyed. The Warp Rift token is then removed from the battlefield."
        ]
         },
         {
        "title": "Chaos Gates",
        "description": [
          "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn.",
-         "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if the unit belongs to is destroyed.",
+         "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if that War Engine is destroyed.",
          "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine.",
         "If a Chaos Gate is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
        ]
@@ -836,7 +836,7 @@
         {
         "title": "Deceit and Deception",
         "description": [
-          "Alpha Legion armies have a Strategy Rating of 4. However for all deployment purposes (such as determining teleport order or picking spaceship arrival turn) Alpha Legion armies count as having a Strategy Rating of 5."
+          "Alpha Legion armies have a Strategy Rating of 4. However, for all deployment purposes (such as determining teleport order or picking spaceship arrival turn) Alpha Legion armies count as having a Strategy Rating of 5."
       ]
        },
        {
@@ -1008,13 +1008,13 @@
     {
       "title": "Mob Rule",
       "description": [
-        "Orks believe that as long as there’s a bunch of them still fighting together (slightly more than they can count up to is ideal!) then there’s always a chance that they’ll prevail, no matter the odds. To represent this, Ork formations with more than five units (i.e., too many to count on the fingers of one hand), not including Gretchin or Big Gunz units, receive a +1 modifier to any rally rolls they make, and formations with more than 10 such units receive a  +2 modifier. For the purposes of this rule war engine’s count each point of starting damage capacity as a unit."
+        "Orks believe that as long as there’s a bunch of them still fighting together (slightly more than they can count up to is ideal!) then there’s always a chance that they’ll prevail, no matter the odds. To represent this, Ork formations with more than five units (i.e., too many to count on the fingers of one hand), not including Gretchin or Big Gunz units, receive a +1 modifier to any rally rolls they make, and formations with more than 10 such units receive a +2 modifier. For the purposes of this rule War Engines count each point of starting damage capacity as a unit."
         ]
     },
     {
       "title": "Power of the Waaagh!",
       "description": [
-        " Orks are not noted for their organisational abilities, and thus usually have a pretty low Initiative. However, if there is one thing that will galvanise an Ork warband, it’s the thought of a good punch-up!Because of this, Ork formations that are attempting to take engage or double actions receive a +2 modifier to their action test roll. Ork flyboyz similarly relish the chance to shoot things up, and receive a +2 modifier to their action test roll when attempting to carry out interception or ground attack actions (see Aircraft)."
+        "Orks are not noted for their organisational abilities, and thus usually have a pretty low Initiative. However, if there is one thing that will galvanise an Ork warband, it’s the thought of a good punch-up! Because of this, Ork formations that are attempting to take engage or double actions receive a +2 modifier to their action test roll. Ork Flyboyz similarly relish the chance to shoot things up, and receive a +2 modifier to their action test roll when attempting to carry out Interception or Ground Attack actions (see Aircraft)."
         ]
     },
 

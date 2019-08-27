@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.9.0",
-  "release": "2019-08-19",
+  "version": "0.9.1",
+  "release": "2019-08-22",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -317,25 +317,25 @@
         "options": [
           {
             "description": "Add up to two Hellhounds",
-            "points": "25 points each"
+            "points": "25 points"
           }
         ]
       },
       {
-        "name": "Griffons",
+        "name": "Griffon",
         "options": [
           {
-            "description": "Add three Griffons",
-            "points": "50 points"
+            "description": "Add one Griffon",
+            "points": "35 points"
           }
         ]
       },
       {
-        "name": "Leman Russ Platoon",
+        "name": "Leman Russ",
         "options": [
           {
-            "description": "Add three Leman Russ or Leman Russ Demolishers",
-            "points": "150 points"
+            "description": "Add up to three Leman Russ or Leman Russ Demolishers",
+            "points": "50 points each"
           }
         ]
       },
