@@ -1,8 +1,8 @@
 {
   "fraction": "Ork",
   "army": "EAR Evil Sunz Speed Freeks, WAAAGH! Gazbag",
-  "version": "0.6.0",
-  "release": "2019-08-27",
+  "version": "0.6.1",
+  "release": "2019-08-28",
   "strategy": "Speed Freek armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
@@ -63,22 +63,22 @@
               "0-1 Add one Speed Freek Oddboy character to a Gunfortress: 50 points"
             ],
             "pointsOptions": [
-              {"name": "Normal", "points":  "200"},
-              {"name": "Big", "points":  "350"},
-              {"name": "'Uge", "points":  "500"}
+              {"name": "Normal", "points":  "225"},
+              {"name": "Big", "points":  "375"},
+              {"name": "'Uge", "points":  "525"}
             ]
           },
           {
             "name": "Evil Sunz Battlefortress Mob",
-            "units": "One Battlefortress, two Nobz, six Boyz, four Grotz",
+            "units": "One Battlefortress, one Nobz, seven Boyz, three Grotz",
             "extraUnits": [
               "Add any number of Flakwagons, Gunwagons: 35 points each",
               "0-1 Add one Speed Freek Oddboy to a Battlefortress: 50 points"
             ],
             "pointsOptions": [
-              {"name": "Normal", "points":  "225"},
-              {"name": "Big", "points":  "400"},
-              {"name": "'Uge", "points":  "550"}
+              {"name": "Normal", "points":  "275"},
+              {"name": "Big", "points":  "450"},
+              {"name": "'Uge", "points":  "625"}
             ]
           },
         {
@@ -98,15 +98,15 @@
         },
         {
           "name": "Evil Sunz Kult of Speed",
-          "units": "Two Nob Warbikes, any six of the following units: Skorchas, Warbikes, Warbuggies",
+          "units": "One Nob Warbikes, and any six of the following units: Skorchas, Warbikes, Warbuggies",
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
             "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "200"},
-            {"name": "Big", "points":  "350"},
-            {"name": "'Uge", "points":  "500"}
+            {"name": "Normal", "points":  "175"},
+            {"name": "Big", "points":  "300"},
+            {"name": "'Uge", "points":  "425"}
           ]
         },
         {
@@ -118,16 +118,16 @@
         },
         {
           "name": "Evil Sunz Warband",
-          "units": "One Nobz, three Boyz, four Speed Freek Trukks. Two Warbikes, Skorchas and/or Warbuggies",
+          "units": "One Nobz, three Boyz, four Speed Freek Trukks. Three Warbikes, Skorchas and/or Warbuggies",
           "extraUnits": [
             "Add any number of Boyz and Speed Freek Trukk: 25 points each",
             "Add any number of Battlewagons, Flakwagons: 35 points each",
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "175"},
-            {"name": "Big", "points":  "300"},
-            {"name": "'Uge", "points":  "425"}
+            {"name": "Normal", "points":  "200"},
+            {"name": "Big", "points":  "325"},
+            {"name": "'Uge", "points":  "400"}
           ]
         },
         {
@@ -148,9 +148,8 @@
               "name": "Evil Sunz Fighta Skwadron",
               "units": "Three Speed Freek Fightas",
               "upgrades": [
-                  "Add up to three Speed Freek Fightas for 50 points each"
               ],
-              "points": 150
+              "points": 175
           },
           {
             "name": "Evil Sunz Bommer",

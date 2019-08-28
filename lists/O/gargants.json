@@ -1,8 +1,8 @@
 {
   "fraction": "Ork",
   "army": "EAR Evil Sunz Clan, Burzuruk's Gargant Big Mob",
-  "version": "1.4",
-  "release": "2019-03-09",
+  "version": "0.5.0",
+  "release": "2019-08-28",
   "strategy": "EAR Evil Sunz Clan, Burzuruk's Gargant Big Mob armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
@@ -87,15 +87,15 @@
       "formations": [
         {
           "name": "Big Mek Loota Warband",
-          "units": "One Nobz, three Boyz, two Grotz, one Gunfortress",
+          "units": "Four Boyz, two Grotz, one Gunfortress",
           "extraUnits": [
             "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: Add one Big Mob Oddboy character to a Gunfortress unit: 50 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "200"},
-            {"name": "Big", "points":  "300"},
-            {"name": "'Uge", "points":  "400"}
+            {"name": "Big", "points":  "325"},
+            {"name": "'Uge", "points":  "450"}
           ]
         },
         {
@@ -106,9 +106,9 @@
             "0-1: Add one Big Mob Oddboy character to a Battlefortress unit: 50 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "200"},
-            {"name": "Big", "points":  "300"},
-            {"name": "'Uge", "points":  "400"}
+            {"name": "Normal", "points":  "225"},
+            {"name": "Big", "points":  "350"},
+            {"name": "'Uge", "points":  "500"}
           ]
         },
         {
