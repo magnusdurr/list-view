@@ -21,19 +21,20 @@
       "from": "ORK.json",
       "units": [
         "Warlord",
-        "Ork Wyrdboy",
-        "Pigdok on Cyboar",
+        "Weirdboy",
+        "Pigdok",
         "Boyz",
         "Grotz",
         "Nobz",
-        "Ork Wildboyz",
-        "Ork Madboyz",
-        "Ork Boarboyz",
-        "Ork Squig Catapult",
-        "Orks Junkatruckz",
-        "Ork Squiggoth",
+        "Wildboyz",
+        "Madboyz",
+        "Boarboyz",
+        "Squig Katapult",
+        "Junkatruckk",
+        "Squiggoth",
+        "Gargantuan Squiggoth",
         "Orkeosaurus",
-        "Ork Steam Gargant"
+        "Steam Gargant"
       ],
       "unitRules": [
           "Super-Expendable"
@@ -51,10 +52,11 @@
             "Any number of Wildboyz: 10 points each",
             "Any number of Boarboyz: 20 points each",
             "Any number of Boyz (each with one optional unit of Grotz): 25 points",
-            "Up to three Squig Catapults: 25 points each",
+            "Up to three Squig Katapults: 25 points each",
             "Up to one Nobz: 35 points",
-            "Up to one Wyrdboy: 35 points",
+            "Up to one Weirdboy: 50 points",
             "Any number of Squiggoths: 50 points each",
+            "Up to one Gargantuan Squiggoth: 125 points",
             "Up to one Orkeosaurus: 175 points",
             "Up to one Steam Gargant: 150 points"
           ],
@@ -70,10 +72,11 @@
           "extraUnits": [
             "Any number of Wildboyz: 10 points each",
             "Any number of Boarboyz: 20 points each",
-            "Up to three Squig Catapults: 25 points each",
+            "Up to three Squig Katapults: 25 points each",
             "Up to one Nobz: 35 points each",
-            "Up to one Wyrdboy: 35 points",
-            "Any number of Squiggoths: 50 points each"
+            "Up to one Weirdboy: 50 points",
+            "Any number of Squiggoths: 50 points each",
+            "Up to one Gargantuan Squiggoth: 125 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
@@ -98,8 +101,8 @@
           "units": "Five Boarboyz",
           "extraUnits": [
             "Any number of Boarboyz: 20 points each",
-            "Up to one Wyrdboy: 35 points",
-            "Upgrade one unit of Boarboyz to a Pigdok on Cyboar: 30 points"
+            "Up to one Weirdboy: 50 points",
+            "Up to one Pigdok: 35 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "100"},
@@ -112,7 +115,7 @@
           "units": "Six Madboyz",
           "extraUnits": [
             "Up to six Madboyz: 15 points each",
-            "Up to three Wyrdboys: 25 points each"
+            "Up to three Weirdboys: 35 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
@@ -126,7 +129,7 @@
           "extraUnits": [
             "Any number of Boyz + Junkatrukk: 25 points",
             "Up to one Nobz with a Junkatrukk: 50 points",
-            "Up to one Wyrdboy: 35 points"
+            "Up to one Weirdboy: 50 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "175"},

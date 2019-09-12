@@ -3467,7 +3467,7 @@
         "modes": [
           {
             "firepower": "MW5+/AA5+",
-            "range": 30,
+            "range": 45,
             "specialRules": [
               "MW"
           ]
@@ -8174,7 +8174,7 @@
       ]
     },
     {
-      "name": "Squig Catapult",
+      "name": "Squig Katapult",
         "modes": [
           {
             "firepower": "1BP",
@@ -8528,8 +8528,8 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-              "EA(+1)",
-              "TK(1)"
+              "EA(+D3)",
+              "MW"
           ]
           }
       ]
