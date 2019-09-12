@@ -841,7 +841,6 @@
         "Big Gun"
       ],
       "specialRules": [
-        "Thick Rear Armour",
         "Walker",
         "Transport"
 
@@ -862,12 +861,12 @@
       ],
       "specialRules": [
         "Damage Capacity: 2",
-        "Thick Rear Armour",
         "Walker",
         "Transport"
 
     ],
-    "notes": "May carry up to eight of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to three Grotz in addition to any other units"
+    "notes": "May carry up to eight of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to three Grotz in addition to any other units.",
+    "crit": "The Gargantuan Squiggoth is killed."
     },
     {
       "name": "Orkeosaurus",
@@ -883,11 +882,10 @@
       ],
       "specialRules": [
         "Damage Capacity: 6",
-        "Thick Rear Armour",
         "Walker",
         "Transport"
       ],
-      "notes": "May carry up to sixteen of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to four Grotz in addition to any other units",
+      "notes": "May carry up to sixteen of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to four Grotz in addition to any other units.",
       "crit": "The Orkeosaurus takes one additional damage, and immediately rampages a full 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Orkeosaurus into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+."
     },
     {
@@ -900,14 +898,14 @@
       "weapons": [
         "Fist of Gork",
         "Soopagun|0-2|FxF",
-        "Mega-Choppa|0-2|FxF"
+        "Mega-Choppa|0-2|"
       ],
       "specialRules": [
         "Damage Capacity: 4",
         "Fearless",
         "Reinforced Armour",
         "Walker",
-        "May be armed with either 2 Soopaguns, or 1 Soopagun and 1 Mega-Choppa, or 2 Mega-Choppas."
+        "May be armed with either 2 Soopaguns, 1 Soopagun and 1 Mega-Choppa, or 2 Mega-Choppas."
       ],
       "crit": "The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 2D6cm of the model suffers a hit."
     }
