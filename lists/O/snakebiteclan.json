@@ -1,8 +1,8 @@
 {
   "fraction": "Ork",
   "army": "Snakebite Clan",
-  "version": "1.1",
-  "release": "2019-02-20",
+  "version": "0.7.0",
+  "release": "2019-09-12",
   "strategy": "Snakebite Clan armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
@@ -48,52 +48,58 @@
           "name": "Warband",
           "units": "Two Nobz, six Boyz and two Grotz",
           "extraUnits": [
-            "Any number of Boyz (each with optional Grotz), two Wildboyz, Boarboyz +25 points each",
-            "Up to three Squig Catapults +25 points each",
-            "Up to one Nobz +35 points each",
-            "Up to one Wyrdboy +50 points each",
-            "Any number of Squiggoths +50 points each",
-            "Up to one Orkeosaurus +175 points each"
+            "Any number of Wildboyz: 10 points each",
+            "Any number of Boarboyz: 20 points each",
+            "Any number of Boyz (each with one optional unit of Grotz): 25 points",
+            "Up to three Squig Catapults: 25 points each",
+            "Up to one Nobz: 35 points",
+            "Up to one Wyrdboy: 35 points",
+            "Any number of Squiggoths: 50 points each",
+            "Up to one Orkeosaurus: 150 points",
+            "Up to one Steam Gargant: 150 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "200"},
-            {"name": "Big", "points":  "350"},
-            {"name": "'Uge", "points":  "500"}
+            {"name": "Big", "points":  "325"},
+            {"name": "'Uge", "points":  "450"}
           ]
         },
         {
           "name": "Wildboyz",
           "units": "Two Nobz and six Wildboyz",
           "extraUnits": [
-            "Any number of Boarboyz, two Wildboyz +25 points each",
-            "Up to three Squig Catapults +25 points each",
-            "Up to one Nobz +35 points each",
-            "Enough Squiggoths to transport the formation +50 points each"
+            "Any number of Wildboyz: 10 points each",
+            "Any number of Boarboyz: 20 points each",
+            "Up to three Squig Catapults: 25 points each",
+            "Up to one Nobz: 35 points each",
+            "Up to one Wyrdboy: 35 points",
+            "Any number of Squiggoths: 50 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
-            {"name": "Big", "points":  "225"},
-            {"name": "'Uge", "points":  "325"}
+            {"name": "Big", "points":  "200"},
+            {"name": "'Uge", "points":  "275"}
           ]
         },
         {
           "name": "Trappas",
           "units": "Six Wildboyz (gain  Scouts ability)",
           "extraUnits": [
-            "Up to one Nobz +35 points each"
+            "Up to one Nobz: 35 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "150"},
+            {"name": "Normal", "points":  "125"},
             {"name": "Big", "points":  "N/A"},
             {"name": "'Uge", "points":  "N/A"}
           ]
         },
         {
-          "name": "Boarboyz Horde ",
+          "name": "Boarboyz Horde",
           "units": "Five Boarboyz",
           "extraUnits": [
-            "Any number of Boarboyz +25 points each",
-            "Up to one Pigdok on Cyboar +50 points each"
+            "Any number of Boarboyz: 20 points each",
+            "Up to one Wyrdboy: 35 points",
+            "Upgrade one unit of Boarboyz to a Pigdok on Cyboar: 30 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "100"},
@@ -105,11 +111,11 @@
           "name": "0-1 Madboyz Horde",
           "units": "Six Madboyz",
           "extraUnits": [
-            "Up to six Madboyz +15 points each",
-            "Up to three Wyrdboy +50 points each"
+            "Up to six Madboyz: 15 points each",
+            "Up to three Wyrdboys: 25 points each"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "100"},
+            {"name": "Normal", "points":  "125"},
             {"name": "Big", "points":  "N/A"},
             {"name": "'Uge", "points":  "N/A"}
           ]
@@ -118,18 +124,18 @@
           "name": "Junka Brigade",
           "units": "Six Boyz and six Junkatrukks ",
           "extraUnits": [
-            "Any number of Boyz (each with free Junkatrukk) +25 points each",
-            "Up to one Nobz with Junkatrukk +50 points each",
-            "Up to one Wyrdboy +50 points each"
+            "Any number of Boyz + Junkatrukk: 25 points",
+            "Up to one Nobz with a Junkatrukk: 50 points",
+            "Up to one Wyrdboy: 35 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "175"},
-            {"name": "Big", "points":  "300"},
+            {"name": "Big", "points":  "275"},
             {"name": "'Uge", "points":  "N/A"}
           ]
         },
         {
-          "name": "0-1 Steam Gargant ",
+          "name": "0-1 Steam Gargant Mob",
           "units": "One Steam Gargant",
           "extraUnits": [
 

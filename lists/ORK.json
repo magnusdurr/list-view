@@ -98,10 +98,10 @@
     "weapons": [
       "D3+1 Power Fields|0-1|",
       "Deff-Rolla and Red Paint Job|0-1|",
-      "Lifta-Droppa|0-1|"
+      "Wee Lifta-Droppa|0-1|"
     ],
     "specialRules": [
-        "The unit is given either [*] D3+1 power fields, or replaces a Big Gun with a Lifta Droppa, or is equipped with [**] Deff-Rolla (Improve CC to 2+) and Red Paint Job (+5 cm movement)."
+        "The unit is given either [*] D3+1 power fields, or replaces a Big Gun with a Wee Lifta Droppa, or is equipped with [**] Deff-Rolla (Improve CC to 2+) and Red Paint Job (+5 cm movement)."
     ]
   },
     {
@@ -668,13 +668,13 @@
       ]
     },
     {
-      "name": "Speed Freek Fighta",
+      "name": "Dakkajet",
       "type": "AC",
       "speed": "Fighter",
       "armour": 6,
 
       "weapons": [
-        "AC Heavy Shoota|2|FxF"
+        "AC Twin Supa Shoota|2|FxF"
       ],
       "specialRules": [
       ]
@@ -825,14 +825,14 @@
       "Big Shoota"
       ],
       "specialRules": [
-        "Transport (may carry one of the following units: Boyz, Nobz, Wildboyz. May carry one Grotz in addition to any other units)."
+        "Transport (may carry one of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry one Grotz in addition to any other units)."
       ]
     },
     {
       "name": "Ork Squiggoth",
-      "type": "AV",
+      "type": "LV",
       "speed": 20,
-      "armour": 4,
+      "armour": 3,
       "cc": 4,
       "ff": 5,
       "weapons": [
@@ -841,16 +841,18 @@
         "Big Gun"
       ],
       "specialRules": [
-        "Reinforced Armour",
-        "Transport (may carry up to four of the following units: Boyz, Nobz, Wildboyz. May carry up to two Grotz in addition to any other units). "
+        "Thick Rear Armour",
+        "Walker",
+        "Transport"
 
-      ]
+    ],
+    "notes": "May carry up to four of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to two Grotz in addition to any other units"
     },
     {
       "name": "Orkeosaurus",
       "type": "WE",
-      "speed": "15cm",
-      "armour": 4,
+      "speed": 20,
+      "armour": 3,
       "cc": 4,
       "ff": 5,
       "weapons": [
@@ -860,10 +862,12 @@
       ],
       "specialRules": [
         "Damage Capacity: 6",
-        "Reinforced Armour",
-        "Transport (may carry up to twelve of the following units: Boyz, Nobz, Wildboyz. May carry up to six Grotz in addition to any other units)"
+        "Thick Rear Armour",
+        "Walker",
+        "Transport"
       ],
-      "crit": "The unit takes a point of damage and moves 3D6cm in a random direction. If it moves into impassable terrain it stops and is destroyed. If it moves into another unit or units, it stops and one of those units suffers a macro-weapon hit"
+      "notes": "May carry up to twelve of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to six Grotz in addition to any other units",
+      "crit": "The Orkeosaurus takes one additional damage, and immediately rampages a full 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Orkeosaurus into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+."
     },
     {
       "name": "Ork Steam Gargant",
@@ -882,9 +886,9 @@
         "Fearless",
         "Reinforced Armour",
         "Walker",
-        "May be armed with either 2 Soopaguns, or 1 Soopagun and 1 Mega-Choppa, or 2 Mega-Choppa."
+        "May be armed with either 2 Soopaguns, or 1 Soopagun and 1 Mega-Choppa, or 2 Mega-Choppas."
       ],
-      "crit": "The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 2D6cm of the model suffer a hit."
+      "crit": "The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 5cm of the model suffers a hit."
     }
     ]
   }
