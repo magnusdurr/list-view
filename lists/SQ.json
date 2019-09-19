@@ -4,7 +4,7 @@
 
 	],
 	"unit": [{
-			"name": "Squat Living Ancestor",
+			"name": "Living Ancestor",
 			"type": "CH",
 			"weapons": [
 				"n/a"
@@ -108,13 +108,13 @@
 			"ff": 3,
 			"weapons": [
 				"Missile Launcher",
-				"Heavy Bolter|3|"
+				"Heavy Bolter|2|"
 			],
 			"specialRules": [
 			]
 		},
 		{
-			"name": "Squat Rapier",
+			"name": "Rapier",
 			"type": "INF",
 			"speed": 10,
 			"cc": 6,
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "Squat Mole Mortar",
+			"name": "Mole Mortar",
 			"type": "INF",
 			"speed": 10,
 			"cc": 6,
@@ -138,7 +138,7 @@
 			]
 		},
 		{
-			"name": "Squat Thudd Gun",
+			"name": "Thudd Gun",
 			"type": "INF",
 			"speed": 10,
 			"cc": 6,
@@ -150,7 +150,7 @@
 			]
 		},
 		{
-			"name": "Squat Guildmaster Trike",
+			"name": "Guildmaster Trike",
 			"type": "LV",
 			"speed": 30,
 			"armour": 3,
@@ -205,7 +205,7 @@
 			]
 		},
 		{
-			"name": "Squat Land Raider",
+			"name": "Land Raider",
 			"type": "AV",
 			"speed": 25,
 			"armour": 4,
@@ -220,10 +220,10 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
 		},
 		{
-			"name": "Squat Rhino",
+			"name": "Rhino",
 			"type": "AV",
 			"speed": 30,
 			"armour": 5,
@@ -235,11 +235,11 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
 		},
 
 		{
-			"name": "Squat Iron Eagle Gunship",
+			"name": "Iron Eagle Gunship",
 			"type": "AC",
 			"speed": "Bomber[*]",
 			"armour": 4,
@@ -247,10 +247,10 @@
 				"AC Twin Autocannons||FxF",
 				"Battle Cannon||FxF"
 			],
-			"notes": "[*] Squat Iron Eagle Gunships may perform the 'Intercept' action."
+			"notes": "[*] Iron Eagle Gunships are Bombers that may also perform the 'Intercept' action."
 		},
 		{
-			"name": "Squat Steel Hawk Gyrokopter",
+			"name": "Steel Hawk Gyrokopter",
 			"type": "AV",
 			"speed": 30,
 			"armour": 4,
@@ -261,20 +261,20 @@
                 "Multi-Melta"
 			],
             "specialRules": [
-                "Skimmer"
+                "Scout, Skimmer"
             ]
 		},
 		{
-			"name": "Squat Overlord Dirigible",
+			"name": "Overlord Dirigible",
 			"type": "WE",
 			"speed": "20",
 			"armour": 5,
 			"ff": 4,
 			"weapons": [
-				"Battle Cannon|3|Left",
-				"Battle Cannon|3|Right",
+				"Battle Cannon|6|FxF",
 				"Twin Autocannons|2|FxF",
-				"Overlord Barrage||FxF"
+				"Overlord Barrage||FxF",
+				"Flak Cannons"
 			],
 			"specialRules": [
 				"Damage Capacity 3",
@@ -285,7 +285,7 @@
 
 		},
 		{
-			"name": "Squat Termite",
+			"name": "Termite",
 			"type": "AV",
 			"speed": "10",
 			"armour": 4,
@@ -298,10 +298,10 @@
 				"Tunneler",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards and Rapiers takes two spaces each."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
 		},
 		{
-			"name": "Squat Hellbore",
+			"name": "Hellbore",
 			"type": "WE",
 			"speed": "Immobile",
 			"armour": 5,
@@ -318,12 +318,12 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
+			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
 			"crit": "The Hellbore is destroyed."
 
 		},
 		{
-			"name": "Squat Goliath Mega Cannon",
+			"name": "Goliath Mega Cannon",
 			"type": "WE",
 			"speed": "5cm",
 			"armour": 6,
@@ -338,7 +338,7 @@
 		},
 
 		{
-	      "name": "Squat Leviathan",
+	      "name": " Leviathan",
 	      "type": "WE",
 	      "speed": 20,
 	      "armour": 5,
@@ -347,12 +347,11 @@
 	      "weapons": [
 	        "Imperial Doomsday Cannon||FxF",
 	        "Battle Cannon",
-	        "Twin Lascannons|3|Left",
-	        "Twin Lascannons|3|Right",
+	        "Twin Lascannons|6|FxF",
 	        "Storm Bolter Array"
 	      ],
 	      "specialRules": [
-	        "Damage Capacity: 6",
+	        "Damage Capacity: 5",
 	        "Void Shields: 4",
 	        "Reinforced Armour",
 			"Thick Rear Armour",
@@ -363,7 +362,7 @@
 	      "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
 	    },
 		{
-			"name": "Squat Colossus",
+			"name": " Colossus",
 			"type": "WE",
 			"speed": "15",
 			"armour": 4,
@@ -377,7 +376,7 @@
 		        "Storm Bolter Array"
 			],
 			"specialRules": [
-				"Damage Capacity: 6",
+				"Damage Capacity: 5",
 		        "Void Shields: 4",
 		        "Reinforced Armour",
 				"Thick Rear Armour",
@@ -389,7 +388,7 @@
 
 		},
 		{
-			"name": "Squat Cyclops",
+			"name": " Cyclops",
 			"type": "WE",
 			"speed": "15",
 			"armour": 5,
@@ -401,7 +400,7 @@
 				"Plasma Missile|6|FxF"
 			],
 			"specialRules": [
-				"Damage Capacity: 6",
+				"Damage Capacity: 5",
 		        "Void Shields: 4",
 		        "Reinforced Armour",
 				"Thick Rear Armour",

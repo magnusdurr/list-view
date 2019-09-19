@@ -1,8 +1,8 @@
-{
-  "fraction": "Squats",
+ {
+  "fraction": "EAR Squats",
   "army": "Wodan Stronghold",
-  "version": "0.6.0",
-  "release": "2019-05-21",
+  "version": "0.6.1",
+  "release": "2019-09-20",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -22,30 +22,30 @@
       "units": [
         "Squat Grand Warlord",
         "Squat Warlord",
-        "Squat Living Ancestor",
+        "Living Ancestor",
         "Squat Tech-Priest",
         "Squat Warriors",
         "Squat Berserkers",
         "Squat Bikers",
         "Squat Hearthguard",
         "Squat Thunderers",
-        "Squat Mole Mortar",
-        "Squat Rapier",
-        "Squat Thudd Gun",
-        "Squat Guildmaster Trike",
+        "Mole Mortar",
+        "Rapier",
+        "Thudd Gun",
+        "Guildmaster Trike",
         "Squat Trike",
         "Squat Thunderfire",
-        "Squat Rhino",
-        "Squat Land Raider",
-        "Squat Iron Eagle Gunship",
-        "Squat Steel Hawk Gyrokopter",
-        "Squat Termite",
-        "Squat Hellbore",
-        "Squat Goliath Mega Cannon",
-        "Squat Overlord Dirigible",
-        "Squat Leviathan",
-        "Squat Colossus",
-        "Squat Cyclops",
+        "Rhino",
+        "Land Raider",
+        "Iron Eagle Gunship",
+        "Steel Hawk Gyrokopter",
+        "Termite",
+        "Hellbore",
+        "Goliath Mega Cannon",
+        "Overlord Dirigible",
+        "Leviathan",
+        "Colossus",
+        "Cyclops",
         "Squat Land Train"
       ],
         "unitRules": [
@@ -77,42 +77,42 @@
 
           ],
           "points": 200
-        }
+      },
+      {
+        "name": "Berserkers",
+        "units": "One Squat Warlord and six Squat Berserkers",
+        "extraUnits": [
+            "Grand Warlord",
+            "Hearthguards",
+            "Transport"
+        ],
+        "points": 150
+    }
       ]
     },
     {
       "name": "Wodan Stronghold Support Formations",
       "description": "up to two Stronghold Support Formations for each Stronghold Core Formation.",
       "formations": [
-          {
-            "name": "Berserkers",
-            "units": "One Squat Warlord and six Squat Berserkers",
-            "extraUnits": [
-                "Grand Warlord",
-                "Hearthguards",
-                "Transport"
-            ],
-            "points": 150
-        },
         {
           "name": "Bikers",
           "units": "Six Squat Bikers",
           "extraUnits": [
-              "Add one Squat Guildmaster Trike: 25 points",
+              "Add one Guildmaster Trike: 25 points",
               "Replace up to three Squat Bikers with Squat Trikes: Free"
           ],
           "points": 200
         },
         {
           "name": "Gyrokopters",
-          "units": "Four Squat Steel Hawk Gyrokopters",
+          "units": "Four Steel Hawk Gyrokopters",
           "extraUnits": [
           ],
           "points": 225
         },
         {
-          "name": "Dirigible",
-          "units": "One Squat Overlord Dirigible",
+          "name": "Overlord",
+          "units": "One Overlord Dirigible",
           "extraUnits": [
           ],
           "points": 250
@@ -128,16 +128,16 @@
         },
         {
           "name": "Light Artillery Battery",
-          "units": "Five Squat Mole Mortars",
+          "units": "Five Mole Mortars",
           "extraUnits": [
-              "Replace five Squat Mole Mortars with five Squat Thudd Guns: Free",
+              "Replace five Mole Mortars with five Thudd Guns: Free",
               "Rapiers"
           ],
           "points": 200
         },
         {
           "name": "Vultarax Maniple",
-          "units": "One Squat Steel Hawk Gyrokopter and five Vultarax Robots",
+          "units": "One Steel Hawk Gyrokopter and five Vultarax Robots",
           "extraUnits": [
 
           ],
@@ -162,7 +162,7 @@
       "formations": [
         {
           "name": "Goliath Battery",
-          "units": "Two Squat Goliath Mega Cannons",
+          "units": "Two Goliath Mega Cannons",
           "extraUnits": [
           ],
           "points": 275
@@ -177,27 +177,27 @@
         },
         {
             "name": "Leviathan",
-            "units": "One Squat Leviathan",
+            "units": "One Leviathan",
             "extraUnits": [
                 "Living Ancestor"
             ],
-            "points": 350
+            "points": 400
         },
         {
             "name": "Colossus",
-            "units": "One Squat Colossus",
+            "units": "One Colossus",
             "extraUnits": [
                 "Living Ancestor"
             ],
-            "points": 475
+            "points": 500
         },
         {
             "name": "Cyclops",
-            "units": "One Squat Cyclops",
+            "units": "One Cyclops",
             "extraUnits": [
                 "Living Ancestor"
             ],
-            "points": 475
+            "points": 450
         },
         {
             "name": "Land Train",
@@ -213,7 +213,7 @@
         },
         {
             "name": "Iron Eagle Squadron",
-            "units": "Two Squat Iron Eagle Gunships",
+            "units": "Two Iron Eagle Gunships",
             "extraUnits": [
             ],
             "points": 175
@@ -240,8 +240,8 @@
         "name": "Hearthguards",
         "options": [
           {
-            "description": "Replace up to three Squat Berserkers with Squat Hearthguards",
-            "points": "15 points each"
+            "description": "Replace up to two Squat Berserkers with Squat Hearthguards",
+            "points": "25 points each"
           }
         ]
       },
@@ -249,7 +249,7 @@
         "name": "Thunderers",
         "options": [
           {
-            "description": "Replace up to four Squat Warriors with Squat Thunderers",
+            "description": "Replace up to two Squat Warriors with Squat Thunderers",
             "points": "15 points each"
           }
         ]
@@ -259,14 +259,14 @@
         "description": "Choose one of the following options:",
         "options": [
           {
-            "description": "Add enough Squat Rhinos and/or Squat Land Raiders to transport the entire formation with no space left over",
+            "description": "Add enough  Rhinos and/or Land Raiders to transport the entire formation with no space left over",
             "points": [
-              "10 points for each Squat Rhino",
-              "50 points for each Squat Land Raider"
+              "10 points for each Rhino",
+              "50 points for each Land Raider"
             ]
           },
           {
-            "description": "Add enough Squat Termites to transport the entire formation with no space left over. The formation must enter the game by Tunneling",
+            "description": "Add enough Termites to transport the entire formation with no space left over. The formation must enter the game by Tunneling",
             "points": "20 points each"
         }
         ]
@@ -275,8 +275,8 @@
         "name": "Rapiers",
         "options": [
           {
-            "description": "Add three Squat Rapiers",
-            "points": "50 points"
+            "description": "Add two Rapiers",
+            "points": "35 points"
           }
         ]
       },
