@@ -1,6 +1,6 @@
 {
   "fraction": "Ork",
-  "army": "Snakebite Clan",
+  "army": "EAR Snakebite Clan, WAAAGH! Ghazghkull",
   "version": "0.7.0",
   "release": "2019-09-12",
   "strategy": "Snakebite Clan armies have a Strategy Rating of 3.",
@@ -21,7 +21,7 @@
       "from": "ORK.json",
       "units": [
         "Warlord",
-        "Weirdboy",
+        "Wyrdboy",
         "Pigdok",
         "Boyz",
         "Grotz",
@@ -54,9 +54,9 @@
             "Any number of Boyz (each with one optional unit of Grotz): 25 points",
             "Up to three Squig Katapults: 25 points each",
             "Up to one Nobz: 35 points",
-            "Up to one Weirdboy: 50 points",
-            "Any number of Squiggoths: 50 points each",
-            "Up to one Gargantuan Squiggoth: 125 points",
+            "Up to one Wyrdboy: 50 points",
+            "Any number of Squiggoths: 40 points each",
+            "Up to one Gargantuan Squiggoth: 115 points",
             "Up to one Orkeosaurus: 200 points",
             "Up to one Steam Gargant: 225 points"
           ],
@@ -74,9 +74,10 @@
             "Any number of Boarboyz: 20 points each",
             "Up to three Squig Katapults: 25 points each",
             "Up to one Nobz: 35 points each",
-            "Up to one Weirdboy: 50 points",
-            "Any number of Squiggoths: 50 points each",
-            "Up to one Gargantuan Squiggoth: 125 points"
+            "Up to one Wyrdboy: 50 points",
+            "Any number of Squiggoths: 40 points each",
+            "Up to one Gargantuan Squiggoth: 115 points",
+            "Up to one Orkeosaurus: 200 points (Big or 'Uge Warbands only)"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
@@ -86,7 +87,7 @@
         },
         {
           "name": "Trappas",
-          "units": "Six Wildboyz (gain  Scouts ability)",
+          "units": "Six Wildboyz (gain 'Scouts' ability)",
           "extraUnits": [
             "Up to one Nobz: 35 points"
           ],
@@ -101,7 +102,7 @@
           "units": "Five Boarboyz",
           "extraUnits": [
             "Any number of Boarboyz: 20 points each",
-            "Up to one Weirdboy: 50 points",
+            "Up to one Wyrdboy: 50 points",
             "Up to one Pigdok: 35 points"
           ],
           "pointsOptions": [
@@ -115,7 +116,7 @@
           "units": "Six Madboyz",
           "extraUnits": [
             "Up to six Madboyz: 15 points each",
-            "Up to three Weirdboys: 35 points each"
+            "Up to three Wyrdboys: 35 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
@@ -129,7 +130,7 @@
           "extraUnits": [
             "Any number of Boyz + Junkatrukk: 25 points",
             "Up to one Nobz + Junkatrukk: 50 points",
-            "Up to one Weirdboy: 50 points"
+            "Up to one Wyrdboy: 50 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "175"},

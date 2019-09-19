@@ -5315,29 +5315,9 @@
       "modes": [
         {
           "firepower": "MW3+",
-          "range": 60,
-          "specialRules": [
-              "TK(D3)"
-        ]
-        },
-        {
-          "firepower": "Assault Weapons",
-          "join": "and",
-          "specialRules": [
-              "EA(+1)",
-              "TK(1)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Wee Lifta-Droppa",
-      "modes": [
-        {
-          "firepower": "MW3+",
           "range": 45,
           "specialRules": [
-              "TK(D3)"
+              "TK(D3+1)"
         ]
         },
         {
@@ -5350,6 +5330,7 @@
         }
       ]
     },
+
     {
       "name": "Lightning Cannon",
         "modes": [
