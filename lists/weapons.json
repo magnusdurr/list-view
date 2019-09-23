@@ -1525,9 +1525,10 @@
       "name": "0-1 Bomb Battle Car",
       "modes": [
         {
-          "firepower": "8BP",
+          "firepower": "2BP",
           "range": 75,
           "specialRules": [
+              "Spec[**]",
               "MW",
               "SS"
       ]
@@ -4166,6 +4167,15 @@
       ]
     },
     {
+      "name": "Multiple Heavy Bolters",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Heavy Bolter AA Turret",
       "modes": [
         {
@@ -5560,7 +5570,7 @@
       "name": "Squat Mega Cannon",
         "modes": [
           {
-            "firepower": "2BP",
+            "firepower": "3BP",
             "range": 120,
             "specialRules": [
                 "IC",

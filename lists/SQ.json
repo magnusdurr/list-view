@@ -16,7 +16,7 @@
 			]
 		},
 		{
-			"name": "Squat Grand Warlord",
+			"name": "Squat Supreme Chieftain",
 			"type": "CH",
 			"weapons": [
 				"Master-Crafted Gun"
@@ -27,7 +27,7 @@
 			]
 		},
 		{
-			"name": "Squat Warlord",
+			"name": "Squat Chieftain",
 			"type": "CH",
 			"weapons": [
 				"Power Weapon"
@@ -85,7 +85,7 @@
 		{
 			"name": "Squat Hearthguard",
 			"type": "INF",
-			"speed": 10,
+			"speed": 15,
 			"armour": 4,
 			"cc": 3,
 			"ff": 5,
@@ -102,13 +102,13 @@
 		{
 			"name": "Squat Thunderers",
 			"type": "INF",
-			"speed": 10,
+			"speed": 15,
 			"armour": 6,
 			"cc": 6,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Missile Launcher",
-				"Heavy Bolter|2|"
+				"Multiple Heavy Bolters|2|"
 			],
 			"specialRules": [
 			]
@@ -152,9 +152,9 @@
 		{
 			"name": "Guildmaster Trike",
 			"type": "LV",
-			"speed": 30,
+			"speed": 35,
 			"armour": 3,
-			"cc": 3,
+			"cc": 4,
 			"ff": 5,
 			"weapons": [
 				"Twin Bolters",
@@ -168,8 +168,8 @@
 		{
 			"name": "Squat Trike",
 			"type": "LV",
-			"speed": 30,
-			"armour": 4,
+			"speed": 35,
+			"armour": 5,
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
@@ -182,7 +182,7 @@
 			"name": "Squat Bikers",
 			"type": "INF",
 			"speed": 35,
-			"armour": 4,
+			"armour": 5,
 			"cc": 4,
 			"ff": 5,
 			"weapons": [
@@ -196,7 +196,7 @@
 			"name": "Squat Thunderfire",
 			"type": "AV",
 			"speed": "Immobile",
-			"armour": 4,
+			"armour": 6,
 			"ff": 5,
 			"weapons": [
 				"Squat Thunderfire Cannons"
@@ -265,6 +265,43 @@
             ]
 		},
 		{
+			"name": "Termite",
+			"type": "AV",
+			"speed": "10",
+			"armour": 4,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Storm Bolter"
+            ],
+			"specialRules": [
+				"Tunneler",
+				"Transport"
+			],
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
+		},
+		{
+			"name": "Hellbore",
+			"type": "WE",
+			"speed": "Immobile",
+			"armour": 3,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+	        "Storm Bolter Array"
+			],
+			"specialRules": [
+				"Damage Capacity 4",
+				"Fearless",
+				"Tunneler",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
+			"crit": "The Hellbore is destroyed."
+
+		},
+		{
 			"name": "Overlord Dirigible",
 			"type": "WE",
 			"speed": "20",
@@ -285,44 +322,6 @@
 
 		},
 		{
-			"name": "Termite",
-			"type": "AV",
-			"speed": "10",
-			"armour": 4,
-			"cc": 6,
-			"ff": 6,
-			"weapons": [
-				"Storm Bolter"
-            ],
-			"specialRules": [
-				"Tunneler",
-				"Transport"
-			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
-		},
-		{
-			"name": "Hellbore",
-			"type": "WE",
-			"speed": "Immobile",
-			"armour": 5,
-			"cc": 6,
-			"ff": 5,
-			"weapons": [
-	        "Storm Bolter Array"
-			],
-			"specialRules": [
-				"Damage Capacity 4",
-				"Fearless",
-				"Tunneler",
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
-			"crit": "The Hellbore is destroyed."
-
-		},
-		{
 			"name": "Goliath Mega Cannon",
 			"type": "WE",
 			"speed": "5cm",
@@ -338,7 +337,7 @@
 		},
 
 		{
-	      "name": " Leviathan",
+	      "name": "Leviathan",
 	      "type": "WE",
 	      "speed": 20,
 	      "armour": 5,
@@ -358,11 +357,11 @@
 	        "Fearless",
 			"Transport"
 	      ],
-	      "notes": "May transport ten infantry units without jumppack or mounted. Hearthguards, Rapiers, Thudd Guns and Mole Mortars takes two spaces each. Up to two units may shoot and FF from the Leviathan's fighting platform",
-	      "crit": "The Leviathan takes one additional damage, and D3 transported units takes a hit"
+	      "notes": "May transport ten infantry units without jumppack or mounted. Hearthguards takes two spaces each. Up to two units may shoot and FF from the Leviathan's fighting platform",
+	      "crit": "The Leviathan is immobilized. Subsequent crits causes one additional damage, and D3 transported units takes a hit."
 	    },
 		{
-			"name": " Colossus",
+			"name": "Colossus",
 			"type": "WE",
 			"speed": "15",
 			"armour": 4,
@@ -384,11 +383,11 @@
 				"Transport"
 			],
 			"notes": "May transport one Steel Hawk Gyrokopter and up to five Vultarax Robots",
-			"crit": "The Colossus takes one an additional damage, and D3 transported units takes a hit."
+			"crit": "The Colossus is immobilized. Subsequent crits causes one additional damage, and D3 transported units takes a hit."
 
 		},
 		{
-			"name": " Cyclops",
+			"name": "Cyclops",
 			"type": "WE",
 			"speed": "15",
 			"armour": 5,
@@ -406,7 +405,7 @@
 				"Thick Rear Armour",
 		        "Fearless"
 			],
-			"crit": "The Cyclops is destroyed. All units within 5cm takes a hit."
+			"crit": "The Cyclops may no longer fire its Hellfury Cannon. Subsequent crits destroys the Cyclops, and all units within 5cm takes a hit."
 
 		},
 		{
@@ -433,7 +432,7 @@
 				"Thick Rear Armour",
 		        "Fearless"
 			],
-			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train.",
+			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train. [**]The Bomb Battle Car uses the large Orbital Barrage template.",
 			"crit": "The last Battle Car is destroyed. If no Battle Cars remain the Land Train is destroyed."
 
 		}

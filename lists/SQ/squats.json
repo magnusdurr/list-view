@@ -20,8 +20,8 @@
     {
       "from": "SQ.json",
       "units": [
-        "Squat Grand Warlord",
-        "Squat Warlord",
+        "Squat Supreme Chieftain",
+        "Squat Chieftain",
         "Living Ancestor",
         "Squat Tech-Priest",
         "Squat Warriors",
@@ -68,10 +68,10 @@
       "formations": [
         {
           "name": "Warriors",
-          "units": "One Squat Warlord and eight Squat Warriors",
+          "units": "One Squat Chieftain and eight Squat Warriors",
           "extraUnits": [
-              "Grand Warlord",
-              "Thunderers",
+              "Supreme Chieftain",
+              "Hearthguards",
               "Rapiers",
               "Transport"
 
@@ -80,9 +80,9 @@
       },
       {
         "name": "Berserkers",
-        "units": "One Squat Warlord and six Squat Berserkers",
+        "units": "One Squat Chieftain and six Squat Berserkers",
         "extraUnits": [
-            "Grand Warlord",
+            "Supreme Chieftain",
             "Hearthguards",
             "Transport"
         ],
@@ -111,20 +111,13 @@
           "points": 225
         },
         {
-          "name": "Overlord",
-          "units": "One Overlord Dirigible",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
           "name": "Thunderers",
           "units": "Four Squat Thunderers",
           "extraUnits": [
             "Rapiers",
             "Transport"
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Light Artillery Battery",
@@ -133,7 +126,7 @@
               "Replace five Mole Mortars with five Thudd Guns: Free",
               "Rapiers"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Vultarax Maniple",
@@ -152,14 +145,21 @@
         {
           "name": "Thunderfire Battery",
           "units": "Three Squat Thunderfires, three Gun Emplacements",
-          "points": 175
+          "points": 150
         }
       ]
     },
     {
       "name": "Wodan Stronghold War Engines and Flyers",
-      "description": "Up to a third of the points available may be spent on Wodan Stronghold War Engines and Flyers",
+      "description": "Up to forty percent of the points available may be spent on Wodan Stronghold War Engines and Flyers",
       "formations": [
+          {
+            "name": "Overlord",
+            "units": "One Overlord Dirigible",
+            "extraUnits": [
+            ],
+            "points": 250
+          },
         {
           "name": "Goliath Battery",
           "units": "Two Goliath Mega Cannons",
@@ -206,7 +206,7 @@
                 "Dragon Battle Car: 75 points each",
                 "Siege Mortar Battle Car: 75 points each",
                 "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
-                "0-1 Bomb Battle Car: 125 points",
+                "0-1 Bomb Battle Car: 150 points",
                 "Living Ancestor"
             ],
             "points": 200
@@ -228,10 +228,10 @@
     "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
-        "name": "Grand Warlord",
+        "name": "Supreme Chieftain",
         "options": [
           {
-            "description": "Replace the Squat Warlord with a Squat Grand Warlord",
+            "description": "Replace the Squat Chieftain with a Squat Supreme Chieftain",
             "points": "50 points"
           }
         ]
@@ -240,17 +240,8 @@
         "name": "Hearthguards",
         "options": [
           {
-            "description": "Replace up to two Squat Berserkers with Squat Hearthguards",
-            "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Thunderers",
-        "options": [
-          {
-            "description": "Replace up to two Squat Warriors with Squat Thunderers",
-            "points": "15 points each"
+            "description": "Replace up to two units with Squat Hearthguards",
+            "points": "30 points each"
           }
         ]
       },
@@ -259,7 +250,7 @@
         "description": "Choose one of the following options:",
         "options": [
           {
-            "description": "Add enough  Rhinos and/or Land Raiders to transport the entire formation with no space left over",
+            "description": "Add enough Rhinos and/or Land Raiders to transport the entire formation with no space left over",
             "points": [
               "10 points for each Rhino",
               "50 points for each Land Raider"
