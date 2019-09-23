@@ -551,6 +551,18 @@
       ]
     },
     {
+        "name": "Mole Mortar",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+            "Mole Mortar"
+        ],
+        "specialRules": [
+        ]
+    },
+    {
       "name": "Mole Launcher Squad",
       "type": "INF",
       "speed": 15,
@@ -1544,7 +1556,7 @@
         "Transport"
       ],
       "notes": "May carry 10 infantry units without Jump Pack or Mounted.",
-      "crit": "The Gorgon is Immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon.."
+      "crit": "The Gorgon is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon.."
     },
     {
       "name": "Baneblade",
@@ -1678,18 +1690,34 @@
         ],
         "crit": "The unit is destroyed."
     },
+    {
+        "name": "Termite",
+        "type": "AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+            "Storm Bolter"
+        ],
+        "specialRules": [
+            "Tunneler",
+            "Transport"
+        ],
+        "notes": "May transport two infantry units without Jump Packs or Mounted. Must start the game in the reserves, and may only enter the battlefield through tunneling."
+    },
   {
       "name": "Hellbore",
       "type": "WE",
       "speed": "Immobile",
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
       "Storm Bolter Array"
       ],
       "specialRules": [
-          "Damage Capacity 4",
+          "Damage Capacity 3",
           "Fearless",
           "Tunneler",
           "Reinforced Armour",
@@ -1701,7 +1729,7 @@
 
   },
       {
-        "name": "Imperial Leviathan",
+        "name": "Leviathan",
         "type": "WE",
         "speed": 20,
         "armour": 5,
@@ -1714,15 +1742,15 @@
           "Storm Bolter Array"
         ],
         "specialRules": [
-          "Damage Capacity: 5",
+          "Damage Capacity: 4",
           "Void Shields: 4",
           "Reinforced Armour",
           "Thick Rear Armour",
           "Fearless",
           "Transport"
         ],
-        "notes": "May transport ten infantry units without jumppack or mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
-        "crit": "The Leviathan is immobilized. Subsequent crits causes one additional damage, and D3 transported units takes a hit."
+        "notes": "May transport ten infantry units without Jump Packs or Mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
+        "crit": "The Leviathan is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the Leviathan."
       }
     ]
   }

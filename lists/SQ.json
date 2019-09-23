@@ -10,16 +10,16 @@
 				"n/a"
 			],
 			"specialRules": [
-				"Spirit of the Ancients",
+				"Ancients' Óðr",
 				"Leader",
 				"Inspiring"
 			]
 		},
 		{
-			"name": "Squat Supreme Chieftain",
+			"name": "Supreme Chieftain",
 			"type": "CH",
 			"weapons": [
-				"Master-Crafted Gun"
+				"Power Weapon"
 			],
 			"specialRules": [
 				"Supreme Commander",
@@ -71,7 +71,6 @@
 			"name": "Squat Berserkers",
 			"type": "INF",
 			"speed": 15,
-			"armour": 6,
 			"cc": 4,
 			"ff": 5,
 			"weapons": [
@@ -102,49 +101,13 @@
 		{
 			"name": "Squat Thunderers",
 			"type": "INF",
-			"speed": 15,
+			"speed": 10,
 			"armour": 6,
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Missile Launcher",
-				"Multiple Heavy Bolters|2|"
-			],
-			"specialRules": [
-			]
-		},
-		{
-			"name": "Rapier",
-			"type": "INF",
-			"speed": 10,
-			"cc": 6,
-			"ff": 5,
-			"weapons": [
-				"Rapier Laser Destroyer"
-			],
-			"specialRules": [
-			]
-		},
-		{
-			"name": "Mole Mortar",
-			"type": "INF",
-			"speed": 10,
-			"cc": 6,
-			"ff": 6,
-			"weapons": [
-				"Mole Mortar"
-			],
-			"specialRules": [
-			]
-		},
-		{
-			"name": "Thudd Gun",
-			"type": "INF",
-			"speed": 10,
-			"cc": 6,
-			"ff": 5,
-			"weapons": [
-				"Thudd Gun"
+				"Multiple Lascannons",
+				"Multiple Heavy Bolters"
 			],
 			"specialRules": [
 			]
@@ -193,19 +156,22 @@
 			]
 		},
 		{
-			"name": "Squat Thunderfire",
+			"name": "Squat Rhino",
 			"type": "AV",
-			"speed": "Immobile",
-			"armour": 6,
-			"ff": 5,
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
 			"weapons": [
-				"Squat Thunderfire Cannons"
+				"Storm Bolter"
 			],
 			"specialRules": [
-			]
+				"Transport"
+			],
+			"notes": "May transport two infantry units without Jump Packs or Mounted."
 		},
 		{
-			"name": "Land Raider",
+			"name": "Squat Land Raider",
 			"type": "AV",
 			"speed": 25,
 			"armour": 4,
@@ -220,24 +186,20 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
+			"notes": "May transport two infantry units without Jump Packs or Mounted."
 		},
 		{
-			"name": "Rhino",
+			"name": "Squat Thunderfire",
 			"type": "AV",
-			"speed": 30,
-			"armour": 5,
-			"cc": 6,
-			"ff": 6,
+			"speed": "Immobile",
+			"armour": 6,
+			"ff": 5,
 			"weapons": [
-				"Storm Bolter"
+				"Squat Thunderfire Cannons"
 			],
 			"specialRules": [
-				"Transport"
-			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
+			]
 		},
-
 		{
 			"name": "Iron Eagle Gunship",
 			"type": "AC",
@@ -265,47 +227,10 @@
             ]
 		},
 		{
-			"name": "Termite",
-			"type": "AV",
-			"speed": "10",
-			"armour": 4,
-			"cc": 6,
-			"ff": 6,
-			"weapons": [
-				"Storm Bolter"
-            ],
-			"specialRules": [
-				"Tunneler",
-				"Transport"
-			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Hearthguards take two spaces each."
-		},
-		{
-			"name": "Hellbore",
-			"type": "WE",
-			"speed": "Immobile",
-			"armour": 3,
-			"cc": 6,
-			"ff": 5,
-			"weapons": [
-	        "Storm Bolter Array"
-			],
-			"specialRules": [
-				"Damage Capacity 4",
-				"Fearless",
-				"Tunneler",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport twelve infantry units without Jump Packs or Mounted. Hearthguards takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
-			"crit": "The Hellbore is destroyed."
-
-		},
-		{
 			"name": "Overlord Dirigible",
 			"type": "WE",
 			"speed": "20",
-			"armour": 5,
+			"armour": 3,
 			"ff": 4,
 			"weapons": [
 				"Battle Cannon|6|FxF",
@@ -315,10 +240,9 @@
 			],
 			"specialRules": [
 				"Damage Capacity 3",
-				"Reinforced Armour",
 				"Support Craft"
 			],
-			"crit": "The Overlord is destroyed. Units within 5cm takes a hit on 5+."
+			"crit": "The Overlord is destroyed. All units within 5cm takes a hit on 5+."
 
 		},
 		{
@@ -337,29 +261,27 @@
 		},
 
 		{
-	      "name": "Leviathan",
-	      "type": "WE",
-	      "speed": 20,
-	      "armour": 5,
-	      "cc": 6,
-	      "ff": 4,
-	      "weapons": [
-	        "Imperial Doomsday Cannon||FxF",
-	        "Battle Cannon",
-	        "Twin Lascannons|6|FxF",
-	        "Storm Bolter Array"
-	      ],
-	      "specialRules": [
-	        "Damage Capacity: 5",
-	        "Void Shields: 4",
-	        "Reinforced Armour",
-			"Thick Rear Armour",
-	        "Fearless",
-			"Transport"
-	      ],
-	      "notes": "May transport ten infantry units without jumppack or mounted. Hearthguards takes two spaces each. Up to two units may shoot and FF from the Leviathan's fighting platform",
-	      "crit": "The Leviathan is immobilized. Subsequent crits causes one additional damage, and D3 transported units takes a hit."
-	    },
+			"name": "Cyclops",
+			"type": "WE",
+			"speed": "15",
+			"armour": 5,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Hellfury Cannon||FxF",
+				"Battle Cannon",
+				"Doomstorm Missile|6|FwA"
+			],
+			"specialRules": [
+				"Damage Capacity: 5",
+		        "Void Shields: 4",
+		        "Reinforced Armour",
+				"Thick Rear Armour",
+		        "Fearless"
+			],
+			"crit": "The Cyclops may no longer fire its Hellfury Cannon. Subsequent crits destroys the Cyclops, and all units within 5cm takes a hit."
+
+		},
 		{
 			"name": "Colossus",
 			"type": "WE",
@@ -371,7 +293,7 @@
 				"Imperial Doomsday Cannon||FxF",
 		        "Battle Cannon|4|FxF",
 		        "Demolisher||FxF",
-		        "Plasma Missile|4|FxF",
+		        "Plasma Missile|4|FwA",
 		        "Storm Bolter Array"
 			],
 			"specialRules": [
@@ -383,29 +305,7 @@
 				"Transport"
 			],
 			"notes": "May transport one Steel Hawk Gyrokopter and up to five Vultarax Robots",
-			"crit": "The Colossus is immobilized. Subsequent crits causes one additional damage, and D3 transported units takes a hit."
-
-		},
-		{
-			"name": "Cyclops",
-			"type": "WE",
-			"speed": "15",
-			"armour": 5,
-			"cc": 6,
-			"ff": 4,
-			"weapons": [
-				"Hellfury Cannon||FxF",
-				"Battle Cannon",
-				"Plasma Missile|6|FxF"
-			],
-			"specialRules": [
-				"Damage Capacity: 5",
-		        "Void Shields: 4",
-		        "Reinforced Armour",
-				"Thick Rear Armour",
-		        "Fearless"
-			],
-			"crit": "The Cyclops may no longer fire its Hellfury Cannon. Subsequent crits destroys the Cyclops, and all units within 5cm takes a hit."
+			"crit": "The Colossus is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the Colossus."
 
 		},
 		{

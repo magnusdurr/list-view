@@ -1503,6 +1503,7 @@
           "firepower": "4x AP4+",
           "range": 30,
           "specialRules": [
+              "IC"
       ]
         }
       ]
@@ -1528,9 +1529,9 @@
           "firepower": "2BP",
           "range": 75,
           "specialRules": [
-              "Spec[**]",
               "MW",
-              "SS"
+              "SS",
+              "Spec[**]"
       ]
         }
       ]
@@ -4176,6 +4177,15 @@
       ]
     },
     {
+      "name": "Multiple Lascannons",
+      "modes": [
+        {
+          "firepower": "AT4+",
+          "range": 45
+        }
+      ]
+    },
+    {
       "name": "Heavy Bolter AA Turret",
       "modes": [
         {
@@ -6478,6 +6488,18 @@
             "range": 60,
             "specialRules": [
                 "Ind",
+                "SS"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Doomstorm Missile",
+        "modes": [
+          {
+            "firepower": "AT2+",
+            "range": 120,
+            "specialRules": [
                 "SS"
           ]
           }
