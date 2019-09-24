@@ -1727,31 +1727,7 @@
       "notes": "May transport twelve infantry units without Jump Packs or Mounted. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
       "crit": "The Hellbore is destroyed."
 
-  },
-      {
-        "name": "Leviathan",
-        "type": "WE",
-        "speed": 20,
-        "armour": 5,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "Imperial Doomsday Cannon||FxF",
-          "Battle Cannon",
-          "Twin Lascannons|6|FxF",
-          "Storm Bolter Array"
-        ],
-        "specialRules": [
-          "Damage Capacity: 4",
-          "Void Shields: 4",
-          "Reinforced Armour",
-          "Thick Rear Armour",
-          "Fearless",
-          "Transport"
-        ],
-        "notes": "May transport ten infantry units without Jump Packs or Mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
-        "crit": "The Leviathan is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the Leviathan."
-      }
+  }
     ]
   }
 ]

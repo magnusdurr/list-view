@@ -1,14 +1,14 @@
  {
   "fraction": "EAR Squats",
   "army": "Wotan Stronghold",
-  "version": "0.7.0",
-  "release": "2019-09-23",
+  "version": "0.7.1",
+  "release": "2019-09-25",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
       "Indomitable",
-      "Ancients' Óðr",
+      "Ancients' Guidance",
       "Shield Disruptor",
       "Support Craft",
       "Tunnelers",
@@ -39,6 +39,7 @@
         "Steel Hawk Gyrokopter",
         "Goliath Mega Cannon",
         "Overlord Dirigible",
+          "Leviathan",
         "Colossus",
         "Cyclops",
         "Squat Land Train"
@@ -55,8 +56,7 @@
           "Rapier",
           "Thudd Gun",
           "Termite",
-          "Hellbore",
-            "Leviathan"
+          "Hellbore"
         ],
               "unitRules": []
     },
@@ -95,7 +95,7 @@
           {
             "name": "Berserkers",
             "units": "Six Squat Berserkers",
-            "extraUnits": [
+            "extraUnit": [
                 "Must take one of the following options",
                 "Deploy the formation inside a Hellbore: Free",
                 "Add three Rhinos to the formation: 25 points",
@@ -126,7 +126,8 @@
           "name": "Light Artillery Battery",
           "units": "Five Thudd Guns",
           "extraUnits": [
-              "Replace five Thudd Guns with six Mole Mortars or seven Rapiers: Free"
+              "Replace five Thudd Guns with five Mole Mortars or six Rapiers: Free",
+              "Add Gun Emplacements to the formation: 25 points"
           ],
           "points": 175
         },
@@ -136,16 +137,12 @@
           "points": 150
       },
         {
-          "name": "Gyrokopters",
+          "name": "Gyrokopter Squadron",
           "units": "Four Steel Hawk Gyrokopters",
           "extraUnits": [
+              "Add four Vultarax Robots: 75 points"
           ],
           "points": 225
-        },
-        {
-          "name": "Vultarax Maniple",
-          "units": "One Steel Hawk Gyrokopter, five Vultarax Robots",
-          "points": 200
         },
         {
           "name": "Conqueror Maniple",

@@ -10,7 +10,7 @@
 				"n/a"
 			],
 			"specialRules": [
-				"Ancients' Óðr",
+				"Ancients' Guidance",
 				"Leader",
 				"Inspiring"
 			]
@@ -219,7 +219,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Lascannons",
+				"Missile Launcher",
                 "Multi-Melta"
 			],
             "specialRules": [
@@ -259,7 +259,30 @@
 			],
 			"crit": "The unit is destroyed. All units within 5cm takes a hit."
 		},
-
+		{
+          "name": "Leviathan",
+          "type": "WE",
+          "speed": 20,
+          "armour": 5,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Imperial Doomsday Cannon||FxF",
+            "Battle Cannon",
+            "Twin Lascannons|6|FxF",
+            "Storm Bolter Array"
+          ],
+          "specialRules": [
+            "Damage Capacity: 4",
+            "Void Shields: 4",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Fearless",
+            "Transport"
+          ],
+          "notes": "May transport ten infantry units without Jump Packs or Mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
+          "crit": "The Leviathan is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the Leviathan."
+	  },
 		{
 			"name": "Cyclops",
 			"type": "WE",
@@ -301,11 +324,9 @@
 		        "Void Shields: 4",
 		        "Reinforced Armour",
 				"Thick Rear Armour",
-		        "Fearless",
-				"Transport"
+		        "Fearless"
 			],
-			"notes": "May transport one Steel Hawk Gyrokopter and up to five Vultarax Robots",
-			"crit": "The Colossus is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the Colossus."
+				"crit": "The Colossus is immobilized, and may not move for the rest of the game. Subsequent crits destroys the Colossus."
 
 		},
 		{
@@ -332,8 +353,8 @@
 				"Thick Rear Armour",
 		        "Fearless"
 			],
-			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train. [**]The Bomb Battle Car uses the large Orbital Barrage template.",
-			"crit": "The last Battle Car is destroyed. If no Battle Cars remain the Land Train is destroyed."
+			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train. [**]The Bomb Battle Car uses the large Orbital Barrage template, and is fired after all normal BP type weapons.",
+			"crit": "The last Battle Car in the train is destroyed. If no Battle Cars remain the Land Train engine is destroyed."
 
 		}
 	]

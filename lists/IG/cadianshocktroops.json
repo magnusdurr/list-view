@@ -31,7 +31,6 @@
         "Leman Russ Punisher",
         "Crassus Assault Transport",
         "Praetor Assault Launcher",
-        "Imperial Leviathan",
         "Stormlord",
         "Shadowsword",
         "Baneblade",
@@ -41,6 +40,13 @@
         "unitRules": [
             "Heavy Armoured Vehicle (H-AV)"
           ]
+    },
+    {
+      "from": "SQ.json",
+      "units": [
+          "Leviathan"
+        ],
+      "unitRules": []
     },
     {
       "from": "ImperialAllies.json",
@@ -71,7 +77,7 @@
           "name": "0–1 Regimental HQ",
           "units": "One Cadian Supreme Commander with a Commissar, eight Kasrkin, one Stormlord.",
           "extraUnits": [
-              "Upgrade the Stormlord to an Imperial Leviathan: 125 points",
+              "Upgrade the Stormlord to an Leviathan: 125 points",
               "Lord Commissar",
               "Leman Russ Squadron",
               "Super Heavy Tank"
