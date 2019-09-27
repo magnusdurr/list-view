@@ -10,13 +10,13 @@
 				"n/a"
 			],
 			"specialRules": [
-				"Ancients' Guidance",
+				"Spirit Lords",
 				"Leader",
 				"Inspiring"
 			]
 		},
 		{
-			"name": "Supreme Chieftain",
+			"name": "Squat Grand Warlord",
 			"type": "CH",
 			"weapons": [
 				"Power Weapon"
@@ -27,7 +27,7 @@
 			]
 		},
 		{
-			"name": "Squat Chieftain",
+			"name": "Squat Warlord",
 			"type": "CH",
 			"weapons": [
 				"Power Weapon"
@@ -93,15 +93,14 @@
 				"Bolt Pistols"
 			],
 			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour"
+				"Reinforced Armour"
 			]
 
 		},
 		{
 			"name": "Squat Thunderers",
 			"type": "INF",
-			"speed": 10,
+			"speed": 15,
 			"armour": 6,
 			"cc": 6,
 			"ff": 4,
@@ -214,7 +213,7 @@
 		{
 			"name": "Steel Hawk Gyrokopter",
 			"type": "AV",
-			"speed": 30,
+			"speed": 25,
 			"armour": 4,
 			"cc": 6,
 			"ff": 5,
@@ -267,7 +266,7 @@
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Imperial Doomsday Cannon||FxF",
+            "Squat Doomsday Cannon||FxF",
             "Battle Cannon",
             "Twin Lascannons|6|FxF",
             "Storm Bolter Array"
@@ -287,13 +286,13 @@
 			"name": "Cyclops",
 			"type": "WE",
 			"speed": "15",
-			"armour": 5,
+			"armour": 4,
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
 				"Hellfury Cannon||FxF",
 				"Battle Cannon",
-				"Doomstorm Missile|6|FwA"
+				"Doomstorm Missile|6|FxF"
 			],
 			"specialRules": [
 				"Damage Capacity: 5",
@@ -313,7 +312,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Imperial Doomsday Cannon||FxF",
+				"Squat Doomsday Cannon||FxF",
 		        "Battle Cannon|4|FxF",
 		        "Demolisher||FxF",
 		        "Plasma Missile|4|FwA",
@@ -333,11 +332,11 @@
 			"name": "Squat Land Train",
 			"type": "WE",
 			"speed": "20",
-			"armour": 5,
+			"armour": 4,
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"Imperial Doomsday Cannon||FxF",
+				"Squat Doomsday Cannon||FxF",
 		        "Battle Cannon|2|",
 		        "Storm Bolter Array",
 				"BATTLE CAR WEAPONS",
@@ -350,10 +349,9 @@
 				"Damage Capacity: 2 + the current number of Battle Cars",
 				"Void Shields: the current number of Battle Cars",
 				"Reinforced Armour",
-				"Thick Rear Armour",
 		        "Fearless"
 			],
-			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train. [**]The Bomb Battle Car uses the large Orbital Barrage template, and is fired after all normal BP type weapons.",
+			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train. [**]The Bomb Battle Car uses the large Orbital Barrage template. It is resolved separately from other BP type weapons.",
 			"crit": "The last Battle Car in the train is destroyed. If no Battle Cars remain the Land Train engine is destroyed."
 
 		}

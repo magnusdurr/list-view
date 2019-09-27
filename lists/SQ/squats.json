@@ -1,15 +1,14 @@
  {
   "fraction": "EAR Squats",
   "army": "Wotan Stronghold",
-  "version": "0.7.1",
-  "release": "2019-09-25",
+  "version": "0.7.2",
+  "release": "2019-09-27",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
       "Indomitable",
-      "Ancients' Guidance",
-      "Shield Disruptor",
+      "Spirit Lords",
       "Support Craft",
       "Tunnelers",
       "Fortified Positions"
@@ -21,8 +20,8 @@
     {
       "from": "SQ.json",
       "units": [
-        "Supreme Chieftain",
-        "Squat Chieftain",
+        "Squat Grand Warlord",
+        "Squat Warlord",
         "Living Ancestor",
         "Squat Tech-Priest",
         "Squat Warriors",
@@ -74,12 +73,12 @@
       "name": "Wotan Stronghold Core Formations",
       "formations": [
         {
-          "name": "Warrior Retinue",
-          "units": "One Squat Chieftain in a Hearthguard unit, seven Squat Warriors",
+          "name": "Squat Brotherhood",
+          "units": "One Squat Warlord in a Hearthguard unit, seven Squat Warriors",
           "extraUnits": [
               "Add up to four Squat Warriors: 15 points each",
               "Replace up to two Squat Warriors with Hearthguards: 35 points each",
-              "Supreme Chieftain",
+              "Squat Grand Warlord",
               "Rapiers",
               "Transport"
 
@@ -95,7 +94,7 @@
           {
             "name": "Berserkers",
             "units": "Six Squat Berserkers",
-            "extraUnit": [
+            "extraUnits": [
                 "Must take one of the following options",
                 "Deploy the formation inside a Hellbore: Free",
                 "Add three Rhinos to the formation: 25 points",
@@ -142,7 +141,7 @@
           "extraUnits": [
               "Add four Vultarax Robots: 75 points"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Conqueror Maniple",
@@ -173,7 +172,6 @@
           "name": "Hellbore",
           "units": "One Hellbore",
           "extraUnits": [
-                "Living Ancestor"
           ],
           "points": 200
         },
@@ -230,10 +228,10 @@
     "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
-        "name": "Supreme Chieftain",
+        "name": "Squat Grand Warlord",
         "options": [
           {
-            "description": "Replace the Squat Chieftain with a Supreme Chieftain",
+            "description": "Replace the Squat Warlord with a Squat Grand Warlord",
             "points": "50 points"
           }
         ]

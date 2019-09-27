@@ -1517,8 +1517,7 @@
           "specialRules": [
               "IC",
               "Ind",
-              "Slw",
-              "FxF"
+              "Slw"
       ]
         }
       ]
@@ -1533,7 +1532,7 @@
               "MW",
               "SS",
               "Spec[**]",
-              "FxF"
+              "FwA"
       ]
         }
       ]
@@ -3147,13 +3146,13 @@
       ]
     },
     {
-      "name": "Imperial Doomsday Cannon",
+      "name": "Squat Doomsday Cannon",
         "modes": [
           {
             "firepower": "3BP",
             "range": 90,
             "specialRules": [
-              "IC"
+              "MW"
           ]
           }
       ]
@@ -4484,8 +4483,7 @@
             "firepower": "MW2+",
             "range": 100,
             "specialRules": [
-                "TK(D6)",
-                "Shield Disruptor"
+                "TK(D6)"
           ]
           }
       ]
