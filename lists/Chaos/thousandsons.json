@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Thousand Sons",
-  "version": "0.8.4",
-  "release": "2019-05-22",
+  "version": "0.8.5",
+  "release": "2019-09-28",
   "strategy": "Thousand Sons armies have a Strategy Rating of 4.",
   "Initiative": "All Thousand Sons Core and Elite formations, as well as the Warphound Pack formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -23,6 +23,7 @@
       "units": [
         "Exalted Sorcerer",
         "Aspiring Sorcerer",
+        "Champion of Tzeench",
         "Daemon Prince of Tzeench",
         "Chaos Space Marines",
         "Scarab Occult Terminators",
@@ -99,7 +100,7 @@
         {
           "name": "Thousand Sons Retinue",
           "units": "Six Rubric Marines, one Aspiring Sorcerer",
-          "upgrades": [
+          "extraUnits": [
             "Supreme Commander",
             "Transport",
             "Predators",
@@ -116,7 +117,8 @@
         {
           "name": "Chaos Space Marines",
           "units": "Four Chaos Space Marines, one Aspiring Sorcerer",
-          "upgrades": [
+          "extraUnits": [
+            "Replace the Aspiring Sorcerer with a Champion of Tzeench: 25 points",
             "Dreadnoughts",
             "Predators",
             "Transport"
@@ -126,7 +128,7 @@
         {
           "name": "Thousand Sons Terminators",
           "units": "Four Scarab Occult Terminators, one Aspiring Sorcerer",
-          "upgrades": [
+          "extraUnits": [
               "Supreme Commander",
               "Terminator Transport"
           ],
@@ -135,7 +137,7 @@
       {
         "name": "Predator Company",
         "units": "Four Thousand Sons Predators",
-        "upgrades": [
+        "extraUnits": [
             "Predators"
         ],
         "points": 200
@@ -143,7 +145,7 @@
     {
       "name": "Sorcerer Disc Riders",
       "units": "Six Sorcerer Disc Riders, one Aspiring Sorcerer",
-      "upgrades": [
+      "extraUnits": [
         "Supreme Commander"
       ],
       "points": 250
@@ -157,7 +159,7 @@
       {
         "name": "Tzaangor Warhost",
         "units": "Nine Tzaangors, Daemonic Pact",
-        "upgrades": [
+        "extraUnits": [
           "Beasts of Chaos"
         ],
         "points": 200
@@ -165,21 +167,21 @@
   {
     "name": "Tzeench Defilers",
     "units": "Four Decievers",
-    "upgrades": [
+    "extraUnits": [
     ],
     "points": 250
     },
         {
       "name": "Silver Towers",
       "units": "Four Silver Towers",
-      "upgrades": [
+      "extraUnits": [
       ],
       "points": 300
     },
     {
     "name": "Mirrorfiends",
     "units": "Two Mirrorfiends",
-    "upgrades": [
+    "extraUnits": [
     ],
     "points": 300
     }
@@ -192,28 +194,28 @@
           {
             "name": "Warp Palace",
             "units": "One Warp Palace",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 500
             },
           {
             "name": "Warphound Pack",
             "units": "Two Warphound Titans",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 500
           },
           {
             "name": "Doomwings of Tzeench",
             "units": "Three Doomwings",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 175
           },
           {
             "name": "Firelords of Tzeench",
             "units": "Two Firelords",
-            "upgrades": [
+            "extraUnits": [
               "Add one Firelord: 100 points"
             ],
             "points": 225
@@ -221,7 +223,7 @@
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 150
         }
