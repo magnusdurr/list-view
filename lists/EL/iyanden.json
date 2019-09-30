@@ -30,8 +30,6 @@
         "Eldar Exarch",
         "Eldar Farseer",
         "Eldar Guardians",
-        "Eldar Heavy Weapons Platform",
-        "Support Weapons Platform",
         "Eldar Rangers",
         "Eldar Jetbikes",
         "Dire Avengers",
@@ -52,10 +50,10 @@
         "Fire Prism",
         "Night Spinner",
         "Firestorm",
-        "Wraithknight",
         "Scorpion",
         "Cobra",
         "Storm Serpent",
+        "Wraithknight",
         "Revenant Titan",
         "Phantom Titan",
         "Warlock Titan"
@@ -118,9 +116,8 @@
         },
         {
           "name": "Spirit Walker",
-          "units": "One Spiritseer character and six Wraithlords",
+          "units": "Six Wraithlords",
           "extraUnits": [
-            "Wraithseer"
           ],
           "points": 350
         }
@@ -173,11 +170,11 @@
         },
         {
           "name": "Ranger Troupe",
-          "units": "Four Eldar Rangers",
+          "units": "Five Eldar Rangers",
           "extraUnits": [
-            "Add up to two Eldar Rangers for 25 points each"
+            "Add up to one Eldar Ranger for 25 points"
           ],
-          "points": 100
+          "points": 125
         },
         {
           "name": "War Walker Troupe",
@@ -283,16 +280,6 @@
         "name": "Exarch",
         "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
         "points": "25 points"
-      },
-      {
-        "name": "Heavy Weapons",
-        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platform units",
-        "points": "Free"
-      },
-      {
-        "name": "Support Weapons",
-        "description": "Add three Eldar Support Weapon Platform units",
-        "points": "50 points"
       },
       {
         "name": "Vypers",

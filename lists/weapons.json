@@ -1527,8 +1527,9 @@
       "modes": [
         {
           "firepower": "3BP",
-          "range": 90,
+          "range": 60,
           "specialRules": [
+              "Ind",
               "MW",
               "SS"
       ]
@@ -7803,14 +7804,6 @@
             "EA(+1)",
             "MW"
         ]
-        },
-        {
-          "firepower": "Small Arms",
-          "join": "and",
-          "specialRules": [
-            "EA(+1)",
-            "MW"
-          ]
         }
       ]
     },
@@ -8819,7 +8812,7 @@
             "firepower": "Assault Weapons",
             "specialRules": [
                 "EA(+1)",
-                "TK(1)"
+                "MW"
           ]
           }
       ]

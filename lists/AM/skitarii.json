@@ -77,7 +77,7 @@
     },
     {
       "name": "Skitarii Line Formations",
-      "description": "up to three Support Formations for each Core Formation.",
+      "description": "Up to three Skitarii Line Formations for each Core Formation.",
       "formations": [
         {
           "name": "Secutarii Maniple",
@@ -88,14 +88,6 @@
             "Rapiers"
           ],
           "points": 150
-        },
-        {
-          "name": "Praetorian Maniple",
-          "units": "Five Praetorians, one Tech-Priest",
-          "upgrades": [
-            "Servitors"
-          ],
-          "points": 225
         },
         {
           "name": "Kastelan Maniple",
@@ -112,6 +104,14 @@
             "Servitors"
           ],
           "points": 200
+        },
+        {
+          "name": "Praetorian Maniple",
+          "units": "Five Praetorians, one Tech-Priest",
+          "upgrades": [
+            "Servitors"
+          ],
+          "points": 225
         },
         {
           "name": "Onager Cohort",

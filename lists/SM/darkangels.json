@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Dark Angels",
-  "version": "0.9.0",
-  "release": "2019-07-08",
+  "version": "0.9.1",
+  "release": "2019-09-29",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
@@ -40,8 +40,6 @@
         "Land Raider",
         "Land Raider Ares",
         "Deathwing Land Raider",
-        "Deimos Predator Executioner",
-        "Deimos Laser Vindicator",
         "Predator Destructor",
         "Predator Annihilator",
         "Rhino",
@@ -184,17 +182,8 @@
         },
         {
           "name": "0-1 Dreadwing Relic Detachment",
-          "units": "Either two Glaives, or four Deimos Predator Executioners and three Deimos Laser Vindicators",
-          "pointsOptions": [
-            {
-              "name": "Glaives",
-              "points": "550"
-            },
-            {
-              "name": "Deimos",
-              "points": "450"
-            }
-          ]
+          "units": "Two Glaives",
+          "points": 550
         }
       ]
     },
