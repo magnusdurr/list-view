@@ -18,8 +18,10 @@
     "Heavy Armoured Vehicle (H-AV)"
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Eldar Craftworld Iyanden ."
-  ],
+   "v1.0.0: The EA-R Iyanden Craftworld list owes its basic structure to the NetEA version on the list, with a number important changes and additions, most of which have been inherited from the process of making the 'main' EA-R Craftworld Eldar list: Biel-Tan. With the Wraithguard being reduced to 3+ save, Wraithblades got the same save. These units no longer being 4++ and Fearless allowed for making their formations somewhat cheaper.",
+   "The other main change has been to the number of Troupes, with only one Troupe is can be bought for each Warhost. This is intended to both balance the cheaper Warhosts, reinforce the 'Wraith' theme of the list, and create more of a distinction between the Iyanden and other Eldar lists. To further reinforce this distinction, and to avoid the list becoming too rigid, the WE/SS/AC part of the list has been increased to 40%.",
+   "The Iyanden list has also gained access to a Wraithknight formation, using the 'Knight' H-AV unit type."
+],
   "units": [
     {
       "from": "EL.json",
@@ -30,6 +32,8 @@
         "Eldar Exarch",
         "Eldar Farseer",
         "Eldar Guardians",
+        "Eldar Heavy Weapons Platform",
+        "Support Weapons Platform",
         "Eldar Rangers",
         "Eldar Jetbikes",
         "Dire Avengers",
@@ -95,6 +99,7 @@
     },
     {
       "name": "Iyanden Warhosts",
+      "description": "Up to one Spirit Walker Warhost for each Spirit Guard or Spirit Blade Warhost",
       "formations": [
         {
           "name": "Spirit Guard",
@@ -103,21 +108,22 @@
             "Wraithseer, Wraithlords, Wraithguards",
             "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Spirit Blades",
           "units": "One Spiritseer character and four Wraithblades",
           "extraUnits": [
-            "Wraithseer, Wraithlord",
+            "Wraithseer, Wraithlord, Wraithblades",
             "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
           ],
-          "points": 175
+          "points": 150
         },
         {
-          "name": "Spirit Walker",
-          "units": "Six Wraithlords",
+          "name": "Spirit Walkers",
+          "units": "One Spiritseer, Six Wraithlords",
           "extraUnits": [
+              "Wraithseer"
           ],
           "points": 350
         }
@@ -127,8 +133,17 @@
       "name": "Iyanden Troupes",
       "description": "Up to one for each Iyanden Warhost taken",
       "formations": [
+          {
+            "name": "Guardian Warhost",
+            "units": "One Farseer unit and seven Guardians",
+            "extraUnits": [
+              "Heavy Weapons, Support Weapons, Wraithguard, Wraithblades, Wraithlord.",
+              "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
+            ],
+            "points": 150
+        },
         {
-          "name": "Aspect Warrior Warhost",
+          "name": "Aspect Warrior Troupe",
           "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders ",
           "extraUnits": [
             "Exarch",
@@ -150,7 +165,7 @@
           "extraUnits": [
             "Replace up to two Falcons with Firestorms: Free",
             "OR",
-            "Add five Guardians to the formation: 100 points"
+            "Add five Guardians to the formation: 75 points"
           ],
           "points": 250
         },
@@ -198,7 +213,7 @@
     },
     {
       "name": "Iyanden Aircraft, Spacecraft and Titans",
-      "description": "Up to forty percent of the points available may be spent on these formations",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
           "name": "Nightwing Aerie",
@@ -210,11 +225,10 @@
         },
         {
           "name": "Phoenix Aerie",
-          "units": "Two Phoenix Bombers",
+          "units": "Three Phoenix Bombers",
           "extraUnits": [
-            "Add one Phoenix Bomber: 75 Points"
           ],
-          "points": 250
+          "points": 325
         },
         {
           "name": "Vampire",
@@ -292,10 +306,15 @@
         "points": "75 points"
       },
       {
+        "name": "Wraithblades",
+        "description": "Add two Eldar Wraithblades",
+        "points": "50 points"
+      },
+      {
         "name": "Wraithlord",
         "description": "Add two Eldar Wraithlords",
-        "points": "100 points"
+        "points": "125 points"
       }
-    ]
-  }
+  ]
+   }
 }

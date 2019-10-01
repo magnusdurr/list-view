@@ -3,18 +3,18 @@
     <small>Version {{version}} - {{release}}</small>
 </p>
 
+{{> special-rules}}
+
 {{#if introduction}}
 <p>{{introduction}}</p>
 {{/if}}
 
 {{#if usage}}
-<h5>Using The Army List</h5>
+<h5>Boosts, Tweaks & Nerfs</h5>
 {{#each usage}}
 <p>{{{this}}}</p>
 {{/each}}
 {{/if}}
-
-{{> special-rules}}
 
 <h2>{{army}} Army List</h2>
 <p>{{strategy}} {{Initiative}} {{{armyRules}}}</p>
