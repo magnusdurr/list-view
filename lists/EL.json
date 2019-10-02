@@ -230,7 +230,7 @@
       ]
     },
     {
-      "name": "Ghost Walkers",
+      "name": "Corsair Ghost Walkers",
       "type": "INF",
       "speed": 30,
       "armour": 6,
@@ -242,6 +242,22 @@
       ],
       "specialRules": [
         "Scouts",
+        "Jump Packs"
+      ]
+    },
+    {
+      "name": "Corsair Wasp Walker",
+      "type": "LV",
+      "speed": 35,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Starcannon"
+      ],
+      "specialRules": [
+        "Scout",
+        "Walker",
         "Jump Packs"
       ]
     },
@@ -451,7 +467,7 @@
       ]
     },
     {
-      "name": "Heavy Wraithguards",
+      "name": "Wraithreapers",
       "type": "INF",
       "speed": 15,
       "armour": 3,
@@ -525,22 +541,7 @@
         "Walker"
       ]
     },
-    {
-      "name": "Wasp Walker",
-      "type": "LV",
-      "speed": 35,
-      "armour": 6,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Twin Starcannon"
-      ],
-      "specialRules": [
-        "Scout",
-        "Walker",
-        "Jump Packs"
-      ]
-    },
+
     {
       "name": "Hornet",
       "type": "LV",
@@ -602,7 +603,7 @@
       "specialRules": [
         "Reinforced Armour",
         "Skimmer",
-        "Transport (May carry up to two of the following: Farseer, Guardians, Eldar Rangers, Pathfinders, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders. Wraithguards and Wraithblades take two spaces each)"
+        "Transport (May carry up to two of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders. Wraithguards and Wraithblades take two spaces each)"
       ]
     },
     {
@@ -618,7 +619,7 @@
       ],
       "specialRules": [
         "Skimmer",
-        "Transport (May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Pathfinders, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders.)"
+        "Transport (May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders.)"
       ]
     },
     {
