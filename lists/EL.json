@@ -61,8 +61,7 @@
         "n/a"
       ],
       "specialRules": [
-        "Supreme Commander",
-        "Inspiring"
+        "Supreme Commander"
       ]
     },
     {
@@ -125,7 +124,7 @@
         "Invulnerable Save",
         "Walker"
       ],
-      "crit": "The Avatar is destroyed. All Eldar formations with a line of sight to the Avatar receive one Blast Marker."
+      "crit": "The Avatar is destroyed. All Craftworld Eldar formations (friend and foe) with a line of sight to the Avatar receive one Blast Marker."
     },
     {
       "name": "Eldar Exarch",
@@ -868,7 +867,7 @@
         "Jump Pack",
         "Walker"
       ],
-      "crit": "The Revenant’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Revenant Titan’s Holofield projector is destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Phantom Titan",
@@ -890,41 +889,27 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Phantom Titan's Holofield projector is destroyed. Any further critical hits cause an additional point of damage."
     },
     {
-      "name": "Yme-Loc Phantom Titan",
+      "name": " Phantom Titan",
       "type": "WE",
       "speed": 25,
       "armour": 5,
       "cc": 3,
       "ff": 3,
       "weapons": [
-        "Titan Pulsar|1-2|",
+        "ARMS (choose two. Max one 0-1)",
+        "Titan Pulsar",
+        "Dire Pulsar",
+        "Star Pulsar",
+        "Vibro Cannon",
+        "Titan D-Cannon",
         "Eldar Titan Power Fist|0-1|",
-        "Twin Eldar Missile Launcher|2|"
-      ],
-      "specialRules": [
-        "Damage Capacity: 6",
-        "Fearless",
-        "Holofield (3+)",
-        "Leader",
-        "Reinforced Armour",
-        "Walker"
-      ],
-      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
-    },
-    {
-      "name": "Fir Iolarion Phantom Titan",
-      "type": "WE",
-      "speed": 25,
-      "armour": 5,
-      "cc": 3,
-      "ff": 3,
-      "weapons": [
-        "Titan D-Cannon|1-2|",
         "Ashuna-Valcry'le|0-1|",
-        "Suncannon"
+        "CARAPACE",
+        "Twin Eldar Missile Launcher|2|"
+
       ],
       "specialRules": [
         "Damage Capacity: 6",
@@ -934,51 +919,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
-    },
-    {
-      "name": "Mymeara Phantom Titan",
-      "type": "WE",
-      "speed": 25,
-      "armour": 5,
-      "cc": 3,
-      "ff": 3,
-      "weapons": [
-        "Titan D-Cannon|0-1|",
-        "Dire Pulsar|1-2|",
-        "Voidstorm Missile Launcher"
-      ],
-      "specialRules": [
-        "Damage Capacity: 6",
-        "Fearless",
-        "Holofield (3+)",
-        "Leader",
-        "Reinforced Armour",
-        "Walker"
-      ],
-      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
-    },
-    {
-      "name": "Kinshara Phantom Titan",
-      "type": "WE",
-      "speed": 25,
-      "armour": 5,
-      "cc": 3,
-      "ff": 3,
-      "weapons": [
-        "Vibro Cannon|1-2|",
-        "Star Pulsar|0-1|",
-        "Suncannon"
-      ],
-      "specialRules": [
-        "Damage Capacity: 6",
-        "Fearless",
-        "Holofield (3+)",
-        "Leader",
-        "Reinforced Armour",
-        "Walker"
-      ],
-      "crit": "The Phantom Titan's Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Phantom Titan's Holofield projector is destroyed. Any further critical hits cause an additional point of damage."
     },
     {
       "name": "Warlock Titan",
@@ -1002,7 +943,7 @@
         "Reinforced Armour",
         "Walker"
       ],
-      "crit": "The Warlock’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
+      "crit": "The Warlock Titan’s Holofield projector is destroyed. Any further critical hits cause an additional point of damage."
     }
     ]
   }

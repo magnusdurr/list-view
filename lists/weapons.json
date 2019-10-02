@@ -57,7 +57,13 @@
             }
         ]
       },
-
+      {
+        "name": "CARAPACE",
+          "modes": [
+            {
+            }
+        ]
+      },
       {
         "name": "CARAPACE (choose one)",
           "modes": [
@@ -1249,7 +1255,7 @@
         "modes": [
           {
             "firepower": "2x MW5+",
-            "range": 30,
+            "range": 15,
             "specialRules": [
           ]
           },
@@ -1265,8 +1271,8 @@
           "firepower": "Assault Weapons",
           "join": "or",
           "specialRules": [
-            "EA(+2)",
-            "TK(D3)"
+            "EA(+1)",
+            "TK(D3+3)"
         ]
       }
       ]
@@ -3030,7 +3036,7 @@
         "modes": [
           {
             "firepower": "3x MW3+",
-            "range": 60,
+            "range": 90,
             "specialRules": [
           ]
         }
@@ -5042,7 +5048,9 @@
             "join": "and",
             "specialRules": [
               "EA(+1)",
-              "TK(1)"
+              "IC",
+              "TK(1)",
+              "Shield Disruptor"
           ]
         }
       ]
@@ -8240,9 +8248,9 @@
       "modes": [
         {
           "firepower": "MW2+",
-          "range": 75,
+          "range": 120,
           "specialRules": [
-            "TK(D3)"
+            "TK(D3+1)"
           ]
         }
       ]
@@ -8873,7 +8881,7 @@
       "name": "Titan D-Cannon",
         "modes": [
           {
-            "firepower": "MW3+ FxF",
+            "firepower": "MW3+",
             "range": 45,
             "specialRules": [
               "TK(D3+1)",
@@ -8881,7 +8889,7 @@
           ]
           },
           {
-            "firepower": "3BP FxF",
+            "firepower": "3BP",
             "join": "or",
             "specialRules": [
               "MW",
@@ -9671,7 +9679,7 @@
       "modes": [
         {
           "firepower": "5x AT2+",
-          "range": 60,
+          "range": 45,
           "specialRules": [
             "D",
             "Shield Piercer"

@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Saim-Hann",
-  "version": "0.9.2",
-  "release": "2019-04-18",
+  "version": "0.9.3",
+  "release": "2019-10-02",
   "strategy": "Craftworld Saim-Hann armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -93,7 +93,7 @@
         {
           "name": "Shining Spear Warhost",
           "units": "Eight Shining Spears",
-          "upgrades": [
+          "extraUnits": [
             "Add up to two Exarchs: 50 points each"
           ],
           "points": 300
@@ -107,47 +107,47 @@
         {
           "name": "Mounted Aspect Warrior Troupe",
           "units": "Three Wave Serpents and six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
-          "upgrades": [
+          "extraUnits": [
             "Exarch"
           ],
-          "points": 350
+          "points": 325
         },
         {
           "name": "Mounted Guardian Troupe",
           "units": "Three Wave Serpents, six Guardians",
-          "upgrades": [
+          "extraUnits": [
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Engines of Vaul Troupe",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
-          "upgrades": [
-            "Add one or two additional Engine of Vaul for 200 points each, chosen from the following: Cobra, Scorpion, Storm Serpent"
+          "extraUnits": [
+            "Add up to two additional Engines of Vaul (Cobra, Scorpion, Storm Serpent): 200 points each"
           ],
           "points": 250
         },
         {
           "name": "Swords of Vaul Troupe",
           "units": "Five Falcons",
-          "upgrades": [
+          "extraUnits": [
               "Replace up to two Falcons with Firestorms: Free",
               "OR",
-              "Add five Guardians to the formation: 100 points"
+              "Add five Guardians to the formation: 75 points"
           ],
           "points": 250
         },
         {
           "name": "Fire Prism Troupe",
           "units": "Three Fire Prisms",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Night Spinner Troupe",
           "units": "Three Night Spinners",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 175
         },
@@ -159,26 +159,26 @@
           "points": 300
         },
         {
-          "name": "Ranger Troupe",
+          "name": "Eldar Scouts",
           "units": "Five Eldar Rangers",
-          "upgrades": [
-            "Add one Eldar Rangers for 25 points"
+          "extraUnits": [
+            "Add one Eldar Rangers: 25 points"
           ],
           "points": 125
         },
         {
           "name": "Hornet Troupe",
           "units": "Three Saim-Hann Hornets",
-          "upgrades": [
-            "Add up to three Saim-Hann Hornets for 50 points each"
+          "extraUnits": [
+            "Add up to three Saim-Hann Hornets: 50 points each"
           ],
           "points": 150
         },
         {
           "name": "War Walker Troupe",
           "units": "Four War Walkers",
-          "upgrades": [
-              "Add up to two War Walkers for 25 points each"
+          "extraUnits": [
+              "Add up to two War Walkers: 25 points each"
           ],
           "points": 125
         }
@@ -191,7 +191,7 @@
         {
           "name": "Nightwing Aerie",
           "units": "Two Nightwing Interceptors",
-          "upgrades": [
+          "extraUnits": [
             "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
@@ -199,7 +199,7 @@
         {
           "name": "Phoenix Aerie",
           "units": "Two Phoenix Bombers",
-          "upgrades": [
+          "extraUnits": [
             "Add one Phoenix Bomber: 75 Points"
           ],
           "points": 250
@@ -207,7 +207,7 @@
         {
           "name": "Vampire Hunter",
           "units": "One Vampire Hunter",
-          "upgrades": [
+          "extraUnits": [
 
           ],
           "points": 200
@@ -215,7 +215,7 @@
         {
           "name": "Revenants",
           "units": "Two Revenant Titans",
-          "upgrades": [
+          "extraUnits": [
               "Independent Twins"
           ],
           "points": 650
@@ -224,7 +224,7 @@
         "name": "0-1 Spacecraft",
         "units": "One Wraithship",
         "extraUnits": [
-          "Replace with Dragonship for +150 Points"
+          "Replace with a Dragonship: 150 Points"
         ],
         "points": 150
       }
@@ -237,7 +237,7 @@
     "items": [
       {
         "name": "Exarch",
-        "description": "Add one Eldar Exarch to a Mounted Aspect Warrior Troupe",
+        "description": "Add one Eldar Exarch to a unit of Aspect Warriors",
         "points": "25 points"
       }
     ]
