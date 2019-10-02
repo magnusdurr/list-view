@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Iyanden",
-  "version": "0.8.6",
-  "release": "2019-10-01",
+  "version": "0.8.7",
+  "release": "2019-10-02",
   "strategy": "Craftworld Iyanden armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -98,11 +98,11 @@
       ]
     },
     {
-      "name": "Iyanden Warhosts",
-      "description": "Up to one Spirit Walker Warhost for each Spirit Guard or Spirit Blade Warhost",
+      "name": "Iyanden Wraithhosts",
+      "description": "Up to one Spirit Walker Wraithhost for each Spirit Guard or Spirit Blade Wraithhost",
       "formations": [
         {
-          "name": "Spirit Guard",
+          "name": "Spirit Guards",
           "units": "One Spiritseer character, four Wraithguards",
           "extraUnits": [
             "Wraithseer, Wraithlords, Wraithguards",
@@ -121,7 +121,7 @@
         },
         {
           "name": "Spirit Walkers",
-          "units": "One Spiritseer, six Wraithlords",
+          "units": "One Spiritseer character, six Wraithlords",
           "extraUnits": [
               "Wraithseer"
           ],
@@ -131,7 +131,7 @@
     },
     {
       "name": "Iyanden Troupes",
-      "description": "Up to two for each Iyanden Warhost taken",
+      "description": "Up to two for each Iyanden Wraithhost taken",
       "formations": [
           {
             "name": "Guardian Warhost",
@@ -288,7 +288,7 @@
       {
         "name": "0-1 Wraithseer",
         "description": "Replace one Spiritseer character with an Wraithseer",
-        "points": "75 points"
+        "points": "100 points"
       },
       {
         "name": "Exarch",

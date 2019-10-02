@@ -92,20 +92,21 @@
       "specialRules": [
         "Supreme Commander",
         "Farsight",
-        "Wraithseer units can be used to summon the Avatar"
+        "units with a Wraithseer can be used to summon the Avatar"
       ]
     },
     {
       "name": "Spiritseer",
       "type": "CH",
       "weapons": [
-        "Singing Spear"
+        "Witch Blade"
       ],
       "specialRules": [
         "Commander",
         "Farsight",
-        "Spiritseer units can be used to summon the Avatar"
+        "units with a Spiritseer can be used to summon the Avatar"
       ]
+
     },
     {
       "name": "Avatar",
@@ -789,7 +790,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "crit": "The Scorpion is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Scorpion is destroyed. Any units within 5cm take a hit on 5+."
     },
     {
       "name": "Cobra",
@@ -809,7 +810,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "crit": "The Cobra is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Cobra is destroyed. Any units within 5cm take a hit on 5+."
     },
     {
       "name": "Storm Serpent",
@@ -829,7 +830,7 @@
         "Webway Portal",
         "Skimmer"
       ],
-      "crit": "The Storm Serpent is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Storm Serpent is destroyed. Any units within 5cm take a hit on 5+."
     },
     {
       "name": "Void Spinner",
@@ -847,7 +848,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "crit": "The Void Spinner is destroyed. Any units within 5cm take a hit on a D6 roll of 6."
+      "crit": "The Void Spinner is destroyed. Any units within 5cm take a hit on 5+."
     },
     {
       "name": "Revenant Titan",

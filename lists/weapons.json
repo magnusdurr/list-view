@@ -7798,14 +7798,22 @@
     {
       "name": "Singing Spear",
       "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        },
         {
-          "firepower": "Assault Weapon",
+          "firepower": "Assault Weapons",
+          "join": "or",
           "specialRules": [
             "EA(+1)",
             "MW"
         ]
-        }
-      ]
+    }
+    ]
     },
     {
       "name": "Singularity Generator",
@@ -9979,6 +9987,18 @@
             "specialRules": [
               "D",
               "Ind"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch Blade",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
           ]
         }
       ]
