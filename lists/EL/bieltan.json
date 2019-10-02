@@ -8,15 +8,7 @@
 
   "specialRules": ["Avatar (Biel-Tan)","May not Garrison (Biel-Tan)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Shield Disruptor", "Webway Portal"],
 
-  "usage": [
-    "v1.0.0: The EA-R Craftworld Biel-Tan is based on the NetEA version of the list, with a number of changes and additions.",
-    "The army structure has been kept intact, but the number of Troupes per Warhost have been decreased to two. To compensate for this, the Guardian and Aspect Warrior Warhosts' Wave Serpents has become cheaper, in line with the general approach to similar transport options in other lists. Wraithguards has been changed to 3+ Armour (mostly because of the Iyanden Craftworld list), while the Wraithlords (which impose quite severe restrictions on the formations they join) have been made cheaper. The basic size of the Eldar Scouts has been increased to five, which combined with the War Walkers being cheaper creates more of an equivalence between these two Scout / Garrison options. The War Walker has had its Armour simplified, replacing the oddball 6++ save with a straight 5+.",
-    "The Swords of Vaul Troupe has recieved an option to carry Guardians, which both utilizes their seldomly used transport capability and presents an option to field a very different kind of formation from the normal one. The Fire Prism formation (along with the Fire Prism stats) has been imported from E-UK, reducing the reliance on taking Firestorms.",
-    "The Void Spinner, being a very powerful choice, has been increased in points, while the Engines of Vaul formation now has a standard 50 point rebate when taking larger formations. The Engines also benefit the changes to the Holofield rule, having a 5+ Holofield Save. The Cobra now has the standarized 'Shield Piercer' rule.",
-    "The once rare Nightwings can now be taken in pairs, but has shorter range on their Shuriken Catapults. The fragile Vampire Raider has recieved a 5+ Holofield Save. The Phantom and Warlock Titan has been reduced in points. While these are very powerful formations, they are also quite fragile, especially in comparison to the Titans of most other factions. This also compensates a bit for army's reduced Warhost/Troup ratio. The Phantom Titan has seen a slight increase in range on its Pulsar, making the dual Pulsar loadout slightly more viable. The Warlock Titan's Psychic Lance now benefits from the 'Shield Disruptor' rule."
-
-  ],
-  "units": [
+   "units": [
     {
       "from": "EL.json",
       "units": [
@@ -284,6 +276,16 @@
         "description": "Add two Eldar Wraithlords",
         "points": "100 points"
       }
-    ]
+  ],
+  "usage": [
+    "v1.0.0: The EA-R Craftworld Biel-Tan is based on the NetEA version of the list, with a number of changes and additions.",
+    "The army structure has been kept intact, but the number of Troupes per Warhost have been decreased to two. To compensate for this, the Guardian and Aspect Warrior Warhosts' Wave Serpents has become cheaper, in line with the general approach to similar transport options in other lists. Wraithguards has been changed to 3+ Armour (mostly because of the Iyanden Craftworld list), while the Wraithlords (which impose quite severe restrictions on the formations they join) have been made cheaper. The basic size of the Eldar Scouts has been increased to five, which combined with the War Walkers being cheaper creates more of an equivalence between these two Scout / Garrison options. The War Walker has had its Armour simplified, replacing the oddball 6++ save with a straight 5+.",
+    "The Swords of Vaul Troupe has recieved an option to carry Guardians, which both utilizes their seldomly used transport capability and presents an option to field a very different kind of formation from the normal one. The Fire Prism formation (along with the Fire Prism stats) has been imported from E-UK, reducing the reliance on taking Firestorms.",
+    "The Void Spinner, being a very powerful choice, has been increased in points, while the Engines of Vaul formation now has a standard 50 point rebate when taking larger formations. The Engines also benefit the changes to the Holofield rule, having a 5+ Holofield Save. The Cobra now has the standarized 'Shield Piercer' rule.",
+    "The once rare Nightwings can now be taken in pairs, but has shorter range on their Shuriken Catapults. The fragile Vampire Raider has recieved a 5+ Holofield Save. The Phantom and Warlock Titan has been reduced in points. While these are very powerful formations, they are also quite fragile, especially in comparison to the Titans of most other factions. This also compensates a bit for army's reduced Warhost/Troup ratio. The Phantom Titan has seen a slight increase in range on its Pulsar, making the dual Pulsar loadout slightly more viable. The Warlock Titan's Psychic Lance now benefits from the 'Shield Disruptor' rule."
+
+  ]
   }
+
+
 }
