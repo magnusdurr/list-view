@@ -1,5 +1,5 @@
 {
-  "fraction": "Eldar / Harlequin",
+  "fraction": "Eldar / Harlequins",
   "army": "Craftworld Lugganath",
   "version": "0.6.1",
   "release": "2019-10-03",
@@ -16,7 +16,7 @@
     "Webway Portal",
     "Holofields (x)",
     "Fleet of Foot",
-    "Dance of Shadows",
+    "Cegorach, the Laughing God",
     "Masters of the Webway"
 
   ],
@@ -181,15 +181,23 @@
       "description": "Up to one Harlequin Saedath for each Lugganath Warhost/Wraithhost",
       "formations": [
           {
-            "name": "0-1 Serpent's Scales",
+            "name": "Cegorach's Escape",
+            "units": "One Harleqin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
+            "extraUnits": [
+
+            ],
+            "points": 225
+          },
+          {
+            "name": "Serpent's Scales",
             "units": "One Harlequin Avatar, three Skyweavers, two Voidweavers",
             "extraUnits": [
 
             ],
-            "points": 200
+            "points": 225
           },
         {
-          "name": "0-1 Devourer's Thirst",
+          "name": "Devourer's Hunt",
           "units": "One Master Mime, six Mimes",
           "extraUnits": [
 
@@ -197,26 +205,27 @@
           "points": 250
         },
         {
-          "name": "0-1 Serpent's Blood",
-          "units": "One Harlequin Avatar, six Skyweavers, three Voidweavers",
+          "name": "Cegorach's Revenge",
+          "units": "One Harlequin Avatar, three Harlequin Troupes, two Death Jesters, five Starweavers",
           "extraUnits": [
-
           ],
           "points": 300
         },
         {
-          "name": "0-1 Cegorach's Revenge",
-          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters, six Starweavers, two Skyweavers",
+          "name": "0-1 Devourer's Feast",
+          "units": "One Master Mime, one Solitaire, eight Mimes",
           "extraUnits": [
+
           ],
           "points": 350
         },
+
         {
           "name": "0-1 Ynnead's Dream",
-          "units": "One Harlequin Avatar, one Shadowseer, one Solitaire, three Harlequin Troupes, three Death Jesters, seven Starweavers",
+          "units": "One Harlequin Avatar, one Shadowseer, three Harlequin Troupes, three Death Jesters, six Starweavers",
           "extraUnits": [
           ],
-          "points": 450
+          "points": 425
         }
       ]
     },
