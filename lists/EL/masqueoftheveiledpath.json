@@ -181,6 +181,14 @@
       "name": "Masque of the Veiled Path Saedaths",
       "description": "Up to one Harlequin Saedath for each Lugganath Warhost/Wraithhost",
       "formations": [
+          {
+            "name": "0-1 Serpent's Scales",
+            "units": "One Harlequin Avatar, three Skyweavers, two Voidweavers",
+            "extraUnits": [
+
+            ],
+            "points": 200
+          },
         {
           "name": "0-1 Devourer's Thirst",
           "units": "One Master Mime, six Mimes",
@@ -191,7 +199,7 @@
         },
         {
           "name": "0-1 Serpent's Blood",
-          "units": "One Harlequin Avatar, four Skyweavers, two Voidweavers",
+          "units": "One Harlequin Avatar, six Skyweavers, three Voidweavers",
           "extraUnits": [
 
           ],
@@ -199,24 +207,17 @@
         },
         {
           "name": "0-1 Cegorach's Revenge",
-          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters, six Starweavers",
+          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters, six Starweavers, two Skyweavers",
           "extraUnits": [
           ],
-          "points": 400
+          "points": 350
         },
         {
-          "name": "0-1 Isha's Tears",
-          "units": "One Harlequin Avatar, one Shadowseer, four Death Jesters, two Harlequin Troupes, six Starweavers",
+          "name": "0-1 Ynnead's Dream",
+          "units": "One Harlequin Avatar, one Shadowseer, one Solitaire, three Harlequin Troupes, three Death Jesters, seven Starweavers",
           "extraUnits": [
           ],
           "points": 450
-        },
-        {
-          "name": "0-1 Dance Without End",
-          "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters, two Mimes, three Harlequin Troupes, eight Starweavers",
-          "extraUnits": [
-          ],
-          "points": 550
         }
       ]
     },

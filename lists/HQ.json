@@ -26,10 +26,9 @@
       "specialRules": [
         "Leader",
         "Inv. Save",
-        "Farsight",
-        "Dance of Shadows",
-        "(may only join Harlequins Troupe)"
-      ]
+        "Dance of Shadows"
+    ],
+    "notes": "May only join Harlequin Troupe."
     },
     {
       "name": "Master Mime",
@@ -59,13 +58,14 @@
         "Infiltrators",
         "Inspiring",
         "Holofield (3+)",
+        "Teleport",
         "(no characters may join this unit)"
       ]
     },
     {
       "name": "Mimes",
       "type": "INF",
-      "speed": 15,
+      "speed": 20,
       "cc": 3,
       "weapons": [
         "Mime Concealed Blades"

@@ -4,7 +4,7 @@
   "version": "0.5.1",
   "release": "2019-10-03",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Dark Eldar Kabals have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans and Harlequins receive a +1 modifier when attempting an engage action.",
+  "Initiative": "Dark Eldar Kabals have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans and Harlequins receive a +1 modifier when attempting an Engage action.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -14,7 +14,6 @@
         "May not Garrison (Wraithkind)",
         "Webway Portal",
         "Shadowfields",
-        "Farsight (Wraithkind)",
         "Cegorach, the Laughing God",
         "Masters of the Webway",
         "Dance of Shadows"
@@ -183,47 +182,49 @@
       "description": "Up to one Harlequin Saedath for each Wraithkind Kabal",
       "formations": [
           {
-            "name": "0-1 Devourer's Thirst",
-            "units": "One Master Mime, six Mimes",
-            "upgrades": [
+            "name": "0-1 Serpent's Scales",
+            "units": "One Harlequin Avatar, four Skyweavers, two Voidweavers",
+            "extraUnits": [
 
             ],
-            "points": 250
+            "points": 200
           },
         {
-          "name": "0-1 Serpent's Blood",
-          "units": "One Harlequin Avatar, four Skyweavers, two Voidweavers",
-          "upgrades": [
+          "name": "0-1 Cegorach's Escape",
+          "units": "One Harleqin Avatar, four Harlequin Troupes, four Starweavers, two Skyweavers",
+          "extraUnits": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "0-1 Asuryan's Wager",
+          "units": "One Harlequin Avatar, three Death Jesters, three Starweavers, two Voidweavers",
+          "extraUnits": [
 
           ],
           "points": 300
         },
         {
-          "name": "0-1 Cegorach's Revenge",
-          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters, six Starweavers",
-          "upgrades": [
+          "name": "0-1 Devourer's Hunt",
+          "units": "One Master Mime, one Solitaire, nine Mimes",
+          "extraUnits": [
+
           ],
-          "points": 400
+          "points": 350
         },
         {
           "name": "0-1 Isha's Tears",
-          "units": "One Harlequin Avatar, one Shadowseer, four Death Jesters, two Harlequin Troupes, six Starweavers",
-          "upgrades": [
+          "units": "One Harlequin Avatar, one Shadowseer, two Harlequin Troupes, four Death Jesters, six Starweavers, two Voidweavers",
+          "extraUnits": [
           ],
           "points": 450
-        },
-        {
-          "name": "0-1 Dance Without End",
-          "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters, two Mimes, three Harlequin Troupes, eight Starweavers",
-          "upgrades": [
-          ],
-          "points": 550
         }
       ]
     },
     {
-      "name": "Dark Eldar Navy & War Engines",
-      "description": "Up to a third of the points available may be spent on Dark Eldar Navy and War Engine formations",
+      "name": "Commorragh Navy & War Engines",
+      "description": "Up to a third of the points available may be spent on Commorragh Navy and War Engine formations",
       "formations": [
           {
             "name": "Razorwing Cast",
@@ -269,7 +270,7 @@
       },
       {
         "name": "Wraithkind Transport",
-        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation. Up to three Raiders may be added to a formation for free to carry any Incubi, Warrior, Wych, Haemonculi and/or Wrack units, additional Raiders are added for free to transport units from the Dark Eldar Upgrades section, as long as that unit can be transported in a Raider. Any number of Raiders may be replaced by one Tantalus each for 25 points each",
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation. Up to three Raiders may be added to a formation for free to carry any Incubi, Warrior, Wych, Haemonculi and/or Wrack units, additional Raiders are added for free to transport units from the Dark Eldar Upgrades section, as long as that unit can be transported in a Raider. Any number of Raiders may be replaced by a Tantalus for 25 points each",
         "points": "Free"
       }
     ]
