@@ -1,13 +1,12 @@
 {
   "fraction": "Eldar / Harlequin",
   "army": "Craftworld Lugganath",
-  "version": "0.6.0",
-  "release": "2019-10-02",
+  "version": "0.6.1",
+  "release": "2019-10-03",
   "strategy": "Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Harlequin formations receive a +1 modifier when attempting an Engage action.",
 
   "specialRules": [
-    "Avatar (Lugganath)",
     "May not Garrison (Lugganath)",
     "Farsight",
     "Hit and Run",
@@ -15,7 +14,11 @@
     "Shield Piercer",
     "Shield Disruptor",
     "Webway Portal",
-    "Holofields (x)"
+    "Holofields (x)",
+    "Fleet of Foot",
+    "Cegorach, the Laughing God",
+    "Masters of the Webway",
+    "Dance of Shadows"
 
   ],
   "usage": [
@@ -70,8 +73,6 @@
         "Voidweaver"
       ],
         "unitRules": [
-            "Masters of the Webway",
-            "Dance of Shadows"
       ]
     },
     {
@@ -84,7 +85,6 @@
         "Dragonship"
       ],
         "unitRules": [
-            "Shield Disruptor"
       ]
     }
 ],
@@ -92,11 +92,11 @@
     {
       "name": "Craftworld Lugganath Specials",
       "formations": [
-        {
-          "name": "0-1 Avatar",
-          "units": "One Avatar",
+          {
+            "name": "0-1 Avatar",
+            "units": "One Avatar",
 
-          "points": 50
+            "points": 50
         },
         {
           "name": "1 Wraithgate",
@@ -182,14 +182,6 @@
       "description": "Up to one Harlequin Saedath for each Lugganath Warhost/Wraithhost",
       "formations": [
         {
-          "name": "0-1 Serpent's Blood",
-          "units": "One Harlequin Avatar, four Skyweavers, two Voidweavers",
-          "extraUnits": [
-
-          ],
-          "points": 250
-        },
-        {
           "name": "0-1 Devourer's Thirst",
           "units": "One Master Mime, six Mimes",
           "extraUnits": [
@@ -198,25 +190,33 @@
           "points": 250
         },
         {
-          "name": "0-1 Cegorath's Revenge",
+          "name": "0-1 Serpent's Blood",
+          "units": "One Harlequin Avatar, four Skyweavers, two Voidweavers",
+          "extraUnits": [
+
+          ],
+          "points": 300
+        },
+        {
+          "name": "0-1 Cegorach's Revenge",
           "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters, six Starweavers",
           "extraUnits": [
           ],
-          "points": 350
+          "points": 400
         },
         {
           "name": "0-1 Isha's Tears",
           "units": "One Harlequin Avatar, one Shadowseer, four Death Jesters, two Harlequin Troupes, six Starweavers",
           "extraUnits": [
           ],
-          "points": 400
+          "points": 450
         },
         {
           "name": "0-1 Dance Without End",
           "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters, two Mimes, three Harlequin Troupes, eight Starweavers",
           "extraUnits": [
           ],
-          "points": 500
+          "points": 550
         }
       ]
     },

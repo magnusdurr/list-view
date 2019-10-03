@@ -646,12 +646,25 @@
       ]
     },
     {
-      "name": "AC Twin Splinter Cannons",
+      "name": "AC Splinter Cannon",
         "modes": [
           {
-            "firepower": "AP4+/AA5+",
+            "firepower": "AP5+/AA6+",
             "range": 15,
             "specialRules": [
+              "FxF"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AC Monoscythe Missiles",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 30,
+            "specialRules": [
+                "D",
               "FxF"
           ]
         }

@@ -42,7 +42,6 @@
         "Talos",
         "Barge of Pleasure",
         "Vessel of Pain",
-        "Tormentor Titan",
         "Executioner Landing Module"
       ],
         "unitRules": [
@@ -73,7 +72,7 @@
         },
         {
           "name": "0-1 Portable Webway Portal",
-          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable Webway may be used once in a game. After the character's formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the end phase of the turn before any rallying.",
+          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable Webway may be used once in a game. After the character's formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
 
           "points": 50
         }
@@ -89,7 +88,7 @@
           "extraUnits": [
             "Add two Incubi: 75 points",
             "Ravagers",
-            "Dark Eldar Transport",
+            "Black Heart Transport",
             "Warriors"
           ],
           "points": 250
@@ -108,7 +107,7 @@
           "extraUnits": [
             "Add one Dracon to a unit of Warriors: 50 points",
             "Ravagers",
-            "Dark Eldar Transport",
+            "Black Heart Transport",
             "Warriors"
           ],
           "points": 200
@@ -123,9 +122,9 @@
           "name": "Haemonculi Coven",
           "units": "Two Haemonculi and four Wracks",
           "extraUnits": [
-             "Add one Ancient character to a unit of Haemonculi: 25 points",
+             "Add one Haemonculus Ancient character to a unit of Haemonculi: 25 points",
              "Talos",
-             "Transport"
+             "Black Heart Transport"
           ],
           "points": 225
         },
@@ -191,22 +190,22 @@
       ]
     },
     {
-      "name": "Black Heart Aircraft, War Engines and Spacecraft",
-      "description": "Up to a third of the points available may be spent on Black Heart Aircraft, War Engines and Spacecraft",
+      "name": "Dark Eldar Navy & War Engines",
+      "description": "Up to a third of the points available may be spent on Dark Eldar Navy and War Engine formations",
       "formations": [
         {
           "name": "Razorwing Cast",
           "units": "Two Razorwing Interceptors",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Voidraven Cast",
           "units": "Two Voidraven Interdictors",
           "extraUnits": [
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Slavebringer",
@@ -215,15 +214,6 @@
 
           ],
           "points": 200
-        },
-
-        {
-          "name": "Tormentor",
-          "units": "One Tormentor Titan",
-          "extraUnits": [
-
-          ],
-          "points": 350
         },
         {
           "name": "Executioner",
