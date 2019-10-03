@@ -118,7 +118,7 @@
           ]
         },
         {
-          "name": "Space Marines",
+          "name": "Adeptus Astartes",
           "abbreviation": "SM",
           "lists": [
             {
@@ -259,18 +259,7 @@
     {
       "section": "Xenos",
       "index": [
-        {
-          "name": "Dark Eldar",
-          "abbreviation": "DE",
-          "lists": [
-            {
-              "name": "Kabal of the Black Heart",
-              "file": "kabaloftheblackheart",
-              "status": "beta",
-              "img": "website/img/DarkEldar_Bladed.jpg"
-            }
-          ]
-        },
+
         {
           "name": "Eldar",
           "abbreviation": "EL",
@@ -288,12 +277,6 @@
               "img": "website/img/Eldar_Iyanden.jpg"
             },
             {
-              "name": "Mymeara",
-              "file": "mymeara",
-              "status": "experimental",
-              "img": "website/img/Eldar_Mymeara.jpg"
-            },
-            {
               "name": "Saim-Hann",
               "file": "saimhann",
               "status": "alpha",
@@ -304,43 +287,43 @@
               "file": "ulthwe",
               "status": "alpha",
               "img": "website/img/Eldar_Ulthwe.jpg"
-            },
-            {
-              "name": "Fir Lirithion",
-              "file": "firlirithion",
-              "status": "alpha",
-              "img": "website/img/Eldar_Titan.jpg"
-            }
+          },
+          {
+            "name": "Fir Lirithion",
+            "file": "firlirithion",
+            "status": "alpha",
+            "img": "website/img/Eldar_Titan.jpg"
+        },
+        {
+          "name": "Mymeara",
+          "file": "mymeara",
+          "status": "experimental",
+          "img": "website/img/Eldar_Mymeara.jpg"
+      },
+      {
+        "name": "Lugganath / Harlequins",
+        "file": "masqueoftheveiledpath",
+        "status": "alpha",
+        "img": "website/img/Harlequin_Veiled.jpg"
+      }
           ]
         },
         {
-          "name": "Harlequins",
-          "abbreviation": "HQ",
+          "name": "Dark Eldar",
+          "abbreviation": "DE",
           "lists": [
-            {
-              "name": "Masque of the Veiled Path",
-              "file": "masqueoftheveiledpath",
-              "status": "alpha",
-              "img": "website/img/Harlequin_Veiled.jpg"
+              {
+                "name": "Kabal of the Wraithkind / Harlequins",
+                "file": "masqueofthemidnightsorrow",
+                "status": "alpha",
+                "img": "website/img/Harlequin_Sorrow.jpg"
             },
             {
-              "name": "Masque of the Midnight Sorrow",
-              "file": "masqueofthemidnightsorrow",
-              "status": "alpha",
-              "img": "website/img/Harlequin_Sorrow.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Genestealer Cult",
-          "abbreviation": "GS",
-          "lists": [
-            {
-              "name": "Cult of the Four Armed Emperor",
-              "file": "cultofthefourarmedemperor",
-              "status": "experimental",
-              "img": "website/img/Genstealer_FourArm.jpg"
-            }
+              "name": "Kabal of the Black Heart",
+              "file": "kabaloftheblackheart",
+              "status": "beta",
+              "img": "website/img/DarkEldar_Bladed.jpg"
+          }
           ]
         },
         {
@@ -419,6 +402,12 @@
           "name": "Tyranids",
           "abbreviation": "NID",
           "lists": [
+              {
+                "name": "Cult of the Four Armed Emperor",
+                "file": "cultofthefourarmedemperor",
+                "status": "experimental",
+                "img": "website/img/Genstealer_FourArm.jpg"
+            },
             {
               "name": "Hive Fleet Dagon",
               "file": "dagon",
@@ -430,7 +419,8 @@
               "file": "Hydra",
               "status": "alpha",
               "img": "website/img/Tyranid_Hydra.jpg"
-            }
+          }
+
           ]
         }
       ]

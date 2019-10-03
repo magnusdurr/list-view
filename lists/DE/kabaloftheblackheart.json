@@ -1,10 +1,10 @@
 {
   "fraction": "Dark Eldar",
   "army": "Kabal of the Black Heart",
-  "version": "0.7.0",
-  "release": "2019-06-18",
+  "version": "0.7.1",
+  "release": "2019-10-02",
   "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
-  "Initiative": "Dark Eldar Kabal, Tormentor Titan and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisan formations receive a +1 modifier when attempting an Engage action.",
+  "Initiative": "The Dark Eldar Kabal, Tormentor Titan and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisan formations receive a +1 modifier when attempting an Engage action.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -25,6 +25,7 @@
         "Archon",
         "Dracon",
         "Succubus",
+        "Haemonculus Ancient",
         "Incubi",
         "Warriors",
         "Mandrakes",
@@ -122,6 +123,7 @@
           "name": "Haemonculi Coven",
           "units": "Two Haemonculi and four Wracks",
           "extraUnits": [
+             "Add one Ancient character to a unit of Haemonculi: 25 points",
              "Talos",
              "Transport"
           ],
@@ -170,7 +172,7 @@
           "units": "Six Reaver Jet Bikes",
           "extraUnits": [
             "Add up to two Reaver Jet Bikes: 25 points each",
-            "Add one Succubus to a unit of Reaver Jet Bikes: 50 points"
+            "Add one Succubus to a unit of Reaver Jet Bikes: 25 points"
           ],
           "points": 200
         },
@@ -178,7 +180,7 @@
           "name": "Wych Cult",
           "units": "Four Wyches",
           "extraUnits": [
-            "Add one Succubus to a unit of Wyches: 50 points",
+            "Add one Succubus to a unit of Wyches: 25 points",
             "Warp Beasts",
             "Dark Eldar Transport"
           ],
@@ -196,7 +198,6 @@
           "name": "Razorwing Cast",
           "units": "Two Razorwing Interceptors",
           "extraUnits": [
-            "Add one Razorwing: 75 points"
           ],
           "points": 225
         },
@@ -247,11 +248,6 @@
     "title": "Black Heart Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-      {
-        "name": "Dracon",
-        "description": "Add one Dracon to an Infantry unit in the formation",
-        "points": "50 points"
-      },
       {
         "name": "Ravagers",
         "description": "Add up to two Dark Eldar Ravagers",

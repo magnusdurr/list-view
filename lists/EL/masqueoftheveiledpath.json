@@ -1,10 +1,10 @@
 {
-  "fraction": "Harlequin",
-  "army": "Masque of the Veiled Path",
+  "fraction": "Eldar / Harlequin",
+  "army": "Craftworld Lugganath",
   "version": "0.6.0",
   "release": "2019-10-02",
-  "strategy": "Harlequin armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "strategy": "Eldar armies have a Strategy Rating of 4.",
+  "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Harlequin formations receive a +1 modifier when attempting an Engage action.",
 
   "specialRules": [
     "Avatar (Lugganath)",
@@ -71,8 +71,7 @@
       ],
         "unitRules": [
             "Masters of the Webway",
-            "Dance of Shadows",
-            "Dance of Death"
+            "Dance of Shadows"
       ]
     },
     {
@@ -91,7 +90,7 @@
 ],
 "sections": [
     {
-      "name": "Craftworld Eldar Specials",
+      "name": "Craftworld Lugganath Specials",
       "formations": [
         {
           "name": "0-1 Avatar",
@@ -179,8 +178,8 @@
       ]
     },
     {
-      "name": "Harlequin Saedaths",
-      "description": "Up to one for each Lugganath Warhost/Wraithhost",
+      "name": "Masque of the Veiled Path Saedaths",
+      "description": "Up to one Harlequin Saedath for each Lugganath Warhost/Wraithhost",
       "formations": [
         {
           "name": "0-1 Serpent's Blood",

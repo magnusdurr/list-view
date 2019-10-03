@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
-  "army": "Iyanden",
-  "version": "0.8.7",
-  "release": "2019-10-02",
+  "army": "Craftworld Iyanden",
+  "version": "0.8.8",
+  "release": "2019-10-03",
   "strategy": "Craftworld Iyanden armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -102,10 +102,10 @@
           "name": "Spirit Guard Wraithhost",
           "units": "One Spiritseer character, four Wraithguards",
           "extraUnits": [
-            "Wraithseer",
-            "Wraithlords",
-            "Wraithguards",
-            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
+          "Wraithguards",
+          "Wraithlords",
+          "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)",
+          "Wraithseer"
           ],
           "points": 225
         },
@@ -113,10 +113,10 @@
           "name": "Spirit Blade Wraithhost",
           "units": "One Spiritseer character, four Wraithblades",
           "extraUnits": [
-            "Wraithseer",
-            "Wraithlords",
-            "Wraithblades",
-            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
+          "Wraithguards",
+          "Wraithlords",
+          "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)",
+          "Wraithseer"
           ],
           "points": 175
         },
@@ -124,12 +124,9 @@
           "name": "Spirit Walker Wraithhost",
           "units": "One Spiritseer character, four Wraithlords",
           "extraUnits": [
-              "Wraithseer",
-              "Wraithlords",
-              "Wraithguards",
-              "Wraithblades"
+          "Wraithseer"
           ],
-          "points": 250
+          "points": 350
         }
       ]
     },
@@ -192,7 +189,7 @@
           "points": 175
         },
         {
-          "name": "Eldar Scouts",
+          "name": "Rangers",
           "units": "Five Eldar Rangers",
           "extraUnits": [
             "Add one Eldar Rangers: 25 points"
@@ -319,9 +316,9 @@
         "points": "50 points"
       },
       {
-        "name": "Wraithlord",
-        "description": "Add two Eldar Wraithlords",
-        "points": "100 points"
+        "name": "Wraithlords",
+        "description": "Add up to three Eldar Wraithlords",
+        "points": "50 points each"
       }
   ],
   "usage": [

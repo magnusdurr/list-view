@@ -24,8 +24,9 @@
         "Agonizer"
       ],
       "specialRules": [
-        "Leader",
-        "Inspiring"
+        "Invulnerable Save",
+        "Inspiring",
+        "Leader"
       ]
     },
     {
@@ -35,6 +36,7 @@
         "Monomolecular Blade"
       ],
       "specialRules": [
+        "Invulnerable Save",
         "Inspiring"
       ]
     },
@@ -324,8 +326,10 @@
         "Pulse Disintegrators|2|"
       ],
       "specialRules": [
-        "Skimmer"
-      ]
+        "Skimmer",
+        "Transport"
+    ],
+    "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches"
     },
     {
       "name": "Barge of Pleasure",

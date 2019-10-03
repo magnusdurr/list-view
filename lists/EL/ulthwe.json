@@ -1,6 +1,6 @@
 {
   "fraction": "Eldar",
-  "army": "Ulthwé",
+  "army": "Craftworld Ulthwé",
   "version": "0.8.0",
   "release": "2019-10-02",
   "strategy": "Craftworld Ulthwé armies have a Strategy Rating of 4.",
@@ -111,7 +111,7 @@
       "description": "Up to two Troupes for each Ulthwé Warhost taken",
       "formations": [
           {
-            "name": "Eldar Scouts",
+            "name": "Rangers",
             "units": "Five Eldar Rangers",
             "extraUnits": [
               "Add one Eldar Rangers: 25 points"
@@ -280,8 +280,8 @@
     },
     {
       "name": "Wraithlords",
-      "description": "Add two Eldar Wraithlords",
-      "points": "100 points"
+      "description": "Add up to three Eldar Wraithlords",
+      "points": "50 points each"
     }
     ]
   }
