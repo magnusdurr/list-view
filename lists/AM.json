@@ -342,6 +342,21 @@
         "notes": "Must choose either an Eradication Beamer, Icarus Array, Neutron Laser or Twin Heavy Phosphor Blasters."
       },
       {
+        "name": "Chimera",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multilaser", "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Transport"
+      ],
+      "notes": "May carry two units of INF without Jump Packs or Mounted."
+      },
+      {
           "name": "Chimedon",
           "type": "AV",
           "speed": 25,
@@ -355,6 +370,20 @@
           "specialRules": [
             "Transport: May transport two infantry units without Jump Packs or Mounted."
           ]
+      },
+      {
+        "name": "Leman Russ",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Battle Cannon", "Lascannon", "Heavy Bolter|2|"
+        ],
+        "specialRules": [
+          "Reinforced Armour"
+        ]
       },
       {
           "name": "Terrax Pattern Termite Assault Drill",

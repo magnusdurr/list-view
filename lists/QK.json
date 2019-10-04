@@ -45,7 +45,13 @@
           "description": [
             "If a natural 1 is rolled when rolling to hit, roll another dice. If the result is yet another natural 1, the wielder is destroyed."
           ]
-        }
+      },
+      {
+        "title": "Lance",
+        "description": [
+          "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        ]
+      }
     ],
     "unit": [
         {
