@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar / Harlequins",
   "army": "Craftworld Lugganath",
-  "version": "0.6.1",
-  "release": "2019-10-03",
+  "version": "0.6.2",
+  "release": "2019-10-04",
   "strategy": "Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Harlequin formations receive a +1 modifier when attempting an Engage action.",
 
@@ -17,6 +17,7 @@
     "Holofields (x)",
     "Fleet of Foot",
     "Cegorach, the Laughing God",
+    "Shadowsight",
     "Masters of the Webway"
 
   ],
@@ -178,7 +179,7 @@
     },
     {
       "name": "Masque of the Veiled Path Saedaths",
-      "description": "Up to one Harlequin Saedath for each Lugganath Warhost/Wraithhost",
+      "description": "Up to one Veiled Path Saedath for each Lugganath Warhost/Wraithhost",
       "formations": [
           {
             "name": "Cegorach's Escape",
@@ -186,7 +187,7 @@
             "extraUnits": [
 
             ],
-            "points": 225
+            "points": 200
           },
           {
             "name": "Serpent's Scales",
@@ -196,20 +197,20 @@
             ],
             "points": 225
           },
-        {
-          "name": "Devourer's Hunt",
-          "units": "One Master Mime, six Mimes",
-          "extraUnits": [
+          {
+            "name": "Devourer's Hunt",
+            "units": "One Master Mime, six Mimes",
+            "extraUnits": [
 
-          ],
-          "points": 250
-        },
+            ],
+            "points": 225
+          },
         {
           "name": "Cegorach's Revenge",
-          "units": "One Harlequin Avatar, three Harlequin Troupes, two Death Jesters, five Starweavers",
+          "units": "One Harlequin Avatar, two Harlequin Troupes, two Death Jesters, four Starweavers, three Skyweavers",
           "extraUnits": [
           ],
-          "points": 300
+          "points": 325
         },
         {
           "name": "0-1 Devourer's Feast",
@@ -225,7 +226,7 @@
           "units": "One Harlequin Avatar, one Shadowseer, three Harlequin Troupes, three Death Jesters, six Starweavers",
           "extraUnits": [
           ],
-          "points": 425
+          "points": 450
         }
       ]
     },

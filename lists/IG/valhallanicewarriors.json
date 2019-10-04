@@ -33,7 +33,6 @@
         "Ragnarok Heavy Tank",
         "Macharius",
         "Macharius Command",
-        "Hellbore",
         "Baneblade",
         "Shadowsword",
         "Stormlord"
@@ -46,6 +45,15 @@
       "units": [
         "Ministorum Priest",
         "Arco-Flagellants"
+      ],
+      "unitRules": [
+          "Act of Faith"
+      ]
+    },
+    {
+      "from": "SQ.json",
+      "units": [
+        "Hellbore"
       ],
       "unitRules": [
           "Act of Faith"

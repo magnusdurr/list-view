@@ -135,7 +135,7 @@
       "type": "INF",
       "speed": 15,
       "armour": 5,
-      "cc": 3,
+      "cc": 4,
       "weapons": [
         "Poison Blades"
       ],
@@ -150,17 +150,17 @@
       "armour": 3,
       "cc": 4,
       "weapons": [
-        "Grotesques Blades"
+        "Grotesques' Blades"
       ],
       "specialRules": [
         "Fearless"
-      ]
+    ]
     },
     {
       "name": "Talos",
       "type": "AV",
       "speed": 15,
-      "armour": 4,
+      "armour": 5,
       "cc": 4,
       "ff": 5,
       "weapons": [
@@ -218,7 +218,8 @@
         "Expendable",
         "Invulnerable Save",
         "First Strike"
-      ]
+    ],
+     "notes": "May not be transported."
     },
     {
       "name": "Hellion Skyboards",
@@ -240,7 +241,7 @@
       "name": "Reaver Jet Bikes",
       "type": "INF",
       "speed": 40,
-      "armour": 4,
+      "armour": 5,
       "cc": 4,
       "ff": 5,
       "weapons": [
@@ -283,7 +284,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches"
+    "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches. Grotesques counts as two units each."
     },
     {
       "name": "Ravager",
@@ -317,18 +318,18 @@
     {
       "name": "Tantalus",
       "type": "LV",
-      "speed": 35,
+      "speed": 30,
       "armour": 3,
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Pulse Disintegrators|2|"
+        "Pulse Disintegrator|2|"
       ],
       "specialRules": [
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches"
+    "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches. Grotesques counts as two units each."
     },
     {
       "name": "Barge of Pleasure",
@@ -339,7 +340,8 @@
       "ff": 4,
       "weapons": [
         "Dark Lance|2|FxF",
-        "Long Barrelled Splinter Cannons|2|FxF"
+        "Splinter Cannon|2|FwA",
+        "Splinter Blast"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -347,7 +349,7 @@
         "Skimmer",
         "Transport"
       ],
-      "notes": "May carry four units of Warriors, Incubi, Haemonculi, Wracks or Wyches. May only Transport units from its own formation.",
+      "notes": "May carry four units of Warriors, Incubi, Haemonculi, Wracks or Wyches. Grotesques counts as two units each. May only Transport units from its own formation.",
       "crit": "The Barge takes an additional damage. 1D3 random units inside takes a hit."
     },
     {
@@ -359,25 +361,25 @@
       "ff": 4,
       "weapons": [
         "Phantom Lance|2|FxF",
-        "Long Barrelled Splinter Cannons|2|FxF",
-        "Desolator||FxF"
+        "Splinter Cannon|2|FwA",
+        "Desolator||FwA"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Shadowfields 2",
         "Skimmer"
       ],
-      "crit": "The Vessel of Pain is destroyed. All units within 5cm take a hit on 6+."
+      "crit": "The Vessel of Pain is destroyed. All units within 5cm take a hit on 5+."
     },
     {
       "name": "Tormentor Titan",
       "type": "WE",
-      "speed": 40,
+      "speed": 35,
       "armour": 5,
       "cc": 3,
       "ff": 5,
       "weapons": [
-        "Twin Void Lances",
+        "Twin Void Lances|2|",
         "Splinter Blast",
         "Tormentor Blades"
       ],
@@ -412,7 +414,7 @@
         "Fearless",
         "Transport"
     ],
-    "notes": "May transport up to ten Infantry units. In addition it may carry up to five Light Vehicles with Skimmer, or up to two Vessels of Pain and/or Barges of Pleasure.",
+    "notes": "May transport up to ten Infantry units. Grotesques counts as two units each. In addition it may carry up to five Light Vehicles with Skimmer, or up to two Vessels of Pain and/or Barges of Pleasure.",
     "crit": "The Executioner takes an additional damage. 1D3 random units inside takes a hit."
     }
     ]

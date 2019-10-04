@@ -1,20 +1,20 @@
 {
   "fraction": "Dark Eldar / Harlequins",
   "army": "Kabal of the Wraithkind",
-  "version": "0.5.1",
-  "release": "2019-10-03",
+  "version": "0.6.1",
+  "release": "2019-10-04",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Dark Eldar Kabals have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans and Harlequins receive a +1 modifier when attempting an Engage action.",
+  "Initiative": "Dark Eldar Kabal formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans and Harlequins receive a +1 modifier when attempting an Engage action.",
 
   "specialRules": [
         "Fleet of Foot",
         "Hit and Run",
         "Lance",
-        "Kabal Coterie",
+        "Wraithkind Coterie",
         "May not Garrison (Wraithkind)",
         "Webway Portal",
         "Shadowfields",
-        "Cegorach, the Laughing God",
+        "Shadowsight",
         "Masters of the Webway"
 
       ],
@@ -32,15 +32,15 @@
         "Warriors",
         "Warp Beasts",
         "Reavers",
-        "Venom",
         "Scourges",
         "Hellion Skyboards",
         "Reaver Jet Bikes",
-        "Raider",
         "Reaper",
         "Ravager",
+        "Raider",
         "Tantalus",
         "Vessel of Pain",
+        "Barge of Pleasure",
         "Tormentor Titan"
       ],
         "unitRules": [
@@ -95,36 +95,39 @@
     },
     {
       "name": "Wraithkind Kabals",
+      "description": "The army must contain one Black Heart Coterie",
       "formations": [
           {
-            "name": "1 Kabal Coterie",
+            "name": "1 Wraithkind Coterie",
             "units": "One Arcon in a unit of Incubi, three Incubi",
             "extraUnits": [
-              "Add two Incubi: 75 points",
+              "Add two Incubi: 50 points",
               "Warriors",
               "Ravagers",
+              "Add up to two Warp Beasts: 25 points each",
               "Wraithkind Transport"
             ],
-            "points": 250
+            "points": 225
           },
         {
-          "name": "Reaper Flotilla",
+          "name": "Wraithkind Flotilla",
           "units": "Four Reapers",
-          "upgrades": [
+          "extraUnits": [
               "Ravagers"
           ],
-          "points": 225
+          "points": 250
         },
         {
-          "name": "Kabal Syndicate",
-          "units": "Six Dark Eldar Warriors",
+          "name": "Wraithkind Syndicate",
+          "units": "Four Dark Eldar Warriors",
           "extraUnits": [
             "Add one Dracon to a unit of Warriors: 50 points",
             "Warriors",
             "Ravagers",
+            "Add up to two Warp Beasts: 25 points each",
             "Wraithkind Transport"
           ],
-          "points": 200
+          "points": 150
         }
       ]
     },
@@ -143,8 +146,7 @@
             "name": "Hellion Murder",
             "units": "Six Hellion Skyboards",
             "extraUnits": [
-              "Add up to two Hellion Skyboards: 25 points each",
-              "Add up to two Warp Beasts: 25 points each"
+              "Add up to four Warp Beasts: 25 points each"
             ],
             "points": 200
           },
@@ -165,12 +167,13 @@
             "points": 250
           },
           {
-            "name": "Talos Swarm",
-            "units": "Four Talos",
+            "name": "Wych Cult",
+            "units": "One Succubus, four Wyches, two Raiders",
             "extraUnits": [
-              "Talos"
+              "Add two Wyches, one Raider: 50 points",
+              "Add up to two Warp Beasts: 25 points each"
             ],
-            "points": 225
+            "points": 150
           }
 
 
@@ -178,7 +181,7 @@
     },
     {
       "name": "Masque of the Midnight Sorrow Saedaths",
-      "description": "Up to one Harlequin Saedath for each Wraithkind Kabal",
+      "description": "Up to one Midnight Sorrow Saedath for each Wraithkind Kabal",
       "formations": [
           {
             "name": "Cegorach's Escape",
@@ -186,7 +189,7 @@
             "extraUnits": [
 
             ],
-            "points": 225
+            "points": 200
           },
               {
             "name": "Asuryan's Wager",
@@ -205,10 +208,11 @@
           },
           {
             "name": "Cegorach's Revenge",
-            "units": "One Harlequin Avatar, three Harlequin Troupes, two Death Jesters, five Starweavers",
+            "units": "One Harlequin Avatar, two Harlequin Troupes, two Death Jesters, four Starweavers, three Skyweavers",
             "extraUnits": [
             ],
-            "points": 300          },
+            "points": 325
+         },
         {
           "name": "0-1 Devourer's Feast",
           "units": "One Master Mime, one Solitaire, eight Mimes",
@@ -222,7 +226,7 @@
           "units": "One Harlequin Avatar, one Shadowseer, two Harlequin Troupes, four Death Jesters, six Starweavers",
           "extraUnits": [
           ],
-          "points": 425
+          "points": 450
         }
       ]
     },
@@ -270,12 +274,17 @@
       {
         "name": "Warriors",
         "description": "Two Dark Eldar Warriors",
-        "points": "50 points"
+        "points": "25 points"
+      },
+      {
+        "name": "Ravagers",
+        "description": "Add up to two Dark Eldar Ravagers",
+        "points": "50 points each"
       },
       {
         "name": "Wraithkind Transport",
-        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation. Up to three Raiders may be added to a formation for free to carry any Incubi, Warrior, Wych, Haemonculi and/or Wrack units, additional Raiders are added for free to transport units from the Dark Eldar Upgrades section, as long as that unit can be transported in a Raider. Any number of Raiders may be replaced by a Tantalus for 25 points each",
-        "points": "Free"
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
+        "points": ["Tantalus: 25 points", "Barge of Pleasure: 150 points"]
       }
     ]
   }

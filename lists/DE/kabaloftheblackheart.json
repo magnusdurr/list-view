@@ -1,8 +1,8 @@
 {
   "fraction": "Dark Eldar",
   "army": "Kabal of the Black Heart",
-  "version": "0.7.1",
-  "release": "2019-10-02",
+  "version": "0.7.2",
+  "release": "2019-10-04",
   "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
   "Initiative": "The Dark Eldar Kabal, Tormentor Titan and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisan formations receive a +1 modifier when attempting an Engage action.",
 
@@ -10,10 +10,11 @@
         "Fleet of Foot",
         "Hit and Run",
         "Lance",
-        "Kabal Coterie",
+        "Black Heart Coterie",
         "May not Garrison (Black Heart)",
         "Webway Portal",
-        "Shadowfields"
+        "Shadowfields",
+        "Support Craft"
       ],
   "usage": [
     "The following army list allows you to field an army based on the Kabal of the Black Heart"
@@ -32,6 +33,7 @@
         "Scourges",
         "Haemonculi",
         "Wracks",
+        "Grotesques",
         "Wyches",
         "Warp Beasts",
         "Hellion Skyboards",
@@ -72,7 +74,7 @@
         },
         {
           "name": "0-1 Portable Webway Portal",
-          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable Webway may be used once in a game. After the character's formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
+          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character in the army. This portable Webway may be used once in a game. After the character's formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
 
           "points": 50
         }
@@ -80,10 +82,10 @@
     },
     {
       "name": "Black Heart Kabal Formations",
-      "description": "The army must contain one Kabal Coterie",
+      "description": "The army must contain one Black Heart Coterie",
       "formations": [
         {
-          "name": "1 Kabal Coterie",
+          "name": "1 Black Heart Coterie",
           "units": "One Arcon in a unit of Incubi, three Incubi",
           "extraUnits": [
             "Add two Incubi: 75 points",
@@ -94,7 +96,7 @@
           "points": 250
         },
         {
-          "name": "Kabal Flotilla",
+          "name": "Black Heart Flotilla",
           "units": "Four Ravagers",
           "extraUnits": [
             "Ravagers"
@@ -102,7 +104,7 @@
           "points": 225
         },
         {
-          "name": "Kabal Syndicate",
+          "name": "Black Heart Syndicate",
           "units": "Six Dark Eldar Warriors",
           "extraUnits": [
             "Add one Dracon to a unit of Warriors: 50 points",
@@ -123,6 +125,7 @@
           "units": "Two Haemonculi and four Wracks",
           "extraUnits": [
              "Add one Haemonculus Ancient character to a unit of Haemonculi: 25 points",
+             "Add two Grotesques: 100 points",
              "Talos",
              "Black Heart Transport"
           ],
@@ -161,8 +164,7 @@
           "name": "Hellion Murder",
           "units": "Six Hellion Skyboards",
           "extraUnits": [
-            "Add up to two Hellion Skyboards: 25 points each",
-            "Warp Beasts"
+            "Add up to four Warp Beasts: 25 points each"
           ],
           "points": 200
         },
@@ -177,10 +179,10 @@
         },
         {
           "name": "Wych Cult",
-          "units": "Four Wyches",
+          "units": "One Succubus, four Wyches",
           "extraUnits": [
-            "Add one Succubus to a unit of Wyches: 25 points",
-            "Warp Beasts",
+            "Add two Wyches: 50 points",
+            "Add up to two Warp Beasts: 25 points each",
             "Black Heart Transport"
           ],
           "points": 150
@@ -244,11 +246,6 @@
         "points": "50 points each"
       },
       {
-        "name": "Warp Beasts",
-        "description": "Add up to two Warp Beasts",
-        "points": "25 points each"
-      },
-      {
         "name": "Talos",
         "description": "Add up to two Dark Eldar Talos",
         "points": ["50 points for one", "75 points for two"]
@@ -259,9 +256,9 @@
         "points": "50 points"
       },
       {
-        "name": "Dark Eldar Transport",
+        "name": "Black Heart Transport",
         "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation. Up to three Raiders may be added to a formation for free to carry units of Incubi, Warriors, Wyches, Haemonculi and/or Wracks, additional Raiders are added for free to transport units from the Dark Eldar Upgrades section, as long as that unit can be transported in a Raider. Any number of Raiders may be replaced by two Dark Eldar Venoms or Dark Eldar Barges of Pleasure.",
-        "points": ["Raiders: Free", "Two Venoms (replaces one Raider): 25 points", "One Barge (replaces two Raiders): 100 points"]
+        "points": ["Raiders: Free", "Two Venoms (replaces one Raider): 25 points", "Barge of Pleasure (replaces two Raiders): 125 points"]
       }
     ]
   }

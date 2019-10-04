@@ -53,8 +53,8 @@
     {
       "title": "Support Craft",
       "description": [
-        "Support craft are Skimmers, which for all line of sight and terrain purposes count as ‘popped up’ at all times. If the support craft has a transport option, it may embark and disembark units as normal. Embarked units are allowed a save (see 1.7.5) if the support craft is destroyed.",
-        "Support  craft  do  not  block  line  of  sight,  must  always  use  their  Skimmer  ability  to  force  a  firefight  in engagements and Infantry in base contact with a support craft may not use it to count as being in cover."
+        "Support Craft are Skimmers, which for all line of sight and terrain purposes count as ‘popped up’ at all times. If the Support Craft has a transport option, it may embark and disembark units as normal. Embarked units are allowed a save (see 1.7.5) if the Support Craft is destroyed.",
+        "Support Craft do not block line of sight, must always use their Skimmer ability to force a firefight in engagements and Infantry in base contact with a Support Craft may not use it to count as being in cover."
       ]
   },
 
@@ -301,8 +301,8 @@
     {
       "title": "Teleport Homer",
       "description": [
-        "Teleporting models may re-roll Teleport Mishap 1:s if their base is within 15cm of an unbroken unit with the 'Teleport Homer' special rule.",
-        "In addition, formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or coordinate their teleport with their space ship's activation.",
+        "Units that Teleport within 15cm from a friendly, unbroken unit with Teleport Homer (excluding from teleporting formations) may re-roll 1:s when testing for Teleport Mishap",
+        "In addition, formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or coordinate their teleport with the space ship's activation.",
         "In the latter case, the entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns. Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another."
         ]
     },
@@ -343,22 +343,22 @@
         ]
     },
     {
-      "title": "Kabal Coterie",
+      "title": "Black Heart Coterie",
       "description": [
-        "The army must include a Kabal Coterie. The enemy count as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army."
+        "The army must include a Black Heart Coterie. The enemy count as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army."
         ]
     },
     {
-      "title": "May not Garrison (Dark Eldar)",
+      "title": "Wraithkind Coterie",
       "description": [
-        "Only the Mandrake formation may Garrison."
+        "The army must include a Wraithkind Coterie. The enemy count as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army."
         ]
     },
     {
       "title": "Webway Portal",
       "description": [
         "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
-        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
+        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only INF, LV or AVs with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
         "If a Webway is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
         ]
     },
@@ -510,12 +510,7 @@
       ]
     },
 
-    {
-      "title": "Farsight (Wraithkind)",
-      "description": [
-        "Harlequin formations that include a unit with the Farsight ability may ignore the -1 penalty to Action test rolls when attempting to retain the Initiative."
-      ]
-    },
+
     {
       "title": "Hit and Run",
       "description": [
@@ -527,7 +522,8 @@
       "description": [
         "Holofields provide a saving throw to the value of 'x'. This save may always be taken even against weapons with the Macro Weapon or Titan Killer abilities.",
         "If a unit has Reinforced Armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate Blast Markers, even if they have the Disrupt ability.",
-        "Against Titan Killer attacks that cause extra damage make one Holofield save roll, if this is successful the unit takes no damage, if the roll fails it suffers all the damage. Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the sniper ability. "
+        "Against Titan Killer attacks that cause extra damage make one Holofield save roll, if this is successful the unit takes no damage, if the roll fails it suffers all the damage.",
+         "Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the Sniper ability. If a unit with Holofield also has a save from being in Cover, it must choose which save to use."
       ]
     },
     {
@@ -544,26 +540,32 @@
     },
     {
       "title": "Independent Twins",
-      "description": ["Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one of the pair is destroyed, the other Revenant Twin receives a Blast Marker.",
-                      "Additionally, Independent Twins may use the Commander ability, but only with its Twin. In this case, the Commander ability counts as having 25cm range instead of the normal 5cm."
+      "description": [
+      "Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one of the pair is destroyed, the surviving Revenant Twin receives a Blast Marker.",
+      "In addition, Independent Twins may use the Commander ability with its Twin. In this case, the Commander ability counts as having 25cm range instead of the normal 5cm."
       ]
     },
 
     {
       "title": "Cegorach, the Laughing God",
       "description": [
-        "As long as there is at least one unit with a Harlequin Shadowseer character present on the battlefield, all enemy non-Harlequin formations counts as being within 30cm of an enemy unit during the End Phase."
+        "As long as there is at least one unit with a Harlequin Shadowseer character present on the battlefield, all enemy non-Harlequin formations counts as being within 30cm of an enemy unit (for the purposes of rally tests during the End Phase). In addition, all Harlequin formations (friend or foe) gains +1 to their rally tests."
+      ]
+    },
+    {
+      "title": "Shadowsight",
+      "description": [
+        "Harlequin formations that include a unit with the Shadowsight ability may ignore the -1 penalty to Action Test rolls when attempting to retain the Initiative.",
+        "In addition units that Teleport within 15cm from a friendly, unbroken unit with Shadowsight (including from teleporting formations) may re-roll 1:s when testing for Teleport Mishap."
       ]
     },
     {
       "title": "Masters of the Webway",
       "description": [
-        "Harlequins are know as the masters of the Webway. This is represented by the following rules:",
+        "Harlequins are the unparallelled masters of the Webway. This is represented by the following rules:",
         "* Harlequin formations ignore, and do not count for, the one per turn or once per game limit that normally applies to Webway Portals.",
-        "* Must start the game in reserves, but do not count towards the maxiumum number of formations placed in reserve per Webway Portal.",
-        "* Harlequin formations may move back into the Webway using normal or consolidation movement. If they do so they counts as having re-entered the reserves in all respects, but cannot teleport. If broken, they must successfully rally before they can re-enter the table.",
-        "* Formations that fail to activate when entering via a Webway may only take a hold and regroup action in reserve.",
-        "* Mimes and the Solitaire may re-roll 1:s when testing for teleport mishap."
+        "* Must start the game in reserves, and may only enter the battlefield by using Teleport or a Webway portal. Do not count towards the maxiumum number of formations placed in reserve per Webway Portal.",
+        "* Harlequin formations may move back into the Webway using normal or consolidation movement. If they do so they counts as having re-entered the reserves. If broken, they must successfully rally before they can re-enter the table (either by Teleporting or through a Webway Portal)."
       ]
     },
 

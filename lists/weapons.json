@@ -695,12 +695,9 @@
       "name": "AC Turreted Splinter Cannon",
         "modes": [
           {
-            "firepower": "AP5+/AA5+",
+            "firepower": "AP5+/AA6+",
             "range": 15,
             "specialRules": [
-              "Lance",
-              "FxF"
-
           ]
         }
       ]
@@ -3943,11 +3940,12 @@
       ]
     },
     {
-      "name": "Grotesques Blades",
+      "name": "Grotesques' Blades",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+                "EA(+1)"
           ]
         }
       ]
@@ -4046,8 +4044,7 @@
             {
             "firepower": "Assault Weapons",
             "specialRules": [
-              "EA(+1)",
-              "MW"
+              "EA(+2)"
               ]
           }
       ]
@@ -4973,8 +4970,7 @@
           {
             "firepower": "Assault Weapon",
             "specialRules": [
-              "EA(+1)",
-              "MW"
+              "EA(+1)"
           ]
         }
       ]
@@ -5398,7 +5394,7 @@
       "name": "Liquefiers",
         "modes": [
           {
-            "firepower": "AP4+",
+            "firepower": "AP3+",
             "range": 15,
             "specialRules": [
               "D"
@@ -5407,13 +5403,12 @@
       ]
     },
     {
-      "name": "Long Barrelled Splinter Cannons",
+      "name": "Long Barrelled Splinter Cannon",
         "modes": [
           {
             "firepower": "AP5+",
             "range": 45,
             "specialRules": [
-              "Lance"
           ]
         }
       ]
@@ -6917,13 +6912,12 @@
       ]
     },
     {
-      "name": "Pulse Disintegrators",
+      "name": "Pulse Disintegrator",
         "modes": [
           {
-            "firepower": "2x AT5+",
-            "range": 30,
+            "firepower": "AP4+/AT5+",
+            "range": 45,
             "specialRules": [
-              "Lance"
           ]
           }
       ]
@@ -9042,10 +9036,10 @@
       "name": "Transdimensional Bolt",
         "modes": [
           {
-            "firepower": "MW4+ ",
+            "firepower": "MW3+ ",
             "range": 30,
             "specialRules": [
-
+                "Shield Disruptor"
           ]
           }
       ]

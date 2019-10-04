@@ -14,7 +14,7 @@
       "specialRules": [
         "Leader",
         "Commander"
-      ]
+    ]
     },
     {
       "name": "Shadowseer",
@@ -25,9 +25,10 @@
       ],
       "specialRules": [
         "Leader",
-        "Inv. Save"
+        "Invulnerable Save",
+        "Shadowsight"
     ],
-    "notes": "May only join Harlequin Troupe."
+        "notes": "May only join Harlequin Troupes."
     },
     {
       "name": "Master Mime",
@@ -51,15 +52,16 @@
       ],
       "specialRules": [
         "Scout",
-        "Inv. Save",
+        "Invulnerable Save",
         "First Strike",
         "Fearless",
         "Infiltrators",
         "Inspiring",
         "Holofield (3+)",
         "Teleport",
-        "(no characters may join this unit)"
-      ]
+        "Shadowsight"
+    ],
+    "notes": "No characters may join this unit"
     },
     {
       "name": "Mimes",
