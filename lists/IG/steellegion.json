@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "1.0.2",
-  "release": "2019-07-25",
+  "version": "1.0.0",
+  "release": "2019-10-04",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -104,7 +104,10 @@
           "name": "Leman Russ Company",
           "units": "One Leman Russ Vanquisher with a Commissar, nine Leman Russ",
           "extraUnits": [
-            "Flak, Griffon Battery, Hellhound Squadron, Leman Russ Squadron"
+            "Flak",
+            "Griffon Battery",
+            "Hellhounds",
+            "Leman Russ Squadron"
           ],
           "points": 575
         },
@@ -112,7 +115,10 @@
           "name": "Super-Heavy Tank Company",
           "units": "Three Baneblades, Stormblades and/or Shadowswords, one with a Commissar",
           "extraUnits": [
-              "Ogryns, Flak, Leman Russ Squadron, Hellhounds"
+              "Ogryns",
+              "Flak",
+              "Hellhounds",
+              "Leman Russ Squadron"
           ],
           "points": 500
         },
@@ -137,7 +143,7 @@
             "extraUnits": [
                 "Add up to three Hellhounds: 25 points each"
             ],
-            "points": 250
+            "points": 225
           },
         {
           "name": "0–1 Deathstrike Battery",
@@ -279,7 +285,7 @@
         "name": "Flak",
         "options": [
           {
-            "description": "Add one Hydra.",
+            "description": "Add one Hydra",
             "points": "50 points"
           }
         ]
