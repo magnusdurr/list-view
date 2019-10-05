@@ -22,7 +22,7 @@
         "Magos",
         "Tech-Priest",
 
-        "Skitarii Vanguard",
+        "Hypaspists",
         "Secutarii",
 
         "Adsecularis",
@@ -37,7 +37,7 @@
         "Leman Russ",
         "Ordinatus Minoris",
         "Ordinatus Majoris",
-        "AM Gorgon",
+        "Gorgon",
 
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
@@ -77,13 +77,13 @@
       "name": "Skitarii Core Formations",
       "formations": [
         {
-          "name": "Skitarii Vanguard",
-          "units": "One Magos, nine Skitarii Vanguard",
-          "upgrades": [
+          "name": "Hypaspist Maniple",
+          "units": "One Magos, nine Hypaspists",
+          "extraUnits": [
+            "Replace one unit of Hypaspists with three Rapiers: 25 points",
             "Arch-Magos",
-            "Hydra",
-            "Transport",
-            "Rapiers"
+            "Hypaspist Transport",
+            "Hydra"
           ],
           "points": 225
         }
@@ -96,17 +96,17 @@
         {
           "name": "Secutarii Maniple",
           "units": "Four Secutarii",
-          "upgrades": [
-            "Hydra",
-            "Chimeras",
-            "Rapiers"
+          "extraUnits": [
+            "Replace one unit of Secutarii with three Rapiers: 25 points",
+            "Add up to three Chimeras: 25 points each",
+            "Hydra"
           ],
           "points": 150
         },
         {
           "name": "Kastelan Maniple",
           "units": "Five Kastelan Robots, one Tech-Priest",
-          "upgrades": [
+          "extraUnits": [
             "Servitors"
           ],
           "points": 175
@@ -114,7 +114,7 @@
         {
           "name": "Conqueror Maniple",
           "units": "Five Conqueror Robots, one Tech-Priest",
-          "upgrades": [
+          "extraUnits": [
             "Servitors"
           ],
           "points": 200
@@ -122,7 +122,7 @@
         {
           "name": "Praetorian Maniple",
           "units": "Five Praetorians, one Tech-Priest",
-          "upgrades": [
+          "extraUnits": [
             "Servitors"
           ],
           "points": 225
@@ -130,14 +130,14 @@
         {
           "name": "Cataphractii",
           "units": "Six Leman Russ Tanks",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 350
         },
         {
           "name": "Minoris Cohort",
           "units": "Two Ordinatus Minoris",
-          "upgrades": [
+          "extraUnits": [
             "Ordinatus",
             "Support Weapon"
           ],
@@ -146,7 +146,7 @@
       {
         "name": "0-1 Ordinatus Majoris",
         "units": "One Ordinatus Armageddon (Nova Cannon)",
-        "upgrades": [
+        "extraUnits": [
           "Ordinatus Mars (Sonic Disruptor)",
           "Ordinatus Golgotha (Hellfire Missiles)"
         ],
@@ -161,14 +161,14 @@
           {
             "name": "Protector Household",
             "units": "Five Knight-Protectors",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 450
         },
                 {
                   "name": "Warhound Pack",
                   "units": "Two Warhound Scout Titans, both of either Standard or Support Configuration",
-                  "upgrades": [
+                  "extraUnits": [
                       "Tank Hunter Configuration"
                   ],
                   "points": 500
@@ -176,14 +176,14 @@
               {
                 "name": "Reaver Titan",
                 "units": "One Reaver Titan",
-                "upgrades": [
+                "extraUnits": [
                 ],
                 "points": 600
             },
             {
               "name": "Warlord Titan",
               "units": "One Warlord Titan",
-              "upgrades": [
+              "extraUnits": [
               ],
               "points": 750
           },
@@ -219,11 +219,11 @@
         ]
       },
       {
-        "name": "Transport",
+        "name": "Hypaspist Transport",
         "options": [
           {
-            "description": "Add one AM Gorgon or five Chimedons",
-            "points": ["Gorgon: 100 points", "Chimedons: 175 points"]
+            "description": "Add one Gorgon, five Chimeras, or five Chimedons",
+            "points": ["Gorgon: 100 points", "Chimeras: 125 points", "Chimedons: 175 points"]
           }
         ]
       },
@@ -231,20 +231,11 @@
         "name": "Servitors",
         "options": [
           {
-            "description": "Add four Adsecularis",
+            "description": "Add three Adsecularis",
             "points": "50 points"
           }
         ]
     },
-        {
-          "name": "Rapiers",
-          "options": [
-            {
-              "description": "Add three Rapiers",
-              "points": "50 points"
-            }
-          ]
-      },
         {
           "name": "Hydra",
           "options": [
@@ -254,15 +245,6 @@
             }
           ]
       },
-      {
-        "name": "Chimeras",
-        "options": [
-          {
-            "description": "Add two Chimeras",
-            "points": "50 points"
-          }
-        ]
-    },
       {
         "name": "Minoris",
         "options": [

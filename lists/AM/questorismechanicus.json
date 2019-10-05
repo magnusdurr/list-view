@@ -1,19 +1,17 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Questoris Mechanicus",
-  "version": "0.9.2",
-  "release": "2019-04-01",
+  "version": "0.9.3",
+  "release": "2019-10-05",
   "strategy": "Questoris Mechanicus armies have a Strategy Rating of 3.",
   "Initiative": "Titan Legion formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-          "Machine Spirit",
           "Bravery",
           "Stubborn",
           "Ion Shield (X)",
           "Shield Piercer",
           "Lightning Charge",
-          "Unstable",
           "Heavy Armoured Vehicle (H-AV)"
 
   ],
@@ -58,10 +56,10 @@
       "from": "AM.json",
       "units": [
         "Magos",
-        "Skitarii Vanguard",
+        "Hypaspists",
 
         "Onager Dunecrawler",
-        "AM Gorgon",
+        "Gorgon",
 
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
@@ -87,8 +85,10 @@
         {
           "name": "Questoris",
           "units": "Two Questoris Knights (any combination of configurations)",
-          "upgrades": [
-            "Questoris, Seneschal, Baron"
+          "extraUnits": [
+            "Questoris",
+            "Seneschal",
+            "Baron"
           ],
           "points": 250
         }
@@ -101,7 +101,7 @@
         {
           "name": "Cerasus",
           "units": "Two Cerastus Knights (any combination of configurations), one Seneschal character",
-          "upgrades": [
+          "extraUnits": [
             "Knight-Atrapos"
           ],
           "points": 300
@@ -115,7 +115,7 @@
         {
           "name": "Armiger",
           "units": "Four Knight-Warglaives or four Knight-Helverins",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 175
         }
@@ -128,7 +128,7 @@
         {
           "name": "0-1 Questoris Reliquae",
           "units": "Two Questoris Relic Knights (any combination of configurations)",
-          "upgrades": [
+          "extraUnits": [
               "Questoris Reliquae",
               "Acastus Reliquae"
           ],
@@ -137,7 +137,7 @@
       {
         "name": "0-1 Acastus Reliquae",
         "units": "Two Acastus Knights, each with one Seneschal (any combination of configurations)",
-        "upgrades": [
+        "extraUnits": [
             "Questoris Reliquae",
             "Acastus Reliquae"
         ],
@@ -151,18 +151,18 @@
       "formations": [
         {
           "name": "Mechanized Skitarii Maniple",
-          "units": "One Magos, nine Skitarii Vanguard, one AM Gorgon",
-          "points": 300
+          "units": "One Magos, nine Hypaspists, one Gorgon",
+          "points": 325
         },
         {
           "name": "Onager Cohort",
-          "units": "Five Onager Dunecrawlers. Max two different weapons in the formation.",
-          "points": 200
+          "units": "Two Onager Dunecrawlers with Icarus Array, three Onager Dune Crawlers with another single weapon.",
+          "points": 225
         },
         {
           "name": "Warhound Pack",
           "units": "Two Warhound Scout Titans, Standard or Close Support Configuration",
-          "upgrades": [
+          "extraUnits": [
               "Tank Hunter",
               "Independent"
           ],
