@@ -121,6 +121,27 @@
         ]
       },
       {
+        "name": ">Ordinatus Cyclothrathe<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Ordinatus Retlaxi<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Ordinatus Temporia<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
         "name": ">Battle Weapons<",
           "modes": [
             {
@@ -1079,6 +1100,31 @@
             "firepower": "MW3+",
               "range": 90,
             "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kaban Conversion Beamer",
+        "modes": [
+          {
+            "firepower": "MW2+",
+              "range": 90,
+            "specialRules": [
+                "TK(D3)",
+                "Shield Disruptor"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kaban Laser Destroyer",
+        "modes": [
+          {
+            "firepower": "3x AT2+",
+              "range": 90,
+            "specialRules": [
+                "Lance"
           ]
           }
       ]
@@ -3902,6 +3948,18 @@
       ]
     },
     {
+      "name": "Gyrator Barrage Cannon",
+      "modes": [
+        {
+          "firepower": "8x AP4+/AT4+",
+          "range": 120,
+          "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Gravitic Tracer Salvo",
         "modes": [
           {
@@ -3921,6 +3979,19 @@
           "range": 30,
           "specialRules": [
             "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graviton Singularity Beamer",
+      "modes": [
+        {
+          "firepower": "2x MW3+",
+          "range": 90,
+          "specialRules": [
+            "TK(D3)",
+            "Shield Piercer"
           ]
         }
       ]
@@ -4110,7 +4181,33 @@
       ]
     },
     {
+      "name": "4x Havoc Barrage Missile",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 60,
+            "specialRules": [
+              "SS",
+              "Ind"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Havoc Warp Missile",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 90,
+            "specialRules": [
+              "SS",
+              "Shield Piercer"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "3x Havoc Warp Missile",
         "modes": [
           {
             "firepower": "MW4+",
@@ -8939,6 +9036,19 @@
       ]
     },
     {
+      "name": "Terrebrax Phospex Battery",
+        "modes": [
+          {
+            "firepower": "6BP",
+            "range": 60,
+            "specialRules": [
+              "D",
+              "Ind"
+          ]
+        }
+      ]
+    },
+        {
       "name": "Titan Pulsar",
       "modes": [
         {
@@ -9072,6 +9182,15 @@
       "modes": [
         {
           "firepower": "4x AP5+/AT3+",
+          "range": 60
+        }
+      ]
+    },
+    {
+      "name": "Laser Destructor",
+      "modes": [
+        {
+          "firepower": "2x AP5+/AT3+",
           "range": 60
         }
       ]
@@ -9484,6 +9603,17 @@
       "modes": [
         {
           "firepower": "AT3+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Storm Serpent Pulse Laser",
+      "modes": [
+        {
+          "firepower": "2x AT3+",
           "range": 45,
           "specialRules": [
           ]
@@ -10075,7 +10205,7 @@
       "name": "Wraith Cannons",
         "modes": [
           {
-            "firepower": "MW5+",
+            "firepower": "2x MW5+",
             "range": 15
           },
           {

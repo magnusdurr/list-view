@@ -702,7 +702,19 @@
      {
        "title": "TTL Summoning Rules",
        "description": [
-           "Formations in a Traitor Titan Legion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
+           "Battle, Scout and Daemon Engine formations in a Traitor Titan Legion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
+           "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
+           "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
+           "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
+           "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1)",
+           "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
+           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+       ]
+     },
+     {
+       "title": "QT Summoning Rules",
+       "description": [
+           "Daemonic Lance, Daemonic Pack and Traitor Titan formations in a Questor Traitoris army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
            "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
            "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
@@ -807,6 +819,14 @@
          "Each formation in a Traitor Titan Legion army owes allegiance to either one of the Gods of Chaos or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Traitor Titan Legion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Traitor Titan Legion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
+       ]
+        },
+        {
+       "title": "QT Eternal Animosity",
+       "description": [
+         "Each formation in a Questor Traitoris army owes allegiance to either one of the Gods of Chaos or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "A Questor Traitoris army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+         "A Questor Traitoris army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
         },
 

@@ -52,13 +52,13 @@
             {
               "name": "Cadian Shock Troops",
               "file": "cadianshocktroops",
-              "status": "alpha",
+              "status": "experimental",
               "img": "website/img/AstraMilitarum_Cadian.jpg"
             },
             {
               "name": "Catachan Jungle Fighters",
               "file": "catachandeathworld",
-              "status": "alpha",
+              "status": "experimental",
               "img": "website/img/AstraMilitarum_Catachan.jpg"
             },
             {
@@ -82,7 +82,7 @@
             {
               "name": "Valhallan Ice Warriors",
               "file": "valhallanicewarriors",
-              "status": "alpha",
+              "status": "experimental",
               "img": "website/img/AstraMilitarum_Valhallans.jpg"
             },
             {
@@ -106,13 +106,13 @@
           {
             "name": "Grey Knights",
             "file": "greyknights",
-            "status": "alpha",
+            "status": "experimental",
             "img": "website/img/Inquisition_GreyKnights.jpg"
         },
         {
           "name": "Deathwatch",
           "file": "deathwatch",
-          "status": "alpha",
+          "status": "experimental",
           "img": "website/img/Inquisition_Deathwatch.jpg"
         }
           ]
@@ -213,7 +213,7 @@
             {
               "name": "Alpha Legion",
               "file": "alphalegion",
-              "status": "alpha",
+              "status": "experimental",
               "img": "website/img/Chaos_Alpha.jpg"
             }
           ]
@@ -251,7 +251,13 @@
               "file": "TTL",
               "status": "alpha",
               "img": "website/img/DarkMech_Titan.jpg"
-            }
+          },
+          {
+            "name": "Questor Traitoris",
+            "file": "QT",
+            "status": "experimental",
+            "img": "website/img/DarkMech_QT.jpg"
+          }
           ]
         }
       ]
@@ -303,7 +309,7 @@
       {
         "name": "Lugganath / Harlequins",
         "file": "masqueoftheveiledpath",
-        "status": "alpha",
+        "status": "experimental",
         "img": "website/img/Harlequin_Veiled.jpg"
       }
           ]
@@ -315,7 +321,7 @@
               {
                 "name": "Kabal of the Wraithkind / Harlequins",
                 "file": "masqueofthemidnightsorrow",
-                "status": "alpha",
+                "status": "experimental",
                 "img": "website/img/Harlequin_Sorrow.jpg"
             },
             {
@@ -417,7 +423,7 @@
             {
               "name": "Hive Fleet Hydra",
               "file": "Hydra",
-              "status": "alpha",
+              "status": "experimental",
               "img": "website/img/Tyranid_Hydra.jpg"
           }
 

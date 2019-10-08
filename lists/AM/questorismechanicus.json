@@ -84,13 +84,12 @@
       "formations": [
         {
           "name": "Questoris",
-          "units": "Two Questoris Knights (any combination of configurations)",
+          "units": "One Seneschal, two Questoris Knights (any combination of configurations)",
           "extraUnits": [
             "Questoris",
-            "Seneschal",
             "Baron"
           ],
-          "points": 250
+          "points": 275
         }
       ]
     },
@@ -100,7 +99,7 @@
       "formations": [
         {
           "name": "Cerasus",
-          "units": "Two Cerastus Knights (any combination of configurations), one Seneschal character",
+          "units": "One Seneschal, two Cerastus Knights (any combination of configurations)",
           "extraUnits": [
             "Knight-Atrapos"
           ],
@@ -127,12 +126,12 @@
       "formations": [
         {
           "name": "0-1 Questoris Reliquae",
-          "units": "Two Questoris Relic Knights (any combination of configurations)",
+          "units": "One Seneschal, two Questoris Relic Knights (any combination of configurations)",
           "extraUnits": [
               "Questoris Reliquae",
               "Acastus Reliquae"
           ],
-          "points": 300
+          "points": 325
       },
       {
         "name": "0-1 Acastus Reliquae",
@@ -150,7 +149,7 @@
       "description": "Up to a third of the points available may be spent on Skitarii, AMTL and Imperial Navy Allies.",
       "formations": [
         {
-          "name": "Mechanized Skitarii Maniple",
+          "name": "Hypaspist Maniple",
           "units": "One Magos, nine Hypaspists, one Gorgon",
           "points": 325
         },

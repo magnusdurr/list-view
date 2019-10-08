@@ -43,19 +43,65 @@
            "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
          ]
      },
-     {
-       "title": "Regeneration",
-       "description": [
-         "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
-         "Against Titan Killer attacks, one Invulnerable Save has to be made against each point of damage."
-       ]
+         {
+           "title": "Regeneration",
+           "description": [
+             "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
+             "Against Titan Killer attacks, one Invulnerable Save has to be made against each point of damage."
+           ]
+       },
+       {
+         "title": "Machine Spirit",
+         "description": [
+           "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
+         ]
+       },
+       {
+         "title": "Ponderous",
+         "description": [
+           "Units with the 'Ponderous' special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally."
+           ]
+       },
+       {
+         "title": "Lance",
+         "description": [
+           "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+         ]
+       },
+       {
+         "title": "Shield Piercer",
+         "description": [
+           "Ignores Powerfields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
+         ]
+       },
+       {
+         "title": "Shield Disruptor",
+         "description": [
+           "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Ion Shields. "
+         ]
      }
     ],
 
     "unit": [
         {
-          "name": "Heretek",
+          "name": "Arch-Heretek",
           "type": "CH",
+          "weapons": [
+            "Arcane Technology"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Invulnerable Save",
+            "Fearless"
+          ]
+        },
+        {
+          "name": "Hereteks",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
           "weapons": [
             "Forbidden Technology"
           ],
@@ -65,7 +111,45 @@
           ]
         },
         {
-          "name": "Chaos Squat Excavators",
+          "name": "Arlatax Robot",
+          "type": "LV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 5,
+          "weapons": [
+            "Reaper Autocannon",
+            "Power Fist"
+          ],
+          "specialRules": [
+              "Invulnerable Save",
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
+          ]
+        },
+        {
+          "name": "Geist Servitors",
+          "type": "INF",
+          "speed": 20,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Flamers"
+          ],
+          "specialRules": [
+              "Scout",
+              "Infiltrators",
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
+          ]
+        },
+        {
+          "name": "Chaos Squats",
           "type": "INF",
           "speed": 15,
           "armour": 6,
@@ -77,6 +161,36 @@
           "specialRules": [
           ]
         },
+        {
+          "name": "Chaos Rhino",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 6,
+          "weapons": [
+            "Combi-Bolter"
+        ],
+        "specialRules": [
+          "Transport"
+      ],
+        "notes": "May transport two infantry units without Jump Packs or Mounted."
+        },
+        {
+          "name": "Hell Rhino",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Phospex Blaster"
+          ],
+          "specialRules": [
+              "Transport"
+          ],
+          "notes": "May transport one infantry unit without Jump Packs or Mounted."
+            },
         {
           "name": "Hades Land Raider",
           "type": "AV",
@@ -93,8 +207,85 @@
               "Thick Rear Armour",
               "Transport"
           ],
-          "notes": "May transport one unit in Exoarmour or two infantry units without Jump Packs or Mounted."
+          "notes": "May transport two infantry units without Jump Packs or Mounted."
             },
+
+                {
+                    "name": "Ordinatus Hereticus Minoris",
+                    "type": "WE",
+                    "speed": 20,
+                    "armour": 5,
+                    "cc": 6,
+                    "ff": 5,
+                    "weapons": [
+                      "Phospex Blaster|2|",
+                      ">Battle Weapons<",
+                      "Turbo Blaster|0-1|FxF",
+                      "Doom Burner|0-1|FxF",
+                      "Plasma Cremator|0-1|FxF",
+                      "Twin Hades Autocannon|0-1|",
+                      "Corvus Assault Pod|0-1|",
+                      ">Support Weapons<",
+                      "Plasma Incinerator|0-1|FxF",
+                      "Cannon of Chaos|0-1|FxF",
+                      "Cyclone Cannon|0-1|FxF",
+                      "4x Havoc Barrage Missile|0-1|FwA"
+
+                    ],
+                    "specialRules": [
+                      "Damage Capacity 2",
+                      "Void Shields 2",
+                      "Reinforced Armour",
+                      "Fearless"
+                  ],
+                    "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. [*]Corvus Assault Pod: May transport eleven infantry units.",
+                  "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+                },
+            {
+                "name": "Ordinatus Hereticus Majoris",
+                "type": "WE",
+                "speed": 10,
+                "armour": 5,
+                "cc": 6,
+                "ff": 5,
+                "weapons": [
+                    "Phospex Blaster|3|",
+                    ">Ordinatus Cyclothrathe<",
+                    "Terrebrax Phospex Battery||FxF",
+                    ">Ordinatus Retlaxi<",
+                    "Graviton Singularity Beamer||FxF",
+                    ">Ordinatus Temporia<",
+                    "Gyrator Barrage Cannon||FxF"
+                ],
+                "specialRules": [
+                  "Damage Capacity 4",
+                  "Void Shields 4",
+                  "Reinforced Armour",
+                  "Fearless"
+              ],
+              "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+            },
+            {
+              "name": "The Kaban Machine",
+              "type": "WE",
+              "speed": 15,
+              "armour": 4,
+              "cc": 5,
+              "ff": 4,
+              "weapons": [
+                "Kaban Laser Destroyer||FwA",
+                "Kaban Conversion Beamer||FwA",
+                "Guntail|6|"
+              ],
+              "specialRules": [
+                  "Damage Capacity 4",
+                  "Void Shields 4",
+                  "Reinforced Armour",
+                  "Fearless",
+                  "Thick Rear Armour"
+                            ],
+              "crit": "The Kaban Machine is destroyed. All units within 5cm takes a hit."
+              },
         {
           "name": "Defiler",
           "type": "AV",
@@ -157,7 +348,7 @@
           "ff": 4,
           "weapons": [
             "Rapid Fire Battle Cannon",
-            "Hyperwave Clarion",
+            "Twin Reaper Autocannon",
             "Renegade Chainsword"
           ],
           "specialRules": [
@@ -167,6 +358,45 @@
             "Invulnerable Save",
             "Daemon Engine (Chaos Undivided)"
           ]
+        },
+        {
+            "name": "Knight-Doomglaive",
+            "type": "AV",
+            "speed": 30,
+            "armour": 5,
+            "cc": 5,
+            "ff": 5,
+            "weapons": [
+              "Multi-Melta",
+              "Heavy Stubber",
+              "Reaper Chain-Cleaver"
+            ],
+            "specialRules": [
+              "Walker",
+              "Scout",
+              "Fearless",
+              "Invulnerable Save",
+              "Daemon Engine (Chaos Undivided)"
+            ]
+        },
+        {
+            "name": "Knight-Perfidor",
+            "type": "AV",
+            "speed": 30,
+            "armour": 5,
+            "cc": 5,
+            "ff": 5,
+            "weapons": [
+              "Reaper Autocannon|2|",
+              "Heavy Stubber"
+            ],
+            "specialRules": [
+              "Walker",
+              "Scout",
+              "Fearless",
+              "Invulnerable Save",
+              "Daemon Engine (Chaos Undivided)"
+            ]
         },
         {
           "name": "Warp Altar",
@@ -231,33 +461,6 @@
           "crit": " Move the Death Wheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Death Wheel is then destroyed"
       },
 
-      {
-        "name": "Heldrake",
-        "type": "AC",
-        "speed": "Fighter",
-        "armour": 6,
-        "weapons": [
-          "AC Hades Autocannon||FxF",
-          "AC Piston-Driven Claws"
-        ],
-        "specialRules": [
-            "Invulnerable Save"
-        ]
-      },
-
-      {
-        "name": "Baledrake Fighter-Bomber",
-        "type": "AC",
-        "speed": "Fighter-Bomber",
-        "armour": 5,
-        "weapons": [
-          "AC Baleflamer||FxF",
-          "AC Piston-Driven Claws"
-        ],
-        "specialRules": [
-            "Invulnerable Save"
-        ]
-      },
         {
           "name": "Debaser",
           "type": "AV",
@@ -281,7 +484,7 @@
         {
           "name": "Hell-Strider",
           "type": "AV",
-          "speed": 30,
+          "speed": 40,
           "armour": 5,
           "cc": 6,
           "ff": 5,
@@ -437,20 +640,19 @@
           ]
         },
         {
-          "name": "Knight-Decayer",
+          "name": "Knight-Desecrator",
           "type": "H-AV",
           "speed": 20,
-          "armour": 4,
-          "cc": 3,
+          "armour": 3,
+          "cc": 4,
           "ff": 4,
           "weapons": [
-            "Corruptor Gatling Cannon",
+            "Laser Destructor",
             "Pus Launcher Pod",
             "Renegade Chainsword"
           ],
           "specialRules": [
             "Fearless",
-            "Reinforced Armour",
             "Walker",
             "Invulnerable Save",
             "Daemon Engine (Nurgle)"
@@ -537,14 +739,14 @@
           ]
         },
         {
-          "name": "Knight-Mauler",
+          "name": "Knight-Rampager",
           "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Twin Reaper Autocannon",
+            "Hyperwave Clarion",
             "Doomgauntlet",
             "Renegade Chainsword"
           ],
@@ -676,7 +878,7 @@
           ]
       },
       {
-        "name": "Knight-Mutator",
+        "name": "Knight-Despoiler",
         "type": "H-AV",
         "speed": 20,
         "armour": 5,

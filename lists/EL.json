@@ -679,84 +679,6 @@
       ]
     },
     {
-      "name": "Skathach Wraithknight",
-      "type": "H-AV",
-      "speed": 30,
-      "cc": 4,
-      "ff": 3,
-      "weapons": [
-        "Deathshroud Cannon|2"
-      ],
-      "specialRules": [
-        "Holofield (4+)",
-        "Fearless",
-        "Walker"
-      ]
-    },
-    {
-      "name": "Wraithknight",
-      "type": "H-AV",
-      "speed": 30,
-      "cc": 4,
-      "ff": 4,
-      "weapons": [
-        "Wraithknight Cannons"
-      ],
-      "specialRules": [
-        "Holofield (4+)",
-        "Fearless",
-        "Walker"
-      ]
-    },
-    {
-      "name": "Fire Gale",
-      "type": "H-AV",
-      "speed": 30,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Knight Psychic Lance"
-      ],
-      "specialRules": [
-        "Holofield (4+)",
-        "Fearless",
-        "Walker"
-      ]
-    },
-    {
-      "name": "Bright Stallion",
-      "type": "H-AV",
-      "speed": 35,
-      "cc": 4,
-      "ff": 5,
-      "weapons": [
-        "Pulse Laser"
-      ],
-      "specialRules": [
-        "Holofield (4+)",
-        "Fearless",
-        "Scout",
-        "Walker"
-      ]
-    },
-    {
-      "name": "Towering Destroyer",
-      "type": "H-AV",
-      "speed": 30,
-      "armour": 5,
-      "cc": 4,
-      "ff": 4,
-      "weapons": [
-        "Wraithknight Cannons"
-      ],
-      "specialRules": [
-        "Holofield (4+)",
-        "Reinforced Armour",
-        "Fearless",
-        "Walker"
-      ]
-    },
-    {
       "name": "Lynx",
       "type": "H-AV",
       "speed": 30,
@@ -820,7 +742,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Pulse Lasers",
+        "Storm Serpent Pulse Laser",
         "Scatter Laser"
       ],
       "specialRules": [
@@ -850,6 +772,84 @@
       ],
       "crit": "The Void Spinner is destroyed. Any units within 5cm take a hit on 5+."
     },
+    {
+      "name": "Skathach Wraithknight",
+      "type": "H-AV",
+      "speed": 35,
+      "cc": 4,
+      "ff": 3,
+      "weapons": [
+        "Deathshroud Cannon|2"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Wraithknight",
+      "type": "H-AV",
+      "speed": 35,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Wraithknight Cannons"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Fire Gale",
+      "type": "H-AV",
+      "speed": 35,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Knight Psychic Lance"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Bright Stallion",
+      "type": "H-AV",
+      "speed": 35,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Pulse Laser"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Fearless",
+        "Scout",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Towering Destroyer",
+      "type": "H-AV",
+      "speed": 35,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Wraithknight Cannons"
+      ],
+      "specialRules": [
+        "Holofield (4+)",
+        "Reinforced Armour",
+        "Fearless",
+        "Walker"
+      ]
+    },
+
     {
       "name": "Revenant Titan",
       "type": "WE",
