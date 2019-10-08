@@ -14,7 +14,7 @@
         {
            "title": "Daemon Engine (x)",
            "description": [
-             "Formations completely made up of units with the Daemon Engine (x) special rule, and that have the same faction within its brackets, gain the bonus associated with that faction:",
+             "Formations where at least one unit has the Daemon Engine (x) special rule gain the bonus associated with that faction:",
              "Slaanesh: Formation gains +1 to activate when attempting to Double.",
              "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
              "Khorne: Formation gains +1 to activate when attempting to Engage.",
@@ -46,8 +46,8 @@
          {
            "title": "Regeneration",
            "description": [
-             "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
-             "Against Titan Killer attacks, one Invulnerable Save has to be made against each point of damage."
+             "Regeneration functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
+             "Against Titan Killer attacks, WE and H-AV must make one Invulnerable Save against each point of damage."
            ]
        },
        {
@@ -59,7 +59,7 @@
        {
          "title": "Ponderous",
          "description": [
-           "Units with the 'Ponderous' special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally."
+           "Units with the Ponderous special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally."
            ]
        },
        {
@@ -71,13 +71,13 @@
        {
          "title": "Shield Piercer",
          "description": [
-           "Ignores Powerfields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
+           "Ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields & Void Shields (Shadowfields still provide cover from shooting)."
          ]
        },
        {
          "title": "Shield Disruptor",
          "description": [
-           "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Ion Shields. "
+           "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields. "
          ]
      }
     ],
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "name": "Hereteks",
+          "name": "Hellwrights",
           "type": "INF",
           "speed": 15,
           "armour": 4,
@@ -132,7 +132,7 @@
         {
           "name": "Geist Servitors",
           "type": "INF",
-          "speed": 20,
+          "speed": 15,
           "armour": 5,
           "cc": 6,
           "ff": 5,
@@ -177,7 +177,7 @@
         "notes": "May transport two infantry units without Jump Packs or Mounted."
         },
         {
-          "name": "Hell Rhino",
+          "name": "Hell-Rhino",
           "type": "AV",
           "speed": 30,
           "armour": 5,
@@ -484,7 +484,7 @@
         {
           "name": "Hell-Strider",
           "type": "AV",
-          "speed": 40,
+          "speed": 35,
           "armour": 5,
           "cc": 6,
           "ff": 5,
@@ -493,9 +493,9 @@
             "Multi-Melta"
           ],
           "specialRules": [
-            "Fearless",
             "Walker",
             "Scout",
+            "Fearless",
             "Invulnerable Save",
             "Daemon Engine (Slaanesh)"
           ]
@@ -643,7 +643,7 @@
           "name": "Knight-Desecrator",
           "type": "H-AV",
           "speed": 20,
-          "armour": 3,
+          "armour": 4,
           "cc": 4,
           "ff": 4,
           "weapons": [
@@ -654,6 +654,7 @@
           "specialRules": [
             "Fearless",
             "Walker",
+            "Reinforced Armour",
             "Invulnerable Save",
             "Daemon Engine (Nurgle)"
           ]
@@ -741,7 +742,7 @@
         {
           "name": "Knight-Rampager",
           "type": "H-AV",
-          "speed": 30,
+          "speed": 25,
           "armour": 5,
           "cc": 3,
           "ff": 4,

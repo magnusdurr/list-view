@@ -36,11 +36,11 @@
             "Knight-Doomglaive",
             "Knight-Perfidor",
             "Arch-Heretek",
-            "Hereteks",
+            "Hellwrights",
             "Chaos Squats",
             "Geist Servitors",
             "Hades Land Raider",
-            "Hell Rhino",
+            "Hell-Rhino",
             "Chaos Rhino",
             "Arlatax Robot",
             "Ordinatus Hereticus Minoris",
@@ -105,7 +105,7 @@
       "formations": [
         {
           "name": "Hell-Knights of Slaanesh",
-          "units": "Four Hell-Knights",
+          "units": "Three Hell-Knights",
           "extraUnits": [
           ],
           "points": 325
@@ -129,9 +129,9 @@
           "name": "Knight-Desecrators of Nurgle",
           "units": "Two Knight-Desecrators",
           "extraUnits": [
-          "Add one Knight-Desecrator: 100 points"
+          "Add one Knight-Desecrator: 125 points"
           ],
-          "points": 275
+          "points": 300
       },
         {
           "name": "Knight-Rampagers of Khorne",
@@ -205,7 +205,7 @@
             "formations": [
                 {
                   "name": "Hell-Forge Maniple (Chaos Undivided)",
-                  "units": "One unit of Hereteks, seven Chaos Squats",
+                  "units": "One Hellwright, seven Chaos Squats",
                 "extraUnits": [
                     "Arch-Heretek",
                     "Hell-Forge Transport",
@@ -215,14 +215,14 @@
                   },
                   {
                     "name": "Arlatax Maniple (Chaos Undivided)",
-                    "units": "One unit of Hereteks, five Arlatax Robots",
+                    "units": "One Hellwright, five Arlatax Robots",
                   "extraUnits": [
                       ],
                   "points": 175
                     },
                     {
                       "name": "Geist Recon Maniple (Chaos Undivided)",
-                      "units": "Four Chaos Squats, four Geist Servitors",
+                      "units": "Two Chaos Squats, two Hell-Rhinos, four Geist Servitors",
                     "extraUnits": [
                         ],
                     "points": 175
@@ -302,14 +302,14 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Supreme Commander",
-        "description": "Add an Arch-Heretek to a unit of Hereteks",
+        "name": "0-1 Arch-Heretek",
+        "description": "Add an Arch-Heretek to a unit of Hellwrights",
         "points": "100 points"
     },
     {
       "name": "Hell-Forge Transport",
       "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot, and no unit lacks transport.",
-      "points": ["Chaos Rhinos: 10 points", "Hell Rhino: 25 points", "Hades Land Raider: 50 points"]
+      "points": ["Chaos Rhinos: 10 points", "Hell-Rhino: 25 points", "Hades Land Raider: 50 points"]
   }
     ]
   }

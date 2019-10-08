@@ -73,7 +73,7 @@
       {
         "title": "Shield Disruptor",
         "description": [
-          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Ion Shields. "
+          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields. "
         ]
     },
 
@@ -86,7 +86,7 @@
     {
       "title": "Stubborn",
       "description": [
-        "Any formation where at least one unit has Stubborn are subject to the following rules: Reduce the damage caused by Blast Markers while the formation is broken by one. Reduce the number of extra hits from losing an assault by one."
+        "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, and reduce the number of extra hits from losing an assault by one."
       ]
     },
     {
@@ -100,7 +100,7 @@
     {
       "title": "Shield Piercer",
       "description": [
-        "Ignores Powerfields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
+        "Ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields & Void Shields (Shadowfields still provide cover from shooting)."
       ]
     },
     {
@@ -744,7 +744,17 @@
        ]
      },
 
-
+     {
+        "title": "Daemon Engine (x)",
+        "description": [
+          "Formations where at least one unit has the Daemon Engine (x) special rule gain the bonus associated with that faction:",
+          "Slaanesh: Formation gains +1 to activate when attempting to Double.",
+          "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
+          "Khorne: Formation gains +1 to activate when attempting to Engage.",
+          "Tzeench: Formation gains +1 to activate when attempting to Advance.",
+          "Chaos Undivided: Formation ignores the -1 modifier for enemy formations within 30cm when rallying."
+        ]
+    },
 
 
      {
@@ -989,8 +999,8 @@
     {
       "title": "Regeneration",
       "description": [
-        "Units with Regeneration receive a second save. This save functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
-        "Against Titan Killer attacks, one Invulnerable Save has to be made against each point of damage."
+        "Regeneration functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
+        "Against Titan Killer attacks, WE and H-AV must make one Invulnerable Save against each point of damage."
       ]
     },
     {
@@ -1013,7 +1023,7 @@
     {
       "title": "Ponderous",
       "description": [
-        "Units with the 'Ponderous' special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally."
+        "Units with the Ponderous special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally."
         ]
     },
     {
@@ -1110,7 +1120,7 @@
     {
       "title": "Deflector Shield",
       "description": [
-        "Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+."
+        "Tau Deflector Shields work like an Invulnerable Save in all respects, except it is 5+ instead of 6+. Against Titan Killer attacks, WE and H-AV must make one Invulnerable Save against each point of damage."
       ]
     },
     {

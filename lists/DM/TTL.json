@@ -106,7 +106,7 @@
 ],
   "sections": [
     {
-      "name": "Traitor Titan Legion Battle Titan Formations",
+      "name": "Battle Titan Formations",
       "description": "A TTL army must contain at least one Chaos Emperor or Chaos Warlord Titan. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
       "formations": [
         {
@@ -180,7 +180,7 @@
           },
           {
             "name": "Hell-Knights of Slaanesh",
-            "units": "Four Hell-Knights",
+            "units": "Three Hell-Knights",
             "points": 325
           },
           {
@@ -193,7 +193,7 @@
             "units": "Two Knight-Desecrators",
             "extraUnits": [
             ],
-            "points": 275
+            "points": 300
         },
           {
             "name": "Nurgle Defiler Pack",
@@ -306,7 +306,7 @@
     "items": [
       {
         "name": "0-1 Eye of the Gods",
-        "description": "One Eye of the Gods character.",
+        "description": "Add one Eye of the Gods character to the formation",
         "points": "25 points"
     },
     {

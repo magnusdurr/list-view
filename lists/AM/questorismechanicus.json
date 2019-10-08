@@ -1,10 +1,10 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Questoris Mechanicus",
-  "version": "0.9.3",
-  "release": "2019-10-05",
+  "version": "0.8.0",
+  "release": "2019-10-08",
   "strategy": "Questoris Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "Titan Legion formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
+  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
           "Bravery",
@@ -80,36 +80,45 @@
 ],
 "sections": [
     {
-      "name": "Questoris Lances",
+      "name": "Core Lances",
       "formations": [
         {
           "name": "Questoris",
-          "units": "One Seneschal, two Questoris Knights (any combination of configurations)",
+          "units": "Three Questoris Knights (may not mix configurations)",
           "extraUnits": [
-            "Questoris",
+            "Seneschal",
             "Baron"
           ],
-          "points": 275
+          "points": 350
         }
       ]
+  },
+  {
+    "name": "Support Lances",
+      "description": "Up to one Dominus or Cerastus Lance for each Core Lance.",
+    "formations": [
+      {
+        "name": "Dominus",
+        "units": "One Seneschal, two Dominus Knights (may not mix configurations)",
+        "extraUnits": [
+            "Baron"
+        ],
+        "points": 425
     },
     {
-      "name": "Cerastus Lances",
-      "description": "Up to one Cerasus Lance for each Questoris Lance.",
-      "formations": [
-        {
-          "name": "Cerasus",
-          "units": "One Seneschal, two Cerastus Knights (any combination of configurations)",
-          "extraUnits": [
-            "Knight-Atrapos"
-          ],
-          "points": 300
-        }
-      ]
-    },
+      "name": "Cerastus",
+      "units": "Two Cerastus Knights (may not mix configurations)",
+      "extraUnits": [
+        "Seneschal",
+        "Baron"
+      ],
+      "points": 325
+  }
+    ]
+},
     {
-      "name": "Armiger Lances",
-      "description": "Up to one Armiger Lance for each Questoris or Cerastus Lance.",
+      "name": "Recon Lances",
+      "description": "Up to one Recon Lance for each Core or Support Lance.",
       "formations": [
         {
           "name": "Armiger",
@@ -122,30 +131,34 @@
     },
     {
       "name": "Relic Lances",
-      "description": "Up to one Relic Lance for each Questoris Lance.",
       "formations": [
         {
           "name": "0-1 Questoris Reliquae",
-          "units": "One Seneschal, two Questoris Relic Knights (any combination of configurations)",
+          "units": "One Seneschal, three Questoris Relic Knights (may not mix configurations)",
           "extraUnits": [
-              "Questoris Reliquae",
-              "Acastus Reliquae"
+              "Baron"
           ],
-          "points": 325
+          "points": 425
       },
       {
         "name": "0-1 Acastus Reliquae",
-        "units": "Two Acastus Knights, each with one Seneschal (any combination of configurations)",
+        "units": "One Seneschal, two Acastus Knights (may not mix configurations)",
         "extraUnits": [
-            "Questoris Reliquae",
-            "Acastus Reliquae"
+            "Baron"
         ],
-        "points": 450
-      }
+        "points": 500
+    },
+    {
+      "name": "0-1 Cerastus Reliquae",
+      "units": "One Seneschal, one Cerastus Knight-Atrapos",
+      "extraUnits": [
+      ],
+      "points": 225
+    }
       ]
     },
     {
-      "name": "Skitarii, AMTL and Imperial Navy Allies",
+      "name": "Mechanicus Allies",
       "description": "Up to a third of the points available may be spent on Skitarii, AMTL and Imperial Navy Allies.",
       "formations": [
         {
@@ -155,7 +168,7 @@
         },
         {
           "name": "Onager Cohort",
-          "units": "Two Onager Dunecrawlers with Icarus Array, three Onager Dune Crawlers with another single weapon.",
+          "units": "Two Onager Dunecrawlers with Icarus Array, three Onager Dune Crawlers with another single configuration.",
           "points": 225
         },
         {
@@ -188,63 +201,20 @@
           "name": "0-1 Baron",
           "options": [
             {
-              "description": "Replace the Seneschal with a Baron",
+              "description": "Replace one Seneschal in the formation with a Baron",
               "points": "50 points"
             }
           ]
         },
-      {
-        "name": "Seneschal",
-        "options": [
         {
-              "description": "One of the following:"
+          "name": "Seneschal",
+          "options": [
+            {
+              "description": "Add one Seneschal to the formation",
+              "points": "25 points"
+            }
+          ]
         },
-          {
-            "description": "Add one Seneschal character to the formation",
-            "points": "25 points"
-        },
-        {
-          "description": "Add a Seneschal in a Dominus Knight to the formation",
-          "points": "150 points"
-        }
-        ]
-      },
-      {
-        "name": "Questoris",
-        "options": [
-          {
-            "description": "Add one Questoris Knight of any configuration",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "0-1 Knight-Atrapos",
-        "options": [
-          {
-            "description": "Replace the Seneschal's Cerastus Knight with a Cerastus Knight-Atrapos",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Questoris Reliquae",
-        "options": [
-          {
-            "description": "Add one Questoris Relic Knight of any configuration",
-            "points": "125 points"
-          }
-        ]
-      },
-      {
-        "name": "Acastus Reliquae",
-        "options": [
-          {
-            "description": "Add one Acastus Knight (of any configuration) with a Seneschal character",
-            "points": "200 points"
-          }
-        ]
-    },
         {
           "name": "Tank Hunter",
           "options": [

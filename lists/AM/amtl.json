@@ -119,9 +119,8 @@
       },
       {
         "name": "Questoris Banner",
-        "units": "Two Questoris Knights (any combination of configurations)",
+        "units": "Two Questoris Knights (may not mix configurations)",
         "upgrades": [
-            "Add one Questoris Knight of any configuration: 100 points"
         ],
         "points": 250
     }
@@ -177,20 +176,25 @@
     "title": "Titan Legion Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
+
         {
-          "name": "Commander",
-          "description": "Choose one of the following",
+          "name": "0-1 Legate",
           "options": [
             {
-              "description": "Add one Legate (1 per army)",
+              "description": "Add one Legate to the formation",
               "points": "Free"
-            },
+            }
+          ]
+      },
+        {
+          "name": "Veteran Princeps",
+          "options": [
             {
-              "description": "Veteran Princeps",
+              "description": "Add one Veteran Princeps to the formation. May not be combined with Legate",
               "points": "25 points"
             }
           ]
-        },
+      },
         {
           "name": "Tank Hunter",
           "options": [
