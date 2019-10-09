@@ -5,20 +5,20 @@
     ],
     "unit": [
       {
-      "name": "Patriarch Coven",
+      "name": "Patriarch Brood Coven",
       "type": "INF",
       "speed": 20,
       "armour": "4",
-      "cc": 4,
+      "cc": 3,
       "ff": 4,
       "weapons": [
         "Large Rending Claws"
       ],
       "specialRules": [
         "Supreme Commander",
+        "Scout",
         "Invulnerable Save",
-        "Inspiring",
-        "Expert Tunneler"
+        "Inspiring"
       ]
     },
     {
@@ -32,16 +32,15 @@
         "Leader"
       ]
     },
+
     {
-      "name": "Genestealer Primus",
+      "name": "Cult Locus",
       "type": "CH",
       "weapons": [
-        "Power Weapons"
-
-      ],
+        "n/a"
+  ],
       "specialRules": [
-        "Invulnerable Save",
-        "Leader"
+        "Fearless"
       ]
     },
     {
@@ -60,79 +59,76 @@
       "name": "Jackal Alphus",
       "type": "CH",
       "weapons": [
-        "Jackel Sniper Rifle"
+        "Sniper Rifle"
       ],
       "specialRules": [
         "Leader"
       ]
     },
     {
-      "name": "Acolyte Hybrid",
-      "type": "INF",
-      "speed": 15,
-
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Seismic Cannons","Claws"
-      ],
-      "specialRules": [
-        "Expert Tunneler",
-        "One in every two has a Seismic Cannon."
-      ]
-    },
-    {
-      "name": "Neophyte Hybrid",
+      "name": "Hybrid Acolytes",
       "type": "INF",
       "speed": 15,
       "armour": 6,
-      "cc": 5,
+      "cc": 4,
       "ff": 5,
       "weapons": [
-       "Mining Laser","Claws"
+        "Mining Laser","Claws"
       ],
       "specialRules": [
-        "Expert Tunneler",
-        "Cult Ambush"
       ]
     },
     {
-      "name": "Brood Brothers",
-      "type": "INF",
-      "speed": 15,
-
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Autocannon","Lasguns"
-      ],
-      "specialRules": [
-        "One in every two has an Autocannon"
-      ]
-    },
-    {
-      "name": "Cult Fire Support",
-      "type": "INF",
-      "speed": 15,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Autocannon|2|"
-      ]
-    },
-    {
-      "name": "Aberrants",
+      "name": "Abominants",
       "type": "INF",
       "speed": 15,
       "armour": 3,
       "cc": 3,
-
       "weapons": [
         "Giant Mauls"
       ],
       "specialRules": [
-        "Expert Tunneler",
-        "Cult Ambush"
+      ]
+    },
+    {
+      "name": "Atalan Jackals",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+      "Jackal Guns"
+      ],
+      "specialRules": [
+        "Mounted"
+      ]
+    },
+    {
+      "name": "Wolfquad",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+      "Atalan Incinerator"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Ridgerunner",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multilaser"
+      ],
+      "specialRules": [
+        "Scout"
       ]
     },
     {
@@ -149,97 +145,219 @@
         "Infiltraitors"
       ]
     },
+            {
+          "name": "Hybrid Metamorphs",
+          "type": "INF",
+          "speed": 15,
+          "armour": 6,
+          "cc": 4,
+          "ff": 6,
+          "weapons": [
+            "Metamorph Biomorphs"
+          ],
+          "specialRules": [
+            "Cult Ambush",
+            "First Strike",
+            "Infiltrators"
+          ]
+        },
     {
-      "name": "Purestrain Genestealers",
-      "type": "INF",
-      "speed": 20,
-      "armour": 4,
-      "cc": 4,
-      "weapons": [
-        "Purestrain Rending Claws"
-      ],
-      "specialRules": [
-        "Expert Tunneler",
-        "Cult Ambush",
-        "Infiltraitors"
-      ]
+    "name": "Cult Lictor",
+    "type": "LV",
+    "speed": 15,
+    "armour": 5,
+    "cc": 3,
+    "ff": 6,
+    "weapons": [
+      "Flesh Hooks", "Scythed Claws"
+    ],
+    "specialRules": [
+      "Cult Ambush",
+      "First Strike",
+      "Infiltrators",
+      "Scout",
+      "Invulnerable Save",
+      "Teleport"
+    ]
     },
     {
-      "name": "Hybrid Metamorphs",
+      "name": "Cult Infantry",
       "type": "INF",
       "speed": 15,
-      "armour": 4,
-      "cc": 4,
-      "ff": 4,
+      "cc": 6,
+      "ff": 5,
       "weapons": [
-        "Metamorph Guns","Metamorph Claws"
+        "Autocannon","Lasguns"
       ],
       "specialRules": [
-        "Expert Tunneler",
-        "Cult Ambush",
-        "Infiltraitors"
+        "Brood Brothers",
+        "One in every two Cult Infantry units has an Autocannon"
       ]
     },
     {
-      "name": "Atalan Jackals",
+      "name": "Cult Fire Support",
       "type": "INF",
-      "speed": 35,
-      "armour": 5,
-      "cc": 4,
+      "speed": 15,
+      "cc": 6,
       "ff": 5,
       "weapons": [
-      "Jackal Guns"
+        "Autocannon|2|"
+    ],
+      "specialRules": [
+              "Brood Brothers"
+              ]
+    },
+    {
+      "name": "Cult Mutants",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 6,
+      "weapons": [
+          "Autopistols",
+          "Chainswords"
       ],
       "specialRules": [
-        "Mounted",
-        "Cult Ambush"
+          "Brood Brothers"
+          ]
+  },
+  {
+    "name": "Cult Hellhound",
+    "type": "AV",
+    "speed": 30,
+    "armour": 5,
+    "cc": 6,
+    "ff": 3,
+    "weapons": [
+      "Inferno Cannon", "Heavy Bolter"
+    ],
+    "specialRules": [
+        "Brood Brothers"
+    ]
+  },
+      {
+        "name": "Cult Leman Russ",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Battle Cannon", "Lascannon", "Heavy Bolter|2|"
+        ],
+        "specialRules": [
+          "Brood Brothers",
+          "Reinforced Armour"
+        ]
+      },
+      {
+        "name": "Cult Leman Russ Demolisher",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Demolisher", "Lascannon", "Plasma Cannon|2|"
+        ],
+        "specialRules": [
+          "Brood Brothers",
+          "Reinforced Armour"
+        ]
+      },
+    {
+      "name": "Cult Hydra",
+      "type": "AV",
+      "speed": 30,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Hydra Autocannons|2", "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Brood Brothers"
       ]
     },
     {
-      "name": "Wolfquad",
-      "type": "LV",
-      "speed": 35,
-      "armour": 5,
-      "cc": 4,
+      "name": "Cult Griffon",
+      "type": "AV",
+      "speed": 30,
+      "armour": 6,
+      "cc": 6,
       "ff": 5,
       "weapons": [
-      "Atalan Incinerator"
+        "Heavy Mortar", "Heavy Bolter"
       ],
       "specialRules": [
-        "Mounted",
-        "Cult Ambush"
+          "Brood Brothers"
       ]
     },
     {
-      "name": "Achilles Ridgerunner",
+      "name": "Cult Basilisk",
+      "type": "AV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Earthshaker Cannon", "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Brood Brothers"
+      ]
+    },
+    {
+      "name": "Cult Chimera",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multilaser", "Heavy Bolter"
+      ],
+      "specialRules": [
+        "Brood Brothers",
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted. Abominantss counts as two units."
+    },
+    {
+      "name": "Cult Land Transporter",
       "type": "LV",
-      "speed": 35,
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy Stubber"
+      ],
+      "specialRules": [
+        "Brood Brothers",
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted. Abominantss counts as two units."
+    },
+    {
+      "name": "Cult Limousine",
+      "type": "LV",
+      "speed": 30,
       "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Heavy Mining Laser"
+        "Heavy Stubber|2|"
       ],
       "specialRules": [
-        "Scout"
-      ]
-    },
-    {
-      "name": "Armoured Limousine",
-      "type": "LV",
-      "speed": 35,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Mounted Guns"
+        "Brood Brothers",
+        "Transport"
       ],
-      "specialRules": [
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
+      "notes": "May carry two units of INF without Jump Packs or Mounted. Abominantss counts as two units."
     },
     {
-      "name": "Goliath Truck",
+      "name": "Goliath",
       "type": "AV",
       "speed": 25,
       "armour": 5,
@@ -249,7 +367,7 @@
       "Twin Autocannons"
       ],
       "specialRules": [
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
+        "Transport (May carry 2 infantry units without Jump Packs or Mounted)."
       ]
     },
     {
@@ -266,7 +384,46 @@
         "Walker",
         "Transport (May carry 2 infantry units without jump packs or mounted)."
       ]
-    }
+  },
+          {
+            "name": "Cult Baneblade",
+            "type": "WE",
+            "speed": 15,
+            "armour": 4,
+            "cc": 6,
+            "ff": 3,
+            "weapons": [
+              "Baneblade Cannon",
+              "Autocannon",
+              "Demolisher||FxF",
+              "Lascannon|2|FxF",
+              "Twin Heavy Bolters|3|FxF"
+            ],
+            "specialRules": [
+              "Damage Capacity 3",
+              "Brood Brothers",
+              "Reinforced Armour"
+            ],
+            "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
+        },
+        {
+          "name": "Cult Shadowsword",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Volcano Cannon||FxF",
+            "Twin Heavy Bolters|2|FxF"
+          ],
+          "specialRules": [
+            "Damage Capacity 3",
+            "Brood Brothers",
+            "Reinforced Armour"
+          ],
+          "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
+      }
     ]
   }
 ]

@@ -932,37 +932,25 @@
     {
       "title": "Cult Ambush",
       "description": [
-          "Genestealer armies are ambush specialist. Some Genestealer formations may be set up as Cult Ambushers. Only formations with all units having the Cult ambush rule can be set up this way and only 1 formation per 1k Points after the first 1k Points (2 at 3k Points, 3 at 4k and so on).",
-          "Instead of depolying as normal these formation set up as garrisons using any objective but must stay 30cm from the opponents deployment edge, So no garrisoning the enemy blitz."
+          "Formations where all units have the Cult Ambush rule may use any objective except the enemy Blitz when setting up garrisons. Units using enemy objectives may be set up on the enemy table half, but may not be deployed within 30cm of the enemy deployment board edge."
       ]
     },
     {
-      "title": "Cult Guard",
+      "title": "Brood Brothers",
       "description": [
-        "Brood Brothers, Super Heavy Tanks, Tank Platoons, Sentinels, Brood Brother Basilisks, Bombards and Deathstrikes are considered to be 'Cult Guard' formations."
+        "While a formation contains a Cult Locus or Patriarch Brood Coven, units with the 'Brood Brothers' special rule (with the exception of the unit with the Cult Locus) are considered Expendable."
       ]
     },
     {
       "title": "Patriarch Host",
       "description": [
-          "A Genestealer army must include a Patriarch Host. This formation is always considered to be the BTS even if it not the most expensive formation.",
-          "While the Patriarch Brood Coven unit is on the table all units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediately loses Fearless.",
-          "In addition, while the Patriarch Host is alive and on the table, all units in a 'Cult Guard' formation with a Genestealer Primus are considered Expendable (except for the unit with the Genestealer Primus). If the Genestealer Primus dies, the 'Cult Guard' units immediately loses Expendable"
+          "The army must include a Patriarch Host formation. The enemy count as having achieved the Break Their Spirit (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army.",
+          "All units in the Patriarch Host formation are considered Fearless as long as it contains a Patriarch Brood Coven unit.",
+          "While the Patriarch Brood Coven unit is alive, all formations in the army with a Cult Locus character gains +1 to rally.",
+          "If the Patriarch Brood Coven unit is killed, all formations in the army suffers a Blast Marker."
       ]
     },
-    {
-      "title": "Expert Tunneler",
-      "description": [
-        "Formations with 'Expert Tunneler' have the tunneler special rule except they can be placed anywhere on the table from turn 2 instead of being limited to they friendly half."
-      ]
-    },
-    {
-      "title": "Genestealer Magus",
-      "description": [
-        "A Genestealer army may include one Genestealer Magus Character per 1000 points. The Genestealer Magus do not cost any points.",
-        "Genestealer Magus units may be added to the army at the start of the battle before either side sets up. Genestealer Magus units may be attached to any Cult Guard formations. You may not include more than one Genestealer Magus per formation. You may not add a Genestealer Magus to a Cult Navy formation. If you have more Genestealer Magus than formations any excess is lost."
-      ]
-    },
+
 
 
 
@@ -1183,6 +1171,12 @@
       "title": "Extreme Mobility",
       "description": [
         "Tyranid Armoured Vehicles and War Engines units do not take dangerous terrain tests. Tyranid Light Vehicles move through terrain and receive cover as if they were Infantry. Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally."
+      ]
+    },
+    {
+      "title": "Extreme Mobility (Genestealer Cult)",
+      "description": [
+        "Cult Lictors move through terrain and receive cover as if they were Infantry."
       ]
     },
     {

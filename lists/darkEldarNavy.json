@@ -36,7 +36,7 @@
       "name": "Slavebringer Assault Boat",
       "type": "AC/WE",
       "speed": "Bomber",
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -46,12 +46,11 @@
       "specialRules": [
         "Damage Capacity 2",
         "Shadowfields 1",
-        "Reinforced Armour",
         "Planetfall",
         "Transport"
 
     ],
-    "notes": "May carry up to eight units of INF.",
+    "notes": "May carry up to eight Infantry units. Grotesques counts as two units each.",
     "crit": "The Slavebringer and all units on board are destroyed."
     },
 

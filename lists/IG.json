@@ -842,20 +842,6 @@
           "Scout"
       ]
     },
-    {
-      "name": "Brood Brother Basilisk",
-      "type": "AV",
-      "speed": 20,
-      "armour": 6,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Infected Earthshaker Cannon", "Heavy Bolter"
-      ],
-      "specialRules": [
-
-      ]
-    },
 
     {
       "name": "Basilisk",
@@ -1465,7 +1451,7 @@
         "Damage Capacity 2",
         "Reinforced Armour"
       ],
-      "crit": "The Minotaur is destroyed."
+      "crit": "The Minotaur is destroyed. All units within 5cm suffers a hit on 5+."
     },
     {
       "name": "Macharius",
@@ -1576,7 +1562,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "crit": "The unit is destroyed."
+      "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
     },
     {
       "name": "Hellhammer",
@@ -1596,7 +1582,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "crit": "The unit is destroyed."
+      "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
     },
     {
       "name": "Stormlord",
@@ -1633,7 +1619,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "crit": "The unit is destroyed."
+      "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
     },
     {
       "name": "Stormblade",
@@ -1651,7 +1637,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "crit": "The unit is destroyed."
+      "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
     },
     {
       "name": "Stormsword",
@@ -1668,7 +1654,7 @@
         "Damage Capacity 3",
         "Reinforced Armour"
       ],
-      "crit": "The unit is destroyed."
+      "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
   },
       {
         "name": "Stormhammer",
@@ -1688,7 +1674,7 @@
           "Damage Capacity 3",
           "Reinforced Armour"
         ],
-        "crit": "The unit is destroyed."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
     }
     ]
   }

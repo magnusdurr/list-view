@@ -72,7 +72,7 @@
       "ff": 4,
       "weapons": [
         "Splinter Rifles",
-        "Splinter Cannons"
+        "Splinter Cannon"
       ],
       "specialRules": [
 
@@ -135,7 +135,7 @@
       "type": "INF",
       "speed": 15,
       "armour": 5,
-      "cc": 4,
+      "cc": 3,
       "weapons": [
         "Poison Blades"
       ],
@@ -150,7 +150,7 @@
       "armour": 3,
       "cc": 4,
       "weapons": [
-        "Grotesques' Blades"
+        "Grotesques Blades"
       ],
       "specialRules": [
         "Fearless"
@@ -170,7 +170,8 @@
       "specialRules": [
         "Fearless",
         "Reinforced Armour",
-        "Walker"
+        "Walker",
+        "Infiltrators"
       ]
     },
     {
@@ -208,9 +209,9 @@
     {
       "name": "Warp Beasts",
       "type": "INF",
-      "speed": 30,
-      "armour": 5,
-      "cc": 3,
+      "speed": 35,
+      "armour": 6,
+      "cc": 4,
       "weapons": [
         "Claws"
       ],
@@ -218,8 +219,7 @@
         "Expendable",
         "Invulnerable Save",
         "First Strike"
-    ],
-     "notes": "May not be transported."
+    ]
     },
     {
       "name": "Hellion Skyboards",
@@ -276,7 +276,7 @@
       "speed": 35,
       "armour": 4,
       "cc": 6,
-      "ff": 5,
+      "ff": 6,
       "weapons": [
         "Dark Lance"
       ],
@@ -414,7 +414,7 @@
         "Fearless",
         "Transport"
     ],
-    "notes": "May transport up to ten Infantry units. Grotesques counts as two units each. In addition it may carry up to five Light Vehicles with Skimmer, or up to two Vessels of Pain and/or Barges of Pleasure.",
+    "notes": "May transport up to ten Infantry units. Grotesques counts as two units each. In addition it may carry up to five Light Vehicles or Armoured Vehicles, or up to two Vessels of Pain and/or Barges of Pleasure.",
     "crit": "The Executioner takes an additional damage. 1D3 random units inside takes a hit."
     }
     ]

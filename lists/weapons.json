@@ -1337,7 +1337,7 @@
       "name": "Atalan Incinerator",
           "modes": [
             {
-              "firepower": "AP4+",
+              "firepower": "AP5+",
               "range": 15
             },
             {
@@ -3002,9 +3002,9 @@
       "name": "Disintegrator Array",
         "modes": [
           {
-            "firepower": "Small Arms",
+            "firepower": "3x AP4+/AT5+",
+            "range": 30,
             "specialRules": [
-              "EA(+3)"
           ]
         }
       ]
@@ -4010,7 +4010,7 @@
       ]
     },
     {
-      "name": "Grotesques' Blades",
+      "name": "Grotesques Blades",
         "modes": [
           {
             "firepower": "Assault Weapons",
@@ -4998,18 +4998,6 @@
       ]
     },
     {
-      "name": "Jackel Sniper Rifle",
-      "modes": [
-        {
-          "firepower": "AP5+",
-          "range": 30,
-          "specialRules": [
-            "S"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Jungle Knives",
         "modes": [
           {
@@ -5840,22 +5828,19 @@
       ]
     },
     {
-      "name": "Metamorph Claws",
+      "name": "Metamorph Biomorphs",
       "modes": [
         {
-          "firepower": "Assault Weapons",
+          "firepower": "Small Arms",
           "specialRules": [
-            "FS"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Metamorph Guns",
-      "modes": [
-        {
-          "firepower": "Small Arms"
-        }
+      },
+      {
+        "firepower": "Assault Weapons",
+          "join": "and",
+        "specialRules": [
+        ]
+      }
       ]
     },
 
@@ -8220,7 +8205,7 @@
       "name": "Splinter Blast",
         "modes": [
           {
-            "firepower": "2x AP5+/AA5+",
+            "firepower": "AP5+/AA5+",
             "range": 30,
             "specialRules": [
           ]

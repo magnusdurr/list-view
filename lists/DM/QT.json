@@ -36,7 +36,7 @@
             "Knight-Doomglaive",
             "Knight-Perfidor",
             "Arch-Heretek",
-            "Hellwrights",
+            "Hellwright",
             "Chaos Squats",
             "Geist Servitors",
             "Hades Land Raider",
@@ -204,6 +204,13 @@
             "description": "Up to two for each Daemonic Lance.",
             "formations": [
                 {
+                  "name": "Geist Recon Maniple (Chaos Undivided)",
+                  "units": "Two Chaos Squats, two Hell-Rhinos, four Geist Servitors",
+                "extraUnits": [
+                    ],
+                "points": 150
+                  },
+                {
                   "name": "Hell-Forge Maniple (Chaos Undivided)",
                   "units": "One Hellwright, seven Chaos Squats",
                 "extraUnits": [
@@ -211,7 +218,7 @@
                     "Hell-Forge Transport",
                     "Add one Ordinatus Hereticus Minoris: 125 points"
                     ],
-                "points": 150
+                "points": 175
                   },
                   {
                     "name": "Arlatax Maniple (Chaos Undivided)",
@@ -220,13 +227,7 @@
                       ],
                   "points": 175
                     },
-                    {
-                      "name": "Geist Recon Maniple (Chaos Undivided)",
-                      "units": "Two Chaos Squats, two Hell-Rhinos, four Geist Servitors",
-                    "extraUnits": [
-                        ],
-                    "points": 175
-                      },
+
                       {
                     "name": "Ordinatus Hereticus Minoris (Chaos Undivided)",
                     "units": "Two Ordinatus Hereticus Minoris",
@@ -303,7 +304,7 @@
     "items": [
       {
         "name": "0-1 Arch-Heretek",
-        "description": "Add an Arch-Heretek to a unit of Hellwrights",
+        "description": "Add an Arch-Heretek to a unit of Hellwright",
         "points": "100 points"
     },
     {
