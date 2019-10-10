@@ -1,10 +1,10 @@
 {
   "fraction": "Tyranids",
   "army": "Cult of the Four-Armed Emperor",
-  "version": "0.5.0",
-  "release": "2019-10-09",
+  "version": "0.6.0",
+  "release": "2019-10-10",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
-  "Initiative": "The Cult Company and the Cult Support formations have an Initiative Rating of 2+. All other formations have an Initative Rating of 1+, but will have this reduced to 2+ if they at any point only consist of units with the 'Brood Brothers' special rule.",
+  "Initiative": "The Cult Company and Cult Support formations have an Initiative Rating of 2+. All other formations have an Initative Rating of 1+.",
 
   "specialRules": ["Patriarch Host","Brood Brothers","Cult Ambush","Extreme Mobility (Genestealer Cult)"],
   "usage": [
@@ -16,18 +16,16 @@
         "Patriarch Brood Coven",
         "Cult Locus",
         "Broodlord",
-        "Jackal Alphus",
+        "Cult Primus",
         "Hybrid Acolytes",
         "Hybrid Metamorphs",
-        "Abominantss",
-        "Atalan Jackals",
+        "Aberrants",
+        "Jackals",
         "Cult Infantry",
         "Cult Fire Support",
         "Genestealers",
         "Cult Lictor",
         "Ridgerunner",
-        "Wolfquad",
-
         "Cult Limousine",
         "Cult Basilisk",
         "Cult Griffon",
@@ -56,44 +54,31 @@
 
     {
       "name": "Cult Host Formations",
-      "description": "One Patriarch Host formation must be taken",
+      "description": "One Patriarch Host formation must be taken.",
       "formations": [
         {
           "name": "1 Patriarch Host",
-          "units": "One Patriarch Brood Coven, three Genestealers and four Hybrid Acolytes.",
+          "units": "One Patriarch Brood Coven, three Genestealers, four Hybrid Acolytes",
           "extraUnits": [
-            "Add four Cult Limousines and four Ridgerunners: 150 points",
-            "Cult Transport",
-            "Cult Flak",
-            "Brood Brothers",
-            "Genestealers",
-            "Abominants"
+            "Add four Cult Limousines, four Ridgerunners: 150 points",
+            "Add two Aberrants: 75 points",
+            "Genestealers"
+
           ],
-          "points": 250
-        },
-        {
-          "name": "Hybrid Brood",
-          "units": "Six Hybrid Acolytes",
-          "extraUnits": [
-            "Cult Transport",
-            "Brood Brothers",
-            "Genestealers",
-            "Abominants"
-          ],
-          "points": 175
+          "points": 300
         },
       {
         "name": "Cult Company",
-        "units": "One Cult Infantry with a Cult Locus, seven Cult Infantry",
+        "units": "One Cult Primus, nine Cult Infantry",
         "extraUnits": [
-          "Add two Cult Fire Supports: 50 points",
+          "Add four Cult Infantry: 50 points",
+          "Add two Cult Fire Support: 50 points",
           "Add three Cult Griffons: 50 points",
           "Add three Cult Leman Russ: 150 points",
-          "Brood Brothers",
           "Cult Transport",
           "Cult Flak"
         ],
-        "points": 175
+        "points": 250
     }
       ]
     },
@@ -110,14 +95,21 @@
             "points": 175
         },
         {
-          "name": "Atalan Jackals",
-          "units": "One Jackal Alphus, six Atalan Jackals and/or Wolfquads.",
+          "name": "Hybrid Brood",
+          "units": "Four Hybrid Acolytes, two Aberrants",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 175
+      },
+        {
+          "name": "Jackals",
+          "units": "Six Jackals",
+          "extraUnits": [
+          ],
+          "points": 200
         },
       {
-        "name": "Achilles Ridgerunners",
+        "name": "Ridgerunners",
         "units": "Six Ridgerunners",
         "extraUnits": [
         ],
@@ -134,7 +126,7 @@
           "units": "Five Cult Lictors",
           "extraUnits": [
               ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Hybrid Metamorphs",
@@ -151,54 +143,53 @@
       "formations": [
         {
           "name": "Cult Super Heavy Tanks",
-          "units": "One Cult Locus, two Baneblades and/or Shadowswords",
+          "units": "One Cult Locus, two Cult Baneblades and/or Cult Shadowswords",
           "extraUnits": [
           ],
-          "points": 400
+          "points": 350
         },
         {
           "name": "Cult Leman Russ Platoon",
-          "units": "One Cult Locus, six Leman Russ",
+          "units": "One Cult Locus, six Cult Leman Russ",
           "extraUnits": [
             "Cult Flak"
           ],
-          "points": 400
+          "points": 350
         },
         {
           "name": "Cult Basilisk Battery",
-          "units": "One Cult Locus, Four Basilisks",
+          "units": "One Cult Locus, four Cult Basilisks",
           "extraUnits": [
               "Cult Flak"
           ],
           "points": 325
       },
       {
-        "name": "Cult Hellhound Platoon",
-        "units": "One Cult Locus, six Cult Hellhounds",
+        "name": "Cult Mechanized Platoon",
+        "units": "One Cult Locus, six Cult Infantry, three Cult Chimeras",
         "extraUnits": [
-          "Cult Flak"
+          "Add three Cult Hellhounds: 75 points"
         ],
         "points": 250
-      },
+    }
+    ]
+  },
       {
-        "name": "Cult Thunderbolt Squadron",
-        "units": "Two Thunderbolt Fighters",
-        "points": 150
+        "name": "Cult Air Support",
+        "description": "Up to a fifth of the points available may be spent on these formations.",
+        "formations": [
+            {
+              "name": "Cult Thunderbolt Squadron",
+              "units": "Two Thunderbolt Fighters",
+              "points": 150
+            }
+        ]
       }
-      ]
-  }
-
-
   ],
   "upgrades": {
     "title": "Upgrades",
-    "description": "Each upgrade may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
-      {
-        "name": "Brood Brothers",
-        "description": "Add four Cult Infantry",
-        "points": "50 points"
-      },
       {
         "name": "Genestealers",
         "description": "Add three Genestealers",
@@ -222,11 +213,6 @@
         "name": "Cult Flak",
         "description": "Add one Cult Hydra",
         "points": "50 points"
-      },
-      {
-        "name": "Abominants",
-        "description": "Add up to two Abominantss",
-        "points": "25 points each"
       }
     ]
   }

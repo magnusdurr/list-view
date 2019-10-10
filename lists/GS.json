@@ -7,18 +7,19 @@
       {
       "name": "Patriarch Brood Coven",
       "type": "INF",
-      "speed": 20,
-      "armour": "4",
-      "cc": 3,
-      "ff": 4,
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Large Rending Claws"
       ],
       "specialRules": [
         "Supreme Commander",
+        "Inspiring",
         "Scout",
-        "Invulnerable Save",
-        "Inspiring"
+        "Infiltrators",
+        "Invulnerable Save"
       ]
     },
     {
@@ -40,7 +41,7 @@
         "n/a"
   ],
       "specialRules": [
-        "Fearless"
+        "Leader"
       ]
     },
     {
@@ -50,9 +51,9 @@
         "Rending Claws"
       ],
       "specialRules": [
-        "Invulnerable Save",
         "Leader",
-        "Inspiring"
+        "Inspiring",
+        "Invulnerable Save"
       ]
     },
     {
@@ -66,6 +67,24 @@
       ]
     },
     {
+      "name": "Cult Primus",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Laspistols",
+        "Power Weapon"
+      ],
+      "specialRules": [
+          "Leader",
+          "Inspiring",
+          "Commander",
+          "Infiltrators"
+      ]
+    },
+    {
       "name": "Hybrid Acolytes",
       "type": "INF",
       "speed": 15,
@@ -76,22 +95,24 @@
         "Mining Laser","Claws"
       ],
       "specialRules": [
+          "Infiltrators"
       ]
     },
     {
-      "name": "Abominants",
+      "name": "Aberrants",
       "type": "INF",
       "speed": 15,
       "armour": 3,
-      "cc": 3,
+      "cc": 4,
       "weapons": [
         "Giant Mauls"
       ],
       "specialRules": [
+          "Infiltrators"
       ]
     },
     {
-      "name": "Atalan Jackals",
+      "name": "Jackals",
       "type": "INF",
       "speed": 35,
       "armour": 5,
@@ -118,10 +139,25 @@
       ]
     },
     {
+      "name": "Cult Limousine",
+      "type": "LV",
+      "speed": 30,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multilaser"
+      ],
+      "specialRules": [
+        "Transport"
+      ],
+      "notes": "May carry two units of INF without Jump Packs or Mounted. Aberrants counts as two units."
+    },
+    {
       "name": "Ridgerunner",
       "type": "LV",
-      "speed": 35,
-      "armour": 4,
+      "speed": 30,
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -142,7 +178,7 @@
       ],
       "specialRules": [
         "Scout",
-        "Infiltraitors"
+        "Infiltrators"
       ]
     },
             {
@@ -190,16 +226,16 @@
         "Autocannon","Lasguns"
       ],
       "specialRules": [
-        "Brood Brothers",
-        "One in every two Cult Infantry units has an Autocannon"
-      ]
+        "Brood Brothers"
+    ],
+    "notes": "One in every two Cult Infantry units has an Autocannon"
     },
     {
       "name": "Cult Fire Support",
       "type": "INF",
       "speed": 15,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
         "Autocannon|2|"
     ],
@@ -322,7 +358,7 @@
         "Brood Brothers",
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted. Abominantss counts as two units."
+    "notes": "May carry two units of INF without Jump Packs or Mounted."
     },
     {
       "name": "Cult Land Transporter",
@@ -338,37 +374,23 @@
         "Brood Brothers",
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted. Abominantss counts as two units."
-    },
-    {
-      "name": "Cult Limousine",
-      "type": "LV",
-      "speed": 30,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Heavy Stubber|2|"
-      ],
-      "specialRules": [
-        "Brood Brothers",
-        "Transport"
-      ],
-      "notes": "May carry two units of INF without Jump Packs or Mounted. Abominantss counts as two units."
+    "notes": "May carry two units of INF without Jump Packs or Mounted."
     },
     {
       "name": "Goliath",
       "type": "AV",
       "speed": 25,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
-      "Twin Autocannons"
+      "Mining Laser"
       ],
       "specialRules": [
-        "Transport (May carry 2 infantry units without Jump Packs or Mounted)."
-      ]
+        "Walker",
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted. Aberrants counts as two units."
     },
     {
       "name": "Goliath Rockgrinder",
