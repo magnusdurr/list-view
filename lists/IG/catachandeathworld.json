@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Catachan Jungle Fighters",
-  "version": "0.6.0",
-  "release": "2019-06-26",
+  "version": "0.7.0",
+  "release": "2019-10-10",
   "strategy": "Catachan Jungle Fighter armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -17,12 +17,13 @@
         "Catachan Supreme Commander",
         "Catachan Commander",
         "Catachan Infantry",
-        "Catachan Mortar Team",
-        "Catachan Flakk Team",
-        "Catachan Snipers",
+        "Heavy Mortar",
+        "Flakk Team",
+        "Snipers",
         "Ogryns",
         "Death World Veterans",
         "Catachan Sentinel",
+        "Deathworld Chimera",
         "Vulture",
         "Valkyrie",
         "Vendetta",
@@ -33,7 +34,8 @@
         "Leman Russ Demolisher",
         "Hellhammer",
         "Baneblade",
-        "Stormblade"
+        "Stormblade",
+        "Deathstrike"
       ],
         "unitRules": [
 
@@ -44,7 +46,7 @@
       "from": "ImperialNavy.json",
       "units": [
         "Thunderbolt Fighter",
-        "Marauder Colossus",
+        "Marauder Bomber",
         "Lunar Class Cruiser",
         "Emperor Class Battleship"
       ],
@@ -60,7 +62,8 @@
           "name": "Catachan Regimental HQ",
           "units": "One Catachan Supreme Commander, seven Catachan Infantry and four Valkyries",
           "extraUnits": [
-             "Catachan Snipers"
+             "Snipers",
+             "Flakk Teams"
 
           ],
           "points": 375
@@ -69,21 +72,11 @@
           "name": "Catachan Air Cavalry Company",
           "units": "One Catachan Commander, seven Catachan Infantry and four Valkyries",
           "extraUnits": [
-             "Catachan Snipers"
+             "Snipers",
+             "Flakk Teams"
           ],
           "points": 300
-      },
-    {
-      "name": "Catachan Infantry Company",
-      "units": "One Catachan Commander, eleven Catachan Infantry",
-      "extraUnits": [
-         "Catachan Snipers",
-         "Ogryns",
-         "Flakk Teams",
-         "Hellhounds"
-      ],
-      "points": 225
-        }
+      }
       ]
   },
     {
@@ -94,8 +87,9 @@
           "name": "Veteran Company",
           "units": "One Catachan Commander and five Catachan Veterans",
           "extraUnits": [
-              "Ogryns",
-              "Valkyries and Vendettas"
+              "Deathworld Transport",
+              "Hellhounds",
+              "Ogryns"
           ],
           "points": 175
         },
@@ -105,7 +99,7 @@
           "extraUnits": [
 
           ],
-          "points": 100
+          "points": 125
         },
         {
           "name": "Hellhound Platoon",
@@ -125,23 +119,19 @@
         },
         {
           "name": "Sniper Platoon",
-          "units": "Four Catachan Snipers",
+          "units": "Four Snipers",
           "extraUnits": [
-              "Flakk Teams",
-              "Ogryns",
-              "Valkyries and Vendettas"
+              "Add two Deathworld Chimeras: 50 points"
           ],
           "points": 100
         },
         {
-          "name": "Mortar Platoon",
-          "units": "Six Catachan Mortar Teams",
+          "name": "Heavy Mortar Battery",
+          "units": "Three Heavy Mortars",
           "extraUnits": [
-              "Flakk Teams",
-              "Ogryns",
-              "Valkyries and Vendettas"
+              "Ogryns"
           ],
-          "points": 175
+          "points": 150
       },
       {
         "name": "Leman Russ Platoon",
@@ -156,9 +146,17 @@
       "name": "Super-Heavy Tank Platoon",
       "units": "One Baneblade, Stormblade or Hellhammer",
       "extraUnits": [
+          "Ogryns"
       ],
       "points": 175
-    }
+  },
+      {
+        "name": "0-1 Deathstrike Battery",
+        "units": "Two Deathstrikes",
+        "extraUnits": [
+        ],
+        "points": 200
+      }
       ]
     },
     {
@@ -171,8 +169,8 @@
           "points": 150
         },
         {
-          "name": "Marauder Colossus Squadron",
-          "units": "Two Marauder Colossus",
+          "name": "Marauder Bomber Squadron",
+          "units": "Two Marauder Bombers",
           "points": 225
       },
       {
@@ -190,33 +188,25 @@
     "title": "Catachan Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
-        {
-          "name": "Catachan Snipers",
-          "options": [
-            {
-              "description": "Replace up to three Catachan Infantry with Catachan Snipers",
-              "points": "15 points each"
-            }
-          ]
-      },
       {
-        "name": "Ogryns",
+        "name": "Flakk Teams",
         "options": [
           {
-            "description": "Add up to three units of Ogryns",
+            "description": "Replace up to two Catachan Infantry with Flakk Teams",
             "points": "25 points each"
           }
         ]
     },
-    {
-      "name": "Flakk Teams",
-      "options": [
-        {
-          "description": "Add up to two Catachan Flakk Teams",
-          "points": "35 points each"
-        }
-      ]
-  },
+      {
+        "name": "Ogryns",
+        "options": [
+          {
+            "description": "Add up to two Ogryns",
+            "points": "25 points each"
+          }
+        ]
+    },
+
       {
         "name": "Hydra",
         "options": [
@@ -236,11 +226,11 @@
       ]
   },
       {
-        "name": "Valkyries and Vendettas",
+        "name": "Deathworld Transport",
         "options": [
           {
-            "description": "Add enough Valkyries and/or Vendettas to transport the entire formation with no space left over",
-            "points": "35 points each"
+            "description": "Add enough Deathworld Chimeras, Valkyries and/or Vendettas to transport the entire formation with no space left over",
+            "points": ["Deathworld Chimeras: 25 points each", "Valkyries, Vendettas: 35 points each"]
           }
         ]
       }
