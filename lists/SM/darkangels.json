@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Dark Angels",
-  "version": "0.9.1",
-  "release": "2019-09-29",
+  "version": "1.0.0",
+  "release": "2019-10-10",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
@@ -34,16 +34,14 @@
         "Ravenwing Land Speeder Tornado",
         "Ravenwing Land Speeder Venegance",
         "Dreadnought, Mortis",
-        "Dreadnought, Deathwing",
         "Hunter",
         "Stalker",
         "Land Raider",
         "Land Raider Ares",
-        "Deathwing Land Raider",
         "Predator Destructor",
         "Predator Annihilator",
         "Rhino",
-        "Dark Angels Razorback",
+        "Razorback",
         "Whirlwind",
         "Vindicator",
         "Glaive",
@@ -69,12 +67,13 @@
             "Attack Bikes",
             "Commander"
           ],
-          "points": 325
+          "points": 350
         },
         {
           "name": "Tactical Detachment",
           "units": "Six Tacticals plus transport",
           "extraUnits": [
+            "Razorbacks",
             "Anti-Air",
             "Commander",
             "Land Raider Transport"
@@ -93,7 +92,7 @@
       },
       {
         "name": "Deathwing Armoured Detachment",
-        "units": "Three Deathwing Land Raiders, three Deathwing Terminators",
+        "units": "Three Land Raiders, three Terminators",
         "extraUnits": [
             "Commander"
         ],
@@ -176,11 +175,6 @@
           "points": 275
         },
         {
-          "name": "Deathwing Dreadnought Detachment",
-          "units": "Five Deathwing Dreadnoughts plus transport",
-          "points": 300
-        },
-        {
           "name": "0-1 Dreadwing Relic Detachment",
           "units": "Two Glaives",
           "points": 550
@@ -254,15 +248,15 @@
       },
       {
         "name": "Anti-Air",
-        "description": "Add any one of the following units to the formation",
+        "description": "Choose one of the following options",
         "options": [
           {
-            "description": "Add two Hunters",
-            "points": "125 points"
+            "description": "Add one Hunter",
+            "points": "75 points"
           },
           {
-            "description": "Add two Stalkers",
-            "points": "100 points"
+            "description": "Add one Stalker",
+            "points": "50 points"
           },
           {
             "description": "Add two Mortis Dreadnoughts",
@@ -277,8 +271,8 @@
       },
       {
         "name": "Razorbacks",
-        "description": "Add four Dark Angels Razorbacks to the formation",
-        "points": "100 points"
+        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "points": "25 points each"
       },
       {
         "name": "Snipers",

@@ -24,7 +24,6 @@
         "Baran Commander",
         "Commissar",
         "Siege Infantry",
-        "Trench Support Squad",
         "Sappers",
         "Death Riders",
         "Snipers",
@@ -158,7 +157,7 @@
           "name": "Super-Heavy Tank Platoon",
           "units": "One Baneblade or Stormsword",
           "extraUnits": [
-              "Replace one Baneblade or Stormsword with a Shadowsword: 25 points"
+              "Replace a Baneblade or Stormsword with a Shadowsword: 25 points"
           ],
           "points": 175
         },
@@ -218,15 +217,6 @@
             {
               "description": "Add a Commissar and two Malcadors or Malcador Annihilators",
               "points": "200 points"
-            }
-          ]
-        },
-        {
-          "name": "Trench Support",
-          "options": [
-            {
-              "description": "Add two or four Trench Support Squads",
-              "points": "50 points for two, 100 points for four"
             }
           ]
         },
