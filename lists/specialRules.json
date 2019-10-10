@@ -930,24 +930,24 @@
 
 
     {
-      "title": "Cult Ambush",
+      "title": "Ambush",
       "description": [
-          "Formations where all units have the Cult Ambush rule may use any objective except the enemy Blitz when setting up garrisons. Units using enemy objectives may be set up on the enemy table half, but may not be deployed within 30cm of the enemy deployment board edge."
+          "Formations where all units have the Ambush special rule may use any objective except the enemy Blitz when setting up garrisons. Units using enemy objectives may be set up on the enemy table half, but may not be deployed within 30cm of the enemy deployment board edge."
       ]
     },
     {
       "title": "Brood Brothers",
       "description": [
-        "While a formation contains a Cult Locus character or a Cult Prime, units with the 'Brood Brothers' special rule (with the exception of the unit where the Cult Locus is located) are considered Expendable."
+        "While a formation contains a Coven Locus character or a Hybrid Primus, units with the Brood Brothers special rule (except the unit where the Coven Locus is located) are considered Expendable."
       ]
     },
     {
-      "title": "Patriarch Host",
+      "title": "Nexus Brood",
       "description": [
-          "The army must include a Patriarch Host formation. The enemy will only count as having achieved their Break Their Spirit (BTS) victory condition if they destroy this formation, even if it is not the single most expensive formation in the army.",
-          "All units in the Patriarch Host formation are considered Fearless as long as it contains a Patriarch Brood Coven unit.",
-          "While the Patriarch Brood Coven unit is alive, all formations in the army with a Cult Locus character or a Cult Primus unit gains +1 to rally.",
-          "If the Patriarch Brood Coven unit is killed, all formations in the army suffers a Blast Marker."
+          "The army must include a Nexus Brood formation. The enemy will only count as having achieved their Break Their Spirit (BTS) victory condition if they destroy this formation, even if it is not the single most expensive formation in the army.",
+          "All units in the Nexus Brood formation (except the Genestealer Patriarch unit) are considered Expendable as long as it contains a Genestealer Patriarch unit.",
+          "While the Genestealer Patriarch unit is alive, all formations in the army with a Coven Locus character or a Hybrid Primus unit gains +1 to rally.",
+          "If the Genestealer Patriarch unit is killed, all formations in the army suffers a Blast Marker."
       ]
     },
 
@@ -1176,7 +1176,7 @@
     {
       "title": "Extreme Mobility (Genestealer Cult)",
       "description": [
-        "Cult Lictors move through terrain and receive cover as if they were Infantry."
+        "Coven Lictors move through terrain and receive cover as if they were Infantry."
       ]
     },
     {

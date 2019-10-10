@@ -5,18 +5,18 @@
     ],
     "unit": [
       {
-      "name": "Patriarch Brood Coven",
+      "name": "Genestealer Patriarch",
       "type": "INF",
       "speed": 15,
-      "armour": 4,
+      "armour": 3,
       "cc": 4,
-      "ff": 5,
       "weapons": [
         "Large Rending Claws"
       ],
       "specialRules": [
         "Supreme Commander",
         "Inspiring",
+        "Fearless",
         "Scout",
         "Infiltrators",
         "Invulnerable Save"
@@ -35,7 +35,7 @@
     },
 
     {
-      "name": "Cult Locus",
+      "name": "Coven Locus",
       "type": "CH",
       "weapons": [
         "n/a"
@@ -48,7 +48,7 @@
       "name": "Broodlord",
       "type": "CH",
       "weapons": [
-        "Rending Claws"
+        "n/a"
       ],
       "specialRules": [
         "Leader",
@@ -67,14 +67,14 @@
       ]
     },
     {
-      "name": "Cult Primus",
+      "name": "Hybrid Primus",
       "type": "INF",
       "speed": 15,
       "armour": 5,
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Laspistols",
+        "Seismic Cannon",
         "Power Weapon"
       ],
       "specialRules": [
@@ -92,14 +92,14 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Mining Laser","Claws"
+        "Seismic Cannon","Claws"
       ],
       "specialRules": [
           "Infiltrators"
       ]
     },
     {
-      "name": "Aberrants",
+      "name": "Hybrid Aberrants",
       "type": "INF",
       "speed": 15,
       "armour": 3,
@@ -112,14 +112,15 @@
       ]
     },
     {
-      "name": "Jackals",
+      "name": "Coven Bikers",
       "type": "INF",
       "speed": 35,
       "armour": 5,
       "cc": 4,
-      "ff": 5,
+      "ff": 6,
       "weapons": [
-      "Jackal Guns"
+      "Laspistols",
+      "Claws"
       ],
       "specialRules": [
         "Mounted"
@@ -138,35 +139,7 @@
       "specialRules": [
       ]
     },
-    {
-      "name": "Cult Limousine",
-      "type": "LV",
-      "speed": 30,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Multilaser"
-      ],
-      "specialRules": [
-        "Transport"
-      ],
-      "notes": "May carry two units of INF without Jump Packs or Mounted. Aberrants counts as two units."
-    },
-    {
-      "name": "Ridgerunner",
-      "type": "LV",
-      "speed": 30,
-      "armour": 5,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Multilaser"
-      ],
-      "specialRules": [
-        "Scout"
-      ]
-    },
+
     {
       "name": "Genestealers",
       "type": "INF",
@@ -192,13 +165,13 @@
             "Metamorph Biomorphs"
           ],
           "specialRules": [
-            "Cult Ambush",
+            "Ambush",
             "First Strike",
             "Infiltrators"
           ]
         },
     {
-    "name": "Cult Lictor",
+    "name": "Coven Lictor",
     "type": "LV",
     "speed": 15,
     "armour": 5,
@@ -208,7 +181,7 @@
       "Flesh Hooks", "Scythed Claws"
     ],
     "specialRules": [
-      "Cult Ambush",
+      "Ambush",
       "First Strike",
       "Infiltrators",
       "Scout",
@@ -216,6 +189,64 @@
       "Teleport"
     ]
     },
+    {
+      "name": "Coven Limousine",
+      "type": "LV",
+      "speed": 30,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Heavy Stubber"
+      ],
+      "specialRules": [
+        "Transport"
+      ],
+      "notes": "May carry two units of INF without Jump Packs or Mounted. Hybrid Aberrants and Genestealer Patriarch counts as two units."
+    },
+    {
+      "name": "Coven Technical",
+      "type": "LV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+          "Twin Heavy Stubber on AA mount"
+      ],
+      "specialRules": [
+      ]
+  },
+    {
+      "name": "Coven Ridgerunner",
+      "type": "LV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Seismic Cannon"
+      ],
+      "specialRules": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Coven Goliath",
+      "type": "AV",
+      "speed": 25,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Mining Laser"
+      ],
+      "specialRules": [
+        "Walker",
+        "Transport"
+    ],
+    "notes": "May carry two units of INF without Jump Packs or Mounted. Hybrid Aberrants and Genestealer Patriarch counts as two units."
+  },
     {
       "name": "Cult Infantry",
       "type": "INF",
@@ -376,37 +407,7 @@
     ],
     "notes": "May carry two units of INF without Jump Packs or Mounted."
     },
-    {
-      "name": "Goliath",
-      "type": "AV",
-      "speed": 25,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-      "Mining Laser"
-      ],
-      "specialRules": [
-        "Walker",
-        "Transport"
-    ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted. Aberrants counts as two units."
-    },
-    {
-      "name": "Goliath Rockgrinder",
-      "type": "AV",
-      "speed": 25,
-      "armour": 5,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Heavy Flamer"
-      ],
-      "specialRules": [
-        "Walker",
-        "Transport (May carry 2 infantry units without jump packs or mounted)."
-      ]
-  },
+
           {
             "name": "Cult Baneblade",
             "type": "WE",

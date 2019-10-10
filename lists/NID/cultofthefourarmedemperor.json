@@ -4,29 +4,31 @@
   "version": "0.6.0",
   "release": "2019-10-10",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
-  "Initiative": "The Cult Company and Cult Support formations have an Initiative Rating of 2+. All other formations have an Initative Rating of 1+.",
+  "Initiative": "The Nexus Brood, Coven Vanguard and Coven Ambush formations have an Initiative Rating of 1+. All other formations have an Initative Rating of 2+.",
 
-  "specialRules": ["Patriarch Host","Brood Brothers","Cult Ambush","Extreme Mobility (Genestealer Cult)"],
+  "specialRules": ["Nexus Brood","Brood Brothers","Ambush","Extreme Mobility (Genestealer Cult)"],
   "usage": [
  ],
   "units": [
     {
       "from": "GS.json",
       "units": [
-        "Patriarch Brood Coven",
-        "Cult Locus",
+        "Genestealer Patriarch",
+        "Coven Locus",
         "Broodlord",
-        "Cult Primus",
+        "Hybrid Primus",
         "Hybrid Acolytes",
         "Hybrid Metamorphs",
-        "Aberrants",
-        "Jackals",
+        "Hybrid Aberrants",
+        "Coven Bikers",
         "Cult Infantry",
         "Cult Fire Support",
         "Genestealers",
-        "Cult Lictor",
-        "Ridgerunner",
-        "Cult Limousine",
+        "Coven Lictor",
+        "Coven Ridgerunner",
+        "Coven Goliath",
+        "Coven Limousine",
+        "Coven Technical",
         "Cult Basilisk",
         "Cult Griffon",
         "Cult Chimera",
@@ -34,6 +36,7 @@
         "Cult Hydra",
         "Cult Hellhound",
         "Cult Leman Russ",
+        "Cult Leman Russ Demolisher",
         "Cult Baneblade",
         "Cult Shadowsword"
 
@@ -53,38 +56,38 @@
 "sections": [
 
     {
-      "name": "Cult Host Formations",
-      "description": "One Patriarch Host formation must be taken.",
+      "name": "Cult Company Formations",
+      "description": "One Nexus Brood formation must be taken.",
       "formations": [
         {
-          "name": "1 Patriarch Host",
-          "units": "One Patriarch Brood Coven, three Genestealers, four Hybrid Acolytes",
+          "name": "1 Nexus Brood",
+          "units": "One Genestealer Patriarch, three Genestealers, three Hybrid Acolytes",
           "extraUnits": [
-            "Add four Cult Limousines, four Ridgerunners: 150 points",
-            "Add two Aberrants: 75 points",
-            "Genestealers"
-
+            "Add four Coven Limousines (75 points) or four Coven Goliaths (150 points)",
+            "Replace three Genestealers with three Hybrid Acolytes: Free",
+            "Replace three Hybrid Acolytes with three Genestealers: Free",
+            "Hybrid Aberrants",
+            "Coven Flak"
           ],
           "points": 300
         },
       {
         "name": "Cult Company",
-        "units": "One Cult Primus, nine Cult Infantry",
+        "units": "One Hybrid Primus, nine Cult Infantry",
         "extraUnits": [
           "Add four Cult Infantry: 50 points",
           "Add two Cult Fire Support: 50 points",
-          "Add three Cult Griffons: 50 points",
-          "Add three Cult Leman Russ: 150 points",
+          "Add three Cult Leman Russ or Cult Leman Russ Demolishers: 125 points",
           "Cult Transport",
           "Cult Flak"
         ],
-        "points": 250
+        "points": 275
     }
       ]
     },
     {
-      "name": "Cult Vanguard Formations",
-      "description": "One Cult Vanguard formation may be taken for each Cult Host formation.",
+      "name": "Coven Vanguard Formations",
+      "description": "One Coven Vanguard formation may be taken for each Cult Company formation.",
       "formations": [
           {
             "name": "Genestealer Brood",
@@ -96,40 +99,45 @@
         },
         {
           "name": "Hybrid Brood",
-          "units": "Four Hybrid Acolytes, two Aberrants",
+          "units": "Six Hybrid Acolytes",
           "extraUnits": [
+              "Add three Coven Goliaths: 100 points",
+              "Hybrid Aberrants",
+              "Coven Flak"
           ],
           "points": 175
       },
         {
-          "name": "Jackals",
-          "units": "Six Jackals",
+          "name": "Biker Brood",
+          "units": "Six Coven Bikers",
           "extraUnits": [
+            "Coven Flak"
           ],
-          "points": 200
+          "points": 175
         },
       {
-        "name": "Ridgerunners",
-        "units": "Six Ridgerunners",
+        "name": "Recon Brood",
+        "units": "Five Coven Ridgerunners",
         "extraUnits": [
+            "Coven Flak"
         ],
-        "points": 200
+        "points": 175
     }
       ]
     },
     {
-      "name": "Cult Ambush Formations",
-      "description": "One Cult Ambush formation may be taken for each Cult Vanguard formation. ",
+      "name": "Coven Ambush Formations",
+      "description": "One Coven Ambush formation may be taken for each Coven Vanguard formation. ",
       "formations": [
+          {
+            "name": "Lictor Swarm",
+            "units": "Four Coven Lictors",
+            "extraUnits": [
+                ],
+            "points": 225
+          },
         {
-          "name": "Lictor Swarm",
-          "units": "Five Cult Lictors",
-          "extraUnits": [
-              ],
-          "points": 250
-        },
-        {
-          "name": "Hybrid Metamorphs",
+          "name": "Metamorph Brood",
           "units": "Six Hybrid Metamorphs",
           "extraUnits": [
           ],
@@ -139,38 +147,40 @@
     },
     {
       "name": "Cult Support Formations",
-      "description": "One Cult Support formation may be fielded per Cult Host formation.",
+      "description": "One Cult Support formation may be fielded per Cult Company formation.",
       "formations": [
         {
-          "name": "Cult Super Heavy Tanks",
-          "units": "One Cult Locus, two Cult Baneblades and/or Cult Shadowswords",
+          "name": "Cult Super Heavy Support",
+          "units": "One Coven Locus character, two Cult Baneblades",
           "extraUnits": [
+              "Replace up to two Cult Baneblades with Cult Shadowswords: 25 points each"
           ],
           "points": 350
         },
         {
           "name": "Cult Leman Russ Platoon",
-          "units": "One Cult Locus, six Cult Leman Russ",
+          "units": "One Coven Locus character, six Cult Leman Russ and/or Leman Russ Demolishers",
           "extraUnits": [
             "Cult Flak"
           ],
-          "points": 350
+          "points": 400
         },
         {
           "name": "Cult Basilisk Battery",
-          "units": "One Cult Locus, four Cult Basilisks",
+          "units": "One Coven Locus character, four Cult Basilisks",
           "extraUnits": [
               "Cult Flak"
           ],
-          "points": 325
+          "points": 350
       },
       {
         "name": "Cult Mechanized Platoon",
-        "units": "One Cult Locus, six Cult Infantry, three Cult Chimeras",
+        "units": "One Coven Locus character, six Cult Infantry, three Cult Chimeras",
         "extraUnits": [
+          "Add three Cult Griffons: 50 points",
           "Add three Cult Hellhounds: 75 points"
         ],
-        "points": 250
+        "points": 275
     }
     ]
   },
@@ -190,11 +200,21 @@
     "title": "Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
+        {
+          "name": "Hybrid Aberrants",
+          "description": "Add two Hybrid Aberrants",
+          "points": "75 points"
+        },
       {
         "name": "Genestealers",
         "description": "Add three Genestealers",
         "points": "75 points"
       },
+      {
+        "name": "Coven Flak",
+        "description": "Add up to two Coven Technicals",
+        "points": "20 points each"
+    },
       {
         "name": "Cult Transport",
         "description": "Add enough transports to transport the entire formation with no space left over.",
