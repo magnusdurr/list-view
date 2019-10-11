@@ -30,13 +30,10 @@
         "Coven Limousine",
         "Coven Technical",
         "Cult Basilisk",
-        "Cult Griffon",
         "Cult Chimera",
         "Cult Land Transporter",
         "Cult Hydra",
-        "Cult Hellhound",
         "Cult Leman Russ",
-        "Cult Leman Russ Demolisher",
         "Cult Baneblade",
         "Cult Shadowsword"
 
@@ -76,7 +73,7 @@
         "extraUnits": [
           "Add four Cult Infantry: 50 points",
           "Add two Cult Fire Support: 50 points",
-          "Add three Cult Leman Russ or Cult Leman Russ Demolishers: 125 points",
+          "Add three Cult Leman Russ: 125 points",
           "Cult Transport",
           "Cult Flak"
         ],
@@ -149,16 +146,16 @@
       "description": "One Cult Support formation may be taken per Cult Company formation.",
       "formations": [
         {
-          "name": "Cult Super Heavy Support",
-          "units": "One Coven Locus character, two Cult Baneblades",
+          "name": "Cult Super Heavy Platoon",
+          "units": "One Coven Locus character, one Cult Baneblade",
           "extraUnits": [
-              "Replace up to two Cult Baneblades with Cult Shadowswords: 25 points each"
+              "Replace the Cult Baneblade with a Cult Shadowsword: 25 points"
           ],
-          "points": 350
+          "points": 200
         },
         {
           "name": "Cult Leman Russ Platoon",
-          "units": "One Coven Locus character, six Cult Leman Russ and/or Leman Russ Demolishers",
+          "units": "One Coven Locus character, six Cult Leman Russ",
           "extraUnits": [
             "Cult Flak"
           ],
@@ -166,18 +163,15 @@
         },
         {
           "name": "Cult Basilisk Battery",
-          "units": "One Coven Locus character, four Cult Basilisks",
+          "units": "One Coven Locus character, three Cult Basilisks",
           "extraUnits": [
-              "Cult Flak"
           ],
-          "points": 350
+          "points": 250
       },
       {
         "name": "Cult Mechanized Platoon",
         "units": "One Coven Locus character, six Cult Infantry, three Cult Chimeras",
         "extraUnits": [
-          "Add three Cult Griffons: 50 points",
-          "Add three Cult Hellhounds: 75 points"
         ],
         "points": 275
     }
