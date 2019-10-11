@@ -30,11 +30,14 @@
         "Coven Limousine",
         "Coven Technical",
         "Cult Basilisk",
+        "Cult Hellhound",
+        "Cult Griffon",
         "Cult Chimera",
         "Cult Land Transporter",
         "Cult Hydra",
         "Cult Leman Russ",
         "Cult Baneblade",
+        "Cult Stormblade",
         "Cult Shadowsword"
 
       ],
@@ -53,7 +56,7 @@
 "sections": [
 
     {
-      "name": "Cult Company Formations",
+      "name": "Cult Core Formations",
       "description": "One Nexus Brood formation must be taken.",
       "formations": [
         {
@@ -73,7 +76,9 @@
         "extraUnits": [
           "Add four Cult Infantry: 50 points",
           "Add two Cult Fire Support: 50 points",
-          "Add three Cult Leman Russ: 125 points",
+          "Add up to three Cult Leman Russ: 50 points each",
+          "Add up to two Cult Hellhounds: 25 points each",
+          "Add one Cult Griffon: 35 points",
           "Cult Transport",
           "Cult Flak"
         ],
@@ -83,7 +88,7 @@
     },
     {
       "name": "Coven Vanguard Formations",
-      "description": "One Coven Vanguard formation may be taken for each Cult Company formation.",
+      "description": "One Coven Vanguard formation may be taken for each Cult Core formation.",
       "formations": [
           {
             "name": "Genestealer Brood",
@@ -143,13 +148,13 @@
     },
     {
       "name": "Cult Support Formations",
-      "description": "One Cult Support formation may be taken per Cult Company formation.",
+      "description": "One Cult Support formation may be taken per Cult Core formation.",
       "formations": [
         {
           "name": "Cult Super Heavy Platoon",
-          "units": "One Coven Locus character, one Cult Baneblade",
+          "units": "One Cult Baneblade or Cult Stormblade",
           "extraUnits": [
-              "Replace the Cult Baneblade with a Cult Shadowsword: 25 points"
+              "Replace the Cult Baneblade or Cult Stormblade with a Cult Shadowsword: 25 points"
           ],
           "points": 200
         },
@@ -169,11 +174,13 @@
           "points": 250
       },
       {
-        "name": "Cult Mechanized Platoon",
-        "units": "One Coven Locus character, six Cult Infantry, three Cult Chimeras",
+        "name": "Cult Mechanized Squadron",
+        "units": "One Coven Locus character, four Cult Infantry, two Cult Chimeras",
         "extraUnits": [
+            "Add up to two Cult Hellhounds: 25 points each",
+            "Add one Cult Griffon: 35 points"
         ],
-        "points": 275
+        "points": 225
     }
     ]
   },

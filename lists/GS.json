@@ -423,10 +423,29 @@
             ],
             "specialRules": [
               "Damage Capacity 3",
-              "Brood Brothers",
+              "Fearless",
               "Reinforced Armour"
             ],
             "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
+        },
+        {
+          "name": "Cult Stormblade",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Plasma Blastgun||FxF",
+            "Lascannon|4|FxF",
+            "Twin Heavy Bolters|2|FxF"
+          ],
+          "specialRules": [
+            "Damage Capacity 3",
+            "Fearless",
+            "Reinforced Armour"
+          ],
+          "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
         },
         {
           "name": "Cult Shadowsword",
@@ -441,7 +460,7 @@
           ],
           "specialRules": [
             "Damage Capacity 3",
-            "Brood Brothers",
+            "Fearless",
             "Reinforced Armour"
           ],
           "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
