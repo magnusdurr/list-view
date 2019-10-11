@@ -1,9 +1,9 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Alpha Legion",
-  "version": "0.6.1",
-  "release": "2019-06-27",
-  "strategy": "Alpha Legion armies have a Strategy Rating of 4.",
+  "version": "0.6.2",
+  "release": "2019-10-11",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "Alpha Legion Detachments have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
@@ -75,7 +75,7 @@
         {
           "name": "Alpha Legion Marines",
           "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, six Alpha Legion Marines plus transport",
-          "upgrades": [
+          "extraUnits": [
               "Flakk Havocs",
               "Land Raiders",
               "Dreadnoughts",
@@ -92,21 +92,21 @@
           {
             "name": "Destroyers",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Destroyers",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 225
           },
           {
             "name": "Terminators",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 300
           },
           {
             "name": "Headhunters",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Headhunters plus transport",
-            "upgrades": [
+            "extraUnits": [
                 "Dreadnoughts"
             ],
             "points": 225
@@ -114,14 +114,14 @@
           {
             "name": "Predators",
             "units": "Four Alpha Legion Predators",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 250
           },
           {
             "name": "Laser Vindicators",
             "units": "Four Alpha Legion Laser Vindicators",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 275
           }
@@ -135,7 +135,7 @@
         {
           "name": "Mechanized Traitor Platoon",
           "units": "Six Infantry units, three Chimeras",
-          "upgrades": [
+          "extraUnits": [
               "Hydras",
               "Mutants",
               "Chaos Hounds"
@@ -145,7 +145,7 @@
         {
         "name": "Super-Heavy Tank Platoon",
         "units": "One Baneblade",
-        "upgrades": [
+        "extraUnits": [
             "Replace the Baneblade with a Shadowsword: 25 points"
         ],
         "points": 175
@@ -153,14 +153,14 @@
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 225
       },
       {
         "name": "Leman Russ Platoon",
         "units": "Six Leman Russ",
-        "upgrades": [
+        "extraUnits": [
             ],
             "points": 350
         }
@@ -174,21 +174,21 @@
         {
           "name": "Xiphon Squadron",
           "units": "Two Alpha Legion Xiphon Interceptors",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 200
         },
         {
           "name": "Thunderhawk",
           "units": "One Alpha Legion Thunderhawk",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 200
         },
         {
           "name": "Thunderhawk Transporters",
           "units": "One Alpha Legion Thunderhawk Transporter",
-          "upgrades": [
+          "extraUnits": [
               "Transporter"
           ],
           "points": 175
@@ -196,7 +196,7 @@
         {
           "name": "Strike Cruiser",
           "units": "One Alpha Legion Strike Cruiser",
-          "upgrades": [
+          "extraUnits": [
           ],
           "points": 200
         }

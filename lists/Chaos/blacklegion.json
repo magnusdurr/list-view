@@ -3,7 +3,7 @@
   "army": "Black Legion",
   "version": "1.0.0",
   "release": "2019-02-26",
-  "strategy": "Black Legion armies have a Strategy Rating of 4.",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
@@ -110,7 +110,7 @@
         {
           "name": "Black Legion Retinue",
           "units": "Eight Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
             "Supreme Commander",
             "Transport",
             "Champion",
@@ -129,12 +129,12 @@
     },
     {
       "name": "Black Legion Elite Formations",
-      "description": "One Elite formation may be fielded per Core formation",
+      "description": "One Elite formation may be taken per Core formation",
       "formations": [
         {
           "name": "Chosen",
           "units": "Four Chosen, two Chaos Rhinos",
-          "upgrades": [
+          "extraUnits": [
             "Dreadnoughts",
             "Daemonic Pact"
           ],
@@ -143,7 +143,7 @@
         {
           "name": "Chaos Terminators",
           "units": "Four Chaos Terminators, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
               "Supreme Commander",
               "Transport",
               "Champion",
@@ -159,12 +159,12 @@
   },
   {
     "name": "Black Legion Support Formations",
-    "description": "Two Support formations may be fielded per Core formation",
+    "description": "Two Support formations may be taken per Core formation",
     "formations": [
       {
         "name": "Bike Company",
         "units": "Eight Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
-        "upgrades": [
+        "extraUnits": [
           "Daemonic Pact",
           "Icon Bearer"
         ],
@@ -173,7 +173,7 @@
     {
       "name": "Raptor Cult",
       "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
-      "upgrades": [
+      "extraUnits": [
           "Daemonic Pact"
       ],
       "points": 225
@@ -181,7 +181,7 @@
   {
     "name": "Predator Company",
     "units": "Four Chaos Predators",
-    "upgrades": [
+    "extraUnits": [
         "Stalker",
         "Vindicator"
     ],
@@ -190,7 +190,7 @@
     {
   "name": "Havocs",
   "units": "Four Havocs, one Chaos Lord or Sorcerer Lord, two Rhinos",
-  "upgrades": [
+  "extraUnits": [
       "Transport",
       "Stalker",
       "Vindicator"
@@ -206,7 +206,7 @@
           {
             "name": "Defiler Pack",
             "units": "Four Defilers",
-          "upgrades": [
+          "extraUnits": [
             "Add up to two Defilers: 50 points each"
           ],
           "points": 225
@@ -214,7 +214,7 @@
           {
             "name": "Decimators",
             "units": "One Decimator",
-            "upgrades": [
+            "extraUnits": [
               "Add one Decimator for 150 points"
             ],
             "points": 200
@@ -222,7 +222,7 @@
           {
             "name": "Death Wheels",
             "units": "One Death Wheel",
-            "upgrades": [
+            "extraUnits": [
               "Add one Death Wheel for 225 points"
             ],
             "points": 275
@@ -230,7 +230,7 @@
           {
             "name": "Chaos Warhound",
             "units": "One Chaos Warhound Scout Titan",
-            "upgrades": [
+            "extraUnits": [
               "Add one Chaos Warhound for 225 Points"
             ],
             "points": 275
@@ -263,7 +263,7 @@
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
-          "upgrades": [
+          "extraUnits": [
             "Battleship"
           ],
           "points": 150

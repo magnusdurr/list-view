@@ -7,6 +7,12 @@
           "name": "Adeptus Mechanicus",
           "abbreviation": "AM",
           "lists": [
+              {
+                "name": "Collegia Titanica",
+                "file": "amtl",
+                "status": "approved",
+                "img": "website/img/AdeptusMechanicus_Titan.jpg"
+            },
             {
               "name": "Explorator Fleet",
               "file": "exploratorFleet",
@@ -30,12 +36,6 @@
               "file": "skitarii",
               "status": "beta",
               "img": "website/img/AdeptusMechanicus_Skitarii.jpg"
-            },
-            {
-              "name": "Collegia Titanica",
-              "file": "amtl",
-              "status": "approved",
-              "img": "website/img/AdeptusMechanicus_Titan.jpg"
             }
           ]
         },
@@ -68,6 +68,12 @@
               "img": "website/img/AstraMilitarum_Korps.jpg"
             },
             {
+              "name": "Elysian Drop Troops",
+              "file": "elysiandroptroops",
+              "status": "experimental",
+              "img": "website/img/AstraMilitarum_Elysian.jpg"
+          },
+            {
               "name": "Minervan Tank Legion",
               "file": "minervans",
               "status": "alpha",
@@ -84,12 +90,6 @@
               "file": "valhallanicewarriors",
               "status": "alpha",
               "img": "website/img/AstraMilitarum_Valhallans.jpg"
-            },
-            {
-              "name": "Elysian Drop Troops",
-              "file": "elysiandroptroops",
-              "status": "experimental",
-              "img": "website/img/AstraMilitarum_Elysian.jpg"
             }
           ]
         },
@@ -104,16 +104,16 @@
               "img": "website/img/Inquisition_Sisters.jpg"
           },
           {
+            "name": "Deathwatch",
+            "file": "deathwatch",
+            "status": "experimental",
+            "img": "website/img/Inquisition_Deathwatch.jpg"
+        },
+          {
             "name": "Grey Knights",
             "file": "greyknights",
             "status": "experimental",
             "img": "website/img/Inquisition_GreyKnights.jpg"
-        },
-        {
-          "name": "Deathwatch",
-          "file": "deathwatch",
-          "status": "experimental",
-          "img": "website/img/Inquisition_Deathwatch.jpg"
         }
           ]
         },
@@ -180,6 +180,12 @@
           "name": "Chaos Space Marines",
           "abbreviation": "Chaos",
           "lists": [
+              {
+                "name": "Alpha Legion",
+                "file": "alphalegion",
+                "status": "alpha",
+                "img": "website/img/Chaos_Alpha.jpg"
+            },
             {
               "name": "Black Legion",
               "file": "blacklegion",
@@ -187,16 +193,16 @@
               "img": "website/img/Chaos_Legion.jpg"
             },
             {
-              "name": "Emperor's Children",
-              "file": "emperorschildren",
-              "status": "approved",
-              "img": "website/img/Chaos_Children.jpg"
-            },
-            {
               "name": "Death Guard",
               "file": "deathguard",
               "status": "alpha",
               "img": "website/img/Chaos_Death.jpg"
+            },
+            {
+              "name": "Emperor's Children",
+              "file": "emperorschildren",
+              "status": "approved",
+              "img": "website/img/Chaos_Children.jpg"
             },
             {
               "name": "World Eaters",
@@ -209,12 +215,6 @@
               "file": "thousandsons",
               "status": "beta",
               "img": "website/img/Chaos_Sons.jpg"
-            },
-            {
-              "name": "Alpha Legion",
-              "file": "alphalegion",
-              "status": "alpha",
-              "img": "website/img/Chaos_Alpha.jpg"
             }
           ]
         },
@@ -222,6 +222,12 @@
           "name": "Chaos Cultists",
           "abbreviation": "Cultists",
           "lists": [
+              {
+                "name": "Daemonic Incursion",
+                "file": "DI",
+                "status": "alpha",
+                "img": "website/img/Cultist_Daemon.jpg"
+            },
             {
               "name": "Lost and the Damned",
               "file": "LatD",
@@ -233,12 +239,6 @@
               "file": "StD",
               "status": "beta",
               "img": "website/img/Cultist_Slaves.jpg"
-            },
-            {
-              "name": "Daemonic Incursion",
-              "file": "DI",
-              "status": "alpha",
-              "img": "website/img/Cultist_Daemon.jpg"
             }
           ]
         },
@@ -246,17 +246,17 @@
           "name": "Dark Mechanicus",
           "abbreviation": "DM",
           "lists": [
+              {
+                "name": "Questor Traitoris",
+                "file": "QT",
+                "status": "alpha",
+                "img": "website/img/DarkMech_QT.jpg"
+            },
             {
               "name": "Traitor Titan Legion",
               "file": "TTL",
               "status": "alpha",
               "img": "website/img/DarkMech_Titan.jpg"
-          },
-          {
-            "name": "Questor Traitoris",
-            "file": "QT",
-            "status": "alpha",
-            "img": "website/img/DarkMech_QT.jpg"
           }
           ]
         }
@@ -277,11 +277,24 @@
               "img": "website/img/Eldar_BielTan.jpg"
             },
             {
+              "name": "Fir Lirithion",
+              "file": "firlirithion",
+              "status": "alpha",
+              "img": "website/img/Eldar_Titan.jpg"
+          },
+            {
               "name": "Iyanden",
               "file": "iyanden",
               "status": "approved",
               "img": "website/img/Eldar_Iyanden.jpg"
             },
+            {
+              "name": "Mymeara",
+              "file": "mymeara",
+              "status": "experimental",
+              "img": "website/img/Eldar_Mymeara.jpg"
+          },
+
             {
               "name": "Saim-Hann",
               "file": "saimhann",
@@ -294,19 +307,7 @@
               "status": "alpha",
               "img": "website/img/Eldar_Ulthwe.jpg"
           },
-          {
-            "name": "Fir Lirithion",
-            "file": "firlirithion",
-            "status": "alpha",
-            "img": "website/img/Eldar_Titan.jpg"
-        },
         {
-          "name": "Mymeara",
-          "file": "mymeara",
-          "status": "experimental",
-          "img": "website/img/Eldar_Mymeara.jpg"
-      },
-      {
         "name": "Lugganath / Harlequins",
         "file": "masqueoftheveiledpath",
         "status": "alpha",
@@ -354,18 +355,19 @@
           "name": "Orks",
           "abbreviation": "O",
           "lists": [
+              {
+                "name": "Bad Moons Big Mob",
+                "file": "gargants",
+                "status": "alpha",
+                "img": "website/img/Ork_Gargant.jpg"
+              },
             {
               "name": "Clan Goffs Warhorde",
               "file": "goffsclan",
               "status": "approved",
               "img": "website/img/Ork_Goffs.jpg"
             },
-            {
-              "name": "Bad Moons Big Mob",
-              "file": "gargants",
-              "status": "alpha",
-              "img": "website/img/Ork_Gargant.jpg"
-            },
+
             {
               "name": "Evil Sunz Speed Freeks",
               "file": "speedfreeks",

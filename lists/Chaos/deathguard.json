@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Death Guard",
-  "version": "0.6.1",
-  "release": "2019-08-19",
-  "strategy": "Death Guard armies have a Strategy Rating of 4.",
-  "Initiative": "Death Guard Core and Elite formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.7.0",
+  "release": "2019-10-11",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
+  "Initiative": "Death Guard Core and Elite formations, the Vindicator and Chaos Space Marine formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -56,7 +56,8 @@
             "Desecrator",
             "Greater Blight Drone",
             "Contagion Engine",
-            "Plague Tower"
+            "Plague Tower",
+            "Plague Reaper"
         ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -103,9 +104,9 @@
         {
           "name": "Death Guard Retinue",
           "units": "Four Plague Marines, three Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
             "Supreme Commander",
-            "Transport",
+            "Death Guard Transport",
             "Champion",
             "Daemonic Pact",
             "Stalker",
@@ -121,12 +122,12 @@
     },
     {
       "name": "Death Guard Elite Formations",
-      "description": "One Elite formation may be fielded per Core formation",
+      "description": "One Elite formation may be taken per Core formation",
       "formations": [
         {
           "name": "Chosen",
           "units": "Four Chosen, two Death Guard Rhinos",
-          "upgrades": [
+          "extraUnits": [
             "Dreadnoughts",
             "Daemonic Pact",
             "Icon Bearer",
@@ -137,56 +138,70 @@
         {
           "name": "Death Guard Terminators",
           "units": "Four Blightlord Terminators, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
               "Supreme Commander",
-              "Transport",
+              "Death Guard Transport",
               "Champion",
               "Daemonic Pact",
               "Icon Bearer",
               "Dreadnoughts"
           ],
           "points": 375
-      },
-      {
-        "name": "Vindicators",
-        "units": "Five Death Guard Vindicators",
-        "upgrades": [
-          "Vindicators"
-        ],
-        "points": 200
       }
     ]
   },
   {
-    "name": "Daemon Engine Formations",
-    "description": "Two Daemon Engine formations may be fielded per Core formation",
+    "name": "Death Guard Support Formations",
+    "description": "Two Support Formations may be taken per Core Formation",
     "formations": [
+        {
+          "name": "Vindicators",
+          "units": "Five Death Guard Vindicators",
+          "extraUnits": [
+            "Vindicators"
+          ],
+          "points": 200
+      },
+      {
+        "name": "Chaos Space Marines",
+        "units": "Six Chaos Space Marines, three Death Guard Rhinos",
+        "extraUnits": [
+          "Daemonic Pact"
+        ],
+        "points": 225
+    },
+    {
+      "name": "Plague Reaper",
+      "units": "One Plague Reaper",
+      "extraUnits": [
+      ],
+      "points": 200
+  },
       {
         "name": "Contagion Engines",
         "units": "Four Contagion Engines",
-        "upgrades": [
+        "extraUnits": [
         ],
         "points": 325
     },
     {
       "name": "Blight Drones",
       "units": "Seven Greater Blight Drones",
-      "upgrades": [
+      "extraUnits": [
       ],
-      "points": 275
+      "points": 250
   },
     {
       "name": "Plague Tower",
       "units": "One Plague Tower",
-      "upgrades": [
+      "extraUnits": [
       ],
       "points": 325
   },
   {
     "name": "Nurgle Defiler Pack",
     "units": "Four Desecrators",
-    "upgrades": [
-        "Add up to three Desecrators: 50 points each"
+    "extraUnits": [
     ],
     "points": 250
     }
@@ -202,19 +217,18 @@
             "points": 175
             },
           {
-            "name": "Plaguehounds",
-            "units": "One Plaguehound Titan",
-            "upgrades": [
-              "Add one Plaguehound Titan for 250 points"
+            "name": "Plaguehound Pack",
+            "units": "Two Plaguehound Titans",
+            "extraUnits": [
             ],
-            "points": 300
+            "points": 500
           },
           {
             "name": "Repugnant",
             "units": "One Repugnant Titan",
-            "upgrades": [
+            "extraUnits": [
             ],
-            "points": 625
+            "points": 600
           },
         {
           "name": "Hell Blade Squadron",
@@ -276,7 +290,7 @@
         ]
       },
       {
-        "name": "Transport",
+        "name": "Death Guard Transport",
         "options": [
           {
             "description": "Add up to four Death Guard Rhinos (Retinue only)",

@@ -3,7 +3,7 @@
   "army": "Emperor's Children",
   "version": "1.0.0",
   "release": "2019-02-27",
-  "strategy": "Emperor's Children armies have a Strategy Rating of 4.",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Emperor's Children Core, Elite and Support formations, as well as the Chaos Thunderhawk, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
@@ -90,7 +90,7 @@
         {
           "name": "Emperor's Children Retinue",
           "units": "Three Noise Marines, three Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
             "Supreme Commander",
             "Retinue Transport",
             "Champion",
@@ -108,12 +108,12 @@
     },
     {
       "name": "Emperor's Children Elite Formations",
-      "description": "One Elite formation may be fielded per Core formation",
+      "description": "One Elite formation may be taken per Core formation",
       "formations": [
         {
           "name": "Chosen",
           "units": "Four Chosen, two Chaos Rhinos",
-          "upgrades": [
+          "extraUnits": [
             "Dreadnoughts",
             "Daemonic Pact"
           ],
@@ -122,7 +122,7 @@
         {
           "name": "Emperor's Children Terminators",
           "units": "Four Sirenshriek Terminators, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
               "Supreme Commander",
               "Terminator Transport",
               "Champion",
@@ -137,12 +137,12 @@
   },
   {
     "name": "Emperor's Children Support Formations",
-    "description": "Two Support formations may be fielded per Core formation",
+    "description": "Two Support formations may be taken per Core formation",
     "formations": [
       {
         "name": "Bike Company",
         "units": "Six Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
-        "upgrades": [
+        "extraUnits": [
           "Daemonic Pact",
           "Icon Bearer"
         ],
@@ -151,7 +151,7 @@
     {
       "name": "Raptor Cult",
       "units": "Four Raptors, one Chaos Lord or Sorcerer Lord",
-      "upgrades": [
+      "extraUnits": [
           "Daemonic Pact"
       ],
       "points": 175
@@ -159,7 +159,7 @@
   {
     "name": "Armoured Company",
     "units": "Four Chaos Predators",
-    "upgrades": [
+    "extraUnits": [
         "Land Raiders",
         "Stalker"
     ],
@@ -174,7 +174,7 @@
           {
             "name": "Slaanesh Defiler Pack",
             "units": "Four Debasers",
-            "upgrades": [
+            "extraUnits": [
               "Add up to two Debasers: 50 points each"
             ],
             "points": 225

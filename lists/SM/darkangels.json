@@ -102,8 +102,8 @@
       "name": "Ares Siege Detachment",
       "units": "Three Land Raider Ares, two Vindicators",
       "extraUnits": [
-          "Commander",
-          "Vindicators"
+          "Vindicators",
+          "Commander"
       ],
       "points": 350
     }
@@ -111,7 +111,7 @@
     },
     {
       "name": "Dark Angels Support Detachments",
-      "description": "Three Support Detachments may be fielded per Core Detachment",
+      "description": "Three Support Detachments may be taken per Core Detachment",
       "formations": [
         {
           "name": "Assault Detachment",
@@ -134,9 +134,9 @@
           "name": "Devastator Detachment",
           "units": "Four Dark Angels Devastators plus transport",
           "extraUnits": [
+            "Razorbacks",
             "Anti-Air",
-            "Commander",
-            "Razorbacks"
+            "Commander"
           ],
           "points": 250
         },

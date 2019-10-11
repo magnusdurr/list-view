@@ -269,11 +269,11 @@
               "speed": 15,
               "armour": 4,
               "cc": 5,
-              "ff": 4,
+              "ff": 5,
               "weapons": [
                 "Kaban Laser Destroyer||FwA",
                 "Kaban Conversion Beamer||FwA",
-                "Guntail|6|"
+                "Guntail|4|"
               ],
               "specialRules": [
                   "Damage Capacity 4",
@@ -346,7 +346,7 @@
           "ff": 4,
           "weapons": [
             "Rapid Fire Battle Cannon",
-            "Twin Reaper Autocannon",
+            "Twin Reaper Autocannons",
             "Renegade Chainsword"
           ],
           "specialRules": [
@@ -366,7 +366,6 @@
             "ff": 5,
             "weapons": [
               "Multi-Melta",
-              "Heavy Stubber",
               "Reaper Chain-Cleaver"
             ],
             "specialRules": [
@@ -385,8 +384,7 @@
             "cc": 5,
             "ff": 5,
             "weapons": [
-              "Reaper Autocannon|2|",
-              "Heavy Stubber"
+              "Reaper Autocannon|2|"
             ],
             "specialRules": [
               "Walker",
@@ -415,7 +413,7 @@
               "Chaos Gate",
               "Daemon Engine (Chaos Undivided)"
           ],
-                    "crit": "The Warp Altar is destroyed. All Daemon Legion units within 5cm are destroyed, all other units within 5cm suffers a MW hit on 6+."
+                    "crit": "The Warp Altar is destroyed. All Daemon Legion units within 5cm are destroyed, all other units within 5cm suffers a MW hit on 5+."
       },
         {
           "name": "Decimator",
@@ -426,7 +424,7 @@
           "ff": 4,
           "weapons": [
             "Decimator Cannon||FxF",
-            "Twin Reaper Autocannon|4|"
+            "Twin Reaper Autocannons|4|FxF"
           ],
           "specialRules": [
           "Damage Capacity 3",
@@ -435,7 +433,7 @@
           "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
       ],
-          "crit": "The Decimator is destroyed."
+          "crit": "The Decimator is destroyed. All units within 5cm takes a hit on 5+."
         },
         {
           "name": "Death Wheel",
@@ -456,7 +454,7 @@
               "Invulnerable Save",
               "Daemon Engine (Chaos Undivided)"
           ],
-          "crit": " Move the Death Wheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Death Wheel is then destroyed"
+          "crit": "Move the Death Wheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Death Wheel is then destroyed"
       },
 
         {
@@ -638,6 +636,27 @@
           ]
         },
         {
+          "name": "Plague Reaper",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Pus Cannon||FxF",
+            "Demolisher||FxF",
+            "Twin Reaper Autocannons|4|FxF"
+          ],
+          "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Fearless",
+          "Invulnerable Save",
+          "Daemon Engine (Nurgle)"
+      ],
+          "crit": "The Plague Reaper is destroyed. All units within 5cm takes a hit on 5+."
+        },
+        {
           "name": "Knight-Desecrator",
           "type": "H-AV",
           "speed": 20,
@@ -688,9 +707,10 @@
           "speed": 20,
           "armour": 4,
           "cc": 2,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
-              "Heavy Cannon",
+            "Heavy Cannon",
+            "Heavy Flamer",
             "Reaper Autocannon",
             "Battle Claws"
           ],
@@ -707,7 +727,7 @@
           "type": "AV",
           "speed": 15,
           "armour": 4,
-          "cc": 3,
+          "cc": 4,
           "ff": 5,
           "weapons": [
             "Doomblaster"
@@ -723,7 +743,7 @@
           "name": "Daemonic Assault Engine",
           "type": "AV",
           "speed": 25,
-          "armour": 5,
+          "armour": 3,
           "cc": 2,
           "ff": 5,
           "weapons": [
@@ -732,7 +752,6 @@
           ],
           "specialRules": [
             "Fearless",
-            "Reinforced Armour",
             "Invulnerable Save",
             "Daemon Engine (Khorne)"
           ]
@@ -789,15 +808,14 @@
           "cc": 3,
           "ff": 5,
           "weapons": [
-            "Battle Cannon|2|FwA",
-            "Death Storm",
+            "Battle Cannon|2|FxF",
+            "Death Storm||FwA",
             "Chainfist"
           ],
           "specialRules": [
               "Damage Capacity 6",
               "Reinforced Armour",
               "Fearless",
-              "Thick Rear Armour",
               "Invulnerable Save",
               "Daemon Engine (Khorne)"
           ],
@@ -808,27 +826,22 @@
             "type": "WE",
             "speed": 20,
             "armour": 5,
-            "cc": 3,
-            "ff": 3,
+            "cc": 4,
+            "ff": 4,
             "weapons": [
               "Hellstrike Cannon||FxF",
-              "Death Storm|2|FwA",
-              "Hellfire Cannon||Left",
-              "Twin Reaper Autocannon (AA mounted)||Left",
-              "Hellfire Cannon||Right",
-              "Twin Reaper Autocannon (AA mounted)||Right"
+              "Death Storm||FwA",
+              "Hellfire Cannon|2|FxF",
+              "Twin Reaper Autocannons (AA mounted)||Left",
+              "Twin Reaper Autocannons (AA mounted)||Right"
             ],
             "specialRules": [
-                "Damage Capacity 8",
-                "God Machine",
-                "Split Fire",
-                "Leader",
+                "Damage Capacity 6",
                 "Fearless",
                 "Reinforced Armour",
                 "Thick Rear Armour",
                 "Daemon Engine (Khorne)",
-                "Regeneration",
-                "Daemonic Pact"
+                "Regeneration"
             ],
             "crit": "The Tower of Skulls takes an additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
         },

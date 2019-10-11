@@ -3,7 +3,7 @@
   "army": "Thousand Sons",
   "version": "0.8.5",
   "release": "2019-09-28",
-  "strategy": "Thousand Sons armies have a Strategy Rating of 4.",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Thousand Sons Core and Elite formations, as well as the Warphound Pack formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
@@ -112,7 +112,7 @@
     },
     {
       "name": "Thousand Sons Elite Formations",
-      "description": "One Elite Formation may be fielded per Core Formation",
+      "description": "One Elite Formation may be taken per Core Formation",
       "formations": [
         {
           "name": "Chaos Space Marines",
@@ -154,7 +154,7 @@
   },
   {
     "name": "Chaos Cultist and Minor Daemon Engine Formations",
-    "description": "Two Chaos Cultist and Minor Daemon Engine Formations may be fielded per Core Formation",
+    "description": "Two Chaos Cultist and Minor Daemon Engine Formations may be taken per Core Formation",
     "formations": [
       {
         "name": "Tzaangor Warhost",

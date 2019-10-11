@@ -1,9 +1,9 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "World Eaters",
-  "version": "0.6.3",
-  "release": "2019-08-08",
-  "strategy": "World Eater armies have a Strategy Rating of 4.",
+  "version": "0.7.0",
+  "release": "2019-10-11",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All World Eaters Core and Support formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
@@ -33,7 +33,8 @@
         "Khorne Berzerker Assault Bikes",
         "Juggernaut Riders",
         "Chaos Rhino",
-        "World Eater Land Raider",
+        "World Eaters Land Raider",
+        "Chaos Dreadnought",
         "Chaos Predator",
         "Chaos Vindicator",
         "World Eaters Dreadnought"
@@ -58,8 +59,6 @@
         ],
         "unitRules": [
           "Daemon Engine (x)",
-          "God Machine",
-          "Split Fire",
           "Regeneration"
         ]
     },
@@ -91,149 +90,146 @@
       "formations": [
         {
           "name": "World Eaters Retinue",
-          "units": "Four Khorne Berzerkers, four Chaos Space Marines, one Skull Lord",
-          "upgrades": [
+          "units": "One Skull Lord, four Khorne Berzerkers, four Chaos Space Marines, four Chaos Rhinos",
+          "extraUnits": [
+            "Berzerkers",
             "Supreme Commander",
-            "Transport",
+            "Berzerker Transport",
             "Champion",
             "Daemonic Pact",
-            "Dreadclaws",
             "Icon Bearer",
             "Vindicators",
-            "Berzerkers",
-            "Dreadnoughts",
-            "Predators"
+            "Dreadnoughts"
           ],
           "points": 300
         }
       ]
     },
     {
-      "name": "World Eaters Support Formations",
-      "description": "Two Support formations may be fielded per Core formation",
+      "name": "World Eaters Elite Formations",
+      "description": "One Elite formation may be taken per Core formation",
       "formations": [
         {
           "name": "Skullseeker Terminators",
-          "units": "Four Skullseeker Terminators, one Skull Lord",
-          "upgrades": [
+          "units": "One Skull Lord, four Skullseeker Terminators",
+          "extraUnits": [
+              "Replace up to two Skullseeker Terminators with Mutilators: 25 points each",
               "Supreme Commander",
-              "Transport",
+              "Skullseeker Transport",
               "Champion",
               "Daemonic Pact",
-              "Dreadclaws",
               "Icon Bearer",
-              "Mutilators",
               "Dreadnoughts"
           ],
-          "points": 400
+          "points": 375
       },
       {
         "name": "Juggernaut Riders",
-        "units": "Eight Juggernaut Riders, one Skull Lord, Daemonic Pact",
-        "upgrades": [
+        "units": "One Skull Lord, eight Juggernaut Riders, Daemonic Pact",
+        "extraUnits": [
             "Supreme Commander",
-            "Icon Bearer",
-            "Champion"
+            "Champion",
+            "Icon Bearer"
         ],
-        "points": 400
+        "points": 375
       },
           {
             "name": "Berzerker Bikes",
-            "units": "Eight Khorne Berzerker Assault Bikes, one Skull Lord",
-            "upgrades": [
-                "Icon Bearer",
-                "Daemonic Pact"
+            "units": "One Skull Lord, eight Khorne Berzerker Assault Bikes",
+            "extraUnits": [
+                "Daemonic Pact",
+                "Icon Bearer"
             ],
             "points": 350
-        },
+        }
+    ]
+  },
+  {
+    "name": "World Eaters Support Formations",
+    "description": "Two Support formations may be taken per Core formation",
+    "formations": [
         {
-          "name": "World Eaters Renegades",
+          "name": "World Eater Renegades",
           "units": "Four Chaos Space Marines, two Chaos Rhinos, Daemonic Pact",
-          "upgrades": [
+          "extraUnits": [
+            "Replace two Chaos Rhinos with two World Eaters Land Raiders: 75 points",
+            "Berzerkers",
             "Predators",
-            "Land Raiders",
-            "Vindicators",
-            "Berzerkers"
+            "Vindicators"
           ],
           "points": 175
         },
         {
           "name": "Predator Company",
           "units": "Four Chaos Predators",
-          "upgrades": [
+          "extraUnits": [
+              "Chaos Predators",
               "Vindicators"
           ],
           "points": 200
-      }
-    ]
-  },
-  {
-    "name": "Minor Daemon Engine Formations",
-    "description": "One Minor Daemon Engine formations may be fielded per Core formation",
-    "formations": [
+      },
       {
         "name": "Khorne Defiler Pack",
-        "units": "Five Slaughterfiends",
-        "upgrades": [
-          "Add up to three Slaughterfiends: 35 points each"
+        "units": "Four Slaughterfiends",
+        "extraUnits": [
         ],
         "points": 225
     },
     {
       "name": "Daemonic Assault Engines",
       "units": "Six Daemonic Assault Engines",
-      "upgrades": [
+      "extraUnits": [
       ],
-      "points": 300
+      "points": 275
   },
   {
     "name": "Doomblasters",
     "units": "Four Doomblasters",
-    "upgrades": [
+    "extraUnits": [
     ],
     "points": 225
     },
     {
       "name": "Hell Cannons",
       "units": "Four Hell Cannons",
-      "upgrades": [
+      "extraUnits": [
       ],
       "points": 225
   },
       {
         "name": "Forgefiends",
         "units": "Three Forgefiends",
-        "upgrades": [
+        "extraUnits": [
         ],
-        "points": 225
+        "points": 250
         }
       ]
     },
         {
-      "name": "Major Daemon Engine and Chaos Navy Formations",
+      "name": "War Engine and Chaos Navy Formations",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
           {
             "name": "Greater Brass Scorpion",
             "units": "One Greater Brass Scorpion",
-          "upgrades": [
+          "extraUnits": [
             "Add one Greater Brass Scorpion for 175 points"
           ],
-          "points": 250
+          "points": 225
             },
           {
             "name": "Lord of Battles",
             "units": "One Lord of Battles",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 400
           },
           {
             "name": "0-1 Tower of Skulls",
             "units": "One Tower of Skulls, Daemonic Pact",
-            "upgrades": [
+            "extraUnits": [
             ],
-            "points": 700
+            "points": 550
           },
         {
           "name": "Heldrakes",
@@ -243,7 +239,7 @@
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
-          "upgrades": [
+          "extraUnits": [
             "Battleship"
           ],
           "points": 150
@@ -284,41 +280,45 @@
           },
           {
             "description": "Replace the Skull Lord with a Blood Lord",
-            "points": "50 points"
+            "points": "75 points"
           },
           {
             "description": "Replace the Skull Lord and its unit with a Daemon Prince of Khorne",
-            "points": "75 points"
+            "points": "100 points"
           }
         ]
       },
       {
-        "name": "Transport",
+        "name": "Berzerker Transport",
         "options": [
           {
-            "description": "Add four Chaos Rhinos (Retinue only)",
+            "description": "Replace four Chaos Rhinos with Dreadclaws",
             "points": "Free"
           },
           {
-            "description": "Add four World Eaters Land Raiders",
-            "points": "200 points each"
-        },
-        {
-          "description": "(No more than needed to transport the formation with no space left over)",
-          "points": ""
-      }
+            "description": "Replace four Chaos Rhinos with four World Eater Land Raiders",
+            "points": "150 points"
+        }
         ]
       },
       {
-        "name": "Land Raiders",
-        "description": "Replace two Chaos Rhinos with two World Eaters Land Raiders",
-        "points": "100 points"
+        "name": "Skullseeker Transport",
+        "options": [
+          {
+            "description": "Add Dreadclaws to the formation",
+            "points": "Free"
+          },
+          {
+            "description": "Add four World Eater Land Raiders",
+            "points": "150 points"
+        }
+        ]
       },
       {
-        "name": "Predators",
-        "description": "Add 2 Chaos Predators",
-        "points": "75 points"
-      },
+        "name": "Berzerkers",
+        "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
+        "points": "Free"
+    },
       {
         "name": "Daemonic Pact",
         "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
@@ -326,7 +326,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add two World Eaters Dreadnoughts to the formation",
+        "description": "Add two Chaos Dreadnoughts to the formation",
         "points": "75 points"
       },
       {
@@ -340,25 +340,15 @@
         "points": "25 points"
       },
       {
-        "name": "Dreadclaws",
-        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
-        "points": "Free"
+        "name": "Predators",
+        "description": "Add two Chaos Predators",
+        "points": "75 points"
       },
       {
         "name": "Vindicators",
         "description": "Add two Chaos Vindicators",
         "points": "50 points"
-      },
-      {
-        "name": "Berzerkers",
-        "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
-        "points": "Free"
-      },
-      {
-        "name": "Mutilators",
-        "description": "Replace up to two Skullseeker Terminators with Mutilators",
-        "points": "25 points each"
-    }
+      }
     ]
   }
 }

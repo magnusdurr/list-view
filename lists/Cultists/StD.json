@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.9.1",
-  "release": "2019-08-22",
+  "version": "0.9.2",
+  "release": "2019-10-11",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -80,7 +80,7 @@
         "Subjugator",
         "Questor",
         "Plague Tower",
-        "Greater Blight Drone",
+        "Plague Reaper",
         "Daemonic Assault Engine",
         "Lord of Battles",
         "Silver Tower",
@@ -155,7 +155,7 @@
           "points": 150
         },
         {
-          "name": "Super-Heavy Platoon",
+          "name": "Super Heavy Platoon",
           "units": "One Baneblade",
           "extraUnits": [
             "Replace the Baneblade with a Shadowsword: 25 points"
@@ -213,9 +213,9 @@
           "points": 250
         },
         {
-          "name": "0-1 Plague Drones of Nurgle",
-          "units": "Seven Greater Blight Drones",
-          "points": 275
+          "name": "0-1 Plague Reaper of Nurgle",
+          "units": "One Plague Reaper",
+          "points": 200
         },
         {
           "name": "0-1 Plague Tower of Nurgle",
@@ -225,7 +225,7 @@
         {
           "name": "0-1 Daemonic Assault Engines of Khorne",
           "units": "Six Daemonic Assault Engines",
-          "points": 300
+          "points": 275
         },
         {
           "name": "0-1 Khorne Lord of Battles",
