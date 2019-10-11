@@ -4,7 +4,7 @@
   "version": "0.7.3",
   "release": "2019-10-09",
   "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
-  "Initiative": "Black Heart Kabal and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisan formations receive a +1 modifier when attempting an Engage action.",
+  "Initiative": "Black Heart Kabal and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Wych Cult formations receive a +1 modifier when attempting an Engage action.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -120,6 +120,16 @@
       "name": "Black Heart Partisan Formations",
       "description": "Up to two Partisan Formations may be taken for each Kabal Formation",
       "formations": [
+          {
+            "name": "Wych Cult",
+            "units": "One Succubus, four Wyches",
+            "extraUnits": [
+              "Add two Wyches: 50 points",
+              "Add up to two Warp Beasts: 25 points each",
+              "Black Heart Transport"
+            ],
+            "points": 150
+        },
         {
           "name": "Haemonculi Coven",
           "units": "Two Haemonculi and four Wracks",
@@ -172,20 +182,9 @@
           "name": "Reaver Gang",
           "units": "Six Reaver Jet Bikes",
           "extraUnits": [
-            "Add up to two Reaver Jet Bikes: 25 points each",
-            "Add one Succubus to a unit of Reaver Jet Bikes: 25 points"
+            "Add up to two Reaver Jet Bikes: 25 points each"
           ],
           "points": 200
-        },
-        {
-          "name": "Wych Cult",
-          "units": "One Succubus, four Wyches",
-          "extraUnits": [
-            "Add two Wyches: 50 points",
-            "Add up to two Warp Beasts: 25 points each",
-            "Black Heart Transport"
-          ],
-          "points": 150
         }
 
 

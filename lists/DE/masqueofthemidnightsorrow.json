@@ -4,7 +4,7 @@
   "version": "0.6.1",
   "release": "2019-10-04",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Dark Eldar Kabal formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans and Harlequins receive a +1 modifier when attempting an Engage action.",
+  "Initiative": "Wraithkind Kabal and Tormentor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Wych Cult and Harlequin formations receive a +1 modifier when attempting an Engage action.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -154,8 +154,7 @@
             "name": "Reaver Gang",
             "units": "Six Reaver Jet Bikes",
             "extraUnits": [
-              "Add up to two Reaver Jet Bikes: 25 points each",
-              "Add one Succubus to a unit of Reaver Jet Bikes: 25 points"
+              "Add up to two Reaver Jet Bikes: 25 points each"
             ],
             "points": 200
           },
