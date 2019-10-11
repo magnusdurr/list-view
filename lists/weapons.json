@@ -4506,6 +4506,25 @@
       ]
     },
     {
+      "name": "Twin Heavy Warpflamer",
+          "modes": [
+            {
+              "firepower": "AP3+",
+              "range": 15,
+              "specialRules": [
+                "IC"
+            ]
+            },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+                "IC"
+            ]
+          }
+      ]
+    },
+    {
       "name": "Heavy Warpflamer",
           "modes": [
             {

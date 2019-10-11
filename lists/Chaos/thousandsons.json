@@ -99,7 +99,7 @@
       "formations": [
         {
           "name": "Thousand Sons Retinue",
-          "units": "Six Rubric Marines, one Aspiring Sorcerer",
+          "units": "One Aspiring Sorcerer, six Rubric Marines",
           "extraUnits": [
             "Supreme Commander",
             "Transport",
@@ -115,8 +115,8 @@
       "description": "One Elite Formation may be taken per Core Formation",
       "formations": [
         {
-          "name": "Chaos Space Marines",
-          "units": "Four Chaos Space Marines, one Aspiring Sorcerer",
+          "name": "Thousand Sons Initiates",
+          "units": "One Aspiring Sorcerer, four Chaos Space Marines",
           "extraUnits": [
             "Replace the Aspiring Sorcerer with a Champion of Tzeench: 25 points",
             "Dreadnoughts",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Thousand Sons Terminators",
-          "units": "Four Scarab Occult Terminators, one Aspiring Sorcerer",
+          "units": "One Aspiring Sorcerer, four Scarab Occult Terminators",
           "extraUnits": [
               "Supreme Commander",
               "Terminator Transport"
@@ -140,11 +140,11 @@
         "extraUnits": [
             "Predators"
         ],
-        "points": 200
+        "points": 225
     },
     {
       "name": "Sorcerer Disc Riders",
-      "units": "Six Sorcerer Disc Riders, one Aspiring Sorcerer",
+      "units": "One Aspiring Sorcerer, six Sorcerer Disc Riders",
       "extraUnits": [
         "Supreme Commander"
       ],
@@ -267,7 +267,7 @@
         ]
       },
       {
-        "name": "Transport",
+        "name": "Thousand Sons Transport",
         "options": [
           {
             "description": "Chaos Rhinos",
@@ -302,7 +302,7 @@
         "name": "Beasts of Chaos",
         "options": [
           {
-            "description": "Choose up to one of each of the following:"
+            "description": "Choose up to one of the following:"
           },
           {
             "description": "Add one Chaos Spawn to the formation",
