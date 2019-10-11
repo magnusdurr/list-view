@@ -74,7 +74,7 @@
           "cc": 5,
           "ff": 5,
           "weapons": [
-            "Radium Carbine"
+            "Multilaser"
           ],
           "specialRules": [
           ]
@@ -130,14 +130,14 @@
           ]
       },
       {
-          "name": "Secutarii",
+          "name": "Sagitarii",
           "type": "INF",
           "speed": 15,
           "armour": 5,
-          "cc": 5,
+          "cc": 6,
           "ff": 4,
           "weapons": [
-            "Kinetic Hammershot"
+            "Assault Cannon|2|"
           ],
           "specialRules": [
           ]
@@ -207,9 +207,9 @@
           "name": "Adsecularis",
           "type": "INF",
           "speed": 15,
-          "armour": 6,
+          "armour": 5,
           "cc": 6,
-          "ff": 5,
+          "ff": 6,
           "weapons": [
             "Las-Locks"
           ],
@@ -412,7 +412,7 @@
             ">Battle Weapons<",
             "Turbo-Laser Destructor|0-1|FxF",
             "Apocalypse Missile Launcher|0-1|FxF",
-            "Tri-Twin Hydra Autocannons|0-1|",
+            "Hydra Flak Array|0-1|",
             "Titan Plasma Cannon|0-1|FxF",
             "Corvus Assault Pod|0-1|",
             ">Support Weapons<",
@@ -445,7 +445,7 @@
             ">Battle Weapons<",
             "Turbo-Laser Destructor|0-1|FxF",
             "Apocalypse Missile Launcher|0-1|FxF",
-            "Tri-Twin Hydra Autocannons|0-1|",
+            "Hydra Flak Array|0-1|",
             "Titan Plasma Cannon|0-1|FxF",
             "Corvus Assault Pod|0-1|"
           ],

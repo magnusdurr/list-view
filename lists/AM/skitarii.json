@@ -23,7 +23,7 @@
         "Tech-Priest",
 
         "Hypaspists",
-        "Secutarii",
+        "Sagitarii",
 
         "Adsecularis",
         "Praetorians",
@@ -80,7 +80,8 @@
           "name": "Hypaspist Maniple",
           "units": "One Magos, nine Hypaspists",
           "extraUnits": [
-            "Replace one unit of Hypaspists with three Rapiers: 25 points",
+            "Replace three units of Hypaspists with three Rapiers: Free",
+            "Minoris",
             "Arch-Magos",
             "Hypaspist Transport",
             "Hydra"
@@ -94,10 +95,10 @@
       "description": "Up to three Skitarii Line Formations for each Core Formation.",
       "formations": [
         {
-          "name": "Secutarii Maniple",
-          "units": "Four Secutarii",
+          "name": "Sagitarii Maniple",
+          "units": "Four Sagitarii",
           "extraUnits": [
-            "Replace one unit of Secutarii with three Rapiers: 25 points",
+            "Replace one unit of Sagitarii with three Rapiers: 25 points",
             "Add up to three Chimeras: 25 points each",
             "Hydra"
           ],
@@ -109,15 +110,7 @@
           "extraUnits": [
             "Servitors"
           ],
-          "points": 175
-        },
-        {
-          "name": "Conqueror Maniple",
-          "units": "Five Conqueror Robots, one Tech-Priest",
-          "extraUnits": [
-            "Servitors"
-          ],
-          "points": 200
+          "points": 150
         },
         {
           "name": "Praetorian Maniple",
@@ -125,8 +118,16 @@
           "extraUnits": [
             "Servitors"
           ],
+          "points": 200
+        },
+        {
+          "name": "Conqueror Maniple",
+          "units": "Six Conqueror Robots, one Tech-Priest",
+          "extraUnits": [
+          ],
           "points": 225
         },
+
         {
           "name": "Cataphractii",
           "units": "Six Leman Russ Tanks",
@@ -138,7 +139,7 @@
           "name": "Minoris Cohort",
           "units": "Two Ordinatus Minoris",
           "extraUnits": [
-            "Ordinatus",
+            "Minoris",
             "Support Weapon"
           ],
           "points": 300
@@ -195,7 +196,7 @@
         {
           "name": "Avenger Squadron",
           "units": "Two Avenger Strike Fighters",
-          "points": 175
+          "points": 200
         },
         {
           "name": "Mechanicus Battleship",
@@ -231,8 +232,8 @@
         "name": "Servitors",
         "options": [
           {
-            "description": "Add three Adsecularis",
-            "points": "50 points"
+            "description": "Add two Adsecularis",
+            "points": "25 points"
           }
         ]
     },
