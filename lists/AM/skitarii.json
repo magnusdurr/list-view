@@ -189,15 +189,10 @@
               ],
               "points": 750
           },
-              {
-                "name": "0-1 Lysander Fighter for each Ordinatus Landing Pad",
-                "units": "One Lysander Fighter",
-                "points": 75
-              },
         {
           "name": "Avenger Squadron",
           "units": "Two Avenger Strike Fighters",
-          "points": 200
+          "points": 175
         },
         {
           "name": "Mechanicus Battleship",
@@ -224,8 +219,8 @@
         "name": "Hypaspist Transport",
         "options": [
           {
-            "description": "Add one Gorgon, five Chimeras, or five Chimedons. May not be combined with a Minoris with Corvus Assault Pod.",
-            "points": ["Gorgon: 100 points", "Chimeras: 125 points", "Chimedons: 125 points"]
+            "description": "Add one Gorgon, five Chimeras, or five Chimedons.",
+            "points": ["Gorgon: 100 points", "Chimeras: 125 points", "Chimedons: 125 point"]
           }
         ]
       },

@@ -46,7 +46,7 @@
         "Hypaspist",
         "Kastelan Robot",
         "Ordinatus Minoris ",
-        "AM Gorgon",
+        "Gorgon",
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
     ],
@@ -140,7 +140,7 @@
         },
         {
           "name": "Kastelan Maniple",
-          "units": "Five Kastelan Robots, one Tech-Priest",
+          "units": "Six Kastelan Robots, one Tech-Priest",
           "upgrades": [
               "Kastelans"
           ],
@@ -162,7 +162,7 @@
         {
           "name": "Avenger Strike Fighters",
           "units": "Two Avenger Strike Fighters",
-          "points": 200
+          "points": 175
         },
         {
           "name": "Mechanicus Battleship",
@@ -217,7 +217,7 @@
         "name": "Gorgon",
         "options": [
           {
-            "description": "Add one AM Gorgon",
+            "description": "Add one Gorgon",
             "points": "75 points"
           }
         ]
@@ -226,7 +226,7 @@
           "name": "Kastelans",
           "options": [
             {
-              "description": "Add up to three Kastelan Robots",
+              "description": "Add up to two Kastelan Robots",
               "points": "25 points each"
             }
           ]

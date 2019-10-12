@@ -415,21 +415,17 @@
             "Apocalypse Missile Launcher|0-1|FxF",
             "Hydra Flak Array|0-1|",
             "Titan Plasma Cannon|0-1|FxF",
-            "Corvus Assault Pod|0-1|",
             ">Support Weapons<",
             "Plasma Destructor|0-1|FxF",
             "Quake Cannon|0-1|FxF",
-            "Volcano Cannon|0-1|FxF",
-            "Ordinatus Landing Pad|0-1|"
+            "Volcano Cannon|0-1|FxF"
 
           ],
           "specialRules": [
             "Damage Capacity 2",
             "Void Shields 2",
             "Reinforced Armour",
-            "Fearless",
-            "[*]Corvus Assault Pod: Increases Speed to 25cm. May transport eleven infantry units. Praetorians counts as two units each",
-            "[**]Ordinatus Landing Pad: Gives all BP-type weapons in the formation 'Indirect Fire'. Allows the purchase of a Lysander Fighter"
+            "Fearless"
         ],
           "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon.",
         "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
@@ -447,15 +443,13 @@
             "Turbo-Laser Destructor|0-1|FxF",
             "Apocalypse Missile Launcher|0-1|FxF",
             "Hydra Flak Array|0-1|",
-            "Titan Plasma Cannon|0-1|FxF",
-            "Corvus Assault Pod|0-1|"
+            "Titan Plasma Cannon|0-1|FxF"
           ],
           "specialRules": [
             "Damage Capacity 2",
             "Void Shields 2",
             "Reinforced Armour",
-            "Fearless",
-            "*Corvus Assault Pod* May transport twelve infantry units or Robots. Praetorians count as two units each"
+            "Fearless"
         ],
           "notes": "Armed with a single Battle Weapon.",
         "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
@@ -543,8 +537,8 @@
       "speed": "Fighter-Bomber",
       "armour": 5,
       "weapons": [
-        "AC Avenger Bolt Cannon",
-        "AC Twin Lascannons||FxF",
+        "AC Avenger Bolt Cannon||FxF",
+        "AC Twin Autocannons||FxF",
         "AC Heavy Stubber Turret"
       ],
       "specialRules": [
