@@ -99,7 +99,7 @@
           "units": "Four Sagitarii",
           "extraUnits": [
             "Replace one unit of Sagitarii with three Rapiers: 25 points",
-            "Add up to three Chimeras: 25 points each",
+            "Add enought Chimeras or Chimedons to transport the formation with no space left over: 25 points each",
             "Hydra"
           ],
           "points": 150
@@ -151,7 +151,7 @@
           "Ordinatus Mars (Sonic Disruptor)",
           "Ordinatus Golgotha (Hellfire Missiles)"
         ],
-        "points": 450
+        "points": 425
       }
       ]
     },
@@ -223,8 +223,8 @@
         "name": "Hypaspist Transport",
         "options": [
           {
-            "description": "Add one Gorgon, five Chimeras, or five Chimedons",
-            "points": ["Gorgon: 100 points", "Chimeras: 125 points", "Chimedons: 175 points"]
+            "description": "Add one Gorgon, five Chimeras, or five Chimedons. May not be combined with a Minoris with Corvus Assault Pod.",
+            "points": ["Gorgon: 100 points", "Chimeras: 125 points", "Chimedons: 125 points"]
           }
         ]
       },

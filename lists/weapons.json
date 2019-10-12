@@ -2655,10 +2655,21 @@
       ]
     },
     {
+      "name": "Chimedon Cannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Conqueror Cannon",
         "modes": [
           {
-            "firepower": "AT5+/AT5+",
+            "firepower": "AP5+/AT5+",
             "range": 60,
             "specialRules": [
           ]
@@ -4597,7 +4608,7 @@
       "name": "Hellfire Missile",
         "modes": [
           {
-            "firepower": "3BP",
+            "firepower": "2BP",
             "range": 120,
             "specialRules": [
                 "MW",

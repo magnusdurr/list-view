@@ -244,7 +244,7 @@
           "speed": 10,
           "armour": 4,
           "cc": 5,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
             "Autocannon",
             "Heavy Bolter",
@@ -364,12 +364,13 @@
           "cc": 6,
           "ff": 5,
           "weapons": [
-            "Conqueror Cannon",
+            "Chimedon Cannon",
             "Heavy Bolter"
           ],
           "specialRules": [
-            "Transport: May transport two infantry units without Jump Packs or Mounted."
-          ]
+            "Transport"
+          ],
+          "notes": "May carry two units of INF without Jump Packs or Mounted."
       },
       {
         "name": "Leman Russ",
@@ -427,7 +428,7 @@
             "Void Shields 2",
             "Reinforced Armour",
             "Fearless",
-            "[*]Corvus Assault Pod: May transport eleven infantry units. Praetorians counts as two units each",
+            "[*]Corvus Assault Pod: Increases Speed to 25cm. May transport eleven infantry units. Praetorians counts as two units each",
             "[**]Ordinatus Landing Pad: Gives all BP-type weapons in the formation 'Indirect Fire'. Allows the purchase of a Lysander Fighter"
         ],
           "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon.",
