@@ -1,7 +1,7 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Collegia Titanica",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "release": "2019-04-19",
   "strategy": "Collegia Titanica armies have a Strategy Rating of 3.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -134,15 +134,15 @@
           "name": "Skitarii Maniple",
           "units": "One Magos, nine Hypaspist",
           "upgrades": [
-              "Gorgon"
+              "Add one Gorgon: 100 points"
           ],
           "points": 225
         },
         {
           "name": "Kastelan Maniple",
-          "units": "Six Kastelan Robots, one Tech-Priest",
+          "units": "Four Kastelan Robots, one Tech-Priest",
           "upgrades": [
-              "Kastelans"
+              "Add up to three Kastelan Robots: 25 points each"
           ],
           "points": 150
         },
@@ -212,23 +212,9 @@
             "points": "50 points"
           }
         ]
-    },
-      {
-        "name": "Gorgon",
-        "options": [
-          {
-            "description": "Add one Gorgon",
-            "points": "75 points"
-          }
+    }
         ]
-    },
-        {
-          "name": "Kastelans",
-          "options": [
-            {
-              "description": "Add up to two Kastelan Robots",
-              "points": "25 points each"
-            }
+    }
           ]
         }
     ]

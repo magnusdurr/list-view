@@ -47,7 +47,7 @@
         "Heavy AA Gun",
         "Howitzer",
         "Rough Riders",
-        "PDF Land Transporter"
+        "Land Transporter"
     ],
         "unitRules": [
       ]
@@ -127,14 +127,14 @@
           "points": 175
       },
       {
-        "name": "Flak Battery",
+        "name": "Flak Emplacement",
         "units": "Three Heavy AA Guns, three Gun Emplacements",
         "upgrades": [
         ],
         "points": 125
     },
       {
-        "name": "Howitzer Battery",
+        "name": "Howitzer Emplacement",
         "units": "Three Howitzers, three Gun Emplacements",
         "upgrades": [
         ],
@@ -149,7 +149,7 @@
     },
     {
             "name": "Motorized PDF Platoon",
-            "units": "Six PDF Conscripts, three PDF Land Transporters",
+            "units": "Six PDF Conscripts, three Land Transporters",
             "upgrades": [
             ],
             "points": 150

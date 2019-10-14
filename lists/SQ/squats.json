@@ -1,8 +1,8 @@
  {
   "fraction": "EAR Squats",
   "army": "Wotan Stronghold",
-  "version": "0.7.2",
-  "release": "2019-09-27",
+  "version": "0.7.3",
+  "release": "2019-10-15",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -129,14 +129,17 @@
           "name": "Gyrokopter Squadron",
           "units": "Four Steel Hawk Gyrokopters",
           "extraUnits": [
-              "Add four Vultarax Robots: 75 points"
+              "Add four Vultarax Robots: 100 points"
           ],
           "points": 200
         },
         {
           "name": "Kastelan Maniple",
-          "units": "One Squat Tech-Priest, five Kastelan Robots",
-          "points": 175
+          "units": "One Squat Tech-Priest, four Kastelan Robots",
+          "extraUnits": [
+              "Add up to three Kastelan Robots: 25 points each"
+          ],
+          "points": 150
         }
       ]
     },

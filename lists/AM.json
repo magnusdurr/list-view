@@ -17,11 +17,11 @@
     ],
     "unit": [
       {
-          "name": "Arch-Magos",
+          "name": "Magos Dominus",
           "type": "INF",
           "speed": 15,
           "armour": 3,
-          "cc": 3,
+          "cc": 4,
           "ff": 4,
           "weapons": [
             "Solar Atomiser",
@@ -30,6 +30,7 @@
           "specialRules": [
             "Supreme Commander",
             "Inspiring",
+            "Fearless",
             "Invulnerable Save"
           ]
       },
@@ -41,7 +42,7 @@
           "cc": 4,
           "ff": 4,
           "weapons": [
-            "Eradication Ray",
+            "Solar Atomiser",
             "Omnissian Axe"
           ],
           "specialRules": [
@@ -55,13 +56,12 @@
           "type": "INF",
           "speed": 15,
           "armour": 4,
-          "cc": 4,
-          "ff": 4,
+          "cc": 5,
+          "ff": 5,
           "weapons": [
             "Omnissian Axe"
           ],
           "specialRules": [
-            "Leader",
             "Invulnerable Save"
           ]
       },
@@ -186,7 +186,7 @@
           ]
       },
       {
-          "name": "Praetorians",
+          "name": "Praetorian Combat Servitor",
           "type": "INF",
           "speed": 15,
           "armour": 3,
@@ -208,8 +208,8 @@
           "type": "INF",
           "speed": 15,
           "armour": 5,
-          "cc": 6,
-          "ff": 6,
+          "cc": 5,
+          "ff": 5,
           "weapons": [
             "Las-Locks"
           ],
@@ -239,7 +239,7 @@
           ]
       },
       {
-          "name": "Conqueror Robot",
+          "name": "Castellax Battle-Automata",
           "type": "LV",
           "speed": 10,
           "armour": 3,
@@ -262,8 +262,8 @@
           "type": "LV",
           "speed": 25,
           "armour": 5,
-          "cc": 5,
-          "ff": 5,
+          "cc": 6,
+          "ff": 6,
           "weapons": [
             "Missile Launcher"
           ],
@@ -495,7 +495,7 @@
           "Walker",
           "Transport"
         ],
-        "notes": "May carry 10 infantry units without Jump Pack or Mounted. Praetorians counts as two units each.",
+        "notes": "May carry 10 infantry units without Jump Pack or Mounted. Praetorian Combat Servitor counts as two units each.",
         "crit": "The Gorgon is Immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon.."
     },
     {

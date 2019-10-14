@@ -1,8 +1,8 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Skitarii",
-  "version": "0.8.0",
-  "release": "2019-10-04",
+  "version": "0.8.1",
+  "release": "2019-10-14",
   "strategy": "The Skitarii have a Strategy Rating of 3.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have a Initiative of 2+",
 
@@ -18,17 +18,16 @@
     {
       "from": "AM.json",
       "units": [
-        "Arch-Magos",
+        "Magos Dominus",
         "Magos",
         "Tech-Priest",
 
         "Hypaspists",
         "Sagitarii",
 
-        "Adsecularis",
-        "Praetorians",
+        "Praetorian Combat Servitor",
         "Kastelan Robot",
-        "Conqueror Robot",
+        "Castellax Battle-Automata",
 
         "Rapier",
 
@@ -62,8 +61,7 @@
     "units": [
       "Warhound ",
       "Reaver Titan",
-      "Warlord Titan",
-      "Lysander Fighter"
+      "Warlord Titan"
     ],
       "unitRules": [
           "Void Shields",
@@ -82,7 +80,7 @@
           "extraUnits": [
             "Replace three units of Hypaspists with three Rapiers: Free",
             "Minoris",
-            "Arch-Magos",
+            "Supreme Commander",
             "Hypaspist Transport",
             "Hydra"
           ],
@@ -106,29 +104,26 @@
         },
         {
           "name": "Kastelan Maniple",
-          "units": "Five Kastelan Robots, one Tech-Priest",
+          "units": "One Tech-Priest, four Kastelan Robots",
           "extraUnits": [
-            "Servitors"
+            "Add up to three Kastelan Robots for 25 points each"
           ],
           "points": 150
         },
         {
-          "name": "Praetorian Maniple",
-          "units": "Five Praetorians, one Tech-Priest",
+          "name": "Castellax Maniple",
+          "units": "One Tech-Priest, five Castellax Battle-Automata",
           "extraUnits": [
-            "Servitors"
           ],
           "points": 200
         },
         {
-          "name": "Conqueror Maniple",
-          "units": "Five Conqueror Robots, one Tech-Priest",
+          "name": "Praetorian Maniple",
+          "units": "One Tech-Priest, five Praetorian Combat Servitors",
           "extraUnits": [
-            "Servitors"
           ],
-          "points": 200
+          "points": 225
         },
-
         {
           "name": "Cataphractii",
           "units": "Six Leman Russ Tanks",
@@ -207,11 +202,11 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "0-1 Arch-Magos",
+        "name": "0-1 Supreme Commander",
         "options": [
           {
-            "description": "Replace the Tech-Priest with an Arch-Magos",
-            "points": "50 points"
+            "description": "Replace the Magos with an Magos Dominus",
+            "points": "100 points"
           }
         ]
       },
@@ -274,7 +269,7 @@
     "options": [
       {
         "description": "Replace the Ordinatus Armageddon with an Ordinatus Golgotha (Hellfire Missiles)",
-        "points": "25 points"
+        "points": "50 points"
       }
     ]
     },
