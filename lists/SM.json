@@ -239,7 +239,7 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 5,
-			"cc": 4,
+			"cc": 3,
 			"ff": 5,
 			"weapons": [
 				"Bolt Pistols",
@@ -255,7 +255,7 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 5,
-			"cc": 4,
+			"cc": 3,
 			"ff": 5,
 			"weapons": [
 			"Bolt Pistols",
@@ -375,7 +375,7 @@
 				"Heavy Bolter"
 			],
 			"specialRules": [
-				"Infiltrator",
+				"Infiltrators",
 				"Scout"
 			]
 		},
@@ -385,13 +385,13 @@
 			"speed": 15,
 			"armour": 4,
 			"cc": 3,
-			"ff": 4,
+			"ff": 5,
 			"weapons": [
-				"Bolters",
+				"Bolt Pistols",
 				"Chainswords"
 				],
 			"specialRules": [
-				"Infiltrator",
+				"Infiltrators",
 				"Scout"
 			]
 		},
@@ -536,7 +536,8 @@
 				"Reinforced Armour",
 				"Thick Rear Armour",
 				"Invulnerable Save"
-			]
+			],
+			"notes": "May use Drop Pods."
 		},
 		{
 			"name": "Deathwatch Terminators",
