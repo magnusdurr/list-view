@@ -29,18 +29,32 @@
 			]
 		}
 	],
-	"unit": [{
-			"name": "Captain",
-			"type": "CH",
-			"weapons": [
-				"Power Weapon"
-			],
-			"specialRules": [
-				"Commander",
-				"Invulnerable Save",
-				"Leader"
-			]
-		},
+	"unit": [
+		{
+				"name": "Captain",
+				"type": "CH",
+				"weapons": [
+					"Power Weapon"
+				],
+				"specialRules": [
+					"Commander",
+					"Invulnerable Save",
+					"Leader"
+				]
+			},
+			{
+					"name": "Wolf Lord Captain",
+					"type": "CH",
+					"weapons": [
+						"Power Weapon"
+					],
+					"specialRules": [
+						"Commander",
+						"Alpha Wolf",
+						"Invulnerable Save",
+						"Leader"
+					]
+				},
 		{
 			"name": "Dark Angels Captain",
 			"type": "CH",
@@ -165,8 +179,20 @@
 				"Power Weapon"
 			],
 			"specialRules": [
-				"Invulnerable Save",
-				"Supreme Commander"
+				"Supreme Commander",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Great Wolf Supreme Commander",
+			"type": "CH",
+			"weapons": [
+				"Power Weapon"
+			],
+			"specialRules": [
+				"Supreme Commander",
+				"Alpha Wolf",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -209,10 +235,55 @@
 			]
 		},
 		{
+			"name": "Blood Claw Assaults",
+			"type": "INF",
+			"speed": 15,
+			"armour": 5,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Bolt Pistols",
+				"Chainswords"
+			],
+			"specialRules": [
+				"Infiltrators"
+			],
+			"notes": "May use Drop Pods."
+		},
+		{
+			"name": "Sky Claw Assaults",
+			"type": "INF",
+			"speed": 15,
+			"armour": 5,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+			"Bolt Pistols",
+			"Chainswords"
+			],
+			"specialRules": [
+				"Jump Packs"
+			]
+		},
+		{
 			"name": "Assault Bikes",
 			"type": "INF",
 			"speed": 35,
 			"armour": 4,
+			"cc": 3,
+			"ff": 4,
+			"weapons": [
+				"Twin Bolters"
+			],
+			"specialRules": [
+				"Mounted"
+			]
+		},
+		{
+			"name": "Swift Claw Assault Bikes",
+			"type": "INF",
+			"speed": 35,
+			"armour": 5,
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
@@ -231,6 +302,18 @@
 			"ff": 3,
 			"weapons": [
 				"Missile Launcher|2"
+			]
+		},
+		{
+			"name": "Long Fang Devastators",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 6,
+			"ff": 3,
+			"weapons": [
+				"Missile Launcher|2",
+				"Lascannon"
 			]
 		},
 		{
@@ -297,6 +380,23 @@
 			]
 		},
 		{
+			"name": "Wolf Scout Veterans",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 3,
+			"ff": 4,
+			"weapons": [
+				"Bolters",
+				"Chainswords"
+				],
+			"specialRules": [
+				"Infiltrator",
+				"Scout"
+			]
+		},
+
+		{
 			"name": "Sternguard Veterans",
 			"type": "INF",
 			"speed": 15,
@@ -321,6 +421,18 @@
 			"ff": 4,
 			"weapons": [
 				"Missile Launcher"
+			]
+		},
+		{
+			"name": "Grey Hunter Tacticals",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 3,
+			"ff": 4,
+			"weapons": [
+				"Bolters",
+				"Chainswords"
 			]
 		},
 		{
@@ -379,6 +491,23 @@
 			]
 		},
 		{
+			"name": "Wolf Guard Terminators",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 3,
+			"ff": 3,
+			"weapons": [
+				"Assault Cannon|2",
+				"Power Weapons"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour"
+			],
+			"notes": "May use Drop Pods."
+		},
+		{
 			"name": "Assault Terminators",
 			"type": "INF",
 			"speed": 15,
@@ -390,6 +519,21 @@
 			"specialRules": [
 				"Reinforced Armour",
 				"Teleport",
+				"Thick Rear Armour",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Wolf Guard Assault Terminators",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 2,
+			"weapons": [
+				"Thunder Hammers and Storm Shields"
+			],
+			"specialRules": [
+				"Reinforced Armour",
 				"Thick Rear Armour",
 				"Invulnerable Save"
 			]
@@ -913,6 +1057,35 @@
 			]
 		},
 		{
+			"name": "Blizzard Dreadnought",
+			"type": "AV",
+			"speed": 15,
+			"armour": 3,
+			"cc": 4,
+			"weapons": [
+				"Fenrisian Axe and Blizzard Shield"
+			],
+			"specialRules": [
+				"Invulnerable Save",
+				"Walker"
+			]
+		},
+		{
+			"name": "Helfrost Dreadnought",
+			"type": "AV",
+			"speed": 15,
+			"armour": 3,
+			"cc": 4,
+			"ff": 3,
+			"weapons": [
+				"Helfrost Cannon",
+				"Power Fist"
+			],
+			"specialRules": [
+				"Walker"
+			]
+		},
+		{
 			"name": "Deathwatch Dreadnought",
 			"type": "AV",
 			"speed": 15,
@@ -1055,7 +1228,7 @@
 				"Fearless",
 				"Inspiring",
 				"Invulnerable Save",
-				"Reinfirced Armour",
+				"Reinforced Armour",
 				"Walker"
 			],
 			"notes": "Counts as a Dreadnought for the purposes of being transported"
@@ -1293,6 +1466,27 @@
 				"Transport"
 			],
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may ignore the 5cm restriction when using commander. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Land Raider Wrath of Mjalnar",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"Twin Lascannons|2|",
+				"Twin Helfrost Cannons"
+			],
+			"specialRules": [
+				"Commander",
+				"Alpha Wolf",
+				"Leader",
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
 			"name": "Predator Annihilator",
@@ -1602,7 +1796,7 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"AC Twin Heavy Bolters||FxF",
+				"AC Twin Heavy Bolters||",
 				"AC Twin Lascannons|2|FxF",
 				"Vengeance Launcher"
 			],
@@ -1613,7 +1807,44 @@
 				"Transport"
 			],
 			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each.",
-			"crit": "The unit and all units being carried are destroyed."
+			"crit": "The Storm Eagle and all units being carried are destroyed."
+		},
+		{
+			"name": "Stormwolf Assault Boat",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 5,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"AC Twin Lascannons||FxF",
+				"AC Twin Heavy Bolters||",
+				"Twin Helfrost Cannons||"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Reinforced Armour",
+				"Planetfall",
+				"Transport"
+			],
+			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each.",
+			"crit": "The Stormwolf and all units being carried are destroyed."
+		},
+		{
+			"name": "Stormfang Gunship",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 5,
+			"weapons": [
+				"AC Helfrost Destructor||FxF",
+				"AC Twin Lascannons||FxF",
+				"AC Twin Heavy Bolters||"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Reinforced Armour"
+			],
+			"crit": "The Stormfang is destroyed."
 		},
 		{
 			"name": "Storm Talon Gunship",
@@ -1786,7 +2017,7 @@
 				"Slow to Arrive (May only arrive from turn 2 onwards)",
 				"Transport"
 			],
-			"notes": "May transport forty infantry units, Attack Bikes, or Dreadnoughts; plus thirty armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport forty infantry units, Attack Bikes, or Dreadnoughts; plus thirty armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Hunter Class Destroyer",
@@ -1814,7 +2045,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Drop Pod",
@@ -1829,7 +2060,7 @@
 				"Planetfall",
 				"Transport"
 			],
-			"notes": "May transport one formation of only the following units: Devastator, Dreadnought, Sternguard Veteran, Tactical, Vanguard Veteran, Grey Knight Strike Squad, Purgation Squad. After the drop pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
+			"notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Vanguard Veterans, Blood Claw Assaults, Wolf Guard Terminators, Grey Knight Strike Squad, Purgation Squad. After the drop pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
 		}
 	]
 }]

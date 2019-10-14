@@ -236,6 +236,33 @@
           ]
       },
       {
+            "name": "Questoris Knight-Freeblade",
+            "type": "H-AV",
+            "speed": 25,
+            "armour": 5,
+            "cc": 3,
+            "ff": 4,
+            "weapons": [
+            "Heavy Stubber",
+            "Thunderstrike Gauntlet",
+              ">Chrimson Glaive<",
+              "Conflagration Cannon",
+              ">Iron Wolf<",
+              "Helfrost Destructor",
+              ">Sir Ranulf<",
+              "Castigator Cannon",
+              ">The Obsidian Knight<",
+              "Las Impulsor"
+
+            ],
+            "specialRules": [
+              "Fearless",
+              "Reinforced Armour",
+              "Walker",
+              "Ion Shield (4+)"
+            ]
+        },
+      {
           "name": "Cerastus Knight-Lancer",
           "type": "H-AV",
           "speed": 30,
@@ -424,6 +451,7 @@
             ],
                 "crit": "The Acastus Knight takes 1 additional damage."
             },
+
             {
                 "name": "Knight-Baron",
                 "type": "H-AV",

@@ -100,6 +100,34 @@
         ]
       },
       {
+        "name": ">Chrimson Glaive<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Iron Wolf<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Sir Ranulf<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">The Obsidian Knight<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
         "name": ">Ordinatus Armageddon<",
           "modes": [
             {
@@ -2443,8 +2471,12 @@
       "name": "Conflagration Cannon",
         "modes": [
           {
-            "firepower": "3x AP3+",
-            "range": 30,
+            "firepower": "2x AP2+",
+            "range": 30
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
             "specialRules": [
               "IC"
           ]
@@ -3513,6 +3545,17 @@
       ]
     },
     {
+      "name": "Fenrisian Axe and Blizzard Shield",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+3)"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Firepike",
       "modes": [
         {
@@ -3610,12 +3653,16 @@
     },
     {
       "name": "Flame Cannon",
-      "modes": [
-        {
-          "firepower": "2x AP3+",
-          "range": 30,
-          "specialRules": [
-            "IC"
+        "modes": [
+          {
+            "firepower": "AP2+",
+            "range": 30
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
           ]
         }
       ]
@@ -4617,6 +4664,63 @@
       ]
     },
     {
+      "name": "Helfrost Destructor",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 30,
+            "specialRules": [
+                "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Helfrost Destructor",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Helfrost Destructor",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 15,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Helfrost Cannon",
+        "modes": [
+            {
+              "firepower": "Small Arms",
+              "specialRules": [
+                  "MW"
+            ]
+            }
+      ]
+    },
+    {
+      "name": "Twin Helfrost Cannons",
+        "modes": [
+            {
+              "firepower": "Small Arms",
+              "specialRules": [
+                  "EA(+1)",
+                  "MW"
+            ]
+            }
+      ]
+    },
+    {
       "name": "Hellfury Cannon",
         "modes": [
           {
@@ -5413,7 +5517,7 @@
       "name": "Las Impulsor",
       "modes": [
         {
-          "firepower": "2x AT3+",
+          "firepower": "AT2+",
           "range": 45,
           "specialRules": [
             "Lance"
@@ -9313,7 +9417,7 @@
       ]
     },
     {
-      "name": "Twin Boltpistols",
+      "name": "Twin Bolt Pistols",
         "modes": [
           {
             "firepower": "Small Arms",

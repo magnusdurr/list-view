@@ -1,11 +1,11 @@
 {
   "fraction": "Space Marines",
   "army": "Space Wolves",
-  "version": "0.1.0",
-  "release": "",
+  "version": "0.6.0",
+  "release": "2019-10-14",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "specialRules": ["Space Marine Transports"],
+  "specialRules": ["Space Marine Transports", "Alpha Wolf"],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Space Wolves Chapter."
   ],
@@ -13,196 +13,182 @@
     {
       "from": "SM.json",
       "units": [
-        "Wolf Lord","Wolf Priest","Great Wolf",
-        "Blood Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Long Fang Devastators", "Fenrisian Wolves", "Swiftclaw Assault Bikes", "Wolf Scout Bikes",
-        "Dreadnought", "Leman Russ Exterminator", "Hunter", "Land Raider","Land Raider Wrath of Mjalnar","Iron Wolf Knight","Rhino","Whirlwind","Vindicator",
-        "Wulfen", "Wulfen Dreadnought"
-        "Landing Craft","Storm Talon Gunship","Stormwolf Assault Boat",
+        "Wolf Lord Captain","Chaplain","Great Wolf Supreme Commander", "Librarian",
+        "Blood Claw Assaults", "Sky Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Wolf Guard Assault Terminators", "Long Fang Devastators", "Swift Claw Assault Bikes", "Wolf Scout Veterans", "Land Speeder",
+        "Blizzard Dreadnought", "Helfrost Dreadnought", "Leman Russ Exterminator", "Stalker", "Hunter", "Land Raider","Land Raider Wrath of Mjalnar","Rhino","Whirlwind","Vindicator", "Questoris Knight-Freeblade",
+        "Landing Craft","Storm Talon Gunship","Stormwolf Assault Boat", "Stormfang Gunship",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
-      "unitRules": ["They Shall Know No Fear"
-
+      "unitRules": ["They Shall Know No Fear"]
+  },
+  {
+    "from": "QK.json",
+    "units": [
+      "Questoris Knight-Freeblade"
+    ],
+      "unitRules": [
+          "Ion Shield (X)", "Lance"
     ]
-    }
+  }
   ],
   "sections": [
     {
-      "name": "Space Wolves Core Detachments",
+      "name": "Space Wolves Core Packs",
       "formations": [
-        {
-          "name": "Assaults",
-          "units": "Four Assaults",
-          "upgrades": [
-            "Commander",
-            "Vindicators"
-          ],
-          "points": 175
+          {
+            "name": "Grey Hunter Tactical Pack",
+            "units": "One Wolf Lord Captain, six Grey Hunter Tacticals plus transport",
+            "extraUnits": [
+              "Replace three Grey Hunter Tacticals with Long Fang Devastators: 50 points",
+              "Add three Leman Russ Exterminators: 150 points",
+              "Supreme Commander",
+              "Runekeeper",
+              "Land Raiders",
+              "Razorbacks",
+              "Anti-Air",
+              "Dreadnoughts"
+            ],
+            "points": 300
         },
-        {
-          "name": "Bikes",
-          "units": "Five Assault Bikes",
-          "upgrades": [
-            "Attack Bikes",
-            "Commander"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Tacticals",
-          "units": "Six Tacticals plus transport",
-          "upgrades": [
-            "Land Raiders",
-            "AAA",
-            "Commander",
-            "Razorback",
-            "Dreadnoughts",
-            "Vindicators"
-          ],
-          "points": 275
-      },
-      {
-        "name": "Devastators",
-        "units": "Four Devastators plus transport",
-        "upgrades": [
-          "Land Raiders",
-          "AAA",
-          "Commander",
-          "Razorback",
-          "Dreadnoughts",
-          "Vindicators"
-        ],
-        "points": 250
-    },
-      {
-        "name": "Land Raiders",
-        "units": "Three Land Raiders",
-        "upgrades": [
-          "AAA",
-          "Commander"
-        ],
-        "points": 250
-      },
-      {
-        "name": "Predators",
-        "units": "Four Predator Annihilator or four Predator Destructor",
-        "upgrades": [
-          "AAA",
-          "Commander"
-        ],
-        "points": 250
-      }
-      ]
-    },
-    {
-      "name": "Codex Astartes Support Detachments",
-      "description": "Three Support Detachments may be taken per Core Detachment",
-      "formations": [
-        {
-          "name": "Land Speeder",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
-            "Commander",
-            "Typhoons"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Vindicators",
-          "units": "Four Vindicators",
-          "upgrades": [
-            "Commander",
-            "AAA",
-            "Vindicators"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Scouts",
-          "units": "Four Scouts plus transport",
-          "upgrades": [
-            "Commander",
-            "Razorbacks",
-            "Snipers"
+            {
+          "name": "Blood Claw Assault Pack",
+          "units": "Four Blood Claw Assaults plus transport",
+          "extraUnits": [
+            "Runekeeper",
+            "Razorbacks"
           ],
           "points": 150
         },
         {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "upgrades": [
-            "Battle Barge"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Terminators",
-          "units": "Four Terminators",
-          "upgrades": [
-            "Commander",
-            "AAA",
-            "Land Raiders"
-          ],
-          "points": 350
-        },
-        {
-          "name": "Whirlwinds",
-          "units": "Four Whirlwinds",
-          "upgrades": [
-            "Commander",
-            "AAA"
-          ],
-          "points": 275
-      },
-      {
-        "name": "Landing Craft",
-        "units": "One Landing Craft",
-        "points": 350
-      }
+      "name": "Skyclaw Assault Pack",
+      "units": "Four Skyclaw Assaults",
+      "extraUnits": [
+          "Runekeeper"
+      ],
+      "points": 150
+        }
+
       ]
     },
     {
-      "name": "Codex Astartes Aircraft & Titan Legion Allies",
+      "name": "Space Wolf Support Packs",
+      "description": "Two Support Packs may be taken per Core Pack",
+      "formations": [
+          {
+            "name": "Wolf Guard Terminator Pack",
+            "units": "One Wolf Lord Captain, four Wolf Guard Terminators plus transport",
+            "extraUnits": [
+              "Replace any number of Wolf Guard Terminators with Wolf Guard Assault Terminators: Free",
+              "Supreme Commander",
+              "Runekeeper",
+              "Land Raiders",
+              "Dreadnoughts"
+            ],
+            "points": 325
+          },
+          {
+            "name": "Swift Claw Recon Pack",
+            "units": "Three Swift Claw Assault Bikes, three Land Speeders",
+            "extraUnits": [
+                "Runekeeper"
+            ],
+            "points": 225
+        },
+          {
+            "name": "Wolf Scout Recon Pack",
+            "units": "Four Wolf Scout Veterans plus transport",
+            "extraUnits": [
+              "Runekeeper",
+              "Razorbacks"
+            ],
+            "points": 150
+          },
+          {
+            "name": "Land Raider Pack",
+            "units": "Three Land Raiders",
+            "extraUnits": [
+              "Add one Land Raider Wrath of Mjalnar to the formation: 125 points",
+              "Anti-Air"
+            ],
+            "points": 250
+          },
+          {
+            "name": "Predator Pack",
+            "units": "Four Predator Annihilators and/or Predator Destructors",
+            "extraUnits": [
+              "Anti-Air"
+            ],
+            "points": 250
+        },
+        {
+          "name": "Vindicator Pack",
+          "units": "Four Vindicators",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Whirlwind Pack",
+          "units": "Four Whirlwinds",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 275
+      },
+
+          {
+        "name": "Landing Craft",
+        "units": "One Landing Craft",
+        "points": 350
+    },
+    {
+      "name": "0-1 Orbital Support",
+      "units": "One Strike Cruiser",
+      "extraUnits": [
+        "Battle Barge"
+      ],
+      "points": 200
+    }
+      ]
+    },
+    {
+      "name": "Space Wolf Aircraft and Freeblade Knights",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Storm Talon Squadron",
+          "name": "Storm Talon Pack",
           "units": "Two Storm Talons",
           "points": 200
         },
         {
-          "name": "Thunderhawk",
-          "units": "One Thunderhawk Gunship",
-          "points": 200
+          "name": "Stormwolf Assault Boat",
+          "units": "One Stormwolf Assault Boat",
+          "extraUnits": [
+          ],
+          "points": 175
         },
         {
-          "name": "Warhound Pack",
-          "units": "Two Warhounds",
-          "upgrades": [
-          ],
-          "points": 500
-      },
-      {
-        "name": "Reaver",
-        "units": "One Reaver Titan",
-        "upgrades": [
-        ],
-        "points": 600
-    }
+          "name": "Stormfang Gunship",
+          "units": "One Stormfang Gunship",
+          "points": 150
+        },
+        {
+          "name": "0-1 Freeblade Knight",
+          "units": "One Questoris Knight-Freeblade of any configuration",
+          "points": 175
+      }
+
       ]
     }
   ],
   "upgrades": {
-    "title": "Codex Astartes Upgrades",
+    "title": "Space Wolf Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
-        "name": "Attack Bikes",
-        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
-        "points": "Free"
-      },
-      {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts or Hellfire Dreadnoughts",
+        "description": "Add up to two Blizzard or Helfrost Dreadnoughts",
         "points": ["50 points each", "75 points per pair"]
       },
       {
@@ -211,21 +197,17 @@
         "points": "75 points"
       },
       {
-        "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation",
-        "options": [
-          {
-            "description": "Captain, Chaplain, Librarian",
-            "points": "50 points"
-          },
-          {
-            "description": "0–1 Supreme Commander",
-            "points": "100 points"
-          }
-        ]
+        "name": "0-1 Supreme Commander",
+        "description": "Replace the Wolf Lord Captain with a Great Wolf Supreme Commander",
+        "points": "50 points"
       },
       {
-        "name": "AAA",
+        "name": "Runekeeper",
+        "description": "Add one Chaplain or Librarian to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Anti-Air",
         "description": "Add any one of the following units to the formation",
         "options": [
           {
@@ -247,21 +229,6 @@
         "name": "Razorbacks",
         "description": "Add any number of Razorbacks, up to the number required to transport the formation",
         "points": "25 points each"
-      },
-      {
-        "name": "Snipers",
-        "description": "Give up to four Scouts Sniper",
-        "points": "10 points each"
-      },
-      {
-        "name": "Typhoons",
-        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
-        "points": "10 points each"
-      },
-      {
-        "name": "Vindicators",
-        "description": "Add up to two Vindicators",
-        "points": ["50 points each", "75 points per pair"]
       }
     ]
   }
