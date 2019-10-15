@@ -1,10 +1,10 @@
 {
   "fraction": "Tyranids",
   "army": "Cult of the Four-Armed Emperor",
-  "version": "0.6.0",
-  "release": "2019-10-10",
+  "version": "0.6.1",
+  "release": "2019-10-15",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
-  "Initiative": "The Nexus Brood, Coven Vanguard and Coven Ambush formations have an Initiative Rating of 1+. All other formations have an Initative Rating of 2+.",
+  "Initiative": "The Nexus Brood, Coven Vanguard, Coven Ambush and Coven Air Support formations have an Initiative Rating of 1+. All other formations have an Initative Rating of 2+.",
 
   "specialRules": ["Nexus Brood","Brood Brothers","Ambush","Extreme Mobility (Genestealer Cult)"],
   "usage": [
@@ -33,7 +33,6 @@
         "Cult Hellhound",
         "Cult Griffon",
         "Cult Chimera",
-        "Cult Land Transporter",
         "Cult Hydra",
         "Cult Leman Russ",
         "Cult Leman Russ Demolisher",
@@ -77,13 +76,11 @@
         "extraUnits": [
           "Add four Cult Infantry: 50 points",
           "Add two Cult Fire Support: 50 points",
-          "Add up to three Cult Leman Russ and/or Leman Russ Demolishers: 50 points each",
-          "Add up to two Cult Hellhounds: 25 points each",
-          "Add one Cult Griffon: 35 points",
-          "Cult Transport",
-          "Cult Flak"
+          "Add three Cult Leman Russ or Cult Leman Russ Demolishers: 125 points",
+          "Add enough Chimeras to transport the entire formation with no space left over: 25 points each",
+          "Add one Cult Hydra: 50 points"
         ],
-        "points": 275
+        "points": 250
     }
       ]
     },
@@ -153,7 +150,7 @@
       "formations": [
         {
           "name": "Cult Super Heavy Platoon",
-          "units": "One Cult Baneblade or Cult Stormblade",
+          "units": "One Coven Locus character, one Cult Baneblade or Cult Stormblade",
           "extraUnits": [
               "Replace the Cult Baneblade or Cult Stormblade with a Cult Shadowsword: 25 points"
           ],
@@ -161,11 +158,10 @@
         },
         {
           "name": "Cult Leman Russ Platoon",
-          "units": "One Coven Locus character, six Cult Leman Russ and/or Leman Russ Demolishers",
+          "units": "One Coven Locus character, six Cult Leman Russ or Cult Leman Russ Demolishers",
           "extraUnits": [
-            "Cult Flak"
           ],
-          "points": 400
+          "points": 375
         },
         {
           "name": "Cult Basilisk Battery",
@@ -175,24 +171,31 @@
           "points": 250
       },
       {
-        "name": "Cult Mechanized Squadron",
-        "units": "One Coven Locus character, four Cult Infantry, two Cult Chimeras",
+        "name": "Cult Mechanized Platoon",
+        "units": "One Coven Locus character, six Cult Infantry, three Cult Chimeras",
         "extraUnits": [
             "Add up to two Cult Hellhounds: 25 points each",
-            "Add one Cult Griffon: 35 points"
+          "Add three Cult Griffons: 50 points"
         ],
-        "points": 225
-    }
+        "points": 250
+    },
+    {
+      "name": "Cult Flak Battery",
+      "units": "One Coven Locus character, three Cult Hydras",
+      "extraUnits": [
+      ],
+      "points": 175
+  }
     ]
   },
       {
-        "name": "Cult Air Support",
-        "description": "Up to a fifth of the points available may be spent on these formations.",
+        "name": "Coven Air Support",
+        "description": "Up to a fourth of the points available may be spent on these formations.",
         "formations": [
             {
-              "name": "Cult Thunderbolt Squadron",
+              "name": "Thunderbolt Brood",
               "units": "Two Thunderbolt Fighters",
-              "points": 150
+              "points": 175
             }
         ]
       }
@@ -215,26 +218,7 @@
         "name": "Coven Flak",
         "description": "Add up to two Coven Technicals",
         "points": "20 points each"
-    },
-      {
-        "name": "Cult Transport",
-        "description": "Add enough transports to transport the entire formation with no space left over.",
-        "options": [
-          {
-            "description": "Cult Chimera",
-            "points": "25 points each"
-        },
-        {
-          "description": "Cult Land Transporter",
-          "points": "10 points each"
-        }
-        ]
-      },
-      {
-        "name": "Cult Flak",
-        "description": "Add one Cult Hydra",
-        "points": "50 points"
-      }
+    }
     ]
   }
 }

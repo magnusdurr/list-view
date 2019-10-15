@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.9.2",
-  "release": "2019-10-11",
+  "version": "0.9.3",
+  "release": "2019-10-15",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -334,16 +334,16 @@
         "name": "Leman Russ",
         "options": [
           {
-            "description": "Add up to three Leman Russ or Leman Russ Demolishers",
+            "description": "Add up to three Leman Russ and/or Leman Russ Demolishers",
             "points": "50 points each"
           }
         ]
       },
       {
-        "name": "Lost and the Damned",
+        "name": "Mutants",
         "options": [
           {
-            "description": "Add up to six Mutants / Cultists",
+            "description": "Add up to four Mutants",
             "points": "10 points each"
           }
         ]

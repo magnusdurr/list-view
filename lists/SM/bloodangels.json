@@ -33,6 +33,7 @@
   "sections": [
     {
       "name": "Blood Angels Core Detachments",
+      "description": "One Death Company formation must be taken.",
       "formations": [
           {
             "name": "1 Death Company",
@@ -57,7 +58,7 @@
           "units": "Six Tacticals plus transport",
           "extraUnits": [
             "Land Raider Transport",
-            "AAA",
+            "Anti-Air",
             "Commander",
             "Predators",
             "Dreadnoughts"
@@ -78,7 +79,7 @@
     },
     {
       "name": "Blood Angels Support Detachments",
-      "description": "Two Support Detachments may be taken per Core Detachment",
+      "description": "Three Support Detachments may be taken per Core Detachment.",
       "formations": [
 
           {
@@ -87,7 +88,7 @@
             "extraUnits": [
               "Add one Land Raider or Land Raider Redeemer: 75 points",
               "Commander",
-              "AAA"
+              "Anti-Air"
             ],
             "points": 250
         },
@@ -96,7 +97,7 @@
             "units": "Four Baal Predator Hades or four Baal Predator Infernus",
             "extraUnits": [
               "Commander",
-              "AAA"
+              "Anti-Air"
             ],
             "points": 250
         },
@@ -115,7 +116,7 @@
             "units": "Four Devastators plus transport",
             "extraUnits": [
               "Land Raider Transport",
-              "AAA",
+              "Anti-Air",
               "Commander",
               "Predators",
               "Dreadnoughts"
@@ -170,7 +171,7 @@
     },
     {
       "name": "Blood Angels Aircraft & Titan Legion Allies",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
           "name": "Storm Talon Squadron",
@@ -189,8 +190,7 @@
           "name": "Warhound Pack",
           "units": "Two Warhounds (Standard Configuration)",
           "extraUnits": [
-              "Support Configuration: Free",
-              "Tank Hunter Configuration: 50 points"
+              "Replace both Standard Configurations with Support Configurations (Free) or Tank Hunter Configurations (50 points)"
           ],
           "points": 500
       }
@@ -199,7 +199,7 @@
   ],
   "upgrades": {
     "title": "Blood Angels Upgrades",
-    "description": "Each upgrade may be taken once per detachment",
+    "description": "Each upgrade may be taken once per detachment.",
     "items": [
       {
         "name": "Attack Bikes",
@@ -209,7 +209,7 @@
 
       {
         "name": "Predators",
-        "description": "Add up to two Baal Predator Hades or Baal Predator Infernus",
+        "description": "Add up to two Baal Predator Hades and/or Baal Predator Infernus",
         "points": ["50 points each"]
       },
       {
@@ -237,7 +237,7 @@
         ]
       },
       {
-        "name": "AAA",
+        "name": "Anti-Air",
         "description": "Add any one of the following units to the formation",
         "options": [
           {
@@ -252,7 +252,7 @@
       },
       {
         "name": "Land Raider Transport",
-        "description": "Add any number of Land Raiders or Land Raider Redeemers, up to the number required to transport the formation",
+        "description": "Add any number of Land Raiders and/or Land Raider Redeemers, up to the number required to transport the formation",
         "points": "50 points each"
       },
       {

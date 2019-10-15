@@ -102,7 +102,7 @@
           "units": "One Aspiring Sorcerer, six Rubric Marines",
           "extraUnits": [
             "Supreme Commander",
-            "Transport",
+            "Thousand Sons Transport",
             "Predators",
             "Dreadnoughts"
           ],
@@ -121,7 +121,7 @@
             "Replace the Aspiring Sorcerer with a Champion of Tzeench: 25 points",
             "Dreadnoughts",
             "Predators",
-            "Transport"
+            "Thousand Sons Transport"
           ],
           "points": 175
         },
@@ -130,7 +130,7 @@
           "units": "One Aspiring Sorcerer, four Scarab Occult Terminators",
           "extraUnits": [
               "Supreme Commander",
-              "Terminator Transport"
+              "Thousand Sons Transport"
           ],
           "points": 400
       },
@@ -270,7 +270,7 @@
         "name": "Thousand Sons Transport",
         "options": [
           {
-            "description": "Chaos Rhinos",
+            "description": "Chaos Rhinos (Retinue and Initiates only)",
             "points": "10 points each"
           },
           {
@@ -282,11 +282,6 @@
           "points": ""
       }
         ]
-      },
-      {
-        "name": "Terminator Transport",
-        "description": "Add four Thousand Sons Land Raiders",
-        "points": "200 points"
       },
       {
         "name": "Dreadnoughts",

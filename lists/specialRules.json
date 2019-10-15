@@ -309,7 +309,7 @@
       "description": [
         "Units that Teleport within 15cm from a friendly, unbroken unit with Teleport Homer (excluding from teleporting formations) may re-roll 1:s when testing for Teleport Mishap",
         "In addition, formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or coordinate their teleport with the space ship's activation.",
-        "In the latter case, the entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns. Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another."
+        "Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another. The entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns."
         ]
     },
     {
@@ -944,7 +944,8 @@
     {
       "title": "Brood Brothers",
       "description": [
-        "While a formation contains a Coven Locus character or a Hybrid Primus, units with the Brood Brothers special rule (except the unit where the Coven Locus is located) are considered Expendable."
+        "While a formation contains a Coven Locus character or a Hybrid Primus, units with the Brood Brothers special rule (except the unit where the Coven Locus is located) are considered Expendable.",
+        "If the unit with the Coven Locus or Hybrid Primus is killed, the formation reduces its Initiative Rating to 3+."
       ]
     },
     {
