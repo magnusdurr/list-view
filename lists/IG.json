@@ -7,7 +7,13 @@
           "description": [
             "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
           ]
-        }
+      },
+      {
+        "title": "Lance",
+        "description": [
+          "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        ]
+      }
     ],
     "unit": [
     {
@@ -222,7 +228,7 @@
       "name": "Minervan Commander",
       "type": "CH",
       "weapons": [
-          "n/a"
+       "n/a"
       ],
       "specialRules": [
         "Commander"
@@ -1087,33 +1093,6 @@
       ]
     },
     {
-      "name": "Heavy AA Gun",
-      "type": "LV",
-      "speed": 5,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Heavy AA Gun"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Hydra",
-      "type": "AV",
-      "speed": 30,
-      "armour": 6,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Twin Hydra Autocannons|2", "Heavy Bolter"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
       "name": "Heavy Mortar",
       "type": "LV",
       "speed": 10,
@@ -1153,7 +1132,33 @@
       ]
     },
 
+    {
+      "name": "Heavy AA Gun",
+      "type": "LV",
+      "speed": 5,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy AA Gun"
+      ],
+      "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Hydra",
+      "type": "AV",
+      "speed": 30,
+      "armour": 6,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Hydra Autocannons|2", "Heavy Bolter"
+      ],
+      "specialRules": [
+
+      ]
+    },
 
     {
       "name": "Hades Breaching Drill",
@@ -1516,7 +1521,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Ragnarok Battle Cannon",
+        "Twin Ragnarok Battle Cannons",
         "Twin Heavy Stubber|3|FxF"
       ],
       "specialRules": [
@@ -1646,8 +1651,8 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Plasma Blastgun||FxF",
-        "Lascannon|4|FxF",
+        "Stormblade Blastgun||FxF",
+        "Lascannon|2|FxF",
         "Twin Heavy Bolters|2|FxF"
       ],
       "specialRules": [
@@ -1681,8 +1686,8 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Twin Battle Cannons||",
-          "Twin Battle Cannons||FxF",
+          "Twin Ragnarok Battle Cannons||",
+          "Twin Ragnarok Battle Cannons||FxF",
           "Demolisher||FxF",
           "Twin Heavy Bolters|4|FxF",
           "Twin Heavy Flamers|2|"

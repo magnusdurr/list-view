@@ -5444,9 +5444,10 @@
       "modes": [
         {
           "firepower": "AT2+",
-          "range": 60,
+          "range": 100,
           "specialRules": [
-          "Lance"
+          "Lance",
+          "IC"
           ]
         }
       ]
@@ -5455,10 +5456,11 @@
       "name": "Laser Destroyer Array",
       "modes": [
         {
-          "firepower": "AT2+",
+          "firepower": "2x AT4+",
           "range": 60,
           "specialRules": [
-          "Lance"
+          "Lance",
+          "IC"
           ]
         }
       ]
@@ -6522,12 +6524,13 @@
       ]
     },
     {
-      "name": "Stormblade Plasma Blastgun",
+      "name": "Stormblade Blastgun",
       "modes": [
         {
-          "firepower": "2x AP2+/AT2+",
+          "firepower": "3x MW2+",
           "range": 45,
           "specialRules": [
+              "Slw"
           ]
         }
       ]
@@ -7358,7 +7361,7 @@
       ]
     },
     {
-      "name": "Twin Ragnarok Battle Cannon",
+      "name": "Twin Ragnarok Battle Cannons",
         "modes": [
           {
             "firepower": "AP3+/AT3+",

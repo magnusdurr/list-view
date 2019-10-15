@@ -42,8 +42,7 @@
         "Valkyrie",
         "Vulture",
         "Shadowsword",
-        "Baneblade",
-        "Stormblade"
+        "Baneblade"
       ],
         "unitRules": [
 
@@ -106,19 +105,17 @@
           "extraUnits": [
             "Flak",
             "Griffon Battery",
-            "Hellhounds",
-            "Leman Russ Squadron"
+            "Hellhounds"
           ],
-          "points": 575
+          "points": 600
         },
         {
-          "name": "Super Heavy Tank Company",
-          "units": "Three Baneblades, Stormblades and/or Shadowswords, one with a Commissar",
+          "name": "Super-Heavy Company",
+          "units": "Three Baneblades and/or Shadowswords, one with a Commissar",
           "extraUnits": [
               "Ogryns",
               "Flak",
-              "Hellhounds",
-              "Leman Russ Squadron"
+              "Hellhounds"
           ],
           "points": 500
         },
@@ -181,10 +178,10 @@
           "points": 100
         },
         {
-          "name": "Super Heavy Tank Platoon",
-          "units": "One Baneblade or Stormblade",
+          "name": "Super-Heavy Platoon",
+          "units": "One Baneblade",
           "extraUnits": [
-            "Replace one Baneblade or Stormblade with a Shadowsword: 25 points"
+            "Replace one Baneblade with a Shadowsword: 25 points"
           ],
           "points": 175
         },
@@ -219,7 +216,7 @@
             "name": "Warhound Pack",
             "units": "Two Warhounds",
             "extraUnits": [
-              "Warhound Pack gains the 'Independent' special rule (see special rules) for 50 points."
+              "Warhound Pack gains the 'Independent' special rule: 50 points"
             ],
             "points": 500
           },

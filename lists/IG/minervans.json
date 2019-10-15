@@ -6,7 +6,7 @@
   "strategy": "Minervan Tank Legion armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty", "Lance"],
+  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
   "usage": [
     "The following army list allows you to field an army based on the Minervan Tank Legion Regiment"
   ],
@@ -40,9 +40,16 @@
         "Stormhammer"
       ],
         "unitRules": [
+            "Lance"
           ]
     },
-
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+          "Warhound"
+        ],
+      "unitRules": ["Void Shields", "Independent"]
+    },
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -57,7 +64,7 @@
 ],
 "sections": [
     {
-      "name": "Company Formations",
+      "name": "Tank Company Formations",
       "formations": [
         {
           "name": "Minervan Tank Company",
@@ -68,10 +75,10 @@
             "Lord Commissar",
             "Flak"
           ],
-          "points": 575
+          "points": 600
         },
         {
-          "name": "Super Heavy Tank Company",
+          "name": "Super-Heavy Company",
           "units": "Three Baneblades, Stormblades, Stormhammers and/or Shadowswords, one with a Minervan Commander and a Commissar",
           "extraUnits": [
               "Supreme Commander",
@@ -80,31 +87,27 @@
 
           ],
           "points": 500
-      },
-      {
-        "name": "Minervan Medusa Company",
-        "units": "Leman Russ Demolisher with a Minervan Commander and a Commissar, five Medusa.",
-        "extraUnits": [
-          "Add three Griffons: 50 points",
-          "Flak"
-        ],
-        "points": 350
-    },
-      {
-        "name": "Minervan Mechanized Infantry Company",
-        "units": "Leman Russ Conqueror with a Minervan Commander and a Commissar, eight Infantry and four Chimeras",
-        "extraUnits": [
-            "Add up to two Hellhounds: 25 points each",
-            "Flak"
-        ],
-        "points": 350
       }
       ]
     },
     {
       "name": "Support Formations",
-      "description": "Up to two Support Formations for each Company.",
+      "description": "Up to three Support Formations for each Tank Company.",
       "formations": [
+          {
+            "name": "Minervan Siege Battery",
+            "units": "Leman Russ Demolisher, three Medusa.",
+            "extraUnits": [
+            ],
+            "points": 250
+        },
+          {
+            "name": "Minervan Mechanized Platoon",
+            "units": "Leman Russ Conqueror, four Infantry and two Chimeras",
+            "extraUnits": [
+            ],
+            "points": 250
+        },
         {
           "name": "0–1 Deathstrike Battery",
           "units": "Two Deathstrikes",
@@ -142,7 +145,7 @@
           "points": 150
         },
         {
-          "name": "Super Heavy Tank Platoon",
+          "name": "Super-Heavy Platoon",
           "units": "One Baneblade, Stormhammer, or Stormblade",
           "extraUnits": [
             "Replace one Baneblade, Stormhammer or Stormblade with a Shadowsword: 25 points"
@@ -150,11 +153,11 @@
           "points": 175
         },
         {
-          "name": "Minervan Tank Squadron",
-          "units": "Four Leman Russ, Leman Russ Executioners, Leman Russ Punishers, Leman Russ Demolishers, Leman Russ Conquerors",
+          "name": "Minervan Tank Platoon",
+          "units": "Six Leman Russ, Leman Russ Executioners, Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
           "extraUnits": [
               ],
-          "points": 250
+          "points": 350
         },
         {
           "name": "Minervan Tank Hunter Platoon",
@@ -166,9 +169,17 @@
       ]
     },
     {
-      "name": "Imperial Navy Formations",
-      "description": "Up to a fourth of the points available may be spent on Imperial Navy Formations",
+      "name": "Collegia Titanica and Imperial Navy Formations",
+      "description": "Up to a third of the points available may be spent on Collegia Titanica and Imperial Navy Formations",
       "formations": [
+          {
+            "name": "Warhound Pack",
+            "units": "Two Warhounds",
+            "extraUnits": [
+                "Warhound Pack gains the 'Independent' special rule: 50 points"
+            ],
+            "points": 500
+          },
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
@@ -200,7 +211,7 @@
         "options": [
           {
             "description": "Replace one Minervan Commander in the army with a Minervan Supreme Commander",
-            "points": "75 points"
+            "points": "100 points"
           }
         ]
       },
@@ -217,8 +228,8 @@
         "name": "Flak",
         "options": [
           {
-            "description": "Add one Hydra",
-            "points": "50 points"
+            "description": "Add up to two Hydras",
+            "points": ["50 points for one", "75 points for two"]
         }
       ]
     }
