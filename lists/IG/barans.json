@@ -3,7 +3,7 @@
   "army": "Baran Siegemasters",
   "version": "0.6.3",
   "release": "2019-06-27",
-  "strategy": "Siegemaster armies have a Strategy Rating of 1.",
+  "strategy": "Baran Siegemaster armies have a Strategy Rating of 1.",
   "Initiative": "All formations have a Initiative Rating of 2+.",
 
   "specialRules": [
@@ -63,6 +63,7 @@
 "sections": [
     {
       "name": "Core Company Formations",
+      "description": "One Siegemaster Regimental HQ must be taken.",
       "formations": [
         {
           "name": "1 Siegemaster Regimental HQ",
@@ -96,6 +97,21 @@
       "name": "Baran Support Formations",
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
+          {
+            "name": "Heavy Tank Emplacement",
+            "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements",
+            "extraUnits": [
+                "Heavy Tank Company"
+            ],
+            "points": 350
+          },
+          {
+            "name": "Macharius Company",
+            "units": "One Macharius Command with a Commissar, two Macharius",
+            "extraUnits": [
+            ],
+            "points": 325
+          },
         {
           "name": "0–1 Deathstrike Emplacement",
           "units": "One Deathstrike Silo",
@@ -103,6 +119,29 @@
           ],
           "points": 250
         },
+
+        {
+          "name": "Sapper Company",
+          "units": "One Baran Commander with a Commissar, seven Sappers, one Hades Breaching Drill",
+          "extraUnits": [
+          ],
+          "points": 250
+      },
+      {
+        "name": "Siege Artillery Emplacement",
+        "units": "Three Bombards and three Gun Emplacements, or four Medusa and four Gun Emplacements",
+        "extraUnits": [
+        ],
+        "points": 225
+      },
+      {
+        "name": "Super-Heavy Platoon",
+        "units": "One Baneblade or Stormsword",
+        "extraUnits": [
+            "Replace a Baneblade or Stormsword with a Shadowsword: 25 points"
+        ],
+        "points": 175
+      },
         {
           "name": "Howitzer Emplacement",
           "units": "Three Howitzers, three Gun Emplacements",
@@ -112,63 +151,25 @@
           "points": 175
         },
         {
-          "name": "Siege Artillery Emplacement",
-          "units": "Three Bombards and three Gun Emplacements, or four Medusa and four Gun Emplacements",
-          "extraUnits": [
-          ],
-          "points": 225
-        },
-        {
           "name": "Flak Emplacement",
           "units": "Four Heavy AA Guns, four Gun Emplacements",
           "extraUnits": [
           ],
           "points": 175
         },
-        {
-          "name": "Death Rider Platoon",
-          "units": "Six Death Riders",
-          "points": 150
-        },
-        {
-          "name": "Light Tank Squadron",
-          "units": "Four Siegfried Light Tanks",
-          "extraUnits": [
-              "Add three Griffons: 75 points"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Heavy Tank Emplacement",
-          "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements",
-          "extraUnits": [
-              "Heavy Tank Company"
-          ],
-          "points": 350
-        },
-        {
-          "name": "Macharius Company",
-          "units": "One Macharius Command with a Commissar, two Macharius",
-          "extraUnits": [
-          ],
-          "points": 325
-        },
-        {
-          "name": "Super-Heavy Platoon",
-          "units": "One Baneblade or Stormsword",
-          "extraUnits": [
-              "Replace a Baneblade or Stormsword with a Shadowsword: 25 points"
-          ],
-          "points": 175
-        },
-
-        {
-          "name": "Sapper Company",
-          "units": "One Baran Commander with a Commissar, seven Sappers, one Hades Breaching Drill",
-          "extraUnits": [
-          ],
-          "points": 250
-        }
+      {
+        "name": "Death Rider Platoon",
+        "units": "Six Death Riders",
+        "points": 150
+      },
+      {
+        "name": "Trench Recon Squadron",
+        "units": "Four Siegfried Light Tanks",
+        "extraUnits": [
+            "Add three Griffons: 75 points"
+        ],
+        "points": 125
+      }
       ]
     },
     {

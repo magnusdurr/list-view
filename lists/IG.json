@@ -24,8 +24,8 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
-        "Heavy Flamer"
+        "Heavy Flamer",
+        "Power Weapon"
       ],
       "specialRules": [
         "Supreme Commander",
@@ -126,9 +126,9 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
-        "Mortar",
-        "Flamer"
+        "Heavy Bolter",
+        "Flamer",
+        "Power Weapon"
       ],
       "specialRules": [
         "Supreme Commander"
@@ -202,7 +202,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-          "Mortar",
+          "Heavy Bolter",
           "Flamer"
       ],
       "specialRules": [
@@ -339,13 +339,12 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Mortar",
-        "Flamer",
-        "Lasguns"
+        "Heavy Bolter",
+        "Flamer"
       ],
       "specialRules": [
-        "One in every two units (rounding up) has a Mortar"
-      ]
+      ],
+      "notes": "One in every two units (rounding up) has a Heavy Bolter"
     },
     {
       "name": "PDF Conscripts",
@@ -454,11 +453,11 @@
       "type": "INF",
       "speed": 15,
       "armour": 3,
-      "cc": 3,
+      "cc": 4,
       "ff": 5,
       "weapons": [
-        "Ogryn Weapons",
-        "Ripper Guns"
+        "Ripper Guns",
+        "Ogryn Weapons"
       ],
       "specialRules": [
       ],
@@ -546,9 +545,9 @@
       "name": "Death World Veterans",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
-      "cc": 5,
-      "ff": 4,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
       "weapons": [
         "Heavy Flamer",
         "Jungle Knives"
@@ -820,14 +819,15 @@
     {
       "name": "Siegfried Light Tank",
       "type": "AV",
-      "speed": 30,
-      "armour": 5,
+      "speed": 25,
+      "armour": 6,
       "cc": 6,
       "ff": 5,
       "weapons": [
         "Multilaser"
       ],
       "specialRules": [
+        "Walker",
         "Scout"
       ]
     },
@@ -877,7 +877,7 @@
     "notes": "May carry two units of INF without Jump Packs or Mounted."
     },
     {
-      "name": "Deathworld Chimera",
+      "name": "Death World Chimera",
       "type": "AV",
       "speed": 25,
       "armour": 5,
@@ -1010,7 +1010,7 @@
       "name": "Valhallan Griffon",
       "type": "AV",
       "speed": 15,
-      "armour": 5,
+      "armour": 6,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -1597,8 +1597,8 @@
         "Hellhammer Cannon",
         "Autocannon",
         "Demolisher||FxF",
-        "Twin Heavy Flamers|2|",
-        "Twin Heavy Bolters|3|FxF"
+        "Twin Heavy Bolters|3|FxF",
+        "Heavy Flamer|2|"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1612,18 +1612,18 @@
       "speed": 15,
       "armour": 4,
       "cc": 6,
-      "ff": 3,
+      "ff": 4,
       "weapons": [
         "Vulcan Mega-Bolter||FxF",
-        "2x Heavy Flamer",
-        "Twin Heavy Bolters|3|FxF"
+        "Twin Heavy Bolters|3|FxF",
+        "Heavy Flamer|2|"
       ],
       "specialRules": [
         "Damage Capacity 3",
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport nine infantry units without Jump Pack or Mounted, three may fire from the firing deck and participate with FF during assaults.",
+      "notes": "May transport ten infantry units without Jump Pack or Mounted, three may fire from the firing deck and participate with FF during assaults.",
       "crit": "The unit takes one damage and D3 transported units takes a hit. Subsequent hits destroys the unit."
     },
     {
@@ -1653,7 +1653,7 @@
       "weapons": [
         "Stormblade Blastgun||FxF",
         "Lascannon|2|FxF",
-        "Twin Heavy Bolters|2|FxF"
+        "Twin Heavy Bolters|3|FxF"
       ],
       "specialRules": [
         "Damage Capacity 3",
@@ -1689,8 +1689,7 @@
           "Twin Ragnarok Battle Cannons||",
           "Twin Ragnarok Battle Cannons||FxF",
           "Demolisher||FxF",
-          "Twin Heavy Bolters|4|FxF",
-          "Twin Heavy Flamers|2|"
+          "Twin Heavy Bolters|6|FxF"
         ],
         "specialRules": [
           "Damage Capacity 3",

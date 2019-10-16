@@ -2,7 +2,7 @@
   "fraction": "Space Marines",
   "army": "Blood Angels",
   "version": "0.6.5",
-  "release": "2019-07-09",
+  "release": "2019-10-16",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Space Marine Transports", "Death Company", "Bodyguard"],
@@ -14,7 +14,7 @@
       "from": "SM.json",
       "units": [
         "Captain","Chaplain", "Librarian", "Supreme Commander",
-        "Sanguinary Guards", "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
+        "Sanguinary Guards", "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Assaults", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
         "Furioso Dreadnought", "Razorback", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino",
         "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
@@ -39,8 +39,8 @@
             "name": "1 Death Company",
             "units": "One Chaplain, four Death Company Marines plus transport",
             "extraUnits": [
-                "Replace the 'plus transport' option with Jump Packs: Free",
-                "Add one Death Company Dreadnought: 50 points"
+                "Replace four Death Company Marines and 'plus transport' option with four Death Company Assaults: Free",
+                "Replace one Death Company Marine with a Death Company Dreadnought: 50 points"
             ],
             "points": 275
           },

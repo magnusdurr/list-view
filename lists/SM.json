@@ -459,8 +459,8 @@
 		{
 			"name": "Death Company Marines",
 			"type": "INF",
-			"speed": "15cm/30cm",
-			"armour": 4,
+			"speed": "15cm",
+			"armour": 3,
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
@@ -468,10 +468,24 @@
 				"Chainswords"
 			],
 			"specialRules": [
-				"Fearless",
-				"Invulnerable Save"
+				"Fearless"
+			]
+		},
+		{
+			"name": "Death Company Assaults",
+			"type": "INF",
+			"speed": "30cm",
+			"armour": 3,
+			"cc": 3,
+			"ff": 5,
+			"weapons": [
+				"Bolt Pistols",
+				"Chainswords"
 			],
-			"notes": "Jump Packs increase Speed to 30cm"
+			"specialRules": [
+				"Fearless",
+				"Jump Packs"
+			]
 		},
 
 		{
@@ -1662,7 +1676,7 @@
 			"name": "Hunter",
 			"type": "AV",
 			"speed": 30,
-			"armour": 4,
+			"armour": 5,
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
@@ -1677,7 +1691,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Dual Icarus Stormcannons"
+				"Icarus Stormcannons"
 			],
 			"specialRules": []
 		},

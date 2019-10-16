@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Valhallan Ice Warriors",
-  "version": "0.5.3",
-  "release": "2019-07-27",
+  "version": "0.6.0",
+  "release": "2019-10-16",
   "strategy": "Valhallan Ice Warrior armies have a Strategy Rating of 2.",
   "Initiative": "All formations have a Initiative Rating of 2+.",
 
@@ -73,13 +73,13 @@
 ],
 "sections": [
     {
-      "name": "Valhallan Company Formations",
+      "name": "Valhallan Core Company Formations",
       "formations": [
         {
           "name": "Valhallan Regimental HQ",
-          "units": "One Valhallan Supreme Commander with a Ministorum Priest, eleven Valhallan Infantry",
+          "units": "One Valhallan Supreme Commander with a Ministorum Priest, nine Valhallan Infantry",
           "extraUnits": [
-              "Griffons",
+              "Valhallan Griffons",
               "Heavy Tanks",
               "Ogryns",
               "Snipers",
@@ -87,13 +87,13 @@
               "Flak",
               "Entrenchments"
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Valhallan Infantry Company",
-          "units": "One Valhallan Commander with a Ministorum Priest, eleven Valhallan Infantry",
+          "units": "One Valhallan Commander with a Ministorum Priest, nine Valhallan Infantry",
           "extraUnits": [
-              "Griffons",
+              "Valhallan Griffons",
               "Heavy Tanks",
               "Ogryns",
               "Snipers",
@@ -101,7 +101,7 @@
               "Flak",
               "Entrenchments"
           ],
-          "points": 225
+          "points": 200
     },
         {
           "name": "Artillery Company",
@@ -120,20 +120,21 @@
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
           {
+        "name": "Heavy Tank Platoon",
+        "units": "Six Ragnarok Heavy Tanks",
+        "extraUnits": [
+        "Valhallan Griffons",
+        "Flak"
+        ],
+        "points": 350
+      },
+          {
             "name": "Macharius Company",
             "units": "One Macharius Command with a Ministorum Priest, two Macharius",
             "extraUnits": [
             ],
             "points": 325
         },
-      {
-        "name": "Hellhound Platoon",
-        "units": "Six Hellhounds",
-        "points": 250,
-        "extraUnits": [
-          "Flak"
-        ]
-      },
         {
           "name": "0–1 Deathstrike Battery",
           "units": "Two Deathstrikes",
@@ -142,29 +143,27 @@
           "points": 200
         },
         {
-          "name": "Sentinel Squadron",
-          "units": "Four Sentinels",
-          "extraUnits": [
-          ],
-          "points": 100
-        },
-        {
-          "name": "Heavy Tank Platoon",
-          "units": "Six Ragnarok Heavy Tanks",
-          "extraUnits": [
-          "Griffons",
-          "Flak"
-          ],
-          "points": 350
-        },
-        {
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade or Stormlord",
           "extraUnits": [
               "Replace one Baneblade or Stormlord with a Shadowsword: 25 points"
           ],
           "points": 175
-      }
+      },
+      {
+        "name": "Hellhound Squadron",
+        "units": "Three Hellhounds",
+        "points": 125,
+        "extraUnits": [
+        ]
+    },
+    {
+      "name": "Sentinel Squadron",
+      "units": "Four Sentinels",
+      "extraUnits": [
+      ],
+      "points": 100
+    }
     ]
   },
     {
@@ -212,11 +211,11 @@
     "description": "Each upgrade may be taken once per formation. Max three upgrades per Company.",
     "items": [
         {
-          "name": "Griffons",
+          "name": "Valhallan Griffons",
           "options": [
             {
               "description": "Add three Valhallan Griffons",
-              "points": "100 points"
+              "points": "75 points"
             }
           ]
         },

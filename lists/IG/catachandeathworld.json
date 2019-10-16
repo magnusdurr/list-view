@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Catachan Jungle Fighters",
-  "version": "0.7.0",
-  "release": "2019-10-10",
+  "version": "0.7.1",
+  "release": "2019-10-16",
   "strategy": "Catachan Jungle Fighter armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -23,7 +23,7 @@
         "Ogryns",
         "Death World Veterans",
         "Catachan Sentinel",
-        "Deathworld Chimera",
+        "Death World Chimera",
         "Vulture",
         "Valkyrie",
         "Vendetta",
@@ -34,6 +34,7 @@
         "Leman Russ Demolisher",
         "Hellhammer",
         "Stormblade",
+        "Shadowsword",
         "Deathstrike"
       ],
         "unitRules": [
@@ -59,22 +60,24 @@
       "formations": [
         {
           "name": "Catachan Regimental HQ",
-          "units": "One Catachan Supreme Commander, seven Catachan Infantry and four Valkyries",
+          "units": "One Catachan Supreme Commander, seven Catachan Infantry",
           "extraUnits": [
-             "Snipers",
-             "Flakk Teams"
+             "Death World Transport (Compulsory)",
+             "Flakk Teams",
+              "Ogryns"
 
           ],
-          "points": 375
+          "points": 225
         },
         {
-          "name": "Catachan Air Cavalry Company",
-          "units": "One Catachan Commander, seven Catachan Infantry and four Valkyries",
+          "name": "Catachan Company",
+          "units": "One Catachan Commander, seven Catachan Infantry",
           "extraUnits": [
-             "Snipers",
-             "Flakk Teams"
+             "Death World Transport (Compulsory)",
+             "Flakk Teams",
+              "Ogryns"
           ],
-          "points": 300
+          "points": 150
       }
       ]
   },
@@ -82,31 +85,13 @@
       "name": "Catachan Support Formations",
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
-        {
-          "name": "Veteran Company",
-          "units": "One Catachan Commander and five Catachan Veterans",
-          "extraUnits": [
-              "Deathworld Transport",
-              "Hellhounds",
-              "Ogryns"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Catachan Sentinel Squadron",
-          "units": "Four Catachan Sentinels",
-          "extraUnits": [
-
-          ],
-          "points": 125
-        },
-        {
-          "name": "Hellhound Platoon",
-          "units": "Six Hellhounds",
-          "extraUnits": [
-              "Hydra"
-          ],
-          "points": 250
+          {
+            "name": "Leman Russ Platoon",
+            "units": "Six Leman Russ, Leman Russ Demolishers or Leman Russ Exterminators",
+            "extraUnits": [
+                "Flak"
+            ],
+            "points": 350
         },
         {
           "name": "Vulture Squadron",
@@ -117,45 +102,61 @@
           "points": 225
         },
         {
+          "name": "Veteran Company",
+          "units": "One Catachan Commander and seven Death World Veterans",
+          "extraUnits": [
+              "Death World Transport"
+          ],
+          "points": 200
+        },
+              {
+            "name": "0-1 Deathstrike Battery",
+            "units": "Two Deathstrikes",
+            "extraUnits": [
+            ],
+            "points": 200
+        },
+        {
+          "name": "Catachan Super-Heavy Platoon",
+          "units": "One Hellhammer or Stormblade",
+          "extraUnits": [
+              "Upgrade the Hellhammer or Stormblade to a Shadowsword: 25 points",
+              "Flak",
+              "Ogryns"
+          ],
+          "points": 175
+      },
+      {
+        "name": "Heavy Mortar Battery",
+        "units": "Three Heavy Mortars",
+        "extraUnits": [
+            "Ogryns"
+        ],
+        "points": 150
+    },
+        {
+          "name": "Catachan Sentinel Squadron",
+          "units": "Four Catachan Sentinels",
+          "extraUnits": [
+
+          ],
+          "points": 125
+        },
+        {
+          "name": "Hellhound Squadron",
+          "units": "Three Hellhounds",
+          "extraUnits": [
+          ],
+          "points": 125
+        },
+        {
           "name": "Sniper Platoon",
           "units": "Four Snipers",
           "extraUnits": [
-              "Add two Deathworld Chimeras: 50 points"
+              "Add two Death World Chimeras: 50 points"
           ],
           "points": 100
-        },
-        {
-          "name": "Heavy Mortar Battery",
-          "units": "Three Heavy Mortars",
-          "extraUnits": [
-              "Ogryns"
-          ],
-          "points": 150
-      },
-      {
-        "name": "Leman Russ Platoon",
-        "units": "Six Leman Russ, Leman Russ Demolishers or Leman Russ Exterminators",
-        "extraUnits": [
-            "Hydra",
-            "Hellhounds"
-        ],
-        "points": 350
-    },
-    {
-      "name": "Super-Heavy Platoon",
-      "units": "One Hellhammer or Stormblade",
-      "extraUnits": [
-          "Ogryns"
-      ],
-      "points": 175
-  },
-      {
-        "name": "0-1 Deathstrike Battery",
-        "units": "Two Deathstrikes",
-        "extraUnits": [
-        ],
-        "points": 200
-      }
+        }
       ]
     },
     {
@@ -207,7 +208,7 @@
     },
 
       {
-        "name": "Hydra",
+        "name": "Flak",
         "options": [
           {
             "description": "Add one Hydra",
@@ -215,22 +216,25 @@
           }
         ]
     },
-    {
-      "name": "Hellhounds",
-      "options": [
-        {
-          "description": "Add up to three Hellhounds",
-          "points": "25 points each"
-        }
-      ]
-  },
       {
-        "name": "Deathworld Transport",
+        "name": "Death World Transport",
         "options": [
+            {
+              "description": "Choose one of the following:",
+              "points": ""
+          },
           {
-            "description": "Add enough Deathworld Chimeras, Valkyries and/or Vendettas to transport the entire formation with no space left over",
-            "points": ["Deathworld Chimeras: 25 points each", "Valkyries, Vendettas: 35 points each"]
-          }
+            "description": "Add enough Death World Chimeras to transport the entire formation with no space left over",
+            "points": "25 points each"
+        },
+        {
+          "description": "Add four Valkyries",
+          "points": "150 points"
+      },
+        {
+          "description": "Add three Valkyries and two Vendettas",
+          "points": "175 points"
+        }
         ]
       }
     ]

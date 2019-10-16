@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Minervan Tank Legion",
-  "version": "0.6.0",
-  "release": "2019-10-15",
+  "version": "0.6.1",
+  "release": "2019-10-16",
   "strategy": "Minervan Tank Legion armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -21,8 +21,9 @@
         "Chimera",
         "Infantry",
         "Deathstrike",
+        "Hellhound",
         "Salamander Scout Tank",
-        "Medusa",
+        "Bombard",
         "Basilisk",
         "Manticore",
         "Griffon",
@@ -64,7 +65,7 @@
 ],
 "sections": [
     {
-      "name": "Tank Company Formations",
+      "name": "Minervan Company Formations",
       "formations": [
         {
           "name": "Minervan Tank Company",
@@ -87,26 +88,43 @@
 
           ],
           "points": 500
-      }
+      },
+      {
+        "name": "Minervan Mechanized Company",
+        "units": "Leman Russ Conqueror with a Minervan Commander and a Commissar, ten Infantry and five Chimeras",
+        "extraUnits": [
+            "Add up to two Hellhounds: 25 points each",
+            "Flak"
+        ],
+        "points": 400
+    }
       ]
     },
     {
-      "name": "Support Formations",
+      "name": "Minervan Support Formations",
       "description": "Up to three Support Formations for each Tank Company.",
       "formations": [
           {
-            "name": "Minervan Siege Battery",
-            "units": "Leman Russ Demolisher, three Medusa.",
+            "name": "Leman Russ Platoon",
+            "units": "Six Leman Russ, Leman Russ Executioners, Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
             "extraUnits": [
-            ],
-            "points": 250
-        },
+                ],
+            "points": 350
+          },
           {
-            "name": "Minervan Mechanized Platoon",
-            "units": "Leman Russ Conqueror, four Infantry and two Chimeras",
+            "name": "Artillery Battery",
+            "units": "Three Basilisks or three Bombards",
+            "extraUnits": [
+                "Replace three Basilisks or Bombards with three Manticores: 25 points"
+            ],
+            "points": 225
+          },
+          {
+            "name": "Tank Hunter Squadron",
+            "units": "Three Leman Russ Destroyers",
             "extraUnits": [
             ],
-            "points": 250
+            "points": 200
         },
         {
           "name": "0–1 Deathstrike Battery",
@@ -114,35 +132,6 @@
           "extraUnits": [
           ],
           "points": 200
-        },
-        {
-          "name": "Flak Battery",
-          "units": "Three Hydras",
-          "extraUnits": [
-          ],
-          "points": 150
-        },
-        {
-          "name": "Artillery Battery",
-          "units": "Three Basilisks",
-          "extraUnits": [
-              "Replace three Basilisks with three Manticores: 25 points"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Light Artillery Battery",
-          "units": "Three Griffons",
-          "extraUnits": [
-          ],
-          "points": 100
-        },
-        {
-          "name": "Salamander Squadron",
-          "units": "Four Salamander Scout Tanks",
-          "extraUnits": [
-      ],
-          "points": 150
         },
         {
           "name": "Super-Heavy Platoon",
@@ -153,19 +142,28 @@
           "points": 175
         },
         {
-          "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ, Leman Russ Executioners, Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
-          "extraUnits": [
-              ],
-          "points": 350
-        },
-        {
-          "name": "Tank Hunter Squadron",
-          "units": "Three Leman Russ Destroyers",
+          "name": "Flak Battery",
+          "units": "Three Hydras",
           "extraUnits": [
           ],
-          "points": 200
+          "points": 150
+        },
+        {
+          "name": "Salamander Recon Squadron",
+          "units": "Four Salamander Scout Tanks",
+          "extraUnits": [
+      ],
+          "points": 150
+        },
+        {
+          "name": "Light Artillery Battery",
+          "units": "Three Griffons",
+          "extraUnits": [
+          ],
+          "points": 100
         }
+
+
       ]
     },
     {
