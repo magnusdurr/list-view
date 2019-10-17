@@ -7,6 +7,7 @@
   "Initiative": "All formations have a Initiative Rating of 2+.",
 
   "specialRules": [
+      "Courage, Discipline and Loyalty",
       "Grim Demeanour",
       "Tunnelers",
       "Fortified Positions"
@@ -77,31 +78,29 @@
       "formations": [
         {
           "name": "Valhallan Regimental HQ",
-          "units": "One Valhallan Supreme Commander with a Ministorum Priest, nine Valhallan Infantry",
+          "units": "One Valhallan Supreme Commander with a Ministorum Priest, eleven Valhallan Infantry",
           "extraUnits": [
               "Valhallan Griffons",
-              "Heavy Tanks",
               "Ogryns",
               "Snipers",
               "Fire Support",
               "Flak",
               "Entrenchments"
           ],
-          "points": 275
+          "points": 300
         },
         {
           "name": "Valhallan Infantry Company",
-          "units": "One Valhallan Commander with a Ministorum Priest, nine Valhallan Infantry",
+          "units": "One Valhallan Commander with a Ministorum Priest, eleven Valhallan Infantry",
           "extraUnits": [
               "Valhallan Griffons",
-              "Heavy Tanks",
               "Ogryns",
               "Snipers",
               "Fire Support",
               "Flak",
               "Entrenchments"
           ],
-          "points": 200
+          "points": 225
     },
         {
           "name": "Artillery Company",
@@ -208,7 +207,7 @@
 ],
   "upgrades": {
     "title": "Valhallan Upgrades",
-    "description": "Each upgrade may be taken once per formation. Max three upgrades per Company.",
+    "description": "Each upgrade may be taken once per formation. Max four upgrades per Company.",
     "items": [
         {
           "name": "Valhallan Griffons",
@@ -216,15 +215,6 @@
             {
               "description": "Add three Valhallan Griffons",
               "points": "75 points"
-            }
-          ]
-        },
-        {
-          "name": "Heavy Tanks",
-          "options": [
-            {
-              "description": "Add three Ragnarok Heavy Tanks",
-              "points": "150 points"
             }
           ]
         },

@@ -136,7 +136,7 @@
       "description": "Up to one Wraithkind Partisans for each Wraithkind Kabal",
       "formations": [
           {
-            "name": "Heavy Barge",
+            "name": "Vessel of Pain",
             "units": "One Vessel of Pain",
             "extraUnits": [
             ],
@@ -146,7 +146,7 @@
             "name": "Hellion Murder",
             "units": "Six Hellion Skyboards",
             "extraUnits": [
-              "Add up to four Warp Beasts: 25 points each"
+              "Add up to two Warp Beasts: 25 points each"
             ],
             "points": 200
           },
@@ -170,7 +170,7 @@
             "units": "One Succubus, four Wyches, two Raiders",
             "extraUnits": [
               "Add two Wyches, one Raider: 50 points",
-              "Add up to two Warp Beasts: 25 points each"
+              "Add up to four Warp Beasts: 25 points each"
             ],
             "points": 150
           }
@@ -283,7 +283,7 @@
       {
         "name": "Wraithkind Transport",
         "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
-        "points": ["Tantalus: 25 points", "Barge of Pleasure: 150 points"]
+        "points": ["Tantalus: 25 points", "Barge of Pleasure: 125 points"]
       }
     ]
   }

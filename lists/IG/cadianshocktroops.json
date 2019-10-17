@@ -6,7 +6,7 @@
   "strategy": "Cadian Shock Troops armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
+  "specialRules": ["Courage, Discipline and Loyalty"],
   "usage": [
     "The following army list allows you to field an army based on a Cadian Shock Troops Regiment"
   ],
@@ -17,7 +17,6 @@
         "Cadian Supreme Commander",
         "Cadian Commander",
         "Commissar",
-        "Lord Commissar",
         "Whiteshields",
         "Infantry",
         "Kasrkin",
@@ -78,7 +77,6 @@
           "units": "One Cadian Supreme Commander with a Commissar, eight Kasrkin, one Stormlord.",
           "extraUnits": [
               "Upgrade the Stormlord to an Leviathan: 125 points",
-              "Lord Commissar",
               "Leman Russ Squadron",
               "Super-Heavy Tank"
           ],
@@ -225,15 +223,6 @@
       "title": "Cadian Upgrades",
       "description": "Each upgrade may be taken once per formation",
       "items": [
-        {
-          "name": "Lord Commissar",
-          "options": [
-            {
-              "description": "Replace a Commissar with a Lord Commissar",
-              "points": "50 points"
-            }
-          ]
-      },
       {
         "name": "Leman Russ Squadron",
         "options": [

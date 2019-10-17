@@ -6,7 +6,7 @@
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
+  "specialRules": ["Courage, Discipline and Loyalty"],
   "usage": [
     "The following army list allows you to field an army based on the Armageddon Steel Legion Regiment"
   ],
@@ -17,7 +17,6 @@
         "Steel Legion Supreme Commander",
         "Steel Legion Commander",
         "Commissar",
-        "Lord Commissar",
         "Infantry",
         "Ogryns",
         "Rough Riders",
@@ -87,7 +86,7 @@
           "name": "Mechanized Infantry Company",
           "units": "One Steel Legion Commander with a Commissar, nine Infantry and five Chimeras",
           "extraUnits": [
-              "All except Lord Commissar"
+              "All"
           ],
           "points": 325
         },
@@ -95,7 +94,7 @@
           "name": "Infantry Company",
           "units": "One Steel Legion Commander with a Commissar and eleven Infantry",
           "extraUnits": [
-              "All except Lord Commissar"
+              "All"
           ],
           "points": 225
         },
@@ -338,15 +337,6 @@
           {
             "description": "Add three Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
             "points": "125 points"
-          }
-        ]
-      },
-      {
-        "name": "Lord Commissar (Regimental HQ only)",
-        "options": [
-          {
-            "description": "Replace the Regimental HQ Commissar with a Lord Commissar.",
-            "points": "75 points"
           }
         ]
       },

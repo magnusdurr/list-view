@@ -7,7 +7,6 @@
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-      "Lord Commissar",
       "Courage, Discipline and Loyalty"
   ],
   "usage": [
@@ -19,7 +18,6 @@
       "units": [
         "DKoK Supreme Commander",
         "DKoK Commander",
-        "Lord Commissar",
         "Commissar",
         "Assault Infantry",
         "Siege Infantry",
@@ -82,7 +80,6 @@
           "units": "One DKoK Supreme Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
               "Add ten Assault Infantry and one Gorgon: 250 points",
-              "Lord Commissar",
               "Leman Russ Squadron"
           ],
           "points": 350
@@ -231,16 +228,7 @@
     "title": "DKoK Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
-      {
-        "name": "0-1 Lord Commissar",
-        "options": [
           {
-            "description": "Replace a Commissar with a Lord Commissar",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
         "name": "Hellhounds",
         "options": [
           {

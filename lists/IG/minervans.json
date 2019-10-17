@@ -6,7 +6,7 @@
   "strategy": "Minervan Tank Legion armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
+  "specialRules": ["Courage, Discipline and Loyalty"],
   "usage": [
     "The following army list allows you to field an army based on the Minervan Tank Legion Regiment"
   ],
@@ -17,7 +17,6 @@
         "Minervan Supreme Commander",
         "Minervan Commander",
         "Commissar",
-        "Lord Commissar",
         "Chimera",
         "Infantry",
         "Deathstrike",
@@ -73,7 +72,6 @@
           "extraUnits": [
             "Replace any number of Leman Russ with Leman Russ Executioners: Free",
             "Supreme Commander",
-            "Lord Commissar",
             "Flak"
           ],
           "points": 600
@@ -83,7 +81,6 @@
           "units": "Three Baneblades, Stormblades, Stormhammers and/or Shadowswords, one with a Minervan Commander and a Commissar",
           "extraUnits": [
               "Supreme Commander",
-              "Lord Commissar",
               "Flak"
 
           ],
@@ -209,15 +206,6 @@
         "options": [
           {
             "description": "Replace one Minervan Commander in the army with a Minervan Supreme Commander",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "0-1 Lord Commissar",
-        "options": [
-          {
-            "description": "Replace the Minervan Supreme Commander's Commissar with a Lord Commissar",
             "points": "100 points"
           }
         ]
