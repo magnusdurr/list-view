@@ -1,12 +1,12 @@
 {
   "fraction": "Tyranids",
   "army": "Cult of the Four-Armed Emperor",
-  "version": "0.6.1",
-  "release": "2019-10-15",
+  "version": "0.6.2",
+  "release": "2019-10-17",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "The Nexus Brood, Coven Vanguard, Coven Ambush and Coven Air Support formations have an Initiative Rating of 1+. All other formations have an Initative Rating of 2+.",
 
-  "specialRules": ["Nexus Brood","Brood Brothers","Ambush","Extreme Mobility (Genestealer Cult)"],
+  "specialRules": ["Nexus Brood","Brood Brothers","Ambush","Extreme Mobility (Cult of the Four-Armed Emperor)"],
   "usage": [
  ],
   "units": [
@@ -24,7 +24,6 @@
         "Cult Infantry",
         "Cult Fire Support",
         "Genestealers",
-        "Coven Lictor",
         "Coven Ridgerunner",
         "Coven Goliath",
         "Coven Limousine",
@@ -44,6 +43,14 @@
         "unitRules": [
       ]
     },
+    {
+      "from": "NIDS.json",
+      "units": [
+        "Lictor"
+      ],
+        "unitRules": [
+      ]
+  },
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -130,7 +137,7 @@
       "formations": [
           {
             "name": "Lictor Swarm",
-            "units": "Four Coven Lictors",
+            "units": "Five Lictors",
             "extraUnits": [
                 ],
             "points": 225
