@@ -13,7 +13,7 @@
     {
       "from": "SM.json",
       "units": [
-        "Captain","Chaplain","Supreme Commander", "Librarian",
+        "Wolf Lord Captain","Chaplain","Great Wolf Supreme Commander", "Librarian",
         "Blood Claw Assaults", "Sky Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Wolf Guard Assault Terminators", "Long Fang Devastators", "Swift Claw Assault Bikes", "Wolf Scout Veterans", "Land Speeder",
         "Blizzard Dreadnought", "Helfrost Dreadnought", "Leman Russ Exterminator", "Stalker", "Hunter", "Land Raider","Land Raider Wrath of Mjalnar","Rhino","Whirlwind","Vindicator", "Questoris Knight-Freeblade",
         "Landing Craft","Storm Talon Gunship","Stormwolf Assault Boat", "Stormfang Gunship",
@@ -38,7 +38,7 @@
       "formations": [
           {
             "name": "1+ Great Company",
-            "units": "One Captain, eight Grey Hunter Tacticals plus transport",
+            "units": "One Wolf Lord Captain, eight Grey Hunter Tacticals plus transport",
             "extraUnits": [
               "Replace three Grey Hunter Tacticals with Long Fang Devastators: 50 points",
               "Add up to three Leman Russ Exterminators: 50 points each",
@@ -77,7 +77,7 @@
       "formations": [
           {
             "name": "Wolf Guard Terminator Pack",
-            "units": "One Captain, four Wolf Guard Terminators plus transport",
+            "units": "One Wolf Lord Captain, four Wolf Guard Terminators plus transport",
             "extraUnits": [
               "Replace any number of Wolf Guard Terminators with Wolf Guard Assault Terminators: Free",
               "Supreme Commander",
@@ -185,7 +185,7 @@
   ],
   "upgrades": {
     "title": "Space Wolf Upgrades",
-    "description": "Each upgrade may be taken once per detachment",
+    "description": "Each upgrade may be taken once per pack",
     "items": [
       {
         "name": "Dreadnoughts",
@@ -199,7 +199,7 @@
       },
       {
         "name": "0-1 Supreme Commander",
-        "description": "Replace the Captain with a Supreme Commander",
+        "description": "Replace the Wolf Lord Captain with a Great Wolf Supreme Commander",
         "points": "50 points"
       },
       {
