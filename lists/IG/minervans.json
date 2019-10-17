@@ -14,21 +14,19 @@
     {
       "from": "IG.json",
       "units": [
-        "Minervan Supreme Commander",
-        "Minervan Commander",
-        "Commissar",
+        "Lord Commissar",
+        "Commissar-Captain",
         "Chimera",
         "Infantry",
         "Deathstrike",
         "Hellhound",
         "Salamander Scout Tank",
-        "Bombard",
         "Basilisk",
         "Manticore",
         "Griffon",
         "Hydra",
         "Leman Russ",
-        "Leman Russ Demolisher",
+        "Leman Russ Thunderer",
         "Leman Russ Vanquisher",
         "Leman Russ Conqueror",
         "Leman Russ Punisher",
@@ -68,9 +66,9 @@
       "formations": [
         {
           "name": "Minervan Tank Company",
-          "units": "One Leman Russ Vanquisher with a Minervan Commander and a Commissar, nine Leman Russ",
+          "units": "One Leman Russ Vanquisher with a Commissar-Captain, nine Leman Russ",
           "extraUnits": [
-            "Replace any number of Leman Russ with Leman Russ Executioners: Free",
+            "Replace nine Leman Russ with nine Leman Russ Executioners: Free",
             "Supreme Commander",
             "Flak"
           ],
@@ -78,7 +76,7 @@
         },
         {
           "name": "Minervan Super-Heavy Company",
-          "units": "Three Baneblades, Stormblades, Stormhammers and/or Shadowswords, one with a Minervan Commander and a Commissar",
+          "units": "Three Baneblades, Stormblades, Stormhammers and/or Shadowswords, one with a Commissar-Captain",
           "extraUnits": [
               "Supreme Commander",
               "Flak"
@@ -87,10 +85,10 @@
           "points": 500
       },
       {
-        "name": "Minervan Mechanized Company",
-        "units": "Leman Russ Conqueror with a Minervan Commander and a Commissar, ten Infantry and five Chimeras",
+        "name": "Artillery Company",
+        "units": "Six Basilisks, one with a Commissar-Captain",
         "extraUnits": [
-            "Add up to two Hellhounds: 25 points each",
+            "Replace six Basilisks with six Manticores: 50 points",
             "Flak"
         ],
         "points": 400
@@ -99,23 +97,23 @@
     },
     {
       "name": "Minervan Support Formations",
-      "description": "Up to three Support Formations for each Tank Company.",
+      "description": "Up to three Support Formations for each Minervan Company.",
       "formations": [
           {
             "name": "Leman Russ Platoon",
-            "units": "Six Leman Russ, Leman Russ Executioners, Leman Russ Punishers, Leman Russ Demolishers or Leman Russ Conquerors",
+            "units": "Six Leman Russ, Leman Russ Executioners, Leman Russ Punishers, Leman Russ Thunderers or Leman Russ Conquerors",
             "extraUnits": [
                 ],
             "points": 350
           },
           {
-            "name": "Artillery Battery",
-            "units": "Three Basilisks or three Bombards",
+            "name": "Minervan Mechanized Platoon",
+            "units": "Two Leman Russ Conqueror, four Infantry and two Chimeras",
             "extraUnits": [
-                "Replace three Basilisks or Bombards with three Manticores: 25 points"
+                "Add up to two Hellhounds: 25 points each"
             ],
-            "points": 225
-          },
+            "points": 275
+        },
           {
             "name": "Tank Hunter Squadron",
             "units": "Three Leman Russ Destroyers",
@@ -146,7 +144,7 @@
           "points": 150
         },
         {
-          "name": "Salamander Recon Squadron",
+          "name": "Salamander Squadron",
           "units": "Four Salamander Scout Tanks",
           "extraUnits": [
       ],
@@ -205,7 +203,7 @@
         "name": "0-1 Supreme Commander",
         "options": [
           {
-            "description": "Replace one Minervan Commander in the army with a Minervan Supreme Commander",
+            "description": "Replace one Commissar-Captain in the army with a Lord Commissar",
             "points": "100 points"
           }
         ]

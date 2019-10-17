@@ -16,7 +16,7 @@
         "Captain","Chaplain", "Librarian", "Supreme Commander",
         "Sanguinary Guards", "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Assaults", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
-        "Furioso Dreadnought", "Razorback", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino",
+        "Furioso Dreadnought", "Razorback", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino", "Whirlwind",
         "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
@@ -58,13 +58,13 @@
       },
       {
         "name": "Assaults",
-        "units": "Four Assaults",
+        "units": "Six Assaults",
         "extraUnits": [
             "Sanguinary Guard",
             "Commander",
             "Predators"
         ],
-        "points": 175
+        "points": 225
       }
 
       ]
@@ -146,6 +146,15 @@
           ],
           "points": 275
         },
+        {
+          "name": "Whirlwinds",
+          "units": "Four Whirlwinds",
+          "extraUnits": [
+            "Anti-Air",
+            "Commander"
+          ],
+          "points": 275
+        },
       {
         "name": "Landing Craft",
         "units": "One Landing Craft",
@@ -216,8 +225,8 @@
       },
       {
         "name": "0-1 Sanguinary Guard",
-        "description": "Add two Sanguinary Guards to the formation. The formation must contain a Supreme Commander",
-        "points": "100 points"
+        "description": "Replace two Assaults with two Sanguinary Guards. The formation must contain a Supreme Commander",
+        "points": "50 points"
       },
       {
         "name": "Commander",

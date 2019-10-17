@@ -109,13 +109,16 @@
       ]
     },
     {
-      "name": "Minervan Supreme Commander",
+      "name": "Lord Commissar",
       "type": "CH",
       "weapons": [
-          "n/a"
+          "Master-Crafted Guns"
       ],
       "specialRules": [
-        "Supreme Commander"
+        "Supreme Commander",
+        "Leader",
+        "Inspiring",
+        "Fearless"
       ]
     },
     {
@@ -225,13 +228,16 @@
       ]
     },
     {
-      "name": "Minervan Commander",
+      "name": "Commissar-Captain",
       "type": "CH",
       "weapons": [
-       "n/a"
+        "Master-Crafted Guns"
       ],
       "specialRules": [
-        "Commander"
+        "Commander",
+        "Leader",
+        "Inspiring",
+        "Fearless"
       ]
     },
     {
@@ -281,28 +287,14 @@
       "type": "CH",
       "weapons": [
         "Power Weapon|0-1",
-        "Master-Crafted Gun|0-1"
+        "Master-Crafted Guns|0-1"
       ],
       "specialRules": [
         "Leader",
         "Inspiring",
         "Fearless"
     ],
-        "notes":  "Has Master-Crafted Gun if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
-    },
-    {
-      "name": "Lord Commissar",
-      "type": "CH",
-      "weapons": [
-        "Power Weapon|0-1",
-        "Master-Crafted Gun|0-1"
-      ],
-      "specialRules": [
-        "Lord Commissar",
-        "Leader",
-        "Inspiring"
-      ],
-          "notes":  "Has Master-Crafted Gun if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
+        "notes":  "Has Master-Crafted Guns if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
     },
     {
       "name": "Infantry",
@@ -1233,9 +1225,9 @@
       "speed": 20,
       "armour": 4,
       "cc": 6,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
-        "Plasma Destroyer", "Lascannon", "Heavy Bolter|2|"
+        "Plasma Destroyer", "Lascannon", "Plasma Cannon|2|"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1689,7 +1681,7 @@
           "Twin Ragnarok Battle Cannons||",
           "Twin Ragnarok Battle Cannons||FxF",
           "Demolisher||FxF",
-          "Twin Heavy Bolters|6|FxF"
+          "Twin Heavy Bolters|4|FxF"
         ],
         "specialRules": [
           "Damage Capacity 3",
