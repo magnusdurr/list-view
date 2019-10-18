@@ -90,7 +90,7 @@
       ]
     },
     {
-      "title": "Ion Shield (X)",
+      "title": "Ion Shield (x)",
       "description": [
         "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
         "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has Reinforced Armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
@@ -222,7 +222,12 @@
         "Disembarking triggers overwatch fire as normal. Tunnellers, and any units being transported in them, may take an action on the turn they appear."
         ]
     },
-
+    {
+      "title": "Self Planetfall",
+      "description": [
+        "Self Planetfall is plotted exactly as planetfall (see 4.4). Both the turn in which the formation arrives and the landing location is plotted. The only exception is that, because these units are much smaller than orbiting spacecraft, they may be plotted to arrive in the same turn that another spacecraft is present. On the designated turn the formation conducting Self Planetfall is activated in the normal activation sequence, as with spacecraft. Nominate the action for the formation and roll to activate. If the formation fails to activate its arrival is delayed to the next following turn. If the activation is successful, place the formation at the plotted landing zone and determine scatter according to 4.4 as if it were a normal planetfall, including loaded units disembarking up to 5cm. The formation’s action proceeds as normal in all respects from that point. In other words, the formation gets the “free move” from planetfall placement at the beginning of its action but in all other ways activates as normal. Note: The action is chosen at activation, before scatter is determined. Choose the action carefully as a poor scatter roll could render some actions ineffective."
+        ]
+    },
 
 
 
@@ -285,21 +290,27 @@
       ]
     },
     {
+      "title": "Ad Hoc Detachments",
+      "description": [
+          "By necessity, Ordo Xenos Inquisitors have to become experts of improvisation, constantly finding novel ways to utilize the Deathwatch's ever-changing roster of skills and individuals. For this reason, any two formations that both have Commander may also use the ability when defending against an assault, declaring their formations to be intermingled (see 1.12.10). Once declared intermingled, the Commanders' formations follow all rules exactly as if the enemy had declared them intermingled. Note that if either player declares intermingling, the formations are intermingled."
+      ]
+    },
+    {
       "title": "Xenos Horrificus",
       "description": [
           "Together, the Deathwatch and the Ordo Xenos contain a galaxy's worth of experience of the Imperium's foes. For this reason, the Deathwatch player may re-roll one Strategy Roll per game."
       ]
     },
     {
-      "title": "Pack Hunters",
+      "title": "Wings of the Sky Angel",
       "description": [
-          "Space Wolves units with the Commander ability extend the range at which they can call other formations to follow them when they make a combined assault from 5cm to 10cm (see 2.1.2)."
+          "All AA shots have an additional -1 to hit against Corvus Blackstar Dropships."
       ]
     },
     {
-      "title": "Coordinated Defense",
+      "title": "Pack Hunters",
       "description": [
-          "Units with Commander may also use it when defending against an assault, declaring friendly formations to be intermingled (see 1.12.10). Once declared intermingled, the Commander's formations follow all rules exactly as if the enemy had declared them intermingled. Note that if either player declares intermingling, the formations are intermingled."
+          "Space Wolves units with the Commander ability extend the range at which they can call other formations to follow them when they make a combined assault from 5cm to 10cm (see 2.1.2)."
       ]
     },
 
@@ -902,7 +913,7 @@
 
 
         {
-        "title": "Deceit and Deception",
+        "title": "The Harrowing",
         "description": [
           "Alpha Legion armies have a Strategy Rating of 4. However, for all deployment purposes (such as determining teleport order or picking spaceship arrival turn) Alpha Legion armies count as having a Strategy Rating of 5."
       ]

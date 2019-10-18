@@ -1,11 +1,11 @@
 {
 	"fraction": "Imperial Inquisition",
 	"army": "Deathwatch",
-	"version": "0.5.3",
-	"release": "2019-07-26",
+	"version": "0.6.0",
+	"release": "2019-10-18",
 	"strategy": "Deathwatch armies have a Strategy Rating of 5.",
-	"Initiative": "Deathwatch Detachments have an Initiative of 1+. All other formations have an Initiative of 2+.",
-	"specialRules": ["Xenos Horrificus"],
+	"Initiative": "Planetary Defense Force Formations have an Initiative Rating of 3+. All other formations have an Initiative Rating of 1+.",
+	"specialRules": ["Ad Hoc Detachments", "Self Planetfall", "Wings of the Sky Angel"],
 	"usage": [
 		"The following army list allows you to field an army based on Ordo Xenos with Deathwatch allies"
 	],
@@ -14,7 +14,6 @@
 			"units": [
 				"Ordo Xenos Inquisitor Lord",
 				"Ordo Xenos Inquisitor",
-				"Ordo Xenos Acolytes",
 				"Arbitrators",
 				"Arbites Repressor"
 			],
@@ -24,12 +23,11 @@
 		{
 			"from": "SM.json",
 			"units": [
-				"Watch Commander",
-				"Captain",
+				"Watch Sergeant",
 				"Chaplain",
 				"Librarian",
 				"Deathwatch Tacticals",
-				"Deathwatch Assault Veterans",
+				"Vanguard Assault Veterans",
 				"Deathwatch Black Shields",
 				"Deathwatch Devastators",
 				"Deathwatch Terminators",
@@ -53,9 +51,9 @@
 			"from": "IG.json",
 			"units": [
 				"PDF Conscripts",
-				"Leman Russ",
-				"Hydra",
-				"Vendetta",
+				"Thudd Gun",
+				"Heavy AA Gun",
+				"Leman Russ Thunderer",
 				"Land Transporter"
 			],
 			"unitRules": []
@@ -69,24 +67,32 @@
                 "formations": [
                     {
                         "name": "0-1 Officio Assassinorum",
-                        "units": "Once per battle, during an Assault that the Deathwatch player initiated, a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules. Any damage caused by these hits counts towards combat resolution.",
+                        "units": "Once per battle, during an Assault that the Deathwatch player initiated (after all units have finished moving), a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules. Any damage caused by these hits counts towards combat resolution (unless the target is Super-Expendable).",
                         "points": 75
                     }
                 ]
             },
         {
-			"name": "Deathwatch Core Detachments",
+			"name": "Deathwatch Core Formations",
 			"description": "",
 			"formations": [
 				{
+				"name": "0-1 Ordo Xenos Inquisitor Retinue",
+				"units": "Ordo Xenos Inquisitor, nine Arbitrators, five Arbites Repressors",
+				"extraUnits": [
+					"Inquisitor Lord",
+					"Add three Leman Russ Thunderers: 125 points"
+					],
+				"points": 300
+			},
+				{
 					"name": "Deathwatch Kill-Team",
-					"units": "Four Deathwatch Tacticals plus transport",
+					"units": "One Watch Sergeant, four Deathwatch Tacticals plus transport",
 					"extraUnits": [
-						"Replace one Deathwatch Tacticals with one Deathwatch Black Shields: 25 points",
+						"Replace two Deathwatch Tacticals with two Deathwatch Black Shields: Free",
+						"Replace two Deathwatch Tacticals with two Deathwatch Devastators: 25 points",
 						"Add two Deathwatch Dreadnoughts: 75 points",
-						"Land Raiders",
-						"Commander",
-						"Ordo Xenos Superior"
+						"Deathwatch Specialists"
 					],
 					"points": 200
 				}
@@ -94,88 +100,46 @@
 		},
 		{
 			"name": "Deathwatch Support Detachments",
-			"description": "Two Deathwatch Support Detachment may be taken per Deathwatch Core Detachment",
+			"description": "One Deathwatch Support Detachment may be taken per Deathwatch Core Detachment",
 			"formations": [{
 					"name": "Deathwatch Terminators",
-					"units": "One Chaplain, two Deathwatch Terminators",
+					"units": "One Watch Sergeant, two Deathwatch Terminators",
 					"extraUnits": [
-						"Land Raiders"
+						"Land Raiders",
+						"Deathwatch Specialists"
 					],
-					"points": 250
+					"points": 200
 				},
 				{
 					"name": "Deathwatch Attack",
-					"units": "Three Deathwatch Land Speeders, three Assault Bikes",
+					"units": "One Watch Sergeant, two Deathwatch Land Speeders, four Assault Bikes",
 					"extraUnits": [
-						"Commander",
-						"Ordo Xenos Superior"
+						"Deathwatch Specialists"
 					],
 					"points": 250
 				},
 				{
 					"name": "Deathwatch Vanguard",
-					"units": "Four Deathwatch Assault Veterans",
+					"units": "One Watch Sergeant, four Vanguard Assault Veterans",
 					"extraUnits": [
-						"Commander",
-						"Ordo Xenos Superior"
-					],
-					"points": 225
-				},
-				{
-					"name": "Deathwatch Devastators",
-					"units": "Four Deathwatch Devastators plus transport",
-					"extraUnits": [
-						"Add two Deathwatch Dreadnoughts: 75 points",
-						"Land Raiders",
-						"Commander",
-						"Ordo Xenos Superior"
+						"Deathwatch Specialists"
 					],
 					"points": 250
 				}
 			]
 		},
 		{
-			"name": "Ordo Xenos Formations",
-			"description": "Two Ordo Xenos Formations may be taken per Deathwatch Core Detachment",
+			"name": "Planetary Defense Force Formations",
+			"description": "Two Planetary Defence Force Formations may be taken per Deathwatch Core Formation.",
 			"formations": [
-				{
-						"name": "0-1 Ordo Xenos Inquisitor Retinue",
-						"units": "One Ordo Xenos Inquisitor, three Ordo Xenos Acolytes, four Vendettas",
-						"extraUnits": [
-							"Ordo Xenos Superior"
-						],
-						"points": 250
-					},
-				{
-					"name": "Adeptus Arbites Company",
-					"units": "Eight Arbitrators, four Arbites Repressors",
-					"extraUnits": [
-					],
-					"points": 225
-				},
-				{
-					"name": "Flak Battery",
-					"units": "Three Hydra",
-					"extraUnits": [],
-					"points": 150
-				},
-				{
-					"name": "Leman Russ Squadron",
-					"units": "Three Leman Russ",
-					"extraUnits": [
-						"Add three Leman Russ: 150 points",
-						"Add one Hydra: 50 points"
-					],
-					"points": 200
-				},
-				{
-					"name": "Motorized Planetary Defense Force Platoon",
-					"units": "Six PDF Conscripts, three Land Transporters",
-					"extraUnits": [
-						"Add one Hydra: 50 points"
-					],
-					"points": 150
-				}
+					{
+		          "name": "Planetary Defense Platoon",
+		          "units": "Six PDF Conscripts, three Land Transporters",
+		          "extraUnits": [
+					  "Replace three Land Transporters with three Thudd Guns or two Heavy AA Guns: 25 points"
+		          ],
+		          "points": 150
+		      }
 			]
 		},
 		{
@@ -193,7 +157,7 @@
 					"points": 250
 				},
 				{
-					"name": "Thunderhawk Transporter",
+					"name": "Deathwatch Landing Craft",
 					"units": "One Thunderhawk Transporter",
 					"extraUnits": [
 						"Add one Thunderhawk Transporter: 100 points"
@@ -216,26 +180,18 @@
 
 			{
 					"name": "Land Raiders",
-					"description": "Add enough Deathwatch Land Raiders or Land Raider Crusaders to transport the formation with no space left over",
+					"description": "Add enough Deathwatch Land Raiders or Land Raider Crusaders to transport the formation",
 					"points": "50 points each"
 				},
 			{
-				"name": "Commander",
-				"description": "Add a Captain, Chaplain or Librarian",
+				"name": "Deathwatch Specialists",
+				"description": "Add a Chaplain or Librarian to a INF unit.",
 				"points": 50
 			},
 			{
-				"name": "Ordo Xenos Superior (0-1 per army)",
-				"description": "Choose one of the following",
-				"options": [{
-						"description": "Replace a Captain in the army with a Watch Commander (Death Watch Detachments only. May not be combined with the 'Commander' upgrade)",
-						"points": "75 points"
-					},
-					{
-						"description": "Replace the Ordo Xenos Inquisitor with an Ordo Xenos Inquisitor Lord (Ordo Xenos Inquisitor Retinue only)",
-						"points": "50 points"
-					}
-				]
+				"name": "0-1 Inquisitor Lord",
+				"description": "Replace an Ordo Xenos Inquisitor with an Ordo Xenos Inquisitor Lord",
+				"points": 50
 			}
 		]
 	}

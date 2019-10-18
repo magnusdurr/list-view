@@ -14,7 +14,7 @@
       "from": "SM.json",
       "units": [
         "Wolf Lord Captain","Chaplain","Great Wolf Supreme Commander", "Librarian",
-        "Blood Claw Assaults", "Sky Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Wolf Guard Assault Terminators", "Long Fang Devastators", "Swift Claw Assault Bikes", "Wolf Scout Veterans", "Land Speeder",
+        "Blood Claw Assaults", "Sky Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Wolf Guard Assault Terminators", "Long Fang Devastators", "Swift Claw Assault Bikes", "Fenrisian Wolves", "Wolf Scout Veterans", "Land Speeder",
         "Blizzard Dreadnought", "Helfrost Dreadnought", "Leman Russ Exterminator", "Stalker", "Hunter", "Land Raider","Land Raider Wrath of Mjalnar","Rhino","Whirlwind","Vindicator", "Questoris Knight-Freeblade",
         "Landing Craft","Storm Talon Gunship","Stormwolf Assault Boat", "Stormfang Gunship",
         "Battle Barge","Strike Cruiser","Drop Pod"
@@ -27,17 +27,17 @@
       "Questoris Knight-Freeblade"
     ],
       "unitRules": [
-          "Ion Shield (X)", "Lance"
+          "Ion Shield (x)", "Lance"
     ]
   }
   ],
   "sections": [
     {
       "name": "Space Wolves Core Packs",
-      "description": "At least one Grey Hunter Tactical Pack must be taken.",
+      "description": "At least one Hunting Pack must be taken.",
       "formations": [
           {
-            "name": "1+ Great Company",
+            "name": "1+ Hunting Pack",
             "units": "One Wolf Lord Captain, eight Grey Hunter Tacticals plus transport",
             "extraUnits": [
               "Replace three Grey Hunter Tacticals with Long Fang Devastators: 50 points",
@@ -61,8 +61,8 @@
           "points": 150
         },
         {
-      "name": "Skyclaw Assault Pack",
-      "units": "Four Skyclaw Assaults",
+      "name": "Sky Claw Assault Pack",
+      "units": "Four Sky Claw Assaults",
       "extraUnits": [
           "Runekeeper"
       ],
@@ -88,21 +88,21 @@
             "points": 400
           },
           {
-            "name": "Swift Claw Recon Pack",
-            "units": "Three Swift Claw Assault Bikes, three Land Speeders",
+            "name": "Swift Claw Biker Pack",
+            "units": "Four Swift Claw Assault Bikes, two Fenrisian Wolves",
             "extraUnits": [
                 "Runekeeper"
             ],
-            "points": 225
+            "points": 200
         },
           {
-            "name": "Wolf Scout Recon Pack",
+            "name": "Wolf Scout Pack",
             "units": "Four Wolf Scout Veterans plus transport",
             "extraUnits": [
               "Runekeeper",
               "Razorbacks"
             ],
-            "points": 150
+            "points": 175
           },
           {
             "name": "Land Raider Pack",

@@ -182,9 +182,9 @@
 			],
 			"specialRules": [
 				"Commander",
+				"Leader",
 				"Fearless",
-				"Invulnerable Save",
-				"Leader"
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -198,7 +198,9 @@
 				"Bolt Pistols",
 				"Chainswords"
 			],
-			"specialRules": []
+			"specialRules": [
+				"Scout"
+			]
 		},
 		{
 			"name": "Arbitrators",
@@ -418,7 +420,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Stubber"
+				"Twin Heavy Stubber on AA mount"
 			],
 			"specialRules": [
 				"Walker",

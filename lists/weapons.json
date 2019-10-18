@@ -353,10 +353,19 @@
         "modes": [
           {
             "firepower": "1BP",
-            "range": 30,
+            "range": 15,
             "specialRules": [
+                "D",
+                "FxF"
           ]
-          }
+      },
+      {
+        "firepower": "Small Arms",
+        "join": "or",
+        "specialRules": [
+            "EA(+1)"
+      ]
+      }
       ]
     },
     {
@@ -2164,11 +2173,22 @@
       ]
     },
     {
-      "name": "Twin Dragonfire Heavy Bolter",
+      "name": "Twin Dragonfire Heavy Bolters",
         "modes": [
           {
             "firepower": "AP4+/AT5+",
             "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Twin Dragonfire Heavy Bolters",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+/AA5+",
+            "range": 15,
             "specialRules": [
           ]
           }
@@ -9053,7 +9073,7 @@
             "firepower": "Assault Weapons",
             "specialRules": [
                 "EA(+1)",
-                "TK(1)"
+                "MW"
           ]
           }
       ]
@@ -9065,7 +9085,7 @@
             "firepower": "Assault Weapons",
             "specialRules": [
                 "EA(+1)",
-                "TK(D2)"
+                "TK(1)"
           ]
           }
       ]
@@ -9076,7 +9096,7 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-                "TK(1)"
+                "MW"
           ]
           }
       ]

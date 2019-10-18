@@ -96,7 +96,7 @@
 			"name": "Watch Sergeant",
 			"type": "CH",
 			"weapons": [
-				"Power Weapon"
+				"n/a"
 			],
 			"specialRules": [
 				"Commander"
@@ -294,6 +294,18 @@
 			]
 		},
 		{
+			"name": "Fenrisian Wolves",
+			"type": "INF",
+			"speed": 35,
+			"armour": 5,
+			"cc": 3,
+			"weapons": [
+				"Claws and Fangs"
+			],
+			"specialRules": [
+			]
+		},
+		{
 			"name": "Devastators",
 			"type": "INF",
 			"speed": 15,
@@ -333,9 +345,9 @@
 			"speed": 15,
 			"armour": 4,
 			"cc": 5,
-			"ff": 2,
+			"ff": 3,
 			"weapons": [
-				"Dragonfire Heavy Bolter|2"
+				"Dragonfire Heavy Bolter|2|"
 			]
 		},
 		{
@@ -384,11 +396,10 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 3,
+			"cc": 4,
 			"ff": 5,
 			"weapons": [
-				"Bolt Pistols",
-				"Chainswords"
+				"Sniper Rifles"
 				],
 			"specialRules": [
 				"Infiltrators",
@@ -451,7 +462,7 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 3,
+			"cc": 2,
 			"weapons": [
 				"Heavy Thunder Hammers"
 			]
@@ -1306,10 +1317,10 @@
 			"speed": 25,
 			"armour": 4,
 			"cc": 6,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Twin Lascannons|2",
-				"Twin Dragonfire Heavy Bolter"
+				"Twin Dragonfire Heavy Bolters"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1782,6 +1793,27 @@
 			"crit": "The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
 		},
 		{
+			"name": "Deathwatch Landing Craft",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannons|2",
+				"AC Twin Dragonfire Heavy Bolters|3"
+			],
+			"specialRules": [
+				"Damage Capacity 4",
+				"Fearless",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"notes": "May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up.",
+			"crit": "The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
+		},
+		{
 			"name": "Grey Knight Landing Craft",
 			"type": "AC/WE",
 			"speed": "Bomber",
@@ -1821,7 +1853,7 @@
 				"Reinforced Armour",
 				"Transport"
 			],
-			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each.",
+			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Landing Craft for being transported.",
 			"crit": "The Storm Eagle and all units being carried are destroyed."
 		},
 		{
@@ -1842,7 +1874,7 @@
 				"Planetfall",
 				"Transport"
 			],
-			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each.",
+			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Landing Craft for being transported.",
 			"crit": "The Stormwolf and all units being carried are destroyed."
 		},
 		{
@@ -1902,7 +1934,7 @@
 				"Planetfall",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Mounted; Terminators counts as two units each. May in addition transport one Dreadnought."
+			"notes": "May transport two infantry units without Mounted; Terminators counts as two units each. May in addition transport one Dreadnought. Counts as a Landing Craft for being transported."
 		},
 		{
 			"name": "Corvus Blackstar Dropship",
@@ -1913,16 +1945,16 @@
 			"ff": 5,
 			"weapons": [
 				"AC Twin Assault Cannons||FxF",
-				"AC Blackstar Rockets||FxF"
+				"AC Blackstar Rockets"
 			],
 			"specialRules": [
 				"Damage Capacity 1",
-				"Invulnerable Save",
-				"Self-Planetfall",
+				"Wings of the Sky Angel",
+				"Self Planetfall",
 				"Scout",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Mounted; Terminators counts as two units each."
+			"notes": "May transport two infantry units; Terminators counts as two units each. May in addition transport one Land Speeder or one Dreadnought."
 		},
 		{
 			"name": "Ravenwing Nephilim Interceptor",
@@ -2047,6 +2079,20 @@
 				"Transport"
 			],
 			"notes": "May transport four infantry units. These may only deploy on to the battlefield using Teleport"
+		},
+		{
+			"name": "Dark Hunter Class Destroyer",
+			"type": "SC",
+			"weapons": [{
+				"name": "Orbital Bombardment",
+				"modes": [{
+					"firepower": "1BP, MW"
+				}]
+			}],
+			"specialRules": [
+				"Transport"
+			],
+			"notes": "May transport six Corvus Blackstars and four Thunderhawk Transporters along with any units transported in these."
 		},
 		{
 			"name": "Strike Cruiser",
