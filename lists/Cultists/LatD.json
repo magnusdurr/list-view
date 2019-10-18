@@ -9,8 +9,6 @@
     [
       "Summoning",
       "Lost and the Damned Summoning Rules",
-      "Augment Summoning (+x)",
-      "Daemonic Focus",
       "Fickle Masters",
       "Infestation",
       "LatD Eternal Animosity"
@@ -38,6 +36,8 @@
               "Plague Zombies of Nurgle"
           ],
           "unitRules": [
+              "Augment Summoning (+x)",
+              "Daemonic Focus"
           ]
       },
     {
@@ -237,12 +237,12 @@
         {
           "name": "Lesser Daemon Pool",
           "units": "Any amount of Lesser Daemon Pool points",
-          "points": 15
+          "points": "15 points each"
       },
       {
         "name": "Greater Daemon Pool",
         "units": "Any amount of Greater Daemon Pool points.",
-        "points": 50
+        "points": "50 points each"
       }
     ]
 }
