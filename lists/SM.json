@@ -212,7 +212,7 @@
 			"name": "Watch Commander",
 			"type": "CH",
 			"weapons": [
-				"Heavy Thunder Hammer"
+				"Power Weapon"
 			],
 			"specialRules": [
 				"Invulnerable Save",
@@ -345,9 +345,10 @@
 			"speed": 15,
 			"armour": 4,
 			"cc": 5,
-			"ff": 3,
+			"ff": 5,
 			"weapons": [
-				"Dragonfire Heavy Bolter|2|"
+				"Dragonfire Heavy Bolter",
+				"Frag Cannon"
 			]
 		},
 		{
@@ -452,7 +453,7 @@
 			"speed": 15,
 			"armour": 4,
 			"cc": 4,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Dragonfire Heavy Bolter"
 			]
@@ -573,12 +574,12 @@
 			"cc": 3,
 			"ff": 5,
 			"weapons": [
+				"Assault Cannon",
 				"Frag Cannon",
-				"Thunder Hammers and Storm Shields"
+				"Power Weapons"
 			],
 			"specialRules": [
 				"Reinforced Armour",
-				"Invulnerable Save",
 				"Teleport",
 				"Thick Rear Armour"
 			]
@@ -685,7 +686,7 @@
 			]
 		},
 		{
-			"name": "Deathwatch Assault Veterans",
+			"name": "Deathwatch Assaults",
 			"type": "INF",
 			"speed": 30,
 			"armour": 4,
@@ -958,7 +959,7 @@
 			]
 		},
 		{
-			"name": "Deathwatch Land Speeder",
+			"name": "Deathwatch Land Speeder Tornado",
 			"type": "LV",
 			"speed": 35,
 			"armour": 4,
@@ -1904,6 +1905,16 @@
 			]
 		},
 		{
+			"name": "Deathwatch Storm Talon Gunship",
+			"type": "AC",
+			"speed": "Fighter",
+			"armour": 5,
+			"weapons": [
+				"AC Twin Assault Cannons||FwA",
+				"AC Twin Dragonfire Heavy Bolters||FxF"
+			]
+		},
+		{
 			"name": "Grey Knight Storm Talon Gunship",
 			"type": "AC",
 			"speed": "Fighter",
@@ -1940,18 +1951,18 @@
 			"name": "Corvus Blackstar Dropship",
 			"type": "AC/WE",
 			"speed": "Fighter-Bomber",
-			"armour": 4,
+			"armour": 3,
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
 				"AC Twin Assault Cannons||FxF",
-				"AC Blackstar Rockets"
+				"AC Blackstar Rockets",
+				"Blackstar Hurricane Bolters"
 			],
 			"specialRules": [
-				"Damage Capacity 1",
+				"Damage Capacity 2",
 				"Wings of the Sky Angel",
 				"Self Planetfall",
-				"Scout",
 				"Transport"
 			],
 			"notes": "May transport two infantry units; Terminators counts as two units each. May in addition transport one Land Speeder or one Dreadnought."
@@ -2024,8 +2035,26 @@
 			],
 			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
 			"crit": "The unit and all units being carried are destroyed."
-
-
+		},
+		{
+			"name": "Deathwatch Thunderhawk Transporter",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"AC Twin Dragonfire Heavy Bolters|2|Left",
+				"AC Twin Dragonfire Heavy Bolters|2|Right"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
+			"crit": "The unit and all units being carried are destroyed."
 		},
 		{
 			"name": "Grey Knight Thunderhawk Transporter",

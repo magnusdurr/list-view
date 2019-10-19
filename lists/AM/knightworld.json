@@ -40,7 +40,7 @@
       "from": "IG.json",
       "units": [
         "PDF Commander",
-        "PDF Infantry",
+        "PDF Conscripts",
         "Thudd Gun",
         "Rapier",
         "Snipers",
@@ -120,7 +120,7 @@
       "formations": [
         {
           "name": "Planetary Defense Company",
-          "units": "One PDF Commander, eleven PDF Infantry",
+          "units": "One PDF Commander, eleven PDF Conscripts",
           "upgrades": [
               "Thudd Guns", "Rapiers", "Snipers", "Entrenchments"
           ],
@@ -149,7 +149,7 @@
     },
     {
             "name": "Motorized PDF Platoon",
-            "units": "Six PDF Infantry, three Land Transporters",
+            "units": "Six PDF Conscripts, three Land Transporters",
             "upgrades": [
             ],
             "points": 150
