@@ -216,6 +216,7 @@
 			],
 			"specialRules": [
 				"Invulnerable Save",
+				"Teleport Homer",
 				"Supreme Commander"
 			]
 		},
@@ -463,8 +464,10 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 2,
+			"cc": 4,
+			"ff": 4,
 			"weapons": [
+				"Bolters",
 				"Heavy Thunder Hammers"
 			]
 		},
@@ -814,9 +817,13 @@
 			"speed": 35,
 			"armour": 4,
 			"cc": 5,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Dragonfire Heavy Bolter"
+			],
+			"specialRules": [
+				"Teleport Homer",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -971,7 +978,9 @@
 			],
 			"specialRules": [
 				"Scout",
-				"Skimmer"
+				"Skimmer",
+				"Teleport Homer",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -1620,6 +1629,21 @@
 			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted."
 		},
 		{
+			"name": "Deathwatch Razorback",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Twin Dragonfire Heavy Bolter"
+			],
+			"specialRules": [
+				"Transport"
+			],
+			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted."
+		},
+		{
 			"name": "Grey Knight Razorback",
 			"type": "AV",
 			"speed": 30,
@@ -1961,11 +1985,12 @@
 			],
 			"specialRules": [
 				"Damage Capacity 2",
+				"Planetfall",
 				"Wings of the Sky Angel",
-				"Self Planetfall",
+				"Teleport Homer",
 				"Transport"
 			],
-			"notes": "May transport three infantry units without Jump Packs or Mounted. Terminators count as one and a half units each, rounding up. May in addition transport one Land Speeder or one Dreadnought."
+			"notes": "May transport three infantry units or Attack Bikes. Terminators count as one and a half units each, rounding up. May in addition transport one Dreadnought or Land Speeder."
 		},
 		{
 			"name": "Ravenwing Nephilim Interceptor",
@@ -2051,6 +2076,7 @@
 				"Damage Capacity 2",
 				"Planetfall",
 				"Reinforced Armour",
+				"Teleport Homer",
 				"Transport"
 			],
 			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
@@ -2121,7 +2147,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport six Corvus Blackstars and four Thunderhawk Transporters along with any units transported in these."
+			"notes": "May transport four infantry units. These may only deploy on to the battlefield using Teleport. May in addition transport six Corvus Blackstars and four Thunderhawk Transporters along with any units these transport."
 		},
 		{
 			"name": "Strike Cruiser",

@@ -4,8 +4,8 @@
 	"version": "0.6.0",
 	"release": "2019-10-18",
 	"strategy": "Deathwatch armies have a Strategy Rating of 5.",
-	"Initiative": "Planetary Defense Force Formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
-	"specialRules": ["Ad Hoc Detachments", "Self Planetfall", "Wings of the Sky Angel"],
+	"Initiative": "Ordo Xenos and Planetary Defense Force formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
+	"specialRules": ["Ad Hoc Detachments", "Teleport Homer", "Wings of the Sky Angel"],
 	"usage": [
 		"The following army list allows you to field an army based on Ordo Xenos with Deathwatch allies"
 	],
@@ -14,6 +14,7 @@
 			"units": [
 				"Ordo Xenos Inquisitor Lord",
 				"Ordo Xenos Inquisitor",
+				"Ordo Xenos Acolytes",
 				"Arbitrators",
 				"Arbites Repressor"
 			],
@@ -33,14 +34,12 @@
 				"Deathwatch Devastators",
 				"Deathwatch Terminators",
 				"Deathwatch Dreadnought",
+				"Deathwatch Attack Bike",
 				"Deathwatch Land Speeder Tornado",
-				"Assault Bikes",
-				"Rhino",
 				"Land Raider Crusader",
 				"Corvus Blackstar Dropship",
 				"Deathwatch Thunderhawk Transporter",
-				"Strike Cruiser",
-                "Drop Pod"
+				"Dark Hunter Class Destroyer"
 			],
 			"unitRules": [
 				"They Shall Know No Fear"
@@ -49,6 +48,8 @@
 		{
 			"from": "IG.json",
 			"units": [
+				"Vulture",
+				"Vendetta",
 				"PDF Conscripts",
 				"Flakk Team",
 				"Thudd Gun",
@@ -74,33 +75,24 @@
                 ]
             },
         {
-			"name": "Deathwatch Core Formations",
+			"name": "Deathwatch Detachments",
 			"description": "",
 			"formations": [
-				{
-				"name": "0-1 Ordo Xenos Inquisitor Retinue",
-				"units": "Ordo Xenos Inquisitor, nine Arbitrators, five Arbites Repressors",
-				"extraUnits": [
-					"Supreme Commander",
-					"Add three Leman Russ Thunderers: 125 points"
-					],
-				"points": 300
-			},
 				{
 					"name": "Deathwatch Kill-Team",
 					"units": "One Watch Sergeant, three Deathwatch Tacticals plus transport",
 					"extraUnits": [
-						"Replace one Deathwatch Tacticals with one Deathwatch Black Shields: Free",
-						"Replace one Deathwatch Tacticals with one Deathwatch Devastators: 25 points",
-						"Add one Deathwatch Dreadnought or a Land Raider Crusader: 50 points",
+						"Replace three Deathwatch Tacticals with three Deathwatch Black Shields: Free",
+						"Replace three Deathwatch Tacticals with three Deathwatch Devastators: 50 points",
 						"Supreme Commander",
-						"Deathwatch Specialists"
+						"Deathwatch Specialists",
+						"Deathwatch Support"
 					],
 					"points": 175
 				},
 				{
 					"name": "Deathwatch Attack",
-					"units": "One Watch Sergeant, three Assault Bikes, one Deathwatch Land Speeder Tornado",
+					"units": "One Watch Sergeant, three Deathwatch Attack Bikes, one Deathwatch Landspeeder Tornado",
 					"extraUnits": [
 						"Supreme Commander",
 						"Deathwatch Specialists"
@@ -111,6 +103,7 @@
 					"name": "Deathwatch Assaults",
 					"units": "One Watch Sergeant, three Deathwatch Assaults",
 					"extraUnits": [
+						"Add one Deathwatch Landspeeder Tornado: 25 points",
 						"Supreme Commander",
 						"Deathwatch Specialists"
 					],
@@ -120,18 +113,47 @@
 						"name": "Deathwatch Terminators",
 						"units": "One Watch Sergeant, two Deathwatch Terminators",
 						"extraUnits": [
-							"Add one Deathwatch Dreadnought or a Land Raider Crusader: 50 points",
 							"Supreme Commander",
-							"Deathwatch Specialists"
+							"Deathwatch Specialists",
+							"Deathwatch Support"
 						],
 						"points": 200
+					},
+					{
+						"name": "1 Dark Hunter",
+						"units": "One Dark Hunter Class Destroyer",
+						"extraUnits": [],
+						"points": 75
 					}
 			]
 		},
 		{
-			"name": "Planetary Defense Force Formations",
-			"description": "One Planetary Defence Force Formation may be taken per Deathwatch Core Formation.",
+			"name": "Ordo Xenos Formations",
+			"description": "One Ordo Xenos Formation may be taken per Deathwatch Core Formation.",
 			"formations": [
+				{
+				"name": "0-1 Ordo Xenos Inquisitor Task Force",
+				"units": "Ordo Xenos Inquisitor, nine Arbitrators, five Arbites Repressors",
+				"extraUnits": [
+					"Supreme Commander",
+					"Add three Leman Russ Thunderers: 125 points"
+					],
+				"points": 275
+			},
+				{
+			  "name": "Ordo Xenos Acolytes",
+			  "units": "Three Ordo Xenos Acolytes, three Vendettas",
+			  "extraUnits": [
+			  ],
+			  "points": 225
+		  },
+			  {
+			"name": "Vulture Squadron",
+			"units": "Three Vultures",
+			"extraUnits": [
+			],
+			"points": 225
+		},
 					{
 		          "name": "Planetary Defense Platoon",
 		          "units": "Six PDF Conscripts, three Land Transporters",
@@ -157,8 +179,8 @@
 			]
 		},
 		{
-			"name": "Deathwatch Navy Detachments",
-			"description": "Up to a third of the points available may be spent on Deathwatch Navy Detachments",
+			"name": "Deathwatch Drop Detachments",
+			"description": "Up to a third of the points available may be spent on Deathwatch Drop Detachments",
 			"formations": [
 				{
 					"name": "Corvus Dropship",
@@ -169,13 +191,7 @@
 					"name": "Thunderhawk Transporter",
 					"units": "One Deathwatch Thunderhawk Transporter",
 					"extraUnits": [
-					],
-					"points": 200
-				},
-				{
-					"name": "0–1 Orbital Support",
-					"units": "Strike Cruiser",
-					"extraUnits": [],
+						],
 					"points": 200
 				}
 			]
@@ -185,17 +201,22 @@
 		"title": "Upgrades",
 		"description": "Each upgrade may be taken once per formation",
 		"items": [
-
+			{
+				"name": "0-1 Supreme Commander",
+				"description": "Replace an Ordo Xenos Inquisitor with an Ordo Xenos Inquisitor Lord, or a Watch Sergeant with a Watch Commander",
+				"points": ["Inquisitor Lord: 50 points", "Watch Commander: 100 points"]
+			},
 		{
 				"name": "Deathwatch Specialists",
 				"description": "Add a Chaplain or Librarian to an Infantry unit.",
 				"points": "50 points"
 			},
 			{
-				"name": "0-1 Supreme Commander",
-				"description": "Replace an Ordo Xenos Inquisitor with an Ordo Xenos Inquisitor Lord, or a Watch Sergeant with a Watch Commander for 75 points",
-				"points": ["Inquisitor Lord: 50 points", "Watch Commander: 75 points"]
+				"name": "Deathwatch Support",
+				"description": "Add either one Deathwatch Dreadnought or a Land Raider Crusader to the formation.",
+				"points": ["Deathwatch Dreadnought: 25 points", "Land Raider Crusader: 25 points"]
 			}
+
 		]
 	}
 }
