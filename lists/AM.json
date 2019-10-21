@@ -5,7 +5,7 @@
         {
           "title": "Machine Spirit",
           "description": [
-            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
+            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations have their Initiative Rating reduced to 3+, and may only contest objectives."
           ]
         },
     {
@@ -224,7 +224,7 @@
           "name": "Kastelan Robot",
           "type": "LV",
           "speed": 15,
-          "armour": 4,
+          "armour": 5,
           "cc": 5,
           "ff": 5,
           "weapons": [
@@ -242,7 +242,7 @@
           "name": "Castellax Battle-Automata",
           "type": "LV",
           "speed": 10,
-          "armour": 3,
+          "armour": 4,
           "cc": 5,
           "ff": 4,
           "weapons": [
