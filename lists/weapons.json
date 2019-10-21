@@ -1089,7 +1089,7 @@
       "name": "AC Xiphon Rotary Missile Launcher",
       "modes": [
         {
-          "firepower": "AP5+",
+          "firepower": "AP5+/AT6+",
           "range": 30
         }
       ]
@@ -9327,6 +9327,15 @@
         {
           "firepower": "4x AP5+/AT3+",
           "range": 60
+        }
+      ]
+    },
+    {
+      "name": "AC Turbo Blaster",
+      "modes": [
+        {
+          "firepower": "4x AP5+/AT3+",
+          "range": 45
         }
       ]
     },

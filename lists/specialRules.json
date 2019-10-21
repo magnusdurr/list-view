@@ -261,7 +261,7 @@
         "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
         "Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.",
         "Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.",
-        "In addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the Drop Pods from.",
+        "In addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require a Space Marine Strike Cruiser or Battle Barge to deploy the Drop Pods from.",
         "Before each game, after the opposing army is known but before objectives are placed, the Space Marine player may choose which formations with the plus transport aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
       ]
     },
@@ -279,7 +279,7 @@
         "The Grey Knights are few in number, but compensates by being exceptionally well equipped and adaptive in their tactics. Because of this, the points cost of a Grey Knight Detachment usually includes enough Grey Knight Rhinos, Razorbacks, Land Raiders or Land Raider Redeemers to transport them. The number of such Grey Knight transport vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
         "Detachments that come with Grey Knight transport vehicles will be noted as having plus transport in the units section of the army list opposite.",
         "Also note that you don’t have to take Grey Knight transport vehicles if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Landing Craft, then you may do so.",
-        "In addition, you may choose to replace a detachment’s transport vehicles with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the Drop Pods from.",
+        "In addition, you may choose to replace a detachment’s transport vehicles with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require a Space Marine Strike Cruiser or Battle Barge to deploy the Drop Pods from.",
         "Before each game, after the opposing army is known but before objectives are placed, the Grey Knight player may choose which formations with the plus transport aspect are deployed in Grey Knight transport vehicles, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
       ]
     },
@@ -401,8 +401,7 @@
     {
       "title": "Seers of Ulthwé",
       "description": [
-        "Ulthwe armies have a Strategy Rating of 4. However for all deployment purposes (such as choosing teleport order or picking spaceship arrival turn) Ulthwe armies count as having a Strategy Rating of 5."
-      ]
+            "Craftworld Ulthwé armies count as having Strategy Rating 5 for all purposes except for determining who may choose to activate first during a turn."      ]
     },
     {
       "title": "Black Guardians",
@@ -698,8 +697,6 @@
        "description": [
            "All Alpha Legion Cultist formations worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
            "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
-           "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
            "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
        ]
      },
@@ -797,7 +794,7 @@
        "description": [
          "Dreadclaws allow Alpha Legion formations to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
 
-         "The following units may be deployed using Dreadclaws: Alpha Legion Marines, Alpha Legion Havocs, Headhunters, Lernaean Terminators, Alpha Legion Dreadnoughts."
+         "The following units may be deployed using Dreadclaws: Alpha Legion Marines, Alpha Legion Flakk Havocs, Headhunters, Lernaean Terminators, Alpha Legion Dreadnoughts."
        ]
      },
 
@@ -926,7 +923,7 @@
         {
         "title": "The Harrowing",
         "description": [
-          "Alpha Legion armies have a Strategy Rating of 4. However, for all deployment purposes (such as determining teleport order or picking spaceship arrival turn) Alpha Legion armies count as having a Strategy Rating of 5."
+            "Alpha Legion armies count as having Strategy Rating 5 for all purposes except for determining who may choose to activate first during a turn."
       ]
        },
        {
@@ -939,19 +936,14 @@
       {
       "title": "Alpha Legion Transports",
       "description": [
-          "The Alpha Legion are masters of strategy and will seek to tailor their attack to the enemy. Because of this, the points cost of a formation usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
-          "Formations that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.",
+          "The Alpha Legion are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
+          "Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.",
           "Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.",
-          "In addition, you may choose to replace a formation’s Rhinos with Dreadclaws. If you do this then the detachment will enter play in a Dreadclaws using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Alpha Legion Strike Cruiser to deploy the Dreadclaws from.",
-          "Before each game, after the opposing army is known but before objectives are placed, the Alpha Legion player may choose which formations with the plus transport aspect are deployed in Rhinos, Dreadclaws or on foot. If the formation has any units unable to deploy in Dreadclaws then that option cannot be selected."
+          "In addition, you may choose to replace a detachment’s Rhinos with Dreadclaws. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require a Alpha Legion Strike Cruiser deploy the Dreadclaws from.",
+          "Before each game, after the opposing army is known but before objectives are placed, the Alpha Legion player may choose which formations with the plus transport aspect are deployed in Rhinos, Dreadclaws or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
     ]
      },
-     {
-     "title": "'I'm Alpharius!'",
-     "description": [
-       "The Alpha Legion puts great emphasis on mission command, and its Lords are obsessive about their anonymity and obscurity. The Alpha Legion has access to a Supreme Commander re-roll as long as at least one Alpha Legion Lord in the army is alive. All Alpha Legion Lords are considered to be the Supreme Commander for the purposes of determining where it is located."
-   ]
-    },
+
 
 
 

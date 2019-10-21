@@ -76,7 +76,6 @@
           "Power Weapon"
         ],
         "specialRules": [
-          "'I'm Alpharius!'",
           "Commander",
           "Leader",
           "Invulnerable Save"
@@ -348,14 +347,14 @@
         ]
       },
       {
-        "name": "Alpha Legion Flakk Havocs",
+        "name": "Alpha Legion Havocs",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 5,
-        "ff": 4,
+        "ff": 3,
         "weapons": [
-          "Flakk Missile Launcher|2|"
+          "Autocannon|2|"
       ],
       "specialRules": [
           "Stubborn"
@@ -383,11 +382,11 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Heavy Bolter",
           "Banestrike Combi-Bolters"
       ],
       "specialRules": [
           "Stubborn",
+          "Infiltrators",
           "Scout",
           "Sabotage"
       ]
@@ -979,7 +978,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Twin Volkite Culvertin",
+          "Plasma Cannon",
           "Power Fist"
         ],
         "specialRules": [
@@ -1087,7 +1086,7 @@
     "cc": 5,
     "ff": 4,
     "weapons": [
-      "Battle Cannon||FxF",
+      "AC Turbo Blaster||FxF",
       "AC Twin Heavy Bolters|2|FxF",
       "AC Twin Heavy Bolters||Left",
       "AC Twin Heavy Bolters||Right"
@@ -1101,26 +1100,6 @@
     ],
     "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
     },
-    {
-      "name": "Alpha Legion Thunderhawk Transporter",
-      "type": "AC/WE",
-      "speed": "Bomber",
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "AC Twin Heavy Bolters|2|Left",
-        "AC Twin Heavy Bolters|2|Right"
-      ],
-      "specialRules": [
-        "Damage Capacity 2",
-        "Stubborn",
-        "Planetfall",
-        "Reinforced Armour",
-        "Transport"
-      ],
-      "notes": "May carry up to two of the following: Stalkers, Predators, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles. Critical Hit Effect: The unit and all units being carried are destroyed."
-  },
   {
     "name": "Alpha Legion Strike Cruiser",
     "type": "SC",

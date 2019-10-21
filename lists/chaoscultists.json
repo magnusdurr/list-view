@@ -108,7 +108,24 @@
             "Commander"
         ]
     },
-
+    {
+      "name": "Alpha Legion Daemon Prince",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+          "Warp Bolt",
+          "Æther Blade"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Reinforced Armour",
+        "Fearless",
+        "Daemonic Focus"
+      ]
+    },
       {
         "name": "Daemon Prince",
         "type": "INF",
@@ -124,7 +141,6 @@
           "Supreme Commander",
           "Reinforced Armour",
           "Jump Pack",
-          "Teleport",
           "Fearless",
           "Daemonic Focus"
         ]
@@ -154,6 +170,23 @@
           ],
           "specialRules": [
               ]
+      },
+      {
+        "name": "Cultist Cavalry",
+        "type": "INF",
+        "speed": 20,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Laspistols",
+          "Chainswords"
+        ],
+        "specialRules": [
+          "Infiltrators",
+          "Mounted",
+          "Walker"
+        ]
       },
       {
         "name": "Big Mutants",
@@ -215,7 +248,7 @@
         ],
               "notes": "May not be transported."
     },
-        {
+            {
           "name": "Land Transporter",
           "type": "LV",
           "speed": 30,

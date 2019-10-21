@@ -1,18 +1,18 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Alpha Legion",
-  "version": "0.6.2",
-  "release": "2019-10-11",
-  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "Alpha Legion Detachments have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.7.0",
+  "release": "2019-10-21",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Alpha Legion armies are also subject to 'The Harrowing' special rule.",
+  "Initiative": "Cultist Coven and Cultist Support formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
 
   "specialRules": [
       "The Harrowing",
       "Sabotage",
-      "Stubborn",
-      "'I'm Alpharius!'",
-      "Alpha Legion Transports",
-      "Alpha Legion Dreadclaws"
+      "Alpha Legion Dreadclaws",
+      "Summoning",
+      "Alpha Legion Summoning Rules",
+      "Fickle Masters"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Alpha Legion with Traitor Imperial Guard allies."
@@ -24,30 +24,33 @@
           "Alpha Legion Lord",
           "Alpha Legion Sorcerer",
           "Alpha Legion Marines",
-          "Alpha Legion Flakk Havocs",
+          "Alpha Legion Havocs",
           "Headhunters",
           "Alpha Legion Destroyers",
           "Lernaean Terminators",
           "Alpha Legion Dreadnought",
-          "Alpha Legion Predator",
           "Alpha Legion Rhino",
-          "Alpha Legion Laser Vindicator",
           "Alpha Legion Land Raider",
           "Alpha Legion Xiphon Interceptor",
           "Alpha Legion Thunderhawk",
-          "Alpha Legion Thunderhawk Transporter",
           "Alpha Legion Strike Cruiser"
       ],
       "unitRules": [
-          "Lance"
+          "Stubborn"
       ]
       },
     {
       "from": "chaoscultists.json",
       "units": [
-        "Mutants",
-        "Chaos Hounds",
-        "Land Transporter"
+          "Alpha Legion Daemon Prince",
+          "Aspiring Champion",
+          "Icon Bearer",
+          "Cultists",
+          "Mutants",
+          "Big Mutants",
+          "Chaos Hounds",
+          "Chaos Spawn",
+          "Land Transporter"
       ],
         "unitRules": [
           ]
@@ -55,51 +58,89 @@
     {
       "from": "IG.json",
       "units": [
-        "Infantry",
-        "Chimera",
-        "Hydra",
-        "Leman Russ",
-        "Baneblade",
-        "Shadowsword"
+          "Death Riders",
+          "Heavy Mortar",
+          "Hydra",
+          "Ragnarok Heavy Tank",
+          "Macharius"
       ],
         "unitRules": [
-
-
           ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Daemonettes of Slaanesh",
+        "Plaguebearers of Nurgle",
+        "Bloodletters of Khorne",
+        "Horrors of Tzeench",
+        "Daemonic Beasts of Chaos Undivided"
+      ],
+      "unitRules": [
+    ]
     }
 ],
 "sections": [
     {
-      "name": "Alpha Legion Core Detachments",
+      "name": "Daemon Pool",
       "formations": [
-        {
-          "name": "Alpha Legion Marines",
-          "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, six Alpha Legion Marines plus transport",
-          "extraUnits": [
-              "Flakk Havocs",
-              "Land Raiders",
-              "Dreadnoughts",
-              "Predators"
-          ],
-          "points": 275
+      {
+        "name": "Lesser Daemon Pool",
+        "units": "Any amount of Lesser Daemon Pool points",
+        "points": "15 points each"
+    }
+      ]
+  },
+    {
+      "name": "Alpha Legion Cultist Coven Formations",
+      "formations": [
+          {
+            "name": "Cultist Coven",
+            "units": "One Aspiring Champion, seven Chaos Cultists and/or Mutants, Daemonic Pact",
+            "extraUnits": [
+              "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
+              "Add four Chaos Cultists and/or Mutants: 10 points each",
+              "Add up to two Big Mutants: 25 points each",
+              "Add one Icon Bearer: 25 points",
+              "Add one Chaos Spawn: 35 points",
+              "Add up to three Ragnarok Heavy Tanks: 50 points each",
+              "Supreme Commander",
+              "Flak"
+            ],
+            "points": 200
         }
       ]
     },
     {
       "name": "Alpha Legion Elite Detachments",
-      "description": "Up to one Alpha Legion Elite Detachment for each Alpha Legion Core Detachment.",
+      "description": "Up to one Alpha Legion Elite Detachment for each Cultist Coven Formation.",
       "formations": [
+          {
+            "name": "Alpha Legion Marines",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Marines plus transport",
+            "extraUnits": [
+                "Replace two Alpha Legion Marines with two Alpha Legion Havocs: 35 points",
+                "Add up to two Alpha Legion Land Raiders: 50 points each",
+              "Supreme Commander",
+                "Dreadnoughts"
+            ],
+            "points": 200
+        },
           {
             "name": "Destroyers",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Destroyers",
             "extraUnits": [
+              "Supreme Commander"
             ],
             "points": 225
           },
           {
             "name": "Terminators",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators plus transport",
             "extraUnits": [
+                "Add up to three Alpha Legion Land Raiders: 50 points each",
+              "Supreme Commander",
+                "Dreadnoughts"
             ],
             "points": 300
           },
@@ -107,66 +148,42 @@
             "name": "Headhunters",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Headhunters plus transport",
             "extraUnits": [
+              "Supreme Commander",
                 "Dreadnoughts"
             ],
             "points": 225
-          },
-          {
-            "name": "Predators",
-            "units": "Four Alpha Legion Predators",
-            "extraUnits": [
-            ],
-            "points": 250
-          },
-          {
-            "name": "Laser Vindicators",
-            "units": "Four Alpha Legion Laser Vindicators",
-            "extraUnits": [
-            ],
-            "points": 275
           }
-
       ]
     },
   {
-    "name": "Traitor Imperial Guard Allies",
-    "description": "Up to a third of the points available may be spent on Traitor Imperial Guard Allies.",
+    "name": "Cultist Support Formations",
+    "description": "Up to one Cultist Support Formations per Cultist Coven Formation",
     "formations": [
         {
-          "name": "Mechanized Traitor Platoon",
-          "units": "Six Infantry units, three Chimeras",
-          "extraUnits": [
-              "Hydras",
-              "Mutants",
-              "Chaos Hounds"
-              ],
-              "points": 225
-          },
-        {
-        "name": "Super-Heavy Platoon",
-        "units": "One Baneblade",
+        "name": "Cultist Cavalry",
+        "units": "Six Death Riders, four Chaos Hounds, Daemonic Pact",
         "extraUnits": [
-            "Replace the Baneblade with a Shadowsword: 25 points"
         ],
-        "points": 175
+        "points": 225
       },
         {
-          "name": "Artillery Battery",
-          "units": "Three Basilisks",
+          "name": "Heavy Mortar Battery",
+          "units": "Three Heavy Mortars, two Big Mutants",
           "extraUnits": [
+              "Flak"
           ],
-          "points": 225
+          "points": 200
       },
       {
-        "name": "Leman Russ Platoon",
-        "units": "Six Leman Russ",
+        "name": "Macharius Squadron",
+        "units": "Two Macharius",
         "extraUnits": [
+              "Flak"
             ],
-            "points": 350
+            "points": 200
         }
-
       ]
-    },
+  },
   {
     "name": "Alpha Legion Navy",
     "description": "Up to a third of the points available may be spent on Alpha Legion Navy.",
@@ -176,22 +193,14 @@
           "units": "Two Alpha Legion Xiphon Interceptors",
           "extraUnits": [
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Thunderhawk",
           "units": "One Alpha Legion Thunderhawk",
           "extraUnits": [
           ],
-          "points": 200
-        },
-        {
-          "name": "Thunderhawk Transporters",
-          "units": "One Alpha Legion Thunderhawk Transporter",
-          "extraUnits": [
-              "Transporter"
-          ],
-          "points": 175
+          "points": 225
         },
         {
           "name": "Strike Cruiser",
@@ -208,79 +217,41 @@
     "title": "Alpha Legion Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
+        {
+      "name": "0-1 Supreme Commander",
+      "options": [
+        {
+          "description": "Choose one of the following options:",
+          "points": ""
+      },
       {
-        "name": "Flakk Havocs",
+        "description": "Replace one Aspiring Champion with an Alpha Legion Daemon Prince",
+        "points": "100 points"
+    },
+      {
+        "description": "'I'm Alpharius!' The army benefits from the Supreme Commander rule as long as there is at least one Alpha Legion Lord on the battlefield.",
+        "points": "75 points"
+      }
+      ]
+  },
+          {
+        "name": "Flak",
         "options": [
           {
-            "description": "Replace two Alpha Legion Marines with Alpha Legion Flakk Havocs",
+            "description": "Add one Hydra",
             "points": "50 points"
           }
         ]
-      },
-      {
-        "name": "Land Raiders",
-        "options": [
+        },
           {
-            "description": "Add up to three Alpha Legion Land Raiders",
-            "points": "50 points each"
-          }
-        ]
-      },
-      {
-        "name": "Predators",
-        "options": [
-          {
-            "description": "Add up to two Alpha Legion Predators",
-            "points": "50 points each"
-          }
-        ]
-      },
-      {
         "name": "Dreadnoughts",
         "options": [
           {
             "description": "Add up to two Alpha Legion Dreadnoughts",
-            "points": "50 points for one, 75 points for two"
+            "points": ["50 points for one", "75 points for two"]
           }
         ]
-      },
-      {
-        "name": "Transporter",
-        "options": [
-          {
-            "description": "Add one Alpha Legion Thunderhawk Transporter",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Hydras",
-        "options": [
-          {
-            "description": "Add up to two Hydras",
-            "points": "50 points each"
-          }
-        ]
-      },
-      {
-        "name": "Mutants",
-        "options": [
-          {
-            "description": "Add four Mutants and two Land Transporters",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Chaos Hounds",
-        "options": [
-          {
-            "description": "Add three Chaos Hounds",
-            "points": "25 points"
-          }
-        ]
-    }
-
+      }
   ]
 }
 }
