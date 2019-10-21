@@ -82,32 +82,22 @@
 ],
 "sections": [
     {
-      "name": "Daemon Pool",
-      "formations": [
-      {
-        "name": "Lesser Daemon Pool",
-        "units": "Any amount of Lesser Daemon Pool points",
-        "points": "15 points each"
-    }
-      ]
-  },
-    {
       "name": "Alpha Legion Cultist Coven Formations",
       "formations": [
           {
             "name": "Cultist Coven",
-            "units": "One Aspiring Champion, seven Chaos Cultists and/or Mutants, Daemonic Pact",
+            "units": "One Aspiring Champion, nine Chaos Cultists and/or Mutants, Daemonic Pact",
             "extraUnits": [
               "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
               "Add four Chaos Cultists and/or Mutants: 10 points each",
-              "Add up to two Big Mutants: 25 points each",
+              "Replace up to six Chaos Cultists and/or Mutants with Big Mutants: 15 points each",
               "Add one Icon Bearer: 25 points",
               "Add one Chaos Spawn: 35 points",
               "Add up to three Ragnarok Heavy Tanks: 50 points each",
               "Supreme Commander",
               "Flak"
             ],
-            "points": 200
+            "points": 225
         }
       ]
     },
@@ -210,7 +200,17 @@
           "points": 200
         }
     ]
-}
+        },
+        {
+          "name": "Daemon Pool",
+          "formations": [
+          {
+            "name": "Lesser Daemon Pool",
+            "units": "Any amount of Lesser Daemon Pool points",
+            "points": "15 points each"
+        }
+          ]
+        }
 
   ],
   "upgrades": {

@@ -55,7 +55,7 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-            "Heavy Weapons",
+            "Grenade Launchers",
             "Daemon Weapon",
             "Warp Bolt"
         ],
@@ -124,7 +124,8 @@
         "Reinforced Armour",
         "Fearless",
         "Daemonic Focus"
-      ]
+    ],
+    "notes": "Counts as two units of INF for the purpose of being transported."
     },
       {
         "name": "Daemon Prince",
@@ -152,7 +153,7 @@
         "cc": 5,
         "ff": 6,
         "weapons": [
-            "Heavy Weapons"
+            "Grenade Launchers"
         ],
         "specialRules": [
             ]
@@ -196,8 +197,8 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-            "Massive Melee Weapons",
-            "Heavy Weapons|2|"
+            "Heavy Stubber|2|",
+            "Massive Melee Weapons"
         ],
         "specialRules": [
 
