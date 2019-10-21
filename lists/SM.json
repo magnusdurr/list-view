@@ -215,9 +215,11 @@
 				"Power Weapon"
 			],
 			"specialRules": [
-				"Invulnerable Save",
-				"Teleport Homer",
-				"Supreme Commander"
+				"Supreme Commander",
+				"Fearless",
+				"Invulnerable Save"
+
+
 			]
 		},
 		{
@@ -1321,24 +1323,7 @@
 			],
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
-		{
-			"name": "Deathwatch Land Raider",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 6,
-			"ff": 4,
-			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Dragonfire Heavy Bolters"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
-		},
+
 		{
 			"name": "Land Raider Redeemer",
 			"type": "AV",
@@ -1463,6 +1448,25 @@
 			"specialRules": [
 				"Reinforced Armour",
 				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport three infantry units without Jump Packs or Mounted. Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Deathwatch Land Raider",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Twin Dragonfire Heavy Bolters",
+				"Hurricane Bolters|2"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Teleport Homer",
 				"Transport"
 			],
 			"notes": "May transport three infantry units without Jump Packs or Mounted. Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
@@ -1987,7 +1991,6 @@
 				"Damage Capacity 2",
 				"Planetfall",
 				"Wings of the Sky Angel",
-				"Teleport Homer",
 				"Transport"
 			],
 			"notes": "May transport three infantry units or Attack Bikes. Terminators count as one and a half units each, rounding up. May in addition transport one Dreadnought or Land Speeder."
@@ -2076,7 +2079,6 @@
 				"Damage Capacity 2",
 				"Planetfall",
 				"Reinforced Armour",
-				"Teleport Homer",
 				"Transport"
 			],
 			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",

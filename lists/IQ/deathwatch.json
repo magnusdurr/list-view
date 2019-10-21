@@ -36,7 +36,7 @@
 				"Deathwatch Dreadnought",
 				"Deathwatch Attack Bike",
 				"Deathwatch Land Speeder Tornado",
-				"Land Raider Crusader",
+				"Deathwatch Land Raider",
 				"Corvus Blackstar Dropship",
 				"Deathwatch Thunderhawk Transporter",
 				"Dark Hunter Class Destroyer"
@@ -53,7 +53,7 @@
 				"PDF Conscripts",
 				"Flakk Team",
 				"Thudd Gun",
-				"Sentinels",
+				"Armoured Sentinel",
 				"Leman Russ",
 				"Leman Russ Thunderer",
 				"Land Transporter"
@@ -80,7 +80,7 @@
 			"formations": [
 				{
 					"name": "Deathwatch Kill-Team",
-					"units": "One Watch Sergeant, three Deathwatch Tacticals plus transport",
+					"units": "One Watch Sergeant, three Deathwatch Tacticals",
 					"extraUnits": [
 						"Replace three Deathwatch Tacticals with three Deathwatch Black Shields: 25 points",
 						"Replace three Deathwatch Tacticals with three Deathwatch Devastators: 50 points",
@@ -88,7 +88,7 @@
 						"Deathwatch Specialists",
 						"Deathwatch Support"
 					],
-					"points": 175
+					"points": 150
 				},
 				{
 					"name": "Deathwatch Attack",
@@ -152,23 +152,23 @@
 		          "name": "Planetary Defense Platoon",
 		          "units": "Six PDF Conscripts, three Land Transporters",
 		          "extraUnits": [
-					  "Replace three Land Transporters with three Thudd Guns or two Flakk Teams: 50 points"
+					  "Replace three Land Transporters with four Thudd Guns or three Flakk Teams: 75 points"
 		          ],
 		          "points": 150
 		      },
 				  {
 				"name": "Leman Russ Squadron",
-				"units": "Four Leman Russ or four Leman Russ Thunderers",
+				"units": "Three Leman Russ or three Leman Russ Thunderers",
 				"extraUnits": [
 				],
-				"points": 250
+				"points": 200
 			},
 				{
-			  "name": "Sentinel Squadron",
-			  "units": "Four Sentinels",
+			  "name": "Armoured Sentinel Squadron",
+			  "units": "Four Armoured Sentinels",
 			  "extraUnits": [
 			  ],
-			  "points": 100
+			  "points": 125
 		  }
 			]
 		},
@@ -198,7 +198,7 @@
 			{
 				"name": "0-1 Supreme Commander",
 				"description": "Replace an Ordo Xenos Inquisitor with an Ordo Xenos Inquisitor Lord, or a Watch Sergeant with a Watch Commander",
-				"points": ["Inquisitor Lord: 50 points", "Watch Commander: 100 points"]
+				"points": ["Inquisitor Lord: 50 points", "Watch Commander: 125 points"]
 			},
 		{
 				"name": "Deathwatch Specialists",
@@ -208,7 +208,7 @@
 			{
 				"name": "Deathwatch Support",
 				"description": "Add either one Deathwatch Dreadnought or a Land Raider Crusader to the formation.",
-				"points": ["Deathwatch Dreadnought: 25 points", "Land Raider Crusader: 25 points"]
+				"points": "50 points"
 			}
 
 		]
