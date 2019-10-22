@@ -32,6 +32,7 @@
           ],
           "specialRules": [
             "Supreme Commander",
+            "Augment Summoning (+1)",
             "Invulnerable Save"
           ]
         },
@@ -58,7 +59,7 @@
             "Supreme Commander",
             "Teleport Homer",
             "Daemonic Pact",
-            "Augmented Summoning (+1D3)",
+            "Augment Summoning (+1D3)",
             "Invulnerable Save"
           ]
         },
@@ -71,6 +72,7 @@
         "specialRules": [
           "Commander",
           "Leader",
+          "Augment Summoning (+1)",
           "Invulnerable Save"
 
         ]
@@ -112,7 +114,7 @@
           "Leader",
           "Teleport Homer",
           "Daemonic Pact",
-          "Augmented Summoning (+1)",
+          "Augment Summoning (+1)",
           "Invulnerable Save"
         ]
       },
@@ -209,7 +211,6 @@
         ],
         "specialRules": [
             "Daemonic Focus",
-            "Augment Summoning (+1)",
             "Invulnerable Save",
             "Leader"
         ]
@@ -231,6 +232,7 @@
           "Jump Pack",
           "Teleport",
           "Fearless",
+          "Augment Summoning (+1)",
           "Daemonic Focus"
         ]
       },
@@ -250,6 +252,7 @@
           "Reinforced Armour",
           "Teleport",
           "Fearless",
+          "Augment Summoning (+1)",
           "Daemonic Focus"
         ]
       },
@@ -267,9 +270,9 @@
         "specialRules": [
           "Supreme Commander",
           "Reinforced Armour",
-          "Invulnerable Save",
           "Teleport",
           "Fearless",
+          "Augment Summoning (+1)",
           "Daemonic Focus"
         ]
       },
@@ -289,6 +292,7 @@
           "Teleport",
           "Fearless",
           "Inspiring",
+          "Augment Summoning (+1)",
           "Daemonic Focus"
         ]
       },
@@ -411,14 +415,28 @@
       ]
       },
       {
+        "name": "World Eaters Destroyers",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Rad Missile Launchers"
+      ],
+      "specialRules": [
+          "Jump Packs"
+      ]
+      },
+      {
         "name": "Alpha Legion Destroyers",
         "type": "INF",
         "speed": 30,
         "armour": 4,
         "cc": 5,
-        "ff": 4,
+        "ff": 3,
         "weapons": [
-          "Rad Missile Launcher|2|"
+          "Rad Missile Launchers"
       ],
       "specialRules": [
           "Stubborn",

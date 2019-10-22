@@ -29,6 +29,7 @@
         "Chaos Space Marines",
         "Skullseeker Terminators",
         "Khorne Berzerkers",
+        "World Eaters Destroyers",
         "Mutilators",
         "Khorne Berzerker Assault Bikes",
         "Juggernaut Riders",
@@ -106,7 +107,7 @@
     },
     {
       "name": "World Eaters Elite Formations",
-      "description": "One Elite formation may be taken per Core formation",
+      "description": "One Elite formation may be taken per Core formation.",
       "formations": [
         {
           "name": "Skullseeker Terminators",
@@ -145,17 +146,15 @@
   },
   {
     "name": "World Eaters Support Formations",
-    "description": "Two Support formations may be taken per Core formation",
+    "description": "Two Support formations may be taken per Core formation.",
     "formations": [
         {
-          "name": "World Eater Renegades",
-          "units": "Four Chaos Space Marines, two Chaos Rhinos, Daemonic Pact",
+          "name": "World Eaters Destroyers",
+          "units": "Four World Eaters Destroyers",
           "extraUnits": [
-            "Replace two Chaos Rhinos with two World Eaters Land Raiders: 75 points",
-            "Predators",
-            "Vindicators"
+            "Daemonic Pact"
           ],
-          "points": 175
+          "points": 225
         },
         {
           "name": "Predator Company",
@@ -206,7 +205,7 @@
     },
         {
       "name": "War Engine and Chaos Navy Formations",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
             "name": "Greater Brass Scorpion",
@@ -247,7 +246,7 @@
   },
       {
         "name": "Daemon Pool",
-        "description": "Any amount may be spent on Daemon Pool points",
+        "description": "Any amount may be spent on Daemon Pool points.",
         "formations": [
             {
               "name": "Lesser Daemon Pool",
@@ -264,7 +263,7 @@
   ],
   "upgrades": {
     "title": "World Eaters Upgrades",
-    "description": "Each upgrade may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
         "name": "Battleship",
