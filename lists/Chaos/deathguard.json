@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Death Guard",
-  "version": "0.7.0",
-  "release": "2019-10-11",
+  "version": "0.7.1",
+  "release": "2019-10-22",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "Death Guard Core and Elite formations, the Vindicator and Chaos Space Marine formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -103,7 +103,7 @@
       "formations": [
         {
           "name": "Death Guard Retinue",
-          "units": "Four Plague Marines, three Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
+          "units": "One Chaos Lord or Sorcerer Lord, four Plague Marines, three Chaos Space Marines",
           "extraUnits": [
             "Supreme Commander",
             "Death Guard Transport",
@@ -113,10 +113,9 @@
             "Icon Bearer",
             "Vindicators",
             "Havocs",
-            "Plague Marines",
             "Dreadnoughts"
           ],
-          "points": 275
+          "points": 300
         }
       ]
     },
@@ -137,7 +136,7 @@
         },
         {
           "name": "Death Guard Terminators",
-          "units": "Four Blightlord Terminators, one Chaos Lord or Sorcerer Lord",
+          "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators",
           "extraUnits": [
               "Supreme Commander",
               "Death Guard Transport",
@@ -160,7 +159,7 @@
           "extraUnits": [
             "Vindicators"
           ],
-          "points": 200
+          "points": 225
       },
       {
         "name": "Chaos Space Marines",

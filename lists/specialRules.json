@@ -9,12 +9,16 @@
     {
       "title": "Machine Spirit",
       "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations have their Initiative Rating reduced to 3+, and may only contest objectives."
+        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
       ]
     },
-
-
     {
+      "title": "Rubric of Ahriman",
+      "description": [
+        "Any formation with at least one unit with Rubic of Ahriman, but that has lost its Sorcerer or Daemon Prince, may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions."
+      ]
+    },
+{
       "title": "Void Shields",
       "description": [
           "Each Void Shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Void Shields, nor allocate Blast Markers. Once all of the shields have been knocked down, the unit may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the unit.",
@@ -634,91 +638,92 @@
      {
        "title": "Black Legion Summoning Rules",
        "description": [
-         "All formations in the Black Legion worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
-         "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeench (1), Daemonic Beasts of Chaos Undivided (1)",
+         "All formations in the Black Legion (except the Cult Marine formation) worship Chaos Undivided. All Chaos Undivided formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+         "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1).",
          "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
+         "Cult Marine formations with Daemonic Pact may only summon Daemons from its own faction or from Chaos Undivided. The Summoning Point cost is (1) for all Lesser Daemons, while Greater Daemons cost the same as for Chaos Undivided.",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
        "title": "Emperor's Children Summoning Rules",
        "description": [
-         "All formations in Emperor's Children worship the Prince of Pleasure, Slaanesh. All formations with Daemonic Pact may summon the following Daemons:",
+         "All formations in Emperor's Children worship the Prince of Pleasure, Slaanesh. All formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
          "Lesser Daemons: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
          "Greater Daemons: Keeper of Secrets (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
        "title": "Death Guard Summoning Rules",
        "description": [
-         "All formations in Death Guard worship the Plague Lord, Nurgle. All formations with Daemonic Pact may summon the following Daemons:",
+         "All formations in Death Guard worship the Plague Lord, Nurgle. All formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
          "Lesser Daemons: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
          "Greater Daemons: Great Unclean One (7)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
        "title": "World Eaters Summoning Rules",
        "description": [
-         "All formations in World Eaters worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons:",
+         "All formations in World Eaters worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
          "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
          "Greater Daemons: Bloodthirster (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
        "title": "Thousand Sons Summoning Rules",
        "description": [
-         "All formations in Thousand Sons worship the Changer of Ways, Tzeench. All formations with either Daemonic Pact or a unit with Daemonic Pact may summon the following Daemons:",
+         "All formations in Thousand Sons worship the Changer of Ways, Tzeench. All formations with either Daemonic Pact or a unit with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
          "Lesser Daemons: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers of Tzeench (2)",
          "Greater Daemons: Lord of Change (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one.",
          "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Aspiring Sorcerer, Exalted Sorcerer, Daemon Prince of Tzeench) or formation with Daemonic Pact."
        ]
      },
      {
        "title": "Lost and the Damned Summoning Rules",
        "description": [
-           "All Chaos Cultists formations in the Lost and the Damned worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
+           "All Chaos Cultists formations in the Lost and the Damned worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
            "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
            "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
            "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
        "title": "Alpha Legion Summoning Rules",
        "description": [
-           "All Alpha Legion Cultist formations worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons:",
+           "All Alpha Legion Cultist formations worship Chaos Undivided. All formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
            "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
        "title": "Slaves to Darkness Summoning Rules",
        "description": [
-           "All formations in the Slaves to Darkness worship Chaos Undivided. All formations with either a Daemonic Icon unit or a Daemonic Pact formation upgrade may summon the following Daemons:",
+           "All formations in the Slaves to Darkness worship Chaos Undivided. All formations with either a Daemonic Icon unit or a Daemonic Pact formation upgrade may summon the following Daemons (brackets indicating the Summoning Points cost):",
            "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one.",
            "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Daemonic Icon) or formation with Daemonic Pact."
        ]
      },
      {
        "title": "Daemonic Incursion Summoning Rules",
        "description": [
-           "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
+           "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so  (brackets indicating the Summoning Points cost):",
            "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
            "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
            "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers  of Tzeench (2)",
            "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one.",
 
            "When calculating Victory Points of the purposes of Tie Break, only the part of the Lesser Daemon Pool that was bought by itself is considered when checking if there is less than half remaining. Lesser Daemon Pool points that was bought as part of a formation are counted towards that formation's starting units."
        ]
@@ -726,25 +731,25 @@
      {
        "title": "TTL Summoning Rules",
        "description": [
-           "Battle, Scout and Daemon Engine formations in a Traitor Titan Legion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
+           "Battle, Scout and Daemon Engine formations in a Traitor Titan Legion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so (brackets indicating the Summoning Points cost):",
            "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
            "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
            "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1)",
            "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
        "title": "QT Summoning Rules",
        "description": [
-           "Daemonic Lance, Daemonic Pack and Traitor Titan formations in a Questor Traitoris army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so.",
+           "Daemonic Lance, Daemonic Pack and Traitor Titan formations in a Questor Traitoris army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so (brackets indicating the Summoning Points cost):",
            "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
            "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
            "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1)",
            "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
 
@@ -825,7 +830,7 @@
         {
        "title": "LatD Eternal Animosity",
        "description": [
-         "Each Support Coven in a Lost and the Damned army owes allegiance to either one of the Gods of Chaos or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "Each Support Coven in a Lost and the Damned army owes allegiance to either one of the Ruinous Powers or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Lost and the Damned army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Lost and the Damned army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
@@ -833,7 +838,7 @@
         {
        "title": "StD Eternal Animosity",
        "description": [
-         "Each Dark Mechanicus allied formation in a Slaves to Darkness army owes allegiance to either one of the Gods of Chaos or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "Each Dark Mechanicus allied formation in a Slaves to Darkness army owes allegiance to either one of the Ruinous Powers or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Slaves to Darkness army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Slaves to Darkness army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
@@ -842,7 +847,7 @@
         {
        "title": "DI Eternal Animosity",
        "description": [
-         "Each Daemon Formation in a Daemonic Incursion army owes allegiance to either one of the Gods of Chaos. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "Each Daemon Formation in a Daemonic Incursion army owes allegiance to either one of the Ruinous Powers. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Daemonic Incursion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Daemonic Incursion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
@@ -850,7 +855,7 @@
         {
        "title": "TTL Eternal Animosity",
        "description": [
-         "Each formation in a Traitor Titan Legion army owes allegiance to either one of the Gods of Chaos or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "Each formation in a Traitor Titan Legion army owes allegiance to either one of the Ruinous Powers or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Traitor Titan Legion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Traitor Titan Legion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]
@@ -858,7 +863,7 @@
         {
        "title": "QT Eternal Animosity",
        "description": [
-         "Each formation in a Questor Traitoris army owes allegiance to either one of the Gods of Chaos or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+         "Each formation in a Questor Traitoris army owes allegiance to either one of the Ruinous Powers or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
          "A Questor Traitoris army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
          "A Questor Traitoris army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa)."
        ]

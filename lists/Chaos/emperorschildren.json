@@ -2,7 +2,7 @@
   "fraction": "Chaos Space Marines",
   "army": "Emperor's Children",
   "version": "1.0.0",
-  "release": "2019-02-27",
+  "release": "2019-10-22",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Emperor's Children Core, Elite and Support formations, as well as the Chaos Thunderhawk, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -89,7 +89,7 @@
       "formations": [
         {
           "name": "Emperor's Children Retinue",
-          "units": "Three Noise Marines, three Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
+          "units": "One Chaos Lord or Sorcerer Lord, three Noise Marines, three Chaos Space Marines",
           "extraUnits": [
             "Supreme Commander",
             "Retinue Transport",
@@ -99,7 +99,6 @@
             "Dreadclaws",
             "Icon Bearer",
             "Noise Marine Havocs",
-            "Noise Marines",
             "Dreadnoughts"
           ],
           "points": 250
@@ -306,21 +305,10 @@
         "points": "5 points per unit"
       },
       {
-        "name": "Noise Marines",
-        "options": [
-          {
-            "description": "Choose one of the following:"
-          },
-          {
-            "description": "Replace three Chaos Space Marines with three Noise Marines",
-            "points": "25 points"
-          },
-          {
-            "description": "Replace three Chaos Space Marines with three Noise Marine Havocs",
-            "points": "50 points"
-          }
-        ]
-    }
+        "name": "Noise Marine Havocs",
+        "description": "Replace three Noise Marines with three Noise Marine Havocs",
+        "points": "25 points"
+      }
     ]
   }
 }

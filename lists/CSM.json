@@ -10,6 +10,12 @@
           ]
       },
       {
+        "title": "Rubric of Ahriman",
+        "description": [
+          "Any formation with at least one unit with Rubic of Ahriman, but no Sorcerer or Daemon Prince, may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions."
+        ]
+      },
+      {
         "title": "Lance",
         "description": [
           "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
@@ -119,9 +125,7 @@
         "specialRules": [
             "Leader",
             "Invulnerable Save"
-
-        ],
-        "notes": "May not be added to a formation containing Khorne Berzerkers"
+        ]
       },
       {
         "name": "Alpha Legion Sorcerer",
@@ -422,6 +426,79 @@
       ]
       },
       {
+        "name": "Noise Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Blastmaster"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Noise Marine Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Blastmaster|3|"
+      ],
+      "specialRules": [
+        "Fearless"
+      ]
+      },
+      {
+        "name": "Plague Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolters and Blight Grenades"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Khorne Berzerkers",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Bolt Pistols",
+          "Chain Axes"
+      ],
+      "specialRules": [
+        "Fearless"
+      ]
+      },
+      {
+        "name": "Rubric Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Inferno Bolters and Warpflamer"
+        ],
+        "specialRules": [
+            "Fearless",
+            "Rubric of Ahriman",
+          "Invulnerable Save"
+        ]
+      },
+      {
         "name": "Chaos Terminators",
         "type": "INF",
         "speed": 15,
@@ -524,6 +601,7 @@
       ],
       "specialRules": [
           "Fearless",
+          "Rubric of Ahriman",
           "Reinforced Armour",
           "Invulnerable Save",
           "Teleport",
@@ -565,78 +643,7 @@
           "Teleport"
         ]
       },
-      {
-        "name": "Noise Marines",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 3,
-        "weapons": [
-          "Blastmaster"
-        ],
-        "specialRules": [
-          "Fearless"
-        ]
-      },
-      {
-        "name": "Noise Marine Havocs",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Blastmaster|3|"
-      ],
-      "specialRules": [
-        "Fearless"
-      ]
-      },
-      {
-        "name": "Plague Marines",
-        "type": "INF",
-        "speed": 15,
-        "armour": 3,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Bolters and Blight Grenades"
-        ],
-        "specialRules": [
-          "Fearless"
-        ]
-      },
-      {
-        "name": "Khorne Berzerkers",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 2,
-        "ff": 5,
-        "weapons": [
-          "Bolt Pistols",
-          "Chain Axes"
-      ],
-      "specialRules": [
-        "Fearless"
-      ]
-      },
-      {
-        "name": "Rubric Marines",
-        "type": "INF",
-        "speed": 15,
-        "armour": 3,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Inferno Bolters"
-        ],
-        "specialRules": [
-            "Fearless",
-          "Invulnerable Save"
-        ]
-      },
+
       {
         "name": "Sorcerer Disc Rider",
         "type": "INF",

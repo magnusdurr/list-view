@@ -87,6 +87,7 @@
         "Warp Palace"
       ],
       "unitRules": [
+         "Regeneration",
         "Void Shields",
         "Daemon Engine (x)"
       ]
@@ -123,8 +124,8 @@
       ]
     },
     {
-      "name": "Slaves to Darkness Ground Support",
-      "description": "Up to one Ground Support formation for each Traitor Guard formation.",
+      "name": "Slaves to Darkness Support Formations",
+      "description": "Up to one Support formation for each Core formation.",
       "formations": [
           {
             "name": "Flak Battery",
@@ -326,7 +327,7 @@
         "options": [
           {
             "description": "Add one Griffon",
-            "points": "35 points"
+            "points": "50 points"
           }
         ]
       },

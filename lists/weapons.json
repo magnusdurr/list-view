@@ -4586,6 +4586,17 @@
       ]
     },
     {
+      "name": "Warpflamer",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "IC"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Twin Heavy Warpflamer",
           "modes": [
             {
@@ -5046,10 +5057,13 @@
       ]
     },
     {
-      "name": "Inferno Bolters",
+      "name": "Inferno Bolters and Warpflamer",
         "modes": [
           {
-            "firepower": "Small Arms"
+            "firepower": "Small Arms",
+            "specialRules": [
+                "IC"
+          ]
           }
       ]
     },
@@ -5059,6 +5073,7 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
+
           ]
           }
       ]
@@ -6328,10 +6343,10 @@
       "name": "Pandæmonium",
         "modes": [
           {
-            "firepower": "Small Arms",
+            "firepower": "MW4+",
+            "range": 15,
             "specialRules": [
-                "EA(+2)",
-              "FS"
+                "IC"
           ]
         }
       ]
