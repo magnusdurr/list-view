@@ -1,18 +1,13 @@
 {
   "fraction": "Chaos Space Marines",
-  "army": "Black Legion",
-  "version": "1.0.0",
-  "release": "2019-10-22",
+  "army": "Iron Warriors",
+  "version": "",
+  "release": "",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All Iron Warriors Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
-      "Summoning",
-      "Black Legion Summoning Rules",
-      "Augment Summoning (+x)",
-      "Daemonic Focus",
-      "Fickle Masters",
-      "Black Legion Dreadclaws"
+      "Iron Warriors Dreadclaws"
     ],
   "usage": [
     "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
@@ -23,19 +18,12 @@
       "units": [
         "Warlord",
         "Chaos Lord",
-        "Sorcerer Lord",
-        "Champion of Chaos Undivided",
-        "Icon Bearer",
         "Daemon Prince",
         "Chaos Space Marines",
         "Havocs",
         "Chosen",
         "Raptors",
         "Chaos Terminators",
-        "Noise Marines",
-        "Plague Marines",
-        "Khorne Berzerkers",
-        "Rubric Marines",
         "Obliterators",
         "Chaos Space Marine Assault Bikes",
         "Chaos Rhino",
@@ -46,8 +34,7 @@
         "Chaos Stalker"
     ],
     "unitRules": [
-        "CSM Characters",
-        "Rubric of Ahriman"
+        "CSM Characters"
     ]
     },
     {
@@ -61,22 +48,6 @@
           "Daemon Engine (x)"
         ]
     },
-    {
-      "from": "daemons.json",
-      "units": [
-        "Daemonettes of Slaanesh",
-        "Plaguebearers of Nurgle",
-        "Bloodletters of Khorne",
-        "Horrors of Tzeench",
-        "Keeper of Secrets",
-        "Great Unclean One",
-        "Bloodthirster",
-        "Lord of Change",
-        "Daemonic Beasts of Chaos Undivided"
-      ],
-      "unitRules": [
-    ]
-  },
     {
       "from": "traitortitanlegions.json",
       "units": [
@@ -106,90 +77,94 @@
   ],
   "sections": [
     {
-      "name": "Black Legion Core Formations",
+      "name": "Iron Warriors Core Formations",
       "formations": [
         {
-          "name": "Black Legion Retinue",
-          "units": "One Chaos Lord or Sorcerer Lord, eight Chaos Space Marines",
+          "name": "Iron Warriors Retinue",
+          "units": "One Chaos Lord, eight Chaos Space Marines",
           "extraUnits": [
             "Supreme Commander",
             "Transport",
-            "Champion",
-            "Daemonic Pact",
             "Stalker",
             "Dreadclaws",
-            "Icon Bearer",
             "Vindicators",
             "Havocs",
             "Dreadnoughts"
           ],
           "points": 275
-        }
-      ]
+      },
+      {
+        "name": "Artillery Company",
+        "units": "Six Chaos Basilisks",
+        "extraUnits": [
+          "Stalker"
+        ],
+        "points": 425
     },
     {
-      "name": "Black Legion Elite Formations",
+      "name": "Vindicators",
+      "units": "Six Chaos Vindicators",
+      "extraUnits": [
+      ],
+      "points": 250
+    }
+      ]
+    },
+
+    {
+      "name": "Iron Warriors Elite Formations",
       "description": "One Elite formation may be taken per Core formation",
       "formations": [
+          {
+            "name": "Dreadnought Assault",
+            "units": "Four Chaos Dreadnoughts",
+            "extraUnits": [
+              "Add four Dreadclaws to the formation: 50 points"
+            ],
+            "points": 250
+          },
         {
           "name": "Chosen",
           "units": "Four Chosen, two Chaos Rhinos",
           "extraUnits": [
-            "Dreadnoughts",
-            "Daemonic Pact"
+            "Dreadnoughts"
           ],
           "points": 150
         },
         {
-          "name": "Cult Marines",
-          "units": "Either one Chaos Lord and four Plague Marines of Nurgle / four Khorne Berzerkers; or one Sorcerer Lord, and four Noise Marines of Slaanesh / four Rubric Marines of Tzeench",
-          "extraUnits": [
-            "Icon Bearer",
-            "Transport",
-            "Dreadclaws",
-            "Dreadnoughts",
-            "Daemonic Pact"
-          ],
-          "points": 225
-        },
-        {
           "name": "Chaos Terminators",
-          "units": "One Chaos Lord or Sorcerer Lord, four Chaos Terminators",
+          "units": "One Chaos Lord, four Chaos Terminators",
           "extraUnits": [
               "Supreme Commander",
-              "Champion",
               "Transport",
               "Dreadclaws",
-              "Icon Bearer",
               "Obliterators",
-              "Dreadnoughts",
-              "Daemonic Pact"
+              "Dreadnoughts"
           ],
           "points": 275
       }
     ]
   },
-  {
-    "name": "Black Legion Support Formations",
+    {
+    "name": "Iron Warriors Support Formations",
     "description": "Two Support formations may be taken per Core formation",
     "formations": [
-      {
-        "name": "Bike Company",
-        "units": "One Chaos Lord or Sorcerer Lord, eight Chaos Space Marine Assault Bikes",
-        "extraUnits": [
-          "Daemonic Pact",
-          "Icon Bearer"
-        ],
-        "points": 300
-    },
-            {
-              "name": "Raptor Cult",
-              "units": "One Chaos Lord or Sorcerer Lord, six Chaos Raptors",
-              "extraUnits": [
-                  "Daemonic Pact"
-              ],
-              "points": 225
-          },
+        {
+          "name": "Siege Battery",
+          "units": "Four Chaos Medusa",
+          "extraUnits": [
+          ],
+          "points": 225
+      },
+
+        {
+          "name": "Raptor Cult",
+          "units": "One Chaos Lord, six Chaos Raptors",
+          "extraUnits": [
+              "Daemonic Pact"
+          ],
+          "points": 225
+      },
           {
             "name": "Predator Company",
             "units": "Four Chaos Predators",
@@ -201,7 +176,7 @@
             },
             {
           "name": "Havocs",
-          "units": "One Chaos Lord or Sorcerer Lord, four Havocs, two Rhinos",
+          "units": "One Chaos Lord, four Havocs, two Rhinos",
           "extraUnits": [
               "Transport",
               "Stalker",
@@ -240,12 +215,11 @@
             "points": 275
           },
           {
-            "name": "Chaos Warhound",
-            "units": "One Chaos Warhound Scout Titan",
+            "name": "0-1 Ordinatus Hereticus Majoris",
+            "units": "One Ordinatus Temporia",
             "extraUnits": [
-              "Add one Chaos Warhound: 225 Points"
             ],
-            "points": 275
+            "points": 450
           },
           {
             "name": "Chaos Reaver",
@@ -281,26 +255,10 @@
           "points": 150
         }
       ]
-  },
-  {
-    "name": "Daemon Pool",
-    "description": "Any amount may be spent on Daemon Pool points",
-    "formations": [
-        {
-          "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points",
-          "points": 15
-      },
-      {
-        "name": "Greater Daemon Pool",
-        "units": "Any amount of Greater Daemon Pool points",
-        "points": 50
-      }
-    ]
-}
+  }
   ],
   "upgrades": {
-    "title": "Black Legion Upgrades",
+    "title": "Iron Warriors Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
@@ -342,24 +300,9 @@
         ]
       },
       {
-        "name": "Daemonic Pact",
-        "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
-        "points": "25 points"
-      },
-      {
         "name": "Dreadnoughts",
         "description": "Add up to two Chaos Dreadnoughts to the formation",
         "points": "50 points each"
-      },
-      {
-        "name": "Champion",
-        "description": "Replace a Chaos Lord with a Champion of Chaos Undivided",
-        "points": "25 points"
-      },
-      {
-        "name": "Icon Bearer",
-        "description": "Add one Icon Bearer character",
-        "points": "25 points"
       },
       {
         "name": "Stalker",
@@ -383,8 +326,8 @@
       },
       {
         "name": "Obliterators",
-        "description": "Add up to two Obliterators",
-        "points": "75 points each"
+        "description": "Replace up to two Chaos Terminators with Obliterators",
+        "points": "35 points each"
     }
     ]
   }

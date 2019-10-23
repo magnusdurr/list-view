@@ -16,7 +16,7 @@
         ]
       },
       {
-        "title": "Chaos Space Marine Characters",
+        "title": "CSM Characters",
         "description": [
           "Chaos Space Marine Characters may not be added to formation upgrades."
         ]
@@ -148,7 +148,7 @@
         "name": "Champion of Chaos Undivided",
         "type": "CH",
         "weapons": [
-          "Daemonic Bolt"
+          "Daemon Weapon"
         ],
         "specialRules": [
             "Augment Summoning (+2D3)",
@@ -221,7 +221,7 @@
         "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
-        "armour": 3,
+        "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
@@ -230,10 +230,10 @@
         ],
         "specialRules": [
           "Supreme Commander",
+          "Reinforced Armour",
           "Jump Pack",
           "Teleport",
           "Fearless",
-          "Augment Summoning (+1)",
           "Daemonic Focus",
           "Invulnerable Save"
         ]
@@ -241,8 +241,8 @@
       {
         "name": "Daemon Prince of Slaanesh",
         "type": "INF",
-        "speed": 20,
-        "armour": 3,
+        "speed": 30,
+        "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
@@ -251,9 +251,10 @@
         ],
         "specialRules": [
           "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
           "Teleport",
           "Fearless",
-          "Augment Summoning (+1)",
           "Daemonic Focus",
           "Invulnerable Save"
         ]
@@ -261,8 +262,8 @@
       {
         "name": "Daemon Prince of Nurgle",
         "type": "INF",
-        "speed": 15,
-        "armour": 2,
+        "speed": 30,
+        "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
@@ -271,9 +272,10 @@
         ],
         "specialRules": [
           "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
           "Teleport",
           "Fearless",
-          "Augment Summoning (+1)",
           "Daemonic Focus",
           "Invulnerable Save"
         ]
@@ -282,18 +284,18 @@
         "name": "Daemon Prince of Khorne",
         "type": "INF",
         "speed": 30,
-        "armour": 3,
+        "armour": 4,
         "cc": 2,
         "weapons": [
             "Æther Blade"
         ],
         "specialRules": [
           "Supreme Commander",
+          "Reinforced Armour",
           "Jump Pack",
           "Teleport",
           "Fearless",
           "Inspiring",
-          "Augment Summoning (+1)",
           "Daemonic Focus",
           "Invulnerable Save"
         ]
@@ -302,7 +304,7 @@
         "name": "Daemon Prince of Tzeench",
         "type": "INF",
         "speed": 30,
-        "armour": 3,
+        "armour": 4,
         "cc": 5,
         "ff": 3,
         "weapons": [
@@ -311,11 +313,11 @@
         ],
         "specialRules": [
           "Supreme Commander",
+          "Reinforced Armour",
           "Jump Pack",
           "Teleport",
           "Fearless",
           "Daemonic Pact",
-          "Augment Summoning (+1)",
           "Daemonic Focus",
           "Invulnerable Save"
         ]
@@ -515,7 +517,8 @@
         ],
         "specialRules": [
             "Fearless",
-            "Rubric of Ahriman"
+            "Rubric of Ahriman",
+            "Invulnerable Save"
         ]
       },
       {
@@ -623,7 +626,8 @@
           "Rubric of Ahriman",
           "Reinforced Armour",
           "Teleport",
-          "Thick Rear Armour"
+          "Thick Rear Armour",
+          "Invulnerable Save"
       ]
       },
       {
@@ -1101,7 +1105,8 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+      "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each.",
+      "crit": " The Thunderhawk and all units being carried are destroyed."
   },
   {
     "name": "Alpha Legion Thunderhawk",
@@ -1123,7 +1128,8 @@
       "Reinforced Armour",
       "Transport"
     ],
-    "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+    "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each.",
+    "crit": " The Thunderhawk and all units being carried are destroyed."
     },
   {
     "name": "Alpha Legion Strike Cruiser",

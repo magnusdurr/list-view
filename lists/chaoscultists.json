@@ -52,7 +52,7 @@
         "speed": 15,
         "armour": 6,
         "cc": 5,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
             "Grenade Launchers",
             "Daemon Weapon",
@@ -107,31 +107,11 @@
             "Invulnerable Save"
         ]
     },
-    {
-      "name": "Alpha Legion Daemon Prince",
-      "type": "INF",
-      "speed": 15,
-      "armour": 2,
-      "cc": 3,
-      "ff": 3,
-      "weapons": [
-          "Warp Bolt",
-          "Æther Blade"
-      ],
-      "specialRules": [
-        "Supreme Commander",
-        "Fearless",
-        "Augment Summoning (+1)",
-        "Daemonic Focus",
-        "Invulnerable Save"
-    ],
-    "notes": "Counts as two units of INF for the purpose of being transported."
-    },
       {
         "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
-        "armour": 3,
+        "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
@@ -140,9 +120,9 @@
         ],
         "specialRules": [
           "Supreme Commander",
+          "Reinforced Armour",
           "Jump Pack",
           "Fearless",
-          "Augment Summoning (+1)",
           "Daemonic Focus",
           "Invulnerable Save"
         ]

@@ -36,14 +36,14 @@
           "Alpha Legion Strike Cruiser"
       ],
       "unitRules": [
-          "Chaos Space Marine Characters",
+          "CSM Characters",
           "Stubborn"
       ]
       },
     {
       "from": "chaoscultists.json",
       "units": [
-          "Alpha Legion Daemon Prince",
+          "Daemon Prince",
           "Aspiring Champion",
           "Icon Bearer",
           "Cultists",
@@ -162,7 +162,7 @@
           "extraUnits": [
               "Flak"
           ],
-          "points": 175
+          "points": 200
       },
       {
         "name": "Macharius Platoon",
@@ -225,7 +225,7 @@
           "points": ""
       },
       {
-        "description": "Replace one Aspiring Champion with an Alpha Legion Daemon Prince",
+        "description": "Replace the Aspiring Champion with a Daemon Prince",
         "points": "100 points"
     },
       {

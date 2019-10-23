@@ -1,4 +1,4 @@
-4{
+{
   "fraction": "Chaos Cultists",
   "army": "Lost and the Damned",
   "version": "0.7.4",
@@ -90,7 +90,7 @@
       "formations": [
         {
           "name": "Cultist Coven",
-          "units": "Nine Chaos Cultists and/or Mutants, one Demagogue or Aspiring Champion, Daemonic Pact",
+          "units": "One Aspiring Champion or Demagogue, nine Chaos Cultists and/or Mutants, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
@@ -263,7 +263,7 @@
             "points": "50 points"
           },
           {
-            "description": "Replace the Demagogue with a Daemon Prince",
+            "description": "Replace a Demagogue or Aspiring Champion with a Daemon Prince",
             "points": "100 points"
           }
         ]
