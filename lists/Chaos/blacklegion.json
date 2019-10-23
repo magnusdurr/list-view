@@ -46,6 +46,7 @@
         "Chaos Stalker"
     ],
     "unitRules": [
+        "Chaos Space Marine Characters",
         "Rubric of Ahriman"
     ]
     },
@@ -141,8 +142,9 @@
         },
         {
           "name": "Cult Marines",
-          "units": "Either one Chaos Lord, one Icon Bearer, and four Plague Marines of Nurgle / four Khorne Berzerkers; or one Sorcerer Lord, one Icon Bearer, and four Noise Marines of Slaanesh / four Rubric Marines of Tzeench",
+          "units": "Either one Chaos Lord and four Plague Marines of Nurgle / four Khorne Berzerkers; or one Sorcerer Lord, and four Noise Marines of Slaanesh / four Rubric Marines of Tzeench",
           "extraUnits": [
+            "Icon Bearer",
             "Transport",
             "Dreadclaws",
             "Dreadnoughts",
@@ -181,7 +183,7 @@
     },
     {
       "name": "Raptor Cult",
-      "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
+      "units": "One Chaos Lord or Sorcerer Lord, six Raptors",
       "extraUnits": [
           "Daemonic Pact"
       ],
@@ -317,7 +319,7 @@
           },
           {
             "description": "Replace the Chaos Lord and its unit with a Daemon Prince",
-            "points": "75 points"
+            "points": "100 points"
           }
         ]
       },

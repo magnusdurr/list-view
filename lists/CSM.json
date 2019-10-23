@@ -16,6 +16,12 @@
         ]
       },
       {
+        "title": "Chaos Space Marine Characters",
+        "description": [
+          "Chaos Space Marine Characters may not be added to formation upgrades."
+        ]
+      },
+      {
         "title": "Lance",
         "description": [
           "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
@@ -58,7 +64,6 @@
             "Supreme Commander",
             "Teleport Homer",
             "Daemonic Pact",
-            "Augment Summoning (+1D3)",
             "Invulnerable Save"
           ]
         },
@@ -112,7 +117,6 @@
           "Leader",
           "Teleport Homer",
           "Daemonic Pact",
-          "Augment Summoning (+1)",
           "Invulnerable Save"
         ]
       },
@@ -217,7 +221,7 @@
         "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
-        "armour": 4,
+        "armour": 3,
         "cc": 3,
         "ff": 3,
         "weapons": [
@@ -226,12 +230,12 @@
         ],
         "specialRules": [
           "Supreme Commander",
-          "Reinforced Armour",
           "Jump Pack",
           "Teleport",
           "Fearless",
           "Augment Summoning (+1)",
-          "Daemonic Focus"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -247,18 +251,18 @@
         ],
         "specialRules": [
           "Supreme Commander",
-          "Reinforced Armour",
           "Teleport",
           "Fearless",
           "Augment Summoning (+1)",
-          "Daemonic Focus"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Daemon Prince of Nurgle",
         "type": "INF",
         "speed": 15,
-        "armour": 3,
+        "armour": 2,
         "cc": 3,
         "ff": 3,
         "weapons": [
@@ -267,38 +271,38 @@
         ],
         "specialRules": [
           "Supreme Commander",
-          "Reinforced Armour",
           "Teleport",
           "Fearless",
           "Augment Summoning (+1)",
-          "Daemonic Focus"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Daemon Prince of Khorne",
         "type": "INF",
         "speed": 30,
-        "armour": 4,
+        "armour": 3,
         "cc": 2,
         "weapons": [
             "Æther Blade"
         ],
         "specialRules": [
           "Supreme Commander",
-          "Reinforced Armour",
           "Jump Pack",
           "Teleport",
           "Fearless",
           "Inspiring",
           "Augment Summoning (+1)",
-          "Daemonic Focus"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Daemon Prince of Tzeench",
         "type": "INF",
         "speed": 30,
-        "armour": 4,
+        "armour": 3,
         "cc": 5,
         "ff": 3,
         "weapons": [
@@ -307,13 +311,13 @@
         ],
         "specialRules": [
           "Supreme Commander",
-          "Reinforced Armour",
           "Jump Pack",
           "Teleport",
           "Fearless",
           "Daemonic Pact",
           "Augment Summoning (+1)",
-          "Daemonic Focus"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -478,7 +482,7 @@
         "ff": 4,
         "weapons": [
           "Bolters",
-          "Blight Grenades"
+          "Plague Knives"
         ],
         "specialRules": [
           "Fearless"
@@ -511,8 +515,7 @@
         ],
         "specialRules": [
             "Fearless",
-            "Rubric of Ahriman",
-          "Invulnerable Save"
+            "Rubric of Ahriman"
         ]
       },
       {
@@ -582,7 +585,6 @@
       "specialRules": [
           "Fearless",
           "Reinforced Armour",
-          "Invulnerable Save",
           "Teleport",
           "Thick Rear Armour"
       ]
@@ -620,7 +622,6 @@
           "Fearless",
           "Rubric of Ahriman",
           "Reinforced Armour",
-          "Invulnerable Save",
           "Teleport",
           "Thick Rear Armour"
       ]

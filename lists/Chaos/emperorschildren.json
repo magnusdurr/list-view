@@ -42,7 +42,7 @@
         "Chaos Thunderhawk"
     ],
     "unitRules": [
-
+        "Chaos Space Marine Characters"
     ]
     },
     {
@@ -120,7 +120,7 @@
         },
         {
           "name": "Emperor's Children Terminators",
-          "units": "Four Sirenshriek Terminators, one Chaos Lord or Sorcerer Lord",
+          "units": "One Chaos Lord or Sorcerer Lord, four Sirenshriek Terminators",
           "extraUnits": [
               "Supreme Commander",
               "Terminator Transport",
@@ -140,7 +140,7 @@
     "formations": [
       {
         "name": "Bike Company",
-        "units": "Six Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
+        "units": "One Chaos Lord or Sorcerer Lord, six Chaos Space Marine Assault Bikes",
         "extraUnits": [
           "Daemonic Pact",
           "Icon Bearer"
@@ -149,7 +149,7 @@
     },
     {
       "name": "Raptor Cult",
-      "units": "Four Raptors, one Chaos Lord or Sorcerer Lord",
+      "units": "One Chaos Lord or Sorcerer Lord, four Raptors",
       "extraUnits": [
           "Daemonic Pact"
       ],
@@ -248,7 +248,7 @@
           },
           {
             "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Slaanesh",
-            "points": "75 points"
+            "points": "100 points"
           }
         ]
       },

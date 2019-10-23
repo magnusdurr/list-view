@@ -405,7 +405,7 @@
     {
       "title": "Seers of Ulthwé",
       "description": [
-            "Craftworld Ulthwé armies count as having Strategy Rating 5 for all purposes except for determining who may choose to activate first during a turn."      ]
+            "Craftworld Ulthwé armies counts as having Strategy Rating 5 for all purposes except for the Strategy Roll at the start of a turn"      ]
     },
     {
       "title": "Black Guardians",
@@ -630,7 +630,7 @@
          "Summoned units must be setup with their base completely within 5cm of any non-summoned unit in the summoning formation (i.e. You cannot place a chain of summoned units). If the summoning formation has the Transport ability, newly summoned units can be set up inside if there is space left. They cannot be placed in enemy zones of control or impassable terrain. Summoned units become part of the summoning formation for all rules purposes as long as they remain on the battlefield.",
          "Summoned Lesser Daemons are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast Markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution.",
          "Summoned units remain in play until the End Phase of the turn in which they were summoned. After all formations have attempted to rally any summoned units are removed from play and the total of their Daemon Pool cost is returned to the relevant Daemon Pool. This may cause the formation to break, if the number of Blast Markers now equals or exceeds the number of units in the formation.",
-         "When a formation becomes broken all summoned units are destroyed.",
+         "When a formation becomes broken all its summoned units are destroyed.",
          "When calculating victory points, the Lesser Daemon Pool scores half points if the pool has less than or equal to half (round up) its original number of daemons remaining. The Lesser Daemon Pool scores full points if the pool has less than or equal to a quarter (round up) its daemons remaining. Treat Greater Daemons as War Engines for the purpose of calculating victory points."
        ]
      },
@@ -638,11 +638,12 @@
      {
        "title": "Black Legion Summoning Rules",
        "description": [
-         "All formations in the Black Legion (except Cult Marines formations) worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons, while Cult Marines formations with Daemonic Pact only may summon Daemons from its own faction or from Chaos Undivided (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeench (1), Daemonic Beasts of Chaos Undivided (1).",
+         "All formations in the Black Legion (except Cult Marines formations) worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons (brackets indicating the Summoning Points cost):",
+         "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1).",
          "Greater Daemons: Slaanesh Keeper of Secrets (8), Nurgle Great Unclean One (7), Khorne Bloodthirster (8), Tzeench Lord of Change (8)",
+         "Cult Marines formations with Daemonic Pact only may summon Daemons from its own faction or from Chaos Undivided, but all Lesser Daemons have a Summoning Points cost of (1).",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
@@ -652,7 +653,7 @@
          "Lesser Daemons: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
          "Greater Daemons: Keeper of Secrets (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
@@ -662,7 +663,7 @@
          "Lesser Daemons: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
          "Greater Daemons: Great Unclean One (7)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
@@ -672,7 +673,7 @@
          "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
          "Greater Daemons: Bloodthirster (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
@@ -682,7 +683,7 @@
          "Lesser Daemons: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers of Tzeench (2)",
          "Greater Daemons: Lord of Change (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one.",
+         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
          "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Aspiring Sorcerer, Exalted Sorcerer, Daemon Prince of Tzeench) or formation with Daemonic Pact."
        ]
      },
@@ -693,7 +694,7 @@
            "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
            "Greater Daemons: Keeper of Secrets (8), Great Unclean One (7), Bloodthirster (8), Lord of Change (8)",
            "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
@@ -701,7 +702,7 @@
        "description": [
            "All Alpha Legion Cultist formations worship Chaos Undivided. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
            "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
@@ -709,7 +710,7 @@
        "description": [
            "All formations in the Slaves to Darkness worship Chaos Undivided. Formations with either a Daemonic Icon unit or a Daemonic Pact formation upgrade may summon the following Daemons (brackets indicating the Summoning Points cost):",
            "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one.",
+           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
            "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Daemonic Icon) or formation with Daemonic Pact."
        ]
      },
@@ -722,7 +723,7 @@
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
            "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers  of Tzeench (2)",
            "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one.",
+           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
 
            "When calculating Victory Points of the purposes of Tie Break, only the part of the Lesser Daemon Pool that was bought by itself is considered when checking if there is less than half remaining. Lesser Daemon Pool points that was bought as part of a formation are counted towards that formation's starting units."
        ]
@@ -736,7 +737,7 @@
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
            "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1)",
            "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
      {
@@ -748,7 +749,7 @@
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
            "Tzeentch: Horrors of Tzeench (1), Flamers of Tzeench (1)",
            "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the number of Summoning Points required to summon each type of daemonic unit varies, the Daemon Pool cost is always one."
+           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
      },
 
@@ -756,6 +757,12 @@
        "title": "Augment Summoning (+x)",
        "description": [
          "Some units are noted as having Augment Summoning (+x). Units with this ability add a number of summoning points equal to 'x' when the formation they are in summons daemons (see Summoning). For example, a unit noted as having Augment Summoning (+2) would allow a formation with a Daemonic Pact to roll 2D3+2 for summoning points as opposed to the usual 2D3."
+       ]
+     },
+     {
+       "title": "Chaos Space Marine Characters",
+       "description": [
+         "Chaos Space Marine Characters may not be added to formation upgrades."
        ]
      },
      {
@@ -927,7 +934,7 @@
         {
         "title": "The Harrowing",
         "description": [
-            "Alpha Legion armies count as having Strategy Rating 5 for all purposes except for determining who may choose to activate first during a turn."
+            "Alpha Legion armies counts as having Strategy Rating 5 for all purposes except for the Strategy Roll at the start of a turn."
       ]
        },
        {
