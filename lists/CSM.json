@@ -12,7 +12,7 @@
       {
         "title": "Rubric of Ahriman",
         "description": [
-          "Any formation with at least one unit with Rubic of Ahriman, but no Sorcerer or Daemon Prince, may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions."
+          "Any formation with at least one unit with Rubic of Ahriman that has lost its Sorcerer or Daemon Prince may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions."
         ]
       },
       {
@@ -32,7 +32,6 @@
           ],
           "specialRules": [
             "Supreme Commander",
-            "Augment Summoning (+1)",
             "Invulnerable Save"
           ]
         },
@@ -72,7 +71,6 @@
         "specialRules": [
           "Commander",
           "Leader",
-          "Augment Summoning (+1)",
           "Invulnerable Save"
 
         ]
@@ -314,7 +312,7 @@
           "Teleport",
           "Fearless",
           "Daemonic Pact",
-          "Augment Summoning (+2D3)",
+          "Augment Summoning (+1)",
           "Daemonic Focus"
         ]
       },
@@ -476,10 +474,11 @@
         "type": "INF",
         "speed": 15,
         "armour": 3,
-        "cc": 4,
+        "cc": 3,
         "ff": 4,
         "weapons": [
-          "Bolters and Blight Grenades"
+          "Bolters",
+          "Blight Grenades"
         ],
         "specialRules": [
           "Fearless"
@@ -508,7 +507,7 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Inferno Bolters and Warpflamer"
+          "Inferno Bolters"
         ],
         "specialRules": [
             "Fearless",

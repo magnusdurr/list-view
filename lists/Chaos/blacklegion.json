@@ -141,26 +141,26 @@
         },
         {
           "name": "Cult Marines",
-          "units": "Either one Chaos Lord and six Plague Marines of Nurgle / six Khorne Berzerkers, or one Sorcerer Lord and six Noise Marines of Slaanesh / six Rubric Marines of Tzeench",
+          "units": "Either one Chaos Lord, one Icon Bearer, and four Plague Marines of Nurgle / four Khorne Berzerkers; or one Sorcerer Lord, one Icon Bearer, and four Noise Marines of Slaanesh / four Rubric Marines of Tzeench",
           "extraUnits": [
             "Transport",
             "Dreadclaws",
+            "Dreadnoughts",
             "Daemonic Pact"
           ],
-          "points": 275
+          "points": 200
         },
         {
           "name": "Chaos Terminators",
           "units": "One Chaos Lord or Sorcerer Lord, four Chaos Terminators",
           "extraUnits": [
               "Supreme Commander",
-              "Transport",
-              "Champion",
-              "Daemonic Pact",
+              "Transport",              "Champion",
               "Dreadclaws",
               "Icon Bearer",
               "Obliterators",
-              "Dreadnoughts"
+              "Dreadnoughts",
+              "Daemonic Pact"
           ],
           "points": 275
       }
@@ -345,8 +345,8 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add two Chaos Dreadnoughts to the formation",
-        "points": "75 points"
+        "description": "Add up to two Chaos Dreadnoughts to the formation",
+        "points": "50 points each"
       },
       {
         "name": "Champion",
@@ -356,7 +356,7 @@
       {
         "name": "Icon Bearer",
         "description": "Add one Icon Bearer character",
-        "points": "15 points"
+        "points": "25 points"
       },
       {
         "name": "Stalker",

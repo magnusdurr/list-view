@@ -2207,17 +2207,10 @@
       ]
     },
     {
-      "name": "Bolters and Blight Grenades",
+      "name": "Blight Grenades",
         "modes": [
-            {
-              "firepower": "Small Arms",
-              "specialRules": [
-              "IC"
-            ]
-        },
-            {
+                {
               "firepower": "Assault Weapons",
-              "join": "and",
               "specialRules": [
                 "IC"
               ]
@@ -5057,12 +5050,11 @@
       ]
     },
     {
-      "name": "Inferno Bolters and Warpflamer",
+      "name": "Inferno Bolters",
         "modes": [
           {
             "firepower": "Small Arms",
             "specialRules": [
-                "IC"
           ]
           }
       ]
@@ -6518,6 +6510,17 @@
             "specialRules": [
                 "D",
                 "IC"
+          ]
+          }
+
+      ]
+    },
+    {
+      "name": "Plague Knives",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
           ]
           }
 
