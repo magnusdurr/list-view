@@ -25,6 +25,7 @@
         "Havocs",
         "Chosen",
         "Bezashk Destroyers",
+        "Tyrant Terminators",
         "Obliterators",
         "Chaos Basilisk",
         "Bezashk Medusa",
@@ -117,15 +118,6 @@
       "name": "Iron Warriors Elite Formations",
       "description": "One Elite formation may be taken per Core formation.",
       "formations": [
-          {
-            "name": "Dreadnought Assault",
-            "units": "Four Chaos Dreadnoughts",
-            "extraUnits": [
-              "Dreadnoughts",
-              "Dreadclaws"
-            ],
-            "points": 275
-          },
         {
           "name": "Chosen",
           "units": "Four Chosen, two Chaos Rhinos",
@@ -142,12 +134,22 @@
               "Dreadclaws"
           ],
           "points": 300
-      }
+      },
+      {
+        "name": "Tyrant Terminators",
+        "units": "One Iron Warriors Lord, four Tyrant Terminators",
+        "extraUnits": [
+            "Supreme Commander",
+            "Dreadnoughts",
+            "Dreadclaws"
+        ],
+        "points": 300
+    }
     ]
   },
     {
     "name": "Iron Warriors Siege Formations",
-    "description": "One Siege formation may be taken per Core formation.",
+    "description": "Two Siege formations may be taken per Core formation.",
     "formations": [
         {
           "name": "Iron Warriors Artillery Emplacement",
@@ -155,6 +157,15 @@
           "extraUnits": [
           ],
           "points": 350
+      },
+      {
+        "name": "Dreadnought Assault",
+        "units": "Four Chaos Dreadnoughts",
+        "extraUnits": [
+          "Dreadnoughts",
+          "Dreadclaws"
+        ],
+        "points": 275
       },
         {
           "name": "Bezashk Medusa Emplacement",
@@ -181,7 +192,7 @@
       },
         {
       "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
-      "description": "Up to forty percent of the points available may be spent on these formations.",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
             "name": "Defiler Pack",

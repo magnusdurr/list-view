@@ -592,6 +592,23 @@
       ]
       },
       {
+        "name": "Tyrant Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Cyclone Missile Launchers",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
         "name": "Lernaean Terminators",
         "type": "INF",
         "speed": 15,
