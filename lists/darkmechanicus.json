@@ -851,7 +851,7 @@
             "speed": 20,
             "armour": 5,
             "cc": 4,
-            "ff": 4,
+            "ff": 3,
             "weapons": [
               "Hellstrike Cannon||FxF",
               "Death Storm||FwA",
@@ -861,11 +861,11 @@
             ],
             "specialRules": [
                 "Damage Capacity 6",
-                "Fearless",
                 "Reinforced Armour",
+                "Fearless",
                 "Thick Rear Armour",
-                "Daemon Engine (Khorne)",
-                "Regeneration"
+                "Regeneration",
+                "Daemon Engine (Khorne)"
             ],
             "crit": "The Tower of Skulls takes an additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
         },
