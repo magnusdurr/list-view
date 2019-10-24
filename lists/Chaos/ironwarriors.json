@@ -1,13 +1,15 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Iron Warriors",
-  "version": "",
-  "release": "",
+  "version": "0.6.0",
+  "release": "2019-10-24",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "All Iron Warriors Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All Iron Warriors Core, Elite and Siege formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
-      "Iron Warriors Dreadclaws"
+        "Bionics",
+      "Iron Warriors Dreadclaws",
+        "Fortified Positions"
     ],
   "usage": [
     "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
@@ -16,22 +18,22 @@
     {
       "from": "CSM.json",
       "units": [
-        "Warlord",
-        "Chaos Lord",
+        "Iron Warriors Warsmith",
+        "Iron Warriors Lord",
         "Daemon Prince",
-        "Chaos Space Marines",
+        "Iron Warriors Marines",
         "Havocs",
         "Chosen",
-        "Raptors",
-        "Chaos Terminators",
+        "Bezashk Destroyers",
         "Obliterators",
-        "Chaos Space Marine Assault Bikes",
+        "Chaos Basilisk",
+        "Bezashk Medusa",
         "Chaos Rhino",
         "Chaos Land Raider",
-        "Chaos Predator",
         "Chaos Vindicator",
         "Chaos Dreadnought",
-        "Chaos Stalker"
+        "Chaos Stalker",
+        "Chaos Stormsword"
     ],
     "unitRules": [
         "CSM Characters"
@@ -42,7 +44,8 @@
         "units": [
             "Defiler",
             "Decimator",
-            "Death Wheel"
+            "Hellfire Cannon",
+            "Ordinatus Hereticus Minoris "
         ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -51,7 +54,6 @@
     {
       "from": "traitortitanlegions.json",
       "units": [
-        "Chaos Warhound",
         "Chaos Reaver",
         "Chaos Warlord"
       ],
@@ -64,8 +66,7 @@
   {
     "from": "chaosnavy.json",
     "units": [
-      "Hell Blade Interceptor",
-      "Hell Talon Fighter-Bomber",
+      "Heldrake",
       "Harbringer Bomber",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
@@ -81,47 +82,49 @@
       "formations": [
         {
           "name": "Iron Warriors Retinue",
-          "units": "One Chaos Lord, eight Chaos Space Marines",
+          "units": "One Iron Warriors Lord, eight Iron Warriors Marines",
           "extraUnits": [
             "Supreme Commander",
             "Transport",
             "Stalker",
             "Dreadclaws",
             "Vindicators",
-            "Havocs",
             "Dreadnoughts"
           ],
-          "points": 275
+          "points": 250
       },
       {
-        "name": "Artillery Company",
-        "units": "Six Chaos Basilisks",
+        "name": "Vindicator Company",
+        "units": "Six Chaos Vindicators",
         "extraUnits": [
-          "Stalker"
         ],
-        "points": 425
+        "points": 250
     },
-    {
-      "name": "Vindicators",
-      "units": "Six Chaos Vindicators",
+        {
+      "name": "Havocs",
+      "units": "One Iron Warriors Lord, four Havocs, two Chaos Rhinos",
       "extraUnits": [
+          "Replace two Chaos Rhinos with two Chaos Land Raiders: 75 points",
+          "Supreme Commander",
+          "Stalker",
+          "Vindicators"
       ],
-      "points": 250
-    }
-      ]
+      "points": 225
+        }
+        ]
     },
-
     {
       "name": "Iron Warriors Elite Formations",
-      "description": "One Elite formation may be taken per Core formation",
+      "description": "One Elite formation may be taken per Core formation.",
       "formations": [
           {
             "name": "Dreadnought Assault",
             "units": "Four Chaos Dreadnoughts",
             "extraUnits": [
-              "Add four Dreadclaws to the formation: 50 points"
+              "Dreadnoughts",
+              "Dreadclaws"
             ],
-            "points": 250
+            "points": 275
           },
         {
           "name": "Chosen",
@@ -132,63 +135,53 @@
           "points": 150
         },
         {
-          "name": "Chaos Terminators",
-          "units": "One Chaos Lord, four Chaos Terminators",
+          "name": "Obliterator Cult",
+          "units": "Three Obliterators",
           "extraUnits": [
-              "Supreme Commander",
-              "Transport",
-              "Dreadclaws",
-              "Obliterators",
-              "Dreadnoughts"
+              "Dreadnoughts",
+              "Dreadclaws"
           ],
-          "points": 275
+          "points": 300
       }
     ]
   },
     {
-    "name": "Iron Warriors Support Formations",
-    "description": "Two Support formations may be taken per Core formation",
+    "name": "Iron Warriors Siege Formations",
+    "description": "One Siege formation may be taken per Core formation.",
     "formations": [
         {
-          "name": "Siege Battery",
-          "units": "Four Chaos Medusa",
+          "name": "Iron Warriors Artillery Emplacement",
+          "units": "Four Chaos Basilisks, four Gun Emplacements",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 350
       },
-
         {
-          "name": "Raptor Cult",
-          "units": "One Chaos Lord, six Chaos Raptors",
+          "name": "Bezashk Medusa Emplacement",
+          "units": "Four Bezashk Medusa, four Gun Emplacements",
           "extraUnits": [
-              "Daemonic Pact"
           ],
-          "points": 225
+          "points": 250
       },
-          {
-            "name": "Predator Company",
-            "units": "Four Chaos Predators",
-            "extraUnits": [
-                "Stalker",
-                "Vindicators"
-            ],
-            "points": 200
-            },
-            {
-          "name": "Havocs",
-          "units": "One Chaos Lord, four Havocs, two Rhinos",
+        {
+          "name": "Bezashk Destroyers",
+          "units": "Four Bezashk Destroyers",
           "extraUnits": [
-              "Transport",
-              "Stalker",
-              "Vindicators"
           ],
-          "points": 225
-            }
-            ]
-          },
+          "points": 250
+      },
+            {
+              "name": "Iron Warriors Stormsword Platoon",
+              "units": "One Chaos Stormsword",
+              "extraUnits": [
+              ],
+              "points": 200
+              }
+          ]
+      },
         {
       "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "description": "Up to forty percent of the points available may be spent on these formations.",
       "formations": [
           {
             "name": "Defiler Pack",
@@ -207,40 +200,34 @@
             "points": 225
           },
           {
-            "name": "Death Wheels",
-            "units": "One Death Wheel",
-            "extraUnits": [
-              "Add one Death Wheel: 225 points"
+            "name": "Hellfire Battery",
+            "units": "Four Hellfire Cannons",
+            "upgrades": [
             ],
-            "points": 275
-          },
+            "points": 225
+        },
           {
-            "name": "0-1 Ordinatus Hereticus Majoris",
-            "units": "One Ordinatus Temporia",
+            "name": "Ordinatus Hereticus Minoris",
+            "units": "Two Ordinatus Hereticus Minoris",
             "extraUnits": [
             ],
-            "points": 450
+            "points": 300
           },
           {
             "name": "Chaos Reaver",
             "units": "One Chaos Reaver Titan",
-            "points": 625
+            "points": 600
           },
           {
             "name": "Chaos Warlord",
             "units": "One Chaos Warlord Titan",
             "points": 750
           },
-        {
-          "name": "Hell Blade Squadron",
-          "units": "Three Hell Blade Interceptors",
-          "points": 200
-        },
-        {
-          "name": "Hell Talon Squadron",
-          "units": "Two Hell Talon Fighter-Bombers",
-          "points": 225
-        },
+          {
+            "name": "Heldrakes",
+            "units": "Two Heldrakes",
+            "points": 225
+          },
         {
           "name": "0-1 Harbringer",
           "units": "One Harbringer Bomber",
@@ -259,7 +246,7 @@
   ],
   "upgrades": {
     "title": "Iron Warriors Upgrades",
-    "description": "Each upgrade may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
         "name": "Battleship",
@@ -273,11 +260,11 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace the Chaos Lord with a Warlord",
+            "description": "Replace a Iron Warriors Lord with an Iron Warriors Warsmith",
             "points": "50 points"
           },
           {
-            "description": "Replace the Chaos Lord and its unit with a Daemon Prince",
+            "description": "Replace a Iron Warriors Lord and its unit with a Daemon Prince",
             "points": "100 points"
           }
         ]
@@ -301,12 +288,12 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Chaos Dreadnoughts to the formation",
+        "description": "Add up to two Chaos Dreadnoughts",
         "points": "50 points each"
       },
       {
         "name": "Stalker",
-        "description": "Add one Chaos Stalker to the formation",
+        "description": "Add one Chaos Stalker",
         "points": "50 points"
       },
       {
@@ -316,19 +303,9 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add two Chaos Vindicators",
-        "points": "50 points"
-      },
-      {
-        "name": "Havocs",
-        "description": "Replace four Chaos Space Marines with four Havocs",
-        "points": "50 points"
-      },
-      {
-        "name": "Obliterators",
-        "description": "Replace up to two Chaos Terminators with Obliterators",
+        "description": "Add up to two Chaos Vindicators",
         "points": "35 points each"
-    }
+      }
     ]
   }
 }

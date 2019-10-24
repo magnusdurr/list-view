@@ -238,6 +238,30 @@
                     "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. [*]Corvus Assault Pod: Increases Speed to 25cm. May transport eleven infantry units.",
                   "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
                 },
+                {
+                    "name": "Ordinatus Hereticus Minoris ",
+                    "type": "WE",
+                    "speed": 20,
+                    "armour": 5,
+                    "cc": 6,
+                    "ff": 5,
+                    "weapons": [
+                      "Phospex Blaster|2|",
+                      "Turbo Blaster|0-1|FxF",
+                      "Doom Burner|0-1|FxF",
+                      "Plasma Cremator|0-1|FxF",
+                      "Twin Hades Autocannon|0-1|"
+
+                    ],
+                    "specialRules": [
+                      "Damage Capacity 2",
+                      "Void Shields 2",
+                      "Reinforced Armour",
+                      "Fearless"
+                  ],
+                    "notes": "Armed with either a Turbo Blaster, Doom Burner, Plasma Cremator or Twin Hades Autocannon.",
+                  "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+                },
             {
                 "name": "Ordinatus Hereticus Majoris",
                 "type": "WE",

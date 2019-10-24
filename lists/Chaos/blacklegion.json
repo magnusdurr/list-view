@@ -2,7 +2,7 @@
   "fraction": "Chaos Space Marines",
   "army": "Black Legion",
   "version": "1.0.0",
-  "release": "2019-10-22",
+  "release": "2019-10-24",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -95,7 +95,6 @@
     "units": [
       "Hell Blade Interceptor",
       "Hell Talon Fighter-Bomber",
-      "Harbringer Bomber",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
   ],
@@ -201,9 +200,9 @@
             },
             {
           "name": "Havocs",
-          "units": "One Chaos Lord or Sorcerer Lord, four Havocs, two Rhinos",
+          "units": "One Chaos Lord or Sorcerer Lord, four Havocs, two Chaos Rhinos",
           "extraUnits": [
-              "Transport",
+              "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
               "Stalker",
               "Vindicators"
           ],
@@ -250,7 +249,7 @@
           {
             "name": "Chaos Reaver",
             "units": "One Chaos Reaver Titan",
-            "points": 625
+            "points": 600
           },
           {
             "name": "Chaos Warlord",
@@ -267,11 +266,7 @@
           "units": "Two Hell Talon Fighter-Bombers",
           "points": 225
         },
-        {
-          "name": "0-1 Harbringer",
-          "units": "One Harbringer Bomber",
-          "points": 350
-        },
+
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
@@ -348,7 +343,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Chaos Dreadnoughts to the formation",
+        "description": "Add up to two Chaos Dreadnoughts",
         "points": "50 points each"
       },
       {
@@ -363,7 +358,7 @@
       },
       {
         "name": "Stalker",
-        "description": "Add one Chaos Stalker to the formation",
+        "description": "Add one Chaos Stalker",
         "points": "50 points"
       },
       {
@@ -373,8 +368,8 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add two Chaos Vindicators",
-        "points": "50 points"
+        "description": "Add up to two Chaos Vindicators",
+        "points": "35 points each"
       },
       {
         "name": "Havocs",

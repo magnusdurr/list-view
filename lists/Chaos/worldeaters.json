@@ -29,7 +29,7 @@
         "Chaos Space Marines",
         "Skullseeker Terminators",
         "Khorne Berzerkers",
-        "World Eaters Destroyers",
+        "Chaos Destroyers",
         "Mutilators",
         "Khorne Berzerker Assault Bikes",
         "Juggernaut Riders",
@@ -188,8 +188,8 @@
     "points": 225
     },
     {
-      "name": "Hell Cannons",
-      "units": "Four Hell Cannons",
+      "name": "Hellfire Battery",
+      "units": "Four Hellfire Cannons",
       "extraUnits": [
       ],
       "points": 225
@@ -339,8 +339,8 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add two Chaos Vindicators",
-        "points": "50 points"
+        "description": "Add up to two Chaos Vindicators",
+        "points": "35 points each"
       }
     ]
   }

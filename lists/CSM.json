@@ -42,6 +42,18 @@
           ]
         },
         {
+          "name": "Iron Warriors Warsmith",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Bionics",
+            "Invulnerable Save"
+          ]
+        },
+        {
           "name": "Blood Lord",
           "type": "CH",
           "weapons": [
@@ -76,6 +88,20 @@
         "specialRules": [
           "Commander",
           "Leader",
+          "Invulnerable Save"
+
+        ]
+      },
+      {
+        "name": "Iron Warriors Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Bionics",
           "Invulnerable Save"
 
         ]
@@ -348,6 +374,18 @@
         ]
       },
       {
+        "name": "Iron Warriors Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Heavy Bolter",
+          "Chainswords"
+        ]
+      },
+      {
         "name": "Havocs",
         "type": "INF",
         "speed": 15,
@@ -432,6 +470,21 @@
           "Jump Packs"
       ]
       },
+      {
+        "name": "Bezashk Destroyers",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Rad Missile Launchers"
+      ],
+      "specialRules": [
+          "Jump Packs"
+      ]
+      },
+
       {
         "name": "Alpha Legion Destroyers",
         "type": "INF",
@@ -940,6 +993,35 @@
         ]
       },
       {
+        "name": "Chaos Basilisk",
+        "type": "AV",
+        "speed": 20,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Earthshaker Cannon", "Heavy Bolter"
+        ],
+        "specialRules": [
+
+        ]
+      },
+      {
+        "name": "Bezashk Medusa",
+        "type": "AV",
+        "speed": "20",
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Medusa Phospex Gun",
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+
+        ]
+      },
+      {
         "name": "Chaos Vindicator",
         "type": "AV",
         "speed": 25,
@@ -1073,6 +1155,23 @@
         "Invulnerable Save"
     ]
   },
+          {
+            "name": "Chaos Stormsword",
+            "type": "WE",
+            "speed": 15,
+            "armour": 4,
+            "cc": 6,
+            "ff": 4,
+            "weapons": [
+              "Siege Cannon||FxF",
+              "Twin Heavy Bolters|4|FxF"
+            ],
+            "specialRules": [
+              "Damage Capacity 3",
+              "Reinforced Armour"
+            ],
+            "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
+        },
   {
     "name": "Alpha Legion Xiphon Interceptor",
     "type": "AC",

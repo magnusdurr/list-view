@@ -5,8 +5,8 @@
   "release": "2019-02-20",
   "strategy": "Iron Hands Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "armyRules": "The <i>They Shall Know No Fear</i> and <i>Kult of the Machine</i> special rules applies to all Iron Hands detachments and aircraft formations.",
-  "specialRules": ["Space Marine Transports"],
+  "armyRules": "The <i>They Shall Know No Fear</i> and <i>Cult of the Machine</i> special rules applies to all Iron Hands detachments and aircraft formations.",
+  "specialRules": ["Bionics", "Cult of the Machine", "Space Marine Transports"],
   "usage": [
     "The following army list allows you to field an army based on the Iron Hands, or one of their successor chapters, using their preferred operational methods."
   ],
@@ -46,9 +46,7 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "They Shall Know No Fear",
-        "Cult of the Machine",
-        "Bionics"
+        "They Shall Know No Fear"
       ]
     },
     {
