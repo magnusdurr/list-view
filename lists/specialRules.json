@@ -775,6 +775,12 @@
        ]
      },
      {
+       "title": "The Architect of Fate",
+       "description": [
+         "The Thousand Sons player may spend one point from the Lesser Daemon Pool to re-roll any failed Invulnerable Save. No such save can be re-rolled more than once."
+       ]
+     },
+     {
        "title": "Daemonic Focus",
        "description": [
          "Units with Daemonic focus may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Daemonic Focus may not be used to keep summoned units in play if the formation is broken. Multiples of Daemonic Focus have no additional effect."
@@ -986,7 +992,7 @@
       "title": "Brood Brothers",
       "description": [
         "While a formation contains a Coven Locus character or a Hybrid Primus, units with the Brood Brothers special rule (except the unit where the Coven Locus is located) are considered Expendable.",
-        "If the unit with the Coven Locus or Hybrid Primus is killed, the formation reduces its Initiative Rating to 3+ and may only contest objectives."
+        "If the unit with the Coven Locus character or the Hybrid Primus unit is killed, the formation reduces its Initiative Rating to 3+ and may only contest objectives."
       ]
     },
     {
@@ -994,8 +1000,7 @@
       "description": [
           "The army must include a Nexus Brood formation. The enemy will only count as having achieved their Break Their Spirit (BTS) victory condition if they destroy this formation, even if it is not the single most expensive formation in the army.",
           "All units in the Nexus Brood formation are considered Fearless as long as it contains a Genestealer Patriarch unit.",
-          "While the Genestealer Patriarch unit is alive, all formations in the army with a Coven Locus character or a Hybrid Primus unit gains +1 to rally.",
-          "If the Genestealer Patriarch unit is killed, all formations in the army suffers a Blast Marker."
+          "While the Genestealer Patriarch unit is alive, all formations in the army with a Coven Locus character or a Hybrid Primus unit gains +1 to rally."
       ]
     },
 
