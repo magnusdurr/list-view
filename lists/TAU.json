@@ -2,6 +2,18 @@
   {
     "name": "Tau Forces",
     "specialRules": [
+        {
+          "title": "Deflector Shield",
+          "description": [
+            "Tau Deflector Shields work like an Invulnerable Save in all respects, except it is 5+ instead of 6+. Against Titan Killer attacks, WE and H-AV must make one Invulnerable Save against each point of damage."
+          ]
+        },
+        {
+          "title": "Heavy Armoured Vehicle (H-AV)",
+          "description": [
+            "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+          ]
+        }
     ],
     "unit": [
     {
@@ -11,9 +23,9 @@
         "Honour Blade"
       ],
       "specialRules": [
-        "Invulnerable Save",
         "Inspiring",
-        "Leader"
+        "Leader",
+        "Invulnerable Save"
     ]
     },
     {
@@ -35,19 +47,33 @@
       ],
       "specialRules": [
         "Supreme Commander",
-        "Coordinated Fire",
-        "Leader"
+        "Coordinated Fire"
       ]
     },
     {
-      "name": "Crisis Battlesuits",
+      "name": "Shas'o Battlesuit",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Experimental Weapons"
+      ],
+      "specialRules": [
+          "Supreme Commander",
+          "Coordinated Fire"
+      ]
+    },
+    {
+      "name": "XV8 Crisis Battlesuits",
       "type": "INF",
       "speed": 20,
       "armour": 3,
-      "cc": 6,
-      "ff": 5,
+      "cc": 4,
+      "ff": 3,
       "weapons": [
-        "Twin Missile Pods",
+        "Twin Tau Flamers",
         "Twin Plasma Rifles",
         "Twin Fusion Blasters"
       ],
@@ -66,6 +92,20 @@
       "weapons": [
         "Pulse Rifles",
         "Pulse Carbines"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Fire Warrior Breachers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Pulse Blasters|2"
       ],
       "specialRules": [
 
@@ -95,7 +135,7 @@
         ],
       "specialRules": [
         "Infiltrators",
-        "Scouts"
+        "Scout"
       ]
     },
     {
@@ -106,13 +146,13 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Mercenary Weapons",
-        "Kroot Rifles"
+        "Kroot Rifles",
+        "Mercenary Weapons"
       ],
       "specialRules": [
         "Infiltrators",
         "Leader",
-        "Scouts"
+        "Scout"
       ]
     },
     {
@@ -126,7 +166,7 @@
       ],
       "specialRules": [
         "Infiltrators",
-        "Scouts"
+        "Scout"
       ]
     },
     {
@@ -157,12 +197,12 @@
       "specialRules": [
         "Coordinated Fire",
         "Markerlights",
-        "Scouts"
+        "Scout"
 
       ]
     },
     {
-      "name": "Stealth Battlesuits",
+      "name": "XV15 Stealth Battlesuits",
       "type": "INF",
       "speed": 20,
       "armour": 3,
@@ -215,7 +255,7 @@
       ]
     },
     {
-      "name": "Broadside Battlesuit",
+      "name": "XV88 Broadside Battlesuit",
       "type": "LV",
       "speed": 15,
       "armour": 4,
@@ -238,7 +278,7 @@
       "cc": 6,
       "ff": 6,
       "weapons": [
-       "Burst Cannon & Gun Drones",
+       "Burst Cannon and Gun Drones",
        "Seeker Missiles"
       ],
       "specialRules": [
@@ -258,7 +298,7 @@
       "specialRules": [
         "Coordinated Fire",
         "Markerlights",
-        "Scouts",
+        "Scout",
         "Skimmer"
       ]
     },
@@ -270,32 +310,63 @@
       "cc": 6,
       "ff": 6,
       "weapons": [
-       "Burst Cannon & Gun Drones",
+       "Burst Cannon and Gun Drones",
        "Seeker Missiles"
       ],
       "specialRules": [
         "Skimmer",
-        "Transport (Two Fire Warrior or Pathfinder units)"
-      ]
+        "Transport"
+    ],
+    "notes": "May transport two units of Fire Warriors or Pathfinders"
     },
     {
-      "name": "Hammerhead",
+      "name": "Ion Hammerhead",
       "type": "AV",
       "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
+       "Ion Cannon",
        "Smart Missile System",
-       "Seeker Missiles",
-       "Ion Cannon|0-1|",
-       "Twin Fusion Cannons|0-1|",
-       "Railgun|0-1|"
+       "Seeker Missiles"
       ],
       "specialRules": [
-        "Skimmer",
-        "Armed with either a Railgun, Ion Cannon or Twin Fusion Cannons."
-      ]
+        "Skimmer"
+    ]
+    },
+    {
+      "name": "Rail Hammerhead",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Railgun",
+       "Smart Missile System",
+       "Seeker Missiles"
+
+      ],
+      "specialRules": [
+        "Skimmer"
+    ]
+    },
+    {
+      "name": "Fusion Hammerhead",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Twin Fusion Cannons",
+       "Smart Missile System",
+       "Seeker Missiles"
+      ],
+      "specialRules": [
+        "Skimmer"
+    ]
     },
     {
       "name": "Skyray",
@@ -315,10 +386,10 @@
       ]
     },
     {
-      "name": "Ghostkeel",
+      "name": "XV95 Ghostkeel Battlesuit",
       "type": "AV",
       "speed": 20,
-      "armour": 3,
+      "armour": 4,
       "cc": 6,
       "ff": 4,
       "weapons": [
@@ -326,53 +397,56 @@
        "Cyclic Ion Raker"
       ],
       "specialRules": [
-        "Invulnerable Save",
         "Walker",
         "First Strike",
         "Teleport",
-        "Tau Jet Pack"
+        "Tau Jet Pack",
+        "Invulnerable Save"
       ]
     },
     {
-      "name": "KV-104 Riptide",
+      "name": "XV104 Riptide Battlesuit",
       "type": "H-AV",
       "speed": 25,
       "armour": 3,
-      "cc": 6,
+      "cc": 5,
       "ff": 4,
       "weapons": [
        "Ion Accelerator",
-       "Heavy Burst Cannons|2|"
+       "Twin Missile Pods|2|",
+       "Velocity Tracker"
       ],
       "specialRules": [
-        "Tau Deflector Shield",
         "Walker",
-        "Tau Jet Pack"
+        "Thick Rear Armour",
+        "Tau Jet Pack",
+        "Tau Deflector Shield"
       ]
     },
     {
-      "name": "XV107 R‘varna",
+      "name": "XV107 R‘varna Battlesuit",
       "type": "H-AV",
       "speed": 20,
-      "armour": 5,
-      "cc": 6,
+      "armour": 4,
+      "cc": 5,
       "ff": 4,
       "weapons": [
        "Pulse Submunition Cannons|2|"
       ],
       "specialRules": [
         "Reinforced Armour",
-        "Tau Deflector Shield",
         "Walker",
-        "Tau Jet Pack"
+        "Thick Rear Armour",
+        "Tau Jet Pack",
+        "Invulnerable Save"
       ]
     },
     {
-      "name": "XV109 Y‘vahra",
+      "name": "XV109 Y‘vahra Battlesuit",
       "type": "H-AV",
       "speed": 25,
       "armour": 3,
-      "cc": 6,
+      "cc": 5,
       "ff": 4,
       "weapons": [
        "Plasma Flamer",
@@ -381,58 +455,56 @@
       "specialRules": [
         "Tau Deflector Shield",
         "Walker",
+        "Thick Rear Armour",
         "Tau Jet Pack"
       ]
     },
     {
-      "name": "KX-128 Stormsurge",
+      "name": "KX128 Stormsurge Battlesuit",
       "type": "H-AV",
       "speed": 15,
-      "armour": 4,
-      "cc": 6,
+      "armour": 3,
+      "cc": 5,
       "ff": 5,
       "weapons": [
        "Pulse Driver Cannon",
        "Destroyer Missiles|2|",
-       "Burst Cannons"
+       "Battlesuit Burst Cannons"
       ],
       "specialRules": [
-        "Reinforced Armour",
         "Tau Deflector Shield",
         "Walker",
+        "Thick Rear Armour",
         "Tau Jet Pack"
       ]
     },
     {
-      "name": "KX-139 Supremacy Suit",
+      "name": "KX139 Supremacy Suit",
       "type": "WE",
       "speed": 20,
       "armour": 5,
-
-      "ff": 4,
+      "cc": 5,
+      "ff": 5,
       "weapons": [
         "Seeker Missiles|2|",
-        "Fusion Eradicators|2|",
-        "Velocity Tracker",
         "Heavy Rail Cannon|0-1|",
-        "Nexus Missile System|0-1|",
-        "Pulse Ordinance Multi-Driver|0-1|"
+        "Nexus Missile Array|0-1|",
+        "Pulse Ordnance Multi-Driver|0-1|"
       ],
       "specialRules": [
         "Damage Capacity: 3",
         "Reinforced Armour",
         "Tau Deflector Shield",
-        "Walker",
-        "Armed with either a Heavy Rail Cannon, a Nexus Missile System or a Pulse Ordinance Multi Driver"
+        "Walker"
       ],
-      "crit": "The Supremacy Suit is destroyed."
+      "notes": "Armed with either a Heavy Rail Cannon, a Nexus Missile Array or a Pulse Ordnance Multi Driver.",
+      "crit": "The Supremacy Suit is destroyed. Any units within 5cm take a hit on 6+."
     },
     {
       "name": "Manta",
       "type": "WE",
       "speed": 20,
       "armour": 5,
-
       "ff": 4,
       "weapons": [
         "Twin Heavy Railcannons",

@@ -600,7 +600,7 @@
       ]
     },
     {
-      "name": "AC Pulse Bomber Generators",
+      "name": "AC Pulse Bomb Generator",
         "modes": [
           {
             "firepower": "2BP",
@@ -625,13 +625,13 @@
       ]
     },
     {
-      "name": "AC Quad Iron Turrets",
+      "name": "AC Quad Ion Turrets",
         "modes": [
           {
             "firepower": "AP4+/AT5+/AA5+",
             "range": 30,
             "specialRules": [
-              "FxF"
+              "FwA"
           ]
           }
       ]
@@ -2264,7 +2264,7 @@
       ]
     },
     {
-      "name": "Burst Cannons",
+      "name": "Battlesuit Burst Cannons",
         "modes": [
           {
             "firepower": "AP5+",
@@ -2276,7 +2276,7 @@
       ]
     },
     {
-      "name": "Burst Cannon & Gun Drones",
+      "name": "Burst Cannon and Gun Drones",
         "modes": [
           {
             "firepower": "AP5+",
@@ -3398,7 +3398,6 @@
             "range": 15,
             "specialRules": [
               "D"
-
           ]
           }
       ]
@@ -3661,6 +3660,18 @@
         {
           "firepower": "Small Arms",
 
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Tau Flamers",
+      "modes": [
+        {
+          "firepower": "AP4+",
+            "range": 15,
           "specialRules": [
             "IC"
           ]
@@ -4039,7 +4050,8 @@
             "firepower": "3x MW3+",
             "specialRules": [
               "GM",
-              "IC"
+              "IC",
+              "Spec[*]"
           ]
           }
       ]
@@ -4545,10 +4557,10 @@
       "name": "Heavy Rail Cannon",
         "modes": [
           {
-            "firepower": "MW3+",
+            "firepower": "MW2+",
             "range": 90,
             "specialRules": [
-              "TK(D3+1)"
+              "TK(D3)"
           ]
           }
       ]
@@ -6250,14 +6262,13 @@
       ]
     },
     {
-      "name": "Nexus Missile System",
+      "name": "Nexus Missile Array",
         "modes": [
           {
-            "firepower": "6x MW5+",
+            "firepower": "3x MW5+",
             "range": 90,
             "specialRules": [
-              "MW",
-              "Slw"
+              "GM"
           ]
           }
       ]
@@ -6722,9 +6733,15 @@
             "specialRules": [
               "TK(1)",
               "IC"
-
           ]
-          }
+      },
+      {
+        "firepower": "Small Arms",
+        "join": "and",
+        "specialRules": [
+          "EA(+1)"
+      ]
+    }
       ]
     },
     {
@@ -7169,6 +7186,17 @@
       ]
     },
     {
+      "name": "Pulse Blasters",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 15,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Pulse Carbines",
       "modes": [
         {
@@ -7260,11 +7288,11 @@
       ]
     },
     {
-      "name": "Pulse Ordinance Multi-Driver",
+      "name": "Pulse Ordnance Multi-Driver",
         "modes": [
           {
-            "firepower": "4x AP3+/AT5+",
-            "range": 60,
+            "firepower": "3BP",
+            "range": 45,
             "specialRules": [
               "Ind"
           ]
@@ -7278,7 +7306,6 @@
             "firepower": "2x AP3+/AT5+",
             "range": 45,
             "specialRules": [
-              "D"
           ]
           }
       ]
@@ -9518,7 +9545,7 @@
       "name": "Twin Fusion Blasters",
       "modes": [
         {
-          "firepower": "MW3+",
+          "firepower": "MW4+",
           "range": 15,
           "specialRules": [
           ]

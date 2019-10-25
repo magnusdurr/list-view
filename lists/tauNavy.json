@@ -30,7 +30,7 @@
       "speed": "Fighter",
       "armour": 6,
       "weapons": [
-        "AC Quad Iron Turrets",
+        "AC Quad Ion Turrets",
         "AC Twin Burst Cannon"
       ],
       "specialRules": [
@@ -42,7 +42,7 @@
       "speed": "Fighter-Bomber",
       "armour": 4,
       "weapons": [
-        "AC Pulse Bomber Generators",
+        "AC Pulse Bomb Generator",
         "AC Twin Burst Cannon",
         "AC Twin Missile Pods"
       ],
@@ -104,11 +104,13 @@
       "name": "Custodian Class Battleship",
       "type": "SC",
       "weapons": [
-        "Pin Point|2|"
+        "Gravitic Tracer Salvo",
+        "Pin Point||"
       ],
       "specialRules": [
-        "Transport (may carry up to 3 Orcas plus any troops carried in them. Mantas and any embarked troops can also be carried but count as 3 Orcas for transport purposes)."
-      ]
+        "Transport"
+    ],
+    "notes": "May transport 18 of the following units and the units being transported on them: Orca, Manta. Mantas count as thee units each. Spec[*]: A Gravitic Tracer Salvo may be fired at a marked formation of any type."
     },
     {
       "name": "Protector Class Cruiser",
@@ -118,8 +120,9 @@
         "Pin Point|2|"
       ],
       "specialRules": [
-        "Transport (may carry up to 18 Orcas plus any troops carried in them. Mantas and any embarked troops can also be carried but count as 3 Orcas for transport purposes). A Gravitic Tracer Salvo may be fired at a marked formation of any type."
-      ]
+        "Transport"
+    ],
+    "notes": "May transport six of the following units and the units being transported on them: Orca, Manta. Mantas count as thee units each. Spec[*]: A Gravitic Tracer Salvo may be fired at a marked formation of any type."
     }
     ]
   }
