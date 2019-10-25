@@ -98,6 +98,7 @@
         "name": "Vindicator Company",
         "units": "Six Chaos Vindicators",
         "extraUnits": [
+            "Stalker"
         ],
         "points": 250
     },
@@ -122,7 +123,7 @@
           "name": "Chosen",
           "units": "Four Chosen, two Chaos Rhinos",
           "extraUnits": [
-            "Dreadnoughts"
+            "Vindicators"
           ],
           "points": 150
         },
@@ -139,6 +140,7 @@
         "name": "Tyrant Terminators",
         "units": "One Iron Warriors Lord, four Tyrant Terminators",
         "extraUnits": [
+            "Add up to two Obliterators: 75 points each",
             "Supreme Commander",
             "Dreadnoughts",
             "Dreadclaws"
@@ -149,14 +151,14 @@
   },
     {
     "name": "Iron Warriors Siege Formations",
-    "description": "Two Siege formations may be taken per Core formation.",
+    "description": "One Siege formation may be taken per Core formation.",
     "formations": [
         {
           "name": "Iron Warriors Artillery Emplacement",
           "units": "Four Chaos Basilisks, four Gun Emplacements",
           "extraUnits": [
           ],
-          "points": 350
+          "points": 325
       },
       {
         "name": "Dreadnought Assault",
@@ -182,7 +184,7 @@
           "points": 250
       },
             {
-              "name": "Iron Warriors Stormsword Platoon",
+              "name": "Iron Warriors Stormsword",
               "units": "One Chaos Stormsword",
               "extraUnits": [
               ],
