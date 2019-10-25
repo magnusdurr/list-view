@@ -1,10 +1,10 @@
 {
   "fraction": "Tau",
   "army": "Vior'la",
-  "version": "1.1",
-  "release": "2019-02-22",
-  "strategy": "Vior'la armies have a Strategy Rating of 3.",
-  "Initiative": "Vior’la Tau armies have a Strategy Rating of 3. Crisis Battlesuit Cadre, Riptide, Stormsurge, Supremacy Suits and Manta Dropship formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.6.0",
+  "release": "2019-10-25",
+  "strategy": "Tau armies have a Strategy Rating of 3.",
+  "Initiative": "Vior’la Tau armies have a Strategy Rating of 3. Heavy Battle Suit, Crisis Suit and Manta Formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
             "Coordinated Fire",
@@ -61,153 +61,134 @@
 ],
 "sections": [
     {
-      "name": "Vior'la Cadres",
+      "name": "Vior'la Core Formations",
       "formations": [
         {
           "name": "Crisis Battlesuit Cadre",
-          "units": "Four Crisis Battlesuits and one Shas’el",
-          "upgrades": [
-            "Shas’o, Crisis Suits, Gun Drones"
+          "units": "One Shas'el, six Vior'la XV8 Crisis Suits",
+          "extraUnits": [
+            "Crisis Suits",
+            "Gun Drones"
           ],
-          "points": 250
+          "points": 325
         },
         {
-          "name": "Fire Warrior Cadre",
-          "units": "Eight Fire Warriors or Six Fire Warriors and three Devilfish",
-          "upgrades": [
-            "Bonded Team, Broadsides, Ethereal, Fire Warriors, Gun Drones, Pathfinders, Piranhas, Skyray"
+          "name": "Pathfinder Group",
+          "units": "Six Pathfinders or Four Pathfinders and two Devilfish",
+          "extraUnits": [
+            "Gun Drones",
+            "Recon"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Fire Warrior Breacher Cadre",
+          "units": "Eight Vior'la Fire Warriors or Six Vior'la Fire Warriors and three Devilfish",
+          "extraUnits": [
+            "Bonded Team",
+            "Shas'O",
+            "Fireblade",
+            "Broadsides",
+            "Ethereal",
+            "Fire Warriors",
+            "Gun Drones",
+            "Pathfinders",
+            "Piranhas",
+            "Skyray"
           ],
           "points": 225
         }
       ]
     },
     {
-      "name": "Vior'la Support Formations ",
-      "description": "Up to three for each Vior'la Cadre taken",
+      "name": "Vior'la Support Formations",
+      "description": "Up to two for each Vior'la Core Formation taken",
       "formations": [
         {
-          "name": "Battle Suits",
-          "units": "Three Riptides and one Shas’el",
-          "upgrades": [
-            "Add 1 Riptides for 100 Points"
+          "name": "Heavy Battlesuit Group",
+          "units": "One Shas'el, and any three chosen from Riptide Battlesuit, R'Varna Battlesuit, Y'Vahra Battlesuit",
+          "extraUnits": [
+            "Add one Riptide Battlesuit, R'Varna Battlesuit or Y'Vahra Battlesuit: 100 points"
           ],
           "points": 350
         },
         {
           "name": "Broadside Group",
           "units": "Six Broadside Battlesuits",
-          "upgrades": [
+          "extraUnits": [
             "Gun Drones"
           ],
           "points": 300
         },
         {
-          "name": "Heavy Battle Suits",
-          "units": "Two Storm Surges and one Shas’el",
-          "upgrades": [
-
+          "name": "Stormsurge Group",
+          "units": "Two Stormsurge Battlesuit",
+          "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Pathfinder Group",
-          "units": "Four Pathfinders and two Devilfish",
-          "upgrades": [
-            "Gun Drones, Piranhas"
+          "name": "Supremacy Suit",
+          "units": "One Supremacy Suit",
+          "extraUnits": [
           ],
-          "points": 200
-        },
-        {
-          "name": "Recon Skimmer Group",
-          "units": "Any six of the following units: Piranha, Tetra",
-          "upgrades": [
-            "Gun Drones, Piranhas"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Skysweep Support Group",
-          "units": "Three Skyrays",
-          "upgrades": [
-
-          ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Stealth Group",
-          "units": "Four Stealth Battlesuits and 2 Ghostkeel units",
-          "upgrades": [
-            "Bonded Team"
+          "units": "Six Stealth Battlesuits",
+          "extraUnits": [
+            "Replace up to three Stealth Battlesuits with Ghostkeel Battlesuits: 25 points each"
           ],
-          "points": 250
+          "points": 225
         }
       ]
     },
     {
-      "name": "Vior'la Aircraft, Spacecraft and Titans",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "name": "Vior'la Air Caste Formations",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-        {
-          "name": "Supremacy Suit",
-          "units": "One KV139 Supremacy unit",
-          "upgrades": [
-          ],
-          "points": 275
-        },
         {
           "name": "Manta Dropship",
           "units": "One Manta",
-          "upgrades": [
-
+          "extraUnits": [
           ],
           "points": 500
         },
         {
-          "name": "Barracuda Squadron",
-          "units": "Two Barracudas",
-          "upgrades": [
-            "None"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Sunshark Bomber",
-          "units": "Two Sun shark Bombers",
-          "upgrades": [
+          "name": "Razorshark Squadron",
+          "units": "Three Razorshark Fighters",
+          "extraUnits": [
           ],
           "points": 200
         },
         {
-          "name": "Tiger Shark AX-1-0 Squadron",
-          "units": "Two Shark AX-1-0s",
-          "upgrades": [
-
+          "name": "Sunshark Bomber",
+          "units": "Two Sunshark Bombers",
+          "extraUnits": [
           ],
-          "points": 350
+          "points": 200
         },
         {
           "name": "Orca Dropship",
           "units": "One Orca",
-          "upgrades": [
-
+          "extraUnits": [
           ],
           "points": 175
         },
         {
           "name": "0–1 Spacecraft",
           "units": "Protector Class Cruiser",
-          "upgrades": [
-            "Replace with a Custodian Class Battleship (+50 Points)"
-
+          "extraUnits": [
           ],
-          "points": 200
+          "points": 225
         }
       ]
     }
   ],
   "upgrades": {
     "title": "Upgrades",
-    "description": "Maximum 3 Upgrades per Formation and each different allowed upgrade may be taken once by a formation",
+    "description": "Max three upgrades per Formation. Each upgrade may be taken once per formation.",
     "items": [
       {
         "name": "Bonded Team",

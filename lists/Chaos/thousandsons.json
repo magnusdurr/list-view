@@ -12,7 +12,6 @@
       "Augment Summoning (+x)",
       "Daemonic Focus",
       "Fickle Masters",
-      "Rubric of Ahriman",
       "Teleport Homer"
     ],
   "usage": [
@@ -25,6 +24,7 @@
         "Exalted Sorcerer",
         "Aspiring Sorcerer",
         "Champion of Tzeench",
+        "Icon Bearer",
         "Daemon Prince of Tzeench",
         "Chaos Space Marines",
         "Scarab Occult Terminators",
@@ -101,37 +101,40 @@
       "formations": [
         {
           "name": "Thousand Sons Retinue",
-          "units": "One Aspiring Sorcerer, six Rubric Marines",
+          "units": "One Aspiring Sorcerer, five Rubric Marines, four Chaos Space Marines",
           "extraUnits": [
             "Supreme Commander",
+            "Icon Bearer",
             "Thousand Sons Transport",
             "Predators",
             "Dreadnoughts"
           ],
-          "points": 300
+          "points": 375
         }
       ]
     },
     {
       "name": "Thousand Sons Elite Formations",
-      "description": "One Elite Formation may be taken per Core Formation",
+      "description": "Two Elite Formations may be taken per Core Formation",
       "formations": [
         {
           "name": "Thousand Sons Initiates",
-          "units": "One Aspiring Sorcerer, four Chaos Space Marines",
+          "units": "Four Chaos Space Marines, Daemonic Pact",
           "extraUnits": [
-            "Replace the Aspiring Sorcerer with a Champion of Tzeench: 25 points",
+            "Add one Champion of Tzeench to the formation: 50 points",
+            "Icon Bearer",
             "Dreadnoughts",
             "Predators",
             "Thousand Sons Transport"
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Thousand Sons Terminators",
           "units": "One Aspiring Sorcerer, four Scarab Occult Terminators",
           "extraUnits": [
               "Supreme Commander",
+              "Icon Bearer",
               "Thousand Sons Transport"
           ],
           "points": 400
@@ -145,21 +148,22 @@
         "points": 225
     },
     {
-      "name": "Sorcerer Disc Riders",
-      "units": "One Aspiring Sorcerer, six Sorcerer Disc Riders",
+      "name": "Disc Riders",
+      "units": "One Aspiring Champion, six Sorcerer Disc Riders, Daemonic Pact",
       "extraUnits": [
-        "Supreme Commander"
+      "Supreme Commander",
+      "Icon Bearer"
       ],
       "points": 250
   }
     ]
   },
   {
-    "name": "Chaos Cultist and Minor Daemon Engine Formations",
+    "name": "Thousand Sons Cultist Formations",
     "description": "Two Chaos Cultist and Minor Daemon Engine Formations may be taken per Core Formation",
     "formations": [
       {
-        "name": "Tzaangor Warhost",
+        "name": "Tzaangor Host",
         "units": "Nine Tzaangors, Daemonic Pact",
         "extraUnits": [
           "Beasts of Chaos"
@@ -190,7 +194,7 @@
     ]
   },
         {
-      "name": "Major Daemon Engines, Traitor Titans and Chaos Navy",
+      "name": "Dark Mechanicus and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
           {

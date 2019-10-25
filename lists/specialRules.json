@@ -15,7 +15,7 @@
     {
       "title": "Rubric of Ahriman",
       "description": [
-        "Any formation with at least one unit with Rubic of Ahriman that has lost its Sorcerer or Daemon Prince may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions."
+        "Any formation with at least one unit with Rubic of Ahriman that contain no Sorcerer or Daemon Prince may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions."
       ]
     },
 {
@@ -648,10 +648,9 @@
      {
        "title": "Black Legion Summoning Rules",
        "description": [
-         "All formations in the Black Legion (except Cult Marines formations) worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeench (2), Daemonic Beasts of Chaos Undivided (1).",
+         "All formations in the Black Legion worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons (brackets indicating the Summoning Points cost):",
+         "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeench (1), Daemonic Beasts of Chaos Undivided (1).",
          "Greater Daemons: Slaanesh Keeper of Secrets (8), Nurgle Great Unclean One (7), Khorne Bloodthirster (8), Tzeench Lord of Change (8)",
-         "Cult Marines formations with Daemonic Pact only may summon Daemons from its own faction or from Chaos Undivided, but all Lesser Daemons have a Summoning Points cost of (1).",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
          "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one."
        ]
@@ -689,7 +688,7 @@
      {
        "title": "Thousand Sons Summoning Rules",
        "description": [
-         "All formations in Thousand Sons worship the Changer of Ways, Tzeench. Formations with either Daemonic Pact or a unit with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+         "All formations in Thousand Sons worship the Changer of Ways, Tzeench. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
          "Lesser Daemons: Horrors of Tzeench (1), Flamers of Tzeench (1), Screamers of Tzeench (2)",
          "Greater Daemons: Lord of Change (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
@@ -1163,15 +1162,15 @@
     {
       "title": "Guided Missiles",
       "description": [
-        "Guided missiles may only be fired at a target formation that is marked, but guided missiles may be fired without line of fire if the target is marked.",
-        "Guided missiles follow all the normal suppression rules. So if a unit with a guided missile weapon is in range and has LOF to a unit in the target formation then it is counted for suppression purposes. It is counted even if it cannot fire because for instance - the target is not marked, or an aircraft (note: unless landed, aircraft never count as marked).",
-        "Additionally guided missiles count as having LOF to all units in a marked formation for the purpose of suppression, crossfire and when shooting as part of an overwatch action."
+        "Guided Missiles may be fired without line of sight, but may only be fired at a targets that are Marked with Markerlights.",
+        "Guided Missiles follow all the normal suppression rules. If a unit with a guided missile weapon is in range and has line of sight to a unit in the target formation then it is counted for suppression purposes, even if it cannot fire because the target is not Marked.",
+        "Additionally Guided Missiles count as having line of sight to all units in a Marked formation for the purpose of suppression, crossfire and when shooting as part of an Overwatch action."
       ]
     },
     {
       "title": "Markerlights",
       "description": [
-        "All enemy formations with at least one unit within 30cm range and line of fire (Line of Fire) of at least one Tau unit with the markerlights ability is considered to be marked. When shooting at a marked formation, all ranged firepower attacks add +1 to their to-hit roll. This bonus for shooting at a marked enemy may not be used when making Anti-Aircraft attacks. A Tau formation that is broken or marched this turn may not mark an enemy formation."
+        "All enemy formations with at least one unit within 30cm range and line of sight of at least one Tau unit with the Markerlights special rule is considered to be Marked. When shooting at a Marked formation, all ranged firepower attacks add +1 to their to-hit roll. This bonus for shooting at a Marked enemy may not be used when making Anti-Aircraft attacks, or with BP type attacks. A Tau formation that is broken or has Marched this turn may not mark enemy formations."
       ]
     },
     {
@@ -1181,15 +1180,12 @@
       ]
     },
 
-
-
-
-{
-  "title": "Tiger Shark Gun Drones",
-  "description": [
-    "Tiger Shark Squadrons may be given a Gun Drone formation to transport. Transported Gun Drone formations may be split across multiple Tiger Sharks as an exception to the normal aircraft transport rules. The Tiger Sharks cannot land, make an engagement, or embark units, but can disembark transported Gun Drones after an approach move. The Gun Drone formation may shoot when it disembarks as normal (see Transporting Ground Units), and counts as having activated for that turn. After this initial deployment the Gun Drones are a completely independent formation."
-  ]
-},
+    {
+      "title": "Tiger Shark Gun Drones",
+      "description": [
+        "Tiger Shark Squadrons may be given a Gun Drone formation to transport. Transported Gun Drone formations may be split across multiple Tiger Sharks as an exception to the normal aircraft transport rules. The Tiger Sharks cannot land, make an engagement, or embark units, but can disembark transported Gun Drones after an approach move. The Gun Drone formation may shoot when it disembarks as normal (see Transporting Ground Units), and counts as having activated for that turn. After this initial deployment the Gun Drones are a completely independent formation."
+      ]
+    },
 
 
 

@@ -46,8 +46,7 @@
         "Chaos Stalker"
     ],
     "unitRules": [
-        "CSM Characters",
-        "Rubric of Ahriman"
+        "CSM Characters"
     ]
     },
     {
@@ -114,6 +113,7 @@
             "Supreme Commander",
             "Transport",
             "Champion",
+            "Cult Marines",
             "Daemonic Pact",
             "Stalker",
             "Dreadclaws",
@@ -138,18 +138,6 @@
             "Daemonic Pact"
           ],
           "points": 150
-        },
-        {
-          "name": "Cult Marines",
-          "units": "Either one Chaos Lord and four Plague Marines of Nurgle / four Khorne Berzerkers; or one Sorcerer Lord, and four Noise Marines of Slaanesh / four Rubric Marines of Tzeench",
-          "extraUnits": [
-            "Icon Bearer",
-            "Transport",
-            "Dreadclaws",
-            "Dreadnoughts",
-            "Daemonic Pact"
-          ],
-          "points": 225
         },
         {
           "name": "Chaos Terminators",
@@ -348,8 +336,13 @@
       },
       {
         "name": "Champion",
-        "description": "Replace a Chaos Lord with a Champion of Chaos Undivided",
-        "points": "25 points"
+        "description": "Add one Champion of Chaos Undivided",
+        "points": "50 points"
+      },
+      {
+        "name": "Cult Marines",
+        "description": "Replace four Chaos Space Marines with four Noise Marines, Khorne Berzerkers, Plague Marines or Rubric Marines.",
+        "points": "50 points"
       },
       {
         "name": "Icon Bearer",
