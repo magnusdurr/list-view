@@ -34,6 +34,7 @@
         "Chaos Land Raider",
         "Chaos Vindicator",
         "Chaos Dreadnought",
+        "Iron Warriors Siege Dreadnought",
         "Chaos Stalker",
         "Iron Warriors Stormsword"
     ],
@@ -87,6 +88,7 @@
           "units": "One Iron Warriors Lord, six Chaos Space Marines",
           "extraUnits": [
             "Replace six Chaos Space Marines with six Iron Warriors Assault Marines: Free",
+            "Add two Havocs: 75 points",
             "Supreme Commander",
             "Transport",
             "Stalker",
@@ -146,7 +148,7 @@
             "Dreadnoughts",
             "Dreadclaws"
         ],
-        "points": 300
+        "points": 275
     }
     ]
   },
@@ -304,8 +306,8 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Chaos Dreadnoughts",
-        "points": "50 points each"
+        "description": "Add up to two Chaos Dreadnoughts, or up to two Siege Dreadnoughts",
+        "points": ["50 points for one", "75 points for two"]
       },
       {
         "name": "Stalker",
