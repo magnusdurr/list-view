@@ -16,9 +16,39 @@
         ]
       },
       {
-        "title": "CSM Characters",
+        "title": "Black Legion Characters",
         "description": [
-          "Chaos Space Marine Characters may not be added to formation upgrades."
+          "Black Legion characters may only be added to units of Chaos Space Marines, Havocs, Raptors, or Chaos Terminators."
+        ]
+      },
+      {
+        "title": "Iron Warriors Characters",
+        "description": [
+          "Iron Warriors characters may only be added to units of Chaos Space Marines, Iron Warriors Assault Marines, Havocs, Tyrant Terminators, or Chaos Dreadnoughts."
+        ]
+      },
+      {
+        "title": "Emperor's Children Characters",
+        "description": [
+          "Emperor's characters may only be added to units of Chaos Space Marines, Noise Marines, Noise Marine Havocs, Raptors, or Sirenshriek Terminators."
+        ]
+      },
+      {
+        "title": "Death Guard Characters",
+        "description": [
+          "Death Guard characters may only be added to units of Chaos Space Marines, Havocs, Plague Marines, or Blightlord Terminators."
+        ]
+      },
+      {
+        "title": "World Eaters Characters",
+        "description": [
+          "World Eaters characters may only be added to units of Chaos Space Marines, Khorne Berzerkers, Skullseeker Terminators, Juggernaut Riders, or Khorne Berzerker Assault Bikes."
+        ]
+      },
+      {
+        "title": "Thousand Sons Characters",
+        "description": [
+          "Thousand Sons characters may only be added to units of Chaos Space Marines, Rubric Marines, Scarab Occult Terminators, or Sorcerer Disc Riders."
         ]
       },
       {
@@ -370,14 +400,14 @@
         ]
       },
       {
-        "name": "Iron Warriors Marines",
+        "name": "Iron Warriors Assault Marines",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Heavy Bolter",
+          "Bolters",
           "Chainswords"
         ]
       },
@@ -1002,7 +1032,7 @@
         ]
       },
       {
-        "name": "Chaos Basilisk",
+        "name": "Iron Warriors Basilisk",
         "type": "AV",
         "speed": 20,
         "armour": 6,
@@ -1082,7 +1112,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Twin Reaper Autocannons",
+          "Twin Autocannons",
           "Power Fist"
         ],
         "specialRules": [
@@ -1090,7 +1120,7 @@
           "Walker"
         ]
       },
-      {
+          {
         "name": "Alpha Legion Dreadnought",
         "type": "AV",
         "speed": 15,
@@ -1165,7 +1195,7 @@
     ]
   },
           {
-            "name": "Chaos Stormsword",
+            "name": "Iron Warriors Stormsword",
             "type": "WE",
             "speed": 15,
             "armour": 4,
@@ -1179,7 +1209,7 @@
               "Damage Capacity 3",
               "Reinforced Armour"
             ],
-            "crit": "The unit is destroyed. All units within 5cm suffers a hit on 5+."
+            "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
         },
   {
     "name": "Alpha Legion Xiphon Interceptor",

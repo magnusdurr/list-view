@@ -23,16 +23,65 @@
       "description": [
           "Each Void Shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Void Shields, nor allocate Blast Markers. Once all of the shields have been knocked down, the unit may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the unit.",
           "The number of Void Shields each War Engine has is noted on the unit’s datasheet.",
-          "Each time a formation with Void Shields regroups (either by performing a Hold or a Marshal Action) roll one d6 for each Starting Damage Capacity of the unit with Void Shields. For each roll of 6, one lost Void Shield is restored.",
+          "Each time a formation with Void Shields regroups (either by performing a Hold or a Marshal action) roll one die for each starting Damage Capacity of each unit with Void Shields. For each roll of 6, one lost Void Shield is restored to that unit.",
           "In addition, one lost Void Shield is always restored in the End Phase."
       ]
     },
+    {
+          "title": "Void Shields (EA)",
+          "description": [
+              "Void shields that have been knocked down can be repaired. Each Titan can repair one downed Void Shield in the End Phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the Void Shield or remove Blast Markers (e.g., if you rolled a 2 you could repair two shields, remove two Blast markers or repair one shield and remove one Blast marker)."
+          ]
+        },
+        {
+              "title": "Void Shields (Alt1-EA)",
+              "description": [
+                  "Void shields that have been knocked down can be repaired. Each War Engine can repair one downed Void Shield in the End Phase of each turn. In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields. (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker)."
+              ]
+            },
+        {
+              "title": "Void Shields (Alt2-EA)",
+              "description": [
+                  "Void shields that have been knocked down can be repaired. Each War Engine may repair one downed Void Shield in the End Phase, and another one whenever it regroups (either by performing a Hold or a Marshal action)."
+              ]
+            },
+    {
+          "title": "Void Shields (E40k)",
+          "description": [
+              "In the End Phase, roll one dice for each lost Void Shield. On a roll of 4+ it is repaired."
+          ]
+        },
+        {
+              "title": "Void Shields (Alt-E40k)",
+              "description": [
+                  "In the End Phase, or whenever the unit regroups, roll one dice for each lost Void Shield. On a roll of 5+ it is repaired."
+              ]
+            },
+            {
+                  "title": "Void Shields (Alt 2-E40k)",
+                  "description": [
+                      "Each War Engine may repair one downed Void Shield in the End Phase. In addition, whenever it regroups, roll one dice for each lost Void Shield. On a roll of 5+ it is repaired."
+                  ]
+                },
+        {
+              "title": "Void Shields (AT 1988)",
+              "description": [
+                  "In the End Phase, roll one dice for each lost Void Shield. On a roll of 5+ it is repaired. Add +1 to this roll if the formation successfully performed a Marshal action this round."
+              ]
+            },
+        {
+              "title": "Void Shields (AT 2018)",
+              "description": [
+              "Each time a formation with Void Shields regroups (either by performing a Hold or a Marshal Action) roll one d6 for each Starting Damage Capacity of the unit with Void Shields. For each roll of 5 or 6, one lost Void Shield is restored.",
+              "In addition, one lost Void Shield is always restored in the End Phase."
+          ]
+      },
     {
       "title": "God Machine",
       "description": [
         "War Engines with 8 or more DC are subject to the God Machine and Split Fire special rules.",
         "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-        "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+        "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer one Blast Marker. Whenever a unit with God Machine special rule is destroyed, all friendly formations on the battlefield suffer D3 Blast Markers.",
         "Units with the God Machine special rule are themselves immune to this effect."
       ]
     },
@@ -195,10 +244,11 @@
     {
       "title": "Fortified Positions",
       "description": [
-        "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up, with the exception of Gun Emplacements that are listed as part of a formation’s 'units'.  While these Gun Emplacements are not actually units, they are set up at the same time as the rest of the formation. Gun Emplacements may not be deployed empty, but only with unit taking cover inside.",
+        "Fortified positions (except Gun Emplacements) must be set up after objectives have been placed but before spacecraft and garrisons are set up.",
         "Fortified positions may be set up anywhere a vehicle may deploy on the player’s half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a “chain” without any gaps of more than 5cm.",
         "Once set up, fortified positions may be used by any unit (including enemy units).",
-        "Gun Emplacement: Are only set up along with the formation they belong to (see above). Provides a Cover Save of 4+ one unit of INF, or a 5+ Cover Save to one unit of AV or LV (but not H-AV).",
+        "Gun Emplacements are not actually units, but are set up at the same time as the rest of the formation that they were bought with. Gun Emplacements may not be deployed empty, there must be a unit taking cover inside at the start of the battle.",
+        "Gun Emplacement: Provides a Cover Save of 4+ one unit of INF, or a 5+ Cover Save to one unit of AV or LV (but not H-AV).",
         "Bunker: Provides a Cover Save of 3+ and Thick Rear Armour to up to three units of INF (without Mounted). Counts as Dangerous Terrain for AV and WE.",
         "Trench: Provides a cover save of 4+ to INF. May contain one unit of INF (without Mounted) per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
         "Razorwire: Counts as Dangerous Terrain for all INF, including those that have the Mounted special rule.",
@@ -771,7 +821,7 @@
      {
        "title": "CSM Characters",
        "description": [
-         "Chaos Space Marine Characters may not be added to formation upgrades."
+         "Chaos Space Marine Characters may only be added to INF units that are not formation upgrades."
        ]
      },
      {

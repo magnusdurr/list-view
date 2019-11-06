@@ -21,23 +21,24 @@
         "Iron Warriors Warsmith",
         "Iron Warriors Lord",
         "Daemon Prince",
-        "Iron Warriors Marines",
+        "Chaos Space Marines",
+        "Iron Warriors Assault Marines",
         "Havocs",
         "Chosen",
         "Bezashk Destroyers",
         "Tyrant Terminators",
         "Obliterators",
-        "Chaos Basilisk",
+        "Iron Warriors Basilisk",
         "Bezashk Medusa",
         "Chaos Rhino",
         "Chaos Land Raider",
         "Chaos Vindicator",
         "Chaos Dreadnought",
         "Chaos Stalker",
-        "Chaos Stormsword"
+        "Iron Warriors Stormsword"
     ],
     "unitRules": [
-        "CSM Characters"
+        "Iron Warriors Characters"
     ]
     },
     {
@@ -83,8 +84,9 @@
       "formations": [
         {
           "name": "Iron Warriors Retinue",
-          "units": "One Iron Warriors Lord, eight Iron Warriors Marines",
+          "units": "One Iron Warriors Lord, eight Chaos Space Marines",
           "extraUnits": [
+            "Replace eight Chaos Space Marines with eight Iron Warriors Assault Marines: Free",
             "Supreme Commander",
             "Transport",
             "Stalker",
@@ -92,7 +94,7 @@
             "Vindicators",
             "Dreadnoughts"
           ],
-          "points": 250
+          "points": 275
       },
       {
         "name": "Vindicator Company",
@@ -104,14 +106,13 @@
     },
         {
       "name": "Havocs",
-      "units": "One Iron Warriors Lord, four Havocs, two Chaos Rhinos",
+      "units": "One Iron Warriors Lord, four Havocs, two Chaos Land Raiders",
       "extraUnits": [
-          "Replace two Chaos Rhinos with two Chaos Land Raiders: 75 points",
           "Supreme Commander",
           "Stalker",
           "Vindicators"
       ],
-      "points": 225
+      "points": 300
         }
         ]
     },
@@ -154,20 +155,29 @@
     "description": "One Siege formation may be taken per Core formation.",
     "formations": [
         {
+          "name": "Iron Warriors Stormswords",
+          "units": "Two Iron Warriors Stormswords",
+          "extraUnits": [
+              "Vindicators",
+              "Dreadnoughts"
+          ],
+          "points": 350
+      },
+        {
           "name": "Iron Warriors Artillery Emplacement",
-          "units": "Four Chaos Basilisks, four Gun Emplacements",
+          "units": "Four Iron Warriors Basilisks, four Gun Emplacements",
           "extraUnits": [
           ],
           "points": 325
       },
       {
-        "name": "Dreadnought Assault",
+        "name": "Dreadnought Assault Pack",
         "units": "Four Chaos Dreadnoughts",
         "extraUnits": [
           "Dreadnoughts",
           "Dreadclaws"
         ],
-        "points": 275
+        "points": 250
       },
         {
           "name": "Bezashk Medusa Emplacement",
@@ -182,14 +192,7 @@
           "extraUnits": [
           ],
           "points": 250
-      },
-            {
-              "name": "Iron Warriors Stormsword",
-              "units": "One Chaos Stormsword",
-              "extraUnits": [
-              ],
-              "points": 200
-              }
+      }
           ]
       },
         {
@@ -205,10 +208,9 @@
           "points": 225
             },
           {
-            "name": "Decimators",
+            "name": "Decimator",
             "units": "One Decimator",
             "extraUnits": [
-              "Add one Decimator: 175 points"
             ],
             "points": 225
           },
@@ -221,10 +223,10 @@
         },
           {
             "name": "Ordinatus Hereticus Minoris",
-            "units": "Two Ordinatus Hereticus Minoris",
+            "units": "Three Ordinatus Hereticus Minoris",
             "extraUnits": [
             ],
-            "points": 300
+            "points": 425
           },
           {
             "name": "Chaos Reaver",

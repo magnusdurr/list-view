@@ -27,7 +27,7 @@
          "description": [
            "War Engines with 8 or more DC are subject to the God Machine and Split Fire special rules.",
            "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-           "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+           "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer one Blast Marker. Whenever a unit with God Machine special rule is destroyed, all friendly formations on the battlefield suffer D3 Blast Markers.",
            "Units with the God Machine special rule are themselves immune to this effect."
          ]
        },
@@ -220,7 +220,7 @@
                       "Turbo Blaster|0-1|FxF",
                       "Doom Burner|0-1|FxF",
                       "Plasma Cremator|0-1|FxF",
-                      "Twin Hades Autocannon|0-1|",
+                      "Twin Hades Autocannons|0-1|",
                       "Corvus Assault Pod|0-1|",
                       ">Support Weapons<",
                       "Plasma Incinerator|0-1|FxF",
@@ -236,7 +236,7 @@
                       "Fearless"
                   ],
                     "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. [*]Corvus Assault Pod: Increases Speed to 25cm. May transport eleven infantry units.",
-                  "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+                  "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+."
                 },
                 {
                     "name": "Ordinatus Hereticus Minoris ",
@@ -250,7 +250,7 @@
                       "Turbo Blaster|0-1|FxF",
                       "Doom Burner|0-1|FxF",
                       "Plasma Cremator|0-1|FxF",
-                      "Twin Hades Autocannon|0-1|"
+                      "Twin Hades Autocannons|0-1|"
 
                     ],
                     "specialRules": [
@@ -259,8 +259,8 @@
                       "Reinforced Armour",
                       "Fearless"
                   ],
-                    "notes": "Armed with either a Turbo Blaster, Doom Burner, Plasma Cremator or Twin Hades Autocannon.",
-                  "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+                    "notes": "Armed with either a Turbo Blaster, Doom Burner, Plasma Cremator or Twin Hades Autocannons.",
+                  "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+."
                 },
             {
                 "name": "Ordinatus Hereticus Majoris",
@@ -284,7 +284,7 @@
                   "Reinforced Armour",
                   "Fearless"
               ],
-              "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+              "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+"
             },
             {
               "name": "The Kaban Machine",
@@ -352,7 +352,7 @@
           "cc": 6,
           "ff": 5,
           "weapons": [
-            "Twin Hades Autocannon"
+            "Twin Hades Autocannons"
           ],
           "specialRules": [
             "Fearless",
@@ -456,7 +456,7 @@
           "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
       ],
-          "crit": "The Decimator is destroyed. All units within 5cm takes a hit on 5+."
+          "crit": "The Decimator is destroyed. All units within 5cm suffers a hit on 6+."
         },
         {
           "name": "Death Wheel",
@@ -678,7 +678,7 @@
           "Invulnerable Save",
           "Daemon Engine (Nurgle)"
       ],
-          "crit": "The Plague Reaper is destroyed. All units within 5cm takes a hit on 5+."
+          "crit": "The Plague Reaper is destroyed. All units within 5cm suffers a hit on 6+."
         },
         {
           "name": "Knight-Desecrator",
