@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Iron Warriors",
-  "version": "0.6.0",
-  "release": "2019-10-24",
+  "version": "0.7.0",
+  "release": "2019-11-08",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Iron Warriors Core, Elite and Siege formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -133,14 +133,14 @@
           "points": 150
         },
         {
-          "name": "Obliterator Cult",
-          "units": "Three Obliterators",
+          "name": "Dreadnought Assault Pack",
+          "units": "Four Chaos Dreadnoughts",
           "extraUnits": [
-              "Dreadnoughts",
-              "Dreadclaws"
+            "Dreadnoughts",
+            "Dreadclaws"
           ],
-          "points": 325
-      },
+          "points": 250
+        },
       {
         "name": "Tyrant Terminators",
         "units": "One Iron Warriors Lord, four Tyrant Terminators",
@@ -174,15 +174,6 @@
               "Add one Iron Warriors Basilisk, one Gun Emplacement: 75 points"
           ],
           "points": 250
-      },
-      {
-        "name": "Dreadnought Assault Pack",
-        "units": "Four Chaos Dreadnoughts",
-        "extraUnits": [
-          "Dreadnoughts",
-          "Dreadclaws"
-        ],
-        "points": 250
       },
         {
           "name": "Bezashk Medusa Emplacement",
@@ -309,7 +300,7 @@
       {
         "name": "Dreadnoughts",
         "description": "Add up to two Chaos Dreadnoughts, or up to two Siege Dreadnoughts",
-        "points": ["50 points for one", "75 points for two"]
+        "points": "50 points each"
       },
       {
         "name": "Stalker",
