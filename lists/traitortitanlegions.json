@@ -3,14 +3,12 @@
     "name": "Traitor Titan Legion Forces",
     "specialRules": [
         {
-          "title": "Void Shields",
-          "description": [
-              "Each Void Shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Void Shields, nor allocate Blast Markers. Once all of the shields have been knocked down, the unit may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the unit.",
-              "The number of Void Shields each War Engine has is noted on the unit’s datasheet.",
-              "Each time a formation with Void Shields regroups (either by performing a Hold or a Marshal Action) roll one d6 for each Starting Damage Capacity of the unit with Void Shields. For each roll of 6, one lost Void Shield is restored.",
-              "In addition, each unit with Void Shields regains one lost Void Shield in the End Phase."
-          ]
-        },
+              "title": "Void Shields",
+              "description": [
+                  "Void shields that have been knocked down can be repaired. Each War Engine can repair one downed Void Shield in the End Phase of each turn.",
+                   "In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields. (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker)."
+              ]
+            },
       {
         "title": "God Machine",
         "description": [
@@ -226,7 +224,7 @@
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the End Phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
     },
-    
+
       {
         "name": "Painlord Titan",
         "type": "WE",

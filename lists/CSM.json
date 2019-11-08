@@ -18,7 +18,7 @@
       {
         "title": "Black Legion Characters",
         "description": [
-          "Black Legion characters may only be added to units of Chaos Space Marines, Havocs, Raptors, or Chaos Terminators."
+          "Black Legion characters may only be added to units of Chaos Space Marines, Havocs, Raptors, Chaos Space Marine Assault Bikes, or Chaos Terminators."
         ]
       },
       {
@@ -199,7 +199,7 @@
         ]
       },
       {
-        "name": "Champion of Chaos Undivided",
+        "name": "Champion of Chaos",
         "type": "CH",
         "weapons": [
           "Daemon Weapon"
@@ -836,7 +836,7 @@
       "specialRules": [
         "Transport"
     ],
-      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      "notes": "May transport two units of INF (except Terminators and Obliterators) without Jump Packs or Mounted."
       },
       {
         "name": "Alpha Legion Rhino",
@@ -852,7 +852,7 @@
           "Stubborn",
         "Transport"
     ],
-      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      "notes": "May transport two units of INF (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Death Guard Rhino",
@@ -868,7 +868,7 @@
           "Invulnerable Save",
         "Transport"
     ],
-      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      "notes": "May transport two units of INF (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Chaos Land Raider",
@@ -886,7 +886,7 @@
             "Thick Rear Armour",
             "Transport"
         ],
-        "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+        "notes": "May transport one Chaos Terminator, Obliterator, or two units of INF without Jump Packs or Mounted."
           },
           {
             "name": "Alpha Legion Land Raider",
@@ -905,7 +905,7 @@
                 "Thick Rear Armour",
                 "Transport"
             ],
-            "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+            "notes": "May transport one Terminator unit or two units of INF without Jump Packs or Mounted."
               },
         {
           "name": "Emperor's Children Land Raider",
@@ -923,7 +923,7 @@
               "Thick Rear Armour",
               "Transport"
           ],
-    "notes": "May transport one Sirenshriek Terminator unit or two infantry units without Jump Packs or Mounted."
+    "notes": "May transport one Sirenshriek Terminator unit or two units of INF without Jump Packs or Mounted."
       },
       {
         "name": "Death Guard Land Raider",
@@ -942,7 +942,7 @@
             "Thick Rear Armour",
             "Transport"
         ],
-  "notes": "May transport one Blightlord Terminator unit or two infantry units without Jump Packs or Mounted."
+  "notes": "May transport one Blightlord Terminator unit or two units of INF without Jump Packs or Mounted."
     },
     {
       "name": "World Eaters Land Raider",
@@ -960,7 +960,7 @@
           "Thick Rear Armour",
           "Transport"
       ],
-      "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+      "notes": "May transport one Terminator, Mutilator, or two units of INF without Jump Packs or Mounted."
         },
         {
           "name": "Thousand Sons Land Raider",
@@ -978,7 +978,7 @@
               "Thick Rear Armour",
               "Transport"
           ],
-          "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+          "notes": "May transport one Terminator or two units of INF without Jump Packs or Mounted."
             },
       {
         "name": "Chaos Predator",
@@ -1112,7 +1112,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Twin Autocannons",
+          "Reaper Autocannon",
           "Power Fist"
         ],
         "specialRules": [
@@ -1121,20 +1121,20 @@
         ]
       },
       {
-        "name": "Iron Warriors Siege Dreadnought",
-        "type": "AV",
-        "speed": 15,
-        "armour": 3,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Siege Drill",
-          "Power Fist"
-        ],
-        "specialRules": [
-          "Fearless",
-          "Walker"
-        ]
+          "name": "Chaos Siege Dreadnought",
+          "type": "AV",
+          "speed": 15,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+              "Twin Heavy Flamers",
+              "Siege Drill"
+          ],
+          "specialRules": [
+              "Fearless",
+              "Walker"
+          ]
       },
           {
         "name": "Alpha Legion Dreadnought",
@@ -1259,7 +1259,7 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each.",
+      "notes": "May transport eight units of INF or Dreadnoughts; Terminators and Dreadnoughts count as two units each.",
       "crit": " The Thunderhawk and all units being carried are destroyed."
   },
   {
@@ -1282,7 +1282,7 @@
       "Reinforced Armour",
       "Transport"
     ],
-    "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each.",
+    "notes": "May transport eight units of INF or Dreadnoughts; Terminators and Dreadnoughts count as two units each.",
     "crit": " The Thunderhawk and all units being carried are destroyed."
     },
   {
@@ -1301,7 +1301,7 @@
     "specialRules": [
       "Transport"
     ],
-    "notes": "May transport twenty infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Gunships and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
+    "notes": "May transport twenty units of INF or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Gunships and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
   }
     ]
   }

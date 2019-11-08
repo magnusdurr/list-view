@@ -8084,27 +8084,12 @@
       "name": "Siege Drill",
       "modes": [
         {
-          "firepower": "AP4+",
-            "range": 15,
+          "firepower": "Assault Weapons",
           "specialRules": [
-              "IC"
-        ]
-        },
-        {
-          "firepower": "Small Arms",
-          "join": "and",
-          "specialRules": [
-            "IC"
+            "EA(+1)",
+            "MW"
           ]
-      },
-      {
-        "firepower": "Assault Weapon",
-        "join": "or",
-        "specialRules": [
-          "EA(+1)",
-          "IC"
-        ]
-      }
+        }
       ]
     },
     {

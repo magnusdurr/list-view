@@ -31,10 +31,11 @@
         "Iron Warriors Basilisk",
         "Bezashk Medusa",
         "Chaos Rhino",
+        "Chaos Predator",
         "Chaos Land Raider",
         "Chaos Vindicator",
         "Chaos Dreadnought",
-        "Iron Warriors Siege Dreadnought",
+        "Chaos Siege Dreadnought",
         "Chaos Stalker",
         "Iron Warriors Stormsword"
     ],
@@ -87,7 +88,7 @@
           "name": "Iron Warriors Retinue",
           "units": "One Iron Warriors Lord, six Chaos Space Marines",
           "extraUnits": [
-            "Replace six Chaos Space Marines with six Iron Warriors Assault Marines: Free",
+            "Replace six Chaos Space Marines with six Iron Warriors Assault Marines, six Dreadclaws: Free",
             "Add two Havocs: 75 points",
             "Supreme Commander",
             "Transport",
@@ -99,9 +100,10 @@
           "points": 225
       },
       {
-        "name": "Vindicator Company",
+        "name": "Armoured Company",
         "units": "Six Chaos Vindicators",
         "extraUnits": [
+            "Replace six Chaos Vindicators with six Chaos Predators: 50 points",
             "Stalker"
         ],
         "points": 250
@@ -137,7 +139,7 @@
               "Dreadnoughts",
               "Dreadclaws"
           ],
-          "points": 300
+          "points": 325
       },
       {
         "name": "Tyrant Terminators",
