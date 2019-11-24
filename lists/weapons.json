@@ -1517,9 +1517,9 @@
           "modes": [
             {
               "firepower": "AP3+/AT3+",
-              "range": 120,
+              "range": 90,
               "specialRules": [
-                "IC"
+                  "IC"
           ]
         }
       ]
@@ -4456,6 +4456,26 @@
       ]
     },
     {
+      "name": "Heavy Flamer ",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 15,
+          "specialRules": [
+            "IC",
+            "FxF"
+          ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "2x Heavy Flamer",
       "modes": [
         {
@@ -5507,7 +5527,7 @@
       "modes": [
         {
           "firepower": "AT2+",
-          "range": 100,
+          "range": 90,
           "specialRules": [
           "Lance",
           "IC"
@@ -6009,7 +6029,7 @@
       "name": "Medusa Phospex Gun",
         "modes": [
           {
-            "firepower": "AP3+/AT4+",
+            "firepower": "AP3+/AT3+",
             "range": 60,
             "specialRules": [
               "D"
@@ -6612,8 +6632,8 @@
       "name": "Stormblade Blastgun",
       "modes": [
         {
-          "firepower": "3x MW2+",
-          "range": 45,
+          "firepower": "2x MW2+",
+          "range": 60,
           "specialRules": [
               "Slw"
           ]

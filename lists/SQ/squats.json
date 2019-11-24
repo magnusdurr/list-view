@@ -1,6 +1,6 @@
  {
   "fraction": "Squats",
-  "army": "Wotan Stronghold",
+  "army": "Wodanaz Stronghold",
   "version": "0.7.4",
   "release": "2019-10-15",
   "strategy": "Squat armies have a Strategy Rating of 2.",
@@ -13,7 +13,7 @@
       "Tunnelers"
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Wotan Stronghold."
+    "The following army list allows you to field an army based on the Wodanaz Stronghold."
   ],
   "units": [
     {
@@ -61,7 +61,7 @@
 ],
 "sections": [
     {
-      "name": "Wotan Stronghold Core Formations",
+      "name": "Wodanaz Stronghold Core Formations",
       "formations": [
         {
           "name": "Squat Brotherhood",
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "name": "Wotan Stronghold Support Formations",
+      "name": "Wodanaz Stronghold Support Formations",
       "description": "Up to three Stronghold Support Formations for each Stronghold Core Formation.",
       "formations": [
           {
@@ -135,17 +135,16 @@
         },
         {
           "name": "Kastelan Maniple",
-          "units": "One Squat Tech-Priest, five Kastelan Robots",
+          "units": "One Squat Tech-Priest, six Kastelan Robots",
           "extraUnits": [
-              "Add up to two Kastelan Robots: 25 points each"
           ],
-          "points": 175
+          "points": 200
         }
       ]
     },
     {
-      "name": "Wotan Stronghold War Engines and Flyers",
-      "description": "Up to a third of the points available may be spent on Wotan Stronghold War Engines and Flyers",
+      "name": "Wodanaz Stronghold War Engines and Flyers",
+      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines and Flyers",
       "formations": [
           {
             "name": "Overlord",
@@ -217,7 +216,7 @@
 
   ],
   "upgrades": {
-    "title": "Wotan Stronghold Upgrades",
+    "title": "Wodanaz Stronghold Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
       {

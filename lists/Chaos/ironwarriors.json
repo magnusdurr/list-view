@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Iron Warriors",
-  "version": "0.7.0",
-  "release": "2019-11-08",
+  "version": "0.7.1",
+  "release": "2019-11-24",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Iron Warriors Core, Elite and Siege formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -89,6 +89,7 @@
           "units": "One Iron Warriors Lord, six Chaos Space Marines",
           "extraUnits": [
             "Replace six Chaos Space Marines with six Iron Warriors Assault Marines, six Dreadclaws: Free",
+            "Add two Obliterators: 150 points",
             "Add two Havocs: 75 points",
             "Supreme Commander",
             "Transport",
@@ -128,7 +129,8 @@
           "name": "Chosen",
           "units": "Four Chosen, two Chaos Rhinos",
           "extraUnits": [
-            "Vindicators"
+            "Vindicators",
+            "Dreadnoughts"
           ],
           "points": 150
         },
