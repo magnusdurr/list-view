@@ -991,8 +991,8 @@
     {
       "title": "Brood Brothers",
       "description": [
-        "While a formation contains a Coven Locus character or a Hybrid Primus, units with the Brood Brothers special rule (except the unit where the Coven Locus is located) are considered Expendable.",
-        "If the unit with the Coven Locus character or the Hybrid Primus unit is killed, the formation reduces its Initiative Rating to 3+ and may only contest objectives."
+        "Formations with at least one unit with the Brood Brothers special rule are considered to be 'Cult formations'. While a Cult formation contains a Coven Locus character or a Hybrid Primus, units with the Brood Brothers special rule (except the unit where the Coven Locus is located) are considered Expendable.",
+        "Any Cult formation that loses its Coven Locus character or Hybrid Primus unit reduces its Initiative Rating to 3+ and may only contest objectives."
       ]
     },
     {
@@ -1000,7 +1000,7 @@
       "description": [
           "The army must include a Nexus Brood formation. The enemy will only count as having achieved their Break Their Spirit (BTS) victory condition if they destroy this formation, even if it is not the single most expensive formation in the army.",
           "All units in the Nexus Brood formation are considered Fearless as long as it contains a Genestealer Patriarch unit.",
-          "While the Genestealer Patriarch unit is alive, all formations in the army with a Coven Locus character or a Hybrid Primus unit gains +1 to rally."
+          "While the Genestealer Patriarch unit is alive, all Cult formations (see the Brood Brothers special rule) gains +1 to rally. If the Genestealer Patriarch unit is killed, all Cult formations suffer one BM."
       ]
     },
 

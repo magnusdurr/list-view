@@ -36,6 +36,7 @@
         "Shadowsword",
         "Baneblade",
         "Stormblade",
+        "Stormsword",
         "Stormhammer"
       ],
         "unitRules": [
@@ -77,7 +78,7 @@
         },
         {
           "name": "Minervan Super-Heavy Company",
-          "units": "Three Baneblades, Stormblades, Stormhammers and/or Shadowswords, one with a Commissar-Captain",
+          "units": "Three Baneblades, Stormblades, Stormswords, Stormhammers, and/or Shadowswords, one with a Commissar-Captain",
           "extraUnits": [
               "Supreme Commander",
               "Flak"
@@ -145,9 +146,9 @@
         },
         {
           "name": "Super-Heavy Platoon",
-          "units": "One Baneblade, Stormhammer, or Stormblade",
+          "units": "One Baneblade, Stormsword, Stormhammer, or Stormblade",
           "extraUnits": [
-            "Replace one Baneblade, Stormhammer or Stormblade with a Shadowsword: 25 points"
+            "Replace one Baneblade, Stormsword, Stormhammer, or Stormblade with a Shadowsword: 25 points"
           ],
           "points": 175
         },
