@@ -2,7 +2,7 @@
   "fraction": "Chaos Space Marines",
   "army": "Iron Warriors",
   "version": "0.7.1",
-  "release": "2019-11-24",
+  "release": "2019-11-25",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Iron Warriors Core, Elite and Siege formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -161,25 +161,26 @@
     "description": "One Siege formation may be taken per Core formation.",
     "formations": [
         {
-          "name": "Iron Warriors Stormswords",
-          "units": "Two Iron Warriors Stormswords",
+          "name": "Stormswords",
+          "units": "Iron Warriors Stormsword",
           "extraUnits": [
+              "Add up to two Iron Warriors Stormswords: 150 points each",
               "Vindicators",
               "Dreadnoughts"
           ],
-          "points": 350
+          "points": 200
       },
         {
-          "name": "Iron Warriors Artillery Emplacement",
-          "units": "Three Iron Warriors Basilisks, three Gun Emplacements",
+          "name": "Iron Warriors Artillery Battery",
+          "units": "Three Iron Warriors Basilisks",
           "extraUnits": [
-              "Add one Iron Warriors Basilisk, one Gun Emplacement: 75 points"
+              "Add one Iron Warriors Basilisk: 75 points"
           ],
-          "points": 250
+          "points": 225
       },
         {
-          "name": "Bezashk Medusa Emplacement",
-          "units": "Four Bezashk Medusa, four Gun Emplacements",
+          "name": "Bezashk Medusa Battery",
+          "units": "Four Bezashk Medusa",
           "extraUnits": [
           ],
           "points": 250
