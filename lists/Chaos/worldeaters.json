@@ -26,6 +26,7 @@
         "Champion of Khorne",
         "Icon Bearer",
         "Daemon Prince of Khorne",
+        "Chaos Assault Marines",
         "Chaos Space Marines",
         "Skullseeker Terminators",
         "Khorne Berzerkers",
@@ -90,7 +91,7 @@
       "formations": [
         {
           "name": "World Eaters Retinue",
-          "units": "One Chaos Lord, four Khorne Berzerkers, four Chaos Space Marines, four Chaos Rhinos",
+          "units": "One Chaos Lord, four Khorne Berzerkers, four Chaos Assault Marines, four Chaos Rhinos",
           "extraUnits": [
             "Supreme Commander",
             "Berzerker Transport",
@@ -98,6 +99,7 @@
             "Daemonic Pact",
             "Icon Bearer",
             "Vindicators",
+            "Predators",
             "Dreadnoughts"
           ],
           "points": 300
@@ -112,12 +114,13 @@
           "name": "Skullseeker Terminators",
           "units": "One Chaos Lord, four Skullseeker Terminators",
           "extraUnits": [
-              "Replace up to two Skullseeker Terminators with Mutilators: 25 points each",
+              "Add up to two Mutilators: 50 points each",
               "Supreme Commander",
               "Skullseeker Transport",
               "Champion",
               "Daemonic Pact",
               "Icon Bearer",
+              "Vindicators",
               "Dreadnoughts"
           ],
           "points": 375
@@ -150,6 +153,14 @@
         {
           "name": "World Eaters Destroyers",
           "units": "Four World Eaters Destroyers",
+          "extraUnits": [
+            "Daemonic Pact"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Chaos Space Marines",
+          "units": "Six Chaos Space Marines, three Chaos Rhinos",
           "extraUnits": [
             "Daemonic Pact"
           ],
@@ -293,8 +304,8 @@
             "points": "Free"
           },
           {
-            "description": "Replace four Chaos Rhinos with four World Eaters Land Raiders",
-            "points": "150 points"
+            "description": "Replace four Chaos Rhinos with three World Eaters Land Raiders",
+            "points": "100 points"
         }
         ]
       },
@@ -306,8 +317,8 @@
             "points": "Free"
           },
           {
-            "description": "Add four World Eaters Land Raiders",
-            "points": "150 points"
+            "description": "Add up to three World Eaters Land Raiders",
+            "points": "50 points each"
         }
         ]
       },
