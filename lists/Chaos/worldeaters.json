@@ -21,7 +21,7 @@
     {
       "from": "CSM.json",
       "units": [
-        "Chaos Warlord",
+        "Warlord",
         "Chaos Lord",
         "Champion of Khorne",
         "Icon Bearer",
@@ -49,7 +49,6 @@
             "Doomblaster",
             "Hellfire Cannon",
             "Forgefiend",
-            "Heldrake",
             "Slaughterfiend",
             "Daemonic Assault Engine",
             "Greater Brass Scorpion",
@@ -76,6 +75,7 @@
   {
     "from": "chaosnavy.json",
     "units": [
+            "Heldrake",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
   ],
@@ -276,7 +276,7 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace the Chaos Lord with a Chaos Warlord Lord",
+            "description": "Replace the Chaos Lord with a Warlord",
             "points": "50 points"
           },
           {
