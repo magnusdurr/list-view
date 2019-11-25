@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "World Eaters",
-  "version": "0.7.1",
-  "release": "2019-10-22",
+  "version": "0.7.2",
+  "release": "2019-11-25",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All World Eaters Core and Support formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -21,8 +21,8 @@
     {
       "from": "CSM.json",
       "units": [
-        "Blood Lord",
-        "Skull Lord",
+        "Chaos Warlord",
+        "Chaos Lord",
         "Champion of Khorne",
         "Icon Bearer",
         "Daemon Prince of Khorne",
@@ -90,7 +90,7 @@
       "formations": [
         {
           "name": "World Eaters Retinue",
-          "units": "One Skull Lord, four Khorne Berzerkers, four Chaos Space Marines, four Chaos Rhinos",
+          "units": "One Chaos Lord, four Khorne Berzerkers, four Chaos Space Marines, four Chaos Rhinos",
           "extraUnits": [
             "Supreme Commander",
             "Berzerker Transport",
@@ -110,7 +110,7 @@
       "formations": [
         {
           "name": "Skullseeker Terminators",
-          "units": "One Skull Lord, four Skullseeker Terminators",
+          "units": "One Chaos Lord, four Skullseeker Terminators",
           "extraUnits": [
               "Replace up to two Skullseeker Terminators with Mutilators: 25 points each",
               "Supreme Commander",
@@ -124,7 +124,7 @@
       },
       {
         "name": "Juggernaut Riders",
-        "units": "One Skull Lord, eight Juggernaut Riders, Daemonic Pact",
+        "units": "One Chaos Lord, eight Juggernaut Riders, Daemonic Pact",
         "extraUnits": [
             "Supreme Commander",
             "Champion",
@@ -134,7 +134,7 @@
       },
           {
             "name": "Berzerker Bikes",
-            "units": "One Skull Lord, eight Khorne Berzerker Assault Bikes",
+            "units": "One Chaos Lord, eight Khorne Berzerker Assault Bikes",
             "extraUnits": [
                 "Daemonic Pact",
                 "Icon Bearer"
@@ -276,11 +276,11 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace the Skull Lord with a Blood Lord",
-            "points": "75 points"
+            "description": "Replace the Chaos Lord with a Chaos Warlord Lord",
+            "points": "50 points"
           },
           {
-            "description": "Replace the Skull Lord and its unit with a Daemon Prince of Khorne",
+            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Khorne",
             "points": "100 points"
           }
         ]
