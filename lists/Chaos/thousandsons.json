@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Thousand Sons",
-  "version": "0.8.0",
-  "release": "2019-10-24",
+  "version": "0.8.1",
+  "release": "2019-11-26",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Thousand Sons Core and Elite formations, as well as the Warphound Pack formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -33,7 +33,7 @@
         "Chaos Rhino",
         "Thousand Sons Land Raider",
         "Thousand Sons Predator",
-        "Chaos Dreadnought"
+        "Thousand Sons Dreadnought"
     ],
     "unitRules": [
         "Thousand Sons Characters"
@@ -105,11 +105,12 @@
           "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
+            "Champion of Tzeench",
             "Thousand Sons Transport",
             "Predators",
             "Dreadnoughts"
           ],
-          "points": 375
+          "points": 350
         }
       ]
     },
@@ -291,7 +292,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Chaos Dreadnoughts to the formation",
+        "description": "Add up to two Thousand Sons Dreadnoughts to the formation",
         "points": "50 points each"
       },
       {

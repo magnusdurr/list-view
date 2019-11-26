@@ -1131,6 +1131,22 @@
         ]
       },
       {
+        "name": "Thousand Sons Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Missile Launcher",
+          "Power Fist"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
         "name": "Berzerker Dreadnought",
         "type": "AV",
         "speed": 15,
@@ -1204,7 +1220,6 @@
           "Power Fist"
         ],
         "specialRules": [
-            "Invulnerable Save",
           "Fearless",
           "Walker"
         ]
