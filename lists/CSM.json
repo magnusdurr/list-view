@@ -24,7 +24,7 @@
       {
         "title": "Iron Warriors Characters",
         "description": [
-          "Iron Warriors characters may only be added to units of Chaos Space Marines, Chaos Assault Marines, Havocs, Tyrant Terminators, or Chaos Dreadnoughts."
+          "Iron Warriors characters may only be added to units of Chaos Space Marines, Iron Warriors Assault Marines, Havocs, Tyrant Terminators, or Chaos Dreadnoughts."
         ]
       },
       {
@@ -42,7 +42,7 @@
       {
         "title": "World Eaters Characters",
         "description": [
-          "World Eaters characters may only be added to units of Chaos Assault Marines, Khorne Berzerkers, Skullseeker Terminators, Juggernaut Riders, or Khorne Berzerker Assault Bikes."
+          "World Eaters characters may only be added to units of World Eaters Marines, Khorne Berzerkers, Skullseeker Terminators, Juggernaut Riders, or Khorne Berzerker Assault Bikes."
         ]
       },
       {
@@ -400,15 +400,27 @@
         ]
       },
       {
-        "name": "Chaos Assault Marines",
+        "name": "Iron Warriors Assault Marines",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Flamers",
+          "Combi-Flamers",
           "Chainswords"
+        ]
+      },
+      {
+        "name": "World Eaters Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasma Guns",
+          "Chain Axes"
         ]
       },
       {
@@ -1112,6 +1124,20 @@
         "weapons": [
           "Reaper Autocannon",
           "Power Fist"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Berzerker Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Dreadnought Chainfist|2|"
         ],
         "specialRules": [
           "Fearless",

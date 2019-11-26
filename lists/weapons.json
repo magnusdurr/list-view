@@ -2432,6 +2432,18 @@
       ]
     },
     {
+      "name": "Dreadnought Chainfist",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Chainswords",
         "modes": [
           {
@@ -2488,6 +2500,17 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combi-Flamers",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "IC"
           ]
         }
       ]

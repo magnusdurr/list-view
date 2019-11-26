@@ -101,7 +101,7 @@
             "name": "Heavy Tank Emplacement",
             "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements",
             "extraUnits": [
-                "Heavy Tank Company"
+                "Add a Commissar and two Malcadors or Malcador Annihilators: 200 points"
             ],
             "points": 350
           },
@@ -146,7 +146,7 @@
           "name": "Howitzer Emplacement",
           "units": "Three Howitzers, three Gun Emplacements",
           "extraUnits": [
-              "Howitzer Company"
+              "Add a Commissar, three Howitzers, three Gun Emplacements: 75 points"
           ],
           "points": 175
         },
@@ -203,24 +203,7 @@
     "title": "Baran Siegemaster Upgrades",
     "description": "Each upgrade may be taken once per formation. Max four upgrades per Company",
     "items": [
-        {
-          "name": "Howitzer Company",
-          "options": [
-            {
-              "description": "Add a Commissar, three Howitzers, three Gun Emplacements",
-              "points": "175 points"
-            }
-          ]
-        },
-        {
-          "name": "Heavy Tank Company",
-          "options": [
-            {
-              "description": "Add a Commissar and two Malcadors or Malcador Annihilators",
-              "points": "200 points"
-            }
-          ]
-        },
+
       {
         "name": "Rapiers",
         "options": [
