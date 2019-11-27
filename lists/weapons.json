@@ -1519,7 +1519,6 @@
               "firepower": "AP3+/AT3+",
               "range": 90,
               "specialRules": [
-                  "IC"
           ]
         }
       ]
@@ -2218,6 +2217,25 @@
           }
       ]
     },
+    {
+      "name": "Stormhammer Heavy Bolter Array",
+        "modes": [
+            {
+              "firepower": "3x AP3+",
+              "range": 30,
+              "specialRules": [
+                  "FxF"
+            ]
+        },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+                "EA(+1)"
+              ]
+            }
+      ]
+  },
     {
       "name": "Blight Grenades",
         "modes": [
@@ -5553,8 +5571,7 @@
           "firepower": "AT2+",
           "range": 90,
           "specialRules": [
-          "Lance",
-          "IC"
+          "S"
           ]
         }
       ]
