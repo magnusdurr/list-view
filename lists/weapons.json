@@ -1543,6 +1543,7 @@
               "range": "Unlimited",
               "specialRules": [
                 "SS",
+                "D",
                 "Ind"
           ]
         }
@@ -10452,10 +10453,11 @@
       "name": "2x Vortex Missile",
       "modes": [
         {
-          "firepower": "3BP",
+          "firepower": "2BP",
           "range": "Unlimited",
           "specialRules": [
             "TK(1)",
+            "IC",
             "SS",
             "Ind"
           ]
