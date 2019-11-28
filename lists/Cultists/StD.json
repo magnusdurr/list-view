@@ -2,7 +2,7 @@
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
   "version": "0.9.4",
-  "release": "2019-11-25",
+  "release": "2019-11-29",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -110,17 +110,18 @@
           "name": "Traitor Guard",
           "units": "One Fallen Commander, seven units of Infantry",
           "extraUnits": [
+              "Add one Daemonic Icon to a Fallen Commander or Daemon Prince: 25 points",
             "All"
           ],
           "points": 175
         },
         {
-          "name": "Chaos Space Marines",
+          "name": "0-1 Chaos Space Marines",
           "units": "One Aspiring Champion, five Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander"
           ],
-          "points": 275
+          "points": 300
         }
       ]
     },
@@ -140,7 +141,7 @@
           "units": "Three Basilisks",
           "extraUnits": [
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Sentinel Squadron",
@@ -152,7 +153,7 @@
           "name": "Rough Rider Platoon",
           "units": "Six Rough Riders",
           "extraUnits": [
-            "Daemonic Icon"
+            "Add one Daemonic Icon: 75 points"
           ],
           "points": 150
         },
@@ -275,15 +276,6 @@
           {
             "description": "Upgrade the Fallen Commander / Aspiring Champion to a Daemon Prince",
             "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Daemonic Icon",
-        "options": [
-          {
-            "description": "Add one Daemonic Icon to a Fallen Commander, Daemon Prince or Rough Rider unit. Add one point to the Lesser Daemon Pool",
-            "points": "25 points"
           }
         ]
       },
