@@ -8,12 +8,12 @@
                    "In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields. (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker)."
               ]
             },
-		{
-			"title": "Machine Spirit",
-			"description": [
-				"A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
-			]
-		},
+			{
+		      "title": "Machine Spirit",
+		      "description": [
+		        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally."
+		      ]
+		    },
 		{
 	      "title": "Act of Faith",
 	      "description": [
@@ -450,7 +450,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Multi-Melta"
+				"Twin Multi-Meltas"
 			],
 			"specialRules": [
 				"Faithful",

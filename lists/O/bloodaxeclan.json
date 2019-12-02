@@ -1,16 +1,15 @@
 {
   "fraction": "Ork",
-  "army": "Clan Goffs Warhorde, WAAAGH! Ghazghkull",
-  "version": "1.0.0",
-  "release": "2019-09-12",
-  "strategy": "EAR Clan Goffs Warhorde, WAAAGH! Ghazghkul armies have a Strategy Rating of 3.",
+  "army": "Clan Blood Axes, Red WAAAGH!",
+  "version": "",
+  "release": "",
+  "strategy": "Ork armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
       "Mob Rule",
       "Power of the Waaagh!",
-      "Clan Goffs Warlord",
-      "Heavy Armoured Vehicle (H-AV)"
-  ],
+      "Blood Axes Warlord"
+    ],
   "usage": [
       "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows. The army list includes the following information:",
       "<b>Units</b> - The units that make up the formation. An Ork player can choose to double or triple the number of units in the formation if he wishes. A formation with double the normal number of units is called a Big formation, and a formation with three times the normal number of units is called a ’Uge formation.",
@@ -22,29 +21,26 @@
       "from": "ORK.json",
       "units": [
         "Warlord",
-        "Oddboy",
+        "Blood Axes Oddboy",
         "Boyz",
         "Grotz",
         "Nobz",
-        "Big Gunz",
         "Kommandos",
         "Stormboyz",
-        "Warbikes",
         "Deth Kopta",
-        "Skorcha",
-        "Warbuggy",
-        "Battlewagon",
-        "Gunwagon",
-        "Flakwagon",
+        "War Kopta",
+        "Looted Chimera",
+        "Looted Leman Russ",
+        "Looted Hydra",
         "Killa Kan",
         "Deff Dread",
-        "Stompa",
-        "Battlefortress",
-        "Gunfortress",
-        "Supa-Stompa",
-        "Gargant",
-        "Great Gargant",
+        "Mega Dread",
+        "Kill Blasta",
+        "Kill Bursta",
+        "Kill Krusha",
+        "Looted Baneblade",
         "Fighta-Bommer",
+        "Drop Rok",
         "Landa",
         "Kill Kroozer",
         "Battlekroozer"
@@ -52,10 +48,7 @@
       "unitRules": [
           "Power Fields",
           "Battlefortresses and Gunfortresses",
-          "Super-Expendable",
-          "God Machine",
-          "Split Fire"
-
+          "Super-Expendable"
       ]
     }
   ],
@@ -68,7 +61,7 @@
             "units": "Two Nobz, six Boyz, two Grotz",
             "extraUnits": [
               "Add any number of Battlewagons, Big Gunz, Boyz + (optional) Grotz, Killa Kans, Kommandos, Skorchas, Stormboyz, Warbikes, Warbuggies: 25 points each",
-              "Add any number of Deth Koptas, Deff Dreads, Flakwagons, Gunwagons: 35 points each",
+              "Add any number of Deth Koptas, Dreadnoughts, Flakwagons, Gunwagons: 35 points each",
               "Add any number of Stompas: 50 points each",
               "Add any number of Battlefortresses: 115 points each",
               "Add any number of Gunfortresses: 115 points each",
@@ -146,7 +139,7 @@
           "units": "Three Stompas",
           "extraUnits": [
             "Add any number of Killa Kans: 25 points each",
-            "Add any number of Deff Dreads, Flakwagons: 35 points each",
+            "Add any number of Dreadnoughts, Flakwagons: 35 points each",
             "Add any number of Stompas: 50 points each",
             "0-1: Supa-Stompa: 275 points"
           ],
@@ -158,10 +151,10 @@
         },
         {
           "name": "Mekboy Dreadmob",
-          "units": "One Deff Dread, three Killa Kan",
+          "units": "One Dreadnought, three Killa Kan",
           "extraUnits": [
             "Add any number of Killa Kans: 25 points each",
-            "Add any number of Deff Dreads, Flakwagons: 35 points each"
+            "Add any number of Dreadnoughts, Flakwagons: 35 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},

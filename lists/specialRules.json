@@ -9,7 +9,7 @@
     {
       "title": "Machine Spirit",
       "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
+        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally."
       ]
     },
     {
@@ -194,15 +194,16 @@
     {
       "title": "Fortified Positions",
       "description": [
-        "Fortified positions (except Gun Emplacements) must be set up after objectives have been placed but before spacecraft and garrisons are set up.",
-        "Fortified positions may be set up anywhere a vehicle may deploy on the player’s half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a “chain” without any gaps of more than 5cm.",
-        "Once set up, fortified positions may be used by any unit (including enemy units).",
-        "Gun Emplacements are not actually units, but are set up at the same time as the rest of the formation that they were bought with. Gun Emplacements may not be deployed empty, there must be a unit taking cover inside at the start of the battle.",
+        "Fortified Positions (except Gun Emplacements) must be set up after objectives have been placed but before spacecraft and garrisons are set up.",
+        "Fortified Positions may be set up anywhere a vehicle may deploy on the player’s half of the table. Each individual group of Fortified Positions (whether part of a formation or not) must be set up within coherency of another piece from the same group, so all pieces from the same group form a “chain” without any gaps larger than 5cm.",
+        "Gun Emplacements are set up at the same time as the rest of the formation that they were bought with, with each unit being set up inside an available Gun Emplacement, following the normal formation coherency rules.",
+        "Once set up, Fortified Positions counts as terrain that do not block Line of Sight, and may be used by either side.",
         "Gun Emplacement: Provides a Cover Save of 4+ one unit of INF, or a 5+ Cover Save to one unit of AV or LV (but not H-AV).",
-        "Bunker: Provides a Cover Save of 3+ and Thick Rear Armour to up to three units of INF (without Mounted). Counts as Dangerous Terrain for AV and WE.",
-        "Trench: Provides a cover save of 4+ to INF. May contain one unit of INF (without Mounted) per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
+        "Bunker: Provides a Cover Save of 3+ and Thick Rear Armour to up to three units of INF. Counts as Dangerous Terrain for AV and WE.",
+        "Trench: Provides a cover save of 4+ to INF. May contain one unit of INF per 4cm of lenght. Counts as Dangerous Terrain for AV.",
         "Razorwire: Counts as Dangerous Terrain for all INF, including those that have the Mounted special rule.",
-        "Units of INF that benefit from Cover inside a Trench/Bunker may only be Barged by WE in such a way that they stay inside their Trench/Bunker."
+        "Minefields: Counts as Dangerous Terrain for all types of units. Minefield dangerous terrain tests may not be re-rolled using the Walker ability. Skimmers moving over Minefields must also take dangerous terrain tests. Minefields must be set up so that every piece touches another piece from the same group, with no gap in between.",
+        "Units of INF that benefit from Cover inside a Trench or Bunker may only be Barged by WE in such a way that they are not moved outside of their Trench or Bunker."
       ]
     },
     {
@@ -215,6 +216,12 @@
       "title": "Siegemasters",
       "description": [
         "The Barans are trench warfare specialists, adept at both defending and clearing choke points and key objectives. Up to four formations that Garrison may start in Overwatch instead of the usual two."
+        ]
+    },
+    {
+      "title": "Defensive Doctrine",
+      "description": [
+        "The Imperial Fists have adopted a defensive style of warfare, prioritizing the active defense of key objectives. Imperial Fists INF and AV units may re-roll failed dangerous terrain tests when making a move through Minefields on the friendly part of the table. In addition, up to three formations that Garrison may start in Overwatch instead of the usual two."
         ]
     },
     {
@@ -280,6 +287,15 @@
       ]
     },
     {
+      "title": "Imperial Fists Transports",
+      "description": [
+        "The Imperial Fists are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
+        "Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.",
+        "Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, then you may do so.",
+        "Before each game, after the opposing army is known but before objectives are placed, the Imperial Fists player may choose which formations with the plus transport aspect are deployed in Rhinos or on foot."
+      ]
+    },
+    {
       "title": "White Scars Transports",
       "description": [
         "The White Scars are an exceptionally mobile army. Because of this the points cost of a detachment usually includes enough transport vehicles to transport it and any upgrades that have been taken. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! The transport vehicles will be Land Raider Crusaders if the detachment is Terminators, Rhinos for any other form of detachment.",
@@ -332,7 +348,7 @@
     {
       "title": "Independent",
       "description": [
-        "The independent special rule allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS (each Warhoud counts as its own formation worth half of the points value of the Warhoud pack including upgrades). If one Warhound is destroyed, the other one in the pack receives a Blast Marker."
+        "The Independent special rule allows a War Engine formation to operate as two independent War Engines for all purposes, including for determining the army BTS (each unit counts as its own formation worth half of the points value of the original formation, including upgrades). If one of the two War Engines are destroyed, the surviving one immediately recieves a Blast Marker."
       ]
     },
     {
@@ -1224,7 +1240,7 @@
       ]
     },
     {
-      "title": "Extreme Mobility (Cult of the Four-Armed Emperor)",
+      "title": "Extreme Mobility (Cult of the Star-Spawn)",
       "description": [
         "Lictors move through terrain and receive cover as if they were Infantry."
       ]
@@ -1251,8 +1267,8 @@
     {
       "title": "Swarm (x)",
       "description": [
-        "After a formation has performed the 'Marshal' action, or in End Phase after all formations have rallied, formations that are both unbroken and have Synapse creatures remaining may 'Swarm'.",
-        "Formations with Swarm adds up the formation's combined total of Swarm points. For each Swarm point, one unit with the 'Gaunts' rule that has been lost from the army during the battle may be added to the formation. A formation can only add types of 'Gaunts' from the types of Instinctive Swarms that the formation has access to.",
+        "In the End Phase after all formations have rallied, all unbroken Tyranid formations with both units Swarm (x) and remaining Synapse creatures adds up the formation's combined total of Swarm points.",
+        "For each Swarm point, one unit with the 'Gaunts' rule that has been lost during the battle may be added to the formation. Formations may only add units of 'Gaunts' from the types of Instinctive Swarms that the formation has access to.",
         "All units returned to play in this manner must be placed within 5cm of a unit from the formation that was there prior to Swarming. These units may not be placed in enemy zones of control or in impassable terrain. Not all of the Swarm points available need to be used, but can't be saved for future turns."
       ]
     },

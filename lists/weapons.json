@@ -1153,6 +1153,17 @@
       ]
     },
     {
+      "name": "Accelerator Cannon",
+        "modes": [
+          {
+            "firepower": "2x MW3+",
+            "range": 75,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Kaban Conversion Beamer",
         "modes": [
           {
@@ -4389,6 +4400,17 @@
       ]
     },
     {
+      "name": "Lightning Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Heavy AA Gun",
         "modes": [
           {
@@ -5075,10 +5097,10 @@
       ]
     },
     {
-      "name": "Hyperios Launcher",
+      "name": "Twin Hyperios Launcher",
       "modes": [
         {
-          "firepower": "AT6+/AA5+",
+          "firepower": "AT6+/AA4+",
           "range": 45
         }
       ]
@@ -6186,6 +6208,22 @@
       "modes": [
         {
           "firepower": "MW5+",
+          "range": 15
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multi-Meltas",
+      "modes": [
+        {
+          "firepower": "MW4+",
           "range": 15
         },
         {
@@ -8154,6 +8192,18 @@
       ]
     },
     {
+      "name": "Siege Drills",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Siege Mortar",
           "modes": [
             {
@@ -9184,6 +9234,19 @@
       ]
     },
     {
+      "name": "Thunderfire Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT6+",
+            "range": 60,
+            "specialRules": [
+                "IC",
+                "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Thunder Hammers and Storm Shields",
         "modes": [
           {
@@ -9668,6 +9731,15 @@
       ]
     },
     {
+      "name": "Twin Heavy Flamers ",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 15
+          }
+      ]
+    },
+    {
       "name": "Twin Heavy Phosphor Blasters",
         "modes": [
           {
@@ -9840,7 +9912,7 @@
       ]
     },
     {
-      "name": "Twin Multi-Melta",
+      "name": "Twin Multi-Meltas",
         "modes": [
           {
             "firepower": "MW4+",

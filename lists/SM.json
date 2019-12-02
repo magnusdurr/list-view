@@ -494,7 +494,45 @@
 				"Jump Packs"
 			]
 		},
-
+		{
+            "name": "Space Marine Rapier",
+            "type": "INF",
+            "speed": 10,
+			"armour": 6,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+              "Rapier Laser Destroyer"
+            ],
+            "specialRules": [
+            ]
+        },
+		{
+		  "name": "Space Marine Thudd Gun",
+		  "type": "INF",
+		  "speed": 10,
+    		"armour": 6,
+		  "cc": 6,
+		  "ff": 5,
+		  "weapons": [
+			"Thudd Gun"
+		  ],
+		  "specialRules": [
+		  ]
+		},
+		{
+		  "name": "Space Marine Thunderfire",
+		  "type": "INF",
+		  "speed": 10,
+		  "armour": 6,
+		  "cc": 6,
+		  "ff": 4,
+		  "weapons": [
+			"Thunderfire Cannon"
+		  ],
+		  "specialRules": [
+		  ]
+		},
 		{
 			"name": "Terminators",
 			"type": "INF",
@@ -534,8 +572,9 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 2,
+			"cc": 3,
 			"weapons": [
+				"Lightning Claws",
 				"Thunder Hammers and Storm Shields"
 			],
 			"specialRules": [
@@ -618,8 +657,9 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 2,
+			"cc": 3,
 			"weapons": [
+				"Lightning Claws",
 				"Maces of Absolution and Storm Shields"
 			],
 			"specialRules": [
@@ -646,8 +686,45 @@
 			"specialRules": [
 				"Faithful",
 				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Teleport",
 				"Invulnerable Save"
 			]
+		},
+		{
+			"name": "Assault Centurions",
+			"type": "INF",
+			"speed": 15,
+			"armour": 3,
+			"cc": 4,
+			"ff": 4,
+			"weapons": [
+				"Twin Heavy Flamers ",
+				"Multi-Meltas",
+				"Siege Drills"
+			],
+
+			"specialRules": [
+				"Thick Rear Armour"
+			],
+			"notes": "Counts as Terminators for being transported."
+		},
+		{
+			"name": "Devastator Centurions",
+			"type": "INF",
+			"speed": 15,
+			"armour": 3,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Missile Launcher",
+				"Twin Lascannons",
+				"Twin Heavy Bolters|2|"
+			],
+			"specialRules": [
+				"Thick Rear Armour"
+			],
+			"notes": "Counts as Terminators for being transported."
 		},
 		{
 			"name": "Sanguinary Guards",
@@ -1404,9 +1481,28 @@
 			"specialRules": [
 				"Reinforced Armour",
 				"Thick Rear Armour",
-				"Walker",
-				"Transport"
+				"Walker"
 			]
+		},
+		{
+			"name": "Land Raider Achilles",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"Thunderfire Cannon",
+				"Twin Multi-Meltas|2|"
+			],
+			"specialRules": [
+				"Leader",
+				"Commander",
+				"Reinforced Armour",
+				"Thick Rear Armour"
+				"Transport"
+			],
+			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
 		},
 		{
 			"name": "Land Raider Anvilarum",
@@ -1470,7 +1566,7 @@
 			"ff": 5,
 			"weapons": [
 				"Twin Lascannons|2",
-				"Hyperios Launcher|0-1",
+				"Twin Hyperios Launcher|0-1",
 				"Whirlwind Launcher|0-1"
 			],
 			"specialRules": [
@@ -1604,7 +1700,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either a Twin Lascannons or a Twin Heavy Bolters. Razorbacks armed with a Twin Heavy Bolters have their firefight value increased to 4+."
+			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannons or Twin Heavy Bolters. Razorbacks armed with Twin Heavy Bolters have their firefight value increased to 4+."
 		},
 		{
 			"name": "Dark Angels Razorback",
@@ -1771,6 +1867,25 @@
 			"weapons": [
 				"Demolisher"
 			]
+		},
+		{
+			"name": "Fellblade",
+			"type": "WE",
+			"speed": "15",
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Accelerator Cannon",
+				"Quad Lascannon|2|FxF",
+				"Demolisher||FxF",
+				"Twin Heavy Bolters||FxF"
+			],
+			"specialRules": [
+				"Damage Capacity: 4",
+				"Reinforced Armour"
+			],
+			"crit": "The Fellblade is destroyed. All units within 5cm suffer a hit on a 5+."
 		},
 		{
 			"name": "Glaive",
@@ -2097,6 +2212,24 @@
 			"crit": "The unit and all units being carried are destroyed."
 
 
+		},
+		{
+			"name": "Thunderhawk Bomber",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"weapons": [
+				"Battle Cannon||FxF",
+				"AC Twin Heavy Bolters|2|FxF",
+				"AC Twin Heavy Bolters||Left",
+				"AC Twin Heavy Bolters||Right",
+				"AC Bomb Racks||FxF"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Reinforced Armour"
+			],
+			"crit": "The unit is destroyed."
 		},
 		{
 			"name": "Battle Barge",

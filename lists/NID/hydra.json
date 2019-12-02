@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Hydra",
-  "version": "0.8.1",
-  "release": "",
+  "version": "0.8.2",
+  "release": "2019-12-01",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+",
 
@@ -79,7 +79,7 @@
           "extraUnits": [
             "Two to four Instinctive Swarms (except Mycetic Spore)"
           ],
-          "points": 450
+          "points": 475
         },
         {
           "name": "Major Swarm",
@@ -105,7 +105,7 @@
     },
     {
       "name": "Secondary Synapse Swarms",
-      "description": "One for each Primary Synapse Swarm",
+      "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm",
       "formations": [
           {
             "name": "Spawn Swarm",
@@ -178,7 +178,7 @@
         {
           "name": "Spawner",
           "units": "One Tervigon",
-          "points": 75
+          "points": 100
         },
         {
           "name": "Hierodule",
@@ -199,7 +199,7 @@
     },
     {
       "name": "Common Independent Swarms",
-      "description": "One for each Primary Synapse Swarm, no more than a third of the army",
+      "description": "Up to one Common Independent Swarm for each Primary Synapse Swarm. No more than a third of the army",
       "formations": [
         {
           "name": "Genestealer Swarm",
@@ -221,7 +221,7 @@
     },
     {
       "name": "Rare Independent Swarms",
-      "description": "One for each Primary Synapse Swarm, no more than a third of the army",
+      "description": "Up to one Rare Independent Swarm for each Primary Synapse Swarm. No more than a third of the army",
       "formations": [
         {
           "name": "Bio-Titan",

@@ -5,7 +5,7 @@
         {
           "title": "Machine Spirit",
           "description": [
-            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives."
+            "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally."
           ]
         },
     {
@@ -274,6 +274,47 @@
               "Skimmer",
               "Ponderous"
           ]
+      },
+      {
+          "name": "Tarantula",
+          "type": "LV",
+          "speed": "Immobile",
+          "ff": "6+/5",
+          "weapons": [{
+                  "name": "0-1 Twin Lascannons",
+                  "modes": [{
+                      "firepower": "AT4+",
+                      "range": 45
+                  }]
+              },
+              {
+                  "name": "0-1 Twin Heavy Bolters",
+                  "modes": [{
+                      "firepower": "AP4+",
+                      "range": 30
+                  }]
+              }
+          ],
+          "specialRules": [
+              "Machine Spirit",
+              "Fearless",
+              "Expendable"
+          ],
+          "notes": "Armed with either Twin Lascannons or Twin Heavy Bolters. Tarantulas armed with Twin Heavy Bolters have their firefight value increased to 5+."
+      },
+      {
+          "name": "Hyperios Sentry",
+          "type": "LV",
+          "speed": "Immobile",
+          "ff": 6,
+          "weapons": [
+            "Twin Hyperios Launcher"
+          ],
+          "specialRules": [
+              "Machine Spirit",
+              "Fearless",
+              "Expendable"
+                 ]
       },
       {
           "name": "Rapier",
