@@ -1,8 +1,8 @@
  {
   "fraction": "Squats",
   "army": "Wodanaz Stronghold",
-  "version": "0.7.4",
-  "release": "2019-10-15",
+  "version": "0.7.5",
+  "release": "2019-12-04",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -115,11 +115,12 @@
         },
         {
           "name": "Light Artillery Battery",
-          "units": "Five Thudd Guns",
+          "units": "Six Rapiers",
           "extraUnits": [
-              "Replace five Thudd Guns with five Mole Mortars or six Rapiers: Free"
+              "Replace six Rapiers with four Thudd Guns or four Mole Mortars: Free",
+              "Add up to four Tarantulas: 25 points each"
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Thunderfire Battery",

@@ -2829,21 +2829,20 @@
       ]
     },
     {
-      "name": "D-Cannon",
+      "name": "Warp Hunter D-Cannon",
         "modes": [
           {
-            "firepower": "MW4+",
+            "firepower": "MW3+",
             "range": 30,
             "specialRules": [
-              "TK(1)",
               "Shield Piercer"
           ]
           },
           {
-            "firepower": "1BP",
-            "join": "or",
+            "firepower": "Small Arms",
+            "join": "and",
             "specialRules": [
-              "IC"
+              "MW"
           ]
         }
       ]
@@ -3120,13 +3119,13 @@
       ]
           },
     {
-      "name": "Distort Cannon",
+      "name": "Support D-Cannon",
       "modes": [
         {
           "firepower": "MW5+",
           "range": 30,
           "specialRules": [
-            "MW"
+            "Shield Piercer"
           ]
         }
       ]
@@ -8401,6 +8400,19 @@
             "firepower": "4x AP3+/AT4+",
             "range": 45,
             "specialRules": [
+                "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sonic Lance",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 45,
+            "specialRules": [
+                "IC",
                 "D"
           ]
         }

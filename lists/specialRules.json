@@ -405,8 +405,14 @@
       "title": "Webway Portal",
       "description": [
         "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
-        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only INF, LV or AVs with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
+        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only INF, LV, or AVs with the Walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
         "If a Webway is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
+        ]
+    },
+    {
+      "title": "Large Webway Portal",
+      "description": [
+          "Large Webway Portals follows all the rules for a normal Webway Portals, except AV units are not required to have Walker in order to enter the battlefield through it."
         ]
     },
     {
@@ -480,6 +486,14 @@
       ]
     },
     {
+      "title": "Avatar (Yme-Loc)",
+      "description": [
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
+        "Remove the Avatar in the End Phase of that turn, before rallying formations. Once removed it may not return."
+      ]
+    },
+    {
       "title": "Avatar (Mymeara)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
@@ -527,6 +541,12 @@
       "title": "May not Garrison (Lugganath)",
       "description": [
         "Only Ghost Walkers and Wasp Walkers are allowed to garrison objectives in the Epic tournament game scenario."
+      ]
+    },
+    {
+      "title": "May not Garrison (Yme-Loc)",
+      "description": [
+        "Only Hornets are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {

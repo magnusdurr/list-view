@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Imperial Fists",
-  "version": "0.5.0",
-  "release": "2019-12-02",
+  "version": "0.5.1",
+  "release": "2019-12-03",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "Tarantula and Hyperios Emplacement formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "specialRules": [
@@ -80,10 +80,10 @@
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "extraUnits": [
-            "Support Weapons",
             "Anti-Air",
             "Commander",
             "Land Raider Transport",
+            "Vindicators",
             "Razorbacks"
           ],
           "points": 275
@@ -92,10 +92,9 @@
           "name": "Devastators",
           "units": "Four Devastators plus transport",
           "extraUnits": [
-            "Support Weapons",
-            "Anti-Air",
+            "Add six Space Marine Rapiers, four Space Marine Thudd Guns, or four Space Marine Thunderfires: 150 points",
             "Commander",
-            "Land Raider Transport",
+            "Vindicators",
             "Razorbacks"
           ],
           "points": 250
@@ -207,7 +206,7 @@
     },
     {
       "name": "Imperial Fists Static Defenses, Navy, Relics & Titan Legion Allies",
-      "description": "Up to a third of the points available may be spent on these formations. Max one Tarantula Emplacement or Hyperios Emplacement may be bought for each Support Battery or Scout detachment in the army.",
+      "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula Emplacement or Hyperios Emplacement for each Support Battery or Scout detachment.",
       "formations": [
           {
             "name": "Fortifications",
@@ -263,11 +262,6 @@
     "title": "Imperial Fists Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
-        {
-          "name": "Support Weapons",
-          "description": "Add six Space Marine Rapiers, four Space Marine Thudd Guns, or four Space Marine Thunderfires",
-          "points": "125 points"
-        },
       {
         "name": "Dreadnoughts",
         "description": "Add up to two Dreadnoughts, or two Hellfire Dreadnoughts",

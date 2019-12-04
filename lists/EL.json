@@ -208,7 +208,7 @@
       "cc": 6,
       "ff": 6,
       "weapons": [
-        "Distort Cannon"
+        "Support D-Cannon"
       ],
       "specialRules": [
 
@@ -642,9 +642,9 @@
       "speed": 35,
       "armour": 5,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
-        "D-Cannon"
+        "Warp Hunter D-Cannon"
       ],
       "specialRules": [
         "Skimmer"
@@ -680,20 +680,22 @@
     },
     {
       "name": "Lynx",
-      "type": "H-AV",
+      "type": "WE",
       "speed": 30,
       "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Pulsar",
+        "Sonic Lance",
         "Shuriken Cannon"
       ],
       "specialRules": [
+        "Damage Capacity: 2",
         "Reinforced Armour",
         "Holofield (5+)",
         "Skimmer"
-      ]
+      ],
+      "crit": "The Lynx is destroyed. Any units within 5cm take a hit on 5+."
     },
     {
       "name": "Scorpion",
