@@ -12,7 +12,11 @@
     "unit": [
     {
       "name": "Wild Rider Chieftain",
-      "type": "CH",
+      "type": "INF",
+      "speed": 35,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
       "weapons": [
         "Eldar Power Weapon",
         "Shuriken Cannon"
@@ -62,7 +66,7 @@
       ],
       "specialRules": [
         "Supreme Commander"
-      ]
+    ]
     },
     {
       "name": "Seer Council",
@@ -78,9 +82,9 @@
       "specialRules": [
         "Supreme Commander",
         "Farsight",
-        "Invulnerable Save",
-        "Seer Council units can be used to summon the Avatar"
-      ]
+        "Invulnerable Save"
+    ],
+    "notes": "The Seer Council can be used to summon the Avatar."
     },
     {
       "name": "Wraithseer",
@@ -90,9 +94,9 @@
       ],
       "specialRules": [
         "Supreme Commander",
-        "Farsight",
-        "units with a Wraithseer can be used to summon the Avatar"
-      ]
+        "Farsight"
+      ],
+      "notes": "Units with a Wraithseer can be used to summon the Avatar."
     },
     {
       "name": "Spiritseer",
@@ -102,9 +106,9 @@
       ],
       "specialRules": [
         "Commander",
-        "Farsight",
-        "units with a Spiritseer can be used to summon the Avatar"
-      ]
+        "Farsight"
+      ],
+      "notes": "Units with a Spiritseer can be used to summon the Avatar."
 
     },
     {
@@ -153,9 +157,9 @@
         "Farsight",
         "Invulnerable Save",
         "Mounted",
-        "Skimmer",
-        "Mounted Farseer units can be used to summon the Avatar"
-      ]
+        "Skimmer"
+    ],
+    "notes": "The Mounted Farseer can be used to summon the Avatar."
     },
     {
       "name": "Eldar Farseer",
@@ -170,9 +174,9 @@
       ],
       "specialRules": [
         "Farsight",
-        "Commander",
-        "Farseer units can be used to summon the Avatar"
-      ]
+        "Commander"
+      ],
+      "notes": "The Farseer can be used to summon the Avatar."
     },
     {
       "name": "Eldar Guardians",
@@ -448,9 +452,9 @@
         "Wraith Blades"
       ],
       "specialRules": [
-        "Fearless",
-        "Counts as a Wraithguards unit for the purposes of being transported"
-      ]
+        "Fearless"
+    ],
+    "notes": "Counts as a unit of Wraithguards for the purposes of being transported."
     },
     {
       "name": "Wraithguards",
@@ -522,7 +526,7 @@
       ],
       "specialRules": [
         "Skimmer",
-        "Transport may carry one infantry unit without jumppacks or mounted."
+        "Transport may carry one unit of INF without Jump Packs or Mounted."
       ]
     },
     {
@@ -603,8 +607,10 @@
       "specialRules": [
         "Reinforced Armour",
         "Skimmer",
-        "Transport (May carry up to two of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders. Wraithguards and Wraithblades take two spaces each)"
-      ]
+        "Transport"
+    ],
+    "notes": "May carry up to two of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Swooping Hawks. Wraithguards and Wraithblades take two spaces each."
+
     },
     {
       "name": "Falcon",
@@ -619,8 +625,9 @@
       ],
       "specialRules": [
         "Skimmer",
-        "Transport (May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders.)"
-      ]
+        "Transport"
+    ],
+    "notes": "May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Swooping Hawks."
     },
     {
       "name": "Fire Prism",
@@ -695,7 +702,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "crit": "The Lynx is destroyed. Any units within 5cm take a hit on 5+."
+      "crit": "The Lynx is destroyed. Any units within 5cm take a hit on 6+."
     },
     {
       "name": "Scorpion",
@@ -714,7 +721,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "crit": "The Scorpion is destroyed. Any units within 5cm take a hit on 5+."
+      "crit": "The Scorpion is destroyed. Any units within 5cm take a hit on 6+."
     },
     {
       "name": "Cobra",
@@ -734,7 +741,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "crit": "The Cobra is destroyed. Any units within 5cm take a hit on 5+."
+      "crit": "The Cobra is destroyed. Any units within 5cm take a hit on 6+."
     },
     {
       "name": "Storm Serpent",
@@ -754,7 +761,7 @@
         "Webway Portal",
         "Skimmer"
       ],
-      "crit": "The Storm Serpent is destroyed. Any units within 5cm take a hit on 5+."
+      "crit": "The Storm Serpent is destroyed. Any units within 5cm take a hit on 6+."
     },
     {
       "name": "Void Spinner",
@@ -772,7 +779,7 @@
         "Holofield (5+)",
         "Skimmer"
       ],
-      "crit": "The Void Spinner is destroyed. Any units within 5cm take a hit on 5+."
+      "crit": "The Void Spinner is destroyed. Any units within 5cm take a hit on 6+."
     },
     {
       "name": "Skathach Wraithknight",

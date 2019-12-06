@@ -70,7 +70,6 @@
           "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
           "extraUnits": [
-            "Bonesinger"
           ],
           "points": 850
         },
@@ -132,7 +131,8 @@
           "name": "Engines of Vaul",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "extraUnits": [
-            "Add up to two additional Engines of Vaul (Cobra, Scorpion, Storm Serpent): 200 points each"
+            "Add up to two additional Engines of Vaul for 200 points each",
+            "Bonesinger"
           ],
           "points": 250
         },
@@ -195,7 +195,7 @@
       {
         "name": "0-1 Bonesinger",
         "description": "Add one Bonesinger to the formation",
-        "points": "25 points"
+        "points": "50 points"
     },
     {
       "name": "Wraithguard",

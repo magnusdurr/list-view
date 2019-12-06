@@ -12,7 +12,7 @@
     {
       "from": "EL.json",
       "units": [
-        "Master Bonesinger",
+        "Bonesinger",
         "Avatar",
         "Eldar Exarch",
         "Eldar Farseer",
@@ -80,7 +80,7 @@
             "name": "Engines of Vaul",
             "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
             "extraUnits": [
-              "Add up to two additional Engine of Vaul for 200 points each, chosen from the following: Cobra, Scorpion, Storm Serpent",
+                "Add up to two additional Engines of Vaul for 200 points each",
               "Bonesinger"
             ],
             "points": 250
@@ -91,8 +91,7 @@
           "extraUnits": [
             "Replace up to two Falcons with Firestorms: Free",
             "OR",
-            "Add six Guardians to the formation: 75 points",
-            "Bonesinger"
+            "Add six Guardians to the formation: 75 points"
           ],
           "points": 300
       }
@@ -104,11 +103,11 @@
       "formations": [
           {
             "name": "Mounted Aspect Warrior Troupe",
-            "units": "Two Wave Serpents, two Falcons and six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions, Swooping Hawks",
+            "units": "Three Wave Serpents and six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions, Swooping Hawks",
             "extraUnits": [
               "Exarch"
             ],
-            "points": 375
+            "points": 325
           },
           {
             "name": "Mounted Guardian Troupe",
@@ -116,11 +115,11 @@
             "extraUnits": [
                 "Heavy Weapons"
             ],
-            "points": 300
+            "points": 275
           },
 
         {
-          "name": "Wind Rider Troupe ",
+          "name": "Wind Rider Troupe",
           "units": "Six Vypers",
           "extraUnits": [
           ],
@@ -149,11 +148,11 @@
       },
       {
         "name": "Hornet Troupe",
-        "units": "Three Hornets",
+        "units": "Four Hornets",
         "extraUnits": [
-            "Add up to three Hornets: 50 points each"
+            "Add up to two Hornets: 50 points each"
         ],
-        "points": 150
+        "points": 200
     },
       {
         "name": "Lynx Troupe",
@@ -196,6 +195,7 @@
           "name": "Phantom",
           "units": "One Phantom Titan",
           "extraUnits": [
+              "Bonesinger"
           ],
           "points": 700
         },
@@ -224,7 +224,7 @@
     "items": [
       {
         "name": "Exarch",
-        "description": "Add one Eldar Exarchs",
+        "description": "Add one Eldar Exarch to a unit of Aspect Warriors",
         "points": "25 points"
       },
       {
@@ -234,7 +234,7 @@
       },
       {
         "name": "0-1 Bonesinger",
-        "description": "Add one Bonesinger to a AV or WE unit in the formation.",
+        "description": "Add one Bonesinger to a War Engine unit in the formation.",
         "points": "50 points"
       }
   ],

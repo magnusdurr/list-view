@@ -1,10 +1,10 @@
 {
   "fraction": "Eldar",
   "army": "Craftworld Saim-Hann",
-  "version": "0.9.3",
-  "release": "2019-10-02",
+  "version": "Alpha 0.8.4",
+  "release": "2019-12-05",
   "strategy": "Craftworld Saim-Hann armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Shining Spears, Aspect Warriors, Titans and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": ["Avatar (Saim-Hann)","May not Garrison (Saim-Hann)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Webway Portal","Independent Twins"],
   "usage": [
@@ -18,7 +18,8 @@
         "Avatar",
         "Eldar Exarch",
         "Mounted Farseer",
-        "Eldar Rangers",
+        "Eldar Guardians",
+        "Heavy Weapon Platform",
         "Saim-Hann Wild Riders",
         "Dire Avengers",
         "Fire Dragons",
@@ -29,7 +30,6 @@
         "Swooping Hawks",
         "Saim-Hann Hornet",
         "Saim-Hann Vyper",
-        "War Walker",
         "Wave Serpent",
         "Falcon",
         "Fire Prism",
@@ -38,6 +38,7 @@
         "Scorpion",
         "Cobra",
         "Storm Serpent",
+        "Void Spinner",
         "Revenant Titan"
       ],
         "unitRules": [
@@ -80,14 +81,13 @@
       "formations": [
         {
           "name": "Wild Rider Warhost",
-          "units": "Six Saim-Hann Wild Riders",
+          "units": "Nine Saim-Hann Wild Riders",
           "extraUnits": [
-            "Add three Saim-Hann Wild Riders for 75 points, or six for 150 points",
-            "Replace any number of Saim-Hann Wild Riders with Saim-Hann Vypers: Free",
-            "Replace one Saim-Hann Wild Rider with a Mounted Farseer: 25 points",
-            "(0-1 per army) Add a Wild Rider Chieftain to a Wild Riders unit: 50 points"
+            "Replace any number of Wild Riders with Saim-Hann Vypers: Free",
+            "Replace one unit of Wild Riders with a Mounted Farseer: 25 points",
+            "(0-1 per army) Replace one unit of Wild Riders with a Wild Rider Chieftain: 50 points"
           ],
-          "points": 225
+          "points": 300
         },
         {
           "name": "Shining Spear Warhost",
@@ -101,7 +101,7 @@
     },
     {
       "name": "Saim-Hann Troupes",
-      "description": "Up to two for each Saim-Hann Warhost taken",
+      "description": "Up to three for each Saim-Hann Warhost taken",
       "formations": [
         {
           "name": "Mounted Aspect Warrior Troupe",
@@ -122,7 +122,7 @@
           "name": "Engines of Vaul",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "extraUnits": [
-            "Add up to two additional Engines of Vaul (Cobra, Scorpion, Storm Serpent): 200 points each"
+            "Add up to two Cobra, Scorpion and/or Storm Serpent: 200 points each"
           ],
           "points": 250
         },
@@ -151,7 +151,7 @@
           "points": 175
         },
         {
-          "name": "Void Spinner",
+          "name": "Void Spinners",
           "units": "One Void Spinner",
           "extraUnits": [
             "Add up to two Void Spinners for 250 points each"
@@ -159,30 +159,13 @@
           "points": 300
         },
         {
-          "name": "Rangers",
-          "units": "Five Eldar Rangers",
-          "extraUnits": [
-            "Add one Eldar Rangers: 25 points"
-          ],
-          "points": 125
-        },
-        {
           "name": "Hornet Troupe",
-          "units": "Three Saim-Hann Hornets",
+          "units": "Four Saim-Hann Hornets",
           "extraUnits": [
-            "Add up to three Saim-Hann Hornets: 50 points each"
+            "Add up to two Saim-Hann Hornets: 50 points each"
           ],
-          "points": 150
-        },
-        {
-          "name": "War Walker Troupe",
-          "units": "Four War Walkers",
-          "extraUnits": [
-              "Add up to two War Walkers: 25 points each"
-          ],
-          "points": 125
-        }
-      ]
+          "points": 200
+        }      ]
     },
     {
       "name": "Saim-Hann Aircraft, Spacecraft and Titans",
@@ -198,11 +181,10 @@
         },
         {
           "name": "Phoenix Aerie",
-          "units": "Two Phoenix Bombers",
+          "units": "Three Phoenix Bombers",
           "extraUnits": [
-            "Add one Phoenix Bomber: 75 Points"
           ],
-          "points": 250
+          "points": 325
         },
         {
           "name": "Vampire Hunter",
@@ -210,7 +192,7 @@
           "extraUnits": [
 
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Revenants",
@@ -218,7 +200,7 @@
           "extraUnits": [
               "Independent Twins"
           ],
-          "points": 625
+          "points": 650
       },
       {
         "name": "0-1 Spacecraft",
