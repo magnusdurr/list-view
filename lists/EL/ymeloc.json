@@ -1,7 +1,7 @@
 {
   "fraction": "Eldar",
   "army": "Craftworld Yme-Loc",
-  "version": "Alpha 0.6.0",
+  "version": "Alpha 0.6.1",
   "release": "2019-12-05",
   "strategy": "Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -86,6 +86,14 @@
             "points": 250
         },
         {
+          "name": "Lynx Vaulhost",
+          "units": "Two Lynx",
+          "extraUnits": [
+          ],
+          "points": 300
+      },
+
+        {
           "name": "Falcon Vaulhost",
           "units": "Six Falcons",
           "extraUnits": [
@@ -153,15 +161,7 @@
             "Add up to two Hornets: 50 points each"
         ],
         "points": 200
-    },
-      {
-        "name": "Lynx Troupe",
-        "units": "Two Lynx",
-        "extraUnits": [
-        ],
-        "points": 300
-      }
-
+    }
       ]
     },
     {

@@ -1,9 +1,9 @@
 {
   "fraction": "Adeptus Mechanicus",
-  "army": "Knight World",
-  "version": "1.0.1",
+  "army": "Questoris Imperialis",
+  "version": "1.0.0",
   "release": "2019-04-03",
-  "strategy": "Knight World armies have a Strategy Rating of 2.",
+  "strategy": "Questoris Imperialis armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
@@ -12,7 +12,7 @@
 
   ],
   "usage": [
-    "The following army list allows you to field a Knight World army with Planetary Defence Force allies"
+    "The following army list allows you to field a Questoris Imperialis army with Planetary Defence Force allies"
   ],
   "units": [
     {
@@ -64,93 +64,102 @@
 ],
 "sections": [
     {
-      "name": "Knight World Core Households",
+      "name": "Questoris Imperialis Core Households",
       "formations": [
         {
           "name": "Protector Household",
           "units": "Five Knight-Protectors",
-          "upgrades": [
-            "Seneschal, Knight-Protectors, Knight-Baron"
+          "extraUnits": [
+            "Seneschal",
+            "Knight-Protectors",
+            "Knight-Baron"
           ],
           "points": 450
         }
       ]
     },
     {
-      "name": "Knight World Support Households",
+      "name": "Questoris Imperialis Support Households",
       "description": "Up to two Support Households for each Core Household.",
       "formations": [
         {
           "name": "Custodian Household",
           "units": "Two Knight-Custodians (any combination configurations)",
-          "upgrades": [
-            "Seneschal, Knight-Custodians"
+          "extraUnits": [
+            "Seneschal",
+            "Knight-Custodians"
           ],
           "points": 275
       },
           {
             "name": "Vanguard Household",
             "units": "Three Knight-Vanguard",
-            "upgrades": [
-              "Seneschal, Knight-Vanguard"
+            "extraUnits": [
+              "Seneschal",
+              "Knight-Vanguard"
             ],
             "points": 325
         },
         {
           "name": "Guardian Household",
           "units": "Four Knight-Guardians (any combination of configurations)",
-          "upgrades": [
-            "Seneschal, Knight-Guardians"
+          "extraUnits": [
+            "Seneschal",
+            "Knight-Guardians"
           ],
           "points": 325
       },
       {
         "name": "Aggressor Household",
         "units": "Three Knight-Aggressors",
-        "upgrades": [
-          "Seneschal, Knight-Aggressors"
+        "extraUnits": [
+          "Seneschal",
+          "Knight-Aggressors"
         ],
         "points": 325
     }
       ]
     },
     {
-      "name": "Knight World Retainer Formations",
+      "name": "Questoris Imperialis Retainer Formations",
       "description": "Up to one Retainer Formation for each Core or Support Household.",
       "formations": [
         {
           "name": "Planetary Defense Company",
           "units": "One PDF Commander, eleven PDF Conscripts",
-          "upgrades": [
-              "Thudd Guns", "Rapiers", "Snipers", "Entrenchments"
+          "extraUnits": [
+              "Thudd Guns",
+              "Rapiers",
+              "Snipers",
+              "Entrenchments"
           ],
           "points": 175
       },
       {
         "name": "Flak Emplacement",
         "units": "Three Heavy AA Guns, three Gun Emplacements",
-        "upgrades": [
+        "extraUnits": [
         ],
         "points": 125
     },
       {
         "name": "Howitzer Emplacement",
         "units": "Three Howitzers, three Gun Emplacements",
-        "upgrades": [
+        "extraUnits": [
         ],
         "points": 175
     },
       {
         "name": "Rough Riders",
         "units": "Six Rough Riders",
-        "upgrades": [
+        "extraUnits": [
         ],
         "points": 150
     },
     {
             "name": "Motorized PDF Platoon",
             "units": "Six PDF Conscripts, three Land Transporters",
-            "upgrades": [
+            "extraUnits": [
             ],
             "points": 150
         }
@@ -175,7 +184,7 @@
     }
   ],
   "upgrades": {
-    "title": "Knight World Upgrades",
+    "title": "Questoris Imperialis Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
         {
