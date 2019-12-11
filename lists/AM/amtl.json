@@ -79,7 +79,7 @@
       "formations": [
         {
           "name": "0-1 Emperor Titan",
-          "units": "One Imperator Titan or Warmonger Titan",
+          "units": "One Imperator Titan or Warmonger Titan, Veteran Princeps",
           "upgrades": [
             "Legate"
           ],
@@ -87,10 +87,9 @@
     },
     {
       "name": "Warlord Titan",
-      "units": "One Warlord Titan (Deathbringer or Nemesis Class)",
+      "units": "One Warlord Titan (Deathbringer or Nemesis Class), Veteran Princeps",
       "upgrades": [
-        "Legate",
-        "Veteran Princeps"
+        "Legate"
       ],
       "points": 750
   },
@@ -191,7 +190,7 @@
           "options": [
             {
               "description": "Add one Veteran Princeps to the formation. May not be combined with Legate",
-              "points": "Free"
+              "points": "25 points"
             }
           ]
       },

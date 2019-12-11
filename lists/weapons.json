@@ -2462,6 +2462,19 @@
       ]
     },
     {
+      "name": "Titan Chainfist",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+3)",
+                "MW"
+          ]
+          }
+      ]
+    },
+
+    {
       "name": "Dreadnought Chainfist",
         "modes": [
           {
@@ -8313,6 +8326,20 @@
           }
       ]
     },
+    {
+      "name": "Smite",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+
+          ]
+          }
+      ]
+    },
+
     {
       "name": "Smart Missile System",
         "modes": [

@@ -144,18 +144,9 @@
 		{
 			"name": "Librarian",
 			"type": "CH",
-			"weapons": [{
-					"name": "Smite",
-					"modes": [{
-						"firepower": "Small Arms, EA(+1), MW"
-					}]
-				},
-				{
-					"name": "Power Weapon",
-					"modes": [{
-						"firepower": "Assault Weapons, EA(+1), MW"
-					}]
-				}
+			"weapons": [
+				"Smite",
+				"Power Weapon"
 			],
 			"specialRules": [
 				"Invulnerable Save",
@@ -1499,7 +1490,7 @@
 				"Leader",
 				"Commander",
 				"Reinforced Armour",
-				"Thick Rear Armour"
+				"Thick Rear Armour",
 				"Transport"
 			],
 			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
