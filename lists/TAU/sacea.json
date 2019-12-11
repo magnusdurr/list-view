@@ -55,6 +55,7 @@
         "Tiger Shark Bomber",
         "Tiger Shark AX-1-0",
         "Orca",
+        "Custodian Class Battleship"
         "Protector Class Cruiser"
       ],
         "unitRules": [
@@ -209,8 +210,9 @@
           "name": "0–1 Spacecraft",
           "units": "Protector Class Cruiser",
           "extraUnits": [
+              "Replace the Protector with a Custodian Class Battleship: 25 points"
           ],
-          "points": 225
+          "points": 200
         }
       ]
     }
