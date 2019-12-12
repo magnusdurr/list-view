@@ -23,9 +23,9 @@
       "units": [
         "Exalted Sorcerer",
         "Aspiring Sorcerer",
-        "Champion of Tzeench",
+        "Champion of Tzeentch",
         "Icon Bearer",
-        "Daemon Prince of Tzeench",
+        "Daemon Prince of Tzeentch",
         "Chaos Space Marines",
         "Scarab Occult Terminators",
         "Rubric Marines",
@@ -67,9 +67,9 @@
     {
       "from": "daemons.json",
       "units": [
-        "Horrors of Tzeench",
-        "Flamers of Tzeench",
-        "Screamers of Tzeench",
+        "Horrors of Tzeentch",
+        "Flamers of Tzeentch",
+        "Screamers of Tzeentch",
         "Lord of Change"
       ],
       "unitRules": [
@@ -105,7 +105,7 @@
           "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
-            "Champion of Tzeench",
+            "Champion of Tzeentch",
             "Thousand Sons Transport",
             "Predators",
             "Dreadnoughts"
@@ -122,7 +122,7 @@
           "name": "Thousand Sons Initiates",
           "units": "Four Chaos Space Marines, Daemonic Pact",
           "extraUnits": [
-            "Add one Champion of Tzeench to the formation: 50 points",
+            "Add one Champion of Tzeentch to the formation: 50 points",
             "Icon Bearer",
             "Dreadnoughts",
             "Predators",
@@ -172,7 +172,7 @@
         "points": 200
     },
   {
-    "name": "Tzeench Defilers",
+    "name": "Tzeentch Defilers",
     "units": "Four Decievers",
     "extraUnits": [
     ],
@@ -213,14 +213,14 @@
             "points": 500
           },
           {
-            "name": "Doomwings of Tzeench",
+            "name": "Doomwings of Tzeentch",
             "units": "Three Doomwings",
             "extraUnits": [
             ],
             "points": 175
           },
           {
-            "name": "Firelords of Tzeench",
+            "name": "Firelords of Tzeentch",
             "units": "Two Firelords",
             "extraUnits": [
               "Add one Firelord: 100 points"
@@ -268,7 +268,7 @@
             "points": "50 points"
           },
           {
-            "description": "Replace the Aspiring Sorcerer and its unit with a Daemon Prince of Tzeench",
+            "description": "Replace the Aspiring Sorcerer and its unit with a Daemon Prince of Tzeentch",
             "points": "100 points"
           }
         ]

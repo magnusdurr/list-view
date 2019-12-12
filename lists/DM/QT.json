@@ -79,8 +79,8 @@
         "Beasts of Nurgle",
         "Bloodletters of Khorne",
         "Fleshhounds of Khorne",
-        "Horrors of Tzeench",
-        "Flamers of Tzeench",
+        "Horrors of Tzeentch",
+        "Flamers of Tzeentch",
         "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
@@ -101,7 +101,7 @@
   "sections": [
     {
       "name": "Daemonic Lance Formations",
-      "description": "Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+      "description": "Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
           "name": "Hell-Knights of Slaanesh",
@@ -118,7 +118,7 @@
           "points": 350
       },
         {
-          "name": "Knight-Despoilers of Tzeench",
+          "name": "Knight-Despoilers of Tzeentch",
           "units": "Two Knight-Despoilers",
           "extraUnits": [
               "Add one Knight-Despoiler: 125 points"
@@ -153,7 +153,7 @@
 },
     {
       "name": "Daemonic Pack Formations",
-      "description": "Up to one for each Daemonic Lance. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+      "description": "Up to one for each Daemonic Lance. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
       {
         "name": "Hell-Striders of Slaanesh",
@@ -177,7 +177,7 @@
       "points": 225
         },
         {
-      "name": "Tzeench Defiler Pack",
+      "name": "Tzeentch Defiler Pack",
       "units": "Four Decievers",
       "extraUnits": [
       ],
@@ -246,7 +246,7 @@
       "formations": [
               {
             "name": "Chaos Warhounds",
-            "units": "Two Chaos Warhounds of Chaos Undivided / Plaguehounds of Nurgle / Bloodhounds of Khorne / Warphounds of Tzeench",
+            "units": "Two Chaos Warhounds of Chaos Undivided / Plaguehounds of Nurgle / Bloodhounds of Khorne / Warphounds of Tzeentch",
             "extraUnits": [
             ],
             "points": 500

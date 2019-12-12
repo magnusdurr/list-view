@@ -85,8 +85,8 @@
         "Beasts of Nurgle",
         "Bloodletters of Khorne",
         "Fleshhounds of Khorne",
-        "Horrors of Tzeench",
-        "Flamers of Tzeench",
+        "Horrors of Tzeentch",
+        "Flamers of Tzeentch",
         "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
@@ -107,11 +107,11 @@
   "sections": [
     {
       "name": "Battle Titan Formations",
-      "description": "A TTL army must contain at least one Chaos Emperor or Chaos Warlord Titan. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+      "description": "A TTL army must contain at least one Chaos Emperor or Chaos Warlord Titan. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
           "name": "0-1 Chaos Emperor Titan",
-          "units": "One Vicebringer Titan of Slaanesh / Gloombringer Titan of Nurgle / Strifebringer Titan of Khorne / Changebringer Titan of Tzeench",
+          "units": "One Vicebringer Titan of Slaanesh / Gloombringer Titan of Nurgle / Strifebringer Titan of Khorne / Changebringer Titan of Tzeentch",
           "extraUnits": [
             "Eye of the Gods",
             "Daemonic Herald"
@@ -120,7 +120,7 @@
       },
         {
           "name": "Chaos Warlord Titan",
-          "units": "One Painlord Titan of Slaanesh / Plaguelord Titan of Nurgle / Banelord Titan of Khorne / Warplord Titan of Tzeench",
+          "units": "One Painlord Titan of Slaanesh / Plaguelord Titan of Nurgle / Banelord Titan of Khorne / Warplord Titan of Tzeentch",
           "extraUnits": [
             "Eye of the Gods",
             "Daemonic Herald"
@@ -129,7 +129,7 @@
       },
         {
           "name": "Chaos Reaver Titan",
-          "units": "One Reviler Titan of Slaanesh / Repugnant Titan of Nurgle / Ravager Titan of Khorne / Mutator Titan of Tzeench",
+          "units": "One Reviler Titan of Slaanesh / Repugnant Titan of Nurgle / Ravager Titan of Khorne / Mutator Titan of Tzeentch",
           "extraUnits": [
           "Daemonic Herald"
           ],
@@ -139,11 +139,11 @@
 },
     {
       "name": "Scout Titan Formations",
-      "description": "Three for each Chaos Emperor Titan, two for each Chaos Warlord Titan. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+      "description": "Three for each Chaos Emperor Titan, two for each Chaos Warlord Titan. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
           "name": "Chaos Warhound",
-          "units": "One Plaguehound of Nurgle / Bloodhound of Khorne / Warphound or Tzeench",
+          "units": "One Plaguehound of Nurgle / Bloodhound of Khorne / Warphound or Tzeentch",
           "extraUnits": [
             "Add one Chaos Warhound of the chosen type: 225 points"
           ],
@@ -169,7 +169,7 @@
   },
   {
     "name": "Daemon Engine Formations",
-    "description": "Three for each Battle Titan, one for each unit in a Scout Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+    "description": "Three for each Battle Titan, one for each unit in a Scout Titan formation. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
     "formations": [
         {
           "name": "Hell-Striders of Slaanesh",
@@ -217,14 +217,14 @@
           "points": 225
       },
       {
-        "name": "Knights of Tzeench",
+        "name": "Knights of Tzeentch",
         "units": "Two Knight-Despoilers",
         "extraUnits": [
         ],
         "points": 275
     },
         {
-          "name": "Tzeench Defiler Pack",
+          "name": "Tzeentch Defiler Pack",
           "units": "Four Decievers",
           "extraUnits": [
           ],
