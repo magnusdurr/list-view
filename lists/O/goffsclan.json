@@ -73,7 +73,7 @@
               "Add any number of Battlefortresses: 115 points each",
               "Add any number of Gunfortresses: 115 points each",
               "0-2 Nobz: 35 points Each",
-              "0-1 Add one Oddboy character to a Battlefortress, Gunfortress, Gunwagon or Big Gun unit: 50 points"
+              "0-1 Add one Oddboy character to a Battlefortress, Gunfortress, Gunwagon or Big Gunz: 50 points"
             ],
             "pointsOptions": [
               {"name": "Normal", "points":  "200"},
@@ -87,8 +87,8 @@
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
             "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
-            "0-1: One Gunfortress: 115 points",
-            "0-1: Add one Oddboy character to a Gunfortress or Gunwagon unit: 50 points"
+            "0-1: Gunfortress: 115 points",
+            "0-1: Add one Oddboy character to a Gunfortress or Gunwagon: 50 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "150"},
@@ -102,7 +102,7 @@
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
             "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
-            "0-1: Add one Oddboy character to a Gunwagon unit: 50 points"
+            "0-1: Add one Oddboy character to a Gunwagon: 50 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "200"},
@@ -133,7 +133,7 @@
             "Add any number of Battlewagons, Big Gunz: 25 points each",
             "Add any number of Flakwagons: 35 points each",
             "0-1 Nobz: 35 points",
-            "0-1 Add one Oddboy character to a Big Gun unit: 50 points"
+            "0-1 Add one Oddboy character to a unit of Big Gunz: 50 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
@@ -151,9 +151,7 @@
             "0-1: Supa-Stompa: 275 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "225"},
-            {"name": "Big", "points":  "375"},
-            {"name": "'Uge", "points":  "525"}
+            {"name": "Normal", "points":  "225"}
           ]
         },
         {
@@ -170,7 +168,7 @@
           ]
         },
         {
-          "name": "0–1 Kill Kroozer",
+          "name": "0–1 Kroozer",
           "units": "One Kill Kroozer",
           "extraUnits": [
             "Replace the Kill Kroozer with a Battlekroozer for +50 points"
@@ -180,7 +178,7 @@
       ]
       },
       {
-        "name": "Ork Aircraft and Gargant formations",
+        "name": "Goffs Aircraft and Gargant formations",
         "description": "Up to a third of the points available may be spent on these formations",
         "formations": [
         {
