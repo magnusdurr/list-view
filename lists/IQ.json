@@ -1,6 +1,6 @@
 [{
 	"name": "Inquisitorial Forces",
-	"specialRules": [{
+	"specialRules": [
 		{
               "title": "Void Shields",
               "description": [
@@ -310,7 +310,8 @@
 			"cc": 4,
 			"ff": 5,
 			"weapons": [
-				"Bolt Pistols"
+				"Bolt Pistols",
+				"Chainswords"
 			],
 			"specialRules": [
 				"Faithful",

@@ -4418,6 +4418,7 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+                "EA(+1)",
                 "MW"
           ]
         }
@@ -9292,7 +9293,6 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-                "EA(+1)",
                 "MW"
           ]
           }
@@ -9304,12 +9304,24 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+                "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Flail of the Unforgiven",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
                 "EA(+1)",
                 "MW"
           ]
           }
       ]
     },
+
     {
       "name": "Heavy Thunder Hammer",
         "modes": [
