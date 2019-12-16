@@ -49,7 +49,8 @@
             "Defiler",
             "Decimator",
             "Hellfire Cannon",
-            "Ordinatus Hereticus Minoris "
+            "Ordinatus Hereticus Minoris ",
+            "Ordinatus Cyclothrathe"
         ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -230,9 +231,11 @@
             "points": 425
           },
           {
-            "name": "Chaos Reaver",
-            "units": "One Chaos Reaver Titan",
-            "points": 600
+            "name": "0-1 Ordinatus Cyclothrathe",
+            "units": "One Ordinatus Cyclothrathe",
+            "extraUnits": [
+            ],
+            "points": 475
           },
           {
             "name": "Chaos Warlord",

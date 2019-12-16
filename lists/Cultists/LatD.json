@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Lost and the Damned",
-  "version": "0.7.4",
-  "release": "2019-08-19",
+  "version": "0.7.5",
+  "release": "2019-12-16",
   "strategy": "Lost and the Damned armies have a Strategy Rating of 1.",
-  "Initiative": "All formations have an Initiative Rating of 2+.",
+  "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -67,6 +67,15 @@
         ]
     },
     {
+      "from": "CSM.json",
+      "units": [
+        "Chaos Space Marines",
+        "Chaos Rhino"
+      ],
+      "unitRules": []
+    },
+
+    {
       "from": "daemons.json",
       "units": [
         "Daemonettes of Slaanesh",
@@ -107,9 +116,16 @@
       ]
     },
     {
-      "name": "Dark Mechanicus and Infestation Support Covens",
+      "name": "Chaos, Dark Mechanicus and Infestation Support Covens",
       "description": "Two formations may be taken per Chaos Cultist Coven. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations in the army. Support Covens are 0-1 for each part of 1500 points in the army",
       "formations": [
+          {
+            "name": "Chaos Space Marines of Chaos Undivided",
+            "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
+            "extraUnits": [
+            ],
+            "points": 275
+        },
             {
               "name": "Hellfire Cannons of Chaos Undivided",
               "units": "Four Hellfire Cannons",
@@ -259,12 +275,12 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Add an Arch-Heretic character a Demagogue or Aspiring Champion",
-            "points": "50 points"
+            "description": "Add an Arch-Heretic character to a Demagogue or Aspiring Champion",
+            "points": "Free"
           },
           {
             "description": "Replace a Demagogue or Aspiring Champion with a Daemon Prince",
-            "points": "100 points"
+            "points": "75 points"
           }
         ]
       },
@@ -305,7 +321,7 @@
       },
       {
         "name": "Land Transporters",
-        "description": "Add enough Land Transporters to carry the entire formation with no spare transport space",
+        "description": "Add enough Land Transporters to transport the formation",
         "points": "10 points each"
     }
     ]

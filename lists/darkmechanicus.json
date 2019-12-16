@@ -213,7 +213,7 @@
                     "cc": 6,
                     "ff": 5,
                     "weapons": [
-                      "Phospex Blaster|2|",
+                      "Phospex Blaster||",
                       ">Battle Weapons<",
                       "Turbo Blaster|0-1|FxF",
                       "Doom Burner|0-1|FxF",
@@ -275,6 +275,25 @@
                     "Graviton Singularity Beamer||FxF",
                     ">Ordinatus Temporia<",
                     "Gyrator Barrage Cannon||FxF"
+                ],
+                "specialRules": [
+                  "Damage Capacity 4",
+                  "Void Shields 4",
+                  "Reinforced Armour",
+                  "Fearless"
+              ],
+              "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+"
+            },
+            {
+                "name": "Ordinatus Cyclothrathe",
+                "type": "WE",
+                "speed": 10,
+                "armour": 5,
+                "cc": 6,
+                "ff": 5,
+                "weapons": [
+                    "Phospex Blaster|3|",
+                    "Terrebrax Phospex Battery||FxF"
                 ],
                 "specialRules": [
                   "Damage Capacity 4",

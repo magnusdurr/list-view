@@ -17,7 +17,7 @@
         "Sanguinary Guards", "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Assaults", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
         "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
         "Furioso Dreadnought", "Razorback", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino", "Whirlwind",
-        "Storm Talon Gunship", "Storm Raven Gunship", "Landing Craft",
+        "Storm Talon", "Storm Raven", "Landing Craft",
         "Battle Barge","Strike Cruiser","Drop Pod"
       ],
       "unitRules": ["They Shall Know No Fear"]
@@ -175,12 +175,12 @@
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
-          "name": "Storm Talon Squadron",
+          "name": "Storm Talons",
           "units": "Two Storm Talons",
           "points": 200
         },
         {
-          "name": "Storm Raven Squadron",
+          "name": "Storm Ravens",
           "units": "Two Storm Ravens",
           "extraUnits": [
               "Add one Storm Raven: 75 points"

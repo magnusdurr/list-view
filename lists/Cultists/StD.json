@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "0.9.4",
-  "release": "2019-12-11",
+  "version": "0.9.5",
+  "release": "2019-12-16",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -24,7 +24,6 @@
         "Daemonic Icon",
         "Fallen Commander",
         "Daemon Prince",
-        "Aspiring Champion",
         "Mutants",
         "Chaos Spawn",
         "Technical",
@@ -114,14 +113,6 @@
             "All"
           ],
           "points": 175
-        },
-        {
-          "name": "0-1 Chaos Space Marines",
-          "units": "One Aspiring Champion, five Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
-          "extraUnits": [
-            "Supreme Commander"
-          ],
-          "points": 300
         }
       ]
     },
@@ -175,8 +166,8 @@
       ]
     },
     {
-      "name": "Slaves to Darkness Air Support and Dark Mechanicus Allies",
-      "description": "Up to a third of the points available may be spent on Slaves to Darkness Air Support and Dark Mechanicus Allies",
+      "name": "Slaves to Darkness Air Support and Chaos Allies",
+      "description": "Up to a third of the points available may be spent on Slaves to Darkness Air Support and Chaos Allies",
       "formations": [
           {
             "name": "Thunderbolt Squadron",
@@ -188,6 +179,13 @@
             "units": "Two Marauder Bombers",
             "points": 225
         },
+        {
+          "name": "Chaos Space Marines of Chaos Undivided",
+          "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
+          "extraUnits": [
+          ],
+          "points": 275
+      },
         {
           "name": "0-1 Decimator of Chaos Undivided",
           "units": "One Decimator",
@@ -270,11 +268,11 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Add an Arch-Heretic to the Fallen Commander / Aspiring Champion",
+            "description": "Add an Arch-Heretic to a Fallen Commander",
             "points": "50 points"
           },
           {
-            "description": "Upgrade the Fallen Commander / Aspiring Champion to a Daemon Prince",
+            "description": "Upgrade the Fallen Commander to a Daemon Prince",
             "points": "100 points"
           }
         ]
@@ -319,8 +317,8 @@
         "name": "Griffons",
         "options": [
           {
-            "description": "Add one Griffon, or add three Griffons",
-            "points": "50 points"
+            "description": "Add one, or add three Griffons",
+            "points": ["One Griffon: 25 points", "Three Griffons: 50 points"]
           }
         ]
       },
@@ -328,8 +326,8 @@
         "name": "Leman Russ",
         "options": [
           {
-            "description": "Add up to three Leman Russ and/or Leman Russ Demolishers",
-            "points": "50 points each"
+            "description": "Add one, or add three Leman Russ",
+            "points": ["One Leman Russ: 50 points", "Three Leman Russ: 125 points"]
           }
         ]
       },
@@ -368,7 +366,7 @@
             "points": "25 points each"
           },
           {
-            "description": "(No more than needed to transport the formation with no space left over)",
+            "description": "(No more than needed to transport the formation)",
             "points": ""
           }
         ]
