@@ -66,7 +66,7 @@
         "Plaguebearers of Nurgle",
         "Bloodletters of Khorne",
         "Horrors of Tzeentch",
-        "Daemonic Beasts of Chaos Undivided"
+        "Furies of Chaos Undivided"
       ],
       "unitRules": []
     },
@@ -109,7 +109,6 @@
           "name": "Traitor Guard",
           "units": "One Fallen Commander, seven units of Infantry",
           "extraUnits": [
-              "Add one Daemonic Icon to a Fallen Commander or Daemon Prince: 25 points",
             "All"
           ],
           "points": 175
@@ -144,7 +143,7 @@
           "name": "Rough Rider Platoon",
           "units": "Six Rough Riders",
           "extraUnits": [
-            "Add one Daemonic Icon: 75 points"
+            "Daemonic Icon"
           ],
           "points": 150
         },
@@ -259,10 +258,24 @@
   ],
   "upgrades": {
     "title": "Slaves to Darkness Upgrades",
-    "description": "Each upgrade may be taken once per formation.",
+    "description": "Each upgrade may be taken once per formation. Max 4 different upgrades per formation.",
     "items": [
+              {
+                "name": "Daemonic Icon",
+                "options": [
+                  {
+                    "description": "Add one Daemonic Icon to a Fallen Commander or Daemon Prince",
+                    "points": "25 points"
+                  },
+                  {
+                    "description": "Add one Daemonic Icon to a unit of Rough Riders",
+                    "points": "75 points"
+                  }
+                ]
+              },
+
       {
-        "name": "0-1 Supreme Commander",
+        "name": "(0-1 in the Army) Supreme Commander",
         "options": [
           {
             "description": "Choose one of the following:"
@@ -309,7 +322,7 @@
         "options": [
           {
             "description": "Add up to two Hellhounds",
-            "points": "25 points"
+            "points": "25 points each"
           }
         ]
       },

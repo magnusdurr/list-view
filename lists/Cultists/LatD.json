@@ -86,7 +86,7 @@
         "Great Unclean One",
         "Bloodthirster",
         "Lord of Change",
-        "Daemonic Beasts of Chaos Undivided"
+        "Furies of Chaos Undivided"
       ],
       "unitRules": [
     ]
@@ -95,21 +95,13 @@
   ],
   "sections": [
     {
-      "name": "Chaos Cultist Formations",
+      "name": "Cultist Coven Formations",
       "formations": [
         {
           "name": "Cultist Coven",
           "units": "One Aspiring Champion or Demagogue, nine Chaos Cultists and/or Mutants, Daemonic Pact",
           "extraUnits": [
-            "Supreme Commander",
-            "Icon Bearer",
-            "Mutants/Cultists",
-            "Big Mutants",
-            "Chaos Spawn",
-            "Chaos Hounds",
-            "Chaos Altar",
-            "Transport",
-            "Technicals"
+            "All"
           ],
           "points": 225
         }
@@ -117,7 +109,7 @@
     },
     {
       "name": "Chaos, Dark Mechanicus and Infestation Support Covens",
-      "description": "Two formations may be taken per Chaos Cultist Coven. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations in the army. Support Covens are 0-1 for each part of 1500 points in the army",
+      "description": "Two Support Coven formations may be taken per Cultist Coven. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations in the army. Support Covens are 0-1 for each part of 1000 points in the army",
       "formations": [
           {
             "name": "Chaos Space Marines of Chaos Undivided",
@@ -266,7 +258,7 @@
   ],
   "upgrades": {
     "title": "Lost and the Damned Upgrades",
-    "description": "Each upgrade may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation. Max 4 different upgrades per formation.",
     "items": [
       {
         "name": "0-1 Supreme Commander",
@@ -276,11 +268,11 @@
           },
           {
             "description": "Add an Arch-Heretic character to a Demagogue or Aspiring Champion",
-            "points": "Free"
+            "points": "50 points"
           },
           {
             "description": "Replace a Demagogue or Aspiring Champion with a Daemon Prince",
-            "points": "75 points"
+            "points": "100 points"
           }
         ]
       },

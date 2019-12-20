@@ -14,11 +14,17 @@
                 "img": "website/img/AdeptusMechanicus_Titan.jpg"
             },
             {
-              "name": "Explorator Fleet",
-              "file": "exploratorFleet",
-              "status": "experimental",
-              "img": "website/img/AdeptusMechanicus_Fleet.jpg"
+              "name": "Legiones Skitarii: Mars",
+              "file": "legionesskitariimars",
+              "status": "alpha",
+              "img": "website/img/AdeptusMechanicus_LegionesMars.jpg"
             },
+            {
+              "name": "Legiones Skitarii: Metalica",
+              "file": "legionesskitariimetalica",
+              "status": "beta",
+              "img": "website/img/AdeptusMechanicus_LegionesMetalica.jpg"
+          },
             {
               "name": "Questoris Imperialis",
               "file": "questorisimperialis",
@@ -30,12 +36,6 @@
               "file": "questorismechanicus",
               "status": "alpha",
               "img": "website/img/AdeptusMechanicus_Questoris.jpg"
-            },
-            {
-              "name": "Skitarii",
-              "file": "skitarii",
-              "status": "beta",
-              "img": "website/img/AdeptusMechanicus_Skitarii.jpg"
             }
           ]
         },
