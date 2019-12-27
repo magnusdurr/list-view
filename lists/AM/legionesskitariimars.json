@@ -1,280 +1,250 @@
 {
-  "fraction": "Adeptus Mechanicus",
-  "army": "Legiones Skitarii: Mars",
-  "version": "",
-  "release": "",
-  "strategy": "The Legiones Skitarii have a Strategy Rating of 3.",
-  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+",
+	"fraction": "Adeptus Mechanicus",
+	"army": "Legiones Skitarii: Mars",
+	"version": "0.6.0",
+	"release": "2019-12-27",
+	"strategy": "The Legiones Skitarii have a Strategy Rating of 3.",
+	"Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+.",
 
-  "specialRules": [
-          "Machine Spirit",
-          "Ponderous",
-          "Shield Disruptor"
-  ],
-  "usage": [
-    "The following army list allows you to field an army based on the Skitarii of the Adeptus Mechancius"
-  ],
-  "units": [
-    {
-      "from": "AM.json",
-      "units": [
-        "Magos Dominus",
-        "Magos",
-        "Tech-Priest",
+	"specialRules": [
+		"Machine Spirit",
+		"Ponderous",
+		"Shield Disruptor",
+		"Tunnelers"
+	],
+	"usage": [
+		"The following army list allows you to field an army based on the Skitarii of the Adeptus Mechancius"
+	],
+	"units": [{
+			"from": "AM.json",
+			"units": [
+				"Magos Dominus",
+				"Magos",
+				"Tech-Priest",
 
-        "Hypaspists",
-        "Sagitarii",
+				"Skitarii Vanguard",
+				"Sicarian Ruststalkers",
+				"Sicarian Infiltrators",
+				"Skitarii Rangers",
 
-        "Praetorian Combat Servitor",
-        "Kastelan Robot",
-        "Castellax Battle-Automata",
+				"Sydonian Dragoon",
+				"Ironstrider Ballistarius",
 
-        "Rapier",
+				"Kastelan Robot",
+				"Kataphron Breacher Battle Servitors",
+				"Kataphron Destroyer Battle Servitors",
 
-        "Chimera",
-        "Chimedon",
-        "Leman Russ",
-        "Ordinatus Minoris",
-        "Ordinatus Majoris",
-        "Gorgon",
+                "Archaeopter",
 
-        "Avenger Strike Fighter",
-        "Ark Mechanicus Battleship"
-      ],
-        "unitRules": [
-      ]
-  },
-  {
-  "from": "QK.json",
-  "units": [
-    "Knight-Protector"
-  ],
-    "unitRules": [
-        "Bravery",
-        "Ion Shield (x)",
-        "Lightning Charge",
-        "Heavy Armoured Vehicle (H-AV)"
-  ]
-},
-    {
-    "from": "ImperialAllies.json",
-    "units": [
-      "Warhound ",
-      "Reaver Titan",
-      "Warlord Titan"
-    ],
-      "unitRules": [
-          "Void Shields",
-          "God Machine",
-          "Split Fire"
-    ]
-  }
-],
-"sections": [
-    {
-      "name": "Legiones Mars Core Formations",
-      "formations": [
-        {
-          "name": "Hypaspist Maniple",
-          "units": "One Magos, nine Hypaspists",
-          "extraUnits": [
-            "Replace three Hypaspists with three Rapiers: Free",
-            "Replace two Hypaspists with Sagitarii: 25 points",
-            "Minoris",
-            "Supreme Commander",
-            "Hypaspist Transport",
-            "Hydra"
-          ],
-          "points": 225
-        }
-      ]
-    },
-    {
-      "name": "Legiones Mars Line Formations",
-      "description": "Up to three Mars Line Formations for each Core Formation.",
-      "formations": [
-        {
-          "name": "Sagitarii Maniple",
-          "units": "Four Sagitarii",
-          "extraUnits": [
-            "Replace one unit of Sagitarii with three Rapiers: 25 points",
-            "Add enought Chimeras or Chimedons to transport the formation with no space left over: 25 points each",
-            "Hydra"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Kastelan Maniple",
-          "units": "One Tech-Priest, four Kastelan Robots",
-          "extraUnits": [
-            "Add up to three Kastelan Robots for 25 points each"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Castellax Maniple",
-          "units": "One Tech-Priest, four Castellax Battle-Automata",
-          "extraUnits": [
-          ],
-          "points": 175
-        },
-        {
-          "name": "Praetorian Maniple",
-          "units": "One Tech-Priest, five Praetorian Combat Servitors",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
-          "name": "Cataphractii",
-          "units": "Six Leman Russ Tanks",
-          "extraUnits": [
-              "Hydra"
-          ],
-          "points": 350
-        },
-        {
-          "name": "Minoris Cohort",
-          "units": "Two Ordinatus Minoris",
-          "extraUnits": [
-            "Minoris",
-            "Support Weapon"
-          ],
-          "points": 300
-      },
-      {
-        "name": "0-1 Ordinatus Majoris",
-        "units": "One Ordinatus Armageddon (Nova Cannon)",
-        "extraUnits": [
-          "Ordinatus Mars (Sonic Disruptor)",
-          "Ordinatus Golgotha (Hellfire Missiles)"
-        ],
-        "points": 425
-      }
-      ]
-    },
-    {
-      "name": "Forge World Navy, Collegia Titanica and Questoris Imperialis Support",
-      "description": "Up to a third of the points available may be spent on these formations",
-      "formations": [
-          {
-            "name": "Protector Household",
-            "units": "Five Knight-Protectors",
-            "extraUnits": [
-            ],
-            "points": 450
-        },
-                {
-                  "name": "Warhound Pack",
-                  "units": "Two Warhound Scout Titans, both of either Standard or Support Configuration",
-                  "extraUnits": [
-                      "Tank Hunter Configuration"
-                  ],
-                  "points": 500
-              },
-              {
-                "name": "Reaver Titan",
-                "units": "One Reaver Titan",
-                "extraUnits": [
-                ],
-                "points": 600
-            },
-            {
-              "name": "Warlord Titan",
-              "units": "One Warlord Titan",
-              "extraUnits": [
-              ],
-              "points": 750
-          },
-        {
-          "name": "Avenger Squadron",
-          "units": "Two Avenger Strike Fighters",
-          "points": 175
-        },
-        {
-          "name": "Mechanicus Battleship",
-          "units": "One Ark Mechanicus Battleship",
-          "points": 175
-        }
-      ]
-    }
-  ],
-  "upgrades": {
-    "title": "Legiones Metalica Upgrades",
-    "description": "Each upgrade may be taken once per formation",
-    "items": [
-      {
-        "name": "0-1 Supreme Commander",
-        "options": [
-          {
-            "description": "Replace the Magos with an Magos Dominus",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Hypaspist Transport",
-        "options": [
-          {
-            "description": "Add one Gorgon, five Chimeras, or five Chimedons.",
-            "points": ["Gorgon: 100 points", "Chimeras: 125 points", "Chimedons: 125 point"]
-          }
-        ]
-      },
-        {
-          "name": "Hydra",
-          "options": [
-            {
-              "description": "Add one Hydra",
-              "points": "50 points"
-            }
-          ]
-      },
-      {
-        "name": "Minoris",
-        "options": [
-          {
-            "description": "Add one Ordinatus Minoris",
-            "points": "125 points"
-          }
-        ]
-    },
-      {
-        "name": "Minoris Support Weapon",
-        "options": [
-          {
-            "description": "Upgrade one Minoris to carry a Support Weapon",
-            "points": "25 points"
-          }
-        ]
-    },
-    {
-      "name": "Ordinatus Mars",
-      "options": [
-        {
-          "description": "Replace the Ordinatus Armageddon with an Ordinatus Mars (Sonic Disruptor)",
-          "points": "Free"
-        }
-      ]
-  },
-  {
-    "name": "Ordinatus Golgotha",
-    "options": [
-      {
-        "description": "Replace the Ordinatus Armageddon with an Ordinatus Golgotha (Hellfire Missiles)",
-        "points": "50 points"
-      }
-    ]
-    },
-        {
-          "name": "Tank Hunter",
-          "options": [
-            {
-              "description": "Upgrade both Warhounds to Tank Hunter Configuration",
-              "points": "50 points"
-            }
-          ]
-        }
-    ]
-  }
+				"Skorpius Dunerider",
+				"Skorpius Disintegrator",
+
+				"Onager Dunecrawler",
+
+				"Ordinatus Minoris",
+				"Ordinatus Majoris",
+
+				"Termite",
+
+				"Avenger Strike Fighter",
+				"Ark Mechanicus Battleship"
+			],
+			"unitRules": []
+		},
+		{
+			"from": "QK.json",
+			"units": [
+				"Questoris Knight-Paladin",
+				"Questoris Knight-Errant",
+				"Questoris Knight-Crusader",
+				"Questoris Knight-Gallant",
+				"Questoris Knight-Warden",
+				"Questoris Knight-Preceptor"
+			],
+			"unitRules": [
+				"Stubborn",
+				"Bravery",
+				"Ion Shield (x)",
+				"Heavy Armoured Vehicle (H-AV)"
+			]
+		},
+		{
+			"from": "ImperialAllies.json",
+			"units": [
+				"Warhound "
+			],
+			"unitRules": [
+				"Void Shields"
+			]
+		}
+	],
+	"sections": [{
+			"name": "Legiones Mars Core Formations",
+			"formations": [{
+					"name": "Vanguard Maniple",
+					"units": "One Magos, nine Skitarii Vanguards",
+					"extraUnits": [
+                        "Replace two Skitarii Vanguards with two Skitarii Rangers: 25 points",
+                        "Add three Skorpius Disintegrators: 125 points",
+						"Supreme Commander",
+						"Vanguard Transport"
+					],
+					"points": 200
+				},
+				{
+					"name": "Onager Maniple",
+					"units": "Two Onager Dunecrawlers with Icarus Array, four Onager Dunecrawlers with another single configuration.",
+					"points": 275
+				}
+
+			]
+		},
+		{
+			"name": "Legiones Mars Line Formations",
+			"description": "Up to three Mars Line Formations for each Core Formation.",
+			"formations": [{
+					"name": "Sicarian Killclade",
+					"units": "Four Sicarian Ruststalkers, two Sicarian Infiltrators",
+					"extraUnits": [
+						"Replace two Sicarian Ruststalkers with two Archaeopters: 25 points"
+					],
+					"points": 150
+				},
+				{
+					"name": "Ranger Cohort",
+					"units": "Six Skitarii Rangers",
+					"extraUnits": [
+						"Replace two Skitarii Rangers with two Archaeopters: 25 points"
+					],
+					"points": 175
+				},
+				{
+					"name": "Dragoon Cohort",
+					"units": "Six Sydonian Dragoons",
+					"extraUnits": [],
+					"points": 175
+				},
+				{
+					"name": "Ironstrider Cohort",
+					"units": "Six Ironstrider Ballistarius",
+					"extraUnits": [],
+					"points": 175
+				},
+
+				{
+					"name": "Kastelan Maniple",
+					"units": "One Tech-Priest, five Kastelan Robots",
+					"extraUnits": [
+						"Add up to two Kastelan Robots for 25 points each"
+					],
+					"points": 175
+				},
+				{
+					"name": "Kataphron Maniple",
+					"units": "One Tech-Priest, five Kataphron Breacher Battle Servitors or five Kataphron Destroyer Battle Servitors",
+					"extraUnits": [],
+					"points": 250
+				},
+				{
+					"name": "Skorpius Cataphractii",
+					"units": "Six Skorpius Disintegrators",
+					"extraUnits": [],
+					"points": 350
+				},
+				{
+					"name": "Minoris Cohort",
+					"units": "Two Ordinatus Minoris",
+					"extraUnits": [
+						"Add one Ordinatus Minoris: 125 points",
+						"Support Weapon"
+					],
+					"points": 300
+				},
+				{
+					"name": "0-1 Ordinatus Majoris",
+					"units": "One Ordinatus Armageddon (Nova Cannon)",
+					"extraUnits": [
+						"Ordinatus Mars (Sonic Disruptor)",
+						"Ordinatus Golgotha (Hellfire Missiles)"
+					],
+					"points": 425
+				}
+			]
+		},
+		{
+			"name": "Forge World Navy, Collegia Titanica and Questoris Mechanicus Support",
+			"description": "Up to a third of the points available may be spent on these formations",
+			"formations": [{
+					"name": "Questoris Banner",
+					"units": "Two Questoris Knights (may not mix configurations)",
+					"extraUnits": [],
+					"points": 275
+				}, {
+					"name": "Warhound Pack",
+					"units": "Two Warhound Scout Titans, both of either Standard or Support Configuration",
+					"extraUnits": [
+						"Tank Hunter Configuration"
+					],
+					"points": 500
+				},
+				{
+					"name": "Avenger Squadron",
+					"units": "Two Avenger Strike Fighters",
+					"points": 175
+				},
+				{
+					"name": "Mechanicus Battleship",
+					"units": "One Ark Mechanicus Battleship",
+					"points": 175
+				}
+			]
+		}
+	],
+	"upgrades": {
+		"title": "Legiones Mars Upgrades",
+		"description": "Each upgrade may be taken once per formation",
+		"items": [{
+				"name": "0-1 Supreme Commander",
+				"options": [{
+					"description": "Replace the Magos with an Magos Dominus",
+					"points": "100 points"
+				}]
+			},
+			{
+				"name": "Vanguard Transport",
+				"options": [{
+					"description": "Add five Skorpius Duneriders, or five Termites (must enter the battlefield by tunneling)",
+					"points": ["Duneriders: 125 points", "Termites: 100 points"]
+				}]
+			},
+			{
+				"name": "Minoris Support Weapon",
+				"options": [{
+					"description": "Upgrade one Minoris to carry a Support Weapon",
+					"points": "25 points"
+				}]
+			},
+			{
+				"name": "Ordinatus Mars",
+				"options": [{
+					"description": "Replace the Ordinatus Armageddon with an Ordinatus Mars (Sonic Disruptor)",
+					"points": "Free"
+				}]
+			},
+			{
+				"name": "Ordinatus Golgotha",
+				"options": [{
+					"description": "Replace the Ordinatus Armageddon with an Ordinatus Golgotha (Hellfire Missiles)",
+					"points": "50 points"
+				}]
+			},
+			{
+				"name": "Tank Hunter",
+				"options": [{
+					"description": "Upgrade both Warhounds to Tank Hunter Configuration",
+					"points": "50 points"
+				}]
+			}
+		]
+	}
 }

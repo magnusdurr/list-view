@@ -1,7 +1,6 @@
 [{
 	"name": "Squat Forces",
 	"specialRules": [
-
 	],
 	"unit": [{
 			"name": "Living Ancestor",
@@ -22,22 +21,27 @@
 				"Power Weapon"
 			],
 			"specialRules": [
-				"Supreme Commander",
-				"Invulnerable Save"
+				"Supreme Commander"
 			]
 		},
 		{
 			"name": "Squat Warlord",
-			"type": "CH",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"ff": 5,
 			"weapons": [
-				"Power Weapon"
+			  "Power Weapon",
+			  "Autocannon"
 			],
 			"specialRules": [
+				"Reinforced Armour",
 				"Leader",
-				"Commander",
-				"Invulnerable Save"
+				"Commander"
 			]
 		},
+
 		{
 			"name": "Squat Tech-Priest",
 			"type": "INF",
@@ -70,6 +74,7 @@
 			"name": "Squat Berserkers",
 			"type": "INF",
 			"speed": 15,
+			"armour": 6,
 			"cc": 4,
 			"ff": 5,
 			"weapons": [
@@ -77,22 +82,21 @@
 				"Chainswords"
 			],
 			"specialRules": [
-				"Invulnerable Save"
 			]
 		},
 		{
-			"name": "Squat Hearthguard",
+			"name": "Squat Hearthguards",
 			"type": "INF",
 			"speed": 15,
-			"armour": 4,
-			"cc": 3,
+			"armour": 5,
+			"cc": 4,
 			"ff": 5,
 			"weapons": [
-				"Power Weapon",
-				"Bolt Pistols"
+				"Heirloom Guns"
 			],
 			"specialRules": [
-				"Reinforced Armour"
+				"Inspiring",
+				"Leader"
 			]
 
 		},
@@ -202,10 +206,10 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord and Squat Thunderfire units takes two spaces each. While transporting Squat Thunderfires, the speed of Squat Rhinos are reduced to 20cm."
 		},
 		{
-			"name": "Squat Land Raider",
+			"name": "Land Raider",
 			"type": "AV",
 			"speed": 25,
 			"armour": 4,
@@ -220,14 +224,14 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each."
 		},
 		{
 			"name": "Squat Thunderfire",
 			"type": "AV",
-			"speed": "5cm",
+			"speed": 5,
 			"armour": 5,
-			"ff": 5,
+			"ff": 6,
 			"weapons": [
 				"Squat Thunderfire Cannons"
 			],
@@ -235,30 +239,32 @@
 			]
 		},
 		{
-			"name": "Iron Eagle Gunship",
-			"type": "AC",
-			"speed": "Bomber[*]",
-			"armour": 4,
-			"weapons": [
-				"AC Twin Autocannons||FxF",
-				"Ragnarok Battle Cannon||FxF"
-			],
-			"notes": "[*] Iron Eagle Gunships are Bombers that may also perform the 'Intercept' action."
-		},
-		{
-			"name": "Steel Hawk Gyrokopter",
+			"name": "Iron Eagle Gyrokopter",
 			"type": "AV",
-			"speed": 25,
+			"speed": 35,
 			"armour": 4,
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Missile Launcher",
-                "Multi-Melta"
+				"Autocannon|2|",
+				"Ragnarok Battle Cannon"
+			],
+			"specialRules": [
+				"Scout, Skimmer"
+			]
+		},
+		{
+			"name": "Bronze Raven Gunship",
+			"type": "AC",
+			"speed": "Bomber[*]",
+			"armour": 5,
+			"weapons": [
+				"AC Twin Lascannons||FxF",
+                "AC Missile Launcher|3|"
 			],
             "specialRules": [
-                "Scout, Skimmer"
-            ]
+            ],
+			"notes": "[*] Bronze Raven Gunships are Bombers that may also perform the 'Intercept' action."
 		},
 		{
 			"name": "Overlord Dirigible",
@@ -283,27 +289,28 @@
 			"name": "Termite",
 			"type": "AV",
 			"speed": 15,
-			"armour": 6,
+			"armour": 5,
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
 				"Storm Bolter"
 			],
 			"specialRules": [
+				"Thick Rear Armour",
 				"Tunneler",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Must start the game in the reserves, and may only enter the battlefield through Tunneling."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through Tunneling."
 		},
 	  {
 		  "name": "Hellbore",
 		  "type": "WE",
 		  "speed": "Immobile",
 		  "armour": 4,
-		  "cc": 6,
+		  "cc": 5,
 		  "ff": 5,
 		  "weapons": [
-		  "Storm Bolter Array"
+		  "Storm Bolters"
 		  ],
 		  "specialRules": [
 			  "Damage Capacity 4",
@@ -311,7 +318,7 @@
 			  "Reinforced Armour",
 			  "Transport"
 		  ],
-		  "notes": "May transport twelve infantry units without Jump Packs or Mounted. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
+		  "notes": "May transport twelve infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
 		  "crit": "The Hellbore is destroyed."
 
 	  },
@@ -333,7 +340,7 @@
           "name": "Leviathan",
           "type": "WE",
           "speed": 20,
-          "armour": 5,
+          "armour": 3,
           "cc": 6,
           "ff": 4,
           "weapons": [
@@ -345,12 +352,11 @@
           "specialRules": [
             "Damage Capacity: 4",
             "Void Shields: 4",
-            "Reinforced Armour",
             "Thick Rear Armour",
             "Fearless",
             "Transport"
           ],
-          "notes": "May transport ten infantry units without Jump Packs or Mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
+          "notes": "May transport twelve infantry units without Jump Packs or Mounted. Up to two units may shoot and FF from the Leviathan's fighting platform",
           "crit": "The Leviathan is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the Leviathan."
 	  },
 		{

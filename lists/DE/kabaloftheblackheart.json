@@ -71,14 +71,7 @@
           "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
 
           "points": 50
-        },
-        {
-          "name": "0-1 Portable Webway Portal",
-          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character in the army. This portable Webway may be used once in a game. After the character's formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
-
-          "points": 50
-        }
-      ]
+        }      ]
     },
     {
       "name": "Black Heart Kabal Formations",
@@ -90,6 +83,7 @@
           "extraUnits": [
             "Add two Incubi: 75 points",
             "Ravagers",
+            "Portable Webway",
             "Black Heart Transport",
             "Warriors"
           ],
@@ -109,6 +103,7 @@
           "extraUnits": [
             "Add one Dracon to a unit of Warriors: 50 points",
             "Ravagers",
+            "Portable Webway",
             "Black Heart Transport",
             "Warriors"
           ],
@@ -122,20 +117,22 @@
       "formations": [
           {
             "name": "Wych Cult",
-            "units": "One Succubus, four Wyches",
+            "units": "One Succubus in a unit of Wyches, three Wyches",
             "extraUnits": [
               "Add two Wyches: 50 points",
               "Add up to four Warp Beasts: 25 points each",
+              "Portable Webway",
               "Black Heart Transport"
             ],
-            "points": 150
+            "points": 175
         },
         {
           "name": "Haemonculi Coven",
           "units": "Two Haemonculi and four Wracks",
           "extraUnits": [
              "Add one Haemonculus Ancient character to a unit of Haemonculi: 25 points",
-             "Add two Grotesques: 100 points",
+             "Add two Grotesques: 50 points",
+             "Portable Webway",
              "Talos",
              "Black Heart Transport"
           ],
@@ -255,6 +252,13 @@
         "description": "Add two Dark Eldar Warriors",
         "points": "50 points"
       },
+      {
+        "name": "0-1 Portable Webway",
+        "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character. This Portable Webway may be used once in a game. After the character's formation completes an action you may place a small barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
+        "points": "50 points"
+      },
+
+
       {
         "name": "Black Heart Transport",
         "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation. Up to three Raiders may be added to a formation for free to carry units of Incubi, Warriors, Wyches, Haemonculi and/or Wracks, additional Raiders are added for free to transport units from the Dark Eldar Upgrades section, as long as that unit can be transported in a Raider. Any number of Raiders may be replaced by two Dark Eldar Venoms or Dark Eldar Barges of Pleasure.",

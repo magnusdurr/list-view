@@ -1,8 +1,8 @@
  {
   "fraction": "Squats",
   "army": "Wodanaz Stronghold",
-  "version": "0.7.5",
-  "release": "2019-12-04",
+  "version": "0.8.0",
+  "release": "2019-12-25",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -26,7 +26,7 @@
         "Squat Warriors",
         "Squat Berserkers",
         "Squat Bikers",
-        "Squat Hearthguard",
+        "Squat Hearthguards",
         "Squat Thunderers",
         "Mole Mortar",
         "Rapier",
@@ -34,10 +34,9 @@
         "Guildmaster Trike",
         "Squat Trike",
         "Squat Rhino",
-        "Squat Land Raider",
+        "Land Raider",
         "Squat Thunderfire",
-        "Iron Eagle Gunship",
-        "Steel Hawk Gyrokopter",
+        "Iron Eagle Gyrokopter",
         "Goliath Mega Cannon",
         "Overlord Dirigible",
         "Termite",
@@ -54,7 +53,6 @@
       "from": "AM.json",
       "units": [
           "Kastelan Robot",
-          "Vultarax Robot",
           "Tarantula"
         ],
               "unitRules": ["Machine Spirit", "Ponderous"]
@@ -62,39 +60,36 @@
 ],
 "sections": [
     {
-      "name": "Wodanaz Stronghold Core Formations",
+      "name": "Wodanaz Stronghold Brotherhood Formations",
       "formations": [
         {
           "name": "Squat Brotherhood",
-          "units": "One Squat Warlord in a Hearthguard unit, seven Squat Warriors",
+          "units": "Squat Hearthguards, nine Squat Warriors",
           "extraUnits": [
-              "Add up to four Squat Warriors: 15 points each",
-              "Replace up to two Squat Warriors with Hearthguards: 35 points each",
-              "Squat Grand Warlord",
-              "Rapiers",
+              "Replace three Squat Warriors with three Rapiers: Free",
+              "Add two Squat Thunderers: 50 points",
+              "Add four Squat Warriors: 50 points",
+              "Warlord",
+              "Grand Warlord",
               "Transport"
-
           ],
-          "points": 225
-      }
+          "points": 200
+      },
+      {
+        "name": "Berserker Brotherhood",
+        "units": "Squat Hearthguards, seven Squat Berserkers, four Squat Rhinos",
+        "extraUnits": [
+            "Replace four Squat Rhinos with Termites: 25 points"
+            ],
+        "points": 200
+    }
+
       ]
     },
     {
       "name": "Wodanaz Stronghold Support Formations",
-      "description": "Up to three Stronghold Support Formations for each Stronghold Core Formation.",
+      "description": "Up to three Stronghold Support Formations for each Stronghold Brotherhood Formation.",
       "formations": [
-          {
-            "name": "Berserkers",
-            "units": "Six Squat Berserkers",
-            "extraUnits": [
-                "Must take one of the following options",
-                "Deploy the formation inside a Hellbore: Free",
-                "Add three Rhinos to the formation: 25 points",
-                "Add three Termites to the formation: 50 points"
-
-            ],
-            "points": 125
-        },
         {
           "name": "Bikers",
           "units": "Six Squat Bikers",
@@ -102,38 +97,44 @@
               "Add one Guildmaster Trike: 25 points",
               "Replace up to three Squat Bikers with Squat Trikes: Free"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Thunderers",
-          "units": "Four Squat Thunderers",
+          "units": "Four Squat Thunderers, two Squat Rhinos",
           "extraUnits": [
-            "Rapiers",
-            "Transport"
+            "Replace two Squat Rhinos with two Termites or two Land Raiders"
+          ],
+          "points": ["Termites: 25 points", "Land Raiders: 75 points"]
+        },
+        {
+          "name": "Sentry Battery",
+          "units": "Six Rapiers and/or Tarantulas",
+          "extraUnits": [
           ],
           "points": 175
         },
         {
           "name": "Light Artillery Battery",
-          "units": "Six Rapiers",
+          "units": "Six Thudd Guns and/or Mole Mortars",
           "extraUnits": [
-              "Replace six Rapiers with four Thudd Guns or four Mole Mortars: Free",
-              "Add up to four Tarantulas: 25 points each"
           ],
-          "points": 150
+          "points": 200
         },
         {
           "name": "Thunderfire Battery",
           "units": "Three Squat Thunderfires",
+          "extraUnits": [
+              "Add three Squat Rhinos: 25 points"
+          ],
           "points": 150
       },
         {
           "name": "Gyrokopter Squadron",
-          "units": "Four Steel Hawk Gyrokopters",
+          "units": "Four Iron Eagle Gyrokopters",
           "extraUnits": [
-              "Add four Vultarax Robots: 100 points"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Kastelan Maniple",
@@ -154,7 +155,7 @@
             "units": "One Overlord Dirigible",
             "extraUnits": [
             ],
-            "points": 225
+            "points": 200
           },
         {
           "name": "Goliath Battery",
@@ -162,21 +163,6 @@
           "extraUnits": [
           ],
           "points": 325
-        },
-        {
-          "name": "Hellbore",
-          "units": "One Hellbore",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
-        {
-            "name": "Leviathan",
-            "units": "One Leviathan",
-            "extraUnits": [
-                "Living Ancestor"
-            ],
-            "points": 350
         },
         {
             "name": "Cyclops",
@@ -198,20 +184,13 @@
             "name": "Land Train",
             "units": "One Squat Land Train and between two and four Battle Cars",
             "extraUnits": [
+                "Living Ancestor",
                 "Dragon Battle Car: 75 points each",
                 "Siege Mortar Battle Car: 75 points each",
                 "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
-                "0-1 Bomb Battle Car: 125 points",
-                "Living Ancestor"
+                "0-1 Bomb Battle Car: 125 points"
             ],
             "points": 200
-        },
-        {
-            "name": "Iron Eagle Squadron",
-            "units": "Two Iron Eagle Gunships",
-            "extraUnits": [
-            ],
-            "points": 175
         }
       ]
     }
@@ -222,40 +201,21 @@
     "title": "Wodanaz Stronghold Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
-      {
-        "name": "Squat Grand Warlord",
-        "options": [
-          {
-            "description": "Replace the Squat Warlord with a Squat Grand Warlord",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Transport",
-        "description": "Choose one of the following options:",
-        "options": [
-          {
-            "description": "Add enough Rhinos and/or Land Raiders to transport the entire formation with no space left over",
-            "points": [
-              "10 points for each Rhino",
-              "50 points for each Land Raider (Thunderers only)"
-            ]
-        },
         {
-          "description": "The entire formation may be deployed in Termites. The formation may only enter the battlefield by Tunneling.",
-          "points": [
-            "20 points for each Termite"
+          "name": "Warlord",
+          "options": [
+            {
+              "description": "Add one Squat Warlord to the formation.",
+              "points": "50 points"
+            }
           ]
-        }
-        ]
-      },
+        },
       {
-        "name": "Rapiers",
+        "name": "(0-1 per army) Grand Warlord",
         "options": [
           {
-            "description": "Add two Rapiers",
-            "points": "35 points"
+            "description": "Add one Squat Grand Warlord to a Squat Warlord unit.",
+            "points": "50 points"
           }
         ]
       },
@@ -263,9 +223,40 @@
         "name": "Living Ancestor",
         "options": [
           {
-            "description": "Add one Living Ancestor",
+            "description": "Add a Living Ancestor to the unit.",
             "points": "50 points"
-          }
+        }
+        ]
+    },
+      {
+        "name": "Transport",
+        "description": "Choose one of the following options:",
+        "options": [
+          {
+            "description": "Add enough Squat Rhinos and/or Land Raiders to transport the entire formation with no space left over.",
+            "points": [
+              "Squat Rhinos: 10 points each",
+              "Up to two Land Raiders: 50 points each"
+            ]
+        },
+        {
+          "description": "The entire formation is transported in Termites. The formation may only enter the battlefield by Tunneling.",
+          "points": [
+            "20 points each"
+          ]
+      },
+      {
+        "description": "The entire formation is transported in a Hellbore. The formation may only enter the battlefield by Tunneling.",
+        "points": [
+          "100 points"
+        ]
+    },
+    {
+      "description": "The entire formation is transported in a Leviathan.",
+      "points": [
+        "250 points"
+      ]
+    }
         ]
       }
     ]

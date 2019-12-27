@@ -721,7 +721,7 @@
           "name": "Plague Tower",
           "type": "WE",
           "speed": 20,
-          "armour": 5,
+          "armour": 3,
           "cc": 4,
           "ff": 4,
           "weapons": [
@@ -730,13 +730,12 @@
           ],
           "specialRules": [
               "Damage Capacity 6",
-              "Reinforced Armour",
               "Fearless",
               "Invulnerable Save",
               "Daemon Engine (Nurgle)",
               "Transport"
           ],
-          "notes": "May transport fourteen infantry units, Blight Drones or Dreadnoughts. Terminators, Daemon Princes, Blight Drones and Dreadnoughts count as two units each.",
+          "notes": "May transport fourteen infantry units, Blight Drones or Chaos Dreadnoughts. Terminators, Daemon Princes, Blight Drones and Chaos Dreadnoughts count as two units each.",
           "crit": "The Plague Tower takes an additional point of damage. 1D3 random units carried inside takes a hit."
       },
 

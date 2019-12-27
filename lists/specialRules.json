@@ -83,7 +83,7 @@
     {
       "title": "Bravery",
       "description": [
-        "All Knight formations receive a +1 modifier to their Action Test when carrying out an Engage action, and a +1 modifier to their rally tests."
+        "All Knight formations receive a +1 modifier to their Action Test when carrying out an Engage action, and a +1 modifier to their Rally Tests."
       ]
     },
     {
@@ -1178,14 +1178,9 @@
     {
       "title": "Coordinated Fire",
       "description": [
-        "Some units are noted as being able to call in coordinated fire. These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action.",
-        "Make a single Initiative roll for all formations, counting a single -1 modifier if any have Blast Markers. If the test is failed then the original formation (containing the unit calling for coordinated fire) receives a Blast Marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an advance, double or sustained fire action.",
-        "There is no obligation for all formations to take the same action, and these actions may be resolved in any order, but they must all fire at the same target formation. The formations don’t have to stay within a given distance of each other and will complete their actions one after the other. Each formations action is declared and resolved (including testing to see if the target formation is broken) before moving on to the next Tau formation.",
-        "Note that units with this ability confer the coordinated fire ability to any formation that they join. For example, a Pathfinder upgrade purchased to be added to a Fire Warrior Cadre, adds the coordinated fire ability to all units in the Cadre.",
-        "There are no requirements with regards which action from sustain, advance or double a formation takes.",
-        "If an action with a movement component is chosen there are no specific movement restrictions. You may move as normal in any allowed direction or manner. You don't have to move towards the coordinated fire target or even make any attempt to get any weapons in range if you don't want to.",
-        "The only requirement is that if you choose to shoot it must be at the formation picked as the target of the coordinated fire.",
-        "The target of the coordinated fire being destroyed or moving to a position where it cannot be shot has no impact on any movement component of the action chosen. It just means that you will not be able to shoot."
+        "A formation that contains at least one unit with Coordinated Fire can order up to two other un-broken formations within 15cm that have not taken an action this turn to follow their own formation when they take an Advance, Double or Sustained Fire action.",
+        "Make a single Initiative roll for all foarmations, counting a single -1 modifier if any have Blast Markers. If the test is failed then the original formation (containing the unit calling for Coordinated Fire) receives a Blast Marker and must take a hold action. The other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an Advance, Double or Sustained Fire action.",
+        "There is no obligation for all formations to take the same action, and these actions may be resolved in any order, but they must all fire at the same target formation. If the formation being activated is unable or unwilling to fire at the selected formation, it cannot fire at all that turn. The formations don’t have to stay within a given distance of each other and will complete their actions one after the other. Each formations action is declared and resolved (including testing to see if the target formation breaks) before moving on to the next Tau formation."
       ]
     },
     {
@@ -1197,15 +1192,15 @@
     {
       "title": "Guided Missiles",
       "description": [
-        "Guided Missiles may be fired without line of sight, but may only be fired at a targets that are Marked with Markerlights.",
-        "Guided Missiles follow all the normal suppression rules. If a unit with a guided missile weapon is in range and has line of sight to a unit in the target formation then it is counted for suppression purposes, even if it cannot fire because the target is not Marked.",
-        "Additionally Guided Missiles count as having line of sight to all units in a Marked formation for the purpose of suppression, crossfire and when shooting as part of an Overwatch action."
+        "Guided Missiles may be fired without Line of Sight, but may only be fired at a targets that are Marked with Markerlights.",
+        "Guided Missiles follow all the normal suppression rules. If a unit with a Guided Missile weapon is within range and Line of Sight to a unit in the target formation then it is counted for suppression purposes, even if the target formation is not Marked.",
+        "Guided Missiles counts as having Line of Sight to all units in a Marked formation for the purpose of suppression, Crossfire and when shooting as part of an Overwatch action."
       ]
     },
     {
       "title": "Markerlights",
       "description": [
-        "All enemy formations with at least one unit within 30cm range and line of sight of at least one Tau unit with the Markerlights special rule is considered to be Marked. When shooting at a Marked formation, all ranged firepower attacks add +1 to their to-hit roll. This bonus for shooting at a Marked enemy may not be used when making Anti-Aircraft attacks, or with BP type attacks. A Tau formation that is broken or has Marched this turn may not mark enemy formations."
+        "All enemy formations with at least one unit within 30cm range and Line of Sight of at least one Tau unit with the Markerlights special rule is considered to be Marked. When shooting at a Marked formation, all ranged firepower attacks gain an additional +1 modifier to their To-Hit roll. This bonus for shooting at a Marked enemy may not be used when making Anti-Aircraft attacks, or with BP type attacks. A Tau formation that is broken or has Marched this turn may not mark enemy formations."
       ]
     },
     {
@@ -1218,7 +1213,7 @@
     {
       "title": "Tiger Shark Gun Drones",
       "description": [
-        "Tiger Shark Squadrons may be given a Gun Drone formation to transport. Transported Gun Drone formations may be split across multiple Tiger Sharks as an exception to the normal aircraft transport rules. The Tiger Sharks cannot land, make an engagement, or embark units, but can disembark transported Gun Drones after an approach move. The Gun Drone formation may shoot when it disembarks as normal (see Transporting Ground Units), and counts as having activated for that turn. After this initial deployment the Gun Drones are a completely independent formation."
+        "Transported Gun Drone formations may be split across multiple Tiger Sharks as an exception to the normal aircraft transport rules. The Tiger Sharks cannot land, Engage, or embark units, but can disembark transported Gun Drones after an approach move. The Gun Drone formation may shoot when it disembarks as normal (see Transporting Ground Units), and counts as having activated for that turn. After this initial deployment the Gun Drones are a completely independent formation."
       ]
     },
 
