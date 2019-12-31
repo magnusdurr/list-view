@@ -71,7 +71,8 @@
               "Add four Squat Warriors: 50 points",
               "Warlord",
               "Grand Warlord",
-              "Transport"
+              "Warrior Transport",
+              "Living Ancestor (Leviathan Only)"
           ],
           "points": 200
       },
@@ -79,7 +80,7 @@
         "name": "Berserker Brotherhood",
         "units": "Squat Hearthguards, seven Squat Berserkers, four Squat Rhinos",
         "extraUnits": [
-            "Replace four Squat Rhinos with Termites: 25 points"
+            "Replace four Squat Rhinos with four Termites: 25 points"
             ],
         "points": 200
     }
@@ -103,16 +104,16 @@
           "name": "Thunderers",
           "units": "Four Squat Thunderers, two Squat Rhinos",
           "extraUnits": [
-            "Replace two Squat Rhinos with two Termites or two Land Raiders"
+              "Thunderer Transport"
           ],
-          "points": ["Termites: 25 points", "Land Raiders: 75 points"]
+          "points": 200
         },
         {
           "name": "Sentry Battery",
           "units": "Six Rapiers and/or Tarantulas",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Light Artillery Battery",
@@ -147,15 +148,15 @@
       ]
     },
     {
-      "name": "Wodanaz Stronghold War Engines and Flyers",
-      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines and Flyers",
+      "name": "Wodanaz Stronghold War Engines",
+      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines",
       "formations": [
           {
             "name": "Overlord",
             "units": "One Overlord Dirigible",
             "extraUnits": [
             ],
-            "points": 200
+            "points": 250
           },
         {
           "name": "Goliath Battery",
@@ -170,7 +171,7 @@
             "extraUnits": [
                 "Living Ancestor"
             ],
-            "points": 450
+            "points": 425
         },
         {
             "name": "Colossus",
@@ -178,7 +179,7 @@
             "extraUnits": [
                 "Living Ancestor"
             ],
-            "points": 475
+            "points": 450
         },
         {
             "name": "Land Train",
@@ -223,13 +224,22 @@
         "name": "Living Ancestor",
         "options": [
           {
-            "description": "Add a Living Ancestor to the unit.",
-            "points": "50 points"
+            "description": "Add a Living Ancestor to a Leviathan, Cyclops, Colossus or Land Train.",
+            "points": "25 points"
         }
         ]
     },
+    {
+      "name": "Thunderer Transport",
+      "options": [
+        {
+          "description": "Replace two Squat Rhinos with two Termites or two Land Raiders.",
+          "points": ["Termites: 25 points", "Land Raiders: 75 points"]
+      }
+      ]
+  },
       {
-        "name": "Transport",
+        "name": "Warrior Transport",
         "description": "Choose one of the following options:",
         "options": [
           {
@@ -246,17 +256,17 @@
           ]
       },
       {
-        "description": "The entire formation is transported in a Hellbore. The formation may only enter the battlefield by Tunneling.",
+        "description": "The entire formation is transported in a Hellbore. The formation may only enter the battlefield by Tunneling. May only be taken if the entire formation fits inside.",
         "points": [
           "100 points"
         ]
     },
     {
-      "description": "The entire formation is transported in a Leviathan.",
+      "description": "The entire formation is transported in a Leviathan. May only be taken if the entire formation fits inside.",
       "points": [
-        "250 points"
+        "300 points"
       ]
-    }
+  }
         ]
       }
     ]

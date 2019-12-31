@@ -3507,7 +3507,7 @@
         "modes": [
           {
             "firepower": "AP4+/AT5+",
-            "range": 30
+            "range": 45
           },
           {
             "firepower": "Small Arms",
@@ -4718,6 +4718,16 @@
       ]
     },
     {
+      "name": "Quad Heavy Stubbers",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30
+        }
+      ]
+    },
+
+    {
       "name": "AC Twin Heavy Stubbers",
       "modes": [
         {
@@ -5185,8 +5195,8 @@
       "name": "Icarus Array",
         "modes": [
           {
-            "firepower": "AP4+/AT5+/AA4+",
-            "range": 30
+            "firepower": "AP4+/AT5+/AA5+",
+            "range": 45
           }
       ]
     },
@@ -6424,8 +6434,8 @@
       "name": "Neutron Laser",
       "modes": [
         {
-          "firepower": "AT3+",
-          "range": 45,
+          "firepower": "AT4+",
+          "range": 60,
           "specialRules": [
             "D"
         ]
@@ -7083,7 +7093,6 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)",
             "FS"
           ]
         }
@@ -8931,7 +8940,7 @@
       "name": "Stubcarbines",
         "modes": [
           {
-            "firepower": "AP4+",
+            "firepower": "AP5+",
             "range":15
           }
       ]
@@ -9098,7 +9107,7 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-              "EA(+D3)",
+              "EA(+1)",
               "MW"
           ]
           }
@@ -9867,7 +9876,7 @@
       "name": "Twin Heavy Phosphor Blasters",
         "modes": [
           {
-            "firepower": "AP3+/AT6+",
+            "firepower": "AP3+/AT5+",
             "range":45,
             "specialRules": [
                 "IC"

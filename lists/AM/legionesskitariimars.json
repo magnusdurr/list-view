@@ -26,6 +26,7 @@
 				"Sicarian Ruststalkers",
 				"Sicarian Infiltrators",
 				"Skitarii Rangers",
+				"Rapier",
 
 				"Sydonian Dragoon",
 				"Ironstrider Ballistarius",
@@ -38,6 +39,7 @@
 
 				"Skorpius Dunerider",
 				"Skorpius Disintegrator",
+				"Gorgon",
 
 				"Onager Dunecrawler",
 
@@ -84,19 +86,14 @@
 					"name": "Vanguard Maniple",
 					"units": "One Magos, nine Skitarii Vanguards",
 					"extraUnits": [
+                        "Replace three Skitarii Vanguards with three Rapiers: Free",
                         "Replace two Skitarii Vanguards with two Skitarii Rangers: 25 points",
-                        "Add three Skorpius Disintegrators: 125 points",
+                        "Add two Onager Dunecrawlers (any single configuration), or two Skorpius Disintegrators: 75 points",
 						"Supreme Commander",
 						"Vanguard Transport"
 					],
 					"points": 200
-				},
-				{
-					"name": "Onager Maniple",
-					"units": "Two Onager Dunecrawlers with Icarus Array, four Onager Dunecrawlers with another single configuration.",
-					"points": 275
 				}
-
 			]
 		},
 		{
@@ -116,19 +113,19 @@
 					"extraUnits": [
 						"Replace two Skitarii Rangers with two Archaeopters: 25 points"
 					],
-					"points": 175
+					"points": 150
 				},
 				{
 					"name": "Dragoon Cohort",
 					"units": "Six Sydonian Dragoons",
 					"extraUnits": [],
-					"points": 175
+					"points": 150
 				},
 				{
 					"name": "Ironstrider Cohort",
 					"units": "Six Ironstrider Ballistarius",
 					"extraUnits": [],
-					"points": 175
+					"points": 150
 				},
 
 				{
@@ -146,10 +143,15 @@
 					"points": 250
 				},
 				{
+					"name": "Onager Cataphractii",
+					"units": "Two Onager Dunecrawlers with Icarus Array, four Onager Dunecrawlers with another single configuration.",
+					"points": 300
+				},
+				{
 					"name": "Skorpius Cataphractii",
 					"units": "Six Skorpius Disintegrators",
 					"extraUnits": [],
-					"points": 350
+					"points": 300
 				},
 				{
 					"name": "Minoris Cohort",
@@ -213,8 +215,8 @@
 			{
 				"name": "Vanguard Transport",
 				"options": [{
-					"description": "Add five Skorpius Duneriders, or five Termites (must enter the battlefield by tunneling)",
-					"points": ["Duneriders: 125 points", "Termites: 100 points"]
+					"description": "Add one Gorgon, five Skorpius Duneriders, or five Termites (must enter the battlefield by tunneling)",
+					"points": ["Gorgon: 100 points", "Duneriders: 125 points", "Termites: 100 points"]
 				}]
 			},
 			{

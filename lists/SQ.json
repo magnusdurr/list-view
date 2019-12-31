@@ -10,8 +10,7 @@
 			],
 			"specialRules": [
 				"Spirit Lords",
-				"Leader",
-				"Inspiring"
+				"Leader"
 			]
 		},
 		{
@@ -155,7 +154,7 @@
 			"type": "LV",
 			"speed": 35,
 			"armour": 3,
-			"cc": 4,
+			"cc": 3,
 			"ff": 5,
 			"weapons": [
 				"Twin Bolters",
@@ -206,7 +205,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord and Squat Thunderfire units takes two spaces each. While transporting Squat Thunderfires, the speed of Squat Rhinos are reduced to 20cm."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord and Squat Thunderfire units takes two spaces each. While transporting Squat Thunderfires, Squat Rhinos' speed are reduced to 20cm."
 		},
 		{
 			"name": "Land Raider",
@@ -339,8 +338,8 @@
 		{
           "name": "Leviathan",
           "type": "WE",
-          "speed": 20,
-          "armour": 3,
+          "speed": 15,
+          "armour": 4,
           "cc": 6,
           "ff": 4,
           "weapons": [
@@ -352,7 +351,8 @@
           "specialRules": [
             "Damage Capacity: 4",
             "Void Shields: 4",
-            "Thick Rear Armour",
+            "Reinforced Armour",
+			"Thick Rear Armour",
             "Fearless",
             "Transport"
           ],

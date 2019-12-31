@@ -128,7 +128,7 @@
 		{
 			"name": "Sicarian Infiltrators",
 			"type": "INF",
-			"speed": 30,
+			"speed": 20,
 			"armour": 5,
 			"cc": 5,
 			"ff": 5,
@@ -137,19 +137,21 @@
 				"Taser Goad"
 			],
 			"specialRules": [
-				"First Strike"
+				"First Strike",
+				"Infiltrators"
 			]
 		},
 		{
 			"name": "Sicarian Ruststalkers",
 			"type": "INF",
-			"speed": 30,
+			"speed": 20,
 			"armour": 4,
 			"cc": 4,
 			"weapons": [
 				"Transonic Blades"
 			],
 			"specialRules": [
+				"Infiltrators"
 			]
 		},
 		{
@@ -332,9 +334,21 @@
 			"specialRules": []
 		},
 		{
+			"name": "Mole Mortar",
+			"type": "INF",
+			"speed": 10,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Mole Mortar"
+			],
+			"specialRules": [
+			]
+		},
+		{
 			"name": "Ironstrider Ballistarius",
 			"type": "LV",
-			"speed": 25,
+			"speed": 30,
 			"armour": 5,
 			"cc": 5,
 			"ff": 5,
@@ -342,14 +356,13 @@
 				"Twin Autocannons"
 			],
 			"specialRules": [
-				"Scout",
 				"Walker"
 			]
 		},
 		{
 			"name": "Sydonian Dragoon",
 			"type": "LV",
-			"speed": 35,
+			"speed": 30,
 			"armour": 5,
 			"cc": 3,
 			"ff": 6,
@@ -367,18 +380,18 @@
 			"speed": 20,
 			"armour": 5,
 			"cc": 6,
-			"ff": 5,
+			"ff": "5+/4",
 			"weapons": [
 				"Eradication Beamer|0-1|",
-				"Neutron Laser|0-1|",
 				"Twin Heavy Phosphor Blasters|0-1|",
+				"Neutron Laser|0-1|",
 				"Icarus Array|0-1|"
 			],
 			"specialRules": [
 				"Walker",
 				"Invulnerable Save"
 			],
-			"notes": "Must choose either an Eradication Beamer, Icarus Array, Neutron Laser or Twin Heavy Phosphor Blasters."
+			"notes": "Must choose either an Eradication Beamer, Twin Heavy Phosphor Blasters, Icarus Array or Neutron Laser. Onager Dunecrawlers armed with Eradication Beamer have their firefight value increased to 4+."
 		},
 		{
 			"name": "Chimera",
@@ -406,7 +419,6 @@
 				"Twin Heavy Stubbers|2|"
 			],
 			"specialRules": [
-				"Walker",
 				"Transport"
 			],
 			"notes": "May carry two units of INF without Jump Packs or Mounted."
@@ -420,11 +432,10 @@
 			"ff": 4,
 			"weapons": [
 				"Ferrumite Cannon",
-				"Twin Missile Launchers",
+				"Missile Launcher",
                 "Twin Heavy Stubbers"
 			],
 			"specialRules": [
-				"Walker"
 			]
 		},
 		{
@@ -432,10 +443,9 @@
 			"type": "LV",
 			"speed": 40,
 			"armour": 4,
-			"cc": 6,
-			"ff": 6,
+			"ff": 5,
 			"weapons": [
-				"Twin Heavy Stubbers"
+				"Twin Heavy Stubbers|2|"
 			],
 			"specialRules": [
 				"Skimmer"
@@ -577,7 +587,7 @@
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
-				"Heavy Bolter|4|"
+				"Twin Heavy Stubbers|4|"
 			],
 			"specialRules": [
 				"Damage Capacity 3",

@@ -56,9 +56,10 @@
       "from": "AM.json",
       "units": [
         "Magos",
-        "Hypaspists",
+        "Skitarii Vanguards",
 
         "Onager Dunecrawler",
+        "Skorpius Dunerider",
         "Gorgon",
 
         "Avenger Strike Fighter",
@@ -153,23 +154,26 @@
       "units": "One Seneschal, one Cerastus Knight-Atrapos",
       "extraUnits": [
       ],
-      "points": 225
+      "points": 200
     }
       ]
     },
     {
       "name": "Mechanicus Allies",
-      "description": "Up to a third of the points available may be spent on Skitarii, AMTL and Imperial Navy Allies.",
+      "description": "Up to a third of the points available may be spent on Forge World and Collegia Titanica allies.",
       "formations": [
         {
-          "name": "Hypaspist Maniple",
-          "units": "One Magos, nine Hypaspists, one Gorgon",
-          "points": 325
+          "name": "Vanguard Maniple",
+          "units": "One Magos, nine Skitarii Vanguards, Gorgon",
+          "extraUnits": [
+              "Replace the Gorgon with five Skorpius Duneriders: 25 points"
+          ],
+          "points": 300
         },
         {
-          "name": "Onager Cohort",
-          "units": "Two Onager Dunecrawlers with Icarus Array, three Onager Dunecrawlers with another single configuration.",
-          "points": 225
+          "name": "Onager Cataphractii",
+          "units": "Two Onager Dunecrawlers with Icarus Array, four Onager Dunecrawlers with another single configuration.",
+          "points": 300
         },
         {
           "name": "Warhound Pack",
