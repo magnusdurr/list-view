@@ -125,22 +125,34 @@
           ]
         },
         {
-          "name": "Geist Servitors",
+            "name": "Adsecularis",
+            "type": "INF",
+            "speed": 15,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Mitralocks"
+            ],
+            "specialRules": [
+                "Machine Spirit",
+                "Fearless",
+                "Expendable",
+                "Ponderous"
+            ]
+        },
+
+        {
+          "name": "Chrono-Gladiators",
           "type": "INF",
           "speed": 15,
           "armour": 5,
-          "cc": 6,
-          "ff": 5,
+          "cc": 5,
           "weapons": [
-            "Flamers"
+            "Power Claws"
           ],
           "specialRules": [
-              "Scout",
               "Infiltrators",
-              "Machine Spirit",
-              "Fearless",
-              "Expendable",
-              "Ponderous"
+              "Fearless"
           ]
         },
         {
@@ -187,15 +199,14 @@
           "notes": "May transport one infantry unit without Jump Packs or Mounted."
             },
         {
-          "name": "Hades Land Raider",
+          "name": "Macrocarid Exploitator",
           "type": "AV",
           "speed": 25,
           "armour": 4,
           "cc": 6,
           "ff": 4,
           "weapons": [
-            "Twin Lascannons|2|",
-            "Phospex Blaster"
+            "Phospex Blaster|3|"
           ],
           "specialRules": [
               "Reinforced Armour",

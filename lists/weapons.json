@@ -1099,10 +1099,9 @@
       "name": "AC Vampire Hunter Twin Pulsar",
       "modes": [
         {
-          "firepower": "MW2+",
+          "firepower": "2x MW2+",
           "range": 30,
           "specialRules": [
-            "MW",
             "FxF"
           ]
         }
@@ -1154,11 +1153,11 @@
           ]
                 },
     {
-      "name": "Acastus Twin Conversion Beamer",
+      "name": "Conversion Beam Cannon",
         "modes": [
           {
             "firepower": "MW3+",
-              "range": 90,
+              "range": 75,
             "specialRules": [
           ]
           }
@@ -1200,6 +1199,19 @@
           }
       ]
     },
+    {
+      "name": "Karacnos Mortar Battery",
+      "modes": [
+        {
+          "firepower": "2BP",
+          "range": 30,
+          "specialRules": [
+            "Ind"
+          ]
+        }
+      ]
+    },
+
     {
       "name": "Acid Jets",
         "modes": [
@@ -4086,20 +4098,6 @@
       ]
     },
     {
-      "name": "Gorgon Mortars",
-      "modes": [
-        {
-          "firepower": "2 BP",
-          "range": 30,
-          "specialRules": [
-            "Ind",
-            "SS",
-            "FxF"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Goring Tusks",
       "modes": [
         {
@@ -5685,16 +5683,6 @@
       ]
     },
     {
-      "name": "Las-Locks",
-      "modes": [
-        {
-          "firepower": "Small Arms",
-          "specialRules": [
-          ]
-        }
-      ]
-    },
-    {
       "name": "Lash of Torment",
       "modes": [
         {
@@ -5915,14 +5903,13 @@
     ]
     },
     {
-    "name": "Twin Magna Lascannon",
+    "name": "Twin Magna Lascannons",
       "modes": [
         {
           "firepower": "AT2+",
-          "range": 75,
+          "range": 90,
           "specialRules": [
-            "Lance",
-            "FxF"
+            "Lance"
         ]
         }
     ]
@@ -6109,7 +6096,7 @@
       "name": "Melta Cutter",
         "modes": [
           {
-            "firepower": "Small Arms",
+            "firepower": "Assault Weapon",
             "specialRules": [
                 "MW"
           ]
@@ -6197,6 +6184,16 @@
         "specialRules": [
         ]
       }
+      ]
+    },
+    {
+      "name": "Mitralocks",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
       ]
     },
 
@@ -7076,6 +7073,19 @@
           }
       ]
     },
+    {
+      "name": "Power Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
+      ]
+    },
+
     {
       "name": "Eldar Power Lances",
       "modes": [
@@ -10430,7 +10440,20 @@
       ]
     },
     {
-      "name": "Twin Volkite Culvertin",
+      "name": "Volkite Culvertin",
+        "modes": [
+          {
+            "firepower": "AP4+/AT6+",
+            "range": 30,
+        "specialRules": [
+          "IC"
+          ]
+          }
+      ]
+    },
+
+    {
+      "name": "Twin Volkite Culvertins",
         "modes": [
           {
             "firepower": "AP3+/AT5+",

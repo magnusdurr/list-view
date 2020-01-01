@@ -52,13 +52,11 @@
       "from": "eldarNavy.json",
       "units": [
         "Nightwing Interceptor",
-        "Phoenix Bomber",
-        "Vampire Raider",
+        "Hemlock Wraithfighter",
         "Wraithship",
         "Dragonship"
       ],
         "unitRules": [
-        "Shield Disruptor"
       ]
     }
 ],
@@ -102,7 +100,7 @@
             "extraUnits": [
               "Seer Council"
             ],
-            "points": 350
+            "points": 325
         }
         ]
     },
@@ -135,9 +133,10 @@
           "points": 250
         },
         {
-          "name": "Void Spinner Troupe",
+          "name": "Void Spinners",
           "units": "One Void Spinner",
           "extraUnits": [
+              "Add up to two Void Spinners: 250 points each"
           ],
           "points": 300
         },
@@ -186,19 +185,11 @@
             "points": 225
           },
         {
-          "name": "Phoenix Aerie",
-          "units": "Three Phoenix Bombers",
+          "name": "Hemlock Aerie",
+          "units": "Two Hemlock Wraithfighters",
           "extraUnits": [
           ],
-          "points": 325
-        },
-        {
-          "name": "Vampire",
-          "units": "One Vampire Raider",
-          "extraUnits": [
-
-          ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Fire Gale Troupe",

@@ -1,8 +1,8 @@
 {
   "fraction": "Dark Mechanicus",
   "army": "Questor Traitoris",
-  "version": "0.5.0",
-  "release": "2019-11-28",
+  "version": "0.5.5",
+  "release": "2020-01-01",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
   "Initiative": "Chaos Warhound formations and The Kaban Machine have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -39,10 +39,11 @@
             "Arch-Heretek",
             "Hellwright",
             "Chaos Squats",
-            "Hades Land Raider",
-            "Hell-Rhino",
+            "Macrocarid Exploitator",
             "Chaos Rhino",
             "Arlatax Battle-Automata",
+            "Adsecularis",
+            "Chrono-Gladiators",
             "Ordinatus Hereticus Minoris",
             "Ordinatus Hereticus Majoris",
             "The Kaban Machine"
@@ -214,12 +215,27 @@
                 "points": 175
                   },
                   {
+                    "name": "Adsecularis (Chaos Undivided)",
+                    "units": "One Hellwright, nine Adsecularis",
+                  "extraUnits": [
+                      ],
+                  "points": 175
+                    },
+
+              {
                     "name": "Arlatax Maniple (Chaos Undivided)",
                     "units": "One Hellwright, four Arlatax Battle-Automata",
                   "extraUnits": [
                       ],
                   "points": 175
                     },
+                    {
+                      "name": "Chrono-Gladiators (Chaos Undivided)",
+                      "units": "Six Chrono-Gladiators",
+                    "extraUnits": [
+                        ],
+                    "points": 200
+                      },
 
                       {
                     "name": "Ordinatus Hereticus Minoris (Chaos Undivided)",
@@ -303,7 +319,7 @@
     {
       "name": "Hell-Forge Transport",
       "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot, and no unit lacks transport.",
-      "points": ["Chaos Rhinos: 10 points", "Hell-Rhino: 25 points", "Hades Land Raider: 50 points"]
+      "points": ["Chaos Rhinos: 10 points", "Macrocarid Exploitator: 50 points"]
   }
     ]
   }

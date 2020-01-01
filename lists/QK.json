@@ -418,8 +418,8 @@
       "cc": 5,
       "ff": 4,
       "weapons": [
-        "Twin Magna Lascannon|2|",
-        "Autocannon|2|",
+        "Twin Magna Lascannons|2|FxF",
+        "Autocannon|2|FxF",
         "Helios Defense Missiles"
       ],
       "specialRules": [
@@ -439,15 +439,16 @@
           "cc": 5,
           "ff": 4,
           "weapons": [
-            "Acastus Twin Conversion Beamer|2|FxF",
-            "Twin Rad Cleanser"
+            "Conversion Beam Cannon|2|FxF",
+            "Volkite Culvertin|2|FxF",
+            "Karacnos Mortar Battery||FxF"
                 ],
           "specialRules": [
             "Damage Capacity 3",
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (3+)"
+            "Ion Shield (4+)"
             ],
                 "crit": "The Acastus Knight takes 1 additional damage."
             },

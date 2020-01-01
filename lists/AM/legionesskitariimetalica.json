@@ -34,6 +34,8 @@
         "Chimera",
         "Chimedon",
         "Leman Russ",
+        "Leman Russ Demolisher",
+        "Leman Russ Executioner",
         "Ordinatus Minoris",
         "Ordinatus Majoris",
         "Gorgon",
@@ -79,7 +81,7 @@
           "units": "One Magos, nine Hypaspists",
           "extraUnits": [
             "Replace three Hypaspists with three Rapiers: Free",
-            "Replace two Hypaspists with Sagitarii: 25 points",
+            "Replace two Hypaspists with two Sagitarii: 25 points",
             "Minoris",
             "Supreme Commander",
             "Hypaspist Transport",
@@ -94,7 +96,7 @@
       "description": "Up to three Metalica Line Formations for each Core Formation.",
       "formations": [
         {
-          "name": "Sagitarii Maniple",
+          "name": "Ballistae Cohort",
           "units": "Four Sagitarii",
           "extraUnits": [
             "Replace one unit of Sagitarii with three Rapiers: 25 points",
@@ -126,8 +128,8 @@
           "points": 250
         },
         {
-          "name": "Cataphractii",
-          "units": "Six Leman Russ Tanks",
+          "name": "Cataphractii Metalica",
+          "units": "Six Leman Russ, Leman Russ Demolishers or Leman Russ Executioners",
           "extraUnits": [
               "Hydra"
           ],
@@ -216,7 +218,7 @@
         "name": "Hypaspist Transport",
         "options": [
           {
-            "description": "Add one Gorgon, five Chimeras, or five Chimedons.",
+            "description": "Add one Gorgon, five Chimeras, or five Chimedons",
             "points": ["Gorgon: 100 points", "Chimeras: 125 points", "Chimedons: 125 point"]
           }
         ]

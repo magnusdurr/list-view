@@ -213,11 +213,10 @@
 			"name": "Adsecularis",
 			"type": "INF",
 			"speed": 15,
-			"armour": 6,
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Las-Locks"
+				"Mitralocks"
 			],
 			"specialRules": [
 				"Machine Spirit",
@@ -348,8 +347,8 @@
 		{
 			"name": "Ironstrider Ballistarius",
 			"type": "LV",
-			"speed": 30,
-			"armour": 5,
+			"speed": 25,
+			"armour": 4,
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
@@ -362,8 +361,8 @@
 		{
 			"name": "Sydonian Dragoon",
 			"type": "LV",
-			"speed": 30,
-			"armour": 5,
+			"speed": 25,
+			"armour": 4,
 			"cc": 3,
 			"ff": 6,
 			"weapons": [
@@ -441,7 +440,7 @@
 		{
 			"name": "Archaeopter",
 			"type": "LV",
-			"speed": 40,
+			"speed": 35,
 			"armour": 4,
 			"ff": 5,
 			"weapons": [
@@ -477,10 +476,10 @@
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
-				"Storm Bolter"
+				"Bolters",
+				"Melta Cutter"
 			],
 			"specialRules": [
-				"Thick Rear Armour",
 				"Tunneler",
 				"Transport"
 			],
@@ -501,6 +500,36 @@
 				"Reinforced Armour"
 			]
 		},
+		{
+		  "name": "Leman Russ Demolisher",
+		  "type": "AV",
+		  "speed": 20,
+		  "armour": 4,
+		  "cc": 6,
+		  "ff": 3,
+		  "weapons": [
+			"Demolisher", "Lascannon", "Plasma Cannon|2|"
+		  ],
+		  "specialRules": [
+			"Reinforced Armour"
+		  ]
+		},
+
+		{
+		  "name": "Leman Russ Executioner",
+		  "type": "AV",
+		  "speed": 20,
+		  "armour": 4,
+		  "cc": 6,
+		  "ff": 5,
+		  "weapons": [
+			"Plasma Destroyer", "Lascannon", "Plasma Cannon|2|"
+		  ],
+		  "specialRules": [
+			"Reinforced Armour"
+		  ]
+		},
+
 		{
 			"name": "Ordinatus Minoris",
 			"type": "WE",
