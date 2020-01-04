@@ -27,7 +27,7 @@
         "from": "NIDS.json",
         "units": [
           "Brood Lord",
-          "Termagaunts",
+          "Termagants",
           "Hormagaunts",
           "Gargoyles",
           "Genestealers",
@@ -111,7 +111,7 @@
             "name": "Spawn Swarm",
             "units": "One Tervigon Prime",
             "extraUnits": [
-              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner"
+              "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Carnifex, Bio-Attack, Spawner"
             ],
             "points": 150
           },
@@ -132,10 +132,10 @@
           "points": "150"
         },
         {
-          "name": "Harasser Swarm",
+          "name": "Harasser Spawn Swarm",
           "units": "One Spawn Harridan",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Bombers"
+            "One to two Instinctive Swarms chosen from Gaunts, Gargoyles or Bio-Bombers"
           ],
           "points": 150
         }
@@ -147,7 +147,7 @@
       "formations": [
         {
           "name": "Gaunts",
-          "units": "Five Termagaunts and/or Hormagaunts",
+          "units": "Five Termagants and/or Hormagaunts",
           "points": 50
         },
         {

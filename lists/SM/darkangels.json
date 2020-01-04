@@ -46,7 +46,7 @@
         "Vindicator",
         "Glaive",
         "Ravenwing Nephilim Interceptor",
-        "Ravenwing Dark Talon Fighter-Bomber",
+        "Ravenwing Dark Talon Fighters",
         "Hunter Class Destroyer",
         "Strike Cruiser",
         "Drop Pod"
@@ -61,7 +61,7 @@
       "name": "Dark Angels Core Detachments",
       "formations": [
         {
-          "name": "Ravenwing Attack Detachment",
+          "name": "Ravenwing Attack",
           "units": "One Black Knights, four Ravenwing Assault Bikes, three Ravenwing Land Speeders",
           "extraUnits": [
             "Attack Bikes",
@@ -70,19 +70,19 @@
           "points": 350
         },
         {
-          "name": "Tactical Detachment",
+          "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "extraUnits": [
             "Razorbacks",
             "Anti-Air",
             "Commander",
-            "Land Raider Transport"
+            "Land Raiders"
           ],
           "points": 275
         },
 
         {
-          "name": "Deathwing Strike Detachment",
+          "name": "Deathwing Strike",
           "units": "Any four of the following units: Terminators, Cyclone Terminators",
           "extraUnits": [
             "Deathwing Knights",
@@ -91,7 +91,7 @@
           "points": 350
       },
       {
-        "name": "Deathwing Armoured Detachment",
+        "name": "Deathwing Armour",
         "units": "Three Land Raiders, three Terminators",
         "extraUnits": [
             "Commander"
@@ -99,7 +99,7 @@
         "points": 400
     },
     {
-      "name": "Ares Siege Detachment",
+      "name": "Ares Siege",
       "units": "Three Land Raider Ares, two Vindicators",
       "extraUnits": [
           "Vindicators",
@@ -114,14 +114,14 @@
       "description": "Three Support Detachments may be taken per Core Detachment",
       "formations": [
         {
-          "name": "Assault Detachment",
+          "name": "Dark Angels Assaults",
           "units": "One Dark Angels Captain, six Assaults",
           "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Land Raider Detachment",
+          "name": "Land Raiders",
           "units": "Three Land Raiders",
           "extraUnits": [
               "Add one Land Raider: 75 points",
@@ -131,17 +131,18 @@
           "points": 250
         },
         {
-          "name": "Devastator Detachment",
+          "name": "Dark Angels Devastators",
           "units": "Four Dark Angels Devastators plus transport",
           "extraUnits": [
             "Razorbacks",
             "Anti-Air",
-            "Commander"
+            "Commander",
+            "Land Raiders"
           ],
           "points": 250
         },
         {
-          "name": "Predator Detachment",
+          "name": "Predators",
           "units": "Four Predator Annihilators and/or Predator Destructors",
           "extraUnits": [
           "Anti-Air"
@@ -150,7 +151,7 @@
         },
 
         {
-          "name": "Ravenwing Support Squadron",
+          "name": "Ravenwing Support",
           "units": "Four Ravenwing Land Speeder Tornado",
           "extraUnits": [
             "Venegance"
@@ -158,7 +159,7 @@
           "points": 175
         },
         {
-          "name": "Scout Detachment",
+          "name": "Scouts",
           "units": "Four Scouts, two Rhinos",
           "extraUnits": [
             "Razorbacks",
@@ -167,7 +168,7 @@
           "points": 150
         },
         {
-          "name": "Whirlwind Detachment",
+          "name": "Whirlwinds",
           "units": "Four Whirlwinds",
           "extraUnits": [
             "Anti-Air"
@@ -189,13 +190,13 @@
       "description": "Up to a third of the points available may be spent on these formations. One Swordwing Support formation must be taken",
       "formations": [
         {
-          "name": "Nephilim Squadron",
+          "name": "Nephilims",
           "units": "Two Ravenwing Nephilim Interceptors",
           "points": 225
         },
         {
-          "name": "Dark Talon Squadron",
-          "units": "Two Ravenwing Dark Talon Fighter-Bombers",
+          "name": "Dark Talons",
+          "units": "Two Ravenwing Dark Talon Fighters",
           "points": 225
         },
         {
@@ -268,7 +269,7 @@
         ]
       },
       {
-        "name": "Land Raider Transport",
+        "name": "Land Raiders",
         "description": "Add any number of Land Raiders, up to the number required to transport the formation",
         "points": "50 points each"
       },

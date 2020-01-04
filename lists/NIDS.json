@@ -23,7 +23,7 @@
       ]
     },
       {
-      "name": "Termagaunts",
+      "name": "Termagants",
       "type": "INF",
       "speed": 20,
       "cc": 6,
@@ -312,8 +312,9 @@
       ],
       "specialRules": [
         "Reinforced Armour",
-        "Transport 2 (Termagaunts, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each)"
-      ]
+        "Transport"
+      ],
+      "notes": "May transport up to two units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each."
       },
       {
       "name": "Harpy",
@@ -340,9 +341,9 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Gaunt Pouch",
         "Frag Spines",
-        "Large Claws"
+        "Large Claws",
+        "Gaunt Pouch"
       ],
       "specialRules": [
          "Synapse",
@@ -359,9 +360,9 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Gaunt Pouch",
-        "Frag Spines",
-        "Large Claws"
+          "Frag Spines",
+          "Large Claws",
+          "Gaunt Pouch"
       ],
       "specialRules": [
          "Reinforced Armour",
@@ -417,8 +418,9 @@
       "Fearless",
       "Skimmer",
       "Reinforced Armour",
-      "Transport 4 (Gargoyles)"
+      "Transport"
     ],
+    "notes": "May transport up to four units of Gargoyles.",
     "crit": "The Harridan is destroyed."
     },
     {
@@ -429,8 +431,8 @@
     "cc": 5,
     "ff": 6,
     "weapons": [
-      "Gaunt Pouch",
-      "Large Claws"
+      "Large Claws",
+      "Gaunt Pouch"
     ],
     "specialRules": [
       "Damage Capacity: 3",
@@ -439,8 +441,9 @@
       "Skimmer",
       "Reinforced Armour",
       "Swarm (1)",
-      "Transport 4 (Gargoyles)"
+      "Transport"
     ],
+    "notes": "May transport up to four units of Gargoyles.",
     "crit": "The Harridan is destroyed."
     },
     {
@@ -602,9 +605,10 @@
     "cc": 3,
     "ff": 5,
     "weapons": [
-      "Giant Gaunt Pouch",
       "Bio-Energy Pulse",
-      "Monstrous Claws"
+      "Monstrous Claws",
+      "Giant Gaunt Pouch"
+
     ],
     "specialRules": [
       "Damage Capacity: 6",
@@ -615,8 +619,9 @@
       "Leader",
       "Commander",
       "Inspiring",
-      "Swarm (3)",
-      "Reinforced Armour"
+      "Reinforced Armour",
+      "Swarm (3)"
+
     ],
     "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"

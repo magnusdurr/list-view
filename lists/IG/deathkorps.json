@@ -9,9 +9,6 @@
   "specialRules": [
       "Courage, Discipline and Loyalty"
   ],
-  "usage": [
-    "The following army list allows you to field an army based on the Death Korps of Krieg"
-  ],
   "units": [
     {
       "from": "IG.json",
@@ -255,6 +252,11 @@
           }
         ]
       }
-    ]
+  ],
+  "usage": [
+    "v1.0.0: The theme of the list has been changed to make it more 'siege assault' oriented, with the 'siege defense' role being given to their cousins the Baran Siege Masters. The main change from the NetEA/E-UK versions of DKoK is that only the Regimental HQ can have more than one Gorgon, and that it is no longer possible to place the Commissar on the Gorgon.",
+    "Other bigger changes involve the Death Riders / Rough Riders, which has a new stat line which fits them better thematically."
+    "The Macharius has been made slightly faster, but with less firepower, to differentiate it from the Super Heavy Tanks."
+  ]
   }
 }

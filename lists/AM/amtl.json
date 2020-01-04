@@ -8,9 +8,6 @@
 
   "specialRules": [
   ],
-  "usage": [
-    "The following army list allows you to field an army based on the Collegia Titanica of the Adeptus Mechancius"
-  ],
   "units": [
       {
         "from": "ImperialAllies.json",
@@ -212,6 +209,11 @@
         }
       ]
   }
-  ]
+],
+"usage": [
+  "v1.0.0: Titan lists are at the edge of what the EA ruleset can handle, and the Collegia Titanica list is part of an attempt to make such lists less of a Draw or Loss kind of lists.",
+  "A (very) partial change-list involves changes to stat lines (making it easier to engage Titans in CC, fewer DC, Shield on certain Titans), pricing (generally cheaper), introducing new rules (Split Fire to give the largest titans more flexibility and moves them closer to how things work in A-T 2018. The God Machine rule to make it worth attacking them) and the Void Shield rule change (preventing big WE from completely recharging fully depleted VS with a single action)."
+]
+
 }
 }

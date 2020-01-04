@@ -8,9 +8,6 @@
   "specialRules": [
     "Space Marine Transports"
   ],
-  "usage": [
-    "The following army list allows you to field an army of Space Marines operating under the Codex Astartes doctrine."
-  ],
   "units": [
     {
       "from": "SM.json",
@@ -57,7 +54,8 @@
         "Reaver Titan"
       ],
       "unitRules": [
-        "Void Shields"
+        "Void Shields",
+        "Independent"
       ]
     }
   ],
@@ -207,6 +205,7 @@
           "name": "Warhound Pack",
           "units": "Two Warhounds",
           "extraUnits": [
+              "Warhound Pack gains the 'Independent' special rule: 50 points"
           ],
           "points": 500
         },
@@ -298,6 +297,10 @@
           "75 points per pair"
         ]
       }
-    ]
+  ],
+  "usage": [
+    "v1.0.0: The EA-R Codex Astartes list is based on the NetEA version. A great challenge with Codex Astartes is to keep it relevant while adding new variants of Space Marine lists. To make it unique, it was decided to keep the open structure of the original list, while making other Space Marine lists more rigid in structure. It is also intended to stay as one of the more capable SM lists at air assaults.",
+    "Other major changes: The list now has access to the Stalker AA unit. The 'Sniper' upgrade is cheaper. The Predator Destructor has recieved an additional shot on its main gun, bringing it to parity with the Annihilator. The seldom seen Land Raiders can now be taken in formations of three, and is also cheaper to take as a transport option.", "Warhounds can only be bought in pairs, but the 'Independent' special rule can be activated which makes them as two different formations during the battle. The list can no longer take Thunderbolt Fighters or Marauders Bombers but has access to Storm Talons instead. The Battle Barge has had its Slow and Steady rule replaced with 'Slow to Arrive' (can be plotted from turn 2 onwards instead of turn 3 onwards) and is also significantly cheaper."
+  ]
   }
 }
