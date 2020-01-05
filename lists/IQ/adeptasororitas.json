@@ -2,7 +2,7 @@
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
   "version": "1.0.0",
-  "release": "2019-07-28",
+  "release": "2020-01-05",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "Ordo Hereticus and the Imperial Navy formations have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
   "specialRules": ["Act of Faith"],
@@ -53,7 +53,7 @@
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Lightning Interceptor",
+        "Lightning Strike Fighter",
         "Marauder Bomber",
         "Lunar Class Cruiser"
       ],
@@ -178,7 +178,7 @@
       "formations": [
         {
           "name": "Lightning Squadron",
-          "units": "Two Lightning Interceptors",
+          "units": "Two Lightning Strike Fighters",
           "points": 150
         },
         {
@@ -259,8 +259,8 @@
       }
   ],
   "usage": [
-    "v1.0.0: This list is based on the E-UK version, but with a number of changes to balance the choices in the list, and reduce the potential for spamming Mission / Exorcist formations. The Act of Faith rule has been changed to make it more thematic, and reinforce the list's aggressive playstyle.",
-    "Some other major changes: The basic Battle Sisters unit now has a Heavy Bolter instead of the Heavy Flamer, while the Exorcist has had its stats changed to make it more of a support formation, and an alternative weapon loadout has been added. The 'Emperor's Chapel' unit has been added to give the Mission formation a bit more staying power. The Repressor and the Immolator has been made a bit more attractive compared to the basic Rhino. The Lightning has been changed to an Interceptor style Aircraft instead of a Strike Aircraft."
+    "v1.0.0: This list is based on the E-UK version, but with a number of changes to balance the choices in the list, and reduce the potential for spamming Mission / Exorcist formations. The overall structure is a lot more rigid, the Act of Faith rule has been changed to make it more thematic, and reinforce the list's aggressive playstyle, and it is possible to take more Inquisitorial support formations, making the list more about an Ordo Hereticus and not just the Sisters of Battle.",
+    "Some other major changes: The basic Battle Sisters unit now has a Heavy Bolter instead of the Heavy Flamer, while the Exorcist has had its stats changed to make it more of a support formation, and an alternative weapon loadout has been added. The 'Emperor's Chapel' unit has been added to give the Mission formation a bit more staying power, and Exorcists are easier to integrate into these formations. The Repressor and the Immolator has been made a bit more attractive compared to the basic Rhino."
   ]
   }
 }

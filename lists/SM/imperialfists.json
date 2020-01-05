@@ -64,7 +64,6 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Warlord Titan",
         "Reaver Titan"
       ],
       "unitRules": [
@@ -247,15 +246,8 @@
           "extraUnits": [
           ],
           "points": 600
-      },
-      {
-        "name": "Warlord",
-        "units": "One Warlord Titan",
-        "extraUnits": [
-        ],
-        "points": 750
       }
-      ]
+    ]
   }
   ],
   "upgrades": {

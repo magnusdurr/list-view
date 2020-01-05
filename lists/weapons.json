@@ -584,7 +584,6 @@
             "firepower": "AT5+/AA5+",
             "range": 30,
             "specialRules": [
-              "FxF"
           ]
           }
       ]
@@ -3958,7 +3957,7 @@
       ]
     },
     {
-      "name": "Giant Gaunt Pouch",
+      "name": "Gaunt Pouch (Termagants, Hormagaunts, Gargoyles)",
         "modes": [
           {
             "firepower": "n/a",
@@ -3968,7 +3967,17 @@
       ]
     },
     {
-      "name": "Gaunt Pouch",
+      "name": "Gaunt Pouch (Termagants, Hormagaunts)",
+        "modes": [
+          {
+            "firepower": "n/a",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Gaunt Pouch (Gargoyles)",
         "modes": [
           {
             "firepower": "n/a",

@@ -8,9 +8,6 @@
   "specialRules": [
       "White Scars Transports"
   ],
-  "usage": [
-    "The following army list allows you to field an army based on the White Scars, or one of their successor chapters, using their preferred operational methods."
-  ],
   "units": [
     {
       "from": "SM.json",
@@ -39,7 +36,7 @@
         "Rhino",
         "Stalker",
         "Whirlwind",
-        "White Scar Vindicator",
+        "White Scars Vindicator",
         "Landing Craft",
         "Storm Talon",
         "Thunderhawk",
@@ -54,10 +51,11 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Warhound"
+        "Warhound "
       ],
       "unitRules": [
-        "Void Shields"
+        "Void Shields",
+        "Independent"
       ]
     }
   ],
@@ -190,9 +188,10 @@
         },
         {
           "name": "Warhound Pack",
-          "units": "Two Warhound Class Titans",
+          "units": "Two Warhounds (Standard or Support Configuration)",
           "extraUnits": [
-            "Independent"
+              "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points",
+              "Formation gains the 'Independent' special rule: 50 points"
           ],
           "points": 500
         }
@@ -242,11 +241,6 @@
         ]
       },
       {
-        "name": "Independent",
-        "description": "Allows a Warhound Pack to operate as two independent formations. If one Warhound in a pack is destroyed, the other one in the pack receives a blastmarker",
-        "points": "50 points"
-      },
-      {
         "name": "Land Raiders",
         "description": "Add up to three Land Raiders",
         "points": "50 points each"
@@ -274,6 +268,9 @@
           "75 points per pair"
         ]
       }
-    ]
+  ],
+  "usage": [
+    "EA-R White Scars are based on the NetEA version of the list. Apart from the changes inherited from Codex Astares, the Terminator formation now has Land Raider Crusaders as standard, Scout Bikes and a Melta Attack Bike has been introduced and the army structure is a lot more rigid."
+  ]
   }
 }

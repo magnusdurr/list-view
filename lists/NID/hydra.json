@@ -77,7 +77,7 @@
           "name": "0-1 Nexus Swarm",
           "units": "One Hydra Dominatrix",
           "extraUnits": [
-            "Two to four Instinctive Swarms (except Mycetic Spore)"
+            "Two to four Instinctive Swarms (except Spawner or Mycetic Spore)"
           ],
           "points": 475
         },
@@ -108,12 +108,12 @@
       "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm",
       "formations": [
           {
-            "name": "Spawn Swarm",
+            "name": "Tervigon Spawn Swarm",
             "units": "One Tervigon Prime",
             "extraUnits": [
-              "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Carnifex, Bio-Attack, Spawner"
+              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner"
             ],
-            "points": 150
+            "points": 175
           },
         {
           "name": "Attack Swarm",
@@ -132,12 +132,13 @@
           "points": "150"
         },
         {
-          "name": "Harasser Spawn Swarm",
+          "name": "Harridan Spawn Swarm",
           "units": "One Spawn Harridan",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Gargoyles or Bio-Bombers"
+            "Add one Spawn Harridan: 75 points",
+            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Bombers"
           ],
-          "points": 150
+          "points": 125
         }
       ]
     },
@@ -178,7 +179,7 @@
         {
           "name": "Spawner",
           "units": "One Tervigon",
-          "points": 100
+          "points": 50
         },
         {
           "name": "Hierodule",
