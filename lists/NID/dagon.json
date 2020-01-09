@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Dagon",
-  "version": "1.0.1",
-  "release": "2019-04-19",
+  "version": "1.0.0",
+  "release": "2020-01-09",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+.",
 
@@ -79,27 +79,27 @@
           "name": "0-1 Nexus Swarm",
           "units": "One Dagon Dominatrix",
           "extraUnits": [
-            "Two to four Instinctive Swarms (except Mycetic Spore)"
+          "Two to four Instinctive Swarms (except Mycetic Spore)"
           ],
           "points": 425
         },
         {
-          "name": "Major Swarm",
-              "units": "One Hive Tyrant, four Tyranid Warriors and/or Zoanthropes",
+          "name": "Tyrant Swarm",
+              "units": "One Hive Tyrant",
           "extraUnits": [
             "Two to four Instinctive Swarms",
-            "0-1 Hive Tyrant in the Army may be replaced with the Dagon Overlord: 100 points",
-            "Any Dagon Overlord, Hive Tyrant, Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+            "0-1 Hive Tyrant in the army may be replaced with the Dagon Overlord: 100 points",
+            "Upgrade the Dagon Overlord, Hive Tyrant to Shrike (Wings): Free"
           ],
-          "points": 175
+          "points": 150
         },
         {
-          "name": "Minor Swarm",
+          "name": "Assault Swarm",
           "units": "Three Tyranid Warriors and/or Zoanthropes",
           "extraUnits": [
             "Two to four Instinctive Swarms",
-            "1+ Gaunts, Gargoyles or Biovores must be chosen.",
-            "Any Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+            "1+ Gaunts, Gargoyles or Biovores must be chosen",
+            "Upgrade up to three Tyranid Warriors to Shrike (Wings): Free"
           ],
           "points": 100
         }
@@ -119,7 +119,7 @@
           "points": 125
         },
         {
-          "name": "Attack Swarm",
+          "name": "Breacher Swarm",
           "units": "One Hierodule Prime (Barbed or Scythed)",
           "extraUnits": [
             "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Bio-Support or Hierodule"
@@ -146,7 +146,7 @@
     },
     {
       "name": "Instinctive Swarms",
-      "description": "It is compulsory to buy the minimum amount of Instinctive Swarms indicated by each Synapse Swarm",
+      "description": "It is compulsory to buy the minimum amount of Instinctive Swarms indicated by each Synapse Swarm.",
       "formations": [
         {
           "name": "Gaunts",
@@ -202,7 +202,7 @@
     },
     {
       "name": "Common Independent Swarms",
-      "description": "Up to one Common Independent Swarm for each Primary Synapse Swarm. No more than a third of the army",
+      "description": "Up to one Common Independent Swarm for each Primary Synapse Swarm. No more than a third of the army.",
       "formations": [
         {
           "name": "Genestealer Swarm",
@@ -224,7 +224,7 @@
     },
     {
       "name": "Rare Independent Swarms",
-      "description": "Up to one Rare Independent Swarm for each Primary Synapse Swarm. No more than a third of the army",
+      "description": "Up to one Rare Independent Swarm for each Primary Synapse Swarm. No more than a third of the army.",
       "formations": [
         {
           "name": "Bio-Titan",

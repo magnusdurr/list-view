@@ -1,8 +1,8 @@
 {
   "fraction": "Tau",
   "army": "Sa'cea",
-  "version": "1.0.0",
-  "release": "2019-06-05",
+  "version": "Beta 0.9.0",
+  "release": "2020-01-09",
   "strategy": "Tau armies have a Strategy Rating of 3.",
   "Initiative": "Crisis Battlesuit and Manta Dropship formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -29,7 +29,7 @@
         "Fire Warriors",
         "Gun Drones",
         "Kroot Hounds",
-        "Kroot Master Shapers",
+        "Kroot Master Shaper",
         "Kroot Warriors",
         "Krootox",
         "Pathfinders",
@@ -68,7 +68,7 @@
       "formations": [
         {
           "name": "Crisis Battlesuit Cadre",
-          "units": "One Shas'el, four XV8 Crisis Battlesuits",
+          "units": "One Shas'el, four XV8 Crisis Battlesuits, two Gun Drones",
           "extraUnits": [
             "Shas’o",
             "Crisis Suits",
@@ -78,11 +78,10 @@
         },
         {
           "name": "Fire Warrior Cadre",
-          "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish. Max three upgrades may be taken.",
+          "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish.",
           "extraUnits": [
-              "Add three XV88 Broadside Battlesuits: 150 points",
-              "Add two Pathfinders and one Devilfish: 75 points",
-              "Piranhas",
+              "Broadsides",
+              "Recon",
               "Ethereal",
               "Fire Warriors",
               "Hammerheads",
@@ -111,7 +110,7 @@
         },
         {
           "name": "Broadside Group",
-          "units": "Six Broadside Battlesuits",
+          "units": "Six XV88 Broadside Battlesuits",
           "extraUnits": [
             "Gun Drones"
           ],
@@ -129,19 +128,19 @@
         },
         {
           "name": "Pathfinder Group",
-          "units": "Four Pathfinders and two Devilfish",
+          "units": "Two Pathfinders, two Devilfish",
           "extraUnits": [
             "Gun Drones",
-            "Piranhas"
+            "Recon"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Recon Skimmer Group",
           "units": "Any six of the following units: Piranha, Tetra",
           "extraUnits": [
             "Gun Drones",
-            "Piranhas"
+            "Recon"
           ],
           "points": 175
         },
@@ -149,13 +148,13 @@
           "name": "Skysweep Support Group",
           "units": "Three Skyrays",
           "extraUnits": [
-
+              "Gun Drones"
           ],
           "points": 250
         },
         {
           "name": "Stealth Group",
-          "units": "Six Stealth Battlesuits",
+          "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
             "Gun Drones"
           ],
@@ -212,14 +211,14 @@
           "extraUnits": [
               "Replace the Protector with a Custodian Class Battleship: 25 points"
           ],
-          "points": 200
+          "points": 175
         }
       ]
     }
   ],
   "upgrades": {
     "title": "Upgrades",
-    "description": "Max three upgrades per formation. Each upgrade may be taken once by a formation",
+    "description": "Max three upgrades per formation. Each upgrade may be taken once by a formation.",
     "items": [
       {
         "name": "Bonded Team",
@@ -264,12 +263,30 @@
             "description": "Add any one of the following options:"
           },
           {
-            "description": "Four Fire Warriors",
-            "points": "100 points"
+            "description": "Add Four Fire Warriors",
+            "points": "75 points"
           },
           {
             "description": "Four Fire Warriors and two Devilfish",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Broadsides",
+        "options": [
+          {
+            "description": "Add three XV88 Broadside Battlesuits",
             "points": "125 points"
+          }
+        ]
+      },
+      {
+        "name": "Recon",
+        "options": [
+          {
+            "description": "Add three Piranhas or two Tetras",
+            "points": "50 points"
           }
         ]
       },
@@ -302,8 +319,8 @@
         "name": "Kroot",
         "options": [
           {
-            "description": "Add five Kroot Warriors",
-            "points": "75 points"
+            "description": "Add four Kroot Warriors",
+            "points": "50 points"
           }
         ]
       },
@@ -311,8 +328,8 @@
         "name": "Kroot Hounds",
         "options": [
           {
-            "description": "Add three Kroot Hounds",
-            "points": "50 points"
+            "description": "Add two Kroot Hounds",
+            "points": "25 points"
           }
         ]
       },
@@ -322,15 +339,6 @@
           {
             "description": "Add three Krootox",
             "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Piranhas",
-        "options": [
-          {
-            "description": "Add three Piranhas",
-            "points": "75 points"
           }
         ]
       },

@@ -982,7 +982,7 @@
           "ff": 4,
           "weapons": [
             "Twin Lascannons|2|",
-            "Twin Heavy Warpflamer"
+            "Heavy Warpflamer"
           ],
           "specialRules": [
               "Reinforced Armour",
@@ -1051,6 +1051,20 @@
         "ff": 5,
         "weapons": [
           "Earthshaker Cannon", "Heavy Bolter"
+        ],
+        "specialRules": [
+
+        ]
+      },
+      {
+        "name": "Iron Warriors Griffon",
+        "type": "AV",
+        "speed": 30,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Heavy Mortar", "Heavy Bolter"
         ],
         "specialRules": [
 
@@ -1139,7 +1153,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Missile Launcher",
+          "Reaper Autocannon",
           "Twin Lascannons"
         ],
         "specialRules": [

@@ -4,7 +4,7 @@
   "version": "0.6.0",
   "release": "2019-10-16",
   "strategy": "Valhallan Ice Warrior armies have a Strategy Rating of 2.",
-  "Initiative": "All formations have a Initiative Rating of 2+.",
+  "Initiative": "Ministorum Mission formations have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+.",
 
   "specialRules": [
       "Courage, Discipline and Loyalty",
@@ -45,25 +45,26 @@
       "from": "IQ.json",
       "units": [
         "Ministorum Priest",
-        "Arco-Flagellants"
+        "Arco-Flagellants",
+        "Battle Sisters",
+        "Sororitas Repressor"
       ],
       "unitRules": [
           "Act of Faith"
       ]
     },
     {
-      "from": "SQ.json",
+      "from": "AM.json",
       "units": [
-        "Hellbore"
+        "Mole"
       ],
       "unitRules": [
-          "Act of Faith"
       ]
     },
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Thunderbolt Fighter",
+        "Lightning Strike Fighter",
         "Marauder Bomber",
         "Lunar Class Cruiser",
         "Emperor Class Battleship"
@@ -85,7 +86,8 @@
               "Snipers",
               "Fire Support",
               "Flak",
-              "Entrenchments"
+              "Entrenchments",
+              "War Engine Transport"
           ],
           "points": 300
         },
@@ -98,7 +100,8 @@
               "Snipers",
               "Fire Support",
               "Flak",
-              "Entrenchments"
+              "Entrenchments",
+              "War Engine Transport"
           ],
           "points": 225
     },
@@ -145,7 +148,7 @@
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade or Stormlord",
           "extraUnits": [
-              "Replace one Baneblade or Stormlord with a Shadowsword: 25 points"
+              "Replace the Baneblade or Stormlord with a Shadowsword: 25 points"
           ],
           "points": 175
       },
@@ -177,15 +180,15 @@
             "points": 200
           },
           {
-            "name": "Tunneler",
-            "units": "One Hellbore",
+            "name": "Ministorum Misson",
+            "units": "Eight Battle Sisters, four Sororitas Repressors",
             "extraUnits": [
             ],
-            "points": 225
+            "points": 250
           },
         {
-          "name": "Thunderbolt Squadron",
-          "units": "Two Thunderbolt Fighters",
+          "name": "Lightning Squadron",
+          "units": "Two Lightning Strike Fighters",
           "points": 150
         },
         {
@@ -207,7 +210,7 @@
 ],
   "upgrades": {
     "title": "Valhallan Upgrades",
-    "description": "Each upgrade may be taken once per formation. Max four upgrades per Company.",
+    "description": "Each upgrade may be taken once per formation. Max three upgrades per Company.",
     "items": [
         {
           "name": "Valhallan Griffons",
@@ -262,6 +265,20 @@
             "points": "50 points"
           }
         ]
+    },
+    {
+      "name": "War Engine Transport",
+      "description": "Choose one of the following. No other upgrades may be chosen.",
+      "options": [
+        {
+          "description": "Two Moles. Formation may only enter the battlefield by Tunneling.",
+          "points": "75 points"
+        },
+        {
+          "description": "Stormlord",
+          "points": "125 points"
+        }
+      ]
     }
     ]
   }

@@ -222,7 +222,7 @@
       "name": "XV15 Stealth Battlesuits",
       "type": "INF",
       "speed": 20,
-      "armour": 3,
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -230,6 +230,7 @@
       ],
       "specialRules": [
         "First Strike",
+        "Reinforced Armour",
         "Markerlights",
         "Scouts",
         "Tau Jet Packs",
@@ -288,12 +289,31 @@
       ]
     },
     {
+      "name": "XV95 Ghostkeel Battlesuit",
+      "type": "LV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Twin Fusion Blasters",
+       "Silenced Burst Cannons"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Reinforced Armour",
+        "Walker",
+        "Tau Jet Pack",
+        "Teleport"
+      ]
+    },
+    {
       "name": "Piranha",
       "type": "LV",
       "speed": 35,
       "armour": 5,
       "cc": 6,
-      "ff": 6,
+      "ff": 5,
       "weapons": [
        "Burst Cannon and Gun Drones",
        "Seeker Missiles"
@@ -340,7 +360,7 @@
       "name": "Ion Hammerhead",
       "type": "AV",
       "speed": 30,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -356,7 +376,7 @@
       "name": "Rail Hammerhead",
       "type": "AV",
       "speed": 30,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -373,7 +393,7 @@
       "name": "Fusion Hammerhead",
       "type": "AV",
       "speed": 30,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -403,31 +423,12 @@
       ]
     },
     {
-      "name": "XV95 Ghostkeel Battlesuit",
-      "type": "AV",
-      "speed": 20,
-      "armour": 4,
-      "cc": 6,
-      "ff": 4,
-      "weapons": [
-       "Twin Fusion Blasters",
-       "Cyclic Ion Raker"
-      ],
-      "specialRules": [
-        "Walker",
-        "First Strike",
-        "Teleport",
-        "Tau Jet Pack",
-        "Invulnerable Save"
-      ]
-    },
-    {
       "name": "XV104 Riptide Battlesuit",
       "type": "H-AV",
       "speed": 25,
       "armour": 3,
       "cc": 5,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
        "Ion Accelerator",
        "Twin Missile Pods|2|",
@@ -435,7 +436,6 @@
       ],
       "specialRules": [
         "Walker",
-        "Thick Rear Armour",
         "Tau Jet Pack",
         "Tau Deflector Shield"
       ]
@@ -444,18 +444,17 @@
       "name": "XV107 R'varna Battlesuit",
       "type": "H-AV",
       "speed": 20,
-      "armour": 4,
+      "armour": 3,
       "cc": 5,
-      "ff": 4,
+      "ff": 5,
       "weapons": [
-       "Pulse Submunition Cannons|2|"
+       "Pulse Submunition Cannons||"
       ],
       "specialRules": [
-        "Reinforced Armour",
-        "Walker",
-        "Thick Rear Armour",
-        "Tau Jet Pack",
-        "Invulnerable Save"
+          "Walker",
+          "Thick Rear Armour",
+          "Tau Jet Pack",
+          "Tau Deflector Shield"
       ]
     },
     {
@@ -467,13 +466,12 @@
       "ff": 4,
       "weapons": [
        "Plasma Flamer",
-       "EMP Discharge Cannon"
+       "Velocity Tracker"
       ],
       "specialRules": [
-        "Tau Deflector Shield",
-        "Walker",
-        "Thick Rear Armour",
-        "Tau Jet Pack"
+          "Walker",
+          "Tau Jet Pack",
+          "Tau Deflector Shield"
       ]
     },
     {
@@ -485,14 +483,14 @@
       "ff": 5,
       "weapons": [
        "Pulse Driver Cannon",
-       "Destroyer Missiles|2|",
+       "Seeker Missiles|2|",
        "Battlesuit Burst Cannons"
       ],
       "specialRules": [
-        "Tau Deflector Shield",
-        "Walker",
-        "Thick Rear Armour",
-        "Tau Jet Pack"
+          "Walker",
+          "Thick Rear Armour",
+          "Tau Jet Pack",
+          "Tau Deflector Shield"
       ]
     },
     {
@@ -510,9 +508,9 @@
       ],
       "specialRules": [
         "Damage Capacity: 3",
+        "Walker",
         "Thick Rear Armour",
-        "Tau Deflector Shield",
-        "Walker"
+        "Tau Deflector Shield"
       ],
       "notes": "Armed with either a Heavy Rail Cannon, a Nexus Missile Array or a Pulse Ordnance Multi Driver.",
       "crit": "The Supremacy Suit is destroyed. Any units within 5cm take a hit on 6+."
@@ -538,8 +536,9 @@
         "Reinforced Armour",
         "Support Craft",
         "Tau Deflector Shield",
-        "Transport (up to twenty: Fire Warriors, Pathfinders, Stealth, Gun Drones, Crisis, Broadsides, Kroot, Kroot Master Shaper, Kroot Hounds and Krootox. Crisis units take up two slots each. In addition may carry four vehicles of the following types: Devilfish, Hammerhead, Skyray, Piranha or Tetra. Three Tetras may be carried in each vehicle slot)."
+        "Transport"
       ],
+      "notes": "May transport twelve INF from Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, Gun Drones, Broadsides, Kroot Warriors, Kroot Master Shaper and Kroot Hounds. Krootox, XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. In addition may carry eight AV/LV from Piranha and Tetra. Devilfish, Hammerhead, Skyray counts as two units each.",
       "crit": "The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Further critical hits cause an additional point of damage."
     }
     ]

@@ -1,7 +1,7 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Hydra",
-  "version": "0.8.2",
+  "version": "Alpha 0.7.0",
   "release": "2019-12-01",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+.",
@@ -74,29 +74,30 @@
     "name": "Primary Synapse Swarms",
     "formations": [
     {
-          "name": "0-1 Nexus Swarm",
+          "name": "0-1 Nexus Spawn Swarm",
           "units": "One Hydra Dominatrix",
           "extraUnits": [
-            "Two to four Instinctive Swarms (except Spawner or Mycetic Spore)"
+            "Two to four Instinctive Swarms (except Mycetic Spore)",
+            "1+ Gaunts or Gargoyles must be chosen"
           ],
-          "points": 475
+          "points": 450
         },
         {
-          "name": "Major Swarm",
-          "units": "One Hive Tyrant, four Tyranid Warriors and/or Zoanthropes",
+          "name": "Tyrant Swarm",
+          "units": "One Hive Tyrant",
           "extraUnits": [
-            "Two to four Instinctive Swarms",
-            "0-1 Hive Tyrant in the Army may be replaced with a Swarmlord: 75 points",
-            "Any Swarmlord, Hive Tyrant, Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+            "Two to four Instinctive Swarms (except Spawner)",
+            "0-1 Hive Tyrant in the army may be replaced with a Swarmlord: 75 points",
+            "Upgrade a Swarmlord, Hive Tyrant to Shrike (Wings): Free"
           ],
-          "points": 175
+          "points": 150
         },
         {
-          "name": "Minor Swarm",
+          "name": "Assault Swarm",
           "units": "Three Tyranid Warriors and/or Zoanthropes",
           "extraUnits": [
-            "Two to four Instinctive Swarms",
-            "1+ Gaunts, Gargoyles or Biovores must be chosen.",
+            "Two to four Instinctive Swarms (except Spawner)",
+            "1+ Gaunts, Gargoyles or Biovores must be chosen",
             "Any Tyranid Warriors may be upgraded to Shrike (Wings): Free"
           ],
           "points": 100
@@ -108,18 +109,19 @@
       "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm",
       "formations": [
           {
-            "name": "Tervigon Spawn Swarm",
+            "name": "Gaunt Spawn Swarm",
             "units": "One Tervigon Prime",
             "extraUnits": [
-              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner"
+              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner",
+              "1+ Gaunts must be chosen"
             ],
             "points": 175
           },
         {
-          "name": "Attack Swarm",
+          "name": "Breacher Swarm",
           "units": "One Hierodule Prime (Barbed or Scythed)",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner or Hierodule"
+            "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, or Hierodule"
           ],
           "points": 150
         },
@@ -132,13 +134,13 @@
           "points": "150"
         },
         {
-          "name": "Harridan Spawn Swarm",
-          "units": "One Spawn Harridan",
+          "name": "Gargoyle Spawn Swarm",
+          "units": "One Spawn Harridan, four Gargoyles",
           "extraUnits": [
-            "Add one Spawn Harridan: 75 points",
-            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Bombers"
+            "Add one Spawn Harridan, four Gargoyles: 100 points"
+
           ],
-          "points": 125
+          "points": 175
         }
       ]
     },
@@ -178,8 +180,8 @@
         },
         {
           "name": "Spawner",
-          "units": "One Tervigon",
-          "points": 50
+          "units": "One Tervigon, two Termagants or two Hormagaunts",
+          "points": 75
         },
         {
           "name": "Hierodule",

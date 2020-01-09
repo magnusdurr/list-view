@@ -617,6 +617,7 @@
             "firepower": "2BP",
             "range": 15,
             "specialRules": [
+              "D",
               "FxF"
 
           ]
@@ -3617,7 +3618,7 @@
       "name": "Experimental Weapons",
       "modes": [
         {
-          "firepower": "AP5+/AT5+",
+          "firepower": "2x AP5+/AT6+",
           "range": 30,
           "specialRules": [
           ]
@@ -6451,7 +6452,7 @@
         "modes": [
           {
             "firepower": "3x MW5+",
-            "range": 90,
+            "range": 60,
             "specialRules": [
               "GM"
           ]
@@ -6916,7 +6917,6 @@
             "firepower": "MW4+",
             "range": 15,
             "specialRules": [
-              "TK(1)",
               "IC"
           ]
       },
@@ -6924,7 +6924,7 @@
         "firepower": "Small Arms",
         "join": "and",
         "specialRules": [
-          "EA(+1)"
+          "MW"
       ]
     }
       ]
@@ -7489,7 +7489,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range": 45,
+            "range": 60,
             "specialRules": [
               "Ind"
           ]
@@ -7500,8 +7500,8 @@
       "name": "Pulse Submunition Cannons",
         "modes": [
           {
-            "firepower": "2x AP3+/AT5+",
-            "range": 45,
+            "firepower": "3x AP3+/AT4+",
+            "range": 60,
             "specialRules": [
           ]
           }
@@ -7690,7 +7690,7 @@
         "modes": [
           {
             "firepower": "AP5+",
-
+            "range": 30,
             "specialRules": [
               "S"
           ]

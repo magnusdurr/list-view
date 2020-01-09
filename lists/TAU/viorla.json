@@ -2,7 +2,7 @@
   "fraction": "Tau",
   "army": "Vior'la",
   "version": "0.6.0",
-  "release": "2019-10-25",
+  "release": "2020-01-09",
   "strategy": "Tau armies have a Strategy Rating of 3.",
   "Initiative": "Heavy Battlesuit, Crisis Battlesuit and Manta Dropship Formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -22,9 +22,9 @@
       "from": "TAU.json",
       "units": [
         "Ethereal",
-        "Shas'o Battlesuit",
+        "Shas'o",
         "Shas'el",
-        "XV8(f) Crisis Battlesuits",
+        "XV8 Crisis Battlesuits",
         "Fire Warrior Breachers",
         "Gun Drones",
         "Pathfinders",
@@ -63,35 +63,24 @@
     {
       "name": "Vior'la Core Formations",
       "formations": [
-        {
-          "name": "Crisis Battlesuit Cadre",
-          "units": "One Shas'el, six XV8(f) Crisis Battlesuits",
-          "extraUnits": [
-            "Crisis Suits",
-            "Gun Drones"
-          ],
-          "points": 325
-        },
-        {
-          "name": "Pathfinder Group",
-          "units": "Six Pathfinders, or four Pathfinders and two Devilfish",
-          "extraUnits": [
-            "Add up to three Tetras and/or Piranhas: 25 points each",
-            "Gun Drones"
-
-          ],
-          "points": 200
-        },
+          {
+            "name": "Crisis Battlesuit Cadre",
+            "units": "One Shas'el, four XV8 Crisis Battlesuits, two Gun Drones",
+            "extraUnits": [
+              "Shas’o",
+              "Crisis Suits",
+              "Gun Drones"
+            ],
+            "points": 250
+          },
         {
           "name": "Fire Warrior Breacher Cadre",
-          "units": "Eight Fire Warrior Breachers, or six Fire Warrior Breachers and three Devilfish. Max four different upgrades may be taken.",
+          "units": "Eight Fire Warrior Breachers, or six Fire Warrior Breachers and three Devilfish",
           "extraUnits": [
-            "Add a Fireblade to a unit of Fire Warrior Breachers: 50 points",
-            "Add three XV88 Broadside Battlesuits: 150 points",
-            "Replace two Fire Warrior Breachers with two Pathfinders: 25 points",
-            "Add one Skyray: 100 points",
+            "Broadsides",
+            "Skyray",
+            "Recon",
             "Bonded Team",
-            "Shas'O",
             "Ethereal",
             "Fire Warriors",
             "Gun Drones"
@@ -102,13 +91,22 @@
     },
     {
       "name": "Vior'la Support Formations",
-      "description": "Up to two for each Vior'la Core Formation taken",
+      "description": "Up to three for each Vior'la Core Formation taken",
       "formations": [
+          {
+            "name": "Pathfinder Group",
+            "units": "Four Pathfinders, two Devilfish",
+            "extraUnits": [
+              "Replace two Devilfish with two Pathfinders: 25 points",
+              "Gun Drones"
+            ],
+            "points": 175
+          },
         {
           "name": "Heavy Battlesuit Group",
-          "units": "One Shas'el and any three chosen from XV104 Riptide Battlesuit, XV107 R'Varna Battlesuit, XV109 Y'Vahra Battlesuit",
+          "units": "Three XV104 Riptide Battlesuits, XV107 R'Varna Battlesuits or XV109 Y'Vahra Battlesuits (May not mix configurations)",
           "extraUnits": [
-            "Add one XV104 Riptide, XV107 R'Varna or XV109 Y'Vahra: 100 points"
+              "Gun Drones"
           ],
           "points": 350
         },
@@ -124,21 +122,22 @@
           "name": "Stormsurge Group",
           "units": "Two KV128 Stormsurge Battlesuits",
           "extraUnits": [
+              "Gun Drones"
           ],
           "points": 250
         },
         {
           "name": "Supremacy Suit",
-          "units": "One KX139 Supremacy Suit",
+          "units": "One Shas'el, one KX139 Supremacy Suit",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 275
         },
         {
           "name": "Stealth Group",
           "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
-            "Replace up to three XV15 Stealth Battlesuits with XV95 Ghostkeel Battlesuits: 25 points each"
+            "Replace three XV15 Stealth Battlesuits with three XV95 Ghostkeel Battlesuits: 50 points"
           ],
           "points": 225
         }
@@ -178,24 +177,24 @@
         },
         {
           "name": "0–1 Spacecraft",
-          "units": "Protector Class Cruiser",
+          "units": "Protector II Class Cruiser",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 200
         }
       ]
     }
   ],
   "upgrades": {
     "title": "Upgrades",
-    "description": "Each upgrade may be taken once per formation.",
+    "description": "Max three upgrades per formation. Each upgrade may be taken once by a formation.",
     "items": [
         {
-          "name": "0–1 Shas’o",
+          "name": "0-1 Shas’o",
           "options": [
             {
-              "description": "Replace one unit of Fire Warrior Breachers with a Shas’o Battlesuit",
-              "points": "100 points"
+              "description": "Replace one Shas'el in the army with a Shas’o",
+              "points": "75 points"
             }
           ]
         },
@@ -218,11 +217,29 @@
         ]
       },
       {
+        "name": "Recon",
+        "options": [
+          {
+            "description": "Add three Piranhas or two Tetras",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
         "name": "Crisis Suits",
         "options": [
           {
             "description": "Add up to two XV8 Crisis Battlesuits",
             "points": ["50 points for one", "75 points for two"]
+          }
+        ]
+      },
+      {
+        "name": "Broadsides",
+        "options": [
+          {
+            "description": "Add three XV88 Broadside Battlesuits",
+            "points": "125 points"
           }
         ]
       },
@@ -234,12 +251,12 @@
             "description": "Choose one of the following"
           },
           {
-            "description": "Two Fire Warrior Breachers",
-            "points": "50 points"
+            "description": "Four Fire Warrior Breachers",
+            "points": "75 points"
           },
           {
-            "description": "Two Fire Warrior Breachers and a Devilfish",
-            "points": "75 points"
+            "description": "Four Fire Warrior Breachers and two Devilfish",
+            "points": "100 points"
           }
         ]
       },

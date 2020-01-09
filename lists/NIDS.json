@@ -22,6 +22,122 @@
         "Invulnerable Save"
       ]
     },
+    {
+    "name": "Dagon Overlord",
+    "type": "AV",
+    "speed": "20cm/30cm",
+    "armour": "3+/4",
+    "cc": 2,
+
+    "weapons": [
+      "Boneswords"
+    ],
+    "specialRules": [
+      "Hive Mind Locus",
+      "Inspiring",
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Commander",
+      "Leader",
+      "Jump Packs (Shrike)"
+  ],
+      "notes": "Gains 30cm Speed, Jump Pack and 4+ Armour if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Swarmlord",
+    "type": "AV",
+    "speed": "20cm/30cm",
+    "armour": "4+/5",
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Venom Cannon",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Hive Mind Locus",
+      "Inspring",
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Commander",
+      "Leader",
+      "Jump Packs (Shrike)"
+  ],
+          "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Hive Tyrant",
+    "type": "AV",
+    "speed": "20cm/30cm",
+    "armour": "4+/5",
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Venom Cannon",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Commander",
+      "Leader",
+      "Jump Packs (Shrike)"
+  ],
+          "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Ravener Alphas",
+    "type": "LV",
+    "speed": 20,
+    "armour": 4,
+    "cc": 4,
+    "weapons": [
+      "Burrowclaws"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Tunneler",
+      "Infiltrators"
+    ]
+    },
+    {
+    "name": "Tyranid Warriors",
+    "type": "LV",
+    "speed": "20cm/30cm",
+    "armour": "5+/6",
+    "cc": 2,
+    "ff": 5,
+    "weapons": [
+      "Deathspitters"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Jump Packs (Shrike)"
+  ],
+  "notes": "Gains 30cm Speed, Jump Pack and 6+ Armour if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Zoanthrope",
+    "type": "LV",
+    "speed": 15,
+    "armour": 4,
+    "cc": 6,
+    "ff": 5,
+    "weapons": [
+      "Warp Blast"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Invulnerable Save"
+    ]
+    },
+
       {
       "name": "Termagants",
       "type": "INF",
@@ -110,56 +226,7 @@
       "specialRules": [
       ]
       },
-      {
-      "name": "Ravener Alphas",
-      "type": "LV",
-      "speed": 20,
-      "armour": 4,
-      "cc": 4,
-      "weapons": [
-        "Burrowclaws"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Tunneler",
-        "Infiltrators"
-      ]
-      },
-      {
-      "name": "Tyranid Warriors",
-      "type": "LV",
-      "speed": "20cm/30cm",
-      "armour": "5+/6",
-      "cc": 2,
-      "ff": 5,
-      "weapons": [
-        "Deathspitters"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Jump Packs (Shrike)"
-    ],
-    "notes": "Gains Speed 30cm, Jump Pack and Armour 6+ if upgraded to Shrike (Wings)"
-      },
-      {
-      "name": "Zoanthrope",
-      "type": "LV",
-      "speed": 15,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Warp Blast"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Invulnerable Save"
-      ]
-      },
-      {
+          {
       "name": "Lictor",
       "type": "LV",
       "speed": 15,
@@ -176,72 +243,6 @@
         "Invulnerable Save",
         "Teleport"
       ]
-      },
-      {
-      "name": "Dagon Overlord",
-      "type": "AV",
-      "speed": "20cm/30cm",
-      "armour": "3+/4",
-      "cc": 2,
-
-      "weapons": [
-        "Boneswords"
-      ],
-      "specialRules": [
-        "Hive Mind Locus",
-        "Inspiring",
-        "Synapse",
-        "Fearless",
-        "Reinforced Armour",
-        "Commander",
-        "Leader",
-        "Jump Packs (Shrike)"
-    ],
-        "notes": "Gains Speed 30cm, Jump Pack and Armour 4+ if upgraded to Shrike (Wings)"
-      },
-      {
-      "name": "Swarmlord",
-      "type": "AV",
-      "speed": "20cm/30cm",
-      "armour": "4+/5",
-      "cc": 3,
-      "ff": 5,
-      "weapons": [
-        "Venom Cannon",
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Hive Mind Locus",
-        "Inspring",
-        "Synapse",
-        "Fearless",
-        "Reinforced Armour",
-        "Commander",
-        "Leader",
-        "Jump Packs (Shrike)"
-    ],
-            "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
-      },
-      {
-      "name": "Hive Tyrant",
-      "type": "AV",
-      "speed": "20cm/30cm",
-      "armour": "4+/5",
-      "cc": 3,
-      "ff": 5,
-      "weapons": [
-        "Venom Cannon",
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Reinforced Armour",
-        "Commander",
-        "Leader",
-        "Jump Packs (Shrike)"
-    ],
-            "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
       },
       {
       "name": "Carnifex",
@@ -314,7 +315,7 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport up to two units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each."
+      "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each."
       },
       {
       "name": "Harpy",
@@ -620,7 +621,7 @@
       "Commander",
       "Inspiring",
       "Reinforced Armour",
-      "Swarm (3)"
+      "Swarm (2)"
 
     ],
     "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
