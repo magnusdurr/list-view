@@ -127,13 +127,6 @@
           "points": 250
         },
         {
-          "name": "Supremacy Suit",
-          "units": "One Shas'el, one KX139 Supremacy Suit",
-          "extraUnits": [
-          ],
-          "points": 275
-        },
-        {
           "name": "Stealth Group",
           "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
@@ -144,9 +137,16 @@
       ]
     },
     {
-      "name": "Vior'la Air Caste Formations",
+      "name": "Vior'la Supremacy & Air Caste Formations",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
+          {
+            "name": "Supremacy Suit",
+            "units": "One Shas'el, one KX139 Supremacy Suit",
+            "extraUnits": [
+            ],
+            "points": 275
+          },
         {
           "name": "Manta Dropship",
           "units": "One Manta",

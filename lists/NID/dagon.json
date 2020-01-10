@@ -18,10 +18,7 @@
                   "Heavy Armoured Vehicle (H-AV)"
           ],
 
-  "usage": [
-    "The following army list allows you to field an army based on the Tyranid Hive Fleet Dagon."
-          ],
-  "units": [
+ "units": [
       {
         "from": "NIDS.json",
         "units": [
@@ -67,7 +64,6 @@
           "Hive Ship"
         ],
           "unitRules": [
-            ""
         ]
       }
     ],
@@ -138,65 +134,10 @@
           "name": "Harasser Swarm",
           "units": "One Harridan",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Bombers"
+            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Bombers",
+            "Add one Harridan: 150 points"
           ],
           "points": 150
-        }
-      ]
-    },
-    {
-      "name": "Instinctive Swarms",
-      "description": "It is compulsory to buy the minimum amount of Instinctive Swarms indicated by each Synapse Swarm.",
-      "formations": [
-        {
-          "name": "Gaunts",
-          "units": "Five Termagants and/or Hormagaunts",
-          "points": 50
-        },
-        {
-          "name": "Biovores",
-          "units": "Four Biovores",
-          "points": 75
-        },
-        {
-          "name": "Gargoyles",
-          "units": "Four Gargoyles",
-          "points": 50
-        },
-        {
-          "name": "Bio-Bombers",
-          "units": "Two Harpies",
-          "points": 100
-        },
-        {
-          "name": "Carnifex",
-          "units": "Three Carnifex",
-          "points": 125
-        },
-        {
-          "name": "Bio-Support",
-          "units": "Three Dactylis or four Exocrine",
-          "points": 125
-        },
-        {
-          "name": "Bio-Attack",
-          "units": "Two Haruspex or two Malefactors",
-          "points": 75
-        },
-        {
-          "name": "Hierodule",
-          "units": "One Barbed Hierodule or one Scythed Hierodule",
-          "points": 125
-        },
-        {
-          "name": "Burrower",
-          "units": "Two Trygons or four Raveners",
-          "points": 100
-        },
-        {
-          "name": "Mycetic Spore (0-1 per Swarm)",
-          "units": "Permits deployment via planetary assault rules if a Razorfiend or Hive Ship has been bought. This option is not allowed if the Dagon Overlord, Hive Tyrant and/or Tyranid Warriors have been upgraded to Shrike (Wings).",
-          "points": 50
         }
       ]
     },
@@ -230,9 +171,9 @@
           "name": "Bio-Titan",
           "units": "One Hierophant Bio-Titan",
           "upgrades": [
-            "Replace the Hierophant with a Hydraphant Bio-Titan: 225 points"
+            "Replace the Hierophant with a Hydraphant Bio-Titan: 175 points"
           ],
-          "points": 300
+          "points": 325
         },
         {
           "name": "Bio-Vessel",
@@ -244,5 +185,64 @@
         }
       ]
     }
-  ]
+],
+"upgrades": {
+    "title": "Instinctive Swarms",
+    "description": "It is compulsory to buy the minimum amount of Instinctive Swarms.",
+    "items": [
+        {
+          "name": "Gaunts",
+          "description": "Five Termagants and/or Hormagaunts",
+          "points": "50 points"
+        },
+        {
+          "name": "Biovores",
+          "description": "Four Biovores",
+          "points": "75 points"
+        },
+        {
+          "name": "Gargoyles",
+          "description": "Four Gargoyles",
+          "points": "50 points"
+        },
+        {
+          "name": "Bio-Bombers",
+          "description": "Two Harpies",
+          "points": "100 points"
+        },
+        {
+          "name": "Carnifex",
+          "description": "Three Carnifex",
+          "points": "125 points"
+        },
+        {
+          "name": "Bio-Support",
+          "description": "Three Dactylis or four Exocrine",
+          "points": "125 points"
+        },
+        {
+          "name": "Bio-Attack",
+          "description": "Two Haruspex or two Malefactors",
+          "points": "75 points"
+        },
+        {
+          "name": "Hierodule",
+          "description": "One Barbed Hierodule or one Scythed Hierodule",
+          "points": "125 points"
+        },
+        {
+          "name": "Burrower",
+          "description": "Two Trygons or four Raveners",
+          "points": "100 points"
+        },
+        {
+          "name": "Mycetic Spore (0-1 per Swarm)",
+          "description": "Permits deployment via planetary assault rules if a Razorfiend or Hive Ship has been bought. This option is not allowed if the Dagon Overlord, Hive Tyrant and/or Tyranid Warriors have been upgraded to Shrike (Wings).",
+          "points": "50 points"
+        }
+    ],
+    "usage": [
+      "The EA-R Hive Fleet Dagon list is essentially the same as the NetEA variant, but has some significant differences..."
+            ]
+}
 }

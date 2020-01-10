@@ -86,7 +86,7 @@
       "Leader",
       "Jump Packs (Shrike)"
   ],
-          "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)"
+          "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)."
     },
     {
     "name": "Ravener Alphas",
@@ -119,7 +119,7 @@
       "Fearless",
       "Jump Packs (Shrike)"
   ],
-  "notes": "Gains 30cm Speed, Jump Pack and 6+ Armour if upgraded to Shrike (Wings)"
+  "notes": "Gains 30cm Speed, Jump Pack and 6+ Armour if upgraded to Shrike (Wings)."
     },
     {
     "name": "Zoanthrope",
@@ -315,7 +315,7 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each."
+      "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes take 2 spaces each."
       },
       {
       "name": "Harpy",
@@ -344,14 +344,15 @@
       "weapons": [
         "Frag Spines",
         "Large Claws",
-        "Gaunt Pouch (Termagants, Hormagaunts)"
+        "Gaunt Pouch"
       ],
       "specialRules": [
          "Synapse",
          "Fearless",
          "Reinforced Armour",
         "Swarm (2)"
-      ]
+      ],
+      "notes": "May bring back Termagants and Hormagaunts when Swarming."
       },
       {
       "name": "Tervigon",
@@ -363,12 +364,13 @@
       "weapons": [
           "Frag Spines",
           "Large Claws",
-          "Gaunt Pouch (Termagants, Hormagaunts)"
+          "Gaunt Pouch"
       ],
       "specialRules": [
          "Reinforced Armour",
         "Swarm (1)"
-      ]
+    ],
+    "notes": "May bring back Termagants and Hormagaunts when Swarming."
       },
       {
       "name": "Trygon Prime",
@@ -422,7 +424,7 @@
       "Transport"
     ],
     "notes": "May transport up to four units of Gargoyles.",
-    "crit": "The Harridan is destroyed."
+    "crit": "The Harridan is killed."
     },
     {
     "name": "Spawn Harridan",
@@ -433,7 +435,7 @@
     "ff": 6,
     "weapons": [
       "Large Claws",
-      "Gaunt Pouch (Gargoyles)"
+      "Gaunt Pouch"
     ],
     "specialRules": [
       "Damage Capacity: 3",
@@ -444,8 +446,8 @@
       "Swarm (1)",
       "Transport"
     ],
-    "notes": "May transport up to four units of Gargoyles.",
-    "crit": "The Harridan is destroyed."
+    "notes": "May bring back Gargoyles when Swarming. May transport up to four units of Gargoyles.",
+    "crit": "The Harridan is killed."
     },
     {
     "name": "Barbed Hierodule Prime",
@@ -464,7 +466,7 @@
       "Fearless",
       "Reinforced Armour"
     ],
-    "crit": "The Hierodule Prime is destroyed."
+    "crit": "The Hierodule Prime is killed."
     },
     {
     "name": "Barbed Hierodule",
@@ -482,7 +484,7 @@
       "Reinforced Armour"
 
     ],
-    "crit": "The Hierodule is destroyed."
+    "crit": "The Hierodule is killed."
 
     },
     {
@@ -503,7 +505,7 @@
       "Reinforced Armour"
 
     ],
-    "crit": "The Scythed Hierodule Prime is destroyed."
+    "crit": "The Scythed Hierodule Prime is killed."
 
 
     },
@@ -522,7 +524,7 @@
       "Damage Capacity: 3",
       "Reinforced Armour"
     ],
-    "crit": "The Scythed Hierodule is destroyed."
+    "crit": "The Scythed Hierodule is killed."
 
 
     },
@@ -547,6 +549,65 @@
 
     },
     {
+    "name": "Dagon Dominatrix",
+    "type": "WE",
+    "speed": 25,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Bio-Titan Bio-Cannon",
+      "Bio-Plasmic Ray",
+      "Bio-Plasma Burst",
+      "Massive Scything Talons"
+    ],
+    "specialRules": [
+      "Damage Capacity: 6",
+      "Hive Mind Locus",
+      "Synapse",
+      "Fearless",
+      "Leader",
+      "Commander",
+      "Inspiring",
+      "Reinforced Armour",
+      "Regeneration"
+    ],
+    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
+
+    },
+    {
+    "name": "Hydra Dominatrix",
+    "type": "WE",
+    "speed": 25,
+    "armour": 5,
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Bio-Energy Pulse",
+      "Massive Scything Talons",
+      "Gaunt Pouch"
+
+    ],
+    "specialRules": [
+        "Damage Capacity: 6",
+        "Hive Mind Locus",
+        "Synapse",
+        "Fearless",
+        "Leader",
+        "Commander",
+        "Inspiring",
+        "Reinforced Armour",
+        "Regeneration",
+      "Swarm (2)"
+
+    ],
+    "notes": "May bring back Termagants, Hormagaunts and Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
+
+
+    },
+    {
     "name": "Hierophant",
     "type": "WE",
     "speed": 25,
@@ -561,78 +622,18 @@
     "specialRules": [
       "Damage Capacity: 5",
       "Fearless",
-      "Invulnerable Save",
-      "Reinforced Armour"
-    ],
-    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
-    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hierophant suffers 1 additional damage 6: The Hierophant is killed."
-
-
-    },
-    {
-    "name": "Dagon Dominatrix",
-    "type": "WE",
-    "speed": 25,
-    "armour": 5,
-    "cc": 3,
-    "ff": 5,
-    "weapons": [
-      "Bio-Titan Bio-Cannon",
-      "Bio-Plasmic Ray",
-      "Bio-Plasma Burst",
-      "Monstrous Claws"
-    ],
-    "specialRules": [
-      "Damage Capacity: 6",
-      "Hive Mind Locus",
-      "Synapse",
-      "Regeneration",
-      "Fearless",
-      "Leader",
-      "Commander",
-      "Inspiring",
-      "Reinforced Armour"
-    ],
-    "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
-    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
-
-
-    },
-    {
-    "name": "Hydra Dominatrix",
-    "type": "WE",
-    "speed": 25,
-    "armour": 5,
-    "cc": 3,
-    "ff": 5,
-    "weapons": [
-      "Bio-Energy Pulse",
-      "Monstrous Claws",
-      "Gaunt Pouch (Termagants, Hormagaunts, Gargoyles)"
-
-    ],
-    "specialRules": [
-      "Damage Capacity: 6",
-      "Hive Mind Locus",
-      "Synapse",
-      "Regeneration",
-      "Fearless",
-      "Leader",
-      "Commander",
-      "Inspiring",
       "Reinforced Armour",
-      "Swarm (2)"
-
+      "Regeneration"
     ],
     "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
-    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Dominatrix suffers 1 additional damage 6: Suffers an additional D3 damage"
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
 
 
     },
     {
     "name": "Hydraphant",
     "type": "WE",
-    "speed": 25,
+    "speed": 20,
     "armour": 5,
     "cc": 3,
     "ff": 5,
@@ -651,7 +652,7 @@
       "Regeneration"
     ],
     "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
-    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: The Hydraphant suffers 1 additional damage 6: The Hydraphant is killed."
+    "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
 
 
     }

@@ -2017,6 +2017,18 @@
       ]
     },
     {
+      "name": "Bio-Titan Bio-Cannon",
+        "modes": [
+          {
+            "firepower": "4x AP3+/AT4+",
+            "range": 60,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+
+    {
       "name": "Big Gun",
         "modes": [
           {
@@ -3958,27 +3970,7 @@
       ]
     },
     {
-      "name": "Gaunt Pouch (Termagants, Hormagaunts, Gargoyles)",
-        "modes": [
-          {
-            "firepower": "n/a",
-            "specialRules": [
-          ]
-          }
-      ]
-    },
-    {
-      "name": "Gaunt Pouch (Termagants, Hormagaunts)",
-        "modes": [
-          {
-            "firepower": "n/a",
-            "specialRules": [
-          ]
-          }
-      ]
-    },
-    {
-      "name": "Gaunt Pouch (Gargoyles)",
+      "name": "Gaunt Pouch",
         "modes": [
           {
             "firepower": "n/a",
