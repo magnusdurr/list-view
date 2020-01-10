@@ -26,7 +26,7 @@
         "Shas'o",
         "Shas'el",
         "XV8 Crisis Battlesuits",
-        "Fire Warriors",
+        "Sa'cea Fire Warriors",
         "Gun Drones",
         "Kroot Hounds",
         "Kroot Master Shaper",
@@ -41,7 +41,7 @@
         "Ion Hammerhead",
         "Rail Hammerhead",
         "Fusion Hammerhead",
-        "Skyray",
+        "Sky Ray",
         "Manta"
       ],
         "unitRules": [
@@ -78,14 +78,14 @@
         },
         {
           "name": "Fire Warrior Cadre",
-          "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish.",
+          "units": "Eight Sa'cea Fire Warriors, or six Sa'cea Fire Warriors and three Devilfish.",
           "extraUnits": [
               "Broadsides",
               "Recon",
               "Ethereal",
               "Fire Warriors",
               "Hammerheads",
-              "Skyray",
+              "Sky Ray",
               "Bonded Team",
               "Gun Drones"
           ],
@@ -103,7 +103,7 @@
           "extraUnits": [
             "Replace four Ion Hammerheads with Rail Hammerheads: 25 points",
             "Hammerheads",
-            "Skyray"
+            "Sky Ray"
 
           ],
           "points": 200
@@ -146,7 +146,7 @@
         },
         {
           "name": "Skysweep Support Group",
-          "units": "Three Skyrays",
+          "units": "Three Sky Rays",
           "extraUnits": [
               "Gun Drones"
           ],
@@ -242,7 +242,7 @@
         "name": "0–1 Ethereal",
         "options": [
           {
-            "description": "Add one Ethereal per army to a unit of Fire Warriors",
+            "description": "Add one Ethereal per army to a unit of Sa'cea Fire Warriors",
             "points": "50 points"
           }
         ]
@@ -263,11 +263,11 @@
             "description": "Add any one of the following options:"
           },
           {
-            "description": "Add Four Fire Warriors",
+            "description": "Add Four Sa'cea Fire Warriors",
             "points": "75 points"
           },
           {
-            "description": "Four Fire Warriors and two Devilfish",
+            "description": "Four Sa'cea Fire Warriors and two Devilfish",
             "points": "100 points"
           }
         ]
@@ -343,10 +343,10 @@
         ]
       },
       {
-        "name": "Skyray",
+        "name": "Sky Ray",
         "options": [
           {
-            "description": "Add one Skyray",
+            "description": "Add one Sky Ray",
             "points": "100 points"
           }
         ]
