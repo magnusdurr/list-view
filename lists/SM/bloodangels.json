@@ -6,7 +6,7 @@
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
-  "specialRules": ["Space Marine Transports", "Honour Guard"],
+  "specialRules": ["Space Marine Transports", "Honour Guard", "Lucifer Pattern Thermic Combustor Engine"],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Blood Angels Chapter."
   ],
@@ -91,6 +91,7 @@
         "name": "Assaults",
         "units": "Four Assaults",
         "extraUnits": [
+            "Add two Assaults: 50 points",
             "Sanguinary Guard",
             "Commander",
             "Predators"
