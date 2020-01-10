@@ -1,10 +1,11 @@
 {
   "fraction": "Space Marines",
   "army": "Imperial Fists",
-  "version": "0.5.1",
-  "release": "2019-12-03",
+  "version": "0.5.2",
+  "release": "2019-01-10",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "Tarantula and Hyperios Emplacement formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Imperial Fists detachments.",
   "specialRules": [
     "Imperial Fists Transports", "Defensive Doctrine", "Fortified Positions"
   ],
@@ -41,6 +42,7 @@
         "Predator Destructor",
         "Razorback",
         "Rhino",
+        "Siege Rhino",
         "Whirlwind",
         "Vindicator",
         "Storm Talon",
@@ -103,7 +105,7 @@
           "units": "Three Land Raiders",
           "extraUnits": [
             "Add one Land Raider: 75 points",
-            "Replace up to four Land Raiders with a Land Raider Achilles: 25 points each",
+            "Replace one Land Raider with a Land Raider Achilles: 50 points",
             "Vindicators",
             "Anti-Air",
             "Commander"
@@ -204,7 +206,7 @@
       ]
     },
     {
-      "name": "Imperial Fists Static Defenses, Navy, Relics & Titan Legion Allies",
+      "name": "Imperial Fists Static Defenses, Navy & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula Emplacement or Hyperios Emplacement for each Support Battery or Scout detachment.",
       "formations": [
           {

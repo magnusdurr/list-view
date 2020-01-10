@@ -850,6 +850,22 @@
       "notes": "May transport two units of INF (except Terminators and Obliterators) without Jump Packs or Mounted."
       },
       {
+        "name": "Chaos Siege Rhino",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Combi-Bolter"
+      ],
+      "specialRules": [
+        "Walker",
+        "Transport"
+    ],
+      "notes": "May transport two units of INF (except Terminators and Obliterators) without Jump Packs or Mounted."
+      },
+      {
         "name": "Alpha Legion Rhino",
         "type": "AV",
         "speed": 30,

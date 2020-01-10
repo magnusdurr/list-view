@@ -5,6 +5,7 @@
   "release": "2019-10-17",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
   "specialRules": ["Space Marine Transports", "Honour Guard"],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Blood Angels Chapter."
@@ -13,21 +14,51 @@
     {
       "from": "SM.json",
       "units": [
-        "Captain","Chaplain", "Librarian", "Supreme Commander",
-        "Sanguinary Guards", "Assaults","Scouts","Tacticals", "Death Company Marines", "Death Company Assaults", "Death Company Rhino", "Death Company Dreadnought", "Terminators", "Assault Terminators", "Assault Bikes",
-        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Melta Bike", "Attack Bike",
-        "Furioso Dreadnought", "Razorback", "Hunter","Stalker", "Land Raider", "Land Raider Redeemer", "Baal Predator Hades", "Baal Predator Infernus","Rhino", "Whirlwind",
-        "Storm Talon", "Storm Raven", "Landing Craft",
-        "Battle Barge","Strike Cruiser","Drop Pod"
+        "Captain",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Sanguinary Guards",
+        "Assaults",
+        "Scouts",
+        "Tacticals",
+        "Death Company Marines",
+        "Death Company Assaults",
+        "Death Company Rhino",
+        "Death Company Dreadnought",
+        "Terminators",
+        "Assault Terminators",
+        "Assault Bikes",
+        "Land Speeder",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Melta Bike",
+        "Attack Bike",
+        "Furioso Dreadnought",
+        "Razorback",
+        "Hunter",
+        "Stalker",
+        "Land Raider",
+        "Land Raider Redeemer",
+        "Baal Predator Hades",
+        "Baal Predator Infernus",
+        "Rhino",
+        "Whirlwind",
+        "Storm Talon",
+        "Storm Raven",
+        "Landing Craft",
+        "Battle Barge",
+        "Strike Cruiser",
+        "Drop Pod"
       ],
       "unitRules": ["They Shall Know No Fear"]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
-          "Warhound "
+          "Warhound"
         ],
-      "unitRules": ["Void Shields"]
+      "unitRules": ["Void Shields", "Independent"]
     }
   ],
   "sections": [
@@ -42,7 +73,7 @@
                 "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: Free",
                 "Replace two Death Company Rhinos with Drop Pods and add one Death Company Dreadnought: 100 points"
             ],
-            "points": 250
+            "points": 275
           },
         {
           "name": "Tacticals",
@@ -58,20 +89,20 @@
       },
       {
         "name": "Assaults",
-        "units": "Six Assaults",
+        "units": "Four Assaults",
         "extraUnits": [
             "Sanguinary Guard",
             "Commander",
             "Predators"
         ],
-        "points": 225
+        "points": 175
       }
 
       ]
     },
     {
       "name": "Blood Angels Support Detachments",
-      "description": "Three Support Detachments may be taken per Core Detachment.",
+      "description": "Two Support Detachments may be taken per Core Detachment.",
       "formations": [
 
           {
@@ -189,10 +220,9 @@
         },
         {
           "name": "Warhound Pack",
-          "units": "Two Warhounds (Standard or Support Configuration)",
+          "units": "Two Warhounds",
           "extraUnits": [
-              "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points",
-              "Formation gains the 'Independent' special rule: 50 points"
+              "Add the 'Independent' special rule to the formation: 50 points"
           ],
           "points": 500
       }
@@ -225,9 +255,9 @@
         "points": "75 points"
       },
       {
-        "name": "0-1 Sanguinary Guard",
-        "description": "Replace two Assaults with two Sanguinary Guards. The formation must contain a Supreme Commander",
-        "points": "50 points"
+        "name": "0-1 Sanguinary Guard per army",
+        "description": "Add two Sanguinary Guards. The formation must contain a Supreme Commander",
+        "points": "75 points"
       },
       {
         "name": "Commander",

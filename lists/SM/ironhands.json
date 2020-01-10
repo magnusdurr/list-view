@@ -1,9 +1,9 @@
 {
   "fraction": "Space Marines",
   "army": "Iron Hands",
-  "version": "0.9",
+  "version": "0.6.0",
   "release": "2019-02-20",
-  "strategy": "Iron Hands Space Marine armies have a Strategy Rating of 5.",
+  "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> and <i>Cult of the Machine</i> special rules applies to all Iron Hands detachments and aircraft formations.",
   "specialRules": ["Bionics", "Cult of the Machine", "Space Marine Transports"],
@@ -67,7 +67,7 @@
         {
           "name": "Dreadnought Clan",
           "units": "Four Tacticals plus transport, one Veteran Sergeant and any two of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
-          "upgrades": [
+          "extraUnits": [
             "Clan Commander",
             "Devastators",
             "Dreadnought",
@@ -80,7 +80,7 @@
         {
           "name": "Mechanized Clan",
           "units": "Four Tacticals plus transport, one Veteran Sergeant and any two of the following units: Predator Annihilator, Predator Destructor or Vindicator*",
-          "upgrades": [
+          "extraUnits": [
             "Clan Commander",
             "Devastators",
             "Anti-Air",
@@ -101,7 +101,7 @@
         {
           "name": "Dreadnought Talon",
           "units": "Any four of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
-          "upgrades": [
+          "extraUnits": [
             "Dreadnought",
             "Drop Pods",
             "Venerable Dreadnought"
@@ -111,7 +111,7 @@
         {
           "name": "Land Raiders",
           "units": "Four Land Raiders",
-          "upgrades": [
+          "extraUnits": [
             "Helios",
             "Anti-Air",
             "Vindicators"
@@ -121,7 +121,7 @@
         {
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Typhoons"
           ],
@@ -130,7 +130,7 @@
         {
           "name": "Predator",
           "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air"
           ],
           "points": 250
@@ -138,7 +138,7 @@
         {
           "name": "Scouts",
           "units": "Four Scouts plus transport",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Razorbacks",
             "Snipers"
@@ -148,7 +148,7 @@
         {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
-          "upgrades": [
+          "extraUnits": [
             "Battle Barge"
           ],
           "points": 200
@@ -156,7 +156,7 @@
         {
           "name": "Vindicator",
           "units": "Four Vindicator units",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air",
             "Vindicators"
           ],
@@ -165,7 +165,7 @@
         {
           "name": "Whirlwinds",
           "units": "Four Whirlwind units",
-          "upgrades": [
+          "extraUnits": [
             "Anti-Air"
           ],
           "points": 275
@@ -184,7 +184,7 @@
         {
           "name": "Thunderhawk Transporter",
           "units": "One Thunderhawk Transporter",
-          "upgrades": [
+          "extraUnits": [
             "Thunderhawk Transporter"
           ],
           "points": 175
@@ -192,16 +192,16 @@
         {
           "name": "Reaver",
           "units": "One Reaver Class Titan, Standard or Support Configuration",
-          "upgrades": [
-            "Close Assault Configuration: 25 points"
+          "extraUnits": [
+            "Upgrade the Reaver to Close Assault Configuration: 25 points"
           ],
-          "points": 650
+          "points": 600
         },
         {
           "name": "Warhound Pack",
-          "units": "Two Warhound Class Titan, Standard or Support Configuration",
-          "upgrades": [
-            "Tank Hunter Configuration: 50 points"
+          "units": "Two Warhounds (Standard or Support Configuration)",
+          "extraUnits": [
+              "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points"
           ],
           "points": 500
         }
@@ -215,7 +215,7 @@
       {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
-        "points": "150 points"
+        "points": "75 points"
       },
       {
         "name": "Clan Commander",

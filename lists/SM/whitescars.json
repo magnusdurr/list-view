@@ -5,6 +5,7 @@
   "release": "2019-06-13",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all White Scars detachments and Aircraft formations.",
   "specialRules": [
       "White Scars Transports"
   ],
@@ -51,7 +52,7 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Warhound "
+        "Warhound"
       ],
       "unitRules": [
         "Void Shields",
@@ -188,9 +189,8 @@
         },
         {
           "name": "Warhound Pack",
-          "units": "Two Warhounds (Standard or Support Configuration)",
+          "units": "Two Warhounds",
           "extraUnits": [
-              "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points",
               "Formation gains the 'Independent' special rule: 50 points"
           ],
           "points": 500

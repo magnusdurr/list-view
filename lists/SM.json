@@ -1274,8 +1274,7 @@
 			],
 			"specialRules": [
 				"Walker"
-			],
-			"notes": "Counts as a Dreadnought for the purposes of being transported"
+			]
 		},
 		{
 			"name": "Dreadnought, Ironclad",
@@ -1291,8 +1290,7 @@
 			"specialRules": [
 				"Reinforced Armour",
 				"Walker"
-			],
-			"notes": "Counts as a Dreadnought for the purposes of being transported"
+			]
 		},
 		{
 			"name": "Dreadnought, Siege",
@@ -1308,8 +1306,7 @@
 			],
 			"specialRules": [
 				"Walker"
-			],
-			"notes": "Counts as a Dreadnought for the purposes of being transported"
+			]
 		},
 		{
 			"name": "Dreadnought, Venerable",
@@ -1328,8 +1325,7 @@
 				"Invulnerable Save",
 				"Reinforced Armour",
 				"Walker"
-			],
-			"notes": "Counts as a Dreadnought for the purposes of being transported"
+			]
 		},
 		{
 			"name": "Nemesis Dreadknight",
@@ -1759,6 +1755,23 @@
 			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
 		},
 		{
+			"name": "Siege Rhino",
+			"type": "AV",
+			"speed": 25,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Storm Bolter"
+			],
+			"specialRules": [
+			    "Walker",
+				"Transport"
+			],
+			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+		},
+
+		{
 			"name": "Death Company Rhino",
 			"type": "INF",
 			"speed": 15,
@@ -2055,7 +2068,7 @@
 		},
 		{
 			"name": "Storm Raven",
-			"type": "AC/WE",
+			"type": "AC/AV",
 			"speed": "Bomber",
 			"armour": 4,
 			"cc": 6,
@@ -2066,7 +2079,6 @@
 				"Hurricane Bolters||"
 			],
 			"specialRules": [
-				"Damage Capacity 1",
 				"Reinforced Armour",
 				"Planetfall",
 				"Transport"
