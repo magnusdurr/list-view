@@ -14,8 +14,7 @@
                   "Gaunts",
                   "Tunnelers",
                   "Regeneration",
-                  "Dagon Vanguard Organisms",
-                  "Heavy Armoured Vehicle (H-AV)"
+                  "Dagon Vanguard Organisms"
           ],
 
  "units": [
@@ -54,6 +53,7 @@
           "Hydraphant"
         ],
           "unitRules": [
+              "Heavy Armoured Vehicle (H-AV)"
         ]
       },
       {
@@ -103,7 +103,7 @@
     },
     {
       "name": "Secondary Synapse Swarms",
-      "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm",
+      "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm.",
       "formations": [
         {
           "name": "Nest Swarm",
@@ -124,11 +124,12 @@
         },
         {
           "name": "Infestation Swarm",
-          "units": "One Trygon Prime or three Ravener Alphas",
+          "units": "Three Ravener Alphas",
           "extraUnits": [
-            "One to two Burrower Instinctive Swarms"
+            "One to two Burrower Instinctive Swarms",
+            "Replace three Ravener Alphas with a Trygon Prime: 50 points"
           ],
-          "points": "125 or 150"
+          "points": 100
         },
         {
           "name": "Harasser Swarm",
@@ -147,17 +148,17 @@
       "formations": [
         {
           "name": "Genestealer Swarm",
-          "units": "Six Genestealers, one Brood Lord",
-          "upgrades": [
-            "Add 0-3 Genestealers: 25 points each"
+          "units": "One Brood Lord, six Genestealers",
+          "extraUnits": [
+            "Add up to three Genestealers: 25 points each"
           ],
           "points": 175
         },
         {
           "name": "Lictor Swarm",
           "units": "Five Lictors",
-          "upgrades": [
-            "Add 0-2 Lictors: 25 points each"
+          "extraUnits": [
+            "Add up to two Lictors: 25 points each"
           ],
           "points": 225
         }
@@ -170,7 +171,7 @@
         {
           "name": "Bio-Titan",
           "units": "One Hierophant Bio-Titan",
-          "upgrades": [
+          "extraUnits": [
             "Replace the Hierophant with a Hydraphant Bio-Titan: 175 points"
           ],
           "points": 325
@@ -178,7 +179,7 @@
         {
           "name": "Bio-Vessel",
           "units": "One Razorfiend",
-          "upgrades": [
+          "extraUnits": [
             "Replace the Razorfiend with a Hive Ship: 50 points"
           ],
           "points": 150

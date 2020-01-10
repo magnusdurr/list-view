@@ -15,8 +15,7 @@
                   "Gaunts",
                   "Swarm (x)",
                   "Tunnelers",
-                  "Hydra Vanguard Organisms",
-                  "Heavy Armoured Vehicle (H-AV)"
+                  "Hydra Vanguard Organisms"
           ],
 
   "usage": [
@@ -55,6 +54,7 @@
           "Hydraphant"
         ],
           "unitRules": [
+              "Heavy Armoured Vehicle (H-AV)"
         ]
       },
       {
@@ -65,7 +65,6 @@
           "Hive Ship"
         ],
           "unitRules": [
-            ""
         ]
       }
     ],
@@ -106,7 +105,7 @@
     },
     {
       "name": "Secondary Synapse Swarms",
-      "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm",
+      "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm.",
       "formations": [
           {
             "name": "Tervigon Spawn Swarm",
@@ -131,7 +130,7 @@
           "extraUnits": [
             "One to two Burrower Instinctive Swarms"
           ],
-          "points": "150"
+          "points": 150
         },
         {
           "name": "Harridan Spawn Swarm",
@@ -146,21 +145,21 @@
     },
     {
       "name": "Common Independent Swarms",
-      "description": "Up to one Common Independent Swarm for each Primary Synapse Swarm. No more than a third of the army",
+      "description": "Up to one Common Independent Swarm for each Primary Synapse Swarm. No more than a third of the army.",
       "formations": [
         {
           "name": "Genestealer Swarm",
-          "units": "Six Genestealers, one Brood Lord",
-          "upgrades": [
-            "Add 0-3 Genestealers: 25 points each"
+          "units": "One Brood Lord, six Genestealers",
+          "extraUnits": [
+            "Add up to three Genestealers: 25 points each"
           ],
           "points": 175
         },
         {
           "name": "Lictor Swarm",
           "units": "Five Lictors",
-          "upgrades": [
-            "Add 0-2 Lictors: 25 points each"
+          "extraUnits": [
+            "Add up to two Lictors: 25 points each"
           ],
           "points": 225
         }
@@ -168,12 +167,12 @@
     },
     {
       "name": "Rare Independent Swarms",
-      "description": "Up to one Rare Independent Swarm for each Primary Synapse Swarm. No more than a third of the army",
+      "description": "Up to one Rare Independent Swarm for each Primary Synapse Swarm. No more than a third of the army.",
       "formations": [
         {
           "name": "Bio-Titan",
           "units": "One Hierophant Bio-Titan",
-          "upgrades": [
+          "extraUnits": [
             "Replace the Hierophant with a Hydraphant Bio-Titan: 175 points"
           ],
           "points": 325
@@ -181,7 +180,7 @@
         {
           "name": "Bio-Vessel",
           "units": "One Razorfiend",
-          "upgrades": [
+          "extraUnits": [
             "Replace the Razorfiend with a Hive Ship: 50 points"
           ],
           "points": 150

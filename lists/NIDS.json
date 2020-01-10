@@ -2,6 +2,12 @@
   {
     "name": "Tyranid Forces",
     "specialRules": [
+        {
+          "title": "Heavy Armoured Vehicle (H-AV)",
+          "description": [
+            "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+          ]
+        },
       {
         "title": "Extreme Mobility",
         "description": [
@@ -84,7 +90,7 @@
       "Reinforced Armour",
       "Commander",
       "Leader",
-      "Jump Packs (Shrike)"
+      "Jump Pack (Wings)"
   ],
           "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)."
     },
@@ -108,7 +114,7 @@
     "name": "Tyranid Warriors",
     "type": "LV",
     "speed": "20cm/30cm",
-    "armour": "5+/6",
+    "armour": "4+/5",
     "cc": 2,
     "ff": 5,
     "weapons": [
@@ -117,9 +123,9 @@
     "specialRules": [
       "Synapse",
       "Fearless",
-      "Jump Packs (Shrike)"
+      "Jump Packs (Wings)"
   ],
-  "notes": "Gains 30cm Speed, Jump Pack and 6+ Armour if upgraded to Shrike (Wings)."
+  "notes": "Gains 30cm Speed, Jump Packs and 5+ Armour if upgraded to Shrike (Wings)."
     },
     {
     "name": "Zoanthrope",
@@ -315,7 +321,7 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes take 2 spaces each."
+      "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
       },
       {
       "name": "Harpy",
