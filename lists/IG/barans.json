@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Baran Siegemasters",
-  "version": "0.6.3",
-  "release": "2019-06-27",
+  "version": "0.6.4",
+  "release": "2020-01-11",
   "strategy": "Baran Siegemaster armies have a Strategy Rating of 1.",
   "Initiative": "All formations have a Initiative Rating of 2+.",
 
@@ -122,7 +122,7 @@
 
         {
           "name": "Sapper Company",
-          "units": "One Baran Commander with a Commissar, seven Sappers, one Hades Breaching Drill",
+          "units": "One Commissar, eight Sappers, one Hades Breaching Drill",
           "extraUnits": [
           ],
           "points": 250
@@ -208,8 +208,8 @@
         "name": "Rapiers",
         "options": [
           {
-            "description": "Add three Rapiers",
-            "points": "50 points"
+            "description": "Add four Rapiers",
+            "points": "75 points"
           }
         ]
       },
@@ -217,8 +217,8 @@
         "name": "Thudd Guns",
         "options": [
           {
-            "description": "Add four Thudd Guns",
-            "points": "100 points"
+            "description": "Add three Thudd Guns",
+            "points": "75 points"
           }
         ]
       },
@@ -226,8 +226,8 @@
         "name": "Mole Launchers",
         "options": [
           {
-            "description": "Add four Mole Launcher Squads",
-            "points": "100 points"
+            "description": "Add three Mole Launcher Squads",
+            "points": "75 points"
           }
         ]
       },

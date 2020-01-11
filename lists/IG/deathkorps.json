@@ -2,12 +2,12 @@
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
   "version": "1.0.0",
-  "release": "2019-07-28",
+  "release": "2020-01-11",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-      "Courage, Discipline and Loyalty"
+      "Courage, Discipline and Loyalty", "Fortified Positions"
   ],
   "units": [
     {
@@ -21,6 +21,9 @@
         "Death Riders",
         "Rough Riders",
         "Grenadiers",
+        "Thudd Gun",
+        "Rapier",
+        "Snipers",
         "Earthshaker Gun",
         "Heavy AA Gun",
         "Trojan",
@@ -52,8 +55,7 @@
         "Warhound"
           ],
         "unitRules": [
-            "Void Shields",
-            "Independent"
+            "Void Shields"
       ]
     },
     {
@@ -77,7 +79,8 @@
           "units": "One DKoK Supreme Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
               "Add ten Assault Infantry and one Gorgon: 250 points",
-              "Leman Russ Squadron"
+              "Leman Russ Squadron",
+              "Hellhounds"
           ],
           "points": 350
         },
@@ -85,7 +88,8 @@
           "name": "Assault Company",
           "units": "One DKoK Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
-              "Leman Russ Squadron"
+              "Leman Russ Squadron",
+              "Hellhounds"
           ],
           "points": 275
     },
@@ -126,13 +130,15 @@
           "points": 350
         },
         {
-          "name": "Siege Infantry Platoon",
-          "units": "Eight Siege Infantry",
+          "name": "Siege Infantry Company",
+          "units": "One DKoK Commander with a Commissar, nine Siege Infantry",
           "extraUnits": [
-              "Malcadors",
-              "Hellhounds"
+              "Add 60cm trenches, 60cm Razorwire: 50 points",
+              "Add four Rapiers or three Thudd Guns: 75 points",
+              "Add up to two Snipers: 25 points each",
+              "Add two Malcadors or Malcador Annihilators: 175 points"
           ],
-          "points": 150
+          "points": 200
         },
         {
           "name": "Earthshaker Battery",
@@ -173,17 +179,18 @@
           "name": "Grenadier Company",
           "units": "One DKoK Commander with a Commissar, seven Grenadiers, four Storm Chimeras",
           "extraUnits": [
-              "Replace four Storm Chimeras with a Gorgon: 25 points"
+              "Replace four Storm Chimeras with a Gorgon: 25 points",
+              "Hellhounds"
           ],
           "points": 300
         }
       ]
     },
     {
-      "name": "Collegia Titanica and Imperial Navy",
-      "description": "Up to a third of the points available may be spent on Collegia Titanica and Imperial Navy formations",
+      "name": "Collegia Titanica & Imperial Navy Allies",
+      "description": "Up to a third of the points available may be spent on Collegia Titanica & Imperial Navy formations",
       "formations": [
-          {
+              {
             "name": "Warhound Pack",
             "units": "Two Warhounds",
             "points": 500,
@@ -235,15 +242,6 @@
         ]
       },
       {
-        "name": "Malcadors",
-        "options": [
-          {
-            "description": "Add two Malcadors or Malcador Annihilators",
-            "points": "175 points"
-          }
-        ]
-      },
-      {
         "name": "Leman Russ Squadron",
         "options": [
           {
@@ -254,8 +252,8 @@
       }
   ],
   "usage": [
-    "v1.0.0: The theme of the list has been changed to make it more 'siege assault' oriented, with the 'siege defense' role being given to their cousins the Baran Siege Masters. The main change from the NetEA/E-UK versions of DKoK is that only the Regimental HQ can have more than one Gorgon, and that it is no longer possible to place the Commissar on the Gorgon.",
-    "Other bigger changes involve the Death Riders / Rough Riders, which has a new stat line which fits them better thematically."
+    "v1.0.0: Apart from the changes inherited from the Steel Legion list, the theme of the list has been changed to make it more 'siege assault' oriented, with the dedicated 'siege defense' role being given to their cousins the Baran Siege Masters. It is however possible to take Siege Companies that largely mirror those that are in the Baran list. The main change from the NetEA/E-UK versions of DKoK is that only the Regimental HQ can have more than one Gorgon, and that it is no longer possible to place the Commissar on the Gorgon.",
+    "Another major changes involve the Death Riders / Rough Riders, which has a new stat line which fits them better thematically.",
     "The Macharius has been made slightly faster, but with less firepower, to differentiate it from the Super Heavy Tanks."
   ]
   }
