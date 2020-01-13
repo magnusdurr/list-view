@@ -34,7 +34,8 @@
           "Lictor",
           "Dagon Overlord",
           "Hive Tyrant",
-          "Carnifex",
+          "Barbed Carnifex",
+          "Screamer-Killer Carnifex",
           "Dactylis",
           "Exocrine",
           "Haruspex",
@@ -120,16 +121,16 @@
           "extraUnits": [
             "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Bio-Support or Hierodule"
           ],
-          "points": 150
+          "points": 125
         },
         {
           "name": "Infestation Swarm",
           "units": "Three Ravener Alphas",
           "extraUnits": [
             "One to two Burrower Instinctive Swarms",
-            "Replace three Ravener Alphas with a Trygon Prime: 50 points"
+            "Replace three Ravener Alphas with a Trygon Prime: Free"
           ],
-          "points": 100
+          "points": 125
         },
         {
           "name": "Harasser Swarm",
@@ -213,7 +214,7 @@
         },
         {
           "name": "Carnifex",
-          "description": "Three Carnifex",
+          "description": "Three Barbed Carnifex or three Screamer-Killer Carnifex",
           "points": "125 points"
         },
         {

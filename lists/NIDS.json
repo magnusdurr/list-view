@@ -98,7 +98,7 @@
     "name": "Ravener Alphas",
     "type": "LV",
     "speed": 20,
-    "armour": 4,
+    "armour": 5,
     "cc": 4,
     "weapons": [
       "Burrowclaws"
@@ -251,7 +251,22 @@
       ]
       },
       {
-      "name": "Carnifex",
+      "name": "Barbed Carnifex",
+      "type": "AV",
+      "speed": 20,
+      "armour": 4,
+      "cc": 2,
+      "ff": 5,
+      "weapons": [
+        "Venom Cannon",
+        "Claws"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+      },
+      {
+      "name": "Screamer-Killer Carnifex",
       "type": "AV",
       "speed": 20,
       "armour": 4,
@@ -265,6 +280,7 @@
         "Reinforced Armour"
       ]
       },
+
       {
       "name": "Dactylis",
       "type": "AV",
