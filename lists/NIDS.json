@@ -97,7 +97,7 @@
     {
     "name": "Ravener Alphas",
     "type": "LV",
-    "speed": 20,
+    "speed": 30,
     "armour": 5,
     "cc": 4,
     "weapons": [
@@ -106,8 +106,7 @@
     "specialRules": [
       "Synapse",
       "Fearless",
-      "Tunneler",
-      "Infiltrators"
+      "Tunneler"
     ]
     },
     {
@@ -190,7 +189,7 @@
       {
       "name": "Raveners",
       "type": "INF",
-      "speed": 20,
+      "speed": 30,
       "armour": 5,
       "cc": 4,
 
@@ -200,7 +199,6 @@
       "specialRules": [
         "Gaunts",
         "Tunneler",
-        "Infiltrators",
         "Expendable"
       ]
       },
@@ -337,14 +335,14 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
+      "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles and Raveners. Biovores, Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
       },
       {
       "name": "Harpy",
-      "type": "AV",
+      "type": "LV",
       "speed": 35,
       "armour": 5,
-      "cc": 4,
+      "cc": 5,
       "ff": 5,
       "weapons": [
         "Stranglethorn Cannon",
@@ -372,9 +370,10 @@
          "Synapse",
          "Fearless",
          "Reinforced Armour",
-        "Swarm (2)"
+        "Swarm (2)",
+        "Transport"
       ],
-      "notes": "May bring back Termagants and Hormagaunts when Swarming."
+      "notes": "May transport two units of Termagants and Hormagaunts. May bring back Termagants and Hormagaunts when Swarming."
       },
       {
       "name": "Tervigon",
@@ -390,9 +389,10 @@
       ],
       "specialRules": [
          "Reinforced Armour",
-        "Swarm (1)"
+        "Swarm (1)",
+        "Transport"
     ],
-    "notes": "May bring back Termagants and Hormagaunts when Swarming."
+    "notes": "May transport two units of Termagants and Hormagaunts. May bring back Termagants and Hormagaunts when Swarming."
       },
       {
       "name": "Trygon Prime",
@@ -446,7 +446,7 @@
       "Transport"
     ],
     "notes": "May transport up to four units of Gargoyles.",
-    "crit": "The Harridan is killed."
+    "crit": "The Harridan and any Gargoyles transported are killed."
     },
     {
     "name": "Spawn Harridan",
@@ -621,10 +621,11 @@
         "Inspiring",
         "Reinforced Armour",
         "Regeneration",
-      "Swarm (2)"
+      "Swarm (2)",
+      "Transport"
 
     ],
-    "notes": "May bring back Termagants, Hormagaunts and Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "notes": "May transport five units of Termagants, Hormagaunts and Gargoyles. May bring back Termagants, Hormagaunts and Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
 
 

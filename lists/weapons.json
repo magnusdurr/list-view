@@ -3912,7 +3912,7 @@
       "name": "Frag Spines",
       "modes": [
         {
-          "firepower": "2x AP5+",
+          "firepower": "2x AP5+/AT6+",
           "range": 15
         }
       ]
@@ -4119,14 +4119,21 @@
     },
     {
       "name": "Grasping Talons",
-        "modes": [
+      "modes": [
           {
-            "firepower": "AP5+/AA5+",
+            "firepower": "AA5+",
             "range": 15,
             "specialRules": [
           ]
-          }
-      ]
+      },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+            "EA(+1)"
+        ]
+      }
+    ]
     },
     {
       "name": "Gyrator Barrage Cannon",
@@ -8917,10 +8924,9 @@
       "name": "Stranglethorn Cannon",
         "modes": [
           {
-            "firepower": "AP4+/AT6+",
-            "range":30,
+            "firepower": "AP4+/AT5+",
+            "range":15,
             "specialRules": [
-              "D"
           ]
           }
       ]
@@ -10531,7 +10537,7 @@
         "modes": [
           {
             "firepower": "AP5+/AT6+/AA6+",
-            "range": 30
+            "range": 45
           },
           {
             "firepower": "Small Arms",
