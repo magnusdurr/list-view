@@ -2,7 +2,7 @@
   "fraction": "Tyranid",
   "army": "Hive Fleet Dagon",
   "version": "1.0.0",
-  "release": "2020-01-09",
+  "release": "2020-01-15",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+.",
 
@@ -119,7 +119,7 @@
           "name": "Breacher Swarm",
           "units": "One Hierodule Prime (Barbed or Scythed)",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Burrower, Carnifex, Bio-Attack, Bio-Support or Hierodule"
+            "One to two Instinctive Swarms chosen from Gaunts, Burrower, Carnifex, Bio-Attack, Bio-Support or Breacher"
           ],
           "points": 125
         },
@@ -136,7 +136,7 @@
           "name": "Harasser Swarm",
           "units": "One Harridan",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Bombers",
+            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers",
             "Add one Harridan: 150 points"
           ],
           "points": 150
@@ -208,7 +208,7 @@
           "points": "50 points"
         },
         {
-          "name": "Bio-Bombers",
+          "name": "Bio-Flyers",
           "description": "Three Harpies",
           "points": "125 points"
         },
@@ -228,7 +228,7 @@
           "points": "75 points"
         },
         {
-          "name": "Hierodule",
+          "name": "Breacher",
           "description": "One Barbed Hierodule or one Scythed Hierodule",
           "points": "125 points"
         },

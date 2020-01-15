@@ -2,7 +2,7 @@
   "fraction": "Tyranid",
   "army": "Hive Fleet Hydra",
   "version": "Alpha 0.7.0",
-  "release": "2019-12-01",
+  "release": "2020-01-15",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+.",
 
@@ -34,18 +34,20 @@
           "Tyranid Warriors",
           "Zoanthrope",
           "Lictor",
+          "Dimachaeron",
           "Swarmlord",
           "Hive Tyrant",
-          "Malefactor",
-          "Haruspex",
+          "Dactylis",
+          "Exocrine",
           "Barbed Carnifex",
           "Screamer-Killer Carnifex",
-          "Harpy",
+          "Hive Crone",
+          "Viragon",
           "Trygon Prime",
           "Trygon",
           "Tervigon Prime",
           "Tervigon",
-          "Spawn Harridan",
+          "Hive Harridan",
           "Barbed Hierodule Prime",
           "Barbed Hierodule",
           "Scythed Hierodule Prime",
@@ -112,7 +114,7 @@
             "name": "Tervigon Spawn Swarm",
             "units": "One Tervigon Prime",
             "extraUnits": [
-              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Spawner",
+              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Support, or Spawner",
               "1+ Gaunts must be chosen"
             ],
             "points": 175
@@ -121,7 +123,7 @@
           "name": "Breacher Swarm",
           "units": "One Hierodule Prime (Barbed or Scythed)",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Burrower, Carnifex, Bio-Attack, or Hierodule"
+            "One to two Instinctive Swarms chosen from Gaunts, Burrower, Carnifex, Bio-Support, or Breacher"
           ],
           "points": 125
         },
@@ -129,18 +131,20 @@
           "name": "Infestation Swarm",
           "units": "One Trygon Prime",
           "extraUnits": [
+            "Replace the Trygon Prime with a Viragon: 75 points",
             "One to two Burrower Instinctive Swarms"
           ],
           "points": 125
         },
         {
           "name": "Harridan Spawn Swarm",
-          "units": "One Spawn Harridan, four Gargoyles",
+          "units": "One Hive Harridan, four Gargoyles",
           "extraUnits": [
-            "Add one Spawn Harridan, four Gargoyles: 175 points"
+            "Add one Hive Harridan, four Gargoyles: 175 points",
+            "Up to two Bio-Flyer Instinctive Swarms"
 
           ],
-          "points": 175
+          "points": 200
         }
       ]
     },
@@ -157,10 +161,10 @@
           "points": 175
         },
         {
-          "name": "Lictor Swarm",
+          "name": "Infiltrator Swarm",
           "units": "Five Lictors",
           "extraUnits": [
-            "Add up to two Lictors: 25 points each"
+            "Replace five Lictors with five Dimachaerons: Free"
           ],
           "points": 225
         }
@@ -209,8 +213,8 @@
         "points": "50 points"
       },
       {
-        "name": "Bio-Bombers",
-        "description": "Three Harpies",
+        "name": "Bio-Flyers",
+        "description": "Three Hive Crones",
         "points": "125 points"
       },
       {
@@ -220,16 +224,16 @@
       },
       {
         "name": "Spawner",
-        "description": "One Tervigon and two Termagants or two Hormagaunts",
+        "description": "One Tervigon, two Termagants or two Hormagaunts",
         "points": "75 points"
       },
       {
-        "name": "Bio-Attack",
-        "description": "Two Haruspex or two Malefactors",
-        "points": "75 points"
+        "name": "Bio-Support",
+        "description": "Three Dactylis or four Exocrines",
+        "points": "125 points"
       },
       {
-        "name": "Hierodule",
+        "name": "Breacher",
         "description": "One Barbed Hierodule or one Scythed Hierodule",
         "points": "125 points"
       },

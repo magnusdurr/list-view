@@ -1900,6 +1900,16 @@
       ]
     },
     {
+      "name": "Bio-Electric Field",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Bio-Cannon",
         "modes": [
           {
@@ -8924,6 +8934,17 @@
       "name": "Stranglethorn Cannon",
         "modes": [
           {
+            "firepower": "AP5+/AT6+",
+            "range":30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Drool Cannon",
+        "modes": [
+          {
             "firepower": "AP4+/AT5+",
             "range":15,
             "specialRules": [
@@ -8931,6 +8952,7 @@
           }
       ]
     },
+
     {
       "name": "Stream of Corruption",
         "modes": [
@@ -9222,6 +9244,17 @@
             "range": 15,
             "specialRules": [
               "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Tentaclids",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+/AA6+",
+            "range": 30,
+            "specialRules": [
           ]
           }
       ]

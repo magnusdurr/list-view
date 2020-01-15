@@ -95,21 +95,6 @@
           "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)."
     },
     {
-    "name": "Ravener Alphas",
-    "type": "LV",
-    "speed": 30,
-    "armour": 5,
-    "cc": 4,
-    "weapons": [
-      "Burrowclaws"
-    ],
-    "specialRules": [
-      "Synapse",
-      "Fearless",
-      "Tunneler"
-    ]
-    },
-    {
     "name": "Tyranid Warriors",
     "type": "LV",
     "speed": "20cm/30cm",
@@ -142,7 +127,38 @@
       "Invulnerable Save"
     ]
     },
+    {
+    "name": "Ravener Alphas",
+    "type": "LV",
+    "speed": 30,
+    "armour": 5,
+    "cc": 4,
+    "weapons": [
+      "Burrowclaws"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Tunneler"
+    ]
+    },
 
+    {
+    "name": "Raveners",
+    "type": "INF",
+    "speed": 30,
+    "armour": 5,
+    "cc": 4,
+
+    "weapons": [
+      "Burrowclaws"
+    ],
+    "specialRules": [
+      "Gaunts",
+      "Tunneler",
+      "Expendable"
+    ]
+    },
       {
       "name": "Termagants",
       "type": "INF",
@@ -183,22 +199,6 @@
       "specialRules": [
         "Gaunts",
         "Jump Packs",
-        "Expendable"
-      ]
-      },
-      {
-      "name": "Raveners",
-      "type": "INF",
-      "speed": 30,
-      "armour": 5,
-      "cc": 4,
-
-      "weapons": [
-        "Burrowclaws"
-      ],
-      "specialRules": [
-        "Gaunts",
-        "Tunneler",
         "Expendable"
       ]
       },
@@ -248,37 +248,56 @@
         "Teleport"
       ]
       },
-      {
-      "name": "Barbed Carnifex",
-      "type": "AV",
-      "speed": 20,
-      "armour": 4,
-      "cc": 2,
-      "ff": 5,
-      "weapons": [
-        "Venom Cannon",
-        "Claws"
-      ],
-      "specialRules": [
-        "Reinforced Armour"
-      ]
-      },
-      {
-      "name": "Screamer-Killer Carnifex",
-      "type": "AV",
-      "speed": 20,
-      "armour": 4,
+          {
+      "name": "Dimachaeron",
+      "type": "LV",
+      "speed": 15,
+      "armour": 3,
       "cc": 3,
-      "ff": 4,
       "weapons": [
-        "Bio-Plasma",
         "Large Claws"
       ],
       "specialRules": [
-        "Reinforced Armour"
+        "Infiltrators",
+        "Scout",
+        "Invulnerable Save"
       ]
       },
 
+      {
+      "name": "Harpy",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Venom Cannon",
+        "Spore Cyst",
+        "Grasping Talons"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Skimmer"
+      ]
+      },
+      {
+      "name": "Hive Crone",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Drool Cannon",
+        "Tentaclids",
+        "Grasping Talons"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Skimmer"
+      ]
+      },
       {
       "name": "Dactylis",
       "type": "AV",
@@ -337,23 +356,37 @@
       ],
       "notes": "May transport up to three units of Termagants, Hormagaunts, Gargoyles and Raveners. Biovores, Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
       },
-      {
-      "name": "Harpy",
-      "type": "LV",
-      "speed": 35,
-      "armour": 5,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Stranglethorn Cannon",
-        "Spore Cyst",
-        "Grasping Talons"
-      ],
-      "specialRules": [
-        "Reinforced Armour",
-        "Skimmer"
-      ]
-      },
+
+            {
+            "name": "Barbed Carnifex",
+            "type": "AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 2,
+            "ff": 5,
+            "weapons": [
+              "Venom Cannon",
+              "Claws"
+            ],
+            "specialRules": [
+              "Reinforced Armour"
+            ]
+            },
+            {
+            "name": "Screamer-Killer Carnifex",
+            "type": "AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 3,
+            "ff": 4,
+            "weapons": [
+              "Bio-Plasma",
+              "Large Claws"
+            ],
+            "specialRules": [
+              "Reinforced Armour"
+            ]
+            },
       {
       "name": "Tervigon Prime",
       "type": "H-AV",
@@ -370,10 +403,10 @@
          "Synapse",
          "Fearless",
          "Reinforced Armour",
-        "Swarm (2)",
-        "Transport"
+        "Transport",
+        "Swarm (2)"
       ],
-      "notes": "May transport two units of Termagants and Hormagaunts. May bring back Termagants and Hormagaunts when Swarming."
+      "notes": "May transport two units of Termagants and Hormagaunts. May bring back two units of Termagants and/or Hormagaunts when Swarming."
       },
       {
       "name": "Tervigon",
@@ -389,11 +422,32 @@
       ],
       "specialRules": [
          "Reinforced Armour",
-        "Swarm (1)",
-        "Transport"
+         "Transport",
+         "Swarm (1)"
     ],
-    "notes": "May transport two units of Termagants and Hormagaunts. May bring back Termagants and Hormagaunts when Swarming."
+    "notes": "May transport two units of Termagants and Hormagaunts. May bring back one unit of Termagants and/or Hormagaunts when Swarming."
       },
+      {
+      "name": "Viragon",
+      "type": "WE",
+      "speed": 20,
+      "armour": 5,
+      "cc": 3,
+      "ff": 6,
+      "weapons": [
+      "Bio-Electric Field",
+      "Massive Scything Talons"
+      ],
+      "specialRules": [
+        "Damage Capacity: 4",
+        "Synapse",
+        "Fearless",
+        "Reinforced Armour",
+        "Regeneration",
+        "Tunneler"
+    ],
+    "crit": "The Viragon is killed."
+    },
       {
       "name": "Trygon Prime",
       "type": "H-AV",
@@ -402,6 +456,7 @@
       "cc": 3,
       "ff": 6,
       "weapons": [
+        "Bio-Electric Field",
         "Large Claws"
       ],
       "specialRules": [
@@ -419,6 +474,7 @@
     "cc": 3,
     "ff": 6,
     "weapons": [
+      "Bio-Electric Field",
       "Large Claws"
     ],
     "specialRules": [
@@ -449,13 +505,14 @@
     "crit": "The Harridan and any Gargoyles transported are killed."
     },
     {
-    "name": "Spawn Harridan",
+    "name": "Hive Harridan",
     "type": "WE",
     "speed": 35,
     "armour": 5,
     "cc": 5,
-    "ff": 6,
+    "ff": 5,
     "weapons": [
+      "Tentaclids",
       "Large Claws",
       "Gaunt Pouch"
     ],
@@ -465,10 +522,10 @@
       "Fearless",
       "Skimmer",
       "Reinforced Armour",
-      "Swarm (1)",
-      "Transport"
+      "Transport",
+      "Swarm (1)"
     ],
-    "notes": "May bring back Gargoyles when Swarming. May transport up to four units of Gargoyles.",
+    "notes": "May transport up to four units of Gargoyles. May bring back one unit of Gargoyles when Swarming.",
     "crit": "The Harridan is killed."
     },
     {
@@ -621,11 +678,11 @@
         "Inspiring",
         "Reinforced Armour",
         "Regeneration",
-      "Swarm (2)",
-      "Transport"
+      "Transport",
+      "Swarm (3)"
 
     ],
-    "notes": "May transport five units of Termagants, Hormagaunts and Gargoyles. May bring back Termagants, Hormagaunts and Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+    "notes": "May transport five units of Termagants, Hormagaunts and Gargoyles. May bring back three units of Termagants, Hormagaunts and/or Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
     "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
 
 
