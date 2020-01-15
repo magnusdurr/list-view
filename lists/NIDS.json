@@ -266,24 +266,23 @@
 
       {
       "name": "Harpy",
-      "type": "LV",
+      "type": "AV",
       "speed": 35,
       "armour": 5,
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Venom Cannon",
+        "Stranglethorn Cannon",
         "Spore Cyst",
         "Grasping Talons"
       ],
       "specialRules": [
-        "Reinforced Armour",
         "Skimmer"
       ]
       },
       {
       "name": "Hive Crone",
-      "type": "LV",
+      "type": "AV",
       "speed": 35,
       "armour": 5,
       "cc": 5,
@@ -294,7 +293,6 @@
         "Grasping Talons"
       ],
       "specialRules": [
-        "Reinforced Armour",
         "Skimmer"
       ]
       },
@@ -512,6 +510,7 @@
     "cc": 5,
     "ff": 5,
     "weapons": [
+      "Drool Cannon",
       "Tentaclids",
       "Large Claws",
       "Gaunt Pouch"
