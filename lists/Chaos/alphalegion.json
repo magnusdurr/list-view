@@ -92,9 +92,9 @@
               "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
               "Add four Chaos Cultists and/or Mutants: 10 points each",
               "Replace up to six Chaos Cultists and/or Mutants with Big Mutants: 15 points each",
-              "Add one Icon Bearer: 25 points",
+              "Add three Heavy Mortars: 100 points",
               "Add one Chaos Spawn: 35 points",
-              "Add up to three Ragnarok Heavy Tanks: 50 points each",
+              "Add three Ragnarok Heavy Tanks: 150 points",
               "Supreme Commander",
               "Flak"
             ],
@@ -103,8 +103,47 @@
       ]
     },
     {
+      "name": "Cultist Support Formations",
+      "description": "Up to one Cultist Support Formations per Cultist Coven",
+      "formations": [
+          {
+          "name": "Cultist Cavalry",
+          "units": "Six Death Riders, four Chaos Hounds",
+          "extraUnits": [
+              "Add Daemonic Icon to the formation: 75 points"
+          ],
+          "points": 225
+        },
+          {
+            "name": "Heavy Mortar Battery",
+            "units": "Three Heavy Mortars, two Big Mutants",
+            "extraUnits": [
+                "Flak"
+            ],
+            "points": 200
+        },
+        {
+          "name": "Macharius Platoon",
+          "units": "Two Macharius",
+          "extraUnits": [
+                "Flak"
+              ],
+              "points": 200
+          },
+          {
+            "name": "Ragnarok Squadron",
+            "units": "Four Ragnarok Heavy Tanks",
+            "extraUnits": [
+                  "Flak"
+                ],
+                "points": 250
+            }
+
+        ]
+    },
+    {
       "name": "Alpha Legion Elite Detachments",
-      "description": "Up to one Alpha Legion Elite Detachment for each Cultist Coven.",
+      "description": "Up to one Alpha Legion Elite Detachment for each Cultist Coven or Cultist Support Formation.",
       "formations": [
           {
             "name": "Alpha Legion Marines",
@@ -126,13 +165,13 @@
           },
           {
             "name": "Terminators",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators plus transport",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, three Lernaean Terminators plus transport",
             "extraUnits": [
                 "Add up to three Alpha Legion Land Raiders: 50 points each",
               "Supreme Commander",
                 "Dreadnoughts"
             ],
-            "points": 300
+            "points": 225
           },
           {
             "name": "Headhunters",
@@ -145,38 +184,9 @@
           }
       ]
     },
-  {
-    "name": "Cultist Support Formations",
-    "description": "Up to one Cultist Support Formations per Cultist Coven",
-    "formations": [
-        {
-        "name": "Cultist Cavalry",
-        "units": "Six Death Riders, four Chaos Hounds, Daemonic Pact",
-        "extraUnits": [
-        ],
-        "points": 300
-      },
-        {
-          "name": "Heavy Mortar Battery",
-          "units": "Three Heavy Mortars, two Big Mutants",
-          "extraUnits": [
-              "Flak"
-          ],
-          "points": 200
-      },
-      {
-        "name": "Macharius Platoon",
-        "units": "Two Macharius",
-        "extraUnits": [
-              "Flak"
-            ],
-            "points": 200
-        }
-      ]
-  },
-  {
+   {
     "name": "Alpha Legion Navy",
-    "description": "Up to a third of the points available may be spent on Alpha Legion Navy.",
+    "description": "Up to a third of the points available may be spent on Alpha Legion Navy. Max one for each Alpha Legion Elite Detachment.",
     "formations": [
         {
           "name": "Xiphon Squadron",
@@ -229,7 +239,7 @@
         "points": "100 points"
     },
       {
-        "description": "'I'm Alpharius!' The army benefits from the Supreme Commander rule as long as there is at least one Alpha Legion Lord on the battlefield.",
+        "description": "'I'm Alpharius!' The army benefits from the Supreme Commander rule as long as there is at least one Alpha Legion Lord on the battlefield. Formation must contain an Alpha Legion Lord.",
         "points": "75 points"
       }
       ]

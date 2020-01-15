@@ -826,9 +826,18 @@
      {
        "title": "Fickle Masters",
        "description": [
-         "In the strategy phase of each turn if the Chaos player rolls a 6, they are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled 1D3 summoning points is lost from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect."
+         "In the Strategy Phase of each turn if the Chaos player rolls a 6, they are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled 1D3 summoning points is lost from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect."
        ]
      },
+
+     {
+       "title": "The Great Conspirator",
+       "description": [
+         "In the Strategy Phase of each turn if the Thousand Sons player rolls a 6, they automatically wins the Strategy Roll, and are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled, they automatically lose, and also loses 1D3 summoning points from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect.",
+         "If another effect would cause both players to automatically win or lose the Strategy Roll, the player who lost the Strategy Roll last turn wins."
+       ]
+     },
+
 
      {
         "title": "Daemon Engine (x)",
