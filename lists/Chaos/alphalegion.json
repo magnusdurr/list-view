@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Alpha Legion",
-  "version": "0.7.1",
-  "release": "2020-01-11",
+  "version": "0.7.2",
+  "release": "2020-01-15",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Alpha Legion armies are also subject to 'The Harrowing' special rule.",
   "Initiative": "Cultist Coven and Cultist Support formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
 
@@ -25,7 +25,7 @@
           "Alpha Legion Sorcerer",
           "Alpha Legion Marines",
           "Alpha Legion Havocs",
-          "Headhunters",
+          "Alpha Legion Headhunters",
           "Alpha Legion Destroyers",
           "Lernaean Terminators",
           "Alpha Legion Dreadnought",
@@ -44,7 +44,7 @@
       "units": [
           "Daemon Prince",
           "Aspiring Champion",
-          "Icon Bearer",
+          "Daemonic Icon",
           "Cultists",
           "Mutants",
           "Big Mutants",
@@ -86,8 +86,9 @@
       "formations": [
           {
             "name": "Cultist Coven",
-            "units": "One Aspiring Champion, nine Chaos Cultists and/or Mutants, Daemonic Pact",
+            "units": "One Aspiring Champion, nine Chaos Cultists and/or Mutants",
             "extraUnits": [
+              "Add a Daemonic Icon to the Aspiring Champion: 25 points",
               "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
               "Add four Chaos Cultists and/or Mutants: 10 points each",
               "Replace up to six Chaos Cultists and/or Mutants with Big Mutants: 15 points each",
@@ -97,7 +98,7 @@
               "Supreme Commander",
               "Flak"
             ],
-            "points": 225
+            "points": 200
         }
       ]
     },
@@ -135,7 +136,7 @@
           },
           {
             "name": "Headhunters",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Headhunters plus transport",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Headhunters plus transport",
             "extraUnits": [
               "Supreme Commander",
                 "Dreadnoughts"
