@@ -484,12 +484,10 @@
       "weapons": [
        "Pulse Driver Cannon",
        "Seeker Missiles|2|",
-       "Battlesuit Burst Cannons"
+       "Velocity Tracker"
       ],
       "specialRules": [
-          "Damage Capacity: 2",
           "Walker",
-          "Tau Jet Pack",
           "Tau Deflector Shield"
       ]
     },
@@ -538,8 +536,8 @@
         "Tau Deflector Shield",
         "Transport"
       ],
-      "notes": "May transport twelve INF from Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, Gun Drones, Broadsides, Kroot Warriors, Kroot Master Shaper and Kroot Hounds. Krootox, XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. In addition may carry eight AV/LV from Piranha and Tetra. Devilfish, Hammerhead, Sky Ray counts as two units each.",
-      "crit": "The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Further critical hits cause an additional point of damage."
+      "notes": "May transport twelve INF from Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, Gun Drones, Kroot Warriors, Kroot Master Shapers and Kroot Hounds. Krootox, XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. In addition may carry eight AV/LV from Piranha and Tetra. Devilfish, Hammerhead and Sky Ray counts as two units each.",
+      "crit": "The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Subsequent critical hits cause an additional point of damage."
     }
     ]
   }

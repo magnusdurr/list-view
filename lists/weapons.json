@@ -7441,9 +7441,11 @@
       "name": "Pulse Driver Cannon",
         "modes": [
           {
-            "firepower": "MW4+",
-            "range": 60,
+            "firepower": "AP3+/AT3+",
+            "range": 75,
             "specialRules": [
+                "IC",
+                "Lance"
 
           ]
           }
