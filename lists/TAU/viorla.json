@@ -65,7 +65,7 @@
       "formations": [
           {
             "name": "Crisis Battlesuit Cadre",
-            "units": "One Shas'el, four XV8 Crisis Battlesuits, two Gun Drones",
+            "units": "One Shas'el, four XV8 Crisis Battlesuits",
             "extraUnits": [
               "Shas’o",
               "Crisis Suits",
@@ -98,7 +98,8 @@
             "units": "Four Pathfinders, two Devilfish",
             "extraUnits": [
               "Replace two Devilfish with two Pathfinders: 25 points",
-              "Gun Drones"
+              "Gun Drones",
+              "Sky Ray"
             ],
             "points": 175
           },
@@ -106,7 +107,6 @@
           "name": "Heavy Battlesuit Group",
           "units": "Three XV104 Riptide Battlesuits, XV107 R'Varna Battlesuits or XV109 Y'Vahra Battlesuits (May not mix configurations)",
           "extraUnits": [
-              "Gun Drones"
           ],
           "points": 350
         },
@@ -122,7 +122,6 @@
           "name": "Stormsurge Group",
           "units": "Two KV128 Stormsurge Battlesuits",
           "extraUnits": [
-              "Gun Drones"
           ],
           "points": 250
         },
@@ -144,6 +143,7 @@
             "name": "Supremacy Suit",
             "units": "One Shas'el, one KX139 Supremacy Suit",
             "extraUnits": [
+              "Shas’o"
             ],
             "points": 300
           },
@@ -202,7 +202,7 @@
           "name": "0–1 Ethereal",
           "options": [
             {
-              "description": "Add one Ethereal character to a unit of Vior'la Fire Warriors",
+              "description": "Once per army, add one Ethereal to a unit of Vior'la Fire Warriors",
               "points": "50 points"
             }
           ]
@@ -220,7 +220,7 @@
         "name": "Recon",
         "options": [
           {
-            "description": "Add three Piranhas or two Tetras",
+            "description": "Add two Piranhas or one Tetra",
             "points": "50 points"
           }
         ]
@@ -269,6 +269,7 @@
           }
         ]
       }
+
     ]
   }
 }

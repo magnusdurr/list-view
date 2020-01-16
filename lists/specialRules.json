@@ -762,7 +762,7 @@
      {
        "title": "Daemonic Incursion Summoning Rules",
        "description": [
-           "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so  (brackets indicating the Summoning Points cost):",
+           "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with (Portals & Mortals formations are aligned with Chaos Undivided). They do not need an upgrade to do so  (brackets indicating the Summoning Points cost):",
            "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
            "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
@@ -811,12 +811,6 @@
        ]
      },
      {
-       "title": "The Architect of Fate",
-       "description": [
-         "The Thousand Sons player may spend one point from the Lesser Daemon Pool to re-roll any failed Invulnerable Save. No such save can be re-rolled more than once."
-       ]
-     },
-     {
        "title": "Daemonic Focus",
        "description": [
          "Units with Daemonic focus may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Daemonic Focus may not be used to keep summoned units in play if the formation is broken. Multiples of Daemonic Focus have no additional effect."
@@ -831,7 +825,7 @@
      },
 
      {
-       "title": "The Great Conspirator",
+       "title": "The Architect of Fate",
        "description": [
          "In the Strategy Phase of each turn if the Thousand Sons player rolls a 6, they count as having 5 in Strategy Rating that turn, and are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled, they count as having 3 in Strategy Rating that turn, and also loses 1D3 summoning points from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect."
        ]
@@ -971,7 +965,7 @@
         {
        "title": "Daemonic Instability",
        "description": [
-         "When any Daemon Legion formation becomes broken for any reason, it is destroyed."
+         "When any Exalted Greater Daemon formation or Daemon Legions formation becomes broken for any reason, it is immediately destroyed."
        ]
         },
 

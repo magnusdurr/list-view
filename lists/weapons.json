@@ -2362,7 +2362,19 @@
       ]
     },
     {
-      "name": "Burst Cannon and Gun Drones",
+      "name": "Gun Drones",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+                "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Burst Cannon and Drones",
         "modes": [
           {
             "firepower": "AP5+",
@@ -5329,8 +5341,8 @@
       "name": "Ion Accelerator",
         "modes": [
           {
-            "firepower": "MW3+",
-            "range": 45,
+            "firepower": "AP3+/AT4+",
+            "range": 60,
             "specialRules": [
           ]
           }
@@ -7429,8 +7441,8 @@
       "name": "Pulse Driver Cannon",
         "modes": [
           {
-            "firepower": "MW3+",
-            "range": 75,
+            "firepower": "MW4+",
+            "range": 60,
             "specialRules": [
 
           ]
@@ -7520,8 +7532,8 @@
       "name": "Pulse Submunition Cannons",
         "modes": [
           {
-            "firepower": "3x AP3+/AT4+",
-            "range": 60,
+            "firepower": "3x AP4+/AT4+",
+            "range": 45,
             "specialRules": [
           ]
           }
@@ -7688,7 +7700,7 @@
       ]
     },
     {
-      "name": "Railgun",
+      "name": "Hammerhead Railgun",
         "modes": [
           {
             "firepower": "AT4+",
@@ -7696,13 +7708,7 @@
             "specialRules": [
               "Lance"
           ]
-          },
-          {
-            "firepower": "AP5+",
-            "join": "or",
-            "specialRules": [
-          ]
-        }
+          }
       ]
     },
     {
@@ -10176,7 +10182,7 @@
       ]
     },
     {
-      "name": "Twin Railguns",
+      "name": "Broadside Railguns",
         "modes": [
           {
             "firepower": "AT3+",
@@ -10318,7 +10324,7 @@
         "modes": [
           {
             "firepower": "AA6+",
-            "range": 30,
+            "range": 45,
             "specialRules": [
           ]
           }

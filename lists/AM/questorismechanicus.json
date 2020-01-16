@@ -132,9 +132,10 @@
     },
     {
       "name": "Relic Lances",
+      "description": "Up to one Relic Lance for each part of 1500 points in the army.",
       "formations": [
         {
-          "name": "0-1 Questoris Reliquae",
+          "name": "Questoris Reliquae",
           "units": "One Seneschal, three Questoris Relic Knights (may not mix configurations)",
           "extraUnits": [
               "Baron"
@@ -142,7 +143,7 @@
           "points": 450
       },
       {
-        "name": "0-1 Acastus Reliquae",
+        "name": "Acastus Reliquae",
         "units": "One Seneschal, two Acastus Knights (may not mix configurations)",
         "extraUnits": [
             "Baron"
@@ -150,7 +151,7 @@
         "points": 500
     },
     {
-      "name": "0-1 Cerastus Reliquae",
+      "name": "Cerastus Reliquae",
       "units": "One Seneschal, one Cerastus Knight-Atrapos",
       "extraUnits": [
       ],
@@ -216,11 +217,12 @@
             {
               "description": "Add one Seneschal to the formation",
               "points": "25 points"
-            }
-          ]
-        }
-        ]
+          }
+      ]
     }
-    ]
+],
+"usage": [
+  ""
+]
   }
 }

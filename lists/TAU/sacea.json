@@ -68,11 +68,11 @@
       "formations": [
         {
           "name": "Crisis Battlesuit Cadre",
-          "units": "One Shas'el, four XV8 Crisis Battlesuits, two Gun Drones",
+          "units": "One Shas'el, four XV8 Crisis Battlesuits",
           "extraUnits": [
+            "Gun Drones",
             "Shas’o",
-            "Crisis Suits",
-            "Gun Drones"
+            "Crisis Suits"
           ],
           "points": 250
         },
@@ -81,7 +81,6 @@
           "units": "Eight Sa'cea Fire Warriors, or six Sa'cea Fire Warriors and three Devilfish.",
           "extraUnits": [
               "Broadsides",
-              "Recon",
               "Ethereal",
               "Fire Warriors",
               "Hammerheads",
@@ -99,14 +98,15 @@
       "formations": [
         {
           "name": "Hammerhead Group",
-          "units": "Four Ion Hammerheads or four Fusion Hammerheads",
+          "units": "Four Ion Hammerheads",
           "extraUnits": [
-            "Replace four Ion Hammerheads with Rail Hammerheads: 25 points",
-            "Hammerheads",
+            "Replace four Ion Hammerheads with four Fusion Hammerheads or four Rail Hammerheads: 25 points",
+            "Recon",
+            "Gun Drones",
             "Sky Ray"
 
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Broadside Group",
@@ -139,8 +139,7 @@
           "name": "Recon Skimmer Group",
           "units": "Any six of the following units: Piranha, Tetra",
           "extraUnits": [
-            "Gun Drones",
-            "Recon"
+            "Gun Drones"
           ],
           "points": 175
         },
@@ -177,7 +176,7 @@
           "name": "Tiger Shark Squadron",
           "units": "Two Tiger Shark Bombers",
           "extraUnits": [
-                "Add six Gun Drones: 75 points"
+                "Add six Gun Drones: 100 points"
           ],
           "points": 175
         },
@@ -242,7 +241,7 @@
         "name": "0–1 Ethereal",
         "options": [
           {
-            "description": "Add one Ethereal per army to a unit of Sa'cea Fire Warriors",
+            "description": "Once per army, add one Ethereal to a unit of Sa'cea Fire Warriors",
             "points": "50 points"
           }
         ]
@@ -285,7 +284,7 @@
         "name": "Recon",
         "options": [
           {
-            "description": "Add three Piranhas or two Tetras",
+            "description": "Add two Piranhas or one Tetra",
             "points": "50 points"
           }
         ]
@@ -310,8 +309,8 @@
             "points": "75 points"
           },
           {
-            "description": "Add up to two Rail Hammerheads or Fusion Hammerheads",
-            "points": "50 points each"
+            "description": "Add two Rail Hammerheads or two Fusion Hammerheads",
+            "points": "100 points"
           }
         ]
       },

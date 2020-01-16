@@ -66,40 +66,6 @@
       ]
     },
     {
-      "name": "XV8 Crisis Battlesuits",
-      "type": "INF",
-      "speed": 20,
-      "armour": 3,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Twin Missile Pods",
-        "Twin Plasma Rifles",
-        "Twin Fusion Blasters"
-      ],
-      "specialRules": [
-        "Invulnerable Save",
-        "Tau Jet Packs"
-      ]
-    },
-    {
-      "name": "XV8(f) Crisis Battlesuits",
-      "type": "INF",
-      "speed": 20,
-      "armour": 3,
-      "cc": 5,
-      "ff": 4,
-      "weapons": [
-        "Twin Tau Flamers",
-        "Twin Plasma Rifles",
-        "Twin Fusion Blasters"
-      ],
-      "specialRules": [
-        "Invulnerable Save",
-        "Tau Jet Packs"
-      ]
-    },
-    {
       "name": "Sa'cea Fire Warriors",
       "type": "INF",
       "speed": 15,
@@ -189,7 +155,7 @@
     {
       "name": "Krootox",
       "type": "INF",
-      "speed": 15,
+      "speed": 20,
       "armour": 4,
       "cc": 4,
       "ff": 5,
@@ -216,6 +182,40 @@
         "Markerlights",
         "Scout"
 
+      ]
+    },
+    {
+      "name": "XV8 Crisis Battlesuits",
+      "type": "INF",
+      "speed": 20,
+      "armour": 3,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Twin Missile Pods",
+        "Twin Plasma Rifles",
+        "Twin Fusion Blasters"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Tau Jet Packs"
+      ]
+    },
+    {
+      "name": "XV8(f) Crisis Battlesuits",
+      "type": "INF",
+      "speed": 20,
+      "armour": 3,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Twin Tau Flamers",
+        "Twin Plasma Rifles",
+        "Twin Fusion Blasters"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Tau Jet Packs"
       ]
     },
     {
@@ -280,7 +280,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-       "Twin Railguns",
+       "Broadside Railguns",
        "Smart Missile System"
       ],
       "specialRules": [
@@ -315,7 +315,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-       "Burst Cannon and Gun Drones",
+       "Gun Drones",
        "Seeker Missiles"
       ],
       "specialRules": [
@@ -347,7 +347,7 @@
       "cc": 6,
       "ff": 6,
       "weapons": [
-       "Burst Cannon and Gun Drones",
+       "Burst Cannon and Drones",
        "Seeker Missiles"
       ],
       "specialRules": [
@@ -369,8 +369,10 @@
        "Seeker Missiles"
       ],
       "specialRules": [
-        "Skimmer"
-    ]
+        "Skimmer",
+        "Transport"
+    ],
+    "notes": "May transport one unit of Gun Drones."
     },
     {
       "name": "Rail Hammerhead",
@@ -380,10 +382,9 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-       "Railgun",
+       "Hammerhead Railgun",
        "Smart Missile System",
        "Seeker Missiles"
-
       ],
       "specialRules": [
         "Skimmer"
@@ -420,7 +421,7 @@
       "specialRules": [
         "Skimmer",
         "Markerlights"
-      ]
+    ]
     },
     {
       "name": "XV104 Riptide Battlesuit",
@@ -452,8 +453,8 @@
       ],
       "specialRules": [
           "Walker",
-          "Thick Rear Armour",
           "Tau Jet Pack",
+          "Thick Rear Armour",
           "Tau Deflector Shield"
       ]
     },
@@ -465,8 +466,7 @@
       "cc": 5,
       "ff": 4,
       "weapons": [
-       "Plasma Flamer",
-       "Velocity Tracker"
+       "Plasma Flamer"
       ],
       "specialRules": [
           "Walker",
@@ -477,7 +477,7 @@
     {
       "name": "KX128 Stormsurge Battlesuit",
       "type": "H-AV",
-      "speed": 15,
+      "speed": 20,
       "armour": 3,
       "cc": 5,
       "ff": 5,
@@ -487,8 +487,8 @@
        "Battlesuit Burst Cannons"
       ],
       "specialRules": [
+          "Damage Capacity: 2",
           "Walker",
-          "Thick Rear Armour",
           "Tau Jet Pack",
           "Tau Deflector Shield"
       ]
