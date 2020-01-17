@@ -791,7 +791,7 @@
       ]
     },
     {
-      "name": "AC Twin Burst Cannon",
+      "name": "AC Twin Burst Cannons",
         "modes": [
           {
             "firepower": "AA6+",
@@ -4671,10 +4671,20 @@
       "name": "Heavy Ion Phalanx",
       "modes": [
         {
-          "firepower": "AP3+/AT4+",
-          "range": 75,
+          "firepower": "3x AP3+/AT4+",
+          "range": 60,
           "specialRules": [
-            "FxF"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tri-axis Ion Cannon",
+      "modes": [
+        {
+          "firepower": "AP3+/AT4+",
+          "range": 60,
+          "specialRules": [
           ]
         }
       ]
@@ -4732,7 +4742,7 @@
             "firepower": "MW2+",
             "range": 90,
             "specialRules": [
-              "TK(D3)"
+              "TK(1)"
           ]
           }
       ]
@@ -7441,7 +7451,7 @@
       "name": "Pulse Driver Cannon",
         "modes": [
           {
-            "firepower": "AP3+/AT3+",
+            "firepower": "AP3+/AT4+",
             "range": 75,
             "specialRules": [
                 "IC",
@@ -7523,8 +7533,10 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range": 60,
+            "range": 45,
             "specialRules": [
+              "IC",
+              "Lance",
               "Ind"
           ]
           }
@@ -7799,7 +7811,7 @@
       "name": "Twin Reaper Autocannons (AA mounted)",
       "modes": [
         {
-          "firepower": "AP3+/AT5+/AA5+",
+          "firepower": "AP3+/AT5+/AA6+",
           "range": 30
             }
       ]
@@ -9958,7 +9970,7 @@
           "firepower": "MW2+",
           "range": 90,
           "specialRules": [
-            "TK(D3+1)",
+            "TK(D3)",
             "FxF"
           ]
         }
@@ -10065,11 +10077,11 @@
       ]
     },
     {
-      "name": "Twin Manta Burst Cannons",
+      "name": "Twin Burst Cannons",
       "modes": [
         {
           "firepower": "AP5+/AA6+",
-          "range": 45,
+          "range": 30,
           "specialRules": [
           ]
         }

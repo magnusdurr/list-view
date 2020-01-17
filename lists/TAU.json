@@ -476,20 +476,23 @@
     },
     {
       "name": "KX128 Stormsurge Battlesuit",
-      "type": "H-AV",
-      "speed": 20,
+      "type": "WE",
+      "speed": 15,
       "armour": 3,
       "cc": 5,
       "ff": 5,
       "weapons": [
-       "Pulse Driver Cannon",
+       "Pulse Driver Cannon||FxF",
        "Seeker Missiles|2|",
        "Velocity Tracker"
       ],
       "specialRules": [
+          "Damage Capacity 2",
           "Walker",
+          "Tau Jet Pack",
           "Tau Deflector Shield"
-      ]
+      ],
+        "crit": "The Stormsurge Battlesuit is destroyed."
     },
     {
       "name": "KX139 Supremacy Suit",
@@ -499,19 +502,20 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
+        "Tri-axis Ion Cannon|2|FwA",
         "Seeker Missiles|2|",
-        "Heavy Rail Cannon|0-1|",
-        "Nexus Missile Array|0-1|",
-        "Pulse Ordnance Multi-Driver|0-1|"
+        "Nexus Missile Array|0-1|FwA",
+        "Heavy Rail Cannon|0-1|FxF",
+        "Pulse Ordnance Multi-Driver|0-1|FxF"
       ],
       "specialRules": [
-        "Damage Capacity: 3",
+        "Damage Capacity: 4",
         "Walker",
         "Thick Rear Armour",
         "Tau Deflector Shield"
       ],
-      "notes": "Armed with either a Heavy Rail Cannon, a Nexus Missile Array or a Pulse Ordnance Multi Driver.",
-      "crit": "The Supremacy Suit is destroyed. Any units within 5cm take a hit on 6+."
+      "notes": "Armed with either a Nexus Missile Array, Heavy Rail Cannon, or Pulse Ordnance Multi Driver.",
+      "crit": "The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Subsequent critical hits cause an additional point of damage."
     },
     {
       "name": "Manta",
@@ -521,10 +525,11 @@
       "ff": 4,
       "weapons": [
         "Twin Heavy Railcannons",
-        "Heavy Ion Phalanx|3|",
-        "Twin Manta Burst Cannons|4|",
+        "Heavy Ion Phalanx||FxF",
         "Twin Missile Pods",
-        "Seeker Missiles|2|"
+        "Seeker Missiles|2|",
+        "Twin Burst Cannons|4|"
+
       ],
       "specialRules": [
         "Damage Capacity: 6",
