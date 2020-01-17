@@ -82,7 +82,7 @@
           "extraUnits": [
               "Broadsides",
               "Ethereal",
-              "Fire Warriors",
+              "Fire Warriors and Pathfinders",
               "Hammerheads",
               "Sky Ray",
               "Bonded Team",
@@ -98,15 +98,15 @@
       "formations": [
         {
           "name": "Hammerhead Group",
-          "units": "Four Ion Hammerheads",
+          "units": "Four Rail Hammerheads",
           "extraUnits": [
-            "Replace four Ion Hammerheads with four Fusion Hammerheads or four Rail Hammerheads: 25 points",
+            "Replace four Rail Hammerheads with four Fusion Hammerheads, or four Ion Hammerheads and two Gun Drones: Free",
+            "Hammerheads",
             "Recon",
-            "Gun Drones",
             "Sky Ray"
 
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Broadside Group",
@@ -202,7 +202,7 @@
           "extraUnits": [
 
           ],
-          "points": 525
+          "points": 550
         },
         {
           "name": "0–1 Spacecraft",
@@ -256,17 +256,21 @@
         ]
       },
       {
-        "name": "Fire Warriors",
+        "name": "Fire Warriors and Pathfinders",
         "options": [
           {
             "description": "Add any one of the following options:"
           },
           {
-            "description": "Add Four Sa'cea Fire Warriors",
+            "description": "Replace two Sa'cea Fire Warriors with two Pathfinders",
+            "points": "50 points"
+          },
+          {
+            "description": "Add four Sa'cea Fire Warriors",
             "points": "75 points"
           },
           {
-            "description": "Four Sa'cea Fire Warriors and two Devilfish",
+            "description": "Add four Sa'cea Fire Warriors and two Devilfish",
             "points": "100 points"
           }
         ]
@@ -302,15 +306,15 @@
         "name": "Hammerheads",
         "options": [
           {
-            "description": "Add any one of the following options: "
+            "description": "Add any one of the following options. May not mix different types of Hammerheads in a Hammerhead Group. "
           },
           {
             "description": "Add two Ion Hammerheads",
             "points": "75 points"
           },
           {
-            "description": "Add two Rail Hammerheads or two Fusion Hammerheads",
-            "points": "100 points"
+            "description": "Add up to two Rail Hammerheads, or add up to two Fusion Hammerheads",
+            "points": "50 points each"
           }
         ]
       },
