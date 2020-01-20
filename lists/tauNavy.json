@@ -63,7 +63,7 @@
       "specialRules": [
           "Transport"
       ],
-      "notes": "May transport three Gun Drones"
+      "notes": "May transport three Gun Drones."
     },
     {
       "name": "Tiger Shark AX-1-0",
@@ -84,7 +84,7 @@
       "name": "Orca",
       "type": "AC/WE",
       "speed": "Bomber",
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -94,11 +94,10 @@
       ],
       "specialRules": [
         "Planetfall",
-        "Tau Deflector Shield",
         "Transport"
     ],
     "notes": "May transport twelve Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, Gun Drones, Broadsides, Kroot Warriors, Kroot Master Shaper and Kroot Hounds. XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. May also carry up to two Gun Drones in addition to any other cargo.",
-    "crit": "The Orca and all units aboard are destroyed."
+    "crit": "The Orca and all units being transported are destroyed."
     },
     {
       "name": "Custodian Class Battleship",

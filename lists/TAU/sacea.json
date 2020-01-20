@@ -128,7 +128,7 @@
         },
         {
           "name": "Pathfinder Group",
-          "units": "Two Pathfinders, two Devilfish",
+          "units": "Four Pathfinders, two Devilfish",
           "extraUnits": [
             "Gun Drones",
             "Recon"
@@ -194,7 +194,7 @@
           "extraUnits": [
 
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Manta Dropship",
@@ -250,8 +250,8 @@
         "name": "Crisis Suits",
         "options": [
           {
-            "description": "Add up to two XV8 Crisis Battlesuits",
-            "points": ["50 points for one", "75 points for two"]
+            "description": "Add two or four XV8 Crisis Battlesuits",
+            "points": ["75 points for two", "150 points for four"]
           }
         ]
       },
@@ -262,7 +262,7 @@
             "description": "Add any one of the following options:"
           },
           {
-            "description": "Replace two Sa'cea Fire Warriors with two Pathfinders",
+            "description": "Replace two Sa'cea Fire Warriors with two Pathfinders. Formation must contain Devilfish",
             "points": "50 points"
           },
           {
@@ -306,7 +306,7 @@
         "name": "Hammerheads",
         "options": [
           {
-            "description": "Add any one of the following options. May not mix different types of Hammerheads in a Hammerhead Group. "
+            "description": "Add any one of the following options."
           },
           {
             "description": "Add two Ion Hammerheads",
