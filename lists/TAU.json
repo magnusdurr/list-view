@@ -95,14 +95,15 @@
       ]
     },
     {
-      "name": "Fire Warrior Ascenders",
+      "name": "Fire Warrior Radiants",
       "type": "INF",
       "speed": 15,
       "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Ion Rifles|2|"
+        "Ion Rifles",
+        "Pulse Carbines"
       ],
       "specialRules": [
 
@@ -136,77 +137,7 @@
         "Tau Jet Packs"
       ]
     },
-    {
-      "name": "Kroot Hounds",
-      "type": "INF",
-      "speed": 20,
-      "cc": 3,
-      "weapons": [
-        "Fangs"
-        ],
-      "specialRules": [
-        "Infiltrators",
-        "Scout"
-      ]
-    },
-    {
-      "name": "Kroot Master Shapers",
-      "type": "INF",
-      "speed": 15,
-      "armour": 6,
-      "cc": 4,
-      "ff": 5,
-      "weapons": [
-        "Kroot Rifles",
-        "Mercenary Weapons"
-      ],
-      "specialRules": [
-        "Infiltrators",
-        "Leader",
-        "Scout"
-      ]
-    },
-    {
-      "name": "Kroot Warriors",
-      "type": "INF",
-      "speed": 15,
-      "cc": 4,
-      "ff": 5,
-      "weapons": [
-        "Kroot Rifles"
-      ],
-      "specialRules": [
-        "Infiltrators",
-        "Scout"
-      ]
-    },
-    {
-      "name": "Krootox",
-      "type": "INF",
-      "speed": 20,
-      "armour": 4,
-      "cc": 4,
-      "ff": 5,
-      "weapons": [
-        "Kroot Guns",
-        "Krootox Claws"
-      ],
-      "specialRules": [
-      ]
-    },
-    {
-      "name": "Vespid Stingwings",
-      "type": "INF",
-      "speed": 30,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Neutron Blasters"
-      ],
-      "specialRules": [
-        "Jump Packs"
-      ]
-    },
+
     {
       "name": "Pathfinders",
       "type": "INF",
@@ -314,6 +245,93 @@
       ]
     },
     {
+      "name": "Vespid Stingwings",
+      "type": "INF",
+      "speed": 30,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Neutron Blasters"
+      ],
+      "specialRules": [
+        "Jump Packs"
+      ]
+    },
+
+    {
+      "name": "Kroot Master Shapers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Kroot Rifles"
+      ],
+      "specialRules": [
+        "Infiltrators",
+        "Leader",
+        "Scout"
+      ]
+    },
+    {
+      "name": "Kroot Warriors",
+      "type": "INF",
+      "speed": 15,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Kroot Rifles"
+      ],
+      "specialRules": [
+        "Infiltrators",
+        "Scout"
+      ]
+    },
+    {
+      "name": "Kroot Hounds",
+      "type": "INF",
+      "speed": 20,
+      "cc": 3,
+      "weapons": [
+        "Fangs"
+        ],
+      "specialRules": [
+        "Infiltrators",
+        "Scout"
+      ]
+    },
+    {
+      "name": "Krootox",
+      "type": "INF",
+      "speed": 20,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Kroot Gun",
+        "Krootox Claws"
+      ],
+      "specialRules": [
+      ]
+    },
+
+    {
+      "name": "Great Knarloc",
+      "type": "LV",
+      "speed": 20,
+      "armour": 3,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Kroot Bolt Thrower",
+        "Knarloc Claws"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
       "name": "XV88 Broadside Battlesuit",
       "type": "LV",
       "speed": 15,
@@ -413,7 +431,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May transport one unit of Gun Drones or Missile Drones."
+    "notes": "May transport one unit of Gun Drones."
     },
     {
       "name": "Rail Hammerhead",
@@ -526,7 +544,7 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-       "Pulse Driver Cannon||FxF",
+       "Pulse Driver Cannon||FwA",
        "Seeker Missiles|2|",
        "Velocity Tracker"
       ],
@@ -550,8 +568,8 @@
         "Tri-axis Ion Cannon|2|FwA",
         "Seeker Missiles|2|",
         "Nexus Missile Array|0-1|FwA",
-        "Heavy Rail Cannon|0-1|FxF",
-        "Pulse Ordnance Multi-Driver|0-1|FxF"
+        "Heavy Rail Cannon|0-1|FwA",
+        "Pulse Ordnance Multi-Driver|0-1|FwA"
       ],
       "specialRules": [
         "Damage Capacity: 4",
@@ -587,7 +605,7 @@
         "Tau Deflector Shield",
         "Transport"
       ],
-      "notes": "May transport twelve INF from Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, Gun Drones, Kroot Warriors, Kroot Master Shapers and Kroot Hounds. Krootox, XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. In addition may carry eight AV/LV from Piranha and Tetra. Devilfish, Hammerhead and Sky Ray counts as two units each.",
+      "notes": "May transport twelve Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, Gun Drones, Kroot Warriors, Kroot Master Shapers and Kroot Hounds. Krootox, XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. In addition may carry eight Piranha and Tetra. Devilfish, Hammerhead and Sky Ray counts as two units each.",
       "crit": "The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Subsequent critical hits cause an additional point of damage."
     }
     ]

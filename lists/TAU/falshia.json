@@ -27,12 +27,14 @@
         "Shas'el",
         "XV8 Crisis Battlesuits",
         "Gun Drones",
-        "Fire Warrior Ascenders",
+        "Fire Warrior Radiants",
+        "Pathfinders",
         "Vespid Stingwings",
         "Kroot Hounds",
-        "Kroot Master Shaper",
+        "Kroot Master Shapers",
         "Kroot Warriors",
         "Krootox",
+        "Great Knarloc",
         "KV128 Stormsurge Battlesuit",
         "XV15 Stealth Battlesuits",
         "XV95 Ghostkeel Battlesuit",
@@ -76,8 +78,8 @@
             "points": 250
           },
         {
-          "name": "Fire Warrior Ascender Cadre",
-          "units": "Eight Fire Warrior Ascenders, or six Fire Warrior Ascenders and three Devilfish",
+          "name": "Fire Warrior Radiant Cadre",
+          "units": "Eight Fire Warrior Radiants, or six Fire Warrior Radiants and three Devilfish",
           "extraUnits": [
             "Sky Ray",
             "Bonded Team",
@@ -118,9 +120,9 @@
             "name": "Kroot Kindred",
             "units": "One Kroot Master Shapers, nine Kroot Warriors",
             "extraUnits": [
-              "Kroot",
               "Kroot Hounds",
-              "Krootox"
+              "Krootox",
+              "Great Knarlocs"
             ],
             "points": 175
           },
@@ -249,7 +251,7 @@
           "name": "Pathfinders",
           "options": [
               {
-                "description": "Replace two Fire Warrior Ascenders with two Pathfinders. Formation must contain Devilfish",
+                "description": "Replace two Fire Warrior Radiants with two Pathfinders. Formation must contain Devilfish",
                 "points": "50 points"
               }
           ]
@@ -258,7 +260,7 @@
           "name": "Stingwings",
           "options": [
             {
-              "description": "Add three Vespid Stingwings",
+              "description": "Add two Vespid Stingwings",
               "points": "50 points"
             }
           ]
@@ -289,15 +291,6 @@
           ]
         },
         {
-          "name": "Kroot",
-          "options": [
-            {
-              "description": "Add four Kroot Warriors",
-              "points": "50 points"
-            }
-          ]
-        },
-        {
           "name": "Kroot Hounds",
           "options": [
             {
@@ -311,6 +304,15 @@
           "options": [
             {
               "description": "Add three Krootox",
+              "points": "50 points"
+            }
+          ]
+        },
+        {
+          "name": "Great Knarlocs",
+          "options": [
+            {
+              "description": "Add two Great Knarlocs",
               "points": "50 points"
             }
           ]

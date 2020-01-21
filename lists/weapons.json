@@ -2819,6 +2819,18 @@
       ]
     },
     {
+      "name": "Knarloc Claws",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Cloud of Flies",
         "modes": [
           {
@@ -5563,7 +5575,18 @@
       ]
     },
     {
-      "name": "Kroot Guns",
+      "name": "Kroot Bolt Thrower",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kroot Gun",
         "modes": [
           {
             "firepower": "AP5+/AT6+",
