@@ -411,8 +411,14 @@
           "name": "Tau",
           "abbreviation": "TAU",
           "lists": [
+              {
+                "name": "Fal'shia",
+                "file": "falshia",
+                "status": "alpha",
+                "img": "website/img/Tau_Falshia.jpg"
+              },
             {
-              "name": "Sa'Cea",
+              "name": "Sa'cea",
               "file": "sacea",
               "status": "beta",
               "img": "website/img/Tau_Sacea.jpg"
@@ -421,7 +427,7 @@
               "name": "Vior'la",
               "file": "viorla",
               "status": "alpha",
-              "img": "website/img/Tau_Kelshan.jpg"
+              "img": "website/img/Tau_Viorla.jpg"
             }
           ]
         },

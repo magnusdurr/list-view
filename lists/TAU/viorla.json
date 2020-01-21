@@ -4,7 +4,7 @@
   "version": "0.6.0",
   "release": "2020-01-09",
   "strategy": "Tau armies have a Strategy Rating of 3.",
-  "Initiative": "Crisis Battlesuit Cadre, Supremacy Suit and Manta formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Crisis Battlesuit and Supremacy Suit formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
             "Coordinated Fire",
@@ -25,7 +25,7 @@
         "Shas'o",
         "Shas'el",
         "XV8 Crisis Battlesuits",
-        "Vior'la Fire Warriors",
+        "Fire Warrior Breachers",
         "Gun Drones",
         "Pathfinders",
         "XV15 Stealth Battlesuits",
@@ -39,8 +39,7 @@
         "XV95 Ghostkeel Battlesuit",
         "XV104 Riptide Battlesuit",
         "KX128 Stormsurge Battlesuit",
-        "KX139 Supremacy Suit",
-        "Manta"
+        "KX139 Supremacy Suit"
       ],
         "unitRules": [
             "Deflector Shield",
@@ -53,7 +52,8 @@
         "Razorshark Fighter",
         "Sun Shark Bomber",
         "Orca",
-        "Protector II Class Cruiser"
+        "Custodian Class Battleship",
+        "Protector Class Cruiser"
       ],
         "unitRules": [
       ]
@@ -75,7 +75,7 @@
           },
         {
           "name": "Fire Warrior Breacher Cadre",
-          "units": "Eight Vior'la Fire Warriors, or six Vior'la Fire Warriors and three Devilfish",
+          "units": "Eight Fire Warrior Breachers, or six Fire Warrior Breachers and three Devilfish",
           "extraUnits": [
             "Broadsides",
             "Sky Ray",
@@ -157,13 +157,6 @@
             "points": 325
           },
         {
-          "name": "Manta Dropship",
-          "units": "One Manta",
-          "extraUnits": [
-          ],
-          "points": 550
-        },
-        {
           "name": "Razorshark Squadron",
           "units": "Three Razorshark Fighters",
           "extraUnits": [
@@ -186,10 +179,11 @@
         },
         {
           "name": "0–1 Spacecraft",
-          "units": "Protector II Class Cruiser",
+          "units": "Protector Class Cruiser",
           "extraUnits": [
+              "Replace the Protector with a Custodian Class Battleship: 25 points"
           ],
-          "points": 200
+          "points": 175
         }
       ]
     }
@@ -211,7 +205,7 @@
           "name": "0–1 Ethereal",
           "options": [
             {
-              "description": "Once per army, add one Ethereal to a unit of Vior'la Fire Warriors",
+              "description": "Once per army, add one Ethereal to a unit of Fire Warrior Breachers",
               "points": "50 points"
             }
           ]
@@ -260,11 +254,11 @@
             "description": "Choose one of the following"
           },
           {
-            "description": "Four Vior'la Fire Warriors",
+            "description": "Four Fire Warrior Breachers",
             "points": "75 points"
           },
           {
-            "description": "Four Vior'la Fire Warriors and two Devilfish",
+            "description": "Four Fire Warrior Breachers and two Devilfish",
             "points": "100 points"
           }
         ]
@@ -277,7 +271,16 @@
             "points": "25 points"
           }
         ]
-      }
+    },
+    {
+      "name": "Sky Ray",
+      "options": [
+        {
+          "description": "Add one Sky Ray",
+          "points": "100 points"
+        }
+      ]
+    }
 
     ]
   }

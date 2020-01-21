@@ -4,7 +4,7 @@
   "version": "Beta 0.9.0",
   "release": "2020-01-09",
   "strategy": "Tau armies have a Strategy Rating of 3.",
-  "Initiative": "Crisis Battlesuit Cadre and Manta formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Crisis Battlesuit and Manta formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
             "Coordinated Fire",
@@ -26,7 +26,7 @@
         "Shas'o",
         "Shas'el",
         "XV8 Crisis Battlesuits",
-        "Sa'cea Fire Warriors",
+        "Fire Warriors",
         "Gun Drones",
         "Kroot Hounds",
         "Kroot Master Shaper",
@@ -77,8 +77,8 @@
           "points": 250
         },
         {
-          "name": "Fire Warrior Cadre",
-          "units": "Eight Sa'cea Fire Warriors, or six Sa'cea Fire Warriors and three Devilfish.",
+          "name": "Fire Warrior Strike Cadre",
+          "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish.",
           "extraUnits": [
               "Broadsides",
               "Ethereal",
@@ -118,7 +118,7 @@
         },
         {
           "name": "Kroot Kindred",
-          "units": "One Kroot Master Shapers unit and nine Kroot Warriors",
+          "units": "One Kroot Master Shapers, nine Kroot Warriors",
           "extraUnits": [
             "Kroot",
             "Kroot Hounds",
@@ -241,7 +241,7 @@
         "name": "0–1 Ethereal",
         "options": [
           {
-            "description": "Once per army, add one Ethereal to a unit of Sa'cea Fire Warriors",
+            "description": "Once per army, add one Ethereal to a unit of Fire Warriors",
             "points": "50 points"
           }
         ]
@@ -262,15 +262,15 @@
             "description": "Add any one of the following options:"
           },
           {
-            "description": "Replace two Sa'cea Fire Warriors with two Pathfinders. Formation must contain Devilfish",
+            "description": "Replace two Fire Warriors with two Pathfinders. Formation must contain Devilfish",
             "points": "50 points"
           },
           {
-            "description": "Add four Sa'cea Fire Warriors",
+            "description": "Add four Fire Warriors",
             "points": "75 points"
           },
           {
-            "description": "Add four Sa'cea Fire Warriors and two Devilfish",
+            "description": "Add four Fire Warriors and two Devilfish",
             "points": "100 points"
           }
         ]

@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "Sa'cea Fire Warriors",
+      "name": "Fire Warriors",
       "type": "INF",
       "speed": 15,
       "armour": 5,
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "Vior'la Fire Warriors",
+      "name": "Fire Warrior Breachers",
       "type": "INF",
       "speed": 15,
       "armour": 5,
@@ -89,6 +89,20 @@
       "ff": 4,
       "weapons": [
         "Pulse Blasters|2"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Fire Warrior Ascenders",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Ion Rifles|2|"
       ],
       "specialRules": [
 
@@ -103,6 +117,20 @@
       "ff": 5,
       "weapons": [
         "Twin Pulse Carbines"
+      ],
+      "specialRules": [
+        "Tau Jet Packs"
+      ]
+    },
+    {
+      "name": "Missile Drones",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Twin Missile Pods"
       ],
       "specialRules": [
         "Tau Jet Packs"
@@ -164,6 +192,19 @@
         "Krootox Claws"
       ],
       "specialRules": [
+      ]
+    },
+    {
+      "name": "Vespid Stingwings",
+      "type": "INF",
+      "speed": 30,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Neutron Blasters"
+      ],
+      "specialRules": [
+        "Jump Packs"
       ]
     },
     {
@@ -291,18 +332,18 @@
     {
       "name": "XV95 Ghostkeel Battlesuit",
       "type": "LV",
-      "speed": 20,
+      "speed": 15,
       "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
-       "Twin Fusion Blasters",
+       "Fusion Blaster",
        "Silenced Burst Cannons"
       ],
       "specialRules": [
         "First Strike",
-        "Reinforced Armour",
         "Walker",
+        "Reinforced Armour",
         "Tau Jet Pack",
         "Teleport"
       ]
@@ -372,7 +413,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May transport one unit of Gun Drones."
+    "notes": "May transport one unit of Gun Drones or Missile Drones."
     },
     {
       "name": "Rail Hammerhead",

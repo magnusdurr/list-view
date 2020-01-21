@@ -6490,6 +6490,17 @@
       ]
     },
     {
+      "name": "Neutron Blasters",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Nexus Missile Array",
         "modes": [
           {
@@ -7477,6 +7488,17 @@
       "modes": [
         {
           "firepower": "AP4+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ion Rifles",
+      "modes": [
+        {
+          "firepower": "AP6+/AT6+",
           "range": 30,
           "specialRules": [
           ]
@@ -9872,6 +9894,17 @@
         {
           "firepower": "AP4+/AT5+/AA5+",
           "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fusion Blaster",
+      "modes": [
+        {
+          "firepower": "MW5+",
+          "range": 15,
           "specialRules": [
           ]
         }
