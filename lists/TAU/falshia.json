@@ -35,6 +35,8 @@
         "Kroot Warriors",
         "Krootox",
         "Great Knarloc",
+        "Tetra",
+        "Piranha",
         "KV128 Stormsurge Battlesuit",
         "XV15 Stealth Battlesuits",
         "XV95 Ghostkeel Battlesuit",
@@ -70,7 +72,7 @@
             "name": "Crisis Battlesuit Cadre",
             "units": "One Shas'el, four XV8 Crisis Battlesuits",
             "extraUnits": [
-              "Shas’o",
+              "Shas'o",
               "Crisis Suits",
               "Gun Drones",
               "Stingwings"
@@ -102,7 +104,7 @@
             "units": "Four Rail Hammerheads",
             "extraUnits": [
               "Replace four Rail Hammerheads with four Fusion Hammerheads, or four Ion Hammerheads and two Gun Drones: Free",
-              "Hammerheads",
+              "Recon",
               "Stingwings",
               "Sky Ray"
             ],
@@ -130,7 +132,7 @@
           "name": "Pathfinder Group",
           "units": "Four Pathfinders, two Devilfish",
           "extraUnits": [
-            "Gun Drones",
+            "Recon",
             "Stingwings"
           ],
           "points": 175
@@ -221,10 +223,10 @@
           ]
         },
         {
-          "name": "0–1 Shas’o",
+          "name": "0–1 Shas'o",
           "options": [
             {
-              "description": "Replace one Shas’el character with a Shas’o character",
+              "description": "Replace one Shas'el character with a Shas'o character",
               "points": "75 points"
             }
           ]
@@ -254,6 +256,15 @@
                 "description": "Replace two Fire Warrior Radiants with two Pathfinders. Formation must contain Devilfish",
                 "points": "50 points"
               }
+          ]
+        },
+        {
+          "name": "Recon",
+          "options": [
+            {
+              "description": "Add two Piranhas or one Tetra",
+              "points": "50 points"
+            }
           ]
         },
         {

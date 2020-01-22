@@ -1,8 +1,8 @@
 {
   "fraction": "Tau",
   "army": "Vior'la",
-  "version": "0.6.0",
-  "release": "2020-01-09",
+  "version": "0.6.1",
+  "release": "2020-01-22",
   "strategy": "Tau armies have a Strategy Rating of 3.",
   "Initiative": "Crisis Battlesuit and Supremacy Suit formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -25,6 +25,7 @@
         "Shas'o",
         "Shas'el",
         "XV8 Crisis Battlesuits",
+        "XV84 Crisis Battlesuits",
         "Fire Warrior Breachers",
         "Gun Drones",
         "Pathfinders",
@@ -67,7 +68,7 @@
             "name": "Crisis Battlesuit Cadre",
             "units": "One Shas'el, four XV8 Crisis Battlesuits",
             "extraUnits": [
-              "Shas’o",
+              "Shas'o",
               "Crisis Suits",
               "Gun Drones"
             ],
@@ -85,7 +86,7 @@
             "Fire Warriors",
             "Gun Drones"
           ],
-          "points": 225
+          "points": 250
         }
       ]
     },
@@ -152,7 +153,7 @@
             "name": "Supremacy Suit",
             "units": "One Shas'el, one KX139 Supremacy Suit",
             "extraUnits": [
-              "Shas’o"
+              "Shas'o"
             ],
             "points": 325
           },
@@ -193,10 +194,10 @@
     "description": "Max three upgrades per formation. Each upgrade may be taken once by a formation.",
     "items": [
         {
-          "name": "0-1 Shas’o",
+          "name": "0-1 Shas'o",
           "options": [
             {
-              "description": "Replace one Shas'el in the army with a Shas’o",
+              "description": "Replace one Shas'el in the army with a Shas'o",
               "points": "75 points"
             }
           ]
@@ -232,9 +233,16 @@
         "name": "Crisis Suits",
         "options": [
           {
-            "description": "Add up to two XV8 Crisis Battlesuits",
-            "points": ["75 points for two", "150 points for four"]
-          }
+            "description": "Choose one of the following"
+          },
+          {
+            "description": "Replace the Shas'el's unit with XV84 Crisis Battlesuits",
+            "points": "75 points"
+        },
+        {
+          "description": "Add two XV8 Crisis Battlesuits",
+          "points": "75 points"
+        }
         ]
       },
       {

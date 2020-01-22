@@ -1,10 +1,10 @@
 {
   "fraction": "Tyranids",
   "army": "Cult of the Star-Spawn",
-  "version": "0.6.2",
-  "release": "2019-10-17",
+  "version": "0.6.3",
+  "release": "2020-01-22",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
-  "Initiative": "The Nexus Brood, Coven Vanguard, Coven Ambush and Coven Air Support formations have an Initiative Rating of 1+. All other formations have an Initative Rating of 2+.",
+  "Initiative": "Cult Support formations have an Initiative Rating of 2+, and are subject to the 'Nexus Brood' and 'Brood Brothers' special rules. All other formations have an Initative Rating of 1+.",
 
   "specialRules": ["Nexus Brood","Brood Brothers","Ambush","Extreme Mobility (Cult of the Star-Spawn)"],
   "usage": [
@@ -28,6 +28,7 @@
         "Coven Goliath",
         "Coven Limousine",
         "Coven Technical",
+        "Coven Thunderbolt Fighter",
         "Cult Basilisk",
         "Cult Hellhound",
         "Cult Griffon",
@@ -50,15 +51,7 @@
       ],
         "unitRules": [
       ]
-  },
-    {
-      "from": "ImperialNavy.json",
-      "units": [
-        "Thunderbolt Fighter"
-      ],
-        "unitRules": [
-      ]
-    }
+  }
 ],
 "sections": [
 
@@ -85,7 +78,9 @@
           "Add two Cult Fire Support: 50 points",
           "Add three Cult Leman Russ or Cult Leman Russ Demolishers: 125 points",
           "Add enough Cult Chimeras to transport the entire formation with no space left over: 25 points each",
-          "Add one Cult Hydra: 50 points"
+          "Add one Cult Hydra: 50 points",
+          "Add up to two Cult Hellhounds: 25 points each",
+        "Add three Cult Griffons: 50 points"
         ],
         "points": 250
     }
@@ -128,6 +123,11 @@
             "Coven Flak"
         ],
         "points": 175
+    },
+    {
+      "name": "Thunderbolt Brood",
+      "units": "Two Coven Thunderbolt Fighters",
+      "points": 175
     }
       ]
     },
@@ -194,18 +194,7 @@
       "points": 175
   }
     ]
-  },
-      {
-        "name": "Coven Air Support",
-        "description": "Up to a fourth of the points available may be spent on these formations.",
-        "formations": [
-            {
-              "name": "Thunderbolt Brood",
-              "units": "Two Thunderbolt Fighters",
-              "points": 175
-            }
-        ]
-      }
+  }
   ],
   "upgrades": {
     "title": "Upgrades",

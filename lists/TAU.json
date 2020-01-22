@@ -35,8 +35,9 @@
           "n/a"
       ],
       "specialRules": [
-        "Coordinated Fire",
-        "Leader"
+        "Leader",
+        "Coordinated Fire"
+
       ]
     },
     {
@@ -174,19 +175,19 @@
       ]
     },
     {
-      "name": "XV8(f) Crisis Battlesuits",
+      "name": "XV84 Crisis Battlesuits",
       "type": "INF",
       "speed": 20,
       "armour": 3,
       "cc": 5,
       "ff": 4,
       "weapons": [
-        "Twin Tau Flamers",
         "Twin Plasma Rifles",
         "Twin Fusion Blasters"
       ],
       "specialRules": [
         "Invulnerable Save",
+        "Markerlights",
         "Tau Jet Packs"
       ]
     },
