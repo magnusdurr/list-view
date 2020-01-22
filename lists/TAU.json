@@ -248,8 +248,7 @@
       "name": "Vespid Stingwings",
       "type": "INF",
       "speed": 30,
-      "armour": 5,
-      "cc": 5,
+      "cc": 6,
       "ff": 5,
       "weapons": [
         "Neutron Blasters"
@@ -416,6 +415,24 @@
     "notes": "May transport two units of Fire Warriors, Pathfinders."
     },
     {
+      "name": "Missile Hammerhead",
+      "type": "AV",
+      "speed": 30,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Missile Pods|2|",
+       "Smart Missile System",
+       "Seeker Missiles"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Transport"
+    ],
+    "notes": "May transport one unit of Gun Drones."
+    },
+    {
       "name": "Ion Hammerhead",
       "type": "AV",
       "speed": 30,
@@ -567,7 +584,7 @@
       "weapons": [
         "Tri-axis Ion Cannon|2|FwA",
         "Seeker Missiles|2|",
-        "Nexus Missile Array|0-1|FwA",
+        "Nexus Missile Array|0-1|",
         "Heavy Rail Cannon|0-1|FwA",
         "Pulse Ordnance Multi-Driver|0-1|FwA"
       ],
