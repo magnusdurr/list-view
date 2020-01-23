@@ -212,6 +212,25 @@
       ]
     },
     {
+      "name": "XV25 Stealth Battlesuits",
+      "type": "INF",
+      "speed": 20,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Fusion Blasters"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Reinforced Armour",
+        "Markerlights",
+        "Scouts",
+        "Tau Jet Packs",
+        "Teleport"
+      ]
+    },
+    {
       "name": "Sniper Drones",
       "type": "INF",
       "speed": 20,
@@ -350,18 +369,20 @@
     {
       "name": "XV95 Ghostkeel Battlesuit",
       "type": "LV",
-      "speed": 15,
+      "speed": 20,
       "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
-       "Fusion Blaster",
-       "Silenced Burst Cannons"
+        "Silenced Burst Cannon",
+        "Fusion Blaster"
       ],
       "specialRules": [
         "First Strike",
         "Walker",
         "Reinforced Armour",
+        "Scout",
+        "Markerlights",
         "Tau Jet Pack",
         "Teleport"
       ]
@@ -372,9 +393,9 @@
       "speed": 35,
       "armour": 5,
       "cc": 6,
-      "ff": 5,
+      "ff": 6,
       "weapons": [
-       "Gun Drones",
+       "Burst Cannon and Drones",
        "Seeker Missiles"
       ],
       "specialRules": [
@@ -623,7 +644,7 @@
         "Tau Deflector Shield",
         "Transport"
       ],
-      "notes": "May transport twelve Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, Gun Drones, Kroot Warriors, Kroot Master Shapers and Kroot Hounds. Krootox, XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. In addition may carry eight Piranha and Tetra. Devilfish, Hammerhead and Sky Ray counts as two units each.",
+      "notes": "May transport twelve Fire Warriors, Pathfinders, XV15 Stealth Battlesuits, XV25 Stealth Battlesuits, Gun Drones, Kroot Warriors, Kroot Master Shapers and Kroot Hounds. Krootox, XV8 Crisis, XV88 Broadside and XV95 Ghostkeel Battlesuits counts as two units each. In addition may carry eight Piranha and Tetra. Devilfish, Hammerhead and Sky Ray counts as two units each.",
       "crit": "The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Subsequent critical hits cause an additional point of damage."
     }
     ]

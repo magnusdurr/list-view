@@ -67,7 +67,7 @@
       "name": "Sa'cea Cadres",
       "formations": [
         {
-          "name": "Crisis Battlesuit Cadre",
+          "name": "XV8 Crisis Battlesuit Cadre",
           "units": "One Shas'el, four XV8 Crisis Battlesuits",
           "extraUnits": [
             "Gun Drones",
@@ -82,7 +82,8 @@
           "extraUnits": [
               "Broadsides",
               "Ethereal",
-              "Fire Warriors and Pathfinders",
+              "Piranhas",
+              "Fire Warriors",
               "Hammerheads",
               "Sky Ray",
               "Bonded Team",
@@ -98,18 +99,19 @@
       "formations": [
         {
           "name": "Hammerhead Group",
-          "units": "Four Rail Hammerheads",
+          "units": "Four Ion or four Fusion Hammerheads",
           "extraUnits": [
-            "Replace four Rail Hammerheads with four Fusion Hammerheads, or four Ion Hammerheads and two Gun Drones: Free",
+            "Replace four Ion or Fusion Hammerheads with four Rail Hammerheads: 25 points",
+            "Gun Drones",
             "Hammerheads",
-            "Recon",
+            "Piranhas",
             "Sky Ray"
 
           ],
           "points": 200
         },
         {
-          "name": "Broadside Group",
+          "name": "XV88 Broadside Group",
           "units": "Six XV88 Broadside Battlesuits",
           "extraUnits": [
             "Gun Drones"
@@ -131,7 +133,7 @@
           "units": "Four Pathfinders, two Devilfish",
           "extraUnits": [
             "Gun Drones",
-            "Recon"
+            "Piranhas"
           ],
           "points": 175
         },
@@ -152,7 +154,7 @@
           "points": 250
         },
         {
-          "name": "Stealth Group",
+          "name": "XV15 Stealth Group",
           "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
             "Gun Drones"
@@ -256,14 +258,10 @@
         ]
       },
       {
-        "name": "Fire Warriors and Pathfinders",
+        "name": "Fire Warriors",
         "options": [
           {
             "description": "Add any one of the following options:"
-          },
-          {
-            "description": "Replace two Fire Warriors with two Pathfinders. Formation must contain Devilfish",
-            "points": "50 points"
           },
           {
             "description": "Add four Fire Warriors",
@@ -285,10 +283,10 @@
         ]
       },
       {
-        "name": "Recon",
+        "name": "Piranhas",
         "options": [
           {
-            "description": "Add two Piranhas or one Tetra",
+            "description": "Add two Piranhas",
             "points": "50 points"
           }
         ]

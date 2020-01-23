@@ -37,9 +37,8 @@
         "Great Knarloc",
         "Tetra",
         "Piranha",
-        "KV128 Stormsurge Battlesuit",
-        "XV15 Stealth Battlesuits",
-        "XV95 Ghostkeel Battlesuit",
+        "XV88 Broadside Battlesuit",
+        "XV25 Stealth Battlesuits",
         "Devilfish",
         "Ion Hammerhead",
         "Rail Hammerhead",
@@ -53,8 +52,8 @@
     {
       "from": "tauNavy.json",
       "units": [
-          "Barracuda",
-          "Tiger Shark Bomber",
+          "Razorshark Fighter",
+          "Sun Shark Bomber",
           "Tiger Shark AX-1-0",
           "Orca",
           "Custodian Class Battleship",
@@ -69,7 +68,7 @@
       "name": "Fal'shia Cadres",
       "formations": [
           {
-            "name": "Crisis Battlesuit Cadre",
+            "name": "XV8 Crisis Battlesuit Cadre",
             "units": "One Shas'el, four XV8 Crisis Battlesuits",
             "extraUnits": [
               "Shas'o",
@@ -87,9 +86,8 @@
             "Bonded Team",
             "Gun Drones",
             "Ethereal",
-            "Hammerheads",
-            "Stingwings",
-            "Pathfinders"
+            "Broadsides",
+            "Stingwings"
           ],
           "points": 225
         }
@@ -101,23 +99,24 @@
       "formations": [
           {
             "name": "Hammerhead Group",
-            "units": "Four Rail Hammerheads",
+            "units": "Four Ion or four Fusion Hammerheads",
             "extraUnits": [
-              "Replace four Rail Hammerheads with four Fusion Hammerheads, or four Ion Hammerheads and two Gun Drones: Free",
-              "Recon",
+              "Replace four Ion or Fusion Hammerheads with four Rail Hammerheads: 25 points",
+              "Gun Drones",
+              "Piranhas",
               "Stingwings",
               "Sky Ray"
             ],
             "points": 200
           },
           {
-            "name": "Skysweep Support Group",
-            "units": "Three Sky Rays",
+            "name": "Drone Group",
+            "units": "Six Gun Drones",
             "extraUnits": [
                 "Gun Drones"
             ],
-            "points": 250
-          },
+            "points": 150
+        },
           {
             "name": "Kroot Kindred",
             "units": "One Kroot Master Shapers, nine Kroot Warriors",
@@ -132,25 +131,26 @@
           "name": "Pathfinder Group",
           "units": "Four Pathfinders, two Devilfish",
           "extraUnits": [
-            "Recon",
-            "Stingwings"
+            "Piranhas",
+            "Gun Drones"
           ],
           "points": 175
         },
         {
-          "name": "Stealth Group",
-          "units": "Six XV15 Stealth Battlesuits",
+          "name": "XV25 Stealth Group",
+          "units": "Four XV25 Stealth Battlesuits",
           "extraUnits": [
-            "Replace three XV15 Stealth Battlesuits with three XV95 Ghostkeel Battlesuits: 50 points"
+            "Gun Drones"
           ],
-          "points": 225
+          "points": 200
       },
       {
-        "name": "Stormsurge Group",
-        "units": "Two KV128 Stormsurge Battlesuits",
+        "name": "XV88 Broadside Group",
+        "units": "Six XV88 Broadside Battlesuits",
         "extraUnits": [
+          "Gun Drones"
         ],
-        "points": 250
+        "points": 300
       }
       ]
     },
@@ -167,19 +167,18 @@
             "points": 550
         },
         {
-          "name": "Barracuda Squadron",
-          "units": "Two Barracudas",
+          "name": "Razorshark Squadron",
+          "units": "Three Razorshark Fighters",
           "extraUnits": [
           ],
-          "points": 150
+          "points": 200
         },
         {
-          "name": "Tiger Shark Squadron",
-          "units": "Two Tiger Shark Bombers",
+          "name": "Sunshark Bomber",
+          "units": "Two Sunshark Bombers",
           "extraUnits": [
-                "Add six Gun Drones: 100 points"
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "AX-1-0s Squadron",
@@ -244,25 +243,16 @@
           "name": "Crisis Suits",
           "options": [
             {
-              "description": "Add two or four XV8 Crisis Battlesuits",
+              "description": "Add one or two XV8 Crisis Battlesuits",
               "points": ["50 points for one", "75 points for two"]
             }
           ]
         },
         {
-          "name": "Pathfinders",
-          "options": [
-              {
-                "description": "Replace two Fire Warrior Radiants with two Pathfinders. Formation must contain Devilfish",
-                "points": "50 points"
-              }
-          ]
-        },
-        {
-          "name": "Recon",
+          "name": "Piranhas",
           "options": [
             {
-              "description": "Add two Piranhas or one Tetra",
+              "description": "Add two Piranhas",
               "points": "50 points"
             }
           ]
@@ -286,18 +276,11 @@
           ]
         },
         {
-          "name": "Hammerheads",
+          "name": "Broadsides",
           "options": [
             {
-              "description": "Add any one of the following options."
-            },
-            {
-              "description": "Add two Ion Hammerheads",
-              "points": "75 points"
-            },
-            {
-              "description": "Add up to two Rail Hammerheads, or add up to two Fusion Hammerheads",
-              "points": "50 points each"
+              "description": "Add three XV88 Broadside Battlesuits",
+              "points": "125 points"
             }
           ]
         },

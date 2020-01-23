@@ -3675,7 +3675,7 @@
       "name": "Experimental Weapons",
       "modes": [
         {
-          "firepower": "2x AP5+/AT6+",
+          "firepower": "AP4+/AT6+",
           "range": 30,
           "specialRules": [
           ]
@@ -7532,7 +7532,7 @@
       "name": "Ion Rifles",
       "modes": [
         {
-          "firepower": "AP6+/AT6+",
+          "firepower": "AP5+/AT6+",
           "range": 30,
           "specialRules": [
           ]
@@ -7776,9 +7776,16 @@
             "firepower": "AT4+",
             "range": 75,
             "specialRules": [
-              "Lance"
+                "Lance"
           ]
-          }
+          },
+          {
+            "firepower": "AP5+",
+            "range": 75,
+            "join": "or",
+            "specialRules": [
+          ]
+        }
       ]
     },
     {
@@ -8407,6 +8414,18 @@
                 "IC","Ind","Slw"
           ]
         }
+      ]
+    },
+    {
+      "name": "Silenced Burst Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+          }
       ]
     },
     {
@@ -9935,6 +9954,17 @@
     },
     {
       "name": "Fusion Blaster",
+      "modes": [
+        {
+          "firepower": "MW5+",
+          "range": 15,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fusion Blasters",
       "modes": [
         {
           "firepower": "MW5+",

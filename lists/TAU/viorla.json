@@ -25,19 +25,16 @@
         "Shas'o",
         "Shas'el",
         "XV8 Crisis Battlesuits",
-        "XV84 Crisis Battlesuits",
         "Fire Warrior Breachers",
         "Gun Drones",
         "Pathfinders",
-        "XV15 Stealth Battlesuits",
-        "XV88 Broadside Battlesuit",
+        "XV95 Ghostkeel Battlesuit",
         "Piranha",
         "Tetra",
         "Devilfish",
         "Sky Ray",
         "XV107 R'varna Battlesuit",
         "XV109 Y'vahra Battlesuit",
-        "XV95 Ghostkeel Battlesuit",
         "XV104 Riptide Battlesuit",
         "KX128 Stormsurge Battlesuit",
         "KX139 Supremacy Suit"
@@ -65,28 +62,27 @@
       "name": "Vior'la Core Formations",
       "formations": [
           {
-            "name": "Crisis Battlesuit Cadre",
-            "units": "One Shas'el, four XV8 Crisis Battlesuits",
+            "name": "XV8 Crisis Battlesuit Cadre",
+            "units": "One Shas'el, four XV8 Crisis Battlesuits, two Gun Drones",
             "extraUnits": [
               "Shas'o",
               "Crisis Suits",
               "Gun Drones"
             ],
-            "points": 250
+            "points": 275
           },
         {
           "name": "Fire Warrior Breacher Cadre",
           "units": "Eight Fire Warrior Breachers, or six Fire Warrior Breachers and three Devilfish",
           "extraUnits": [
-            "Broadsides",
+            "Fire Warriors",
+            "Piranhas",
             "Sky Ray",
-            "Recon",
             "Bonded Team",
             "Ethereal",
-            "Fire Warriors",
             "Gun Drones"
           ],
-          "points": 250
+          "points": 225
         }
       ]
     },
@@ -98,47 +94,46 @@
             "name": "Pathfinder Group",
             "units": "Four Pathfinders, two Devilfish",
             "extraUnits": [
-              "Replace two Devilfish with two Pathfinders: 25 points",
               "Gun Drones",
-              "Sky Ray"
+              "Piranhas"
             ],
             "points": 175
           },
         {
-          "name": "Heavy Battlesuit Group",
+          "name": "XV10* Heavy Battlesuit Group",
           "units": "Three XV104 Riptide Battlesuits, XV107 R'Varna Battlesuits or XV109 Y'Vahra Battlesuits (May not mix configurations)",
           "extraUnits": [
           ],
           "points": 325
         },
         {
-          "name": "Broadside Group",
-          "units": "Six XV88 Broadside Battlesuits",
+          "name": "Recon Skimmer Group",
+          "units": "Any six of the following units: Piranha, Tetra",
           "extraUnits": [
             "Gun Drones"
           ],
-          "points": 300
+          "points": 175
         },
         {
-          "name": "Stormsurge Group",
+          "name": "KV128 Stormsurge Group",
           "units": "Two KV128 Stormsurge Battlesuits",
           "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Stealth Group",
-          "units": "Six XV15 Stealth Battlesuits",
+          "name": "XV95 Stealth Group",
+          "units": "Four XV95 Ghostkeel Battlesuits",
           "extraUnits": [
-            "Replace three XV15 Stealth Battlesuits with three XV95 Ghostkeel Battlesuits: 50 points"
+            "Gun Drones"
           ],
-          "points": 225
+          "points": 250
       },
       {
         "name": "Drone Group",
-        "units": "Piranha, six Gun Drones",
+        "units": "Six Gun Drones",
         "extraUnits": [
-            "Add up to two Piranhas: 25 points each"
+            "Gun Drones"
         ],
         "points": 150
       }
@@ -150,7 +145,7 @@
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
-            "name": "Supremacy Suit",
+            "name": "KV139 Supremacy Suit",
             "units": "One Shas'el, one KX139 Supremacy Suit",
             "extraUnits": [
               "Shas'o"
@@ -221,11 +216,27 @@
         ]
       },
       {
-        "name": "Recon",
+        "name": "Piranha",
         "options": [
           {
-            "description": "Add two Piranhas or one Tetra",
+            "description": "Add two Piranhas",
             "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Fire Warriors",
+        "options": [
+          {
+            "description": "Add any one of the following options:"
+          },
+          {
+            "description": "Add four Fire Warrior Breachers",
+            "points": "75 points"
+          },
+          {
+            "description": "Add four Fire Warrior Breachers and two Devilfish",
+            "points": "100 points"
           }
         ]
       },
@@ -233,44 +244,12 @@
         "name": "Crisis Suits",
         "options": [
           {
-            "description": "Choose one of the following"
-          },
-          {
-            "description": "Replace the Shas'el's unit with XV84 Crisis Battlesuits",
-            "points": "75 points"
-        },
-        {
-          "description": "Add two XV8 Crisis Battlesuits",
-          "points": "75 points"
-        }
-        ]
-      },
-      {
-        "name": "Broadsides",
-        "options": [
-          {
-            "description": "Add three XV88 Broadside Battlesuits",
-            "points": "125 points"
+            "description": "Add one or two XV8 Crisis Battlesuits",
+            "points": ["50 points for one", "75 points for two"]
           }
         ]
       },
 
-      {
-        "name": "Fire Warriors",
-        "options": [
-          {
-            "description": "Choose one of the following"
-          },
-          {
-            "description": "Four Fire Warrior Breachers",
-            "points": "75 points"
-          },
-          {
-            "description": "Four Fire Warrior Breachers and two Devilfish",
-            "points": "100 points"
-          }
-        ]
-      },
       {
         "name": "Gun Drones",
         "options": [
