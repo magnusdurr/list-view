@@ -84,6 +84,7 @@
               "Ethereal",
               "Piranhas",
               "Fire Warriors",
+              "Pathfinders",
               "Hammerheads",
               "Sky Ray",
               "Bonded Team",
@@ -132,8 +133,7 @@
           "name": "Pathfinder Group",
           "units": "Four Pathfinders, two Devilfish",
           "extraUnits": [
-            "Gun Drones",
-            "Piranhas"
+            "Gun Drones"
           ],
           "points": 175
         },
@@ -141,8 +141,7 @@
           "name": "Recon Skimmer Group",
           "units": "Any six of the following units: Piranha, Tetra",
           "extraUnits": [
-              "Gun Drones",
-              "Piranhas"
+              "Add up to two Piranhas: 25 points each"
           ],
           "points": 175
         },
@@ -272,6 +271,15 @@
             "description": "Add four Fire Warriors and two Devilfish",
             "points": "100 points"
           }
+        ]
+      },
+      {
+        "name": "Pathfinders",
+        "options": [
+            {
+              "description": "Replace one unit of Fire Warriors with a unit of Pathfinders (formation must contain Devilfish)",
+              "points": "50 points"
+            }
         ]
       },
       {

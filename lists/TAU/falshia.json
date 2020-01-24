@@ -35,11 +35,10 @@
         "Kroot Warriors",
         "Krootox",
         "Great Knarloc",
-        "Tetra",
-        "Piranha",
-        "XV88 Broadside Battlesuit",
+        "XV9-04 Hazard Battlesuit",
         "XV25 Stealth Battlesuits",
         "Devilfish",
+        "Swordfish",
         "Ion Hammerhead",
         "Rail Hammerhead",
         "Fusion Hammerhead",
@@ -85,9 +84,10 @@
             "Sky Ray",
             "Bonded Team",
             "Gun Drones",
-            "Piranhas",
+            "XV9 Hazards",
+            "Pathfinders",
             "Ethereal",
-            "Broadsides",
+            "Swordfish",
             "Stingwings"
           ],
           "points": 225
@@ -104,7 +104,7 @@
             "extraUnits": [
               "Replace four Ion or Fusion Hammerheads with four Rail Hammerheads: 25 points",
               "Gun Drones",
-              "Piranhas",
+              "Swordfish",
               "Stingwings",
               "Sky Ray"
             ],
@@ -132,7 +132,6 @@
           "name": "Pathfinder Group",
           "units": "Four Pathfinders, two Devilfish",
           "extraUnits": [
-            "Piranhas",
             "Gun Drones"
           ],
           "points": 175
@@ -146,10 +145,10 @@
           "points": 200
       },
       {
-        "name": "XV88 Broadside Group",
-        "units": "Six XV88 Broadside Battlesuits",
+        "name": "XV9 Hazard Close Support Group",
+        "units": "Six XV9-04 Hazard Battlesuits",
         "extraUnits": [
-          "Gun Drones"
+            "Gun Drones"
         ],
         "points": 300
       }
@@ -241,6 +240,16 @@
           ]
         },
         {
+          "name": "Pathfinders",
+          "options": [
+              {
+                "description": "Replace one unit of Fire Warriors with a unit of Pathfinders (formation must contain Devilfish)",
+                "points": "50 points"
+              }
+          ]
+        },
+
+        {
           "name": "Crisis Suits",
           "options": [
             {
@@ -250,11 +259,11 @@
           ]
         },
         {
-          "name": "Piranhas",
+          "name": "XV9 Hazards",
           "options": [
             {
-              "description": "Add two Piranhas",
-              "points": "50 points"
+              "description": "Add three XV9-04 Hazard Battlesuits",
+              "points": "125 points"
             }
           ]
         },
@@ -277,11 +286,11 @@
           ]
         },
         {
-          "name": "Broadsides",
+          "name": "Swordfish",
           "options": [
             {
-              "description": "Add three XV88 Broadside Battlesuits",
-              "points": "125 points"
+              "description": "Add three Swordfish",
+              "points": "100 points"
             }
           ]
         },
