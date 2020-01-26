@@ -82,7 +82,7 @@
         "Fleshhounds of Khorne",
         "Horrors of Tzeentch",
         "Flamers of Tzeentch",
-        "Daemonic Beasts of Chaos Undivided"
+        "Furies of Chaos Undivided"
       ],
       "unitRules": [
     ]
@@ -122,33 +122,33 @@
           "name": "Knight-Despoilers of Tzeentch",
           "units": "Two Knight-Despoilers",
           "extraUnits": [
-              "Add one Knight-Despoiler: 125 points"
+              "Add one Knight-Despoiler: 100 points"
           ],
-          "points": 300
+          "points": 275
       },
         {
           "name": "Knight-Desecrators of Nurgle",
           "units": "Two Knight-Desecrators",
           "extraUnits": [
-          "Add one Knight-Desecrator: 125 points"
+          "Add one Knight-Desecrator: 100 points"
           ],
-          "points": 325
+          "points": 275
       },
         {
           "name": "Knight-Rampagers of Khorne",
           "units": "Two Knight-Rampagers",
           "extraUnits": [
-            "Add one Knight-Rampager: 125 points"
+            "Add one Knight-Rampager: 100 points"
           ],
-      "points": 300
+      "points": 275
       },
       {
         "name": "Knight-Renegades of Chaos Undivided",
         "units": "Two Knight-Renegades",
         "extraUnits": [
-            "Add one Knight-Renegade: 125 points"
+            "Add one Knight-Renegade: 100 points"
         ],
-        "points": 300
+        "points": 275
     }
     ]
 },
@@ -160,6 +160,7 @@
         "name": "Hell-Striders of Slaanesh",
         "units": "Four Hell-Striders",
       "extraUnits": [
+          "Add one Hell-Strider: 50 points"
       ],
       "points": 225
     },
@@ -167,6 +168,7 @@
         "name": "Nurgle Defiler Pack",
         "units": "Four Desecrators",
         "extraUnits": [
+          "Add one Desecrator: 50 points"
         ],
         "points": 250
         },
@@ -174,6 +176,7 @@
       "name": "Khorne Defiler Pack",
       "units": "Four Slaughterfiends",
       "extraUnits": [
+          "Add one Slaughterfiend: 50 points"
       ],
       "points": 225
         },
@@ -181,6 +184,7 @@
       "name": "Tzeentch Defiler Pack",
       "units": "Four Decievers",
       "extraUnits": [
+          "Add one Deciever: 50 points"
       ],
       "points": 250
   },
@@ -188,6 +192,7 @@
             "name": "Chaos Undivided Defiler Pack ",
             "units": "Four Defilers",
           "extraUnits": [
+          "Add one Defiler: 50 points"
           ],
           "points": 225
         },
@@ -318,7 +323,7 @@
     },
     {
       "name": "Hell-Forge Transport",
-      "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot, and no unit lacks transport.",
+      "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle is completely empty, and no unit lacks transport.",
       "points": ["Chaos Rhinos: 10 points", "Macrocarid Exploitator: 50 points"]
   }
     ]

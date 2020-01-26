@@ -1,10 +1,10 @@
 {
   "fraction": "Dark Mechanicus",
   "army": "Traitor Titan Legion",
-  "version": "0.6.0",
-  "release": "2019-10-07",
+  "version": "0.6.1",
+  "release": "2020-01-25",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "All Traitor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All Battle Titan and Chaos Warhound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -87,7 +87,7 @@
         "Fleshhounds of Khorne",
         "Horrors of Tzeentch",
         "Flamers of Tzeentch",
-        "Daemonic Beasts of Chaos Undivided"
+        "Furies of Chaos Undivided"
       ],
       "unitRules": [
     ]
@@ -113,8 +113,7 @@
           "name": "0-1 Chaos Emperor Titan",
           "units": "One Vicebringer Titan of Slaanesh / Gloombringer Titan of Nurgle / Strifebringer Titan of Khorne / Changebringer Titan of Tzeentch",
           "extraUnits": [
-            "Eye of the Gods",
-            "Daemonic Herald"
+            "Eye of the Gods"
           ],
           "points": 900
       },
@@ -173,101 +172,115 @@
     "formations": [
         {
           "name": "Hell-Striders of Slaanesh",
-          "units": "Four Hell-Striders",
+          "units": "Three Hell-Striders",
         "extraUnits": [
+            "Add up to two Hell-Striders: 50 points each"
         ],
-        "points": 225
+        "points": 175
           },
           {
             "name": "Hell-Knights of Slaanesh",
-            "units": "Three Hell-Knights",
-            "points": 325
+            "units": "Two Hell-Knights",
+            "extraUnits": [
+                "Add one Hell-Knight: 100 points"
+            ],
+            "points": 250
           },
           {
             "name": "Hell-Scourges of Slaanesh",
-            "units": "Three Hell-Scourges",
-            "points": 325
+            "units": "Two Hell-Scourges",
+            "extraUnits": [
+                "Add one Hell-Scourge: 100 points"
+            ],
+            "points": 250
           },
           {
             "name": "Knights of Nurgle",
-            "units": "Two Knight-Desecrators",
+            "units": "One Knight-Desecrator",
             "extraUnits": [
+                "Add one Knight-Desecrator: 100 points"
             ],
-            "points": 300
+            "points": 175
         },
           {
             "name": "Nurgle Defiler Pack",
-            "units": "Four Desecrators",
+            "units": "Three Desecrators",
             "extraUnits": [
+                "Add up to two Desecrators: 50 points each"
             ],
-            "points": 250
+            "points": 200
         },
         {
           "name": "Knights of Khorne",
-          "units": "Two Knight-Rampagers",
+          "units": "One Knight-Rampager",
           "extraUnits": [
+              "Add one Knight-Rampager: 100 points"
           ],
-          "points": 275
+          "points": 175
       },
         {
           "name": "Khorne Defiler Pack",
-          "units": "Four Slaughterfiends",
+          "units": "Three Slaughterfiends",
           "extraUnits": [
+              "Add up to two Slaughterfiends: 50 points each"
           ],
-          "points": 225
+          "points": 175
       },
       {
         "name": "Knights of Tzeentch",
-        "units": "Two Knight-Despoilers",
+        "units": "One Knight-Despoiler",
         "extraUnits": [
+            "Add one Knight Despoiler: 100 points"
         ],
-        "points": 275
+        "points": 175
     },
         {
           "name": "Tzeentch Defiler Pack",
-          "units": "Four Decievers",
+          "units": "Three Decievers",
           "extraUnits": [
+              "Add up to two Decievers: 50 points each"
           ],
-          "points": 250
-      },
-      {
-        "name": "Knights of Chaos Undivided",
-        "units": "Two Knight-Renegades",
-        "extraUnits": [
-        ],
-        "points": 275
-    },
-      {
-        "name": "Chaos Undivided Defiler Pack ",
-        "units": "Four Defilers",
-      "extraUnits": [
-      ],
-      "points": 225
-  },
-      {
-        "name": "Armigers of Chaos Undivided",
-        "units": "Four Knight-Doomglaives or four Knight-Perfidors",
-        "extraUnits": [
-    ],
-        "points": 225
-    }
-
+          "points": 200
+      }
     ]
   },
         {
-      "name": "Hell-Forge and Chaos Navy Allies",
+      "name": "Undivided, Hell-Forge and Chaos Navy Allies",
       "description": "Up to a fourth of the points available may be spent on these formations",
       "formations": [
-
+          {
+            "name": "Knights of Chaos Undivided",
+            "units": "One Knight-Renegade",
+            "extraUnits": [
+                "Add one Knight-Renegade: 100 points"
+            ],
+            "points": 175
+        },
+          {
+            "name": "Chaos Undivided Defiler Pack ",
+            "units": "Three Defilers",
+          "extraUnits": [
+              "Add up to two Defilers: 50 points each"
+          ],
+          "points": 175
+      },
+          {
+            "name": "Armigers of Chaos Undivided",
+            "units": "Three Knight-Doomglaives or three Knight-Perfidors",
+            "extraUnits": [
+                "Add one Knight-Doomglaive or Knight-Perfidor (May not mix configurations): 50 points"
+        ],
+            "points": 175
+        },
       {
-        "name": "Hell-Forge Support (Chaos Undivided)",
+        "name": "Hell-Forge Support",
         "units": "Four Chaos Squats, two Macrocarid Exploitators",
       "extraUnits": [
           ],
-      "points": 175
+      "points": 200
         },
             {
-          "name": "Ordinatus Hereticus Minoris (Chaos Undivided)",
+          "name": "Ordinatus Hereticus Minoris",
           "units": "One Ordinatus Hereticus Minoris",
         "extraUnits": [
             "Add one Ordinatus Hereticus Minoris: 125 points"
@@ -294,7 +307,7 @@
     "formations": [
         {
           "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points. In addition, add one point to the Lesser Daemon Pool for each Eye of the Gods and Daemonic Herald upgrade.",
+          "units": "Any amount of Lesser Daemon Pool points. In addition, add two points to the Lesser Daemon Pool for each Eye of the Gods and Daemonic Herald upgrade.",
           "points": 15
       }
     ]
@@ -307,7 +320,7 @@
       {
         "name": "0-1 Eye of the Gods",
         "description": "Add one Eye of the Gods character to the formation",
-        "points": "25 points"
+        "points": "50 points"
     },
     {
       "name": "Daemonic Herald",

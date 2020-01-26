@@ -4765,7 +4765,7 @@
             "firepower": "MW2+",
             "range": 90,
             "specialRules": [
-              "TK(1)"
+              "TK(D2)"
           ]
           }
       ]
@@ -7507,12 +7507,9 @@
       "name": "Pulse Driver Cannon",
         "modes": [
           {
-            "firepower": "AP3+/AT4+",
-            "range": 75,
+            "firepower": "MW3+",
+            "range": 60,
             "specialRules": [
-                "IC",
-                "Lance"
-
           ]
           }
       ]
@@ -10079,8 +10076,7 @@
           "firepower": "MW2+",
           "range": 90,
           "specialRules": [
-            "TK(D3)",
-            "FxF"
+            "TK(D3+1)"
           ]
         }
       ]

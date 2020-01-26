@@ -458,9 +458,8 @@
       "speed": 30,
       "armour": 5,
       "cc": 6,
-      "ff": 5,
+      "ff": 6,
       "weapons": [
-       "Burst Cannon and Drones",
        "Twin Light Railguns"
       ],
       "specialRules": [
@@ -609,9 +608,9 @@
       ]
     },
     {
-      "name": "KX128 Stormsurge Battlesuit",
+      "name": "KV128 Stormsurge Ballistic Suit",
       "type": "WE",
-      "speed": 15,
+      "speed": 20,
       "armour": 5,
       "cc": 5,
       "ff": 5,
@@ -621,13 +620,12 @@
        "Velocity Tracker"
       ],
       "specialRules": [
-          "Damage Capacity 2",
+          "Damage Capacity 3",
           "Walker",
           "Reinforced Armour",
-          "Tau Jet Pack",
           "Tau Deflector Shield"
       ],
-        "crit": "The Stormsurge Battlesuit is destroyed."
+        "crit": "The Stormsurge Ballistic Suit is destroyed."
     },
     {
       "name": "KX139 Supremacy Suit",
@@ -660,7 +658,7 @@
       "armour": 5,
       "ff": 4,
       "weapons": [
-        "Twin Heavy Railcannons",
+        "Twin Heavy Railcannons||FxF",
         "Heavy Ion Phalanx||FxF",
         "Twin Missile Pods",
         "Seeker Missiles|2|",

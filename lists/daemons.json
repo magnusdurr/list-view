@@ -373,9 +373,10 @@
         ],
         "specialRules": [
             "Expendable",
+            "Invulnerable Save",
             "Mounted",
-            "Walker",
-            "Invulnerable Save"
+            "Walker"
+
         ]
       },
       {
@@ -527,8 +528,9 @@
       ],
       "specialRules": [
           "Expendable",
-          "Invulnerable Save",
-          "Jump Packs"
+          "Jump Packs",
+          "Invulnerable Save"
+
       ]
   },
     {
@@ -544,9 +546,11 @@
       ],
       "specialRules": [
           "Daemonic Focus",
-              "Invulnerable Save",
           "Infiltrators",
-          "Walker"
+          "Walker",
+          "Invulnerable Save"
+
+
       ]
     }
     ]
