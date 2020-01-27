@@ -7387,11 +7387,23 @@
       "name": "Pulsar",
       "modes": [
         {
-          "firepower": "2× MW3+",
+          "firepower": "2x MW3+",
           "range": 75,
           "specialRules": [
           ]
         }
+      ]
+    },
+    {
+      "name": "Pulsar-Fusil",
+        "modes": [
+          {
+            "firepower": "2x AT2+",
+              "range": 45,
+            "specialRules": [
+                "Lance"
+          ]
+          }
       ]
     },
     {

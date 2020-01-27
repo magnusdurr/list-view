@@ -214,9 +214,52 @@
               "Walker",
               "Transport"
           ],
-          "notes": "May transport two infantry units without Jump Packs or Mounted."
+          "notes": "May transport three infantry units without Jump Packs or Mounted."
             },
-
+            {
+              "name": "Triaros Armoured Despoiler",
+              "type": "H-AV",
+              "speed": 25,
+              "armour": 5,
+              "cc": 6,
+              "ff": 4,
+              "weapons": [
+                "Phospex Blaster|3|"
+              ],
+              "specialRules": [
+                  "Reinforced Armour",
+                  "Transport"
+              ],
+              "notes": "May transport six infantry units without Jump Packs or Mounted."
+                },
+                {
+                  "name": "Krios Lightning",
+                  "type": "H-AV",
+                  "speed": 25,
+                  "armour": 5,
+                  "cc": 6,
+                  "ff": 5,
+                  "weapons": [
+                    "Lightning Cannon"
+                  ],
+                  "specialRules": [
+                  "Reinforced Armour"
+                  ]
+                    },
+                    {
+                      "name": "Krios Venator",
+                      "type": "H-AV",
+                      "speed": 25,
+                      "armour": 5,
+                      "cc": 6,
+                      "ff": 5,
+                      "weapons": [
+                        "Pulsar-Fusil"
+                      ],
+                      "specialRules": [
+                      "Reinforced Armour"
+                      ]
+                        },
                 {
                     "name": "Ordinatus Hereticus Minoris",
                     "type": "WE",
@@ -231,7 +274,6 @@
                       "Doom Burner|0-1|FxF",
                       "Plasma Cremator|0-1|FxF",
                       "Twin Hades Autocannons|0-1|",
-                      "Corvus Assault Pod|0-1|",
                       ">Support Weapons<",
                       "Plasma Incinerator|0-1|FxF",
                       "Cannon of Chaos|0-1|FxF",
@@ -245,7 +287,7 @@
                       "Reinforced Armour",
                       "Fearless"
                   ],
-                    "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. [*]Corvus Assault Pod: Increases Speed to 25cm. May transport eleven infantry units.",
+                    "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon.",
                   "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+."
                 },
                 {
