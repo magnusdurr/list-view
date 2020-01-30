@@ -71,7 +71,8 @@
   {
     "from": "ImperialAllies.json",
     "units": [
-      "Warhound "
+      "Warhound ",
+      "Warbringer Titan, Nemesis Class"
     ],
       "unitRules": [
           "Independent",
@@ -186,6 +187,13 @@
           "points": 500
         },
         {
+          "name": "Warbringer Titan",
+          "units": "One Warbringer Titan (Nemesis Class)",
+          "extraUnits": [
+          ],
+          "points": 650
+        },
+        {
           "name": "Avenger Squadron",
           "units": "Two Avenger Strike Fighters",
           "points": 175
@@ -193,7 +201,7 @@
         {
           "name": "Mechanicus Battleship",
           "units": "One Ark Mechanicus Battleship",
-          "points": 175
+          "points": 200
         }
       ]
     }

@@ -1,12 +1,12 @@
 {
   "fraction": "Tyranids",
   "army": "Cult of the Star-Spawn",
-  "version": "0.6.3",
-  "release": "2020-01-22",
+  "version": "0.6.5",
+  "release": "2020-01-30",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "Cult Support formations have an Initiative Rating of 2+, and are subject to the 'Brood Brothers' special rule. All other formations have an Initative Rating of 1+.",
 
-  "specialRules": ["Nexus Brood","Brood Brothers","Ambush","Extreme Mobility (Cult of the Star-Spawn)"],
+  "specialRules": ["Nexus Brood","Brood Brothers","Extreme Mobility (Cult of the Star-Spawn)"],
   "usage": [
  ],
   "units": [
@@ -19,6 +19,7 @@
         "Hybrid Primus",
         "Hybrid Acolytes",
         "Hybrid Metamorphs",
+        "Lictor",
         "Hybrid Aberrants",
         "Coven Bikers",
         "Cult Infantry",
@@ -43,15 +44,7 @@
       ],
         "unitRules": [
       ]
-    },
-    {
-      "from": "NIDS.json",
-      "units": [
-        "Lictor"
-      ],
-        "unitRules": [
-      ]
-  }
+    }
 ],
 "sections": [
 
@@ -82,7 +75,7 @@
           "Add up to two Cult Hellhounds: 25 points each",
         "Add three Cult Griffons: 50 points"
         ],
-        "points": 250
+        "points": 275
     }
       ]
     },
@@ -168,7 +161,7 @@
           "units": "One Coven Locus character, six Cult Leman Russ or Cult Leman Russ Demolishers",
           "extraUnits": [
           ],
-          "points": 375
+          "points": 425
         },
         {
           "name": "Cult Basilisk Battery",
@@ -184,7 +177,7 @@
             "Add up to two Cult Hellhounds: 25 points each",
           "Add three Cult Griffons: 50 points"
         ],
-        "points": 250
+        "points": 275
     },
     {
       "name": "Cult Flak Battery",

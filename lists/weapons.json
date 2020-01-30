@@ -6277,6 +6277,7 @@
         "firepower": "Assault Weapons",
           "join": "and",
         "specialRules": [
+            "FS"
         ]
       }
       ]
@@ -7697,7 +7698,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range":120,
+            "range":100,
             "specialRules": [
               "Slw",
               "MW",
@@ -7711,11 +7712,26 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range":120,
+            "range":100,
             "specialRules": [
               "Slw",
               "MW",
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Nemesis Quake Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range":120,
+            "specialRules": [
+              "Slw",
+              "MW",
+              "IC",
+              "D"
           ]
           }
       ]
