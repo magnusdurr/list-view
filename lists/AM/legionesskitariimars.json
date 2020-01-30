@@ -35,8 +35,6 @@
 				"Kataphron Breacher Battle Servitors",
 				"Kataphron Destroyer Battle Servitors",
 
-                "Archaeopter",
-
 				"Skorpius Dunerider",
 				"Skorpius Disintegrator",
 				"Gorgon",
@@ -74,7 +72,7 @@
 			"from": "ImperialAllies.json",
 			"units": [
 				"Warhound ",
-      			"Warbringer Titan, Nemesis Class"
+      			"Warbringer Titan"
 			],
 			"unitRules": [
 				"Void Shields"
@@ -104,18 +102,10 @@
 					"name": "Sicarian Killclade",
 					"units": "Four Sicarian Ruststalkers, two Sicarian Infiltrators",
 					"extraUnits": [
-						"Replace two Sicarian Ruststalkers with two Archaeopters: Free"
 					],
 					"points": 150
 				},
-				{
-					"name": "Ranger Cohort",
-					"units": "Six Skitarii Rangers",
-					"extraUnits": [
-						"Replace two Skitarii Rangers with two Archaeopters: Free"
-					],
-					"points": 150
-				},
+
 				{
 					"name": "Dragoon Cohort",
 					"units": "Six Sydonian Dragoons",
@@ -128,7 +118,13 @@
 					"extraUnits": [],
 					"points": 150
 				},
-
+				{
+					"name": "Ranger Cohort",
+					"units": "Four Skitarii Rangers",
+					"extraUnits": [
+						],
+					"points": 150
+				},
 				{
 					"name": "Kastelan Maniple",
 					"units": "One Tech-Priest, five Kastelan Robots",
@@ -192,7 +188,7 @@
 				},
 				{
 				  "name": "Warbringer Titan",
-				  "units": "One Warbringer Titan (Nemesis Class)",
+				  "units": "One Warbringer Titan",
 				  "extraUnits": [
 				  ],
 				  "points": 650

@@ -1830,13 +1830,13 @@
       ]
     },
     {
-      "name": "2x Belicosa Volcano Cannon",
+      "name": "2x Volcano Cannon",
         "modes": [
           {
             "firepower": "MW2+",
             "range": 90,
             "specialRules": [
-                "TK(D3+1)"
+                "TK(D3)"
           ]
           }
       ]
@@ -2440,10 +2440,11 @@
       ]
     },
     {
-      "name": "Carapace Landing Pad",
+      "name": "Anvilus Carapace Landing Pad",
         "modes": [
           {
-            "firepower": "n/a",
+              "firepower": "2x AP5+/AT6+/AA6+",
+              "range": 45,
             "specialRules": [
                 "Spec[*]"
           ]
@@ -6163,12 +6164,12 @@
         {
           "firepower": "MW2+",
           "range": 30,
-          "specialRules": ["TK(D3)"]
+          "specialRules": ["TK(D3)", "FwA"]
         },
         {
           "firepower": "Small Arms",
           "join": "and",
-          "specialRules": ["EA(+1)","TK(D6)"]
+          "specialRules": ["EA(+1)","TK(D3)"]
         }
       ]
     },
@@ -6178,12 +6179,12 @@
         {
           "firepower": "2x MW2+",
           "range": 30,
-          "specialRules": ["TK(D3)"]
+          "specialRules": ["TK(D3)", "FxF"]
         },
         {
           "firepower": "Small Arms",
           "join": "and",
-          "specialRules": ["EA(+2)","TK(D6)"]
+          "specialRules": ["EA(+2)","TK(D3)"]
         }
       ]
     },
@@ -6461,6 +6462,15 @@
       "modes": [
         {
           "firepower": "AP5+/AT6+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Carapace Multilasers",
+      "modes": [
+        {
+          "firepower": "3x AP5+/AT6+/AA6+",
           "range": 30
         }
       ]
@@ -6874,7 +6884,7 @@
         "modes": [
           {
             "firepower": "6x MW3+",
-            "range": 100,
+            "range": 90,
             "specialRules": [
                 "Slw"
           ]
@@ -6987,17 +6997,6 @@
       ]
     },
     {
-      "name": "Plasma Destroyer",
-        "modes": [
-          {
-            "firepower": "AP3+/AT3+",
-            "range": 60,
-            "specialRules": [
-          ]
-          }
-      ]
-    },
-    {
       "name": "Plasma Destructor",
         "modes": [
           {
@@ -7005,6 +7004,29 @@
             "range": 90,
             "specialRules": [
                 "Slw"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Sunfury Plasma Destructor",
+        "modes": [
+          {
+            "firepower": "5x MW3+",
+            "range": 90,
+            "specialRules": [
+                "Slw"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Plasma Destroyer",
+        "modes": [
+          {
+            "firepower": "AP3+/AT3+",
+            "range": 60,
+            "specialRules": [
           ]
           }
       ]
@@ -7698,7 +7720,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range":100,
+            "range":120,
             "specialRules": [
               "Slw",
               "MW",
@@ -7712,7 +7734,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range":100,
+            "range":120,
             "specialRules": [
               "Slw",
               "MW",
@@ -10137,6 +10159,15 @@
       ]
     },
     {
+      "name": "Anvilus Autocannon Battery",
+      "modes": [
+        {
+          "firepower": "2x AP5+/AT6+/AA6+",
+          "range": 45
+        }
+      ]
+    },
+    {
       "name": "Twin Lascannons R",
       "modes": [
         {
@@ -10493,7 +10524,7 @@
       "modes": [
         {
             "firepower": "MW2+",
-            "range": 90,
+            "range": 120,
             "specialRules": [
                 "TK(D6+1)"
           ]
