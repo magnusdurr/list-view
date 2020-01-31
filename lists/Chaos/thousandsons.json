@@ -116,13 +116,13 @@
     },
     {
       "name": "Thousand Sons Elite Formations",
-      "description": "Two Elite Formations may be taken per Core Formation",
+      "description": "Up to two may be taken per Core formation",
       "formations": [
         {
           "name": "Thousand Sons Initiates",
           "units": "Four Chaos Space Marines, Daemonic Pact",
           "extraUnits": [
-            "Add one Champion of Tzeentch to the formation: 50 points",
+            "Champion of Tzeentch",
             "Icon Bearer",
             "Dreadnoughts",
             "Predators",
@@ -160,8 +160,8 @@
     ]
   },
   {
-    "name": "Thousand Sons Cultist Formations",
-    "description": "Two Chaos Cultist and Minor Daemon Engine Formations may be taken per Core Formation",
+    "name": "Thousand Sons Cult Formations",
+    "description": "Up to two may be taken per Core formation",
     "formations": [
       {
         "name": "Tzaangor Host",
@@ -169,7 +169,7 @@
         "extraUnits": [
           "Beasts of Chaos"
         ],
-        "points": 200
+        "points": 175
     },
   {
     "name": "Tzeentch Defilers",
@@ -195,7 +195,7 @@
     ]
   },
         {
-      "name": "Dark Mechanicus and Chaos Navy",
+      "name": "Dark Mechanicus and Thousand Sons Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
           {
@@ -285,10 +285,20 @@
             "points": "50 points each"
         },
         {
-          "description": "(No more than needed to transport the formation with no space left over)",
+          "description": "(No more than the minimum needed to transport the formation)",
           "points": ""
       }
         ]
+      },
+      {
+        "name": "Champion of Tzeentch",
+        "description": "Add one Champion of Tzeentch to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Icon Bearer",
+        "description": "Add one Icon Bearer to the formation",
+        "points": "25 points"
       },
       {
         "name": "Dreadnoughts",

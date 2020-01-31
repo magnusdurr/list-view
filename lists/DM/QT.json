@@ -21,7 +21,6 @@
     {
         "from": "darkmechanicus.json",
         "units": [
-            "Defiler",
             "Questor",
             "Subjugator",
             "Hell-Strider",
@@ -39,12 +38,12 @@
             "Arch-Heretek",
             "Hellwright",
             "Chaos Squats",
+            "Phospexor",
             "Macrocarid Exploitator",
             "Triaros Armoured Despoiler",
             "Krios Lightning",
             "Krios Venator",
             "Chaos Rhino",
-            "Arlatax Battle-Automata",
             "Chrono-Gladiators",
             "Ordinatus Hereticus Minoris",
             "Ordinatus Hereticus Majoris",
@@ -93,70 +92,32 @@
   "sections": [
         {
           "name": "Hell-Forge Core formations",
-      "description": "Up to one Adsecularis Maniple for each Hell-Forge Maniple",
+      "description": "Up to one Chrono-Gladiator formation for each Hell-Forge Maniple",
           "formations": [
               {
                 "name": "Hell-Forge Maniple",
                 "units": "One Hellwright, eleven Chaos Squats",
               "extraUnits": [
+                  "Replace four Chaos Squats with four Phospexors: 25 points",
+                  "Add two Krios Lightning, two Krios Venators, or one Ordinatus Hereticus Minoris: 125 points",
                   "Arch-Heretek",
-                  "Hell-Forge Transport",
-                  "Add two Krios Lightning, two Krios Venators, or one Ordinatus Hereticus Minoris: 125 points"
+                  "Hell-Forge Transport"
+
                   ],
               "points": 225
-          }
+          },
+          {
+            "name": "Chrono-Gladiators",
+            "units": "Six Chrono-Gladiators",
+          "extraUnits": [
+              ],
+          "points": 200
+            }
         ]
     },
     {
-      "name": "Daemonic Packs",
-      "description": "Up to one for each Hell-Forge Core formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
-      "formations": [
-          {
-            "name": "Hell-Striders of Slaanesh",
-            "units": "Four Hell-Striders",
-          "extraUnits": [
-              "Add one Hell-Strider: 50 points"
-          ],
-          "points": 225
-            },
-          {
-            "name": "Nurgle Defiler Pack",
-            "units": "Four Desecrators",
-            "extraUnits": [
-                "Add one Desecrator: 50 points"
-            ],
-            "points": 250
-        },
-          {
-            "name": "Khorne Defiler Pack",
-            "units": "Four Slaughterfiends",
-            "extraUnits": [
-                "Add one Slaughterfiend: 50 points"
-            ],
-            "points": 225
-        },
-          {
-            "name": "Tzeentch Defiler Pack",
-            "units": "Four Decievers",
-            "extraUnits": [
-                "Add one Deciever: 50 points"
-            ],
-            "points": 250
-        },
-        {
-          "name": "Chaos Undivided Defiler Pack ",
-          "units": "Four Defilers",
-        "extraUnits": [
-            "Add one Defiler: 50 points"
-        ],
-        "points": 225
-    }
-
-        ]
-      },
-    {
       "name": "Daemonic Lance Formations",
-      "description": "Up to three for each Hell-Forge Core formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
+      "description": "Up to two for each Hell-Forge Core formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
           "name": "Hell-Knights of Slaanesh",
@@ -203,7 +164,45 @@
             "Add one Knight-Renegade: 125 points"
         ],
         "points": 275
-    },
+    }
+    ]
+},
+    {
+      "name": "Daemonic Packs",
+      "description": "Up to one for each Daemonic Lance formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
+      "formations": [
+          {
+            "name": "Hell-Striders of Slaanesh",
+            "units": "Four Hell-Striders",
+          "extraUnits": [
+              "Add one Hell-Strider: 50 points"
+          ],
+          "points": 225
+            },
+          {
+            "name": "Nurgle Defiler Pack",
+            "units": "Four Desecrators",
+            "extraUnits": [
+                "Add one Desecrator: 50 points"
+            ],
+            "points": 250
+        },
+          {
+            "name": "Khorne Defiler Pack",
+            "units": "Four Slaughterfiends",
+            "extraUnits": [
+                "Add one Slaughterfiend: 50 points"
+            ],
+            "points": 225
+        },
+          {
+            "name": "Tzeentch Defiler Pack",
+            "units": "Four Decievers",
+            "extraUnits": [
+                "Add one Deciever: 50 points"
+            ],
+            "points": 250
+        },
     {
       "name": "Armigers of Chaos Undivided",
       "units": "Four Knight-Doomglaives or four Knight-Perfidors",
@@ -211,27 +210,13 @@
   ],
       "points": 225
   }
-    ]
-},
+
+        ]
+      },
          {
-      "name": "Hell-Forge Support and Chaos Navy Allies",
+      "name": "Ordinatus Support and Chaos Navy Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "Arlatax Maniple",
-            "units": "One Hellwright, four Arlatax Battle-Automata",
-          "extraUnits": [
-              ],
-          "points": 175
-      },
-            {
-              "name": "Chrono-Gladiators",
-              "units": "Six Chrono-Gladiators",
-            "extraUnits": [
-                ],
-            "points": 200
-              },
-
               {
             "name": "Ordinatus Hereticus Minoris",
             "units": "Two Ordinatus Hereticus Minoris",
@@ -265,7 +250,7 @@
           "units": "One Despoiler Class Battleship",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 200
         }
       ]
   },
@@ -293,7 +278,7 @@
     {
       "name": "Hell-Forge Transport",
       "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle is completely empty, and no unit lacks transport.",
-      "points": ["Chaos Rhino: 10 points", "Macrocarid Exploitator: 50 points", "Triaros Armoured Despoiler: 75 points"]
+      "points": ["Chaos Rhino: 10 points", "Triaros Armoured Despoiler: 75 points"]
   }
     ]
   }

@@ -5895,9 +5895,10 @@
       "name": "Lightning Cannon",
         "modes": [
           {
-            "firepower": "MW3+",
+            "firepower": "MW2+",
             "range": 45,
             "specialRules": [
+                "D"
           ]
         }
       ]
@@ -7166,6 +7167,19 @@
       ]
     },
     {
+      "name": "Phospex Launcher",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 30,
+            "specialRules": [
+                "Ind",
+                "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Phospex Blaster",
         "modes": [
           {
@@ -7421,7 +7435,7 @@
       "name": "Pulsar-Fusil",
         "modes": [
           {
-            "firepower": "2x AT2+",
+            "firepower": "2x AT3+/AT5+",
               "range": 45,
             "specialRules": [
                 "Lance"
@@ -7748,12 +7762,12 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range":120,
+            "range":90,
             "specialRules": [
               "Slw",
-              "MW",
-              "IC",
-              "D"
+              "Ind",
+              "MW"
+
           ]
           }
       ]

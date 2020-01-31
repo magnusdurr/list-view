@@ -65,13 +65,11 @@
             "Knight-Rampager",
             "Deciever",
             "Knight-Despoiler",
-            "Defiler",
             "Knight-Renegade",
             "Knight-Doomglaive",
             "Knight-Perfidor",
-            "Hellwright",
             "Chaos Squats",
-            "Chaos Rhino"
+            "Triaros Armoured Despoiler"
         ],
         "unitRules": [
           "Daemon Engine (x)",
@@ -144,7 +142,7 @@
       "formations": [
         {
           "name": "Chaos Warhound Pack",
-          "units": "Two Plaguehound of Nurgle / Bloodhound of Khorne / Warphound or Tzeentch (may not mix variants or configurations)",
+          "units": "Two Plaguehound of Nurgle / Bloodhound of Khorne / Warphound or Tzeentch / Chaos Warhounds of Chaos Undivided (may not mix variants or configurations)",
           "extraUnits": [
           ],
           "points": 500
@@ -229,7 +227,7 @@
         "name": "Knights of Tzeentch",
         "units": "One Knight-Despoiler",
         "extraUnits": [
-            "Add one Knight Despoiler: 125 points"
+            "Add one Knight-Despoiler: 125 points"
         ],
         "points": 150
     },
@@ -240,47 +238,35 @@
               "Add up to two Decievers: 50 points each"
           ],
           "points": 200
-      }
+      },
+      {
+        "name": "Knights of Chaos Undivided",
+        "units": "One Knight-Renegade",
+        "extraUnits": [
+            "Add one Knight-Renegade: 125 points"
+        ],
+        "points": 150
+    },
+      {
+        "name": "Armigers of Chaos Undivided",
+        "units": "Three Knight-Doomglaives or three Knight-Perfidors",
+        "extraUnits": [
+            "Add one Knight-Doomglaive or Knight-Perfidor (may not mix configurations)"
+    ],
+        "points": 175
+    }
     ]
   },
         {
-      "name": "Undivided, Hell-Forge and Chaos Navy Allies",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "name": "Hell-Forge and Chaos Navy Allies",
+      "description": "Up to a fourth of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Chaos Warhound of Chaos Undivided",
-            "units": "One Chaos Warhound",
-            "extraUnits": [
-            ],
-            "points": 275
-        },
-          {
-            "name": "Knights of Chaos Undivided",
-            "units": "Two Knight-Renegades",
-            "extraUnits": [
-            ],
-            "points": 275
-        },
-          {
-            "name": "Chaos Undivided Defiler Pack ",
-            "units": "Four Defilers",
-          "extraUnits": [
-          ],
-          "points": 225
-      },
-          {
-            "name": "Armigers of Chaos Undivided",
-            "units": "Four Knight-Doomglaives or four Knight-Perfidors",
-            "extraUnits": [
-        ],
-            "points": 225
-        },
       {
-        "name": "Hell-Forge Maniple",
-        "units": "Hellwright, eleven Chaos Squats, six Chaos Rhinos",
+        "name": "Hell-Forge Support",
+        "units": "Six Chaos Squats, one Triaros Armoured Despoiler",
       "extraUnits": [
           ],
-      "points": 275
+      "points": 200
         },
             {
           "name": "Ordinatus Hereticus Minoris",
@@ -299,7 +285,7 @@
           "units": "One Despoiler Class Battleship",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 200
         }
       ]
   },

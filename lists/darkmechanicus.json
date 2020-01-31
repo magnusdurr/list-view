@@ -107,24 +107,6 @@
           ]
         },
         {
-          "name": "Arlatax Battle-Automata",
-          "type": "LV",
-          "speed": 10,
-          "armour": 4,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-            "Twin Reaper Autocannons",
-            "Power Fist"
-          ],
-          "specialRules": [
-              "Machine Spirit",
-              "Fearless",
-              "Expendable",
-              "Ponderous"
-          ]
-        },
-        {
             "name": "Adsecularis",
             "type": "INF",
             "speed": 15,
@@ -166,6 +148,35 @@
             "Phospex Serpenta"
           ],
           "specialRules": [
+          ]
+        },
+        {
+            "name": "Phospexor",
+            "type": "INF",
+            "speed": 10,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Phospex Launcher"
+            ],
+            "specialRules": []
+        },
+        {
+          "name": "Arlatax Battle-Automata",
+          "type": "LV",
+          "speed": 10,
+          "armour": 4,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Twin Reaper Autocannons",
+            "Power Fist"
+          ],
+          "specialRules": [
+              "Machine Spirit",
+              "Fearless",
+              "Expendable",
+              "Ponderous"
           ]
         },
         {
@@ -456,7 +467,7 @@
             "type": "AV",
             "speed": 30,
             "armour": 5,
-            "cc": 5,
+            "cc": 4,
             "ff": 5,
             "weapons": [
               "Multi-Melta",
@@ -634,8 +645,8 @@
           "cc": 5,
           "ff": 3,
           "weapons": [
-            "Castigator Cannon|2|FwA",
-            "Lascannon|2|FxF"
+            "Castigator Cannon|2|",
+            "Lascannon|2|"
           ],
           "specialRules": [
               "Damage Capacity 3",
@@ -656,7 +667,7 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Tormentor Cannons||FwA",
+          "Tormentor Cannons",
           "Doom Siren",
           "Hellslicer Battle Claws|2|"
         ],
@@ -987,7 +998,7 @@
         "type": "H-AV",
         "speed": 20,
         "armour": 5,
-        "cc": 4,
+        "cc": 5,
         "ff": 4,
         "weapons": [
           "Rapid Fire Battle Cannon",
