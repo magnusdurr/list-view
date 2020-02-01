@@ -1809,8 +1809,8 @@
       "name": "Beam of Unreality",
       "modes": [
         {
-          "firepower": "D3x AP3+",
-          "range": 30,
+          "firepower": "D3x AP3+/AA6+",
+          "range": 45,
           "specialRules": [
             "D"
           ]
@@ -4760,13 +4760,13 @@
       ]
     },
     {
-      "name": "Heavy Rail Cannon",
+      "name": "Heavy Railcannon",
         "modes": [
           {
-            "firepower": "MW2+",
+            "firepower": "MW3+",
             "range": 90,
             "specialRules": [
-              "TK(D2)"
+              "TK(D3)"
           ]
           }
       ]

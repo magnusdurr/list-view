@@ -324,7 +324,7 @@
           "name": "Mutalith Vortex Beast",
           "type": "LV",
           "speed": 15,
-          "armour": 3,
+          "armour": 5,
           "cc": 5,
           "ff": 5,
           "weapons": [
@@ -334,7 +334,8 @@
           "specialRules": [
               "Fearless",
               "Walker",
-              "Invulnerable Save",
+              "Reinforced Armour",
+              "Regeneration",
               "Daemonic Focus",
               "Augment Summoning (+2D3)"
           ]

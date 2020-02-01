@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Thousand Sons",
-  "version": "0.8.2",
-  "release": "2020-01-15",
-  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Thousand Sons is also subject to 'The Architect of Fate' special rule.",
-  "Initiative": "All Thousand Sons Core and Elite formations, as well as the Warphound Pack formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "0.8.5",
+  "release": "2020-02-01",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Thousand Sons are also subject to 'The Architect of Fate' special rule.",
+  "Initiative": "The Thousand Sons Retinue, Initiates, Terminators, Armoured Company, Disc Riders, and Warphound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -12,7 +12,8 @@
       "Augment Summoning (+x)",
       "Daemonic Focus",
       "The Architect of Fate",
-      "Teleport Homer"
+      "Teleport Homer",
+      "Regeneration"
     ],
   "usage": [
     "The following army list allows you to field an army based on the Thousand Sons with Chaos Mutant allies."
@@ -53,15 +54,15 @@
         "from": "darkmechanicus.json",
         "units": [
             "Deciever",
-            "Mirrorfiend",
+            "Knight-Despoiler",
             "Silver Tower",
             "Warp Palace",
             "Doomwing",
             "Firelord"
         ],
         "unitRules": [
-          "Regeneration",
-          "Daemon Engine (x)"
+          "Daemon Engine (x)",
+          "Heavy Armoured Vehicle (H-AV)"
         ]
     },
     {
@@ -115,20 +116,18 @@
       ]
     },
     {
-      "name": "Thousand Sons Elite Formations",
-      "description": "Up to two may be taken per Core formation",
+      "name": "Thousand Sons Support Formations",
+      "description": "Up to four may be taken per Thousand Sons Core formation",
       "formations": [
         {
           "name": "Thousand Sons Initiates",
-          "units": "Four Chaos Space Marines, Daemonic Pact",
+          "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
           "extraUnits": [
             "Champion of Tzeentch",
             "Icon Bearer",
-            "Dreadnoughts",
-            "Predators",
-            "Thousand Sons Transport"
+            "Predators"
           ],
-          "points": 150
+          "points": 250
         },
         {
           "name": "Thousand Sons Terminators",
@@ -156,48 +155,42 @@
       "Icon Bearer"
       ],
       "points": 250
-  }
-    ]
   },
-  {
-    "name": "Thousand Sons Cult Formations",
-    "description": "Up to two may be taken per Core formation",
-    "formations": [
-      {
-        "name": "Tzaangor Host",
-        "units": "Nine Tzaangors, Daemonic Pact",
-        "extraUnits": [
-          "Beasts of Chaos"
-        ],
-        "points": 175
-    },
-  {
-    "name": "Tzeentch Defilers",
-    "units": "Four Decievers",
-    "extraUnits": [
-    ],
-    "points": 250
-    },
-        {
-      "name": "Silver Towers",
-      "units": "Four Silver Towers",
-      "extraUnits": [
-      ],
-      "points": 300
-    },
-    {
-    "name": "Mirrorfiends",
-    "units": "Two Mirrorfiends",
-    "extraUnits": [
-    ],
-    "points": 300
-    }
+          {
+            "name": "Tzaangor Host",
+            "units": "Chaos Spawn, eight Tzaangors, Daemonic Pact",
+            "extraUnits": [
+                "Replace the Chaos Spawn with a Mutalith Warp Beast: 75 points"
+            ],
+            "points": 200
+        },
+            {
+          "name": "Silver Towers of Tzeentch",
+          "units": "Four Silver Towers",
+          "extraUnits": [
+          ],
+          "points": 300
+        }
     ]
   },
         {
       "name": "Dark Mechanicus and Thousand Sons Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
+          {
+          "name": "Defilers of Tzeentch",
+          "units": "Four Decievers",
+          "extraUnits": [
+          ],
+          "points": 250
+          },
+          {
+            "name": "Knights of Tzeentch",
+            "units": "Two Knight-Despoilers",
+            "extraUnits": [
+            ],
+            "points": 275
+        },
           {
             "name": "Warp Palace",
             "units": "One Warp Palace",
@@ -302,29 +295,13 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Thousand Sons Dreadnoughts to the formation",
+        "description": "Add up to three Thousand Sons Dreadnoughts to the formation",
         "points": "50 points each"
       },
       {
         "name": "Predators",
-        "description": "Add up to two Thousand Sons Predators",
+        "description": "Add up to two Thousand Sons Predators to the formation",
         "points": "50 points each"
-      },
-      {
-        "name": "Beasts of Chaos",
-        "options": [
-          {
-            "description": "Choose up to one of the following:"
-          },
-          {
-            "description": "Add one Chaos Spawn to the formation",
-            "points": "35 points"
-          },
-          {
-            "description": "Add one Vortex Beast to the formation",
-            "points": "75 points"
-          }
-        ]
     }
     ]
   }
