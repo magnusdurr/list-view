@@ -2112,8 +2112,8 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
-                "EA(+1)",
-                "MW"
+                "EA(+2)",
+                "IC"
           ]
           }
       ]
@@ -2949,6 +2949,26 @@
             "specialRules": [
               "MW",
               "Shield Piercer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daemonic Possession",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "EA(+1)",
+                "FS"
+          ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "or",
+            "specialRules": [
+                "EA(+1)",
+                "FS"
           ]
         }
       ]
@@ -5037,7 +5057,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range": 45,
+            "range": 30,
             "specialRules": [
                 "IC"
           ]
@@ -8011,7 +8031,8 @@
         {
           "firepower": "Small Arms",
           "specialRules": [
-              "EA(+1)"
+              "EA(+1)",
+              "IC"
           ]
         }
       ]

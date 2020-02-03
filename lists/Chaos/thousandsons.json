@@ -24,7 +24,7 @@
       "units": [
         "Exalted Sorcerer",
         "Aspiring Sorcerer",
-        "Champion of Tzeentch",
+        "Champion of Chaos",
         "Icon Bearer",
         "Daemon Prince of Tzeentch",
         "Chaos Space Marines",
@@ -99,6 +99,7 @@
   "sections": [
     {
       "name": "Thousand Sons Core Formations",
+      "description": "Up to one Thousand Sons Terminators formation for each Thousand Sons Retinue.",
       "formations": [
         {
           "name": "Thousand Sons Retinue",
@@ -106,39 +107,38 @@
           "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
-            "Champion of Tzeentch",
+            "Champion of Chaos",
             "Thousand Sons Transport",
             "Predators",
             "Dreadnoughts"
           ],
           "points": 350
-        }
+      },
+      {
+        "name": "Thousand Sons Terminators",
+        "units": "One Aspiring Sorcerer, four Scarab Occult Terminators",
+        "extraUnits": [
+            "Supreme Commander",
+            "Icon Bearer",
+            "Thousand Sons Transport"
+        ],
+        "points": 400
+    }
       ]
     },
     {
       "name": "Thousand Sons Support Formations",
-      "description": "Up to four may be taken per Thousand Sons Core formation",
+      "description": "Up to three may be taken per Thousand Sons Core formation.",
       "formations": [
         {
           "name": "Thousand Sons Initiates",
           "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
           "extraUnits": [
-            "Champion of Tzeentch",
             "Icon Bearer",
             "Predators"
           ],
-          "points": 250
+          "points": 275
         },
-        {
-          "name": "Thousand Sons Terminators",
-          "units": "One Aspiring Sorcerer, four Scarab Occult Terminators",
-          "extraUnits": [
-              "Supreme Commander",
-              "Icon Bearer",
-              "Thousand Sons Transport"
-          ],
-          "points": 400
-      },
       {
         "name": "Armoured Company",
         "units": "Four Thousand Sons Predators",
@@ -152,13 +152,14 @@
       "units": "One Aspiring Champion, six Sorcerer Disc Riders, Daemonic Pact",
       "extraUnits": [
       "Supreme Commander",
-      "Icon Bearer"
+      "Icon Bearer",
+      "Champion of Chaos"
       ],
       "points": 250
   },
           {
             "name": "Tzaangor Host",
-            "units": "Chaos Spawn, eight Tzaangors, Daemonic Pact",
+            "units": "One Chaos Spawn, eight Tzaangors, Daemonic Pact",
             "extraUnits": [
                 "Replace the Chaos Spawn with a Mutalith Warp Beast: 75 points"
             ],
@@ -175,7 +176,7 @@
   },
         {
       "name": "Dark Mechanicus and Thousand Sons Navy",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
           "name": "Defilers of Tzeentch",
@@ -199,21 +200,22 @@
           "points": 500
             },
           {
-            "name": "Warphound Pack",
-            "units": "Two Warphound Titans",
+            "name": "Warphounds",
+            "units": "One Warphound Titan",
             "extraUnits": [
+                "Add one Warphound: 225 points"
             ],
-            "points": 500
+            "points": 275
           },
           {
-            "name": "Doomwings of Tzeentch",
+            "name": "Doomwings of Tzeench",
             "units": "Three Doomwings",
             "extraUnits": [
             ],
             "points": 175
           },
           {
-            "name": "Firelords of Tzeentch",
+            "name": "Firelords of Tzeench",
             "units": "Two Firelords",
             "extraUnits": [
               "Add one Firelord: 100 points"
@@ -231,7 +233,7 @@
   },
       {
         "name": "Daemon Pool",
-        "description": "Any amount may be spent on Daemon Pool points",
+        "description": "Any amount may be spent on Daemon Pool points.",
         "formations": [
             {
               "name": "Lesser Daemon Pool",
@@ -284,8 +286,8 @@
         ]
       },
       {
-        "name": "Champion of Tzeentch",
-        "description": "Add one Champion of Tzeentch to the formation",
+        "name": "Champion of Chaos",
+        "description": "Add one Champion of Chaos to the formation",
         "points": "50 points"
       },
       {
@@ -295,7 +297,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to three Thousand Sons Dreadnoughts to the formation",
+        "description": "Add up to two Thousand Sons Dreadnoughts to the formation",
         "points": "50 points each"
       },
       {

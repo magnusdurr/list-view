@@ -55,7 +55,7 @@
   ],
   "sections": [
       {
-        "name": "Gargant formations",
+        "name": "Bad Moons Gargants formations",
         "description": "Army must contain at least one Mega Gargant or Great Gargant. The Big Mek will join a Mega Gargant if available, otherwise a Great Gargant",
         "formations": [
             {
@@ -85,7 +85,8 @@
         ]
     },
     {
-      "name": "Ork Formations",
+      "name": "Bad Moons Big Mek Mobs",
+      "description": "Up to four for each Bad Moons Gargants formation",
       "formations": [
         {
           "name": "Big Mek Loota Warband",
@@ -122,10 +123,7 @@
             "Add any number of Stompas: 50 points each",
             "0-1: Supa-Stompa: 275 points"
           ],
-          "pointsOptions": [
-            {"name": "Normal", "points":  "175"},
-            {"name": "Big", "points":  "250"},
-            {"name": "'Uge", "points":  "300"}
+          "points": 175
           ]
         },
         {

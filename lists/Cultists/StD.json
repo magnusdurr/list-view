@@ -181,10 +181,11 @@
         },
         {
           "name": "Chaos Space Marines of Chaos Undivided",
-          "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
+          "units": "Six Chaos Space Marines, three Chaos Rhinos",
           "extraUnits": [
+              "Add Daemonic Pact to the formation: 25 points"
           ],
-          "points": 275
+          "points": 250
       },
         {
           "name": "0-1 Decimator of Chaos Undivided",
@@ -247,7 +248,7 @@
     },
     {
       "name": "Daemon Pool",
-      "description": "Any amount may be spent on Daemon Pool points",
+      "description": "Any amount may be spent on Daemon Pool points. Add one point to the Lesser Daemon pool for each Daemonic Icon or Daemonic Pact in the army.",
       "formations": [
         {
           "name": "Lesser Daemon Pool",
