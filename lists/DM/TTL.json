@@ -1,15 +1,14 @@
 {
   "fraction": "Dark Mechanicus",
   "army": "Traitor Titan Legion",
-  "version": "0.6.1",
-  "release": "2020-01-25",
+  "version": "0.7.0",
+  "release": "2020-02-03",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
   "Initiative": "All Battle Titan and Chaos Warhound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
       "TTL Summoning Rules",
-      "Augment Summoning (+x)",
       "Daemonic Focus",
       "Fickle Masters",
       "TTL Eternal Animosity"
@@ -23,6 +22,7 @@
         "units": [
           "Eye of the Gods",
           "Daemonic Herald",
+          "Daemonic Locus",
 
           "Vicebringer Titan",
           "Gloombringer Titan",
@@ -42,7 +42,7 @@
           "Plaguehound",
           "Bloodhound",
           "Warphound",
-            "Chaos Warhound"
+          "Chaos Warhound"
         ],
         "unitRules": [
           "Void Shields",
@@ -56,7 +56,7 @@
         "units": [
             "Questor",
             "Subjugator",
-            "Hell-Strider",
+            "Debaser",
             "Hell-Knight",
             "Hell-Scourge",
             "Desecrator",
@@ -66,10 +66,10 @@
             "Deciever",
             "Knight-Despoiler",
             "Knight-Renegade",
-            "Knight-Doomglaive",
-            "Knight-Perfidor",
+            "Defiler",
+            "Hellwright",
             "Chaos Squats",
-            "Triaros Armoured Despoiler"
+            "Chaos Rhino"
         ],
         "unitRules": [
           "Daemon Engine (x)",
@@ -96,6 +96,7 @@
   "from": "chaosnavy.json",
   "units": [
     "Heldrake",
+    "Harbringer Bomber",
     "Despoiler Class Battleship"
 ],
 "unitRules": [
@@ -111,162 +112,77 @@
       "formations": [
         {
           "name": "0-1 Chaos Emperor Titan",
-          "units": "One Vicebringer Titan of Slaanesh / Gloombringer Titan of Nurgle / Strifebringer Titan of Khorne / Changebringer Titan of Tzeentch",
+          "units": "Daemonic Locus, one Vicebringer Titan of Slaanesh / Gloombringer Titan of Nurgle / Strifebringer Titan of Khorne / Changebringer Titan of Tzeentch",
           "extraUnits": [
             "Eye of the Gods"
           ],
-          "points": 900
+          "points": 925
       },
         {
           "name": "Chaos Warlord Titan",
-          "units": "One Painlord Titan of Slaanesh / Plaguelord Titan of Nurgle / Banelord Titan of Khorne / Warplord Titan of Tzeentch",
+          "units": "Daemonic Locus, one Painlord Titan of Slaanesh / Plaguelord Titan of Nurgle / Banelord Titan of Khorne / Warplord Titan of Tzeentch",
           "extraUnits": [
             "Eye of the Gods",
             "Daemonic Herald"
           ],
-          "points": 750
+          "points": 775
       },
         {
           "name": "Chaos Reaver Titan",
-          "units": "One Reviler Titan of Slaanesh / Repugnant Titan of Nurgle / Ravager Titan of Khorne / Mutator Titan of Tzeentch",
+          "units": "Daemonic Locus, one Reviler Titan of Slaanesh / Repugnant Titan of Nurgle / Ravager Titan of Khorne / Mutator Titan of Tzeentch",
           "extraUnits": [
           "Daemonic Herald"
           ],
-          "points": 600
+          "points": 625
       }
     ]
 },
     {
       "name": "Scout Titan Formations",
-      "description": "Up to two for each Battle Titan. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
+      "description": "Up to three for each Battle Titan. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
-          "name": "Chaos Warhound Pack",
-          "units": "Two Plaguehound of Nurgle / Bloodhound of Khorne / Warphound or Tzeentch / Chaos Warhounds of Chaos Undivided (may not mix variants or configurations)",
+          "name": "Chaos Scout Titan",
+          "units": "Daemonic Locus, one Subjugator of Slaanesh / Questor of Slaanesh / Plaguehound of Nurgle / Bloodhound of Khorne / Warphound of Tzeentch / Chaos Warhounds of Chaos Undivided",
           "extraUnits": [
           ],
-          "points": 500
-        },
-        {
-          "name": "Questors of Slaanesh",
-          "units": "Two Questors",
-          "extraUnits": [
-          ],
-          "points": 500
-        },
-        {
-          "name": "Subjugator of Slaanesh",
-          "units": "Two Subjugators",
-          "extraUnits": [
-          ],
-          "points": 450
+          "points": 300
         }
     ]
   },
   {
     "name": "Daemon Engine Formations",
-    "description": "One for each Battle Titan or Scout Titan formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
+    "description": "Up to three for each Battle Titan. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
     "formations": [
         {
-          "name": "Hell-Striders of Slaanesh",
-          "units": "Three Hell-Striders",
+          "name": "Chaos Knight",
+          "units": "Daemonic Locus, one Hell-Scourge of Slaanesh / Hell-Knight of Slaanesh / Knight-Desecrator of Nurgle / Knight-Rampager of Khorne / Knight-Despoiler of Tzeentch / Knight-Renegade of Chaos Undivided",
         "extraUnits": [
-            "Add up to two Hell-Striders: 50 points each"
         ],
         "points": 175
           },
           {
-            "name": "Hell-Knights of Slaanesh",
-            "units": "Two Hell-Knights",
+            "name": "Defiler Pack",
+            "units": "Three Debasers of Slaanesh / Slaughterfiends of Khorne / Defilers of Chaos Undivided",
             "extraUnits": [
-                "Add one Hell-Knight: 100 points"
+                "Replace three Debasers with three Desecrators of Nurgle or Decievers of Tzeentch: 25 points",
+                "Add one unit of the same type as the rest of the formation: 50 points"
             ],
-            "points": 225
-          },
-          {
-            "name": "Hell-Scourges of Slaanesh",
-            "units": "Two Hell-Scourges",
-            "extraUnits": [
-                "Add one Hell-Scourge: 100 points"
-            ],
-            "points": 225
-          },
-          {
-            "name": "Knights of Nurgle",
-            "units": "One Knight-Desecrator",
-            "extraUnits": [
-                "Add one Knight-Desecrator: 125 points"
-            ],
-            "points": 150
-        },
-          {
-            "name": "Nurgle Defiler Pack",
-            "units": "Three Desecrators",
-            "extraUnits": [
-                "Add up to two Desecrators: 50 points each"
-            ],
-            "points": 200
-        },
-        {
-          "name": "Knights of Khorne",
-          "units": "One Knight-Rampager",
-          "extraUnits": [
-              "Add one Knight-Rampager: 125 points"
-          ],
-          "points": 150
-      },
-        {
-          "name": "Khorne Defiler Pack",
-          "units": "Three Slaughterfiends",
-          "extraUnits": [
-              "Add up to two Slaughterfiends: 50 points each"
-          ],
-          "points": 175
-      },
-      {
-        "name": "Knights of Tzeentch",
-        "units": "One Knight-Despoiler",
-        "extraUnits": [
-            "Add one Knight-Despoiler: 125 points"
-        ],
-        "points": 150
-    },
-        {
-          "name": "Tzeentch Defiler Pack",
-          "units": "Three Decievers",
-          "extraUnits": [
-              "Add up to two Decievers: 50 points each"
-          ],
-          "points": 200
-      },
-      {
-        "name": "Knights of Chaos Undivided",
-        "units": "One Knight-Renegade",
-        "extraUnits": [
-            "Add one Knight-Renegade: 125 points"
-        ],
-        "points": 150
-    },
-      {
-        "name": "Armigers of Chaos Undivided",
-        "units": "Three Knight-Doomglaives or three Knight-Perfidors",
-        "extraUnits": [
-            "Add one Knight-Doomglaive or Knight-Perfidor (may not mix configurations)"
-    ],
-        "points": 175
-    }
+            "points": 175
+        }
     ]
   },
         {
       "name": "Hell-Forge and Chaos Navy Allies",
-      "description": "Up to a fourth of the points available may be spent on these formations",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
       {
         "name": "Hell-Forge Support",
-        "units": "Six Chaos Squats, one Triaros Armoured Despoiler",
+        "units": "One Hellwright, eleven Chaos Squats",
       "extraUnits": [
+          "Add six Chaos Rhinos: 50 points"
           ],
-      "points": 200
+      "points": 225
         },
             {
           "name": "Ordinatus Hereticus Minoris",
@@ -279,6 +195,11 @@
           "name": "Heldrakes",
           "units": "Two Heldrakes",
           "points": 225
+        },
+        {
+          "name": "0-1 Harbringer Bomber",
+          "units": "One Harbringer Bomber",
+          "points": 350
         },
         {
           "name": "0-1 Chaos Battleship",
@@ -295,7 +216,7 @@
     "formations": [
         {
           "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points. In addition, add three points to the Lesser Daemon Pool for each Eye of the Gods and Daemonic Herald upgrade.",
+          "units": "Any amount of Lesser Daemon Pool points. In addition, add three points to the Lesser Daemon Pool for each Eye of the Gods / Daemonic Herald upgrade, and add one point for each Daemonic Locus character.",
           "points": 15
       }
     ]
@@ -307,12 +228,12 @@
     "items": [
       {
         "name": "0-1 Eye of the Gods",
-        "description": "Add one Eye of the Gods character to the formation",
+        "description": "Replace the Daemonic Locus with a Eye of the Gods character",
         "points": "50 points"
     },
     {
       "name": "Daemonic Herald",
-      "description": "Add one Daemonic Herald character to the formation. May not be combined with Eye of the Gods",
+      "description": "Replace the Daemonic Locus with a Daemonic Herald character. May not be combined with Eye of the Gods",
       "points": "25 points"
     }
     ]
