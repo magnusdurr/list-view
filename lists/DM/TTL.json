@@ -87,7 +87,7 @@
         "Fleshhounds of Khorne",
         "Horrors of Tzeentch",
         "Flamers of Tzeentch",
-        "Furies of Chaos Undivided"
+        "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
     ]
@@ -142,12 +142,19 @@
       "description": "Up to three for each Battle Titan. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
-          "name": "Chaos Scout Titan",
-          "units": "Daemonic Locus, one Subjugator of Slaanesh / Questor of Slaanesh / Plaguehound of Nurgle / Bloodhound of Khorne / Warphound of Tzeentch / Chaos Warhounds of Chaos Undivided",
+          "name": "Chaos Warhound",
+          "units": "Daemonic Locus, one Plaguehound of Nurgle / Bloodhound of Khorne / Warphound of Tzeentch / Chaos Warhound of Chaos Undivided",
           "extraUnits": [
           ],
           "points": 300
-        }
+      },
+      {
+        "name": "Slaanesh Scout Titan",
+        "units": "Daemonic Locus, one Subjugator of Slaanesh / Questor of Slaanesh",
+        "extraUnits": [
+        ],
+        "points": 300
+      }
     ]
   },
   {
@@ -165,8 +172,8 @@
             "name": "Defiler Pack",
             "units": "Three Debasers of Slaanesh / Slaughterfiends of Khorne / Defilers of Chaos Undivided",
             "extraUnits": [
-                "Replace three Debasers with three Desecrators of Nurgle or Decievers of Tzeentch: 25 points",
-                "Add one unit of the same type as the rest of the formation: 50 points"
+                "Replace three Debasers / Slaughterfiends / Defilers with three Desecrators of Nurgle, or three Decievers of Tzeentch: 25 points",
+                "Add one Debaser / Slaughterfiend / Desecrator / Deciever / Defiler (formation may not mix different types of units): 50 points"
             ],
             "points": 175
         }
@@ -177,7 +184,7 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
       {
-        "name": "Hell-Forge Support",
+        "name": "Hell-Forge Maniple",
         "units": "One Hellwright, eleven Chaos Squats",
       "extraUnits": [
           "Add six Chaos Rhinos: 50 points"
@@ -216,7 +223,7 @@
     "formations": [
         {
           "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points. In addition, add three points to the Lesser Daemon Pool for each Eye of the Gods / Daemonic Herald upgrade, and add one point for each Daemonic Locus character.",
+          "units": "Any amount of Lesser Daemon Pool points. Add three points to the Lesser Daemon Pool for each Eye of the Gods / Daemonic Herald upgrade, and add one point for each Daemonic Locus character.",
           "points": 15
       }
     ]

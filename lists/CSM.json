@@ -4,6 +4,12 @@
 
     "specialRules": [
         {
+    			"title": "Machine Spirit",
+    			"description": [
+    				"A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally."
+    			]
+    		},
+        {
           "title": "Stubborn",
           "description": [
         "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, and reduce the number of extra hits from losing an assault by one."
@@ -84,6 +90,18 @@
           ]
         },
         {
+          "name": "Night Lords First Captain",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Daemonic Pact",
+            "Invulnerable Save"
+          ]
+        },
+        {
           "name": "Blood Lord",
           "type": "CH",
           "weapons": [
@@ -92,6 +110,19 @@
           "specialRules": [
             "Supreme Commander",
             "Inspiring",
+            "Invulnerable Save"
+          ]
+        },
+        {
+          "name": "Grand Apostle",
+          "type": "CH",
+          "weapons": [
+            "Daemon Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Inspiring",
+            "Augment Summoning (+1D3)",
             "Invulnerable Save"
           ]
         },
@@ -105,6 +136,18 @@
           "specialRules": [
             "Supreme Commander",
             "Teleport Homer",
+            "Invulnerable Save"
+          ]
+        },
+        {
+          "name": "Dark Apostle",
+          "type": "CH",
+          "weapons": [
+            "Daemon Weapon"
+          ],
+          "specialRules": [
+            "Inspiring",
+            "Augment Summoning (+1D3)",
             "Invulnerable Save"
           ]
         },
@@ -146,6 +189,19 @@
           "Leader",
           "Invulnerable Save"
 
+        ]
+      },
+      {
+        "name": "Night Lords Captain",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Daemonic Pact",
+          "Invulnerable Save"
         ]
       },
       {
@@ -211,52 +267,16 @@
         "notes": "May be sacrificed. Before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker."
       },
       {
-        "name": "Champion of Slaanesh",
+        "name": "Night Lords Sergeant",
         "type": "CH",
         "weapons": [
-          "Daemonic Bolt"
+            "n/a"
         ],
         "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-        ],
-        "notes": "May be sacrificed. Before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker."
-      },
-      {
-        "name": "Champion of Tzeentch",
-        "type": "CH",
-        "weapons": [
-          "Daemon Weapon"
-        ],
-        "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-        ],
-        "notes": "May be sacrificed. Before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker."
-      },
-      {
-        "name": "Champion of Nurgle",
-        "type": "CH",
-        "weapons": [
-          "Daemon Weapon"
-        ],
-        "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-        ],
-        "notes": "May be sacrificed. Before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker."
-      },
-      {
-        "name": "Champion of Khorne",
-        "type": "CH",
-        "weapons": [
-          "Daemon Weapon"
-        ],
-        "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-        ],
-        "notes": "May be sacrificed. Before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker."
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
+        ]
       },
       {
         "name": "Icon Bearer",
@@ -265,6 +285,7 @@
           "n/a"
         ],
         "specialRules": [
+            "Augment Summoning (+1)",
             "Daemonic Focus",
             "Invulnerable Save",
             "Leader"
@@ -401,6 +422,18 @@
         ]
       },
       {
+        "name": "Night Lords Assault Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolters",
+          "Chainglaives"
+        ]
+      },
+      {
         "name": "Iron Warriors Assault Marines",
         "type": "INF",
         "speed": 15,
@@ -464,6 +497,20 @@
       ]
       },
       {
+        "name": "Night Lords Chosen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Sniper Rifles"
+      ],
+      "specialRules": [
+          "Scout"
+      ]
+      },
+      {
         "name": "Alpha Legion Headhunters",
         "type": "INF",
         "speed": 15,
@@ -490,6 +537,21 @@
         "weapons": [
           "Plasma Pistols",
           "Chainswords"
+      ],
+      "specialRules": [
+          "Jump Packs"
+      ]
+      },
+      {
+        "name": "Word Bearers Iconoclasts",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolt Pistols",
+          "Iconoclast Axes"
       ],
       "specialRules": [
           "Jump Packs"
@@ -612,6 +674,20 @@
         ]
       },
       {
+        "name": "Word Bearers Possessed",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Daemonic Possession"
+        ],
+        "specialRules": [
+            "Invulnerable Save"
+        ]
+      },
+      {
         "name": "Chaos Terminators",
         "type": "INF",
         "speed": 15,
@@ -628,6 +704,7 @@
           "Thick Rear Armour"
       ]
       },
+
       {
         "name": "Tyrant Terminators",
         "type": "INF",
@@ -799,6 +876,17 @@
         "specialRules": [
           "Mounted"
         ]
+      },
+      {
+          "name": "Chaos Attack Bike",
+          "type": "LV",
+          "speed": 35,
+          "armour": 4,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+              "Reaper Autocannon"
+          ]
       },
       {
         "name": "Khorne Berzerker Assault Bikes",
@@ -1146,6 +1234,32 @@
         ]
       },
       {
+        "name": "Chaos Stalker",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Hades Autocannon"
+        ]
+    },
+    {
+      "name": "Death Guard Stalker",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Hades Autocannon"
+    ],
+    "specialRules": [
+        "Invulnerable Save"
+    ]
+  },
+
+      {
         "name": "Chaos Dreadnought",
         "type": "AV",
         "speed": 15,
@@ -1158,6 +1272,21 @@
         ],
         "specialRules": [
           "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Night Lords Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+            "Reaper Autocannon",
+            "Power Fist"
+        ],
+        "specialRules": [
           "Walker"
         ]
       },
@@ -1255,31 +1384,6 @@
           "Walker"
         ]
       },
-      {
-        "name": "Chaos Stalker",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Hades Autocannon"
-        ]
-    },
-    {
-      "name": "Death Guard Stalker",
-      "type": "AV",
-      "speed": 25,
-      "armour": 5,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Hades Autocannon"
-    ],
-    "specialRules": [
-        "Invulnerable Save"
-    ]
-  },
           {
             "name": "Iron Warriors Stormsword",
             "type": "WE",
@@ -1298,82 +1402,34 @@
             ],
             "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
         },
-  {
-    "name": "Alpha Legion Xiphon Interceptor",
-    "type": "AC",
-    "speed": "Fighter",
-    "armour": 5,
-    "weapons": [
-      "AC Quad Lascannon||FxF",
-      "AC Xiphon Rotary Missile Launcher||FxF"
-    ],
-    "specialRules": [
-
-    ]
-  },
-    {
-      "name": "Chaos Thunderhawk",
-      "type": "AC/WE",
-      "speed": "Bomber",
-      "armour": 4,
-      "cc": 6,
-      "ff": 4,
-      "weapons": [
-        "Battle Cannon||FxF",
-        "AC Twin Heavy Bolters|2|FxF",
-        "AC Twin Heavy Bolters||Left",
-        "AC Twin Heavy Bolters||Right"
-      ],
-      "specialRules": [
-        "Damage Capacity 2",
-        "Planetfall",
-        "Reinforced Armour",
-        "Transport"
-      ],
-      "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
-      "crit": " The Thunderhawk and all units being carried are destroyed."
-  },
-  {
-    "name": "Alpha Legion Thunderhawk",
-    "type": "AC/WE",
-    "speed": "Bomber",
-    "armour": 4,
-    "cc": 6,
-    "ff": 4,
-    "weapons": [
-      "AC Laser Destructor||FxF",
-      "AC Twin Heavy Bolters|2|FxF",
-      "AC Twin Heavy Bolters||Left",
-      "AC Twin Heavy Bolters||Right"
-    ],
-    "specialRules": [
-      "Damage Capacity 2",
-      "Stubborn",
-      "Planetfall",
-      "Reinforced Armour",
-      "Transport"
-    ],
-    "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
-    "crit": " The Thunderhawk and all units being carried are destroyed."
-    },
-  {
-    "name": "Alpha Legion Strike Cruiser",
-    "type": "SC",
-    "weapons": [
-      {
-        "name": "Orbital Bombardment",
-        "modes": [
-          {
-            "firepower": "4BP, MW"
-          }
-        ]
-      }
-    ],
-    "specialRules": [
-      "Transport"
-    ],
-    "notes": "May transport twenty units of INF or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawks and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
-  }
+        {
+			"name": "Chaos Tarantula",
+			"type": "INF",
+			"speed": "Immobile",
+            "armour": 6,
+			"ff": "6+/5",
+			"weapons": [{
+					"name": "0-1x Twin Lascannons",
+					"modes": [{
+						"firepower": "AT4+",
+						"range": 45
+					}]
+				},
+				{
+					"name": "0-1x Reaper Autocannon",
+					"modes": [{
+						"firepower": "AP4+/AT6+",
+						"range": 30
+					}]
+				}
+			],
+			"specialRules": [
+				"Machine Spirit",
+				"Fearless",
+				"Expendable"
+			],
+			"notes": "Armed with either Twin Lascannons or Reaper Autocannon. Tarantulas armed with Reaper Autocannon have their firefight value increased to 5+."
+		}
     ]
   }
 ]

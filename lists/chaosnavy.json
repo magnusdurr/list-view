@@ -137,7 +137,163 @@
         "Slow to Arrive (May only arrive from turn 2 onwards)"
     ],
         "notes": "Transport. May transport 30 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
-    }
+    },
+    {
+      "name": "Chaos Xiphon Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 5,
+      "weapons": [
+        "AC Quad Lascannon||FxF",
+        "AC Xiphon Rotary Missile Launcher||FxF"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+        "name": "Chaos Storm Eagle",
+        "type": "AC/WE",
+        "speed": "Bomber",
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+            "AC Twin Heavy Bolters||",
+            "AC Twin Lascannons|2|FxF",
+            "Vengeance Launcher"
+        ],
+        "specialRules": [
+            "Damage Capacity 2",
+            "Planetfall",
+            "Reinforced Armour",
+            "Transport"
+        ],
+        "notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Chaos Thunderhawk for being transported.",
+        "crit": "The Storm Eagle and all units being carried are destroyed."
+    },
+      {
+        "name": "Chaos Thunderhawk",
+        "type": "AC/WE",
+        "speed": "Bomber",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Battle Cannon||FxF",
+          "AC Twin Heavy Bolters|2|FxF",
+          "AC Twin Heavy Bolters||Left",
+          "AC Twin Heavy Bolters||Right"
+        ],
+        "specialRules": [
+          "Damage Capacity 2",
+          "Planetfall",
+          "Reinforced Armour",
+          "Transport"
+        ],
+        "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
+        "crit": "The Thunderhawk and all units being carried are destroyed."
+    },
+    {
+      "name": "Night Lords Thunderhawk",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "AC Laser Destructor||FxF",
+        "AC Reaper Autocannon|2|FxF",
+        "AC Reaper Autocannon||Left",
+        "AC Reaper Autocannon||Right"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ],
+      "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
+      "crit": " The Thunderhawk and all units being carried are destroyed."
+      },
+    {
+      "name": "Alpha Legion Thunderhawk",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "AC Laser Destructor||FxF",
+        "AC Twin Heavy Bolters|2|FxF",
+        "AC Twin Heavy Bolters||Left",
+        "AC Twin Heavy Bolters||Right"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Stubborn",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ],
+      "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
+      "crit": " The Thunderhawk and all units being carried are destroyed."
+      },
+      {
+        "name": "Chaos Stormbird",
+        "type": "AC/WE",
+        "speed": "Bomber",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC Twin Lascannons|3|FxF",
+          "AC Reaper Autocannon||Left",
+          "AC Reaper Autocannon||Right"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Planetfall",
+          "Reinforced Armour",
+          "Fearless",
+          "Transport"
+        ],
+        "notes": "May transport twelve units of INF; Terminators and Dreadnoughts count as two units each. Counts as a Thunderhawk for being transported.",
+        "crit": "The Stormbird and all units being carried are destroyed. All units within 5cm takes a hit."
+    },
+    {
+      "name": "Chaos Strike Cruiser",
+      "type": "SC",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "modes": [
+            {
+              "firepower": "4BP, MW"
+            }
+          ]
+        }
+      ],
+      "specialRules": [
+        "Transport"
+      ],
+      "notes": "May transport twenty units of INF or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawks and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
+  },
+  {
+      "name": "Chaos Drop Pod",
+      "weapons": [{
+          "name": "Deathwind",
+          "modes": [{
+              "firepower": "AP5+/AT5+",
+              "range": 15
+          }]
+      }],
+      "specialRules": [
+          "Planetfall",
+          "Transport"
+      ],
+      "notes": "May transport one formation of only the following units: Chaos Space Marines, Havocs, Chaos Dreadnoughts. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop Pod models should be removed from the board once the formation they transport has disembarked."
+  }
 
     ]
   }

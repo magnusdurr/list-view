@@ -9,10 +9,11 @@
   "specialRules": [
       "The Harrowing",
       "Sabotage",
-      "Alpha Legion Dreadclaws",
+      "Alpha Legion Transports",
       "Summoning",
       "Alpha Legion Summoning Rules",
-      "Fickle Masters"
+      "Fickle Masters",
+      "Alpha Legion Dreadclaws"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Alpha Legion with Traitor Imperial Guard allies."
@@ -30,10 +31,7 @@
           "Lernaean Terminators",
           "Alpha Legion Dreadnought",
           "Alpha Legion Rhino",
-          "Alpha Legion Land Raider",
-          "Alpha Legion Xiphon Interceptor",
-          "Alpha Legion Thunderhawk",
-          "Alpha Legion Strike Cruiser"
+          "Alpha Legion Land Raider"
       ],
       "unitRules": [
           "Stubborn"
@@ -74,9 +72,20 @@
         "Plaguebearers of Nurgle",
         "Bloodletters of Khorne",
         "Horrors of Tzeentch",
-        "Furies of Chaos Undivided"
+        "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
+    ]
+},
+    {
+      "from": "chaosnavy.json",
+      "units": [
+          "Chaos Xiphon Interceptor",
+          "Alpha Legion Thunderhawk",
+          "Chaos Strike Cruiser"
+    ],
+    "unitRules": [
+
     ]
     }
 ],
@@ -190,7 +199,7 @@
     "formations": [
         {
           "name": "Xiphon Squadron",
-          "units": "Two Alpha Legion Xiphon Interceptors",
+          "units": "Two Chaos Xiphon Interceptors",
           "extraUnits": [
           ],
           "points": 200
@@ -200,11 +209,11 @@
           "units": "One Alpha Legion Thunderhawk",
           "extraUnits": [
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Strike Cruiser",
-          "units": "One Alpha Legion Strike Cruiser",
+          "units": "One Chaos Strike Cruiser",
           "extraUnits": [
           ],
           "points": 200

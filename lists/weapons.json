@@ -2519,6 +2519,17 @@
       ]
     },
     {
+      "name": "Iconoclast Axes",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "S"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Chainfist",
         "modes": [
           {
@@ -2959,7 +2970,6 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
-                "EA(+1)",
                 "FS"
           ]
           },
@@ -2967,7 +2977,6 @@
             "firepower": "Assault Weapons",
             "join": "or",
             "specialRules": [
-                "EA(+1)",
                 "FS"
           ]
         }
@@ -3625,7 +3634,18 @@
       ]
     },
     {
-      "name": "Eviserator",
+      "name": "Eviserators",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Chainglaives",
         "modes": [
           {
             "firepower": "Assault Weapons",
