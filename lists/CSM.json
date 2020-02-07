@@ -34,6 +34,12 @@
         ]
       },
       {
+        "title": "Night Lords Characters",
+        "description": [
+          "Night Lords characters may only be added to units of Raptors, Chaos Space Marines, Chaos Space Marine Assault Bikes, Night Lords Assault Marines, Havocs or Chaos Terminators."
+        ]
+      },
+      {
         "title": "Emperor's Children Characters",
         "description": [
           "Emperor's characters may only be added to units of Chaos Space Marines, Noise Marines, Noise Marine Havocs, Raptors, or Sirenshriek Terminators."
@@ -97,6 +103,7 @@
           ],
           "specialRules": [
             "Supreme Commander",
+            "Fearless",
             "Daemonic Pact",
             "Invulnerable Save"
           ]
@@ -271,12 +278,10 @@
         "name": "Night Lords Sergeant",
         "type": "CH",
         "weapons": [
-          "Power Weapon"
         ],
         "specialRules": [
           "Commander",
-          "Leader",
-          "Invulnerable Save"
+          "Leader"
         ]
       },
       {
@@ -427,7 +432,7 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 4,
         "weapons": [
           "Bolters",
@@ -559,7 +564,7 @@
       ]
       },
       {
-        "name": "World Eaters Destroyers",
+        "name": "Chaos Destroyers",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -673,6 +678,24 @@
         "specialRules": [
             "Fearless"
         ]
+      },
+      {
+        "name": "Warp Talons",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Warp Scream",
+          "Warp Talons"
+      ],
+      "specialRules": [
+          "Teleport",
+          "Jump Packs",
+            "Fearless"
+      ],
+      "notes": "Must start the game in the reserves, may not be transported, and may only enter the battlefield by Teleporting."
       },
       {
         "name": "Word Bearers Possessed",
@@ -1408,29 +1431,16 @@
 			"type": "INF",
 			"speed": "Immobile",
             "armour": 6,
-			"ff": "6+/5",
-			"weapons": [{
-					"name": "0-1x Twin Lascannons",
-					"modes": [{
-						"firepower": "AT4+",
-						"range": 45
-					}]
-				},
-				{
-					"name": "0-1x Reaper Autocannon",
-					"modes": [{
-						"firepower": "AP4+/AT6+",
-						"range": 30
-					}]
-				}
-			],
+			"ff": 5,
+            "weapons": [
+              "Reaper Autocannon"
+            ],
 			"specialRules": [
 				"Machine Spirit",
 				"Fearless",
 				"Expendable"
-			],
-			"notes": "Armed with either Twin Lascannons or Reaper Autocannon. Tarantulas armed with Reaper Autocannon have their firefight value increased to 5+."
-		}
+			]
+        }
     ]
   }
 ]

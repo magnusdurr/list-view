@@ -4,10 +4,11 @@
   "version": "Alpha 0.5.0",
   "release": "2020-02-06",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "The Tarantula, Hell Blade and Hell Talon formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
+  "Initiative": "The Devastation Class Cruiser, Hell Blade and Hell Talon formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "specialRules":
     [
         "In Midnight Clad",
+        "We Have Come For You",
       "Summoning",
       "Night Lords Summoning Rules",
       "Augment Summoning (+x)",
@@ -30,7 +31,9 @@
         "Chaos Space Marines",
         "Havocs",
         "Raptors",
+        "Warp Talons",
         "Night Lords Chosen",
+        "Chaos Destroyers",
         "Chaos Terminators",
         "Chaos Rhino",
         "Chaos Land Raider",
@@ -41,6 +44,7 @@
         "Chaos Tarantula"
     ],
     "unitRules": [
+        "Night Lords Characters",
         "Machine Spirit"
     ]
     },
@@ -57,9 +61,8 @@
       "units": [
         "Hell Blade Interceptor",
         "Hell Talon Fighter-Bomber",
-        "Night Lords Storm Eagle",
-        "Night Lords Thunderhawk",
-        "Chaos Strike Cruiser"
+        "Chaos Storm Eagle",
+        "Devastation Class Cruiser"
     ],
     "unitRules": [
 
@@ -76,9 +79,7 @@
             "extraUnits": [
               "Add up to four Raptors: 35 points each",
               "Supreme Commander",
-              "Icon Bearer",
-              "Predators",
-              "Stalker"
+              "Icon Bearer"
                 ],
             "points": 225
         }
@@ -89,7 +90,7 @@
       "description": "Up to one Elite formation may be taken per Night Lords Core Formation",
       "formations": [
         {
-          "name": "Chaos Terminators",
+          "name": "Terminator Company",
           "units": "One Night Lords Captain, four Chaos Terminators",
           "extraUnits": [
               "Add four Chaos Land Raiders: 200 points",
@@ -101,24 +102,21 @@
           ],
           "points": 325
       },
+      {
+    "name": "Warp Talons",
+    "units": "Three Warp Talons, Daemonic Pact",
+    "extraUnits": [
+    ],
+    "points": 225
+},
         {
       "name": "Chosen",
-      "units": "One Night Lords Sergeant, four Night Lords Chosen, two Chaos Rhinos",
+      "units": "Night Lords Sergeant, four Night Lords Chosen, two Chaos Rhinos",
       "extraUnits": [
-          "Captain",
-          "Icon Bearer"
+          "Replace two Chaos Rhinos with four Chaos Tarantulas (25 points), or two Night Lords Dreadnoughts (50 points)"
       ],
-      "points": 200
-  },
-          {
-        "name": "Dreadnought Assault",
-        "units": "Four Night Lords Dreadnoughts",
-        "extraUnits": [
-            "Dreadnoughts",
-            "Dreadclaws"
-        ],
-        "points": 200
-        }
+      "points": 175
+  }
     ]
   },
     {
@@ -126,15 +124,35 @@
       "description": "Up to two Support formations may be taken per Night Lords Core Formation.",
       "formations": [
           {
-            "name": "Night Lords Terror Company",
-            "units": "One Night Lords Sergeant, four Night Lords Assault Marines",
-            "extraUnits": [
+        "name": "Destroyer Company",
+        "units": "Four Chaos Destroyers",
+        "extraUnits": [
+        ],
+        "points": 200
+    },
+            {
+          "name": "Night Lords Support Company",
+          "units": "One Night Lords Sergeant, six Chaos Space Marines, three Chaos Rhinos",
+          "extraUnits": [
+              "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
+              "Replace two Chaos Space Marines with Havocs: 25 points",
               "Captain",
               "Icon Bearer",
+              "Predators",
+              "Stalker"
+          ],
+          "points": 250
+        },
+          {
+            "name": "Night Lords Terror Company",
+            "units": "One Night Lords Captain, four Night Lords Assault Marines, two Night Lords Dreadnoughts",
+            "extraUnits": [
+              "Supreme Commander",
               "Dreadnoughts",
+              "Icon Bearer",
               "Dreadclaws"
             ],
-            "points": 175
+            "points": 275
         },
           {
             "name": "Bike Company",
@@ -144,33 +162,18 @@
                   "Icon Bearer"
             ],
             "points": 300
-        },
-        {
-      "name": "Night Lords Support Company",
-      "units": "One Night Lords Sergeant, six Chaos Space Marines, three Chaos Rhinos",
-      "extraUnits": [
-          "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
-          "Replace two Chaos Space Marines with Havocs: 25 points",
-          "Captain",
-          "Icon Bearer",
-          "Predators",
-          "Stalker"
-      ],
-      "points": 250
-  },
-  {
-         "name": "0-1 Spacecraft",
-         "units": "One Chaos Strike Cruiser",
-         "extraUnits": [
-         ],
-         "points": 200
-       }
+        }
     ]
   },
   {
-    "name": "Night Lords Static Defenses & Aircraft",
-    "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula formation for each Chosen formation.",
+    "name": "Night Lords Navy",
+    "description": "Up to a third of the points available may be spent on these formations.",
     "formations": [
+        {
+          "name": "Storm Eagle",
+          "units": "One Chaos Storm Eagle",
+          "points": 175
+      },
         {
           "name": "Hell Blade Squadron",
           "units": "Three Hell Blade Interceptors",
@@ -181,23 +184,13 @@
           "units": "Two Hell Talon Fighter-Bombers",
           "points": 225
         },
-        {
-          "name": "Storm Eagle",
-          "units": "One Night Lords Storm Eagle",
-          "extraUnits": [
-          ],
-          "points": 175
-      },
-      {
-        "name": "Thunderhawk",
-        "units": "One Night Lords Thunderhawk",
-        "points": 225
-    },
     {
-      "name": "Tarantula",
-      "units": "Four Chaos Tarantulas",
-      "points": 100
-  }
+           "name": "0-1 Spacecraft",
+           "units": "Devastation Class Cruiser",
+           "extraUnits": [
+           ],
+           "points": 150
+         }
     ]
 },
   {
@@ -219,7 +212,7 @@
       {
         "name": "Supreme Commander",
         "description": "Replace a Night Lords Captain with a Night Lords First Captain",
-        "points": "50 points"
+        "points": "75 points"
       },
       {
         "name": "Captain",
@@ -233,7 +226,7 @@
       },
       {
         "name": "Dreadclaws",
-        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a spacecraft)",
         "points": "5 points per unit"
       },
       {

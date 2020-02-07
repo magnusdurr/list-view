@@ -361,8 +361,8 @@
       "title": "Teleport Homer",
       "description": [
         "Units that Teleport within 15cm from a friendly, unbroken unit with Teleport Homer (excluding from teleporting formations) may re-roll 1:s when testing for Teleport Mishap",
-        "In addition, formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or coordinate their teleport with the space ship's activation.",
-        "Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another. The entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns."
+        "In addition, formations that exclusively consists of models with Teleport may be set up in a spacecraft if such has been bought. From there, they can either teleport normally, or coordinate their teleport with the spacecraft's activation.",
+        "Teleports coordinated with a spacecraft activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another. The entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns."
         ]
     },
     {
@@ -1051,7 +1051,13 @@
      {
      "title": "In Midnight Clad",
      "description": [
-        "Furies of Chaos Undivided that are killed in an assault do not count for Combat Resolution as long as the controlling Night Lords player initiated the assault and there is at least one Night Lords Captain or Night Lords First Captain still present in the formation."
+        "Furies of Chaos Undivided that are killed in an assault do not count for Combat Resolution as long as the controlling Night Lords player initiated the assault."
+     ]
+     },
+     {
+     "title": "We Have Come For You",
+     "description": [
+        "In addition to being counted for suppression, Night Lords units may also use Small Arms to shoot. While doing no direct damage, this will still inflict a Blast Marker on enemy formations that come under fire."
      ]
      },
     {
