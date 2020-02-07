@@ -103,7 +103,6 @@
           ],
           "specialRules": [
             "Supreme Commander",
-            "Fearless",
             "Daemonic Pact",
             "Invulnerable Save"
           ]
@@ -278,6 +277,7 @@
         "name": "Night Lords Sergeant",
         "type": "CH",
         "weapons": [
+            "n/a"
         ],
         "specialRules": [
           "Commander",
@@ -684,7 +684,7 @@
         "type": "INF",
         "speed": 30,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 6,
         "weapons": [
           "Warp Scream",
@@ -695,7 +695,7 @@
           "Jump Packs",
             "Fearless"
       ],
-      "notes": "Must start the game in the reserves, may not be transported, and may only enter the battlefield by Teleporting."
+      "notes": "Must start the game in the reserves, and may only enter the battlefield by Teleportation. May not be transported."
       },
       {
         "name": "Word Bearers Possessed",

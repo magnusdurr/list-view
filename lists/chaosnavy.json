@@ -152,20 +152,21 @@
       ]
     },
     {
-        "name": "Chaos Storm Eagle",
+        "name": "Alpha Legion Storm Eagle",
         "type": "AC/WE",
         "speed": "Bomber",
         "armour": 5,
         "cc": 5,
         "ff": 4,
         "weapons": [
-            "AC Reaper Autocannon||",
+            "AC Twin Heavy Bolters||",
             "AC Twin Lascannons|2|FxF",
             "Vengeance Launcher"
         ],
         "specialRules": [
             "Damage Capacity 2",
             "Planetfall",
+            "Stubborn",
             "Reinforced Armour",
             "Transport"
         ],
@@ -203,9 +204,9 @@
       "ff": 4,
       "weapons": [
         "AC Laser Destructor||FxF",
-        "AC Twin Heavy Bolters|2|FxF",
-        "AC Twin Heavy Bolters||Left",
-        "AC Twin Heavy Bolters||Right"
+        "AC Reaper Autocannon|2|FxF",
+        "AC Reaper Autocannon||Left",
+        "AC Reaper Autocannon||Right"
       ],
       "specialRules": [
         "Damage Capacity 2",

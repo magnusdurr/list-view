@@ -4,11 +4,11 @@
   "version": "Alpha 0.5.0",
   "release": "2020-02-06",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "The Devastation Class Cruiser, Hell Blade and Hell Talon formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
+  "Initiative": "All Night Lords Core, Elite and Support formations, as well as the Thunderhawk formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
         "In Midnight Clad",
-        "We Have Come For You",
+        "Claws Forever Red",
       "Summoning",
       "Night Lords Summoning Rules",
       "Augment Summoning (+x)",
@@ -25,7 +25,6 @@
       "units": [
         "Night Lords First Captain",
         "Night Lords Captain",
-        "Night Lords Sergeant",
         "Icon Bearer",
         "Night Lords Assault Marines",
         "Chaos Space Marines",
@@ -61,7 +60,7 @@
       "units": [
         "Hell Blade Interceptor",
         "Hell Talon Fighter-Bomber",
-        "Chaos Storm Eagle",
+        "Night Lords Thunderhawk",
         "Devastation Class Cruiser"
     ],
     "unitRules": [
@@ -74,7 +73,7 @@
       "name": "Night Lords Core Formations",
       "formations": [
           {
-            "name": "Night Raptors",
+            "name": "Night Raptor Company",
             "units": "One Night Lords Captain, four Raptors",
             "extraUnits": [
               "Add up to four Raptors: 35 points each",
@@ -111,7 +110,7 @@
 },
         {
       "name": "Chosen",
-      "units": "Night Lords Sergeant, four Night Lords Chosen, two Chaos Rhinos",
+      "units": "Four Night Lords Chosen, two Chaos Rhinos",
       "extraUnits": [
           "Replace two Chaos Rhinos with four Chaos Tarantulas (25 points), or two Night Lords Dreadnoughts (50 points)"
       ],
@@ -124,7 +123,7 @@
       "description": "Up to two Support formations may be taken per Night Lords Core Formation.",
       "formations": [
           {
-        "name": "Destroyer Company",
+        "name": "Destroyers",
         "units": "Four Chaos Destroyers",
         "extraUnits": [
         ],
@@ -132,33 +131,33 @@
     },
             {
           "name": "Night Lords Support Company",
-          "units": "One Night Lords Sergeant, six Chaos Space Marines, three Chaos Rhinos",
+          "units": "One Night Lords Captain, six Chaos Space Marines, three Chaos Rhinos",
           "extraUnits": [
               "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
               "Replace two Chaos Space Marines with Havocs: 25 points",
-              "Captain",
+              "Supreme Commander",
               "Icon Bearer",
               "Predators",
               "Stalker"
           ],
-          "points": 250
+          "points": 300
         },
           {
             "name": "Night Lords Terror Company",
             "units": "One Night Lords Captain, four Night Lords Assault Marines, two Night Lords Dreadnoughts",
             "extraUnits": [
               "Supreme Commander",
-              "Dreadnoughts",
               "Icon Bearer",
+              "Dreadnoughts",
               "Dreadclaws"
             ],
             "points": 275
         },
           {
             "name": "Bike Company",
-            "units": "One Night Lords Sergeant, eight Chaos Space Marine Assault Bikes",
+            "units": "One Night Lords Captain, six Chaos Space Marine Assault Bikes",
             "extraUnits": [
-                  "Captain",
+                  "Supreme Commander",
                   "Icon Bearer"
             ],
             "points": 300
@@ -170,11 +169,6 @@
     "description": "Up to a third of the points available may be spent on these formations.",
     "formations": [
         {
-          "name": "Storm Eagle",
-          "units": "One Chaos Storm Eagle",
-          "points": 175
-      },
-        {
           "name": "Hell Blade Squadron",
           "units": "Three Hell Blade Interceptors",
           "points": 200
@@ -184,6 +178,11 @@
           "units": "Two Hell Talon Fighter-Bombers",
           "points": 225
         },
+        {
+          "name": "Thunderhawk",
+          "units": "One Night Lords Thunderhawk",
+          "points": 225
+      },
     {
            "name": "0-1 Spacecraft",
            "units": "Devastation Class Cruiser",
@@ -212,7 +211,7 @@
       {
         "name": "Supreme Commander",
         "description": "Replace a Night Lords Captain with a Night Lords First Captain",
-        "points": "75 points"
+        "points": "50 points"
       },
       {
         "name": "Captain",

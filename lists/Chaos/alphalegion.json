@@ -81,7 +81,7 @@
       "from": "chaosnavy.json",
       "units": [
           "Chaos Xiphon Interceptor",
-          "Alpha Legion Thunderhawk",
+          "Alpha Legion Storm Eagle",
           "Chaos Strike Cruiser"
     ],
     "unitRules": [
@@ -195,7 +195,7 @@
     },
    {
     "name": "Alpha Legion Navy",
-    "description": "Up to a third of the points available may be spent on Alpha Legion Navy. Max one for each Alpha Legion Elite Detachment.",
+    "description": "Up to a fourth of the points available may be spent on Alpha Legion Navy.",
     "formations": [
         {
           "name": "Xiphon Squadron",
@@ -205,11 +205,11 @@
           "points": 200
         },
         {
-          "name": "Thunderhawk",
-          "units": "One Alpha Legion Thunderhawk",
+          "name": "Storm Eagle",
+          "units": "One Alpha Legion Storm Eagle",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 175
         },
         {
           "name": "Strike Cruiser",
