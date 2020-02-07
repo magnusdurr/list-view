@@ -28,7 +28,6 @@
         "Icon Bearer",
         "Night Lords Assault Marines",
         "Chaos Space Marines",
-        "Havocs",
         "Raptors",
         "Warp Talons",
         "Night Lords Chosen",
@@ -37,7 +36,6 @@
         "Chaos Rhino",
         "Chaos Land Raider",
         "Chaos Stalker",
-        "Chaos Predator",
         "Chaos Space Marine Assault Bikes",
         "Night Lords Dreadnought",
         "Chaos Tarantula"
@@ -73,10 +71,10 @@
       "name": "Night Lords Core Formations",
       "formations": [
           {
-            "name": "Night Raptor Company",
+            "name": "Night Raptor Cult",
             "units": "One Night Lords Captain, four Raptors",
             "extraUnits": [
-              "Add up to four Raptors: 35 points each",
+              "Add up to four Raptors: 30 points each",
               "Supreme Commander",
               "Icon Bearer"
                 ],
@@ -95,6 +93,7 @@
               "Add four Chaos Land Raiders: 200 points",
               "Supreme Commander",
               "Icon Bearer",
+              "Stalker",
               "Dreadnoughts",
               "Dreadclaws"
 
@@ -102,7 +101,7 @@
           "points": 325
       },
       {
-    "name": "Warp Talons",
+    "name": "Warp Talon Cult",
     "units": "Three Warp Talons, Daemonic Pact",
     "extraUnits": [
     ],
@@ -120,7 +119,7 @@
   },
     {
       "name": "Night Lords Support Formations",
-      "description": "Up to two Support formations may be taken per Night Lords Core Formation.",
+      "description": "Up to one Support formations may be taken per Night Lords Core Formation.",
       "formations": [
           {
         "name": "Destroyers",
@@ -134,10 +133,8 @@
           "units": "One Night Lords Captain, six Chaos Space Marines, three Chaos Rhinos",
           "extraUnits": [
               "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
-              "Replace two Chaos Space Marines with Havocs: 25 points",
               "Supreme Commander",
               "Icon Bearer",
-              "Predators",
               "Stalker"
           ],
           "points": 300
@@ -214,11 +211,6 @@
         "points": "50 points"
       },
       {
-        "name": "Captain",
-        "description": "Replace a Night Lords Sergeant with a Night Lords Captain",
-        "points": "50 points"
-      },
-      {
         "name": "Icon Bearer",
         "description": "Add an Icon Bearer to the formation",
         "points": "25 points"
@@ -232,11 +224,6 @@
         "name": "Dreadnoughts",
         "description": "Add two Night Lords Dreadnoughts",
         "points": "75 points"
-    },
-      {
-        "name": "Predators",
-        "description": "Add up to two Chaos Predators",
-        "points": "50 points each"
     },
       {
         "name": "Stalker",
