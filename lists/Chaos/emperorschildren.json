@@ -30,7 +30,7 @@
         "Raptors",
         "Sirenshriek Terminators",
         "Noise Marines",
-        "Chaos Space Marine Assault Bikes",
+        "Chaos Assault Bikes",
         "Chaos Rhino",
         "Emperor's Children Land Raider",
         "Emperor's Children Predator",
@@ -86,19 +86,18 @@
       "formations": [
         {
           "name": "Emperor's Children Retinue",
-          "units": "One Chaos Lord or Sorcerer Lord, three Noise Marines, three Chaos Space Marines",
+          "units": "One Chaos Lord or Sorcerer Lord, three Noise Marines, three Chaos Space Marines, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Retinue Transport",
             "Champion",
-            "Daemonic Pact",
             "Stalker",
             "Dreadclaws",
             "Icon Bearer",
             "Noise Marine Havocs",
             "Dreadnoughts"
           ],
-          "points": 250
+          "points": 275
         }
       ]
     },
@@ -108,16 +107,15 @@
       "formations": [
         {
           "name": "Chosen",
-          "units": "Four Chosen, two Chaos Rhinos",
+          "units": "Four Chosen, two Chaos Rhinos, Daemonic Pact",
           "extraUnits": [
-            "Replace two Chaos Rhinos with two Emperor's Children Dreadnoughts: 75 points",
-            "Daemonic Pact"
+            "Replace two Chaos Rhinos with two Emperor's Children Dreadnoughts: 75 points"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Emperor's Children Terminators",
-          "units": "One Chaos Lord or Sorcerer Lord, four Sirenshriek Terminators",
+          "units": "One Chaos Lord or Sorcerer Lord, four Sirenshriek Terminators, Daemonic Pact",
           "extraUnits": [
               "Supreme Commander",
               "Terminator Transport",
@@ -127,7 +125,7 @@
               "Icon Bearer",
               "Dreadnoughts"
           ],
-          "points": 375
+          "points": 400
       }
     ]
   },
@@ -137,21 +135,19 @@
     "formations": [
       {
         "name": "Bike Company",
-        "units": "One Chaos Lord or Sorcerer Lord, six Chaos Space Marine Assault Bikes",
+        "units": "One Chaos Lord or Sorcerer Lord, six Chaos Assault Bikes, Daemonic Pact",
         "extraUnits": [
-          "Daemonic Pact",
           "Icon Bearer"
         ],
-        "points": 250
+        "points": 275
     },
     {
       "name": "Raptor Cult",
-      "units": "One Chaos Lord or Sorcerer Lord, four Raptors",
+      "units": "One Chaos Lord or Sorcerer Lord, four Raptors, Daemonic Pact",
       "extraUnits": [
-          "Add up to four Raptors: 30 points each",
-          "Daemonic Pact"
+          "Add up to four Raptors: 30 points each"
       ],
-      "points": 175
+      "points": 200
   },
   {
     "name": "Armoured Company",
@@ -276,11 +272,6 @@
         "name": "Terminator Transport",
         "description": "Add four Emperor's Children Land Raiders",
         "points": "200 points"
-      },
-      {
-        "name": "Daemonic Pact",
-        "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
-        "points": "25 points"
       },
       {
         "name": "Dreadnoughts",

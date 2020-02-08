@@ -1,10 +1,10 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "World Eaters",
-  "version": "0.7.2",
-  "release": "2019-11-25",
+  "version": "0.7.5",
+  "release": "2020-01-08",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "All World Eaters Core and Support formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All World Eaters Core and Elite formations, and the Destroyers and Chaos Space Marines formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -35,13 +35,13 @@
         "Khorne Berzerker Assault Bikes",
         "Juggernaut Riders",
         "Chaos Rhino",
-        "World Eaters Land Raider",
-        "Berzerker Dreadnought",
-        "Chaos Predator",
-        "Chaos Vindicator"
+        "World Eaters Vindicator",
+        "Chaos Spartan Assault Tank",
+        "Berzerker Dreadnought"
     ],
     "unitRules": [
-        "World Eaters Characters"
+        "World Eaters Characters",
+    "Heavy Armoured Vehicle (H-AV)"
     ]
     },
     {
@@ -91,18 +91,16 @@
       "formations": [
         {
           "name": "World Eaters Retinue",
-          "units": "One Chaos Lord, four Khorne Berzerkers, four World Eaters Assault Marines, four Chaos Rhinos",
+          "units": "One Chaos Lord, four Khorne Berzerkers, four World Eaters Assault Marines, four Chaos Rhinos, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Berzerker Transport",
             "Champion",
-            "Daemonic Pact",
             "Icon Bearer",
             "Vindicators",
-            "Predators",
             "Dreadnoughts"
           ],
-          "points": 300
+          "points": 325
         }
       ]
     },
@@ -112,18 +110,15 @@
       "formations": [
         {
           "name": "Skullseeker Terminators",
-          "units": "One Chaos Lord, four Skullseeker Terminators",
+          "units": "One Chaos Lord, four Skullseeker Terminators, Daemonic Pact",
           "extraUnits": [
-              "Add up to two Mutilators: 50 points each",
               "Supreme Commander",
               "Skullseeker Transport",
               "Champion",
-              "Daemonic Pact",
               "Icon Bearer",
-              "Vindicators",
               "Dreadnoughts"
           ],
-          "points": 375
+          "points": 400
       },
       {
         "name": "Juggernaut Riders",
@@ -137,44 +132,41 @@
       },
           {
             "name": "Berzerker Bikes",
-            "units": "One Chaos Lord, eight Khorne Berzerker Assault Bikes",
+            "units": "One Chaos Lord, eight Khorne Berzerker Assault Bikes, Daemonic Pact",
             "extraUnits": [
-                "Daemonic Pact",
+            "Supreme Commander",
                 "Icon Bearer"
             ],
-            "points": 350
-        }
+            "points": 375
+        },
+      {
+        "name": "Mutilator Cult",
+        "units": "Two Mutilators, Daemonic Pact",
+        "extraUnits": [
+        ],
+        "points": 250
+    }
     ]
-  },
+    },
   {
     "name": "World Eaters Support Formations",
-    "description": "Two Support formations may be taken per Core formation.",
+    "description": "Three Support formations may be taken per Core formation.",
     "formations": [
         {
-          "name": "Chaos Destroyers",
-          "units": "Four Chaos Destroyers",
+          "name": "Destroyers",
+          "units": "Four Chaos Destroyers, Daemonic Pact",
           "extraUnits": [
-            "Daemonic Pact"
           ],
           "points": 225
         },
         {
           "name": "Chaos Space Marines",
-          "units": "Six Chaos Space Marines, three Chaos Rhinos",
+          "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
           "extraUnits": [
-            "Daemonic Pact"
+            "Vindicators"
           ],
           "points": 225
         },
-        {
-          "name": "Predator Company",
-          "units": "Four Chaos Predators",
-          "extraUnits": [
-              "Chaos Predators",
-              "Vindicators"
-          ],
-          "points": 200
-      },
       {
         "name": "Khorne Defiler Pack",
         "units": "Four Slaughterfiends",
@@ -304,8 +296,8 @@
             "points": "Free"
           },
           {
-            "description": "Replace four Chaos Rhinos with three World Eaters Land Raiders",
-            "points": "100 points"
+            "description": "Replace four Chaos Rhinos with two Chaos Spartan Assault Tanks",
+            "points": "125 points"
         }
         ]
       },
@@ -317,8 +309,8 @@
             "points": "Free"
           },
           {
-            "description": "Add up to three World Eaters Land Raiders",
-            "points": "50 points each"
+            "description": "Add two Chaos Spartan Assault Tanks",
+            "points": "125 points"
         }
         ]
       },
@@ -341,17 +333,12 @@
         "name": "Icon Bearer",
         "description": "Add one Icon Bearer character",
         "points": "25 points"
-      },
-      {
-        "name": "Predators",
-        "description": "Add two Chaos Predators",
-        "points": "75 points"
-      },
-      {
-        "name": "Vindicators",
-        "description": "Add up to two Chaos Vindicators",
-        "points": "35 points each"
-      }
+    },
+    {
+      "name": "Vindicators",
+      "description": "Add two World Eaters Vindicators",
+      "points": "75 points"
+    }
     ]
   }
 }

@@ -4,7 +4,7 @@
   "version": "0.5.0",
   "release": "2020-02-05",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "The Word Bearers Retinue, the Chaos Storbird, and all Word Bearers Elite formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "The Word Bearers Retinue and all Word Bearers Elite formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -23,8 +23,7 @@
       "units": [
         "Grand Apostle",
         "Dark Apostle",
-        "Sorcerer Lord",
-        "Chaos Lord",
+        "Diabolist",
         "Daemon Prince",
         "Icon Bearer",
         "Chaos Space Marines",
@@ -32,12 +31,13 @@
         "Word Bearers Possessed",
         "Word Bearers Iconoclasts",
         "Chaos Terminators",
-        "Chaos Space Marine Assault Bikes",
+        "Chaos Assault Bikes",
         "Chaos Rhino",
         "Chaos Land Raider",
         "Chaos Dreadnought"
     ],
     "unitRules": [
+            "Word Bearers Characters"
     ]
     },
     {
@@ -47,7 +47,8 @@
             "Decimator",
             "Death Wheel",
             "Hellfire Cannon",
-            "Forgefiend"
+            "Forgefiend",
+            "Possessed Stormbird"
         ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -86,7 +87,6 @@
     "from": "chaosnavy.json",
     "units": [
       "Heldrake",
-      "Chaos Stormbird",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
   ],
@@ -98,7 +98,7 @@
   "sections": [
     {
       "name": "Word Bearers Core Formations",
-      "description": "Up to two Cultist Covens may be taken per Word Bearer Retinue",
+      "description": "Up to two Cultist Covens may be taken per Word Bearer Retinue.",
       "formations": [
         {
           "name": "Word Bearers Retinue",
@@ -112,7 +112,7 @@
             "Icon Bearer",
             "Dreadnoughts"
           ],
-          "points": 325
+          "points": 350
       },
       {
         "name": "Cultist Coven",
@@ -129,7 +129,7 @@
     },
     {
       "name": "Word Bearers Elite Formations",
-      "description": "Up to two Elite formations may be taken per Word Bearers Retinue",
+      "description": "Up to two Elite formations may be taken per Word Bearers Retinue.",
       "formations": [
 
         {
@@ -143,11 +143,11 @@
               "Dreadclaws",
               "Dreadnoughts"
           ],
-          "points": 325
+          "points": 350
       },
         {
           "name": "Iconoclasts",
-          "units": "One Chaos or Sorcerer Lord, four Word Bearers Iconoclasts, Daemonic Pact",
+          "units": "One Diabolist, four Word Bearers Iconoclasts, Daemonic Pact",
           "extraUnits": [
         "Icon Bearer"
           ],
@@ -155,7 +155,7 @@
       },
     {
       "name": "Bike Company",
-      "units": "One Chaos or Sorcerer Lord, eight Chaos Space Marine Assault Bikes, Daemonic Pact",
+      "units": "One Diabolist, eight Chaos Assault Bikes, Daemonic Pact",
       "extraUnits": [
           "Icon Bearer"
       ],
@@ -163,7 +163,7 @@
   },
           {
         "name": "Havocs",
-        "units": "One Chaos or Sorcerer Lord, four Havocs, two Chaos Rhinos, Daemonic Pact",
+        "units": "One Diabolist, four Havocs, two Chaos Rhinos, Daemonic Pact",
         "extraUnits": [
             "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
           "Icon Bearer"
@@ -174,7 +174,7 @@
   },
   {
     "name": "Daemon Engine Formations",
-    "description": "Up to one Daemon Engine formation may be taken per Cultist Coven formation",
+    "description": "Up to one Daemon Engine formation may be taken per Cultist Coven formation.",
     "formations": [
         {
           "name": "Defiler Pack",
@@ -198,7 +198,7 @@
           },
         {
       "name": "Dark Mechanicus War Engines and Chaos Navy",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
             "name": "Decimators",
@@ -217,17 +217,18 @@
             "points": 275
           },
           {
+            "name": "0-1 Stormbird",
+            "units": "One Possessed Stormbird",
+            "extraUnits": [
+            ],
+            "points": 300
+          },
+          {
           "name": "Heldrakes",
           "units": "Two Heldrakes",
           "points": 225
         },
-        {
-          "name": "0-1 Chaos Stormbird",
-          "units": "One Chaos Stormbird",
-          "extraUnits": [
-          ],
-          "points": 300
-        },
+
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
@@ -309,7 +310,7 @@
       },
       {
         "name": "Dreadclaws",
-        "description": "Transport a formation containing only units of INF and Dreadnoughts in Dreadclaws (formation must be deployed on a spacecraft)",
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a spacecraft)",
         "points": "5 points per unit"
       },
       {

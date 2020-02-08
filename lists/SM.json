@@ -15,7 +15,7 @@
 		{
 			"title": "Heavy Armoured Vehicle (H-AV)",
 			"description": [
-				"Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+				"Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)). In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
 			]
 		}
 	],
@@ -1883,7 +1883,7 @@
 			"ff": 4,
 			"weapons": [
 				"Accelerator Cannon",
-				"Quad Lascannon|2|FxF",
+				"Quad Lascannons|2|FxF",
 				"Demolisher||FxF",
 				"Twin Heavy Bolters||FxF"
 			],
@@ -1902,7 +1902,7 @@
 			"ff": 3,
 			"weapons": [
 				"Volkite Carronade",
-				"Quad Lascannon|2|FxF",
+				"Quad Lascannons|2|FxF",
 				"Twin Heavy Bolters||FxF"
 			],
 			"specialRules": [
@@ -2151,7 +2151,7 @@
 				"Reinforced Armour",
 				"Transport"
 			],
-			"notes": "May transport eight units of INF, Attack Bikes; Terminators and Dreadnoughts count as two units each.",
+			"notes": "May transport eight infantry units, Attack Bikes; Terminators and Dreadnoughts count as two units each.",
 			"crit": "The unit and all units being carried are destroyed."
 		},
 		{

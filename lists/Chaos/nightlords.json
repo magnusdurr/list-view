@@ -1,14 +1,13 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Night Lords",
-  "version": "Alpha 0.5.0",
-  "release": "2020-02-06",
+  "version": "Alpha 0.6.0",
+  "release": "2020-02-08",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Night Lords Core, Elite and Support formations, as well as the Thunderhawk formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
         "In Midnight Clad",
-        "Claws Forever Red",
       "Summoning",
       "Night Lords Summoning Rules",
       "Augment Summoning (+x)",
@@ -28,21 +27,23 @@
         "Icon Bearer",
         "Night Lords Assault Marines",
         "Chaos Space Marines",
-        "Raptors",
+        "Night Raptors",
         "Warp Talons",
         "Night Lords Chosen",
         "Chaos Destroyers",
-        "Chaos Terminators",
+        "Atramentar Terminators",
         "Chaos Rhino",
         "Chaos Land Raider",
+        "Chaos Spartan Assault Tank",
         "Chaos Stalker",
-        "Chaos Space Marine Assault Bikes",
+        "Chaos Attack Bike",
         "Night Lords Dreadnought",
         "Chaos Tarantula"
     ],
     "unitRules": [
         "Night Lords Characters",
-        "Machine Spirit"
+        "Machine Spirit",
+    "Heavy Armoured Vehicle (H-AV)"
     ]
     },
     {
@@ -71,14 +72,14 @@
       "name": "Night Lords Core Formations",
       "formations": [
           {
-            "name": "Night Raptor Cult",
-            "units": "One Night Lords Captain, six Raptors",
+            "name": "Night Raptor Company",
+            "units": "One Night Lords Captain, six Night Raptors",
             "extraUnits": [
-              "Add up to two Raptors: 30 points each",
+              "Add up to two Night Raptors: 35 points each",
               "Supreme Commander",
               "Icon Bearer"
                 ],
-            "points": 275
+            "points": 300
         }
       ]
     },
@@ -88,15 +89,13 @@
       "formations": [
         {
           "name": "Terminator Company",
-          "units": "One Night Lords Captain, four Chaos Terminators",
+          "units": "One Night Lords Captain, four Atramentar Terminators",
           "extraUnits": [
-              "Add four Chaos Land Raiders: 200 points",
+              "Add two Chaos Spartan Assault Tanks: 125 points",
               "Supreme Commander",
               "Icon Bearer",
-              "Stalker",
               "Dreadnoughts",
               "Dreadclaws"
-
           ],
           "points": 325
       },
@@ -128,19 +127,9 @@
         ],
         "points": 200
     },
-            {
-          "name": "Night Lords Support Company",
-          "units": "One Night Lords Captain, six Chaos Space Marines, three Chaos Rhinos",
-          "extraUnits": [
-              "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
-              "Supreme Commander",
-              "Icon Bearer",
-              "Stalker"
-          ],
-          "points": 300
-        },
+
           {
-            "name": "Night Lords Terror Company",
+            "name": "Terror Company",
             "units": "One Night Lords Captain, four Night Lords Assault Marines, two Night Lords Dreadnoughts",
             "extraUnits": [
               "Supreme Commander",
@@ -150,12 +139,24 @@
             ],
             "points": 275
         },
+        {
+      "name": "Support Company",
+      "units": "One Night Lords Captain, six Chaos Space Marines, three Chaos Rhinos",
+      "extraUnits": [
+          "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
+          "Supreme Commander",
+          "Icon Bearer",
+          "Stalker"
+      ],
+      "points": 300
+    },
           {
-            "name": "Bike Company",
-            "units": "One Night Lords Captain, six Chaos Space Marine Assault Bikes",
+            "name": "Attack Company",
+            "units": "One Night Lords Captain, six Chaos Attack Bikes",
             "extraUnits": [
                   "Supreme Commander",
-                  "Icon Bearer"
+                  "Icon Bearer",
+                  "Stalker"
             ],
             "points": 300
         }

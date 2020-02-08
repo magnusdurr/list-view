@@ -955,7 +955,7 @@
       ]
     },
     {
-      "name": "AC Quad Lascannon",
+      "name": "AC Quad Lascannons",
         "modes": [
           {
             "firepower": "AT3+/AA4+",
@@ -3645,7 +3645,7 @@
       ]
     },
     {
-      "name": "Chainglaives",
+      "name": "Chain Glaives",
         "modes": [
           {
             "firepower": "Assault Weapons",
@@ -5724,7 +5724,7 @@
       ]
     },
     {
-      "name": "Quad Lascannon",
+      "name": "Quad Lascannons",
       "modes": [
         {
           "firepower": "AT3+",
@@ -9637,6 +9637,16 @@
       ]
     },
     {
+      "name": "Bolters and Storm Shields",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              ]
+          }
+      ]
+    },
+    {
       "name": "Thunder Hammers and Storm Shields",
         "modes": [
           {
@@ -10142,7 +10152,10 @@
         "modes": [
           {
             "firepower": "AP3+",
-            "range": 15
+            "range": 15,
+            "specialRules": [
+              "IC"
+            ]
           },
           {
             "firepower": "Small Arms",
@@ -10761,6 +10774,17 @@
             "specialRules": [
               "IC",
               "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Volkites Serpenta",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "IC"
           ]
           }
       ]

@@ -107,36 +107,7 @@
       },
       "Pin Point"
       ],
-        "notes": "Transport. May transport 20 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
-    },
-    {
-      "name": "Plagueship",
-      "type": "SC",
-      "weapons": [
-        "Orbital Bombardment 4BP"
-    ],
-    "specialRules": [
-      "Slow to Arrive (May only arrive from turn 2 onwards)"
-    ]
-    },
-    {
-      "name": "Despoiler Class Battleship",
-      "type": "SC",
-      "weapons": [
-          {
-            "name": "Orbital Bombardment",
-            "modes": [
-              {
-                "firepower": "3BP, MW"
-              }
-            ]
-        },
-        "Pin Point|2|"
-      ],
-      "specialRules": [
-        "Slow to Arrive (May only arrive from turn 2 onwards)"
-    ],
-        "notes": "Transport. May transport 30 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
+        "notes": "Transport. May transport 20 infantry units or Dreadnoughts; plus three Thunderhawks to transport and enough Dreadclaws to transport any other units being carried."
     },
     {
       "name": "Chaos Xiphon Interceptor",
@@ -144,7 +115,7 @@
       "speed": "Fighter",
       "armour": 5,
       "weapons": [
-        "AC Quad Lascannon||FxF",
+        "AC Quad Lascannons||FxF",
         "AC Xiphon Rotary Missile Launcher||FxF"
       ],
       "specialRules": [
@@ -192,7 +163,7 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
+        "notes": "May transport eight infantry units; Terminators and Dreadnoughts count as two units each.",
         "crit": "The Thunderhawk and all units being carried are destroyed."
     },
     {
@@ -214,7 +185,7 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
+      "notes": "May transport eight infantry units; Terminators and Dreadnoughts count as two units each.",
       "crit": " The Thunderhawk and all units being carried are destroyed."
       },
     {
@@ -237,30 +208,38 @@
         "Reinforced Armour",
         "Transport"
       ],
-      "notes": "May transport eight units of INF; Terminators and Dreadnoughts count as two units each.",
+      "notes": "May transport eight infantry units; Terminators and Dreadnoughts count as two units each.",
       "crit": " The Thunderhawk and all units being carried are destroyed."
       },
-      {
-        "name": "Chaos Stormbird",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "AC Twin Lascannons|3|FxF",
-          "AC Reaper Autocannon||Left",
-          "AC Reaper Autocannon||Right"
-        ],
-        "specialRules": [
-          "Damage Capacity 3",
-          "Planetfall",
-          "Reinforced Armour",
-          "Fearless",
-          "Transport"
-        ],
-        "notes": "May transport twelve units of INF; Terminators and Dreadnoughts count as two units each. Counts as a Thunderhawk for being transported.",
-        "crit": "The Stormbird and all units being carried are destroyed. All units within 5cm takes a hit."
+
+    {
+      "name": "Plagueship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 4BP"
+    ],
+    "specialRules": [
+      "Slow to Arrive (May only arrive from turn 2 onwards)"
+    ]
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+        },
+        "Pin Point|2|"
+      ],
+      "specialRules": [
+        "Slow to Arrive (May only arrive from turn 2 onwards)"
+    ],
+        "notes": "Transport. May transport 30 infantry units or Dreadnoughts; plus six Thunderhawks and enough Dreadclaws to transport any other units being carried."
     },
     {
       "name": "Chaos Strike Cruiser",
@@ -278,7 +257,7 @@
       "specialRules": [
         "Transport"
       ],
-      "notes": "May transport twenty units of INF or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawks and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
+      "notes": "May transport twenty infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawks and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
   },
   {
       "name": "Chaos Drop Pod",

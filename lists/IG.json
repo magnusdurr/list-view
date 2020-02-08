@@ -5,7 +5,7 @@
         {
           "title": "Heavy Armoured Vehicle (H-AV)",
           "description": [
-            "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+            "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)). In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
           ]
       },
       {
@@ -452,7 +452,7 @@
       ],
       "specialRules": [
       ],
-      "notes": "Counts as two units of INF for the purpose of being transported."
+      "notes": "Counts as two infantry units for the purpose of being transported."
     },
 
     {
@@ -848,7 +848,7 @@
       "specialRules": [
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted."
+    "notes": "May carry two infantry units without Jump Packs or Mounted."
     },
     {
       "name": "Chimera",
@@ -863,7 +863,7 @@
       "specialRules": [
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted."
+    "notes": "May carry two infantry units without Jump Packs or Mounted."
     },
     {
       "name": "Death World Chimera",
@@ -879,7 +879,7 @@
          "Walker",
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted."
+    "notes": "May carry two infantry units without Jump Packs or Mounted."
     },
     {
       "name": "Hellhound",
@@ -908,7 +908,7 @@
       "specialRules": [
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted."
+    "notes": "May carry two infantry units without Jump Packs or Mounted."
     },
     {
       "name": "Taurox",
@@ -924,7 +924,7 @@
         "Walker",
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump Packs or Mounted"
+    "notes": "May carry two infantry units without Jump Packs or Mounted"
     },
     {
       "name": "Centaur",
@@ -1333,7 +1333,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry two units of INF without Jump pack or Mounted."
+    "notes": "May carry two infantry units without Jump pack or Mounted."
     },
     {
       "name": "Sky Talon",
@@ -1446,7 +1446,7 @@
       "specialRules": [
         "Transport"
     ],
-    "notes": "May carry six units of INF without Jump Packs or Mounted"
+    "notes": "May carry six infantry units without Jump Packs or Mounted"
     },
     {
       "name": "Minotaur",

@@ -184,7 +184,7 @@
         "specialRules": [
 
         ],
-        "notes": "Counts as two units of INF for the purpose of being transported."
+        "notes": "Counts as two infantry units for the purpose of being transported."
     },
         {
           "name": "Chaos Spawn",
@@ -199,7 +199,7 @@
               "Fearless",
               "Invulnerable Save"
           ],
-          "notes": "Counts as two units of INF for the purpose of being transported."
+          "notes": "Counts as two infantry units for the purpose of being transported."
       },
       {
         "name": "Winged Chaos Spawn",
@@ -242,7 +242,7 @@
           ],
           "specialRules": [
           ],
-                "notes": "May transport two units of INF without Mounted or Jump Packs."
+                "notes": "May transport two infantry units without Mounted or Jump Packs."
       },
       {
         "name": "Technical",
@@ -274,7 +274,7 @@
           "Fearless",
           "Inspiring",
           "Daemonic Focus",
-          "Augmented Summoning (+1D3)"
+          "Augmented Summoning (+D3)"
       ],
                 "crit": "The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
   },
