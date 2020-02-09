@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "release": "2019-04-03",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
-  "Initiative": "All formations have an Initiative Rating of 1+.",
+  "Initiative": "The Thunderbolt and Marauder Squadron formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Codex Astartes detachments and Aircraft formations.",
   "specialRules": [
     "Space Marine Transports"
@@ -58,7 +58,16 @@
         "Void Shields",
         "Independent"
       ]
-    }
+  },
+  {
+    "from": "ImperialNavy.json",
+    "units": [
+      "Thunderbolt Fighter",
+      "Marauder Bomber"
+    ],
+      "unitRules": [
+    ]
+  }
   ],
   "sections": [
     {
@@ -189,8 +198,8 @@
       ]
     },
     {
-      "name": "Codex Astartes Aircraft & Collegia Titanica Allies",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "name": "Codex Astartes, Imperial Aircraft & Collegia Titanica Allies",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
     {
           "name": "Storm Talons",
@@ -201,24 +210,34 @@
           "name": "Thunderhawk",
           "units": "One Thunderhawk",
           "points": 200
-        },
-        {
-          "name": "Warhound Pack",
-          "units": "Two Warhounds",
-          "extraUnits": [
-              "Add the 'Independent' special rule to the formation: 50 points"
-          ],
-          "points": 500
-        },
-        {
-          "name": "Reaver",
-          "units": "One Reaver Titan",
-          "extraUnits": [
-          ],
-          "points": 600
-      }
+      },
+      {
+        "name": "Thunderbolt Squadron",
+        "units": "Two Thunderbolt Fighters",
+        "points": 175
+      },
+      {
+        "name": "Marauder Squadron",
+        "units": "Two Marauder Bombers",
+        "points": 225
+    },
+    {
+      "name": "Warhound Pack",
+      "units": "Two Warhounds",
+      "extraUnits": [
+          "Add the 'Independent' special rule to the formation: 50 points"
+      ],
+      "points": 500
+    },
+    {
+      "name": "Reaver",
+      "units": "One Reaver Titan",
+      "extraUnits": [
+      ],
+      "points": 600
+  }
       ]
-    }
+  }
   ],
   "upgrades": {
     "title": "Codex Astartes Upgrades",
@@ -300,7 +319,7 @@
       }
   ],
   "usage": [
-    "v1.0.0: The EA-R Codex Astartes list is based on the NetEA version. A great challenge with Codex Astartes is to keep it relevant while adding new Space Marine chapters, where each of will do a better job at a particular playstyle. To make it unique, it was decided to keep the wide-open structure of the original list, while making other Space Marine lists more rigid in structure. The Warlord and the Imperial Aircraft were dropped, but the Storm Talon was introduced instead. To compensate for the overall increase in flexibility in the list, Warhounds can only be bought in pairs, but can have different configurations from the standard one, and may be split up with the 'Independent' special rule.",
+    "v1.0.0: The EA-R Codex Astartes list is based on the NetEA version. A great challenge with Codex Astartes is to keep it relevant while adding new Space Marine chapters, where each of will do a better job at a particular playstyle. To make it unique, it was decided to keep the wide-open structure of the original list, while making other Space Marine lists more rigid. The Warlord was dropped, but the Imperial Aircraft were retained, and the Storm Talon was introduced as well. Warhounds can only be bought in pairs, but may be split up with the 'Independent' special rule.",
     "Other major changes: The list now has access to the Stalker AA unit. The 'Sniper' upgrade is cheaper. The Predator Destructor has recieved an additional shot on its main gun, bringing it to parity with the Annihilator. The seldom seen Land Raiders can now be taken in formations of three, and is also cheaper to take as a transport option.", "The Battle Barge has had its Slow and Steady rule replaced with 'Slow to Arrive' (can be plotted from turn 2 onwards instead of turn 3 onwards) and is also significantly cheaper."
   ]
   }

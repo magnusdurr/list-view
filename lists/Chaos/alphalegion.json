@@ -31,7 +31,8 @@
           "Lernaean Terminators",
           "Alpha Legion Dreadnought",
           "Alpha Legion Rhino",
-          "Alpha Legion Land Raider"
+          "Alpha Legion Land Raider",
+          "Alpha Legion Predator"
       ],
       "unitRules": [
           "Stubborn"
@@ -99,16 +100,26 @@
             "extraUnits": [
               "Add a Daemonic Icon to the Aspiring Champion: 25 points",
               "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
-              "Add four Chaos Cultists and/or Mutants: 10 points each",
-              "Replace up to six Chaos Cultists and/or Mutants with Big Mutants: 15 points each",
-              "Add three Heavy Mortars: 100 points",
+              "Replace up to three Chaos Cultists with Big Mutants: 15 points each",
+              "Add three Heavy Mortars, or two Ragnarok Heavy Tanks: 100 points",
               "Add one Chaos Spawn: 35 points",
-              "Add three Ragnarok Heavy Tanks: 150 points",
               "Supreme Commander",
               "Flak"
             ],
             "points": 200
-        }
+        },
+        {
+          "name": "Alpha Legion Marines",
+          "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Marines plus transport",
+          "extraUnits": [
+              "Replace four Alpha Legion Marines with four Alpha Legion Havocs: 50 points",
+              "Add up to two Alpha Legion Land Raiders: 50 points each",
+            "Supreme Commander",
+              "Dreadnoughts"
+          ],
+          "points": 200
+      }
+
       ]
     },
     {
@@ -152,25 +163,21 @@
     },
     {
       "name": "Alpha Legion Elite Detachments",
-      "description": "Up to one Alpha Legion Elite Detachment for each Cultist Coven or Cultist Support Formation.",
+      "description": "Up to one Alpha Legion Elite Detachment for each Alpha Legion Marines Formation.",
       "formations": [
           {
-            "name": "Alpha Legion Marines",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Marines plus transport",
+            "name": "Predators",
+            "units": "Four Alpha Legion Predators",
             "extraUnits": [
-                "Replace two Alpha Legion Marines with two Alpha Legion Havocs: 35 points",
-                "Add up to two Alpha Legion Land Raiders: 50 points each",
-              "Supreme Commander",
-                "Dreadnoughts"
             ],
-            "points": 200
-        },
+            "points": 250
+          },
           {
             "name": "Destroyers",
-            "units": "Four Alpha Legion Destroyers",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Destroyers",
             "extraUnits": [
             ],
-            "points": 200
+            "points": 225
           },
           {
             "name": "Terminators",
@@ -180,7 +187,7 @@
               "Supreme Commander",
                 "Dreadnoughts"
             ],
-            "points": 225
+            "points": 250
           },
           {
             "name": "Headhunters",
@@ -189,7 +196,7 @@
               "Supreme Commander",
                 "Dreadnoughts"
             ],
-            "points": 225
+            "points": 250
           }
       ]
     },

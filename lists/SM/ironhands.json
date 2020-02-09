@@ -36,6 +36,7 @@
         "Predator Destructor",
         "Razorback",
         "Rhino",
+        "Siege Rhino",
         "Stalker",
         "Vindicator",
         "Whirlwind",
@@ -66,7 +67,7 @@
       "formations": [
         {
           "name": "Dreadnought Clan",
-          "units": "Four Tacticals plus transport, one Veteran Sergeant and any two of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+          "units": "One Veteran Sergeant, four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
             "Clan Commander",
             "Devastators",
@@ -79,7 +80,7 @@
         },
         {
           "name": "Mechanized Clan",
-          "units": "Four Tacticals plus transport, one Veteran Sergeant and any two of the following units: Predator Annihilator, Predator Destructor or Vindicator*",
+          "units": "One Veteran Sergeant, four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator*",
           "extraUnits": [
             "Clan Commander",
             "Devastators",
@@ -90,7 +91,7 @@
             "Vindicators"
           ],
           "points": 300,
-          "notes": "* If only Vindicators are selected, any Rhinos in the formation may be equipped with Dozer Blades (speed reduced to 25cm and the unit gains the Walker special ability)"
+          "notes": "* If only Vindicators are selected, any Rhinos in the formation may be upgraded to Siege Rhinos for free."
         }
       ]
     },
@@ -100,7 +101,7 @@
       "formations": [
         {
           "name": "Dreadnought Talon",
-          "units": "Any four of the following units: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+          "units": "Any four of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
             "Dreadnought",
             "Drop Pods",
@@ -120,7 +121,7 @@
         },
         {
           "name": "Land Speeder",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+          "units": "Any five of the following: Land Speeder, Land Speeder Tornado",
           "extraUnits": [
             "Commander",
             "Typhoons"
@@ -129,7 +130,7 @@
         },
         {
           "name": "Predator",
-          "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
+          "units": "Any four of the following: Predator Annihilator, Predator Destructor",
           "extraUnits": [
             "Anti-Air"
           ],
@@ -155,7 +156,7 @@
         },
         {
           "name": "Vindicator",
-          "units": "Four Vindicator units",
+          "units": "Four Vindicators",
           "extraUnits": [
             "Anti-Air",
             "Vindicators"
@@ -164,7 +165,7 @@
         },
         {
           "name": "Whirlwinds",
-          "units": "Four Whirlwind units",
+          "units": "Four Whirlwinds",
           "extraUnits": [
             "Anti-Air"
           ],
@@ -243,7 +244,7 @@
       },
       {
         "name": "Devastators",
-        "description": "Replace all Tacticals in the formaiton with Devastators",
+        "description": "Replace all Tacticals in the formation with Devastators",
         "points": "50 points"
       },
       {
@@ -277,6 +278,11 @@
         "points": "25 points each"
       },
       {
+        "name": "Sniper",
+        "description": "All Scouts in the formation gain the 'Sniper' special rule on their Heavy Bolters",
+        "points": "25 points"
+      },
+      {
         "name": "Anti-Air",
         "description": "Add any of the following units to the formation",
         "options": [
@@ -305,8 +311,7 @@
           {
             "description": "Land Raider",
             "points": [
-              "75 points each",
-              "125 points per pair"
+              "50 points each"
             ]
           },
           {
@@ -315,10 +320,10 @@
           },
           {
             "description": "Land Raider Helios",
-            "points": "100 points each"
+            "points": "75 points each"
           },
           {
-            "description": "0-1 Land Raider Prometheus",
+            "description": "(0-1 per army) Land Raider Prometheus",
             "points": "100 points"
           }
         ]
