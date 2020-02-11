@@ -1668,6 +1668,9 @@
 			"weapons": [
 				"Twin Assault Cannons",
 				"Multi-Melta|2"
+			],
+			"specialRules": [
+				"Lucifer Pattern Engine"
 			]
 		},
 		{
@@ -1680,6 +1683,9 @@
 			"weapons": [
 				"Flamestorm Cannon ",
 				"Heavy Flamer|2"
+			],
+			"specialRules": [
+				"Lucifer Pattern Engine"
 			]
 		},
 		{
@@ -1723,20 +1729,32 @@
 			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannons or Twin Heavy Bolters. Razorbacks armed with Twin Heavy Bolters have their firefight value increased to 4+."
 		},
 		{
-			"name": "Dark Angels Razorback",
+			"name": "Blood Angels Razorback",
 			"type": "AV",
 			"speed": 30,
 			"armour": 5,
 			"cc": 6,
-			"ff": 5,
-			"weapons": [
-				"Plasma Guns",
-				"Lascannon"
+			"ff": "5+/4",
+			"weapons": [{
+					"name": "0-1 Twin Lascannons",
+					"modes": [{
+						"firepower": "AT4+",
+						"range": 45
+					}]
+				},
+				{
+					"name": "0-1 Twin Heavy Bolters",
+					"modes": [{
+						"firepower": "AP4+",
+						"range": 30
+					}]
+				}
 			],
 			"specialRules": [
+				"Lucifer Pattern Engine",
 				"Transport"
 			],
-			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted."
+			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannons or Twin Heavy Bolters. Razorbacks armed with Twin Heavy Bolters have their firefight value increased to 4+."
 		},
 		{
 			"name": "Deathwatch Razorback",
@@ -1785,7 +1803,7 @@
 			],
 			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
 		},
-		{
+				{
 			"name": "Siege Rhino",
 			"type": "AV",
 			"speed": 25,
@@ -1801,7 +1819,22 @@
 			],
 			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
 		},
-
+		{
+			"name": "Blood Angels Rhino",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Storm Bolter"
+			],
+			"specialRules": [
+				"Lucifer Pattern Engine",
+				"Transport"
+			],
+			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+		},
 		{
 			"name": "Death Company Rhino",
 			"type": "INF",
@@ -1813,6 +1846,7 @@
 				"Storm Bolter"
 			],
 			"specialRules": [
+				"Lucifer Pattern Engine",
 				"Fearless",
 				"Transport"
 			],
@@ -1847,6 +1881,20 @@
 			]
 		},
 		{
+			"name": "Blood Angels Hunter",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Hunter-Killer"
+			],
+			"specialRules": [
+				"Lucifer Pattern Engine"
+			]
+		},
+		{
 			"name": "Stalker",
 			"type": "AV",
 			"speed": 30,
@@ -1856,7 +1904,23 @@
 			"weapons": [
 				"Icarus Stormcannons"
 			],
-			"specialRules": []
+			"specialRules": [
+
+			]
+		},
+		{
+			"name": "Blood Angels Stalker",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Icarus Stormcannons"
+			],
+			"specialRules": [
+				"Lucifer Pattern Engine"
+			]
 		},
 		{
 			"name": "Vindicator",
@@ -1892,6 +1956,20 @@
 			"ff": 5,
 			"weapons": [
 				"Whirlwind Launcher"
+			]
+		},
+		{
+			"name": "Blood Angels Whirlwind",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Whirlwind Launcher"
+			],
+			"specialRules": [
+				"Lucifer Pattern Engine"
 			]
 		},
 		{

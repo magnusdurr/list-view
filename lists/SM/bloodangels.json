@@ -6,7 +6,7 @@
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
-  "specialRules": ["Space Marine Transports", "Honour Guard", "Lucifer Pattern Thermic Combustor Engine"],
+  "specialRules": ["Space Marine Transports", "Honour Guard", "Lucifer Pattern Engine"],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Blood Angels Chapter."
   ],
@@ -35,15 +35,15 @@
         "Melta Bike",
         "Attack Bike",
         "Furioso Dreadnought",
-        "Razorback",
-        "Hunter",
-        "Stalker",
+        "Blood Angels Razorback",
+        "Blood Angels Hunter",
+        "Blood Angels Stalker",
         "Land Raider",
         "Land Raider Redeemer",
         "Baal Predator Hades",
         "Baal Predator Infernus",
-        "Rhino",
-        "Whirlwind",
+        "Blood Angels Rhino",
+        "Blood Angels Whirlwind",
         "Storm Talon",
         "Storm Raven",
         "Landing Craft",
@@ -118,12 +118,12 @@
         },
           {
             "name": "Baal Predators",
-            "units": "Four Baal Predator Hades or four Baal Predator Infernus",
+            "units": "Two Baal Predator Hades, two Baal Predator Infernus",
             "extraUnits": [
               "Commander",
               "Anti-Air"
             ],
-            "points": 250
+            "points": 275
         },
           {
             "name": "Bikes",
@@ -242,8 +242,8 @@
 
       {
         "name": "Predators",
-        "description": "Add up to two Baal Predator Hades and/or Baal Predator Infernus",
-        "points": ["50 points each"]
+        "description": "Add two Baal Predator Hades or two Baal Predator Infernus",
+        "points": "125 points"
       },
       {
         "name": "Dreadnoughts",
