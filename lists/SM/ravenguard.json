@@ -1,11 +1,11 @@
 {
   "fraction": "Space Marines",
   "army": "Ravenguard",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "release": "2020-02-11",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "specialRules": ["Expert Reconnaissance", "Guerilla Tactics", "Independent", "Space Marine Transports"],
+  "specialRules": ["Expert Reconnaissance", "Guerilla Tactics", "Space Marine Transports"],
   "usage": [
     "The following army list allows you to field an army based on the Ravenguard Space Marine army and successor chapters."
   ],
@@ -101,8 +101,8 @@
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "extraUnits": [
-            "Anti-Air",
             "Commander",
+            "Anti-Air",
             "Land Speeders",
             "Razorbacks"
           ],
@@ -118,9 +118,9 @@
           "name": "Sternguard Veteran",
           "units": "Four Sternguard Veterans plus transport",
           "extraUnits": [
+            "Commander",
             "Ambush",
             "Anti-Air",
-            "Commander",
             "Land Speeders",
             "Razorbacks"
           ],
@@ -139,8 +139,9 @@
           "name": "0-1 Terminators",
           "units": "Four Terminators",
           "extraUnits": [
-            "Assault Terminators",
-            "Commander"
+            "Commander",
+            "Assault Terminators"
+
           ],
           "points": 350
       }
@@ -185,14 +186,14 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Storm Eagle",
-          "units": "One Storm Eagle",
-          "points": 175
-        },
-        {
           "name": "Storm Talons",
           "units": "Two Storm Talons",
           "points": 200
+        },
+        {
+          "name": "Storm Eagle",
+          "units": "One Storm Eagle",
+          "points": 175
         },
         {
           "name": "Thunderhawk",
@@ -264,7 +265,7 @@
       },
       {
         "name": "Land Speeders",
-        "description": "Add any two of the following. These units have Planetfall.",
+        "description": "Add any two of the following. If the formation can use Drop Pods, these units gain the 'Planetfall' special rule.",
         "options": [
           {
             "description": "Land Speeder, Land Speeder Tornado",
