@@ -73,13 +73,13 @@
       "formations": [
           {
             "name": "Night Raptor Company",
-            "units": "One Night Lords Captain, six Night Raptors",
+            "units": "One Night Lords Captain, six Raptors",
             "extraUnits": [
-              "Add up to two Night Raptors: 35 points each",
+              "Add up to two Raptors: 30 points each",
               "Supreme Commander",
               "Icon Bearer"
                 ],
-            "points": 300
+            "points": 275
         }
       ]
     },
@@ -99,13 +99,13 @@
           ],
           "points": 325
       },
-      {
-    "name": "Warp Talon Cult",
-    "units": "Three Warp Talons, Daemonic Pact",
-    "extraUnits": [
-    ],
-    "points": 225
-},
+          {
+        "name": "Warp Talon Cult",
+        "units": "Three Warp Talons, Daemonic Pact",
+        "extraUnits": [
+        ],
+        "points": 225
+    },
         {
       "name": "Chosen",
       "units": "Four Night Lords Chosen, two Chaos Rhinos",
@@ -206,11 +206,22 @@
     "title": "Night Lords Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-      {
-        "name": "Supreme Commander",
-        "description": "Replace a Night Lords Captain with a Night Lords First Captain",
-        "points": "50 points"
-      },
+        {
+          "name": "(0-1 per army) Supreme Commander",
+          "options": [
+            {
+              "description": "Choose one of the following:"
+            },
+            {
+              "description": "Replace the Night Lords Captain with a Night Lords First Captain",
+              "points": "50 points"
+            },
+            {
+              "description": "Replace the Night Lords Captain and its unit with a Night Lords Daemon Prince",
+              "points": "100 points"
+            }
+          ]
+        },
       {
         "name": "Icon Bearer",
         "description": "Add an Icon Bearer to the formation",

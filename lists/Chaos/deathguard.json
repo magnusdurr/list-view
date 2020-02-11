@@ -134,6 +134,16 @@
           "points": 175
         },
         {
+          "name": "Armoured Company",
+          "units": "Four Death Guard Vindicators",
+          "extraUnits": [
+            "Replace four Death Guard Vindicators with four Death Guard Land Raiders: 100 points",
+            "Vindicators",
+            "Stalker"
+          ],
+          "points": 200
+      },
+        {
           "name": "Death Guard Terminators",
           "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
           "extraUnits": [
@@ -144,39 +154,44 @@
               "Vindicators"
           ],
           "points": 400
-      },
-      {
-        "name": "Armoured Company",
-        "units": "Four Death Guard Vindicators",
-        "extraUnits": [
-          "Replace four Death Guard Vindicators with four Death Guard Land Raiders: 100 points",
-          "Vindicators",
-          "Stalker"
-        ],
-        "points": 200
-    }
+      }
+
     ]
   },
   {
     "name": "Death Guard Support Formations",
     "description": "Up to three Support Formations may be taken per Core Formation",
     "formations": [
+        {
+          "name": "Plague Reaper",
+          "units": "One Plague Reaper",
+          "extraUnits": [
+              "Add one Plague Reaper for 175 points"
+          ],
+          "points": 225
+      },
       {
         "name": "Chaos Space Marines",
         "units": "Six Chaos Space Marines, three Death Guard Rhinos, Daemonic Pact",
         "extraUnits": [
             "Vindicators"
         ],
+        "points": 275
+    },
+      {
+        "name": "Nurgle Defiler Pack",
+        "units": "Four Desecrators",
+        "extraUnits": [
+        ],
         "points": 250
     },
-    {
-      "name": "Plague Reaper",
-      "units": "One Plague Reaper",
-      "extraUnits": [
-          "Add one Plague Reaper for 175 points"
-      ],
-      "points": 225
-  },
+      {
+        "name": "Blight Drones",
+        "units": "Seven Greater Blight Drones",
+        "extraUnits": [
+        ],
+        "points": 250
+    },
       {
         "name": "Contagion Engines",
         "units": "Four Contagion Engines",
@@ -185,26 +200,12 @@
         "points": 325
     },
     {
-      "name": "Blight Drones",
-      "units": "Seven Greater Blight Drones",
-      "extraUnits": [
-      ],
-      "points": 250
-  },
-    {
       "name": "Plague Tower",
       "units": "One Plague Tower",
       "extraUnits": [
       ],
       "points": 325
-  },
-  {
-    "name": "Nurgle Defiler Pack",
-    "units": "Four Desecrators",
-    "extraUnits": [
-    ],
-    "points": 250
-    }
+  }
     ]
   },
         {

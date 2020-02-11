@@ -23,10 +23,10 @@
         "Daemon Prince",
         "Chaos Space Marines",
         "Iron Warriors Assault Marines",
-        "Havocs",
+        "Iron Warriors Havocs",
         "Chosen",
         "Bezashk Destroyers",
-        "Tyrant Terminators",
+        "Tyrant Siege Terminators",
         "Obliterators",
         "Iron Warriors Basilisk",
         "Bezashk Medusa",
@@ -60,7 +60,6 @@
     {
       "from": "traitortitanlegions.json",
       "units": [
-        "Chaos Reaver",
         "Chaos Warlord"
       ],
       "unitRules": [
@@ -92,7 +91,7 @@
           "extraUnits": [
             "Replace six Chaos Space Marines with six Iron Warriors Assault Marines, six Dreadclaws: 50 points",
             "Add two Obliterators: 150 points",
-            "Add two Havocs: 75 points",
+            "Add two Iron Warriors Havocs: 75 points",
             "Supreme Commander",
             "Transport",
             "Stalker",
@@ -113,7 +112,7 @@
     },
         {
       "name": "Havocs",
-      "units": "One Iron Warriors Lord, four Havocs, two Chaos Land Raiders",
+      "units": "One Iron Warriors Lord, four Iron Warriors Havocs, two Chaos Land Raiders",
       "extraUnits": [
           "Supreme Commander",
           "Stalker",
@@ -147,8 +146,8 @@
           "points": 250
         },
       {
-        "name": "Tyrant Terminators",
-        "units": "One Iron Warriors Lord, four Tyrant Terminators",
+        "name": "Siege Terminators",
+        "units": "One Iron Warriors Lord, four Tyrant Siege Terminators",
         "extraUnits": [
             "Add up to two Obliterators: 75 points each",
             "Supreme Commander",
@@ -173,7 +172,14 @@
           ],
           "points": 200
       },
-        {
+      {
+        "name": "Bezashk Destroyers",
+        "units": "Four Bezashk Destroyers",
+        "extraUnits": [
+        ],
+        "points": 225
+    },
+    {
           "name": "Iron Warriors Artillery Battery",
           "units": "Three Iron Warriors Basilisks",
           "extraUnits": [
@@ -184,13 +190,6 @@
         {
           "name": "Bezashk Medusa Battery",
           "units": "Four Bezashk Medusa",
-          "extraUnits": [
-          ],
-          "points": 250
-      },
-        {
-          "name": "Bezashk Destroyers",
-          "units": "Four Bezashk Destroyers",
           "extraUnits": [
           ],
           "points": 250

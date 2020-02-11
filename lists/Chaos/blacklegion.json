@@ -157,15 +157,6 @@
     "name": "Black Legion Support Formations",
     "description": "Two Support formations may be taken per Core formation",
     "formations": [
-      {
-        "name": "Bike Company",
-        "units": "One Chaos Lord or Sorcerer Lord, eight Chaos Assault Bikes",
-        "extraUnits": [
-          "Daemonic Pact",
-          "Icon Bearer"
-        ],
-        "points": 300
-    },
             {
               "name": "Raptor Cult",
               "units": "One Chaos Lord or Sorcerer Lord, four Raptors",
@@ -195,7 +186,17 @@
               "Vindicators"
           ],
           "points": 225
-            }
+      },
+            {
+              "name": "Bike Company",
+              "units": "One Chaos Lord or Sorcerer Lord, eight Chaos Assault Bikes",
+              "extraUnits": [
+                "Daemonic Pact",
+                "Icon Bearer"
+              ],
+              "points": 300
+          }
+
             ]
           },
         {
@@ -292,7 +293,7 @@
         "points": "50 points"
       },
       {
-        "name": "0-1 Supreme Commander",
+        "name": "(0-1 per army) Supreme Commander",
         "options": [
           {
             "description": "Choose one of the following:"

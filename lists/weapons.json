@@ -1810,7 +1810,7 @@
       "modes": [
         {
           "firepower": "D3x AP6+/AT6+/AA6+",
-          "range": 45,
+          "range": 30,
           "specialRules": [
             "D"
           ]
@@ -4858,14 +4858,22 @@
       ]
     },
     {
-      "name": "Warpflamer",
-      "modes": [
-        {
-          "firepower": "Small Arms",
-          "specialRules": [
-            "IC"
-        ]
-        }
+      "name": "Twin Warpflamer",
+          "modes": [
+            {
+              "firepower": "AP5+",
+              "range": 15,
+              "specialRules": [
+                "IC"
+            ]
+            },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+                "IC"
+            ]
+          }
       ]
     },
     {
@@ -8836,6 +8844,17 @@
       ]
     },
     {
+      "name": "Soulreaper Cannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 30,
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Spiculus Bolt Launcher",
         "modes": [
           {
@@ -9637,7 +9656,7 @@
       ]
     },
     {
-      "name": "Bolters and Storm Shields",
+      "name": "Bolters and Boarding Shields",
         "modes": [
           {
             "firepower": "Assault Weapons",

@@ -301,6 +301,17 @@
 			]
 		},
 		{
+			"name": "Raven Guard Devastators",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Lascannon|2"
+			]
+		},
+		{
 			"name": "Long Fang Devastators",
 			"type": "INF",
 			"speed": 15,
@@ -377,6 +388,22 @@
 			]
 		},
 		{
+			"name": "Raven Guard Scouts",
+			"type": "INF",
+			"speed": 15,
+			"armour": 5,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Heavy Bolter"
+			],
+			"specialRules": [
+				"Expert Reconnaissance",
+				"Infiltrators",
+				"Scout"
+			]
+		},
+		{
 			"name": "Wolf Scout Veterans",
 			"type": "INF",
 			"speed": 15,
@@ -392,22 +419,6 @@
 			]
 		},
 
-		{
-			"name": "Sternguard Veterans",
-			"type": "INF",
-			"speed": 15,
-			"armour": 4,
-			"cc": 4,
-			"ff": 3,
-			"weapons": [
-				"Missile Launcher",
-				"Sternguard Bolters"
-			],
-			"specialRules": [
-				"Infiltrator",
-				"Scout"
-			]
-		},
 		{
 			"name": "Tacticals",
 			"type": "INF",
@@ -736,18 +747,37 @@
 			]
 		},
 		{
+			"name": "Sternguard Veterans",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"ff": 3,
+			"weapons": [
+				"Heavy Bolter",
+				"Sternguard Bolters"
+			],
+			"specialRules": [
+				"Guerilla Tactics",
+				"Infiltrators",
+				"Scout"
+			]
+		},
+		{
 			"name": "Vanguard Assault Veterans",
 			"type": "INF",
 			"speed": 30,
 			"armour": 4,
-			"cc": 4,
-			"ff": 4,
+			"cc": 3,
+			"ff": 5,
 			"weapons": [
-				"Plasma Pistols",
-				"Power Weapons"
+				"Bolt Pistols",
+				"Thunder Hammers and Storm Shields"
 			],
 			"specialRules": [
-				"Jump Packs"
+				"Guerilla Tactics",
+				"Jump Packs",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -980,21 +1010,7 @@
 				"Teleport Homer"
 			]
 		},
-		{
-			"name": "Land Speeder Tempest",
-			"type": "LV",
-			"speed": 35,
-			"armour": 4,
-			"cc": 6,
-			"ff": 5,
-			"weapons": [
-				"Assault Cannon",
-				"Tempest Missile Launcher"
-			],
-			"specialRules": [
-				"Skimmer"
-			]
-		},
+
 		{
 			"name": "Land Speeder Storm",
 			"type": "LV",
@@ -1076,6 +1092,21 @@
 			],
 			"specialRules": [
 				"Scout",
+				"Skimmer"
+			]
+		},
+		{
+			"name": "Land Speeder Tempest",
+			"type": "LV",
+			"speed": 35,
+			"armour": 4,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"Assault Cannon",
+				"Tempest Missile Launcher"
+			],
+			"specialRules": [
 				"Skimmer"
 			]
 		},
@@ -1976,27 +2007,6 @@
 			"notes": "May transport twelve infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up. Critical Hit Effect: The unit and all units being carried are destroyed. All units within 5cm suffer a hit on 4+."
 		},
 		{
-			"name": "Storm Eagle",
-			"type": "AC/WE",
-			"speed": "Bomber",
-			"armour": 5,
-			"cc": 5,
-			"ff": 4,
-			"weapons": [
-				"AC Twin Heavy Bolters||",
-				"AC Twin Lascannons|2|FxF",
-				"Vengeance Launcher"
-			],
-			"specialRules": [
-				"Damage Capacity 2",
-				"Planetfall",
-				"Reinforced Armour",
-				"Transport"
-			],
-			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Landing Craft for being transported.",
-			"crit": "The Storm Eagle and all units being carried are destroyed."
-		},
-		{
 			"name": "Stormwolf Assault Boat",
 			"type": "AC/WE",
 			"speed": "Bomber",
@@ -2131,6 +2141,27 @@
 			"specialRules": [
 				"Invulnerable Save"
 			]
+		},
+		{
+			"name": "Storm Eagle",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 5,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"AC Twin Heavy Bolters||",
+				"AC Twin Lascannons|2|FxF",
+				"Vengeance Launcher"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each.",
+			"crit": "The Storm Eagle and all units being carried are destroyed."
 		},
 		{
 			"name": "Thunderhawk",

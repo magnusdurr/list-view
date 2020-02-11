@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Thousand Sons",
-  "version": "0.8.5",
-  "release": "2020-02-01",
+  "version": "0.8.6",
+  "release": "2020-02-10",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Thousand Sons are also subject to 'The Architect of Fate' special rule.",
   "Initiative": "The Thousand Sons Retinue, Initiates, Terminators, Armoured Company, Disc Riders, and Warphound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -28,6 +28,7 @@
         "Icon Bearer",
         "Daemon Prince of Tzeentch",
         "Chaos Space Marines",
+        "Thousand Sons Havocs",
         "Scarab Occult Terminators",
         "Rubric Marines",
         "Sorcerer Disc Rider",
@@ -105,6 +106,7 @@
           "name": "Thousand Sons Retinue",
           "units": "One Aspiring Sorcerer, five Rubric Marines, four Chaos Space Marines",
           "extraUnits": [
+            "Replace four Chaos Space Marines with four Thousand Sons Havocs: 50 points",
             "Supreme Commander",
             "Icon Bearer",
             "Champion of Chaos",
@@ -130,14 +132,13 @@
       "name": "Thousand Sons Support Formations",
       "description": "Up to three may be taken per Thousand Sons Core formation.",
       "formations": [
-        {
-          "name": "Thousand Sons Initiates",
-          "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
-          "extraUnits": [
-            "Icon Bearer",
-            "Predators"
-          ],
-          "points": 275
+          {
+            "name": "Tzaangor Host",
+            "units": "One Chaos Spawn, eight Tzaangors, Daemonic Pact",
+            "extraUnits": [
+                "Replace the Chaos Spawn with a Mutalith Warp Beast: 75 points"
+            ],
+            "points": 200
         },
       {
         "name": "Armoured Company",
@@ -146,6 +147,15 @@
             "Replace four Thousand Sons Predators with four Thousand Sons Land Raiders: 75 points"
         ],
         "points": 225
+    },
+    {
+      "name": "Havocs",
+      "units": "Four Thousand Sons Havocs, two Chaos Rhinos, Daemonic Pact",
+      "extraUnits": [
+        "Icon Bearer",
+        "Predators"
+      ],
+      "points": 225
     },
     {
       "name": "Disc Riders",
@@ -157,14 +167,7 @@
       ],
       "points": 250
   },
-          {
-            "name": "Tzaangor Host",
-            "units": "One Chaos Spawn, eight Tzaangors, Daemonic Pact",
-            "extraUnits": [
-                "Replace the Chaos Spawn with a Mutalith Warp Beast: 75 points"
-            ],
-            "points": 200
-        },
+
             {
           "name": "Silver Towers of Tzeentch",
           "units": "Four Silver Towers",
@@ -193,13 +196,6 @@
             "points": 275
         },
           {
-            "name": "Warp Palace",
-            "units": "One Warp Palace",
-          "extraUnits": [
-          ],
-          "points": 500
-            },
-          {
             "name": "Warphounds",
             "units": "One Warphound Titan",
             "extraUnits": [
@@ -207,6 +203,14 @@
             ],
             "points": 275
           },
+          {
+            "name": "Warp Palace",
+            "units": "One Warp Palace",
+          "extraUnits": [
+          ],
+          "points": 500
+            },
+
           {
             "name": "Doomwings of Tzeench",
             "units": "Three Doomwings",

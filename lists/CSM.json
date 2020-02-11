@@ -36,7 +36,7 @@
       {
         "title": "Iron Warriors Characters",
         "description": [
-          "Iron Warriors characters may only be added to units of Chaos Space Marines, Iron Warriors Assault Marines, Havocs, Tyrant Terminators, or Chaos Dreadnoughts."
+          "Iron Warriors characters may only be added to units of Chaos Space Marines, Iron Warriors Assault Marines, Iron Warriors Havocs, Tyrant Terminators, or Chaos Dreadnoughts."
         ]
       },
       {
@@ -343,6 +343,28 @@
         ]
       },
       {
+        "name": "Night Lords Daemon Prince",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+            "Warp Bolt",
+            "Warp Talons"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus",
+          "Daemonic Pact",
+          "Invulnerable Save"
+        ]
+      },
+      {
         "name": "Daemon Prince of Slaanesh",
         "type": "INF",
         "speed": 30,
@@ -471,7 +493,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Bolters and Storm Shields"
+          "Bolters and Boarding Shields"
         ]
       },
       {
@@ -495,6 +517,28 @@
         "ff": 3,
         "weapons": [
           "Autocannon|2|"
+        ]
+      },
+      {
+        "name": "Iron Warriors Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Plasma Cannon|2|"
+        ]
+      },
+      {
+        "name": "Thousand Sons Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Soulreaper Cannon|2|"
         ]
       },
       {
@@ -784,7 +828,7 @@
       ]
       },
       {
-        "name": "Tyrant Terminators",
+        "name": "Tyrant Siege Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -877,7 +921,7 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 5,
+        "cc": 4,
         "ff": 2,
         "weapons": [
           "Inferno Combi-Bolters",
@@ -912,7 +956,7 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 2,
+        "cc": 3,
         "weapons": [
           "Manifested Melee Weapons"
         ],
@@ -1221,7 +1265,7 @@
         "ff": 4,
         "weapons": [
           "Twin Lascannons",
-          "Heavy Warpflamer|2|"
+          "Twin Warpflamer|2|"
         ]
       },
       {
@@ -1389,7 +1433,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Reaper Autocannon",
+          "Soulreaper Cannon",
           "Twin Lascannons"
         ],
         "specialRules": [

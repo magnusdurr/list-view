@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Ravenguard",
-  "version": "0.9",
-  "release": "2019-04-06",
+  "version": "0.5.0",
+  "release": "2020-02-11",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Expert Reconnaissance", "Guerilla Tactics", "Independent", "Space Marine Transports"],
@@ -12,7 +12,7 @@
   "theme": "",
   "design": "",
   "changeLog": [
-  ],   
+  ],
   "units": [
     {
       "from": "SM.json",
@@ -23,12 +23,12 @@
         "Supreme Commander",
         "Assaults",
         "Assault Bikes",
-        "Scout",
+        "Raven Guard Scouts",
         "Sternguard Veterans",
         "Tacticals",
+        "Raven Guard Devastators",
         "Terminators",
         "Vanguard Assault Veterans",
-        "Vanguard Veterans",
         "Attack Bike",
         "Land Speeder",
         "Land Speeder Storm",
@@ -56,7 +56,8 @@
         "Warhound"
       ],
       "unitRules": [
-        "Void Shields"
+        "Void Shields",
+        "Independent"
       ]
     }
   ],
@@ -67,7 +68,7 @@
         {
           "name": "Assaults",
           "units": "Four Assaults",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Land Speeders"
           ],
@@ -75,8 +76,8 @@
         },
         {
           "name": "Devastators",
-          "units": "Four Devastator units plus transport",
-          "upgrades": [
+          "units": "Four Raven Guard Devastators plus transport",
+          "extraUnits": [
             "Anti-Air",
             "Commander",
             "Land Speeders",
@@ -86,8 +87,8 @@
         },
         {
           "name": "Scout",
-          "units": "Four Scouts plus transport",
-          "upgrades": [
+          "units": "Four Raven Guard Scouts plus transport",
+          "extraUnits": [
             "Commander",
             "Land Speeders",
             "Snipers",
@@ -97,14 +98,14 @@
         },
         {
           "name": "Tacticals",
-          "units": "Four Tacticals plus transport",
-          "upgrades": [
+          "units": "Six Tacticals plus transport",
+          "extraUnits": [
             "Anti-Air",
             "Commander",
             "Land Speeders",
             "Razorbacks"
           ],
-          "points": 200
+          "points": 275
         }
       ]
     },
@@ -114,8 +115,8 @@
       "formations": [
         {
           "name": "Sternguard Veteran",
-          "units": "Four Sternguard Veteran units plus transport",
-          "upgrades": [
+          "units": "Four Sternguard Veterans plus transport",
+          "extraUnits": [
             "Ambush",
             "Anti-Air",
             "Commander",
@@ -126,24 +127,22 @@
         },
         {
           "name": "Vanguard Assault Veteran",
-          "units": "Four Vanguard Assault Veteran units",
-          "upgrades": [
+          "units": "Four Vanguard Assault Veterans",
+          "extraUnits": [
             "Commander",
             "Land Speeders"
           ],
           "points": 250
-        },
+      },
         {
-          "name": "Vanguard Veteran",
-          "units": "Four Vanguard Veteran units plus transport",
-          "upgrades": [
-            "Anti-Air",
-            "Commander",
-            "Land Speeders",
-            "Razorbacks"
+          "name": "0-1 Terminators",
+          "units": "Four Terminators",
+          "extraUnits": [
+            "Commander"
           ],
-          "points": 250
-        }
+          "points": 350
+      }
+
       ]
     },
     {
@@ -153,7 +152,7 @@
         {
           "name": "Bikes",
           "units": "Any five of the following units: Attack Bike, Assault Bikes",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Land Speeders"
           ],
@@ -162,7 +161,7 @@
         {
           "name": "Land Speeders",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
+          "extraUnits": [
             "Commander",
             "Tempest",
             "Typhoon"
@@ -172,23 +171,15 @@
         {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
-          "upgrades": [
+          "extraUnits": [
             "Battle Barge"
           ],
           "points": 200
-        },
-        {
-          "name": "0-1 Terminators",
-          "units": "Four Terminators",
-          "upgrades": [
-            "Commander"
-          ],
-          "points": 350
         }
       ]
     },
     {
-      "name": "Ravenguard Aircraft & Imperial Allies",
+      "name": "Ravenguard Aircraft & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -204,12 +195,12 @@
         {
           "name": "Thunderhawk",
           "units": "One Thunderhawk",
-          "points": 200
+          "points": 225
         },
         {
           "name": "Warhound Pack",
           "units": "Two Warhound Class Titans",
-          "upgrades": [
+          "extraUnits": [
             "Independent"
           ],
           "points": 500
@@ -221,15 +212,15 @@
     "title": "Ravenguard Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
-      {
-        "name": "Ambush",
-        "description": "Give all infantry units Self Planetfall; Formations with Ambush will not scatter when deployed.",
-        "points": "50 points"
-      },
+        {
+          "name": "Ambush",
+          "description": "Replace 'plus transport' with all Sternguard Veterans in the formation gaining the 'Teleport' special rule",
+          "points": "25 points"
+        },
       {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
-        "points": "150 points"
+        "points": "75 points"
       },
       {
         "name": "Commander",
@@ -261,7 +252,7 @@
       },
       {
         "name": "Independent",
-        "description": "Grants the Warhoud Pack the Independent special rule",
+        "description": "Grants the Warhound Pack the 'Independent' special rule",
         "points": "50 points"
       },
       {
@@ -289,7 +280,7 @@
       },
       {
         "name": "Snipers",
-        "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",
+        "description": "All Scouts in the formation gain the 'Sniper' special rule on their Heavy Bolters",
         "points": "25 points"
       },
       {
