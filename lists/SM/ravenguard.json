@@ -28,6 +28,7 @@
         "Tacticals",
         "Raven Guard Devastators",
         "Terminators",
+        "Assault Terminators",
         "Vanguard Assault Veterans",
         "Attack Bike",
         "Land Speeder",
@@ -138,6 +139,7 @@
           "name": "0-1 Terminators",
           "units": "Four Terminators",
           "extraUnits": [
+            "Assault Terminators",
             "Commander"
           ],
           "points": 350
@@ -216,6 +218,11 @@
           "name": "Ambush",
           "description": "Replace 'plus transport' with all Sternguard Veterans in the formation gaining the 'Teleport' special rule",
           "points": "25 points"
+        },
+        {
+          "name": "Assault Terminators",
+          "description": "Replace up to four Terminators with Assault Terminators",
+          "points": "Free"
         },
       {
         "name": "Battle Barge",
