@@ -124,12 +124,14 @@
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
-				"Power Weapon",
-				"Plasma Guns"
+				"Psycannon",
+				"Smite",
+				"Power Weapon"
 			],
 			"specialRules": [
 				"Supreme Commander",
 				"Fearless",
+				"Teleport Homer",
 				"Invulnerable Save"
 			]
 		},
@@ -141,15 +143,32 @@
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
-				"Power Weapon",
-				"Plasma Guns"
+				"Psycannon",
+				"Smite",
+				"Power Weapon"
 			],
 			"specialRules": [
 				"Commander",
+				"Leader",
 				"Fearless",
-				"Invulnerable Save",
-				"Leader"
+				"Teleport Homer",
+				"Invulnerable Save"
+
 			]
+		},
+		{
+		  "name": "Kasrkin",
+		  "type": "INF",
+		  "speed": 15,
+		  "armour": 5,
+		  "cc": 5,
+		  "ff": 4,
+		  "weapons": [
+			"Meltaguns"
+		  ],
+		  "specialRules": [
+		   "Scout"
+		  ]
 		},
 		{
 			"name": "Ordo Xenos Inquisitor Lord",
@@ -280,7 +299,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Melta Guns"
+				"Meltaguns"
 			],
 			"specialRules": [
 				"Faithful",

@@ -4,7 +4,7 @@
   "version": "0.7.5",
   "release": "2020-02-08",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "Death Guard Core and Elite formations, as well as the Chaos Space Marines and Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Death Guard Core, Elite, and Traitor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
@@ -102,6 +102,7 @@
   "sections": [
     {
       "name": "Death Guard Core Formations",
+      "description": "Up to one Death Guard Terminators may be taken per Death Guard Retinue.",
       "formations": [
         {
           "name": "Death Guard Retinue",
@@ -117,7 +118,20 @@
             "Dreadnoughts"
           ],
           "points": 325
-        }
+      },
+      {
+        "name": "Death Guard Terminators",
+        "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
+        "extraUnits": [
+            "Supreme Commander",
+            "Death Guard Transport",
+            "Champion",
+            "Icon Bearer",
+            "Vindicators"
+        ],
+        "points": 400
+    }
+
       ]
     },
     {
@@ -143,18 +157,14 @@
           ],
           "points": 200
       },
-        {
-          "name": "Death Guard Terminators",
-          "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
-          "extraUnits": [
-              "Supreme Commander",
-              "Death Guard Transport",
-              "Champion",
-              "Icon Bearer",
-              "Vindicators"
-          ],
-          "points": 400
-      }
+      {
+        "name": "Chaos Space Marines",
+        "units": "Six Chaos Space Marines, three Death Guard Rhinos, Daemonic Pact",
+        "extraUnits": [
+            "Vindicators"
+        ],
+        "points": 275
+    }
 
     ]
   },
@@ -170,14 +180,6 @@
           ],
           "points": 225
       },
-      {
-        "name": "Chaos Space Marines",
-        "units": "Six Chaos Space Marines, three Death Guard Rhinos, Daemonic Pact",
-        "extraUnits": [
-            "Vindicators"
-        ],
-        "points": 275
-    },
       {
         "name": "Nurgle Defiler Pack",
         "units": "Four Desecrators",

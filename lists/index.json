@@ -108,19 +108,20 @@
             "file": "deathwatch",
             "status": "alpha",
             "img": "website/img/Inquisition_Deathwatch.jpg"
-        },
-          {
-            "name": "Grey Knights",
-            "file": "greyknights",
-            "status": "experimental",
-            "img": "website/img/Inquisition_GreyKnights.jpg"
         }
+
           ]
         },
         {
           "name": "Adeptus Astartes",
           "abbreviation": "SM",
           "lists": [
+              {
+                "name": "Blood Ravens/Grey Knights",
+                "file": "greyknights",
+                "status": "alpha",
+                "img": "website/img/Inquisition_GreyKnights.jpg"
+            },
             {
               "name": "Blood Angels",
               "file": "bloodangels",
@@ -345,7 +346,7 @@
             "img": "website/img/Eldar_YmeLoc.jpg"
           },
         {
-        "name": "Lugganath / Harlequins",
+        "name": "Lugganath/Harlequins",
         "file": "masqueoftheveiledpath",
         "status": "alpha",
         "img": "website/img/Harlequin_Veiled.jpg"
@@ -357,7 +358,7 @@
           "abbreviation": "DE",
           "lists": [
               {
-                "name": "Kabal of the Wraithkind / Harlequins",
+                "name": "Kabal of the Wraithkind/Harlequins",
                 "file": "masqueofthemidnightsorrow",
                 "status": "alpha",
                 "img": "website/img/Harlequin_Sorrow.jpg"

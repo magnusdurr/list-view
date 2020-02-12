@@ -16,7 +16,6 @@
       "units": [
         "Captain",
         "Chaplain",
-        "Librarian",
         "Supreme Commander",
         "Sanguinary Guards",
         "Assaults",
@@ -34,6 +33,7 @@
         "Land Speeder Typhoon",
         "Melta Bike",
         "Attack Bike",
+        "Librarian Dreadnought",
         "Furioso Dreadnought",
         "Blood Angels Razorback",
         "Blood Angels Hunter",
@@ -70,10 +70,10 @@
             "name": "1 Death Company",
             "units": "One Chaplain, four Death Company Marines, two Death Company Rhinos",
             "extraUnits": [
-                "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: Free",
+                "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: 50 points",
                 "Replace two Death Company Rhinos with Drop Pods and add one Death Company Dreadnought: 100 points"
             ],
-            "points": 275
+            "points": 250
           },
         {
           "name": "Tacticals",
@@ -108,22 +108,21 @@
 
           {
             "name": "Land Raiders",
-            "units": "Three Land Raiders and/or Land Raider Redeemer",
+            "units": "Any four of the following units: Land Raider, Land Raider Redeemer",
             "extraUnits": [
-              "Add one Land Raider or Land Raider Redeemer: 75 points",
+              "Commander",
+              "Anti-Air"
+            ],
+            "points": 325
+        },
+          {
+            "name": "Baal Predators",
+            "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
+            "extraUnits": [
               "Commander",
               "Anti-Air"
             ],
             "points": 250
-        },
-          {
-            "name": "Baal Predators",
-            "units": "Two Baal Predator Hades, two Baal Predator Infernus",
-            "extraUnits": [
-              "Commander",
-              "Anti-Air"
-            ],
-            "points": 275
         },
           {
             "name": "Bikes",
@@ -171,10 +170,9 @@
           "name": "Blood Angels Terminators",
           "units": "Three Terminators",
           "extraUnits": [
-              "Add one unit of Terminators: 75 points",
               "Assault Terminators",
               "Land Raider Transport",
-            "Commander"
+              "Commander"
           ],
           "points": 275
         },
@@ -187,11 +185,6 @@
           ],
           "points": 275
         },
-      {
-        "name": "Landing Craft",
-        "units": "One Landing Craft",
-        "points": 350
-    },
     {
       "name": "0-1 Orbital Support",
       "units": "One Strike Cruiser",
@@ -220,6 +213,11 @@
           "points": 175
         },
         {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 350
+      },
+        {
           "name": "Warhound Pack",
           "units": "Two Warhounds",
           "extraUnits": [
@@ -243,7 +241,7 @@
       {
         "name": "Predators",
         "description": "Add two Baal Predator Hades or two Baal Predator Infernus",
-        "points": "125 points"
+        "points": "100 points"
       },
       {
         "name": "Dreadnoughts",
@@ -256,22 +254,27 @@
         "points": "75 points"
       },
       {
-        "name": "0-1 Sanguinary Guard per army",
+        "name": "Sanguinary Guard (0-1 per army)",
         "description": "Add two Sanguinary Guards. The formation must contain a Supreme Commander",
         "points": "75 points"
       },
       {
         "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation",
+        "description": "Add any one of the following characters to any unit in the formation, or add a Librarian Dreadnought to the formation",
         "options": [
-          {
-            "description": "Captain, Chaplain, Librarian",
-            "points": "50 points"
-        },
+            {
+              "description": "Captain, Chaplain, Librarian",
+              "points": "50 points"
+            },
+            {
+              "description": "(0–1 in the army) Supreme Commander",
+              "points": "100 points"
+          },
         {
-          "description": "Upgrade one Captain in the army to a Supreme Commander",
-          "points": "50 points"
+          "description": "Librarian Dreadnought",
+          "points": "100 points"
       }
+
         ]
       },
       {

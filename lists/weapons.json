@@ -327,6 +327,17 @@
       ]
     },
     {
+      "name": "AC Twin Avenger Bolt Cannons",
+        "modes": [
+          {
+            "firepower": "3x AP5+/AT5+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Baleflamer",
         "modes": [
           {
@@ -5068,6 +5079,16 @@
       ]
     },
     {
+      "name": "Hellguns",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hellhammer Cannon",
           "modes": [
             {
@@ -5313,8 +5334,8 @@
       "name": "Hyperwave Clarion",
       "modes": [
         {
-          "firepower": "2x AP5+/AT6+/AA6+",
-          "range": 30,
+          "firepower": "AP6+/AT6+/AA6+",
+          "range": 45,
           "specialRules": [
             "D"
           ]
@@ -6132,10 +6153,17 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-                "EA(+2)",
                 "MW"
           ]
-        }
+      },
+      {
+        "firepower": "Assault Weapons",
+          "join": "and",
+        "specialRules": [
+            "EA(+1)",
+            "MW"
+      ]
+    }
       ]
     },
     {
@@ -6260,7 +6288,7 @@
       ]
     },
     {
-      "name": "Melta Gun",
+      "name": "Meltagun",
       "modes": [
         {
           "firepower": "Small Arms",
@@ -6271,7 +6299,7 @@
       ]
     },
     {
-      "name": "Melta Guns",
+      "name": "Meltaguns",
         "modes": [
           {
             "firepower": "Small Arms",
@@ -6546,6 +6574,26 @@
         }
     ]
     },
+
+    {
+      "name": "Force Halberd and Power Fist",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
+            ]
+          },
+          {
+            "firepower": "Assault Weapons",
+            "join": "and",
+            "specialRules": [
+              "MW"
+          ]
+        }
+      ]
+    },
     {
       "name": "Nemesis Daemon Hammers",
       "modes": [
@@ -6559,12 +6607,34 @@
     ]
     },
     {
-      "name": "Nemesis Doomfist",
+      "name": "Nemesis Doomglaive",
       "modes": [
         {
           "firepower": "Assault Weapons",
           "specialRules": [
             "EA(+1)",
+            "MW"
+        ]
+        }
+    ]
+    },
+    {
+      "name": "Nemesis Doomfists",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "MW"
+        ]
+        }
+    ]
+    },
+    {
+      "name": "Nemesis Dreadfists",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
             "MW"
         ]
         }
@@ -7394,7 +7464,6 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)",
             "MW"
           ]
         }
@@ -7534,7 +7603,7 @@
             "firepower": "AP5+/AT5+",
           "range": 30,
             "specialRules": [
-              "D"
+              "Shield Disruptor"
             ]
           }
       ]
@@ -7546,7 +7615,7 @@
             "firepower": "AP4+/AT4+",
           "range": 45,
             "specialRules": [
-              "D"
+              "Shield Disruptor"
             ]
           }
       ]
@@ -7558,7 +7627,7 @@
             "firepower": "AP4+/AT4+",
           "range": 30,
             "specialRules": [
-              "D"
+              "Shield Disruptor"
             ]
           }
       ]
@@ -7570,7 +7639,7 @@
             "firepower": "AP4+/AT4+/AA5+",
             "range": 15,
             "specialRules": [
-              "D"
+              "Shield Disruptor"
             ]
           }
       ]
@@ -10350,7 +10419,7 @@
       ]
     },
     {
-      "name": "Twin Melta Guns",
+      "name": "Twin Meltaguns",
         "modes": [
           {
             "firepower": "Small Arms",

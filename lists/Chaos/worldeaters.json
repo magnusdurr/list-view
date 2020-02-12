@@ -101,25 +101,26 @@
             "Dreadnoughts"
           ],
           "points": 325
-        }
+      },
+      {
+        "name": "Skullseeker Terminators",
+        "units": "One Chaos Lord, four Skullseeker Terminators, Daemonic Pact",
+        "extraUnits": [
+            "Supreme Commander",
+            "Skullseeker Transport",
+            "Champion",
+            "Icon Bearer",
+            "Dreadnoughts"
+        ],
+        "points": 400
+    }
+
       ]
     },
     {
       "name": "World Eaters Elite Formations",
       "description": "One Elite formation may be taken per Core formation.",
       "formations": [
-        {
-          "name": "Skullseeker Terminators",
-          "units": "One Chaos Lord, four Skullseeker Terminators, Daemonic Pact",
-          "extraUnits": [
-              "Supreme Commander",
-              "Skullseeker Transport",
-              "Champion",
-              "Icon Bearer",
-              "Dreadnoughts"
-          ],
-          "points": 400
-      },
       {
         "name": "Juggernaut Riders",
         "units": "One Chaos Lord, eight Juggernaut Riders, Daemonic Pact",
@@ -144,7 +145,7 @@
         "units": "Two Mutilators, Daemonic Pact",
         "extraUnits": [
         ],
-        "points": 250
+        "points": 225
     }
     ]
     },

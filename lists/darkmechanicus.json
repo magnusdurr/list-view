@@ -75,7 +75,7 @@
        {
          "title": "Shield Disruptor",
          "description": [
-           "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields. "
+           "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields, Ion Shields, and Invulnerable Saves on Daemonic units (Daemon Princes, all 'Daemon Legion Forces' units, 'Daemon Engine (x)' units)."
          ]
      }
     ],
@@ -272,7 +272,7 @@
                       ]
                         },
                 {
-                    "name": "Ordinatus Hereticus Minoris",
+                    "name": "Ordinatus Hereticus",
                     "type": "WE",
                     "speed": 20,
                     "armour": 5,
@@ -302,7 +302,7 @@
                   "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+."
                 },
                 {
-                    "name": "Ordinatus Hereticus Minoris ",
+                    "name": "Ordinatus Hereticus ",
                     "type": "WE",
                     "speed": 20,
                     "armour": 5,

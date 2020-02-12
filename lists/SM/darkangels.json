@@ -141,7 +141,7 @@
         },
         {
           "name": "Predators",
-          "units": "Four Predator Annihilators and/or Predator Destructors",
+          "units": "Any four of the following units: Predator Annihilators, Predator Destructors",
           "extraUnits": [
           "Anti-Air"
           ],
@@ -198,12 +198,12 @@
           "points": 225
         },
         {
-          "name": "Swordwing Support",
+          "name": "1 Swordwing Support",
           "units": "Hunter Class Destroyer",
           "extraUnits": [
             "Strike Cruiser"
           ],
-          "points": 100
+          "points": 75
         }
       ]
     }
@@ -232,7 +232,7 @@
       {
         "name": "Strike Cruiser",
         "description": "Replace the Hunter Class Destroyer with a Strike Cruiser",
-        "points": "100 points"
+        "points": "125 points"
       },
       {
         "name": "Commander",

@@ -76,10 +76,9 @@
       {
         "title": "Shield Disruptor",
         "description": [
-          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields. "
+          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields, Ion Shields, and Invulnerable Saves on Daemonic units (Daemon Princes, all 'Daemon Legion Forces' units, 'Daemon Engine (x)' units)."
         ]
     },
-
     {
       "title": "Bravery",
       "description": [
@@ -287,6 +286,12 @@
       ]
     },
     {
+      "title": "Grey Knights Transports",
+      "description": [
+        "Grey Knights Strike Squad formations may take Grey Knights Rhinos instead of normal Rhinos."
+      ]
+    },
+    {
       "title": "Imperial Fists Transports",
       "description": [
         "The Imperial Fists are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino and/or Siege Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos/Siege Rhinos needed after all upgrades have been purchased. The number of Rhinos/Siege Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
@@ -304,13 +309,9 @@
       ]
   },
     {
-      "title": "Grey Knight Transports",
+      "title": "Navis Nobilite",
       "description": [
-        "The Grey Knights are few in number, but compensates by being exceptionally well equipped and adaptive in their tactics. Because of this, the points cost of a Grey Knight Detachment usually includes enough Grey Knight Rhinos, Razorbacks, Land Raiders or Land Raider Redeemers to transport them. The number of such Grey Knight transport vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
-        "Detachments that come with Grey Knight transport vehicles will be noted as having plus transport in the units section of the army list opposite.",
-        "Also note that you don’t have to take Grey Knight transport vehicles if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Landing Craft, then you may do so.",
-        "In addition, you may choose to replace a detachment’s transport vehicles with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require a Space Marine Strike Cruiser or Battle Barge to deploy the Drop Pods from.",
-        "Before each game, after the opposing army is known but before objectives are placed, the Grey Knight player may choose which formations with the plus transport aspect are deployed in Grey Knight transport vehicles, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
+          "Grey Knight spacecraft are among the fastest and best piloted ships in the Galaxy. If a Grey Knights Strike Cruiser has been bought, the Blood Ravens player counts as having a Strategy Rating of 6 for the purposes of choosing which turn the spacecraft will pass over the battlefield."
       ]
     },
     {
@@ -355,7 +356,7 @@
     {
       "title": "Teleport Homer",
       "description": [
-        "Units that Teleport within 15cm from a friendly, unbroken unit with Teleport Homer (excluding from teleporting formations) may re-roll 1:s when testing for Teleport Mishap",
+        "Units that Teleport within 15cm from a friendly, unbroken unit with Teleport Homer (except from teleporting formations) may re-roll 1:s when testing for Teleport Mishap.",
         "In addition, formations that exclusively consists of models with Teleport may be set up in a spacecraft if such has been bought. From there, they can either teleport normally, or coordinate their teleport with the spacecraft's activation.",
         "Teleports coordinated with a spacecraft activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another. The entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns."
         ]
@@ -791,7 +792,7 @@
      {
        "title": "TTL Summoning Rules",
        "description": [
-           "All TTL formations (except the Hell-Forge Maniple and the Ordinatus Hereticus Minoris formations) may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so (brackets indicating the Summoning Points cost):",
+           "All TTL formations (except the Hell-Forge Maniple and the Ordinatus Hereticus formations) may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so (brackets indicating the Summoning Points cost):",
            "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
            "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",

@@ -59,7 +59,7 @@
 			]
 		},
 		{
-			"name": "Grey Knight Captain",
+			"name": "Grey Knights Captain",
 			"type": "CH",
 			"weapons": [
 				"Power Weapon"
@@ -71,15 +71,14 @@
 			]
 		},
 		{
-			"name": "Grey Knight Justicar",
+			"name": "Grey Knights Justicar",
 			"type": "CH",
 			"weapons": [
 				"n/a"
 			],
 			"specialRules": [
-				"Commander",
-				"Leader",
-				"Teleport Homer"
+				"Teleport Homer",
+				"Leader"
 			]
 		},
 		{
@@ -154,6 +153,32 @@
 			]
 		},
 		{
+			"name": "Blood Ravens Librarian",
+			"type": "CH",
+			"weapons": [
+				"Smite",
+				"Power Weapon"
+			],
+			"specialRules": [
+				"Teleport Homer",
+				"Invulnerable Save",
+				"Leader"
+			]
+		},
+		{
+			"name": "Blood Ravens Chapter Master",
+			"type": "CH",
+			"weapons": [
+				"Smite",
+				"Power Weapon"
+			],
+			"specialRules": [
+				"Supreme Commander",
+				"Teleport Homer",
+				"Invulnerable Save"
+			]
+		},
+		{
 			"name": "Supreme Commander",
 			"type": "CH",
 			"weapons": [
@@ -177,7 +202,7 @@
 			]
 		},
 		{
-			"name": "Grey Knight Grand Master",
+			"name": "Grey Knights Grand Master",
 			"type": "CH",
 			"weapons": [
 				"Heavy Daemon Hammer"
@@ -486,14 +511,13 @@
 			"speed": "30cm",
 			"armour": 3,
 			"cc": 3,
-			"ff": 5,
 			"weapons": [
-				"Bolt Pistols",
-				"Chainswords"
+				"Thunder Hammers and Storm Shields"
 			],
 			"specialRules": [
 				"Fearless",
-				"Jump Packs"
+				"Jump Packs",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -675,14 +699,14 @@
 			]
 		},
 		{
-			"name": "Grey Knight Terminators",
+			"name": "Grey Knights Terminators",
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
 			"cc": 2,
 			"ff": 3,
 			"weapons": [
-				"Psycannon",
+				"Psycannon|2|",
 				"Holocaust",
 				"Nemesis Daemon Hammers"
 			],
@@ -810,7 +834,7 @@
 			]
 		},
 		{
-			"name": "Grey Knight Strike Squad",
+			"name": "Grey Knights Strike Squad",
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
@@ -827,15 +851,15 @@
 			]
 		},
 		{
-			"name": "Grey Knight Purgation Squad",
+			"name": "Grey Knights Purgation Squad",
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 5,
+			"cc": 4,
 			"ff": 2,
 			"weapons": [
 				"Holocaust",
-				"Psycannon|4|"
+				"Psycannon|3|"
 			],
 			"specialRules": [
 				"Faithful",
@@ -843,7 +867,7 @@
 			]
 		},
 		{
-			"name": "Grey Knight Interceptor Squad",
+			"name": "Grey Knights Interceptor Squad",
 			"type": "INF",
 			"speed": 30,
 			"armour": 4,
@@ -1103,8 +1127,8 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Assault Cannon",
-				"Tempest Missile Launcher"
+				"Tempest Missile Launcher",
+				"Assault Cannon"
 			],
 			"specialRules": [
 				"Skimmer"
@@ -1187,6 +1211,23 @@
 			]
 		},
 		{
+			"name": "Librarian Dreadnought",
+			"type": "AV",
+			"speed": 15,
+			"armour": 3,
+			"cc": 4,
+			"ff": 4,
+			"weapons": [
+				"Force Halberd and Power Fist",
+				"Smite"
+			],
+			"specialRules": [
+				"Leader",
+				"Walker",
+				"Invulnerable Save"
+			]
+		},
+		{
 			"name": "Blizzard Dreadnought",
 			"type": "AV",
 			"speed": 15,
@@ -1245,23 +1286,7 @@
 				"Walker"
 			]
 		},
-		{
-			"name": "Doomglaive Dreadnought",
-			"type": "AV",
-			"speed": 15,
-			"armour": 3,
-			"cc": 4,
-			"ff": 4,
-			"weapons": [
-				"Nemesis Doomfist|2|",
-				"Heavy Incinerator"
-			],
-			"specialRules": [
-				"Walker",
-				"Faithful",
-				"Invulnerable Save"
-			]
-		},
+
 		{
 			"name": "Dreadnought, Mortis",
 			"type": "AV",
@@ -1305,6 +1330,23 @@
 			],
 			"specialRules": [
 				"Walker"
+			]
+		},
+		{
+			"name": "Doomglaive Dreadnought",
+			"type": "AV",
+			"speed": 15,
+			"armour": 3,
+			"cc": 3,
+			"ff": 3,
+			"weapons": [
+				"Psycannon",
+				"Nemesis Doomglaive"
+			],
+			"specialRules": [
+				"Walker",
+				"Faithful",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -1363,15 +1405,17 @@
 			"type": "H-AV",
 			"speed": 20,
 			"armour": 3,
-			"cc": 4,
-			"ff": 4,
+			"cc": 3,
+			"ff": 3,
 			"weapons": [
-				"Nemesis Doomfist|2|",
-				"Heavy Psycannon|2|"
+				"Heavy Psycannon|2|",
+				"Nemesis Doomfists"
+
 			],
 			"specialRules": [
 				"Walker",
 				"Teleport",
+				"Teleport Homer",
 				"Faithful",
 				"Invulnerable Save"
 			]
@@ -1449,12 +1493,12 @@
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
-			"name": "Grey Knight Land Raider",
+			"name": "Vortimer Land Raider",
 			"type": "AV",
 			"speed": 25,
 			"armour": 4,
 			"cc": 6,
-			"ff": 4,
+			"ff": 3,
 			"weapons": [
 				"Twin Lascannons|2",
 				"Twin Psycannon"
@@ -1469,7 +1513,7 @@
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
-			"name": "Grey Knight Land Raider Redeemer",
+			"name": "Grey Knights Land Raider Redeemer",
 			"type": "AV",
 			"speed": 25,
 			"armour": 4,
@@ -1664,7 +1708,7 @@
 			"speed": 30,
 			"armour": 4,
 			"cc": 6,
-			"ff": 4,
+			"ff": 5,
 			"weapons": [
 				"Twin Assault Cannons",
 				"Multi-Melta|2"
@@ -1679,7 +1723,7 @@
 			"speed": 30,
 			"armour": 4,
 			"cc": 6,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Flamestorm Cannon ",
 				"Heavy Flamer|2"
@@ -1709,14 +1753,14 @@
 			"cc": 6,
 			"ff": "5+/4",
 			"weapons": [{
-					"name": "0-1 Twin Lascannons",
+					"name": "0-1x Twin Lascannons",
 					"modes": [{
 						"firepower": "AT4+",
 						"range": 45
 					}]
 				},
 				{
-					"name": "0-1 Twin Heavy Bolters",
+					"name": "0-1x Twin Heavy Bolters",
 					"modes": [{
 						"firepower": "AP4+",
 						"range": 30
@@ -1772,12 +1816,12 @@
 			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted."
 		},
 		{
-			"name": "Grey Knight Razorback",
+			"name": "Vortimer Razorback",
 			"type": "AV",
 			"speed": 30,
 			"armour": 5,
 			"cc": 6,
-			"ff": 5,
+			"ff": 3,
 			"weapons": [
 				"Twin Psycannon"
 			],
@@ -1853,7 +1897,7 @@
 			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
 		},
 		{
-			"name": "Grey Knight Rhino",
+			"name": "Grey Knights Rhino",
 			"type": "AV",
 			"speed": 30,
 			"armour": 5,
@@ -2021,27 +2065,6 @@
 			"crit": "The Glaive is destroyed. All units within 5cm suffer a hit on a 5+."
 		},
 		{
-			"name": "Landing Craft",
-			"type": "AC/WE",
-			"speed": "Bomber",
-			"armour": 4,
-			"cc": 5,
-			"ff": 3,
-			"weapons": [
-				"Twin Lascannons|2",
-				"AC Twin Heavy Bolters|3"
-			],
-			"specialRules": [
-				"Damage Capacity 4",
-				"Fearless",
-				"Planetfall",
-				"Reinforced Armour",
-				"Transport"
-			],
-			"notes": "May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up.",
-			"crit": "The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
-		},
-		{
 			"name": "Deathwatch Landing Craft",
 			"type": "AC/WE",
 			"speed": "Bomber",
@@ -2063,7 +2086,7 @@
 			"crit": "The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
 		},
 		{
-			"name": "Grey Knight Landing Craft",
+			"name": "Grey Knights Landing Craft",
 			"type": "AC/WE",
 			"speed": "Bomber",
 			"armour": 4,
@@ -2142,7 +2165,7 @@
 			]
 		},
 		{
-			"name": "Grey Knight Storm Talon",
+			"name": "Grey Knights Storm Talon",
 			"type": "AC",
 			"speed": "Fighter",
 			"armour": 5,
@@ -2156,7 +2179,7 @@
 		},
 		{
 			"name": "Storm Raven",
-			"type": "AC/AV",
+			"type": "AC/WE",
 			"speed": "Bomber",
 			"armour": 4,
 			"cc": 6,
@@ -2167,6 +2190,7 @@
 				"Hurricane Bolters||"
 			],
 			"specialRules": [
+				"Damage Capacity: 1",
 				"Reinforced Armour",
 				"Planetfall",
 				"Transport"
@@ -2221,6 +2245,23 @@
 			]
 		},
 		{
+			"name": "Fire Raptor",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 5,
+			"weapons": [
+				"AC Twin Heavy Bolters||",
+				"AC Twin Avenger Bolt Cannons||FxF",
+				"AC Twin Lascannons|2|FxF"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"crit": "The Fire Raptor is destroyed."
+		},
+		{
 			"name": "Storm Eagle",
 			"type": "AC/WE",
 			"speed": "Bomber",
@@ -2261,7 +2302,7 @@
 				"Transport"
 			],
 			"notes": "May transport eight infantry units, Attack Bikes; Terminators and Dreadnoughts count as two units each.",
-			"crit": "The unit and all units being carried are destroyed."
+			"crit": "The Thunderhawk and all units being carried are destroyed."
 		},
 		{
 			"name": "Thunderhawk Transporter",
@@ -2281,7 +2322,7 @@
 				"Transport"
 			],
 			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
-			"crit": "The unit and all units being carried are destroyed."
+			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
 		},
 		{
 			"name": "Deathwatch Thunderhawk Transporter",
@@ -2301,10 +2342,10 @@
 				"Transport"
 			],
 			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
-			"crit": "The unit and all units being carried are destroyed."
+			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
 		},
 		{
-			"name": "Grey Knight Thunderhawk Transporter",
+			"name": "Grey Knights Thunderhawk Transporter",
 			"type": "AC/WE",
 			"speed": "Bomber",
 			"armour": 4,
@@ -2323,7 +2364,7 @@
 				"Transport"
 			],
 			"notes": "May carry up to two of the following: Dreadknights, Razorbacks, Rhinos. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
-			"crit": "The unit and all units being carried are destroyed."
+			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
 
 
 		},
@@ -2343,23 +2384,31 @@
 				"Damage Capacity 2",
 				"Reinforced Armour"
 			],
-			"crit": "The unit is destroyed."
+			"crit": "The Thunderhawk is destroyed."
 		},
 		{
-			"name": "Battle Barge",
-			"type": "SC",
-			"weapons": [{
-				"name": "Orbital Bombardment",
-				"modes": [{
-					"firepower": "10BP, MW"
-				}]
-			}],
+			"name": "Landing Craft",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Twin Lascannons|2",
+				"AC Twin Heavy Bolters|3"
+			],
 			"specialRules": [
-				"Slow to Arrive (May only arrive from turn 2 onwards)",
+				"Damage Capacity 4",
+				"Fearless",
+				"Planetfall",
+				"Reinforced Armour",
 				"Transport"
 			],
-			"notes": "May transport forty infantry units, Attack Bikes, or Dreadnoughts; plus thirty armoured vehicle units (except Dreadnoughts); plus nine Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each; plus any six armoured vehicle units (except H-AV, Dreadnoughts); Land Raiders count as one and a half units each, rounding up.",
+			"crit": "The Landing Craft and all units being carried are destroyed. All units within 5cm suffer a hit."
 		},
+
+
 		{
 			"name": "Hunter Class Destroyer",
 			"type": "SC",
@@ -2389,6 +2438,24 @@
 			"notes": "May transport four infantry units. These may only deploy on to the battlefield using Teleport. May in addition transport five Corvus Blackstars and three Thunderhawk Transporters along with any units these transport."
 		},
 		{
+			"name": "Vanguard Class Light Cruiser",
+			"type": "SC",
+			"weapons": [
+	            {
+	              "name": "Orbital Bombardment",
+	              "modes": [
+	                {
+	                  "firepower": "3BP, MW"
+	                }
+	              ]
+	          }
+		  ],
+			"specialRules": [
+				"Transport"
+			],
+			"notes": "May transport ten infantry units, Attack Bikes, or Dreadnoughts; plus five light vehicles or armoured vehicle units (except H-AV, Attack Bikes and Dreadnoughts); plus three Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+		},
+		{
 			"name": "Strike Cruiser",
 			"type": "SC",
 			"weapons": [{
@@ -2400,7 +2467,37 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except H-AV, Attack Bikes and Dreadnoughts); plus six Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+		},
+		{
+			"name": "Grey Knights Strike Cruiser",
+			"type": "SC",
+			"weapons": [{
+				"name": "Orbital Bombardment",
+				"modes": [{
+					"firepower": "4BP, MW"
+				}]
+			}],
+			"specialRules": [
+				"Navis Nobilite",
+				"Transport"
+			],
+			"notes": "May transport twenty infantry units or Dreadnoughts; plus ten light vehicles or armoured vehicle units (except Dreadnoughts. Nemesis Dreadknights counts as two units each) ; plus six Thunderhawks/Storm Eagles and enough Drop Pods or Landing Craft to transport any other units being carried."
+		},
+		{
+			"name": "Battle Barge",
+			"type": "SC",
+			"weapons": [{
+				"name": "Orbital Bombardment",
+				"modes": [{
+					"firepower": "10BP, MW"
+				}]
+			}],
+			"specialRules": [
+				"Slow to Arrive (May only arrive from turn 2 onwards)",
+				"Transport"
+			],
+			"notes": "May transport forty infantry units, Attack Bikes, or Dreadnoughts; plus thirty armoured vehicle units (except H-AV, Dreadnoughts); plus nine Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Drop Pod",
@@ -2415,7 +2512,7 @@
 				"Planetfall",
 				"Transport"
 			],
-			"notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Vanguard Veterans, Blood Claw Assaults, Wolf Guard Terminators, Grey Knight Strike Squad, Purgation Squad. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
+			"notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Blood Claw Assaults, Wolf Guard Terminators, Grey Knights Strike Squad, Kasrkin, Ordo Malleus Inquisitor. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
 		}
 	]
 }]

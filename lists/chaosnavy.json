@@ -36,6 +36,7 @@
       "name": "Heldrake",
       "type": "AC",
       "speed": "Fighter",
+      "armour": 6,
       "weapons": [
         "AC Hades Autocannon||FxF",
         "AC Piston-Driven Claws"
@@ -92,6 +93,14 @@
           "Reinforced Armour"
       ],
     "crit": "The Blightbringer Bomber is destroyed."
+    },
+    {
+      "name": "Hellbringer Class Light Cruiser",
+      "type": "SC",
+      "weapons": [
+      "Pin Point"
+      ],
+        "notes": "Transport. May transport 8 infantry units. These may only enter the battlefield by Teleport."
     },
     {
       "name": "Devastation Class Cruiser",
