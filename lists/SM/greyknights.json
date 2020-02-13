@@ -6,19 +6,11 @@
 	"strategy": "Space Marine armies have a Strategy Rating of 5.",
 	"Initiative": "All formations have an Initiative of 1+.",
 	"armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all formations except the Ordo Malleus Inquisitor Retinue and the Warhound Pack.",
-	"specialRules": ["Navis Nobilite", "Teleport Homer",  "Act of Faith", "Shield Disruptor","Space Marine Transports", "Grey Knights Transports"],
+	"specialRules": ["Teleport Homer", "Act of Faith", "Psybolts", "Navis Nobilite", "Space Marine Transports", "Grey Knights Transports"],
 	"usage": [
 		"The following army list allows you to field an army based on the Blood Ravens with Ordo Malleus allies"
 	],
-	"units": [{
-			"from": "IQ.json",
-			"units": [
-				"Ordo Malleus Inquisitor Lord",
-				"Ordo Malleus Inquisitor",
-				"Kasrkin"
-			],
-			"unitRules": []
-		},
+	"units": [
 		{
 			"from": "SM.json",
 			"units": [
@@ -37,6 +29,7 @@
 				"Land Speeder Tornado",
 				"Land Speeder Typhoon",
 				"Rhino",
+				"Grey Knights Rhino",
 				"Predator Annihilator",
 		        "Predator Destructor",
 				"Hunter",
@@ -52,7 +45,7 @@
 				"Storm Talon",
 				"Fire Raptor",
 				"Thunderhawk Transporter",
-				"Vanguard Class Light Cruiser",
+				"Strike Cruiser",
 				"Grey Knights Strike Cruiser",
                 "Drop Pod"
 			],
@@ -61,6 +54,15 @@
 				"Heavy Armoured Vehicle (H-AV)"
 			]
 		},
+		{
+				"from": "IQ.json",
+				"units": [
+					"Ordo Malleus Inquisitor Lord",
+					"Ordo Malleus Inquisitor",
+					"Kasrkin"
+				],
+				"unitRules": []
+			},
 		{
 		  "from": "ImperialAllies.json",
 		  "units": [
@@ -73,34 +75,25 @@
 	  }
 	],
 	"sections": [{
-			"name": "Blood Ravens Core Detachments",
+			"name": "Blood Ravens Core Formations",
 			"description": "One Orbital Support formation must be taken.",
 			"formations": [
 				{
 					"name": "1 Orbital Support",
-					"units": "Vanguard Class Light Cruiser",
+					"units": "Strike Cruiser",
 					"extraUnits": [
-						"Replace the Vanguard Class Light Cruiser with a Grey Knights Strike Cruiser: 75 points"
+						"Replace the Strike Cruiser with a Grey Knights Strike Cruiser: 50 points"
 					],
-					"points": 150
+					"points": 200
 				},
 				{
-		          "name": "Bikes",
-		          "units": "One Blood Ravens Librarian, any five of the following units: Assault Bikes, Attack Bike",
-		          "extraUnits": [
-		            "Supreme Commander"
-		          ],
-		          "points": 250
-			  },
-			  {
-				"name": "Land Speeders",
-				"units": "One Blood Ravens Librarian, any five of the following units: Land Speeder, Land Speeder Tornado",
-				"extraUnits": [
-		            "Supreme Commander",
-				  	"Typhoons"
-				],
-				"points": 250
-			},
+						"name": "0-1 Ordo Malleus Inquisitor Retinue",
+						"units": "One Ordo Malleus Inquisitor, seven Kasrkin plus transport",
+						"extraUnits": [
+							"Supreme Commander"
+						],
+						"points": 300
+					},
 			{
 			  "name": "Tacticals",
 			  "units": "One Blood Ravens Librarian, six Tacticals plus transport",
@@ -110,34 +103,50 @@
 				"Dreadnoughts"
 			  ],
 			  "points": 325
-			}
-
-
+		  },
+			{
+			"name": "Devastators",
+			"units": "One Blood Ravens Librarian, four Devastators plus transport",
+			"extraUnits": [
+				"Supreme Commander",
+			  "Dreadnoughts",
+			  "Land Raiders"
+			],
+			"points": 300
+			  }
 			]
 		},
 		{
 				"name": "Blood Ravens Support Detachments",
-				"description": "One Blood Ravens Support Detachment may be taken per Blood Ravens Core Detachment.",
+				"description": "Two Blood Ravens Support Detachments may be taken per Blood Ravens Core Detachment.",
 				"formations": [
-
-										{
-								          "name": "Scouts",
-								          "units": "Four Scouts plus transport",
-								          "extraUnits": [
-									            "Snipers",
-												"Dreadnoughts"
-								          ],
-								          "points": 150
-								        },
+					{
+					  "name": "Scouts",
+					  "units": "One Blood Ravens Librarian, four Scouts plus transport",
+					  "extraUnits": [
+			            "Supreme Commander",
+							"Snipers",
+							"Dreadnoughts"
+					  ],
+					  "points": 200
+					},
+					{
+			          "name": "Bikes",
+			          "units": "One Blood Ravens Librarian, any five of the following units: Assault Bikes, Attack Bike",
+			          "extraUnits": [
+			            "Supreme Commander"
+			          ],
+			          "points": 250
+				  },
 				  {
-  				  "name": "Devastators",
-  				  "units": "Four Devastators plus transport",
-  				  "extraUnits": [
-  					"Dreadnoughts",
-  					"Land Raiders"
-  				  ],
-  				  "points": 250
-  				},
+					"name": "Land Speeders",
+					"units": "One Blood Ravens Librarian, any five of the following units: Land Speeder, Land Speeder Tornado",
+					"extraUnits": [
+			            "Supreme Commander",
+					  	"Typhoons"
+					],
+					"points": 250
+				},
 					{
 			          "name": "Predators",
 			          "units": "Any four of the following units: Predator Annihilators, Predator Destructors",
@@ -158,17 +167,9 @@
 				]
 			},
 		{
-			"name": "Ordo Malleus Detachments",
-			"description": "One Ordo Malleus Detachment may be taken per Blood Ravens Core Detachment",
+			"name": "Grey Knights Detachments",
+			"description": "One Grey Knights Detachment may be taken per Blood Ravens Core Formation",
 			"formations": [
-				{
-						"name": "0-1 Ordo Malleus Inquisitor Retinue",
-						"units": "One Ordo Malleus Inquisitor, five Kasrkin plus transport",
-						"extraUnits": [
-							"Supreme Commander"
-						],
-						"points": 250
-					},
 				{
 					"name": "Grey Knights Interceptor Squads",
 					"units": "Two Grey Knights Interceptor Squads",

@@ -95,28 +95,17 @@
     "crit": "The Blightbringer Bomber is destroyed."
     },
     {
-      "name": "Hellbringer Class Light Cruiser",
-      "type": "SC",
+      "name": "Alpha Legion Xiphon Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 5,
       "weapons": [
-      "Pin Point"
+        "AC Quad Lascannons||FxF",
+        "AC Xiphon Rotary Missile Launcher||FxF"
       ],
-        "notes": "Transport. May transport 8 infantry units. These may only enter the battlefield by Teleport."
-    },
-    {
-      "name": "Devastation Class Cruiser",
-      "type": "SC",
-      "weapons": [
-        {
-          "name": "Orbital Bombardment",
-          "modes": [
-            {
-              "firepower": "3BP, MW"
-            }
-          ]
-      },
-      "Pin Point"
-      ],
-        "notes": "Transport. May transport 20 infantry units or Dreadnoughts; plus three Thunderhawks to transport and enough Dreadclaws to transport any other units being carried."
+      "specialRules": [
+
+      ]
     },
     {
       "name": "Chaos Xiphon Interceptor",
@@ -124,8 +113,7 @@
       "speed": "Fighter",
       "armour": 5,
       "weapons": [
-        "AC Quad Lascannons||FxF",
-        "AC Xiphon Rotary Missile Launcher||FxF"
+        "AC Twin Reaper Autocannons|2|FxF"
       ],
       "specialRules": [
 
@@ -139,9 +127,9 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-            "AC Twin Heavy Bolters||",
             "AC Twin Lascannons|2|FxF",
-            "Vengeance Launcher"
+            "AC Twin Heavy Bolter Turret||",
+            "Vengeance Launcher||FxF"
         ],
         "specialRules": [
             "Damage Capacity 2",
@@ -152,6 +140,39 @@
         ],
         "notes": "May transport four infantry units without Mounted; Terminators, Daemon Princes, Chaos Spawn, Big Mutants and Dreadnoughts counts as two units each. Counts as a Chaos Thunderhawk for being transported.",
         "crit": "The Storm Eagle and all units being carried are destroyed."
+    },
+    {
+        "name": "Alpha Legion Fire Raptor",
+        "type": "AC/WE",
+        "speed": "Bomber",
+        "armour": 5,
+        "weapons": [
+            "AC Hellstrike Missiles|4|FxF",
+            "AC Twin Avenger Bolt Cannons||FxF",
+            "AC Twin Heavy Bolter Turret||"
+
+        ],
+        "specialRules": [
+            "Damage Capacity 2",
+            "Reinforced Armour"
+        ],
+        "crit": "The Fire Raptor is destroyed."
+    },
+    {
+        "name": "Chaos Fire Raptor",
+        "type": "AC/WE",
+        "speed": "Bomber",
+        "armour": 5,
+        "weapons": [
+            "AC Havoc Launcher|2|FxF",
+            "AC Twin Hades Autocannons||FxF",
+            "AC Twin Heavy Bolter Turret||"
+        ],
+        "specialRules": [
+            "Damage Capacity 2",
+            "Reinforced Armour"
+        ],
+        "crit": "The Fire Raptor is destroyed."
     },
       {
         "name": "Chaos Thunderhawk",
@@ -220,12 +241,43 @@
       "notes": "May transport eight infantry units; Terminators, Daemon Princes, Chaos Spawn, Big Mutants and Dreadnoughts counts as two units each.",
       "crit": " The Thunderhawk and all units being carried are destroyed."
       },
+      {
+        "name": "Hellbringer Class Light Cruiser",
+        "type": "SC",
+        "weapons": [
+        "Pin Point"
+        ],
+          "notes": "Transport. May transport 8 infantry units. These may only enter the battlefield by Teleport."
+      },
+      {
+        "name": "Devastation Class Cruiser",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+        },
+        "Pin Point"
+        ],
+          "notes": "Transport. May transport 20 infantry units or Dreadnoughts; plus three Thunderhawks to transport and enough Dreadclaws to transport any other units being carried."
+      },
 
     {
       "name": "Plagueship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 4BP"
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+        }
     ],
     "specialRules": [
       "Slow to Arrive (May only arrive from turn 2 onwards)"

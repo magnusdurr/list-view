@@ -81,8 +81,9 @@
     {
       "from": "chaosnavy.json",
       "units": [
-          "Chaos Xiphon Interceptor",
+          "Alpha Legion Xiphon Interceptor",
           "Alpha Legion Storm Eagle",
+          "Alpha Legion Fire Raptor",
           "Chaos Strike Cruiser"
     ],
     "unitRules": [
@@ -204,19 +205,28 @@
     "name": "Alpha Legion Navy",
     "description": "Up to a fourth of the points available may be spent on Alpha Legion Navy.",
     "formations": [
-        {
-          "name": "Xiphon Squadron",
-          "units": "Two Chaos Xiphon Interceptors",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
+
         {
           "name": "Storm Eagle",
           "units": "One Alpha Legion Storm Eagle",
           "extraUnits": [
           ],
           "points": 175
+        },
+
+        {
+          "name": "Fire Raptor",
+          "units": "One Alpha Legion Fire Raptor",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Xiphon Squadron",
+          "units": "Two Alpha Legion Xiphon Interceptors",
+          "extraUnits": [
+          ],
+          "points": 225
         },
         {
           "name": "Strike Cruiser",

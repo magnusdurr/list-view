@@ -1554,22 +1554,8 @@
               "Reinforced Armour"
             ],
             "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
-        },
-        {
-			"name": "Chaos Tarantula",
-			"type": "INF",
-			"speed": "Immobile",
-            "armour": 6,
-			"ff": 5,
-            "weapons": [
-              "Reaper Autocannon"
-            ],
-			"specialRules": [
-				"Machine Spirit",
-				"Fearless",
-				"Expendable"
-			]
         }
+
     ]
   }
 ]

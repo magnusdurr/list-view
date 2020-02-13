@@ -2183,11 +2183,11 @@
 			"speed": "Bomber",
 			"armour": 4,
 			"cc": 6,
-			"ff": 5,
+			"ff": 4,
 			"weapons": [
 				"AC Twin Assault Cannons||FxF",
 				"AC Twin Heavy Bolters||FxF",
-				"Hurricane Bolters||"
+				"Hurricane Bolters||FxF"
 			],
 			"specialRules": [
 				"Damage Capacity: 1",
@@ -2250,14 +2250,14 @@
 			"speed": "Bomber",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Heavy Bolters||",
+				"AC Hellstrike Missiles|4|FxF",
 				"AC Twin Avenger Bolt Cannons||FxF",
-				"AC Twin Lascannons|2|FxF"
+				"AC Twin Heavy Bolter Turret||"
+
 			],
 			"specialRules": [
 				"Damage Capacity 2",
-				"Reinforced Armour",
-				"Transport"
+				"Reinforced Armour"
 			],
 			"crit": "The Fire Raptor is destroyed."
 		},
@@ -2269,9 +2269,9 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"AC Twin Heavy Bolters||",
 				"AC Twin Lascannons|2|FxF",
-				"Vengeance Launcher"
+				"AC Twin Heavy Bolter Turret||",
+				"Vengeance Launcher||FxF"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2321,7 +2321,7 @@
 				"Reinforced Armour",
 				"Transport"
 			],
-			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
+			"notes": "May carry up to two of the following units: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Land Raiders counts as two units each. In addition it may also carry any infantry transported in these vehicles.",
 			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
 		},
 		{
@@ -2341,7 +2341,7 @@
 				"Reinforced Armour",
 				"Transport"
 			],
-			"notes": "May carry up to two of the following: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
+			"notes": "May carry up to two of the following units: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Land Raiders counts as two units each. In addition it may also carry any infantry transported in these vehicles.",
 			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
 		},
 		{
@@ -2363,7 +2363,7 @@
 				"Invulnerable Save",
 				"Transport"
 			],
-			"notes": "May carry up to two of the following: Dreadknights, Razorbacks, Rhinos. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles.",
+			"notes": "May carry up to two of the following units: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Land Raiders counts as two units each. In addition it may also carry any infantry transported in these vehicles.",
 			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
 
 

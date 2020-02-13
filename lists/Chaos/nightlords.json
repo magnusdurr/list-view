@@ -4,7 +4,7 @@
   "version": "Alpha 0.6.0",
   "release": "2020-02-08",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "All Night Lords Core, Elite and Support formations, as well as the Thunderhawk formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "The Tarantula formation has an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "specialRules":
     [
         "In Midnight Clad",
@@ -37,14 +37,22 @@
         "Chaos Spartan Assault Tank",
         "Chaos Stalker",
         "Chaos Attack Bike",
-        "Night Lords Dreadnought",
-        "Chaos Tarantula"
+        "Night Lords Dreadnought"
+
     ],
     "unitRules": [
         "Night Lords Characters",
-        "Machine Spirit",
     "Heavy Armoured Vehicle (H-AV)"
     ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+        "Chaos Tarantula"
+        ],
+        "unitRules": [
+          "Machine Spirit"
+        ]
     },
     {
       "from": "daemons.json",
@@ -57,10 +65,10 @@
     {
       "from": "chaosnavy.json",
       "units": [
-        "Hell Blade Interceptor",
-        "Hell Talon Fighter-Bomber",
-        "Night Lords Thunderhawk",
-        "Devastation Class Cruiser"
+        "Chaos Xiphon Interceptor",
+        "Chaos Fire Raptor",
+        "Chaos Thunderhawk",
+        "Chaos Strike Cruiser"
     ],
     "unitRules": [
 
@@ -110,7 +118,7 @@
       "name": "Chosen",
       "units": "Four Night Lords Chosen, two Chaos Rhinos",
       "extraUnits": [
-          "Replace two Chaos Rhinos with four Chaos Tarantulas (25 points), or two Night Lords Dreadnoughts (50 points)"
+          "Replace two Chaos Rhinos with two Night Lords Dreadnoughts: 50 points"
       ],
       "points": 175
   }
@@ -163,30 +171,35 @@
     ]
   },
   {
-    "name": "Night Lords Navy",
-    "description": "Up to a third of the points available may be spent on these formations.",
+    "name": "Night Lords Static Defenses and Navy",
+    "description": "Up to a third of the points available may be spent on these formations. No more than one Tarantula formation for each Chosen formation.",
     "formations": [
         {
-          "name": "Hell Blade Squadron",
-          "units": "Three Hell Blade Interceptors",
-          "points": 200
+          "name": "Tarantula",
+          "units": "Four Chaos Tarantulas",
+          "points": 100
         },
         {
-          "name": "Hell Talon Squadron",
-          "units": "Two Hell Talon Fighter-Bombers",
+          "name": "Fire Raptor",
+          "units": "One Chaos Fire Raptor",
+          "points": 175
+        },
+        {
+          "name": "Xiphon Squadron",
+          "units": "Two Chaos Xiphon Interceptors",
           "points": 225
         },
         {
           "name": "Thunderhawk",
-          "units": "One Night Lords Thunderhawk",
+          "units": "One Chaos Thunderhawk",
           "points": 225
       },
     {
            "name": "0-1 Spacecraft",
-           "units": "Devastation Class Cruiser",
+           "units": "Chaos Strike Cruiser",
            "extraUnits": [
            ],
-           "points": 150
+           "points": 200
          }
     ]
 },

@@ -839,7 +839,7 @@
       ]
     },
     {
-      "name": "AC Heavy Bolter Turret",
+      "name": "AC Twin Heavy Bolter Turret",
         "modes": [
           {
             "firepower": "AA5+",
@@ -1122,7 +1122,7 @@
       "name": "AC Xiphon Rotary Missile Launcher",
       "modes": [
         {
-          "firepower": "AP4+/AT6+",
+          "firepower": "AP5+/AT6+/AA5+",
           "range": 30
         }
       ]
@@ -4384,6 +4384,17 @@
       ]
     },
     {
+      "name": "AC Twin Hades Autocannons",
+        "modes": [
+          {
+            "firepower": "3x AP4+/AT5+/AA5+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Hail of Barbed Spears",
         "modes": [
           {
@@ -5168,6 +5179,19 @@
           {
             "firepower": "AT2+",
             "range": 120,
+            "specialRules": [
+              "SS"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Hellstrike Missiles",
+        "modes": [
+          {
+            "firepower": "AT2+",
+            "range": 45,
             "specialRules": [
               "SS"
 
@@ -7603,7 +7627,7 @@
             "firepower": "AP5+/AT5+",
           "range": 30,
             "specialRules": [
-              "Shield Disruptor"
+              "Psybolts"
             ]
           }
       ]
@@ -7615,7 +7639,7 @@
             "firepower": "AP4+/AT4+",
           "range": 45,
             "specialRules": [
-              "Shield Disruptor"
+              "Psybolts"
             ]
           }
       ]
@@ -7627,7 +7651,7 @@
             "firepower": "AP4+/AT4+",
           "range": 30,
             "specialRules": [
-              "Shield Disruptor"
+              "Psybolts"
             ]
           }
       ]
@@ -7639,7 +7663,7 @@
             "firepower": "AP4+/AT4+/AA5+",
             "range": 15,
             "specialRules": [
-              "Shield Disruptor"
+              "Psybolts"
             ]
           }
       ]
@@ -11362,6 +11386,10 @@
     {
       "name": "Shield Piercer",
       "description": "Shield Piercer"
+    },
+    {
+      "name": "Psybolts",
+      "description": "Psybolts"
     },
     {
       "name": "TK(1)",

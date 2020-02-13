@@ -75,7 +75,7 @@
        {
          "title": "Shield Disruptor",
          "description": [
-           "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields, Ion Shields, and Invulnerable Saves on Daemonic units (Daemon Princes, all 'Daemon Legion Forces' units, 'Daemon Engine (x)' units)."
+           "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shieldsand Ion Shields."
          ]
      }
     ],
@@ -178,6 +178,21 @@
               "Expendable",
               "Ponderous"
           ]
+        },
+        {
+            "name": "Chaos Tarantula",
+            "type": "INF",
+            "speed": "Immobile",
+            "armour": 6,
+            "ff": 5,
+            "weapons": [
+              "Reaper Autocannon"
+            ],
+            "specialRules": [
+                "Machine Spirit",
+                "Fearless",
+                "Expendable"
+            ]
         },
         {
           "name": "Chaos Rhino",

@@ -76,7 +76,7 @@
       {
         "title": "Shield Disruptor",
         "description": [
-          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields, Ion Shields, and Invulnerable Saves on Daemonic units (Daemon Princes, all 'Daemon Legion Forces' units, 'Daemon Engine (x)' units)."
+          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shieldsand Ion Shields."
         ]
     },
     {
@@ -102,7 +102,13 @@
     {
       "title": "Shield Piercer",
       "description": [
-        "Ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields & Void Shields (Shadowfields still provide cover from shooting)."
+        "Weapons with the 'Shield Piercer' special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields and Void Shields (Shadowfields still provide cover from shooting)."
+      ]
+    },
+    {
+      "title": "Psybolts",
+      "description": [
+        "Weapons with the 'Psybolts' special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields, Void Shields and Invulnerable Saves (Shadowfields still provide cover from shooting)."
       ]
     },
     {
