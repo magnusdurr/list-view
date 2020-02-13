@@ -645,6 +645,19 @@
 			"notes": "May transport six infantry units without Jump Packs or Mounted."
 		},
 		{
+		  "name": "Lysander Fighter",
+		  "type": "AC",
+		  "speed": "Fighter",
+		  "armour": 6,
+		  "weapons": [
+			"AC Multilaser||FxF",
+			"AC Storm Bolters||FxF"
+
+		  ],
+		  "specialRules": [
+		  ]
+	  },
+		{
 			"name": "Avenger Strike Fighter",
 			"type": "AC",
 			"speed": "Fighter-Bomber",

@@ -2,9 +2,9 @@
   "fraction": "Adeptus Mechanicus",
   "army": "Collegia Titanica",
   "version": "1.0.0",
-  "release": "2019-04-19",
+  "release": "2020-02-13",
   "strategy": "Collegia Titanica armies have a Strategy Rating of 3.",
-  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Battle Titan formations and the Warhounds formation have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
   ],
@@ -23,9 +23,9 @@
           "Warlord Titan, Nemesis Class",
 
           "Imperator Titan",
-          "Warmonger Titan",
+          "Warmonger Titan"
 
-          "Lysander Fighter"
+
         ],
           "unitRules": [
               "God Machine",
@@ -42,9 +42,11 @@
         "Tech-Priest",
         "Hypaspist",
         "Kastelan Robot",
+        "Castellax Battle-Automata",
         "Ordinatus Minoris ",
         "Gorgon",
         "Avenger Strike Fighter",
+        "Lysander Fighter",
         "Ark Mechanicus Battleship"
     ],
         "unitRules": [
@@ -105,13 +107,13 @@
       "description": "Up to three Support formations for each Battle Titan formation",
       "formations": [
         {
-          "name": "Warhound Pack",
-          "units": "Two Warhound Scout Titans, both of either Standard or Support Configuration",
+          "name": "Warhounds",
+          "units": "One Warhound Titan, of either Standard or Support Configuration",
           "upgrades": [
-              "Tank Hunter Configuration",
-              "Independent"
+              "Add one Warhound Titan of the same configuration: 225 points",
+              "Tank Hunter Configuration"
           ],
-          "points": 500
+          "points": 275
       },
       {
         "name": "Questoris Banner",
@@ -124,7 +126,7 @@
     },
     {
       "name": "Adeptus Mechanicus Allies",
-      "description": "Up to one third of the points available may be spent on Adeptus Mechanicus Allies. Up to one Lysander Fighter for each Warmonger Emperor Titan or Anvilus Carapace Landing Pad",
+      "description": "Up to one third of the points available may be spent on Adeptus Mechanicus Allies. Up to one Lysander Fighter for each Warmonger Titan or Anvilus Carapace Landing Pad",
       "formations": [
         {
           "name": "Skitarii Maniple",
@@ -143,6 +145,13 @@
           "points": 175
         },
         {
+          "name": "Castellax Maniple",
+          "units": "One Tech-Priest, four Castellax Battle-Automata",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
           "name": "Minoris",
           "units": "One Ordinatus Minoris",
           "upgrades": [
@@ -151,9 +160,9 @@
           "points": 200
         },
         {
-          "name": "0-1 Lysander Fighter",
+          "name": "Lysander Fighter",
           "units": "One Lysander Fighter",
-          "points": 75
+          "points": 100
         },
         {
           "name": "Avenger Squadron",
@@ -195,20 +204,11 @@
           "name": "Tank Hunter",
           "options": [
             {
-              "description": "Upgrade both Warhounds to Tank Hunter Configuration",
-              "points": "50 points"
+              "description": "Upgrade all Warhounds in the formation to the Tank Hunter Configuration",
+              "points": "25 points each"
             }
           ]
-      },
-      {
-        "name": "Independent",
-        "options": [
-          {
-            "description": "Allows a Warhound Pack to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Warhound is destroyed, the other one in the pack receives a Blast Marker.",
-            "points": "50 points"
-        }
-      ]
-  }
+      }
 ],
 "usage": [
   "v1.0.0: Titan lists are at the edge of what the EA ruleset can handle, and the Collegia Titanica list is part of an attempt to make such lists less of a Draw or Loss kind of lists.",
