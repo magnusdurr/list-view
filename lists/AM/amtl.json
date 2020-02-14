@@ -79,7 +79,7 @@
         {
           "name": "0-1 Emperor Titan",
           "units": "One Imperator Titan or Warmonger Titan, Veteran Princeps",
-          "upgrades": [
+          "extraUnits": [
             "Legate"
           ],
           "points": 950
@@ -87,7 +87,7 @@
     {
       "name": "Warlord Titan",
       "units": "One Warlord Titan (Deathbringer or Nemesis Class), Veteran Princeps",
-      "upgrades": [
+      "extraUnits": [
         "Legate"
       ],
       "points": 750
@@ -95,7 +95,7 @@
   {
       "name": "Reaver Titan",
       "units": "One Reaver Titan (Hun or Goth Class)",
-      "upgrades": [
+      "extraUnits": [
         "Veteran Princeps"
       ],
       "points": 600
@@ -109,7 +109,7 @@
         {
           "name": "Warhounds",
           "units": "One Warhound Titan, of either Standard or Support Configuration",
-          "upgrades": [
+          "extraUnits": [
               "Add one Warhound Titan of the same configuration: 225 points",
               "Tank Hunter Configuration"
           ],
@@ -118,7 +118,7 @@
       {
         "name": "Questoris Banner",
         "units": "Two Questoris Knights (may not mix configurations)",
-        "upgrades": [
+        "extraUnits": [
         ],
         "points": 250
     }
@@ -126,12 +126,12 @@
     },
     {
       "name": "Adeptus Mechanicus Allies",
-      "description": "Up to one third of the points available may be spent on Adeptus Mechanicus Allies. Up to one Lysander Fighter for each Warmonger Titan or Anvilus Carapace Landing Pad",
+      "description": "Up to one third of the points available may be spent on Adeptus Mechanicus Allies. Up to one Lysander Fighter for each Warmonger Titan or Anvilus Carapace Landing Pad.",
       "formations": [
         {
           "name": "Skitarii Maniple",
           "units": "One Magos, nine Hypaspist",
-          "upgrades": [
+          "extraUnits": [
               "Add one Gorgon: 100 points"
           ],
           "points": 225
@@ -139,7 +139,7 @@
         {
           "name": "Kastelan Maniple",
           "units": "Five Kastelan Robots, one Tech-Priest",
-          "upgrades": [
+          "extraUnits": [
               "Add up to two Kastelan Robots: 25 points each"
           ],
           "points": 175
@@ -154,7 +154,7 @@
         {
           "name": "Minoris",
           "units": "One Ordinatus Minoris",
-          "upgrades": [
+          "extraUnits": [
               "Add one Ordinatus Minoris: 125 points"
           ],
           "points": 200

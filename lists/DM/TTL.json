@@ -112,29 +112,33 @@
       "formations": [
         {
           "name": "0-1 Chaos Emperor Titan",
-          "units": "Daemonic Locus, one Vicebringer Titan of Slaanesh / Gloombringer Titan of Nurgle / Strifebringer Titan of Khorne / Changebringer Titan of Tzeentch",
+          "units": "Daemonic Locus, one Chaos Emperor Titan*",
           "extraUnits": [
-            "Eye of the Gods"
+              "Eye of the Gods"
+
           ],
-          "points": 925
+          "points": 925,
+          "notes": "* Choose one: Vicebringer Titan of Slaanesh, Gloombringer Titan of Nurgle, Strifebringer Titan of Khorne, or Changebringer Titan of Tzeentch"
       },
         {
           "name": "Chaos Warlord Titan",
-          "units": "Daemonic Locus, one Painlord Titan of Slaanesh / Plaguelord Titan of Nurgle / Banelord Titan of Khorne / Warplord Titan of Tzeentch",
+          "units": "Daemonic Locus, one Chaos Warlord Titan*",
           "extraUnits": [
             "Eye of the Gods",
             "Daemonic Herald"
           ],
-          "points": 775
+          "points": 775,
+          "notes": "* Choose one: Painlord Titan of Slaanesh, Plaguelord Titan of Nurgle, Banelord Titan of Khorne, or Warplord Titan of Tzeentch"
       },
         {
           "name": "Chaos Reaver Titan",
-          "units": "Daemonic Locus, one Reviler Titan of Slaanesh / Repugnant Titan of Nurgle / Ravager Titan of Khorne / Mutator Titan of Tzeentch",
+          "units": "Daemonic Locus, one Chaos Reaver Titan*",
           "extraUnits": [
           "Daemonic Herald"
           ],
-          "points": 625
-      }
+          "points": 625,
+          "notes": "* Choose one: Reviler Titan of Slaanesh, Repugnant Titan of Nurgle, Ravager Titan of Khorne, or Mutator Titan of Tzeentch"
+          }
     ]
 },
     {
@@ -143,17 +147,19 @@
       "formations": [
         {
           "name": "Chaos Warhound",
-          "units": "Daemonic Locus, one Plaguehound of Nurgle / Bloodhound of Khorne / Warphound of Tzeentch / Chaos Warhound of Chaos Undivided",
+          "units": "Daemonic Locus, one Chaos Warhound*",
           "extraUnits": [
           ],
-          "points": 300
+          "points": 300,
+          "notes": "* Choose one: Plaguehound of Nurgle, Bloodhound of Khorne, Warphound of Tzeentch, or Chaos Warhound of Chaos Undivided"
       },
       {
         "name": "Slaanesh Scout Titan",
-        "units": "Daemonic Locus, one Subjugator of Slaanesh / Questor of Slaanesh",
+        "units": "Daemonic Locus, one Slaanesh Scout Titan*",
         "extraUnits": [
         ],
-        "points": 300
+        "points": 300,
+        "notes": "* Choose one: Subjugator of Slaanesh or Questor of Slaanesh"
       }
     ]
   },
@@ -163,20 +169,20 @@
     "formations": [
         {
           "name": "Chaos Knight",
-          "units": "Daemonic Locus, one Hell-Scourge of Slaanesh / Hell-Knight of Slaanesh / Knight-Desecrator of Nurgle / Knight-Rampager of Khorne / Knight-Despoiler of Tzeentch / Knight-Renegade of Chaos Undivided",
+          "units": "Daemonic Locus, one Chaos Knight*",
         "extraUnits": [
         ],
-        "points": 175
+        "points": 175,
+        "notes": "* Choose one: Hell-Scourge of Slaanesh, Hell-Knight of Slaanesh, Knight-Desecrator of Nurgle, Knight-Rampager of Khorne, Knight-Despoiler of Tzeentch, or Knight-Renegade of Chaos Undivided"
           },
           {
             "name": "Defiler Pack",
-            "units": "Three Debasers of Slaanesh / Slaughterfiends of Khorne / Defilers of Chaos Undivided",
+            "units": "Three Debasers of Slaanesh, three Slaughterfiends of Khorne, or three Defilers of Chaos Undivided",
             "extraUnits": [
-                "Replace three Debasers / Slaughterfiends / Defilers with three Desecrators of Nurgle, or three Decievers of Tzeentch: 25 points",
-                "Add one Debaser / Slaughterfiend / Desecrator / Deciever / Defiler (formation may not mix different types of units): 50 points"
+                "Replace three Debasers with three Desecrators of Nurgle, or three Decievers of Tzeentch: 25 points",
+                "Add a Defiler of the same configuration to the formation: 50 points"
             ],
-            "points": 175
-        }
+            "points": 175        }
     ]
   },
         {

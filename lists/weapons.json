@@ -3967,6 +3967,25 @@
       ]
     },
     {
+      "name": "Flamestorm Incinerator",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 15,
+            "specialRules": [
+              "IC"
+          ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Fleshborers",
       "modes": [
         {
@@ -6619,6 +6638,18 @@
       ]
     },
     {
+      "name": "Nemesis Daemon Hammer",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+        ]
+        }
+    ]
+    },
+    {
       "name": "Nemesis Daemon Hammers",
       "modes": [
         {
@@ -7645,7 +7676,19 @@
       ]
     },
     {
-      "name": "Twin Psycannon",
+      "name": "Gatling Psilencer",
+        "modes": [
+          {
+            "firepower": "AP4+/AT4+",
+          "range": 45,
+            "specialRules": [
+              "Psybolts"
+            ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Psycannons",
         "modes": [
           {
             "firepower": "AP4+/AT4+",

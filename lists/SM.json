@@ -856,10 +856,10 @@
 			"speed": 15,
 			"armour": 4,
 			"cc": 4,
-			"ff": 2,
+			"ff": 3,
 			"weapons": [
-				"Holocaust",
-				"Psycannon|3|"
+				"Psycannon|3|",
+				"Holocaust"
 			],
 			"specialRules": [
 				"Faithful",
@@ -1181,6 +1181,27 @@
 			]
 		},
 		{
+			"name": "Nemesis Dreadknight",
+			"type": "LV",
+			"speed": 15,
+			"armour": 4,
+			"cc": 3,
+			"ff": 3,
+			"weapons": [
+				"Heavy Psycannon",
+				"Nemesis Daemon Hammer"
+			],
+			"specialRules": [
+				"Walker",
+				"Reinforced Armour",
+				"Infiltrators",
+				"Teleport",
+				"Faithful",
+				"Invulnerable Save"
+
+			]
+		},
+		{
 			"name": "Dreadnought",
 			"type": "AV",
 			"speed": 15,
@@ -1400,26 +1421,7 @@
 				"Walker"
 			]
 		},
-		{
-			"name": "Nemesis Dreadknight",
-			"type": "H-AV",
-			"speed": 20,
-			"armour": 3,
-			"cc": 3,
-			"ff": 3,
-			"weapons": [
-				"Heavy Psycannon|2|",
-				"Nemesis Doomfists"
 
-			],
-			"specialRules": [
-				"Walker",
-				"Teleport",
-				"Teleport Homer",
-				"Faithful",
-				"Invulnerable Save"
-			]
-		},
 		{
 			"name": "Leman Russ Exterminator",
 			"type": "AV",
@@ -1498,10 +1500,10 @@
 			"speed": 25,
 			"armour": 4,
 			"cc": 6,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Twin Lascannons|2",
-				"Twin Psycannon"
+				"Twin Psycannons"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1513,15 +1515,15 @@
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
-			"name": "Grey Knights Land Raider Redeemer",
+			"name": "Vortimer Land Raider Redeemer",
 			"type": "AV",
 			"speed": 25,
 			"armour": 4,
 			"cc": 5,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
-				"Heavy Incinerator|2",
-				"Twin Psycannon"
+				"Twin Psycannons",
+				"Flamestorm Incinerator|2"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1821,9 +1823,9 @@
 			"speed": 30,
 			"armour": 5,
 			"cc": 6,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
-				"Twin Psycannon"
+				"Twin Psycannons"
 			],
 			"specialRules": [
 				"Transport",
@@ -2094,7 +2096,7 @@
 			"ff": 3,
 			"weapons": [
 				"Twin Lascannons|2",
-				"AC Twin Psycannon|3"
+				"AC Twin Psycannons|3"
 			],
 			"specialRules": [
 				"Damage Capacity 4",
@@ -2171,7 +2173,7 @@
 			"armour": 5,
 			"weapons": [
 				"AC Twin Assault Cannons||FwA",
-				"AC Twin Psycannon||FxF"
+				"AC Twin Psycannons||FxF"
 			],
 			"specialRules": [
 				"Invulnerable Save"
@@ -2252,7 +2254,7 @@
 			"weapons": [
 				"AC Twin Autocannons|2|FxF",
 				"AC Twin Avenger Bolt Cannons||FxF",
-				"AC Twin Heavy Bolter Turret||"
+				"AC Twin Heavy Bolters||"
 
 			],
 			"specialRules": [
@@ -2270,7 +2272,7 @@
 			"ff": 5,
 			"weapons": [
 				"AC Twin Lascannons|2|FxF",
-				"AC Twin Heavy Bolter Turret||",
+				"AC Twin Heavy Bolters||",
 				"Vengeance Launcher||FxF"
 			],
 			"specialRules": [
@@ -2352,8 +2354,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"AC Twin Psycannon|2|Left",
-				"AC Twin Psycannon|2|Right"
+				"AC Twin Psycannons|2|Left",
+				"AC Twin Psycannons|2|Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2453,7 +2455,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport ten infantry units, Attack Bikes, or Dreadnoughts; plus five light vehicles or armoured vehicle units (except H-AV, Attack Bikes and Dreadnoughts); plus three Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport ten infantry units, Attack Bikes, or Dreadnoughts; plus five light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus three Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Strike Cruiser",
@@ -2467,7 +2469,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except H-AV, Attack Bikes and Dreadnoughts); plus six Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Grey Knights Strike Cruiser",
@@ -2482,7 +2484,7 @@
 				"Navis Nobilite",
 				"Transport"
 			],
-			"notes": "May transport twenty infantry units or Dreadnoughts; plus ten light vehicles or armoured vehicle units (except Dreadnoughts. Nemesis Dreadknights counts as two units each) ; plus six Thunderhawks/Storm Eagles and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport twenty infantry units, Attack Bikes, Dreadnoughts; plus ten light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts) ; plus six Thunderhawks/Storm Eagles and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Battle Barge",

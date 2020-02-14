@@ -40,18 +40,18 @@
 				"Land Raider",
 				"Land Raider Helios",
 				"Vortimer Land Raider",
+				"Vortimer Land Raider Redeemer",
 				"Vortimer Razorback",
 				"Nemesis Dreadknight",
 				"Storm Talon",
 				"Fire Raptor",
 				"Thunderhawk Transporter",
-				"Strike Cruiser",
+				"Vanguard Class Light Cruiser",
 				"Grey Knights Strike Cruiser",
                 "Drop Pod"
 			],
 			"unitRules": [
-				"They Shall Know No Fear",
-				"Heavy Armoured Vehicle (H-AV)"
+				"They Shall Know No Fear"
 			]
 		},
 		{
@@ -80,11 +80,11 @@
 			"formations": [
 				{
 					"name": "1 Orbital Support",
-					"units": "Strike Cruiser",
+					"units": "Vanguard Class Light Cruiser",
 					"extraUnits": [
-						"Replace the Strike Cruiser with a Grey Knights Strike Cruiser: 50 points"
+						"Replace the Strike Cruiser with a Grey Knights Strike Cruiser: 75 points"
 					],
-					"points": 200
+					"points": 150
 				},
 				{
 						"name": "0-1 Ordo Malleus Inquisitor Retinue",
@@ -171,7 +171,7 @@
 			"description": "One Grey Knights Detachment may be taken per Blood Ravens Core Formation",
 			"formations": [
 				{
-					"name": "Grey Knights Interceptor Squads",
+					"name": "Interceptor Squads",
 					"units": "Two Grey Knights Interceptor Squads",
 					"extraUnits": [
 						"Justicar"
@@ -179,39 +179,40 @@
 					"points": 200
 				},
 				{
-					"name": "Grey Knights Purgation Squads",
+						"name": "Strike Squads",
+						"units": "Two Grey Knights Strike Squads plus transport",
+						"extraUnits": [
+							"Grey Knights Support",
+							"Justicar"
+						],
+						"points": 200
+					},
+				{
+					"name": "Purgation Squads",
 					"units": "Two Grey Knights Purgation Squads plus transport",
 					"extraUnits": [
-						"Add two Vortimer Razorbacks or one Doomglaive Dreadnought: 75 points",
+						"Grey Knights Support",
 						"Justicar"
 					],
 					"points": 225
 				},
-				{
-						"name": "Grey Knights Strike Squads",
-						"units": "Four Grey Knights Strike Squads plus transport",
-						"extraUnits": [
-							"Add four Vortimer Razorbacks or two Doomglaive Dreadnoughts: 150 points",
-							"Justicar"
-						],
-						"points": 275
-					},
+
 					{
-					"name": "Grey Knights Terminators",
+					"name": "Terminators",
 					"units": "Two Grey Knights Terminators",
 					"extraUnits": [
-							"Add two Vortimer Land Raiders: 150 points",
+							"Add one Vortimer Land Raider Redeemer: 75 points",
 							"Justicar"
 					],
 					"points": 275
 				},
 				{
-					"name": "Grey Knights Dreadknight",
-					"units": "Nemesis Dreadknight",
+					"name": "Dreadknights",
+					"units": "2 Nemesis Dreadknights",
 					"extraUnits": [
-						"Justicar"
+							"Justicar"
 					],
-					"points": 275
+					"points": 300
 				}
 			]
 		},
@@ -271,6 +272,13 @@
 			  "description": "Add one Grey Knights Justicar to the formation.",
 			  "points": [
 				"25 points"
+			  ]
+			},
+			{
+			  "name": "Grey Knights Support",
+			  "description": "Add two Vortimer Razorbacks, one Vortimer Land Raider or Vortimer Land Raider Redeemer, or one Doomglaive Dreadnought.",
+			  "points": [
+				"75 points"
 			  ]
 			},
 			{
