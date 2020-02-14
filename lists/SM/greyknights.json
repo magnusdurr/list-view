@@ -5,7 +5,7 @@
 	"release": "",
 	"strategy": "Space Marine armies have a Strategy Rating of 5.",
 	"Initiative": "All formations have an Initiative of 1+.",
-	"armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all formations except the Ordo Malleus Inquisitor Retinue and the Warhound Pack.",
+	"armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all formations except the Ordo Malleus Inquisitor Retinue.",
 	"specialRules": ["Teleport Homer", "Act of Faith", "Psybolts", "Navis Nobilite", "Space Marine Transports", "Grey Knights Transports"],
 	"usage": [
 		"The following army list allows you to field an army based on the Blood Ravens with Ordo Malleus allies"
@@ -19,6 +19,7 @@
 				"Grey Knights Justicar",
 				"Scouts",
 		        "Tacticals",
+				"Devastators",
 				"Grey Knights Strike Squad",
 				"Grey Knights Terminators",
 				"Grey Knights Interceptor Squad",
@@ -30,6 +31,7 @@
 				"Land Speeder Typhoon",
 				"Rhino",
 				"Grey Knights Rhino",
+				"Razorback",
 				"Predator Annihilator",
 		        "Predator Destructor",
 				"Hunter",
@@ -41,7 +43,6 @@
 				"Land Raider Helios",
 				"Vortimer Land Raider",
 				"Vortimer Land Raider Redeemer",
-				"Vortimer Razorback",
 				"Nemesis Dreadknight",
 				"Storm Talon",
 				"Fire Raptor",
@@ -62,17 +63,7 @@
 					"Kasrkin"
 				],
 				"unitRules": []
-			},
-		{
-		  "from": "ImperialAllies.json",
-		  "units": [
-			"Warhound"
-			  ],
-		  "unitRules": [
-			"Void Shields",
-			"Independent"
-		  ]
-	  }
+			}
 	],
 	"sections": [{
 			"name": "Blood Ravens Core Formations",
@@ -100,7 +91,8 @@
 			  "extraUnits": [
 				"Anti-Air",
 				"Supreme Commander",
-				"Dreadnoughts"
+				"Dreadnoughts",
+				"Razorbacks"
 			  ],
 			  "points": 325
 		  },
@@ -126,7 +118,8 @@
 					  "extraUnits": [
 			            "Supreme Commander",
 							"Snipers",
-							"Dreadnoughts"
+							"Dreadnoughts",
+							"Razorbacks"
 					  ],
 					  "points": 200
 					},
@@ -217,7 +210,7 @@
 			]
 		},
 		{
-			"name": "Blood Ravens Aircraft and Collegia Titanica Allies",
+			"name": "Blood Ravens Aircraft",
 			"description": "Up to a third of the points available may be spent on these formations.",
 			"formations": [
 				{
@@ -238,15 +231,7 @@
 					"extraUnits": [
 						"Add one Thunderhawk Transporter: 100 points"
 					]
-			  },
-				{
-				  "name": "Warhound Pack",
-				  "units": "Two Warhounds",
-				  "extraUnits": [
-					  "Add the 'Independent' special rule to the formation: 50 points"
-				  ],
-				  "points": 500
-				}
+			  }
 			]
 		}
 	],
@@ -276,7 +261,7 @@
 			},
 			{
 			  "name": "Grey Knights Support",
-			  "description": "Add two Vortimer Razorbacks, one Vortimer Land Raider or Vortimer Land Raider Redeemer, or one Doomglaive Dreadnought.",
+			  "description": "Add one Vortimer Land Raider or Vortimer Land Raider Redeemer, or one Doomglaive Dreadnought.",
 			  "points": [
 				"75 points"
 			  ]
@@ -309,6 +294,11 @@
 	          "points": 	["Land Raiders: 50 points",
 			  	            "Land Raider Helios: 75 points"]
 	        },
+			{
+			  "name": "Razorbacks",
+			  "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+			  "points": "25 points each"
+			},
 	        {
 	          "name": "Snipers",
 	          "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",

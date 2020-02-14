@@ -1209,8 +1209,9 @@
 			"cc": 4,
 			"ff": 4,
 			"weapons": [
-				"Power Fist",
-				"Assault Cannon"
+				"Assault Cannon",
+				"Power Fist"
+
 			],
 			"specialRules": [
 				"Walker"
@@ -1420,265 +1421,6 @@
 				"Reinforced Armour",
 				"Walker"
 			]
-		},
-
-		{
-			"name": "Leman Russ Exterminator",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 6,
-			"ff": 4,
-			"weapons": [
-				"Twin Autocannons",
-				"Heavy Flamer",
-				"Heavy Bolter|2|"
-			],
-			"specialRules": [
-				"Reinforced Armour"
-			]
-		},
-		{
-			"name": "Land Raider",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 6,
-			"ff": 4,
-			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Heavy Bolters"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
-		},
-
-		{
-			"name": "Land Raider Redeemer",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 4,
-			"weapons": [
-				"Flamestorm Cannon|2",
-				"Twin Assault Cannons"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport three infantry units without Jump Packs or Mounted; Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Deathwing Land Raider",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 6,
-			"ff": 4,
-			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Heavy Bolters"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport",
-				"Invulnerable Save"
-			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
-		},
-		{
-			"name": "Vortimer Land Raider",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 6,
-			"ff": 4,
-			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Psycannons"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Faithful",
-				"Thick Rear Armour",
-				"Transport",
-				"Invulnerable Save"
-			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
-		},
-		{
-			"name": "Vortimer Land Raider Redeemer",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 4,
-			"weapons": [
-				"Twin Psycannons",
-				"Flamestorm Incinerator|2"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport three infantry units without Jump Packs or Mounted; Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Land Raider Ares",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 3,
-			"weapons": [
-				"Demolisher",
-				"Twin Assault Cannons",
-				"Heavy Flamer|2"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Walker"
-			]
-		},
-		{
-			"name": "Land Raider Achilles",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 4,
-			"weapons": [
-				"Thunderfire Cannon",
-				"Twin Multi-Meltas|2|"
-			],
-			"specialRules": [
-				"Leader",
-				"Commander",
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Land Raider Anvilarum",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 6,
-			"ff": 4,
-			"weapons": [
-				"Storm Bolter"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Transport"
-			],
-			"notes": "May transport one Dreadnought or two infantry units without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Land Raider Crusader",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 5,
-			"weapons": [
-				"Twin Assault Cannons",
-				"Hurricane Bolters|2"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport three infantry units without Jump Packs or Mounted. Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Deathwatch Land Raider",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 5,
-			"weapons": [
-				"Twin Dragonfire Heavy Bolters",
-				"Hurricane Bolters|2"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Teleport Homer",
-				"Transport"
-			],
-			"notes": "May transport three infantry units without Jump Packs or Mounted. Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Land Raider Helios",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 5,
-			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Hyperios Launcher|0-1",
-				"Whirlwind Launcher|0-1"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "Armed with either a Hyperios or Whirlwind Launcher. May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Land Raider Prometheus",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 5,
-			"weapons": [
-				"Twin Heavy Bolters|4"
-			],
-			"specialRules": [
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may ignore the 5cm restriction when using commander. Counts as a Land Raider for the purposes of being transported."
-		},
-		{
-			"name": "Land Raider Wrath of Mjalnar",
-			"type": "AV",
-			"speed": 25,
-			"armour": 4,
-			"cc": 5,
-			"ff": 4,
-			"weapons": [
-				"Twin Lascannons|2|",
-				"Twin Helfrost Cannons"
-			],
-			"specialRules": [
-				"Commander",
-				"Pack Hunters",
-				"Leader",
-				"Reinforced Armour",
-				"Thick Rear Armour",
-				"Transport"
-			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
 			"name": "Predator Annihilator",
@@ -2028,6 +1770,264 @@
 			"weapons": [
 				"Demolisher"
 			]
+		},
+		{
+			"name": "Leman Russ Exterminator",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Twin Autocannons",
+				"Heavy Flamer",
+				"Heavy Bolter|2|"
+			],
+			"specialRules": [
+				"Reinforced Armour"
+			]
+		},
+		{
+			"name": "Land Raider",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Twin Lascannons|2",
+				"Twin Heavy Bolters"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+		},
+
+		{
+			"name": "Land Raider Redeemer",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"Flamestorm Cannon|2",
+				"Twin Assault Cannons"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport three infantry units without Jump Packs or Mounted; Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Deathwing Land Raider",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Twin Lascannons|2",
+				"Twin Heavy Bolters"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport",
+				"Invulnerable Save"
+			],
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+		},
+		{
+			"name": "Vortimer Land Raider",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Twin Lascannons|2",
+				"Twin Psycannons"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Faithful",
+				"Thick Rear Armour",
+				"Transport",
+				"Invulnerable Save"
+			],
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+		},
+		{
+			"name": "Vortimer Land Raider Redeemer",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"Twin Psycannons",
+				"Flamestorm Incinerator|2"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport three infantry units without Jump Packs or Mounted; Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Land Raider Ares",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Demolisher",
+				"Twin Assault Cannons",
+				"Heavy Flamer|2"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Walker"
+			]
+		},
+		{
+			"name": "Land Raider Achilles",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"Thunderfire Cannon",
+				"Twin Multi-Meltas|2|"
+			],
+			"specialRules": [
+				"Leader",
+				"Commander",
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Land Raider Anvilarum",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 6,
+			"ff": 4,
+			"weapons": [
+				"Storm Bolter"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Transport"
+			],
+			"notes": "May transport one Dreadnought or two infantry units without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Land Raider Crusader",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Twin Assault Cannons",
+				"Hurricane Bolters|2"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport three infantry units without Jump Packs or Mounted. Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Deathwatch Land Raider",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Twin Dragonfire Heavy Bolters",
+				"Hurricane Bolters|2"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Teleport Homer",
+				"Transport"
+			],
+			"notes": "May transport three infantry units without Jump Packs or Mounted. Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Land Raider Helios",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Twin Lascannons|2",
+				"Twin Hyperios Launcher|0-1",
+				"Whirlwind Launcher|0-1"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "Armed with either a Hyperios or Whirlwind Launcher. May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Land Raider Prometheus",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Twin Heavy Bolters|4"
+			],
+			"specialRules": [
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may ignore the 5cm restriction when using commander. Counts as a Land Raider for the purposes of being transported."
+		},
+		{
+			"name": "Land Raider Wrath of Mjalnar",
+			"type": "AV",
+			"speed": 25,
+			"armour": 4,
+			"cc": 5,
+			"ff": 4,
+			"weapons": [
+				"Twin Lascannons|2|",
+				"Twin Helfrost Cannons"
+			],
+			"specialRules": [
+				"Commander",
+				"Pack Hunters",
+				"Leader",
+				"Reinforced Armour",
+				"Thick Rear Armour",
+				"Transport"
+			],
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
 			"name": "Fellblade",
