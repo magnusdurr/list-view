@@ -5,14 +5,17 @@
   "release": "2020-02-11",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "specialRules": ["Guerilla Tactics", "Space Marine Transports","Expert Reconnaissance"],
+  "specialRules": [
+    "Guerilla Tactics",
+    "Space Marine Transports",
+    "Expert Reconnaissance"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Ravenguard Space Marine army and successor chapters."
   ],
   "theme": "",
   "design": "",
-  "changeLog": [
-  ],
+  "changeLog": [],
   "units": [
     {
       "from": "SM.json",
@@ -26,10 +29,9 @@
         "Raven Guard Scouts",
         "Sternguard Veterans",
         "Tacticals",
-        "Raven Guard Devastators",
+        "Devastators",
         "Terminators",
-        "Assault Terminators",
-        "Vanguard Assault Veterans",
+        "Vanguard Veterans",
         "Attack Bike",
         "Land Speeder",
         "Land Speeder Storm",
@@ -77,7 +79,7 @@
         },
         {
           "name": "Devastators",
-          "units": "Four Raven Guard Devastators plus transport",
+          "units": "Four Devastators plus transport",
           "extraUnits": [
             "Anti-Air",
             "Commander",
@@ -127,25 +129,22 @@
           "points": 250
         },
         {
-          "name": "Vanguard Assault Veteran",
-          "units": "Four Vanguard Assault Veterans",
+          "name": "Vanguard Veteran",
+          "units": "Four Vanguard Veterans",
           "extraUnits": [
             "Commander",
             "Land Speeders"
           ],
-          "points": 250
-      },
+          "points": 225
+        },
         {
           "name": "0-1 Terminators",
           "units": "Four Terminators",
           "extraUnits": [
-            "Commander",
-            "Assault Terminators"
-
+            "Commander"
           ],
           "points": 350
-      }
-
+        }
       ]
     },
     {
@@ -215,16 +214,11 @@
     "title": "Ravenguard Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
-        {
-          "name": "Ambush",
-          "description": "Replace 'plus transport' with all Sternguard Veterans in the formation gaining the 'Teleport' special rule",
-          "points": "25 points"
-        },
-        {
-          "name": "Assault Terminators",
-          "description": "Replace up to four Terminators with Assault Terminators",
-          "points": "Free"
-        },
+      {
+        "name": "Ambush",
+        "description": "All Sternguard Veterans in the formation gain the 'Teleport' special rule",
+        "points": "25 points"
+      },
       {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
@@ -293,20 +287,17 @@
       },
       {
         "name": "Storms",
-        "description": "Add any number of Land Speeder Storms, up to the number required to transport the formation",
-        "points": [
-          "25 points each",
-          "75 points for four"
-        ]
+        "description": "Replace the 'plus transport' with four Land Speeder Storms",
+        "points": "75 points"
       },
       {
         "name": "Tempest",
-        "description": "Replace up to two Land Speeders with an equal number of Land Speeder Tempest",
-        "points": "20 points each"
+        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Tempest",
+        "points": "15 points each"
       },
       {
         "name": "Typhoons",
-        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Typhoons",
         "points": "10 points each"
       }
     ]
