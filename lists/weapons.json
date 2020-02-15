@@ -651,7 +651,7 @@
       "name": "AC Quad Ion Turrets",
         "modes": [
           {
-            "firepower": "AP4+/AT5+/AA5+",
+            "firepower": "AP4+/AT5+/AA4+",
             "range": 30,
             "specialRules": [
               "FwA"
@@ -674,7 +674,7 @@
       "name": "AC Twin Reaper Autocannons",
         "modes": [
           {
-            "firepower": "AP3+/AT5+/AA5+",
+            "firepower": "AP3+/AT5+/AA6+",
             "range": 30,
             "specialRules": [
           ]
@@ -10291,6 +10291,15 @@
       "modes": [
         {
           "firepower": "AP4+/AA5+",
+          "range": 15
+        }
+      ]
+    },
+    {
+      "name": "AC Quad Heavy Bolters",
+      "modes": [
+        {
+          "firepower": "AP3+/AA5+",
           "range": 15
         }
       ]

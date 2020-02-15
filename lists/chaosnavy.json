@@ -66,9 +66,9 @@
       "armour": 5,
       "weapons": [
         "AC Heavy Incendiary Bombs||FxF",
-        "AC Twin Reaper Autocannons|2|FxF",
-        "AC Combi-Bolters||Left",
-        "AC Combi-Bolters||Right"
+        "AC Reaper Autocannon|2|FxF",
+        "AC Reaper Autocannon||Left",
+        "AC Reaper Autocannon||Right"
       ],
       "specialRules": [
           "Damage Capacity 4",
@@ -83,9 +83,9 @@
       "armour": 5,
       "weapons": [
         "AC Blight Bombs||FxF",
-        "AC Twin Reaper Autocannons|2|FxF",
-        "AC Combi-Bolters||Left",
-        "AC Combi-Bolters||Right"
+        "AC Reaper Autocannon|2|FxF",
+        "AC Reaper Autocannon||Left",
+        "AC Reaper Autocannon||Right"
       ],
       "specialRules": [
           "Damage Capacity 4",
@@ -116,8 +116,8 @@
         "ff": 5,
         "weapons": [
             "AC Twin Lascannons|2|FxF",
-            "AC Twin Heavy Bolters||",
-            "Vengeance Launcher||FxF"
+            "AC Twin Heavy Bolters||FxF",
+            "Vengeance Launcher||"
         ],
         "specialRules": [
             "Damage Capacity 2",
@@ -135,9 +135,10 @@
         "speed": "Bomber",
         "armour": 5,
         "weapons": [
-            "AC Twin Autocannons|2|FxF",
+            "AC Twin Lascannons|2|FxF",
             "AC Twin Avenger Bolt Cannons||FxF",
-            "AC Twin Heavy Bolters||"
+            "AC Quad Heavy Bolters||Left",
+            "AC Quad Heavy Bolters||Right"
 
         ],
         "specialRules": [
