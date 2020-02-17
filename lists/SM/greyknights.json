@@ -1,11 +1,11 @@
 {
 	"fraction": "Space Marines / Imperial Inquisition",
 	"army": "Blood Ravens",
-	"version": "",
-	"release": "",
+	"version": "0.5.0",
+	"release": "2020-02-17",
 	"strategy": "Space Marine armies have a Strategy Rating of 5.",
 	"Initiative": "All formations have an Initiative of 1+.",
-	"armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all formations except the Ordo Malleus Inquisitor Retinue.",
+	"armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all formations.",
 	"specialRules": ["Teleport Homer", "Act of Faith", "Psybolts", "Navis Nobilite", "Space Marine Transports", "Grey Knights Transports"],
 	"usage": [
 		"The following army list allows you to field an army based on the Blood Ravens with Ordo Malleus allies"
@@ -14,12 +14,13 @@
 		{
 			"from": "SM.json",
 			"units": [
-				"Blood Ravens Chapter Master",
+				"Blood Ravens Supreme Commander",
 				"Blood Ravens Librarian",
 				"Grey Knights Justicar",
 				"Scouts",
 		        "Tacticals",
 				"Devastators",
+				"Assaults",
 				"Grey Knights Strike Squad",
 				"Grey Knights Terminators",
 				"Grey Knights Interceptor Squad",
@@ -54,16 +55,7 @@
 			"unitRules": [
 				"They Shall Know No Fear"
 			]
-		},
-		{
-				"from": "IQ.json",
-				"units": [
-					"Ordo Malleus Inquisitor Lord",
-					"Ordo Malleus Inquisitor",
-					"Kasrkin"
-				],
-				"unitRules": []
-			}
+		}
 	],
 	"sections": [{
 			"name": "Blood Ravens Core Formations",
@@ -77,14 +69,6 @@
 					],
 					"points": 150
 				},
-				{
-						"name": "0-1 Ordo Malleus Inquisitor Retinue",
-						"units": "One Ordo Malleus Inquisitor, seven Kasrkin plus transport",
-						"extraUnits": [
-							"Supreme Commander"
-						],
-						"points": 300
-					},
 			{
 			  "name": "Tacticals",
 			  "units": "One Blood Ravens Librarian, six Tacticals plus transport",
@@ -105,7 +89,24 @@
 			  "Land Raiders"
 			],
 			"points": 300
-			  }
+		},
+		{
+		  "name": "Land Raiders",
+		  "units": "One Blood Ravens Librarian, three Land Raiders",
+		  "extraUnits": [
+			"Add one Land Raider: 75 points",
+			"Replace up to four Land Raiders with Land Raider Helios: 25 points each"
+		  ],
+		  "points": 300
+	  },
+	  {
+		"name": "Predators",
+		"units": "One Blood Ravens Librarian, any four of the following units: Predator Annihilators, Predator Destructors",
+		"extraUnits": [
+		  "Anti-Air"
+		],
+		"points": 300
+	}
 			]
 		},
 		{
@@ -124,6 +125,14 @@
 					  "points": 200
 					},
 					{
+					"name": "Assaults",
+					"units": "One Blood Ravens Librarian, six Assaults",
+					"extraUnits": [
+						"Supreme Commander"
+					],
+					"points": 250
+				},
+					{
 			          "name": "Bikes",
 			          "units": "One Blood Ravens Librarian, any five of the following units: Assault Bikes, Attack Bike",
 			          "extraUnits": [
@@ -139,24 +148,8 @@
 					  	"Typhoons"
 					],
 					"points": 250
-				},
-					{
-			          "name": "Predators",
-			          "units": "Any four of the following units: Predator Annihilators, Predator Destructors",
-			          "extraUnits": [
-			            "Anti-Air"
-			          ],
-			          "points": 250
-				  },
-				  {
-		            "name": "Land Raiders",
-		            "units": "Three Land Raiders",
-		            "extraUnits": [
-		              "Add one Land Raider: 75 points",
-					  "Replace up to four Land Raiders with Land Raider Helios: 25 points each"
-		            ],
-		            "points": 250
-		          }
+				}
+
 				]
 			},
 		{
@@ -240,17 +233,11 @@
 		"description": "Each upgrade may be taken once per formation",
 		"items": [
 			{
-				"name": "(0-1 per army) Supreme Commander",
-				"description": "Choose one of the following",
-				"options": [{
-						"description": "Replace a Blood Ravens Librarian with a Blood Ravens Chapter Master",
-						"points": "50 points"
-					},
-					{
-						"description": "Replace an Ordo Malleus Inquisitor with an Ordo Malleus Inquisitor Lord",
-						"points": "50 points"
-					}
-				]
+			  "name": "(0-1 per army) Supreme Commander",
+			  "description": "Replace a Blood Ravens Librarian with a Blood Ravens Supreme Commander",
+			  "points": [
+				"50 points"
+			  ]
 			},
 			{
 			  "name": "Justicar",

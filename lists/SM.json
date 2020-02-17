@@ -62,12 +62,10 @@
 			"name": "Grey Knights Captain",
 			"type": "CH",
 			"weapons": [
-				"Power Weapon"
 			],
 			"specialRules": [
-				"Commander",
-				"Leader",
-				"Teleport Homer"
+				"Supreme Commander",
+				"Leader"
 			]
 		},
 		{
@@ -77,7 +75,7 @@
 				"n/a"
 			],
 			"specialRules": [
-				"Teleport Homer",
+				"Commander",
 				"Leader"
 			]
 		},
@@ -166,7 +164,7 @@
 			]
 		},
 		{
-			"name": "Blood Ravens Chapter Master",
+			"name": "Blood Ravens Supreme Commander",
 			"type": "CH",
 			"weapons": [
 				"Smite",
@@ -812,7 +810,7 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
-			"cc": 3,
+			"cc": 2,
 			"ff": 3,
 			"weapons": [
 				"Psycannon",
@@ -845,7 +843,7 @@
 			"type": "INF",
 			"speed": 30,
 			"armour": 4,
-			"cc": 3,
+			"cc": 2,
 			"ff": 3,
 			"weapons": [
 				"Holocaust",
@@ -890,6 +888,60 @@
 			]
 		},
 		{
+			"name": "Ravenwing Assault Bikes",
+			"type": "INF",
+			"speed": 35,
+			"armour": 4,
+			"cc": 3,
+			"ff": 4,
+			"weapons": [
+				"Twin Bolters"
+			],
+			"specialRules": [
+				"Mounted",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Ravenwing Black Knights",
+			"type": "INF",
+			"speed": 35,
+			"armour": 4,
+			"cc": 3,
+			"ff": 4,
+			"weapons": [
+				"Plasma Talons",
+				"Corvus Hammers"
+			],
+			"specialRules": [
+				"Mounted",
+				"Scout",
+				"Commander",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Nemesis Dreadknight",
+			"type": "LV",
+			"speed": 15,
+			"armour": 4,
+			"cc": 3,
+			"ff": 3,
+			"weapons": [
+				"Heavy Psycannon",
+				"Nemesis Daemon Hammer"
+			],
+			"specialRules": [
+				"Walker",
+				"Reinforced Armour",
+				"Infiltrators",
+				"Teleport",
+				"Faithful",
+				"Invulnerable Save"
+
+			]
+		},
+		{
 			"name": "Attack Bike",
 			"type": "LV",
 			"speed": 35,
@@ -927,39 +979,7 @@
 			],
 			"specialRules": []
 		},
-		{
-			"name": "Ravenwing Assault Bikes",
-			"type": "INF",
-			"speed": 35,
-			"armour": 4,
-			"cc": 3,
-			"ff": 4,
-			"weapons": [
-				"Twin Bolters"
-			],
-			"specialRules": [
-				"Mounted",
-				"Invulnerable Save"
-			]
-		},
-		{
-			"name": "Ravenwing Black Knights",
-			"type": "INF",
-			"speed": 35,
-			"armour": 4,
-			"cc": 3,
-			"ff": 4,
-			"weapons": [
-				"Plasma Talons",
-				"Corvus Hammers"
-			],
-			"specialRules": [
-				"Mounted",
-				"Scout",
-				"Commander",
-				"Invulnerable Save"
-			]
-		},
+
 		{
 			"name": "Ravenwing Attack Bike",
 			"type": "LV",
@@ -1154,27 +1174,7 @@
 				"Walker"
 			]
 		},
-		{
-			"name": "Nemesis Dreadknight",
-			"type": "LV",
-			"speed": 15,
-			"armour": 4,
-			"cc": 3,
-			"ff": 3,
-			"weapons": [
-				"Heavy Psycannon",
-				"Nemesis Daemon Hammer"
-			],
-			"specialRules": [
-				"Walker",
-				"Reinforced Armour",
-				"Infiltrators",
-				"Teleport",
-				"Faithful",
-				"Invulnerable Save"
 
-			]
-		},
 		{
 			"name": "Dreadnought",
 			"type": "AV",
@@ -2511,7 +2511,7 @@
 				"Planetfall",
 				"Transport"
 			],
-			"notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Blood Claw Assaults, Wolf Guard Terminators, Grey Knights Strike Squad, Kasrkin, Ordo Malleus Inquisitor. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
+			"notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Blood Claw Assaults, Wolf Guard Terminators, Grey Knights Strike Squad, Grey Knights Purgation Squad. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
 		}
 	]
 }]
