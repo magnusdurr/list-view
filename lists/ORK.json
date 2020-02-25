@@ -668,6 +668,7 @@
 
       ]
     },
+
     {
       "name": "Dakkajet",
       "type": "AC",
@@ -681,6 +682,36 @@
       ]
     },
     {
+      "name": "Blitza-Bommer",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 5,
+
+      "weapons": [
+        "AC Flakka",
+        "AC Twin Supa Shoota||FxF",
+        "AC Boom Bombs||FxF"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Wazbom Blastajet",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 5,
+
+      "weapons": [
+        "AC Flakka",
+        "AC Twin Kustom Mega-Cannons||FxF"
+      ],
+      "specialRules": [
+          "Power Fields 1D3",
+          "Reinforced Armour"
+      ]
+    },
+
+    {
       "name": "Bommer",
       "type": "AC/WE",
       "speed": "Bomber",
@@ -691,8 +722,9 @@
         "AC Blasta Bombs||FxF"
       ],
       "specialRules": [
-          "Reinforced Armour",
-          "Damage Capacity 2"
+          "Damage Capacity 2",
+          "Reinforced Armour"
+
       ],
             "crit": "The Bommer is destroyed"
     },

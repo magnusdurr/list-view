@@ -53,8 +53,8 @@
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Lightning Strike Fighter",
-        "Marauder Bomber",
+        "Lightning Interceptor",
+        "Marauder Destroyer",
         "Lunar Class Cruiser"
       ],
       "unitRules": [
@@ -181,13 +181,13 @@
       "formations": [
         {
           "name": "Lightning Squadron",
-          "units": "Two Lightning Strike Fighters",
+          "units": "Two Lightning Interceptors",
           "points": 150
         },
         {
-          "name": "Marauder Squadron",
-          "units": "Two Marauder Bombers",
-          "points": 225
+          "name": "Marauder Destroyer",
+          "units": "One Marauder Destroyer",
+          "points": 175
         },
         {
           "name": "0–1 Orbital Support",

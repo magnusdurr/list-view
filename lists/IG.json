@@ -101,10 +101,11 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
-        "Autocannon"
+        "Lasguns",
+        "Power Weapon"
       ],
       "specialRules": [
+        "Grav-Chutes",
         "Supreme Commander"
       ]
     },
@@ -140,13 +141,14 @@
       "name": "Elysian Commander",
       "type": "INF",
       "speed": 15,
-      "armour": 6,
+      "armour": 5,
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Autocannon"
+        "Lasguns"
       ],
       "specialRules": [
+        "Grav-Chutes",
         "Commander"
       ]
     },
@@ -380,12 +382,13 @@
       "type": "INF",
       "speed": 15,
       "armour": 5,
-      "cc": 5,
+      "cc": 6,
       "ff": 5,
       "weapons": [
         "Lasguns"
       ],
       "specialRules": [
+          "Grav-Chutes"
       ]
     },
     {
@@ -437,6 +440,20 @@
         "Flakk Missile Launcher|2|"
       ],
       "specialRules": [
+      ]
+    },
+    {
+      "name": "Elysian Flakk Team",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Flakk Missile Launcher|2|"
+      ],
+      "specialRules": [
+          "Grav-Chutes"
       ]
     },
     {
@@ -504,16 +521,17 @@
       ]
     },
     {
-      "name": "Catachan Snipers",
+      "name": "Elysian Snipers",
       "type": "INF",
       "speed": 15,
-
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
         "Sniper Rifles"
       ],
       "specialRules": [
+        "Grav-Chutes",
         "Scout"
       ]
     },
@@ -622,6 +640,21 @@
       ]
     },
     {
+      "name": "Elysian Storm Troopers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Plasma Guns"
+      ],
+      "specialRules": [
+        "Grav-Chutes",
+        "Scout"
+      ]
+    },
+    {
       "name": "Fire Support Squad",
       "type": "INF",
       "speed": 15,
@@ -635,16 +668,17 @@
       ]
     },
     {
-      "name": "Trench Support Squad",
+      "name": "Elysian Fire Support Squad",
       "type": "INF",
       "speed": 15,
+      "armour": 5,
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Heavy Flamer|2|"
+        "Heavy Bolter|2|"
       ],
       "specialRules": [
-
+          "Grav-Chutes"
       ]
     },
     {
@@ -709,7 +743,6 @@
         "Autocannon"
       ],
       "specialRules": [
-        "Scout",
         "Walker"
       ]
     },
@@ -729,82 +762,72 @@
       ]
     },
     {
+      "name": "Drop Sentinel",
+      "type": "LV",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multi-Melta"
+      ],
+      "specialRules": [
+        "Grav-Chutes",
+        "Walker"
+      ]
+    },
+    {
       "name": "Support Sentinel",
       "type": "LV",
       "speed": 15,
-      "armour": 5,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Heavy Bolter",
-        "and one of the following",
-        "Hunter-killer missile|0-1",
-        "Rocket Pod|0-1",
-        "Multi-Melta|0-1"
-      ],
-      "specialRules": [
-        "Scout",
-        "Walker"
-      ]
-    },
-    {
-      "name": "Tauros Transports",
-      "type": "LV",
-      "speed": 35,
-      "armour": 5,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Twin Heavy Flamers"
-      ],
-      "specialRules": [
-        "Scout",
-        "Walker",
-        "Transport: May Transport 1 Infantry unit."
-      ]
-    },
-    {
-      "name": "Tauros Venators",
-      "type": "LV",
-      "speed": 35,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Twin Linked Multilaser"
-      ],
-      "specialRules": [
-        "Walker",
-        "Transport: May Transport 1 Infantry unit."
-      ]
-    },
-    {
-      "name": "Heavy Tauros Venators",
-      "type": "LV",
-      "speed": 35,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Twin Lascannons"
-      ],
-      "specialRules": [
-        "Walker"
-      ]
-    },
-    {
-      "name": "Cyclops Demolition Vehicles",
-      "type": "AV",
-      "speed": 20,
       "armour": 6,
-      "cc": 4,
+      "cc": 6,
+      "ff": 5,
       "weapons": [
-        "Cyclops Demolition Charge"
+        "Multi-Rocket Pod"
       ],
       "specialRules": [
-        "Walker",
-        "Cyclops Demolition Vehicle"
+        "Walker"
       ]
+    },
+    {
+      "name": "Tauros",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Tauros Grenade Launcher"
+      ],
+      "specialRules": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Tauros Venator",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Autocannons"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Tauros Flak",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Heavy Stubbers on AA mount"
+      ],
+      "specialRules": [
+    ]
     },
     {
       "name": "Siegfried Light Tank",
@@ -1333,7 +1356,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry two infantry units without Jump pack or Mounted."
+    "notes": "May transport two infantry units without Jump pack or Mounted. May in addition carry one Drop Sentinel."
     },
     {
       "name": "Sky Talon",
@@ -1341,15 +1364,15 @@
       "speed": 35,
       "armour": 5,
       "cc": 6,
-      "ff": 5,
+      "ff": 6,
       "weapons": [
-        "Multilaser|2"
+        "Heavy Bolter"
       ],
       "specialRules": [
         "Skimmer",
-        "Self Planetfall",
-        "Transport: May Transport up to two light vehicles and and infantry transported in them."
-      ]
+        "Transport"
+      ],
+      "notes": "May transport up to two Tauros or Sentinels, or one Tauros Venator or Tauros Transporter."
     },
     {
       "name": "Vulture",

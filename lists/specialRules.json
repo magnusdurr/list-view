@@ -76,7 +76,7 @@
       {
         "title": "Shield Disruptor",
         "description": [
-          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shieldsand Ion Shields."
+          "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields."
         ]
     },
     {
@@ -151,11 +151,12 @@
             ]
     },
     {
-      "title": "Tank Riders",
+      "title": "Grav-Chutes",
       "description": [
-        "Units with the Tank Riders ability may ride into battle on the back of any Leman Russ or Super-Heavy tank in their formation. Leman Russ units may carry one unit of Tank Riders, while Super-Heavy Tanks may carry two. Units of Tank Riders are allowed to provide firefight in engagements even while being transported. Units being transported in this way are destroyed with no save allowed if the unit transporting them take a hit of any kind."
+        "Units with the 'Grav-Chutes' special rule may disembark up to 10cm from Skimmer transport vehicles instead of the normal 5cm."
             ]
     },
+
     {
       "title": "Ethereal",
       "description": [
@@ -172,27 +173,6 @@
       "title": "Catachan Commanders",
       "description": [
         "When the Supreme Commander re-roll is used on any formation containing a Catachan Supreme Commander or Catachan Commander, the formation counts as having 1+ Initiative Rating when re-rolling the Action Test"
-      ]
-    },
-
-    {
-      "title": "Cyclops Demolition Vehicles",
-      "description": [
-        "When a formation of Cyclops Demolition Vehicles engages an a formation, they are immediately removed from play after the engagement has been resolved.",
-        "Additionally Cyclops Demolition Vehicle Formations cannot be broken."
-        ]
-    },
-
-    {
-      "title": "Grav Chutes",
-      "description": [
-        "A formation completely made up of units with Grav Chutes may be set up and enter play via Self Planetfall."
-        ]
-    },
-    {
-      "title": "Elysian Hit and Run",
-      "description": [
-        "Elysian formations that select an advance or double action may choose to shoot either before or after each move, but may still only shoot once. If the formation chooses to double the -1 to hit penalty applies even if the shot is taken before moving. Elysian formations that win an assault may consolidate up to their speed value rather than the normal 5cms."
       ]
     },
 
@@ -218,15 +198,21 @@
         ]
     },
     {
-      "title": "Siegemasters",
+      "title": "Vertical Envelopment",
       "description": [
-        "The Barans are trench warfare specialists, adept at both defending and clearing choke points and key objectives. Up to four formations that Garrison may start in Overwatch instead of the usual two."
+        "Up to three formations that Garrison may start on Overwatch instead of the usual two. In addition, one aircraft formation may start the game on CAP. The aircraft formation will follow all the rules for CAP, but is setup during the pre-game garrisoning phase."
         ]
     },
     {
-      "title": "Defensive Doctrine",
+      "title": "Sky Talons",
       "description": [
-        "The Imperial Fists have adopted a defensive style of warfare, prioritizing the active defense of key objectives. Imperial Fists INF and AV units may re-roll failed dangerous terrain tests when making a move through Minefields on the friendly part of the table. In addition, up to three formations that Garrison may start in Overwatch instead of the usual two."
+        "All Elysian formations that lack units with the 'Skimmer' special rule are considered to have been transported by Sky Talons. These formations may always start the battle as garrisons, and are not required to have one unit within 15cm of an objective when garrisoning."
+        ]
+    },
+    {
+      "title": "Siege Specialists",
+      "description": [
+        "INF and AV units may re-roll failed dangerous terrain tests when making a move through Minefields or Razorwire on the friendly part of the table. In addition, up to three formations that Garrison may start on Overwatch instead of the usual two."
         ]
     },
     {
@@ -674,7 +660,7 @@
      {
        "title": "Summoning",
        "description": [
-         "Any formation that either has a unit with Daemonic Pact or a Daemonic Pact formation upgrade may summon Daemons. Each Daemonic Pact in the army automatically provides one point to the Lesser Daemon Pool. (The player may also purchase additional Lesser Daemon Pool points and/or Greater Daemon Pool points).",
+         "Any formation that either has a unit with Daemonic Pact or a Daemonic Pact formation upgrade may summon Daemons. Each Daemonic Pact in the army automatically provides one point to the Lesser Daemon Pool at the start of the battle (the player may also purchase additional Lesser Daemon Pool points and/or Greater Daemon Pool points).",
          "Daemon Pools are not faction specific. The size of the Daemon Pools must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As daemons are summoned the pool must be changed to reflect its current size.",
          "To summon daemons the formation declares its intention to summon before any action roll is made (but after the choice of action. If the formation that wishes to Summon is being transported inside another formation (e.g. a Chaos Thunderhawk) it cannot choose to Summon when the Chaos Thunderhawk prepares to activate). The player then rolls 2D3 to generate the number of Summoning Points available for this formation. The formation may then summon daemons up to the number of Summoning Points generated, with any points not used lost, up to the number of Lesser or Greater Daemon Pool points left.",
          "Summoned units must be setup with their base completely within 5cm of any non-summoned unit in the summoning formation (i.e. You cannot place a chain of summoned units). If the summoning formation has the Transport ability, newly summoned units can be set up inside if there is space left. They cannot be placed in enemy zones of control or impassable terrain. Summoned units become part of the summoning formation for all rules purposes as long as they remain on the battlefield.",
@@ -798,7 +784,7 @@
      {
        "title": "TTL Summoning Rules",
        "description": [
-           "All TTL formations (except the Hell-Forge Maniple and the Ordinatus Hereticus formations) may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so (brackets indicating the Summoning Points cost):",
+           "All TTL formations with Daemonic Pact may summon Lesser Daemons from the power they are aligned with (brackets indicating the Summoning Points cost):",
            "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
            "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
            "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
@@ -845,7 +831,6 @@
          "In the Strategy Phase of each turn if the Chaos player rolls a 6, they are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled 1D3 summoning points is lost from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect."
        ]
      },
-
      {
        "title": "The Architect of Fate",
        "description": [
@@ -1038,8 +1023,8 @@
        {
        "title": "Sabotage",
        "description": [
-         "Before rolling for the first turn and before teleports the Alpha Legion player may select one enemy formation per formation of Headhunters (both formations must have been deployed on the battlefield) and roll a D6.",
-         "On 2-5, the enemy formation begins the game with a Blast Marker. On a roll of 6, it begins with d3 Blast Markers. On a roll of 1, the Headhunter formation recieves a Blast Marker. No formation may be subject to Sabotage more than once, even if the first roll is a 1."
+         "Before rolling for the first turn and before teleports the player may select one enemy formation per formation of containing at least one unit with the 'Sabotage' special rule (both formations must have been deployed on the battlefield) and roll a D6.",
+         "On 2-5, the enemy formation begins the game with a Blast Marker. On a roll of 6, it begins with d3 Blast Markers. On a roll of 1, the formation with 'Sabotage' recieves a Blast Marker. No formation may be subject to Sabotage more than once, even if the first roll is a 1."
      ]
       },
       {

@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Catachan Jungle Fighters",
-  "version": "0.7.1",
-  "release": "2019-10-16",
+  "version": "0.7.2",
+  "release": "2020-02-25",
   "strategy": "Catachan Jungle Fighter armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -169,14 +169,14 @@
           "points": 150
         },
         {
-          "name": "Marauder Bomber Squadron",
+          "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
           "points": 225
       },
       {
         "name": "0–1 Orbital Support",
         "units": "One Lunar Class Cruiser",
-        "points": 125,
+        "points": 150,
         "extraUnits": [
             "Replace the Cruiser with an Emperor Class Battleship: 50 points"
         ]

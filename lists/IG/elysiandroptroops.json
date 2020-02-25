@@ -1,12 +1,12 @@
 {
   "fraction": "Astra Militarum",
   "army": "Elysian Drop Troops",
-  "version": "1.2",
-  "release": "2019-03-11",
-  "strategy": "Elysian Drop Troop armies have a Strategy Rating of 2.",
+  "version": "0.5.0",
+  "release": "2020-02-25",
+  "strategy": "Elysian Drop Troops armies have a Strategy Rating of 3.",
   "Initiative": "All formations have a Initiative of 2+.",
 
-  "specialRules": ["Courage, Discipline and Loyalty", "Cyclops Demolition Vehicles", "Grav Chutes", "Elysian Hit and Run"],
+  "specialRules": ["Courage, Discipline and Loyalty", "Grav-Chutes", "Vertical Envelopment", "Sky Talons", "Sabotage"],
   "usage": [
     "The following army list allows you to field an army based on the Elysian Drop Troop Regiment"
   ],
@@ -16,20 +16,20 @@
       "units": [
         "Elysian Supreme Commander",
         "Elysian Commander",
-        "Tempestor",
+        "Commissar",
         "Elysian Drop Troops",
-        "Tempest Scion",
-        "Sentinel",
+        "Elysian Storm Troopers",
+        "Elysian Flakk Team",
+        "Drop Sentinel",
         "Support Sentinel",
-        "Tauros Transports",
-        "Tauros Venators",
-        "Heavy Tauros Venators",
-        "Cyclops Demolition Vehicles",
-        "Sky Talon",
+        "Sentinel",
+        "Tauros",
+        "Tauros Venator",
+        "Tauros Flak",
+        "Heavy Mortar",
         "Valkyrie",
-        "Vendettas",
+        "Vendetta",
         "Vulture"
-
       ],
         "unitRules": [
 
@@ -40,9 +40,11 @@
       "from": "ImperialNavy.json",
       "units": [
         "Thunderbolt Fighter",
+        "Lightning Interceptor",
         "Marauder Bomber",
-        "Marauder Colossus",
-        "Lunar Class Cruiser"
+        "Marauder Destroyer",
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
       ],
         "unitRules": [
       ]
@@ -54,88 +56,92 @@
       "formations": [
         {
           "name": "0-1 Regimental HQ",
-          "units": "One Elysian Supreme Commander unit with a Commissar and seven Elysian Drop Troop units.",
-          "upgrades": [
-            "Valkyries",
-            "Tauros Venators"
+          "units": "One Elysian Supreme Commander with a Commissar, five Elysian Storm Troopers, three Valkyries.",
+          "extraUnits": [
+              "Drop Sentinels",
+              "Vendettas",
+                "Cyclops Demolition Vehicles"
           ],
-          "points": 250
+          "points": 350
         },
         {
           "name": "Drop Troop Company",
-          "units": "One Elysian Commander unit with a Commissar and seven Elysian Drop Troop units.",
-          "upgrades": [
-            "Valkyries",
-            "Tauros Venators"
+          "units": "One Elysian Commander with a Commissar, seven Elysian Drop Troops, four Valkyries.",
+          "extraUnits": [
+              "Drop Sentinels",
+              "Vendettas"
           ],
-          "points": 200
-        }
+          "points": 300
+      }
+
       ]
     },
     {
       "name": "Elysian Support Formations",
-      "description": "Up to a Three Support Formations for each Core Formation.",
+      "description": "Up to two Support Formations for each Core Company.",
       "formations": [
+          {
+            "name": "Elysian Storm Trooper Company",
+            "units": "One Elysian Commander with a Commissar, five Elysian Storm Troopers, three Valkyries.",
+            "extraUnits": [
+                "Drop Sentinels",
+              "Vendettas",
+                "Cyclops Demolition Vehicles"
+            ],
+            "points": 300
+        },
         {
-          "name": "Elysian Tempest Scions",
-          "units": "One Tempestor with a Commissar and seven Tempest Scions",
-          "upgrades": [
-            "Valkyries",
-            "Tauros Venators",
-            "Tauros Transports",
-            "Grav Chutes",
-            "Skytalons"
+          "name": "Tauros Venator Squadron",
+          "units": "Six Tauros Venators",
+          "extraUnits": [
+              "Tauros Flak"
           ],
           "points": 225
         },
         {
-          "name": "Heavy Tauros Company",
-          "units": "One Commissar, eight Heavy Tauros Venators",
-          "upgrades": [
-              "Skytalons"
+          "name": "Tauros Recon Squadron",
+          "units": "Four Tauros",
+          "extraUnits": [
+              "Tauros Flak"
           ],
-          "points": 225
+          "points": 150
         },
         {
-          "name": "0-2 Cyclops Demolition Squadron",
-          "units": "Six Cyclops Demolition Vehicles",
-          "upgrades": [
-
-          ],
-          "points": 200
+          "name": "Mortar Battery",
+          "units": "Three Heavy Mortars",
+          "extraUnits": [
+              ],
+          "points": 175
         },
         {
           "name": "Sentinels",
-          "units": "4 Sentinels",
-          "upgrades": [
-
-          ],
-          "points": 100
-        },
-        {
-          "name": "Support Sentinels",
-          "units": "4 Support Sentinels",
-          "upgrades": [
-            "Grav Chutes",
-            "Skytalons"
+          "units": "Four Sentinels",
+          "extraUnits": [
+            "Replace four Sentinels with four Support Sentinels: 50 points"
           ],
           "points": 125
         },
         {
           "name": "Vulture Squadron",
-          "units": "3 Vultures",
+          "units": "Three Vultures",
+          "extraUnits": [
+            "Add one Vulture: 75 points",
+            "Vendettas"
+          ],
           "points": 225
         },
         {
-          "name": "Vendetta Squadron",
-          "units": "3 Vendettas",
-          "points": 225
+          "name": "Elysian Flakk Platoon",
+          "units": "Two Elysian Flakk Teams, two Vendettas",
+          "extraUnits": [
+          ],
+          "points": 200
         }
       ]
     },
     {
-      "name": "Elysian Aircraft, Spacecraft",
-      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
+      "name": "Imperial Navy Allies",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
           "name": "Thunderbolt Squadron",
@@ -143,74 +149,71 @@
           "points": 150
         },
         {
+          "name": "Lightning Squadron",
+          "units": "Two Lightning Interceptors",
+          "points": 150
+        },
+        {
+          "name": "Marauder Destroyer",
+          "units": "One Marauder Destroyer",
+          "points": 175
+        },
+        {
           "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
           "points": 225
         },
         {
-          "name": "Marauder Colossus Squadron",
-          "units": "Two Marauder Colossuss",
-          "points": 275
-        },
-        {
           "name": "0–1 Orbital Support",
           "units": "One Lunar Class Cruiser",
           "points": 150,
-          "upgrades": [
+          "extraUnits": [
+              "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
           ]
         }
       ]
     }
   ],
       "upgrades": {
-        "title": "Elysian Company Upgrades",
-        "description": "Each upgrade may be taken once per formation",
+        "title": "Elysian Upgrades",
+        "description": "Each upgrade may be taken once per formation.",
         "items": [
           {
-            "name": "Skytalons",
+            "name": "Drop Sentinels",
             "options": [
               {
-                "description": "Add enough Skytalons to trasport the entire formation. Formations must entire via self planetfall if this upgrade is taken.",
+                "description": "Add up to one Drop Sentinel for each Valkyrie in the formation",
                 "points": "25 points each"
               }
             ]
           },
           {
-            "name": "Valkyries",
+            "name": "Vendettas",
             "options": [
               {
-                "description": "Add 4 Valkyries",
-                "points": "100 points"
-              }
-            ]
-          },
-          {
-            "name": "Tauros Venators",
-            "options": [
-              {
-                "description": "Add 8 Tauros Venators",
-                "points": "100 points"
-              }
-            ]
-          },
-          {
-            "name": "Grav Chutes",
-            "options": [
-              {
-                "description": "Formation gains Self Planetfall",
-                "points": "25 points"
-              }
-            ]
-          },
-          {
-            "name": "Tauros Transports",
-            "options": [
-              {
-                "description": "8 Tauros Transports",
+                "description": "Add two Vendettas",
                 "points": "75 points"
               }
             ]
+        },
+        {
+          "name": "Cyclops Demolition Vehicles",
+          "options": [
+            {
+              "description": "The formation gains the 'Sabotage' special rule",
+              "points": "50 points"
+            }
+          ]
+      },
+      {
+        "name": "Tauros Flak",
+        "options": [
+          {
+            "description": "Add up to two Tauros Flak",
+            "points": "25 points each"
           }
+        ]
+    }
       ]
     }
   }

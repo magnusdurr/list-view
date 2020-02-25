@@ -396,6 +396,17 @@
       ]
     },
     {
+      "name": "AC Boom Bombs",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 15,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Blight Bombs",
         "modes": [
           {
@@ -423,12 +434,12 @@
       "name": "AC Colossus Bomb",
       "modes": [
         {
-          "firepower": "MW3+",
+          "firepower": "3BP",
           "range": 15,
           "specialRules": [
-            "TK(D3+1)",
-            "SS",
-            "FxF"
+            "MW",
+            "IC",
+            "Shield Disruptor"
           ]
         }
       ]
@@ -469,7 +480,17 @@
           }
       ]
     },
-
+    {
+      "name": "AC Flakka",
+      "modes": [
+        {
+          "firepower": "AA6+",
+          "range": 15,
+          "specialRules": [
+        ]
+        }
+    ]
+          },
           {
             "name": "AC Flakka-Dakka",
             "modes": [
@@ -850,6 +871,18 @@
           }
       ]
     },
+    {
+      "name": "AC Twin Assault Cannon Turret",
+        "modes": [
+          {
+            "firepower": "AA4+",
+            "range": 15,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
 
     {
           "name": "AC Heavy D-Scythe",
@@ -1102,6 +1135,15 @@
       "modes": [
         {
           "firepower": "AT4+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "AC Missile Array",
+      "modes": [
+        {
+          "firepower": "4x AT5+",
           "range": 30
         }
       ]
@@ -1736,6 +1778,17 @@
     },
     {
       "name": "Beam Blaster",
+      "modes": [
+        {
+          "firepower": "5x AP5+/AT3+",
+          "range": 60,
+          "specialRules": [
+                    ]
+        }
+      ]
+    },
+    {
+      "name": "2x Beam Blaster",
       "modes": [
         {
           "firepower": "5x AP5+/AT3+",
@@ -2737,6 +2790,17 @@
       "name": "Cyclone Cannon",
       "modes": [
         {
+          "firepower": "6x AP4+/AT4+",
+            "range": 90,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2x Cyclone Cannon",
+      "modes": [
+        {
           "firepower": "5x AP4+/AT4+",
             "range": 75,
           "specialRules": [
@@ -3367,6 +3431,19 @@
     },
     {
       "name": "Doom Burner",
+        "modes": [
+          {
+            "firepower": "MW2+",
+            "range": 45,
+            "specialRules": [
+                "TK(D3)",
+                "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "2x Doom Burner",
         "modes": [
           {
             "firepower": "MW2+",
@@ -4976,6 +5053,15 @@
       ]
     },
     {
+      "name": "Tauros Grenade Launcher",
+      "modes": [
+        {
+          "firepower": "2x AP6+/AT6+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Hekaton Siege Claw",
         "modes": [
           {
@@ -5212,14 +5298,24 @@
             "firepower": "AT2+",
             "range": 45,
             "specialRules": [
-              "SS"
-
           ]
           }
       ]
     },
     {
       "name": "Hex Cannon",
+        "modes": [
+          {
+            "firepower": "4x AP4+/AT4+",
+            "range": 75,
+            "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "2x Hex Cannon",
         "modes": [
           {
             "firepower": "4x AP4+/AT4+",
@@ -5770,6 +5866,17 @@
           {
             "firepower": "MW4+",
             "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "AC Twin Kustom Mega-Cannons",
+        "modes": [
+          {
+            "firepower": "3x AP6+/AT4+",
+            "range": 30,
             "specialRules": [
           ]
           }
@@ -6598,6 +6705,18 @@
       ]
     },
     {
+      "name": "Multi-Rocket Pod",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 30,
+          "specialRules": [
+            "Ind"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Carapace Multilasers",
       "modes": [
         {
@@ -7102,6 +7221,18 @@
     },
     {
       "name": "Plasma Cremator",
+      "modes": [
+        {
+          "firepower": "3x MW2+",
+          "range": 60,
+          "specialRules": [
+            "Slw"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2x Plasma Cremator",
       "modes": [
         {
           "firepower": "3x MW2+",
@@ -7950,6 +8081,22 @@
               "Slw",
               "Ind",
               "MW"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Corruptos Chaos Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range":60,
+            "specialRules": [
+              "Slw",
+              "Ind",
+              "MW",
+              "IC"
 
           ]
           }
@@ -10092,6 +10239,15 @@
     },
     {
       "name": "Turbo Blaster",
+      "modes": [
+        {
+          "firepower": "4x AP5+/AT3+",
+          "range": 60
+        }
+      ]
+    },
+    {
+      "name": "2x Turbo Blaster",
       "modes": [
         {
           "firepower": "4x AP5+/AT3+",

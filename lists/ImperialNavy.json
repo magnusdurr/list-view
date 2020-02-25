@@ -2,10 +2,40 @@
   {
     "name": "Imperial Navy",
     "specialRules": [
-
+        {
+          "title": "Shield Disruptor",
+          "description": [
+            "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields."
+          ]
+      }
     ],
     "unit": [
+        {
+          "name": "Lightning Strike Fighter",
+          "type": "AC",
+          "speed": "Fighter-Bomber",
+          "armour": 6,
+          "weapons": [
+            "AC Twin Lascannons||FxF",
+            "AC Underwing Rockets||FxF"
+          ],
+          "specialRules": [
 
+          ]
+        },
+        {
+          "name": "Lightning Interceptor",
+          "type": "AC",
+          "speed": "Fighter",
+          "armour": 6,
+          "weapons": [
+            "AC Twin Lascannons||FxF",
+            "AC Autocannon||FxF"
+          ],
+          "specialRules": [
+
+          ]
+        },
     {
       "name": "Thunderbolt Fighter",
       "type": "AC",
@@ -15,19 +45,6 @@
         "AC Multilaser||FxF",
         "AC Underwing Rockets||FxF",
         "AC Storm Bolters||FxF"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Lightning Strike Fighter",
-      "type": "AC",
-      "speed": "Fighter-Bomber",
-      "armour": 6,
-      "weapons": [
-        "AC Twin Lascannons||FxF",
-        "AC Underwing Rockets||FxF"
       ],
       "specialRules": [
 
@@ -62,6 +79,21 @@
       ]
     },
     {
+      "name": "Marauder Destroyer",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Autocannons|3|FxF",
+        "AC Missile Array||FxF",
+        "AC Twin Assault Cannon Turret||",
+        "AC Twin Heavy Bolter Turret||"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
       "name": "Marauder Colossus",
       "type": "AC",
       "speed": "Bomber",
@@ -75,7 +107,6 @@
 
       ]
     },
-
     {
       "name": "Lunar Class Cruiser",
       "type": "SC",

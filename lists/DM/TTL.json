@@ -180,9 +180,10 @@
             "units": "Three Debasers of Slaanesh, three Slaughterfiends of Khorne, or three Defilers of Chaos Undivided",
             "extraUnits": [
                 "Replace three Debasers with three Desecrators of Nurgle, or three Decievers of Tzeentch: 25 points",
-                "Add a Defiler of the same configuration to the formation: 50 points"
+                "Add a Defiler of the same configuration to the formation: 50 points",
+                "Add Daemonic Pact to the formation: 25 points"
             ],
-            "points": 175        }
+            "points": 200        }
     ]
   },
         {
@@ -229,7 +230,7 @@
     "formations": [
         {
           "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points. Add three points to the Lesser Daemon Pool for each Eye of the Gods / Daemonic Herald upgrade, and add one point for each Daemonic Locus character.",
+          "units": "Any amount of Lesser Daemon Pool points. Add one Lesser Daemon pool point for each Daemonic Pact. Then add two extra points for each Eye of the Gods, and one extra for each Daemonic Herald character upgrade.",
           "points": 15
       }
     ]
@@ -241,12 +242,12 @@
     "items": [
       {
         "name": "0-1 Eye of the Gods",
-        "description": "Replace the Daemonic Locus with a Eye of the Gods character",
-        "points": "50 points"
+        "description": "Replace the Daemonic Locus with a Eye of the Gods character.",
+        "points": "75 points"
     },
     {
       "name": "Daemonic Herald",
-      "description": "Replace the Daemonic Locus with a Daemonic Herald character. May not be combined with Eye of the Gods",
+      "description": "Replace the Daemonic Locus with a Daemonic Herald character. May not be combined with Eye of the Gods.",
       "points": "25 points"
     }
     ]

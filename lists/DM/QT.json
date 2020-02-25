@@ -4,13 +4,9 @@
   "version": "0.6.0",
   "release": "2020-01-27",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "The Kaban Machine have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "The Kaban Machine and the Chaos Warbringer formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
-      "Summoning",
-      "QT Summoning Rules",
-      "Daemonic Focus",
-      "Fickle Masters",
       "QT Eternal Animosity"
 
     ],
@@ -60,21 +56,14 @@
         ]
     },
     {
-      "from": "daemons.json",
+      "from": "traitortitanlegions.json",
       "units": [
-        "Daemonettes of Slaanesh",
-        "Fiends of Slaanesh",
-        "Plaguebearers of Nurgle",
-        "Beasts of Nurgle",
-        "Bloodletters of Khorne",
-        "Fleshhounds of Khorne",
-        "Horrors of Tzeentch",
-        "Flamers of Tzeentch",
-        "Daemonic Beasts of Chaos Undivided"
+        "Chaos Warbringer"
       ],
       "unitRules": [
+        "Void Shields"
     ]
-    },
+  },
   {
     "from": "chaosnavy.json",
     "units": [
@@ -215,7 +204,7 @@
         ]
       },
          {
-      "name": "Ordinatus Support and Chaos Navy Allies",
+      "name": "Ordinatus Support, Traitor Titan and Chaos Navy Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
               {
@@ -235,7 +224,11 @@
               ],
           "points": 425
       },
-
+      {
+        "name": "Chaos Warbringer",
+        "units": "One Chaos Warbringer",
+        "points": 650
+      },
         {
           "name": "Heldrakes",
           "units": "Two Heldrakes",
@@ -254,18 +247,7 @@
           "points": 200
         }
       ]
-  },
-  {
-    "name": "Daemon Pool",
-    "description": "Any amount may be spent on Daemon Pool points",
-    "formations": [
-        {
-          "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points",
-          "points": 15
-      }
-    ]
-}
+  }
   ],
   "upgrades": {
     "title": "Questor Traitoris Upgrades",
