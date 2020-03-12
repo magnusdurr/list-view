@@ -3,7 +3,7 @@
   "army": "Catachan Jungle Fighters",
   "version": "0.7.2",
   "release": "2020-02-25",
-  "strategy": "Catachan Jungle Fighter armies have a Strategy Rating of 2.",
+  "strategy": "Catachan Jungle Fighter armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": ["Catachan Commanders"],
@@ -97,7 +97,8 @@
           "name": "Vulture Squadron",
           "units": "Three Vultures",
           "extraUnits": [
-              "Add one Vulture: 75 points"
+              "Add one Vulture: 75 points",
+              "Add two Vendettas: 75 points"
           ],
           "points": 225
         },
@@ -201,7 +202,7 @@
         "name": "Ogryns",
         "options": [
           {
-            "description": "Add up to two Ogryns",
+            "description": "Add up to two Ogryns. Formation may not be transported in Valkyries.",
             "points": "25 points each"
           }
         ]
@@ -233,7 +234,7 @@
       },
         {
           "description": "Add three Valkyries and two Vendettas",
-          "points": "175 points"
+          "points": "150 points"
         }
         ]
       }

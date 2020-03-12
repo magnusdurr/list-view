@@ -101,7 +101,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Lasguns",
+        "Heavy Bolter",
         "Power Weapon"
       ],
       "specialRules": [
@@ -145,7 +145,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Lasguns"
+        "Heavy Bolter"
       ],
       "specialRules": [
         "Grav-Chutes",
@@ -385,11 +385,12 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Lasguns"
+        "Heavy Bolter"
       ],
       "specialRules": [
           "Grav-Chutes"
-      ]
+      ],
+      "notes": "One in every two units (rounding up) has a Heavy Bolter"
     },
     {
       "name": "Whiteshields",
@@ -1356,7 +1357,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May transport two infantry units without Jump pack or Mounted. May in addition carry one Drop Sentinel."
+    "notes": "May transport two infantry units and/or Drop Sentinels. May not transport Ogryns."
     },
     {
       "name": "Sky Talon",
@@ -1372,7 +1373,7 @@
         "Skimmer",
         "Transport"
       ],
-      "notes": "May transport up to two Tauros or Sentinels, or one Tauros Venator or Tauros Transporter."
+      "notes": "May transport up to two Tauros or Drop Sentinels, or one Sentinel, Support Sentinel, Tauros Venator, Tauros Flak or Heavy Mortar."
     },
     {
       "name": "Vulture",
@@ -1406,7 +1407,7 @@
         "Skimmer",
         "Transport"
     ],
-    "notes": "May carry one unit of INF without Jump Pack or Mounted."
+    "notes": "May carry one infantry unit and/or Drop Sentinel."
     },
     {
       "name": "Malcador",

@@ -25,7 +25,6 @@
         "Sentinel",
         "Tauros",
         "Tauros Venator",
-        "Tauros Flak",
         "Heavy Mortar",
         "Valkyrie",
         "Vendetta",
@@ -35,7 +34,13 @@
 
           ]
     },
-
+    {
+      "from": "AM.json",
+      "units": [
+          "Tarantula"
+        ],
+              "unitRules": ["Machine Spirit"]
+    }
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -56,11 +61,10 @@
       "formations": [
         {
           "name": "0-1 Regimental HQ",
-          "units": "One Elysian Supreme Commander with a Commissar, five Elysian Storm Troopers, three Valkyries.",
+          "units": "One Elysian Supreme Commander with a Commissar, seven Elysian Drop Troops, four Valkyries.",
           "extraUnits": [
               "Drop Sentinels",
-              "Vendettas",
-                "Cyclops Demolition Vehicles"
+              "Vendettas"
           ],
           "points": 350
         },
@@ -81,11 +85,9 @@
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
           {
-            "name": "Elysian Storm Trooper Company",
-            "units": "One Elysian Commander with a Commissar, five Elysian Storm Troopers, three Valkyries.",
+            "name": "Elysian Commando Company",
+            "units": "One Commissar, six Elysian Storm Troopers, three Valkyries.",
             "extraUnits": [
-                "Drop Sentinels",
-              "Vendettas",
                 "Cyclops Demolition Vehicles"
             ],
             "points": 300
@@ -94,15 +96,13 @@
           "name": "Tauros Venator Squadron",
           "units": "Six Tauros Venators",
           "extraUnits": [
-              "Tauros Flak"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Tauros Recon Squadron",
           "units": "Four Tauros",
           "extraUnits": [
-              "Tauros Flak"
           ],
           "points": 150
         },
@@ -114,12 +114,11 @@
           "points": 175
         },
         {
-          "name": "Sentinels",
-          "units": "Four Sentinels",
+          "name": "Support Sentinels",
+          "units": "Four Support Sentinels",
           "extraUnits": [
-            "Replace four Sentinels with four Support Sentinels: 50 points"
           ],
-          "points": 125
+          "points": 175
         },
         {
           "name": "Vulture Squadron",
@@ -140,9 +139,14 @@
       ]
     },
     {
-      "name": "Imperial Navy Allies",
-      "description": "Up to a third of the points available may be spent on these formations.",
+      "name": "Static Defenses & Imperial Navy Allies",
+      "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula formation for each Tauros Recon Squadron",
       "formations": [
+          {
+            "name": "Tarantula",
+            "units": "Four Tarantulas",
+            "points": 100
+          },
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
@@ -182,8 +186,8 @@
             "name": "Drop Sentinels",
             "options": [
               {
-                "description": "Add up to one Drop Sentinel for each Valkyrie in the formation",
-                "points": "25 points each"
+                "description": "Replace two Elysian Drop Troops with two Drop Sentinels",
+                "points": "25 points"
               }
             ]
           },
@@ -204,16 +208,7 @@
               "points": "50 points"
             }
           ]
-      },
-      {
-        "name": "Tauros Flak",
-        "options": [
-          {
-            "description": "Add up to two Tauros Flak",
-            "points": "25 points each"
-          }
-        ]
-    }
+      }
       ]
     }
   }
