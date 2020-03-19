@@ -70,7 +70,6 @@
               "Add two Squat Thunderers: 50 points",
               "Add four Squat Warriors: 50 points",
               "Warlord",
-              "Grand Warlord",
               "Warrior Transport",
               "Living Ancestor (Leviathan only)"
           ],
@@ -113,7 +112,7 @@
           "units": "Six Rapiers and/or Tarantulas",
           "extraUnits": [
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Light Artillery Battery",
@@ -204,22 +203,18 @@
     "items": [
         {
           "name": "Warlord",
+          "description": "Add one of the following units to the formation",
           "options": [
             {
-              "description": "Add one Squat Warlord to the formation.",
+              "description": "Squat Warlord",
               "points": "50 points"
+            },
+            {
+              "description": "(0-1 in the army) Squat Grand Warlord",
+              "points": "100 points"
             }
           ]
         },
-      {
-        "name": "(0-1 per army) Grand Warlord",
-        "options": [
-          {
-            "description": "Add one Squat Grand Warlord to a Squat Warlord unit.",
-            "points": "50 points"
-          }
-        ]
-      },
       {
         "name": "Living Ancestor",
         "options": [

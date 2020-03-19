@@ -15,11 +15,17 @@
 		},
 		{
 			"name": "Squat Grand Warlord",
-			"type": "CH",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"ff": 5,
 			"weapons": [
-				"Power Weapon"
+			  "Power Weapon",
+			  "Autocannon"
 			],
 			"specialRules": [
+				"Reinforced Armour",
 				"Supreme Commander"
 			]
 		},
