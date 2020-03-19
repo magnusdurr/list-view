@@ -1,10 +1,10 @@
 {
   "fraction": "Dark Eldar",
   "army": "Kabal of the Black Heart",
-  "version": "0.7.3",
-  "release": "2019-10-09",
+  "version": "0.7.5",
+  "release": "2020-01-19",
   "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
-  "Initiative": "Black Heart Kabal, Wych Cult and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All Black Heart Kabal formations, as well as the Wych Cult and Executioner formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -28,7 +28,7 @@
         "Succubus",
         "Haemonculus Ancient",
         "Incubi",
-        "Warriors",
+        "Dark Eldar Warriors",
         "Mandrakes",
         "Scourges",
         "Haemonculi",
@@ -124,7 +124,7 @@
               "Portable Webway",
               "Black Heart Transport"
             ],
-            "points": 175
+            "points": 200
         },
         {
           "name": "Haemonculi Coven",
@@ -139,10 +139,9 @@
           "points": 225
         },
         {
-          "name": "Vessels of Pain",
+          "name": "Vessel of Pain",
           "units": "One Vessel of Pain",
           "extraUnits": [
-              "Add one Vessel of Pain: 200 points"
           ],
           "points": 250
         },

@@ -1,8 +1,8 @@
 {
   "fraction": "Tau",
   "army": "Sa'cea",
-  "version": "Beta 0.9.0",
-  "release": "2020-01-09",
+  "version": "1.0.0",
+  "release": "2020-03-19",
   "strategy": "Tau armies have a Strategy Rating of 3.",
   "Initiative": "Crisis Battlesuit and Manta formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -277,8 +277,8 @@
         "name": "Pathfinders",
         "options": [
             {
-              "description": "Replace one unit of Fire Warriors with a unit of Pathfinders (formation must contain Devilfish)",
-              "points": "50 points"
+              "description": "Add two Pathfinders and one Devilfish",
+              "points": "100 points"
             }
         ]
       },

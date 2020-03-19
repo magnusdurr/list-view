@@ -4,7 +4,7 @@
   "version": "0.6.2",
   "release": "2019-12-23",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Wraithkind Kabal, Wych Cult, Harlequin and Tormentor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All Wraithkind Kabal and Harleqin formations, as well as the Wych Cult and Tormentor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
         "Fleet of Foot",
@@ -29,7 +29,7 @@
         "Dracon",
         "Succubus",
         "Incubi",
-        "Warriors",
+        "Dark Eldar Warriors",
         "Warp Beasts",
         "Reavers",
         "Scourges",
@@ -84,13 +84,7 @@
           "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
 
           "points": 0
-        },
-        {
-          "name": "0-1 Portable Webway Portal",
-          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus, Harlequin Avatar or Master Mime character in the army. This Portable Webway may be used once in a game. After the characters formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
-
-          "points": 100
-      }
+        }
       ]
     },
     {
@@ -102,9 +96,10 @@
             "units": "One Arcon in a unit of Incubi, three Incubi",
             "extraUnits": [
               "Add two Incubi: 50 points",
+              "Add up to two Warp Beasts: 25 points each",
               "Warriors",
               "Ravagers",
-              "Add up to two Warp Beasts: 25 points each",
+              "Portable Webway Portal",
               "Wraithkind Transport"
             ],
             "points": 225
@@ -122,9 +117,10 @@
           "units": "Four Dark Eldar Warriors",
           "extraUnits": [
             "Add one Dracon to a unit of Warriors: 50 points",
+            "Add up to two Warp Beasts: 25 points each",
             "Warriors",
             "Ravagers",
-            "Add up to two Warp Beasts: 25 points each",
+            "Portable Webway Portal",
             "Wraithkind Transport"
           ],
           "points": 150
@@ -136,10 +132,9 @@
       "description": "Up to one Wraithkind Partisans for each Wraithkind Kabal",
       "formations": [
           {
-            "name": "Vessels of Pain",
+            "name": "Vessel of Pain",
             "units": "One Vessel of Pain",
             "extraUnits": [
-                "Add one Vessel of Pain: 200 points"
             ],
             "points": 250
           },
@@ -171,9 +166,10 @@
             "units": "One Succubus, four Wyches, two Raiders",
             "extraUnits": [
               "Add two Wyches, one Raider: 50 points",
-              "Add up to four Warp Beasts: 25 points each"
+              "Add up to four Warp Beasts: 25 points each",
+              "Portable Webway Portal"
             ],
-            "points": 150
+            "points": 200
           }
 
 
@@ -195,6 +191,7 @@
             "name": "Asuryan's Wager",
             "units": "One Harlequin Avatar, one Harlequin Troupe, three Death Jesters, four Starweavers",
             "extraUnits": [
+              "Portable Webway Portal"
             ],
             "points": 275
           },
@@ -202,7 +199,7 @@
             "name": "Serpent's Blood",
             "units": "One Harlequin Avatar, four Skyweavers, three Voidweavers",
             "extraUnits": [
-
+              "Portable Webway Portal"
             ],
             "points": 275
           },
@@ -210,6 +207,7 @@
             "name": "Cegorach's Revenge",
             "units": "One Harlequin Avatar, two Harlequin Troupes, two Death Jesters, four Starweavers, three Skyweavers",
             "extraUnits": [
+              "Portable Webway Portal"
             ],
             "points": 325
          },
@@ -225,6 +223,7 @@
           "name": "0-1 Isha's Tears",
           "units": "One Harlequin Avatar, one Shadowseer, two Harlequin Troupes, four Death Jesters, six Starweavers",
           "extraUnits": [
+              "Portable Webway Portal"
           ],
           "points": 450
         }
@@ -282,7 +281,7 @@
         "points": "50 points each"
       },
       {
-        "name": "0-1 Portable Webway",
+        "name": "(0-1 per army) Portable Webway Portal",
         "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Harleqin Avatar character. This Portable Webway may be used once in a game. After the character's formation completes an action you may place a small barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
         "points": "100 points"
       },

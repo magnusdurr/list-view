@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "Warriors",
+      "name": "Dark Eldar Warriors",
       "type": "INF",
       "speed": 15,
       "cc": 5,
@@ -360,7 +360,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Phantom Lance|2|FxF",
+        "Phantom Lance||FxF",
         "Splinter Cannon|2|FwA",
         "Desolator||FwA"
       ],
@@ -406,7 +406,7 @@
         "Disintegrator Array"
       ],
       "specialRules": [
-        "Damage Capacity 4",
+        "Damage Capacity 5",
         "Shadowfields 4",
         "Planetfall",
         "Support Craft",
