@@ -59,6 +59,7 @@
           "Torture Class Cruiser"
       ],
         "unitRules": [
+            "Shield Disruptor"
       ]
     }
 ],
@@ -101,7 +102,7 @@
           "name": "Black Heart Syndicate",
           "units": "Six Dark Eldar Warriors",
           "extraUnits": [
-            "Add one Dracon to a unit of Warriors: 50 points",
+            "Add one Dracon to a unit of Warriors: 25 points",
             "Ravagers",
             "Portable Webway",
             "Black Heart Transport",
@@ -115,17 +116,7 @@
       "name": "Black Heart Partisan Formations",
       "description": "Up to two Partisan Formations may be taken for each Kabal Formation",
       "formations": [
-          {
-            "name": "Wych Cult",
-            "units": "One Succubus in a unit of Wyches, three Wyches",
-            "extraUnits": [
-              "Add two Wyches: 50 points",
-              "Add up to four Warp Beasts: 25 points each",
-              "Portable Webway",
-              "Black Heart Transport"
-            ],
-            "points": 200
-        },
+
         {
           "name": "Haemonculi Coven",
           "units": "Two Haemonculi and four Wracks",
@@ -168,12 +159,23 @@
           "points": 225
         },
         {
+          "name": "Wych Cult",
+          "units": "One Succubus in a unit of Wyches, three Wyches",
+          "extraUnits": [
+            "Add two Wyches: 50 points",
+            "Warp Beasts",
+            "Portable Webway",
+            "Black Heart Transport"
+          ],
+          "points": 175
+      },
+        {
           "name": "Hellion Murder",
           "units": "Six Hellion Skyboards",
           "extraUnits": [
-            "Add up to two Warp Beasts: 25 points each"
+            "Warp Beasts"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Reaver Gang",
@@ -181,7 +183,7 @@
           "extraUnits": [
             "Add up to two Reaver Jet Bikes: 25 points each"
           ],
-          "points": 200
+          "points": 175
         }
 
 
@@ -222,12 +224,12 @@
           "points": 450
         },
         {
-          "name": "0-1 Cruiser",
+          "name": "0-1 Orbital Support",
           "units": "One Torture Class Cruiser",
           "extraUnits": [
 
           ],
-          "points": 300
+          "points": 225
         }
       ]
     }
@@ -238,13 +240,18 @@
     "items": [
       {
         "name": "Ravagers",
-        "description": "Add up to two Dark Eldar Ravagers",
+        "description": "Add up to two Ravagers",
         "points": "50 points each"
       },
       {
         "name": "Talos",
-        "description": "Add up to two Dark Eldar Talos",
+        "description": "Add up to two Talos",
         "points": ["50 points for one", "75 points for two"]
+      },
+      {
+        "name": "Warp Beasts",
+        "description": "Add up to two Warp Beasts",
+        "points": "25 points each"
       },
       {
         "name": "Warriors",
@@ -252,8 +259,8 @@
         "points": "50 points"
       },
       {
-        "name": "0-1 Portable Webway",
-        "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character. This Portable Webway may be used once in a game. After the character's formation completes an action you may place a small barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
+        "name": "(0-1 in the army) Portable Webway",
+        "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character. This Portable Webway may be used once in a game. After the character's formation (or the formation carrying it) completes an action you may place a small barrage template marker completely within 15cm of the character's unit (or the unit carrying it) and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
         "points": "50 points"
       },
 

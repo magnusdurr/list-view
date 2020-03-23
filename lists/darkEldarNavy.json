@@ -2,7 +2,12 @@
   {
     "name": "Dark Eldar Navy",
     "specialRules": [
-
+        {
+          "title": "Shield Disruptor",
+          "description": [
+            "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields, rounding fractions down in favour of the target. In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields."
+          ]
+      }
     ],
     "unit": [
     {
@@ -25,8 +30,9 @@
       "speed": "Fighter-Bomber",
       "armour": 4,
       "weapons": [
-        "AC Void Mines",
-        "AC Twin Void Lances"
+      "AC Twin Void Lances",
+      "AC Twin Splinter Cannons",
+      "AC Void Mines"
       ],
       "specialRules": [
 
@@ -62,7 +68,7 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "firepower": "6BP, MW"
+                "firepower": "4BP, MW"
               }
             ]
         },

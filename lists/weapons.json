@@ -752,6 +752,18 @@
       ]
     },
     {
+      "name": "AC Twin Splinter Cannons",
+        "modes": [
+          {
+            "firepower": "AP4+/AA5+",
+            "range": 15,
+            "specialRules": [
+              "FxF"
+          ]
+        }
+      ]
+    },
+    {
       "name": "AC Monoscythe Missiles",
         "modes": [
           {
@@ -1096,10 +1108,10 @@
       "name": "AC Twin Void Lances",
         "modes": [
           {
-            "firepower": "AT3+/AA5+",
+            "firepower": "AT3+",
             "range": 30,
             "specialRules": [
-              "Lance",
+              "Shield Disruptor",
               "FxF"
 
           ]
@@ -6595,7 +6607,7 @@
       "name": "Mole Launchers",
       "modes": [
         {
-          "firepower": "AP5+/AT5+",
+          "firepower": "AP4+/AT6+",
           "range": 30,
           "specialRules": [
             "Ind",
@@ -6608,7 +6620,7 @@
       "name": "Mole Mortar",
       "modes": [
         {
-          "firepower": "AP4+/AT5+",
+          "firepower": "AP4+/AT6+",
           "range": 30,
           "specialRules": [
             "Ind",
@@ -10996,7 +11008,7 @@
             "firepower": "AT3+",
             "range": 45,
             "specialRules": [
-              "Lance"
+              "Shield Disruptor"
 
           ]
         }

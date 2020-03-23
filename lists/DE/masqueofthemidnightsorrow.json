@@ -72,6 +72,7 @@
           "Slavebringer Assault Boat"
       ],
         "unitRules": [
+            "Shield Disruptor"
       ]
     }
 ],
@@ -96,7 +97,7 @@
             "units": "One Arcon in a unit of Incubi, three Incubi",
             "extraUnits": [
               "Add two Incubi: 50 points",
-              "Add up to two Warp Beasts: 25 points each",
+              "Warp Beasts",
               "Warriors",
               "Ravagers",
               "Portable Webway Portal",
@@ -116,8 +117,8 @@
           "name": "Wraithkind Syndicate",
           "units": "Four Dark Eldar Warriors",
           "extraUnits": [
-            "Add one Dracon to a unit of Warriors: 50 points",
-            "Add up to two Warp Beasts: 25 points each",
+            "Add one Dracon to a unit of Warriors: 25 points",
+              "Warp Beasts",
             "Warriors",
             "Ravagers",
             "Portable Webway Portal",
@@ -142,9 +143,9 @@
             "name": "Hellion Murder",
             "units": "Six Hellion Skyboards",
             "extraUnits": [
-              "Add up to two Warp Beasts: 25 points each"
+              "Warp Beasts"
             ],
-            "points": 200
+            "points": 175
           },
           {
             "name": "Reaver Gang",
@@ -152,7 +153,7 @@
             "extraUnits": [
               "Add up to two Reaver Jet Bikes: 25 points each"
             ],
-            "points": 200
+            "points": 175
           },
           {
             "name": "Scourge Flight",
@@ -166,10 +167,10 @@
             "units": "One Succubus, four Wyches, two Raiders",
             "extraUnits": [
               "Add two Wyches, one Raider: 50 points",
-              "Add up to four Warp Beasts: 25 points each",
+              "Warp Beasts",
               "Portable Webway Portal"
             ],
-            "points": 200
+            "points": 175
           }
 
 
@@ -281,9 +282,14 @@
         "points": "50 points each"
       },
       {
-        "name": "(0-1 per army) Portable Webway Portal",
-        "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Harleqin Avatar character. This Portable Webway may be used once in a game. After the character's formation completes an action you may place a small barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
-        "points": "100 points"
+        "name": "Warp Beasts",
+        "description": "Add up to two Warp Beasts",
+        "points": "25 points each"
+      },
+      {
+        "name": "(0-1 in the army) Portable Webway",
+        "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character. This Portable Webway may be used once in a game. After the character's formation (or the formation carrying it) completes an action you may place a small barrage template marker completely within 15cm of the character's unit (or the unit carrying it) and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
+        "points": "50 points"
       },
 
       {

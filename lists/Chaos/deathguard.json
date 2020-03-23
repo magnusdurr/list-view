@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Death Guard",
-  "version": "0.7.5",
-  "release": "2020-02-08",
+  "version": "0.7.6",
+  "release": "2020-03-20",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "Death Guard Core, Elite, and Traitor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -149,13 +149,13 @@
         },
         {
           "name": "Armoured Company",
-          "units": "Four Death Guard Vindicators",
+          "units": "Five Death Guard Vindicators",
           "extraUnits": [
-            "Replace four Death Guard Vindicators with four Death Guard Land Raiders: 100 points",
+            "Replace five Death Guard Vindicators with four Death Guard Land Raiders: 50 points",
             "Vindicators",
             "Stalker"
           ],
-          "points": 200
+          "points": 250
       },
       {
         "name": "Chaos Space Marines",
@@ -336,8 +336,8 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add three Death Guard Vindicators",
-        "points": "100 points"
+        "description": "Add two Death Guard Vindicators",
+        "points": "50 points"
       },
       {
         "name": "Havocs",
