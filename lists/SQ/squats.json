@@ -7,7 +7,6 @@
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-      "Indomitable",
       "Spirit Lords",
       "Support Craft",
       "Tunnelers"
@@ -68,7 +67,7 @@
           "extraUnits": [
               "Replace three Squat Warriors with three Rapiers: Free",
               "Add two Squat Thunderers: 50 points",
-              "Add four Squat Warriors: 50 points",
+              "Add four Squat Warriors: 75 points",
               "Warlord",
               "Warrior Transport",
               "Living Ancestor (Leviathan only)"
@@ -79,7 +78,7 @@
         "name": "Berserker Brotherhood",
         "units": "Squat Hearthguards, seven Squat Berserkers, four Squat Rhinos",
         "extraUnits": [
-            "Replace four Squat Rhinos with four Termites: 25 points"
+            "Replace four Squat Rhinos with four Termites: Free"
             ],
         "points": 200
     }
@@ -134,7 +133,7 @@
           "units": "Four Iron Eagle Gyrokopters",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Kastelan Maniple",
@@ -190,7 +189,7 @@
                 "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
                 "0-1 Bomb Battle Car: 125 points"
             ],
-            "points": 200
+            "points": 175
         }
       ]
     }
@@ -229,7 +228,7 @@
       "options": [
         {
           "description": "Replace two Squat Rhinos with two Termites or two Land Raiders.",
-          "points": ["Termites: 25 points", "Land Raiders: 75 points"]
+          "points": ["Termites: Free", "Land Raiders: 75 points"]
       }
       ]
   },
@@ -245,13 +244,13 @@
             ]
         },
         {
-          "description": "The entire formation is transported in Termites. The formation may only enter the battlefield by Tunneling.",
+          "description": "The entire formation is transported in Termites.",
           "points": [
-            "20 points each"
+            "10 points each"
           ]
       },
       {
-        "description": "The entire formation is transported in a Hellbore. The formation may only enter the battlefield by Tunneling. May only be taken if the entire formation fits inside.",
+        "description": "The entire formation is transported in a Hellbore. May only be taken if the entire formation fits inside.",
         "points": [
           "100 points"
         ]
