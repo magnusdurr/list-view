@@ -96,14 +96,14 @@
             "name": "1 Wraithkind Coterie",
             "units": "One Arcon in a unit of Incubi, three Incubi",
             "extraUnits": [
-              "Add two Incubi: 50 points",
+              "Add two Incubi: 75 points",
               "Warp Beasts",
               "Warriors",
               "Ravagers",
               "Portable Webway Portal",
               "Wraithkind Transport"
             ],
-            "points": 225
+            "points": 250
           },
         {
           "name": "Wraithkind Flotilla",
@@ -115,7 +115,7 @@
         },
         {
           "name": "Wraithkind Syndicate",
-          "units": "Four Dark Eldar Warriors",
+          "units": "Six Dark Eldar Warriors",
           "extraUnits": [
             "Add one Dracon to a unit of Warriors: 25 points",
               "Warp Beasts",
@@ -124,7 +124,7 @@
             "Portable Webway Portal",
             "Wraithkind Transport"
           ],
-          "points": 150
+          "points": 200
         }
       ]
     },
@@ -164,11 +164,12 @@
           },
           {
             "name": "Wych Cult",
-            "units": "One Succubus, four Wyches, two Raiders",
+            "units": "One Succubus, four Wyches",
             "extraUnits": [
               "Add two Wyches, one Raider: 50 points",
               "Warp Beasts",
-              "Portable Webway Portal"
+              "Portable Webway Portal",
+              "Wraithkind Transport"
             ],
             "points": 175
           }
@@ -273,8 +274,8 @@
     "items": [
       {
         "name": "Warriors",
-        "description": "Two Dark Eldar Warriors",
-        "points": "25 points"
+        "description": "Add two Dark Eldar Warriors",
+        "points": "50 points"
       },
       {
         "name": "Ravagers",
@@ -294,8 +295,8 @@
 
       {
         "name": "Wraithkind Transport",
-        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
-        "points": ["Tantalus: 25 points", "Barge of Pleasure: 125 points"]
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot, but not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
+        "points": ["Raiders: Free", "Tantalus: 25 points", "Barge of Pleasure: 125 points"]
       }
     ]
   }
