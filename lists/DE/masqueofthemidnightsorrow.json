@@ -97,7 +97,6 @@
             "units": "One Arcon in a unit of Incubi, three Incubi",
             "extraUnits": [
               "Add two Incubi: 75 points",
-              "Warp Beasts",
               "Warriors",
               "Ravagers",
               "Portable Webway Portal",
@@ -118,7 +117,6 @@
           "units": "Six Dark Eldar Warriors",
           "extraUnits": [
             "Add one Dracon to a unit of Warriors: 25 points",
-              "Warp Beasts",
             "Warriors",
             "Ravagers",
             "Portable Webway Portal",
@@ -143,7 +141,7 @@
             "name": "Hellion Murder",
             "units": "Six Hellion Skyboards",
             "extraUnits": [
-              "Warp Beasts"
+              "Add three Warp Beasts: 50 points"
             ],
             "points": 175
           },
@@ -167,7 +165,6 @@
             "units": "One Succubus, four Wyches",
             "extraUnits": [
               "Add two Wyches, one Raider: 50 points",
-              "Warp Beasts",
               "Portable Webway Portal",
               "Wraithkind Transport"
             ],
@@ -284,8 +281,8 @@
       },
       {
         "name": "Warp Beasts",
-        "description": "Add up to two Warp Beasts",
-        "points": "25 points each"
+        "description": "Add three Warp Beasts",
+        "points": "50 points"
       },
       {
         "name": "(0-1 in the army) Portable Webway",
@@ -295,7 +292,7 @@
 
       {
         "name": "Wraithkind Transport",
-        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot, but not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot if possible. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
         "points": ["Raiders: Free", "Tantalus: 25 points", "Barge of Pleasure: 125 points"]
       }
     ]

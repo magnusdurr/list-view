@@ -163,7 +163,6 @@
           "units": "One Succubus in a unit of Wyches, three Wyches",
           "extraUnits": [
             "Add two Wyches: 50 points",
-            "Warp Beasts",
             "Portable Webway",
             "Black Heart Transport"
           ],
@@ -173,7 +172,7 @@
           "name": "Hellion Murder",
           "units": "Six Hellion Skyboards",
           "extraUnits": [
-            "Warp Beasts"
+            "Add three Warp Beasts: 50 points"
           ],
           "points": 175
         },
@@ -249,11 +248,6 @@
         "points": ["50 points for one", "75 points for two"]
       },
       {
-        "name": "Warp Beasts",
-        "description": "Add up to two Warp Beasts",
-        "points": "25 points each"
-      },
-      {
         "name": "Warriors",
         "description": "Add two Dark Eldar Warriors",
         "points": "50 points"
@@ -267,7 +261,7 @@
 
       {
         "name": "Black Heart Transport",
-        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot, but not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has any empty transport slot if possible. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
         "points": ["Raiders: Free", "Two Venoms: 25 points", "Barge of Pleasure: 125 points"]
       }
     ]
