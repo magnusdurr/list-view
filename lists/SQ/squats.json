@@ -62,7 +62,7 @@
       "name": "Wodanaz Stronghold Brotherhood Formations",
       "formations": [
         {
-          "name": "Squat Brotherhood",
+          "name": "Warrior Brotherhood",
           "units": "Squat Hearthguards, nine Squat Warriors",
           "extraUnits": [
               "Replace three Squat Warriors with three Rapiers: Free",
@@ -147,14 +147,14 @@
     },
     {
       "name": "Wodanaz Stronghold War Engines",
-      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines.",
+      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines. Max one Hellbore for each Warrior Brotherhood formation.",
       "formations": [
           {
             "name": "Hellbore",
             "units": "One Hellbore",
             "extraUnits": [
             ],
-            "points": 200
+            "points": 175
           },
           {
             "name": "Overlord",
