@@ -211,7 +211,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord and Squat Thunderfire units takes two spaces each. While transporting Squat Thunderfires, Squat Rhinos' speed are reduced to 20cm."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord, Grand Warlord, and Squat Thunderfire units takes two spaces each. While transporting Squat Thunderfires, Squat Rhinos' speed are reduced to 20cm."
 		},
 		{
 			"name": "Land Raider",
@@ -229,7 +229,7 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord and Grand Warlord units takes two spaces each."
 		},
 		{
 			"name": "Squat Thunderfire",
@@ -315,7 +315,7 @@
 	      "cc": 5,
 		  "ff": 5,
 		  "weapons": [
-		  "Storm Bolter Array"
+		  "Storm Bolter Array|2|"
 		  ],
 		  "specialRules": [
 			  "Damage Capacity 4",
@@ -435,7 +435,7 @@
 				"Reinforced Armour",
 		        "Fearless"
 			],
-			"notes": "[*]Each Berserker Battle Car may transport one unit of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train.",
+			"notes": "[*]Each Berserker Battle Car may transport two units of Squat Berserkers. These are allowed to firefight while being transported inside the Land Train.",
 			"crit": "The last Battle Car in the train is destroyed. If no Battle Cars remain the Land Train engine is destroyed."
 
 		}

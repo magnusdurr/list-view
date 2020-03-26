@@ -1,8 +1,8 @@
  {
   "fraction": "Squats",
   "army": "Wodanaz Stronghold",
-  "version": "0.8.0",
-  "release": "2020-03-19",
+  "version": "0.8.1",
+  "release": "2020-03-27",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -147,8 +147,15 @@
     },
     {
       "name": "Wodanaz Stronghold War Engines",
-      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines",
+      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines.",
       "formations": [
+          {
+            "name": "Hellbore",
+            "units": "One Hellbore",
+            "extraUnits": [
+            ],
+            "points": 200
+          },
           {
             "name": "Overlord",
             "units": "One Overlord Dirigible",
@@ -186,7 +193,7 @@
                 "Living Ancestor",
                 "Dragon Battle Car: 75 points each",
                 "Siege Mortar Battle Car: 75 points each",
-                "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
+                "Berserker Battle Car and two units of Squat Berserkers: 75 points each",
                 "0-1 Bomb Battle Car: 125 points"
             ],
             "points": 175
@@ -249,12 +256,6 @@
             "10 points each"
           ]
       },
-      {
-        "description": "The entire formation is transported in a Hellbore. May only be taken if the entire formation fits inside.",
-        "points": [
-          "100 points"
-        ]
-    },
     {
       "description": "The entire formation is transported in a Leviathan. May only be taken if the entire formation fits inside.",
       "points": [
