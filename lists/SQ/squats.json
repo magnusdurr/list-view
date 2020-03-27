@@ -9,7 +9,8 @@
   "specialRules": [
       "Spirit Lords",
       "Support Craft",
-      "Tunnelers"
+      "Tunnelers",
+      "Tunneling Transports"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Wodanaz Stronghold."
@@ -147,14 +148,14 @@
     },
     {
       "name": "Wodanaz Stronghold War Engines",
-      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines. Max one Hellbore for each Warrior Brotherhood formation.",
+      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines. Max one Hellbore for each Warrior Brotherhood formation with the 'Hellbore Transport' upgrade.",
       "formations": [
           {
             "name": "Hellbore",
             "units": "One Hellbore",
             "extraUnits": [
             ],
-            "points": 175
+            "points": 150
           },
           {
             "name": "Overlord",
@@ -251,15 +252,21 @@
             ]
         },
         {
-          "description": "The entire formation is transported in Termites.",
+          "description": "Termite Transport: The entire formation is transported in Termites. May only be taken if the entire formation fits inside.",
           "points": [
             "10 points each"
           ]
       },
+      {
+        "description": "Hellbore Transport: The entire formation is transported in a Hellbore. May only be taken if the entire formation fits inside. The Hellbore is bought separately.",
+        "points": [
+          "Free"
+        ]
+    },
     {
-      "description": "The entire formation is transported in a Leviathan. May only be taken if the entire formation fits inside.",
+      "description": "Leviathan Transport: The entire formation is transported in a Leviathan. May only be taken if the entire formation fits inside.",
       "points": [
-        "300 points"
+        "275 points"
       ]
   }
         ]

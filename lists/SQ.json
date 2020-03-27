@@ -51,7 +51,7 @@
 			"name": "Squat Tech-Priest",
 			"type": "INF",
 			"speed": 15,
-			"armour": 5,
+			"armour": 4,
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
@@ -305,7 +305,7 @@
 				"Tunneler",
 				"Transport"
 			],
-			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through Tunneling."
+			"notes": "May transport two infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each."
 		},
 	  {
 		  "name": "Hellbore",
@@ -318,12 +318,12 @@
 		  "Storm Bolter Array"
 		  ],
 		  "specialRules": [
-			  "Damage Capacity 4",
+			  "Damage Capacity 3",
 			  "Tunneler",
 			  "Reinforced Armour",
 			  "Transport"
 		  ],
-		  "notes": "May transport twelve infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each. Must start the game in the reserves, and may only enter the battlefield through tunneling.",
+		  "notes": "May transport twelve infantry units without Jump Packs or Mounted. Squat Warlord units takes two spaces each.",
 		  "crit": "The Hellbore is destroyed."
 
 	  },
