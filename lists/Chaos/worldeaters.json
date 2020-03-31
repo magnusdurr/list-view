@@ -165,7 +165,20 @@
     "name": "World Eaters Support Formations",
     "description": "Two Support formations may be taken per Core formation.",
     "formations": [
-
+        {
+          "name": "Doomblasters",
+          "units": "Three Doomblasters",
+          "extraUnits": [
+          ],
+          "points": 175
+          },
+        {
+          "name": "Greater Brass Scorpion",
+          "units": "One Greater Brass Scorpion",
+        "extraUnits": [
+        ],
+        "points": 200
+          },
           {
             "name": "Cannons of Khorne",
             "units": "Four Cannons of Khorne",
@@ -173,13 +186,7 @@
             ],
             "points": 225
         },
-        {
-          "name": "Doomblasters",
-          "units": "Four Doomblasters",
-          "extraUnits": [
-          ],
-          "points": 225
-          },
+
       {
         "name": "Khorne Defiler Pack",
         "units": "Four Slaughterfiends",
@@ -201,13 +208,6 @@
       "name": "War Engine and Chaos Navy Formations",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "Greater Brass Scorpion",
-            "units": "One Greater Brass Scorpion",
-          "extraUnits": [
-          ],
-          "points": 200
-            },
           {
             "name": "Lord of Battles",
             "units": "One Lord of Battles",
