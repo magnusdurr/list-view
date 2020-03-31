@@ -161,8 +161,13 @@
   },
   {
     "name": "Death Guard Support Formations",
-    "description": "Up to three Support Formations may be taken per Core Formation",
+    "description": "Up to two Support Formations may be taken per Core Formation",
     "formations": [
+        {
+          "name": "Plague Zombie Infestation",
+          "units": "3 x 2D6 Plague Zombies",
+          "points": 175
+          },
         {
           "name": "Nurgle Defiler Pack",
           "units": "Three Desecrators",
@@ -202,14 +207,9 @@
     ]
   },
         {
-      "name": "Traitor Titans, Plague Zombies and Chaos Navy",
+      "name": "Traitor Titans and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Plague Zombie Infestation",
-            "units": "3 x 2D6 Plague Zombies",
-            "points": 175
-            },
           {
             "name": "Plaguehound",
             "units": "One Plaguehound Titan",
