@@ -916,25 +916,24 @@
           "name": "Greater Brass Scorpion",
           "type": "WE",
           "speed": 20,
-          "armour": 4,
+          "armour": 3,
           "cc": 3,
           "ff": 4,
           "weapons": [
             "Scorpion Cannon",
             "Demolisher",
-            "Hellmaw|2|",
+            "Twin Hellmaw",
             "Scorpion Claws"
           ],
           "specialRules": [
               "Damage Capacity 3",
-              "Reinforced Armour",
               "Fearless",
               "Infiltrators",
               "Walker",
               "Invulnerable Save",
               "Daemon Engine (Khorne)"
           ],
-          "crit": "The unit takes an additional point of damage. All units in base contact takes a hit on 6+"
+          "crit": "The Greater Brass Scorpion is destroyed."
       },
         {
           "name": "Lord of Battles",
