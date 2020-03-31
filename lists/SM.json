@@ -242,6 +242,22 @@
 			]
 		},
 		{
+			"name": "Raven Guard Assaults",
+			"type": "INF",
+			"speed": 30,
+			"armour": 4,
+			"cc": 3,
+			"ff": 5,
+			"weapons": [
+				"Bolt Pistols",
+				"Chainswords"
+			],
+			"specialRules": [
+				"Guerilla Tactics",
+				"Jump Packs"
+			]
+		},
+		{
 			"name": "Blood Claw Assaults",
 			"type": "INF",
 			"speed": 15,
@@ -763,7 +779,7 @@
 			"speed": 15,
 			"armour": 4,
 			"cc": 4,
-			"ff": 3,
+			"ff": 4,
 			"weapons": [
 				"Heavy Bolter",
 				"Sternguard Bolters"

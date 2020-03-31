@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Ravenguard",
-  "version": "0.7.0",
-  "release": "2020-02-11",
+  "version": "0.7.1",
+  "release": "2020-03-31",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
@@ -24,7 +24,7 @@
         "Chaplain",
         "Librarian",
         "Supreme Commander",
-        "Assaults",
+        "Raven Guard Assaults",
         "Assault Bikes",
         "Raven Guard Scouts",
         "Sternguard Veterans",
@@ -70,7 +70,7 @@
       "formations": [
         {
           "name": "Assaults",
-          "units": "Four Assaults",
+          "units": "Four Raven Guard Assaults",
           "extraUnits": [
             "Commander",
             "Land Speeders"
@@ -135,7 +135,7 @@
             "Commander",
             "Land Speeders"
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "0-1 Terminators",
@@ -259,7 +259,7 @@
       },
       {
         "name": "Land Speeders",
-        "description": "Add any two of the following. If the formation can use Drop Pods, these units gain the 'Planetfall' special rule.",
+        "description": "Add any two of the following. If the formation can use Drop Pods, these units gain the 'Planetfall' special rule (only roll to scatter once for the entire formation).",
         "options": [
           {
             "description": "Land Speeder, Land Speeder Tornado",
