@@ -44,7 +44,6 @@
         "from": "darkmechanicus.json",
         "units": [
             "Defiler",
-            "Hellfire Cannon",
             "Forgefiend",
             "Heldrake",
             "Hell-Strider",
@@ -53,6 +52,7 @@
             "Plague Tower",
             "Contagion Engine",
             "Doomblaster",
+            "Cannons of Khorne",
             "Daemonic Assault Engine",
             "Lord of Battles",
             "Silver Tower",
@@ -120,13 +120,6 @@
             ],
             "points": 275
         },
-            {
-              "name": "Hellfire Cannons of Chaos Undivided",
-              "units": "Four Hellfire Cannons",
-              "upgrades": [
-              ],
-              "points": 225
-          },
           {
             "name": "Forgefiends of Chaos Undivided",
             "units": "Two Forgefiends",
@@ -195,6 +188,13 @@
           ],
           "points": 225
           },
+          {
+            "name": "Cannons of Khorne",
+            "units": "Four Cannons of Khorne",
+            "upgrades": [
+            ],
+            "points": 225
+        },
           {
             "name": "Khorne Daemonic Assault Engines",
             "units": "Four Daemonic Assault Engines",

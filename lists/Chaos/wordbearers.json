@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Word Bearers",
-  "version": "0.5.0",
-  "release": "2020-02-05",
+  "version": "0.5.1",
+  "release": "2020-03-31",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "The Word Bearers Retinue and all Word Bearers Elite formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -33,6 +33,7 @@
         "Chaos Terminators",
         "Chaos Assault Bikes",
         "Chaos Rhino",
+        "Chaos Stalker",
         "Chaos Land Raider",
         "Chaos Dreadnought"
     ],
@@ -46,9 +47,8 @@
             "Defiler",
             "Decimator",
             "Death Wheel",
-            "Hellfire Cannon",
             "Forgefiend",
-            "Possessed Stormbird"
+            "Word Bearers Stormbird"
         ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -110,7 +110,8 @@
             "Havocs",
             "Possessed",
             "Icon Bearer",
-            "Dreadnoughts"
+            "Dreadnoughts",
+            "Stalker"
           ],
           "points": 350
       },
@@ -166,7 +167,8 @@
         "units": "One Diabolist, four Havocs, two Chaos Rhinos, Daemonic Pact",
         "extraUnits": [
             "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
-          "Icon Bearer"
+          "Icon Bearer",
+          "Stalker"
         ],
         "points": 250
           }
@@ -184,11 +186,20 @@
         ],
         "points": 225
           },
-        {
-          "name": "Hellfire Cannons",
-          "units": "Four Hellfire Cannons",
-          "points": 225
-        },
+          {
+            "name": "Decimator",
+            "units": "One Decimator",
+            "extraUnits": [
+            ],
+            "points": 225
+          },
+          {
+            "name": "Death Wheel",
+            "units": "One Death Wheel",
+            "extraUnits": [
+            ],
+            "points": 275
+          },
         {
           "name": "Forgefiends",
           "units": "Two Forgefiends",
@@ -197,38 +208,28 @@
             ]
           },
         {
-      "name": "Dark Mechanicus War Engines and Chaos Navy",
-      "description": "Up to a third of the points available may be spent on these formations.",
+      "name": "Chaos Navy",
+      "description": "Up to a fourth of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "Decimators",
-            "units": "One Decimator",
-            "extraUnits": [
-              "Add one Decimator: 175 points"
-            ],
-            "points": 225
-          },
-          {
-            "name": "Death Wheels",
-            "units": "One Death Wheel",
-            "extraUnits": [
-              "Add one Death Wheel: 225 points"
-            ],
-            "points": 275
-          },
-          {
-            "name": "0-1 Stormbird",
-            "units": "One Possessed Stormbird",
-            "extraUnits": [
-            ],
-            "points": 300
-          },
           {
           "name": "Heldrakes",
           "units": "Two Heldrakes",
           "points": 225
         },
-
+        {
+          "name": "Stormbird",
+          "units": "One Word Bearers Stormbird",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "0-1 Harbringer Bomber",
+          "units": "One Harbringer Bomber",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
@@ -297,6 +298,11 @@
           "points": ""
       }
         ]
+      },
+      {
+        "name": "Stalker",
+        "description": "Add one Chaos Stalker",
+        "points": "50 points"
       },
       {
         "name": "Icon Bearer",
