@@ -129,7 +129,7 @@
             "Icon Bearer",
             "Vindicators"
         ],
-        "points": 375
+        "points": 400
     }
 
       ]
@@ -156,15 +156,7 @@
             "Stalker"
           ],
           "points": 250
-      },
-      {
-        "name": "Chaos Space Marines",
-        "units": "Six Chaos Space Marines, three Death Guard Rhinos, Daemonic Pact",
-        "extraUnits": [
-            "Vindicators"
-        ],
-        "points": 275
-    }
+      }
 
     ]
   },
@@ -173,20 +165,20 @@
     "description": "Up to three Support Formations may be taken per Core Formation",
     "formations": [
         {
+          "name": "Nurgle Defiler Pack",
+          "units": "Three Desecrators",
+          "extraUnits": [
+              "Add up to two Desecrators: 50 points each"
+          ],
+          "points": 200
+      },
+              {
           "name": "Plague Reaper",
           "units": "One Plague Reaper",
           "extraUnits": [
-              "Add one Plague Reaper for 175 points"
           ],
           "points": 225
       },
-      {
-        "name": "Nurgle Defiler Pack",
-        "units": "Four Desecrators",
-        "extraUnits": [
-        ],
-        "points": 250
-    },
       {
         "name": "Blight Drones",
         "units": "Seven Greater Blight Drones",
@@ -220,10 +212,9 @@
             "points": 175
             },
           {
-            "name": "Plaguehounds",
+            "name": "Plaguehound",
             "units": "One Plaguehound Titan",
             "extraUnits": [
-                "Add one Plaguehound Titan: 225 points"
             ],
             "points": 275
           },
@@ -298,7 +289,7 @@
         "options": [
           {
             "description": "Add four Death Guard Rhinos (Retinue only)",
-            "points": "50 points"
+            "points": "40 points"
           },
           {
             "description": "Add two Chaos Spartan Assault Tanks",
