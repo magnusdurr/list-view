@@ -141,30 +141,43 @@
         },
           {
             "name": "Berzerker Bikes",
-            "units": "One Chaos Lord, eight Khorne Berzerker Assault Bikes, Daemonic Pact",
+            "units": "One Chaos Lord, six Khorne Berzerker Assault Bikes, Daemonic Pact",
             "extraUnits": [
             "Supreme Commander",
                 "Icon Bearer"
             ],
-            "points": 375
+            "points": 300
         },
         {
           "name": "Juggernaut Riders",
-          "units": "One Chaos Lord, eight Juggernaut Riders, Daemonic Pact",
+          "units": "One Chaos Lord, six Juggernaut Riders, Daemonic Pact",
           "extraUnits": [
               "Supreme Commander",
               "Champion",
               "Icon Bearer"
           ],
-          "points": 375
+          "points": 300
         }
     ]
     },
   {
     "name": "World Eaters Support Formations",
-    "description": "Three Support formations may be taken per Core formation.",
+    "description": "Two Support formations may be taken per Core formation.",
     "formations": [
-
+        {
+          "name": "Doomblasters",
+          "units": "Three Doomblasters",
+          "extraUnits": [
+          ],
+          "points": 175
+          },
+          {
+            "name": "Cannons of Khorne",
+            "units": "Three Cannons of Khorne",
+            "extraUnits": [
+            ],
+            "points": 175
+        },
       {
         "name": "Khorne Defiler Pack",
         "units": "Four Slaughterfiends",
@@ -176,20 +189,6 @@
     {
       "name": "Daemonic Assault Engines",
       "units": "Four Daemonic Assault Engines",
-      "extraUnits": [
-      ],
-      "points": 225
-  },
-  {
-    "name": "Doomblasters",
-    "units": "Four Doomblasters",
-    "extraUnits": [
-    ],
-    "points": 225
-    },
-    {
-      "name": "Cannons of Khorne",
-      "units": "Four Cannons of Khorne",
       "extraUnits": [
       ],
       "points": 225
