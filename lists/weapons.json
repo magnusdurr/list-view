@@ -2171,15 +2171,21 @@
       ]
     },
     {
-      "name": "Blood Talons",
+      "name": "Blood Talon",
         "modes": [
           {
-            "firepower": "Assault Weapons",
-            "specialRules": [
+            "firepower": "Assault Weapon",
+              "specialRules": [
                 "EA(+1)",
                 "MW"
+            ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "or",
+            "specialRules": [
           ]
-          }
+        }
       ]
     },
     {
@@ -2633,12 +2639,18 @@
       "name": "Dreadnought Chainfist",
         "modes": [
           {
-            "firepower": "Assault Weapons",
-            "specialRules": [
+            "firepower": "Assault Weapon",
+              "specialRules": [
                 "EA(+1)",
                 "MW"
+            ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "or",
+            "specialRules": [
           ]
-          }
+        }
       ]
     },
     {
