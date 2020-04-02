@@ -37,6 +37,7 @@
         "Chaos Rhino",
         "Chaos Stalker",
         "World Eaters Vindicator",
+        "Chaos Land Raider",
         "Chaos Spartan Assault Tank",
         "Berzerker Dreadnought"
     ],
@@ -135,6 +136,7 @@
             "name": "Chaos Space Marines",
             "units": "Six Chaos Space Marines, three Chaos Rhinos, Daemonic Pact",
             "extraUnits": [
+                "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
                 "Stalker",
               "Vindicators"
             ],
@@ -293,7 +295,7 @@
           },
           {
             "description": "Replace four Chaos Rhinos with two Chaos Spartan Assault Tanks",
-            "points": "125 points"
+            "points": "100 points"
         }
         ]
       },
@@ -306,7 +308,7 @@
           },
           {
             "description": "Add two Chaos Spartan Assault Tanks",
-            "points": "125 points"
+            "points": "100 points"
         }
         ]
       },
