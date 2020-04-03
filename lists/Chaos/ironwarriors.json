@@ -30,6 +30,7 @@
         "Obliterators",
         "Iron Warriors Basilisk",
         "Bezashk Medusa",
+        "Chaos Typhon Heavy Siege Tank",
         "Chaos Rhino",
         "Chaos Siege Rhino",
         "Chaos Predator",
@@ -41,7 +42,8 @@
         "Iron Warriors Stormsword"
     ],
     "unitRules": [
-        "Iron Warriors Characters"
+        "Iron Warriors Characters",
+        "Heavy Armoured Vehicle (H-AV)"
     ]
     },
     {
@@ -136,6 +138,13 @@
           "points": 150
         },
         {
+          "name": "Bezashk Destroyers",
+          "units": "Four Bezashk Destroyers",
+          "extraUnits": [
+          ],
+          "points": 225
+      },
+        {
           "name": "Dreadnought Assault Pack",
           "units": "Four Chaos Dreadnoughts",
           "extraUnits": [
@@ -162,7 +171,7 @@
     "description": "One Siege formation may be taken per Core formation.",
     "formations": [
         {
-          "name": "Siege Engine",
+          "name": "Heavy Siege Engine",
           "units": "Iron Warriors Stormsword",
           "extraUnits": [
               "Vindicators",
@@ -171,11 +180,11 @@
           "points": 200
       },
       {
-        "name": "Bezashk Destroyers",
-        "units": "Four Bezashk Destroyers",
+        "name": "Bezashk Siege Battery",
+        "units": "Four Bezashk Medusa",
         "extraUnits": [
         ],
-        "points": 225
+        "points": 250
     },
     {
           "name": "Iron Warriors Artillery Battery",
@@ -185,13 +194,14 @@
           ],
           "points": 250
       },
-        {
-          "name": "Bezashk Medusa Battery",
-          "units": "Four Bezashk Medusa",
-          "extraUnits": [
-          ],
-          "points": 250
-      }
+      {
+        "name": "Heavy Siege Tanks",
+        "units": "Two Chaos Typhon Heavy Siege Tanks",
+        "extraUnits": [
+            "Add one Chaos Typhon Heavy Siege Tank: 125 points"
+        ],
+        "points": 300
+    }
           ]
       },
         {
@@ -313,8 +323,8 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add up to two Chaos Vindicators",
-        "points": "35 points each"
+        "description": "Add two Chaos Vindicators",
+        "points": "75 points"
       }
     ]
   }

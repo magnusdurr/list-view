@@ -1718,16 +1718,23 @@
     },
     {
       "name": "Dragon Battle Car",
-      "modes": [
-        {
-          "firepower": "4x AP4+",
-          "range": 30,
-          "specialRules": [
-              "IC"
+        "modes": [
+            {
+              "firepower": "4x AP4+",
+              "range": 30,
+              "specialRules": [
+                  "IC"
+          ]
+      },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+                "EA(+1)"
+              ]
+            }
       ]
-        }
-      ]
-    },
+  },
     {
       "name": "Siege Mortar Battle Car",
       "modes": [
@@ -2350,6 +2357,18 @@
             "firepower": "AP4+/AT5+/AA5+",
             "range": 15,
             "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Dreadhammer Siege Cannon",
+        "modes": [
+          {
+            "firepower": "MW3+",
+            "range": 45,
+            "specialRules": [
+                "IC"
           ]
           }
       ]
@@ -6879,6 +6898,19 @@
           "firepower": "AT4+",
           "range": 60,
           "specialRules": [
+            "D"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Neutron Laser Array",
+      "modes": [
+        {
+          "firepower": "AT2+",
+          "range": 90,
+          "specialRules": [
+            "Lance",
             "D"
         ]
         }

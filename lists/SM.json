@@ -2020,6 +2020,22 @@
 			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
+		  "name": "Typhon Heavy Siege Tank",
+		  "type": "H-AV",
+		  "speed": 20,
+		  "armour": 4,
+		  "cc": 6,
+		  "ff": 3,
+		  "weapons": [
+			"Dreadhammer Siege Cannon",
+			"Heavy Bolter|2|"
+		  ],
+		  "specialRules": [
+			  "Reinforced Armour",
+			  "Thick Rear Armour"
+		  ]
+			},
+		{
 			"name": "Fellblade",
 			"type": "WE",
 			"speed": "15",

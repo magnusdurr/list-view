@@ -47,10 +47,12 @@
         "Vindicator",
         "Storm Talon",
         "Thunderhawk Bomber",
+        "Typhon Heavy Siege Tank",
         "Fellblade"
       ],
       "unitRules": [
-        "They Shall Know No Fear"
+        "They Shall Know No Fear",
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -195,13 +197,21 @@
           "points": 200
       },
       {
+        "name": "0-1 Heavy Siege Relics",
+        "units": "Two Typhon Heavy Siege Tanks",
+        "extraUnits": [
+            "Add one Typhon Heavy Siege Tank: 125 points"
+        ],
+        "points": 300
+    },
+      {
         "name": "0-1 Fellblade Relics",
         "units": "Fellblade",
         "extraUnits": [
             "Add one Fellblade: 250 points"
         ],
         "points": 300
-      }
+    }
       ]
     },
     {

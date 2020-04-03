@@ -1097,14 +1097,13 @@
         "name": "Death Guard Rhino",
         "type": "AV",
         "speed": 25,
-        "armour": 5,
+        "armour": 4,
         "cc": 6,
         "ff": 6,
         "weapons": [
           "Combi-Bolter"
       ],
       "specialRules": [
-          "Invulnerable Save",
         "Transport"
     ],
       "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
@@ -1359,14 +1358,13 @@
         "name": "Death Guard Vindicator",
         "type": "AV",
         "speed": 20,
-        "armour": 4,
+        "armour": 3,
         "cc": 6,
         "ff": 4,
         "weapons": [
           "Demolisher"
         ],
         "specialRules": [
-            "Invulnerable Save",
           "Walker"
         ]
       },
@@ -1385,14 +1383,13 @@
       "name": "Death Guard Stalker",
       "type": "AV",
       "speed": 25,
-      "armour": 5,
+      "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
         "Hades Autocannon"
     ],
     "specialRules": [
-        "Invulnerable Save"
     ]
   },
 
@@ -1540,6 +1537,22 @@
         ],
         "notes": "May transport four infantry units without Jump Packs or Mounted. Terminators count as two units each."
           },
+          {
+            "name": "Chaos Typhon Heavy Siege Tank",
+            "type": "H-AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 6,
+            "ff": 3,
+            "weapons": [
+              "Dreadhammer Siege Cannon",
+              "Reaper Autocannon|2|"
+            ],
+            "specialRules": [
+                "Reinforced Armour",
+                "Thick Rear Armour"
+            ]
+              },
           {
             "name": "Iron Warriors Stormsword",
             "type": "WE",

@@ -242,6 +242,7 @@
           ],
           "notes": "May transport three infantry units without Jump Packs or Mounted."
             },
+
             {
               "name": "Triaros Armoured Despoiler",
               "type": "H-AV",
@@ -414,7 +415,7 @@
           "weapons": [
             "Battle Cannon",
             "Reaper Autocannon",
-            "Twin Heavy Flamers",
+            "Heavy Flamer",
             "Battle Claws"
           ],
           "specialRules": [
@@ -457,6 +458,25 @@
             "Daemon Engine (Chaos Undivided)"
           ]
         },
+        {
+          "name": "Word Bearers Cerberus Heavy Tank Destroyer",
+          "type": "H-AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Heavy Neutron Laser Array",
+            "Lascannon|2|"
+          ],
+          "specialRules": [
+              "Fearless",
+              "Reinforced Armour",
+              "Thick Rear Armour",
+              "Invulnerable Save",
+              "Daemon Engine (Chaos Undivided)"
+          ]
+            },
         {
           "name": "Knight-Renegade",
           "type": "H-AV",
@@ -830,7 +850,7 @@
           "ff": 4,
           "weapons": [
             "Skull Cannon",
-            "Twin Heavy Flamers",
+            "Heavy Flamer",
             "Reaper Autocannon",
             "Battle Claws"
           ],

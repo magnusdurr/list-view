@@ -48,10 +48,12 @@
             "Decimator",
             "Death Wheel",
             "Forgefiend",
+            "Word Bearers Cerberus Heavy Tank Destroyer",
             "Word Bearers Stormbird"
         ],
         "unitRules": [
-          "Daemon Engine (x)"
+          "Daemon Engine (x)",
+          "Lance"
         ]
     },
     {
@@ -179,6 +181,11 @@
     "description": "Up to one Daemon Engine formation may be taken per Cultist Coven formation.",
     "formations": [
         {
+          "name": "Forgefiends",
+          "units": "Two Forgefiends",
+          "points": 200
+      },
+        {
           "name": "Defiler Pack",
           "units": "Four Defilers",
         "extraUnits": [
@@ -199,11 +206,13 @@
             "extraUnits": [
             ],
             "points": 275
-          },
+        },
         {
-          "name": "Forgefiends",
-          "units": "Two Forgefiends",
-          "points": 200
+          "name": "Cerberus",
+          "units": "Two Word Bearers Cerberus Heavy Tank Destroyers",
+          "extraUnits": [
+          ],
+          "points": 300
         }
             ]
           },
