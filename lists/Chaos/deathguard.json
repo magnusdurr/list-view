@@ -56,7 +56,7 @@
         "from": "darkmechanicus.json",
         "units": [
             "Desecrator",
-            "Greater Blight Drone",
+            "Blight Drone",
             "Contagion Engine",
             "Plague Tower",
             "Plague Reaper"
@@ -101,7 +101,6 @@
   "sections": [
     {
       "name": "Death Guard Core Formations",
-      "description": "Up to one Death Guard Terminators may be taken per Death Guard Retinue.",
       "formations": [
         {
           "name": "Death Guard Retinue",
@@ -117,19 +116,8 @@
             "Dreadnoughts"
           ],
           "points": 300
-      },
-      {
-        "name": "Death Guard Terminators",
-        "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
-        "extraUnits": [
-            "Supreme Commander",
-            "Death Guard Transport",
-            "Champion",
-            "Icon Bearer",
-            "Vindicators"
-        ],
-        "points": 350
-    }
+      }
+
 
       ]
     },
@@ -155,7 +143,19 @@
             "Stalker"
           ],
           "points": 225
-      }
+      },
+      {
+        "name": "Death Guard Terminators",
+        "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
+        "extraUnits": [
+            "Supreme Commander",
+            "Death Guard Transport",
+            "Champion",
+            "Icon Bearer",
+            "Vindicators"
+        ],
+        "points": 350
+    }
 
     ]
   },
@@ -185,7 +185,7 @@
       },
       {
         "name": "Blight Drones",
-        "units": "Seven Greater Blight Drones",
+        "units": "Seven Blight Drones",
         "extraUnits": [
         ],
         "points": 250

@@ -741,7 +741,7 @@
           ]
         },
         {
-          "name": "Greater Blight Drone",
+          "name": "Blight Drone",
           "type": "LV",
           "speed": 25,
           "armour": 5,
@@ -849,9 +849,9 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Skull Cannon",
-            "Heavy Flamer",
+            "Heavy Cannon",
             "Reaper Autocannon",
+            "Heavy Flamer",
             "Battle Claws"
           ],
           "specialRules": [
@@ -974,7 +974,7 @@
               "Invulnerable Save",
               "Daemon Engine (Khorne)"
           ],
-          "crit": "The Lord of Battles takes one additional damage, and immediately rampages 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Lord of Battles into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
+          "crit": "The Lord of Battles takes one additional damage, and immediately rampages 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Lord of Battles into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+."
           },
           {
             "name": "Tower of Skulls",
@@ -996,7 +996,7 @@
                 "Regeneration",
                 "Daemon Engine (Khorne)"
             ],
-            "crit": "The Tower of Skulls takes an additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
+            "crit": "The Tower of Skulls takes an additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+."
         },
 
 
