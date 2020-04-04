@@ -784,8 +784,8 @@
           "ff": 3,
           "weapons": [
             "Pus Cannon||",
+            "Lascannon|3|FxF",
             "Demolisher||FxF",
-            "Lascannon|2|FxF",
             "Twin Heavy Bolters|3|FxF"
           ],
           "specialRules": [
@@ -822,20 +822,22 @@
           "type": "WE",
           "speed": 20,
           "armour": 3,
-          "cc": 4,
+          "cc": 5,
           "ff": 4,
           "weapons": [
-            "Battle Cannon|3|FxF",
-            "Plague Mortar||FxF"
+              "Plague Mortar||FxF",
+            "Demolisher|2|FxF",
+            "Bile Cannon"
+
           ],
           "specialRules": [
-              "Damage Capacity 6",
+              "Damage Capacity 4",
               "Fearless",
               "Invulnerable Save",
               "Daemon Engine (Nurgle)",
               "Transport"
           ],
-          "notes": "May transport fourteen infantry units, Blight Drones or Chaos Dreadnoughts. Terminators, Daemon Princes, Blight Drones and Chaos Dreadnoughts count as two units each.",
+          "notes": "May transport twelve infantry units. Terminators, Daemon Princes, Blight Drones and Chaos Dreadnoughts count as two units each.",
           "crit": "The Plague Tower takes an additional point of damage. 1D3 random units carried inside takes a hit."
       },
 
@@ -901,7 +903,7 @@
           "speed": 25,
           "armour": 3,
           "cc": 3,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
               "Blood Cannon",
             "Daemonic Blades"

@@ -1970,6 +1970,17 @@
       ]
     },
     {
+      "name": "Bile Cannon",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+                "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Bio-Acid-Venom Pods",
         "modes": [
           {
@@ -2170,7 +2181,7 @@
       "name": "Blood Cannon",
         "modes": [
           {
-            "firepower": "3x AP4+/AT5+",
+            "firepower": "2x AP4+/AT5+",
             "range": 30,
             "specialRules": [
           ]
@@ -4961,7 +4972,7 @@
       "name": "Heavy Plague Mortar",
         "modes": [
           {
-            "firepower": "6BP",
+            "firepower": "3BP",
             "range": 60,
             "specialRules": [
               "D",
@@ -7205,10 +7216,9 @@
         "modes": [
           {
               "firepower": "3BP",
-              "range":60,
+              "range":45,
             "specialRules": [
-                "D",
-                "IC"
+                "D"
           ]
           }
 
