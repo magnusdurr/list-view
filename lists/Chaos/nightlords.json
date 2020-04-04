@@ -27,7 +27,7 @@
         "Icon Bearer",
         "Night Lords Assault Marines",
         "Chaos Space Marines",
-        "Night Raptors",
+        "Raptors",
         "Warp Talons",
         "Night Lords Chosen",
         "Chaos Destroyers",
@@ -96,32 +96,32 @@
       "description": "Up to one Elite formation may be taken per Night Lords Core Formation",
       "formations": [
         {
-          "name": "Terminator Company",
-          "units": "One Night Lords Captain, four Atramentar Terminators",
-          "extraUnits": [
-              "Add two Chaos Spartan Assault Tanks: 150 points",
-              "Supreme Commander",
-              "Icon Bearer",
-              "Dreadnoughts",
-              "Dreadclaws"
-          ],
-          "points": 325
-      },
-          {
-        "name": "Warp Talon Cult",
-        "units": "Three Warp Talons, Daemonic Pact",
-        "extraUnits": [
-        ],
-        "points": 225
-    },
-        {
       "name": "Chosen",
       "units": "Four Night Lords Chosen, two Chaos Rhinos",
       "extraUnits": [
           "Replace two Chaos Rhinos with two Night Lords Dreadnoughts: 50 points"
       ],
       "points": 175
-  }
+  },
+  {
+"name": "Warp Talon Cult",
+"units": "Three Warp Talons, Daemonic Pact",
+"extraUnits": [
+],
+"points": 225
+},
+  {
+    "name": "Terminator Company",
+    "units": "One Night Lords Captain, four Atramentar Terminators",
+    "extraUnits": [
+        "Add two Chaos Spartan Assault Tanks: 150 points",
+        "Supreme Commander",
+        "Icon Bearer",
+        "Dreadnoughts",
+        "Dreadclaws"
+    ],
+    "points": 325
+}
     ]
   },
     {
