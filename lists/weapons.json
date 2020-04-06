@@ -3098,6 +3098,7 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
+                "EA(+1)",
                 "FS"
           ]
           },
@@ -3105,6 +3106,7 @@
             "firepower": "Assault Weapons",
             "join": "or",
             "specialRules": [
+                "EA(+1)",
                 "FS"
           ]
         }
