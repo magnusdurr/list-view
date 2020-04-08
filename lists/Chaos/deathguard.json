@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Death Guard",
-  "version": "0.7.6",
-  "release": "2020-04-03",
+  "version": "1.0.0",
+  "release": "2020-04-09",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "Death Guard Core, Elite, and Traitor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -152,7 +152,8 @@
             "Death Guard Transport",
             "Champion",
             "Icon Bearer",
-            "Vindicators"
+            "Vindicators",
+            "Dreadnoughts"
         ],
         "points": 350
     }
@@ -165,21 +166,21 @@
     "formations": [
         {
           "name": "0-2 Plague Zombie Infestation",
-          "units": "7 + 1D6 Plague Zombies",
+          "units": "7 Plague Zombies",
           "points": 175
           },
+          {
+      "name": "Plague Reaper",
+      "units": "One Plague Reaper",
+      "extraUnits": [
+      ],
+      "points": 225
+  },
         {
           "name": "Nurgle Defiler Pack",
           "units": "Four Desecrators",
           "extraUnits": [
               "Add one Desecrator: 50 points"
-          ],
-          "points": 225
-      },
-              {
-          "name": "Plague Reaper",
-          "units": "One Plague Reaper",
-          "extraUnits": [
           ],
           "points": 225
       },
@@ -195,7 +196,7 @@
       "units": "One Plague Tower",
       "extraUnits": [
       ],
-      "points": 250
+      "points": 275
   },
       {
         "name": "Contagion Engines",
@@ -231,7 +232,7 @@
           "points": 225
         },
         {
-          "name": "0-1 Blightbringer",
+          "name": "Blightbringer",
           "units": "One Blightbringer Bomber",
           "points": 325
         },
