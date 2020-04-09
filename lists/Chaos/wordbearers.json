@@ -48,9 +48,8 @@
             "Decimator",
             "Death Wheel",
             "Forgefiend",
-            "Word Bearers Cerberus Heavy Tank Destroyer",
-            "Word Bearers Stormbird"
-        ],
+            "Shrine of Chaos"
+            ],
         "unitRules": [
           "Daemon Engine (x)",
           "Lance"
@@ -63,7 +62,6 @@
         "Cultists",
         "Mutants",
         "Chaos Spawn",
-        "Technical",
         "Land Transporter"
     ],
     "unitRules": [
@@ -89,6 +87,7 @@
     "from": "chaosnavy.json",
     "units": [
       "Heldrake",
+        "Chaos Stormbird",
       "Devastation Class Cruiser",
       "Despoiler Class Battleship"
   ],
@@ -112,8 +111,7 @@
             "Havocs",
             "Possessed",
             "Icon Bearer",
-            "Dreadnoughts",
-            "Stalker"
+            "Dreadnoughts"
           ],
           "points": 350
       },
@@ -123,7 +121,6 @@
         "extraUnits": [
             "Icon Bearer",
             "Add one Chaos Spawn: 35 points",
-            "Add up to two Technicals: 20 points each",
             "Add enought Land Transporters to carry the entire formation with no space left over: 10 points each"
         ],
         "points": 225
@@ -134,20 +131,6 @@
       "name": "Word Bearers Elite Formations",
       "description": "Up to two Elite formations may be taken per Word Bearers Retinue.",
       "formations": [
-
-        {
-          "name": "Chaos Terminators",
-          "units": "One Dark Apostle, four Chaos Terminators, Daemonic Pact",
-          "extraUnits": [
-              "Add up to two Chaos Terminators: 50 points each",
-              "Supreme Commander",
-              "Icon Bearer",
-              "Transport",
-              "Dreadclaws",
-              "Dreadnoughts"
-          ],
-          "points": 350
-      },
         {
           "name": "Iconoclasts",
           "units": "One Diabolist, four Word Bearers Iconoclasts, Daemonic Pact",
@@ -156,6 +139,15 @@
           ],
           "points": 225
       },
+          {
+        "name": "Havocs",
+        "units": "One Diabolist, four Havocs, two Chaos Rhinos, Daemonic Pact",
+        "extraUnits": [
+            "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
+          "Icon Bearer"
+        ],
+        "points": 250
+    },
     {
       "name": "Bike Company",
       "units": "One Diabolist, eight Chaos Assault Bikes, Daemonic Pact",
@@ -164,16 +156,19 @@
       ],
       "points": 325
   },
-          {
-        "name": "Havocs",
-        "units": "One Diabolist, four Havocs, two Chaos Rhinos, Daemonic Pact",
-        "extraUnits": [
-            "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
+    {
+      "name": "Chaos Terminators",
+      "units": "One Dark Apostle, four Chaos Terminators, Daemonic Pact",
+      "extraUnits": [
+          "Add up to two Chaos Terminators: 50 points each",
+          "Supreme Commander",
           "Icon Bearer",
-          "Stalker"
-        ],
-        "points": 250
-          }
+          "Transport",
+          "Dreadclaws",
+          "Dreadnoughts"
+      ],
+      "points": 350
+  }
     ]
   },
   {
@@ -182,8 +177,8 @@
     "formations": [
         {
           "name": "Forgefiends",
-          "units": "Two Forgefiends",
-          "points": 200
+          "units": "Three Forgefiends",
+          "points": 225
       },
         {
           "name": "Defiler Pack",
@@ -208,12 +203,13 @@
             "points": 275
         },
         {
-          "name": "Cerberus",
-          "units": "Two Word Bearers Cerberus Heavy Tank Destroyers",
+          "name": "Shrine of Chaos",
+          "units": "One Shrine of Chaos",
           "extraUnits": [
           ],
           "points": 300
-        }
+      }
+
             ]
           },
         {
@@ -226,15 +222,15 @@
           "points": 225
         },
         {
-          "name": "Stormbird",
-          "units": "One Word Bearers Stormbird",
+          "name": "Harbringer Bomber",
+          "units": "One Harbringer Bomber",
           "extraUnits": [
           ],
           "points": 300
         },
         {
-          "name": "Harbringer Bomber",
-          "units": "One Harbringer Bomber",
+          "name": "Stormbird",
+          "units": "One Chaos Stormbird",
           "extraUnits": [
           ],
           "points": 300
@@ -307,11 +303,6 @@
           "points": ""
       }
         ]
-      },
-      {
-        "name": "Stalker",
-        "description": "Add one Chaos Stalker",
-        "points": "50 points"
       },
       {
         "name": "Icon Bearer",

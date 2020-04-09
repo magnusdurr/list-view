@@ -95,6 +95,27 @@
     "crit": "The Blightbringer Bomber is destroyed."
     },
     {
+      "name": "Chaos Stormbird",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 3,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "AC Twin Lascannons|3|FxF",
+        "AC Reaper Autocannon|2|Left",
+        "AC Reaper Autocannon|2|Right"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Planetfall",
+        "Fearless",
+        "Transport"
+      ],
+      "notes": "May transport twelve infantry units; Big Mutants, Chaos Spawn, Terminators and Dreadnoughts count as two units each. Counts as a Thunderhawk for being transported.",
+      "crit": "The Stormbird and all units being carried are destroyed. All units within 5cm takes a hit."
+  },
+    {
       "name": "Chaos Xiphon Interceptor",
       "type": "AC",
       "speed": "Fighter",

@@ -596,7 +596,28 @@
           ],
           "crit": "Move the Death Wheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Death Wheel is then destroyed"
       },
-
+      {
+          "name": "Shrine of Chaos",
+          "type": "WE",
+          "speed": 20,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+              "Heavy Cannon|2|FxF",
+              "Arcane Technology||"
+          ],
+          "specialRules": [
+              "Damage Capacity 4",
+              "Void Shields 2",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Daemon Engine (Chaos Undivided)",
+              "Transport"
+          ],
+          "notes": "May transport fourteen infantry units without Mounted or Jet Packs. Chaos Spawn, Terminators and Dreadnoughts count as two units each.",
+          "crit": "The Shrine of Chaos takes one additional damage. D3 transported units takes a hit."
+      },
         {
           "name": "Debaser",
           "type": "AV",
@@ -1133,32 +1154,8 @@
         "specialRules": [
             "Invulnerable Save"
         ]
-    },
-    {
-      "name": "Word Bearers Stormbird",
-      "type": "AC/WE",
-      "speed": "Bomber",
-      "armour": 4,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "AC Twin Lascannons|3|FxF",
-        "AC Reaper Autocannon||Left",
-        "AC Reaper Autocannon||Right",
-        "Daemonic Possession"
-      ],
-      "specialRules": [
-        "Damage Capacity 3",
-        "Planetfall",
-        "Reinforced Armour",
-        "Invulnerable Save",
-        "Fearless",
-        "Daemon Engine (Chaos Undivided)",
-        "Transport"
-      ],
-      "notes": "May transport twelve infantry units; Terminators and Dreadnoughts count as two units each. Counts as a Thunderhawk for being transported.",
-      "crit": "The Stormbird and all units being carried are destroyed. All units within 5cm takes a hit."
-  }
+    }
+
     ]
   }
 ]

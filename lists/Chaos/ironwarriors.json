@@ -58,17 +58,6 @@
           "Daemon Engine (x)"
         ]
     },
-    {
-      "from": "traitortitanlegions.json",
-      "units": [
-        "Chaos Warlord"
-      ],
-      "unitRules": [
-        "Void Shields",
-        "God Machine",
-        "Split Fire"
-    ]
-  },
   {
     "from": "chaosnavy.json",
     "units": [
@@ -237,11 +226,6 @@
             "extraUnits": [
             ],
             "points": 475
-          },
-          {
-            "name": "Chaos Warlord",
-            "units": "One Chaos Warlord Titan",
-            "points": 750
           },
           {
             "name": "Heldrakes",
