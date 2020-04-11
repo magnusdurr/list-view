@@ -242,6 +242,22 @@
 			]
 		},
 		{
+			"name": "White Scars Assaults",
+			"type": "INF",
+			"speed": 30,
+			"armour": 4,
+			"cc": 3,
+			"ff": 5,
+			"weapons": [
+				"Bolt Pistols",
+				"Chainswords"
+			],
+			"specialRules": [
+				"Jump Packs",
+				"Guerilla Tactics"
+			]
+		},
+		{
 			"name": "Raven Guard Assaults",
 			"type": "INF",
 			"speed": 30,

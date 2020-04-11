@@ -46,7 +46,6 @@
         "Blood Angels Whirlwind",
         "Storm Talon",
         "Storm Raven",
-        "Landing Craft",
         "Battle Barge",
         "Strike Cruiser",
         "Drop Pod"
@@ -70,7 +69,7 @@
             "name": "1 Death Company",
             "units": "One Chaplain, four Death Company Marines, two Death Company Rhinos",
             "extraUnits": [
-                "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: 50 points",
+                "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: Free",
                 "Replace two Death Company Rhinos with Drop Pods and add one Death Company Dreadnought: 100 points"
             ],
             "points": 250
@@ -91,12 +90,11 @@
         "name": "Assaults",
         "units": "Four Assaults",
         "extraUnits": [
-            "Add two Assaults: 50 points",
             "Sanguinary Guard",
             "Commander",
             "Predators"
         ],
-        "points": 175
+        "points": 150
       }
 
       ]
@@ -185,11 +183,6 @@
           ],
           "points": 275
         },
-        {
-          "name": "Landing Craft",
-          "units": "One Landing Craft",
-          "points": 350
-      },
     {
       "name": "0-1 Orbital Support",
       "units": "One Strike Cruiser",

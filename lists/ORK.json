@@ -20,8 +20,8 @@
         "title": "Super-Expendable",
         "description": [
           "A formation does not receive a Blast Marker when a unit with Super-Expendable is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. If a Super-Expendable unit is hit by a weapon with Disrupt it does not inflict a Blast Marker.",
-          "Super-expendable units killed in an assault do not count when working out the result.",
-          "If a formation is comprised completely of expendable and/or Super-Expendable units then they do not benefit from any of the rules above."
+          "Super-Expendable units killed in an assault do not count when working out the result.",
+          "Formations comprised completely of Expendable and/or Super-Expendable units do not benefit from any of the rules above."
           ]
       },
       {
@@ -95,12 +95,13 @@
     "name": "Speed Freek Oddboy",
     "type": "CH",
     "weapons": [
+      "Lifta-Droppa|0-1|",
       "D3+1 Power Fields|0-1|",
-      "Deff-Rolla and Red Paint Job|0-1|",
-      "Lifta-Droppa|0-1|"
+      "Deff-Rolla & Red Paint|0-1|"
+
     ],
     "specialRules": [
-        "The unit is given either [*] D3+1 power fields, or replaces a Big Gun with a Lifta Droppa, or is equipped with [**] Deff-Rolla (Improve CC to 2+) and Red Paint Job (+5 cm movement)."
+        "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3+1 Power Fields, or [**] is equipped with a Deff-Rolla (Improve CC to 2+) & Red Paint (Speed +5cm)."
     ]
   },
     {
@@ -784,7 +785,14 @@
       "name": "Evil Sunz Battlekroozer",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 1D6+3BP"
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "1D6+3BP, MW"
+              }
+            ]
+        }
     ],
     "specialRules": [
     ]

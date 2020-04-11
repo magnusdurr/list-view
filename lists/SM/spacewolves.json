@@ -39,7 +39,6 @@
         "Whirlwind",
         "Vindicator",
         "Questoris Knight-Freeblade",
-        "Landing Craft",
         "Storm Talon",
         "Stormwolf Assault Boat",
         "Stormfang Gunship",
@@ -81,20 +80,20 @@
         },
             {
           "name": "Blood Claw Assault Pack",
-          "units": "Four Blood Claw Assaults plus transport",
+          "units": "Five Blood Claw Assaults plus transport",
           "extraUnits": [
             "Runekeeper",
             "Razorbacks"
           ],
-          "points": 150
+          "points": 175
         },
         {
       "name": "Sky Claw Assault Pack",
-      "units": "Four Sky Claw Assaults",
+      "units": "Five Sky Claw Assaults",
       "extraUnits": [
           "Runekeeper"
       ],
-      "points": 150
+      "points": 175
         }
 
       ]
@@ -196,12 +195,6 @@
           "units": "One Stormfang Gunship",
           "points": 150
         },
-        {
-      "name": "Landing Craft",
-      "units": "One Landing Craft",
-      "points": 350
-  },
-
         {
           "name": "0-1 Freeblade Knight",
           "units": "One Questoris Knight-Freeblade of any configuration",
