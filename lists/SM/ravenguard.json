@@ -24,7 +24,7 @@
         "Chaplain",
         "Librarian",
         "Supreme Commander",
-        "Raven Guard Assaults",
+        "Assaults",
         "Assault Bikes",
         "Raven Guard Scouts",
         "Sternguard Veterans",
@@ -70,12 +70,12 @@
       "formations": [
         {
           "name": "Assaults",
-          "units": "Four Raven Guard Assaults",
+          "units": "Four Assaults",
           "extraUnits": [
             "Commander",
             "Land Speeders"
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Devastators",
@@ -95,7 +95,8 @@
             "Commander",
             "Land Speeders",
             "Snipers",
-            "Storms"
+            "Storms",
+            "Razorbacks"
           ],
           "points": 150
         },
@@ -288,7 +289,7 @@
       {
         "name": "Storms",
         "description": "Replace the 'plus transport' with four Land Speeder Storms",
-        "points": "75 points"
+        "points": "100 points"
       },
       {
         "name": "Tempest",
