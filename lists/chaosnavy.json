@@ -66,9 +66,9 @@
       "armour": 4,
       "weapons": [
         "AC Heavy Incendiary Bombs||FxF",
-        "AC Reaper Autocannon|2|FxF",
-        "AC Reaper Autocannon||Left",
-        "AC Reaper Autocannon||Right"
+        "AC Twin Reaper Autocannons|2|FxF",
+        "AC Twin Heavy Bolters||Left",
+        "AC Twin Heavy Bolters||Right"
       ],
       "specialRules": [
           "Damage Capacity 3",
@@ -83,14 +83,13 @@
       "armour": 4,
       "weapons": [
         "AC Blight Bombs||FxF",
-        "AC Reaper Autocannon|2|FxF",
-        "AC Reaper Autocannon||Left",
-        "AC Reaper Autocannon||Right"
+        "AC Twin Reaper Autocannons|2|FxF",
+        "AC Twin Heavy Bolters||Left",
+        "AC Twin Heavy Bolters||Right"
       ],
       "specialRules": [
           "Damage Capacity 3",
-          "Invulnerable Save",
-          "Reinforced Armour"
+          "Invulnerable Save"
       ],
     "crit": "The Blightbringer Bomber is destroyed."
     },
@@ -224,11 +223,12 @@
         "ff": 3,
         "weapons": [
           "AC Twin Lascannons|3|FxF",
-          "AC Reaper Autocannon|2|Left",
-          "AC Reaper Autocannon|2|Right"
+          "AC Twin Heavy Bolters|2|Left",
+          "AC Twin Heavy Bolters|2|Right"
         ],
         "specialRules": [
           "Damage Capacity 3",
+          "Fearless",
           "Reinforced Armour",
           "Planetfall",
           "Transport"
