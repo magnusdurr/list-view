@@ -1526,7 +1526,7 @@
         "speed": 20,
         "armour": 4,
         "cc": 6,
-        "ff": 3,
+        "ff": 4,
         "weapons": [
           "Twin Reaper Autocannons|2|",
           "Twin Heavy Flamers"
@@ -1534,6 +1534,7 @@
         "specialRules": [
             "Reinforced Armour",
             "Thick Rear Armour",
+            "Walker",
             "Transport"
         ],
         "notes": "May transport four infantry units without Jump Packs or Mounted. Terminators count as two units each."
@@ -1544,13 +1545,14 @@
             "speed": 20,
             "armour": 4,
             "cc": 6,
-            "ff": 3,
+            "ff": 5,
             "weapons": [
               "Dreadhammer Siege Cannon",
-              "Reaper Autocannon|2|"
+              "Lascannon|2|"
             ],
             "specialRules": [
                 "Reinforced Armour",
+                "Thick Rear Armour",
                 "Walker"
             ]
               },

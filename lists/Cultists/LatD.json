@@ -44,6 +44,8 @@
         "from": "darkmechanicus.json",
         "units": [
             "Defiler",
+            "Cerberite",
+            "Maulerfiend",
             "Forgefiend",
             "Heldrake",
             "Hell-Strider",
@@ -52,7 +54,7 @@
             "Plague Tower",
             "Contagion Engine",
             "Doomblaster",
-            "Cannons of Khorne",
+            "Cannon of Khorne",
             "Daemonic Assault Engine",
             "Lord of Battles",
             "Silver Tower",
@@ -110,7 +112,7 @@
     },
     {
       "name": "Chaos, Dark Mechanicus and Infestation Support Covens",
-      "description": "Two Support Coven formations may be taken per Cultist Coven. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations in the army. Support Covens are 0-1 for each part of 1500 points in the army",
+      "description": "Two Support Coven formations may be taken per Cultist Coven. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations in the army. Support Covens are 0-1 for each part of 1000 points in the army",
       "formations": [
           {
             "name": "Chaos Space Marines of Chaos Undivided",
@@ -120,6 +122,20 @@
             ],
             "points": 275
         },
+        {
+          "name": "Cerberites of Chaos Undivided",
+          "units": "Three Cerberites",
+        "extraUnits": [
+        ],
+        "points": 175
+          },
+          {
+            "name": "Maulerfiends of Chaos Undivided",
+            "units": "Four Maulerfiends",
+            "extraUnits": [
+            ],
+            "points": 200
+          },
           {
             "name": "Forgefiends of Chaos Undivided",
             "units": "Three Forgefiends",
@@ -158,9 +174,9 @@
               "name": "Subjugators of Slaanesh",
               "units": "One Subjugator",
               "upgrades": [
-                "Add one Subjugator: 200 points"
+                "Add one Subjugator: 225 points"
               ],
-              "points": 250
+              "points": 275
             },
             {
               "name": "Plague Tower of Nurgle",
@@ -175,7 +191,7 @@
             "upgrades": [
             ],
             "points": 325
-        }
+        },
 
       {
         "name": "Nurgle Plague Zombie Infestation",
@@ -194,7 +210,7 @@
             "units": "Four Daemonic Assault Engines",
             "upgrades": [
             ],
-            "points": 250
+            "points": 225
         },
         {
           "name": "Khorne Lord of Battles",

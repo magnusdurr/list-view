@@ -1162,16 +1162,15 @@
 		{
 			"name": "Ravenwing Land Speeder Venegance",
 			"type": "LV",
-			"speed": 30,
+			"speed": 35,
 			"armour": 4,
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Assault Cannon",
-				"Plasma Storm Battery"
+				"Plasma Storm Battery",
+				"Assault Cannon"
 			],
 			"specialRules": [
-				"Scout",
 				"Skimmer",
 				"Invulnerable Save",
 				"Teleport Homer"
@@ -2040,13 +2039,14 @@
 		  "speed": 20,
 		  "armour": 4,
 		  "cc": 6,
-		  "ff": 3,
+		  "ff": 5,
 		  "weapons": [
 			"Dreadhammer Siege Cannon",
-			"Heavy Bolter|2|"
+			"Lascannon|2|"
 		  ],
 		  "specialRules": [
 			  "Reinforced Armour",
+			  "Thick Rear Armour",
 			  "Walker"
 		  ]
 			},

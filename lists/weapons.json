@@ -1622,6 +1622,7 @@
         }
       ]
     },
+
     {
       "name": "Baneblade Cannon",
           "modes": [
@@ -5320,13 +5321,13 @@
       ]
     },
     {
-      "name": "Hellslicer Battle Claws",
+      "name": "Hellslicer Battle Claw",
         "modes": [
           {
             "firepower": "Assault Weapons",
             "specialRules": [
                 "EA(+1)",
-                "TK(D2)"
+                "TK(D3)"
           ]
         }
       ]
@@ -10272,7 +10273,7 @@
       "name": "Tormentor Cannons",
         "modes": [
           {
-            "firepower": "2BP",
+            "firepower": "3BP",
             "range": 30,
             "specialRules": [
               "D"
