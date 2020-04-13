@@ -160,7 +160,7 @@
               "Champion",
               "Icon Bearer"
           ],
-          "points": 325
+          "points": 300
         }
     ]
     },
@@ -175,6 +175,14 @@
           ],
           "points": 175
           },
+          {
+            "name": "Khorne Defiler Pack",
+            "units": "Four Slaughterfiends",
+            "extraUnits": [
+                "Add up to two Slaughterfiends: 50 points each"
+            ],
+            "points": 200
+        },
         {
           "name": "Greater Brass Scorpion",
           "units": "One Greater Brass Scorpion",
@@ -190,20 +198,10 @@
             ],
             "points": 225
         },
-
-      {
-        "name": "Khorne Defiler Pack",
-        "units": "Four Slaughterfiends",
-        "extraUnits": [
-            "Add one Slaughterfiend: 50 points"
-        ],
-        "points": 225
-    },
     {
       "name": "Daemonic Assault Engines",
       "units": "Four Daemonic Assault Engines",
       "extraUnits": [
-            "Add one Daemonic Assault Engine: 50 points"
       ],
       "points": 225
   }

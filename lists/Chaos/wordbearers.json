@@ -44,15 +44,15 @@
     {
         "from": "darkmechanicus.json",
         "units": [
+            "Cerberite",
+            "Maulerfiend",
             "Defiler",
-            "Decimator",
             "Death Wheel",
             "Forgefiend",
             "Shrine of Chaos"
             ],
         "unitRules": [
-          "Daemon Engine (x)",
-          "Lance"
+          "Daemon Engine (x)"
         ]
     },
     {
@@ -176,25 +176,37 @@
     "description": "Up to two Daemon Engine formations may be taken per Cultist Coven formation.",
     "formations": [
         {
+          "name": "Cerberites",
+          "units": "Three Cerberites",
+        "extraUnits": [
+        ],
+        "points": 175
+          },
+        {
           "name": "Forgefiends",
           "units": "Three Forgefiends",
           "points": 225
       },
-        {
-          "name": "Defiler Pack",
-          "units": "Four Defilers",
-        "extraUnits": [
-          "Add up to two Defilers: 50 points each"
-        ],
-        "points": 225
-          },
           {
-            "name": "Decimator",
-            "units": "One Decimator",
+            "name": "Maulerfiends",
+            "units": "Four Maulerfiends",
             "extraUnits": [
             ],
             "points": 225
           },
+          {
+            "name": "Defilers",
+            "units": "Four Defilers",
+            "extraUnits": [
+            ],
+            "points": 225
+          }
+            ]
+          },
+        {
+      "name": "War Engines & Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations.",
+      "formations": [
           {
             "name": "Death Wheel",
             "units": "One Death Wheel",
@@ -208,21 +220,14 @@
           "extraUnits": [
           ],
           "points": 300
-      }
-
-            ]
-          },
-        {
-      "name": "Chaos Navy",
-      "description": "Up to a fourth of the points available may be spent on these formations.",
-      "formations": [
+      },
           {
           "name": "Heldrakes",
           "units": "Two Heldrakes",
           "points": 225
         },
         {
-          "name": "Harbringer Bomber",
+          "name": "Harbringer",
           "units": "One Harbringer Bomber",
           "extraUnits": [
           ],

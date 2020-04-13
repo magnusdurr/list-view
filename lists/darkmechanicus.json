@@ -447,14 +447,51 @@
           "type": "AV",
           "speed": 15,
           "armour": 4,
-          "cc": 6,
-          "ff": 5,
+          "cc": 5,
+          "ff": 4,
           "weapons": [
             "Twin Hades Autocannons"
           ],
           "specialRules": [
             "Fearless",
             "Invulnerable Save",
+            "Walker",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Cerberite",
+          "type": "AV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 5,
+          "ff": 2,
+          "weapons": [
+            "Ectoplasma Cannon|3|"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save",
+            "Walker",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Maulerfiend",
+          "type": "AV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 2,
+          "ff": 5,
+          "weapons": [
+            "Lasher Tendrils",
+            "Melta Cutter"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save",
+            "Infiltrators",
+            "Walker",
             "Daemon Engine (Chaos Undivided)"
           ]
         },
@@ -872,11 +909,10 @@
           "speed": 20,
           "armour": 4,
           "cc": 3,
-          "ff": 4,
+          "ff": 5,
           "weapons": [
             "Heavy Cannon",
             "Reaper Autocannon",
-            "Heavy Flamer",
             "Battle Claws"
           ],
           "specialRules": [
@@ -928,7 +964,7 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-              "Blood Cannon",
+              "Blood Cannons",
             "Daemonic Blades"
           ],
           "specialRules": [
@@ -965,9 +1001,9 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Scorpion Cannon",
-            "Demolisher",
-            "Twin Hellmaw",
+            "Scorpion Cannon||FwA",
+            "Demolisher||FxF",
+            "Twin Hellmaw||FxF",
             "Scorpion Claws"
           ],
           "specialRules": [
@@ -1007,11 +1043,10 @@
             "speed": 20,
             "armour": 5,
             "cc": 4,
-            "ff": 4,
+            "ff": 3,
             "weapons": [
               "Hellstrike Cannon||FxF",
-              "Death Storm||FwA",
-              "Hellfire Cannon|2|FxF",
+              "Hellfire Cannon|3|FxF",
               "Twin Reaper Autocannons Turret|2|"
             ],
             "specialRules": [
@@ -1019,6 +1054,7 @@
                 "Reinforced Armour",
                 "Fearless",
                 "Regeneration",
+                "Daemonic Focus",
                 "Daemon Engine (Khorne)"
             ],
             "crit": "The Tower of Skulls takes an additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+."

@@ -94,27 +94,7 @@
       ],
     "crit": "The Blightbringer Bomber is destroyed."
     },
-    {
-      "name": "Chaos Stormbird",
-      "type": "AC/WE",
-      "speed": "Bomber",
-      "armour": 3,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "AC Twin Lascannons|3|FxF",
-        "AC Reaper Autocannon|2|Left",
-        "AC Reaper Autocannon|2|Right"
-      ],
-      "specialRules": [
-        "Damage Capacity 3",
-        "Planetfall",
-        "Fearless",
-        "Transport"
-      ],
-      "notes": "May transport twelve infantry units; Big Mutants, Chaos Spawn, Terminators and Dreadnoughts count as two units each. Counts as a Thunderhawk for being transported.",
-      "crit": "The Stormbird and all units being carried are destroyed. All units within 5cm takes a hit."
-  },
+
     {
       "name": "Chaos Xiphon Interceptor",
       "type": "AC",
@@ -235,6 +215,27 @@
       "notes": "May transport eight infantry units; Terminators, Daemon Princes, Chaos Spawn, Big Mutants and Dreadnoughts counts as two units each.",
       "crit": " The Thunderhawk and all units being carried are destroyed."
       },
+      {
+        "name": "Chaos Stormbird",
+        "type": "AC/WE",
+        "speed": "Bomber",
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "AC Twin Lascannons|3|FxF",
+          "AC Reaper Autocannon|2|Left",
+          "AC Reaper Autocannon|2|Right"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "May transport twelve infantry units; Chaos Spawn, Terminators and Dreadnoughts count as two units each. Counts as a Thunderhawk for being transported.",
+        "crit": "The Stormbird and all units being carried are destroyed. All units within 5cm takes a hit."
+    },
       {
         "name": "Hellbringer Class Light Cruiser",
         "type": "SC",

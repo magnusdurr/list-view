@@ -2178,12 +2178,12 @@
       ]
     },
     {
-      "name": "Blood Cannon",
+      "name": "Blood Cannons",
         "modes": [
           {
-            "firepower": "2x AP4+/AT5+",
-            "range": 30,
+            "firepower": "Small Arms",
             "specialRules": [
+                "EA(+1)"
           ]
           }
       ]
@@ -3663,6 +3663,18 @@
       ]
     },
     {
+      "name": "Ectoplasma Cannon",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+",
+          "range": 30,
+          "specialRules": [
+              "D"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Eldar Missile Launcher",
       "modes": [
         {
@@ -4527,7 +4539,7 @@
       "name": "Twin Hades Autocannons",
         "modes": [
           {
-            "firepower": "3x AP4+/AT5+/AA6+",
+            "firepower": "4x AP5+/AT6+/AA6+",
             "range": 45,
             "specialRules": [
           ]
@@ -4538,7 +4550,7 @@
       "name": "AC Twin Hades Autocannons",
         "modes": [
           {
-            "firepower": "3x AP4+/AT5+/AA5+",
+            "firepower": "4x AP5+/AT6+/AA6+",
             "range": 30,
             "specialRules": [
           ]
@@ -5726,7 +5738,6 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-                "MW"
           ]
           }
       ]
@@ -5956,6 +5967,17 @@
           "firepower": "Assault Weapons",
           "specialRules": [
             "MW","FS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lasher Tendrils",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "FS"
           ]
         }
       ]

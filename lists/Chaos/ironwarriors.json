@@ -49,8 +49,7 @@
     {
         "from": "darkmechanicus.json",
         "units": [
-            "Defiler",
-            "Decimator",
+            "Maulerfiend",
             "Ordinatus Hereticus ",
             "Ordinatus Cyclothrathe"
         ],
@@ -189,7 +188,7 @@
         "extraUnits": [
             "Add one Chaos Typhon Heavy Siege Tank: 125 points"
         ],
-        "points": 300
+        "points": 275
     }
           ]
       },
@@ -198,21 +197,12 @@
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
-            "name": "Defiler Pack",
-            "units": "Four Defilers",
+            "name": "Maulerfiends",
+            "units": "Four Maulerfiends",
           "extraUnits": [
-            "Add up to two Defilers: 50 points each"
           ],
           "points": 225
             },
-          {
-            "name": "Decimators",
-            "units": "One Decimator",
-            "extraUnits": [
-                "Add one Decimator: 175 points"
-            ],
-            "points": 225
-          },
           {
             "name": "Ordinatus Hereticus",
             "units": "Two Ordinatus Hereticus",

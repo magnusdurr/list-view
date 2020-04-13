@@ -177,13 +177,12 @@
           },
           {
             "name": "Defiler Pack",
-            "units": "Four Debasers of Slaanesh, four Desecrators of Nurgle, four Slaughterfiends of Khorne, or four Defilers of Chaos Undivided",
+            "units": "Four Slaughterfiends of Khorne",
             "extraUnits": [
-                "Replace four Debasers with four Decievers of Tzeentch: 25 points",
-                "Add a Defiler of the same configuration to the formation: 50 points",
-                "Add Daemonic Pact to the formation: 25 points"
+                "Replace four Slaughterfiends with four Debasers of Slaanesh, four Desecrators of Nurgle, or four Defilers of Chaos Undivided: 25 points",
+                "Replace four Slaughterfiends with four Decievers of Tzeentch: 50 points"
             ],
-            "points": 225        }
+            "points": 200        }
     ]
   },
         {
@@ -211,7 +210,7 @@
           "points": 225
         },
         {
-          "name": "Harbringer Bomber",
+          "name": "Harbringer",
           "units": "One Harbringer Bomber",
           "points": 300
         },
