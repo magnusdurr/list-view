@@ -129,15 +129,6 @@
       "name": "Wraithkind Partisans",
       "description": "Up to one Wraithkind Partisans for each Wraithkind Kabal",
       "formations": [
-
-          {
-            "name": "Hellion Murder",
-            "units": "Six Hellion Skyboards",
-            "extraUnits": [
-              "Add three Warp Beasts: 50 points"
-            ],
-            "points": 175
-          },
           {
             "name": "Reaver Gang",
             "units": "Six Reaver Jet Bikes",
@@ -147,11 +138,12 @@
             "points": 175
           },
           {
-            "name": "Scourge Flight",
-            "units": "Six Scourges",
+            "name": "Hellion Murder",
+            "units": "Six Hellion Skyboards",
             "extraUnits": [
+              "Add up to two Warp Beasts: 25 points each"
             ],
-            "points": 250
+            "points": 200
           },
           {
             "name": "Wych Cult",
@@ -160,8 +152,16 @@
               "Portable Webway Portal",
               "Wraithkind Transport"
             ],
-            "points": 175
+            "points": 200
+        },
+          {
+            "name": "Scourge Flight",
+            "units": "Six Scourges",
+            "extraUnits": [
+            ],
+            "points": 250
           }
+
 
 
       ]

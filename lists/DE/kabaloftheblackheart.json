@@ -115,7 +115,38 @@
       "name": "Black Heart Partisan Formations",
       "description": "Up to two Partisan Formations may be taken for each Kabal Formation",
       "formations": [
-
+          {
+            "name": "Reaver Gang",
+            "units": "Six Reaver Jet Bikes",
+            "extraUnits": [
+              "Add up to two Reaver Jet Bikes: 25 points each"
+            ],
+            "points": 175
+        },
+        {
+          "name": "Mandrake Throng",
+          "units": "Six Mandrakes",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Wych Cult",
+          "units": "One Succubus in a unit of Wyches, three Wyches",
+          "extraUnits": [
+            "Portable Webway",
+            "Black Heart Transport"
+          ],
+          "points": 200
+      },
+        {
+          "name": "Hellion Murder",
+          "units": "Six Hellion Skyboards",
+          "extraUnits": [
+            "Add up to two Warp Beasts: 25 points each"
+          ],
+          "points": 200
+        },
         {
           "name": "Haemonculi Coven",
           "units": "Haemonculus Ancient, two Haemonculi and four Wracks",
@@ -127,21 +158,6 @@
           ],
           "points": 225
         },
-
-        {
-          "name": "Mandrake Throng",
-          "units": "Six Mandrakes",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
-        {
-          "name": "Scourge Flight",
-          "units": "Six Scourges",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
         {
           "name": "Talos Swarm",
           "units": "Four Talos",
@@ -149,32 +165,14 @@
             "Talos"
           ],
           "points": 225
-        },
-        {
-          "name": "Wych Cult",
-          "units": "One Succubus in a unit of Wyches, three Wyches",
-          "extraUnits": [
-            "Portable Webway",
-            "Black Heart Transport"
-          ],
-          "points": 175
       },
-        {
-          "name": "Hellion Murder",
-          "units": "Six Hellion Skyboards",
-          "extraUnits": [
-            "Add three Warp Beasts: 50 points"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Reaver Gang",
-          "units": "Six Reaver Jet Bikes",
-          "extraUnits": [
-            "Add up to two Reaver Jet Bikes: 25 points each"
-          ],
-          "points": 175
-        }
+      {
+        "name": "Scourge Flight",
+        "units": "Six Scourges",
+        "extraUnits": [
+        ],
+        "points": 250
+      }
 
 
       ]
