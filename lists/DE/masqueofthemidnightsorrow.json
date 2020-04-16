@@ -114,15 +114,14 @@
         },
         {
           "name": "Wraithkind Syndicate",
-          "units": "Six Dark Eldar Warriors",
+          "units": "One Dracon, six Dark Eldar Warriors",
           "extraUnits": [
-            "Add one Dracon to a unit of Warriors: 25 points",
             "Warriors",
             "Ravagers",
             "Portable Webway Portal",
             "Wraithkind Transport"
           ],
-          "points": 200
+          "points": 250
         }
       ]
     },
@@ -130,13 +129,7 @@
       "name": "Wraithkind Partisans",
       "description": "Up to one Wraithkind Partisans for each Wraithkind Kabal",
       "formations": [
-          {
-            "name": "Vessel of Pain",
-            "units": "One Vessel of Pain",
-            "extraUnits": [
-            ],
-            "points": 250
-          },
+
           {
             "name": "Hellion Murder",
             "units": "Six Hellion Skyboards",
@@ -232,6 +225,21 @@
       "description": "Up to a third of the points available may be spent on Commorragh Navy and War Engine formations",
       "formations": [
           {
+            "name": "Vessel of Pain",
+            "units": "One Vessel of Pain",
+            "extraUnits": [
+            ],
+            "points": 250
+          },
+          {
+            "name": "Tormentor",
+            "units": "One Tormentor Titan",
+            "extraUnits": [
+
+            ],
+            "points": 350
+        },
+          {
             "name": "Razorwing Cast",
             "units": "Two Razorwing Interceptors",
             "extraUnits": [
@@ -252,14 +260,6 @@
 
             ],
             "points": 200
-        },
-        {
-          "name": "Tormentor",
-          "units": "One Tormentor Titan",
-          "extraUnits": [
-
-          ],
-          "points": 350
         }
       ]
     }

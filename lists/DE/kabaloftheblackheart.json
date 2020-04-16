@@ -91,24 +91,23 @@
           "points": 225
         },
         {
+          "name": "Black Heart Syndicate",
+          "units": "One Dracon, six Dark Eldar Warriors",
+          "extraUnits": [
+            "Ravagers",
+            "Portable Webway",
+            "Black Heart Transport",
+            "Warriors"
+          ],
+          "points": 250
+      },
+        {
           "name": "Black Heart Flotilla",
           "units": "Four Ravagers",
           "extraUnits": [
             "Ravagers"
           ],
           "points": 225
-        },
-        {
-          "name": "Black Heart Syndicate",
-          "units": "Six Dark Eldar Warriors",
-          "extraUnits": [
-            "Add one Dracon to a unit of Warriors: 25 points",
-            "Ravagers",
-            "Portable Webway",
-            "Black Heart Transport",
-            "Warriors"
-          ],
-          "points": 200
         }
       ]
     },
@@ -119,9 +118,8 @@
 
         {
           "name": "Haemonculi Coven",
-          "units": "Two Haemonculi and four Wracks",
+          "units": "Haemonculus Ancient, two Haemonculi and four Wracks",
           "extraUnits": [
-             "Add one Haemonculus Ancient character to a unit of Haemonculi: 25 points",
              "Add two Grotesques: 50 points",
              "Portable Webway",
              "Talos",
@@ -129,13 +127,7 @@
           ],
           "points": 225
         },
-        {
-          "name": "Vessel of Pain",
-          "units": "One Vessel of Pain",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
+
         {
           "name": "Mandrake Throng",
           "units": "Six Mandrakes",
@@ -191,6 +183,21 @@
       "name": "Commorragh Navy & War Engines",
       "description": "Up to a third of the points available may be spent on Commorragh Navy and War Engine formations",
       "formations": [
+          {
+            "name": "Vessel of Pain",
+            "units": "One Vessel of Pain",
+            "extraUnits": [
+            ],
+            "points": 250
+          },
+          {
+            "name": "Executioner",
+            "units": "One Executioner Landing Module",
+            "extraUnits": [
+
+            ],
+            "points": 450
+          },
         {
           "name": "Razorwing Cast",
           "units": "Two Razorwing Interceptors",
@@ -212,14 +219,6 @@
 
           ],
           "points": 200
-        },
-        {
-          "name": "Executioner",
-          "units": "One Executioner Landing Module",
-          "extraUnits": [
-
-          ],
-          "points": 450
         },
         {
           "name": "0-1 Orbital Support",
