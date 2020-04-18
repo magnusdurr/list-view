@@ -2,7 +2,7 @@
   "fraction": "Space Marines",
   "army": "Imperial Fists",
   "version": "0.5.2",
-  "release": "2019-01-10",
+  "release": "2020-04-18",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "Tarantula and Hyperios Emplacement formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Imperial Fists detachments.",
@@ -95,7 +95,7 @@
           "name": "Devastators",
           "units": "Four Devastators plus transport",
           "extraUnits": [
-            "Add six Space Marine Rapiers, four Space Marine Thudd Guns, or four Space Marine Thunderfires: 150 points",
+            "Replace 'plus transport' with six Space Marine Rapiers, four Space Marine Thudd Guns, or four Space Marine Thunderfires: 125 points",
             "Commander",
             "Vindicators",
             "Razorbacks"
@@ -103,13 +103,22 @@
           "points": 250
         },
         {
+          "name": "Whirlwinds",
+          "units": "Four Whirlwinds",
+          "extraUnits": [
+            "Add two Whirlwinds: 75 points",
+            "Anti-Air",
+            "Commander"
+          ],
+          "points": 275
+      },
+        {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
           "extraUnits": [
             "Add one Land Raider Achilles: 125 points",
             "Vindicators",
-            "Anti-Air",
-            "Commander"
+            "Anti-Air"
           ],
           "points": 250
         },
@@ -127,7 +136,7 @@
     },
     {
       "name": "Imperial Fists Support Detachments",
-      "description": "Up to three Support Detachments for each Core Detachment.",
+      "description": "Up to two Support Detachments for each Core Detachment.",
       "formations": [
         {
           "name": "Predators",
@@ -177,16 +186,7 @@
           ],
           "points": 275
         },
-        {
-          "name": "Whirlwinds",
-          "units": "Four Whirlwinds",
-          "extraUnits": [
-            "Add two Whirlwinds: 75 points",
-            "Anti-Air",
-            "Commander"
-          ],
-          "points": 275
-      },
+
         {
           "name": "Support Battery",
           "units": "Six Space Marine Rapiers, four Space Marine Thudd Guns, or four Space Marine Thunderfires",

@@ -32,7 +32,7 @@
           "Alpha Legion Dreadnought",
           "Alpha Legion Rhino",
           "Alpha Legion Land Raider",
-          "Alpha Legion Predator"
+          "Alpha Legion Sicarian Battle Tank"
       ],
       "unitRules": [
           "Stubborn"
@@ -103,10 +103,10 @@
               "Add a Daemonic Icon to the Aspiring Champion: 25 points",
               "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
               "Replace up to three Chaos Cultists with Big Mutants: 15 points each",
-              "Add three Heavy Mortars, or two Ragnarok Heavy Tanks: 100 points",
+              "Add two Ragnarok Heavy Tanks: 100 points",
               "Add one Chaos Spawn: 35 points",
-              "Supreme Commander",
-              "Flak"
+              "Flak",
+              "Supreme Commander"
             ],
             "points": 200
         },
@@ -140,7 +140,6 @@
             "name": "Heavy Mortar Battery",
             "units": "Three Heavy Mortars, two Big Mutants",
             "extraUnits": [
-                "Flak"
             ],
             "points": 200
         },
@@ -148,9 +147,9 @@
           "name": "Macharius Platoon",
           "units": "Two Macharius",
           "extraUnits": [
-                "Flak"
+                  "Flak"
               ],
-              "points": 200
+              "points": 225
           },
           {
             "name": "Ragnarok Squadron",
@@ -168,11 +167,11 @@
       "description": "Up to one Alpha Legion Elite Detachment for each Alpha Legion Marines Formation.",
       "formations": [
           {
-            "name": "Predators",
-            "units": "Four Alpha Legion Predators",
+            "name": "Sicarians",
+            "units": "Three Alpha Legion Sicarian Battle Tanks",
             "extraUnits": [
             ],
-            "points": 250
+            "points": 225
           },
           {
             "name": "Destroyers",
@@ -195,8 +194,7 @@
             "name": "Headhunters",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Headhunters plus transport",
             "extraUnits": [
-              "Supreme Commander",
-                "Dreadnoughts"
+              "Supreme Commander"
             ],
             "points": 250
           }
@@ -217,14 +215,14 @@
 
         {
           "name": "Fire Raptor",
-          "units": "One Alpha Legion Fire Raptor",
+          "units": "One Chaos Fire Raptor",
           "extraUnits": [
           ],
           "points": 175
         },
         {
           "name": "Xiphon Squadron",
-          "units": "Two Alpha Legion Xiphon Interceptors",
+          "units": "Two Chaos Xiphon Interceptors",
           "extraUnits": [
           ],
           "points": 225

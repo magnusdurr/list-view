@@ -330,7 +330,7 @@
       "name": "AC Twin Avenger Bolt Cannons",
         "modes": [
           {
-            "firepower": "3x AP5+/AT5+",
+            "firepower": "4x AP6+/AT6+",
             "range": 30,
             "specialRules": [
           ]
@@ -1234,6 +1234,17 @@
           {
             "firepower": "2x MW3+",
             "range": 75,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Accelerator Autocannons",
+        "modes": [
+          {
+            "firepower": "MW4+",
+            "range": 45,
             "specialRules": [
           ]
           }
@@ -6337,7 +6348,6 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)",
             "MW"
         ]
         }
@@ -6934,6 +6944,19 @@
           "firepower": "AT4+",
           "range": 60,
           "specialRules": [
+            "D"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Neutron Laser Projector",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 75,
+          "specialRules": [
+            "Lance",
             "D"
         ]
         }
