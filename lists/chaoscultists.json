@@ -156,8 +156,8 @@
       {
         "name": "Cultist Cavalry",
         "type": "INF",
-        "speed": 20,
-        "armour": 6,
+        "speed": 30,
+        "armour": 5,
         "cc": 4,
         "ff": 6,
         "weapons": [
@@ -165,7 +165,6 @@
           "Chainswords"
         ],
         "specialRules": [
-          "Infiltrators",
           "Mounted",
           "Walker"
         ]

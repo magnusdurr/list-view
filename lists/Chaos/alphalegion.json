@@ -129,19 +129,19 @@
       "description": "Up to one Cultist Support Formations per Cultist Coven",
       "formations": [
           {
+            "name": "Heavy Mortar Battery",
+            "units": "Three Heavy Mortars, two Big Mutants",
+            "extraUnits": [
+            ],
+            "points": 200
+        },
+          {
           "name": "Cultist Cavalry",
           "units": "Six Death Riders, four Chaos Hounds",
           "extraUnits": [
               "Add Daemonic Icon to the formation: 75 points"
           ],
           "points": 225
-        },
-          {
-            "name": "Heavy Mortar Battery",
-            "units": "Three Heavy Mortars, two Big Mutants",
-            "extraUnits": [
-            ],
-            "points": 200
         },
         {
           "name": "Macharius Platoon",
@@ -166,13 +166,7 @@
       "name": "Alpha Legion Elite Detachments",
       "description": "Up to one Alpha Legion Elite Detachment for each Alpha Legion Marines Formation.",
       "formations": [
-          {
-            "name": "Sicarians",
-            "units": "Three Alpha Legion Sicarian Battle Tanks",
-            "extraUnits": [
-            ],
-            "points": 225
-          },
+
           {
             "name": "Destroyers",
             "units": "Four Alpha Legion Destroyers",
@@ -181,22 +175,28 @@
             "points": 200
           },
           {
-            "name": "Terminators",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, three Lernaean Terminators plus transport",
-            "extraUnits": [
-                "Add up to three Alpha Legion Land Raiders: 50 points each",
-              "Supreme Commander",
-                "Dreadnoughts"
-            ],
-            "points": 250
-          },
-          {
             "name": "Headhunters",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Headhunters plus transport",
             "extraUnits": [
               "Supreme Commander"
             ],
             "points": 250
+        },
+        {
+          "name": "Sicarians",
+          "units": "Four Alpha Legion Sicarian Battle Tanks",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+          {
+            "name": "Terminators",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators plus transport",
+            "extraUnits": [
+                "Supreme Commander",
+                "Dreadnoughts"
+            ],
+            "points": 325
           }
       ]
     },
