@@ -26,7 +26,6 @@
         "Assault Centurions",
         "Devastator Centurions",
         "Space Marine Rapier",
-        "Space Marine Thudd Gun",
         "Space Marine Thunderfire",
         "Land Speeder",
         "Land Speeder Tornado",
@@ -180,13 +179,13 @@
         },
         {
           "name": "Centurions",
-          "units": "Four Assault Centurions, or four Devastator Centurions",
+          "units": "Four Assault Centurions and/or Devastator Centurions",
           "extraUnits": [
             "Vindicators",
             "Dreadnoughts",
             "Land Raider Transport"
           ],
-          "points": 275
+          "points": 250
         },
 
         {

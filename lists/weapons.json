@@ -4798,10 +4798,28 @@
       ]
     },
     {
+      "name": "Multiple Twin Heavy Bolters",
+      "modes": [
+        {
+          "firepower": "AP3+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Multiple Lascannons",
       "modes": [
         {
           "firepower": "AT4+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Multiple Twin Lascannons",
+      "modes": [
+        {
+          "firepower": "AT3+",
           "range": 45
         }
       ]
