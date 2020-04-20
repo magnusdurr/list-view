@@ -121,13 +121,14 @@
           "name": "Sternguard Veteran",
           "units": "Four Sternguard Veterans plus transport",
           "extraUnits": [
+            "The formation replaces 'plus transport' with the 'Teleport' special rule: 25 points",
             "Commander",
             "Ambush",
             "Anti-Air",
             "Land Speeders",
             "Razorbacks"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Vanguard Veteran",
@@ -216,11 +217,6 @@
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
-        "name": "Ambush",
-        "description": "All Sternguard Veterans in the formation gain the 'Teleport' special rule",
-        "points": "25 points"
-      },
-      {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
         "points": "75 points"
@@ -230,12 +226,16 @@
         "description": "Add any one of the following characters to any unit in the formation",
         "options": [
           {
-            "description": "Captain, Chaplain, Librarian",
+            "description": "Captain, Librarian",
+            "points": "25 points"
+          },
+          {
+            "description": "Chaplain",
             "points": "50 points"
           },
           {
             "description": "0–1 Supreme Commander",
-            "points": "100 points"
+            "points": "75 points"
           }
         ]
       },

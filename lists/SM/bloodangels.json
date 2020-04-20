@@ -33,7 +33,6 @@
         "Land Speeder Typhoon",
         "Melta Bike",
         "Attack Bike",
-        "Librarian Dreadnought",
         "Furioso Dreadnought",
         "Blood Angels Razorback",
         "Blood Angels Hunter",
@@ -253,21 +252,20 @@
       },
       {
         "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation, or add a Librarian Dreadnought to the formation",
+        "description": "Add any one of the following characters to any unit in the formation",
         "options": [
-            {
-              "description": "Captain, Chaplain, Librarian",
-              "points": "50 points"
-            },
-            {
-              "description": "(0–1 in the army) Supreme Commander",
-              "points": "100 points"
+          {
+            "description": "Captain, Librarian",
+            "points": "25 points"
           },
-        {
-          "description": "Librarian Dreadnought",
-          "points": "100 points"
-      }
-
+          {
+            "description": "Chaplain",
+            "points": "50 points"
+          },
+          {
+            "description": "0–1 Supreme Commander",
+            "points": "75 points"
+          }
         ]
       },
       {

@@ -266,13 +266,17 @@
         "name": "Commander",
         "description": "Add any one of the following characters to any unit in the formation",
         "options": [
+            {
+              "description": "Captain, Librarian",
+              "points": "25 points"
+            },
           {
-            "description": "Captain, Chaplain, Librarian",
+            "description": "Chaplain",
             "points": "50 points"
           },
           {
             "description": "0–1 Supreme Commander",
-            "points": "100 points"
+            "points": "75 points"
           }
         ]
       },

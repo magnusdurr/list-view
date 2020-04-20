@@ -9,7 +9,7 @@
 				"* It takes 2 Blast Markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast Markers).",
 				"* Space Marine formations are only broken if they have 2 Blast Markers per unit in the formation.",
 				"* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down to a minimum of one). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.",
-				"* When a broken Space Marine formation rallies, it receives a number of Blast Markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast Markers instead of 1"
+				"* When a broken Space Marine formation rallies, it receives a number of Blast Markers equal to the number of units, rather than half this number."
 			]
 		},
 		{
@@ -571,7 +571,7 @@
 		  "speed": 10,
 		  "armour": 6,
 		  "cc": 6,
-		  "ff": 4,
+		  "ff": 5,
 		  "weapons": [
 			"Thunderfire Cannon"
 		  ],

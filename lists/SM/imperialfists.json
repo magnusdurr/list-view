@@ -5,7 +5,7 @@
   "release": "2020-04-18",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "Tarantula and Hyperios Emplacement formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
-  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Imperial Fists detachments.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all non-'Machine Spirit' Imperial Fists detachments.",
   "specialRules": [
     "Imperial Fists Transports", "Siege Specialists", "Fortified Positions"
   ],
@@ -46,7 +46,6 @@
         "Whirlwind",
         "Vindicator",
         "Storm Talon",
-        "Thunderhawk Bomber",
         "Typhon Heavy Siege Tank",
         "Fellblade"
       ],
@@ -83,6 +82,7 @@
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "extraUnits": [
+            "Support Weapons",
             "Anti-Air",
             "Commander",
             "Land Raider Transport",
@@ -95,10 +95,12 @@
           "name": "Devastators",
           "units": "Four Devastators plus transport",
           "extraUnits": [
-            "Replace 'plus transport' with six Space Marine Rapiers, four Space Marine Thudd Guns, or four Space Marine Thunderfires: 125 points",
-            "Commander",
-            "Vindicators",
-            "Razorbacks"
+              "Support Weapons",
+              "Anti-Air",
+              "Commander",
+              "Land Raider Transport",
+              "Vindicators",
+              "Razorbacks"
           ],
           "points": 250
         },
@@ -116,7 +118,7 @@
           "name": "Land Raiders",
           "units": "Three Land Raiders",
           "extraUnits": [
-            "Add one Land Raider Achilles: 125 points",
+            "Add one Land Raider Achilles: 100 points",
             "Vindicators",
             "Anti-Air"
           ],
@@ -189,12 +191,12 @@
 
         {
           "name": "Support Battery",
-          "units": "Six Space Marine Rapiers, four Space Marine Thudd Guns, or four Space Marine Thunderfires",
+          "units": "Six Space Marine Rapiers and/or Space Marine Thunderfires",
           "extraUnits": [
             "Commander",
             "Dreadnoughts"
           ],
-          "points": 200
+          "points": 250
       },
       {
         "name": "0-1 Heavy Siege Relics",
@@ -216,7 +218,7 @@
     },
     {
       "name": "Imperial Fists Static Defenses, Navy & Titan Legion Allies",
-      "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula Emplacement or Hyperios Emplacement for each Support Battery or Scout detachment.",
+      "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula Emplacement or Hyperios Emplacement for each Scout detachment.",
       "formations": [
           {
             "name": "Fortifications",
@@ -245,13 +247,6 @@
           "points": 200
         },
         {
-          "name": "Thunderhawk Bomber",
-          "units": "One Thunderhawk Bomber",
-          "extraUnits": [
-          ],
-          "points": 225
-        },
-        {
           "name": "Reaver",
           "units": "One Reaver Titan",
           "extraUnits": [
@@ -265,6 +260,14 @@
     "title": "Imperial Fists Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
+        {
+          "name": "Support Weapons",
+          "description": "Replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
+          "points": [
+              "50 points for two",
+              "125 points for four"
+          ]
+        },
       {
         "name": "Dreadnoughts",
         "description": "Add up to two Dreadnoughts, or two Hellfire Dreadnoughts",
@@ -275,15 +278,19 @@
       },
       {
         "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation.",
+        "description": "Add any one of the following characters to any unit in the formation",
         "options": [
+            {
+              "description": "Captain, Librarian",
+              "points": "25 points"
+            },
           {
-            "description": "Captain, Chaplain, Librarian",
+            "description": "Chaplain",
             "points": "50 points"
           },
           {
             "description": "0–1 Supreme Commander",
-            "points": "100 points"
+            "points": "75 points"
           }
         ]
       },
@@ -311,7 +318,7 @@
           },
           {
             "description": "Add one Land Raider Achilles. May not be taken by Centurions or Terminator detachments. May not be combined with the 'Commander' upgrade.",
-            "points": "100 points"
+            "points": "75 points"
           }
         ]
       },

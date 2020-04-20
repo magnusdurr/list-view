@@ -199,12 +199,12 @@
 			{
 				"name": "0-1 Supreme Commander",
 				"description": "Replace an Ordo Xenos Inquisitor with an Ordo Xenos Inquisitor Lord, or a Watch Sergeant with a Watch Commander",
-				"points": ["Inquisitor Lord: 50 points", "Watch Commander: 125 points"]
+				"points": ["Inquisitor Lord: 50 points", "Watch Commander: 100 points"]
 			},
 		{
 				"name": "Deathwatch Specialists",
-				"description": "Add a Chaplain or Librarian to an Infantry unit.",
-				"points": "50 points"
+				"description": "Add a Librarian or Chaplain to the formation.",
+				"points": ["Librarian: 25 points", "Chaplain: 50 points"]
 			},
 			{
 				"name": "Deathwatch Support",

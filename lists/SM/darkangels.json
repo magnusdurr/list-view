@@ -116,7 +116,7 @@
           "units": "One Dark Angels Captain, six Assaults",
           "extraUnits": [
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Land Raiders",
@@ -239,12 +239,16 @@
         "description": "Add any one of the following characters to any unit in the formation",
         "options": [
           {
-            "description": "Dark Angels Captain, Chaplain, Librarian",
+            "description": "Dark Angels Captain, Librarian",
+            "points": "25 points"
+          },
+          {
+            "description": "Chaplain",
             "points": "50 points"
           },
           {
             "description": "0–1 Supreme Commander",
-            "points": "100 points"
+            "points": "75 points"
           }
         ]
       },
