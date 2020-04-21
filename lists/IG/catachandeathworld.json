@@ -24,6 +24,8 @@
         "Death World Veterans",
         "Catachan Sentinel",
         "Death World Chimera",
+        "Basilisk",
+        "Deathstrike",
         "Vulture",
         "Valkyrie",
         "Vendetta",
@@ -34,11 +36,9 @@
         "Leman Russ Demolisher",
         "Hellhammer",
         "Stormblade",
-        "Shadowsword",
-        "Deathstrike"
+        "Shadowsword"
       ],
         "unitRules": [
-
           ]
     },
 
@@ -102,19 +102,20 @@
           "points": 300
         },
         {
+          "name": "Artillery Battery",
+          "units": "Three Basilisks",
+          "extraUnits": [
+            "Add one Deathstrike: 75 points"
+          ],
+          "points": 225
+        },
+        {
           "name": "Veteran Company",
           "units": "One Catachan Commander and seven Death World Veterans",
           "extraUnits": [
               "Death World Transport"
           ],
           "points": 200
-        },
-              {
-            "name": "0-1 Deathstrike Battery",
-            "units": "Two Deathstrikes",
-            "extraUnits": [
-            ],
-            "points": 200
         },
         {
           "name": "Catachan Super-Heavy Platoon",

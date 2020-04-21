@@ -36,7 +36,6 @@
         "Stalker",
         "Land Raider",
         "Land Raider Crusader",
-        "Land Raider Achilles",
         "Predator Annihilator",
         "Predator Destructor",
         "Razorback",
@@ -117,7 +116,7 @@
           "name": "Land Raiders",
           "units": "Three Land Raiders",
           "extraUnits": [
-            "Add one Land Raider Achilles: 100 points",
+            "Add one Land Raider: 75 points",
             "Vindicators",
             "Anti-Air"
           ],
@@ -309,17 +308,8 @@
       },
       {
         "name": "Land Raider Transport",
-        "description": "Add up to the number required to transport the formation.",
-        "options": [
-          {
-            "description": "Add any number of Land Raiders or Land Raider Crusaders",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add one Land Raider Achilles. May not be taken by Centurions or Terminator detachments. May not be combined with the 'Commander' upgrade.",
-            "points": "75 points"
-          }
-        ]
+        "description": "Add any number of Land Raiders or Land Raider Crusaders, up to the number required to transport the formation",
+        "points": "50 points each"
       },
       {
         "name": "Razorbacks",

@@ -46,7 +46,6 @@
       ],
         "unitRules": [
             "Heavy Armoured Vehicle (H-AV)"
-
           ]
     },
     {
@@ -107,17 +106,11 @@
       "name": "DKoK Support Formations",
       "description": "Up to two Support Formations for each Company Formation.",
       "formations": [
-        {
-          "name": "0–1 Deathstrike Battery",
-          "units": "Two Deathstrikes",
-          "upgrades": [
-          ],
-          "points": 200
-        },
       {
         "name": "Siege Artillery Battery",
         "units": "Three Bombards or four Medusa",
         "extraUnits": [
+            "Deathstrike"
         ],
         "points": 225
     },
@@ -144,7 +137,8 @@
           "name": "Earthshaker Battery",
           "units": "Three Earthshaker Guns, three Trojans",
           "extraUnits": [
-              "Earthshaker Company: Add three Earthshaker Guns, one Commissar, three Trojans: 175 points"
+              "Earthshaker Company: Add three Earthshaker Guns, one Commissar, three Trojans: 175 points",
+              "Deathstrike"
           ],
           "points": 225
         },
@@ -241,6 +235,15 @@
           }
         ]
       },
+      {
+    "name": "Deathstrike",
+    "options": [
+      {
+        "description": "Add one Deathstrike to the formation",
+        "points": "75 points"
+      }
+    ]
+  },
       {
         "name": "Leman Russ Squadron",
         "options": [

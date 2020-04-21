@@ -746,8 +746,8 @@
 			"cc": 3,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Flamers ",
-				"Multi-Melta",
+				"Hurricane Bolters",
+				"Flamers",
 				"Siege Drills"
 			],
 
@@ -761,10 +761,10 @@
 			"type": "INF",
 			"speed": 15,
 			"armour": 3,
-			"cc": 5,
-			"ff": 3,
+			"cc": 6,
+			"ff": 4,
 			"weapons": [
-				"Twin Lascannons",
+				"Missile Launcher|2|",
 				"Twin Heavy Bolters|2|"
 			],
 			"specialRules": [
@@ -1915,7 +1915,6 @@
 			],
 			"specialRules": [
 				"Leader",
-				"Commander",
 				"Reinforced Armour",
 				"Thick Rear Armour",
 				"Transport"

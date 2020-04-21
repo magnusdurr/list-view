@@ -31,11 +31,12 @@
         "Rapier",
         "Mole Launcher Squad",
         "Heavy AA Gun",
+        "Basilisk",
         "Medusa",
         "Bombard",
-        "Deathstrike Silo",
         "Griffon",
         "Howitzer",
+        "Deathstrike",
         "Ragnarok Heavy Tank",
         "Siegfried Light Tank",
         "Hades Breaching Drill",
@@ -46,15 +47,15 @@
         "Stormsword"
       ],
         "unitRules": [
-
+            "Heavy Armoured Vehicle (H-AV)"
 
           ]
     },
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Thunderbolt Fighter",
-        "Marauder Bomber"
+          "Lightning Interceptor",
+          "Marauder Destroyer"
       ],
         "unitRules": [
       ]
@@ -113,14 +114,6 @@
             "points": 325
           },
         {
-          "name": "0–1 Deathstrike Emplacement",
-          "units": "One Deathstrike Silo",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-
-        {
           "name": "Sapper Company",
           "units": "One Commissar, eight Sappers, one Hades Breaching Drill",
           "extraUnits": [
@@ -128,11 +121,12 @@
           "points": 250
       },
       {
-        "name": "Siege Artillery Emplacement",
-        "units": "Three Bombards and three Gun Emplacements, or four Medusa and four Gun Emplacements",
+        "name": "Artillery Emplacement",
+        "units": "Three Basilisks or three Bombards and three Gun Emplacements, or four Medusa and four Gun Emplacements",
         "extraUnits": [
+            "Add one Deathstrike and one Gun Emplacement: 75 points"
         ],
-        "points": 225
+        "points": 250
       },
       {
         "name": "Super-Heavy Platoon",
@@ -176,16 +170,16 @@
       "name": "Imperial Navy Aircraft",
       "description": "Up to a fourth of the points available may be spent on Imperial Navy formations",
       "formations": [
-        {
-          "name": "Thunderbolt Squadron",
-          "units": "Two Thunderbolt Fighters",
-          "points": 150
-        },
-        {
-          "name": "Marauder Squadron",
-          "units": "Two Marauder Bombers",
-          "points": 225
-        }
+          {
+            "name": "Lightning Squadron",
+            "units": "Two Lightning Interceptor",
+            "points": 150
+          },
+          {
+            "name": "Marauder Destroyer",
+            "units": "One Marauder Destroyer",
+            "points": 175
+          }
       ]
     }
 

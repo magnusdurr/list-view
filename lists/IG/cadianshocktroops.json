@@ -21,6 +21,7 @@
         "Infantry",
         "Kasrkin",
         "Armoured Sentinel",
+        "Basilisk",
         "Medusa",
         "Deathstrike",
         "Chimera",
@@ -126,19 +127,13 @@
           ]
         },
         {
-          "name": "Siege Artillery Battery",
-          "units": "Three Bombards or four Medusa",
+          "name": "Artillery Battery",
+          "units": "Three Basilisks, three Bombards or four Medusa",
           "extraUnits": [
+              "Add one Deathstrike: 75 points"
           ],
           "points": 225
       },
-        {
-          "name": "0-1 Deathstrike Battery",
-          "units": "Two Deathstrike",
-          "upgrades": [
-          ],
-          "points": 200
-        },
         {
           "name": "Flak Battery",
           "units": "Three Hydras",
