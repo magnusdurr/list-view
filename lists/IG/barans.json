@@ -31,12 +31,10 @@
         "Rapier",
         "Mole Launcher Squad",
         "Heavy AA Gun",
-        "Basilisk",
         "Medusa",
         "Bombard",
         "Griffon",
         "Howitzer",
-        "Deathstrike",
         "Ragnarok Heavy Tank",
         "Siegfried Light Tank",
         "Hades Breaching Drill",
@@ -121,12 +119,11 @@
           "points": 250
       },
       {
-        "name": "Artillery Emplacement",
-        "units": "Three Basilisks or three Bombards and three Gun Emplacements, or four Medusa and four Gun Emplacements",
+        "name": "Siege Artillery Emplacement",
+        "units": "Three Bombards and three Gun Emplacements or four Medusa and four Gun Emplacements",
         "extraUnits": [
-            "Add one Deathstrike and one Gun Emplacement: 75 points"
         ],
-        "points": 250
+        "points": 225
       },
       {
         "name": "Super-Heavy Platoon",

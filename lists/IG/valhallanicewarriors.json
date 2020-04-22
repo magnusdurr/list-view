@@ -9,7 +9,6 @@
   "specialRules": [
       "Courage, Discipline and Loyalty",
       "Grim Demeanour",
-      "Tunnelers",
       "Fortified Positions"
   ],
   "usage": [
@@ -54,14 +53,6 @@
       ]
     },
     {
-      "from": "AM.json",
-      "units": [
-        "Mole"
-      ],
-      "unitRules": [
-      ]
-    },
-    {
       "from": "ImperialNavy.json",
       "units": [
         "Lightning Interceptor",
@@ -87,7 +78,7 @@
               "Fire Support",
               "Flak",
               "Entrenchments",
-              "War Engine Transport"
+              "Stormlord"
           ],
           "points": 300
         },
@@ -101,7 +92,7 @@
               "Fire Support",
               "Flak",
               "Entrenchments",
-              "War Engine Transport"
+              "Stormlord"
           ],
           "points": 225
     },
@@ -261,18 +252,9 @@
         ]
     },
     {
-      "name": "War Engine Transport",
-      "description": "Choose one of the following. No other upgrades may be chosen.",
-      "options": [
-        {
-          "description": "Two Moles. Formation may only enter the battlefield by Tunneling.",
-          "points": "75 points"
-        },
-        {
-          "description": "Stormlord",
-          "points": "125 points"
-        }
-      ]
+      "name": "Stormlord",
+      "description": "Add one Stormlord to the formation",
+            "points": "125 points"
     }
     ]
   }
