@@ -33,6 +33,7 @@
         "Heavy AA Gun",
         "Medusa",
         "Bombard",
+        "Deathstrike",
         "Griffon",
         "Howitzer",
         "Ragnarok Heavy Tank",
@@ -122,8 +123,9 @@
         "name": "Siege Artillery Emplacement",
         "units": "Three Bombards and three Gun Emplacements or four Medusa and four Gun Emplacements",
         "extraUnits": [
+            "Add one Deathstrike: 75 points"
         ],
-        "points": 225
+        "points": 250
       },
       {
         "name": "Super-Heavy Platoon",
@@ -157,9 +159,9 @@
         "name": "Siege Recon Squadron",
         "units": "Four Siegfried Light Tanks",
         "extraUnits": [
-            "Add three Griffons: 100 points"
+            "Add three Griffons: 75 points"
         ],
-        "points": 125
+        "points": 150
       }
       ]
     },
@@ -169,7 +171,7 @@
       "formations": [
           {
             "name": "Lightning Squadron",
-            "units": "Two Lightning Interceptor",
+            "units": "Two Lightning Interceptors",
             "points": 150
           },
           {
