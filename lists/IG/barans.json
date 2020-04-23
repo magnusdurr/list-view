@@ -53,8 +53,8 @@
     {
       "from": "ImperialNavy.json",
       "units": [
-          "Lightning Interceptor",
-          "Marauder Destroyer"
+          "Thunderbolt Fighter",
+          "Marauder Bomber"
       ],
         "unitRules": [
       ]
@@ -170,14 +170,14 @@
       "description": "Up to a fourth of the points available may be spent on Imperial Navy formations",
       "formations": [
           {
-            "name": "Lightning Squadron",
-            "units": "Two Lightning Interceptors",
+            "name": "Thunderbolt Squadron",
+            "units": "Two Thunderbolt Fighters",
             "points": 150
           },
           {
-            "name": "Marauder Destroyer",
-            "units": "One Marauder Destroyer",
-            "points": 175
+            "name": "Marauder Squadron",
+            "units": "Two Marauder Bombers",
+            "points": 225
           }
       ]
     }
