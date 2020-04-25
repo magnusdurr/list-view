@@ -2,7 +2,7 @@
   "fraction": "Dark Eldar",
   "army": "Kabal of the Black Heart",
   "version": "0.7.5",
-  "release": "2020-01-19",
+  "release": "2020-04-26",
   "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
   "Initiative": "All Black Heart Kabal formations, as well as the Wych Cult and Executioner formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -172,7 +172,14 @@
         "extraUnits": [
         ],
         "points": 250
-      }
+    },
+    {
+      "name": "Vessel of Pain",
+      "units": "One Vessel of Pain",
+      "extraUnits": [
+      ],
+      "points": 250
+    }
 
 
       ]
@@ -181,13 +188,6 @@
       "name": "Commorragh Navy & War Engines",
       "description": "Up to a third of the points available may be spent on Commorragh Navy and War Engine formations",
       "formations": [
-          {
-            "name": "Vessel of Pain",
-            "units": "One Vessel of Pain",
-            "extraUnits": [
-            ],
-            "points": 250
-          },
           {
             "name": "Executioner",
             "units": "One Executioner Landing Module",

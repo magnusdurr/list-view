@@ -548,20 +548,7 @@
         }
       ]
     },
-    {
-      "name": "AC Heavy Phantom Lance",
-        "modes": [
-          {
-            "firepower": "MW3+",
-            "range": 45,
-            "specialRules": [
-              "TK(D3)",
-              "FxF"
 
-          ]
-        }
-      ]
-    },
     {
       "name": "AC Heavy Stubber Turret",
         "modes": [
@@ -3353,7 +3340,7 @@
       "name": "Desolator",
         "modes": [
           {
-            "firepower": "2BP",
+            "firepower": "3BP",
             "range": 30,
             "specialRules": [
               "D"
@@ -5004,10 +4991,10 @@
       "name": "Twin Heavy Phantom Lances",
         "modes": [
           {
-            "firepower": "2x MW2+",
+            "firepower": "MW2+",
             "range": 60,
             "specialRules": [
-              "TK(1)"
+              "TK(D3+1)"
           ]
         }
       ]
@@ -7202,10 +7189,10 @@
       "name": "Phantom Lance",
         "modes": [
           {
-            "firepower": "2x MW3+",
+            "firepower": "MW2+",
             "range": 45,
             "specialRules": [
-              "TK(1)"
+              "TK(D3)"
           ]
         }
       ]
@@ -7214,10 +7201,10 @@
       "name": "Twin Phantom Lances",
         "modes": [
           {
-            "firepower": "2x MW2+",
+            "firepower": "MW2+",
             "range": 45,
             "specialRules": [
-              "TK(D2)"
+              "TK(D3+1)"
           ]
         }
       ]

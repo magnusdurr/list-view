@@ -78,7 +78,8 @@
               "Fire Support",
               "Flak",
               "Entrenchments",
-              "Stormlord"
+              "Stormlord",
+              "Deathstrike"
           ],
           "points": 300
         },
@@ -101,7 +102,7 @@
           "units": "Six Basilisks, one with a Ministorum Priest",
           "extraUnits": [
               "Replace six Basilisks with six Manticores: 50 points",
-              "Add one Deathstrike: 75 points",
+              "Deathstrike",
               "Flak"
           ],
           "points": 400
@@ -202,6 +203,15 @@
           "options": [
             {
               "description": "Add three Valhallan Griffons",
+              "points": "75 points"
+            }
+          ]
+        },
+        {
+          "name": "Deathstrike",
+          "options": [
+            {
+              "description": "Add one Deathstrike to the formation",
               "points": "75 points"
             }
           ]

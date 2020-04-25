@@ -127,7 +127,7 @@
           "units": "Three Basilisks or three Bombards",
           "extraUnits": [
             "Replace three Basilisks with three Manticores: 25 points",
-            "Add one Deathstrike: 75 points"
+            "Deathstrike"
           ],
           "points": 225
         },
@@ -208,6 +208,15 @@
           {
             "description": "Replace one Commissar-Captain in the army with a Lord Commissar",
             "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Deathstrike",
+        "options": [
+          {
+            "description": "Add one Deathstrike to the formation",
+            "points": "75 points"
           }
         ]
       },

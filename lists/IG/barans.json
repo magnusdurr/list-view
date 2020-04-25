@@ -74,7 +74,8 @@
               "Mole Launchers",
               "Snipers",
               "Heavy Tanks",
-              "Fortifications"
+              "Fortifications",
+              "Deathstrike"
           ],
           "points": 275
         },
@@ -123,7 +124,7 @@
         "name": "Siege Artillery Emplacement",
         "units": "Three Bombards and three Gun Emplacements or four Medusa and four Gun Emplacements",
         "extraUnits": [
-            "Add one Deathstrike: 75 points"
+            "Deathstrike"
         ],
         "points": 250
       },
@@ -196,7 +197,15 @@
     "title": "Baran Siegemaster Upgrades",
     "description": "Each upgrade may be taken once per formation. Max four upgrades per Company",
     "items": [
-
+        {
+          "name": "Deathstrike",
+          "options": [
+            {
+              "description": "Add one Deathstrike and a Gun Emplacement to the formation",
+              "points": "75 points"
+            }
+          ]
+        },
       {
         "name": "Rapiers",
         "options": [
