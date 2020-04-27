@@ -37,8 +37,8 @@
         "Gunwagon",
         "Spleenrippa",
         "Flakwagon",
-        "Battlefortress",
         "Gunfortress",
+        "Battlefortress",
         "Dakkajet",
         "Landa",
         "Blitza-Bommer",
@@ -66,8 +66,21 @@
             ],
             "pointsOptions": [
               {"name": "Normal", "points":  "250"},
-              {"name": "Big", "points":  "425"},
-              {"name": "'Uge", "points":  "600"}
+              {"name": "Big", "points":  "450"},
+              {"name": "'Uge", "points":  "650"}
+            ]
+          },
+          {
+            "name": "Evil Sunz Battlefortress Mob",
+            "units": "One Battlefortress, two Nobz, six Boyz, two Grotz",
+            "extraUnits": [
+              "Add any number of Flakwagons, Gunwagons: 35 points each",
+              "0-1 Add one Speed Freek Oddboy character to a Battlefortress: 50 points"
+            ],
+            "pointsOptions": [
+              {"name": "Normal", "points":  "325"},
+              {"name": "Big", "points":  "600"},
+              {"name": "'Uge", "points":  "875"}
             ]
           },
         {
@@ -77,7 +90,7 @@
             "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
             "Add one unit of Boyz to any Gunwagon or Flakwagon in the formation: 25 points each",
             "Replace any number of Gunwagons with Spleenrippas: 15 points each",
-            "0-1: Replace one Gunwagon with a Mekboy Speedsta: 25 points"
+            "0-1: Replace one Gunwagon with a Mekboy Speedsta: 30 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "150"},
@@ -104,7 +117,7 @@
           "units": "Six Warbike Outriders",
           "extraUnits": [
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Evil Sunz Warband",
@@ -117,8 +130,8 @@
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "200"},
-            {"name": "Big", "points":  "325"},
-            {"name": "'Uge", "points":  "450"}
+            {"name": "Big", "points":  "350"},
+            {"name": "'Uge", "points":  "500"}
           ]
         },
         {

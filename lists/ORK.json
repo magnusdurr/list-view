@@ -101,7 +101,7 @@
 
     ],
     "specialRules": [
-        "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3+1 Power Fields, or [**] is equipped with a Deff-Rolla (Improve CC to 2+) & Red Paint Job (Speed +5cm)."
+        "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3+1 Power Fields, or [**] is equipped with a Deff-Rolla (Walker) & Red Paint Job (Speed +5cm)."
     ]
   },
     {
@@ -273,7 +273,7 @@
       "name": "Warbuggy",
       "type": "LV",
       "speed": 35,
-      "armour": 4,
+      "armour": 5,
       "cc": 5,
       "ff": 5,
       "weapons": [
@@ -318,6 +318,7 @@
         "Kustom Kannon"
       ],
       "specialRules": [
+          "Leader",
           "D3 Power Fields"
       ]
     },
@@ -449,7 +450,7 @@
       "speed": 30,
       "armour": 5,
       "cc": 4,
-      "ff": 4,
+      "ff": 3,
       "weapons": [
         "Twin Big Shootas|5|",
         "Big Gun|3|"
