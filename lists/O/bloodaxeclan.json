@@ -21,33 +21,33 @@
       "from": "ORK.json",
       "units": [
         "Warlord",
-        "Blood Axes Oddboy",
+        "Oddboy",
         "Boyz",
         "Grotz",
         "Nobz",
         "Kommandos",
         "Stormboyz",
-        "Deth Kopta",
-        "War Kopta",
-        "Looted Chimera",
-        "Looted Leman Russ",
-        "Looted Hydra",
+        "Deffkopta",
+        "Warkopta",
+        "Battlewagon",
+        "Flakwagon",
+        "Looted Leman Russ/Land Raider",
+        "Looted Vindicator/Thunderer",
         "Killa Kan",
         "Deff Dread",
         "Mega Dread",
-        "Kill Blasta",
-        "Kill Bursta",
-        "Kill Krusha",
-        "Looted Baneblade",
+        "Battlefortress",
+        "Gunfortress",
+        "Flakkafortress",
+        "Skullhamma",
         "Fighta-Bommer",
+        "Wazbom Blastajet",
         "Drop Rok",
-        "Landa",
-        "Kill Kroozer",
-        "Battlekroozer"
+        "Blood Axes Kill Kroozer",
+        "Blood Axes Battlekroozer"
       ],
       "unitRules": [
           "Power Fields",
-          "Battlefortresses and Gunfortresses",
           "Super-Expendable"
       ]
     }
@@ -57,11 +57,11 @@
       "name": "Ork Formations",
       "formations": [
           {
-            "name": "Goffs Warband",
+            "name": "Blood Axe Warband",
             "units": "Two Nobz, six Boyz, two Grotz",
             "extraUnits": [
-              "Add any number of Battlewagons, Big Gunz, Boyz + (optional) Grotz, Killa Kans, Kommandos, Skorchas, Stormboyz, Warbikes, Warbuggies: 25 points each",
-              "Add any number of Deth Koptas, Dreadnoughts, Flakwagons, Gunwagons: 35 points each",
+              "Add any number of Looted Chimeras/Rhinos, Killa Kans, Kommandos, Stormboyz: 25 points each",
+              "Add any number of Deffkoptas, Dreadnoughts, Looted Hydras, Looted Leman Russ/Land Raiders : 35 points each",
               "Add any number of Stompas: 50 points each",
               "Add any number of Battlefortresses: 115 points each",
               "Add any number of Gunfortresses: 115 points each",
@@ -75,11 +75,11 @@
             ]
           },
         {
-          "name": "Blitz Brigade",
-          "units": "Any four of the following units: Deth Kopta, Flakwagon, Gunwagon",
+          "name": "Loota Brigade",
+          "units": "Any four of the following units: Looted Leman Russ",
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: One Gunfortress: 115 points",
             "0-1: Add one Oddboy character to a Gunfortress or Gunwagon unit: 50 points"
           ],
@@ -94,7 +94,7 @@
           "units": "Any eight of the following units: Skorchas, Warbikes, Warbuggies",
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: Add one Oddboy character to a Gunwagon unit: 50 points"
           ],
           "pointsOptions": [

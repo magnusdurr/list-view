@@ -89,7 +89,7 @@
       "specialRules": [
           "[**]'Uge Banner of Mork (or possibly Gork): (Gargants Only) The unit gains the Inspiring special rule"
       ],
-      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given [*] D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork)"
+      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower (Gargants only), alternatively the unit may be given [*] D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork) (Gargants only)"
     },
   {
     "name": "Speed Freek Oddboy",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "name": "Deth Kopta",
+      "name": "Deffkopta",
       "type": "LV",
       "speed": 35,
       "armour": 4,
@@ -268,6 +268,22 @@
       "specialRules": [
           "Skimmer"
       ]
+    },
+    {
+      "name": "Warkopta",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+          "Shootas"
+      ],
+      "specialRules": [
+          "Skimmer",
+          "Transport"
+      ],
+      "notes": "One unit of Kommandos. Units may Shoot and Firefight while being transported"
     },
     {
       "name": "Warbuggy",
@@ -304,9 +320,11 @@
       "weapons": [
       ],
       "specialRules": [
-          "Transport: One unit of Boyz or Nobz. Units may Shoot and Firefight while being transported"
-      ]
+          "Transport"
+      ],
+      "notes": "One unit of Boyz or Nobz. Units may Shoot and Firefight while being transported"
     },
+
     {
       "name": "Mekboy Speedsta",
       "type": "AV",
@@ -334,9 +352,11 @@
         "Twin Big Shootas|2|"
       ],
       "specialRules": [
-          "Transport: Two units of Boyz, Nobz, Kommandos or Grotz. Big Gunz takes two spaces each. May carry one unit of Grotz in addition to any other units transported"
-      ]
+          "Transport"
+      ],
+      "notes": "Two units of Boyz, Nobz, Kommandos or Grotz. Big Gunz takes two spaces each. May carry one unit of Grotz in addition to any other units transported"
     },
+
     {
       "name": "Gunwagon",
       "type": "AV",
@@ -348,7 +368,38 @@
         "Big Gun"
       ],
       "specialRules": [
-          "Transport: One unit of Boyz, Nobz, Kommandos or Grotz"
+          "Transport"
+      ],
+      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
+    },
+    {
+      "name": "Looted Leman Russ/Land Raider",
+      "type": "AV",
+      "speed": 25,
+      "armour": 3,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Big Gun",
+        "Big Shoota|2|"
+      ],
+      "specialRules": [
+              "Transport"
+      ],
+      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
+    },
+    {
+      "name": "Looted Vindicator/Thunderer",
+      "type": "AV",
+      "speed": 25,
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Demolisher"
+      ],
+      "specialRules": [
+              "Walker"
       ]
     },
     {
@@ -375,8 +426,24 @@
         "Flak Gun"
       ],
       "specialRules": [
-          "Transport: One unit of Boyz, Nobz, Kommandos or Grotz"
-      ]
+          "Transport"
+      ],
+      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
+    },
+    {
+      "name": "Looted Hydra/Stalker",
+      "type": "AV",
+      "speed": 25,
+      "armour": 4,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Flak Gun"
+      ],
+      "specialRules": [
+          "Transport"
+      ],
+      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
     },
     {
       "name": "Killa Kan",
@@ -409,6 +476,20 @@
       ]
     },
     {
+      "name": "Mega Dread",
+      "type": "AV",
+      "speed": 15,
+      "armour": 3,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Kombat Klaws|2|"
+      ],
+      "specialRules": [
+          "Walker"
+      ]
+    },
+    {
       "name": "Stompa",
       "type": "H-AV",
       "speed": 15,
@@ -429,16 +510,15 @@
       "name": "Battlefortress",
       "type": "WE",
       "speed": 30,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 4,
       "weapons": [
-        "Twin Big Shootas|4|",
-        "Big Gun"
+        "Big Gun",
+        "Twin Big Shootas|4|"
       ],
       "specialRules": [
           "Damage Capacity 3",
-          "Reinforced Armour",
           "Transport"
       ],
       "notes": "Eight Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry four units of Grotz in addition to any other units transported.",
@@ -448,20 +528,52 @@
       "name": "Gunfortress",
       "type": "WE",
       "speed": 30,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 4,
       "weapons": [
-        "Twin Big Shootas|5|",
-        "Big Gun|3|"
+        "Big Gun|3|",
+        "Twin Big Shootas|6|"
       ],
       "specialRules": [
           "Damage Capacity 3",
-          "Reinforced Armour",
           "Transport"
       ],
       "notes": "Four Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry two units of Grotz in addition to any other units transported.",
       "crit": "Move the Gunfortress D6cm in a random direction, all units moved over or contacted it suffer a hit. The Gunfortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
+    },
+    {
+      "name": "Flakkafortress",
+      "type": "WE",
+      "speed": 30,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Big Gun",
+        "Flak Gun|3|"
+      ],
+      "specialRules": [
+          "Damage Capacity 3"
+      ],
+      "crit": "Move the Flakkafortress D6cm in a random direction, all units moved over or contacted it suffer a hit. The Flakkafortress is destroyed"
+    },
+    {
+      "name": "Skullhamma",
+      "type": "WE",
+      "speed": 20,
+      "armour": 3,
+      "cc": 4,
+      "ff": 3,
+      "weapons": [
+        "Skullhamma Cannon||FxF",
+        "Big Gun||FxF",
+        "Skorcha|2|FxF"
+      ],
+      "specialRules": [
+          "Damage Capacity 3"
+      ],
+      "crit": "The Skullhamma is destroyed. All units within 5cm takes a hit on 6+"
     },
     {
       "name": "Supa-Stompa",
@@ -701,15 +813,14 @@
       "name": "Wazbom Blastajet",
       "type": "AC",
       "speed": "Bomber",
-      "armour": 5,
+      "armour": 4,
 
       "weapons": [
         "AC Flakka",
         "AC Twin Kustom Mega-Cannons||FxF"
       ],
       "specialRules": [
-          "Power Fields 1D3",
-          "Reinforced Armour"
+          "Power Fields 1D3"
       ]
     },
 
@@ -717,15 +828,14 @@
       "name": "Bommer",
       "type": "AC/WE",
       "speed": "Bomber",
-      "armour": 5,
+      "armour": 4,
 
       "weapons": [
         "AC Flakka-Dakka",
         "AC Blasta Bombs||FxF"
       ],
       "specialRules": [
-          "Damage Capacity 2",
-          "Reinforced Armour"
+          "Damage Capacity 2"
 
       ],
             "crit": "The Bommer is destroyed"
@@ -747,8 +857,27 @@
           "Reinforced Armour",
           "Transport"
       ],
-      "notes": "Ten Killa Kans, Warbikes, Boyz, Nobz, Kommandos, Stormboyz, Grotz. Big Gunz, Warbuggies, Skorchas, Deff Dreads takes two spaces each. May carry fout units of Grotz in addition to any other units transported.",
+      "notes": "Ten Killa Kans, Warbikes, Boyz, Nobz, Kommandos, Stormboyz, Grotz. Big Gunz, Warbuggies, Skorchas, Deff Dreads takes two spaces each. May carry four units of Grotz in addition to any other units transported",
       "crit": "The Landa and all units being transported are destroyed"
+    },
+    {
+      "name": "Drop Rok",
+      "type": "WE",
+      "speed": "Immobile",
+      "armour": 3,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Big Shootas|4|"
+      ],
+      "specialRules": [
+          "Damage Capacity 3",
+          "Planetfall[*]",
+          "Thick Rear Armour",
+          "Transport"
+      ],
+      "notes": "Ten Killa Kans, Boyz, Nobz, Kommandos, Stormboyz, Grotz. Deff Dreads and Mega Dreads takes two spaces each. [*] Must start the game loaded into a Blood Axes Kill Kroozer or Battlekroozer. May only enter the game through Planetfall",
+      "crit": "The Drop Rok and all units being transported are destroyed"
     },
     {
       "name": "Kill Kroozer",
@@ -763,6 +892,23 @@
             ]
         }
     ]
+    },
+    {
+      "name": "Blood Axes Kill Kroozer",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "1D6BP, MW"
+              }
+          ],
+          "specialRules": [
+              "Transport"
+        }
+    ],
+    "notes": "May transport one Drop Rok and the units carried on it"
     },
     {
       "name": "Battlekroozer",
@@ -783,7 +929,7 @@
     ]
     },
     {
-      "name": "Evil Sunz Battlekroozer",
+      "name": "Blood Axes Battlekroozer",
       "type": "SC",
       "weapons": [
           {
@@ -796,7 +942,9 @@
         }
     ],
     "specialRules": [
-    ]
+     "Transport"
+    ],
+    "notes": "May transport four Drop Roks and the units carried on them"
     },
     {
       "name": "Wildboyz",
@@ -866,8 +1014,9 @@
       "Big Shoota"
       ],
       "specialRules": [
-        "Transport (may carry one of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry one Grotz in addition to any other units)."
-      ]
+        "Transport"
+    ],
+    "notes": "May carry one of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry one Grotz in addition to any other units"
     },
     {
       "name": "Squiggoth",

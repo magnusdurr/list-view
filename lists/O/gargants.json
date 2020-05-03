@@ -27,7 +27,7 @@
         "Boyz",
         "Grotz",
         "Nobz",
-        "Deth Kopta",
+        "Deffkopta",
         "Gunwagon",
         "Flakwagon",
         "Killa Kan",
@@ -92,26 +92,26 @@
           "name": "Big Mek Loota Warband",
           "units": "Four Boyz, two Grotz, one Gunfortress",
           "extraUnits": [
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: Add one Big Mob Oddboy character to a Gunfortress unit: 50 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "225"},
-            {"name": "Big", "points":  "375"},
-            {"name": "'Uge", "points":  "525"}
+            {"name": "Normal", "points":  "200"},
+            {"name": "Big", "points":  "350"},
+            {"name": "'Uge", "points":  "500"}
           ]
         },
         {
           "name": "Big Mek Runn'n Gunz",
           "units": "Four Big Gunz, two Grotz, one Battlefortress",
           "extraUnits": [
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: Add one Big Mob Oddboy character to a Battlefortress unit: 50 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "225"},
-            {"name": "Big", "points":  "375"},
-            {"name": "'Uge", "points":  "525"}
+            {"name": "Normal", "points":  "200"},
+            {"name": "Big", "points":  "350"},
+            {"name": "'Uge", "points":  "500"}
           ]
         },
         {
@@ -124,7 +124,6 @@
             "0-1: Supa-Stompa: 275 points"
           ],
           "points": 175
-          ]
         },
         {
           "name": "Big Mek Dreadmob",
@@ -139,19 +138,9 @@
             {"name": "'Uge", "points":  "275"}
           ]
         },
-        {
-          "name": "0–1 Kill Kroozer",
-          "units": "One Kill Kroozer",
-          "extraUnits": [
-              "Replace the Kill Kroozer with an Evil Sunz Battlekroozer for +100 points"
-          ],
-          "points": 100
-        }
-      ]
-  },
       {
-        "name": "Ork Aircraft formations",
-        "description": "Up to a fourth of the points available may be spent on these formations",
+        "name": "Bad Moons 'Craft formations",
+        "description": "Up to a third of the points available may be spent on these formations",
         "formations": [
         {
           "name": "Fighta-Bommer Skwadron",
@@ -162,13 +151,23 @@
           "points": 150
       },
       {
-        "name": "Evil Sunz Bommer",
+        "name": "Bommer",
         "units": "One Bommer",
         "upgrades": [
         ],
         "points": 175
         }
         ]
+    },
+    {
+      "name": "0–1 Kill Kroozer",
+      "units": "One Kill Kroozer",
+      "extraUnits": [
+          "Replace the Kill Kroozer with a Battlekroozer: 50 points"
+      ],
+      "points": 100
     }
+  ]
+}
   ]
 }

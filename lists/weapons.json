@@ -3983,6 +3983,18 @@
       ]
     },
     {
+      "name": "Flakka-Dakka Turret",
+      "modes": [
+        {
+          "firepower": "4x AP6+/AT6+/AA6+",
+            "range": 30,
+          "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
       "name": "Flak Cannons",
       "modes": [
         {
@@ -9057,6 +9069,18 @@
             "range": 45,
             "specialRules": [
                 "D"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Skullhamma Cannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 45,
+            "specialRules": [
+                "MW"
           ]
           }
       ]

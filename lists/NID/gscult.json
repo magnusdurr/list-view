@@ -1,10 +1,10 @@
 {
   "fraction": "Tyranids",
   "army": "Genesteler Cult",
-  "version": "0.5",
+  "version": "0.5.0",
   "release": "2020-05-03",
-  "strategy": "The Genestealer Cult has a strategy rating of 2.",
-  "Initiative": "All formations have an initiative rating ot 2+",
+  "strategy": "The Genestealer Cult has a Strategy Rating of 2.",
+  "Initiative": "All formations have an Initiative Rating of 2+",
   "specialRules": [
     "Broodmind",
     "Broodcoven"
@@ -64,7 +64,7 @@
       "formations": [
         {
           "name": "1 Broodcoven",
-          "units": "One Genesteler Patriarch and six Acolyte Honourguard units",
+          "units": "One Genestealer Patriarch and six Acolyte Honourguards",
           "upgrades": ["Acolyte Transports", "Hybrids", "Technicals"],
           "points": 275
         },
@@ -100,7 +100,7 @@
         },
         {
           "name": "Mechanized Infantry Platoon",
-          "units": "One Neophyte Commander, five Neophytes and three Chimeras",
+          "units": "One Neophyte Commander, five Neophytes, and three Chimeras",
           "upgrades": [
             "Fire Support",
             "Flak",
@@ -174,7 +174,7 @@
       },
       {
         "name": "Coven Leader",
-        "description": "Add one Genestealer Magus or Genestealer Primus character to an Acholyte Iconward unit in the formation",
+        "description": "Add one Genestealer Magus or Genestealer Primus character to an Acolyte Iconward unit in the formation",
         "points": "50 points"
       },
       {

@@ -30,7 +30,7 @@
         "Kommandos",
         "Stormboyz",
         "Warbikes",
-        "Deth Kopta",
+        "Deffkopta",
         "Skorcha",
         "Warbuggy",
         "Battlewagon",
@@ -68,9 +68,9 @@
             "units": "Two Nobz, six Boyz, two Grotz",
             "extraUnits": [
               "Add any number of Battlewagons, Big Gunz, Boyz + (optional) Grotz, Killa Kans, Kommandos, Skorchas, Stormboyz, Warbikes, Warbuggies: 25 points each",
-              "Add any number of Deth Koptas, Deff Dreads, Flakwagons, Gunwagons: 35 points each",
+              "Add any number of Deffkoptas, Deff Dreads, Flakwagons, Gunwagons: 35 points each",
               "Add any number of Stompas: 50 points each",
-              "Add any number of Battlefortresses: 125 points each",
+              "Add any number of Battlefortresses: 115 points each",
               "Add any number of Gunfortresses: 115 points each",
               "0-2 Nobz: 35 points Each",
               "0-1 Add one Oddboy character to a Battlefortress, Gunfortress, Gunwagon or Big Gunz: 50 points"
@@ -83,10 +83,10 @@
           },
         {
           "name": "Blitz Brigade",
-          "units": "Any four of the following units: Deth Kopta, Flakwagon, Gunwagon",
+          "units": "Any four of the following units: Deffkopta, Flakwagon, Gunwagon",
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: Gunfortress: 115 points",
             "0-1: Add one Oddboy character to a Gunfortress or Gunwagon: 50 points"
           ],
@@ -101,7 +101,7 @@
           "units": "Any eight of the following units: Skorchas, Warbikes, Warbuggies",
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: Add one Oddboy character to a Gunwagon: 50 points"
           ],
           "pointsOptions": [
@@ -160,19 +160,12 @@
             "Add any number of Deff Dreads, Flakwagons: 35 points each"
           ],
           "points": 200
-        },
-        {
-          "name": "0–1 Kroozer",
-          "units": "One Kill Kroozer",
-          "extraUnits": [
-            "Replace the Kill Kroozer with a Battlekroozer for +50 points"
-          ],
-          "points": 100
         }
+
       ]
       },
       {
-        "name": "Goffs Aircraft and Gargant formations",
+        "name": "Goffs 'Craft and Gargant formations",
         "description": "Up to a third of the points available may be spent on these formations",
         "formations": [
         {
@@ -203,6 +196,14 @@
         "upgrades": [
         ],
         "points": 700
+    },
+    {
+      "name": "0–1 Kroozer",
+      "units": "One Kill Kroozer",
+      "extraUnits": [
+        "Replace the Kill Kroozer with a Battlekroozer: 50 points"
+      ],
+      "points": 100
     }
         ]
         }

@@ -29,7 +29,7 @@
         "Warbikes",
         "Warbike Outriders",
         "Mekboy Speedsta",
-        "Deth Kopta",
+        "Deffkopta",
         "Skorcha",
         "Warbuggy",
         "Battlewagon",
@@ -43,7 +43,7 @@
         "Landa",
         "Blitza-Bommer",
         "Kill Kroozer",
-        "Evil Sunz Battlekroozer"
+        "Battlekroozer"
       ],
       "unitRules": [
           "Power Fields",
@@ -57,7 +57,8 @@
     {
       "name": "Ork Formations",
       "formations": [
-          {
+
+      {
             "name": "Evil Sunz Gunfortress Mob",
             "units": "One Gunfortress, one Nobz, three Boyz, one Grotz",
             "extraUnits": [
@@ -78,16 +79,16 @@
               "0-1 Add one Speed Freek Oddboy character to a Battlefortress: 50 points"
             ],
             "pointsOptions": [
-              {"name": "Normal", "points":  "325"},
-              {"name": "Big", "points":  "600"},
-              {"name": "'Uge", "points":  "875"}
+              {"name": "Normal", "points":  "300"},
+              {"name": "Big", "points":  "550"},
+              {"name": "'Uge", "points":  "800"}
             ]
           },
         {
           "name": "Evil Sunz Blitz Brigade",
-          "units": "Any four of the following units: Deth Kopta, Flakwagon, Gunwagon",
+          "units": "Any four of the following units: Deffkopta, Flakwagon, Gunwagon",
           "extraUnits": [
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "Add one unit of Boyz to any Gunwagon or Flakwagon in the formation: 25 points each",
             "Replace any number of Gunwagons with Spleenrippas: 15 points each",
             "0-1: Replace one Gunwagon with a Mekboy Speedsta: 30 points"
@@ -104,7 +105,7 @@
           "extraUnits": [
             "0-1: Replace a Skorcha, Warbike or Warbuggy with a unit of Nob Warbikes: 10 points",
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each"
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "200"},
@@ -133,19 +134,11 @@
             {"name": "Big", "points":  "350"},
             {"name": "'Uge", "points":  "500"}
           ]
-        },
-        {
-          "name": "0–1 Kroozer",
-          "units": "One Kill Kroozer",
-          "extraUnits": [
-            "Replace the Kill Kroozer with an Evil Sunz Battlekroozer for +75 points"
-          ],
-          "points": 100
         }
       ]
       },
       {
-        "name": "Ork Aircraft formations",
+        "name": "Speed Freek 'Craft formations",
         "description": "Up to a third of the points available may be spent on these formations",
         "formations": [
             {
@@ -169,7 +162,15 @@
           "upgrades": [
           ],
           "points": 225
-          }
+      },
+      {
+        "name": "0–1 Kroozer",
+        "units": "One Kill Kroozer",
+        "extraUnits": [
+          "Replace the Kill Kroozer with a Battlekroozer: 50 points"
+        ],
+        "points": 100
+      }
             ]
         }
   ]
