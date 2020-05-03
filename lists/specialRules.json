@@ -1332,9 +1332,20 @@
       "description": [
         "If a player gives up the game, or does not show up within 30 minutes it is scored as a Total Victory for the opponent. If a game must be abandoned before turn 4 because of lack of time, the current objective total determines the score, with a -4 penalty for both sides if the game ended prematurely in turn 2, and a -2 penalty for both sides if the game ended prematurely in turn 3. If one player was late to the game start by more than 5 minutes, that player takes both player’s penalties."
       ]
+    },
+
+
+    {
+      "title": "Broodmind",
+      "description": [
+        "As long as the Genestealer Partriarch is alive all formations receive a +1 modifier to the dice roll when attempting to make an engage action or when rolling to rally in the end phase"
+        ]
+    },
+    {
+      "title": "Broodcoven",
+      "description": [
+        "The army must include a Broodcoven formation. The enemy counts as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation or the most expensive formation in the army."
+        ]
     }
-
-
-
   ]
 }

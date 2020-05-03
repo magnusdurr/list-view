@@ -1,0 +1,226 @@
+{
+  "fraction": "Tyranids",
+  "army": "Genesteler Cult",
+  "version": "0.5",
+  "release": "2020-05-03",
+  "strategy": "The Genestealer Cult has a strategy rating of 2.",
+  "Initiative": "All formations have an initiative rating ot 2+",
+  "specialRules": [
+    "Broodmind",
+    "Broodcoven"
+  ],
+  "usage": [],
+  "units": [
+    {
+      "from": "GS2.json",
+      "units": [
+        "Brood Lord",
+        "Genestealer Magus",
+        "Genestealer Patriarch",
+        "Genestealer Primus",
+        "Acolyte Iconward",
+        "Acolyte Honourguard",
+        "Acolytes",
+        "Genestealers",
+        "Hybrid Aberrants",
+        "Hybrid Metamorph",
+        "Neophyte Commander",
+        "Neophytes",
+        "Neophyte Outriders",
+        "Neophyte Fire Support",
+        "Ridgerunner",
+        "Land Transporter",
+        "Technical",
+        "Goliath Truck",
+        "Goliath Rockgrinder"
+      ],
+      "unitRules": [
+        "Brood Brother"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Chimera",
+        "Hellhound",
+        "Hydra",
+        "Leman Russ",
+        "Sentinel"
+      ],
+      "unitRules": []
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter"
+      ],
+      "unitRules": []
+    }
+  ],
+  "sections": [
+    {
+      "name": "Acolyte Formations",
+      "description": "One Broodcoven formation must be taken.",
+      "formations": [
+        {
+          "name": "1 Broodcoven",
+          "units": "One Genesteler Patriarch and six Acolyte Honourguard units",
+          "upgrades": ["Acolyte Transports", "Hybrids", "Technicals"],
+          "points": 275
+        },
+        {
+          "name": "Acolyte Coven",
+          "units": "One Acolyte Iconward and seven Acolytes",
+          "upgrades": ["Acolyte Transports", "Coven Leader", "Hybrids", "Technicals"],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Neophyte Formations",
+      "description": "One Neophyte Formation may be fielded per Acolyte Formation",
+      "formations": [
+        {
+          "name": "Infantry Platoon",
+          "units": "One Neophyte Commander and seven Neophytes",
+          "upgrades": [
+            "Fire Support",
+            "Flak",
+            "Leman Russ Squadron"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Neophyte Outriders",
+          "units": "Six Neophyte Outriders",
+          "upgrades": [
+            "Ridgerunners"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Mechanized Infantry Platoon",
+          "units": "One Neophyte Commander, five Neophytes and three Chimeras",
+          "upgrades": [
+            "Fire Support",
+            "Flak",
+            "Hellhounds",
+            "Leman Russ Squadron"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Neophyte Support Formations",
+      "description": "One Neophyte Support Formation may be fielded per Neophyte Formation",
+      "formations": [
+        {
+          "name": "Leman Russ Platoon",
+          "units": "Six Leman Russ",
+          "extraUnits": [],
+          "points": 375
+        },
+        {
+          "name": "Sentinel Squadron",
+          "units": "Four Sentinels",
+          "extraUnits": [],
+          "points": 100
+        },
+        {
+          "name": "Thunderbolts",
+          "units": "Two Thunderbolts",
+          "extraUnits": [],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Purestrain Formations",
+      "description": "Up to one quarter of the points available may be spent on Purestrain Formations",
+      "formations": [
+        {
+          "name": "Genestealer Swarm",
+          "units": "One Brood Lord, six Genestealers",
+          "extraUnits": [
+            "Add up to three Genestealers: 25 points each"
+          ],
+          "points": 175
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
+    "items": [
+      {
+        "name": "Acolyte Transports",
+        "description": "Add Land Transporters, Goliath Trucks or Goliath Rockgrinders to the formation, up to the number required to transport all infantry units in the formation",
+        "options": [
+          {
+            "description": "Land Transporters",
+            "points": "15 points each"
+          },
+          {
+            "description": "Goliath Trucks",
+            "points": "25 points each"
+          },
+          {
+            "description": "Goliath Rockgrinder",
+            "points": "30 points each"
+          }
+        ]
+      },
+      {
+        "name": "Coven Leader",
+        "description": "Add one Genestealer Magus or Genestealer Primus character to an Acholyte Iconward unit in the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Fire Support",
+        "description": "Add two Neophyte Fire Support units",
+        "points": "75 points"
+      },
+      {
+        "name": "Flak",
+        "description": "Add one Hydra",
+        "points": "50 points"
+      },
+      {
+        "name": "Hellhounds",
+        "description": "Add up to three Hellhounds",
+        "points": "25 points each"
+      },
+      {
+        "name": "Hybrids",
+        "description": "Add up to five of the following units to the formation",
+        "options": [
+          {
+            "description": "Hybrid Aberrants",
+            "points": "30 points each"
+          },
+          {
+            "description": "Hybrid Metamorphs",
+            "points": "20 points each"
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Squadron",
+        "description": "Add three Leman Russ",
+        "points": "125 points"
+      },
+      {
+        "name": "Riderunners",
+        "description": "Add up to three Ridgerunner units",
+        "points": "20 points each"
+      },
+      {
+        "name": "Technicals",
+        "description": "Add up to two Technicals",
+        "points": "25 points each"
+      }
+    ]
+  }
+}

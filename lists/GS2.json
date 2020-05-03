@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Genestealer Forces",
+    "specialRules": [
+      {
+        "title": "Brood Brother",
+        "description": [
+          "Units with the Brood Brother special rule are expendable as long as the Genestealer Patriarch is alive"
+        ]
+      }
+    ],
+    "unit": [
+      {
+        "name": "Brood Lord",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Leader",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Genestealer Magus",
+        "type": "CH",
+        "weapons": [
+          "Psychic Powers"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Genestealer Patriarch",
+        "type": "CH",
+        "weapons": [
+          "Large Rending Claws||EA(+1)"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Inspiring",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Genestealer Primus",
+        "type": "CH",
+        "weapons": [
+          "Large Rending Claws||EA(+1)"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Acolyte Honourguard",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Autopistols",
+          "Large Rending Claws"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Acolyte Iconward",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Autopistols",
+          "Rending Claws"
+        ],
+        "specialRules": [
+          "Commander",
+          "Tunnelers"
+        ]
+      },
+      {
+        "name": "Acolytes",
+        "type": "INF",
+        "speed": 20,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Autopistols",
+          "Claws"
+        ],
+        "specialRules": [
+          "Brood Brother", "Tunnelers"
+        ]
+      },
+      {
+        "name": "Genestealers",
+        "type": "INF",
+        "speed": 20,
+        "armour": 6,
+        "cc": 2,
+        "weapons": [
+          "Rending Claws"
+        ],
+        "specialRules": [
+          "Scout",
+          "Infiltrators"
+        ]
+      },
+      {
+        "name": "Hybrid Aberrants",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Giant Mauls"
+        ]
+      },
+      {
+        "name": "Hybrid Metamorph",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Claws"
+        ],
+        "specialRules": [
+          "Infiltrators"
+        ]
+      },
+      {
+        "name": "Neophyte Commander",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Autocannon"
+        ],
+        "specialRules": [
+          "Brood Brother",
+          "Commander"
+        ]
+      },
+      {
+        "name": "Neophytes",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Autocannon"
+        ],
+        "specialRules": [
+          "Brood Brother"
+        ],
+        "notes": "One in every two units (rounding up) has an Autocannon"
+      },
+      {
+        "name": "Neophyte Outriders",
+        "type": "INF",
+        "speed": 35,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Laspistols",
+          "Claws"
+        ],
+        "specialRules": [
+          "Brood Brother",
+          "Mounted"
+        ]
+      },
+      {
+        "name": "Neophyte Fire Support",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Autocannon|2"
+        ],
+        "specialRules": [
+          "Brood Brother"
+        ]
+      },
+      {
+        "name": "Ridgerunner",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Heavy Stubber|2"
+        ],
+        "specialRules": [
+          "Scout"
+        ]
+      },
+      {
+        "name": "Land Transporter",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Heavy Stubber"
+        ],
+        "notes": "May transport two infantry units without Mounted or Jump Packs."
+      },
+      {
+        "name": "Technical",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Twin Heavy Stubbers Turret"
+        ]
+      },
+      {
+        "name": "Goliath Truck",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Heavy Stubber|2"
+        ],
+        "notes": "May transport two infantry units without Mounted or Jump Packs."
+      },
+      {
+        "name": "Goliath Rockgrinder",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Drilldozer Blade"
+        ],
+        "specialRules": [
+          "Walker"
+        ],
+        "notes": "May transport two infantry unit without Mounted or Jump Packs."
+      }
+    ]
+  }
+]
