@@ -3,8 +3,8 @@
   "army": "Cult of the Rusted Claw",
   "version": "0.5.0",
   "release": "2020-05-03",
-  "strategy": "Genestealer Cults have a Strategy Rating of 2.",
-  "Initiative": "Genestealer Swarm formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+, and are subject to the Broodmind special rule.",
+  "strategy": "Genestealer Cult armies have a Strategy Rating of 2.",
+  "Initiative": "The Genestealer Swarm formation has an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+, and are subject to the 'Broodmind' special rule.",
   "specialRules": [
     "Broodcoven",
     "Broodmind",
@@ -83,7 +83,7 @@
       "description": "One Neophyte Formation may be fielded per Acolyte Formation",
       "formations": [
           {
-            "name": "Neophyte Outriders",
+            "name": "Outrider Squadron",
             "units": "Six Neophyte Outriders",
             "extraUnits": [
               "Ridgerunners"
@@ -91,7 +91,7 @@
             "points": 175
           },
         {
-          "name": "Infantry Platoon",
+          "name": "Neophyte Platoon",
           "units": "Eight Neophytes",
           "extraUnits": [
             "Flak",
@@ -101,7 +101,7 @@
           "points": 200
         },
         {
-          "name": "Mechanized Infantry Platoon",
+          "name": "Mechanized Neophyte Platoon",
           "units": "Six Neophytes and three Chimeras",
           "extraUnits": [
             "Flak",
