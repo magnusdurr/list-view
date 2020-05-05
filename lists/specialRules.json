@@ -224,7 +224,7 @@
     {
       "title": "Tunnelers",
       "description": [
-        "Tunnellers are set up touching their own side's table edge before the battle starts at the same time that spacecraft are set up (see 4.3.1). Any units transported in tunnellers should be placed to one side at this time too. Secretly write down the location where the tunneller will surface at the same time and in the same manner that you record the coordinates of a drop zone (see 4.3.1). You must also secretly record the turn the tunneller will surface. If it is going to surface in your half of the table it may arrive from the second turn onwards. If it is going to surface in the opposing half of the table, it may arrive from turn three onwards.",
+        "Tunnellers may be set up touching their own side's table edge before the battle starts at the same time that spacecraft are set up (see 4.3.1). Any units transported in tunnellers should be placed to one side at this time too. Secretly write down the location where the tunneller will surface at the same time and in the same manner that you record the coordinates of a drop zone (see 4.3.1). You must also secretly record the turn the tunneller will surface. If it is going to surface in your half of the table it may arrive from the second turn onwards. If it is going to surface in the opposing half of the table, it may arrive from turn three onwards.",
         "Set up the tunneller units at the start of the stated turn, before determining who wins the strategy roll, at the location you wrote down. Surfacing does not count as movement for the purposes of triggering enemy overwatch fire. If a tunneller would have surfaced on terrain that is impassable for it, under a friendly unit, or in an enemy zone of control, then it is assumed that on-board sensor equipment would divert it towards another entry point. The unit should be moved to the nearest area where it can surface.",
         "Formations of multiple tunnellers need only record one location where they will surface. Place the first tunneller unit at this location. All other tunneller units must be placed within 5cm of another tunneller unit that has already been placed and fully within a 15cm radius of the original surfacing coordinates. After all tunnellers have been placed any units being transported are allowed to disembark immediately.",
         "Disembarking triggers overwatch fire as normal. Tunnellers, and any units being transported in them, may take an action on the turn they appear."
@@ -1062,13 +1062,6 @@
       ]
     },
     {
-      "title": "Brood Brothers",
-      "description": [
-        "Formations with at least one unit with the Brood Brothers special rule are considered to be 'Cult Formations'. While a Cult Formation contains a Coven Locus character or a Hybrid Primus, units with the Brood Brothers special rule (except the unit where the Coven Locus is located) are considered Expendable.",
-        "Any Cult Formation that loses its Coven Locus character or Hybrid Primus unit reduces its Initiative Rating to 3+, and may only contest objectives."
-      ]
-    },
-    {
       "title": "Nexus Brood",
       "description": [
           "The army must include a Nexus Brood formation. The enemy will only count as having achieved their Break Their Spirit (BTS) victory condition if this formation is destroyed, even if it is not the single most expensive formation in the army.",
@@ -1338,9 +1331,15 @@
     {
       "title": "Broodmind",
       "description": [
-        "As long as the Genestealer Partriarch is alive all formations receive a +1 modifier to the dice roll when attempting to make an engage action or when rolling to rally in the end phase"
+        "As long as at least one Genestealer Patriarch, Genestealer Primus, or Genestealer Magus in the army is alive, all Genestealer Cult formations with 2+ Initiative Rating receive a +1 modifier to the dice roll when attempting to make an Engage action or when rolling to rally in the End Phase."
         ]
     },
+    {
+      "title": "Brood Brothers",
+      "description": [
+        "As long as at least one Genestealer Patriarch, Genestealer Primus, or Genestealer Magus in the army is alive, units with the 'Brood Brother' special rule does not cause Blast Markers when they are destroyed. This includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. If a unit with 'Brood Brother' is hit by a weapon with disrupt it does not inflict a Blast Marker. Units with 'Brood Brother' that are killed in an assault count for the purposes of working out its result."
+      ]
+  },
     {
       "title": "Broodcoven",
       "description": [

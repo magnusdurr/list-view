@@ -6,18 +6,18 @@
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "The Cult Company and all Cult Support formations have an Initiative Rating of 2+, and are subject to the 'Brood Brothers' special rule. All other formations have an Initative Rating of 1+.",
 
-  "specialRules": ["Nexus Brood","Brood Brothers","Extreme Mobility (Cult of the Star-Spawn)"],
+  "specialRules": ["Broodcoven", "Broodmind", "Brood Brothers","Extreme Mobility (Cult of the Star-Spawn)"],
   "usage": [
  ],
   "units": [
     {
-      "from": "GS.json",
+      "from": "GS2.json",
       "units": [
         "Genestealer Patriarch",
         "Coven Locus",
         "Broodlord",
-        "Hybrid Primus",
-        "Hybrid Acolytes",
+        "Genestealer Primus",
+        "Acolytes",
         "Hybrid Metamorphs",
         "Lictor",
         "Hybrid Aberrants",
@@ -69,7 +69,7 @@
         "extraUnits": [
           "Add four Cult Infantry: 50 points",
           "Add two Cult Fire Support: 50 points",
-          "Add three Cult Leman Russ or Cult Leman Russ Demolishers: 125 points",
+          "Add three Cult Leman Russ or Cult Leman Russ Demolishers: 150 points",
           "Add enough Cult Chimeras to transport the entire formation with no space left over: 25 points each",
           "Add one Cult Hydra: 50 points",
           "Add up to two Cult Hellhounds: 25 points each",

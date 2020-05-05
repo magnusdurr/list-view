@@ -2,12 +2,6 @@
   {
     "name": "Genestealer Forces",
     "specialRules": [
-      {
-        "title": "Brood Brother",
-        "description": [
-          "Units with the Brood Brother special rule are expendable as long as the Genestealer Patriarch is alive"
-        ]
-      }
     ],
     "unit": [
       {
@@ -23,18 +17,6 @@
         ]
       },
       {
-        "name": "Genestealer Magus",
-        "type": "CH",
-        "weapons": [
-          "Psychic Powers"
-        ],
-        "specialRules": [
-          "Inspiring",
-          "Invulnerable Save",
-          "Leader"
-        ]
-      },
-      {
         "name": "Genestealer Patriarch",
         "type": "CH",
         "weapons": [
@@ -46,6 +28,20 @@
           "Invulnerable Save"
         ]
       },
+      {
+        "name": "Genestealer Magus",
+        "type": "CH",
+        "weapons": [
+          "Psychic Powers"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Leader",
+          "Invulnerable Save"
+
+        ]
+      },
+
       {
         "name": "Genestealer Primus",
         "type": "CH",
@@ -64,10 +60,10 @@
         "speed": 20,
         "armour": 4,
         "cc": 3,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
           "Autopistols",
-          "Large Rending Claws"
+          "Rending Claws"
         ],
         "specialRules": [
           "Fearless"
@@ -79,14 +75,12 @@
         "speed": 20,
         "armour": 4,
         "cc": 3,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
           "Autopistols",
           "Rending Claws"
         ],
         "specialRules": [
-          "Commander",
-          "Tunnelers"
         ]
       },
       {
@@ -101,7 +95,7 @@
           "Claws"
         ],
         "specialRules": [
-          "Brood Brother", "Tunnelers"
+          "Brood Brothers"
         ]
       },
       {
@@ -126,10 +120,13 @@
         "cc": 3,
         "weapons": [
           "Giant Mauls"
-        ]
+      ],
+      "specialRules": [
+        "Brood Brothers"
+      ]
       },
       {
-        "name": "Hybrid Metamorph",
+        "name": "Hybrid Metamorphs",
         "type": "INF",
         "speed": 20,
         "armour": 5,
@@ -138,7 +135,9 @@
           "Claws"
         ],
         "specialRules": [
+          "Brood Brothers",
           "Infiltrators"
+
         ]
       },
       {
@@ -152,7 +151,7 @@
           "Autocannon"
         ],
         "specialRules": [
-          "Brood Brother",
+          "Brood Brothers",
           "Commander"
         ]
       },
@@ -166,37 +165,37 @@
           "Autocannon"
         ],
         "specialRules": [
-          "Brood Brother"
+          "Brood Brothers"
         ],
         "notes": "One in every two units (rounding up) has an Autocannon"
-      },
-      {
-        "name": "Neophyte Outriders",
-        "type": "INF",
-        "speed": 35,
-        "armour": 6,
-        "cc": 4,
-        "ff": 6,
-        "weapons": [
-          "Laspistols",
-          "Claws"
-        ],
-        "specialRules": [
-          "Brood Brother",
-          "Mounted"
-        ]
       },
       {
         "name": "Neophyte Fire Support",
         "type": "INF",
         "speed": 15,
         "cc": 5,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
           "Autocannon|2"
         ],
         "specialRules": [
-          "Brood Brother"
+          "Brood Brothers"
+        ]
+      },
+      {
+        "name": "Neophyte Outriders",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Autopistols",
+          "Chainswords"
+        ],
+        "specialRules": [
+          "Brood Brothers",
+          "Mounted"
         ]
       },
       {
@@ -207,10 +206,21 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Stubber|2"
+          "Heavy Stubber"
         ],
         "specialRules": [
           "Scout"
+        ]
+      },
+      {
+        "name": "Technical",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Twin Heavy Stubbers Turret"
         ]
       },
       {
@@ -226,15 +236,19 @@
         "notes": "May transport two infantry units without Mounted or Jump Packs."
       },
       {
-        "name": "Technical",
+        "name": "Coven Limousine",
         "type": "LV",
         "speed": 30,
-        "armour": 5,
+        "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Twin Heavy Stubbers Turret"
-        ]
+          "Twin Heavy Stubbers"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Goliath Truck",
@@ -244,24 +258,24 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Stubber|2"
+          "Twin Heavy Stubbers"
         ],
-        "notes": "May transport two infantry units without Mounted or Jump Packs."
+        "notes": "May transport two infantry units without Jump Packs or Mounted.."
       },
       {
         "name": "Goliath Rockgrinder",
         "type": "AV",
-        "speed": 25,
+        "speed": 20,
         "armour": 4,
         "cc": 4,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
           "Drilldozer Blade"
         ],
         "specialRules": [
           "Walker"
         ],
-        "notes": "May transport two infantry unit without Mounted or Jump Packs."
+        "notes": "May transport two infantry unit without Jump Packs or Mounted."
       }
     ]
   }

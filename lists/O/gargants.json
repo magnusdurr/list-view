@@ -89,16 +89,14 @@
       "description": "Up to four for each Bad Moons Gargants formation",
       "formations": [
         {
-          "name": "Big Mek Loota Warband",
+          "name": "Bad Moons Gunfortress Warband",
           "units": "Four Boyz, two Grotz, one Gunfortress",
           "extraUnits": [
             "Add any number of Deffkoptas, Flakwagons, Gunwagons: 35 points each",
             "0-1: Add one Big Mob Oddboy character to a Gunfortress unit: 50 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "200"},
-            {"name": "Big", "points":  "350"},
-            {"name": "'Uge", "points":  "500"}
+          "points": 225
           ]
         },
         {
@@ -109,9 +107,7 @@
             "0-1: Add one Big Mob Oddboy character to a Battlefortress unit: 50 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "200"},
-            {"name": "Big", "points":  "350"},
-            {"name": "'Uge", "points":  "500"}
+          "points": 225
           ]
         },
         {

@@ -443,18 +443,12 @@
           "name": "Tyranids",
           "abbreviation": "NID",
           "lists": [
-            {
-              "name": "Cult of the Star-Spawn",
-              "file": "cultofthestarspawn",
-              "status": "alpha",
-              "img": "website/img/Genstealer_FourArm.jpg"
-            },
-            {
-              "name": "Genestealer Cult",
-              "file": "gscult",
-              "status": "alpha",
-              "img": "website/img/Genstealer_FourArm.jpg"
-            },
+              {
+                "name": "Cult of the Rusted Claw",
+                "file": "gscult",
+                "status": "beta",
+                "img": "website/img/Genestealer_Rust.jpg"
+              },
             {
               "name": "Hive Fleet Dagon",
               "file": "dagon",

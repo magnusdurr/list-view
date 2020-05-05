@@ -1,13 +1,15 @@
 {
   "fraction": "Tyranids",
-  "army": "Genesteler Cult",
+  "army": "Cult of the Rusted Claw",
   "version": "0.5.0",
   "release": "2020-05-03",
-  "strategy": "The Genestealer Cult has a Strategy Rating of 2.",
-  "Initiative": "All formations have an Initiative Rating of 2+",
+  "strategy": "Genestealer Cults have a Strategy Rating of 2.",
+  "Initiative": "Genestealer Swarm formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+, and are subject to the Broodmind special rule.",
   "specialRules": [
+    "Broodcoven",
     "Broodmind",
-    "Broodcoven"
+        "Brood Brothers",
+        "Tunnelers"
   ],
   "usage": [],
   "units": [
@@ -23,25 +25,25 @@
         "Acolytes",
         "Genestealers",
         "Hybrid Aberrants",
-        "Hybrid Metamorph",
-        "Neophyte Commander",
+        "Hybrid Metamorphs",
         "Neophytes",
         "Neophyte Outriders",
         "Neophyte Fire Support",
         "Ridgerunner",
         "Land Transporter",
         "Technical",
+        "Coven Limousine",
         "Goliath Truck",
         "Goliath Rockgrinder"
       ],
       "unitRules": [
-        "Brood Brother"
       ]
     },
     {
       "from": "IG.json",
       "units": [
         "Chimera",
+        "Basilisk",
         "Hellhound",
         "Hydra",
         "Leman Russ",
@@ -65,13 +67,13 @@
         {
           "name": "1 Broodcoven",
           "units": "One Genestealer Patriarch and six Acolyte Honourguards",
-          "upgrades": ["Acolyte Transports", "Hybrids", "Technicals"],
+          "extraUnits": ["Cult Transports", "Hybrids", "Technicals"],
           "points": 275
         },
         {
           "name": "Acolyte Coven",
           "units": "One Acolyte Iconward and seven Acolytes",
-          "upgrades": ["Acolyte Transports", "Coven Leader", "Hybrids", "Technicals"],
+          "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Hybrids", "Technicals"],
           "points": 200
         }
       ]
@@ -80,32 +82,30 @@
       "name": "Neophyte Formations",
       "description": "One Neophyte Formation may be fielded per Acolyte Formation",
       "formations": [
+          {
+            "name": "Neophyte Outriders",
+            "units": "Six Neophyte Outriders",
+            "extraUnits": [
+              "Ridgerunners"
+            ],
+            "points": 175
+          },
         {
           "name": "Infantry Platoon",
-          "units": "One Neophyte Commander and seven Neophytes",
-          "upgrades": [
-            "Fire Support",
+          "units": "Eight Neophytes",
+          "extraUnits": [
             "Flak",
-            "Leman Russ Squadron"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Neophyte Outriders",
-          "units": "Six Neophyte Outriders",
-          "upgrades": [
-            "Ridgerunners"
+            "Fire Support"
+
           ],
           "points": 200
         },
         {
           "name": "Mechanized Infantry Platoon",
-          "units": "One Neophyte Commander, five Neophytes, and three Chimeras",
-          "upgrades": [
-            "Fire Support",
+          "units": "Six Neophytes and three Chimeras",
+          "extraUnits": [
             "Flak",
-            "Hellhounds",
-            "Leman Russ Squadron"
+            "Hellhounds"
           ],
           "points": 250
         }
@@ -115,18 +115,26 @@
       "name": "Neophyte Support Formations",
       "description": "One Neophyte Support Formation may be fielded per Neophyte Formation",
       "formations": [
+          {
+            "name": "Sentinel Squadron",
+            "units": "Four Sentinels",
+            "extraUnits": [],
+            "points": 100
+          },
+
+        {
+          "name": "Artillery Battery",
+          "units": "Three Basilisk",
+          "extraUnits": [],
+          "points": 225
+        },
         {
           "name": "Leman Russ Platoon",
           "units": "Six Leman Russ",
           "extraUnits": [],
           "points": 375
         },
-        {
-          "name": "Sentinel Squadron",
-          "units": "Four Sentinels",
-          "extraUnits": [],
-          "points": 100
-        },
+
         {
           "name": "Thunderbolts",
           "units": "Two Thunderbolts",
@@ -154,21 +162,30 @@
     "title": "Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
+        {
+          "name": "Mineshaft Infiltrators",
+          "description": "The formation gains the 'Tunneling' special rule, but may have no other upgrades",
+          "points": "Free"
+        },
       {
         "name": "Acolyte Transports",
-        "description": "Add Land Transporters, Goliath Trucks or Goliath Rockgrinders to the formation, up to the number required to transport all infantry units in the formation",
+        "description": "Add Land Transporters, Coven Limousines, Goliath Trucks or Goliath Rockgrinders to the formation, up to the number required to transport all infantry units in the formation",
         "options": [
           {
-            "description": "Land Transporters",
-            "points": "15 points each"
+            "description": "Land Transporter (Acolyte Coven only)",
+            "points": "10 points each"
           },
           {
-            "description": "Goliath Trucks",
+            "description": "Coven Limousine (Broodcoven only)",
+            "points": "20 points each"
+          },
+          {
+            "description": "Goliath Truck",
             "points": "25 points each"
           },
           {
             "description": "Goliath Rockgrinder",
-            "points": "30 points each"
+            "points": "25 points each"
           }
         ]
       },
@@ -179,7 +196,7 @@
       },
       {
         "name": "Fire Support",
-        "description": "Add two Neophyte Fire Support units",
+        "description": "Add two Neophyte Fire Supports",
         "points": "75 points"
       },
       {
@@ -189,7 +206,7 @@
       },
       {
         "name": "Hellhounds",
-        "description": "Add up to three Hellhounds",
+        "description": "Add up to two Hellhounds",
         "points": "25 points each"
       },
       {
@@ -207,13 +224,8 @@
         ]
       },
       {
-        "name": "Leman Russ Squadron",
-        "description": "Add three Leman Russ",
-        "points": "125 points"
-      },
-      {
         "name": "Riderunners",
-        "description": "Add up to three Ridgerunner units",
+        "description": "Add up to two Ridgerunners",
         "points": "20 points each"
       },
       {

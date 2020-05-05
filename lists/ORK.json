@@ -70,10 +70,10 @@
       "weapons": [
         "Supa-Zzap-Gun|0-1|",
         "Soopagun|0-1|",
-        "D3+1 Power Fields|0-1|"
+        "D3 Power Fields|0-1|"
       ],
       "specialRules": [
-          "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3+1 power fields"
+          "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3 power fields"
       ]
     },
     {
@@ -83,25 +83,25 @@
         "Supa-Zzap-Gun|0-1|",
         "Soopagun|0-1|",
         "Weirdboy Tower|0-1|",
-        "D3+1 Power Fields|0-1|",
+        "D3 Power Fields|0-1|",
         "'Uge Banner of Mork (or possibly Gork)|0-1|"
       ],
       "specialRules": [
           "[**]'Uge Banner of Mork (or possibly Gork): (Gargants Only) The unit gains the Inspiring special rule"
       ],
-      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower (Gargants only), alternatively the unit may be given [*] D3+1 power fields or a 'Uge Banner of Mork (or possibly Gork) (Gargants only)"
+      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower (Gargants only), alternatively the unit may be given [*] D3 power fields or a 'Uge Banner of Mork (or possibly Gork) (Gargants only)"
     },
   {
     "name": "Speed Freek Oddboy",
     "type": "CH",
     "weapons": [
       "Lifta-Droppa|0-1|",
-      "D3+1 Power Fields|0-1|",
+      "D3 Power Fields|0-1|",
       "Deff-Rolla & Red Paint Job|0-1|"
 
     ],
     "specialRules": [
-        "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3+1 Power Fields, or [**] is equipped with a Deff-Rolla (Walker) & Red Paint Job (Speed +5cm)."
+        "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3 Power Fields, or [**] is equipped with a Deff-Rolla (Walker) & Red Paint Job (Speed +5cm)."
     ]
   },
     {
@@ -373,6 +373,21 @@
       "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
     },
     {
+      "name": "Speed Freek Gunwagon",
+      "type": "AV",
+      "speed": 35,
+      "armour": 6,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Big Gun"
+      ],
+      "specialRules": [
+          "Transport"
+      ],
+      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
+    },
+    {
       "name": "Looted Leman Russ/Land Raider",
       "type": "AV",
       "speed": 25,
@@ -420,6 +435,21 @@
       "type": "AV",
       "speed": 30,
       "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Flak Gun"
+      ],
+      "specialRules": [
+          "Transport"
+      ],
+      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
+    },
+    {
+      "name": "Speed Freek Flakwagon",
+      "type": "AV",
+      "speed": 35,
+      "armour": 6,
       "cc": 5,
       "ff": 5,
       "weapons": [
@@ -903,10 +933,11 @@
               {
                 "firepower": "1D6BP, MW"
               }
-          ],
-          "specialRules": [
-              "Transport"
+          ]
         }
+            ],
+        "specialRules": [
+            "Transport"
     ],
     "notes": "May transport one Drop Rok and the units carried on it"
     },
