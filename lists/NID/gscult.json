@@ -67,7 +67,7 @@
         {
           "name": "1 Broodcoven",
           "units": "One Genestealer Patriarch and six Acolyte Honourguards",
-          "extraUnits": ["Cult Transports", "Hybrids", "Technicals"],
+          "extraUnits": ["Cult Transports", "Hybrids", "Technicals", "Genestealers"],
           "points": 275
         },
         {
@@ -79,9 +79,29 @@
       ]
     },
     {
-      "name": "Neophyte Formations",
-      "description": "One Neophyte Formation may be fielded per Acolyte Formation",
+      "name": "Purestrain Formations",
+      "description": "Up to one Purestrain formation per Acolyte formation",
       "formations": [
+        {
+          "name": "Genestealer Swarm",
+          "units": "One Brood Lord, six Genestealers",
+          "extraUnits": [
+            "Genestealers"
+          ],
+          "points": 175
+        }
+      ]
+  },
+    {
+      "name": "Neophyte Formations",
+      "description": "Up to one Neophyte formation per Acolyte or Purestrain formation",
+      "formations": [
+          {
+            "name": "Sentinel Squadron",
+            "units": "Four Sentinels",
+            "extraUnits": [],
+            "points": 100
+          },
           {
             "name": "Outrider Squadron",
             "units": "Six Neophyte Outriders",
@@ -101,6 +121,12 @@
           "points": 200
         },
         {
+          "name": "Artillery Battery",
+          "units": "Three Basilisk",
+          "extraUnits": [],
+          "points": 225
+        },
+        {
           "name": "Mechanized Neophyte Platoon",
           "units": "Six Neophytes and three Chimeras",
           "extraUnits": [
@@ -108,53 +134,21 @@
             "Hellhounds"
           ],
           "points": 250
-        }
-      ]
-    },
-    {
-      "name": "Neophyte Support Formations",
-      "description": "One Neophyte Support Formation may be fielded per Neophyte Formation",
-      "formations": [
-          {
-            "name": "Sentinel Squadron",
-            "units": "Four Sentinels",
-            "extraUnits": [],
-            "points": 100
-          },
+      },
 
-        {
-          "name": "Artillery Battery",
-          "units": "Three Basilisk",
-          "extraUnits": [],
-          "points": 225
-        },
-        {
-          "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ",
-          "extraUnits": [],
-          "points": 375
-        },
-
-        {
-          "name": "Thunderbolts",
-          "units": "Two Thunderbolts",
-          "extraUnits": [],
-          "points": 150
-        }
-      ]
-    },
     {
-      "name": "Purestrain Formations",
-      "description": "Up to one quarter of the points available may be spent on Purestrain Formations",
-      "formations": [
-        {
-          "name": "Genestealer Swarm",
-          "units": "One Brood Lord, six Genestealers",
-          "extraUnits": [
-            "Add up to three Genestealers: 25 points each"
-          ],
-          "points": 175
-        }
+      "name": "Leman Russ Platoon",
+      "units": "Six Leman Russ",
+      "extraUnits": [],
+      "points": 375
+    },
+
+    {
+      "name": "Thunderbolts",
+      "units": "Two Thunderbolts",
+      "extraUnits": [],
+      "points": 150
+    }
       ]
     }
   ],
@@ -177,7 +171,7 @@
           },
           {
             "description": "Coven Limousine (Broodcoven only)",
-            "points": "20 points each"
+            "points": "15 points each"
           },
           {
             "description": "Goliath Truck",
@@ -193,6 +187,11 @@
         "name": "Coven Leader",
         "description": "Add one Genestealer Magus or Genestealer Primus character to an Acolyte Iconward unit in the formation",
         "points": "50 points"
+      },
+      {
+        "name": "Genestealers",
+        "description": "Add up to three Genestealers",
+        "points": "25 points each"
       },
       {
         "name": "Fire Support",
@@ -215,7 +214,7 @@
         "options": [
           {
             "description": "Hybrid Aberrants",
-            "points": "30 points each"
+            "points": "25 points each"
           },
           {
             "description": "Hybrid Metamorphs",
