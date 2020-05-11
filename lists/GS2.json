@@ -55,18 +55,19 @@
         ]
       },
       {
-        "name": "Acolyte Honourguard",
+        "name": "Acolyte Honour Guard",
         "type": "INF",
         "speed": 20,
         "armour": 4,
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Autoguns",
+          "Seismic Cannon",
           "Rending Claws"
         ],
         "specialRules": [
-          "Fearless"
+          "Brood Brothers",
+          "Honour Guard"
         ]
       },
       {
@@ -77,10 +78,11 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Autoguns",
+          "Seismic Cannon",
           "Rending Claws"
         ],
         "specialRules": [
+            "Brood Brothers"
         ]
       },
       {
@@ -162,6 +164,7 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
+          "Autoguns",
           "Autocannon"
         ],
         "specialRules": [
@@ -206,7 +209,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Stubber"
+          "Twin Heavy Stubbers"
         ],
         "specialRules": [
           "Scout"
@@ -258,7 +261,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Seismic Cannon"
+          "Seismic Heavy Cannon"
         ],
         "notes": "May transport two infantry units without Jump Packs or Mounted.."
       },
