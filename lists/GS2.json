@@ -5,18 +5,6 @@
     ],
     "unit": [
       {
-        "name": "Brood Lord",
-        "type": "CH",
-        "weapons": [
-          "n/a"
-        ],
-        "specialRules": [
-          "Inspiring",
-          "Leader",
-          "Invulnerable Save"
-        ]
-      },
-      {
         "name": "Genestealer Patriarch",
         "type": "CH",
         "weapons": [
@@ -55,7 +43,29 @@
         ]
       },
       {
-        "name": "Acolyte Honour Guard",
+        "name": "Hybrid Iconward",
+        "type": "CH",
+        "weapons": [
+            "n/a"
+        ],
+        "specialRules": [
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Brood Lord",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Leader",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Acolyte Praetorians",
         "type": "INF",
         "speed": 20,
         "armour": 4,
@@ -86,11 +96,11 @@
         ]
       },
       {
-        "name": "Acolytes",
+        "name": "Acolyte Hybrids",
         "type": "INF",
         "speed": 20,
         "armour": 5,
-        "cc": 4,
+        "cc": 3,
         "ff": 6,
         "weapons": [
           "Autopistols",
@@ -115,7 +125,7 @@
         ]
       },
       {
-        "name": "Hybrid Aberrants",
+        "name": "Aberrants",
         "type": "INF",
         "speed": 20,
         "armour": 4,
@@ -128,7 +138,7 @@
       ]
       },
       {
-        "name": "Hybrid Metamorphs",
+        "name": "Metamorph Hybrids",
         "type": "INF",
         "speed": 20,
         "armour": 5,
@@ -142,21 +152,7 @@
 
         ]
       },
-      {
-        "name": "Neophyte Commander",
-        "type": "INF",
-        "speed": 15,
-        "armour": 6,
-        "cc": 4,
-        "ff": 5,
-        "weapons": [
-          "Autocannon"
-        ],
-        "specialRules": [
-          "Brood Brothers",
-          "Commander"
-        ]
-      },
+
       {
         "name": "Neophytes",
         "type": "INF",
@@ -263,12 +259,12 @@
         "weapons": [
           "Seismic Heavy Cannon"
         ],
-        "notes": "May transport two infantry units without Jump Packs or Mounted.."
+        "notes": "May transport two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Goliath Rockgrinder",
         "type": "AV",
-        "speed": 20,
+        "speed": 25,
         "armour": 4,
         "cc": 4,
         "ff": 6,

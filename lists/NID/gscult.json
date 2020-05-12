@@ -21,12 +21,12 @@
         "Genestealer Magus",
         "Genestealer Patriarch",
         "Genestealer Primus",
-        "Acolyte Iconward",
-        "Acolyte Honour Guard",
-        "Acolytes",
+        "Hybrid Iconward",
+        "Acolyte Praetorians",
+        "Acolyte Hybrids",
         "Genestealers",
-        "Hybrid Aberrants",
-        "Hybrid Metamorphs",
+        "Aberrants",
+        "Metamorph Hybrids",
         "Neophytes",
         "Neophyte Outriders",
         "Neophyte Fire Support",
@@ -67,15 +67,15 @@
       "formations": [
         {
           "name": "1 Broodcoven",
-          "units": "One Genestealer Patriarch and six Acolyte Honour Guards",
-          "extraUnits": ["Cult Transports", "Hybrids", "Technicals", "Genestealers"],
-          "points": 250
+          "units": "One Genestealer Patriarch and six Acolyte Praetorians",
+          "extraUnits": ["Cult Transports", "Technicals", "Genestealers"],
+          "points": 275
         },
         {
           "name": "Acolyte Coven",
-          "units": "One Acolyte Iconward and seven Acolytes",
+          "units": "Acolyte Praetorians with Hybrid Iconward, and seven Acolyte Hybrids",
           "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Hybrids", "Technicals"],
-          "points": 175
+          "points": 200
         }
       ]
     },
@@ -105,7 +105,7 @@
           },
           {
             "name": "Outrider Squadron",
-            "units": "Six Neophyte Outriders",
+            "units": "One Hybrid Iconward, six Neophyte Outriders",
             "extraUnits": [
               "Ridgerunners"
             ],
@@ -113,7 +113,7 @@
           },
         {
           "name": "Neophyte Platoon",
-          "units": "Eight Neophytes",
+          "units": "One Hybrid Iconward, eight Neophytes",
           "extraUnits": [
             "Flak",
             "Fire Support"
@@ -125,23 +125,23 @@
           "name": "Artillery Battery",
           "units": "Three Basilisk",
           "extraUnits": [],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Mechanized Neophyte Platoon",
-          "units": "Six Neophytes and three Chimeras",
+          "units": "One Hybrid Iconward, six Neophytes and three Chimeras",
           "extraUnits": [
             "Flak",
             "Hellhounds"
           ],
-          "points": 250
+          "points": 275
       },
 
     {
       "name": "Leman Russ Platoon",
       "units": "Six Leman Russ",
       "extraUnits": [],
-      "points": 375
+      "points": 400
     },
 
     {
@@ -186,7 +186,7 @@
       },
       {
         "name": "Coven Leader",
-        "description": "Add one Genestealer Magus or Genestealer Primus character to an Acolyte Iconward unit in the formation",
+        "description": "Replace one Hybrid Iconward with a Genestealer Magus or Genestealer Primus",
         "points": "50 points"
       },
       {
@@ -211,15 +211,15 @@
       },
       {
         "name": "Hybrids",
-        "description": "Add up to five of the following units to the formation",
+        "description": "Replace up to three Acolyte Hybrids with Aberrants and/or Metamorph Hybrids",
         "options": [
           {
-            "description": "Hybrid Aberrants",
-            "points": "25 points each"
+            "description": "Aberrants",
+            "points": "15 points each"
           },
           {
-            "description": "Hybrid Metamorphs",
-            "points": "20 points each"
+            "description": "Metamorph Hybrids",
+            "points": "10 points each"
           }
         ]
       },

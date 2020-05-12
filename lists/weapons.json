@@ -8808,7 +8808,10 @@
       "name": "Seismic Cannon",
       "modes": [
         {
-          "firepower": "Small Arms"
+          "firepower": "Small Arms",
+          "specialRules": [
+            "IC"
+          ]
         }
       ]
     },
@@ -8816,8 +8819,11 @@
       "name": "Seismic Heavy Cannon",
       "modes": [
         {
-          "firepower": "AP5+/AT6+",
-          "range": 15
+          "firepower": "AP4+/AT6+",
+          "range": 15,
+          "specialRules": [
+            "IC"
+          ]
         }
       ]
     },
