@@ -68,13 +68,13 @@
         {
           "name": "1 Broodcoven",
           "units": "One Genestealer Patriarch and six Acolyte Praetorians",
-          "extraUnits": ["Cult Transports", "Technicals", "Genestealers"],
+          "extraUnits": ["Cult Transports", "Technicals", "Acolytes"],
           "points": 275
         },
         {
           "name": "Acolyte Coven",
           "units": "Acolyte Praetorians with Hybrid Iconward, and seven Acolyte Hybrids",
-          "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Hybrids", "Technicals"],
+          "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Biomorphs", "Acolytes", "Technicals"],
           "points": 200
         }
       ]
@@ -87,7 +87,7 @@
           "name": "Genestealer Swarm",
           "units": "One Brood Lord, six Genestealers",
           "extraUnits": [
-            "Genestealers"
+            "Add up to three Genestealers: 25 points each"
           ],
           "points": 175
         }
@@ -190,11 +190,6 @@
         "points": "50 points"
       },
       {
-        "name": "Genestealers",
-        "description": "Add up to three Genestealers",
-        "points": "25 points each"
-      },
-      {
         "name": "Fire Support",
         "description": "Add two Neophyte Fire Supports",
         "points": "75 points"
@@ -210,7 +205,12 @@
         "points": "25 points each"
       },
       {
-        "name": "Hybrids",
+        "name": "Acolytes",
+        "description": "Add up to four Acolyte Hybrids",
+        "points": "15 points each"
+      },
+      {
+        "name": "Biomorphs",
         "description": "Replace up to three Acolyte Hybrids with Aberrants and/or Metamorph Hybrids",
         "options": [
           {
