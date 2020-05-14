@@ -67,15 +67,15 @@
       "formations": [
         {
           "name": "1 Broodcoven",
-          "units": "One Genestealer Patriarch and six Acolyte Praetorians",
-          "extraUnits": ["Cult Transports", "Technicals", "Acolytes"],
+          "units": "One Genestealer Patriarch and eight Acolyte Praetorians",
+          "extraUnits": ["Cult Transports", "Acolytes", "Technicals"],
           "points": 275
         },
         {
           "name": "Acolyte Coven",
           "units": "Acolyte Praetorians with Hybrid Iconward, and seven Acolyte Hybrids",
-          "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Biomorphs", "Acolytes", "Technicals"],
-          "points": 200
+          "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Acolytes", "Biomorphs",  "Technicals"],
+          "points": 175
         }
       ]
     },
@@ -159,8 +159,8 @@
     "items": [
         {
           "name": "Mineshaft Infiltrators",
-          "description": "All units in the formation gains the 'Tunneling' special rule, but may have no other upgrades",
-          "points": "Free"
+          "description": "All units in the formation gains the 'Tunneling' special rule, may only have the Biomorph upgrade",
+          "points": "25 points"
         },
       {
         "name": "Acolyte Transports",
@@ -215,11 +215,11 @@
         "options": [
           {
             "description": "Aberrants",
-            "points": "15 points each"
+            "points": "20 points each"
           },
           {
             "description": "Metamorph Hybrids",
-            "points": "10 points each"
+            "points": "15 points each"
           }
         ]
       },
