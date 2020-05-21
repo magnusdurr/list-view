@@ -74,7 +74,7 @@
         "ff": 5,
         "weapons": [
           "Seismic Cannon",
-          "Rending Claws"
+          "Claws"
         ],
         "specialRules": [
           "Brood Brothers",
@@ -101,15 +101,17 @@
         "type": "INF",
         "speed": 20,
         "armour": 6,
-        "cc": 4,
+        "cc": 3,
         "ff": 6,
         "weapons": [
+          "Heavy Stubber",
           "Autopistols",
-          "Rending Claws"
+          "Claws"
         ],
         "specialRules": [
           "Brood Brothers"
-        ]
+        ],
+        "notes": "One in every two units (rounding up) has a Heavy Stubber"
       },
       {
         "name": "Genestealers",
@@ -143,9 +145,9 @@
         "type": "INF",
         "speed": 20,
         "armour": 5,
-        "cc": 4,
+        "cc": 3,
         "weapons": [
-          "Rending Claws"
+          "Claws"
         ],
         "specialRules": [
           "Brood Brothers",
@@ -161,8 +163,9 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Autoguns",
-          "Autocannon"
+          "Autocannon",
+          "Autoguns"
+
         ],
         "specialRules": [
           "Brood Brothers"
@@ -268,7 +271,6 @@
         "speed": 25,
         "armour": 4,
         "cc": 4,
-        "ff": 6,
         "weapons": [
           "Drilldozer Blade"
         ],

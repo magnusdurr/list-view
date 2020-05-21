@@ -11,8 +11,7 @@
           "Stubborn",
           "Ion Shield (x)",
           "Shield Piercer",
-          "Lightning Charge",
-          "Heavy Armoured Vehicle (H-AV)"
+          "Lightning Charge"
 
   ],
   "usage": [
@@ -49,7 +48,8 @@
         "Acastus Knight-Asterius"
       ],
               "unitRules": [
-
+                  "Heavy Armoured Vehicle (H-AV)",
+                  "Lance"
       ]
     },
     {
@@ -72,7 +72,6 @@
     "from": "ImperialAllies.json",
     "units": [
       "Warhound ",
-      "Warbringer Titan"
     ],
       "unitRules": [
           "Independent",
@@ -153,10 +152,10 @@
     },
     {
       "name": "Cerastus Reliquae",
-      "units": "One Seneschal, one Cerastus Knight-Atrapos",
+      "units": "One Seneschal, two Cerastus Knight-Atrapos",
       "extraUnits": [
       ],
-      "points": 200
+      "points": 375
     }
       ]
     },
@@ -185,13 +184,6 @@
 
           ],
           "points": 500
-        },
-        {
-          "name": "Warbringer Titan",
-          "units": "One Warbringer Titan",
-          "extraUnits": [
-          ],
-          "points": 650
         },
         {
           "name": "Avenger Squadron",

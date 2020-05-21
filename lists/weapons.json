@@ -1512,7 +1512,7 @@
               "firepower": "Small Arms",
               "specialRules": [
               "EA(+1)",
-              "Lance"
+              "MW"
           ]
             },
             {
@@ -1520,7 +1520,7 @@
               "join": "and",
               "specialRules": [
               "EA(+1)",
-              "TK(D2)"
+              "TK(1)"
           ]
         }
       ]
@@ -2758,8 +2758,8 @@
       "name": "Conflagration Cannon",
         "modes": [
           {
-            "firepower": "2x AP2+",
-            "range": 30
+            "firepower": "AP2+",
+            "range": 45
           },
           {
             "firepower": "Small Arms",
@@ -4464,7 +4464,7 @@
           "firepower": "MW3+",
           "range": 30,
           "specialRules": [
-            "TK(D3+1)",
+            "TK(D3)",
             "Shield Piercer"
           ]
         }

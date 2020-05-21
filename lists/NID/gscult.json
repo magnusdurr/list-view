@@ -75,7 +75,7 @@
           "name": "Acolyte Coven",
           "units": "Acolyte Praetorians with Hybrid Iconward, and seven Acolyte Hybrids",
           "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Acolytes", "Biomorphs",  "Technicals"],
-          "points": 175
+          "points": 200
         }
       ]
     },
@@ -107,7 +107,8 @@
             "name": "Outrider Squadron",
             "units": "One Hybrid Iconward, six Neophyte Outriders",
             "extraUnits": [
-              "Ridgerunners"
+              "Ridgerunners",
+              "Technicals"
             ],
             "points": 175
           },
@@ -124,7 +125,8 @@
         {
           "name": "Cult Artillery Battery",
           "units": "Three Basilisk",
-          "extraUnits": [],
+          "extraUnits": [
+          ],
           "points": 250
         },
         {
@@ -140,7 +142,8 @@
     {
       "name": "Cult Leman Russ Squadron",
       "units": "Four Leman Russ",
-      "extraUnits": [],
+      "extraUnits": [
+      ],
       "points": 300
     },
 
@@ -159,7 +162,7 @@
     "items": [
         {
           "name": "Mineshaft Infiltrators",
-          "description": "All units in the formation gains the 'Tunneling' special rule, may only have the Biomorph upgrade",
+          "description": "All units in the formation gains the 'Tunneling' special rule, may only have the 'Acolytes' and 'Biomorph' upgrades",
           "points": "25 points"
         },
       {
@@ -224,9 +227,9 @@
         ]
       },
       {
-        "name": "Riderunners",
-        "description": "Add up to two Ridgerunners",
-        "points": "20 points each"
+        "name": "Ridgerunners",
+        "description": "Replace up to three Neophyte Outriders with Ridgerunners",
+        "points": "15 points each"
       },
       {
         "name": "Technicals",

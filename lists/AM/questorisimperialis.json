@@ -2,7 +2,7 @@
   "fraction": "Adeptus Mechanicus",
   "army": "Questoris Imperialis",
   "version": "1.0.0",
-  "release": "2019-04-03",
+  "release": "2020-05-19",
   "strategy": "Questoris Imperialis armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -36,8 +36,7 @@
     {
       "from": "IG.json",
       "units": [
-        "PDF Commander",
-        "PDF Conscripts",
+        "PDF Infantry",
         "Thudd Gun",
         "Rapier",
         "Snipers",
@@ -88,6 +87,15 @@
           ],
           "points": 275
       },
+      {
+        "name": "Aggressor Household",
+        "units": "Three Knight-Aggressors",
+        "extraUnits": [
+          "Seneschal",
+          "Knight-Aggressors"
+        ],
+        "points": 300
+    },
           {
             "name": "Vanguard Household",
             "units": "Three Knight-Vanguard",
@@ -105,16 +113,7 @@
             "Knight-Guardians"
           ],
           "points": 325
-      },
-      {
-        "name": "Aggressor Household",
-        "units": "Three Knight-Aggressors",
-        "extraUnits": [
-          "Seneschal",
-          "Knight-Aggressors"
-        ],
-        "points": 325
-    }
+      }
       ]
     },
     {
@@ -122,44 +121,37 @@
       "description": "Up to one Retainer Formation for each Core or Support Household.",
       "formations": [
         {
-          "name": "Planetary Defense Company",
-          "units": "One PDF Commander, eleven PDF Conscripts",
+          "name": "Planetary Defense Platoon",
+          "units": "Eight PDF Infantry",
           "extraUnits": [
-              "Thudd Guns",
-              "Rapiers",
+              "Land Transporters",
+              "Support Weapons",
               "Snipers",
               "Entrenchments"
           ],
-          "points": 175
+          "points": 150
       },
       {
-        "name": "Flak Emplacement",
-        "units": "Four Heavy AA Guns, four Gun Emplacements",
-        "extraUnits": [
-        ],
-        "points": 175
-    },
-      {
-        "name": "Howitzer Emplacement",
-        "units": "Four Howitzers, four Gun Emplacements",
-        "extraUnits": [
-        ],
-        "points": 250
-    },
-      {
-        "name": "Rough Riders",
+        "name": "Rough Rider Platoon",
         "units": "Six Rough Riders",
         "extraUnits": [
         ],
         "points": 150
     },
-    {
-            "name": "Motorized PDF Platoon",
-            "units": "Six PDF Conscripts, three Land Transporters",
-            "extraUnits": [
-            ],
-            "points": 150
-        }
+        {
+          "name": "Flak Emplacement",
+          "units": "Four Heavy AA Guns, four Gun Emplacements",
+          "extraUnits": [
+          ],
+          "points": 175
+      },
+        {
+          "name": "Howitzer Emplacement",
+          "units": "Four Howitzers, four Gun Emplacements",
+          "extraUnits": [
+          ],
+          "points": 250
+      }
       ]
   },
 
@@ -238,20 +230,20 @@
             }
           ]
         },
+        {
+          "name": "Land Transporters",
+          "options": [
+            {
+              "description": "Add four Land Transporters (may have no other upgrades)",
+              "points": "50 points"
+            }
+          ]
+        },
       {
-        "name": "Rapiers",
+        "name": "Support Weapons",
         "options": [
           {
-            "description": "Add three Rapiers",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Thudd Guns",
-        "options": [
-          {
-            "description": "Add three Thudd Guns",
+            "description": "Add four Rapiers or three Thudd Guns",
             "points": "75 points"
           }
         ]
