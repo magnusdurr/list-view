@@ -23,6 +23,7 @@
         "Thudd Gun",
         "Rapier",
         "Snipers",
+        "Armoured Sentinel",
         "Earthshaker Gun",
         "Heavy AA Gun",
         "Trojan",
@@ -121,13 +122,12 @@
         },
         {
           "name": "Siege Infantry Platoon",
-          "units": "Eight Siege Infantry",
+          "units": "Eight Siege Infantry, 32cm Trenches, 40cm Razor Wire",
           "extraUnits": [
-              "Add 60cm Trenches, 60cm Razor Wire: 50 points",
-              "Add four Rapiers or three Thudd Guns: 75 points",
+              "Add four Rapiers and 16cm Trenches, or three Thudd Guns and 12cm Trenches: 75 points",
               "Add up to two Snipers: 25 points each"
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Earthshaker Emplacement",
@@ -169,7 +169,14 @@
               "Hellhounds"
           ],
           "points": 300
-        }
+      },
+      {
+    "name": "Armoured Sentinel Squadron",
+    "units": "Four Armoured Sentinels",
+    "extraUnits": [
+    ],
+    "points": 125
+}
       ]
     },
     {
