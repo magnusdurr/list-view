@@ -34,9 +34,9 @@
 				"Power Weapon"
 			],
 			"specialRules": [
+			"Supreme Commander",
 				"Inspiring",
-				"Invulnerable Save",
-				"Supreme Commander"
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -58,8 +58,10 @@
 				"Power Weapon"
 			],
 			"specialRules": [
+				"Faithful",
 				"Inspiring",
-				"Faithful"
+				"Leader"
+
 			],
 	         "notes": "Only has a Power Weapon if attached to an INF unit."
 		},
@@ -67,15 +69,15 @@
 			"name": "Living Saint",
 			"type": "INF",
 			"speed": 30,
-			"armour": 3,
-			"cc": 3,
+			"armour": 4,
+			"cc": 4,
 			"ff": 5,
 			"weapons": [
 				"Ardent Blade"
 			],
 			"specialRules": [
-				"Fearless",
 				"Faithful",
+				"Fearless",
 				"Inspiring",
 				"Jump Packs",
 				"Invulnerable Save"
@@ -563,8 +565,8 @@
 			"cc": 4,
 			"ff": 6,
 			"weapons": [
-				"Exterminators",
-				"Flamer"
+				"Flamer",
+				"Exterminators"
 			],
 			"specialRules": [
 

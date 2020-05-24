@@ -68,15 +68,14 @@
       "formations": [
         {
           "name": "Mission",
-          "units": "Eight Battle Sisters",
+          "units": "One Palatine, eight Battle Sisters",
           "extraUnits": [
             "Exorcists",
-            "Palatine",
             "Ordo Hereticus Superior",
             "Hunter",
             "Transport"
           ],
-          "points": 200
+          "points": 225
 
       }
     ]
@@ -201,11 +200,6 @@
     "title": "Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-        {
-          "name": "Palatine",
-          "description": "Add a Palatine to a unit of infantry in the formation.",
-          "points": "25 points"
-        },
       {
         "name": "Ordo Hereticus Superior (0-1 per army)",
         "description": "Choose one of the following",

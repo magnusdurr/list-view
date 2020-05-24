@@ -1408,7 +1408,6 @@
           {
             "firepower": "Assault Weapon",
             "specialRules": [
-              "EA(+1)",
               "TK(1)"
           ]
           },
@@ -1416,7 +1415,7 @@
             "firepower": "Small Arms",
             "join": "and",
             "specialRules": [
-              "IC"
+              "EA(+1)"
           ]
         }
       ]

@@ -25,6 +25,7 @@
         "Commissar",
         "Siege Infantry",
         "Sappers",
+        "Baran Fire Support Squad",
         "Death Riders",
         "Snipers",
         "Thudd Gun",
@@ -67,43 +68,39 @@
       "formations": [
         {
           "name": "1 Siegemaster Regimental HQ",
-          "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry",
+          "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
-              "Rapiers",
-              "Thudd Guns",
-              "Mole Launchers",
+              "Support Weapons",
               "Snipers",
               "Heavy Tanks",
               "Fortifications"
           ],
-          "points": 275
+          "points": 300
         },
         {
-          "name": "Siege Company",
-          "units": "One Baran Commander with a Commissar, nine Siege Infantry",
+          "name": "Siege Infantry Company",
+          "units": "One Baran Commander with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
-              "Rapiers",
-              "Thudd Guns",
-              "Mole Launchers",
+              "Support Weapons",
               "Snipers",
               "Heavy Tanks",
               "Fortifications"
           ],
-          "points": 200
+          "points": 250
     }
   ]
 },
     {
       "name": "Baran Support Formations",
-      "description": "Up to two Support Formations for each Core Company.",
+      "description": "Up to three Support Formations for each Core Company.",
       "formations": [
           {
             "name": "Heavy Tank Emplacement",
-            "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements",
+            "units": "Four Ragnarok Heavy Tanks, four Gun Emplacements",
             "extraUnits": [
-                "Add a Commissar and two Malcadors or Malcador Annihilators: 200 points"
+                "Heavy Tanks"
             ],
-            "points": 375
+            "points": 300
           },
           {
             "name": "Macharius Company",
@@ -193,44 +190,35 @@
   ],
   "upgrades": {
     "title": "Baran Siegemaster Upgrades",
-    "description": "Each upgrade may be taken once per formation. Max four upgrades per Company",
+    "description": "Each upgrade may be taken once per formation. Max three upgrades per Company",
     "items": [
         {
           "name": "Deathstrike",
           "options": [
             {
               "description": "Add one Deathstrike and a Gun Emplacement to the formation",
+              "points": "50 points"
+            }
+          ]
+        },
+        {
+          "name": "Support Weapons",
+          "description": "Add any one of the following options to the formation",
+          "options": [
+            {
+              "description": "Add four Rapiers, 16cm Trenches",
+              "points": "75 points"
+            },
+            {
+              "description": "Add three Mole Launchers, 12cm Trenches",
+              "points": "75 points"
+            },
+            {
+              "description": "Add three Thudd Guns, 12cm Trenches",
               "points": "75 points"
             }
           ]
         },
-      {
-        "name": "Rapiers",
-        "options": [
-          {
-            "description": "Add four Rapiers",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
-        "name": "Thudd Guns",
-        "options": [
-          {
-            "description": "Add three Thudd Guns",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
-        "name": "Mole Launchers",
-        "options": [
-          {
-            "description": "Add three Mole Launcher Squads",
-            "points": "75 points"
-          }
-        ]
-      },
       {
         "name": "Snipers",
         "options": [
@@ -253,8 +241,8 @@
         "name": "Fortifications",
         "options": [
           {
-            "description": "60cm Razor Wire, 60cm Trenches, three Bunkers",
-            "points": "75 points"
+            "description": "Replace 20cm Trenches with two Bunkers",
+            "points": "25 points"
           }
         ]
     }

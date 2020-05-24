@@ -19,7 +19,6 @@
         "Assault Infantry",
         "Siege Infantry",
         "Death Riders",
-        "Rough Riders",
         "Grenadiers",
         "Thudd Gun",
         "Rapier",
@@ -43,7 +42,7 @@
         "Shadowsword"
       ],
         "unitRules": [
-            "Heavy Armoured Vehicle (H-AV)"
+        "Heavy Armoured Vehicle (H-AV)"
           ]
     },
     {
@@ -121,35 +120,31 @@
           "points": 375
         },
         {
-          "name": "Siege Infantry Company",
-          "units": "One DKoK Commander with a Commissar, nine Siege Infantry",
+          "name": "Siege Infantry Platoon",
+          "units": "Eight Siege Infantry",
           "extraUnits": [
-              "Add 60cm trenches, 60cm Razorwire: 50 points",
+              "Add 60cm Trenches, 60cm Razor Wire: 50 points",
               "Add four Rapiers or three Thudd Guns: 75 points",
               "Add up to two Snipers: 25 points each"
           ],
-          "points": 200
+          "points": 175
         },
         {
-          "name": "Earthshaker Battery",
-          "units": "Three Earthshaker Guns, three Trojans",
+          "name": "Earthshaker Emplacement",
+          "units": "Four Earthshaker Guns, four Gun Emplacements",
           "extraUnits": [
-              "Earthshaker Company: Add three Earthshaker Guns, one Commissar, three Trojans: 175 points",
+              "Replace four Gun Emplacements with four Trojans: 25 points",
               "Deathstrike"
           ],
-          "points": 225
+          "points": 275
         },
         {
-          "name": "Flak Battery",
-          "units": "Three Heavy AA Guns, three Trojans",
+          "name": "Flak Emplacement",
+          "units": "Four Heavy AA Guns, four Gun Emplacements",
           "upgrades": [
+              "Replace four Gun Emplacements with four Trojans: 25 points"
           ],
-          "points": 150
-        },
-        {
-          "name": "Rough Rider Platoon",
-          "units": "Six Rough Riders",
-          "points": 150
+          "points": 175
         },
         {
           "name": "Super-Heavy Platoon",

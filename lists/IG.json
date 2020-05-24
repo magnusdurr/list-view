@@ -58,12 +58,11 @@
       "name": "Baran Siegemaster",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
-        "Twin Heavy Stubbers"
+        "Heavy Stubber|2"
       ],
       "specialRules": [
         "Supreme Commander"
@@ -73,12 +72,11 @@
       "name": "DKoK Supreme Commander",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Power Weapon",
-        "Twin Heavy Stubbers"
+        "Power Weapon"
       ],
       "specialRules": [
         "Supreme Commander"
@@ -193,11 +191,11 @@
       "name": "Baran Commander",
       "type": "INF",
       "speed": 15,
-      "armour": 6,
+      "armour": 5,
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Twin Heavy Stubbers"
+        "Heavy Stubber|2"
       ],
       "specialRules": [
         "Commander"
@@ -222,11 +220,11 @@
       "name": "DKoK Commander",
       "type": "INF",
       "speed": 15,
-      "armour": 6,
+      "armour": 5,
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Twin Heavy Stubbers"
+        "Power Weapon"
       ],
       "specialRules": [
         "Commander"
@@ -377,8 +375,8 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Bayonets",
-        "Lasguns"
+            "Lasguns",
+    "Bayonets"
       ],
       "specialRules": [
       ]
@@ -479,19 +477,7 @@
       "notes": "Counts as two infantry units for the purpose of being transported."
     },
 
-    {
-      "name": "Mole Launcher Squad",
-      "type": "INF",
-      "speed": 15,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Mole Launchers"
-      ],
-      "specialRules": [
 
-      ]
-    },
     {
       "name": "Death Riders",
       "type": "INF",
@@ -675,6 +661,20 @@
       ]
     },
     {
+      "name": "Baran Fire Support Squad",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Heavy Stubber|3|",
+        "Flamers"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
       "name": "Elysian Fire Support Squad",
       "type": "INF",
       "speed": 15,
@@ -710,6 +710,19 @@
         "Rapier Laser Destroyer"
       ],
       "specialRules": [
+      ]
+    },
+    {
+      "name": "Mole Launcher Squad",
+      "type": "INF",
+      "speed": 10,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Mole Launchers"
+      ],
+      "specialRules": [
+
       ]
     },
     {
