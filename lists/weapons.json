@@ -8819,7 +8819,14 @@
       "modes": [
         {
           "firepower": "AP4+/AT6+",
-          "range": 15,
+            "range": 15,
+          "specialRules": [
+              "IC"
+        ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
           "specialRules": [
             "IC"
           ]

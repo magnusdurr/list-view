@@ -34,7 +34,7 @@
         "Storm Chimera",
         "Leman Russ",
         "Leman Russ Annihilator",
-        "Leman Russ Demolisher",
+        "Leman Russ Thunderer",
         "Macharius",
         "Macharius Command",
         "Gorgon",
@@ -114,20 +114,20 @@
     },
         {
           "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ, Leman Russ Demolishers or Leman Russ Annihilators",
+          "units": "Six Leman Russ, Leman Russ Thunderers, or Leman Russ Annihilators",
           "extraUnits": [
               "Hellhounds"
           ],
           "points": 375
         },
         {
-          "name": "Siege Infantry Platoon",
-          "units": "Eight Siege Infantry, 32cm Trenches, 40cm Razor Wire",
+          "name": "Siege Infantry Company",
+          "units": "DKoK Commander with Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
               "Add four Rapiers and 16cm Trenches, or three Thudd Guns and 12cm Trenches: 75 points",
               "Add up to two Snipers: 25 points each"
           ],
-          "points": 200
+          "points": 275
         },
         {
           "name": "Earthshaker Emplacement",
