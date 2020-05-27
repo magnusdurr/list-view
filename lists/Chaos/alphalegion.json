@@ -47,7 +47,6 @@
           "Cultists",
           "Mutants",
           "Big Mutants",
-          "Chaos Hounds",
           "Chaos Spawn",
           "Land Transporter"
       ],
@@ -102,10 +101,9 @@
             "extraUnits": [
               "Add a Daemonic Icon to the Aspiring Champion: 25 points",
               "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
-              "Replace up to three Chaos Cultists with Big Mutants: 15 points each",
-              "Add two Ragnarok Heavy Tanks: 100 points",
+              "Add two Ragnarok Heavy Tanks: 150 points",
               "Add one Chaos Spawn: 35 points",
-              "Flak",
+              "Hydra",
               "Supreme Commander"
             ],
             "points": 200
@@ -130,34 +128,35 @@
       "formations": [
           {
             "name": "Heavy Mortar Battery",
-            "units": "Three Heavy Mortars, two Big Mutants",
+            "units": "Three Heavy Mortars",
             "extraUnits": [
+                "Big Mutants"
             ],
-            "points": 200
+            "points": 175
         },
           {
-          "name": "Cultist Cavalry",
-          "units": "Six Death Riders, four Chaos Hounds",
+          "name": "Mounted Coven",
+          "units": "Six Death Riders",
           "extraUnits": [
-              "Add Daemonic Icon to the formation: 75 points"
+              "Add a Daemonic Icon to the formation: 75 points"
           ],
-          "points": 225
+          "points": 150
         },
         {
           "name": "Macharius Platoon",
           "units": "Two Macharius",
           "extraUnits": [
-                  "Flak"
+              "Hydra"
               ],
               "points": 225
           },
           {
-            "name": "Ragnarok Squadron",
+            "name": "Ragnarok Platoon",
             "units": "Four Ragnarok Heavy Tanks",
             "extraUnits": [
-                  "Flak"
+                "Big Mutants"
                 ],
-                "points": 250
+                "points": 275
             }
 
         ]
@@ -269,12 +268,21 @@
       }
       ]
   },
+      {
+    "name": "Big Mutants",
+    "options": [
+      {
+        "description": "Add up to three Big Mutants",
+        "points": ["25 points each"]
+      }
+    ]
+    },
           {
-        "name": "Flak",
+        "name": "Hydra",
         "options": [
           {
-            "description": "Add one Hydra",
-            "points": "50 points"
+            "description": "Add one Hydra to the formation",
+            "points": ["50 points"]
           }
         ]
         },

@@ -173,7 +173,7 @@
         "name": "Big Mutants",
         "type": "INF",
         "speed": 15,
-        "armour": 3,
+        "armour": 4,
         "cc": 4,
         "ff": 5,
         "weapons": [
@@ -183,7 +183,7 @@
         "specialRules": [
 
         ],
-        "notes": "Counts as two infantry units for the purpose of being transported."
+        "notes": "Counts as two units of INF for the purpose of being transported."
     },
         {
           "name": "Chaos Spawn",
@@ -198,7 +198,7 @@
               "Fearless",
               "Invulnerable Save"
           ],
-          "notes": "Counts as two infantry units for the purpose of being transported."
+          "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Winged Chaos Spawn",

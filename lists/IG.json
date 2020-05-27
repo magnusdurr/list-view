@@ -475,7 +475,7 @@
       ],
       "specialRules": [
       ],
-      "notes": "Counts as two infantry units for the purpose of being transported."
+      "notes": "Counts as two units of INF for the purpose of being transported."
     },
 
 
@@ -1495,17 +1495,15 @@
     },
     {
       "name": "Minotaur",
-      "type": "WE",
+      "type": "H-AV",
       "speed": 10,
       "armour": 4,
       "cc": 6,
       "ff": 6,
       "weapons": [
-        "Twin Earthshaker Cannon||FxF"
+        "Twin Earthshaker Cannon"
       ],
       "specialRules": [
-        "Damage Capacity 2",
-        "Reinforced Armour"
       ],
       "crit": "The Minotaur is destroyed. All units within 5cm suffers a hit on 6+."
     },
@@ -1518,8 +1516,8 @@
       "ff": 4,
       "weapons": [
         "Twin Battle Cannons",
-        "Twin Heavy Stubbers||FxF",
-        "Heavy Bolter|2|FxF"
+        "Twin Heavy Stubbers",
+        "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Damage Capacity 2",

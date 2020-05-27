@@ -68,7 +68,7 @@
       {
         "name": "Acolyte Praetorians",
         "type": "INF",
-        "speed": 20,
+        "speed": 15,
         "armour": 5,
         "cc": 3,
         "ff": 5,
@@ -78,6 +78,7 @@
         ],
         "specialRules": [
           "Brood Brothers",
+          "Infiltrators",
           "Honour Guard"
         ]
       },
@@ -99,9 +100,9 @@
       {
         "name": "Acolyte Hybrids",
         "type": "INF",
-        "speed": 20,
+        "speed": 15,
         "armour": 6,
-        "cc": 3,
+        "cc": 4,
         "ff": 6,
         "weapons": [
           "Heavy Stubber",
@@ -109,7 +110,8 @@
           "Claws"
         ],
         "specialRules": [
-          "Brood Brothers"
+          "Brood Brothers",
+          "Infiltrators"
         ],
         "notes": "One in every two units (rounding up) has a Heavy Stubber"
       },
@@ -130,29 +132,30 @@
       {
         "name": "Aberrants",
         "type": "INF",
-        "speed": 20,
+        "speed": 15,
         "armour": 4,
-        "cc": 3,
+        "cc": 4,
         "weapons": [
           "Giant Mauls"
       ],
       "specialRules": [
-        "Brood Brothers"
-      ]
+        "Brood Brothers",
+        "Infiltrators"
+    ],
+    "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Metamorph Hybrids",
         "type": "INF",
-        "speed": 20,
+        "speed": 15,
         "armour": 5,
         "cc": 3,
         "weapons": [
-          "Claws"
+          "Rending Claws"
         ],
         "specialRules": [
           "Brood Brothers",
           "Infiltrators"
-
         ]
       },
 
@@ -212,7 +215,6 @@
           "Twin Heavy Stubbers"
         ],
         "specialRules": [
-          "Scout"
         ]
       },
       {
