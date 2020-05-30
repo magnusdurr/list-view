@@ -48,7 +48,8 @@
         "Hellhound",
         "Hydra",
         "Leman Russ",
-        "Sentinel"
+        "Sentinel",
+        "Baneblade"
       ],
       "unitRules": []
     },
@@ -118,6 +119,13 @@
             "Flak",
             "Fire Support"
 
+          ],
+          "points": 200
+        },
+        {
+          "name": "Cult Baneblade",
+          "units": "One Baneblade",
+          "extraUnits": [
           ],
           "points": 200
         },
@@ -217,11 +225,11 @@
         "options": [
           {
             "description": "Aberrants",
-            "points": "10 points each"
+            "points": "15 points each"
           },
           {
             "description": "Metamorph Hybrids",
-            "points": "10 points each"
+            "points": "15 points each"
           }
         ]
       },
