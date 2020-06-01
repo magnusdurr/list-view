@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranids",
   "army": "Cult of the Rusted Claw",
-  "version": "0.5.0",
-  "release": "2020-05-03",
+  "version": "1.0.0",
+  "release": "2020-06-02",
   "strategy": "Genestealer Cult armies have a Strategy Rating of 2.",
   "Initiative": "The Genestealer Swarm formation has an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+, and are subject to the 'Broodmind' special rule.",
   "specialRules": [
@@ -118,7 +118,6 @@
           "extraUnits": [
             "Flak",
             "Fire Support"
-
           ],
           "points": 200
         },
@@ -170,7 +169,7 @@
         {
           "name": "Mineshaft Infiltrators",
           "description": "All units in the formation gains the 'Tunneling' special rule, may only have the 'Acolytes' and 'Biomorph' upgrades",
-          "points": "25 points"
+          "points": "Free"
         },
       {
         "name": "Acolyte Transports",
@@ -196,8 +195,17 @@
       },
       {
         "name": "Coven Leader",
-        "description": "Replace one Hybrid Iconward with a Genestealer Magus or Genestealer Primus",
-        "points": "50 points"
+        "description": "Replace a Hybrid Iconward with a Genestealer Primus or Genestealer Magus ",
+        "options": [
+          {
+            "description": "Genestealer Primus",
+            "points": "25 points"
+          },
+          {
+            "description": "Genestealer Magus",
+            "points": "50 points"
+          }
+        ]
       },
       {
         "name": "Fire Support",

@@ -4,7 +4,7 @@
   "version": "0.8.1",
   "release": "2020-01-31",
   "strategy": "Questoris Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
+  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
           "Bravery",
@@ -71,7 +71,7 @@
   {
     "from": "ImperialAllies.json",
     "units": [
-      "Warhound ",
+      "Warhound "
     ],
       "unitRules": [
           "Independent",
@@ -87,7 +87,7 @@
           "name": "Questoris",
           "units": "Three Questoris Knights (may not mix configurations)",
           "extraUnits": [
-            "Seneschal",
+        "Seneschal",
             "Baron"
           ],
           "points": 350
@@ -104,7 +104,7 @@
         "extraUnits": [
             "Baron"
         ],
-        "points": 400
+        "points": 425
     },
     {
       "name": "Cerastus",
@@ -118,45 +118,47 @@
     ]
 },
     {
-      "name": "Recon Lances",
-      "description": "Up to one Recon Lance for each Core or Support Lance.",
-      "formations": [
-        {
-          "name": "Armiger",
-          "units": "Four Knight-Warglaives or four Knight-Helverins",
-          "extraUnits": [
-          ],
-          "points": 175
-        }
-      ]
-    },
-    {
       "name": "Relic Lances",
       "description": "Up to one Relic Lance for each part of 1500 points in the army.",
       "formations": [
+          {
+            "name": "Cerastus Reliquae",
+            "units": "One Seneschal, two Cerastus Knight-Atrapos",
+            "extraUnits": [
+                  "Baron"
+            ],
+            "points": 400
+        },
         {
           "name": "Questoris Reliquae",
           "units": "One Seneschal, three Questoris Relic Knights (may not mix configurations)",
           "extraUnits": [
               "Baron"
           ],
-          "points": 400
+          "points": 425
       },
-      {
-        "name": "Cerastus Reliquae",
-        "units": "One Seneschal, two Cerastus Knight-Atrapos",
-        "extraUnits": [
-        ],
-        "points": 400
-    },
       {
         "name": "Acastus Reliquae",
         "units": "One Seneschal, two Acastus Knights (may not mix configurations)",
         "extraUnits": [
             "Baron"
         ],
-        "points": 450
+        "points": 475
     }
+      ]
+    },
+    {
+      "name": "Recon Lances",
+      "description": "Up to one Recon Lance for each Core, Support, or Relic Lance.",
+      "formations": [
+        {
+          "name": "Armiger",
+          "units": "Four Knight-Warglaives or four Knight-Helverins",
+          "extraUnits": [
+              "Add one Knight-Preceptor: 125 points"
+          ],
+          "points": 175
+        }
       ]
     },
     {
@@ -207,7 +209,7 @@
           "options": [
             {
               "description": "Replace one Seneschal in the army with a Baron",
-              "points": "50 points"
+              "points": "75 points"
             }
           ]
         },

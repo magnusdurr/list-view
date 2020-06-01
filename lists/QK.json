@@ -78,46 +78,42 @@
             "Leader"
           ]
         },
-      {
-          "name": "Dominus Knight-Castellan",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 4,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            "Volcano Lance",
-            "Plasma Decimator",
-            "Twin Siegebreaker Cannon|2|",
-            "Shieldbreaker Missiles|2|"
-          ],
-          "specialRules": [
-            "Stubborn",
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
-      {
-          "name": "Dominus Knight-Valiant",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 4,
-          "cc": 4,
-          "ff": 3,
-          "weapons": [
-            "Conflagration Cannon",
-            "Thundercoil Harpoon",
-            "Twin Siegebreaker Cannon",
-            "Shieldbreaker Missiles|4|"
-          ],
-          "specialRules": [
-            "Stubborn",
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
+        {
+            "name": "Armiger Knight-Warglaive",
+            "type": "AV",
+            "speed": 30,
+            "armour": 5,
+            "cc": 5,
+            "ff": 5,
+            "weapons": [
+              "Thermal Spear",
+              "Heavy Stubber",
+              "Reaper Chain-Cleaver"
+            ],
+            "specialRules": [
+              "Walker",
+              "Scout",
+              "Ion Shield (5+)"
+            ]
+        },
+        {
+            "name": "Armiger Knight-Helverin",
+            "type": "AV",
+            "speed": 30,
+            "armour": 5,
+            "cc": 5,
+            "ff": 5,
+            "weapons": [
+              "Twin Autocannons",
+              "Heavy Stubber"
+            ],
+            "specialRules": [
+              "Walker",
+              "Scout",
+              "Ion Shield (5+)"
+            ]
+        },
+
       {
           "name": "Questoris Knight-Paladin",
           "type": "H-AV",
@@ -262,6 +258,84 @@
               "Ion Shield (3+)"
             ]
         },
+        {
+            "name": "Questoris Relic Knight-Styrix",
+            "type": "H-AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 3,
+            "ff": 4,
+            "weapons": [
+              "Volkite Chierovile",
+              "Twin Rad Cleanser",
+              "Hekaton Siege Claw"
+            ],
+            "specialRules": [
+              "Stubborn",
+              "Reinforced Armour",
+              "Walker",
+              "Ion Shield (4+)"
+            ]
+        },
+        {
+            "name": "Questoris Relic Knight-Magaera",
+            "type": "H-AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 3,
+            "ff": 4,
+            "weapons": [
+              "Lightning Cannon",
+              "Twin Rad Cleanser",
+              "Hekaton Siege Claw"
+            ],
+            "specialRules": [
+              "Stubborn",
+              "Reinforced Armour",
+              "Walker",
+              "Ion Shield (4+)"
+            ]
+        },
+        {
+            "name": "Dominus Knight-Castellan",
+            "type": "H-AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 4,
+            "ff": 4,
+            "weapons": [
+              "Shieldbreaker Missiles|2|",
+              "Volcano Lance",
+              "Twin Siegebreaker Cannon|2|",
+              "Plasma Decimator"
+            ],
+            "specialRules": [
+              "Stubborn",
+              "Reinforced Armour",
+              "Walker",
+              "Ion Shield (4+)"
+            ]
+        },
+        {
+            "name": "Dominus Knight-Valiant",
+            "type": "H-AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 4,
+            "ff": 3,
+            "weapons": [
+              "Shieldbreaker Missiles|4|",
+              "Twin Siegebreaker Cannon",
+              "Conflagration Cannon",
+              "Thundercoil Harpoon"
+            ],
+                      "specialRules": [
+              "Stubborn",
+              "Reinforced Armour",
+              "Walker",
+              "Ion Shield (4+)"
+            ]
+        },
       {
           "name": "Cerastus Knight-Lancer",
           "type": "H-AV",
@@ -334,82 +408,11 @@
             "Reinforced Armour",
             "Walker",
             "Scout",
-            "Ion Shield (3+)"
-          ]
-      },
-      {
-          "name": "Armiger Knight-Warglaive",
-          "type": "AV",
-          "speed": 30,
-          "armour": 5,
-          "cc": 5,
-          "ff": 5,
-          "weapons": [
-            "Thermal Spear",
-            "Heavy Stubber",
-            "Reaper Chain-Cleaver"
-          ],
-          "specialRules": [
-            "Walker",
-            "Scout",
-            "Ion Shield (5+)"
-          ]
-      },
-      {
-          "name": "Armiger Knight-Helverin",
-          "type": "AV",
-          "speed": 30,
-          "armour": 5,
-          "cc": 5,
-          "ff": 5,
-          "weapons": [
-            "Autocannon|2|",
-            "Heavy Stubber"
-          ],
-          "specialRules": [
-            "Walker",
-            "Scout",
-            "Ion Shield (5+)"
-          ]
-      },
-      {
-          "name": "Questoris Relic Knight-Styrix",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 4,
-          "cc": 3,
-          "ff": 4,
-          "weapons": [
-            "Volkite Chierovile",
-            "Twin Rad Cleanser",
-            "Hekaton Siege Claw"
-          ],
-          "specialRules": [
-            "Stubborn",
-            "Reinforced Armour",
-            "Walker",
             "Ion Shield (4+)"
           ]
       },
-      {
-          "name": "Questoris Relic Knight-Magaera",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 4,
-          "cc": 3,
-          "ff": 4,
-          "weapons": [
-            "Lightning Cannon",
-            "Twin Rad Cleanser",
-            "Hekaton Siege Claw"
-          ],
-          "specialRules": [
-            "Stubborn",
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
+
+
       {
       "name": "Acastus Knight-Porphyrion",
       "type": "WE",
