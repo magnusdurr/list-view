@@ -2601,7 +2601,6 @@
         {
           "firepower": "Small Arms",
           "specialRules": [
-          "EA(+1)",
           "Lance",
           "Lightning Charge"
         ]
@@ -2610,8 +2609,7 @@
           "firepower": "Assault Weapons",
           "join": "and",
           "specialRules": [
-            "EA(+1)",
-            "TK(1)",
+            "Lance",
             "Lightning Charge"
           ]
         }

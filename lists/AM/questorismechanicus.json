@@ -62,6 +62,8 @@
         "Skorpius Dunerider",
         "Gorgon",
 
+        "Ordinatus Minoris ",
+
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
     ],
@@ -117,6 +119,20 @@
   }
     ]
 },
+{
+  "name": "Recon Lances",
+  "description": "Up to one Recon Lance for each Core or Support Lance",
+  "formations": [
+    {
+      "name": "Armiger",
+      "units": "Four Knight-Warglaives or four Knight-Helverins",
+      "extraUnits": [
+          "Add one Knight-Preceptor: 125 points"
+      ],
+      "points": 175
+    }
+  ]
+},
     {
       "name": "Relic Lances",
       "description": "Up to one Relic Lance for each part of 1500 points in the army.",
@@ -148,23 +164,17 @@
       ]
     },
     {
-      "name": "Recon Lances",
-      "description": "Up to one Recon Lance for each Core, Support, or Relic Lance.",
-      "formations": [
-        {
-          "name": "Armiger",
-          "units": "Four Knight-Warglaives or four Knight-Helverins",
-          "extraUnits": [
-              "Add one Knight-Preceptor: 125 points"
-          ],
-          "points": 175
-        }
-      ]
-    },
-    {
       "name": "Mechanicus Allies",
       "description": "Up to a third of the points available may be spent on Forge World and Collegia Titanica allies.",
       "formations": [
+          {
+            "name": "Minoris",
+            "units": "One Ordinatus Minoris",
+            "extraUnits": [
+                "Add one Ordinatus Minoris: 125 points"
+            ],
+            "points": 200
+          },
         {
           "name": "Vanguard Maniple",
           "units": "One Magos, nine Skitarii Vanguards, Gorgon",
