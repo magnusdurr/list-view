@@ -4,16 +4,15 @@
   "version": "0.6.1",
   "release": "2020-01-22",
   "strategy": "Tau armies have a Strategy Rating of 3.",
-  "Initiative": "Crisis Battlesuit and Supremacy Suit formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
+  "Initiative": "XV8 Crisis Battlesuit Cadres and XV10 Battlesuit Groups have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
-            "Coordinated Fire",
-            "Ethereal",
-            "Guided Missiles",
-            "Markerlights",
-            "Tau Jet Packs"
-          ],
-
+    "Coordinated Fire",
+    "Guided Missiles",
+    "Markerlights",
+    "Shield Disruptor",
+    "Tau Jet Packs",
+    "Tiger Shark Gun Drones"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Vior'la Military world of the Tau Empire"
   ],
@@ -21,161 +20,153 @@
     {
       "from": "TAU.json",
       "units": [
-        "Ethereal",
         "Shas'o",
         "Shas'el",
-        "XV8 Crisis Battlesuits",
-        "Fire Warrior Breachers",
+        "Fire Warriors",
         "Gun Drones",
+        "Marker Drones",
+        "Missile Drones",
         "Pathfinders",
-        "XV95 Ghostkeel Battlesuit",
+        "XV8 Crisis Battlesuits",
+        "XV15 Stealth Battlesuits",
+        "Shield Drones",
         "Piranha",
         "Tetra",
         "Devilfish",
         "Sky Ray",
-        "XV107 R'varna Battlesuit",
-        "XV109 Y'vahra Battlesuit",
-        "XV104 Riptide Battlesuit",
+        "XV88 Broadside Battlesuit",
+        "XV95 Ghostkeel Battlesuit",
+        "XV10-7 R'varna Battlesuit",
+        "XV10-9 Y'vahra Battlesuit",
+        "XV10-4 Riptide Battlesuit",
         "KV128 Stormsurge Ballistic Suit",
-        "KX139 Supremacy Suit"
+        "KX139 Ta'unar Supremacy Armour"
       ],
-        "unitRules": [
-            "Deflector Shield",
-            "Heavy Armoured Vehicle (H-AV)"
+      "unitRules": [
+        "Deflector Shield",
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
       "from": "tauNavy.json",
       "units": [
-        "Razorshark Fighter",
-        "Sun Shark Bomber",
-        "Orca",
+        "Barracuda",
+        "Tiger Shark Bomber",
         "Custodian Class Battleship",
         "Protector Class Cruiser"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Vior'la Core Formations",
       "formations": [
-          {
-            "name": "XV8 Crisis Battlesuit Cadre",
-            "units": "One Shas'el, four XV8 Crisis Battlesuits, two Gun Drones",
-            "extraUnits": [
-              "Shas'o",
-              "Crisis Suits",
-              "Gun Drones"
-            ],
-            "points": 275
-          },
         {
-          "name": "Fire Warrior Breacher Cadre",
-          "units": "Eight Fire Warrior Breachers, or six Fire Warrior Breachers and three Devilfish",
+          "name": "XV8 Crisis Battlesuit Cadre",
+          "units": "Six XV8 Crisis Battlesuits",
           "extraUnits": [
-            "Fire Warriors",
-            "Piranhas",
-            "Sky Ray",
-            "Bonded Team",
-            "Ethereal",
-            "Gun Drones"
+            "Commander",
+            "Crisis Suits",
+            "Drones"
           ],
-          "points": 225
+          "points": 300
+        },
+        {
+          "name": "XV10 Battlesuit Group",
+          "units": "Three XV10-4 Riptide Battlesuits, three XV10-7 R'Varna Battlesuits or three XV10-9 Y'Vahra Battlesuits",
+          "extraUnits": [
+            "Commander",
+            "Drones",
+            "XV10"
+          ],
+          "points": 300
         }
       ]
     },
     {
       "name": "Vior'la Support Formations",
-      "description": "Up to three for each Vior'la Core Formation taken",
+      "description": "Up to two for each Vior'la Core Formation taken",
       "formations": [
-          {
-            "name": "Pathfinder Group",
-            "units": "Four Pathfinders, two Devilfish",
-            "extraUnits": [
-              "Gun Drones"
-            ],
-            "points": 175
-          },
         {
-          "name": "XV10* Heavy Battlesuit Group",
-          "units": "Three XV104 Riptide Battlesuits, XV107 R'Varna Battlesuits or XV109 Y'Vahra Battlesuits (May not mix configurations)",
+          "name": "Fire Warrior Strike Cadre",
+          "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish",
           "extraUnits": [
+            "Broadsides",
+            "Pathfinders",
+            "Sky Ray"
           ],
-          "points": 325
+          "points": 225
+        },
+        {
+          "name": "Pathfinder Group",
+          "units": "Four Pathfinders, two Devilfish",
+          "points": 175
         },
         {
           "name": "Recon Skimmer Group",
           "units": "Any six of the following units: Piranha, Tetra",
-          "extraUnits": [
-              "Add up to two Piranhas: 25 points each"
-          ],
           "points": 175
         },
         {
-          "name": "KV128 Stormsurge Group",
-          "units": "Two KV128 Stormsurge Battlesuits",
+          "name": "XV15 Stealth Group",
+          "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
+            "Drones"
+          ],
+          "points": 225
+        },
+        {
+          "name": "XV88 Broadside Group",
+          "units": "Six XV88 Broadside Battlesuits",
+          "extraUnits": [
+            "Drones"
           ],
           "points": 300
         },
         {
-          "name": "XV95 Stealth Group",
-          "units": "Four XV95 Ghostkeel Battlesuits",
+          "name": "XV95 Ghostkeel Group",
+          "units": "Three XV95 Ghostkeel Battlesuits",
           "extraUnits": [
-            "Gun Drones"
+            "Drones"
           ],
-          "points": 250
-      },
-      {
-        "name": "Drone Group",
-        "units": "Six Gun Drones",
-        "extraUnits": [
-            "Gun Drones"
-        ],
-        "points": 150
-      }
-
+          "points": 275
+        }
       ]
     },
     {
-      "name": "Vior'la Supremacy & Air Caste Formations",
+      "name": "Vior'la War Engines & Air Caste Formations",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "KV139 Supremacy Suit",
-            "units": "One KX139 Supremacy Suit",
-            "extraUnits": [
-            ],
-            "points": 325
-          },
         {
-          "name": "Razorshark Squadron",
-          "units": "Three Razorshark Fighters",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
-        {
-          "name": "Sunshark Bomber",
-          "units": "Two Sunshark Bombers",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
-        {
-          "name": "Orca Dropship",
-          "units": "One Orca",
-          "extraUnits": [
-          ],
+          "name": "Barracuda Squadron",
+          "units": "Two Barracudas",
           "points": 150
+        },
+        {
+          "name": "KV128 Stormsurge Suit",
+          "units": "One KV128 Stormsurge Ballistic Suit, standard or support configuration",
+          "points": 275
+        },
+        {
+          "name": "KX139 Supremacy Armour",
+          "units": "One KX139 Ta'unar Supremacy Armour",
+          "points": 425
+        },
+        {
+          "name": "Tiger Shark Squadron",
+          "units": "Two Tiger Shark Bombers",
+          "extraUnits": [
+            "Add six Gun Drones: 100 points"
+          ],
+          "points": 175
         },
         {
           "name": "0–1 Spacecraft",
           "units": "Protector Class Cruiser",
           "extraUnits": [
-              "Replace the Protector with a Custodian Class Battleship: 25 points"
+            "Replace the Protector with a Custodian Class Battleship: 25 points"
           ],
           "points": 175
         }
@@ -184,56 +175,18 @@
   ],
   "upgrades": {
     "title": "Upgrades",
-    "description": "Max three upgrades per formation. Each upgrade may be taken once by a formation.",
+    "description": "Each upgrade may be taken once by a formation",
     "items": [
-        {
-          "name": "0-1 Shas'o",
-          "options": [
-            {
-              "description": "Replace one Shas'el in the army with a Shas'o",
-              "points": "75 points"
-            }
-          ]
-        },
-        {
-          "name": "0–1 Ethereal",
-          "options": [
-            {
-              "description": "Once per army, add one Ethereal to a unit of Fire Warrior Breachers",
-              "points": "50 points"
-            }
-          ]
-        },
       {
-        "name": "Bonded Team",
+        "name": "Commander",
+        "description": "Add any one of the following characters to any unit in the formation:",
         "options": [
           {
-            "description": "Give the formation Leader (this special ability is not added to any one specific unit in the formation)",
+            "description": "Shas'el",
             "points": "25 points"
-          }
-        ]
-      },
-      {
-        "name": "Piranha",
-        "options": [
-          {
-            "description": "Add two Piranhas",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Fire Warriors",
-        "options": [
-          {
-            "description": "Add any one of the following options:"
           },
           {
-            "description": "Add four Fire Warrior Breachers",
-            "points": "75 points"
-          },
-          {
-            "description": "Add four Fire Warrior Breachers and two Devilfish",
+            "description": "0-1 Shas'o per army",
             "points": "100 points"
           }
         ]
@@ -243,30 +196,65 @@
         "options": [
           {
             "description": "Add one or two XV8 Crisis Battlesuits",
-            "points": ["50 points for one", "75 points for two"]
+            "points": [
+              "50 points for one",
+              "75 points for two"
+            ]
           }
         ]
       },
-
       {
-        "name": "Gun Drones",
+        "name": "Drones",
         "options": [
           {
             "description": "Add two Gun Drones",
             "points": "25 points"
+          },
+          {
+            "description": "Add two Marker Drones",
+            "points": "50 points"
+          },
+          {
+            "description": "Add two Missile Drones",
+            "points": "25 points"
+          },
+          {
+            "description": "Add two Shield Drones",
+            "points": "50 points"
           }
         ]
-    },
-    {
-      "name": "Sky Ray",
-      "options": [
-        {
-          "description": "Add one Sky Ray",
-          "points": "100 points"
-        }
-      ]
-    }
-
+      },
+      {
+        "name": "Pathfinders",
+        "options": [
+          {
+            "description": "Add two Pathfinders and one Devilfish",
+            "points": "100 points"
+          },
+          {
+            "description": "Add two Pathfinders",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Sky Ray",
+        "options": [
+          {
+            "description": "Add one Sky Ray",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "XV10",
+        "options": [
+          {
+            "description": "Add one or two XV10-4 Riptide Battlesuits, XV10-7 R'Varna Battlesuits or XV10-9 Y'Vahra Battlesuits (the formation may not contain a mix of XV10 battlesuits)",
+            "points": "75 points each"
+          }
+        ]
+      }
     ]
   }
 }
