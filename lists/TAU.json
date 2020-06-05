@@ -107,6 +107,20 @@
         ]
       },
       {
+        "name": "Missile Drones",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Twin Missile Pods"
+        ],
+        "specialRules": [
+          "Tau Jet Packs"
+        ]
+      },
+      {
         "name": "Gun Drones",
         "type": "INF",
         "speed": 20,
@@ -122,27 +136,25 @@
       },
       {
         "name": "Marker Drones",
-        "type": "INF",
+        "type": "LV",
         "speed": 20,
         "armour": 5,
-        "weapons": [],
+        "weapons": ["n/a"],
         "specialRules": [
           "Markerlights",
           "Tau Jet Packs"
         ]
       },
       {
-        "name": "Missile Drones",
-        "type": "INF",
-        "speed": 15,
+        "name": "Shield Drones",
+        "type": "LV",
+        "speed": 25,
         "armour": 5,
-        "cc": 6,
-        "ff": 6,
-        "weapons": [
-          "Twin Missile Pods"
-        ],
+        "weapons": ["n/a"],
         "specialRules": [
-          "Tau Jet Packs"
+          "Expendable",
+          "Tau Jet Packs",
+          "Deflector Shield"
         ]
       },
       {
@@ -353,18 +365,6 @@
         ]
       },
       {
-        "name": "Shield Drones",
-        "type": "LV",
-        "speed": 25,
-        "armour": 5,
-        "weapons": [],
-        "specialRules": [
-          "Expendable",
-          "Tau Jet Packs",
-          "Deflector Shield"
-        ]
-      },
-      {
         "name": "XV9-04 Hazard Battlesuit",
         "type": "LV",
         "speed": 15,
@@ -378,6 +378,27 @@
           "Reinforced Armour",
           "Walker",
           "Tau Jet Pack"
+        ]
+      },
+      {
+        "name": "XV95 Ghostkeel Battlesuit",
+        "type": "LV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Cyclic Ion Raker",
+          "Fusion Blaster"
+        ],
+        "specialRules": [
+          "First Strike",
+          "Invulnerable Save",
+          "Reinforced Armour",
+          "Scout",
+          "Tau Jet Pack",
+          "Teleport",
+          "Walker"
         ]
       },
       {
@@ -547,7 +568,7 @@
         ]
       },
       {
-        "name": "XV10-4 Riptide Battlesuit",
+        "name": "XV104 Riptide Battlesuit",
         "type": "H-AV",
         "speed": 25,
         "armour": 3,
@@ -555,7 +576,7 @@
         "ff": 4,
         "weapons": [
           "Ion Accelerator",
-          "Twin Smart Missile System",
+          "Twin Smart Missile Systems",
           "Velocity Tracker"
         ],
         "specialRules": [
@@ -565,12 +586,12 @@
         ]
       },
       {
-        "name": "XV10-7 R'varna Battlesuit",
+        "name": "XV107 R'varna Battlesuit",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 5,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Pulse Submunition Cannons"
         ],
@@ -581,7 +602,7 @@
         ]
       },
       {
-        "name": "XV10-9 Y'vahra Battlesuit",
+        "name": "XV109 Y'vahra Battlesuit",
         "type": "H-AV",
         "speed": 30,
         "armour": 3,
@@ -598,27 +619,7 @@
           "Walker"
         ]
       },
-      {
-        "name": "XV95 Ghostkeel Battlesuit",
-        "type": "H-AV",
-        "speed": 20,
-        "armour": 5,
-        "cc": 5,
-        "ff": 5,
-        "weapons": [
-          "Cyclic Ion Raker",
-          "Fusion Blaster"
-        ],
-        "specialRules": [
-          "First Strike",
-          "Invulnerable Save",
-          "Reinforced Armour",
-          "Scout",
-          "Tau Jet Pack",
-          "Teleport",
-          "Walker"
-        ]
-      },
+
       {
         "name": "KV128 Stormsurge Ballistic Suit",
         "type": "WE",
@@ -633,11 +634,11 @@
           "Velocity Tracker",
           ">Support Configuration<",
           "Pulse Blastcannon||FwA",
-          "Twin Smart Missile System|2|",
+          "Twin Smart Missile Systems|2|",
           "Velocity Tracker"
         ],
         "specialRules": [
-          "Damage Capacity 3",
+          "Damage Capacity: 3",
           "Fearless",
           "Tau Deflector Shield",
           "Walker"
@@ -648,9 +649,9 @@
         "name": "KX139 Ta'unar Supremacy Armour",
         "type": "WE",
         "speed": 20,
-        "armour": 5,
+        "armour": 3,
         "cc": 5,
-        "ff": 3,
+        "ff": 5,
         "weapons": [
           "Tri-axis Ion Cannon|2|FwA",
           "Smart Missile System|2|",
@@ -662,7 +663,6 @@
         "specialRules": [
           "Damage Capacity: 5",
           "Fearless",
-          "Reinforced Armour",
           "Tau Deflector Shield",
           "Walker"
         ],

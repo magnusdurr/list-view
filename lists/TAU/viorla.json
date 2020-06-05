@@ -4,7 +4,7 @@
   "version": "0.6.1",
   "release": "2020-01-22",
   "strategy": "Tau armies have a Strategy Rating of 3.",
-  "Initiative": "XV8 Crisis Battlesuit Cadres and XV10 Battlesuit Groups have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "XV8 Crisis Battlesuit, XV10 Heavy Battlesuit Cadres and KV128 Stormsurge and KX139 Supremacy Armour have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Coordinated Fire",
     "Guided Missiles",
@@ -36,9 +36,9 @@
         "Sky Ray",
         "XV88 Broadside Battlesuit",
         "XV95 Ghostkeel Battlesuit",
-        "XV10-7 R'varna Battlesuit",
-        "XV10-9 Y'vahra Battlesuit",
-        "XV10-4 Riptide Battlesuit",
+        "XV107 R'varna Battlesuit",
+        "XV109 Y'vahra Battlesuit",
+        "XV104 Riptide Battlesuit",
         "KV128 Stormsurge Ballistic Suit",
         "KX139 Ta'unar Supremacy Armour"
       ],
@@ -74,14 +74,14 @@
           "points": 300
         },
         {
-          "name": "XV10 Battlesuit Group",
-          "units": "Three XV10-4 Riptide Battlesuits, three XV10-7 R'Varna Battlesuits or three XV10-9 Y'Vahra Battlesuits",
+          "name": "Heavy Battlesuit Cadre",
+          "units": "Three XV104 Riptide Battlesuits, three XV107 R'Varna Battlesuits or three XV109 Y'Vahra Battlesuits",
           "extraUnits": [
             "Commander",
             "Drones",
-            "XV10"
+            "Heavy Battlesuits"
           ],
-          "points": 300
+          "points": 325
         }
       ]
     },
@@ -90,19 +90,21 @@
       "description": "Up to two for each Vior'la Core Formation taken",
       "formations": [
         {
-          "name": "Fire Warrior Strike Cadre",
+          "name": "Fire Warrior Strike Group",
           "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish",
           "extraUnits": [
             "Broadsides",
-            "Pathfinders",
+            "Drones",
             "Sky Ray"
           ],
           "points": 225
         },
         {
-          "name": "Pathfinder Group",
-          "units": "Four Pathfinders, two Devilfish",
-          "points": 175
+          "name": "Drone Group",
+          "units": "Six Gun Drones or six Missile Drones",
+          "extraUnits": [
+      ],
+          "points": 150
         },
         {
           "name": "Recon Skimmer Group",
@@ -110,9 +112,10 @@
           "points": 175
         },
         {
-          "name": "XV15 Stealth Group",
+          "name": "Stealth Group",
           "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
+            "Replace up to three XV15 Stealth Battlesuits with XV95 Ghostkeel Battlesuits",
             "Drones"
           ],
           "points": 225
@@ -124,14 +127,6 @@
             "Drones"
           ],
           "points": 300
-        },
-        {
-          "name": "XV95 Ghostkeel Group",
-          "units": "Three XV95 Ghostkeel Battlesuits",
-          "extraUnits": [
-            "Drones"
-          ],
-          "points": 275
         }
       ]
     },
@@ -152,13 +147,13 @@
         {
           "name": "KX139 Supremacy Armour",
           "units": "One KX139 Ta'unar Supremacy Armour",
-          "points": 425
+          "points": 450
         },
         {
           "name": "Tiger Shark Squadron",
           "units": "Two Tiger Shark Bombers",
           "extraUnits": [
-            "Add six Gun Drones: 100 points"
+            "Add six Gun Drones or six Missile Drones: 100 points"
           ],
           "points": 175
         },
@@ -225,19 +220,6 @@
         ]
       },
       {
-        "name": "Pathfinders",
-        "options": [
-          {
-            "description": "Add two Pathfinders and one Devilfish",
-            "points": "100 points"
-          },
-          {
-            "description": "Add two Pathfinders",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
         "name": "Sky Ray",
         "options": [
           {
@@ -247,10 +229,10 @@
         ]
       },
       {
-        "name": "XV10",
+        "name": "Heavy Battlesuits",
         "options": [
           {
-            "description": "Add one or two XV10-4 Riptide Battlesuits, XV10-7 R'Varna Battlesuits or XV10-9 Y'Vahra Battlesuits (the formation may not contain a mix of XV10 battlesuits)",
+            "description": "Add up to two XV104 Riptide Battlesuits, XV107 R'Varna Battlesuits, or XV109 Y'Vahra Battlesuits (the formation may not contain a mix of Heavy Battlesuits)",
             "points": "75 points each"
           }
         ]

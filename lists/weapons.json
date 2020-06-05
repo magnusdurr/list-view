@@ -1164,7 +1164,7 @@
       "modes": [
         {
           "firepower": "AP4+/AT6+/AA6+",
-          "range": 30
+          "range": 15
         }
       ]
     },
@@ -5710,7 +5710,7 @@
       "name": "Ion Accelerator",
         "modes": [
           {
-            "firepower": "AP3+/AT4+",
+            "firepower": "AP2+/AT3+",
             "range": 60,
             "specialRules": [
           ]
@@ -8123,18 +8123,15 @@
       "modes": [
         {
           "firepower": "6BP",
-          "range": 60,
+          "range": 90,
           "specialRules": [
-            "D",
-            "Ind"
           ]
         },
         {
           "firepower": "3BP",
-          "range": 60,
+          "range": 90,
           "join": "or",
           "specialRules": [
-            "Ind",
             "MW"
           ]
         }
@@ -9159,7 +9156,7 @@
       ]
     },
     {
-      "name": "Twin Smart Missile System",
+      "name": "Twin Smart Missile Systems",
       "modes": [
         {
           "firepower": "AP4+",

@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Alpha Legion",
-  "version": "0.7.2",
-  "release": "2020-01-15",
+  "version": "0.8.0",
+  "release": "2020-06-04",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Alpha Legion armies are also subject to 'The Harrowing' special rule.",
   "Initiative": "Cultist Coven and Cultist Support formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
 
@@ -31,6 +31,7 @@
           "Lernaean Terminators",
           "Alpha Legion Dreadnought",
           "Alpha Legion Rhino",
+          "Alpha Legion Vindicator",
           "Alpha Legion Land Raider",
           "Alpha Legion Sicarian Battle Tank"
       ],
@@ -57,13 +58,12 @@
     {
       "from": "IG.json",
       "units": [
-          "Heavy Mortar",
+          "Salamander Scout Tank",
+          "Griffon",
           "Hydra",
-          "Ragnarok Heavy Tank",
-          "Macharius"
+          "Ragnarok Heavy Tank"
       ],
         "unitRules": [
-            "Heavy Armoured Vehicle (H-AV)"
           ]
     },
     {
@@ -93,19 +93,9 @@
 ],
 "sections": [
     {
-      "name": "Alpha Legion Cultist Coven Formations",
+      "name": "Alpha Legion Core Formations",
+      "description": "Up to one Cultist Coven formation for each Alpha Legion Marines formation",
       "formations": [
-          {
-            "name": "Cultist Coven",
-            "units": "One Aspiring Champion, nine Chaos Cultists, five Land Transporters",
-            "extraUnits": [
-              "Add a Daemonic Icon to the Aspiring Champion: 25 points",
-              "Add four Chaos Hounds: 50 points",
-              "Hydra",
-              "Supreme Commander"
-            ],
-            "points": 275
-        },
         {
           "name": "Alpha Legion Marines",
           "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Marines plus transport",
@@ -113,44 +103,55 @@
               "Replace four Alpha Legion Marines with four Alpha Legion Havocs: 50 points",
               "Add up to two Alpha Legion Land Raiders: 50 points each",
             "Supreme Commander",
-              "Dreadnoughts"
+              "Dreadnoughts",
+              "Vindicators"
+
           ],
           "points": 200
-      }
+      },
+      {
+        "name": "Cultist Coven",
+        "units": "One Aspiring Champion, seven Chaos Cultists, four Land Transporters",
+        "extraUnits": [
+          "Add a Daemonic Icon to the Aspiring Champion: 25 points",
+          "Replace up to four Land Transporters with Chimeras: 15 points each",
+          "Add up to three Chaos Hounds: 15 points each",
+          "Hydra",
+          "Supreme Commander"
+        ],
+        "points": 225
+    }
 
       ]
     },
     {
       "name": "Cultist Support Formations",
-      "description": "Up to one Cultist Support Formations per Cultist Coven",
+      "description": "Up to two Cultist Support Formations per Cultist Coven",
       "formations": [
           {
-            "name": "Mutants",
-            "units": "Eight Mutants",
+            "name": "Salamander Squadron",
+            "units": "Four Salamander Scout Tanks",
             "extraUnits": [
-                "Add a Daemonic Icon to a unit of Mutants: 25 points",
-                "Add one Chaos Spawn to the formation: 35 points",
-                "Big Mutants"
                 ],
                 "points": 150
             },
-
           {
-            "name": "Heavy Mortar Battery",
-            "units": "Four Heavy Mortars",
+            "name": "Mutant Coven",
+            "units": "Daemonic Icon, six Mutants",
             "extraUnits": [
-                "Big Mutants"
-            ],
-            "points": 225
-        },
-          {
-            "name": "Macharius Platoon",
-            "units": "Two Macharius",
-            "extraUnits": [
-                "Hydra"
+                "Add one Chaos Spawn to the formation: 35 points",
+                "Add up to four Mutants: 10 points each",
+                "Replace up to three Mutants with Big Mutants: 15 points each"
                 ],
-                "points": 250
+                "points": 150
             },
+          {
+            "name": "Griffon Battery",
+            "units": "Four Griffons",
+            "extraUnits": [
+            ],
+            "points": 200
+        },
             {
               "name": "Ragnarok Platoon",
               "units": "Four Ragnarok Heavy Tanks",
@@ -178,26 +179,29 @@
             "name": "Headhunters",
             "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Headhunters plus transport",
             "extraUnits": [
-              "Supreme Commander"
+              "Supreme Commander",
+              "Vindicators",
+              "Dreadnoughts"
             ],
             "points": 250
         },
+        {
+          "name": "Terminators",
+          "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators plus transport",
+          "extraUnits": [
+              "Supreme Commander",
+              "Dreadnoughts"
+          ],
+          "points": 275
+      },
         {
           "name": "Sicarians",
           "units": "Four Alpha Legion Sicarian Battle Tanks",
           "extraUnits": [
           ],
           "points": 300
-        },
-          {
-            "name": "Terminators",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators plus transport",
-            "extraUnits": [
-                "Supreme Commander",
-                "Dreadnoughts"
-            ],
-            "points": 325
-          }
+        }
+
       ]
     },
    {
@@ -278,21 +282,21 @@
       }
     ]
     },
-          {
-        "name": "Big Mutants",
-        "options": [
-          {
-            "description": "Add up to two Big Mutants",
-            "points": "25 points each"
-          }
-        ]
-    },
+        {
+      "name": "Vindicators",
+      "options": [
+        {
+          "description": "Add up to two Alpha Legion Vindicators",
+          "points": "35 points each"
+        }
+      ]
+      },
           {
         "name": "Dreadnoughts",
         "options": [
           {
             "description": "Add up to two Alpha Legion Dreadnoughts",
-            "points": ["50 points for one", "75 points for two"]
+            "points": "35 points each"
           }
         ]
       }
