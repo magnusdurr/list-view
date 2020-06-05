@@ -2,9 +2,9 @@
   "fraction": "Adeptus Mechanicus",
   "army": "Questoris Mechanicus",
   "version": "0.8.1",
-  "release": "2020-01-31",
+  "release": "2020-06-05",
   "strategy": "Questoris Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All formations have an Initiative Rating of 2+. All Knight formations are subject to the 'Bravery' special rule",
 
   "specialRules": [
           "Bravery",
@@ -87,12 +87,12 @@
       "formations": [
         {
           "name": "Questoris",
-          "units": "Three Questoris Knights (may not mix configurations)",
+          "units": "Two Questoris Knights (may not mix configurations)",
           "extraUnits": [
         "Seneschal",
-            "Baron"
+                  "Baron"
           ],
-          "points": 350
+          "points": 300
         }
       ]
   },
@@ -102,18 +102,18 @@
     "formations": [
       {
         "name": "Dominus",
-        "units": "One Seneschal, two Dominus Knights (may not mix configurations)",
+        "units": "One Seneschal, one Dominus Knight",
         "extraUnits": [
             "Baron"
         ],
-        "points": 425
+        "points": 250
     },
     {
       "name": "Cerastus",
       "units": "Two Cerastus Knights (may not mix configurations)",
       "extraUnits": [
         "Seneschal",
-        "Baron"
+                  "Baron"
       ],
       "points": 300
   }
@@ -127,9 +127,9 @@
       "name": "Armiger",
       "units": "Four Knight-Warglaives or four Knight-Helverins",
       "extraUnits": [
-          "Add one Knight-Preceptor: 125 points"
+          "Add one Knight-Preceptor: 150 points"
       ],
-      "points": 175
+      "points": 200
     }
   ]
 },
@@ -139,33 +139,33 @@
       "formations": [
           {
             "name": "Cerastus Reliquae",
-            "units": "One Seneschal, two Cerastus Knight-Atrapos",
+            "units": "One Seneschal, one Cerastus Knight-Atrapos",
             "extraUnits": [
                   "Baron"
             ],
-            "points": 400
+            "points": 225
         },
         {
           "name": "Questoris Reliquae",
-          "units": "One Seneschal, three Questoris Relic Knights (may not mix configurations)",
+          "units": "One Seneschal, one Questoris Relic Knight",
           "extraUnits": [
               "Baron"
           ],
-          "points": 425
+          "points": 225
       },
       {
         "name": "Acastus Reliquae",
-        "units": "One Seneschal, two Acastus Knights (may not mix configurations)",
+        "units": "One Seneschal, one Knight-Porphyrion or Knight-Asterius",
         "extraUnits": [
             "Baron"
         ],
-        "points": 475
+        "points": 300
     }
       ]
     },
     {
       "name": "Mechanicus Allies",
-      "description": "Up to a third of the points available may be spent on Forge World and Collegia Titanica allies.",
+      "description": "Up to a third of the points available may be spent on Forge World allies.",
       "formations": [
           {
             "name": "Minoris",
@@ -187,15 +187,6 @@
           "name": "Onager Cataphractii",
           "units": "Two Onager Dunecrawlers with Icarus Array, four Onager Dunecrawlers with another single configuration",
           "points": 325
-        },
-        {
-          "name": "Warhound Pack",
-          "units": "Two Warhound Scout Titans (Both either Standard or Close Support configuration)",
-          "extraUnits": [
-              "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points"
-
-          ],
-          "points": 500
         },
         {
           "name": "Avenger Squadron",

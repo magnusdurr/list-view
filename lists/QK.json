@@ -15,12 +15,6 @@
           ]
         },
         {
-          "title": "Stubborn",
-          "description": [
-        "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, and reduce the number of extra hits from losing an assault by one."
-          ]
-        },
-        {
           "title": "Ion Shield (x)",
           "description": [
             "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
@@ -83,7 +77,7 @@
             "type": "AV",
             "speed": 30,
             "armour": 5,
-            "cc": 5,
+            "cc": 4,
             "ff": 5,
             "weapons": [
               "Thermal Spear",
@@ -93,7 +87,7 @@
             "specialRules": [
               "Walker",
               "Scout",
-              "Ion Shield (5+)"
+              "Ion Shield (4+)"
             ]
         },
         {
@@ -102,7 +96,7 @@
             "speed": 30,
             "armour": 5,
             "cc": 5,
-            "ff": 5,
+            "ff": 4,
             "weapons": [
               "Twin Autocannons",
               "Heavy Stubber"
@@ -110,7 +104,7 @@
             "specialRules": [
               "Walker",
               "Scout",
-              "Ion Shield (5+)"
+              "Ion Shield (4+)"
             ]
         },
 
@@ -130,7 +124,7 @@
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
@@ -149,7 +143,7 @@
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
@@ -169,7 +163,7 @@
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
@@ -189,7 +183,7 @@
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
@@ -209,7 +203,7 @@
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
@@ -228,7 +222,7 @@
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
@@ -252,7 +246,7 @@
 
             ],
             "specialRules": [
-              "Fearless",
+              "Stubborn",
               "Reinforced Armour",
               "Walker",
               "Ion Shield (3+)"
@@ -274,7 +268,7 @@
               "Stubborn",
               "Reinforced Armour",
               "Walker",
-              "Ion Shield (4+)"
+              "Ion Shield (3+)"
             ]
         },
         {
@@ -293,7 +287,7 @@
               "Stubborn",
               "Reinforced Armour",
               "Walker",
-              "Ion Shield (4+)"
+              "Ion Shield (3+)"
             ]
         },
         {
@@ -302,7 +296,7 @@
             "speed": 20,
             "armour": 4,
             "cc": 4,
-            "ff": 4,
+            "ff": 3,
             "weapons": [
               "Shieldbreaker Missiles|2|",
               "Volcano Lance",
@@ -313,7 +307,7 @@
               "Stubborn",
               "Reinforced Armour",
               "Walker",
-              "Ion Shield (4+)"
+              "Ion Shield (3+)"
             ]
         },
         {
@@ -333,14 +327,14 @@
               "Stubborn",
               "Reinforced Armour",
               "Walker",
-              "Ion Shield (4+)"
+              "Ion Shield (3+)"
             ]
         },
       {
           "name": "Cerastus Knight-Lancer",
           "type": "H-AV",
           "speed": 30,
-          "armour": 5,
+          "armour": 3,
           "cc": 3,
           "ff": 5,
           "weapons": [
@@ -348,7 +342,6 @@
           ],
           "specialRules": [
             "Stubborn",
-            "Reinforced Armour",
             "Walker",
             "Scout",
             "Ion Shield (3+)"
@@ -358,7 +351,7 @@
           "name": "Cerastus Knight-Acheron",
           "type": "H-AV",
           "speed": 30,
-          "armour": 5,
+          "armour": 4,
           "cc": 3,
           "ff": 4,
           "weapons": [
@@ -367,17 +360,16 @@
           ],
           "specialRules": [
             "Stubborn",
-            "Reinforced Armour",
             "Walker",
             "Scout",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
           "name": "Cerastus Knight-Castigator",
           "type": "H-AV",
           "speed": 30,
-          "armour": 5,
+          "armour": 4,
           "cc": 3,
           "ff": 4,
           "weapons": [
@@ -386,17 +378,16 @@
           ],
           "specialRules": [
             "Stubborn",
-            "Reinforced Armour",
             "Walker",
             "Scout",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
       {
           "name": "Cerastus Knight-Atrapos",
           "type": "H-AV",
           "speed": 30,
-          "armour": 5,
+          "armour": 3,
           "cc": 3,
           "ff": 4,
           "weapons": [
@@ -405,10 +396,9 @@
           ],
           "specialRules": [
             "Stubborn",
-            "Reinforced Armour",
             "Walker",
             "Scout",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
           ]
       },
 
@@ -426,11 +416,11 @@
         "Helios Defense Missiles"
       ],
       "specialRules": [
-        "Damage Capacity 3",
+        "Damage Capacity: 3",
         "Stubborn",
         "Reinforced Armour",
         "Walker",
-        "Ion Shield (4+)"
+        "Ion Shield (3+)"
     ],
             "crit": "The Acastus Knight takes 1 additional damage."
     },
@@ -447,11 +437,11 @@
             "Karacnos Mortar Battery||FxF"
                 ],
           "specialRules": [
-            "Damage Capacity 3",
+            "Damage Capacity: 3",
             "Stubborn",
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Ion Shield (3+)"
             ],
                 "crit": "The Acastus Knight takes 1 additional damage."
             },
