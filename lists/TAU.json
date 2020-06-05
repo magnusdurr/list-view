@@ -568,6 +568,22 @@
         ]
       },
       {
+        "name": "XV107 R'varna Battlesuit",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Pulse Submunition Cannons"
+        ],
+        "specialRules": [
+          "Invulnerable Save",
+          "Reinforced Armour",
+          "Walker"
+        ]
+      },
+      {
         "name": "XV104 Riptide Battlesuit",
         "type": "H-AV",
         "speed": 25,
@@ -582,22 +598,6 @@
         "specialRules": [
           "Tau Jet Pack",
           "Tau Deflector Shield",
-          "Walker"
-        ]
-      },
-      {
-        "name": "XV107 R'varna Battlesuit",
-        "type": "H-AV",
-        "speed": 20,
-        "armour": 4,
-        "cc": 5,
-        "ff": 5,
-        "weapons": [
-          "Pulse Submunition Cannons"
-        ],
-        "specialRules": [
-          "Invulnerable Save",
-          "Reinforced Armour",
           "Walker"
         ]
       },
