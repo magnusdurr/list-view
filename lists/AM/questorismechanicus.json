@@ -69,21 +69,11 @@
     ],
         "unitRules": [
       ]
-    },
-  {
-    "from": "ImperialAllies.json",
-    "units": [
-      "Warhound "
-    ],
-      "unitRules": [
-          "Independent",
-          "Void Shields"
-    ]
-  }
+    }
 ],
 "sections": [
     {
-      "name": "Core Lances",
+      "name": "Core Banners",
       "formations": [
         {
           "name": "Questoris",
@@ -97,7 +87,7 @@
       ]
   },
   {
-    "name": "Support Lances",
+    "name": "Support Banners",
       "description": "Up to one Dominus or Cerastus Lance for each Core Lance.",
     "formations": [
       {
@@ -120,7 +110,7 @@
     ]
 },
 {
-  "name": "Recon Lances",
+  "name": "Recon Banners",
   "description": "Up to one Recon Lance for each Core or Support Lance",
   "formations": [
     {
@@ -134,7 +124,7 @@
   ]
 },
     {
-      "name": "Relic Lances",
+      "name": "Relic Banners",
       "description": "Up to one Relic Lance for each part of 1500 points in the army.",
       "formations": [
           {

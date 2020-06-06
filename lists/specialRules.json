@@ -94,14 +94,14 @@
     {
       "title": "Stubborn",
       "description": [
-        "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, and reduce the number of extra hits from losing an assault by one, requires an additional Blast Marker before the formation becomes broken, and may ignore one Blast Marker when determining suppression."
+        "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, reduce the number of extra hits from losing an assault by one, requires an additional Blast Marker before the formation becomes broken, and may ignore one Blast Marker when determining suppression."
       ]
     },
     {
       "title": "Ion Shield (x)",
       "description": [
         "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
-        "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately). Disrupt hits saved by an Ion Shield does not cause Blast Markers. If the unit has Reinforced Armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
+        "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (each point of damage from a Titan Killer hit must be saved separately), but are affected normally by hits with the Disrupt special rule. If the unit has Reinforced Armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
         "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
       ]
     },

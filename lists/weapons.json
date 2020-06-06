@@ -7736,17 +7736,6 @@
       ]
     },
     {
-      "name": "D3 Power Fields",
-      "modes": [
-        {
-          "firepower": "n/a",
-          "specialRules": [
-            "Spec[*]"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Power Fist",
       "modes": [
         {
@@ -8066,6 +8055,17 @@
           "firepower": "AP5+/AT6+",
           "range": 30,
           "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ion Gauntlet Shield",
+      "modes": [
+        {
+          "firepower": "n/a",
+          "specialRules": [
+              "Spec[*]"
           ]
         }
       ]
@@ -10888,7 +10888,17 @@
           }
       ]
     },
-
+    {
+      "name": "Missile Pod",
+      "modes": [
+        {
+          "firepower": "AP6+/AT6+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
     {
       "name": "Twin Missile Pods",
       "modes": [
@@ -11127,7 +11137,7 @@
         "modes": [
           {
             "firepower": "AA6+",
-            "range": 30
+            "range": 45
           }
       ]
     },
