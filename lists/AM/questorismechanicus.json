@@ -60,9 +60,8 @@
 
         "Onager Dunecrawler",
         "Skorpius Dunerider",
+        "Skorpius Disintegrator",
         "Gorgon",
-
-        "Ordinatus Minoris ",
 
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
@@ -157,14 +156,6 @@
       "name": "Mechanicus Allies",
       "description": "Up to a third of the points available may be spent on Forge World allies.",
       "formations": [
-          {
-            "name": "Minoris",
-            "units": "One Ordinatus Minoris",
-            "extraUnits": [
-                "Add one Ordinatus Minoris: 125 points"
-            ],
-            "points": 200
-          },
         {
           "name": "Vanguard Maniple",
           "units": "One Magos, nine Skitarii Vanguards, Gorgon",
@@ -178,6 +169,13 @@
           "units": "Two Onager Dunecrawlers with Icarus Array, four Onager Dunecrawlers with another single configuration",
           "points": 325
         },
+        {
+            "name": "Skorpius Cataphractii",
+            "units": "Six Skorpius Disintegrators",
+            "extraUnits": [],
+            "points": 325
+        },
+
         {
           "name": "Avenger Squadron",
           "units": "Two Avenger Strike Fighters",
