@@ -1267,7 +1267,7 @@
       "modes": [
         {
           "firepower": "3BP",
-          "range": 45,
+          "range": 30,
           "specialRules": [
             "Ind"
           ]
@@ -4438,6 +4438,17 @@
       ]
     },
     {
+      "name": "Graviton Crusher",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Graviton Singularity Beamer",
       "modes": [
         {
@@ -5169,6 +5180,19 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
+                "EA(+1)",
+                "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gyges Siege Claw",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
                 "TK(1)"
           ]
         }
@@ -5737,6 +5761,17 @@
       ]
     },
     {
+      "name": "Phased Plasma Fusil",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Ironstorm Missile Pod",
         "modes": [
           {
@@ -6166,7 +6201,7 @@
       "modes": [
         {
           "firepower": "AT2+",
-          "range": 45,
+          "range": 60,
           "specialRules": [
             "Lance"
         ]
@@ -6248,10 +6283,11 @@
       "name": "Lightning Cannon",
         "modes": [
           {
-            "firepower": "MW2+",
+            "firepower": "MW3+",
             "range": 45,
             "specialRules": [
-                "D"
+                "D",
+                "Shield Disruptor"
           ]
         }
       ]
@@ -11334,7 +11370,7 @@
       "name": "Volkite Chierovile",
         "modes": [
           {
-            "firepower": "3x AP3+/AT4+",
+            "firepower": "2x AP3+/AT4+",
             "range": 45,
             "specialRules": [
               "IC",
@@ -11350,6 +11386,19 @@
             "firepower": "Small Arms",
             "specialRules": [
               "IC"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Volkite Veuglaire",
+        "modes": [
+          {
+            "firepower": "AP3+/AT4+",
+            "range": 30,
+            "specialRules": [
+              "IC",
+              "D"
           ]
           }
       ]

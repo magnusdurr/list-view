@@ -9,9 +9,7 @@
   "specialRules": [
           "Bravery",
           "Stubborn",
-          "Ion Shield (x)",
-          "Shield Piercer",
-          "Lightning Charge"
+          "Ion Shield (x)"
 
   ],
   "usage": [
@@ -33,22 +31,28 @@
         "Questoris Knight-Warden",
         "Questoris Knight-Preceptor",
 
+        "Questoris Relic Knight-Styrix",
+        "Questoris Relic Knight-Magaera",
+
         "Cerastus Knight-Lancer",
         "Cerastus Knight-Acheron",
         "Cerastus Knight-Castigator",
-        "Cerastus Knight-Atrapos",
+
+        "Cerastus Relic Knight-Atrapos",
 
         "Armiger Knight-Warglaive",
         "Armiger Knight-Helverin",
 
-        "Questoris Relic Knight-Styrix",
-        "Questoris Relic Knight-Magaera",
+        "Armiger Relic Knight-Moirax",
 
-        "Acastus Knight-Porphyrion",
-        "Acastus Knight-Asterius"
+        "Acastus Relic Knight-Porphyrion",
+        "Acastus Relic Knight-Asterius"
       ],
               "unitRules": [
                   "Heavy Armoured Vehicle (H-AV)",
+          "Shield Piercer",
+          "Shield Disruptor",
+                    "Lightning Charge",
                   "Lance"
       ]
     },
@@ -60,7 +64,7 @@
 
         "Onager Dunecrawler",
         "Skorpius Dunerider",
-        "Skorpius Disintegrator",
+        "Ordinatus Minoris ",
         "Gorgon",
 
         "Avenger Strike Fighter",
@@ -104,7 +108,7 @@
         "Seneschal",
                   "Baron"
       ],
-      "points": 300
+      "points": 325
   }
     ]
 },
@@ -127,8 +131,15 @@
       "description": "Up to one Relic Lance for each part of 1500 points in the army.",
       "formations": [
           {
+            "name": "Armiger Reliquae",
+            "units": "Two Armiger Relic Knight-Moirax",
+            "extraUnits": [
+            ],
+            "points": 200
+        },
+          {
             "name": "Cerastus Reliquae",
-            "units": "One Seneschal, one Cerastus Knight-Atrapos",
+            "units": "One Seneschal, one Cerastus Relic Knight-Atrapos",
             "extraUnits": [
                   "Baron"
             ],
@@ -136,7 +147,7 @@
         },
         {
           "name": "Questoris Reliquae",
-          "units": "One Seneschal, two Questoris Relic Knights",
+          "units": "One Seneschal, two Questoris Relic Knight-Styrix or two Knight-Magaera",
           "extraUnits": [
               "Baron"
           ],
@@ -144,7 +155,7 @@
       },
       {
         "name": "Acastus Reliquae",
-        "units": "One Seneschal, one Knight-Porphyrion or Knight-Asterius",
+        "units": "One Seneschal, one Acastus Relic Knight-Porphyrion or Knight-Asterius",
         "extraUnits": [
             "Baron"
         ],
@@ -160,7 +171,8 @@
           "name": "Vanguard Maniple",
           "units": "One Magos, nine Skitarii Vanguards, Gorgon",
           "extraUnits": [
-              "Replace the Gorgon with five Skorpius Duneriders: 25 points"
+              "Replace the Gorgon with five Skorpius Duneriders: 25 points",
+              "Add two Onager Dunecrawlers (any single configuration): 75 points"
           ],
           "points": 300
         },
@@ -170,8 +182,8 @@
           "points": 325
         },
         {
-            "name": "Skorpius Cataphractii",
-            "units": "Six Skorpius Disintegrators",
+            "name": "Minoris Cohort",
+            "units": "Two Ordinatus Minoris",
             "extraUnits": [],
             "points": 325
         },

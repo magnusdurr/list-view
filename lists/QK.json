@@ -5,7 +5,7 @@
         {
           "title": "Heavy Armoured Vehicle (H-AV)",
           "description": [
-            "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)). In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+            "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)), and may not be Barged by enemy WE In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
           ]
       },
         {
@@ -28,6 +28,12 @@
             "Ignores Power Fields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
           ]
         },
+        {
+          "title": "Shield Disruptor",
+          "description": [
+            "Each Shield Disruptor hit will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields."
+          ]
+      },
         {
           "title": "Lightning Charge",
           "description": [
@@ -107,7 +113,24 @@
               "Ion Shield (4+)"
             ]
         },
-
+        {
+            "name": "Armiger Relic Knight-Moirax",
+            "type": "AV",
+            "speed": 25,
+            "armour": 4,
+            "cc": 4,
+            "ff": 4,
+            "weapons": [
+              "Volkite Veuglaire",
+              "Gyges Siege Claw"
+            ],
+            "specialRules": [
+              "Stubborn",
+              "Walker",
+              "Scout",
+              "Ion Shield (3+)"
+            ]
+        },
       {
           "name": "Questoris Knight-Paladin",
           "type": "H-AV",
@@ -118,8 +141,7 @@
           "weapons": [
             "Rapid Fire Battle Cannon",
             "Heavy Stubber|2|",
-            "Reaper Chainsword",
-            "Twin Icarus Autocannons"
+            "Reaper Chainsword"
           ],
           "specialRules": [
             "Stubborn",
@@ -221,7 +243,7 @@
           "weapons": [
             "Las Impulsor",
             "Heavy Stubber",
-            "Reaper Chainsword"
+            "Thunderstrike Gauntlet"
           ],
           "specialRules": [
             "Stubborn",
@@ -262,13 +284,14 @@
         {
             "name": "Questoris Relic Knight-Styrix",
             "type": "H-AV",
-            "speed": 20,
+            "speed": 25,
             "armour": 5,
             "cc": 3,
             "ff": 3,
             "weapons": [
               "Volkite Chierovile",
               "Twin Rad Cleanser",
+              "Graviton Crusher",
               "Hekaton Siege Claw"
             ],
             "specialRules": [
@@ -282,21 +305,22 @@
         {
             "name": "Questoris Relic Knight-Magaera",
             "type": "H-AV",
-            "speed": 20,
+            "speed": 25,
             "armour": 5,
             "cc": 3,
             "ff": 3,
             "weapons": [
               "Lightning Cannon",
-              "Twin Rad Cleanser",
-              "Hekaton Siege Claw"
+              "Phased Plasma Fusil|2",
+              "Reaper Chainsword"
             ],
             "specialRules": [
               "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
               "Walker",
-              "Ion Shield (3+)"
+              "Ion Shield (3+)",
+              "Invulnerable Save"
             ]
         },
         {
@@ -345,7 +369,7 @@
           "name": "Cerastus Knight-Acheron",
           "type": "H-AV",
           "speed": 30,
-          "armour": 4,
+          "armour": 5,
           "cc": 3,
           "ff": 4,
           "weapons": [
@@ -354,6 +378,7 @@
           ],
           "specialRules": [
             "Stubborn",
+              "Reinforced Armour",
             "Walker",
             "Scout",
             "Ion Shield (3+)"
@@ -398,12 +423,12 @@
         ]
       },
       {
-          "name": "Cerastus Knight-Atrapos",
+          "name": "Cerastus Relic Knight-Atrapos",
           "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 3,
-          "ff": 4,
+          "ff": 3,
           "weapons": [
             "Graviton Singularity Cannon",
             "Atrapos Lascutter"
@@ -413,13 +438,14 @@
               "Reinforced Armour",
             "Walker",
             "Scout",
-            "Ion Shield (3+)"
+            "Ion Shield (3+)",
+            "Invulnerable Save"
           ]
       },
 
 
       {
-      "name": "Acastus Knight-Porphyrion",
+      "name": "Acastus Relic Knight-Porphyrion",
       "type": "WE",
       "speed": 20,
       "armour": 4,
@@ -440,7 +466,7 @@
             "crit": "The Acastus Knight takes 1 additional damage."
     },
           {
-          "name": "Acastus Knight-Asterius",
+          "name": "Acastus Relic Knight-Asterius",
           "type": "WE",
           "speed": 20,
           "armour": 4,
