@@ -76,22 +76,22 @@
 ],
 "sections": [
     {
-      "name": "Core Banners",
+      "name": "Core Lances",
       "formations": [
         {
           "name": "Questoris",
-          "units": "Two Questoris Knights (may not mix configurations)",
+          "units": "Three Questoris Knights (may not mix configurations)",
           "extraUnits": [
         "Seneschal",
                   "Baron"
           ],
-          "points": 275
+          "points": 400
         }
       ]
   },
   {
     "name": "Support Banners",
-      "description": "Up to one Dominus or Cerastus Lance for each Core Lance.",
+      "description": "Up to one Dominus or Cerastus Banner for each Core Lance.",
     "formations": [
       {
         "name": "Dominus",
@@ -114,12 +114,13 @@
 },
 {
   "name": "Recon Banners",
-  "description": "Up to one Recon Lance for each Core or Support Lance",
+  "description": "Up to one Recon Bammer for each Core Lance or Support Banner",
   "formations": [
     {
       "name": "Armiger",
       "units": "Three Knight-Warglaives or three Knight-Helverins",
       "extraUnits": [
+          "Add one Armiger Knight of the same configuration: 50 points",
           "Add one Knight-Preceptor: 150 points"
       ],
       "points": 175
@@ -128,7 +129,7 @@
 },
     {
       "name": "Relic Banners",
-      "description": "Up to one Relic Lance for each part of 1500 points in the army.",
+      "description": "Up to one Relic Banner for each part of 1500 points in the army.",
       "formations": [
           {
             "name": "Armiger Reliquae",
