@@ -17,7 +17,6 @@
         "Catachan Supreme Commander",
         "Catachan Commander",
         "Catachan Infantry",
-        "Heavy Mortar",
         "Flakk Team",
         "Snipers",
         "Ogryns",
@@ -25,6 +24,7 @@
         "Catachan Sentinel",
         "Death World Chimera",
         "Basilisk",
+        "Griffon",
         "Deathstrike",
         "Vulture",
         "Valkyrie",
@@ -128,12 +128,11 @@
           "points": 175
       },
       {
-        "name": "Heavy Mortar Battery",
-        "units": "Three Heavy Mortars",
+        "name": "Griffon Battery",
+        "units": "Four Griffons",
         "extraUnits": [
-            "Ogryns"
         ],
-        "points": 150
+        "points": 200
     },
         {
           "name": "Catachan Sentinel Squadron",
