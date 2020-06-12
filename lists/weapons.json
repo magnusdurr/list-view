@@ -1209,7 +1209,7 @@
         "modes": [
           {
             "firepower": "MW3+",
-              "range": 75,
+              "range": 60,
             "specialRules": [
           ]
           }
@@ -5190,9 +5190,8 @@
       "name": "Gyges Siege Claw",
         "modes": [
           {
-            "firepower": "Assault Weapons",
+            "firepower": "Assault Weapon",
             "specialRules": [
-                "EA(+1)",
                 "TK(1)"
           ]
         }
@@ -5772,6 +5771,17 @@
       ]
     },
     {
+      "name": "Twin Phased Plasma Fusil",
+        "modes": [
+          {
+            "firepower": "AP3+/AT4+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Ironstorm Missile Pod",
         "modes": [
           {
@@ -6201,9 +6211,9 @@
       "modes": [
         {
           "firepower": "AT2+",
-          "range": 60,
+          "range": 45,
           "specialRules": [
-            "Lance"
+            "Shield Disruptor"
         ]
     },
         {
@@ -8486,7 +8496,6 @@
         {
           "firepower": "Assault Weapon",
           "specialRules": [
-            "EA(+1)",
             "MW"
           ]
         }
@@ -11371,7 +11380,7 @@
         "modes": [
           {
             "firepower": "2x AP3+/AT4+",
-            "range": 45,
+            "range": 30,
             "specialRules": [
               "IC",
               "D"

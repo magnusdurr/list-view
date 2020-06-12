@@ -15,6 +15,12 @@
           ]
         },
         {
+          "title": "Stubborn",
+          "description": [
+            "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, reduce the number of extra hits from losing an assault by one, requires an additional Blast Marker before the formation becomes broken, and may ignore one Blast Marker when determining suppression."
+          ]
+        },
+        {
           "title": "Ion Shield (x)",
           "description": [
             "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
@@ -40,12 +46,6 @@
             "Weapon gains First Strike when the wielder's formation initiated the Engage."
           ]
         },
-        {
-          "title": "Unstable",
-          "description": [
-            "If a natural 1 is rolled when rolling to hit, roll another dice. If the result is yet another natural 1, the wielder is destroyed."
-          ]
-      },
       {
         "title": "Lance",
         "description": [
@@ -118,8 +118,8 @@
         {
             "name": "Armiger Relic Knight-Moirax",
             "type": "AV",
-            "speed": 25,
-            "armour": 4,
+            "speed": 30,
+            "armour": 5,
             "cc": 4,
             "ff": 5,
             "weapons": [
@@ -130,7 +130,8 @@
               "Stubborn",
               "Walker",
               "Scout",
-              "Ion Shield (3+)"
+              "Ion Shield (4+)",
+            "Ionic Flare Shield"
             ]
         },
       {
@@ -301,7 +302,8 @@
               "Reinforced Armour",
             "Thick Rear Armour",
               "Walker",
-              "Ion Shield (3+)"
+              "Ion Shield (3+)",
+            "Ionic Flare Shield"
             ]
         },
         {
@@ -313,7 +315,7 @@
             "ff": 3,
             "weapons": [
               "Lightning Cannon",
-              "Phased Plasma Fusil|2",
+              "Twin Phased Plasma Fusil",
               "Reaper Chainsword"
             ],
             "specialRules": [
@@ -322,7 +324,7 @@
             "Thick Rear Armour",
               "Walker",
               "Ion Shield (3+)",
-              "Invulnerable Save"
+            "Ionic Flare Shield"
             ]
         },
         {
@@ -421,7 +423,7 @@
             "Walker",
             "Scout",
             "Ion Shield (3+)",
-            "Invulnerable Save"
+            "Ionic Flare Shield"
         ]
       },
       {
@@ -430,7 +432,7 @@
           "speed": 30,
           "armour": 5,
           "cc": 3,
-          "ff": 3,
+          "ff": 4,
           "weapons": [
             "Graviton Singularity Cannon",
             "Atrapos Lascutter"
@@ -441,7 +443,7 @@
             "Walker",
             "Scout",
             "Ion Shield (3+)",
-            "Invulnerable Save"
+            "Ionic Flare Shield"
           ]
       },
 
