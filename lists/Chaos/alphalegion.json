@@ -60,7 +60,8 @@
       "units": [
           "Salamander Scout Tank",
           "Griffon",
-          "Hydra"
+          "Hydra",
+          "Hellhound"
       ],
         "unitRules": [
           ]
@@ -115,7 +116,8 @@
           "Add a Daemonic Icon to the Aspiring Champion: 25 points",
           "Replace up to four Land Transporters with Chimeras: 15 points each",
           "Add up to three Chaos Hounds: 10 points each",
-          "Hydra",
+          "Add up to two Hellhounds: 25 points each",
+          "Add up to one Hydra: 50 points",
           "Supreme Commander"
         ],
         "points": 225
@@ -270,15 +272,6 @@
       }
       ]
   },
-      {
-    "name": "Hydra",
-    "options": [
-      {
-        "description": "Add one Hydra",
-        "points": "50 points"
-      }
-    ]
-    },
         {
       "name": "Vindicators",
       "options": [

@@ -1515,7 +1515,7 @@
             },
             {
               "firepower": "Assault Weapons",
-              "join": "and",
+              "join": "or",
               "specialRules": [
               "TK(1)"
           ]
@@ -2551,7 +2551,7 @@
         "modes": [
           {
               "firepower": "2x AP5+/AT6+/AA6+",
-              "range": 45,
+              "range": 30,
             "specialRules": [
                 "Spec[*]"
           ]
@@ -2599,14 +2599,16 @@
         {
           "firepower": "Small Arms",
           "specialRules": [
+          "EA(+1)",
           "Lance",
           "Lightning Charge"
         ]
     },
         {
           "firepower": "Assault Weapons",
-          "join": "and",
+          "join": "or",
           "specialRules": [
+            "EA(+1)",
             "Lance",
             "Lightning Charge"
           ]
@@ -5786,7 +5788,7 @@
         "modes": [
           {
             "firepower": "1BP",
-            "range": 60,
+            "range": 45,
             "specialRules": [
           ]
           }
@@ -8044,7 +8046,7 @@
           "firepower": "3BP",
           "range": 45,
           "specialRules": [
-            "D", "IC"
+            "IC"
           ]
         }
       ]
