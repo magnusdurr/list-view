@@ -136,8 +136,9 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Rapid Fire Battle Cannon",
-            "Heavy Stubber|2|",
+            "Rapid Fire Battle Cannon||FwA",
+            "Stormspear Rocket Pod||FwA",
+            "Heavy Stubber|2|FwA",
             "Reaper Chainsword"
           ],
           "specialRules": [
@@ -158,8 +159,8 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Thermal Cannon",
-            "Heavy Stubber",
+            "Thermal Cannon||FwA",
+            "Heavy Stubber||FwA",
             "Thunderstrike Gauntlet"
           ],
           "specialRules": [
@@ -180,8 +181,8 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Rapid Fire Battle Cannon",
-            "Avenger Gatling Cannon",
+            "Rapid Fire Battle Cannon||FwA",
+            "Avenger Gatling Cannon||FwA",
             "Heavy Stubber|2|"
           ],
           "specialRules": [
@@ -204,7 +205,7 @@
           "weapons": [
             "Reaper Chainsword",
             "Thunderstrike Gauntlet",
-            "Heavy Stubber",
+            "Heavy Stubber||FwA",
             "Twin Icarus Autocannons"
           ],
           "specialRules": [
@@ -225,9 +226,9 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Ironstorm Missile Pod",
-            "Avenger Gatling Cannon",
-            "Heavy Stubber",
+            "Ironstorm Missile Pod||FwA",
+            "Avenger Gatling Cannon||FwA",
+            "Heavy Stubber||FwA",
             "Reaper Chainsword"
           ],
           "specialRules": [
@@ -249,7 +250,7 @@
           "ff": 4,
           "weapons": [
             "Las Impulsor",
-            "Heavy Stubber",
+            "Heavy Stubber||FwA",
             "Thunderstrike Gauntlet"
           ],
           "specialRules": [
@@ -273,11 +274,11 @@
             "Heavy Stubber",
             "Thunderstrike Gauntlet",
               ">Chrimson Glaive<",
-              "Conflagration Cannon",
+              "Conflagration Cannon||FwA",
               ">Iron Wolf<",
-              "Helfrost Destructor",
+              "Helfrost Destructor||FwA",
               ">Justice<",
-              "Castigator Cannon",
+              "Castigator Cannon||FwA",
               ">Canis Rex<",
               "Las Impulsor"
 
@@ -285,6 +286,7 @@
             "specialRules": [
             "Damage Capacity: 2",
               "Stubborn",
+              "Fearless",
               "Reinforced Armour",
             "Thick Rear Armour",
               "Walker",
@@ -300,7 +302,7 @@
             "cc": 3,
             "ff": 3,
             "weapons": [
-              "Volkite Chierovile",
+              "Volkite Chierovile||FwA",
               "Twin Rad Cleanser",
               "Graviton Crusher",
               "Hekaton Siege Claw"
@@ -324,8 +326,8 @@
             "cc": 3,
             "ff": 3,
             "weapons": [
-              "Lightning Cannon",
-              "Twin Phased Plasma Fusil",
+              "Lightning Cannon||FwA",
+              "Twin Phased Plasma Fusil||FwA",
               "Reaper Chainsword"
             ],
             "specialRules": [
@@ -347,10 +349,10 @@
             "cc": 4,
             "ff": 3,
             "weapons": [
-              "Shieldbreaker Missiles|2|",
-              "Volcano Lance",
-              "Twin Siegebreaker Cannon|2|",
-              "Plasma Decimator"
+              "Shieldbreaker Missiles|2|FwA",
+              "Volcano Lance||FwA",
+              "Twin Siegebreaker Cannon|2|FwA",
+              "Plasma Decimator||FwA"
             ],
             "specialRules": [
         "Damage Capacity: 2",
@@ -370,8 +372,8 @@
             "cc": 4,
             "ff": 3,
             "weapons": [
-              "Shieldbreaker Missiles|4|",
-              "Twin Siegebreaker Cannon",
+              "Shieldbreaker Missiles|4|FwA",
+              "Twin Siegebreaker Cannon||FwA",
               "Conflagration Cannon",
               "Thundercoil Harpoon"
             ],
@@ -454,7 +456,7 @@
           "speed": 30,
           "armour": 5,
           "cc": 3,
-          "ff": 4,
+          "ff": 3,
           "weapons": [
             "Graviton Singularity Cannon",
             "Atrapos Lascutter"
