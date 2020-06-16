@@ -516,7 +516,7 @@
             },
         {
           "name": "Knight-Renegade",
-          "type": "H-AV",
+          "type": "WE",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -527,12 +527,15 @@
             "Renegade Chainsword"
           ],
           "specialRules": [
+              "Damage Capacity: 2",
             "Fearless",
             "Reinforced Armour",
+            "Thick Rear Armour",
             "Walker",
             "Invulnerable Save",
             "Daemon Engine (Chaos Undivided)"
-          ]
+          ],
+              "crit": "The Knight-Renegade is destroyed."
         },
         {
             "name": "Knight-Doomglaive",
@@ -858,7 +861,7 @@
         },
         {
           "name": "Knight-Desecrator",
-          "type": "H-AV",
+          "type": "WE",
           "speed": 20,
           "armour": 4,
           "cc": 4,
@@ -869,12 +872,15 @@
             "Renegade Chainsword"
           ],
           "specialRules": [
+            "Damage Capacity: 2",
             "Fearless",
             "Walker",
             "Reinforced Armour",
+            "Thick Rear Armour",
             "Invulnerable Save",
             "Daemon Engine (Nurgle)"
-          ]
+          ],
+              "crit": "The Knight-Desecrator is destroyed."
         },
         {
           "name": "Plague Tower",
@@ -975,7 +981,7 @@
         },
         {
           "name": "Knight-Rampager",
-          "type": "H-AV",
+          "type": "WE",
           "speed": 25,
           "armour": 5,
           "cc": 3,
@@ -986,12 +992,15 @@
             "Renegade Chainsword"
           ],
           "specialRules": [
+            "Damage Capacity: 2",
             "Fearless",
             "Reinforced Armour",
+            "Thick Rear Armour",
             "Walker",
             "Invulnerable Save",
             "Daemon Engine (Khorne)"
-          ]
+          ],
+              "crit": "The Knight-Rampager is destroyed."
         },
         {
           "name": "Greater Brass Scorpion",
@@ -1104,7 +1113,7 @@
       },
       {
         "name": "Knight-Despoiler",
-        "type": "H-AV",
+        "type": "WE",
         "speed": 20,
         "armour": 5,
         "cc": 5,
@@ -1115,12 +1124,15 @@
           "Hyperwave Clarion"
         ],
         "specialRules": [
+          "Damage Capacity: 2",
           "Fearless",
           "Reinforced Armour",
+          "Thick Rear Armour",
           "Walker",
           "Invulnerable Save",
           "Daemon Engine (Tzeentch)"
-        ]
+        ],
+            "crit": "The Knight-Despoiler is destroyed."
       },
       {
         "name": "Mirrorfiend",

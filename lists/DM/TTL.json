@@ -1,15 +1,14 @@
 {
   "fraction": "Dark Mechanicus",
   "army": "Traitor Titan Legion",
-  "version": "0.7.0",
-  "release": "2020-02-03",
+  "version": "0.8.0",
+  "release": "2020-06-16",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
   "Initiative": "All Battle Titan and Chaos Warhound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
       "Summoning",
       "TTL Summoning Rules",
-      "Daemonic Focus",
       "Fickle Masters",
       "TTL Eternal Animosity"
     ],
@@ -22,7 +21,6 @@
         "units": [
           "Eye of the Gods",
           "Daemonic Herald",
-          "Daemonic Locus",
 
           "Vicebringer Titan",
           "Gloombringer Titan",
@@ -112,17 +110,18 @@
       "formations": [
         {
           "name": "0-1 Chaos Emperor Titan",
-          "units": "Daemonic Locus, one Chaos Emperor Titan*",
+          "units": "Daemonic Pact, one Chaos Emperor Titan*",
           "extraUnits": [
-              "Eye of the Gods"
+              "Eye of the Gods",
+              "Daemonic Herald"
 
           ],
-          "points": 925,
+          "points": 950,
           "notes": "* Choose one: Vicebringer Titan of Slaanesh, Gloombringer Titan of Nurgle, Strifebringer Titan of Khorne, or Changebringer Titan of Tzeentch"
       },
         {
           "name": "Chaos Warlord Titan",
-          "units": "Daemonic Locus, one Chaos Warlord Titan*",
+          "units": "Daemonic Pact, one Chaos Warlord Titan*",
           "extraUnits": [
             "Eye of the Gods",
             "Daemonic Herald"
@@ -132,7 +131,7 @@
       },
         {
           "name": "Chaos Reaver Titan",
-          "units": "Daemonic Locus, one Chaos Reaver Titan*",
+          "units": "Daemonic Pact, one Chaos Reaver Titan*",
           "extraUnits": [
           "Daemonic Herald"
           ],
@@ -142,39 +141,40 @@
     ]
 },
     {
-      "name": "Scout Titan Formations",
-      "description": "Up to three for each Battle Titan. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
+      "name": "Support Formations",
+      "description": "Up to four for each Battle Titan. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
           "name": "Chaos Warhound",
-          "units": "Daemonic Locus, one Chaos Warhound*",
+          "units": "One Chaos Warhound*",
           "extraUnits": [
+              "Add one Chaos Warhound of the same type: 225 points"
           ],
-          "points": 300,
+          "points": 275,
           "notes": "* Choose one: Plaguehound of Nurgle, Bloodhound of Khorne, Warphound of Tzeentch, or Chaos Warhound of Chaos Undivided"
       },
       {
         "name": "Slaanesh Scout Titan",
-        "units": "Daemonic Locus, one Slaanesh Scout Titan*",
+        "units": "One Slaanesh Scout Titan*",
         "extraUnits": [
         ],
-        "points": 300,
+        "points": 275,
         "notes": "* Choose one: Subjugator of Slaanesh or Questor of Slaanesh"
+    },
+    {
+      "name": "Chaos Knight",
+      "units": "Daemonic Pact, two Chaos Knights*",
+    "extraUnits": [
+    ],
+    "points": 275,
+    "notes": "* Choose one: 2 Hell-Scourges of Slaanesh, 2 Hell-Knights of Slaanesh, 2 Knight-Desecrators of Nurgle, 2 Knight-Rampagers of Khorne, 2 Knight-Despoilers of Tzeentch, or 2 Knight-Renegades of Chaos Undivided"
       }
     ]
   },
-  {
-    "name": "Daemon Engine Formations",
-    "description": "Up to three for each Battle Titan. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
-    "formations": [
         {
-          "name": "Chaos Knight",
-          "units": "Daemonic Locus, one Chaos Knight*",
-        "extraUnits": [
-        ],
-        "points": 175,
-        "notes": "* Choose one: Hell-Scourge of Slaanesh, Hell-Knight of Slaanesh, Knight-Desecrator of Nurgle, Knight-Rampager of Khorne, Knight-Despoiler of Tzeentch, or Knight-Renegade of Chaos Undivided"
-          },
+      "name": "Hell-Forge and Chaos Navy Allies",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
           {
             "name": "Defiler Pack",
             "units": "Four Slaughterfiends of Khorne",
@@ -182,13 +182,8 @@
                 "Replace four Slaughterfiends with four Debasers of Slaanesh, four Desecrators of Nurgle, or four Defilers of Chaos Undivided: 25 points",
                 "Replace four Slaughterfiends with four Decievers of Tzeentch: 50 points"
             ],
-            "points": 200        }
-    ]
-  },
-        {
-      "name": "Hell-Forge and Chaos Navy Allies",
-      "description": "Up to a third of the points available may be spent on these formations",
-      "formations": [
+            "points": 200
+        },
       {
         "name": "Hell-Forge Maniple",
         "units": "One Hellwright, eleven Chaos Squats",
@@ -229,7 +224,7 @@
     "formations": [
         {
           "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points. Add one Lesser Daemon pool point for each Daemonic Pact. Then add two extra points for each Eye of the Gods, and one extra for each Daemonic Herald character upgrade.",
+          "units": "Any amount of Lesser Daemon Pool points. Add one Lesser Daemon pool point for each Daemonic Pact.",
           "points": 15
       }
     ]
@@ -241,12 +236,12 @@
     "items": [
       {
         "name": "0-1 Eye of the Gods",
-        "description": "Replace the Daemonic Locus with a Eye of the Gods character.",
-        "points": "75 points"
+        "description": "Adds an Eye of the Gods character to the formation.",
+        "points": "50 points"
     },
     {
       "name": "Daemonic Herald",
-      "description": "Replace the Daemonic Locus with a Daemonic Herald character. May not be combined with Eye of the Gods.",
+      "description": "Adds an Daemonic Herald character to the formation. May not be combined with Eye of the Gods.",
       "points": "25 points"
     }
     ]

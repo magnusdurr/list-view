@@ -2,12 +2,15 @@
   "fraction": "Dark Mechanicus",
   "army": "Questor Traitoris",
   "version": "0.6.0",
-  "release": "2020-01-27",
+  "release": "2020-06-16",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
   "Initiative": "The Kaban Machine and the Chaos Warbringer formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
-      "QT Eternal Animosity"
+        "Summoning",
+        "QT Summoning Rules",
+        "Fickle Masters",
+        "QT Eternal Animosity"
 
     ],
   "usage": [
@@ -102,62 +105,56 @@
         ]
     },
     {
-      "name": "Daemonic Lance Formations",
-      "description": "Up to two for each Hell-Forge Core formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
+      "name": "Daemonic Banner Formations",
+      "description": "Up to three for each Hell-Forge Core formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
           "name": "Hell-Knights of Slaanesh",
-          "units": "Two Hell-Knights",
+          "units": "Daemonic Pact, two Hell-Knights",
           "extraUnits": [
-              "Add one Hell-Knight: 100 points"
           ],
-          "points": 250
+          "points": 275
         },
         {
           "name": "Hell-Scourges of Slaanesh",
-          "units": "Two Hell-Scourges",
+          "units": "Daemonic Pact, two Hell-Scourges",
           "extraUnits": [
-              "Add one Hell-Scourge: 100 points"
           ],
-          "points": 250
+          "points": 275
       },
         {
           "name": "Knight-Despoilers of Tzeentch",
-          "units": "Two Knight-Despoilers",
+          "units": "Daemonic Pact, two Knight-Despoilers",
           "extraUnits": [
-              "Add one Knight-Despoiler: 100 points"
           ],
-          "points": 250
+          "points": 275
       },
         {
           "name": "Knight-Desecrators of Nurgle",
-          "units": "Two Knight-Desecrators",
+          "units": "Daemonic Pact, two Knight-Desecrators",
           "extraUnits": [
-          "Add one Knight-Desecrator: 100 points"
           ],
-          "points": 250
+          "points": 275
       },
         {
           "name": "Knight-Rampagers of Khorne",
-          "units": "Two Knight-Rampagers",
+          "units": "Daemonic Pact, two Knight-Rampagers",
           "extraUnits": [
-            "Add one Knight-Rampager: 100 points"
           ],
-      "points": 250
+      "points": 275
       },
       {
         "name": "Knight-Renegades of Chaos Undivided",
-        "units": "Two Knight-Renegades",
+        "units": "Daemonic Pact, two Knight-Renegades",
         "extraUnits": [
-            "Add one Knight-Renegade: 100 points"
         ],
-        "points": 250
+        "points": 275
     }
     ]
 },
     {
       "name": "Daemonic Packs",
-      "description": "Up to one for each Daemonic Lance formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
+      "description": "Up to one for each Daemonic Banner formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
           {
             "name": "Hell-Striders of Slaanesh",
@@ -245,7 +242,18 @@
           "points": 200
         }
       ]
-  }
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points. Add one Lesser Daemon pool point for each Daemonic Pact.",
+          "points": 15
+      }
+    ]
+}
   ],
   "upgrades": {
     "title": "Questor Traitoris Upgrades",
