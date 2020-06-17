@@ -4,11 +4,12 @@
   "version": "0.6.0",
   "release": "2020-06-16",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "The Kaban Machine and the Chaos Warbringer formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "The Kaban Machine and the Chaos Warbringer have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
         "Summoning",
         "QT Summoning Rules",
+        "Daemonic Focus",
         "Fickle Masters",
         "QT Eternal Animosity"
 
@@ -23,13 +24,11 @@
             "Hell-Strider",
             "Hell-Knight",
             "Hell-Scourge",
-            "Desecrator",
             "Knight-Desecrator",
-            "Slaughterfiend",
             "Knight-Rampager",
-            "Deciever",
             "Knight-Despoiler",
             "Knight-Renegade",
+            "Knight-Tyrant",
             "Knight-Doomglaive",
             "Knight-Perfidor",
             "Arch-Heretek",
@@ -51,9 +50,7 @@
         "Void Shields",
           "Shield Piercer",
           "Shield Disruptor",
-          "Lance",
-          "Machine Spirit",
-          "Ponderous"
+          "Lance"
         ]
     },
     {
@@ -81,7 +78,6 @@
   "sections": [
         {
           "name": "Hell-Forge Core formations",
-      "description": "Up to one Chrono-Gladiator formation for each Hell-Forge Maniple",
           "formations": [
               {
                 "name": "Hell-Forge Maniple",
@@ -94,14 +90,8 @@
 
                   ],
               "points": 225
-          },
-          {
-            "name": "Chrono-Gladiators",
-            "units": "Six Chrono-Gladiators",
-          "extraUnits": [
-              ],
-          "points": 200
-            }
+          }
+
         ]
     },
     {
@@ -112,6 +102,7 @@
           "name": "Hell-Knights of Slaanesh",
           "units": "Daemonic Pact, two Hell-Knights",
           "extraUnits": [
+              "Add an additional Hell-Knight: 100 points"
           ],
           "points": 275
         },
@@ -119,13 +110,23 @@
           "name": "Hell-Scourges of Slaanesh",
           "units": "Daemonic Pact, two Hell-Scourges",
           "extraUnits": [
+              "Add an additional Hell-Knight: 100 points"
           ],
           "points": 275
       },
+      {
+        "name": "Hell-Striders of Slaanesh",
+        "units": "Daemonic Pact, four Hell-Striders",
+      "extraUnits": [
+          "Add an additional Hell-Strider: 50 points"
+      ],
+      "points": 250
+        },
         {
           "name": "Knight-Despoilers of Tzeentch",
           "units": "Daemonic Pact, two Knight-Despoilers",
           "extraUnits": [
+              "Daemonic Locus"
           ],
           "points": 275
       },
@@ -133,6 +134,7 @@
           "name": "Knight-Desecrators of Nurgle",
           "units": "Daemonic Pact, two Knight-Desecrators",
           "extraUnits": [
+              "Daemonic Locus"
           ],
           "points": 275
       },
@@ -140,6 +142,7 @@
           "name": "Knight-Rampagers of Khorne",
           "units": "Daemonic Pact, two Knight-Rampagers",
           "extraUnits": [
+              "Daemonic Locus"
           ],
       "points": 275
       },
@@ -147,75 +150,54 @@
         "name": "Knight-Renegades of Chaos Undivided",
         "units": "Daemonic Pact, two Knight-Renegades",
         "extraUnits": [
+            "Daemonic Locus"
         ],
         "points": 275
-    }
+    },
+    {
+      "name": "Knight-Tyrant of Chaos Undivided",
+      "units": "Daemonic Pact, one Knight-Tyrant",
+      "extraUnits": [
+          "Daemonic Locus"
+      ],
+      "points": 250
+  },
+        {
+        "name": "Armigers of Chaos Undivided",
+        "units": "Daemonic Pact, four Knight-Doomglaives or four Knight-Perfidors",
+        "extraUnits": [
+              "Add an additional Knight-Doomglaive or Knight-Perfidor (formation may not mix configurations): 50 points"
+        ],
+        "points": 250
+        }
     ]
 },
-    {
-      "name": "Daemonic Packs",
-      "description": "Up to one for each Daemonic Banner formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
-      "formations": [
-          {
-            "name": "Hell-Striders of Slaanesh",
-            "units": "Four Hell-Striders",
-          "extraUnits": [
-              "Add one Hell-Strider: 50 points"
-          ],
-          "points": 225
-            },
-          {
-            "name": "Nurgle Defiler Pack",
-            "units": "Four Desecrators",
-            "extraUnits": [
-                "Add one Desecrator: 50 points"
-            ],
-            "points": 225
-        },
-          {
-            "name": "Khorne Defiler Pack",
-            "units": "Four Slaughterfiends",
-            "extraUnits": [
-                "Add one Slaughterfiend: 50 points"
-            ],
-            "points": 200
-        },
-          {
-            "name": "Tzeentch Defiler Pack",
-            "units": "Four Decievers",
-            "extraUnits": [
-                "Add one Deciever: 50 points"
-            ],
-            "points": 250
-        },
-    {
-      "name": "Armigers of Chaos Undivided",
-      "units": "Four Knight-Doomglaives or four Knight-Perfidors",
-      "extraUnits": [
-  ],
-      "points": 225
-  }
-
-        ]
-      },
          {
       "name": "Ordinatus Support, Traitor Titan and Chaos Navy Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-              {
-            "name": "Ordinatus Hereticus",
-            "units": "Two Ordinatus Hereticus",
+          {
+            "name": "Chrono-Gladiators",
+            "units": "Six Chrono-Gladiators",
           "extraUnits": [
-              "Add one Ordinatus Hereticus: 125 points",
-              "Upgrade one Battle Weapon in the formation to a Support Weapon: 25 points"
               ],
-          "points": 325
+          "points": 200
       },
+          {
+        "name": "Ordinatus Hereticus",
+        "units": "Two Ordinatus Hereticus",
+      "extraUnits": [
+          "Add one Ordinatus Hereticus: 125 points",
+          "Upgrade one Battle Weapon in the formation to a Support Weapon: 25 points"
+          ],
+      "points": 325
+    },
               {
             "name": "0-1 Extremis Diabolus",
             "units": "One Ordinatus Retlaxi",
           "extraUnits": [
-              "Replace the Ordinatus Retlaxi with an Ordinatus Temporia (25 points), Ordinatus Cyclothrathe (50 points), or The Kaban Machine (125 points)"
+              "Upgrade the Ordinatus Retlaxi to an Ordinatus Temporia (25 points) or Ordinatus Cyclothrathe (50 points)",
+              "Supreme Commander"
               ],
           "points": 425
       },
@@ -260,10 +242,15 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "0-1 Arch-Heretek",
-        "description": "Add an Arch-Heretek to a Hellwright unit",
+        "name": "0-1 Supreme Commander",
+        "description": "Add an Arch-Heretek to a Hellwright unit, or replace an Ordinatus Cyclothrathe with The Kaban Machine.",
         "points": "100 points"
     },
+    {
+      "name": "Daemonic Locus",
+      "description": "Add a Daemonic Locus character to a unit in the formation",
+      "points": "50 points"
+  },
     {
       "name": "Hell-Forge Transport",
       "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle is completely empty, and no unit lacks transport.",

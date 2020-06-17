@@ -93,6 +93,17 @@
           ]
         },
         {
+          "name": "Daemonic Locus",
+          "type": "CH",
+          "weapons": [
+            "n/a"
+          ],
+          "specialRules": [
+            "Leader",
+            "Daemonic Focus"
+          ]
+        },
+        {
           "name": "Hellwright",
           "type": "INF",
           "speed": 15,
@@ -399,6 +410,7 @@
               "specialRules": [
                   "Damage Capacity 4",
                   "Void Shields 4",
+                  "Supreme Commander",
                   "Reinforced Armour",
                   "Fearless",
                   "Thick Rear Armour"
@@ -448,7 +460,7 @@
           "speed": 15,
           "armour": 4,
           "cc": 5,
-          "ff": 4,
+          "ff": 5,
           "weapons": [
             "Twin Hades Autocannons"
           ],
@@ -514,6 +526,45 @@
               "Daemon Engine (Chaos Undivided)"
           ]
             },
+            {
+                "name": "Knight-Doomglaive",
+                "type": "AV",
+                "speed": 30,
+                "armour": 5,
+                "cc": 4,
+                "ff": 5,
+                "weapons": [
+                  "Heavy Stubber",
+                  "Multi-Melta",
+                  "Reaper Chain-Cleaver"
+                ],
+                "specialRules": [
+                  "Walker",
+                  "Scout",
+                  "Fearless",
+                  "Invulnerable Save",
+                  "Daemon Engine (Chaos Undivided)"
+                ]
+            },
+            {
+                "name": "Knight-Perfidor",
+                "type": "AV",
+                "speed": 30,
+                "armour": 5,
+                "cc": 4,
+                "ff": 5,
+                "weapons": [
+                  "Twin Reaper Autocannons",
+                  "Heavy Stubber"
+                ],
+                "specialRules": [
+                  "Walker",
+                  "Scout",
+                  "Fearless",
+                  "Invulnerable Save",
+                  "Daemon Engine (Chaos Undivided)"
+                ]
+            },
         {
           "name": "Knight-Renegade",
           "type": "WE",
@@ -538,42 +589,63 @@
               "crit": "The Knight-Renegade is destroyed."
         },
         {
-            "name": "Knight-Doomglaive",
-            "type": "AV",
-            "speed": 30,
-            "armour": 5,
-            "cc": 5,
-            "ff": 5,
-            "weapons": [
-              "Multi-Melta",
-              "Reaper Chain-Cleaver"
-            ],
-            "specialRules": [
-              "Walker",
-              "Scout",
-              "Fearless",
-              "Invulnerable Save",
-              "Daemon Engine (Chaos Undivided)"
-            ]
+          "name": "Knight-Tyrant",
+          "type": "WE",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": [
+              "Lightning Cannon",
+              "Pulsar-Fusil",
+              "Twin Siegebreaker Cannon|2|FwA",
+              "Hyperwave Clarion"
+          ],
+          "specialRules": [
+              "Damage Capacity: 2",
+            "Fearless",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Walker",
+            "Invulnerable Save",
+            "Daemon Engine (Chaos Undivided)"
+          ],
+              "crit": "The Knight-Tyrant is destroyed."
         },
         {
-            "name": "Knight-Perfidor",
-            "type": "AV",
-            "speed": 30,
-            "armour": 5,
-            "cc": 5,
-            "ff": 5,
-            "weapons": [
-              "Reaper Autocannon|2|"
-            ],
-            "specialRules": [
-              "Walker",
-              "Scout",
-              "Fearless",
-              "Invulnerable Save",
-              "Daemon Engine (Chaos Undivided)"
-            ]
-        },
+              "name": "Knight-Dreadblade",
+              "type": "WE",
+              "speed": 25,
+              "armour": 5,
+              "cc": 3,
+              "ff": 4,
+              "weapons": [
+                "Twin Reaper Autocannons||FwA",
+                "Renegade Chainsword",
+                ">Incarnate Slaughter<",
+                "Hyperwave Clarion",
+                "Thunderstrike Gauntlet",
+                ">Gilded King<",
+                "Rapid Fire Battle Cannon||FwA",
+                "Ironstorm Missile Pod||FwA",
+                ">Hatred of Krastellan<",
+                "Heavy Neutron Laser",
+                ">Litany of Destruction<",
+                "Laser Destructor||FwA",
+                "Stormspear Rocket Pod||FwA"
+              ],
+              "specialRules": [
+                  "Damage Capacity: 2",
+                "Fearless",
+                "Reinforced Armour",
+                "Thick Rear Armour",
+                "Walker",
+                "Invulnerable Save",
+                "Daemonic Focus",
+                "Daemon Engine (Chaos Undivided)"
+              ],
+                      "crit": "The Knight-Dreadblade is destroyed."
+          },
         {
           "name": "Warp Altar",
           "type": "WE",
@@ -987,7 +1059,7 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Hyperwave Clarion",
+            "Stormspear Rocket Pod",
             "Doomgauntlet",
             "Renegade Chainsword"
           ],

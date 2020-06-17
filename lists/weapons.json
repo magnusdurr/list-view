@@ -128,6 +128,34 @@
         ]
       },
       {
+        "name": ">Incarnate Slaughter<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Gilded King<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Hatred of Krastellan<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
+        "name": ">Litany of Destruction<",
+          "modes": [
+            {
+            }
+        ]
+      },
+      {
         "name": ">Ordinatus Armageddon<",
           "modes": [
             {
@@ -4560,7 +4588,7 @@
       "name": "Twin Hades Autocannons",
         "modes": [
           {
-            "firepower": "4x AP5+/AT6+/AA6+",
+            "firepower": "3x AP4+/AT5+/AA6+",
             "range": 45,
             "specialRules": [
           ]
@@ -7037,6 +7065,19 @@
       ]
     },
     {
+      "name": "Heavy Neutron Laser",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 90,
+          "specialRules": [
+            "Lance",
+            "D"
+        ]
+        }
+      ]
+    },
+    {
       "name": "Heavy Neutron Laser Array",
       "modes": [
         {
@@ -7950,7 +7991,7 @@
         "modes": [
           {
             "firepower": "2x AT3+/AT5+",
-              "range": 45,
+              "range": 60,
             "specialRules": [
                 "Lance"
           ]

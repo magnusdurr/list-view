@@ -49,7 +49,7 @@
             "Defiler",
             "Death Wheel",
             "Forgefiend",
-            "Shrine of Chaos"
+            "Knight-Dreadblade"
             ],
         "unitRules": [
           "Daemon Engine (x)"
@@ -201,7 +201,7 @@
             "extraUnits": [
             ],
             "points": 225
-          }
+        }
             ]
           },
         {
@@ -209,19 +209,19 @@
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
+            "name": "0-1 Dreadblade",
+            "units": "Daemonic Pact, one Knight-Dreadblade of any configuration",
+            "extraUnits": [
+            ],
+            "points": 250
+        },
+          {
             "name": "Death Wheel",
             "units": "One Death Wheel",
             "extraUnits": [
             ],
             "points": 300
         },
-        {
-          "name": "Shrine of Chaos",
-          "units": "One Shrine of Chaos",
-          "extraUnits": [
-          ],
-          "points": 300
-      },
           {
           "name": "Heldrakes",
           "units": "Two Heldrakes",

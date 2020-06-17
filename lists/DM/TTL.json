@@ -7,9 +7,6 @@
   "Initiative": "All Battle Titan and Chaos Warhound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
-      "Summoning",
-      "TTL Summoning Rules",
-      "Fickle Masters",
       "TTL Eternal Animosity"
     ],
   "usage": [
@@ -52,44 +49,24 @@
     {
         "from": "darkmechanicus.json",
         "units": [
+            "Cerberite",
+            "Maulerfiend",
+            "Forgefiend",
             "Questor",
             "Subjugator",
             "Debaser",
-            "Hell-Knight",
-            "Hell-Scourge",
             "Desecrator",
-            "Knight-Desecrator",
             "Slaughterfiend",
-            "Knight-Rampager",
             "Deciever",
-            "Knight-Despoiler",
-            "Knight-Renegade",
             "Defiler",
             "Hellwright",
             "Chaos Squats",
             "Chaos Rhino"
         ],
         "unitRules": [
-          "Daemon Engine (x)",
-          "Heavy Armoured Vehicle (H-AV)"
+          "Daemon Engine (x)"
    ]
     },
-    {
-      "from": "daemons.json",
-      "units": [
-        "Daemonettes of Slaanesh",
-        "Fiends of Slaanesh",
-        "Plaguebearers of Nurgle",
-        "Beasts of Nurgle",
-        "Bloodletters of Khorne",
-        "Fleshhounds of Khorne",
-        "Horrors of Tzeentch",
-        "Flamers of Tzeentch",
-        "Daemonic Beasts of Chaos Undivided"
-      ],
-      "unitRules": [
-    ]
-},
 {
   "from": "chaosnavy.json",
   "units": [
@@ -163,28 +140,42 @@
         "notes": "* Choose one: Subjugator of Slaanesh or Questor of Slaanesh"
     },
     {
-      "name": "Chaos Knight",
-      "units": "Daemonic Pact, two Chaos Knights*",
+      "name": "Cerberites of Chaos Undivided",
+      "units": "Three Cerberites",
     "extraUnits": [
     ],
-    "points": 275,
-    "notes": "* Choose one: 2 Hell-Scourges of Slaanesh, 2 Hell-Knights of Slaanesh, 2 Knight-Desecrators of Nurgle, 2 Knight-Rampagers of Khorne, 2 Knight-Despoilers of Tzeentch, or 2 Knight-Renegades of Chaos Undivided"
-      }
+    "points": 175
+      },
+      {
+        "name": "Maulerfiends of Chaos Undivided",
+        "units": "Four Maulerfiends",
+        "extraUnits": [
+        ],
+        "points": 200
+      },
+      {
+        "name": "Forgefiends of Chaos Undivided",
+        "units": "Three Forgefiends",
+        "upgrades": [
+        ],
+        "points": 225
+    },
+      {
+        "name": "Defiler Pack",
+        "units": "Four Slaughterfiends of Khorne",
+        "extraUnits": [
+            "Replace four Slaughterfiends with four Debasers of Slaanesh, four Desecrators of Nurgle, or four Defilers of Chaos Undivided: 25 points",
+            "Replace four Slaughterfiends with four Decievers of Tzeentch: 50 points"
+        ],
+        "points": 200
+    }
+
     ]
   },
         {
       "name": "Hell-Forge and Chaos Navy Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Defiler Pack",
-            "units": "Four Slaughterfiends of Khorne",
-            "extraUnits": [
-                "Replace four Slaughterfiends with four Debasers of Slaanesh, four Desecrators of Nurgle, or four Defilers of Chaos Undivided: 25 points",
-                "Replace four Slaughterfiends with four Decievers of Tzeentch: 50 points"
-            ],
-            "points": 200
-        },
       {
         "name": "Hell-Forge Maniple",
         "units": "One Hellwright, eleven Chaos Squats",
@@ -218,18 +209,7 @@
           "points": 200
         }
       ]
-  },
-  {
-    "name": "Daemon Pool",
-    "description": "Any amount may be spent on Daemon Pool points",
-    "formations": [
-        {
-          "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool points. Add one Lesser Daemon pool point for each Daemonic Pact.",
-          "points": 15
-      }
-    ]
-}
+  }
   ],
   "upgrades": {
     "title": "Traitor Titan Legion Upgrades",
