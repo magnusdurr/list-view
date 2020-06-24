@@ -12,6 +12,7 @@
       "Alpha Legion Transports",
       "Summoning",
       "Alpha Legion Summoning Rules",
+      "Augment Summoning (+x)",
       "Fickle Masters",
       "Alpha Legion Dreadclaws"
   ],
@@ -32,6 +33,7 @@
           "Alpha Legion Dreadnought",
           "Alpha Legion Rhino",
           "Alpha Legion Vindicator",
+          "Alpha Legion Predator",
           "Alpha Legion Land Raider",
           "Alpha Legion Sicarian Battle Tank"
       ],
@@ -104,7 +106,8 @@
               "Add up to two Alpha Legion Land Raiders: 50 points each",
             "Supreme Commander",
               "Dreadnoughts",
-              "Vindicators"
+              "Vindicators",
+              "Predators"
 
           ],
           "points": 200
@@ -172,6 +175,7 @@
             "name": "Destroyers",
             "units": "Four Alpha Legion Destroyers",
             "extraUnits": [
+                "Predators"
             ],
             "points": 200
           },
@@ -197,6 +201,7 @@
           "name": "Sicarians",
           "units": "Four Alpha Legion Sicarian Battle Tanks",
           "extraUnits": [
+            "Vindicators"
           ],
           "points": 300
         }
@@ -281,6 +286,15 @@
         }
       ]
       },
+      {
+    "name": "Predators",
+    "options": [
+      {
+        "description": "Add up to two Alpha Legion Predators",
+        "points": "50 points each"
+      }
+    ]
+    },
           {
         "name": "Dreadnoughts",
         "options": [
