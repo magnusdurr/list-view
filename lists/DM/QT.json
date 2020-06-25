@@ -4,7 +4,7 @@
   "version": "0.6.0",
   "release": "2020-06-16",
   "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "The Kaban Machine and the Chaos Warbringer have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "The Chaos Warbringer formation has an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
     [
         "Summoning",
@@ -54,6 +54,18 @@
         ]
     },
     {
+      "from": "daemons.json",
+      "units": [
+        "Daemonettes of Slaanesh",
+        "Plaguebearers of Nurgle",
+        "Bloodletters of Khorne",
+        "Horrors of Tzeentch",
+        "Daemonic Beasts of Chaos Undivided"
+      ],
+      "unitRules": [
+    ]
+  },
+    {
       "from": "traitortitanlegions.json",
       "units": [
         "Chaos Warbringer"
@@ -86,6 +98,7 @@
                   "Replace four Chaos Squats with four Phospexors: 25 points",
                   "Add two Krios Lightning, two Krios Venators, or one Ordinatus Hereticus: 125 points",
                   "Arch-Heretek",
+                  "The Kaban Machine",
                   "Hell-Forge Transport"
 
                   ],
@@ -126,7 +139,7 @@
           "name": "Knight-Despoilers of Tzeentch",
           "units": "Daemonic Pact, two Knight-Despoilers",
           "extraUnits": [
-              "Daemonic Locus"
+              "Daemonic Focus"
           ],
           "points": 275
       },
@@ -134,7 +147,7 @@
           "name": "Knight-Desecrators of Nurgle",
           "units": "Daemonic Pact, two Knight-Desecrators",
           "extraUnits": [
-              "Daemonic Locus"
+              "Daemonic Focus"
           ],
           "points": 275
       },
@@ -142,7 +155,7 @@
           "name": "Knight-Rampagers of Khorne",
           "units": "Daemonic Pact, two Knight-Rampagers",
           "extraUnits": [
-              "Daemonic Locus"
+              "Daemonic Focus"
           ],
       "points": 275
       },
@@ -150,7 +163,7 @@
         "name": "Knight-Renegades of Chaos Undivided",
         "units": "Daemonic Pact, two Knight-Renegades",
         "extraUnits": [
-            "Daemonic Locus"
+            "Daemonic Focus"
         ],
         "points": 275
     },
@@ -158,7 +171,7 @@
       "name": "Knight-Tyrant of Chaos Undivided",
       "units": "Daemonic Pact, one Knight-Tyrant",
       "extraUnits": [
-          "Daemonic Locus"
+          "Daemonic Focus"
       ],
       "points": 250
   },
@@ -187,13 +200,13 @@
         "name": "Ordinatus Hereticus",
         "units": "Two Ordinatus Hereticus",
       "extraUnits": [
-          "Add one Ordinatus Hereticus: 125 points",
-          "Upgrade one Battle Weapon in the formation to a Support Weapon: 25 points"
+          "Upgrade one Battle Weapon in the formation to a Support Weapon: 25 points",
+                  "The Kaban Machine"
           ],
       "points": 325
     },
               {
-            "name": "0-1 Extremis Diabolus",
+            "name": "0-1 Ordinatus Hereticus Majoris",
             "units": "One Ordinatus Retlaxi",
           "extraUnits": [
               "Upgrade the Ordinatus Retlaxi to an Ordinatus Temporia (25 points) or Ordinatus Cyclothrathe (50 points)",
@@ -243,12 +256,17 @@
     "items": [
       {
         "name": "0-1 Supreme Commander",
-        "description": "Add an Arch-Heretek to a Hellwright unit, or replace an Ordinatus Cyclothrathe with The Kaban Machine.",
+        "description": "Add an Arch-Heretek to a Hellwright unit or an Ordinatus Hereticus Majoris",
         "points": "100 points"
     },
     {
-      "name": "Daemonic Locus",
-      "description": "Add a Daemonic Locus character to a unit in the formation",
+      "name": "0-1 The Kaban Machine",
+      "description": "Add the Kaban Machine to the formation",
+      "points": "200 points"
+  },
+    {
+      "name": "Daemonic Focus",
+      "description": "The formation gains the Daemonic Focus special rule",
       "points": "50 points"
   },
     {

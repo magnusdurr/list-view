@@ -1270,24 +1270,35 @@
         "modes": [
           {
             "firepower": "MW2+",
-              "range": 90,
+              "range": 60,
             "specialRules": [
-                "TK(D3)",
+                "TK(1)",
                 "Shield Disruptor"
           ]
           }
       ]
     },
     {
-      "name": "Kaban Laser Destroyer",
+      "name": "Kaban Disruptor",
         "modes": [
           {
-            "firepower": "3x AT2+",
-              "range": 90,
+            "firepower": "4x AP5+/AT6+",
+              "range": 45,
             "specialRules": [
-                "Lance"
+                "D"
           ]
           }
+      ]
+    },
+    {
+      "name": "Kaban Guntails",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+2)"
+          ]
+        }
       ]
     },
     {
@@ -6103,6 +6114,15 @@
 
           ]
         }
+      ]
+    },
+    {
+      "name": "Lastails",
+      "modes": [
+          {
+            "firepower": "AT2+",
+            "range": 45
+          }
       ]
     },
     {

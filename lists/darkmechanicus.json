@@ -409,22 +409,21 @@
             {
               "name": "The Kaban Machine",
               "type": "WE",
-              "speed": 15,
+              "speed": 25,
               "armour": 4,
               "cc": 5,
-              "ff": 5,
+              "ff": 4,
               "weapons": [
-                "Kaban Laser Destroyer||FwA",
+                "Kaban Disruptor||FwA",
                 "Kaban Conversion Beamer||FwA",
-                "Guntail|4|"
+                "Kaban Guntails"
               ],
               "specialRules": [
-                  "Damage Capacity 4",
-                  "Void Shields 4",
-                  "Supreme Commander",
+                  "Damage Capacity 2",
+                  "Void Shields 2",
+                  "Leader",
                   "Reinforced Armour",
-                  "Fearless",
-                  "Thick Rear Armour"
+                  "Fearless"
                             ],
               "crit": "The Kaban Machine is destroyed. All units within 5cm takes a hit."
               },
