@@ -8244,16 +8244,17 @@
       "modes": [
         {
           "firepower": "6BP",
-          "range": 90,
+          "range": 60,
           "specialRules": [
           ]
         },
         {
           "firepower": "3BP",
-          "range": 90,
+          "range": 60,
           "join": "or",
           "specialRules": [
-            "MW"
+            "D",
+            "IC"
           ]
         }
       ]
@@ -8262,7 +8263,7 @@
       "name": "Pulse Submunition Cannons",
         "modes": [
           {
-            "firepower": "3x AP4+/AT4+",
+            "firepower": "4x AP4+/AT4+",
             "range": 45
           }
       ]
