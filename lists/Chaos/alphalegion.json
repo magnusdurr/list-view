@@ -48,10 +48,8 @@
           "Aspiring Champion",
           "Daemonic Icon",
           "Cultists",
-          "Mutants",
-          "Big Mutants",
-          "Chaos Hounds",
           "Chaos Spawn",
+          "Chaos Hounds",
           "Land Transporter"
       ],
         "unitRules": [
@@ -63,7 +61,7 @@
           "Salamander Scout Tank",
           "Griffon",
           "Hydra",
-          "Hellhound"
+          "Rough Riders"
       ],
         "unitRules": [
           ]
@@ -114,57 +112,20 @@
       },
       {
         "name": "Cultist Coven",
-        "units": "One Aspiring Champion, seven Chaos Cultists, four Land Transporters",
+        "units": "One Aspiring Champion, nine Chaos Cultists and/or Mutants",
         "extraUnits": [
           "Add a Daemonic Icon to the Aspiring Champion: 25 points",
-          "Replace up to four Land Transporters with Chimeras: 15 points each",
+          "Add enough Land Transporters to transport the formation: 10 points each",
+          "Replace any number of Land Transporters with Chimeras: 15 points each",
           "Add up to three Chaos Hounds: 10 points each",
-          "Add up to two Hellhounds: 25 points each",
-          "Add up to one Hydra: 50 points",
+          "Add one Chaos Spawn: 35 points",
+          "Add one Hydra: 50 points",
           "Supreme Commander"
         ],
-        "points": 225
+        "points": 200
     }
 
       ]
-    },
-    {
-      "name": "Cultist Support Formations",
-      "description": "Up to two Cultist Support Formations per Cultist Coven",
-      "formations": [
-          {
-            "name": "Mutant Coven",
-            "units": "Daemonic Icon, six Mutants",
-            "extraUnits": [
-                "Add one Chaos Spawn to the formation: 35 points",
-                "Add up to four Mutants: 10 points each",
-                "Replace up to three Mutants with Big Mutants: 15 points each"
-                ],
-                "points": 150
-            },
-          {
-            "name": "Salamander Squadron",
-            "units": "Four Salamander Scout Tanks",
-            "extraUnits": [
-                ],
-                "points": 150
-            },
-            {
-              "name": "Flak Battery",
-              "units": "Three Hydras",
-              "extraUnits": [
-                  ],
-                  "points": 150
-              },
-          {
-            "name": "Griffon Battery",
-            "units": "Four Griffons",
-            "extraUnits": [
-            ],
-            "points": 200
-        }
-
-        ]
     },
     {
       "name": "Alpha Legion Elite Detachments",
@@ -173,8 +134,9 @@
 
           {
             "name": "Destroyers",
-            "units": "Four Alpha Legion Destroyers",
+            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Destroyers",
             "extraUnits": [
+            "Supreme Commander",
                 "Predators"
             ],
             "points": 200
@@ -207,6 +169,42 @@
         }
 
       ]
+    },
+    {
+      "name": "Cultist Support Formations",
+      "description": "Up to two Cultist Support Formations per Cultist Coven",
+      "formations": [
+          {
+            "name": "Rough Rider Platoon",
+            "units": "Six Rough Riders",
+            "extraUnits": [
+              "Add a Daemonic Icon: 75 points"
+            ],
+            "points": 150
+          },
+          {
+            "name": "Salamander Squadron",
+            "units": "Four Salamander Scout Tanks",
+            "extraUnits": [
+                ],
+                "points": 150
+            },
+            {
+              "name": "Flak Battery",
+              "units": "Three Hydras",
+              "extraUnits": [
+                  ],
+                  "points": 150
+              },
+          {
+            "name": "Griffon Battery",
+            "units": "Four Griffons",
+            "extraUnits": [
+            ],
+            "points": 200
+        }
+
+        ]
     },
    {
     "name": "Alpha Legion Navy",
