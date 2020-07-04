@@ -58,10 +58,11 @@
     {
     "from": "chaoscultists.json",
     "units": [
-        "Aspiring Champion",
+        "Demagogue",
         "Cultists",
         "Mutants",
         "Chaos Spawn",
+        "Chaos Hounds",
         "Land Transporter"
     ],
     "unitRules": [
@@ -118,13 +119,14 @@
       },
       {
         "name": "Cultist Coven",
-        "units": "One Aspiring Champion, nine Chaos Cultists and/or Mutants, Daemonic Pact",
+        "units": "One Demagogue, nine Cultists and/or Mutants, Daemonic Pact",
         "extraUnits": [
             "Icon Bearer",
             "Add one Chaos Spawn: 35 points",
+            "Add up to three Chaos Hounds: 10 points each",
             "Add enought Land Transporters to carry the entire formation with no space left over: 10 points each"
         ],
-        "points": 225
+        "points": 250
       }
       ]
     },

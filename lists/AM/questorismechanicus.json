@@ -1,10 +1,10 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Questoris Mechanicus",
-  "version": "0.8.1",
-  "release": "2020-06-05",
+  "version": "0.8.2",
+  "release": "2020-07-04",
   "strategy": "Questoris Mechanicus armies have a Strategy Rating of 3.",
-  "Initiative": "All formations have an Initiative Rating of 2+. All Knight formations are subject to the 'Bravery' special rule",
+  "Initiative": "All formations have an Initiative Rating of 2+. In addition, all Knight Banner formations are subject to the 'Bravery' special rule.",
 
   "specialRules": [
           "Bravery",
@@ -80,12 +80,12 @@
       "formations": [
         {
           "name": "Questoris",
-          "units": "Two Questoris Knights (may not mix configurations)",
+          "units": "One Seneschal, two Questoris Knights (may not mix configurations)",
           "extraUnits": [
-        "Seneschal",
+                  "Ionic Flare Shield",
                   "Baron"
           ],
-          "points": 250
+          "points": 275
         }
       ]
   },
@@ -97,18 +97,19 @@
         "name": "Dominus",
         "units": "One Seneschal, one Dominus Knight",
         "extraUnits": [
+            "Ionic Flare Shield",
             "Baron"
         ],
         "points": 225
     },
     {
       "name": "Cerastus",
-      "units": "Two Cerastus Knights (may not mix configurations)",
+      "units": "One Seneschal, two Cerastus Knights (may not mix configurations)",
       "extraUnits": [
-        "Seneschal",
+                    "Ionic Flare Shield",
                   "Baron"
       ],
-      "points": 275
+      "points": 300
   }
     ]
 },
@@ -121,7 +122,8 @@
       "units": "Three Knight-Warglaives or three Knight-Helverins",
       "extraUnits": [
           "Add one Armiger Knight of the same configuration: 50 points",
-          "Add one Knight-Preceptor with a Seneschal: 175 points"
+          "Add one Knight-Preceptor with a Seneschal: 175 points",
+                  "Ionic Flare Shield"
       ],
       "points": 175
     }
@@ -216,10 +218,10 @@
           ]
         },
         {
-          "name": "Seneschal",
+          "name": "Ionic Flare Shield",
           "options": [
             {
-              "description": "Add one Seneschal to the formation",
+              "description": "The Seneschal's / Baron's Knight gains the 'Ionic Flare Shield' special rule.",
               "points": "25 points"
           }
       ]

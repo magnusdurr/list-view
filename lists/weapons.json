@@ -5222,10 +5222,9 @@
       "name": "Hekaton Siege Claw",
         "modes": [
           {
-            "firepower": "Assault Weapons",
+            "firepower": "Assault Weapon",
             "specialRules": [
-                "EA(+1)",
-                "TK(D3)"
+                "TK(1)"
           ]
         }
       ]
@@ -8994,7 +8993,7 @@
         "modes": [
           {
             "firepower": "AT3+",
-            "range": 75,
+            "range": 60,
             "specialRules": [
               "Shield Piercer",
               "SS"

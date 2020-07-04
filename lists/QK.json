@@ -209,10 +209,11 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Reaper Chainsword",
+              "Twin Icarus Autocannons",
+              "Heavy Stubber||FwA",
             "Thunderstrike Gauntlet",
-            "Heavy Stubber||FwA",
-            "Twin Icarus Autocannons"
+            "Reaper Chainsword"
+
           ],
           "specialRules": [
             "Damage Capacity: 2",
@@ -355,7 +356,7 @@
             "cc": 4,
             "ff": 3,
             "weapons": [
-              "Shieldbreaker Missiles|2|FwA",
+              "Shieldbreaker Missiles|2|FxF",
               "Volcano Lance||FwA",
               "Twin Siegebreaker Cannon|2|FwA",
               "Plasma Decimator||FwA"
@@ -378,7 +379,7 @@
             "cc": 4,
             "ff": 3,
             "weapons": [
-              "Shieldbreaker Missiles|4|FwA",
+              "Shieldbreaker Missiles|4|FxF",
               "Twin Siegebreaker Cannon||FwA",
               "Conflagration Cannon",
               "Thundercoil Harpoon"
@@ -533,7 +534,8 @@
                 "weapons": [
                   "Rapid Fire Battle Cannon",
                   "Shock Lance",
-                  "Knight Power Gauntlet"
+                  "Knight Power Gauntlet|0-1|",
+                  "Knight Power Lance|0-1|"
                 ],
                 "specialRules": [
                   "Supreme Commander",
@@ -542,7 +544,8 @@
                   "Walker",
                   "Inspiring",
                   "Ion Shield (4+)"
-                ]
+              ],
+              "notes": "Must be armed with either a Knight Power Gauntlet or a Knight Power Lance."
             },
             {
                 "name": "Knight-Protector",
