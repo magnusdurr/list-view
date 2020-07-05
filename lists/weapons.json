@@ -2639,7 +2639,6 @@
           "firepower": "Small Arms",
           "specialRules": [
           "EA(+1)",
-          "Lance",
           "Lightning Charge"
         ]
     },
@@ -6262,8 +6261,8 @@
       "name": "Las Impulsor",
       "modes": [
         {
-          "firepower": "AT2+",
-          "range": 45,
+          "firepower": "AT3+",
+          "range": 30,
           "specialRules": [
             "Shield Disruptor",
             "FwA"
@@ -6272,7 +6271,7 @@
         {
           "firepower": "Small Arms",
           "join": "and",
-          "specialRules": ["EA(+1)"]
+          "specialRules": ["EA(+2)"]
         }
       ]
     },
@@ -10227,7 +10226,7 @@
       "name": "Thermal Spear",
       "modes": [
         {
-          "firepower": "MW4+",
+          "firepower": "MW5+",
           "range": 15,
           "specialRules": [
           ]
@@ -11000,7 +10999,7 @@
       ]
     },
     {
-      "name": "Twin Meltaguns",
+      "name": "Quad Meltaguns",
         "modes": [
           {
             "firepower": "Small Arms",
@@ -11387,10 +11386,10 @@
       "name": "Volcano Lance",
         "modes": [
           {
-            "firepower": "MW2+",
+            "firepower": "AT2+",
             "range": 60,
             "specialRules": [
-              "TK(1)"
+              "Lance"
           ]
           }
       ]
