@@ -11,11 +11,7 @@
             "Necron Garrisons",
             "The Unbidden",
             "Necron Portals",
-            "Regeneration",
-            "Machine Spirit",
             "Implacable Advance",
-            "Shield Disruptor",
-            "Ponderous",
             "Phase Out",
             "Enduring"
           ],
@@ -50,7 +46,12 @@
         "Triarch Stalker"
       ],
         "unitRules": [
-        "Heavy Armoured Vehicle (H-AV)"
+        "Heavy Armoured Vehicle (H-AV)",
+        "Shield Disruptor",
+        "Regeneration",
+        "Machine Spirit",
+        "Ponderous"
+
 
       ]
     },
@@ -87,7 +88,7 @@
           "extraUnits": [
               "Overlord",
               "C'tan Shard",
-              "Add up to two Tomb Spyders: 50 points each",
+              "Add up to three Tomb Spyders: 50 points each",
               "Add up to two Wraiths: 25 points each",
               "Add three Immortals: 75 points"
           ],
@@ -120,7 +121,7 @@
               "Overlord",
               "C'tan Shard",
               "Replace one Destroyer with a Necron Destroyer Lord: 25 points",
-              "Add up to two Tomb Spyders: 50 points for one, 75 points for two",
+              "Add up to three Tomb Spyders: 50 points each",
               "Replace up to three Destroyers with Wraiths: Free"
           ],
           "points": 225
@@ -136,7 +137,7 @@
           "name": "Monolith Phalanx",
           "units": "Three Monoliths",
           "extraUnits": [
-              "Add three Obelisks: 125 points"
+              "Add up to one Obelisk: 50 points"
           ],
           "points": 275
         },
@@ -144,7 +145,6 @@
           "name": "Monolith Maniple",
           "units": "One Monolith, two Obelisks",
           "extraUnits": [
-              "Add up to one Monolith: 75 points",
               "Add up to one Obelisk: 50 points"
           ],
           "points": 200
@@ -197,7 +197,7 @@
           "name": "Megalith Conduit",
           "units": "One Megalith",
           "extraUnits": [
-              "Add two Monoliths: 100 points"
+              "Add up to two Obelisks (50 points each) and/or Monoliths (75 points each)"
           ],
           "points": 350
         }
