@@ -1,12 +1,17 @@
 {
   "fraction": "Space Marines",
   "army": "Iron Hands",
-  "version": "0.6.0",
-  "release": "2019-02-20",
+  "version": "0.9.0",
+  "release": "2019-07-09",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> and <i>Cult of the Machine</i> special rules applies to all Iron Hands detachments and aircraft formations.",
-  "specialRules": ["Bionics", "Cult of the Machine", "Space Marine Transports"],
+  "specialRules": [
+    "Bionics",
+    "Cult of the Machine",
+    "Lance",
+    "Space Marine Transports"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Iron Hands, or one of their successor chapters, using their preferred operational methods."
   ],
@@ -16,13 +21,11 @@
       "units": [
         "Iron Captain",
         "Iron Hands Veteran Sergeant",
+        "Iron Hands Supreme Commander",
         "Iron Hands Techmarine",
         "Iron Hands Devastators",
         "Iron Hands Tacticals",
         "Scouts",
-        "Land Speeder",
-        "Land Speeder Tornado",
-        "Land Speeder Typhoon",
         "Dreadnought",
         "Dreadnought, Hellfire",
         "Dreadnought, Ironclad",
@@ -41,7 +44,7 @@
         "Vindicator",
         "Whirlwind",
         "Storm Talon",
-        "Thunderhawk Transporter",
+        "Iron Hands Thunderhawk Transporter",
         "Battle Barge",
         "Strike Cruiser",
         "Drop Pod"
@@ -53,7 +56,7 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Reaver Titan ",
+        "Reaver Titan, Hun Class",
         "Warhound "
       ],
       "unitRules": [
@@ -69,29 +72,27 @@
           "name": "Dreadnought Clan",
           "units": "One Veteran Sergeant, four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
+            "Anti-Air",
             "Clan Commander",
             "Devastators",
             "Dreadnought",
-            "Anti-Air",
-            "Land Raiders",
-            "Veterans"
+            "Transports"
           ],
-          "points": 300
+          "points": 300,
+          "notes": "The Veteran Sergeant must be placed in an infantry unit"
         },
         {
           "name": "Mechanized Clan",
           "units": "One Veteran Sergeant, four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator*",
           "extraUnits": [
+            "Anti-Air",
             "Clan Commander",
             "Devastators",
-            "Anti-Air",
-            "Land Raiders",
-            "Razorbacks",
-            "Veterans",
+            "Transports",
             "Vindicators"
           ],
           "points": 300,
-          "notes": "* If only Vindicators are selected, any Rhinos in the formation may be upgraded to Siege Rhinos for free."
+          "notes": "* If only Vindicators are selected, any Rhinos in the formation may be upgraded to Siege Rhinos for free. The Veteran Sergeant must be placed in an infantry unit"
         }
       ]
     },
@@ -111,22 +112,14 @@
         },
         {
           "name": "Land Raiders",
-          "units": "Four Land Raiders",
+          "units": "Three Land Raiders",
           "extraUnits": [
+            "Add one Land Raider: 75 points",
             "Helios",
             "Anti-Air",
             "Vindicators"
           ],
-          "points": 325
-        },
-        {
-          "name": "Land Speeder",
-          "units": "Any five of the following: Land Speeder, Land Speeder Tornado",
-          "extraUnits": [
-            "Commander",
-            "Typhoons"
-          ],
-          "points": 200
+          "points": 250
         },
         {
           "name": "Predator",
@@ -138,13 +131,13 @@
         },
         {
           "name": "Scouts",
-          "units": "Four Scouts plus transport",
-          "extraUnits": [
-            "Commander",
-            "Razorbacks",
-            "Snipers"
-          ],
-          "points": 150
+          "units": "Four Scouts, four Razorbacks",
+          "points": 225
+        },
+        {
+          "name": "Siege Scouts",
+          "units": "Four Scouts, two Siege Rhinos and two Vindicators",
+          "points": 250
         },
         {
           "name": "0-1 Orbital Support",
@@ -183,28 +176,22 @@
           "points": 200
         },
         {
-          "name": "Thunderhawk Transporter",
-          "units": "One Thunderhawk Transporter",
-          "extraUnits": [
-            "Thunderhawk Transporter"
-          ],
-          "points": 175
+          "name": "Thunderhawk Transporters",
+          "units": "Two Iron Hands Thunderhawk Transporter",
+          "points": 275
         },
         {
           "name": "Reaver",
-          "units": "One Reaver Class Titan, Standard or Support Configuration",
-          "extraUnits": [
-            "Upgrade the Reaver to Close Assault Configuration: 25 points"
-          ],
-          "points": 600
+          "units": "One Reaver Titan, Hun Class",
+          "points": 625
         },
         {
           "name": "Warhound Pack",
-          "units": "Two Warhounds (Standard or Support Configuration)",
+          "units": "Two Warhounds - Standard or Support Configuration",
           "extraUnits": [
-              "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points"
+            "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points"
           ],
-          "points": 500
+          "points": 475
         }
       ]
     }
@@ -214,6 +201,26 @@
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
+        "name": "Anti-Air",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Add one Hunter to the formation",
+            "points": "75 points"
+          },
+          {
+            "description": "Add two Hunter to the formation",
+            "points": "125 points"
+          },
+          {
+            "description": "Add up to two Stalkers to the formation",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
         "points": "75 points"
@@ -222,10 +229,10 @@
         "name": "Clan Commander",
         "options": [
           {
-            "description": "Choose one of the following:"
+            "description": "Choose one of the following options:"
           },
           {
-            "description": "Replace the Veteran Sergeant with an Iron Captain or an Iron Hands Techmarine",
+            "description": "Add an Iron Captain or an Iron Hands Techmarine to any infantry unit in the formation",
             "points": "25 points"
           },
           {
@@ -237,8 +244,15 @@
             "points": "100 points"
           },
           {
-            "description": "Replace the Veteran Sergeant with a Venerable Dreadnought with the Supreme Commander special ability (0-1 per army)",
-            "points": "150 points"
+            "description": "0-1 per army:"
+          },
+          {
+            "description": "Replace one Dreadnought with a Venerable Dreadnought with the Supreme Commander special ability",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Iron Hands Supreme Commander to any infantry unit in the formation",
+            "points": "75 points"
           }
         ]
       },
@@ -278,41 +292,12 @@
         "points": "25 points each"
       },
       {
-        "name": "Sniper",
-        "description": "All Scouts in the formation gain the 'Sniper' special rule on their Heavy Bolters",
-        "points": "25 points"
-      },
-      {
-        "name": "Anti-Air",
-        "description": "Add any of the following units to the formation",
-        "options": [
-          {
-            "description": "Add one Hunter",
-            "points": "75 points"
-          },
-          {
-            "description": "Add two Hunters",
-            "points": "125 points"
-          },
-          {
-            "description": "Add one Stalker",
-            "points": "50 points"
-          },
-          {
-            "description": "Add two Stalkers",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Land Raiders",
-        "description": "Add any number of Land Raider variants, up to the number required to transport the formation",
+        "name": "Transports",
+        "description": "Add any number of Razorbacks or Land Raider variants, up to the number required to transport the formation",
         "options": [
           {
             "description": "Land Raider",
-            "points": [
-              "50 points each"
-            ]
+            "points": "50 points each"
           },
           {
             "description": "Land Raider Anvilarum",
@@ -323,38 +308,19 @@
             "points": "75 points each"
           },
           {
-            "description": "(0-1 per army) Land Raider Prometheus",
-            "points": "100 points"
+            "description": "0-1 Land Raider Prometheus",
+            "points": "75 points"
+          },
+          {
+            "description": "Razorback",
+            "points": "25 points"
           }
         ]
-      },
-      {
-        "name": "Razorbacks",
-        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
-        "points": [
-          "25 points each",
-          "75 points for four"
-        ]
-      },
-      {
-        "name": "Thunderhawk Transporter",
-        "description": "Add one Thunderhawk Transporter",
-        "points": "100 points"
-      },
-      {
-        "name": "Typhoons",
-        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
-        "points": "10 points each"
       },
       {
         "name": "Venerable Dreadnought",
         "description": "Replace one Dreadnought with a Venerable Dreadnought",
         "points": "50 points"
-      },
-      {
-        "name": "0-1 Veterans",
-        "description": "All infantry units in the formation gains the Bionics special rule",
-        "points": "25 points"
       },
       {
         "name": "Vindicators",

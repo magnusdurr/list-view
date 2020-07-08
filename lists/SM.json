@@ -123,7 +123,6 @@
 				"Bolt Pistols"
 			],
 			"specialRules": [
-				"Bionics",
 				"Leader"
 			]
 		},
@@ -173,6 +172,18 @@
 			"specialRules": [
 				"Supreme Commander",
 				"Teleport Homer",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Iron Hands Supreme Commander",
+			"type": "CH",
+			"weapons": [
+				"Power Weapon"
+			],
+			"specialRules": [
+				"Bionics",
+				"Supreme Commander",
 				"Invulnerable Save"
 			]
 		},
@@ -1355,7 +1366,8 @@
 			],
 			"specialRules": [
 				"Walker"
-			]
+			],
+			"notes": "Counts as a Dreadnought for the purposes of being transported."
 		},
 		{
 			"name": "Doomglaive Dreadnought",
@@ -1388,7 +1400,8 @@
 			"specialRules": [
 				"Reinforced Armour",
 				"Walker"
-			]
+			],
+			"notes": "Counts as a Dreadnought for the purposes of being transported."
 		},
 		{
 			"name": "Dreadnought, Siege",
@@ -1404,7 +1417,8 @@
 			],
 			"specialRules": [
 				"Walker"
-			]
+			],
+			"notes": "Counts as a Dreadnought for the purposes of being transported."
 		},
 		{
 			"name": "Dreadnought, Venerable",
@@ -1423,7 +1437,8 @@
 				"Invulnerable Save",
 				"Reinforced Armour",
 				"Walker"
-			]
+			],
+			"notes": "Counts as a Dreadnought for the purposes of being transported."
 		},
 		{
 			"name": "Predator Annihilator",
@@ -1929,7 +1944,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Storm Bolter"
+				"Quad Lascannon"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1999,7 +2014,7 @@
 			"speed": 25,
 			"armour": 4,
 			"cc": 5,
-			"ff": 5,
+			"ff": 4,
 			"weapons": [
 				"Twin Heavy Bolters|4"
 			],
@@ -2008,7 +2023,7 @@
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may ignore the 5cm restriction when using commander. Counts as a Land Raider for the purposes of being transported."
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may extend the 5cm restriction when using commander to 15cm. Counts as a Land Raider for the purposes of being transported."
 		},
 		{
 			"name": "Land Raider Wrath of Mjalnar",
@@ -2057,7 +2072,7 @@
 			"ff": 4,
 			"weapons": [
 				"Accelerator Cannon",
-				"Quad Lascannons|2|FxF",
+				"Quad Lascannon|2|FxF",
 				"Demolisher||FxF",
 				"Twin Heavy Bolters||FxF"
 			],
@@ -2076,7 +2091,7 @@
 			"ff": 3,
 			"weapons": [
 				"Volkite Carronade",
-				"Quad Lascannons|2|FxF",
+				"Quad Lascannon|2|FxF",
 				"Twin Heavy Bolters||FxF"
 			],
 			"specialRules": [
@@ -2290,7 +2305,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"AC Quad Lascannons||FxF",
+				"AC Quad Lascannon||FxF",
 				"AC Twin Heavy Bolters||FxF",
 				"Vengeance Launcher||"
 			],
@@ -2311,7 +2326,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"AC Quad Lascannons|2|FxF",
+				"AC Quad Lascannon|2|FxF",
 				"AC Twin Heavy Bolters||FxF",
 				"Vengeance Launcher||FxF"
 			],
@@ -2365,6 +2380,26 @@
 				"Transport"
 			],
 			"notes": "May carry up to two of the following units: Stalkers, Hunters, Predators, Razorbacks, Rhinos and Vindicators. Land Raiders counts as two units each. In addition it may also carry any infantry transported in these vehicles.",
+			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
+		},
+		{
+			"name": "Iron Hands Thunderhawk Transporter",
+			"type": "AC/WE",
+			"speed": "Bomber",
+			"armour": 4,
+			"cc": 6,
+			"ff": 5,
+			"weapons": [
+				"AC Twin Heavy Bolters|2|Left",
+				"AC Twin Heavy Bolters|2|Right"
+			],
+			"specialRules": [
+				"Damage Capacity 2",
+				"Planetfall",
+				"Reinforced Armour",
+				"Transport"
+			],
+			"notes": "May carry up to two of the following units: Dreadnoughts, Hunters, Predators, Razorbacks, Rhinos, Stalkers and Vindicators. Land Raiders counts as two units each. In addition it may also carry any infantry transported in these vehicles.",
 			"crit": "The Thunderhawk Transporter and all units being carried are destroyed."
 		},
 		{

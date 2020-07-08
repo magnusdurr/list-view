@@ -1026,7 +1026,7 @@
       ]
     },
     {
-      "name": "AC Quad Lascannons",
+      "name": "AC Quad Lascannon",
         "modes": [
           {
             "firepower": "AT3+/AA4+",
@@ -4475,7 +4475,8 @@
           "firepower": "AP5+/AT5+",
           "range": 30,
           "specialRules": [
-            "D"
+            "D",
+            "Lance"
           ]
         }
       ]
@@ -6133,7 +6134,7 @@
       ]
     },
     {
-      "name": "Quad Lascannons",
+      "name": "Quad Lascannon",
       "modes": [
         {
           "firepower": "AT3+",
@@ -8940,8 +8941,7 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)",
-            "MW"
+            "EA(+1)"
           ]
         }
       ]
