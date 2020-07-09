@@ -323,7 +323,7 @@
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
-				"Twin Bolters"
+				"Twin Bolter"
 			],
 			"specialRules": [
 				"Mounted"
@@ -337,7 +337,7 @@
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
-				"Twin Bolters"
+				"Twin Bolter"
 			],
 			"specialRules": [
 				"Mounted"
@@ -409,8 +409,8 @@
 			"cc": 5,
 			"ff": 3,
 			"weapons": [
-				"Missile Launcher|0-2",
-				"Graviton Gun|0-2"
+				"Missile Launcher|1",
+				"Graviton Gun|1"
 			],
 			"notes": "Armed with Missile Launchers. If the formation contains a Iron Hands Techmarine, the Missile Launchers will be replaced by Graviton Guns."
 		},
@@ -776,7 +776,7 @@
 			"ff": 4,
 			"weapons": [
 				"Missile Launcher|2|",
-				"Twin Heavy Bolters|2|"
+				"Twin Heavy Bolter|2|"
 			],
 			"specialRules": [
 				"Thick Rear Armour"
@@ -905,7 +905,7 @@
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
-				"Twin Bolters"
+				"Twin Bolter"
 			],
 			"specialRules": [
 				"Mounted",
@@ -920,7 +920,7 @@
 			"cc": 4,
 			"ff": 5,
 			"weapons": [
-				"Twin Bolters"
+				"Twin Bolter"
 			],
 			"specialRules": [
 				"Mounted",
@@ -936,7 +936,7 @@
 			"cc": 3,
 			"ff": 4,
 			"weapons": [
-				"Twin Bolters"
+				"Twin Bolter"
 			],
 			"specialRules": [
 				"Mounted",
@@ -1331,7 +1331,7 @@
 			"cc": 4,
 			"ff": 4,
 			"weapons": [
-				"Twin Mortis Autocannons|2"
+				"Twin Mortis Autocannon|2"
 			],
 			"specialRules": [
 				"Walker"
@@ -1362,7 +1362,7 @@
 			"ff": 4,
 			"weapons": [
 				"Missile Launcher",
-				"Twin Lascannons"
+				"Twin Lascannon"
 			],
 			"specialRules": [
 				"Walker"
@@ -1448,7 +1448,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Lascannons",
+				"Twin Lascannon",
 				"Lascannon|2"
 			]
 		},
@@ -1472,7 +1472,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Assault Cannons",
+				"Twin Assault Cannon",
 				"Multi-Melta|2"
 			],
 			"specialRules": [
@@ -1515,14 +1515,14 @@
 			"cc": 6,
 			"ff": "5+/4",
 			"weapons": [{
-					"name": "0-1x Twin Lascannons",
+					"name": "0-1x Twin Lascannon",
 					"modes": [{
 						"firepower": "AT4+",
 						"range": 45
 					}]
 				},
 				{
-					"name": "0-1x Twin Heavy Bolters",
+					"name": "0-1x Twin Heavy Bolter",
 					"modes": [{
 						"firepower": "AP4+",
 						"range": 30
@@ -1532,7 +1532,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannons or Twin Heavy Bolters. Razorbacks armed with Twin Heavy Bolters have their firefight value increased to 4+."
+			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannon or Twin Heavy Bolter. Razorbacks armed with Twin Heavy Bolter have their firefight value increased to 4+."
 		},
 		{
 			"name": "Blood Angels Razorback",
@@ -1542,14 +1542,14 @@
 			"cc": 6,
 			"ff": "5+/4",
 			"weapons": [{
-					"name": "0-1 Twin Lascannons",
+					"name": "0-1 Twin Lascannon",
 					"modes": [{
 						"firepower": "AT4+",
 						"range": 45
 					}]
 				},
 				{
-					"name": "0-1 Twin Heavy Bolters",
+					"name": "0-1 Twin Heavy Bolter",
 					"modes": [{
 						"firepower": "AP4+",
 						"range": 30
@@ -1560,7 +1560,7 @@
 				"Lucifer Pattern Engine",
 				"Transport"
 			],
-			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannons or Twin Heavy Bolters. Razorbacks armed with Twin Heavy Bolters have their firefight value increased to 4+."
+			"notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannon or Twin Heavy Bolter. Razorbacks armed with Twin Heavy Bolter have their firefight value increased to 4+."
 		},
 		{
 			"name": "Deathwatch Razorback",
@@ -1585,7 +1585,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Psycannons"
+				"Twin Psycannon"
 			],
 			"specialRules": [
 				"Transport",
@@ -1621,6 +1621,22 @@
 			],
 			"specialRules": [
 			    "Walker",
+				"Transport"
+			],
+			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+		},
+		{
+			"name": "Damocles Command Rhino",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Storm Bolter"
+			],
+			"specialRules": [
+				"Command Vehicle",
 				"Transport"
 			],
 			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
@@ -1797,7 +1813,7 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Autocannons",
+				"Twin Autocannon",
 				"Heavy Flamer",
 				"Heavy Bolter|2|"
 			],
@@ -1813,8 +1829,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Heavy Bolters"
+				"Twin Lascannon|2",
+				"Twin Heavy Bolter"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1833,7 +1849,7 @@
 			"ff": 4,
 			"weapons": [
 				"Flamestorm Cannon|2",
-				"Twin Assault Cannons"
+				"Twin Assault Cannon"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1850,8 +1866,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Heavy Bolters"
+				"Twin Lascannon|2",
+				"Twin Heavy Bolter"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1869,8 +1885,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannons|2",
-				"Twin Psycannons"
+				"Twin Lascannon|2",
+				"Twin Psycannon"
 			],
 			"specialRules": [
 				"Reinforced Armour",
@@ -1889,7 +1905,7 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"Twin Psycannons",
+				"Twin Psycannon",
 				"Flamestorm Incinerator|2"
 			],
 			"specialRules": [
@@ -1908,7 +1924,7 @@
 			"ff": 3,
 			"weapons": [
 				"Demolisher",
-				"Twin Assault Cannons",
+				"Twin Assault Cannon",
 				"Heavy Flamer|2"
 			],
 			"specialRules": [
@@ -1926,7 +1942,7 @@
 			"ff": 4,
 			"weapons": [
 				"Thunderfire Cannon",
-				"Twin Multi-Meltas|2|"
+				"Twin Multi-Melta|2|"
 			],
 			"specialRules": [
 				"Leader",
@@ -1960,7 +1976,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Twin Assault Cannons",
+				"Twin Assault Cannon",
 				"Hurricane Bolters|2"
 			],
 			"specialRules": [
@@ -1978,7 +1994,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Twin Dragonfire Heavy Bolters",
+				"Twin Dragonfire Heavy Bolter",
 				"Hurricane Bolters|2"
 			],
 			"specialRules": [
@@ -1997,7 +2013,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Twin Lascannons|2",
+				"Twin Lascannon|2",
 				"Twin Hyperios Launcher|0-1",
 				"Whirlwind Launcher|0-1"
 			],
@@ -2016,14 +2032,15 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"Twin Heavy Bolters|4"
+				"Twin Heavy Bolter|4"
 			],
 			"specialRules": [
+				"Command Vehicle",
 				"Reinforced Armour",
 				"Thick Rear Armour",
 				"Transport"
 			],
-			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may extend the 5cm restriction when using commander to 15cm. Counts as a Land Raider for the purposes of being transported."
+			"notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
 		},
 		{
 			"name": "Land Raider Wrath of Mjalnar",
@@ -2033,8 +2050,8 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"Twin Lascannons|2|",
-				"Twin Helfrost Cannons"
+				"Twin Lascannon|2|",
+				"Twin Helfrost Cannon"
 			],
 			"specialRules": [
 				"Commander",
@@ -2074,7 +2091,7 @@
 				"Accelerator Cannon",
 				"Quad Lascannon|2|FxF",
 				"Demolisher||FxF",
-				"Twin Heavy Bolters||FxF"
+				"Twin Heavy Bolter||FxF"
 			],
 			"specialRules": [
 				"Damage Capacity: 4",
@@ -2092,7 +2109,7 @@
 			"weapons": [
 				"Volkite Carronade",
 				"Quad Lascannon|2|FxF",
-				"Twin Heavy Bolters||FxF"
+				"Twin Heavy Bolter||FxF"
 			],
 			"specialRules": [
 				"Damage Capacity: 4",
@@ -2108,8 +2125,8 @@
 			"cc": 5,
 			"ff": 3,
 			"weapons": [
-				"Twin Lascannons|2",
-				"AC Twin Dragonfire Heavy Bolters|3"
+				"Twin Lascannon|2",
+				"AC Twin Dragonfire Heavy Bolter|3"
 			],
 			"specialRules": [
 				"Damage Capacity 4",
@@ -2129,8 +2146,8 @@
 			"cc": 5,
 			"ff": 3,
 			"weapons": [
-				"Twin Lascannons|2",
-				"AC Twin Psycannons|3"
+				"Twin Lascannon|2",
+				"AC Twin Psycannon|3"
 			],
 			"specialRules": [
 				"Damage Capacity 4",
@@ -2151,9 +2168,9 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"AC Twin Lascannons||FxF",
-				"AC Twin Heavy Bolters||",
-				"Twin Helfrost Cannons||"
+				"AC Twin Lascannon||FxF",
+				"AC Twin Heavy Bolter||",
+				"Twin Helfrost Cannon||"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2171,8 +2188,8 @@
 			"armour": 5,
 			"weapons": [
 				"AC Helfrost Destructor||FxF",
-				"AC Twin Lascannons||FxF",
-				"AC Twin Heavy Bolters||"
+				"AC Twin Lascannon||FxF",
+				"AC Twin Heavy Bolter||"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2186,8 +2203,8 @@
 			"speed": "Fighter",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Assault Cannons||FwA",
-				"AC Twin Heavy Bolters||FxF"
+				"AC Twin Assault Cannon||FwA",
+				"AC Twin Heavy Bolter||FxF"
 			]
 		},
 		{
@@ -2196,8 +2213,8 @@
 			"speed": "Fighter",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Assault Cannons||FwA",
-				"AC Twin Dragonfire Heavy Bolters||FxF"
+				"AC Twin Assault Cannon||FwA",
+				"AC Twin Dragonfire Heavy Bolter||FxF"
 			]
 		},
 		{
@@ -2206,8 +2223,8 @@
 			"speed": "Fighter",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Assault Cannons||FwA",
-				"AC Twin Psycannons||FxF"
+				"AC Twin Assault Cannon||FwA",
+				"AC Twin Psycannon||FxF"
 			],
 			"specialRules": [
 				"Invulnerable Save"
@@ -2221,8 +2238,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"AC Twin Assault Cannons||FxF",
-				"AC Twin Heavy Bolters||FxF",
+				"AC Twin Assault Cannon||FxF",
+				"AC Twin Heavy Bolter||FxF",
 				"Hurricane Bolters||FxF"
 			],
 			"specialRules": [
@@ -2241,7 +2258,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"AC Twin Assault Cannons||FxF",
+				"AC Twin Assault Cannon||FxF",
 				"AC Blackstar Rockets",
 				"Blackstar Hurricane Bolters"
 			],
@@ -2259,8 +2276,8 @@
 			"speed": "Fighter",
 			"armour": 5,
 			"weapons": [
-				"AC Twin Heavy Bolters||FxF",
-				"AC Twin Lascannons||FxF"
+				"AC Twin Heavy Bolter||FxF",
+				"AC Twin Lascannon||FxF"
 			],
 			"specialRules": [
 				"Invulnerable Save"
@@ -2286,7 +2303,7 @@
 			"speed": "Bomber",
 			"armour": 5,
 			"weapons": [
-	            "AC Twin Avenger Bolt Cannons||FxF",
+	            "AC Twin Avenger Bolt Cannon||FxF",
 				"AC Missile Array||FxF",
 	            "AC Quad Heavy Bolter Turrets||"
 
@@ -2306,7 +2323,7 @@
 			"ff": 4,
 			"weapons": [
 				"AC Quad Lascannon||FxF",
-				"AC Twin Heavy Bolters||FxF",
+				"AC Twin Heavy Bolter||FxF",
 				"Vengeance Launcher||"
 			],
 			"specialRules": [
@@ -2327,7 +2344,7 @@
 			"ff": 4,
 			"weapons": [
 				"AC Quad Lascannon|2|FxF",
-				"AC Twin Heavy Bolters||FxF",
+				"AC Twin Heavy Bolter||FxF",
 				"Vengeance Launcher||FxF"
 			],
 			"specialRules": [
@@ -2349,9 +2366,9 @@
 			"ff": 4,
 			"weapons": [
 				"Battle Cannon||FxF",
-				"AC Twin Heavy Bolters|2|FxF",
-				"AC Twin Heavy Bolters||Left",
-				"AC Twin Heavy Bolters||Right"
+				"AC Twin Heavy Bolter|2|FxF",
+				"AC Twin Heavy Bolter||Left",
+				"AC Twin Heavy Bolter||Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2370,8 +2387,8 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"AC Twin Heavy Bolters|2|Left",
-				"AC Twin Heavy Bolters|2|Right"
+				"AC Twin Heavy Bolter|2|Left",
+				"AC Twin Heavy Bolter|2|Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2390,8 +2407,8 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"AC Twin Heavy Bolters|2|Left",
-				"AC Twin Heavy Bolters|2|Right"
+				"AC Twin Heavy Bolter|2|Left",
+				"AC Twin Heavy Bolter|2|Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2410,8 +2427,8 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"AC Twin Dragonfire Heavy Bolters|2|Left",
-				"AC Twin Dragonfire Heavy Bolters|2|Right"
+				"AC Twin Dragonfire Heavy Bolter|2|Left",
+				"AC Twin Dragonfire Heavy Bolter|2|Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2430,8 +2447,8 @@
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"AC Twin Psycannons|2|Left",
-				"AC Twin Psycannons|2|Right"
+				"AC Twin Psycannon|2|Left",
+				"AC Twin Psycannon|2|Right"
 			],
 			"specialRules": [
 				"Damage Capacity 2",
@@ -2453,9 +2470,9 @@
 			"armour": 4,
 			"weapons": [
 				"Battle Cannon||FxF",
-				"AC Twin Heavy Bolters|2|FxF",
-				"AC Twin Heavy Bolters||Left",
-				"AC Twin Heavy Bolters||Right",
+				"AC Twin Heavy Bolter|2|FxF",
+				"AC Twin Heavy Bolter||Left",
+				"AC Twin Heavy Bolter||Right",
 				"AC Bomb Racks||FxF"
 			],
 			"specialRules": [
@@ -2472,8 +2489,8 @@
 			"cc": 6,
 			"ff": 3,
 			"weapons": [
-				"Twin Lascannons|2",
-				"AC Twin Heavy Bolters|3"
+				"Twin Lascannon|2",
+				"AC Twin Heavy Bolter|3"
 			],
 			"specialRules": [
 				"Damage Capacity 4",

@@ -163,6 +163,14 @@
       "name": "Maynarkh Dynasty Harvesters",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
+          {
+            "name": "Megalith Conduit",
+            "units": "One Megalith",
+            "extraUnits": [
+                "Add up to two Obelisks (50 points each) and/or Monoliths (75 points each)"
+            ],
+            "points": 350
+        },
         {
           "name": "0–1 Harvester Engine",
           "units": "Either an Æonic Orb or an Abbatoir",
@@ -192,14 +200,6 @@
 
           ],
           "points": 225
-        },
-        {
-          "name": "Megalith Conduit",
-          "units": "One Megalith",
-          "extraUnits": [
-              "Add up to two Obelisks (50 points each) and/or Monoliths (75 points each)"
-          ],
-          "points": 350
         }
     ]
     }

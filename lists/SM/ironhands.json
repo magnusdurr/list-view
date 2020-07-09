@@ -8,7 +8,6 @@
   "armyRules": "The <i>They Shall Know No Fear</i> and <i>Cult of the Machine</i> special rules applies to all Iron Hands detachments and aircraft formations.",
   "specialRules": [
     "Bionics",
-    "Cult of the Machine",
     "Lance",
     "Space Marine Transports"
   ],
@@ -20,11 +19,10 @@
       "from": "SM.json",
       "units": [
         "Iron Captain",
-        "Iron Hands Veteran Sergeant",
         "Iron Hands Supreme Commander",
         "Iron Hands Techmarine",
         "Iron Hands Devastators",
-        "Iron Hands Tacticals",
+        "Tacticals",
         "Scouts",
         "Dreadnought",
         "Dreadnought, Hellfire",
@@ -70,7 +68,7 @@
       "formations": [
         {
           "name": "Dreadnought Clan",
-          "units": "One Veteran Sergeant, four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+          "units": "Four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
             "Anti-Air",
             "Clan Commander",
@@ -78,12 +76,11 @@
             "Dreadnought",
             "Transports"
           ],
-          "points": 300,
-          "notes": "The Veteran Sergeant must be placed in an infantry unit"
+          "points": 275
         },
         {
           "name": "Mechanized Clan",
-          "units": "One Veteran Sergeant, four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator*",
+          "units": "Four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator*",
           "extraUnits": [
             "Anti-Air",
             "Clan Commander",
@@ -91,7 +88,7 @@
             "Transports",
             "Vindicators"
           ],
-          "points": 300,
+          "points": 275,
           "notes": "* If only Vindicators are selected, any Rhinos in the formation may be upgraded to Siege Rhinos for free. The Veteran Sergeant must be placed in an infantry unit"
         }
       ]
@@ -158,11 +155,12 @@
         },
         {
           "name": "Whirlwinds",
-          "units": "Four Whirlwinds",
+          "units": "Three Whirlwinds",
           "extraUnits": [
+              "Add one Whirlwind to the formation: 75 points",
             "Anti-Air"
           ],
-          "points": 275
+          "points": 200
         }
       ]
     },
@@ -191,7 +189,7 @@
           "extraUnits": [
             "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points"
           ],
-          "points": 475
+          "points": 500
         }
       ]
     }
@@ -211,7 +209,7 @@
             "points": "75 points"
           },
           {
-            "description": "Add two Hunter to the formation",
+            "description": "Add two Hunters to the formation",
             "points": "125 points"
           },
           {
@@ -232,7 +230,7 @@
             "description": "Choose one of the following options:"
           },
           {
-            "description": "Add an Iron Captain or an Iron Hands Techmarine to any infantry unit in the formation",
+            "description": "Add an Iron Captain or Iron Hands Techmarine to any infantry unit in the formation",
             "points": "25 points"
           },
           {

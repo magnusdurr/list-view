@@ -288,14 +288,14 @@
 			"speed": "Immobile",
 			"ff": "6+/5",
 			"weapons": [{
-					"name": "0-1x Twin Lascannons",
+					"name": "0-1x Twin Lascannon",
 					"modes": [{
 						"firepower": "AT4+",
 						"range": 45
 					}]
 				},
 				{
-					"name": "0-1x Twin Heavy Bolters",
+					"name": "0-1x Twin Heavy Bolter",
 					"modes": [{
 						"firepower": "AP4+",
 						"range": 30
@@ -307,7 +307,7 @@
 				"Fearless",
 				"Expendable"
 			],
-			"notes": "Armed with either Twin Lascannons or Twin Heavy Bolters. Tarantulas armed with Twin Heavy Bolters have their firefight value increased to 5+."
+			"notes": "Armed with either Twin Lascannon or Twin Heavy Bolter. Tarantulas armed with Twin Heavy Bolter have their firefight value increased to 5+."
 		},
 		{
 			"name": "Hyperios Sentry",
@@ -354,7 +354,7 @@
 			"cc": 5,
 			"ff": 5,
 			"weapons": [
-				"Twin Autocannons"
+				"Twin Autocannon"
 			],
 			"specialRules": [
 				"Walker"
@@ -384,7 +384,7 @@
 			"ff": "5+/4",
 			"weapons": [
 				"Eradication Beamer|0-1|",
-				"Twin Heavy Phosphor Blasters|0-1|",
+				"Twin Heavy Phosphor Blaster|0-1|",
 				"Neutron Laser|0-1|",
 				"Icarus Array|0-1|"
 			],
@@ -392,7 +392,7 @@
 				"Walker",
 				"Invulnerable Save"
 			],
-			"notes": "Must choose either an Eradication Beamer, Twin Heavy Phosphor Blasters, Icarus Array or Neutron Laser. Onager Dunecrawlers armed with Eradication Beamer have their firefight value increased to 4+."
+			"notes": "Must choose either an Eradication Beamer, Twin Heavy Phosphor Blaster, Icarus Array or Neutron Laser. Onager Dunecrawlers armed with Eradication Beamer have their firefight value increased to 4+."
 		},
 		{
 			"name": "Chimera",
@@ -417,7 +417,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Stubbers|2|"
+				"Twin Heavy Stubber|2|"
 			],
 			"specialRules": [
 				"Transport"
@@ -434,7 +434,7 @@
 			"weapons": [
 				"Ferrumite Cannon",
 				"Missile Launcher",
-                "Twin Heavy Stubbers"
+                "Twin Heavy Stubber"
 			],
 			"specialRules": [
 			]
@@ -446,7 +446,7 @@
 			"armour": 4,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Stubbers|2|"
+				"Twin Heavy Stubber|2|"
 			],
 			"specialRules": [
 				"Skimmer"
@@ -461,7 +461,7 @@
 	      "cc": 6,
 	      "ff": 5,
 	      "weapons": [
-	        "Twin Hydra Autocannons|2", "Heavy Bolter"
+	        "Twin Hydra Autocannon|2", "Heavy Bolter"
 	      ],
 	      "specialRules": [
 
@@ -553,7 +553,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Stubbers|2|",
+				"Twin Heavy Stubber|2|",
 				">Battle Weapons<",
 				"Turbo-Laser Destructor|0-1|FxF",
 				"Apocalypse Missile Launcher|0-1|FxF",
@@ -582,7 +582,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Stubbers|2|",
+				"Twin Heavy Stubber|2|",
 				">Battle Weapons<",
 				"Turbo-Laser Destructor|0-1|FxF",
 				"Apocalypse Missile Launcher|0-1|FxF",
@@ -606,7 +606,7 @@
 			"cc": 6,
 			"ff": 5,
 			"weapons": [
-				"Twin Heavy Stubbers|2|",
+				"Twin Heavy Stubber|2|",
 				"Lascannon|2|",
 				">Ordinatus Armageddon<",
 				"Nova Cannon||FxF",
@@ -631,7 +631,7 @@
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
-				"Twin Heavy Stubbers|4|"
+				"Twin Heavy Stubber|4|"
 			],
 			"specialRules": [
 				"Damage Capacity 3",
@@ -679,7 +679,7 @@
 			"armour": 5,
 			"weapons": [
 				"AC Avenger Bolt Cannon||FxF",
-				"AC Twin Autocannons||FxF",
+				"AC Twin Autocannon||FxF",
 				"AC Heavy Stubber Turret"
 			],
 			"specialRules": [
