@@ -14,6 +14,13 @@
 			]
 		},
 		{
+		  "title": "Lance",
+		  "description": [
+			"When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves.",
+			""
+		  ]
+		},
+		{
 			"title": "Heavy Armoured Vehicle (H-AV)",
 			"description": [
 				"Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)) In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects.",
@@ -42,7 +49,7 @@
 					],
 					"specialRules": [
 						"Commander",
-						"Pack Hunters",
+						"Extended Command",
 						"Invulnerable Save",
 						"Leader"
 					]
@@ -134,10 +141,10 @@
 			],
 			"specialRules": [
 				"Bionics",
+				"Battlefield Repairs",
 				"Invulnerable Save",
 				"Leader"
-			],
-			"notes": "Tactical and Devastator units in the same formation excahnge their Missile Launchers for Graviton Guns"
+			]
 		},
 		{
 			"name": "Librarian",
@@ -206,7 +213,7 @@
 			],
 			"specialRules": [
 				"Supreme Commander",
-				"Pack Hunters",
+				"Extended Command",
 				"Invulnerable Save"
 			]
 		},
@@ -411,9 +418,8 @@
 			"weapons": [
 				"Missile Launcher|1",
 				"Graviton Gun|1"
-			],
-			"notes": "Armed with Missile Launchers. If the formation contains a Iron Hands Techmarine, the Missile Launchers will be replaced by Graviton Guns."
-		},
+			]
+				},
 		{
 			"name": "Iron Hands Tacticals",
 			"type": "INF",
@@ -1636,7 +1642,7 @@
 				"Storm Bolter"
 			],
 			"specialRules": [
-				"Command Vehicle",
+				"Extended Command",
 				"Transport"
 			],
 			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
@@ -2035,7 +2041,7 @@
 				"Twin Heavy Bolter|4"
 			],
 			"specialRules": [
-				"Command Vehicle",
+				"Extended Command",
 				"Reinforced Armour",
 				"Thick Rear Armour",
 				"Transport"

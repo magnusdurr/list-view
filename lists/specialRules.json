@@ -314,9 +314,16 @@
           ]
       },
       {
-              "title": "Command Vehicle",
+              "title": "Battlefield Repairs",
               "description": [
-                  "Formations with at least one unit with the 'Command Vehicle' ability extend the range at which they can call other formations to follow them when they make a combined assault from 5cm to 10cm (see 2.1.2).",
+                  "As long as the formation contains a unit with the 'Battlefield Repairs' special ability, all Armoured Vehicle units in the formation gains Invulnerable Save.",
+                  ""
+              ]
+          },
+      {
+              "title": "Extended Command",
+              "description": [
+                  "Formations with at least one unit with the 'Extended Command' ability extend the range at which Commanders within the formation can call other formations to follow them when they make a combined assault from 5cm to 10cm (see 2.1.2).",
                   ""
               ]
           },
