@@ -104,7 +104,8 @@
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
           "extraUnits": [
             "Commander",
-            "Typhoons"
+            "Typhoons",
+            "Damocles"
           ],
           "points": 200
         },
@@ -114,7 +115,8 @@
           "extraUnits": [
             "Anti-Air",
             "Commander",
-            "Vindicators"
+            "Vindicators",
+            "Damocles"
           ],
           "points": 250
         },
@@ -124,7 +126,8 @@
           "extraUnits": [
             "Commander",
             "Razorbacks",
-            "Snipers"
+            "Snipers",
+            "Damocles"
           ],
           "points": 150
         },
@@ -144,7 +147,8 @@
             "Commander",
             "Razorbacks",
             "Vindicators",
-            "Land Raiders"
+            "Land Raiders",
+            "Damocles"
           ],
           "points": 275
         },
@@ -155,7 +159,8 @@
             "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
             "Anti-Air",
             "Commander",
-            "Vindicators"
+            "Vindicators",
+            "Damocles"
           ],
           "points": 450
         },
@@ -166,7 +171,8 @@
             "Add one Whirlwind: 50 points",
             "Anti-Air",
             "Commander",
-            "Vindicators"
+            "Vindicators",
+            "Damocles"
           ],
           "points": 225
       },
@@ -217,9 +223,18 @@
         "points": "75 points"
       },
       {
+        "name": "Damocles",
+        "description": "Add one Damocles Command Rhino to the formation (formation must contain a Captain or Supreme Commander)",
+        "points": "75 points"
+      },
+      {
         "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation, or add one Damocles Command Rhino",
+        "description": "Add any one of the following characters to any unit in the formation",
         "options": [
+            {
+              "description": "Captain",
+              "points": "25 points"
+            },
             {
               "description": "Librarian",
               "points": "25 points"
@@ -228,11 +243,6 @@
             "description": "Chaplain",
             "points": "50 points"
           },
-          {
-            "description": "Damocles Command Rhino",
-            "points": "50 points"
-        },
-
           {
             "description": "0–1 Supreme Commander",
             "points": "75 points"
