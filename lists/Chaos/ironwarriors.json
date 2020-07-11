@@ -1,13 +1,14 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Iron Warriors",
-  "version": "0.7.1",
-  "release": "2019-11-25",
+  "version": "0.7.2",
+  "release": "2020-07-11",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "All Iron Warriors Core, Elite and Siege formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Dark Mechanicus and Chaos Navy formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "specialRules":
     [
         "Bionics",
+        "Battlefield Repairs",
          "Iron Warriors Dreadclaws"
     ],
   "usage": [
@@ -18,11 +19,10 @@
       "from": "CSM.json",
       "units": [
         "Iron Warriors Warsmith",
-        "Iron Warriors Lord",
+        "Iron Warriors Warpsmith",
         "Daemon Prince",
         "Chaos Space Marines",
-        "Iron Warriors Assault Marines",
-        "Iron Warriors Havocs",
+        "Havocs",
         "Chosen",
         "Bezashk Destroyers",
         "Tyrant Siege Terminators",
@@ -75,11 +75,9 @@
       "formations": [
         {
           "name": "Iron Warriors Retinue",
-          "units": "One Iron Warriors Lord, six Chaos Space Marines",
+          "units": "One Iron Warriors Warpsmith, six Chaos Space Marines",
           "extraUnits": [
-            "Replace six Chaos Space Marines with six Iron Warriors Assault Marines, six Dreadclaws: 50 points",
-            "Add two Obliterators: 150 points",
-            "Add two Iron Warriors Havocs: 75 points",
+            "Replace two Chaos Space Marines with two Havocs: 25 points",
             "Supreme Commander",
             "Transport",
             "Stalker",
@@ -100,7 +98,7 @@
     },
         {
       "name": "Havocs",
-      "units": "One Iron Warriors Lord, four Iron Warriors Havocs, two Chaos Land Raiders",
+      "units": "One Iron Warriors Warpsmith, four Havocs, two Chaos Land Raiders",
       "extraUnits": [
           "Supreme Commander",
           "Stalker",
@@ -142,9 +140,9 @@
         },
       {
         "name": "Tyrant Terminators",
-        "units": "One Iron Warriors Lord, four Tyrant Siege Terminators",
+        "units": "One Iron Warriors Warpsmith, four Tyrant Siege Terminators",
         "extraUnits": [
-            "Add up to two Obliterators: 75 points each",
+            "Obliterators",
             "Supreme Commander",
             "Dreadnoughts",
             "Dreadclaws"
@@ -161,6 +159,7 @@
           "name": "Heavy Siege Engine",
           "units": "Iron Warriors Stormsword",
           "extraUnits": [
+            "Obliterators",
               "Vindicators",
               "Dreadnoughts"
           ],
@@ -192,7 +191,7 @@
           ]
       },
         {
-      "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
+      "name": "Dark Mechanicus and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
@@ -253,11 +252,11 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace a Iron Warriors Lord with an Iron Warriors Warsmith",
+            "description": "Replace an Iron Warriors Warpsmith with an Iron Warriors Warsmith",
             "points": "50 points"
           },
           {
-            "description": "Replace a Iron Warriors Lord and its unit with a Daemon Prince",
+            "description": "Replace an Iron Warriors Warpsmith and its unit with a Daemon Prince",
             "points": "100 points"
           }
         ]
@@ -266,11 +265,11 @@
         "name": "Transport",
         "options": [
           {
-            "description": "Add up to four Chaos Rhinos and/or Chaos Siege Rhinos",
+            "description": "Add up to three Chaos Rhinos and/or Chaos Siege Rhinos",
             "points": "10 points each"
           },
           {
-            "description": "Add up to four Chaos Land Raiders",
+            "description": "Add up to three Chaos Land Raiders",
             "points": "50 points each"
         },
         {
@@ -278,6 +277,11 @@
           "points": ""
       }
         ]
+      },
+      {
+        "name": "Obliterators",
+        "description": "Add up to two Obliterators",
+        "points": "75 points each"
       },
       {
         "name": "Dreadnoughts",
@@ -296,8 +300,8 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add two Chaos Vindicators",
-        "points": "75 points"
+        "description": "Add up to two Chaos Vindicators",
+        "points": "35 points each"
       }
     ]
   }

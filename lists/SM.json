@@ -21,6 +21,13 @@
 		  ]
 		},
 		{
+		  "title": "Iron Hands Characters",
+		  "description": [
+			"Iron Hands characters may only be placed in units of INF unless otherwise specified.",
+			""
+		  ]
+		},
+		{
 			"title": "Heavy Armoured Vehicle (H-AV)",
 			"description": [
 				"Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)) In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects.",
@@ -111,7 +118,7 @@
 			]
 		},
 		{
-			"name": "Iron Captain",
+			"name": "Iron Hands Captain",
 			"type": "CH",
 			"weapons": [
 				"Power Weapon"
@@ -374,6 +381,18 @@
 			]
 		},
 		{
+			"name": "Iron Hands Devastators",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 5,
+			"ff": 3,
+			"weapons": [
+				"Missile Launcher|1",
+				"Graviton Gun|1"
+			]
+				},
+		{
 			"name": "Long Fang Devastators",
 			"type": "INF",
 			"speed": 15,
@@ -408,18 +427,7 @@
 				"Frag Cannon"
 			]
 		},
-		{
-			"name": "Iron Hands Devastators",
-			"type": "INF",
-			"speed": 15,
-			"armour": 4,
-			"cc": 5,
-			"ff": 3,
-			"weapons": [
-				"Missile Launcher|1",
-				"Graviton Gun|1"
-			]
-				},
+
 		{
 			"name": "Iron Hands Tacticals",
 			"type": "INF",
@@ -491,6 +499,7 @@
 				"Missile Launcher"
 			]
 		},
+
 		{
 			"name": "Grey Hunter Tacticals",
 			"type": "INF",
@@ -1642,10 +1651,10 @@
 				"Storm Bolter"
 			],
 			"specialRules": [
+				"Commander",
 				"Extended Command",
-				"Transport"
-			],
-			"notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+				"Leader"
+						]
 		},
 		{
 			"name": "Blood Angels Rhino",
@@ -1964,7 +1973,7 @@
 			"speed": 25,
 			"armour": 4,
 			"cc": 6,
-			"ff": 4,
+			"ff": 5,
 			"weapons": [
 				"Quad Lascannon"
 			],
@@ -2038,7 +2047,7 @@
 			"cc": 5,
 			"ff": 4,
 			"weapons": [
-				"Twin Heavy Bolter|4"
+				"Quad Heavy Bolter|2"
 			],
 			"specialRules": [
 				"Extended Command",

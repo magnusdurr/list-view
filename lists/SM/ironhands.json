@@ -10,7 +10,8 @@
     "Bionics",
     "Extended Command",
     "Battlefield Repairs",
-    "Space Marine Transports"
+    "Space Marine Transports",
+    "Iron Hands Transports"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Iron Hands, or one of their successor chapters, using their preferred operational methods."
@@ -50,6 +51,7 @@
       ],
       "unitRules": [
         "They Shall Know No Fear",
+        "Iron Hands Characters",
         "Lance"
       ]
     },
@@ -82,7 +84,7 @@
         },
         {
           "name": "Mechanized Clan",
-          "units": "Four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator*",
+          "units": "Four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator",
           "extraUnits": [
             "Anti-Air",
             "Clan Commander",
@@ -90,8 +92,7 @@
             "Transports",
             "Vindicators"
           ],
-          "points": 275,
-          "notes": "* If only Vindicators are selected, any Rhinos in the formation may be upgraded to Siege Rhinos for free. The Veteran Sergeant must be placed in an infantry unit"
+          "points": 275
         }
       ]
     },
@@ -103,9 +104,9 @@
           "name": "Dreadnought Talon",
           "units": "Any four of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
-            "Dreadnought",
-            "Drop Pods",
-            "Venerable Dreadnought"
+            "Deploy the formation in Drop Pods (requires a Strike Cruiser or Battle Barge): 25 points",
+            "Replace one Dreadnought with a Venerable Dreadnought: 50 points",
+            "Dreadnought"
           ],
           "points": 225
         },
@@ -121,7 +122,7 @@
           "points": 250
         },
         {
-          "name": "Predator",
+          "name": "Predators",
           "units": "Any four of the following: Predator Annihilator, Predator Destructor",
           "extraUnits": [
             "Anti-Air"
@@ -131,12 +132,10 @@
         {
           "name": "Scouts",
           "units": "Four Scouts, four Razorbacks",
+          "extraUnits": [
+            "Replace four Razorbacks with two Siege Rhinos and two Vindicators: 25 points"
+          ],
           "points": 225
-        },
-        {
-          "name": "Siege Scouts",
-          "units": "Four Scouts, two Siege Rhinos and two Vindicators",
-          "points": 250
         },
         {
           "name": "0-1 Orbital Support",
@@ -147,7 +146,7 @@
           "points": 200
         },
         {
-          "name": "Vindicator",
+          "name": "Vindicators",
           "units": "Four Vindicators",
           "extraUnits": [
             "Anti-Air",
@@ -159,10 +158,10 @@
           "name": "Whirlwinds",
           "units": "Three Whirlwinds",
           "extraUnits": [
-              "Add one Whirlwind to the formation: 75 points",
+              "Add one Whirlwind to the formation: 50 points",
             "Anti-Air"
           ],
-          "points": 200
+          "points": 225
         }
       ]
     },
@@ -181,18 +180,19 @@
           "points": 275
         },
         {
-          "name": "Reaver",
-          "units": "One Reaver Titan, Hun Class",
-          "points": 625
-        },
-        {
           "name": "Warhound Pack",
           "units": "Two Warhounds - Standard or Support Configuration",
           "extraUnits": [
             "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points"
           ],
           "points": 500
+      },
+        {
+          "name": "Reaver",
+          "units": "One Reaver Titan, Hun Class",
+          "points": 625
         }
+
       ]
     }
   ],
@@ -240,10 +240,6 @@
             "points": "50 points"
           },
           {
-            "description": "Add one Venerable Dreadnought",
-            "points": "100 points"
-          },
-          {
             "description": "0-1 per army:"
           },
           {
@@ -258,33 +254,21 @@
       },
       {
         "name": "Devastators",
-        "description": "Replace all Tacticals in the formation with Devastators",
+        "description": "Replace all Tacticals in the formation with Iron Hands Devastators",
         "points": "50 points"
       },
       {
-        "name": "Dreadnoughts",
+        "name": "Dreadnought",
         "options": [
           {
-            "description": "Choose up to two of the following:"
-          },
-          {
-            "description": "Replace a Dreadnought with an Ironclad Dreadnought",
-            "points": "25 points each"
+            "description": "Replace up to one Dreadnought with an Ironclad Dreadnought",
+            "points": "25 points"
           },
           {
             "description": "Add one Dreadnought, Hellfire Dreadnought or Siege Dreadnought",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add one Ironclad Dreadnought",
-            "points": "75 points each"
+            "points": "50 points"
           }
         ]
-      },
-      {
-        "name": "Drop Pods",
-        "description": "The formation may be deployed in a Drop Pod",
-        "points": "25 points"
       },
       {
         "name": "Helios",
@@ -295,6 +279,10 @@
         "name": "Transports",
         "description": "Add any number of Razorbacks or Land Raider variants, up to the number required to transport the formation",
         "options": [
+            {
+              "description": "Razorback",
+              "points": "25 points"
+          },
           {
             "description": "Land Raider",
             "points": "50 points each"
@@ -310,17 +298,8 @@
           {
             "description": "0-1 Land Raider Prometheus",
             "points": "75 points"
-          },
-          {
-            "description": "Razorback",
-            "points": "25 points"
           }
         ]
-      },
-      {
-        "name": "Venerable Dreadnought",
-        "description": "Replace one Dreadnought with a Venerable Dreadnought",
-        "points": "50 points"
       },
       {
         "name": "Vindicators",

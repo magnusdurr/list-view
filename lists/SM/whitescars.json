@@ -2,18 +2,18 @@
   "fraction": "Space Marines",
   "army": "White Scars",
   "version": "1.0.0",
-  "release": "2019-06-13",
+  "release": "2020-07-11",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all White Scars detachments and Aircraft formations.",
   "specialRules": [
-      "White Scars Transports"
+      "White Scars Transports",
+      "Extended Command"
   ],
   "units": [
     {
       "from": "SM.json",
       "units": [
-        "Captain",
         "Chaplain",
         "Librarian",
         "Supreme Commander",
@@ -35,6 +35,7 @@
         "Predator Destructor",
         "Razorback",
         "Rhino",
+        "Damocles Command Rhino",
         "Stalker",
         "Whirlwind",
         "White Scars Vindicator",
@@ -160,12 +161,14 @@
         },
         {
           "name": "Whirlwinds",
-          "units": "Four Whirlwinds",
+          "units": "Three Whirlwinds",
           "extraUnits": [
+            "Add one Whirlwind: 50 points",
             "Anti-Air",
-            "Commander"
+            "Commander",
+            "Vindicators"
           ],
-          "points": 275
+          "points": 225
       },
       {
         "name": "Landing Craft",
@@ -215,10 +218,10 @@
       },
       {
         "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation",
+        "description": "Add any one of the following characters to any unit in the formation, or add one Damocles Command Rhino",
         "options": [
             {
-              "description": "Captain, Librarian",
+              "description": "Librarian",
               "points": "25 points"
             },
           {
@@ -227,6 +230,10 @@
           },
           {
             "description": "0–1 Supreme Commander",
+            "points": "75 points"
+        },
+          {
+            "description": "Damocles Command Rhino",
             "points": "75 points"
           }
         ]
@@ -247,7 +254,7 @@
       },
       {
         "name": "Land Raiders",
-        "description": "Add up to three Land Raiders",
+        "description": "Add any number of Land Raiders or Land Raider Crusaders, up to the number required to transport the formation",
         "points": "50 points each"
       },
       {
