@@ -20,7 +20,7 @@
     {
       "from": "SM.json",
       "units": [
-        "Iron Captain",
+        "Iron Hands Captain",
         "Iron Hands Supreme Commander",
         "Iron Hands Techmarine",
         "Iron Hands Devastators",
@@ -71,22 +71,24 @@
       "formations": [
         {
           "name": "Dreadnought Clan",
-          "units": "Four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+          "units": "One Iron Hands Captain or Iron Hands Techmarine, four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
             "Anti-Air",
-            "Clan Commander",
+            "Supreme Commander",
+            "Venerable Dreadnought",
+            "Ironclad Dreadnoughts",
+            "Dreadnoughts",
             "Devastators",
-            "Dreadnought",
             "Transports"
           ],
           "points": 275
         },
         {
           "name": "Mechanized Clan",
-          "units": "Four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator",
+          "units": "One Iron Hands Captain or Iron Hands Techmarine, four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator",
           "extraUnits": [
             "Anti-Air",
-            "Clan Commander",
+            "Supreme Commander",
             "Devastators",
             "Transports",
             "Vindicators"
@@ -99,13 +101,23 @@
       "name": "Iron Hands Support Detachments",
       "description": "Two Support Detachments may be taken per Core Detachment",
       "formations": [
+          {
+            "name": "Scouts",
+            "units": "Three Scouts, three Razorbacks",
+            "extraUnits": [
+                "Replace three Razorbacks with three Dreadnoughts, three Hellfire Dreadnoughts, or three Siege Dreadnoughts: 75 points"
+            ],
+            "points": 175
+          },
         {
           "name": "Dreadnought Talon",
           "units": "Any four of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
-            "Deploy the formation in Drop Pods (requires a Strike Cruiser or Battle Barge): 25 points",
-            "Replace one Dreadnought with a Venerable Dreadnought: 50 points",
-            "Dreadnought"
+            "The formation may deploy in Drop Pods (requires a Strike Cruiser or Battle Barge): 25 points",
+            "Venerable Dreadnought",
+            "Ironclad Dreadnoughts",
+            "Dreadnoughts"
+
           ],
           "points": 225
         },
@@ -128,14 +140,7 @@
           ],
           "points": 250
         },
-        {
-          "name": "Scouts",
-          "units": "Four Scouts, four Razorbacks",
-          "extraUnits": [
-            "Replace four Razorbacks with two Siege Rhinos and two Vindicators: 25 points"
-          ],
-          "points": 225
-        },
+
         {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
@@ -161,7 +166,14 @@
             "Anti-Air"
           ],
           "points": 225
-        }
+      },
+      {
+        "name": "Siege Scouts",
+        "units": "Four Scouts, two Siege Rhinos and two Vindicators",
+        "extraUnits": [
+        ],
+        "points": 250
+      }
       ]
     },
     {
@@ -225,29 +237,10 @@
         "points": "75 points"
       },
       {
-        "name": "Clan Commander",
+        "name": "(0-1 per army) Supreme Commander",
         "options": [
           {
-            "description": "Choose one of the following options:"
-          },
-          {
-            "description": "Add an Iron Captain or Iron Hands Techmarine to any infantry unit in the formation",
-            "points": "25 points"
-          },
-          {
-            "description": "Replace one Dreadnought with a Venerable Dreadnought",
-            "points": "50 points"
-          },
-          {
-            "description": "0-1 per army:"
-          },
-          {
-            "description": "Replace one Dreadnought with a Venerable Dreadnought with the Supreme Commander special ability",
-            "points": "75 points"
-          },
-          {
-            "description": "Add one Iron Hands Supreme Commander to any infantry unit in the formation",
-            "points": "75 points"
+            "description": "Replace an Iron Hands Captain with an Iron Hands Supreme Commander"
           }
         ]
       },
@@ -257,15 +250,29 @@
         "points": "50 points"
       },
       {
-        "name": "Dreadnought",
+        "name": "Venerable Dreadnought",
+        "options": [
+          {
+            "description": "Add a Venerable Dreadnought character to a Dreadnought of any configuration",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Dreadnoughts",
+        "options": [
+          {
+            "description": "Add any two of the following: Dreadnought, Hellfire Dreadnought or Siege Dreadnought",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
+        "name": "Ironclad Dreadnoughts",
         "options": [
           {
             "description": "Replace up to two Dreadnoughts with Ironclad Dreadnoughts",
             "points": "25 points each"
-          },
-          {
-            "description": "Add one Dreadnought, Hellfire Dreadnought or Siege Dreadnought",
-            "points": "50 points"
           }
         ]
       },

@@ -25,24 +25,24 @@
       "name": "Doom Scythe Fighter-Bomber",
       "type": "AC",
       "speed": "Fighter-Bomber",
-      "armour": 6,
+      "armour": 5,
       "weapons": [
         "AC Twin Tesla Destructor", "AC Death Ray"
       ],
       "specialRules": [
-          "Regeneration"
+          "Invulnerable Save"
       ]
     },
     {
       "name": "Night Shroud Bomber",
       "type": "AC",
       "speed": "Bomber",
-      "armour": 5,
+      "armour": 4,
       "weapons": [
         "AC Twin Tesla Destructor", "AC Death Spheres||FxF"
       ],
       "specialRules": [
-        "Regeneration"
+        "Invulnerable Save"
       ]
     },
     {

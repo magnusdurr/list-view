@@ -147,7 +147,6 @@
 				"Servo Arm"
 			],
 			"specialRules": [
-				"Bionics",
 				"Battlefield Repairs",
 				"Invulnerable Save",
 				"Leader"
@@ -390,8 +389,8 @@
 			"cc": 5,
 			"ff": 3,
 			"weapons": [
-				"Missile Launcher|1",
-				"Graviton Gun|1"
+				"Missile Launcher",
+				"Graviton Gun"
 			]
 				},
 		{
@@ -1233,13 +1232,25 @@
 				"Walker"
 			]
 		},
-
+		{
+			"name": "Dreadnought, Venerable",
+			"type": "CH",
+			"weapons": [
+				"n/a"
+			],
+			"specialRules": [
+				"Fearless",
+				"Inspiring",
+				"Invulnerable Save"
+			],
+			"notes": "May only be added to a Dreadnought unit of any configuration."
+		},
 		{
 			"name": "Dreadnought",
 			"type": "AV",
 			"speed": 15,
 			"armour": 3,
-			"cc": 4,
+			"cc": 3,
 			"ff": 4,
 			"weapons": [
 				"Assault Cannon",
@@ -1255,7 +1266,7 @@
 			"type": "AV",
 			"speed": 15,
 			"armour": 3,
-			"cc": 4,
+			"cc": 3,
 			"ff": 5,
 			"weapons": [
 				"Power Fist",
@@ -1270,7 +1281,7 @@
 			"type": "AV",
 			"speed": 15,
 			"armour": 3,
-			"cc": 4,
+			"cc": 3,
 			"ff": 4,
 			"weapons": [
 				"Force Halberd and Power Fist",
@@ -1287,7 +1298,7 @@
 			"type": "AV",
 			"speed": 15,
 			"armour": 3,
-			"cc": 4,
+			"cc": 3,
 			"weapons": [
 				"Fenrisian Axe and Blizzard Shield"
 			],
@@ -1316,7 +1327,7 @@
 			"type": "AV",
 			"speed": 15,
 			"armour": 3,
-			"cc": 4,
+			"cc": 3,
 			"ff": 5,
 			"weapons": [
 				"Power Fist",
@@ -1348,7 +1359,7 @@
 			"speed": 15,
 			"armour": 3,
 			"cc": 4,
-			"ff": 4,
+			"ff": 3,
 			"weapons": [
 				"Twin Mortis Autocannon|2"
 			],
@@ -1378,7 +1389,7 @@
 			"speed": 15,
 			"armour": 3,
 			"cc": 4,
-			"ff": 4,
+			"ff": 3,
 			"weapons": [
 				"Missile Launcher",
 				"Twin Lascannon"
@@ -1430,7 +1441,7 @@
 			"cc": 4,
 			"ff": 4,
 			"weapons": [
-				"Flamestorm Cannon ",
+				"Twin Heavy Bolter",
 				"Heavy Flamer",
 				"Siege Drill"
 			],
@@ -1439,26 +1450,7 @@
 			],
 			"notes": "Counts as a Dreadnought for the purposes of being transported."
 		},
-		{
-			"name": "Dreadnought, Venerable",
-			"type": "AV",
-			"speed": 15,
-			"armour": 4,
-			"cc": 3,
-			"ff": 4,
-			"weapons": [
-				"Assault Cannon",
-				"Power Fist"
-			],
-			"specialRules": [
-				"Fearless",
-				"Inspiring",
-				"Invulnerable Save",
-				"Reinforced Armour",
-				"Walker"
-			],
-			"notes": "Counts as a Dreadnought for the purposes of being transported."
-		},
+
 		{
 			"name": "Predator Annihilator",
 			"type": "AV",

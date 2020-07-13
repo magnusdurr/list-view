@@ -4292,7 +4292,7 @@
         "modes": [
           {
             "firepower": "AP3+/AT5+",
-            "range": 15,
+            "range": 30,
             "specialRules": [
 
           ]
@@ -4316,7 +4316,7 @@
         "modes": [
           {
             "firepower": "AP5+/AT6+",
-            "range": 15,
+            "range": 30,
             "specialRules": [
           ]
           }
@@ -8700,7 +8700,7 @@
           {
             "firepower": "Assault Weapons",
             "specialRules": [
-                "EA(+3)",
+                "EA(+2)",
                 "FS"
           ]
         }
@@ -9089,7 +9089,7 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)",
+              "EA(+1)",
             "MW"
           ]
         }
@@ -9101,7 +9101,7 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)",
+              "EA(+1)",
             "MW"
           ]
         }
