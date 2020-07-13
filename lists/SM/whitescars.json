@@ -18,7 +18,6 @@
         "Librarian",
         "Supreme Commander",
         "Assaults",
-        "Scouts",
         "Tacticals",
         "Terminators",
         "White Scars Assault Bikes",
@@ -65,33 +64,41 @@
     {
       "name": "White Scars Core Detachments",
       "formations": [
-        {
-          "name": "Assaults",
-          "units": "Four Assaults",
-          "extraUnits": [
-            "Commander",
-            "Vindicators"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Scout Bikes",
-          "units": "Five Scout Bikes",
-          "extraUnits": [
-            "Attack Bikes",
-            "Commander"
-          ],
-          "points": 150
-      },
+          {
+            "name": "Tacticals",
+            "units": "Six Tacticals plus transport",
+            "extraUnits": [
+              "Anti-Air",
+              "Commander",
+              "Razorbacks",
+              "Vindicators",
+              "Land Raiders",
+              "Damocles"
+            ],
+            "points": 275
+          },
         {
           "name": "Bikes",
-          "units": "Eight White Scars Bikes",
+          "units": "Eight White Scars Assault Bikes",
           "extraUnits": [
             "Attack Bikes",
-            "Commander"
+            "Commander",
+            "Damocles"
           ],
           "points": 325
-        }
+      },
+      {
+        "name": "Terminators",
+        "units": "Four Terminators, two Land Raider Crusaders",
+        "extraUnits": [
+          "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
+          "Anti-Air",
+          "Commander",
+          "Vindicators",
+          "Damocles"
+        ],
+        "points": 450
+      }
 
       ]
     },
@@ -99,6 +106,26 @@
       "name": "White Scars Support Detachments",
       "description": "Two Support Detachments may be taken per Core Detachment",
       "formations": [
+          {
+            "name": "Assaults",
+            "units": "Four Assaults",
+            "extraUnits": [
+              "Commander",
+              "Vindicators",
+              "Damocles"
+            ],
+            "points": 150
+          },
+          {
+            "name": "Scout Bikes",
+            "units": "Five White Scars Scout Bikes",
+            "extraUnits": [
+              "Attack Bikes",
+              "Commander",
+              "Damocles"
+            ],
+            "points": 150
+        },
         {
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
@@ -108,61 +135,6 @@
             "Damocles"
           ],
           "points": 200
-        },
-        {
-          "name": "Predator",
-          "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
-          "extraUnits": [
-            "Anti-Air",
-            "Commander",
-            "Vindicators",
-            "Damocles"
-          ],
-          "points": 250
-        },
-        {
-          "name": "Scout",
-          "units": "Four Scouts plus transport",
-          "extraUnits": [
-            "Commander",
-            "Razorbacks",
-            "Snipers",
-            "Damocles"
-          ],
-          "points": 150
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "extraUnits": [
-            "Battle Barge"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Tacticals",
-          "units": "Six Tacticals plus transport",
-          "extraUnits": [
-            "Anti-Air",
-            "Commander",
-            "Razorbacks",
-            "Vindicators",
-            "Land Raiders",
-            "Damocles"
-          ],
-          "points": 275
-        },
-        {
-          "name": "Terminators",
-          "units": "Four Terminators, two Land Raider Crusaders",
-          "extraUnits": [
-            "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
-            "Anti-Air",
-            "Commander",
-            "Vindicators",
-            "Damocles"
-          ],
-          "points": 450
         },
         {
           "name": "Whirlwinds",
@@ -177,14 +149,45 @@
           "points": 225
       },
       {
-        "name": "Landing Craft",
-        "units": "One Landing Craft",
-        "points": 350
+        "name": "Vindicators",
+        "units": "4 White Scars Vindicators",
+        "extraUnits": [
+          "Anti-Air",
+          "Commander",
+          "Vindicators",
+          "Damocles"
+        ],
+        "points": 225
+    },
+        {
+          "name": "Predators",
+          "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
+          "extraUnits": [
+            "Anti-Air",
+            "Commander",
+            "Vindicators",
+            "Damocles"
+          ],
+          "points": 250
+      },
+      {
+            "name": "Landing Craft",
+            "units": "One Landing Craft",
+            "points": 350
+        },
+      {
+        "name": "0-1 Orbital Support",
+        "units": "One Strike Cruiser",
+        "extraUnits": [
+          "Battle Barge"
+        ],
+        "points": 200
       }
+
       ]
     },
     {
-      "name": "White Scars Aircraft & Collegia Titanica Allies",
+      "name": "White Scars Navy & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -225,7 +228,7 @@
       {
         "name": "Damocles",
         "description": "Add one Damocles Command Rhino to the formation (formation must contain a Captain or Supreme Commander)",
-        "points": "75 points"
+        "points": "25 points"
       },
       {
         "name": "Commander",
@@ -272,11 +275,6 @@
         "name": "Razorbacks",
         "description": "Add any number of Razorbacks, up to the number required to transport the formation",
         "points": "25 points each"
-      },
-      {
-        "name": "Snipers",
-        "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",
-        "points": "25 points"
       },
       {
         "name": "Typhoons",
