@@ -25,12 +25,12 @@
         ]
       },
       {
-        "title": "Shield Disruptor",
+        "title": "Shield Piercer",
         "description": [
-          "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
+          "Weapons with the 'Shield Piercer' special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields and Void Shields (Shadowfields still provide cover from shooting).",
           ""
         ]
-    },
+      },
     {
       "title": "Machine Spirit",
       "description": [
@@ -390,11 +390,11 @@
       },
       {
           "name": "Triarch Stalker",
-          "type": "AV",
+          "type": "LV",
           "speed": 15,
-          "armour": 5,
+          "armour": 4,
           "cc": 5,
-          "ff": 4,
+          "ff": 5,
           "weapons": [
             "Heat Ray"
           ],
@@ -446,7 +446,7 @@
           "speed": 25,
           "armour": 3,
           "cc": 4,
-          "ff": 3,
+          "ff": 2,
           "weapons": [
             "Transdimensional Bolt",
             "Entropic Touch",
@@ -489,8 +489,8 @@
           "cc": 6,
           "ff": 5,
           "weapons": [
-            "Particle Whip|3|",
-            "Gauss Flux Array"
+            "Particle Whip|2|",
+            "Gauss Flux Arc"
           ],
           "specialRules": [
             "Damage Capacity 4",
@@ -510,7 +510,7 @@
       {
           "name": "Æonic Orb",
           "type": "WE",
-          "speed": 10,
+          "speed": 15,
           "armour": 4,
           "ff": 6,
           "weapons": [
@@ -533,7 +533,7 @@
           "speed": 20,
           "armour": 4,
           "cc": 2,
-          "ff": 4,
+          "ff": 5,
           "weapons": [
             "Scarab Torrent",
             "Harvesters"

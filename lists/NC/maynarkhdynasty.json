@@ -47,7 +47,7 @@
       ],
         "unitRules": [
         "Heavy Armoured Vehicle (H-AV)",
-        "Shield Disruptor",
+        "Shield Piercer",
         "Regeneration",
         "Machine Spirit",
         "Ponderous"
@@ -59,7 +59,7 @@
       "from": "necronNavy.json",
       "units": [
         "Night Shroud Bomber",
-        "Doom Scythe Fighter-Bomber",
+        "Doom Scythe Fighter",
         "Cairn Class Tomb Ship"
       ],
         "unitRules": [
@@ -187,7 +187,7 @@
           "points": 200
         },
         {
-          "name": "Night Shroud Bomber",
+          "name": "Night Shrouds",
           "units": "One Night Shroud Bomber",
           "upgrades": [
           ],
@@ -195,7 +195,7 @@
       },
         {
           "name": "Doom Scythes",
-          "units": "Two Doom Scythe Fighter-Bombers",
+          "units": "Two Doom Scythe Fighters",
           "upgrades": [
 
           ],
