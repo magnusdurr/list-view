@@ -59,13 +59,12 @@
     {
       "from": "AM.json",
       "units": [
-        "Magos",
         "Skitarii Vanguards",
 
         "Onager Dunecrawler",
         "Skorpius Dunerider",
-        "Ordinatus Minoris ",
-        "Gorgon",
+            "Skorpius Disintegrator",
+        "Chimera",
 
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
@@ -80,9 +79,10 @@
       "formations": [
         {
           "name": "Questoris",
-          "units": "One Seneschal, two Questoris Knights (may not mix configurations)",
+          "units": "Two Questoris Knights (may not mix configurations)",
           "extraUnits": [
-                  "Ionic Flare Shield",
+              "Add one Questoris Knight of the same configuration: 125 points",
+                  "Seneschal",
                   "Baron"
           ],
           "points": 275
@@ -97,17 +97,16 @@
         "name": "Dominus",
         "units": "One Seneschal, one Dominus Knight",
         "extraUnits": [
-            "Ionic Flare Shield",
             "Baron"
         ],
         "points": 250
     },
     {
       "name": "Cerastus",
-      "units": "One Seneschal, two Cerastus Knights (may not mix configurations)",
+      "units": "Two Cerastus Knights (may not mix configurations)",
       "extraUnits": [
-                    "Ionic Flare Shield",
-                  "Baron"
+          "Seneschal",
+          "Baron"
       ],
       "points": 300
   }
@@ -115,15 +114,14 @@
 },
 {
   "name": "Recon Banners",
-  "description": "Up to one Recon Bammer for each Core or Support Banner",
+  "description": "Up to one Recon Banner for each Core or Support Banner",
   "formations": [
     {
       "name": "Armiger",
       "units": "Three Knight-Warglaives or three Knight-Helverins",
       "extraUnits": [
           "Add one Armiger Knight of the same configuration: 50 points",
-          "Add one Knight-Preceptor with a Seneschal: 150 points",
-                  "Ionic Flare Shield"
+          "Add one Knight-Preceptor with a Seneschal: 150 points"
       ],
       "points": 175
     }
@@ -150,7 +148,7 @@
         },
         {
           "name": "Questoris Reliquae",
-          "units": "One Seneschal, two Questoris Relic Knight-Styrix or two Knight-Magaera",
+          "units": "One Seneschal, one Questoris Relic Knight-Styrix or Knight-Magaera",
           "extraUnits": [
               "Baron"
           ],
@@ -171,26 +169,23 @@
       "description": "Up to a third of the points available may be spent on Forge World allies.",
       "formations": [
         {
-          "name": "Vanguard Maniple",
-          "units": "One Magos, nine Skitarii Vanguards, Gorgon",
+          "name": "Vanguard Support",
+          "units": "Six Skitarii Vanguards, three Chimeras",
           "extraUnits": [
-              "Replace the Gorgon with five Skorpius Duneriders: 25 points",
-              "Add two Onager Dunecrawlers (any single configuration): 75 points"
+              "Replace three Chimeras with three Skorpius Duneriders: Free"
           ],
-          "points": 300
+          "points": 225
         },
         {
-          "name": "Onager Cataphractii",
-          "units": "Two Onager Dunecrawlers with Icarus Array, four Onager Dunecrawlers with another single configuration",
-          "points": 325
+          "name": "Onager Maniple",
+          "units": "One Onager Dunecrawler with Icarus Array, three Onager Dunecrawlers with another single configuration",
+          "points": 225
         },
         {
-            "name": "Minoris Cohort",
-            "units": "Two Ordinatus Minoris",
-            "extraUnits": [],
-            "points": 325
+          "name": "Skorpius Maniple",
+          "units": "Four Skorpius Disintegrators",
+          "points": 225
         },
-
         {
           "name": "Avenger Squadron",
           "units": "Two Avenger Strike Fighters",
@@ -209,20 +204,20 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
         {
-          "name": "0-1 Baron",
+          "name": "Seneschal",
           "options": [
             {
-              "description": "Replace one Seneschal in the army with a Baron",
-              "points": "75 points"
+              "description": "Add one Seneschal to the formation",
+              "points": "25 points"
             }
           ]
         },
         {
-          "name": "Ionic Flare Shield",
+          "name": "0-1 Baron",
           "options": [
             {
-              "description": "The Seneschal's / Baron's Knight gains the 'Ionic Flare Shield' special rule.",
-              "points": "25 points"
+              "description": "Replace one Seneschal in the army with a Baron",
+              "points": "50 points"
           }
       ]
     }

@@ -41,7 +41,7 @@
       "units": [
         "Magos",
         "Tech-Priest",
-        "Hypaspist",
+        "Hypaspists",
         "Kastelan Robot",
         "Castellax Battle-Automata",
         "Ordinatus Minoris ",
@@ -104,7 +104,7 @@
 },
   {
       "name": "Support Formations",
-      "description": "Up to four Support formations for each Battle Titan formation",
+      "description": "Up to three Support formations for each Battle Titan formation",
       "formations": [
         {
           "name": "Warhounds",
@@ -120,7 +120,7 @@
         "units": "Two Questoris Knights (may not mix configurations)",
         "extraUnits": [
         ],
-        "points": 250
+        "points": 275
     }
       ]
     },

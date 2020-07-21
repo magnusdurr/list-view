@@ -141,7 +141,7 @@
 			]
 		},
 		{
-			"name": "Iron Hands Techmarine",
+			"name": "Techmarine",
 			"type": "CH",
 			"weapons": [
 				"Servo Arm"
@@ -390,7 +390,7 @@
 			"ff": 3,
 			"weapons": [
 				"Missile Launcher",
-				"Graviton Gun"
+				"Graviton Guns"
 			]
 				},
 		{
@@ -429,20 +429,7 @@
 			]
 		},
 
-		{
-			"name": "Iron Hands Tacticals",
-			"type": "INF",
-			"speed": 15,
-			"armour": 4,
-			"cc": 4,
-			"ff": 4,
-			"weapons": [
-				"Missile Launcher|0-1",
-				"Graviton Gun|0-1"
-			],
-			"notes": "Armed with a Missile Launcher. If the formation contains a Iron Hands Techmarine, the Missile Launcherswill be replaced by a Graviton Guns."
-		},
-		{
+	{
 			"name": "Scouts",
 			"type": "INF",
 			"speed": 15,

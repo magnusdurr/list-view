@@ -4291,7 +4291,7 @@
       "name": "Gauss Blasters",
         "modes": [
           {
-            "firepower": "AP3+/AT5+",
+            "firepower": "2x AP5+/AT6+",
             "range": 30,
             "specialRules": [
 
@@ -4469,7 +4469,7 @@
       ]
     },
     {
-      "name": "Graviton Gun",
+      "name": "Graviton Guns",
       "modes": [
         {
           "firepower": "AP5+/AT5+",
@@ -6256,8 +6256,8 @@
       "name": "Las Impulsor",
       "modes": [
         {
-          "firepower": "AT3+",
-          "range": 30,
+          "firepower": "AT2+",
+          "range": 15,
           "specialRules": [
             "Shield Disruptor",
             "FwA"
@@ -10174,6 +10174,7 @@
           "firepower": "MW3+",
           "range": 30,
           "specialRules": [
+              "FwA"
           ]
       },
         {

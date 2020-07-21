@@ -22,7 +22,7 @@
       "units": [
         "Iron Hands Captain",
         "Iron Hands Supreme Commander",
-        "Iron Hands Techmarine",
+        "Techmarine",
         "Iron Hands Devastators",
         "Tacticals",
         "Scouts",
@@ -44,7 +44,7 @@
         "Vindicator",
         "Whirlwind",
         "Storm Talon",
-        "Iron Hands Thunderhawk Transporter",
+        "Thunderhawk Transporter",
         "Battle Barge",
         "Strike Cruiser",
         "Drop Pod"
@@ -71,7 +71,7 @@
       "formations": [
         {
           "name": "Dreadnought Clan",
-          "units": "One Iron Hands Captain or Iron Hands Techmarine, four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+          "units": "One Iron Hands Captain or Techmarine, four Tacticals plus transport, and any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
           "extraUnits": [
             "Anti-Air",
             "Supreme Commander",
@@ -81,11 +81,11 @@
             "Devastators",
             "Transports"
           ],
-          "points": 275
+          "points": 300
         },
         {
           "name": "Mechanized Clan",
-          "units": "One Iron Hands Captain or Iron Hands Techmarine, four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator",
+          "units": "One Iron Hands Captain or Techmarine, four Tacticals plus transport, and any two of the following: Predator Annihilator, Predator Destructor or Vindicator",
           "extraUnits": [
             "Anti-Air",
             "Supreme Commander",
@@ -93,7 +93,7 @@
             "Transports",
             "Vindicators"
           ],
-          "points": 275
+          "points": 300
         }
       ]
     },
@@ -105,7 +105,6 @@
             "name": "Scouts",
             "units": "Three Scouts, three Razorbacks",
             "extraUnits": [
-                "Replace three Razorbacks with three Dreadnoughts, three Hellfire Dreadnoughts, or three Siege Dreadnoughts: 75 points"
             ],
             "points": 175
           },
@@ -187,7 +186,7 @@
         },
         {
           "name": "Thunderhawk Transporters",
-          "units": "Two Iron Hands Thunderhawk Transporters",
+          "units": "Two Thunderhawk Transporters",
           "points": 275
         },
         {
