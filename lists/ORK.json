@@ -141,7 +141,7 @@
         "Big Shoota"
       ],
       "specialRules": [
-
+        "Infiltrators"
       ]
     },
     {
@@ -155,7 +155,8 @@
         "Shootas"
       ],
       "specialRules": [
-        "Super-Expendable"
+        "Super-Expendable",
+        "Infiltrators"
       ]
     },
     {
@@ -170,7 +171,8 @@
         "Big Choppas"
       ],
       "specialRules": [
-        "Leader"
+        "Leader",
+        "Infiltrators"
       ]
     },
     {
@@ -206,7 +208,7 @@
       "type": "INF",
       "speed": 15,
       "armour": 6,
-      "cc": 4,
+      "cc": 3,
       "ff": 6,
       "weapons": [
         "Big Shoota"
@@ -354,7 +356,7 @@
       "cc": 5,
       "ff": 5,
       "weapons": [
-        "Twin Big Shoota|2|"
+        "Big Shoota|2|"
       ],
       "specialRules": [
           "Transport"
@@ -992,6 +994,7 @@
         "Choppas"
       ],
       "specialRules": [
+          "Infiltrators"
       ]
     },
     {
@@ -1006,7 +1009,8 @@
         "Shootas"
       ],
       "specialRules": [
-        "Fearless"
+        "Fearless",
+          "Infiltrators"
       ]
     },
     {
@@ -1023,7 +1027,7 @@
       "specialRules": [
         "Mounted",
         "Walker",
-        "Infiltrator"
+        "Infiltrators"
       ]
     },
     {

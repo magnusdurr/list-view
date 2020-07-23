@@ -52,13 +52,13 @@
             "Any number of Wildboyz: 10 points each",
             "Any number of Boarboyz: 25 points each",
             "Any number of Boyz (each with one optional unit of Grotz): 25 points",
-            "Up to three Squig Katapults: 25 points each",
-            "Up to two Nobz: 35 points each",
-            "Up to two Wyrdboyz: 50 points each",
+            "Add up to three Squig Katapults: 25 points each",
+            "Add up to two Nobz: 35 points each",
+            "Add up to two Wyrdboyz: 50 points each",
             "Any number of Squiggoths: 40 points each",
-            "Up to one Gargantuan Squiggoth: 115 points",
-            "Up to one Orkeosaurus: 200 points",
-            "Up to one Steam Gargant: 200 points"
+            "Add up to one Gargantuan Squiggoth: 115 points",
+            "Add up to one Orkeosaurus: 200 points",
+            "Add up to one Steam Gargant: 200 points"
           ],
           "points": 200
         },
@@ -68,16 +68,16 @@
           "extraUnits": [
             "Any number of Wildboyz: 10 points each",
             "Any number of Boarboyz: 25 points each",
-            "Up to three Squig Katapults: 25 points each",
-            "Up to one Nobz: 35 points each",
-            "Up to one Wyrdboy: 50 points",
+            "Add up to three Squig Katapults: 25 points each",
+            "Add up to one Nobz: 35 points each",
+            "Add up to one Wyrdboy: 50 points",
             "Any number of Squiggoths: 40 points each",
-            "Up to one Gargantuan Squiggoth: 115 points",
-            "Up to one Orkeosaurus: 200 points (Big formations only)"
+            "Add up to one Gargantuan Squiggoth: 115 points",
+            "Add up to one Orkeosaurus: 200 points (Big formations only)"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "125"},
-            {"name": "Big", "points":  "200"},
+            {"name": "Normal", "points":  "150"},
+            {"name": "Big", "points":  "250"},
             {"name": "'Uge", "points":  "N/A"}
 
           ]
@@ -88,15 +88,15 @@
           "extraUnits": [
             "Up to one Nobz: 35 points"
           ],
-          "points": 125
+          "points": 150
         },
         {
           "name": "Boarboyz Horde",
           "units": "Five Boarboyz",
           "extraUnits": [
             "Any number of Boarboyz: 25 points each",
-            "Up to one Wyrdboy: 50 points",
-            "Up to one Pigdok: 35 points"
+            "Add up to one Wyrdboy: 50 points",
+            "Add up to one Pigdok: 35 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
@@ -108,18 +108,18 @@
           "name": "0-1 Madboyz Horde",
           "units": "Six Madboyz",
           "extraUnits": [
-            "Up to six Madboyz: 15 points each",
-            "Up to three Wyrdboys: 35 points each"
+            "Add up to six Madboyz: 20 points each",
+            "Add up to three Wyrdboys: 35 points each"
           ],
-          "points": 125
+          "points": 150
         },
         {
           "name": "Junka Brigade",
           "units": "Six Boyz and six Junkatrukks ",
           "extraUnits": [
             "Any number of Boyz + Junkatrukk: 25 points",
-            "Up to one Nobz + Junkatrukk: 50 points",
-            "Up to one Wyrdboy: 50 points"
+            "Add up to one Nobz + Junkatrukk: 50 points",
+            "Add up to one Wyrdboy: 50 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "175"},
