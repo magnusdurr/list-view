@@ -7,6 +7,7 @@
   "Initiative": "Battle Titan formations and the Warhounds formation have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. In addition, the Questoris Banner formation is subject to the 'Bravery' special rule.",
 
   "specialRules": [
+      "Extended Command",
                     "Shield Disruptor",
               "Shield Piercer"
   ],
@@ -103,14 +104,15 @@
 ]
 },
   {
-      "name": "Support Formations",
-      "description": "Up to three Support formations for each Battle Titan formation",
+      "name": "Recon Formations",
+      "description": "Up to two Recon formations for each Battle Titan formation",
       "formations": [
         {
           "name": "Warhounds",
           "units": "One Warhound Titan, of either Standard or Support Configuration",
           "extraUnits": [
               "Add one Warhound Titan of the same configuration: 225 points",
+              "Veteran Princeps",
               "Tank Hunter Configuration"
           ],
           "points": 275
@@ -125,45 +127,51 @@
       ]
     },
     {
-      "name": "Adeptus Mechanicus Allies",
-      "description": "Up to one third of the points available may be spent on Adeptus Mechanicus Allies. Up to one Lysander Fighter for each Warmonger Titan or Anvilus Carapace Landing Pad.",
+        "name": "Support Formations",
+        "description": "Up to two Support formations for each Battle Titan formation",
+        "formations": [
+            {
+              "name": "Skitarii Maniple",
+              "units": "One Magos, nine Hypaspist",
+              "extraUnits": [
+                  "Add one Gorgon: 100 points",
+                  "Add one Ordinatus Minoris: 125 points"
+              ],
+              "points": 225
+            },
+            {
+              "name": "Kastelan Maniple",
+              "units": "Five Kastelan Robots, one Tech-Priest",
+              "extraUnits": [
+                  "Add up to two Kastelan Robots: 25 points each"
+              ],
+              "points": 175
+            },
+            {
+              "name": "Castellax Maniple",
+              "units": "One Tech-Priest, four Castellax Battle-Automata",
+              "extraUnits": [
+              ],
+              "points": 175
+            },
+            {
+              "name": "Minoris Maniple",
+              "units": "Two Ordinatus Minoris",
+              "extraUnits": [
+              ],
+              "points": 325
+            }
+        ]
+      },
+    {
+      "name": "Adeptus Mechanicus Navy",
+      "description": "Up to a fifth of the points available may be spent on Adeptus Mechanicus Navy formations. Up to one Lysander Fighter for each Warmonger Titan or Anvilus Carapace Landing Pad.",
       "formations": [
-        {
-          "name": "Skitarii Maniple",
-          "units": "One Magos, nine Hypaspist",
-          "extraUnits": [
-              "Add one Gorgon: 100 points"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Kastelan Maniple",
-          "units": "Five Kastelan Robots, one Tech-Priest",
-          "extraUnits": [
-              "Add up to two Kastelan Robots: 25 points each"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Castellax Maniple",
-          "units": "One Tech-Priest, four Castellax Battle-Automata",
-          "extraUnits": [
-          ],
-          "points": 175
-        },
-        {
-          "name": "Minoris",
-          "units": "One Ordinatus Minoris",
-          "extraUnits": [
-              "Add one Ordinatus Minoris: 125 points"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Lysander Fighter",
-          "units": "One Lysander Fighter",
-          "points": 75
-        },
+          {
+            "name": "Lysander Fighter",
+            "units": "One Lysander Fighter",
+            "points": 75
+          },
         {
           "name": "Avenger Squadron",
           "units": "Two Avenger Strike Fighters",
