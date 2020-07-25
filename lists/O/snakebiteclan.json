@@ -49,10 +49,11 @@
           "name": "Snakebites Warband",
           "units": "Two Nobz, six Boyz and two Grotz",
           "extraUnits": [
-            "Any number of Wildboyz: 10 points each",
+            "Any number of Wildboyz: 15 points each",
+            "Any number of Boyz: 20 points",
             "Any number of Boarboyz: 25 points each",
-            "Any number of Boyz (each with one optional unit of Grotz): 25 points",
             "Add up to three Squig Katapults: 25 points each",
+            "Any number of Boyz + Grotz: 35 points",
             "Add up to two Nobz: 35 points each",
             "Add up to two Wyrdboyz: 50 points each",
             "Any number of Squiggoths: 40 points each",
@@ -60,13 +61,13 @@
             "Add up to one Orkeosaurus: 200 points",
             "Add up to one Steam Gargant: 200 points"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Wildboyz",
           "units": "Two Nobz, six Wildboyz",
           "extraUnits": [
-            "Any number of Wildboyz: 10 points each",
+            "Any number of Wildboyz: 15 points each",
             "Any number of Boarboyz: 25 points each",
             "Add up to three Squig Katapults: 25 points each",
             "Add up to one Nobz: 35 points each",
@@ -76,15 +77,15 @@
             "Add up to one Orkeosaurus: 200 points (Big formations only)"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "150"},
-            {"name": "Big", "points":  "250"},
+            {"name": "Normal", "points":  "175"},
+            {"name": "Big", "points":  "300"},
             {"name": "'Uge", "points":  "N/A"}
 
           ]
         },
         {
           "name": "Trappas",
-          "units": "Six Wildboyz (gain 'Scouts' ability)",
+          "units": "Eight Wildboyz (gain 'Scouts' ability)",
           "extraUnits": [
             "Up to one Nobz: 35 points"
           ],
@@ -92,23 +93,23 @@
         },
         {
           "name": "Boarboyz Horde",
-          "units": "Five Boarboyz",
+          "units": "Six Boarboyz",
           "extraUnits": [
             "Any number of Boarboyz: 25 points each",
             "Add up to one Wyrdboy: 50 points",
             "Add up to one Pigdok: 35 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "125"},
-            {"name": "Big", "points":  "200"},
-            {"name": "'Uge", "points":  "275"}
+            {"name": "Normal", "points":  "150"},
+            {"name": "Big", "points":  "250"},
+            {"name": "'Uge", "points":  "350"}
           ]
         },
         {
           "name": "0-1 Madboyz Horde",
           "units": "Six Madboyz",
           "extraUnits": [
-            "Add up to six Madboyz: 20 points each",
+            "Add up to six Madboyz: 25 points each",
             "Add up to three Wyrdboys: 35 points each"
           ],
           "points": 150

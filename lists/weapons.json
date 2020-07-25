@@ -5643,7 +5643,7 @@
       "name": "Twin Hyperios Launcher",
       "modes": [
         {
-          "firepower": "AT6+/AA4+",
+          "firepower": "AT6+/AA5+",
           "range": 45
         }
       ]
@@ -7737,6 +7737,16 @@
     },
     {
       "name": "Poison Blades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grot-Shootas and Knives",
         "modes": [
           {
             "firepower": "Assault Weapons",
@@ -10560,7 +10570,7 @@
       "name": "Transuranic Arquebus",
         "modes": [
           {
-            "firepower": "AP5+",
+            "firepower": "AP6+",
             "range":45,
             "specialRules": [
             "S"

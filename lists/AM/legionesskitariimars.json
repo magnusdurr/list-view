@@ -37,7 +37,7 @@
 
 				"Skorpius Dunerider",
 				"Skorpius Disintegrator",
-				"Gorgon",
+				"Chimera",
 
 				"Onager Dunecrawler",
 
@@ -82,11 +82,11 @@
 			"name": "Legiones Mars Core Formations",
 			"formations": [{
 					"name": "Vanguard Maniple",
-					"units": "One Magos, nine Skitarii Vanguards",
+					"units": "One Magos, seven Skitarii Vanguards, four Chimera",
 					"extraUnits": [
                         "Replace three Skitarii Vanguards with three Rapiers: Free",
-                        "Replace two Skitarii Vanguards with two Skitarii Rangers: 25 points",
-                        "Add two Onager Dunecrawlers (any single configuration) or two Skorpius Disintegrators: 75 points",
+                        "Add up to three Skorpius Disintegrators: 50 points each",
+						"Add an Ordinatus Minoris with a Battle Weapon: 125 points",
 						"Supreme Commander",
 						"Vanguard Transport"
 					],
@@ -177,7 +177,7 @@
 					"name": "Questoris Banner",
 					"units": "Two Questoris Knights (may not mix configurations)",
 					"extraUnits": [],
-					"points": 300
+					"points": 325
 				}, {
 					"name": "Warhound Pack",
 					"units": "Two Warhound Scout Titans, both of either Standard or Support Configuration",
@@ -201,7 +201,7 @@
 				{
 					"name": "Mechanicus Battleship",
 					"units": "One Ark Mechanicus Battleship",
-					"points": 200
+					"points": 225
 				}
 			]
 		}
@@ -212,15 +212,15 @@
 		"items": [{
 				"name": "0-1 Supreme Commander",
 				"options": [{
-					"description": "Replace the Magos with an Magos Dominus",
-					"points": "100 points"
+					"description": "Replace the Magos with a Magos Dominus",
+					"points": "75 points"
 				}]
 			},
 			{
 				"name": "Vanguard Transport",
 				"options": [{
-					"description": "Add one Gorgon, five Skorpius Duneriders, or five Termites (must enter the battlefield by tunneling)",
-					"points": ["Gorgon: 100 points", "Duneriders: 125 points", "Termites: 100 points"]
+					"description": "Replace four Chimeras with four Skorpius Duneriders, or four Termites (must enter the battlefield by tunneling)",
+					"points": ["Duneriders: free", "Termites: 25 points"]
 				}]
 			},
 			{

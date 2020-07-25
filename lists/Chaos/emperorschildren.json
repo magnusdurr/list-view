@@ -72,6 +72,7 @@
     "units": [
       "Hell Blade Interceptor",
       "Hell Talon Fighter-Bomber",
+      "Chaos Thunderhawk",
       "Devastation Class Cruiser"
   ],
   "unitRules": [
@@ -199,6 +200,11 @@
         {
           "name": "Hell Talon Squadron",
           "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
+        },
+        {
+          "name": "Thunderhawk",
+          "units": "One Chaos Thunderhawk",
           "points": 225
         },
         {

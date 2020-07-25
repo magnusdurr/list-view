@@ -59,6 +59,7 @@
     {
       "from": "AM.json",
       "units": [
+          "Magos",
         "Skitarii Vanguards",
 
         "Onager Dunecrawler",
@@ -85,7 +86,7 @@
                   "Seneschal",
                   "Baron"
           ],
-          "points": 300
+          "points": 325
         }
       ]
   },
@@ -99,16 +100,17 @@
         "extraUnits": [
             "Baron"
         ],
-        "points": 250
+        "points": 275
     },
     {
       "name": "Cerastus",
-      "units": "Two Cerastus Knights (may not mix configurations)",
+      "units": "One Cerastus Knight",
       "extraUnits": [
+          "Add one Cerastus Knight of the same configuration: 175 points",
           "Seneschal",
           "Baron"
       ],
-      "points": 325
+      "points": 225
   }
     ]
 },
@@ -118,12 +120,11 @@
   "formations": [
     {
       "name": "Armiger",
-      "units": "Three Knight-Warglaives or three Knight-Helverins",
+      "units": "Four Knight-Warglaives or four Knight-Helverins",
       "extraUnits": [
-          "Add one Armiger Knight of the same configuration: 50 points",
-          "Add one Knight-Preceptor with a Seneschal: 150 points"
+          "Add one Knight-Preceptor with a Seneschal: 175 points"
       ],
-      "points": 175
+      "points": 200
     }
   ]
 },
@@ -133,10 +134,10 @@
       "formations": [
           {
             "name": "Armiger Reliquae",
-            "units": "Three Armiger Relic Knight-Moirax",
+            "units": "Four Armiger Relic Knight-Moirax",
             "extraUnits": [
             ],
-            "points": 200
+            "points": 225
         },
           {
             "name": "Cerastus Reliquae",
@@ -144,7 +145,7 @@
             "extraUnits": [
                   "Baron"
             ],
-            "points": 225
+            "points": 275
         },
         {
           "name": "Questoris Reliquae",
@@ -170,11 +171,11 @@
       "formations": [
         {
           "name": "Vanguard Support",
-          "units": "Six Skitarii Vanguards, three Chimeras",
+          "units": "Magos, seven Skitarii Vanguards, three Chimeras",
           "extraUnits": [
               "Replace three Chimeras with three Skorpius Duneriders: Free"
           ],
-          "points": 225
+          "points": 300
         },
         {
           "name": "Onager Maniple",
@@ -194,7 +195,7 @@
         {
           "name": "Mechanicus Battleship",
           "units": "One Ark Mechanicus Battleship",
-          "points": 200
+          "points": 225
         }
       ]
     }
