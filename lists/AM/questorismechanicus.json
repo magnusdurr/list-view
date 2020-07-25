@@ -82,7 +82,7 @@
           "name": "Questoris",
           "units": "Two Questoris Knights (may not mix configurations)",
           "extraUnits": [
-              "Add one Questoris Knight of the same configuration: 150 points",
+          "Add one Questoris Knight of the same configuration: 175 points",
                   "Seneschal",
                   "Baron"
           ],
@@ -104,13 +104,12 @@
     },
     {
       "name": "Cerastus",
-      "units": "One Cerastus Knight",
+      "units": "One Seneschal, one Cerastus Knight",
       "extraUnits": [
           "Add one Cerastus Knight of the same configuration: 175 points",
-          "Seneschal",
           "Baron"
       ],
-      "points": 225
+      "points": 250
   }
     ]
 },
@@ -122,6 +121,7 @@
       "name": "Armiger",
       "units": "Four Knight-Warglaives or four Knight-Helverins",
       "extraUnits": [
+          "Add one Armiger Knight of the same configuration: 50 points",
           "Add one Knight-Preceptor with a Seneschal: 175 points"
       ],
       "points": 200
@@ -151,14 +151,16 @@
           "name": "Questoris Reliquae",
           "units": "One Seneschal, one Questoris Relic Knight-Styrix or Knight-Magaera",
           "extraUnits": [
+              "Add one Questoris Relic Knight of the same configuration: 175 points",
               "Baron"
           ],
-          "points": 225
+          "points": 250
       },
       {
         "name": "Acastus Reliquae",
         "units": "One Seneschal, one Acastus Relic Knight-Porphyrion or Knight-Asterius",
         "extraUnits": [
+            "Add one Acastus Relic Knight of the same configuration: 225 points",
             "Baron"
         ],
         "points": 300
