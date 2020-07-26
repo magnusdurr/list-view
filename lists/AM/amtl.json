@@ -40,9 +40,11 @@
     {
       "from": "AM.json",
       "units": [
-        "Magos",
+        "Secutarii Axiarch",
         "Tech-Priest",
-        "Hypaspists",
+        "Secutarii Hoplites",
+        "Secutarii Pelasts",
+        "Electro-Priests",
         "Kastelan Robot",
         "Castellax Battle-Automata",
         "Ordinatus Minoris ",
@@ -131,9 +133,10 @@
         "description": "Up to two Support formations for each Battle Titan formation",
         "formations": [
             {
-              "name": "Skitarii Maniple",
-              "units": "One Magos, nine Hypaspist",
+              "name": "Secutarii Titan Guard",
+              "units": "One Secutarii Axiarch, ten Secutarii Hoplites and/or Secutarii Pelasts",
               "extraUnits": [
+                  "Replace up to four Secutarii Hoplites with Electro-Priests: Free",
                   "Add one Gorgon: 100 points",
                   "Add one Ordinatus Minoris: 125 points"
               ],

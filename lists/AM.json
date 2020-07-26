@@ -50,18 +50,7 @@
 				"Invulnerable Save"
 			]
 		},
-		{
-			"name": "Tech-Priest",
-			"type": "INF",
-			"speed": 15,
-			"armour": 4,
-			"cc": 5,
-			"ff": 5,
-			"weapons": [
-				"Omnissian Axe"
-			],
-			"specialRules": []
-		},
+
 
 		{
 			"name": "Hypaspists",
@@ -96,9 +85,9 @@
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
-				"Transuranic Arquebus"
+				"Galvanic Rifles"
 			],
-			"specialRules": ["Scouts"]
+			"specialRules": ["Scout"]
 		},
 		{
 			"name": "Sagitarii",
@@ -113,18 +102,52 @@
 			"specialRules": []
 		},
 		{
-			"name": "Electro-Priests",
+			"name": "Secutarii Axiarch",
+			"type": "CH",
+			"weapons": [
+			],
+			"specialRules": [
+				"Leader",
+				"Commander",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Secutarii Hoplites",
 			"type": "INF",
 			"speed": 15,
 			"armour": 4,
 			"cc": 4,
+			"ff": 6,
+			"weapons": [
+				"Arc Lances"
+			],
+			"specialRules": []
+		},
+		{
+			"name": "Secutarii Pelasts",
+			"type": "INF",
+			"speed": 15,
+			"armour": 5,
+			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Electroleech Staff",
-				"Electro Charges"
+				"Galvanic-Casters"
+			],
+			"specialRules": []
+		},
+		{
+			"name": "Electro-Priests",
+			"type": "INF",
+			"speed": 15,
+			"armour": 6,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Voltagheist Field"
 			],
 			"specialRules": [
-				"Invulnerable Save"
+				"Expendable"
 			]
 		},
 		{
@@ -226,6 +249,18 @@
 				"Expendable",
 				"Ponderous"
 			]
+		},
+		{
+			"name": "Tech-Priest",
+			"type": "INF",
+			"speed": 15,
+			"armour": 4,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Omnissian Axe"
+			],
+			"specialRules": []
 		},
 		{
 			"name": "Kastelan Robot",
@@ -411,8 +446,8 @@
 		},
 		{
 			"name": "Skorpius Dunerider",
-			"type": "AV",
-			"speed": 25,
+			"type": "LV",
+			"speed": 35,
 			"armour": 4,
 			"cc": 6,
 			"ff": 5,
@@ -426,18 +461,20 @@
 		},
 		{
 			"name": "Skorpius Disintegrator",
-			"type": "AV",
-			"speed": 25,
+			"type": "LV",
+			"speed": 30,
 			"armour": 3,
 			"cc": 6,
 			"ff": 4,
 			"weapons": [
-				"Ferrumite Cannon",
+				"Ferrumite Cannon|0-1|",
+				"Belleros Energy Cannon|0-1|",
 				"Missile Launcher",
                 "Twin Heavy Stubber"
 			],
 			"specialRules": [
-			]
+			],
+			"notes": "Armed with either a Ferrumite Cannon or a Belleros Energy Cannon"
 		},
 		{
 			"name": "Archaeopter",
@@ -491,10 +528,10 @@
 			"cc": 6,
 			"ff": 6,
 			"weapons": [
-				"Bolters",
-				"Melta Cutter"
+				"Bolters"
 			],
 			"specialRules": [
+				"Thick Rear Armour",
 				"Tunneler",
 				"Transport"
 			],

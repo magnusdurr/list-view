@@ -1470,6 +1470,24 @@
       ]
     },
     {
+      "name": "Arc Lances",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "FS"
+          ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+            "FS"
+        ]
+      }
+      ]
+    },
+    {
           "name": "Archeotech Kinetic Destroyer",
           "modes": [
             {
@@ -1967,6 +1985,18 @@
             "range": 90,
             "specialRules": [
                 "TK(D3+1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Belleros Energy Cannon",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
+            "range": 30,
+            "specialRules": [
+                "Ind"
           ]
           }
       ]
@@ -4365,6 +4395,32 @@
             "firepower": "AT5+/AA5+",
             "range": 60,
             "specialRules": [
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Galvanic-Casters",
+        "modes": [
+          {
+            "firepower": "AP6+/AT6+",
+            "range": 15,
+            "specialRules": [
+                "D"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Galvanic Rifles",
+        "modes": [
+          {
+            "firepower": "AP6+/AT6+",
+            "range": 45,
+            "specialRules": [
+                "D"
 
           ]
           }
@@ -8421,7 +8477,10 @@
         "modes": [
           {
             "firepower": "AP5+",
-            "range":15
+            "range":15,
+            "specialRules": [
+              "D"
+          ]
           }
       ]
     },
@@ -11509,6 +11568,35 @@
               "D"
           ]
           }
+      ]
+    },
+    {
+      "name": "Voltagheist Field",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Voltagheist Field",
+        "modes": [
+            {
+              "firepower": "Small Arms",
+              "specialRules": [
+                "MW"
+            ]
+        },
+          {
+            "firepower": "Assault Weapons",
+            "join": "or",
+            "specialRules": [
+              "MW"
+          ]
+        }
       ]
     },
     {
