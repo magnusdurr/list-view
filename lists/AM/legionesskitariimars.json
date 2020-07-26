@@ -1,8 +1,8 @@
 {
 	"fraction": "Adeptus Mechanicus",
 	"army": "Legiones Skitarii: Mars",
-	"version": "0.6.0",
-	"release": "2019-12-27",
+	"version": "0.7.0",
+	"release": "2020-07-26",
 	"strategy": "The Legiones Skitarii have a Strategy Rating of 3.",
 	"Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+. In addition, the Questoris Banner formation is subject to the 'Bravery' special rule.",
 
@@ -26,6 +26,7 @@
 				"Sicarian Ruststalkers",
 				"Sicarian Infiltrators",
 				"Skitarii Rangers",
+				"Rapier",
 
 				"Kastelan Robot",
 				"Kataphron Breacher Battle Servitors",
@@ -33,7 +34,7 @@
 
 				"Skorpius Dunerider",
 				"Skorpius Disintegrator",
-				"Chimera",
+				"Gorgon",
 
 				"Onager Dunecrawler",
 
@@ -78,15 +79,15 @@
 			"name": "Legiones Mars Core Formations",
 			"formations": [{
 					"name": "Vanguard Maniple",
-					"units": "One Magos, seven Skitarii Vanguards, four Chimera",
+					"units": "One Magos, nine Skitarii Vanguards",
 					"extraUnits": [
-                        "Replace three Skitarii Vanguards with three Rapiers: Free",
-                        "Add two Onager Dunecrawlers of a single configuration: 75 points",
-						"Add an Ordinatus Minoris with a Battle Weapon: 125 points",
+                        "Replace four Skitarii Vanguards with four Rapiers: Free",
+                        "Add up to two Onager Dunecrawlers: 50 points each",
+						"Add up to two Skorpius Disintegrators: 50 points each",
 						"Supreme Commander",
 						"Vanguard Transport"
 					],
-					"points": 200
+					"points": 225
 				}
 			]
 		},
@@ -98,13 +99,13 @@
 					"units": "Four Sicarian Ruststalkers, two Sicarian Infiltrators",
 					"extraUnits": [
 					],
-					"points": 150
+					"points": 175
 				},
 				{
 					"name": "Ranger Cohort",
 					"units": "Four Skitarii Rangers",
 					"extraUnits": [
-						"Add two Scorpius Duneriders: 50 points"
+						"Add two Scorpius Duneriders, or three Rapiers: 50 points"
 						],
 					"points": 150
 				},
@@ -160,7 +161,7 @@
 					"name": "Questoris Banner",
 					"units": "Two Questoris Knights (may not mix configurations)",
 					"extraUnits": [],
-					"points": 325
+					"points": 300
 				}, {
 					"name": "Warhound Pack",
 					"units": "Two Warhound Scout Titans, both of either Standard or Support Configuration",
@@ -182,7 +183,7 @@
 					"points": 175
 				},
 				{
-					"name": "Mechanicus Battleship",
+					"name": "0-1 Mechanicus Battleship",
 					"units": "One Ark Mechanicus Battleship",
 					"points": 225
 				}
@@ -202,8 +203,8 @@
 			{
 				"name": "Vanguard Transport",
 				"options": [{
-					"description": "Replace four Chimeras with four Skorpius Duneriders, or four Termites (must enter the battlefield by tunneling)",
-					"points": ["Duneriders: free", "Termites: 25 points"]
+					"description": "Add one Gorgon, five Skorpius Duneriders, or five Termites (must enter the battlefield by tunneling)",
+					"points": ["Termites: 75 points", "Gorgon: 100 points", "Duneriders: 100 points"]
 				}]
 			},
 			{

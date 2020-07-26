@@ -179,42 +179,7 @@
 				"Infiltrators"
 			]
 		},
-		{
-			"name": "Kataphron Breacher Battle Servitors",
-			"type": "LV",
-			"speed": 10,
-			"armour": 3,
-			"cc": 4,
-			"ff": 4,
-			"weapons": [
-				"Heavy Arc Rifles",
-				"Arc Claws"
-			],
-			"specialRules": [
-				"Machine Spirit",
-				"Fearless",
-				"Expendable",
-				"Ponderous",
-				"Thick Rear Armour"
-			]
-		},
-		{
-			"name": "Kataphron Destroyer Battle Servitors",
-			"type": "LV",
-			"speed": 10,
-			"armour": 3,
-			"cc": 5,
-			"ff": 5,
-			"weapons": [
-				"Plasma Culverins"
-			],
-			"specialRules": [
-				"Machine Spirit",
-				"Fearless",
-				"Expendable",
-				"Ponderous"
-			]
-		},
+
 
 		{
 			"name": "Praetorian Combat Servitors",
@@ -314,6 +279,42 @@
 				"Fearless",
 				"Expendable",
 				"Skimmer",
+				"Ponderous"
+			]
+		},
+		{
+			"name": "Kataphron Breacher Battle Servitors",
+			"type": "LV",
+			"speed": 10,
+			"armour": 3,
+			"cc": 4,
+			"ff": 4,
+			"weapons": [
+				"Heavy Arc Rifles",
+				"Arc Claws"
+			],
+			"specialRules": [
+				"Machine Spirit",
+				"Fearless",
+				"Expendable",
+				"Ponderous",
+				"Thick Rear Armour"
+			]
+		},
+		{
+			"name": "Kataphron Destroyer Battle Servitors",
+			"type": "LV",
+			"speed": 10,
+			"armour": 3,
+			"cc": 5,
+			"ff": 5,
+			"weapons": [
+				"Plasma Culverins"
+			],
+			"specialRules": [
+				"Machine Spirit",
+				"Fearless",
+				"Expendable",
 				"Ponderous"
 			]
 		},
@@ -476,20 +477,7 @@
 			],
 			"notes": "Armed with either a Ferrumite Cannon or a Belleros Energy Cannon"
 		},
-		{
-			"name": "Archaeopter",
-			"type": "LV",
-			"speed": 35,
-			"armour": 4,
-			"ff": 5,
-			"weapons": [
-				"Twin Heavy Stubber|2|"
-			],
-			"specialRules": [
-				"Skimmer"
-			],
-			"notes": "May carry two infantry units without Jump Packs or Mounted."
-		},
+
 		{
 	      "name": "Hydra",
 	      "type": "AV",
@@ -725,6 +713,18 @@
 			],
 			"specialRules": [
 
+			]
+		},
+		{
+			"name": "Stratoraptor Archaeopter",
+			"type": "Bomber",
+			"armour": 5,
+			"weapons": [
+				"AC Phosphor Blaster|FxF",
+				"AC Twin Lascannon|FxF",
+				"AC Twin Heavy Stubber Turret"
+			],
+			"specialRules": [
 			]
 		},
 		{
