@@ -21,6 +21,7 @@
     {
         "from": "darkmechanicus.json",
         "units": [
+            "Chaos Icon",
             "Hell-Strider",
             "Hell-Knight",
             "Hell-Scourge",
@@ -117,7 +118,7 @@
           "extraUnits": [
               "Add an additional Hell-Knight: 100 points"
           ],
-          "points": 275
+          "points": 300
         },
         {
           "name": "Hell-Scourges of Slaanesh",
@@ -125,7 +126,7 @@
           "extraUnits": [
               "Add an additional Hell-Knight: 100 points"
           ],
-          "points": 275
+          "points": 300
       },
       {
         "name": "Hell-Striders of Slaanesh",
@@ -139,41 +140,41 @@
           "name": "Knight-Despoilers of Tzeentch",
           "units": "Daemonic Pact, two Knight-Despoilers",
           "extraUnits": [
-              "Daemonic Focus"
+              "Chaos Icon"
           ],
-          "points": 275
+          "points": 350
       },
         {
           "name": "Knight-Desecrators of Nurgle",
           "units": "Daemonic Pact, two Knight-Desecrators",
           "extraUnits": [
-              "Daemonic Focus"
+              "Chaos Icon"
           ],
-          "points": 275
+          "points": 350
       },
         {
           "name": "Knight-Rampagers of Khorne",
           "units": "Daemonic Pact, two Knight-Rampagers",
           "extraUnits": [
-              "Daemonic Focus"
+              "Chaos Icon"
           ],
-      "points": 275
+      "points": 350
       },
       {
         "name": "Knight-Renegades of Chaos Undivided",
         "units": "Daemonic Pact, two Knight-Renegades",
         "extraUnits": [
-            "Daemonic Focus"
+            "Chaos Icon"
         ],
-        "points": 275
+        "points": 350
     },
     {
       "name": "Knight-Tyrant of Chaos Undivided",
       "units": "Daemonic Pact, one Knight-Tyrant",
       "extraUnits": [
-          "Daemonic Focus"
+          "Chaos Icon"
       ],
-      "points": 250
+      "points": 275
   },
         {
         "name": "Armigers of Chaos Undivided",
@@ -186,7 +187,7 @@
     ]
 },
          {
-      "name": "Ordinatus Support, Traitor Titan and Chaos Navy Allies",
+      "name": "Hell-Forge Support, Traitor Titan and Chaos Navy Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
           {
@@ -255,18 +256,18 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "0-1 Supreme Commander",
+        "name": "(0-1 per army) Supreme Commander",
         "description": "Add an Arch-Heretek to a Hellwright unit or an Ordinatus Hereticus Majoris",
         "points": "100 points"
     },
     {
-      "name": "0-1 The Kaban Machine",
+      "name": "(0-1 per army) The Kaban Machine",
       "description": "Add the Kaban Machine to the formation",
       "points": "200 points"
   },
     {
-      "name": "Daemonic Focus",
-      "description": "The formation gains the Daemonic Focus special rule",
+      "name": "Chaos Icon",
+      "description": "Add a Chaos Icon to the formation",
       "points": "50 points"
   },
     {
