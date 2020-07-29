@@ -20,8 +20,8 @@
     {
       "from": "QK.json",
       "units": [
-        "Baron",
-        "Seneschal",
+        "Lord Seneschal",
+        "Lord Scion",
 
         "Dominus Knight-Castellan",
         "Dominus Knight-Valiant",
@@ -65,7 +65,7 @@
         "Onager Dunecrawler",
         "Skorpius Dunerider",
             "Skorpius Disintegrator",
-        "Chimera",
+        "Gorgon",
 
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
@@ -77,24 +77,29 @@
 "sections": [
     {
       "name": "Core Lances",
-      "description": "Up to one Dominus Lance for each Questoris Lance",
+      "description": "Up to one Dominus Lance for each Inner Circle or Questoris Lance",
       "formations": [
+          {
+            "name": "0-1 Inner Circle",
+            "units": "One Lord Seneschal, three Questoris Knights (may not mix configurations)",
+              "extraUnits": [
+            ],
+            "points": 500
+        },
         {
           "name": "Questoris",
-          "units": "Three Questoris Knights (may not mix configurations)",
+          "units": "Two Questoris Knights (may not mix configurations)",
             "extraUnits": [
-                  "Seneschal",
-                  "Baron"
+                  "Scion"
           ],
-          "points": 425
+          "points": 325
       },
       {
         "name": "Dominus",
-        "units": "One Seneschal, one Dominus Knight",
+        "units": "One Lord Scion, one Dominus Knight",
         "extraUnits": [
-            "Baron"
         ],
-        "points": 275
+        "points": 250
     }
       ]
   },
@@ -107,19 +112,18 @@
         "units": "One Cerastus Knight",
         "extraUnits": [
             "Add one Cerastus Knight of the same configuration: 175 points",
-            "Seneschal",
-            "Baron"
+            "Scion"
         ],
         "points": 225
     },
     {
       "name": "Armiger",
-      "units": "Four Knight-Warglaives or four Knight-Helverins",
+      "units": "Three Knight-Warglaives or three Knight-Helverins",
       "extraUnits": [
           "Add one Armiger Knight of the same configuration: 50 points",
-          "Add one Knight-Preceptor with a Seneschal: 175 points"
+          "Add one Knight-Preceptor with a Scion: 175 points"
       ],
-      "points": 200
+      "points": 175
     }
   ]
 },
@@ -129,36 +133,35 @@
       "formations": [
           {
             "name": "Armiger Reliquae",
-            "units": "Four Armiger Relic Knight-Moirax",
+            "units": "Three Armiger Relic Knight-Moirax",
             "extraUnits": [
             ],
-            "points": 225
+            "points": 200
         },
           {
             "name": "Cerastus Reliquae",
-            "units": "One Seneschal, one Cerastus Relic Knight-Atrapos",
+            "units": "One Lord Scion, one Cerastus Relic Knight-Atrapos",
             "extraUnits": [
-                  "Baron"
             ],
-            "points": 300
+            "points": 275
         },
         {
           "name": "Questoris Reliquae",
-          "units": "One Seneschal, one Questoris Relic Knight-Styrix or Knight-Magaera",
+          "units": "One Questoris Relic Knight-Styrix or Knight-Magaera",
           "extraUnits": [
               "Add one Questoris Relic Knight of the same configuration: 175 points",
-              "Baron"
+              "Scion"
           ],
-          "points": 250
+          "points": 225
       },
       {
         "name": "Acastus Reliquae",
-        "units": "One Seneschal, one Acastus Relic Knight-Porphyrion or Knight-Asterius",
+        "units": "One Acastus Relic Knight-Porphyrion or Knight-Asterius",
         "extraUnits": [
             "Add one Acastus Relic Knight of the same configuration: 250 points",
-            "Baron"
+            "Scion"
         ],
-        "points": 325
+        "points": 300
     }
       ]
     },
@@ -202,23 +205,14 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
         {
-          "name": "Seneschal",
+          "name": "Scion",
           "options": [
             {
-              "description": "Add one Seneschal to the formation",
+              "description": "Add one Lord Scion to the formation",
               "points": "25 points"
             }
           ]
-        },
-        {
-          "name": "0-1 Baron",
-          "options": [
-            {
-              "description": "Replace one Seneschal in the army with a Baron",
-              "points": "50 points"
-          }
-      ]
-    }
+        }
 ],
 "usage": [
   ""
