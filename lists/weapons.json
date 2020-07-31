@@ -2680,6 +2680,7 @@
           "firepower": "Small Arms",
           "specialRules": [
           "EA(+1)",
+          "Lance",
           "Lightning Charge"
         ]
     },
@@ -2834,19 +2835,13 @@
       "name": "Conflagration Cannon",
         "modes": [
           {
-            "firepower": "AP2+",
+            "firepower": "1BP",
             "range": 30,
             "specialRules": [
+                "IC",
               "FwA"
           ]
-          },
-          {
-            "firepower": "Small Arms",
-            "join": "and",
-            "specialRules": [
-              "IC"
-          ]
-        }
+          }
       ]
     },
     {
@@ -4132,7 +4127,7 @@
       ]
     },
     {
-      "name": "Flame Cannon",
+      "name": "Cerastus Flame Cannon",
         "modes": [
           {
             "firepower": "AP2+",
@@ -4142,6 +4137,7 @@
             "firepower": "Small Arms",
             "join": "and",
             "specialRules": [
+              "EA(+1)",
               "IC"
           ]
         }
@@ -4576,7 +4572,7 @@
       "name": "Graviton Singularity Cannon",
       "modes": [
         {
-          "firepower": "MW3+",
+          "firepower": "MW2+",
           "range": 30,
           "specialRules": [
             "TK(D3)",
@@ -6021,6 +6017,7 @@
             "firepower": "Small Arms",
             "specialRules": [
              "EA(+1)",
+              "Lance",
              "Lightning Charge"
           ]
           },
@@ -7123,7 +7120,7 @@
       "name": "Neutron Laser",
       "modes": [
         {
-          "firepower": "AT4+",
+          "firepower": "AP6+/AT5+",
           "range": 60,
           "specialRules": [
             "D"
@@ -8676,7 +8673,7 @@
             "join": "and",
             "specialRules": [
               "EA(+1)",
-              "TK(1)"
+              "MW"
           ]
         }
       ]

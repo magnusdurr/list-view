@@ -76,8 +76,8 @@
 ],
 "sections": [
     {
-      "name": "Core Lances",
-      "description": "Up to one Dominus Lance for each Inner Circle or Questoris Lance",
+      "name": "Core Banners",
+      "description": "Up to one Dominus Banner for each Inner Circle or Questoris Banner",
       "formations": [
           {
             "name": "0-1 Inner Circle",
@@ -104,8 +104,8 @@
       ]
   },
 {
-  "name": "Recon Lances",
-  "description": "Up to one Recon Lance for each Core Lance",
+  "name": "Recon Banners",
+  "description": "Up to one Recon Banner for each Core Banner",
   "formations": [
       {
         "name": "Cerastus",
@@ -127,8 +127,8 @@
   ]
 },
     {
-      "name": "Relic Lances",
-      "description": "Up to one Relic Lance for each part of 1500 points in the army.",
+      "name": "Relic Banners",
+      "description": "Up to one Relic Banner for each part of 1500 points in the army.",
       "formations": [
           {
             "name": "Armiger Reliquae",
@@ -169,7 +169,7 @@
       "description": "Up to a third of the points available may be spent on Forge World allies.",
       "formations": [
         {
-          "name": "Vanguard Maniple",
+          "name": "Skitarii Maniple",
           "units": "Magos, nine Skitarii Vanguards, one Gorgon",
           "extraUnits": [
               "Replace the Gorgon with five Skorpius Duneriders: Free"
@@ -184,7 +184,7 @@
         {
           "name": "Skorpius Maniple",
           "units": "Four Skorpius Disintegrators",
-          "points": 200
+          "points": 225
         },
         {
           "name": "Avenger Squadron",

@@ -415,7 +415,7 @@
 			"name": "Onager Dunecrawler",
 			"type": "AV",
 			"speed": 20,
-			"armour": 5,
+			"armour": 4,
 			"cc": 6,
 			"ff": "5+/4",
 			"weapons": [
@@ -425,8 +425,7 @@
 				"Icarus Array|0-1|"
 			],
 			"specialRules": [
-				"Walker",
-				"Invulnerable Save"
+				"Walker"
 			],
 			"notes": "Must choose either an Eradication Beamer, Twin Heavy Phosphor Blaster, Icarus Array or Neutron Laser. Onager Dunecrawlers armed with Eradication Beamer have their firefight value increased to 4+."
 		},
@@ -466,7 +465,7 @@
 			"speed": 30,
 			"armour": 4,
 			"cc": 6,
-			"ff": 5,
+			"ff": 4,
 			"weapons": [
 				"Ferrumite Cannon|0-1|",
 				"Belleros Energy Cannon|0-1|",
