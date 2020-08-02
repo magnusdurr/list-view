@@ -2680,7 +2680,6 @@
           "firepower": "Small Arms",
           "specialRules": [
           "EA(+1)",
-          "Lance",
           "Lightning Charge"
         ]
     },
@@ -2689,10 +2688,16 @@
           "join": "or",
           "specialRules": [
             "EA(+1)",
-            "Lance",
             "Lightning Charge"
           ]
-        }
+      },
+      {
+        "firepower": "Assault Weapons",
+        "join": "and",
+        "specialRules": [
+          "Lance"
+        ]
+      }
       ]
     },
     {
@@ -4131,7 +4136,10 @@
         "modes": [
           {
             "firepower": "AP2+",
-            "range": 30
+            "range": 30,
+            "specialRules": [
+              "IC"
+          ]
           },
           {
             "firepower": "Small Arms",
