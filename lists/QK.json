@@ -80,6 +80,24 @@
           ]
         },
         {
+          "name": "Twin Icarus Autocannon",
+          "type": "CH",
+          "weapons": [
+              "Twin Icarus Autocannon"
+             ],
+          "specialRules": [
+          ]
+        },
+        {
+          "name": "Ironstorm Missile Pod",
+          "type": "CH",
+          "weapons": [
+              "Ironstorm Missile Pod||FwA"
+             ],
+          "specialRules": [
+          ]
+        },
+        {
             "name": "Armiger Knight-Warglaive",
             "type": "AV",
             "speed": 30,
@@ -137,140 +155,127 @@
         },
       {
           "name": "Questoris Knight-Paladin",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
-          "ff": 3,
+          "ff": 4,
           "weapons": [
             "Rapid Fire Battle Cannon||FwA",
             "Reaper Chainsword"
           ],
           "specialRules": [
-            "Damage Capacity: 2",
             "Stubborn",
             "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Questoris Knight is destroyed."
+          ]
       },
       {
           "name": "Questoris Knight-Errant",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
-          "ff": 3,
+          "ff": 4,
           "weapons": [
             "Thermal Cannon",
             "Reaper Chainsword"
           ],
           "specialRules": [
-            "Damage Capacity: 2",
             "Stubborn",
             "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Questoris Knight is destroyed."
+          ]
       },
       {
           "name": "Questoris Knight-Crusader",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
-          "ff": 3,
+          "ff": 4,
           "weapons": [
             "Rapid Fire Battle Cannon||FwA",
-            "Avenger Gatling Cannon||FwA"
+            "Avenger Gatling Cannon||"
           ],
           "specialRules": [
-            "Damage Capacity: 2",
             "Stubborn",
             "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Questoris Knight is destroyed."
+          ]
       },
       {
           "name": "Questoris Knight-Gallant",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
-          "ff": 3,
+          "ff": 4,
           "weapons": [
-              "Twin Icarus Autocannon",
             "Thunderstrike Gauntlet",
             "Reaper Chainsword"
 
           ],
           "specialRules": [
-            "Damage Capacity: 2",
             "Stubborn",
             "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Questoris Knight is destroyed."
+          ]
       },
       {
           "name": "Questoris Knight-Warden",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
-          "ff": 3,
+          "ff": 4,
           "weapons": [
-            "Ironstorm Missile Pod||FwA",
-            "Avenger Gatling Cannon||FwA",
+            "Avenger Gatling Cannon||",
             "Reaper Chainsword"
           ],
           "specialRules": [
-              "Damage Capacity: 2",
+
             "Stubborn",
             "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Questoris Knight is destroyed."
+          ]
       },
       {
           "name": "Questoris Knight-Preceptor",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 3,
-          "ff": 3,
+          "ff": 4,
           "weapons": [
             "Las Impulsor",
             "Thunderstrike Gauntlet"
           ],
           "specialRules": [
-              "Damage Capacity: 2",
             "Stubborn",
             "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Questoris Knight is destroyed."
+          ]
       },
       {
             "name": "Questoris Knight-Freeblade",
-            "type": "WE",
+            "type": "H-AV",
             "speed": 25,
             "armour": 5,
             "cc": 3,
-            "ff": 3,
+            "ff": 4,
             "weapons": [
             "Thunderstrike Gauntlet",
               ">Chrimson Glaive<",
@@ -284,23 +289,21 @@
 
             ],
             "specialRules": [
-            "Damage Capacity: 2",
               "Stubborn",
               "Fearless",
               "Reinforced Armour",
             "Thick Rear Armour",
               "Walker",
               "Ion Shield (3+)"
-            ],
-                    "crit": "The Questoris Knight is destroyed."
+            ]
         },
         {
             "name": "Questoris Relic Knight-Styrix",
-            "type": "WE",
+            "type": "H-AV",
             "speed": 25,
             "armour": 5,
             "cc": 3,
-            "ff": 3,
+            "ff": 4,
             "weapons": [
               "Volkite Chierovile||FwA",
               "Twin Rad Cleanser",
@@ -308,87 +311,79 @@
               "Hekaton Siege Claw"
             ],
             "specialRules": [
-        "Damage Capacity: 2",
-              "Stubborn",
+                      "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
               "Walker",
               "Ion Shield (3+)",
             "Ionic Flare Shield"
-            ],
-                    "crit": "The Questoris Knight is destroyed."
+            ]
         },
         {
             "name": "Questoris Relic Knight-Magaera",
-            "type": "WE",
+            "type": "H-AV",
             "speed": 25,
             "armour": 5,
             "cc": 3,
-            "ff": 3,
+            "ff": 4,
             "weapons": [
               "Lightning Cannon||FwA",
               "Twin Phased Plasma Fusil||FwA",
               "Reaper Chainsword"
             ],
             "specialRules": [
-        "Damage Capacity: 2",
               "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
               "Walker",
               "Ion Shield (3+)",
             "Ionic Flare Shield"
-            ],
-                    "crit": "The Questoris Knight is destroyed."
+            ]
         },
         {
             "name": "Dominus Knight-Castellan",
-            "type": "WE",
-            "speed": 20,
-            "armour": 4,
-            "cc": 3,
-            "ff": 3,
-            "weapons": [
-              "Shieldbreaker Missiles|2|FxF",
-              "Volcano Lance||FwA",
-              "Twin Siegebreaker Cannon|2|FwA",
-              "Plasma Decimator||FwA"
-            ],
-            "specialRules": [
-        "Damage Capacity: 2",
-              "Stubborn",
-              "Reinforced Armour",
-              "Walker",
-              "Ion Shield (3+)"
-            ],
-                    "crit": "The Dominus Knight is destroyed."
-        },
-        {
-            "name": "Dominus Knight-Valiant",
-            "type": "WE",
+            "type": "H-AV",
             "speed": 20,
             "armour": 4,
             "cc": 3,
             "ff": 3,
             "weapons": [
               "Shieldbreaker Missiles|4|FxF",
+              "Volcano Lance||FwA",
               "Twin Siegebreaker Cannon||FwA",
+              "Plasma Decimator||FwA"
+            ],
+            "specialRules": [
+              "Stubborn",
+              "Reinforced Armour",
+              "Walker",
+              "Ion Shield (3+)"
+            ]
+        },
+        {
+            "name": "Dominus Knight-Valiant",
+            "type": "H-AV",
+            "speed": 20,
+            "armour": 4,
+            "cc": 3,
+            "ff": 3,
+            "weapons": [
+              "Shieldbreaker Missiles|2|FxF",
+              "Twin Siegebreaker Cannon|2|FwA",
               "Conflagration Cannon",
               "Thundercoil Harpoon"
 
             ],
                       "specialRules": [
-        "Damage Capacity: 2",
               "Stubborn",
               "Reinforced Armour",
               "Walker",
               "Ion Shield (3+)"
-            ],
-                    "crit": "The Dominus Knight is destroyed."
+            ]
         },
       {
           "name": "Cerastus Knight-Acheron",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 2,
@@ -398,19 +393,17 @@
             "Reaper Chainfist"
           ],
           "specialRules": [
-        "Damage Capacity: 2",
             "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Scout",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Cerastus Knight is destroyed."
+          ]
       },
       {
           "name": "Cerastus Knight-Castigator",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 2,
@@ -420,19 +413,17 @@
             "Tempest Warblade"
           ],
           "specialRules": [
-        "Damage Capacity: 2",
             "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
             "Walker",
             "Scout",
             "Ion Shield (3+)"
-          ],
-                  "crit": "The Cerastus Knight is destroyed."
+          ]
       },
       {
           "name": "Cerastus Knight-Lancer",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 2,
@@ -441,7 +432,6 @@
             "Cerastus Shock Lance"
           ],
           "specialRules": [
-        "Damage Capacity: 2",
             "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
@@ -449,12 +439,11 @@
             "Scout",
             "Ion Shield (3+)",
             "Ionic Flare Shield"
-        ],
-                "crit": "The Cerastus Knight is destroyed."
+        ]
       },
       {
           "name": "Cerastus Relic Knight-Atrapos",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 30,
           "armour": 5,
           "cc": 2,
@@ -464,7 +453,7 @@
             "Atrapos Lascutter"
           ],
           "specialRules": [
-        "Damage Capacity: 2",
+            "Fearless",
             "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
@@ -472,8 +461,7 @@
             "Scout",
             "Ion Shield (3+)",
             "Ionic Flare Shield"
-          ],
-                  "crit": "The Cerastus Knight is destroyed."
+          ]
       },
 
 

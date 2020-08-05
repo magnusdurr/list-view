@@ -1643,15 +1643,23 @@
     },
     {
       "name": "Avenger Gatling Cannon",
-      "modes": [
-        {
-          "firepower": "6x AP6+/AT6+",
-          "range": 45,
-          "specialRules": [
+        "modes": [
+            {
+              "firepower": "6x AP6+/AT6+",
+              "range": 45,
+              "specialRules": [
+                  "FwA"
           ]
-        }
+      },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+                "IC"
+              ]
+            }
       ]
-    },
+  },
     {
       "name": "Avenger Shuriken Catapults",
       "modes": [
@@ -2683,6 +2691,13 @@
           "Lightning Charge"
         ]
     },
+    {
+      "firepower": "Small Arms",
+      "join": "and",
+      "specialRules": [
+        "Lance"
+      ]
+  },
         {
           "firepower": "Assault Weapons",
           "join": "or",
@@ -10471,7 +10486,7 @@
       "modes": [
         {
           "firepower": "Assault Weapon",
-          "specialRules": ["EA(+1)", "TK(D2)"]
+          "specialRules": ["EA(+1)", "TK(D3)"]
         }
       ]
     },

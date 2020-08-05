@@ -10,7 +10,8 @@
           "Bravery",
           "Stubborn",
           "Ion Shield (x)",
-          "Ionic Flare Shield"
+          "Ionic Flare Shield",
+          "Heavy Armoured Vehicle (H-AV)"
 
   ],
   "usage": [
@@ -22,7 +23,8 @@
       "units": [
         "Lord Seneschal",
         "Seneschal",
-
+        "Twin Icarus Autocannon",
+        "Ironstorm Missile Pod",
         "Dominus Knight-Castellan",
         "Dominus Knight-Valiant",
         "Questoris Knight-Paladin",
@@ -77,20 +79,17 @@
 "sections": [
     {
       "name": "Core Banners",
-      "description": "Up to one Dominus Banner for each Questorium Maxima or Questoris Banner",
+      "description": "Up to one Dominus Banner for each Questoris Banner",
       "formations": [
-          {
-            "name": "0-1 Questorium Maxima",
-            "units": "One Lord Seneschal, three Questoris Knights (except 'Preceptor' configuration. May not mix configurations)",
-              "extraUnits": [
-            ],
-            "points": 500
-        },
         {
           "name": "Questoris",
-          "units": "Two Questoris Knights (except 'Preceptor' configuration. May not mix configurations)",
+          "units": "Two Questoris Knight-Paladins, Crusaders, Errants, Wardens or Gallants. May not mix configurations",
             "extraUnits": [
-                  "Seneschal"
+                "Seneschal",
+                "Add one Questoris Knight of the same configuration: 125 points",
+                "Add either one Twin Icarus Autocannon or an Ironstorm Missile Pod to each Questoris Knight in the formation: 25 points",
+                "(0-1 in the army) Replace the Seneschal in the formation with a Lord Seneschal: 50 points"
+
           ],
           "points": 325
       },
@@ -111,6 +110,7 @@
         "name": "Cerastus",
         "units": "One Cerastus Knight",
         "extraUnits": [
+                  "Seneschal",
             "Add one Cerastus Knight of the same configuration: 150 points"
         ],
         "points": 225
@@ -139,10 +139,9 @@
         },
         {
           "name": "Questoris Reliquae",
-          "units": "One Questoris Relic Knight-Styrix or Knight-Magaera",
+          "units": "One Seneschal, one Questoris Relic Knight-Styrix or Knight-Magaera",
           "extraUnits": [
-              "Add one Questoris Relic Knight of the same configuration: 150 points",
-              "Seneschal"
+              "Add one Questoris Relic Knight of the same configuration: 150 points"
           ],
           "points": 225
       },
@@ -155,10 +154,9 @@
         },
       {
         "name": "Acastus Reliquae",
-        "units": "One Acastus Relic Knight-Porphyrion or Knight-Asterius",
+        "units": "One Seneschal, one Acastus Relic Knight-Porphyrion or Knight-Asterius",
         "extraUnits": [
-            "Add one Acastus Relic Knight of the same configuaration: 225 points",
-            "Seneschal"
+            "Add one Acastus Relic Knight of the same configuaration: 225 points"
         ],
         "points": 300
     }
