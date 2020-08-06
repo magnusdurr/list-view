@@ -24,7 +24,6 @@
         "Lord Seneschal",
         "Seneschal",
         "Twin Icarus Autocannon",
-        "Ironstorm Missile Pod",
         "Dominus Knight-Castellan",
         "Dominus Knight-Valiant",
         "Questoris Knight-Paladin",
@@ -87,7 +86,7 @@
             "extraUnits": [
                 "Seneschal",
                 "Add one Questoris Knight of the same configuration: 125 points",
-                "Add either one Twin Icarus Autocannon or an Ironstorm Missile Pod to each Questoris Knight in the formation: 25 points",
+                "Add one Twin Icarus Autocannon to each Questoris Knight in a formation with Knight-Paladins, Crusaders or Errants: 25 points",
                 "(0-1 in the army) Replace the Seneschal in the formation with a Lord Seneschal: 50 points"
 
           ],
@@ -95,8 +94,9 @@
       },
       {
         "name": "Dominus",
-        "units": "One Seneschal, one Dominus Knight",
+        "units": "One Dominus Knight",
         "extraUnits": [
+                "Seneschal"
         ],
         "points": 250
     }
@@ -117,12 +117,12 @@
     },
     {
       "name": "Armiger",
-      "units": "Three Knight-Warglaives or three Knight-Helverins",
+      "units": "Four Knight-Warglaives or three Knight-Helverins",
       "extraUnits": [
           "Add one Armiger Knight of the same configuration: 50 points",
           "Add one Knight-Preceptor with a Seneschal: 175 points"
       ],
-      "points": 175
+      "points": 200
     }
   ]
 },
@@ -135,7 +135,7 @@
             "units": "Three Armiger Relic Knight-Moirax",
             "extraUnits": [
             ],
-            "points": 200
+            "points": 175
         },
         {
           "name": "Questoris Reliquae",

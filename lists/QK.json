@@ -106,7 +106,6 @@
             "ff": 5,
             "weapons": [
               "Thermal Spear",
-              "Heavy Stubber",
               "Reaper Chain-Cleaver"
             ],
             "specialRules": [
@@ -124,8 +123,7 @@
             "cc": 4,
             "ff": 5,
             "weapons": [
-              "Twin Autocannon",
-              "Heavy Stubber"
+              "Autocannon|2|"
             ],
             "specialRules": [
               "Stubborn",
@@ -161,7 +159,7 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Rapid Fire Battle Cannon||FwA",
+            "Rapid Fire Battle Cannon",
             "Reaper Chainsword"
           ],
           "specialRules": [
@@ -199,8 +197,8 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Rapid Fire Battle Cannon||FwA",
-            "Avenger Gatling Cannon||"
+            "Rapid Fire Battle Cannon",
+            "Avenger Gatling Cannon"
           ],
           "specialRules": [
             "Stubborn",
@@ -218,9 +216,9 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
+            "Twin Icarus Autocannon",
             "Thunderstrike Gauntlet",
             "Reaper Chainsword"
-
           ],
           "specialRules": [
             "Stubborn",
@@ -238,7 +236,8 @@
           "cc": 3,
           "ff": 4,
           "weapons": [
-            "Avenger Gatling Cannon||",
+            "Avenger Gatling Cannon",
+            "Ironstorm Missile Pod",
             "Reaper Chainsword"
           ],
           "specialRules": [
@@ -279,11 +278,11 @@
             "weapons": [
             "Thunderstrike Gauntlet",
               ">Chrimson Glaive<",
-              "Conflagration Cannon||FwA",
+              "Conflagration Cannon",
               ">Iron Wolf<",
-              "Helfrost Destructor||FwA",
+              "Helfrost Destructor",
               ">Justice<",
-              "Castigator Cannon||FwA",
+              "Castigator Cannon",
               ">Canis Rex<",
               "Las Impulsor"
 
@@ -305,7 +304,7 @@
             "cc": 3,
             "ff": 4,
             "weapons": [
-              "Volkite Chierovile||FwA",
+              "Volkite Chierovile",
               "Twin Rad Cleanser",
               "Graviton Crusher",
               "Hekaton Siege Claw"
@@ -327,8 +326,8 @@
             "cc": 3,
             "ff": 4,
             "weapons": [
-              "Lightning Cannon||FwA",
-              "Twin Phased Plasma Fusil||FwA",
+              "Lightning Cannon",
+              "Twin Phased Plasma Fusil",
               "Reaper Chainsword"
             ],
             "specialRules": [
@@ -348,9 +347,9 @@
             "cc": 3,
             "ff": 3,
             "weapons": [
-              "Shieldbreaker Missiles|4|FxF",
+              "Shieldbreaker Missiles|4|",
               "Volcano Lance||FwA",
-              "Twin Siegebreaker Cannon||FwA",
+              "Twin Siegebreaker Cannon||",
               "Plasma Decimator||FwA"
             ],
             "specialRules": [
@@ -368,8 +367,8 @@
             "cc": 3,
             "ff": 3,
             "weapons": [
-              "Shieldbreaker Missiles|2|FxF",
-              "Twin Siegebreaker Cannon|2|FwA",
+              "Shieldbreaker Missiles|2|",
+              "Twin Siegebreaker Cannon|2|",
               "Conflagration Cannon",
               "Thundercoil Harpoon"
 
@@ -432,6 +431,7 @@
             "Cerastus Shock Lance"
           ],
           "specialRules": [
+            "Lance",
             "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",
@@ -453,7 +453,6 @@
             "Atrapos Lascutter"
           ],
           "specialRules": [
-            "Fearless",
             "Stubborn",
               "Reinforced Armour",
             "Thick Rear Armour",

@@ -1650,14 +1650,7 @@
               "specialRules": [
                   "FwA"
           ]
-      },
-            {
-              "firepower": "Small Arms",
-              "join": "and",
-              "specialRules": [
-                "IC"
-              ]
-            }
+      }
       ]
   },
     {
@@ -2688,30 +2681,18 @@
           "firepower": "Small Arms",
           "specialRules": [
           "EA(+1)",
-          "Lightning Charge"
+          "Lightning Charge",
+          "Lance"
         ]
     },
-    {
-      "firepower": "Small Arms",
-      "join": "and",
-      "specialRules": [
-        "Lance"
-      ]
-  },
         {
           "firepower": "Assault Weapons",
           "join": "or",
           "specialRules": [
             "EA(+1)",
-            "Lightning Charge"
+            "Lightning Charge",
+            "Lance"
           ]
-      },
-      {
-        "firepower": "Assault Weapons",
-        "join": "and",
-        "specialRules": [
-          "Lance"
-        ]
       }
       ]
     },
