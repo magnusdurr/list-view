@@ -85,7 +85,7 @@
           "units": "Two Questoris Knight-Paladins, Crusaders, Errants, Wardens or Gallants. May not mix configurations",
             "extraUnits": [
                 "Seneschal",
-                "(0-1 in the army) Replace the Seneschal in the formation with a Lord Seneschal: 50 points",
+                "Lord Seneschal",
                 "Add one Questoris Knight of the same configuration: 125 points",
                 "Add one Twin Icarus Autocannon to each Questoris Knight in a formation with Knight-Paladins, Crusaders or Errants: 25 points"
 
@@ -96,7 +96,8 @@
         "name": "Dominus",
         "units": "One Dominus Knight",
         "extraUnits": [
-                "Seneschal"
+                "Seneschal",
+                "Lord Seneschal"
         ],
         "points": 250
     }
@@ -111,7 +112,7 @@
         "units": "One Cerastus Knight",
         "extraUnits": [
                   "Seneschal",
-            "Add one Cerastus Knight of the same configuration: 150 points"
+            "Add one Cerastus Knight of the same configuration: 175 points"
         ],
         "points": 225
     },
@@ -209,7 +210,16 @@
               "points": "25 points"
             }
           ]
-        }
+      },
+      {
+        "name": "(0-1 per Army) Lord Seneschal",
+        "options": [
+          {
+            "description": "Replace the Seneschal with a Lord Seneschal",
+            "points": "50 points"
+          }
+        ]
+      }
 ],
 "usage": [
   ""

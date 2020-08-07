@@ -77,8 +77,9 @@
         },
         {
           "name": "Minervan Super-Heavy Company",
-          "units": "Three Baneblades, Stormblades, Stormswords, Stormhammers, and/or Shadowswords, one with a Commissar-Captain",
+          "units": "Three Baneblades, Stormblades, Stormswords, and/or Shadowswords, one with a Commissar-Captain",
           "extraUnits": [
+              "Upgrade one Baneblade to a Stormhammer: 25 points",
               "Supreme Commander",
               "Flak"
 
@@ -113,15 +114,14 @@
             "points": 375
           },
           {
-            "name": "Minervan Mechanized Infantry Company",
-            "units": "One Leman Russ Conqueror with a Commissar-Captain, eight Infantry and four Chimeras",
+            "name": "Mechanized Infantry Platoon",
+            "units": "Six Infantry and three Chimeras",
             "extraUnits": [
-                "Add three Leman Russ, Leman Russ Conquerors, or Leman Russ Punishers: 125 points",
                 "Hellhounds",
                 "Griffons",
                 "Flak"
             ],
-            "points": 375
+            "points": 225
           },
         {
           "name": "Artillery Battery",
@@ -141,9 +141,9 @@
         },
         {
           "name": "Super-Heavy Platoon",
-          "units": "One Baneblade, Stormsword, Stormhammer, or Stormblade",
+          "units": "One Baneblade, Stormsword, or Stormblade",
           "extraUnits": [
-            "Replace one Baneblade, Stormsword, Stormhammer, or Stormblade with a Shadowsword: 25 points"
+            "Replace one Baneblade, Stormsword, or Stormblade with a Shadowsword: 25 points"
           ],
           "points": 175
         },

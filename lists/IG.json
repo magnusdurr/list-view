@@ -293,15 +293,13 @@
       "name": "Commissar",
       "type": "CH",
       "weapons": [
-        "Power Weapon|0-1",
-        "Master-Crafted Guns|0-1"
+        "Power Weapon"
       ],
       "specialRules": [
         "Leader",
         "Inspiring",
         "Fearless"
-    ],
-        "notes":  "Has Master-Crafted Guns if attached to a WE, AV or LV unit, Power Weapon if attached to an INF unit"
+    ]
     },
     {
       "name": "Infantry",
