@@ -47,7 +47,7 @@
       "units": [
           "Warhound"
         ],
-      "unitRules": ["Void Shields", "Independent"]
+      "unitRules": ["Void Shields"]
     },
     {
       "from": "ImperialNavy.json",
@@ -170,12 +170,12 @@
       "description": "Up to a third of the points available may be spent on Collegia Titanica and Imperial Navy Formations",
       "formations": [
           {
-            "name": "Warhound Pack",
-            "units": "Two Warhounds",
+            "name": "Warhounds",
+            "units": "One Warhound Titan",
             "extraUnits": [
-                "Warhound Pack gains the 'Independent' special rule: 50 points"
+                "Add an additional Warhound Titan: 200 points"
             ],
-            "points": 500
+            "points": 275
           },
         {
           "name": "Thunderbolt Squadron",

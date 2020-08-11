@@ -59,8 +59,7 @@
         "Warhound"
       ],
       "unitRules": [
-        "Void Shields",
-        "Independent"
+        "Void Shields"
       ]
     }
   ],
@@ -202,13 +201,13 @@
           "points": 225
         },
         {
-          "name": "Warhound Pack",
-          "units": "Two Warhound Class Titans",
+          "name": "Warhounds",
+          "units": "One Warhound Titan",
           "extraUnits": [
-            "Independent"
+              "Add one additional Warhound Titan: 200 points"
           ],
-          "points": 500
-        }
+          "points": 275
+      }
       ]
     }
   ],

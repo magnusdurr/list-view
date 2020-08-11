@@ -184,10 +184,11 @@
       "description": "Up to a third of the points available may be spent on Collegia Titanica & Imperial Navy formations",
       "formations": [
               {
-            "name": "Warhound Pack",
-            "units": "Two Warhounds",
-            "points": 500,
-            "upgrades": [
+            "name": "Warhounds",
+            "units": "One Warhound Titan",
+            "points": 275,
+            "extraUnits": [
+                "Add an additional Warhound Titan: 200 points"
             ]
           },
         {

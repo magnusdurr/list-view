@@ -56,8 +56,7 @@
         "Reaver Titan"
           ],
       "unitRules": [
-        "Void Shields",
-        "Independent"
+        "Void Shields"
       ]
   },
   {
@@ -223,12 +222,12 @@
         "points": 225
     },
     {
-      "name": "Warhound Pack",
-      "units": "Two Warhounds",
+      "name": "Warhounds",
+      "units": "One Warhound Titan",
       "extraUnits": [
-          "Add the 'Independent' special rule to the formation: 50 points"
+          "Add an additional Warhound Titan: 200 points"
       ],
-      "points": 500
+      "points": 275
     },
     {
       "name": "Reaver",
