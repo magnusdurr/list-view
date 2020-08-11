@@ -1248,7 +1248,7 @@
         "modes": [
           {
             "firepower": "MW3+",
-              "range": 60,
+              "range": 45,
             "specialRules": [
           ]
           }
@@ -2580,7 +2580,6 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)"
         ]
         }
       ]
@@ -5914,7 +5913,7 @@
       "name": "Ironstorm Missile Pod",
         "modes": [
           {
-            "firepower": "1BP",
+            "firepower": "2BP",
             "range": 45,
             "specialRules": [
           ]
@@ -6427,7 +6426,7 @@
       "name": "Lightning Cannon",
         "modes": [
           {
-            "firepower": "MW3+",
+            "firepower": "MW2+",
             "range": 45,
             "specialRules": [
                 "D",
@@ -6533,10 +6532,10 @@
     ]
     },
     {
-    "name": "Twin Magna Lascannon",
+    "name": "Quad Magna Lascannon",
       "modes": [
         {
-          "firepower": "AT2+",
+          "firepower": "3x AT2+",
           "range": 90,
           "specialRules": [
             "Lance"
