@@ -33,6 +33,7 @@
         "Leman Russ Punisher",
         "Leman Russ Destroyer",
         "Leman Russ Executioner",
+        "Leman Russ Exterminator",
         "Shadowsword",
         "Baneblade",
         "Stormblade",
@@ -69,7 +70,7 @@
           "name": "Minervan Tank Company",
           "units": "One Leman Russ Vanquisher with a Commissar-Captain, nine Leman Russ",
           "extraUnits": [
-            "Replace nine Leman Russ with nine Leman Russ Punishers: Free",
+            "Replace nine Leman Russ with nine Leman Russ Demolishers or nine Leman Russ Executioners: Free",
             "Supreme Commander",
             "Flak"
           ],
@@ -105,8 +106,9 @@
       "formations": [
           {
             "name": "Leman Russ Platoon",
-            "units": "Six Leman Russ, Leman Russ Executioners, Leman Russ Punishers, Leman Russ Thunderers or Leman Russ Conquerors",
+            "units": "Six Leman Russ",
             "extraUnits": [
+                "Replace six Leman Russ with six Leman Russ Executioners, six Leman Russ Exterminators, six Leman Russ Punishers, six Leman Russ Thunderers or six Leman Russ Conquerors",
                 "Hellhounds",
                 "Griffons",
                 "Flak"
@@ -190,9 +192,9 @@
         {
           "name": "0–1 Orbital Support",
           "units": "One Lunar Class Cruiser",
-          "points": 125,
+          "points": 150,
           "extraUnits": [
-              "Replace with an Emperor Class Battleship for +50 points"
+              "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
           ]
         }
       ]
