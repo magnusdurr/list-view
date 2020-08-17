@@ -26,9 +26,10 @@
         "Big Mob Oddboy",
         "Boyz",
         "Grotz",
-        "Nobz",
+        "Flash Gitz",
         "Deffkopta",
         "Gunwagon",
+        "Battlewagon",
         "Flakwagon",
         "Killa Kan",
         "Deff Dread",
@@ -64,7 +65,7 @@
               "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
               ],
-          "points": 850
+          "points": 950
           },
           {
             "name": "Great Gargant",
@@ -72,7 +73,7 @@
             "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
             ],
-        "points": 700
+        "points": 750
         },
         {
           "name": "Gargant",
@@ -80,7 +81,7 @@
           "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
           ],
-          "points": 550
+          "points": 600
       }
         ]
     },
@@ -88,21 +89,27 @@
       "name": "Bad Moons Big Mek Mobs",
       "description": "Up to four for each Bad Moons Gargants formation",
       "formations": [
+          {
+            "name": "Bad Moons Warband",
+            "units": "Two Flash Gitz, six Ork Boyz, two Grotz",
+            "extraUnits": [
+                "Add any number of Ork Boyz, Battlewagons: 20 points each",
+                "Add any number of Killa Kans, Big Gunz: 25 points each",
+                "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
+                "Add any number of Deff Dreads, Boyz + Grotz,: 35 points each",
+              "Add any number of Stompas: 50 points each",
+              "0-1: Add one Battlefortress: 100 points",
+              "0-1: Add one Big Mob Oddboy character to a Battlefortress or Gunwagon unit: 50 points",
+              "0-2: Flash Gitz: 50 points each"
+            ],
+          "points": 250
+          },
         {
-          "name": "Bad Moons Gunfortress Warband",
+          "name": "Bad Moons Loota Warband",
           "units": "Four Boyz, two Grotz, one Gunfortress",
           "extraUnits": [
             "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
             "0-1: Add one Big Mob Oddboy character to a Gunfortress unit: 50 points"
-        ],
-          "points": 225
-        },
-        {
-          "name": "Big Mek Runn'n Gunz",
-          "units": "Four Big Gunz, two Grotz, one Battlefortress",
-          "extraUnits": [
-            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
-            "0-1: Add one Big Mob Oddboy character to a Battlefortress unit: 50 points"
         ],
           "points": 225
         },

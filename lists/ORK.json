@@ -175,6 +175,22 @@
       ]
     },
     {
+      "name": "Flash Gitz",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Snazzguns",
+        "Choppas"
+      ],
+      "specialRules": [
+        "Leader",
+        "Infiltrators"
+      ]
+    },
+    {
       "name": "Nob Warbikes",
       "type": "INF",
       "speed": 35,
@@ -207,7 +223,7 @@
       "type": "INF",
       "speed": 15,
       "armour": 6,
-      "cc": 3,
+      "cc": 4,
       "ff": 6,
       "weapons": [
         "Big Shoota"
@@ -782,14 +798,14 @@
       "name": "Mega Gargant",
       "type": "WE",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 4,
       "weapons": [
-          "Big Gun|4|",
+          "Big Gun|4|FwA",
           "Weirdboy Tower",
           "Flak Gun|2|",
-          "2x Grot-Guided Missile",
+          "2x Grot-Guided Missile||FwA",
           "Twin Supa-Zzap-Gun||FwA",
           "Soopagunz||FxF",
           "Kombat Arms"
@@ -1032,14 +1048,14 @@
     {
       "name": "Squig Katapult",
       "type": "INF",
-      "speed": 15,
+      "speed": 10,
       "cc": 6,
       "ff": 5,
       "weapons": [
        "Squig Katapult"
       ],
       "specialRules": [
-
+          "Infiltrators"
       ]
     },
     {

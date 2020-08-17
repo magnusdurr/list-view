@@ -10,8 +10,7 @@
     "Bionics",
     "Extended Command",
     "Battlefield Repairs",
-    "Space Marine Transports",
-    "Iron Hands Transports"
+    "Space Marine Transports"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Iron Hands, or one of their successor chapters, using their preferred operational methods."
@@ -284,6 +283,10 @@
         "name": "Transports",
         "description": "Add any number of Razorbacks or Land Raider variants, up to the number required to transport the formation",
         "options": [
+            {
+              "description": "The formation may take Siege Rhinos instead of Rhinos",
+              "points": "25 points"
+          },
             {
               "description": "Razorback",
               "points": "25 points"
