@@ -278,6 +278,19 @@
       ]
     },
     {
+      "name": "Pulsa Rokkitz",
+      "type": "LV",
+      "speed": 10,
+      "armour": 5,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Pulsa Rokkit"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
       "name": "Deffkopta",
       "type": "LV",
       "speed": 35,
@@ -686,7 +699,7 @@
         "Big Gun",
         "Soopagun|2-3|FxF",
         "Supa-Zzap-Gun|0-1|FxF",
-        "Mega-Choppa|0-1|FxF"
+        "Mega-Choppa|0-1|"
       ],
       "specialRules": [
           "Damage Capacity 7",
@@ -890,7 +903,7 @@
           "Damage Capacity 2"
 
       ],
-            "crit": "The Bommer is destroyed"
+            "crit": "The Bommer is destroyed."
     },
     {
       "name": "Landa",
@@ -910,7 +923,7 @@
           "Transport"
       ],
       "notes": "Ten Killa Kans, Warbikes, Boyz, Nobz, Kommandos, Stormboyz, Grotz. Big Gunz, Warbuggies, Skorchas, Deff Dreads takes two spaces each. May carry four units of Grotz in addition to any other units transported",
-      "crit": "The Landa and all units being transported are destroyed"
+      "crit": "The Landa and all units being transported are destroyed."
     },
     {
       "name": "Drop Rok",

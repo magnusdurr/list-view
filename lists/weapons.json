@@ -6290,7 +6290,7 @@
           "firepower": "AT2+",
           "range": 90,
           "specialRules": [
-          "S"
+          "Lance"
           ]
         }
       ]
@@ -6661,7 +6661,9 @@
         {
           "firepower": "2x AP5+/AT5+",
           "range": 45,
-          "specialRules": []
+          "specialRules": [
+              "FxF"
+          ]
         },
         {
           "firepower": "Assault Weapons",
@@ -8100,6 +8102,19 @@
           "firepower": "2x MW3+",
           "range": 75,
           "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pulsa Rokkit",
+      "modes": [
+        {
+          "firepower": "AP4+/AT5+",
+          "range": 45,
+          "specialRules": [
+              "Ind",
+              "D"
           ]
         }
       ]
