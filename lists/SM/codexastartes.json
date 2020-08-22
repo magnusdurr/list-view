@@ -62,7 +62,8 @@
   {
     "from": "ImperialNavy.json",
     "units": [
-      "Thunderbolt Fighter"
+      "Thunderbolt Fighter",
+      "Marauder Bomber"
     ],
       "unitRules": [
     ]
@@ -200,11 +201,6 @@
       "name": "Codex Astartes, Imperial Aircraft & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "Thunderbolt Squadron",
-            "units": "Two Thunderbolt Fighters",
-            "points": 175
-          },
     {
           "name": "Storm Talons",
           "units": "Two Storm Talons",
@@ -215,6 +211,16 @@
           "units": "One Thunderhawk",
           "points": 225
       },
+      {
+        "name": "Thunderbolt Squadron",
+        "units": "Two Thunderbolt Fighters",
+        "points": 175
+      },
+      {
+        "name": "Marauder Squadron",
+        "units": "Two Marauder Bombers",
+        "points": 225
+    },
     {
       "name": "Warhounds",
       "units": "One Warhound Titan",
