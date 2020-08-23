@@ -3247,7 +3247,7 @@
       "name": "Dakka Kannon",
         "modes": [
           {
-            "firepower": "8x AP5+/AT5+",
+            "firepower": "6x AP5+/AT5+",
             "range": 60,
             "specialRules": [
           ]
@@ -3258,7 +3258,7 @@
       "name": "Dakka-Dakka Kannon",
         "modes": [
           {
-            "firepower": "12x AP5+/AT5+",
+            "firepower": "9x AP5+/AT5+",
             "range": 60,
             "specialRules": [
           ]
@@ -6421,7 +6421,27 @@
         }
       ]
     },
-
+    {
+      "name": "Lifta-Droppa ",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 45,
+          "specialRules": [
+              "TK(D3+1)",
+              "FxF"
+        ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+              "EA(+1)",
+              "TK(1)"
+          ]
+        }
+      ]
+    },
     {
       "name": "Lightning Cannon",
         "modes": [
@@ -9547,7 +9567,7 @@
       "name": "Twin Soopagun",
         "modes": [
           {
-            "firepower": "4BP",
+            "firepower": "3BP",
             "range": 75,
             "specialRules": [
                 "MW"
@@ -9556,7 +9576,7 @@
       ]
     },
     {
-      "name": "Soopagunz",
+      "name": "Soopagunz Belly Battery",
         "modes": [
           {
             "firepower": "10BP",
@@ -11986,8 +12006,8 @@
       "name": "Zzap-Gun",
       "modes": [
         {
-          "firepower": "2x MW3+",
-          "range": 45,
+          "firepower": "MW3+",
+          "range": 60,
           "specialRules": [
           ]
         }

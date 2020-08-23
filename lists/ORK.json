@@ -66,8 +66,7 @@
     ],
     "specialRules": [
       "Supreme Commander"
-  ],
-  "notes": "Has 'Ore Dakka if added to a WE unit, or Power Claw if added to an INF unit"
+  ]
   },
     {
       "name": "Oddboy",
@@ -389,7 +388,7 @@
       "specialRules": [
           "Transport"
       ],
-      "notes": "Two units of Boyz, Nobz, Kommandos or Grotz. Big Gunz takes two spaces each. May carry one unit of Grotz in addition to any other units transported"
+      "notes": "Two units of Boyz, Nobz, Flash Gitz, Kommandos or Grotz. Big Gunz takes two spaces each. May carry one unit of Grotz in addition to any other units transported"
     },
 
     {
@@ -405,7 +404,7 @@
       "specialRules": [
           "Transport"
       ],
-      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
+      "notes": "One unit of Boyz, Nobz, Flash Gitz, Kommandos or Grotz"
     },
     {
       "name": "Speed Freek Gunwagon",
@@ -478,7 +477,7 @@
       "specialRules": [
           "Transport"
       ],
-      "notes": "One unit of Boyz, Nobz, Kommandos or Grotz"
+      "notes": "One unit of Boyz, Nobz, Flash Gitz, Kommandos or Grotz"
     },
     {
       "name": "Speed Freek Flakwagon",
@@ -586,7 +585,7 @@
           "Damage Capacity 3",
           "Transport"
       ],
-      "notes": "Eight Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry four units of Grotz in addition to any other units transported.",
+      "notes": "Eight Boyz, Flash Gitz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry four units of Grotz in addition to any other units transported.",
       "crit": "Move the Battlefortress D6cm in a random direction, all units moved over or contacted it suffer a hit. The Battlefortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
     },
     {
@@ -604,7 +603,7 @@
           "Damage Capacity 3",
           "Transport"
       ],
-      "notes": "Four Boyz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry two units of Grotz in addition to any other units transported.",
+      "notes": "Four Boyz, Nobz, Flash Gitz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry two units of Grotz in addition to any other units transported.",
       "crit": "Move the Gunfortress D6cm in a random direction, all units moved over or contacted it suffer a hit. The Gunfortress is destroyed, and all units being carried are destroyed unless they roll a 6+"
     },
     {
@@ -649,30 +648,8 @@
       "ff": 4,
       "weapons": [
         "Gaze of Mork",
-        "Soopagun|2-3|FxF",
-        "Killa-Choppa|0-1|"
-      ],
-      "specialRules": [
-          "Damage Capacity 4",
-          "Power Fields 1D3",
-          "Fearless",
-          "Reinforced Armour",
-          "Walker",
-          "Armed with either three Soopaguns, or two Soopaguns and a Killa-Choppa"
-      ],
-      "crit": "The Supa-Stompa's head is blown off, and it suffers a -1 to-hit modifier to all shooting for the rest of the game. Subsequent crits cause an additional damage instead."
-    },
-    {
-      "name": "Supa-Stompa ",
-      "type": "WE",
-      "speed": 15,
-      "armour": 4,
-      "cc": 4,
-      "ff": 4,
-      "weapons": [
-        "Gaze of Mork",
         "ARMS (choose two)",
-        "Soopagun|0-2|FxF",
+        "Soopagun|1-2|FxF",
         "Killa-Choppa|0-1|FxF",
         "BELLY (choose one)",
         "Soopagun|0-1|FxF",
@@ -728,12 +705,12 @@
           "ARMS (choose two)",
           "Soopagun|0-2|FxF",
           "Dakka Kannon|0-2|FxF",
-          "Mega-Choppa|0-2|FxF",
+          "Mega-Choppa|0-2|",
           "Zzap-Gun|0-2|FxF",
           "BELLY (choose one)",
           "Soopagun|0-1|FxF",
           "Supa-Skorcha|0-1|FxF",
-          "Supa-Zzap-Gun|0-1|FxF",
+          "Zzap-Gun|0-1|FxF",
           "Snapper|0-1|"
       ],
       "specialRules": [
@@ -757,7 +734,7 @@
         "Big Gun|2|",
         "Soopagun||FxF",
         "Twin Soopagun|1-2|FxF",
-        "Lifta-Droppa|0-1|FxF"
+        "Lifta-Droppa |0-1|"
       ],
       "specialRules": [
           "Damage Capacity 10",
@@ -789,11 +766,11 @@
           "Twin Soopagun|0-2|FxF",
           "Dakka-Dakka Kannon|0-2|FxF",
           "Mega-Lobba|0-2|FxF",
-          "Lifta-Droppa|0-2|FxF",
+          "Lifta-Droppa |0-2|",
           "BELLY (choose one)",
           "Soopagun|0-1|FxF",
           "Supa-Skorcha|0-1|FxF",
-          "Supa-Zzap-Gun|0-1|FxF",
+          "Zzap-Gun|0-1|FxF",
           "Snapper|0-1|"
       ],
       "specialRules": [
@@ -817,10 +794,9 @@
       "weapons": [
           "Big Gun|4|FwA",
           "Weirdboy Tower",
-          "Flak Gun|2|",
           "2x Grot-Guided Missile||FwA",
           "Twin Supa-Zzap-Gun||FwA",
-          "Soopagunz||FxF",
+          "Soopagunz Belly Battery||FxF",
           "Kombat Arms"
       ],
       "specialRules": [
@@ -828,6 +804,7 @@
           "Power Fields 1D3+9",
           "God Machine",
           "Split Fire",
+          "Walker",
           "Fearless",
           "Reinforced Armour"
       ],

@@ -1,8 +1,8 @@
 {
   "fraction": "Ork",
   "army": "Bad Moons Clan, Nazdreg Ug Urdgrub's Gargant Big Mob",
-  "version": "0.5.0",
-  "release": "2019-08-28",
+  "version": "0.6.0",
+  "release": "2020-08-23",
   "strategy": "Ork armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
@@ -89,7 +89,7 @@
         ]
     },
     {
-      "name": "Bad Moons Big Mek Mobs",
+      "name": "Bad Moons Mobs",
       "description": "Up to four for each Bad Moons Gargants formation",
       "formations": [
           {
@@ -99,7 +99,7 @@
                 "Add any number of Ork Boyz, Battlewagons: 20 points each",
                 "Add any number of Killa Kans, Big Gunz, Kommandos: 25 points each",
                 "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
-                "Add any number of Deff Dreads, Boyz + Grotz,: 35 points each",
+                "Add any number of Deff Dreads, Boyz + Grotz: 35 points each",
               "Add any number of Stompas: 60 points each",
               "0-1: Add one Battlefortress: 100 points",
               "0-1: Add one Big Mob Oddboy character to a Battlefortress or Gunwagon unit: 50 points",
@@ -108,11 +108,11 @@
           "points": 225
           },
         {
-          "name": "Bad Moons Lootamob",
-          "units": "One Flash Gitz, four Boyz, one Grotz, one Gunfortress",
+          "name": "Bad Moons Fortressmob",
+          "units": "One Flash Gitz, three Boyz, one Grotz, one Gunfortress",
           "extraUnits": [
             "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
-            "0-1: Add one Big Mob Oddboy character to a Gunfortress unit: 50 points"
+            "0-1: Add one Big Mob Oddboy character to a Gunfortress or Gunwagons unit: 50 points"
         ],
           "points": 225
         },
@@ -124,7 +124,7 @@
             "Add any number of Flakwagons: 30 points each",
             "0-1 Flash Gitz: 35 points"
           ],
-          "points": 125
+          "points": 150
         },
         {
           "name": "Big Mek Dreadmob",
