@@ -540,16 +540,18 @@
       ]
     },
     {
-      "name": "Mega Dread",
+      "name": "Meka Dread",
       "type": "AV",
       "speed": 15,
       "armour": 3,
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Kombat Klaws|2|"
+          "Big Gun",
+        "Kombat Klaws"
       ],
       "specialRules": [
+          "Leader",
           "Walker"
       ]
     },
