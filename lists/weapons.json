@@ -3978,10 +3978,22 @@
       "name": "Filth Mace",
         "modes": [
           {
-            "firepower": "Assault Weapons",
+            "firepower": "Assault Weapon",
             "specialRules": [
                 "EA(+1)",
                 "TK(1)"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Fixin' Arm",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+                "EA(+1)",
+                "MW"
           ]
           }
       ]
