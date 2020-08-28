@@ -76,7 +76,7 @@
           "units": "One DKoK Supreme Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
               "Add ten Assault Infantry and one Gorgon: 250 points",
-              "Leman Russ Squadron",
+              "Leman Russ",
               "Hellhounds"
           ],
           "points": 350
@@ -85,7 +85,7 @@
           "name": "Assault Company",
           "units": "One DKoK Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
-              "Leman Russ Squadron",
+              "Leman Russ",
               "Hellhounds"
           ],
           "points": 275
@@ -245,11 +245,11 @@
     ]
   },
       {
-        "name": "Leman Russ Squadron",
+        "name": "Leman Russ",
         "options": [
           {
-            "description": "Add three Leman Russ or Leman Russ Demolishers",
-            "points": "150 points"
+            "description": "Add three Leman Russ, three Leman Russ Thunderers, or three Leman Russ Demolishers",
+            "points": "125 points"
           }
         ]
       }
