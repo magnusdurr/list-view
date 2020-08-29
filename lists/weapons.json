@@ -4631,7 +4631,7 @@
       "modes": [
         {
           "firepower": "MW2+",
-          "range": "Unlimited",
+          "range": "120",
           "specialRules": [
             "SS",
             "Ind"
@@ -4644,7 +4644,7 @@
       "modes": [
         {
           "firepower": "MW2+",
-          "range": "Unlimited",
+          "range": "120",
           "specialRules": [
             "SS",
             "Ind"
@@ -6440,7 +6440,7 @@
           "firepower": "MW3+",
           "range": 45,
           "specialRules": [
-              "TK(D3+1)",
+              "TK(D3)",
               "FxF"
         ]
         },
@@ -6738,6 +6738,21 @@
           "firepower": "MW2+",
           "range": 30,
           "specialRules": ["TK(D3)", "FwA"]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": ["EA(+1)","TK(D3)"]
+        }
+      ]
+    },
+    {
+      "name": "Melta Cannon ",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 30,
+          "specialRules": ["TK(D3)", "FxF"]
         },
         {
           "firepower": "Small Arms",
@@ -9446,7 +9461,7 @@
       ]
     },
     {
-      "name": "Snapper",
+      "name": "Snappa",
         "modes": [
           {
             "firepower": "4x AP5+/AT5+",
@@ -9460,7 +9475,7 @@
             "join": "and",
             "specialRules": [
                 "EA(+1)",
-                "TK(D3)"
+                "TK(1)"
           ]
         }
       ]
