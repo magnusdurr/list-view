@@ -84,15 +84,13 @@
       "name": "Bad Moons Oddboy",
       "type": "CH",
       "weapons": [
-        "Supa-Zzap-Gun|0-1|",
         "Soopagun|0-1|",
         "Weirdboy Tower|0-1|",
-        "D3 Power Fields|0-1|",
-        "'Uge Banner of Gork|0-1|"
-      ],
+        "D3 Power Fields|0-1|"
+          ],
       "specialRules": [
       ],
-      "notes": "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun, or Weirdboy Tower. Alternatively the unit may be given [*] D3 power fields or [**] a 'Uge Banner of Gork (unit gains Inspiring)"
+      "notes": "Replace one Big Gun weapon with either a Soopagun or Weirdboy Tower. Alternatively the unit may be given [*] D3 power fields."
     },
   {
     "name": "Speed Freek Oddboy",
@@ -707,7 +705,7 @@
           "Walker",
           "Armed with either three Soopaguns or two Soopaguns and either Supa-Zzap-Gun or a Killa-Choppa"
       ],
-      "crit": "The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn, after rallying. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause criticals and Blast Markers like normal damage."
+      "crit": "The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each roll of 1-4 cause 1 point of damage."
     },
     {
       "name": "Gargant ",
@@ -721,7 +719,7 @@
           "Gaze of Mork|0-1|",
           "Flak Gun|0-1|",
           "D3 Power Fields|0-1|",
-          "Grot-Guided Missile|0-1|FxF",
+          "Grot-Guided Missile|0-1|FwA",
           "ARMS (choose two)",
           "Soopagun|0-2|FxF",
           "Dakka Kannon|0-2|FxF",
@@ -740,7 +738,7 @@
           "Reinforced Armour",
           "Walker"
       ],
-      "crit": "The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn, after rallying. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause Blast Markers (but not criticals) like normal damage."
+      "crit": "The Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each roll of 1-4 cause 1 point of damage."
     },
     {
       "name": "Great Gargant",
@@ -751,7 +749,7 @@
       "ff": 4,
       "weapons": [
         "Gaze of Mork",
-        "Big Gun|2|FxF",
+        "Big Gun|2|",
         "Soopagun||FxF",
         "Twin Soopagun|1-2|FxF",
         "Lifta-Droppa |0-1|"
@@ -766,7 +764,7 @@
           "Walker",
           "Armed with either two Twin Soopaguns or one Twin Soopagun and a Lifta-Droppa"
       ],
-      "crit": "The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn, after rallying. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause Blast Markers (but not criticals) like normal damage."
+      "crit": "The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each roll of 1-4 cause 1 point of damage."
     },
     {
       "name": "Great Gargant ",
@@ -776,12 +774,12 @@
       "cc": 4,
       "ff": 4,
       "weapons": [
-          "Big Gun|2|FxF",
+          "Big Gun|2|",
           "'ED (choose one)",
           "Gaze of Mork|0-1|",
           "Flak Gun|0-1|",
           "D3 Power Fields|0-1|",
-          "Grot-Guided Missile|0-1|FxF",
+          "Grot-Guided Missile|0-1|FwA",
           "ARMS (choose two)",
           "Twin Soopagun|0-2|FxF",
           "Dakka-Dakka Kannon|0-2|FxF",
@@ -802,8 +800,9 @@
           "Reinforced Armour",
           "Walker"
       ],
-      "crit": "The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn, after rallying. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause Blast Markers (but not criticals) like normal damage."
+      "crit": "The Great Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each roll of 1-4 cause 1 point of damage."
     },
+
     {
       "name": "Mega Gargant",
       "type": "WE",
@@ -812,7 +811,7 @@
       "cc": 4,
       "ff": 4,
       "weapons": [
-          "Big Gun|4|FxF",
+          "Big Gun|4|",
           "Weirdboy Tower",
           "2x Grot-Guided Missile||FwA",
           "Twin Supa-Zzap-Gun||FwA",
@@ -828,7 +827,7 @@
           "Fearless",
           "Reinforced Armour"
       ],
-      "crit": "The Mega Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn, after rallying. 1: An additional fire starts. 5-6: The fire is put out. Each fire burning at the end of the End Phase cause 1 point of damage. These cause Blast Markers (but not criticals) like normal damage."
+      "crit": "The Mega Gargant catches fire. Roll 1D6 for each fire burning on the unit in the End Phase of each turn. 1: An additional fire starts. 5-6: The fire is put out. Each roll of 1-4 cause 1 point of damage."
     },
     {
       "name": "Fighta-Bommer",
