@@ -4480,6 +4480,17 @@
       ]
     },
     {
+      "name": "Gaze of Gork",
+        "modes": [
+          {
+            "firepower": "4x AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Gaze of Tzeentch",
         "modes": [
           {
@@ -9464,8 +9475,8 @@
       "name": "Snappa",
         "modes": [
           {
-            "firepower": "4x AP5+/AT5+",
-            "range": 30,
+            "firepower": "2x AP5+/AT5+",
+            "range": 45,
             "specialRules": [
                 "FxF"
           ]

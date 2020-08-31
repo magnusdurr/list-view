@@ -23,7 +23,7 @@
       "from": "ORK.json",
       "units": [
         "Big Mek",
-        "Bad Moons Oddboy",
+        "Oddboy",
         "Boyz",
         "Grotz",
         "Big Gunz",
@@ -85,7 +85,7 @@
           "upgrades": [
               "Add a Big Banner of Mork (Leader): 25 points"
           ],
-          "points": 600
+          "points": 575
       }
         ]
     },
@@ -103,7 +103,7 @@
                 "Add any number of Deff Dreads, Boyz + Grotz: 35 points each",
               "Add any number of Stompas: 60 points each",
               "0-1: Battlefortress: 100 points",
-              "0-1: Add one Bad Moons Oddboy character to a Battlefortress or Gunwagon unit: 50 points",
+              "0-1: Add one Oddboy character to a Battlefortress, Big Gunz or Gunwagon unit: 50 points",
               "0-2: Flash Gitz: 35 points each"
             ],
           "points": 225
@@ -113,7 +113,7 @@
           "units": "One Flash Gitz, three Boyz, one Grotz, one Gunfortress",
           "extraUnits": [
             "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
-            "0-1: Add one Bad Moons Oddboy character to a Gunfortress or Gunwagons unit: 50 points"
+            "0-1: Add one Oddboy character to a Gunfortress or Gunwagons unit: 50 points"
         ],
           "points": 250
         },
@@ -121,8 +121,9 @@
           "name": "Bad Moons Rokkitzmob",
           "units": "Five Pulsa Rokkitz",
           "extraUnits": [
-              "Add any number of Pulsa Rokkitz: 25 points each",
+              "Add any number of Pulsa Rokkitz, Big Gunz: 25 points each",
             "Add any number of Flakwagons: 30 points each",
+            "0-1: Add one Oddboy character to a Big Gunz unit: 50 points",
             "0-1: Flash Gitz: 35 points"
           ],
           "points": 150
@@ -134,7 +135,7 @@
               "Add any number of Killa Kans: 25 points each",
               "Add any number of Flakwagons: 30 points each",
               "Add any number of Deff Dreads: 35 points each",
-              "0-1: Replace one Deff Dread with a Meka Dread: 35 points"
+              "0-1: Meka Dread: 60 points"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "150"},
@@ -150,8 +151,8 @@
             "Add any number of Flakwagons: 30 points each",
             "Add any number of Deff Dreads: 35 points each",
             "Add any number of Stompas: 60 points each",
-            "0-1: Meka Dread: 70 points",
-            "0-1: Supa-Stompa: 275 points"
+            "0-1: Meka Dread: 60 points",
+            "0-1: Supa-Stompa: 250 points"
           ],
           "points": 175
       }
