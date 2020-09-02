@@ -329,7 +329,7 @@
       "name": "Fire Dragons",
       "type": "INF",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 5,
       "ff": 4,
       "weapons": [
@@ -344,7 +344,7 @@
       "speed": 15,
       "armour": 4,
       "cc": 6,
-      "ff": 4,
+      "ff": 3,
       "weapons": [
         "Reaper Missile Launchers"
       ],
@@ -363,6 +363,7 @@
         "Shuriken Pistols"
       ],
       "specialRules": [
+          "Infiltrators"
       ]
     },
     {
@@ -430,7 +431,7 @@
     {
       "name": "Warp Spiders",
       "type": "INF",
-      "speed": 15,
+      "speed": 20,
       "armour": 4,
       "cc": 5,
       "ff": 4,
@@ -439,7 +440,6 @@
       ],
       "specialRules": [
         "First Strike",
-        "Infiltrators",
         "Jump Packs"
       ]
     },
