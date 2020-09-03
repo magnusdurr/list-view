@@ -890,7 +890,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Autocannon", "Heavy Bolter", "Heavy Stubber"
+        "Autocannon", "Heavy Bolter"
       ],
       "specialRules": [
         "Transport"
@@ -1252,12 +1252,12 @@
     {
       "name": "Leman Russ Annihilator",
       "type": "AV",
-      "speed": 25,
+      "speed": 20,
       "armour": 4,
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Twin Lascannon", "Lascannon"
+        "Twin Lascannon", "Lascannon", "Multi-Melta|2|"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1452,7 +1452,7 @@
       "speed": 15,
       "armour": 4,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
         "Battle Cannon",
         "Heavy Bolter",

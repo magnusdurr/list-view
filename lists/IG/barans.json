@@ -42,6 +42,8 @@
         "Hades Breaching Drill",
         "Macharius",
         "Macharius Command",
+        "Malcador",
+        "Malcador Annihilator",
         "Baneblade",
         "Shadowsword",
         "Stormsword"
@@ -96,7 +98,7 @@
       "formations": [
           {
             "name": "Heavy Tank Emplacement",
-            "units": "Four Ragnarok Heavy Tanks, four Gun Emplacements",
+            "units": "Four Ragnarok Heavy Tanks, four Gun Emplacements,",
             "extraUnits": [
                 "Heavy Tanks"
             ],
@@ -107,7 +109,7 @@
             "units": "One Macharius Command with a Commissar, two Macharius",
             "extraUnits": [
             ],
-            "points": 350
+            "points": 375
           },
         {
           "name": "Sapper Company",
@@ -163,17 +165,17 @@
     },
     {
       "name": "Imperial Navy Aircraft",
-      "description": "Up to a fourth of the points available may be spent on Imperial Navy formations",
+      "description": "Up to a third of the points available may be spent on Imperial Navy formations",
       "formations": [
           {
             "name": "Thunderbolt Squadron",
             "units": "Two Thunderbolt Fighters",
-            "points": 150
+            "points": 175
           },
           {
             "name": "Marauder Squadron",
             "units": "Two Marauder Bombers",
-            "points": 225
+            "points": 250
           }
       ]
     }
@@ -232,7 +234,7 @@
         "name": "Heavy Tanks",
         "options": [
           {
-            "description": "Add three Ragnarok Heavy Tanks and three Gun Emplacements, or two Malcadors or Malcador Annihilators",
+            "description": "Add three Ragnarok Heavy Tanks and three Gun Emplacements, or two Malcadors, or two Malcador Annihilators",
             "points": "175 points"
           }
         ]

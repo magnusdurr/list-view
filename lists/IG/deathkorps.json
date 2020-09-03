@@ -88,7 +88,7 @@
               "Leman Russ",
               "Bane Wolves"
           ],
-          "points": 275
+          "points": 300
     },
         {
           "name": "Death Rider Company",
@@ -127,7 +127,7 @@
               "Add four Rapiers and 16cm Trenches, or three Thudd Guns and 12cm Trenches: 75 points",
               "Add up to two Snipers: 25 points each"
           ],
-          "points": 275
+          "points": 300
         },
         {
           "name": "Earthshaker Emplacement",
@@ -159,16 +159,16 @@
           "units": "One Macharius Command with a Commissar, two Macharius",
           "upgrades": [
           ],
-          "points": 350
+          "points": 375
         },
         {
           "name": "Grenadier Company",
           "units": "One DKoK Commander with a Commissar, seven Grenadiers, four Storm Chimeras",
           "extraUnits": [
-              "Replace four Storm Chimeras with a Gorgon: 25 points",
-              "Hellhounds"
+              "Replace four Storm Chimeras with a Gorgon: Free",
+              "Bane Wolf"
           ],
-          "points": 300
+          "points": 325
       },
       {
     "name": "Armoured Sentinel Squadron",
@@ -194,12 +194,12 @@
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
-          "points": 150
+          "points": 175
         },
         {
           "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
-          "points": 225
+          "points": 250
       },
       {
         "name": "0–1 Orbital Support",
@@ -230,8 +230,8 @@
         "name": "Bane Wolf",
         "options": [
           {
-            "description": "Add one Bane Wolf",
-            "points": "25 points"
+            "description": "Add up to two Bane Wolves",
+            "points": "25 points each"
           }
         ]
       },
@@ -239,7 +239,7 @@
     "name": "Deathstrike",
     "options": [
       {
-        "description": "Add one Deathstrike to the formation",
+        "description": "Add one Deathstrike",
         "points": "50 points"
       }
     ]
@@ -248,8 +248,8 @@
         "name": "Leman Russ",
         "options": [
           {
-            "description": "Add three Leman Russ, three Leman Russ Thunderers, or three Leman Russ Demolishers",
-            "points": "125 points"
+            "description": "Add three Leman Russ, three Leman Russ Thunderers, or three Leman Russ Annihilators",
+            "points": "150 points"
           }
         ]
       }
