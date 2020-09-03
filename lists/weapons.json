@@ -4655,7 +4655,7 @@
       "modes": [
         {
           "firepower": "MW2+",
-          "range": "120",
+          "range": "90",
           "specialRules": [
             "SS",
             "Ind"
@@ -5836,6 +5836,19 @@
           "range": 30,
           "specialRules": ["IC"]
         }
+      ]
+    },
+    {
+      "name": "Chem Gun",
+        "modes": [
+          {
+            "firepower": "AP2+",
+            "range": 30,
+            "specialRules": [
+              "IC",
+              "D"
+          ]
+          }
       ]
     },
     {

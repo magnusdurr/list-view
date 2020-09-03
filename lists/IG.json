@@ -888,9 +888,9 @@
       "speed": 25,
       "armour": 5,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
-        "Autocannon", "Heavy Flamer"
+        "Autocannon", "Heavy Bolter", "Heavy Stubber"
       ],
       "specialRules": [
         "Transport"
@@ -940,6 +940,20 @@
       ],
       "specialRules": [
 
+      ]
+    },
+    {
+      "name": "Bane Wolf",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Chem Gun", "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Walker"
       ]
     },
     {
@@ -998,7 +1012,7 @@
           "Heavy Bolter"
       ],
       "specialRules": [
-          "Transport: One Earthshaker Gun, Heavy AA Gun or Medusa Gun"
+          "Transport: One Earthshaker Gun or Heavy AA Gun"
       ]
     },
         {
@@ -1238,7 +1252,7 @@
     {
       "name": "Leman Russ Annihilator",
       "type": "AV",
-      "speed": 30,
+      "speed": 25,
       "armour": 4,
       "cc": 6,
       "ff": 5,
@@ -1295,12 +1309,12 @@
     {
       "name": "Leman Russ Conqueror",
       "type": "AV",
-      "speed": 30,
+      "speed": 25,
       "armour": 4,
       "cc": 6,
-      "ff": 5,
+      "ff": 4,
       "weapons": [
-        "Conqueror Cannon", "Lascannon"
+        "Conqueror Cannon", "Heavy Bolter|3|"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1534,9 +1548,9 @@
       "ff": 4,
       "weapons": [
         "Twin Vanquisher Cannon|0-1|",
-        "Vulcan Mega-Bolter|0-1|FxF",
-        "Twin Heavy Stubber||FxF",
-        "Heavy Bolter|2|FxF"
+        "Vulcan Mega-Bolter|0-1|",
+        "Twin Heavy Stubber||",
+        "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Damage Capacity 2",

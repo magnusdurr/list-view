@@ -30,7 +30,7 @@
         "Bombard",
         "Medusa",
         "Deathstrike",
-        "Hellhound",
+        "Bane Wolf",
         "Storm Chimera",
         "Leman Russ",
         "Leman Russ Annihilator",
@@ -77,7 +77,7 @@
           "extraUnits": [
               "Add ten Assault Infantry and one Gorgon: 250 points",
               "Leman Russ",
-              "Hellhounds"
+              "Bane Wolves"
           ],
           "points": 350
         },
@@ -86,7 +86,7 @@
           "units": "One DKoK Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
               "Leman Russ",
-              "Hellhounds"
+              "Bane Wolves"
           ],
           "points": 275
     },
@@ -116,7 +116,7 @@
           "name": "Leman Russ Platoon",
           "units": "Six Leman Russ, Leman Russ Thunderers, or Leman Russ Annihilators",
           "extraUnits": [
-              "Hellhounds"
+              "Bane Wolves"
           ],
           "points": 375
         },
@@ -227,11 +227,11 @@
     "description": "Each upgrade may be taken once per formation.",
     "items": [
           {
-        "name": "Hellhounds",
+        "name": "Bane Wolf",
         "options": [
           {
-            "description": "Add up to three Hellhounds",
-            "points": "25 points each"
+            "description": "Add one Bane Wolf",
+            "points": "25 points"
           }
         ]
       },
