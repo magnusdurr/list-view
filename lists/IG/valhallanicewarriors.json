@@ -35,9 +35,11 @@
         "Macharius Command",
         "Baneblade",
         "Shadowsword",
+        "Banehammer",
         "Stormlord"
       ],
         "unitRules": [
+            "Apocalyptic Barrage"
           ]
     },
     {
@@ -132,9 +134,9 @@
         },
         {
           "name": "Super-Heavy Platoon",
-          "units": "One Baneblade or Stormlord",
+          "units": "One Baneblade, Banehammer, or Stormlord",
           "extraUnits": [
-              "Replace the Baneblade or Stormlord with a Shadowsword: 25 points"
+              "Replace the Baneblade with a Shadowsword: 25 points"
           ],
           "points": 175
       },

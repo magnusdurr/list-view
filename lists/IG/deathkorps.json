@@ -24,11 +24,11 @@
         "Rapier",
         "Snipers",
         "Armoured Sentinel",
+        "Medusa Gun",
         "Earthshaker Gun",
         "Heavy AA Gun",
         "Trojan",
-        "Bombard",
-        "Medusa",
+        "Griffon",
         "Deathstrike",
         "Bane Wolf",
         "Storm Chimera",
@@ -94,7 +94,7 @@
           "name": "Death Rider Company",
           "units": "One Commissar, twelve Death Riders",
           "extraUnits": [
-          "Hellhounds"
+          "Bane Wolves"
           ],
           "points": 300
     }
@@ -104,14 +104,7 @@
       "name": "DKoK Support Formations",
       "description": "Up to two Support Formations for each Company Formation.",
       "formations": [
-      {
-        "name": "Siege Artillery Battery",
-        "units": "Three Bombards or four Medusa",
-        "extraUnits": [
-            "Deathstrike"
-        ],
-        "points": 225
-    },
+
         {
           "name": "Leman Russ Platoon",
           "units": "Six Leman Russ, Leman Russ Thunderers, or Leman Russ Annihilators",
@@ -130,13 +123,14 @@
           "points": 300
         },
         {
-          "name": "Earthshaker Emplacement",
-          "units": "Four Earthshaker Guns, four Gun Emplacements",
+          "name": "Artillery Emplacement",
+          "units": "Four Medusa Guns, four Gun Emplacements",
           "extraUnits": [
               "Replace four Gun Emplacements with four Trojans: 25 points",
+              "Replace four Medusa Guns with four Earthshaker Guns: 25 points",
               "Deathstrike"
           ],
-          "points": 275
+          "points": 250
         },
         {
           "name": "Flak Emplacement",
@@ -146,6 +140,13 @@
           ],
           "points": 175
         },
+        {
+          "name": "Griffon Battery",
+          "units": "Four Griffons",
+          "extraUnits": [
+          ],
+          "points": 200
+      },
         {
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade or Stormsword",
@@ -230,7 +231,7 @@
         "name": "Bane Wolf",
         "options": [
           {
-            "description": "Add up to two Bane Wolves",
+            "description": "Add up to three Bane Wolves",
             "points": "25 points each"
           }
         ]

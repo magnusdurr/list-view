@@ -22,7 +22,14 @@
         "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
         ""
       ]
-  }
+  },
+  {
+    "title": "Apocalyptic Barrage",
+    "description": [
+      "Uses the Orbital Barrage Template instead of the small template.",
+      ""
+    ]
+}
     ],
     "unit": [
     {
@@ -1133,8 +1140,9 @@
       "name": "Medusa Gun",
       "type": "LV",
       "speed": 5,
+      "armour": 6,
       "cc": 6,
-      "ff": 6,
+      "ff": 5,
       "weapons": [
         "Medusa Siege Gun"
       ],
@@ -1146,6 +1154,7 @@
       "name": "Heavy Mortar",
       "type": "LV",
       "speed": 10,
+      "armour": 6,
       "cc": 6,
       "ff": 6,
       "weapons": [
@@ -1156,9 +1165,24 @@
       ]
     },
     {
+      "name": "Heavy AA Gun",
+      "type": "LV",
+      "speed": 5,
+      "armour": 6,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy AA Gun"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
       "name": "Howitzer",
       "type": "LV",
       "speed": 5,
+      "armour": 6,
       "cc": 6,
       "ff": 6,
       "weapons": [
@@ -1182,19 +1206,6 @@
       ]
     },
 
-    {
-      "name": "Heavy AA Gun",
-      "type": "LV",
-      "speed": 5,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Heavy AA Gun"
-      ],
-      "specialRules": [
-
-      ]
-    },
     {
       "name": "Hydra",
       "type": "AV",
@@ -1271,7 +1282,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Autocannon", "Heavy Flamer", "Heavy Bolter|2|"
+        "Twin Autocannon", "Heavy Flamer|3|"
       ],
       "specialRules": [
         "Reinforced Armour"
@@ -1671,6 +1682,24 @@
       ],
       "notes": "May transport twelve infantry units without Jump Pack or Mounted, two may fire from the firing deck and participate with FF during assaults.",
       "crit": "The Stormlord is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent hits destroys the unit."
+    },
+    {
+      "name": "Banehammer",
+      "type": "WE",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Tremor Cannon||FxF",
+        "Twin Heavy Bolter|2|FxF"
+      ],
+      "specialRules": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Transport"
+      ],
+      "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
     },
     {
       "name": "Shadowsword",
