@@ -125,7 +125,6 @@
           "extraUnits": [
               "Land Transporters",
               "Support Weapons",
-              "Snipers",
               "Entrenchments"
           ],
           "points": 150
@@ -242,25 +241,17 @@
         "name": "Support Weapons",
         "options": [
           {
-            "description": "Add four Rapiers or three Thudd Guns",
-            "points": "75 points"
+            "description": "Add two Rapiers or two Thudd Guns",
+            "points": "50 points"
           }
         ]
       },
-      {
-        "name": "Snipers",
-        "options": [
-          {
-            "description": "Add up to two Snipers",
-            "points": "25 points each"
-          }
-        ]
-      },
+
       {
         "name": "Entrenchments",
         "options": [
           {
-            "description": "60cm Razor Wire, 60cm Trenches",
+            "description": "40cm Razor Wire, 40cm Trenches",
             "points": "50 points"
           }
       ]
