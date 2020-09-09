@@ -72,7 +72,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Grenade Launchers",
+        "Heavy Stubber|2|",
         "Power Weapon"
       ],
       "specialRules": [
@@ -87,7 +87,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Grenade Launchers",
+        "Heavy Stubber|2|",
         "Power Weapon"
       ],
       "specialRules": [
@@ -129,7 +129,7 @@
       "name": "Lord Commissar",
       "type": "CH",
       "weapons": [
-          "Master-Crafted Guns"
+        "Power Weapon"
       ],
       "specialRules": [
         "Supreme Commander",
@@ -207,7 +207,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Grenade Launchers"
+        "Heavy Stubber|2|"
       ],
       "specialRules": [
         "Commander"
@@ -236,7 +236,7 @@
       "cc": 4,
       "ff": 5,
       "weapons": [
-        "Grenade Launchers"
+        "Heavy Stubber|2|"
       ],
       "specialRules": [
         "Commander"
@@ -246,7 +246,7 @@
       "name": "Commissar-Captain",
       "type": "CH",
       "weapons": [
-        "Master-Crafted Guns"
+        "Power Weapon"
       ],
       "specialRules": [
         "Commander",
@@ -262,7 +262,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Heavy Stubber"
+        "Heavy Bolter"
       ],
       "specialRules": [
         "Commander"
@@ -358,12 +358,12 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Heavy Stubber",
+        "Heavy Bolter",
         "Autoguns"
       ],
       "specialRules": [
       ],
-      "notes": "One in every two units (rounding up) has a Heavy Stubber"
+      "notes": "One in every two units (rounding up) has a Heavy Bolter"
     },
     {
       "name": "Siege Infantry",
@@ -372,7 +372,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Grenade Launchers",
+        "Heavy Stubber",
         "Lasguns"
       ],
       "specialRules": [
@@ -677,8 +677,8 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Heavy Stubber|3|",
-        "Flamers"
+        "Heavy Stubber|2|",
+        "Heavy Flamer"
       ],
       "specialRules": [
 
@@ -863,7 +863,7 @@
     {
       "name": "Siegfried Light Tank",
       "type": "AV",
-      "speed": 30,
+      "speed": 25,
       "armour": 5,
       "cc": 6,
       "ff": 5,
@@ -871,6 +871,7 @@
         "Multilaser"
       ],
       "specialRules": [
+        "Walker",
         "Scout"
       ]
     },
@@ -1012,7 +1013,7 @@
       "name": "Trojan",
       "type": "LV",
       "speed": 20,
-      "armour": 6,
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -1282,7 +1283,7 @@
       "cc": 6,
       "ff": 4,
       "weapons": [
-        "Twin Autocannon", "Heavy Flamer|3|"
+        "Twin Autocannon", "Heavy Flamer", "Heavy Bolter|2|"
       ],
       "specialRules": [
         "Reinforced Armour"

@@ -25,17 +25,15 @@
         "Commissar",
         "Siege Infantry",
         "Sappers",
-        "Baran Fire Support Squad",
         "Death Riders",
         "Snipers",
         "Thudd Gun",
         "Rapier",
         "Mole Launcher Squad",
         "Heavy AA Gun",
-        "Medusa",
+        "Medusa Gun",
         "Bombard",
         "Deathstrike",
-        "Griffon",
         "Howitzer",
         "Ragnarok Heavy Tank",
         "Siegfried Light Tank",
@@ -77,7 +75,7 @@
               "Heavy Tanks",
               "Fortifications"
           ],
-          "points": 325
+          "points": 350
         },
         {
           "name": "Siege Infantry Company",
@@ -88,7 +86,7 @@
               "Heavy Tanks",
               "Fortifications"
           ],
-          "points": 275
+          "points": 300
     }
   ]
 },
@@ -102,7 +100,7 @@
             "extraUnits": [
                 "Heavy Tanks"
             ],
-            "points": 300
+            "points": 325
           },
           {
             "name": "Macharius Company",
@@ -120,7 +118,7 @@
       },
       {
         "name": "Siege Artillery Emplacement",
-        "units": "Three Bombards and three Gun Emplacements or four Medusa and four Gun Emplacements",
+        "units": "Three Bombards and three Gun Emplacements or four Medusa Guns and four Gun Emplacements",
         "extraUnits": [
             "Deathstrike"
         ],
@@ -130,9 +128,8 @@
         "name": "Super-Heavy Platoon",
         "units": "One Baneblade or Stormsword",
         "extraUnits": [
-            "Replace a Baneblade or Stormsword with a Shadowsword: 25 points"
-        ],
-        "points": 175
+ ],
+        "points": 200
       },
         {
           "name": "Howitzer Emplacement",
@@ -157,7 +154,6 @@
         "name": "Siege Recon Squadron",
         "units": "Four Siegfried Light Tanks",
         "extraUnits": [
-            "Add three Griffons: 75 points"
         ],
         "points": 150
       }
