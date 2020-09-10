@@ -92,10 +92,10 @@
       ]
     },
     {
-      "from": "ImperialNavy.json",
+      "from": "chaosnavy.json",
       "units": [
-        "Thunderbolt Fighter",
-        "Marauder Bomber"
+          "Hell Blade Interceptor",
+          "Hell Talon Fighter-Bomber"
       ],
       "unitRules": []
     }
@@ -165,19 +165,19 @@
       ]
     },
     {
-      "name": "Slaves to Darkness Air Support and Chaos Allies",
-      "description": "Up to a third of the points available may be spent on Slaves to Darkness Air Support and Chaos Allies",
+      "name": "Slaves to Darkness Chaos Allies",
+      "description": "Up to a third of the points available may be spent on Slaves to Darkness Chaos Allies",
       "formations": [
           {
-            "name": "Thunderbolt Squadron",
-            "units": "Two Thunderbolt Fighters",
-            "points": 175
+            "name": "Hell Blade Squadron",
+            "units": "Three Hell Blade Interceptors",
+            "points": 200
           },
           {
-            "name": "Marauder Squadron",
-            "units": "Two Marauder Bombers",
-            "points": 250
-        },
+            "name": "Hell Talon Squadron",
+            "units": "Two Hell Talon Fighter-Bombers",
+            "points": 225
+          },
         {
           "name": "Chaos Space Marines of Chaos Undivided",
           "units": "Six Chaos Space Marines, three Chaos Rhinos",

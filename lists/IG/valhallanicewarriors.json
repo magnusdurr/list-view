@@ -80,14 +80,13 @@
               "Fire Support",
               "Flak",
               "Entrenchments",
-              "Stormlord",
               "Deathstrike"
           ],
           "points": 300
         },
         {
           "name": "Valhallan Infantry Company",
-          "units": "One Valhallan Commander with a Ministorum Priest, eleven Valhallan Infantry",
+          "units": "One Valhallan Commander with a Ministorum Priest, seven Valhallan Infantry",
           "extraUnits": [
               "Valhallan Griffons",
               "Ogryns",
@@ -97,7 +96,7 @@
               "Entrenchments",
               "Stormlord"
           ],
-          "points": 225
+          "points": 200
     },
         {
           "name": "Artillery Company",
@@ -256,7 +255,7 @@
     {
       "name": "Stormlord",
       "description": "Add one Stormlord to the formation",
-            "points": "125 points"
+            "points": "150 points"
     }
     ]
   }

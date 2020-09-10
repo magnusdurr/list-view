@@ -484,6 +484,27 @@
 			"notes": "May transport one infantry unit without Mounted or Jet Packs."
 		},
 		{
+		  "name": "Sororitas Stormlord",
+		  "type": "WE",
+		  "speed": 15,
+		  "armour": 4,
+		  "cc": 6,
+		  "ff": 4,
+		  "weapons": [
+			"Vulcan Mega-Bolter||FxF",
+			"Twin Heavy Bolter||FxF",
+			"Heavy Flamer|2|"
+		  ],
+		  "specialRules": [
+			"Damage Capacity 3",
+			"Faithful",
+			"Reinforced Armour",
+			"Transport"
+		  ],
+		  "notes": "May transport eight infantry units without Jump Pack or Mounted, two may fire from the firing deck and participate with FF during assaults.",
+		  "crit": "The Stormlord is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent hits destroys the unit."
+		},
+		{
 			"name": "Emperor's Chapel",
 			"type": "WE",
 			"speed": 20,
