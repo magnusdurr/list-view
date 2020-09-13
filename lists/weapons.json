@@ -11093,6 +11093,26 @@
       ]
     },
     {
+      "name": "Twin Heavy Flamer  ",
+        "modes": [
+          {
+            "firepower": "AP3+",
+            "range": 15,
+            "specialRules": [
+              "IC",
+                "FxF"
+            ]
+          },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+              "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Twin Heavy Flamer ",
         "modes": [
           {

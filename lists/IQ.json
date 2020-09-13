@@ -66,25 +66,22 @@
 				"Inspiring",
 				"Leader"
 
-			],
-	         "notes": "Only has a Power Weapon if attached to an INF unit."
+			]
 		},
 		{
 			"name": "Living Saint",
 			"type": "INF",
 			"speed": 30,
-			"armour": 4,
+			"armour": 3,
 			"cc": 4,
-			"ff": 5,
+			"ff": 4,
 			"weapons": [
 				"Ardent Blade"
 			],
 			"specialRules": [
 				"Faithful",
-				"Fearless",
 				"Inspiring",
-				"Jump Packs",
-				"Invulnerable Save"
+				"Jump Packs"
 			]
 		},
 		{
@@ -347,15 +344,14 @@
 			"name": "Repentia Sisters",
 			"type": "INF",
 			"speed": 15,
-			"armour": 6,
+			"armour": 5,
 			"cc": 4,
 			"weapons": [
 				"Eviserators"
 			],
 			"specialRules": [
 				"Faithful",
-				"Infiltrators",
-				"Invulnerable Save"
+				"Infiltrators"
 			]
 		},
 		{
@@ -396,7 +392,7 @@
 			"speed": 30,
 			"armour": 5,
 			"cc": 6,
-			"ff": 5,
+			"ff": 6,
 			"weapons": [
 				"Whirlwind Launcher"
 			],
@@ -493,7 +489,7 @@
 		  "weapons": [
 			"Vulcan Mega-Bolter||FxF",
 			"Twin Heavy Bolter||FxF",
-			"Heavy Flamer|2|"
+			"Twin Heavy Flamer  |2|"
 		  ],
 		  "specialRules": [
 			"Damage Capacity 3",

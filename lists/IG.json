@@ -928,7 +928,7 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Multilaser", "Heavy Bolter"
+        "Heavy Flamer", "Heavy Bolter"
       ],
       "specialRules": [
          "Walker",
@@ -959,6 +959,20 @@
       "ff": 5,
       "weapons": [
         "Chem Gun", "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Walker"
+      ]
+    },
+    {
+      "name": "Devil Dog",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Multi-Melta", "Heavy Bolter"
       ],
       "specialRules": [
           "Walker"
@@ -1674,7 +1688,7 @@
       "weapons": [
         "Vulcan Mega-Bolter||FxF",
         "Twin Heavy Bolter||FxF",
-        "Heavy Flamer|2|"
+        "Twin Heavy Flamer  |2|"
       ],
       "specialRules": [
         "Damage Capacity 3",

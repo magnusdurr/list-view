@@ -9,6 +9,7 @@
   "specialRules": [
       "Courage, Discipline and Loyalty",
       "Grim Demeanour",
+          "Act of Faith",
       "Fortified Positions"
   ],
   "usage": [
@@ -28,30 +29,27 @@
         "Manticore",
         "Hellhound",
         "Deathstrike",
-        "Sentinel",
+        "Armoured Sentinel",
         "Valhallan Griffon",
         "Ragnarok Heavy Tank",
         "Macharius",
         "Macharius Command",
         "Baneblade",
         "Shadowsword",
-        "Banehammer",
         "Stormlord"
       ],
         "unitRules": [
-            "Apocalyptic Barrage"
           ]
     },
     {
       "from": "IQ.json",
       "units": [
         "Ministorum Priest",
-        "Arco-Flagellants",
         "Battle Sisters",
         "Sororitas Rhino"
       ],
       "unitRules": [
-          "Act of Faith"
+
       ]
     },
     {
@@ -72,7 +70,7 @@
       "formations": [
         {
           "name": "Valhallan Regimental HQ",
-          "units": "One Valhallan Supreme Commander with a Ministorum Priest, eleven Valhallan Infantry",
+          "units": "One Valhallan Supreme Commander with a Ministorum Priest, nine Valhallan Infantry",
           "extraUnits": [
               "Valhallan Griffons",
               "Ogryns",
@@ -82,11 +80,11 @@
               "Entrenchments",
               "Deathstrike"
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Valhallan Infantry Company",
-          "units": "One Valhallan Commander with a Ministorum Priest, seven Valhallan Infantry",
+          "units": "One Valhallan Commander with a Ministorum Priest, nine Valhallan Infantry",
           "extraUnits": [
               "Valhallan Griffons",
               "Ogryns",
@@ -96,7 +94,7 @@
               "Entrenchments",
               "Stormlord"
           ],
-          "points": 200
+          "points": 225
     },
         {
           "name": "Artillery Company",
@@ -128,49 +126,44 @@
             "name": "Macharius Company",
             "units": "One Macharius Command with a Ministorum Priest, two Macharius",
             "extraUnits": [
+                "Flak"
             ],
-            "points": 350
+            "points": 375
         },
         {
           "name": "Super-Heavy Platoon",
-          "units": "One Baneblade, Banehammer, or Stormlord",
+          "units": "One Baneblade, Stormlord or Shadowsword",
           "extraUnits": [
           ],
           "points": 200
       },
       {
         "name": "Hellhound Squadron",
-        "units": "Three Hellhounds",
-        "points": 125,
+        "units": "Four Hellhounds",
+        "points": 175,
         "extraUnits": [
+            "Flak"
         ]
     },
     {
-      "name": "Sentinel Squadron",
-      "units": "Four Sentinels",
+      "name": "Armoured Sentinel Squadron",
+      "units": "Four Armoured Sentinels",
       "extraUnits": [
       ],
-      "points": 100
+      "points": 125
     }
     ]
   },
     {
-      "name": "Adeptus Ministorum, Tunnelers and Imperial Navy Allies",
+      "name": "Adeptus Ministorum and Imperial Navy Allies",
       "description": "Up to a fourth of the points available may be spent on Adeptus Ministorum, Tunnelers and Imperial Navy Allies",
       "formations": [
           {
-            "name": "Ministorum Flagellants",
-            "units": "Six Arco-Flagellants",
+            "name": "Ministorum Mission",
+            "units": "Six Battle Sisters, three Sororitas Rhinos",
             "extraUnits": [
             ],
             "points": 200
-          },
-          {
-            "name": "Ministorum Mission",
-            "units": "Eight Battle Sisters, four Sororitas Rhinos",
-            "extraUnits": [
-            ],
-            "points": 250
           },
         {
           "name": "Lightning Squadron",
@@ -247,15 +240,15 @@
         "name": "Entrenchments",
         "options": [
           {
-            "description": "60cm Razor Wire, 60cm Trenches",
+            "description": "40cm Razor Wire, 40cm Trenches",
             "points": "50 points"
           }
         ]
     },
     {
       "name": "Stormlord",
-      "description": "Add one Stormlord to the formation",
-            "points": "150 points"
+      "description": "Replace two Valhallan Infantry units with one Stormlord (may not be combined with other upgrades)",
+            "points": "125 points"
     }
     ]
   }

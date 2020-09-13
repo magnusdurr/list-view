@@ -30,7 +30,7 @@
         "Valkyrie",
         "Vendetta",
         "Hydra",
-        "Hellhound",
+        "Devil Dog",
         "Leman Russ",
         "Leman Russ Exterminator",
         "Leman Russ Demolisher",
@@ -64,7 +64,8 @@
           "extraUnits": [
              "Death World Transport (Compulsory)",
              "Flakk Teams",
-              "Ogryns"
+              "Ogryns",
+              "Devil Dogs"
 
           ],
           "points": 225
@@ -75,7 +76,8 @@
           "extraUnits": [
              "Death World Transport (Compulsory)",
              "Flakk Teams",
-              "Ogryns"
+              "Ogryns",
+              "Devil Dogs"
           ],
           "points": 150
       }
@@ -121,8 +123,7 @@
           "name": "Catachan Super-Heavy Platoon",
           "units": "One Hellhammer or Stormblade",
           "extraUnits": [
-              "Flak",
-              "Ogryns"
+              "Add two Ogryns: 50 points each"
           ],
           "points": 200
       },
@@ -133,29 +134,29 @@
         ],
         "points": 200
     },
-        {
-          "name": "Catachan Sentinel Squadron",
-          "units": "Four Catachan Sentinels",
-          "extraUnits": [
 
-          ],
-          "points": 125
-        },
         {
-          "name": "Hellhound Squadron",
-          "units": "Three Hellhounds",
+          "name": "Devil Dog Squadron",
+          "units": "Four Devil Dogs",
           "extraUnits": [
           ],
-          "points": 125
+          "points": 175
         },
         {
           "name": "Sniper Platoon",
-          "units": "Four Snipers",
+          "units": "Four Snipers, two Death World Chimeras",
           "extraUnits": [
-              "Add two Death World Chimeras: 50 points"
           ],
-          "points": 100
-        }
+          "points": 150
+      },
+      {
+        "name": "Catachan Sentinel Squadron",
+        "units": "Four Catachan Sentinels",
+        "extraUnits": [
+
+        ],
+        "points": 125
+      }
       ]
     },
     {
@@ -200,12 +201,20 @@
         "name": "Ogryns",
         "options": [
           {
-            "description": "Add up to two Ogryns. Formation may not be transported in Valkyries.",
-            "points": "25 points each"
+            "description": "Add up to two Ogryns, each with a Deathworld Chimera. Formation may not be transported in Valkyries.",
+            "points": "50 points each"
           }
         ]
     },
-
+    {
+      "name": "Devil Dogs",
+      "options": [
+        {
+          "description": "Add up to two Devil Dogs",
+          "points": "25 points each"
+        }
+      ]
+  },
       {
         "name": "Flak",
         "options": [

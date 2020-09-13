@@ -42,10 +42,9 @@
       "from": "IG.json",
       "units": [
         "Storm Troopers",
-        "Chimera",
-        "Hellhound",
+        "Storm Chimera",
         "Valkyrie",
-        "Vendetta"
+        "Hellhound"
       ],
       "unitRules": [
 
@@ -56,7 +55,8 @@
       "units": [
         "Lightning Interceptor",
         "Marauder Destroyer",
-        "Lunar Class Cruiser"
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
       ],
       "unitRules": [
       ]
@@ -103,7 +103,7 @@
           "points": 275
         },
         {
-          "name": "Seraphim",
+          "name": "Seraph",
           "units": "One Palatine, six Seraphim Sisters",
           "extraUnits": [
             "Living Saint"
@@ -120,20 +120,19 @@
           "points": 200
       },
       {
+        "name": "Dominus",
+        "units": "Four Dominion Sisters, two Sororitas Rhinos",
+        "extraUnits": [
+        ],
+        "points": 175
+    },
+      {
         "name": "Repentance",
         "units": "Four Repentia Sisters, two Sororitas Repressors",
         "extraUnits": [
         ],
         "points": 150
-    },
-        {
-          "name": "Dominion",
-          "units": "Four Dominion Sisters",
-          "extraUnits": [
-            "Transport"
-          ],
-          "points": 150
-        }
+    }
 
       ]
     },
@@ -143,14 +142,13 @@
       "formations": [
           {
             "name": "0-1 Ordo Hereticus Inquisitor Retinue",
-            "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
+            "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Valkyries",
             "extraUnits": [
+                "Replace three Valkyries with three Storm Chimeras: Free",
             "Ordo Hereticus Superior",
-            "Replace three Chimeras with three Valkyries: 25 points",
-            "Add up to three Hellhounds: 25 points each",
-            "Add up to two Vendettas: 50 points each"
+            "Hellhounds"
             ],
-            "points": 250
+            "points": 275
         },
         {
           "name": "Penitence",
@@ -160,7 +158,7 @@
           "points": 200
       },
         {
-          "name": "Flagellant",
+          "name": "Flagellance",
           "units": "Six Arco-Flagellants",
           "extraUnits": [
             "Add up to two Penitent Engines: 35 points each"
@@ -171,6 +169,7 @@
         "name": "Redemption",
         "units": "One Ministorum Priest, eight Redemptionists, four Ordo Hereticus Land Transporters",
         "extraUnits": [
+                        "Hellhounds"
         ],
         "points": 200
       }
@@ -193,6 +192,9 @@
         {
           "name": "0–1 Orbital Support",
           "units": "One Lunar Class Cruiser",
+          "extraUnits": [
+              "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
+          ],
           "points": 150
         }
       ]
@@ -236,6 +238,13 @@
         ]
       },
       {
+        "name": "Hellhound",
+        "description": "Add up to three Hellhounds",
+        "points": [
+          "25 points each"
+        ]
+      },
+      {
         "name": "Transport",
         "description": "",
         "options": [
@@ -245,7 +254,7 @@
             },
             {
               "description": "Add one Sororitas Stormlord (Mission only)",
-              "points": "175 points"
+              "points": "150 points"
             },
             {
               "description": "Add any number of Sororitas Immolators",
