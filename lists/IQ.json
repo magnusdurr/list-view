@@ -39,8 +39,7 @@
 			],
 			"specialRules": [
 			"Supreme Commander",
-				"Inspiring",
-				"Invulnerable Save"
+				"Inspiring"
 			]
 		},
 		{
@@ -51,8 +50,7 @@
 			],
 			"specialRules": [
 				"Commander",
-				"Leader",
-				"Invulnerable Save"
+				"Leader"
 			]
 		},
 		{
@@ -79,9 +77,10 @@
 				"Ardent Blade"
 			],
 			"specialRules": [
-				"Faithful",
+				"Fearless",
 				"Inspiring",
-				"Jump Packs"
+				"Jump Packs",
+				"Invulnerable Save"
 			]
 		},
 		{
@@ -90,9 +89,9 @@
 			"speed": 15,
 			"armour": 3,
 			"cc": 3,
-			"ff": 4,
+			"ff": 5,
 			"weapons": [
-				"Heavy Flamer",
+				"Multi-Melta",
 				"Power Weapon"
 			],
 			"specialRules": [
@@ -107,14 +106,13 @@
 			"speed": 15,
 			"armour": 3,
 			"cc": 3,
-			"ff": 4,
+			"ff": 5,
 			"weapons": [
-				"Heavy Flamer",
+				"Multi-Melta",
 				"Power Weapon"
 			],
 			"specialRules": [
 				"Commander",
-				"Fearless",
 				"Invulnerable Save",
 				"Leader"
 			]
@@ -329,11 +327,10 @@
 			"type": "INF",
 			"speed": 30,
 			"armour": 4,
-			"cc": 4,
-			"ff": 5,
+			"cc": 5,
+			"ff": 4,
 			"weapons": [
-				"Bolt Pistols",
-				"Chainswords"
+				"Dual Bolt Pistols"
 			],
 			"specialRules": [
 				"Faithful",
@@ -344,7 +341,7 @@
 			"name": "Repentia Sisters",
 			"type": "INF",
 			"speed": 15,
-			"armour": 5,
+			"armour": 6,
 			"cc": 4,
 			"weapons": [
 				"Eviserators"
@@ -355,20 +352,128 @@
 			]
 		},
 		{
+			"name": "Arco-Flagellants",
+			"type": "INF",
+			"speed": 15,
+			"armour": 5,
+			"cc": 4,
+			"weapons": [
+				"Combat Flails"
+			],
+			"specialRules": [
+				"Infiltrators",
+				"Fearless",
+				"Machine Spirit",
+				"Expendable"
+			]
+		},
+		{
+			"name": "Death Cult Assassins",
+			"type": "INF",
+			"speed": 15,
+			"armour": 5,
+			"cc": 3,
+
+			"weapons": [
+				"Assassin Weapons"
+			],
+			"specialRules": [
+				"Infiltrators",
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Redemptionists",
+			"type": "INF",
+			"speed": 15,
+
+			"cc": 4,
+			"ff": 6,
+			"weapons": [
+				"Flamer",
+				"Chainswords"
+			],
+			"specialRules": [
+
+			]
+		},
+		{
+			"name": "Crusaders",
+			"type": "INF",
+			"speed": 15,
+			"armour": 5,
+			"cc": 4,
+			"weapons": [
+				"Power Weapons"
+			],
+			"specialRules": [
+				"Invulnerable Save"
+			]
+		},
+		{
+			"name": "Ordo Hereticus Land Transporter",
+			"type": "LV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Flamer"
+			],
+			"specialRules": [],
+			"notes": "May transport two infantry units without Mounted or Jump Packs."
+		},
+		{
 			"name": "Penitent Engine",
+			"type": "LV",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Heavy Flamer",
+				"Power Saws"
+			],
+			"specialRules": [
+				"Fearless",
+				"Expendable",
+				"Machine Spirit",
+				"Walker"
+			]
+		},
+		{
+			"name": "Mortifier",
 			"type": "LV",
 			"speed": 15,
 			"armour": 5,
 			"cc": 4,
 			"ff": 4,
 			"weapons": [
-				"Twin Heavy Flamer",
-				"Power Saws"
+				"Twin Heavy Bolter",
+				"Penitent Flails"
 			],
 			"specialRules": [
 				"Infiltrators",
-				"Invulnerable Save",
+				"Faithful",
+				"Walker"
+			]
+		},
+		{
+			"name": "Anchorite",
+			"type": "LV",
+			"speed": 15,
+			"armour": 4,
+			"cc": 4,
+			"ff": 5,
+			"weapons": [
+				"Twin Heavy Bolter",
+				"Penitent Flails"
+			],
+			"specialRules": [
+				"Infiltrators",
 				"Fearless",
+				"Invulnerable Save",
+				"Inspiring",
 				"Walker"
 			]
 		},
@@ -401,6 +506,20 @@
 			]
 		},
 		{
+			"name": "Exorcist Hunter",
+			"type": "AV",
+			"speed": 30,
+			"armour": 5,
+			"cc": 6,
+			"ff": 6,
+			"weapons": [
+				"Hunter-Killer"
+			],
+			"specialRules": [
+				"Faithful"
+			]
+		},
+		{
 			"name": "Sororitas Rhino",
 			"type": "AV",
 			"speed": 30,
@@ -416,20 +535,7 @@
 			],
 			"notes": "May transport two infantry units without Jump Packs or Mounted."
 		},
-		{
-			"name": "Sororitas Hunter",
-			"type": "AV",
-			"speed": 30,
-			"armour": 5,
-			"cc": 6,
-			"ff": 6,
-			"weapons": [
-				"Hunter-Killer"
-			],
-			"specialRules": [
-				"Faithful"
-			]
-		},
+
 		{
 			"name": "Arbites Repressor",
 			"type": "AV",
@@ -466,7 +572,7 @@
 		{
 			"name": "Sororitas Immolator",
 			"type": "AV",
-			"speed": 25,
+			"speed": 30,
 			"armour": 5,
 			"cc": 6,
 			"ff": 4,
@@ -498,7 +604,7 @@
 			"Transport"
 		  ],
 		  "notes": "May transport eight infantry units without Jump Pack or Mounted, two may fire from the firing deck and participate with FF during assaults.",
-		  "crit": "The Stormlord is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent hits destroys the unit."
+		  "crit": "The Stormlord is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the unit."
 		},
 		{
 			"name": "Emperor's Chapel",
@@ -547,77 +653,6 @@
 			],
 			"notes": "May transport eight infantry units without Mounted or Jet Packs.",
 			"crit": "The Cathedral of the God-Emperor takes D3 additional damage, and D6 transported units takes a hit."
-		},
-
-		{
-			"name": "Arco-Flagellants",
-			"type": "INF",
-			"speed": 15,
-			"armour": 5,
-			"cc": 4,
-			"weapons": [
-				"Combat Flails"
-			],
-			"specialRules": [
-				"Infiltrators",
-				"Fearless"
-			]
-		},
-		{
-			"name": "Death Cult Assassins",
-			"type": "INF",
-			"speed": 15,
-			"armour": 5,
-			"cc": 3,
-
-			"weapons": [
-				"Assassin Weapons"
-			],
-			"specialRules": [
-				"Infiltrators",
-				"Invulnerable Save"
-			]
-		},
-		{
-			"name": "Redemptionists",
-			"type": "INF",
-			"speed": 15,
-
-			"cc": 4,
-			"ff": 6,
-			"weapons": [
-				"Flamer",
-				"Exterminators"
-			],
-			"specialRules": [
-
-			]
-		},
-		{
-			"name": "Crusaders",
-			"type": "INF",
-			"speed": 15,
-			"armour": 5,
-			"cc": 4,
-			"weapons": [
-				"Power Weapons"
-			],
-			"specialRules": [
-				"Invulnerable Save"
-			]
-		},
-		{
-			"name": "Ordo Hereticus Land Transporter",
-			"type": "LV",
-			"speed": 30,
-			"armour": 5,
-			"cc": 6,
-			"ff": 6,
-			"weapons": [
-				"Flamer"
-			],
-			"specialRules": [],
-			"notes": "May transport two infantry units without Mounted or Jump Packs."
 		}
 	]
 }]

@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "release": "2020-01-11",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
-  "Initiative": "Ordo Hereticus and the Imperial Navy formations have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
+  "Initiative": "Ordo Hereticus and Imperial Navy formations have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
   "specialRules": ["Act of Faith"],
   "units": [
     {
@@ -25,27 +25,28 @@
         "Seraphim Sisters",
         "Repentia Sisters",
         "Penitent Engine",
+        "Mortifier",
         "Ordo Hereticus Land Transporter",
         "Exorcist Prioris",
         "Exorcist Sanctorum",
         "Sororitas Rhino",
-        "Sororitas Hunter",
+        "Exorcist Hunter",
         "Sororitas Repressor",
         "Sororitas Immolator",
         "Sororitas Stormlord"
       ],
       "unitRules": [
-          "Void Shields"
+          "Machine Spirit"
       ]
     },
     {
       "from": "IG.json",
       "units": [
         "Storm Troopers",
-        "Storm Chimera",
-        "Valkyrie",
+        "Chimera",
+        "Hydra",
         "Hellhound"
-      ],
+          ],
       "unitRules": [
 
       ]
@@ -71,12 +72,12 @@
           "name": "Mission",
           "units": "One Palatine, eight Battle Sisters",
           "extraUnits": [
-            "Exorcists",
+              "Replace two units of Battle Sisters with two Exorcist Prioris: 50 points",
             "Ordo Hereticus Superior",
             "Hunter",
             "Transport"
           ],
-          "points": 225
+          "points": 250
 
       }
     ]
@@ -85,6 +86,14 @@
       "name": "Adepta Sororita Support Formations",
       "description": "Two Adepta Sororitas Support Formations may be taken per Adepta Sororitas Core Formation",
       "formations": [
+          {
+            "name": "Immolation",
+            "units": "One Palatine, three Celestian Sisters, three Sororitas Immolators",
+            "extraUnits": [
+              "Hunter"
+            ],
+            "points": 300
+          },
           {
             "name": "Exorcism",
             "units": "Four Exorcist Prioris",
@@ -95,84 +104,72 @@
             "points": 250
         },
         {
-          "name": "Immolation",
-          "units": "Three Celestian Sisters, three Sororitas Immolators",
-          "extraUnits": [
-              "Palatine"
-          ],
-          "points": 275
-        },
-        {
           "name": "Seraph",
           "units": "One Palatine, six Seraphim Sisters",
           "extraUnits": [
             "Living Saint"
           ],
-          "points": 225
+          "points": 250
         },
-
         {
           "name": "Retribution",
-          "units": "Four Retributor Sisters, two Sororitas Repressors",
+          "units": "One Palatine, four Retributor Sisters, two Sororitas Rhinos",
           "extraUnits": [
-              "Palatine"
+            "Replace two Sororitas Rhinos with two Sororitas Repressors: 25 points"
           ],
-          "points": 200
+          "points": 225
       },
       {
-        "name": "Dominus",
-        "units": "Four Dominion Sisters, two Sororitas Rhinos",
+        "name": "Repentance",
+        "units": "Three Repentia Sisters, three Mortifiers",
         "extraUnits": [
         ],
-        "points": 175
+        "points": 200
     },
       {
-        "name": "Repentance",
-        "units": "Four Repentia Sisters, two Sororitas Repressors",
+        "name": "Dominus",
+        "units": "One Palatine, four Dominion Sisters, two Sororitas Rhinos",
         "extraUnits": [
+            "Replace two Sororitas Rhinos with two Sororitas Repressors: 25 points"
         ],
-        "points": 150
+        "points": 175
     }
+
 
       ]
     },
     {
       "name": "Ordo Hereticus Formations",
-      "description": "Two Ordo Hereticus Formations may be taken per Adepta Sororitas Core Formation",
+      "description": "One Ordo Hereticus Formation may be taken per Adepta Sororitas Core Formation or Inquisitor Retinue",
       "formations": [
           {
             "name": "0-1 Ordo Hereticus Inquisitor Retinue",
-            "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Valkyries",
+            "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
             "extraUnits": [
-                "Replace three Valkyries with three Storm Chimeras: Free",
-            "Ordo Hereticus Superior",
-            "Hellhounds"
+            "Add one Hydra: 50 points",
+            "Hellhounds",
+            "Ordo Hereticus Superior"
+
             ],
-            "points": 275
+            "points": 300
         },
-        {
-          "name": "Penitence",
-          "units": "Five Penitent Engines",
-          "extraUnits": [
-              ],
-          "points": 200
-      },
-        {
-          "name": "Flagellance",
-          "units": "Six Arco-Flagellants",
-          "extraUnits": [
-            "Add up to two Penitent Engines: 35 points each"
-          ],
-          "points": 200
-        },
+
       {
         "name": "Redemption",
-        "units": "One Ministorum Priest, eight Redemptionists, four Ordo Hereticus Land Transporters",
+        "units": "One Ministorum Priest, six Redemptionists, three Ordo Hereticus Land Transporters",
         "extraUnits": [
-                        "Hellhounds"
+            "Replace three Ordo Hereticus Land Transporters with three Arco-Flagellants or two Penitent Engines: 25 points",
+            "Hellhounds"
         ],
-        "points": 200
-      }
+        "points": 175
+    },
+    {
+      "name": "Infernus",
+      "units": "Four Hellhounds",
+      "extraUnits": [
+      ],
+      "points": 175
+    }
       ]
     },
     {
@@ -210,11 +207,11 @@
         "options": [
           {
             "description": "Replace a Palatine with a Cannoness (Mission only)",
-            "points": "50 points"
+            "points": "75 points"
           },
           {
             "description": "Replace the Ordo Hereticus Inquisitor with an Ordo Hereticus Inquisitor Lord (Ordo Hereticus Inquisitor Retinue only)",
-            "points": "50 points"
+            "points": "75 points"
           }
         ]
       },
@@ -223,27 +220,22 @@
         "description": "Replace a Palatine and its unit with a Living Saint",
         "points": "50 points"
       },
-      {
-        "name": "Exorcists",
-        "description": "Replace two units of Battle Sisters with two Exorcist Prioris",
-        "points": [
-          "50 points"
-        ]
-      },
+
       {
         "name": "Hunter",
-        "description": "Add one Sororitas Hunter",
+        "description": "Add one Exorcist Hunter",
         "points": [
           "50 points"
         ]
       },
       {
-        "name": "Hellhound",
-        "description": "Add up to three Hellhounds",
+        "name": "Hellhounds",
+        "description": "Add up to two Hellhounds",
         "points": [
           "25 points each"
         ]
       },
+
       {
         "name": "Transport",
         "description": "",
@@ -254,7 +246,7 @@
             },
             {
               "description": "Add one Sororitas Stormlord (Mission only)",
-              "points": "150 points"
+              "points": "125 points"
             },
             {
               "description": "Add any number of Sororitas Immolators",

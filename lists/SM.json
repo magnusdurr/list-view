@@ -2559,7 +2559,7 @@
 			"specialRules": [
 				"Transport"
 			],
-			"notes": "May transport twenty infantry units, Attack Bikes, or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport 16 infantry units, Attack Bikes, or Dreadnoughts; plus 10 light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Grey Knights Strike Cruiser",
@@ -2574,7 +2574,7 @@
 				"Navis Nobilite",
 				"Transport"
 			],
-			"notes": "May transport twenty infantry units, Attack Bikes, Dreadnoughts; plus ten light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts) ; plus six Thunderhawks/Storm Eagles and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport 16 infantry units, Attack Bikes, Dreadnoughts; plus 10 light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts) ; plus 6 Thunderhawks/Storm Eagles and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Battle Barge",
@@ -2589,14 +2589,14 @@
 				"Slow to Arrive (May only arrive from turn 2 onwards)",
 				"Transport"
 			],
-			"notes": "May transport forty infantry units, Attack Bikes, or Dreadnoughts; plus thirty armoured vehicle units (except H-AV, Dreadnoughts); plus nine Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
+			"notes": "May transport 24 infantry units, Attack Bikes, or Dreadnoughts; plus 20 armoured vehicle units (except H-AV, Dreadnoughts); plus 9 Thunderhawks/Storm Eagles/Storm Wolfs and enough Drop Pods or Landing Craft to transport any other units being carried."
 		},
 		{
 			"name": "Drop Pod",
 			"weapons": [{
 				"name": "Deathwind",
 				"modes": [{
-					"firepower": "AP5+/AT5+",
+					"firepower": "AP6+/AT6+",
 					"range": 15
 				}]
 			}],

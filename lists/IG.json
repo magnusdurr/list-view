@@ -24,12 +24,19 @@
       ]
   },
   {
-    "title": "Apocalyptic Barrage",
-    "description": [
-      "Uses the Orbital Barrage Template instead of the small template.",
-      ""
-    ]
-}
+          "title": "Machine Spirit",
+          "description": [
+              "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally.",
+              ""
+          ]
+      },
+      {
+          "title": "Ponderous",
+          "description": [
+              "May only make a single withdrawal move instead of two when becoming broken or failing to rally.",
+              ""
+          ]
+      }
     ],
     "unit": [
     {

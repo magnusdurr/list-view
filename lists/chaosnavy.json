@@ -255,7 +255,7 @@
         },
         "Pin Point"
         ],
-          "notes": "Transport. May transport 20 infantry units or Dreadnoughts; plus three Thunderhawks to transport and enough Dreadclaws to transport any other units being carried."
+          "notes": "Transport. May transport 16 infantry units or Dreadnoughts; plus three Thunderhawks to transport and enough Dreadclaws to transport any other units being carried."
       },
 
     {
@@ -292,7 +292,7 @@
       "specialRules": [
         "Slow to Arrive (May only arrive from turn 2 onwards)"
     ],
-        "notes": "Transport. May transport 30 infantry units or Dreadnoughts; plus six Thunderhawks and enough Dreadclaws to transport any other units being carried."
+        "notes": "Transport. May transport 24 infantry units or Dreadnoughts; plus six Thunderhawks and enough Dreadclaws to transport any other units being carried."
     },
     {
       "name": "Chaos Strike Cruiser",
@@ -310,14 +310,14 @@
       "specialRules": [
         "Transport"
       ],
-      "notes": "May transport twenty infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawks and enough Drop Pods and Thunderhawk Transporters to transport any other units being carried."
+      "notes": "May transport 16 infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawks and enough Drop Pods and Thunderhawk Transporters to transport any other units being carried."
   },
   {
       "name": "Chaos Drop Pod",
       "weapons": [{
           "name": "Deathwind",
           "modes": [{
-              "firepower": "AP5+/AT5+",
+              "firepower": "AP6+/AT6+",
               "range": 15
           }]
       }],
