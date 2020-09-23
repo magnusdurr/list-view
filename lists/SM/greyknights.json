@@ -98,15 +98,7 @@
 			"Replace up to four Land Raiders with Land Raider Helios: 25 points each"
 		  ],
 		  "points": 275
-	  },
-	  {
-		"name": "Predators",
-		"units": "One Blood Ravens Librarian, any four of the following units: Predator Annihilators, Predator Destructors",
-		"extraUnits": [
-		  "Anti-Air"
-		],
-		"points": 275
-	}
+	  }
 			]
 		},
 		{
@@ -130,7 +122,7 @@
 					"extraUnits": [
 						"Supreme Commander"
 					],
-					"points": 225
+					"points": 250
 				},
 					{
 			          "name": "Bikes",
@@ -148,7 +140,15 @@
 					  	"Typhoons"
 					],
 					"points": 225
-				}
+				},
+				{
+				  "name": "Predators",
+				  "units": "One Blood Ravens Librarian, any four of the following units: Predator Annihilators, Predator Destructors",
+				  "extraUnits": [
+					"Anti-Air"
+				  ],
+				  "points": 275
+			  }
 
 				]
 			},

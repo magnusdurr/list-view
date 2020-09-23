@@ -74,7 +74,7 @@
             "Commander",
             "Land Speeders"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Devastators",
@@ -88,16 +88,14 @@
           "points": 250
         },
         {
-          "name": "Scout",
-          "units": "Four Raven Guard Scouts plus transport",
+          "name": "Storm Scouts",
+          "units": "Three Raven Guard Scouts, three Land Speeder Storms",
           "extraUnits": [
             "Commander",
             "Land Speeders",
-            "Snipers",
-            "Storms",
-            "Razorbacks"
+            "Snipers"
           ],
-          "points": 150
+          "points": 200
         },
         {
           "name": "Tacticals",
@@ -152,6 +150,17 @@
       "name": "Ravenguard Support Detachments",
       "description": "One Support Detachment may be taken per Core Detachment",
       "formations": [
+          {
+            "name": "Scout",
+            "units": "Four Raven Guard Scouts plus transport",
+            "extraUnits": [
+              "Commander",
+              "Land Speeders",
+              "Snipers",
+              "Razorbacks"
+            ],
+            "points": 150
+          },
         {
           "name": "Bikes",
           "units": "Any five of the following units: Attack Bike, Assault Bikes",

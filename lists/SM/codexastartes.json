@@ -71,7 +71,7 @@
   ],
   "sections": [
     {
-      "name": "Codex Astartes Detachments",
+      "name": "Codex Astartes Core Detachments",
       "formations": [
         {
           "name": "Assaults",
@@ -80,16 +80,7 @@
             "Commander",
             "Vindicators"
           ],
-          "points": 150
-        },
-        {
-          "name": "Bikes",
-          "units": "Five Assault Bikes",
-          "extraUnits": [
-            "Attack Bikes",
-            "Commander"
-          ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Tacticals",
@@ -116,6 +107,30 @@
             "Vindicators"
           ],
           "points": 250
+        },
+        {
+          "name": "Terminators",
+          "units": "Four Terminators",
+          "extraUnits": [
+            "Commander",
+            "Land Raider Transport"
+          ],
+          "points": 350
+        }
+      ]
+    },
+    {
+      "name": "Codex Astartes Support Detachments",
+      "description": "Up to three Support Detachments for each Core Detachment.",
+      "formations": [
+        {
+          "name": "Bikes",
+          "units": "Five Assault Bikes",
+          "extraUnits": [
+            "Attack Bikes",
+            "Commander"
+          ],
+          "points": 200
         },
         {
           "name": "Land Raiders",
@@ -171,15 +186,6 @@
             "Battle Barge"
           ],
           "points": 200
-        },
-        {
-          "name": "Terminators",
-          "units": "Four Terminators",
-          "extraUnits": [
-            "Commander",
-            "Land Raider Transport"
-          ],
-          "points": 350
         },
         {
           "name": "Whirlwinds",
