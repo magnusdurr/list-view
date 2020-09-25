@@ -73,6 +73,15 @@
     {
       "name": "Codex Astartes Core Detachments",
       "formations": [
+          {
+            "name": "Bikes",
+            "units": "Five Assault Bikes",
+            "extraUnits": [
+              "Attack Bikes",
+              "Commander"
+            ],
+            "points": 200
+        },
         {
           "name": "Assaults",
           "units": "Four Assaults",
@@ -82,6 +91,7 @@
           ],
           "points": 175
         },
+
         {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
@@ -116,22 +126,13 @@
             "Land Raider Transport"
           ],
           "points": 350
-        }
+      }
       ]
     },
     {
       "name": "Codex Astartes Support Detachments",
       "description": "Up to three Support Detachments for each Core Detachment.",
       "formations": [
-        {
-          "name": "Bikes",
-          "units": "Five Assault Bikes",
-          "extraUnits": [
-            "Attack Bikes",
-            "Commander"
-          ],
-          "points": 200
-        },
         {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
