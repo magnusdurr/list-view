@@ -4,7 +4,7 @@
   "version": "Alpha 0.6.0",
   "release": "2020-09-04",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "The Tarantula formation has an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules":
     [
         "In Midnight Clad",
@@ -12,7 +12,8 @@
       "Night Lords Summoning Rules",
       "Augment Summoning (+x)",
       "Daemonic Focus",
-      "Fickle Masters"
+      "Fickle Masters",
+      "Night Lords Dreadclaws"
 
       ],
   "usage": [
@@ -25,7 +26,7 @@
         "Night Lords First Captain",
         "Night Lords Captain",
         "Icon Bearer",
-        "Night Lords Assault Marines",
+        "Chaos Assault Marines",
         "Chaos Space Marines",
         "Raptors",
         "Warp Talons",
@@ -68,8 +69,8 @@
         "Chaos Xiphon Interceptor",
         "Chaos Fire Raptor",
         "Chaos Thunderhawk",
-        "Chaos Strike Cruiser",
-        "Chaos Drop Pod"
+        "Devastation Class Cruiser",
+        "Despoiler Class Battleship"
     ],
     "unitRules": [
 
@@ -100,7 +101,7 @@
       "name": "Chosen",
       "units": "Four Night Lords Chosen, two Chaos Rhinos",
       "extraUnits": [
-          "Replace two Chaos Rhinos with two Night Lords Dreadnoughts: 50 points"
+          "Replace two Chaos Rhinos with four Chaos Tarantulas: 25 points"
       ],
       "points": 175
   },

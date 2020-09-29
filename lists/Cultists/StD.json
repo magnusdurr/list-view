@@ -155,12 +155,11 @@
           "points": 200
         },
         {
-          "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ and/or Leman Russ Demolishers",
+          "name": "Leman Russ Squadron",
+          "units": "Four Leman Russ and/or Leman Russ Demolishers",
           "extraUnits": [
-              "Add one Hydra: 50 points"
           ],
-          "points": 375
+          "points": 275
         }
       ]
     },
@@ -340,8 +339,8 @@
         "name": "Leman Russ",
         "options": [
           {
-            "description": "Add one, or add three Leman Russ",
-            "points": ["One Leman Russ: 50 points", "Three Leman Russ: 125 points"]
+            "description": "Add one, or add three Leman Russ or Leman Russ Demolishers",
+            "points": ["One Leman Russ or Leman Russ Demolisher: 50 points", "Three Leman Russ or three Leman Russ Demolishers: 150 points"]
           }
         ]
       },

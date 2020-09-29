@@ -94,7 +94,16 @@
             "Predators"
         ],
         "points": 175
-      }
+    },
+    {
+      "name": "Baal Predators",
+      "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
+      "extraUnits": [
+        "Commander",
+        "Anti-Air"
+      ],
+      "points": 250
+  }
 
       ]
     },
@@ -111,15 +120,6 @@
               "Anti-Air"
             ],
             "points": 325
-        },
-          {
-            "name": "Baal Predators",
-            "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
-            "extraUnits": [
-              "Commander",
-              "Anti-Air"
-            ],
-            "points": 250
         },
           {
             "name": "Bikes",
