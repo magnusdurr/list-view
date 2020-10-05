@@ -489,6 +489,17 @@
         ]
       },
       {
+        "name": "Thousand Sons Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Soulreaper Cannon"
+        ]
+      },
+      {
         "name": "Chaos Assault Marines",
         "type": "INF",
         "speed": 15,
@@ -986,11 +997,11 @@
       },
 
       {
-        "name": "Sorcerer Disc Rider",
+        "name": "Sorcerer Disc Riders",
         "type": "INF",
         "speed": 30,
         "armour": 4,
-        "cc": 6,
+        "cc": 5,
         "ff": 3,
         "weapons": [
           "Sorcerous Bolts"
@@ -1282,7 +1293,7 @@
         "ff": 4,
         "weapons": [
           "Twin Lascannon",
-          "Twin Warpflamer|2|"
+          "Heavy Warpflamer"
         ]
       },
       {
@@ -1463,10 +1474,10 @@
         "type": "AV",
         "speed": 15,
         "armour": 3,
-        "cc": 4,
-        "ff": 4,
+        "cc": 5,
+        "ff": 3,
         "weapons": [
-          "Soulreaper Cannon",
+          "Missile Launcher",
           "Twin Lascannon"
         ],
         "specialRules": [

@@ -5266,6 +5266,25 @@
       ]
     },
     {
+      "name": "Warpflamers",
+          "modes": [
+            {
+              "firepower": "AP5+",
+              "range": 15,
+              "specialRules": [
+                "IC"
+            ]
+            },
+            {
+              "firepower": "Small Arms",
+              "join": "and",
+              "specialRules": [
+                "IC"
+            ]
+          }
+      ]
+    },
+    {
       "name": "Twin Warpflamer",
           "modes": [
             {
@@ -11869,7 +11888,7 @@
       ]
     },
     {
-      "name": "Warp Blast",
+      "name": "fBlast",
         "modes": [
           {
             "firepower": "AP5+/AT6+/AA6+",

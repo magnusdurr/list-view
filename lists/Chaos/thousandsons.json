@@ -27,11 +27,11 @@
         "Champion of Chaos",
         "Icon Bearer",
         "Daemon Prince of Tzeentch",
-        "Chaos Space Marines",
+        "Thousand Sons Marines",
         "Thousand Sons Havocs",
         "Scarab Occult Terminators",
         "Rubric Marines",
-        "Sorcerer Disc Rider",
+        "Sorcerer Disc Riders",
         "Chaos Rhino",
         "Thousand Sons Land Raider",
         "Thousand Sons Predator",
@@ -61,8 +61,7 @@
             "Firelord"
         ],
         "unitRules": [
-          "Daemon Engine (x)",
-          "Heavy Armoured Vehicle (H-AV)"
+          "Daemon Engine (x)"
         ]
     },
     {
@@ -103,9 +102,9 @@
       "formations": [
         {
           "name": "Thousand Sons Retinue",
-          "units": "One Aspiring Sorcerer, five Rubric Marines, four Chaos Space Marines",
+          "units": "One Aspiring Sorcerer, five Rubric Marines, four Thousand Sons Marines",
           "extraUnits": [
-            "Replace four Chaos Space Marines with four Thousand Sons Havocs: 50 points",
+            "Replace four Thousand Sons Marines with four Thousand Sons Havocs: 50 points",
             "Supreme Commander",
             "Icon Bearer",
             "Champion of Chaos",
