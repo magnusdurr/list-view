@@ -11927,17 +11927,24 @@
           }
       ]
     },
+
     {
-          "name": "Warpfire of Tzeentch",
-          "modes": [
+      "name": "Warpfire of Tzeentch",
+        "modes": [
             {
             "firepower": "3BP",
             "range": 30,
             "specialRules": [
-                "TK(1)",
-                "IC"
+                "TK(1)"
             ]
-          }
+        },
+          {
+            "firepower": "Small Arms",
+            "join": "and",
+            "specialRules": [
+                "IC"
+          ]
+        }
       ]
     },
     {
