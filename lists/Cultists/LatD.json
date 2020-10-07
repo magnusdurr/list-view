@@ -45,7 +45,6 @@
         "units": [
             "Defiler",
             "Cerberite",
-            "Maulerfiend",
             "Forgefiend",
             "Heldrake",
             "Hell-Strider",
@@ -53,13 +52,11 @@
             "Questor",
             "Plague Tower",
             "Contagion Engine",
-            "Doomblaster",
             "Cannon of Khorne",
             "Daemonic Assault Engine",
             "Lord of Battles",
             "Silver Tower",
             "Warp Palace",
-            "Doomwing",
             "Firelord"
         ],
         "unitRules": [
@@ -128,13 +125,6 @@
         "extraUnits": [
         ],
         "points": 175
-          },
-          {
-            "name": "Maulerfiends of Chaos Undivided",
-            "units": "Four Maulerfiends",
-            "extraUnits": [
-            ],
-            "points": 200
           },
           {
             "name": "Forgefiends of Chaos Undivided",
@@ -231,22 +221,15 @@
           "units": "One Warp Palace",
         "upgrades": [
         ],
-        "points": 500
+        "points": 450
     },
-        {
-          "name": "Doomwings of Tzeentch",
-          "units": "Three Doomwings",
-          "upgrades": [
-          ],
-          "points": 175
-      },
       {
         "name": "Firelords of Tzeentch",
         "units": "Two Firelords",
         "upgrades": [
           "Add one Firelord: 100 points"
         ],
-        "points": 225
+        "points": 250
       }
     ]
 },
