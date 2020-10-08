@@ -64,13 +64,13 @@
       "formations": [
         {
           "name": "XV8 Crisis Battlesuit Cadre",
-          "units": "Four XV8 Crisis Battlesuits",
+          "units": "Six XV8 Crisis Battlesuits",
           "extraUnits": [
             "Commander",
             "Crisis Suits",
             "Drones"
           ],
-          "points": 250
+          "points": 300
         },
         {
           "name": "Heavy Battlesuit Cadre",
@@ -171,7 +171,7 @@
           "extraUnits": [
             "Replace the Protector with a Custodian Class Battleship: 25 points"
           ],
-          "points": 175
+          "points": 200
         }
       ]
     }
@@ -198,10 +198,9 @@
         "name": "Crisis Suits",
         "options": [
           {
-            "description": "Add two or four XV8 Crisis Battlesuits",
+            "description": "Add two XV8 Crisis Battlesuits",
             "points": [
-              "75 points for two",
-              "150 points for four"
+              "75 points"
             ]
           }
         ]

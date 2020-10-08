@@ -20,6 +20,7 @@
         "Mounted Farseer",
         "Eldar Guardians",
         "Heavy Weapon Platform",
+        "War Walker",
         "Saim-Hann Wild Riders",
         "Dire Avengers",
         "Fire Dragons",
@@ -165,7 +166,17 @@
             "Add up to two Saim-Hann Hornets: 50 points each"
           ],
           "points": 200
-        }      ]
+      },
+      {
+        "name": "War Walker Troupe",
+        "units": "Four War Walkers",
+        "extraUnits": [
+            "Add up to two additional War Walkers: 25 points each"
+        ],
+        "points": 150
+      }
+
+        ]
     },
     {
       "name": "Saim-Hann Aircraft, Spacecraft and Titans",

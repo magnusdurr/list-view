@@ -71,14 +71,14 @@
       "formations": [
         {
           "name": "Minervan Tank Company",
-          "units": "One Leman Russ Vanquisher with a Commissar-Captain, nine Leman Russ",
+          "units": "One Leman Russ Vanquisher with a Commissar-Captain, seven Leman Russ",
           "extraUnits": [
-            "Replace nine Leman Russ with nine Leman Russ Thunderers: Free",
+            "Replace seven Leman Russ with seven Leman Russ Thunderers: Free",
             "Replace the Leman Russ Vanquisher with a Leman Russ Thunderer: Free",
             "Supreme Commander",
             "Flak"
           ],
-          "points": 600
+          "points": 500
         },
         {
           "name": "Minervan Super-Heavy Company",
@@ -89,7 +89,7 @@
               "Flak"
 
           ],
-          "points": 550
+          "points": 525
       },
       {
         "name": "Artillery Company",
@@ -112,7 +112,7 @@
             "name": "Leman Russ Squadron",
             "units": "Four Leman Russ",
             "extraUnits": [
-                "Replace four Leman Russ with four Leman Russ Executioners, four Leman Russ Exterminators, four Leman Russ Demolishers, four Leman Russ Punishers, four Leman Russ Thunderers or four Leman Russ Conquerors",
+                "Replace four Leman Russ with four Leman Russ Executioners, four Leman Russ Exterminators, four Leman Russ Demolishers, four Leman Russ Punishers, four Leman Russ Thunderers, or four Leman Russ Conquerors",
                 "Hellhounds"
                 ],
             "points": 275
@@ -147,6 +147,13 @@
           "extraUnits": [
           ],
           "points": 200
+        },
+        {
+          "name": "Flak Battery",
+          "units": "Three Hydras",
+          "extraUnits": [
+      ],
+          "points": 150
         },
         {
           "name": "Salamander Squadron",
@@ -213,15 +220,6 @@
           }
         ]
       },
-      {
-        "name": "Deathstrike",
-        "options": [
-          {
-            "description": "Add up to two Deathstrikes",
-            "points": "50 points each"
-          }
-        ]
-      },
           {
             "name": "Hellhounds",
             "options": [
@@ -231,21 +229,12 @@
             }
           ]
       },
-        {
-          "name": "Griffons",
-          "options": [
-            {
-              "description": "Add three Griffons",
-              "points": "50 points"
-          }
-        ]
-    },
       {
         "name": "Flak",
         "options": [
           {
-            "description": "Add up to two Hydras",
-            "points": ["50 points for one", "75 points for two"]
+            "description": "Add one Hydra",
+              "points": "50 points"
         }
       ]
     }

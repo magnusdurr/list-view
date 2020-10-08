@@ -45,6 +45,7 @@
         "Storm Serpent",
         "Void Spinner",
         "Fire Gale",
+        "Wraithknight",
         "Warlock Titan"
       ],
         "unitRules": [
@@ -179,11 +180,12 @@
           "points": 175
       },
       {
-        "name": "War Walkers of Ulthwé",
-        "units": "Five Ulthwé War Walkers",
+        "name": "War Walker Troupe",
+        "units": "Four War Walkers",
         "extraUnits": [
+            "Add up to two additional War Walkers: 25 points each"
         ],
-        "points": 175
+        "points": 150
       }
       ]
     },
@@ -220,6 +222,14 @@
 
           ],
           "points": 300
+        },
+        {
+          "name": "Wraithknights",
+          "units": "Three Wraithknights",
+          "extraUnits": [
+
+          ],
+          "points": 325
         },
         {
           "name": "0-1 Warlock Titan",
