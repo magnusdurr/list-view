@@ -5,19 +5,17 @@
   "release": "2020-03-19",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
   "Initiative": "All Wraithkind Kabal and Harleqin formations, as well as the Wych Cult and Tormentor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
   "specialRules": [
-        "Fleet of Foot",
-        "Hit and Run",
-        "Lance",
-        "Wraithkind Coterie",
-        "May not Garrison (Wraithkind)",
-        "Webway Portal",
-        "Shadowfields",
-        "Shadowsight",
-        "Masters of the Webway"
-
-      ],
+    "Fleet of Foot",
+    "Hit and Run",
+    "Lance",
+    "Wraithkind Coterie",
+    "May not Garrison (Wraithkind)",
+    "Webway Portal",
+    "Shadowfields",
+    "Shadowsight",
+    "Masters of the Webway"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Kabal of the Wraithkind, with Harlequin Allies from the Masque of the Midnight Sorrow."
   ],
@@ -43,8 +41,7 @@
         "Barge of Pleasure",
         "Tormentor Titan"
       ],
-        "unitRules": [
-
+      "unitRules": [
       ]
     },
     {
@@ -61,29 +58,28 @@
         "Starweaver",
         "Voidweaver"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
       "from": "darkEldarNavy.json",
       "units": [
-          "Razorwing Interceptor",
-          "Voidraven Interdictor",
-          "Slavebringer Assault Boat"
+        "Razorwing Interceptor",
+        "Voidraven Interdictor",
+        "Slavebringer Assault Boat"
       ],
-        "unitRules": [
-            "Shield Disruptor"
+      "unitRules": [
+        "Shield Disruptor"
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Wraithkind Special",
       "formations": [
         {
           "name": "1 Wraithgate",
           "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
-
           "points": 0
         }
       ]
@@ -92,23 +88,23 @@
       "name": "Wraithkind Kabals",
       "description": "The army must contain one Black Heart Coterie",
       "formations": [
-          {
-            "name": "1 Wraithkind Coterie",
-            "units": "One Arcon in a unit of Incubi, three Incubi",
-            "extraUnits": [
-              "Add two Incubi: 75 points",
-              "Warriors",
-              "Ravagers",
-              "Portable Webway Portal",
-              "Wraithkind Transport"
-            ],
-            "points": 225
-          },
+        {
+          "name": "1 Wraithkind Coterie",
+          "units": "One Arcon in a unit of Incubi, three Incubi",
+          "extraUnits": [
+            "Add two Incubi: 75 points",
+            "Warriors",
+            "Ravagers",
+            "Portable Webway Portal",
+            "Wraithkind Transport"
+          ],
+          "points": 225
+        },
         {
           "name": "Wraithkind Flotilla",
           "units": "Four Reapers",
           "extraUnits": [
-              "Ravagers"
+            "Ravagers"
           ],
           "points": 250
         },
@@ -129,37 +125,37 @@
       "name": "Wraithkind Partisans",
       "description": "Up to one Wraithkind Partisans for each Wraithkind Kabal",
       "formations": [
-          {
-            "name": "Reaver Gang",
-            "units": "Six Reaver Jet Bikes",
-            "extraUnits": [
-              "Add up to two Reaver Jet Bikes: 25 points each"
-            ],
-            "points": 175
-          },
-          {
-            "name": "Hellion Murder",
-            "units": "Six Hellion Skyboards",
-            "extraUnits": [
-              "Add up to two Warp Beasts: 25 points each"
-            ],
-            "points": 200
-          },
-          {
-            "name": "Wych Cult",
-            "units": "One Succubus, four Wyches",
-            "extraUnits": [
-              "Portable Webway Portal",
-              "Wraithkind Transport"
-            ],
-            "points": 200
+        {
+          "name": "Reaver Gang",
+          "units": "Six Reaver Jet Bikes",
+          "extraUnits": [
+            "Add up to two Reaver Jet Bikes: 25 points each"
+          ],
+          "points": 175
         },
-          {
-            "name": "Scourge Flight",
-            "units": "Six Scourges",
-            "extraUnits": [
-            ],
-            "points": 250
+        {
+          "name": "Hellion Murder",
+          "units": "Six Hellion Skyboards",
+          "extraUnits": [
+            "Add up to two Warp Beasts: 25 points each"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Wych Cult",
+          "units": "One Succubus, four Wyches",
+          "extraUnits": [
+            "Portable Webway Portal",
+            "Wraithkind Transport"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Scourge Flight",
+          "units": "Six Scourges",
+          "extraUnits": [
+          ],
+          "points": 250
         },
         {
           "name": "Vessel of Pain",
@@ -168,52 +164,47 @@
           ],
           "points": 250
         }
-
-
-
       ]
     },
     {
       "name": "Masque of the Midnight Sorrow Saedaths",
       "description": "Up to one Midnight Sorrow Saedath for each Wraithkind Kabal",
       "formations": [
-          {
-            "name": "Cegorach's Escape",
-            "units": "One Harleqin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
-            "extraUnits": [
-
-            ],
-            "points": 200
-          },
-              {
-            "name": "Asuryan's Wager",
-            "units": "One Harlequin Avatar, one Harlequin Troupe, three Death Jesters, four Starweavers",
-            "extraUnits": [
-              "Portable Webway Portal"
-            ],
-            "points": 275
-          },
-          {
-            "name": "Serpent's Blood",
-            "units": "One Harlequin Avatar, four Skyweavers, three Voidweavers",
-            "extraUnits": [
-              "Portable Webway Portal"
-            ],
-            "points": 275
-          },
-          {
-            "name": "Cegorach's Revenge",
-            "units": "One Harlequin Avatar, two Harlequin Troupes, two Death Jesters, four Starweavers, three Skyweavers",
-            "extraUnits": [
-              "Portable Webway Portal"
-            ],
-            "points": 325
-         },
+        {
+          "name": "Cegorach's Escape",
+          "units": "One Harleqin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Asuryan's Wager",
+          "units": "One Harlequin Avatar, one Harlequin Troupe, three Death Jesters, four Starweavers",
+          "extraUnits": [
+            "Portable Webway Portal"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Serpent's Blood",
+          "units": "One Harlequin Avatar, four Skyweavers, three Voidweavers",
+          "extraUnits": [
+            "Portable Webway Portal"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Cegorach's Revenge",
+          "units": "One Harlequin Avatar, two Harlequin Troupes, two Death Jesters, four Starweavers, three Skyweavers",
+          "extraUnits": [
+            "Portable Webway Portal"
+          ],
+          "points": 325
+        },
         {
           "name": "0-1 Devourer's Feast",
           "units": "One Master Mime, one Solitaire, eight Mimes",
           "extraUnits": [
-
           ],
           "points": 350
         },
@@ -221,7 +212,7 @@
           "name": "0-1 Isha's Tears",
           "units": "One Harlequin Avatar, one Shadowseer, two Harlequin Troupes, four Death Jesters, six Starweavers",
           "extraUnits": [
-              "Portable Webway Portal"
+            "Portable Webway Portal"
           ],
           "points": 450
         }
@@ -231,35 +222,33 @@
       "name": "Commorragh Navy & War Engines",
       "description": "Up to a third of the points available may be spent on Commorragh Navy and War Engine formations",
       "formations": [
-          {
-            "name": "Tormentor",
-            "units": "One Tormentor Titan",
-            "extraUnits": [
-
-            ],
-            "points": 350
+        {
+          "name": "Tormentor",
+          "units": "One Tormentor Titan",
+          "extraUnits": [
+          ],
+          "points": 350
         },
-          {
-            "name": "Razorwing Cast",
-            "units": "Two Razorwing Interceptors",
-            "extraUnits": [
-            ],
-            "points": 200
-          },
-          {
-            "name": "Voidraven Cast",
-            "units": "Two Voidraven Interdictors",
-            "extraUnits": [
-            ],
-            "points": 225
-          },
-          {
-            "name": "Slavebringer",
-            "units": "One Slavebringer Assault Boat",
-            "extraUnits": [
-
-            ],
-            "points": 200
+        {
+          "name": "Razorwing Cast",
+          "units": "Two Razorwing Interceptors",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Voidraven Cast",
+          "units": "Two Voidraven Interdictors",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Slavebringer",
+          "units": "One Slavebringer Assault Boat",
+          "extraUnits": [
+          ],
+          "points": 200
         }
       ]
     }
@@ -288,11 +277,14 @@
         "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character. This Portable Webway may be used once in a game. After the character's formation (or the formation carrying it) completes an action you may place a small barrage template marker completely within 15cm of the character's unit (or the unit carrying it) and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
         "points": "50 points"
       },
-
       {
         "name": "Wraithkind Transport",
         "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot if possible. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
-        "points": ["Raiders: Free", "Tantalus: 25 points", "0-1 Barge of Pleasure: 125 points"]
+        "points": [
+          "Raiders: Free",
+          "Tantalus: 25 points",
+          "0-1 Barge of Pleasure: 125 points"
+        ]
       }
     ]
   }

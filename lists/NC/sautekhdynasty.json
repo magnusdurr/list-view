@@ -5,20 +5,18 @@
   "release": "",
   "strategy": "Necron armies have a Strategy Rating of 2.",
   "Initiative": "All Necron formations have an Initiative Rating of 1+.",
-
   "specialRules": [
-      "Necron Reserves",
-      "Necron Garrisons",
-      "The Unbidden",
-      "Necron Portals",
-      "Regeneration",
-      "Machine Spirit",
-      "Implacable Advance",
-      "Ponderous",
-      "Phase Out",
-      "Enduring"
-          ],
-
+    "Necron Reserves",
+    "Necron Garrisons",
+    "The Unbidden",
+    "Necron Portals",
+    "Regeneration",
+    "Machine Spirit",
+    "Implacable Advance",
+    "Ponderous",
+    "Phase Out",
+    "Enduring"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Sautekh Dynasty"
   ],
@@ -50,7 +48,7 @@
         "Seraptek Heavy Construct",
         "C’tan Shard"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -61,28 +59,26 @@
         "Night Shroud Bomber",
         "Scythe Class Harvester"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
-  {
-    "name": "Maynarkh Dynasty Special",
-    "formations": [
-      {
-        "name": "0–1 per army - Tomb Complex",
-        "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
-
-        "points": 25
-      },
-      {
-        "name": "0–1 per army - Necron Overlord",
-        "units": "Replace a Necron Lord in the army with a Necron Overlord.",
-
-        "points": 75
-      }
-    ]
-  },
+  ],
+  "sections": [
+    {
+      "name": "Maynarkh Dynasty Special",
+      "formations": [
+        {
+          "name": "0–1 per army - Tomb Complex",
+          "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
+          "points": 25
+        },
+        {
+          "name": "0–1 per army - Necron Overlord",
+          "units": "Replace a Necron Lord in the army with a Necron Overlord.",
+          "points": 75
+        }
+      ]
+    },
     {
       "name": "Sautekh Dynasty Phalanx’s",
       "formations": [

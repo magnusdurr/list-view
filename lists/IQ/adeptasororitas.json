@@ -5,7 +5,9 @@
   "release": "2020-01-11",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "Ordo Hereticus and Imperial Navy formations have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
-  "specialRules": ["Act of Faith"],
+  "specialRules": [
+    "Act of Faith"
+  ],
   "units": [
     {
       "from": "IQ.json",
@@ -36,7 +38,7 @@
         "Sororitas Stormlord"
       ],
       "unitRules": [
-          "Machine Spirit"
+        "Machine Spirit"
       ]
     },
     {
@@ -46,9 +48,8 @@
         "Chimera",
         "Hydra",
         "Hellhound"
-          ],
+      ],
       "unitRules": [
-
       ]
     },
     {
@@ -72,36 +73,35 @@
           "name": "Mission",
           "units": "One Palatine, eight Battle Sisters",
           "extraUnits": [
-              "Replace two units of Battle Sisters with two Exorcist Prioris: 50 points",
+            "Replace two units of Battle Sisters with two Exorcist Prioris: 50 points",
             "Ordo Hereticus Superior",
             "Hunter",
             "Transport"
           ],
           "points": 250
-
-      }
-    ]
+        }
+      ]
     },
     {
       "name": "Adepta Sororita Support Formations",
       "description": "Two Adepta Sororitas Support Formations may be taken per Adepta Sororitas Core Formation",
       "formations": [
-          {
-            "name": "Immolation",
-            "units": "One Palatine, three Celestian Sisters, three Sororitas Immolators",
-            "extraUnits": [
-              "Hunter"
-            ],
-            "points": 300
-          },
-          {
-            "name": "Exorcism",
-            "units": "Four Exorcist Prioris",
-            "extraUnits": [
-              "Replace four Exorcist Prioris with four Exorcist Sanctorum: Free",
-              "Hunter"
-            ],
-            "points": 250
+        {
+          "name": "Immolation",
+          "units": "One Palatine, three Celestian Sisters, three Sororitas Immolators",
+          "extraUnits": [
+            "Hunter"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Exorcism",
+          "units": "Four Exorcist Prioris",
+          "extraUnits": [
+            "Replace four Exorcist Prioris with four Exorcist Sanctorum: Free",
+            "Hunter"
+          ],
+          "points": 250
         },
         {
           "name": "Seraph",
@@ -118,58 +118,54 @@
             "Replace two Sororitas Rhinos with two Sororitas Repressors: 25 points"
           ],
           "points": 225
-      },
-      {
-        "name": "Repentance",
-        "units": "Three Repentia Sisters, three Mortifiers",
-        "extraUnits": [
-        ],
-        "points": 200
-    },
-      {
-        "name": "Dominus",
-        "units": "One Palatine, four Dominion Sisters, two Sororitas Rhinos",
-        "extraUnits": [
+        },
+        {
+          "name": "Repentance",
+          "units": "Three Repentia Sisters, three Mortifiers",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Dominus",
+          "units": "One Palatine, four Dominion Sisters, two Sororitas Rhinos",
+          "extraUnits": [
             "Replace two Sororitas Rhinos with two Sororitas Repressors: 25 points"
-        ],
-        "points": 175
-    }
-
-
+          ],
+          "points": 175
+        }
       ]
     },
     {
       "name": "Ordo Hereticus Formations",
       "description": "One Ordo Hereticus Formation may be taken per Adepta Sororitas Core Formation or Inquisitor Retinue",
       "formations": [
-          {
-            "name": "0-1 Ordo Hereticus Inquisitor Retinue",
-            "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
-            "extraUnits": [
+        {
+          "name": "0-1 Ordo Hereticus Inquisitor Retinue",
+          "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
+          "extraUnits": [
             "Add one Hydra: 50 points",
             "Hellhounds",
             "Ordo Hereticus Superior"
-
-            ],
-            "points": 300
+          ],
+          "points": 300
         },
-
-      {
-        "name": "Redemption",
-        "units": "One Ministorum Priest, six Redemptionists, three Ordo Hereticus Land Transporters",
-        "extraUnits": [
+        {
+          "name": "Redemption",
+          "units": "One Ministorum Priest, six Redemptionists, three Ordo Hereticus Land Transporters",
+          "extraUnits": [
             "Replace three Ordo Hereticus Land Transporters with three Arco-Flagellants or two Penitent Engines: 25 points",
             "Hellhounds"
-        ],
-        "points": 175
-    },
-    {
-      "name": "Infernus",
-      "units": "Four Hellhounds",
-      "extraUnits": [
-      ],
-      "points": 175
-    }
+          ],
+          "points": 175
+        },
+        {
+          "name": "Infernus",
+          "units": "Four Hellhounds",
+          "extraUnits": [
+          ],
+          "points": 175
+        }
       ]
     },
     {
@@ -190,7 +186,7 @@
           "name": "0–1 Orbital Support",
           "units": "One Lunar Class Cruiser",
           "extraUnits": [
-              "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
+            "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
           ],
           "points": 150
         }
@@ -220,7 +216,6 @@
         "description": "Replace a Palatine and its unit with a Living Saint",
         "points": "50 points"
       },
-
       {
         "name": "Hunter",
         "description": "Add one Exorcist Hunter",
@@ -235,23 +230,22 @@
           "25 points each"
         ]
       },
-
       {
         "name": "Transport",
         "description": "",
         "options": [
-            {
-              "description": "You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible",
-              "points": ""
-            },
-            {
-              "description": "Add one Sororitas Stormlord (Mission only)",
-              "points": "125 points"
-            },
-            {
-              "description": "Add any number of Sororitas Immolators",
-              "points": "40 points each"
-            },
+          {
+            "description": "You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible",
+            "points": ""
+          },
+          {
+            "description": "Add one Sororitas Stormlord (Mission only)",
+            "points": "125 points"
+          },
+          {
+            "description": "Add any number of Sororitas Immolators",
+            "points": "40 points each"
+          },
           {
             "description": "Add any number of Sororitas Repressors",
             "points": "20 points each"
@@ -262,10 +256,10 @@
           }
         ]
       }
-  ],
-  "usage": [
-    "v1.0.0: This list is based on the E-UK version, but with a number of changes to balance the choices in the list, and reduce the potential for spamming Mission / Exorcist formations. The overall structure is a lot more rigid, the Act of Faith rule has been changed to make it more thematic, and reinforce the list's aggressive playstyle, and it is possible to take more Inquisitorial support formations, which is intended to make it possible to play the list more like a Ordo Hereticus army.",
-    "Some other major changes: The basic Battle Sisters unit now has a Heavy Bolter instead of the Heavy Flamer, while the Exorcist has had its stats changed to make it more of a support formation instead of a main battle tank. It is also possible to take them in their 'Whirlwind' configuration. Most infantry unit types have their own dedicated formations, instead of being spread out across the army. This makes each formation a bit more unique, but also makes it easier to remember what each type of 'sister' does, which can be quite confusing for an opponent. The 'Emperor's Chapel' unit has been added to give the army a thematically appropriate WE unit and the Mission formations a bit more staying power. The Exorcists are also easier to integrate into these formations. The Repressor and the Immolator has been made a bit more attractive compared to the basic Rhino, which is no longer free. The Lightning Strike Fighter has been given slightly different stats."
-  ]
+    ],
+    "usage": [
+      "v1.0.0: This list is based on the E-UK version, but with a number of changes to balance the choices in the list, and reduce the potential for spamming Mission / Exorcist formations. The overall structure is a lot more rigid, the Act of Faith rule has been changed to make it more thematic, and reinforce the list's aggressive playstyle, and it is possible to take more Inquisitorial support formations, which is intended to make it possible to play the list more like a Ordo Hereticus army.",
+      "Some other major changes: The basic Battle Sisters unit now has a Heavy Bolter instead of the Heavy Flamer, while the Exorcist has had its stats changed to make it more of a support formation instead of a main battle tank. It is also possible to take them in their 'Whirlwind' configuration. Most infantry unit types have their own dedicated formations, instead of being spread out across the army. This makes each formation a bit more unique, but also makes it easier to remember what each type of 'sister' does, which can be quite confusing for an opponent. The 'Emperor's Chapel' unit has been added to give the army a thematically appropriate WE unit and the Mission formations a bit more staying power. The Exorcists are also easier to integrate into these formations. The Repressor and the Immolator has been made a bit more attractive compared to the basic Rhino, which is no longer free. The Lightning Strike Fighter has been given slightly different stats."
+    ]
   }
 }

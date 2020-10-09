@@ -5,77 +5,75 @@
   "release": "2020-01-15",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+.",
-
   "specialRules": [
-                  "Synapse",
-                  "Hive Mind Locus",
-                  "Shoot the Big Ones!",
-                  "Extreme Mobility",
-                  "Regeneration",
-                  "Gaunts",
-                  "Swarm (x)",
-                  "Tunnelers",
-                  "Hydra Vanguard Organisms"
-          ],
-
+    "Synapse",
+    "Hive Mind Locus",
+    "Shoot the Big Ones!",
+    "Extreme Mobility",
+    "Regeneration",
+    "Gaunts",
+    "Swarm (x)",
+    "Tunnelers",
+    "Hydra Vanguard Organisms"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Tyranid Hive Fleet Hydra."
-          ],
+  ],
   "units": [
-      {
-        "from": "NIDS.json",
-        "units": [
-          "Brood Lord",
-          "Termagants",
-          "Hormagaunts",
-          "Gargoyles",
-          "Genestealers",
-          "Biovore",
-          "Tyranid Warriors",
-          "Zoanthrope",
-          "Lictor",
-          "Dimachaeron",
-          "Swarmlord",
-          "Hive Tyrant",
-          "Dactylis",
-          "Exocrine",
-          "Barbed Carnifex",
-          "Screamer-Killer Carnifex",
-          "Hive Crone",
-          "Viragon",
-          "Trygon Prime",
-          "Trygon",
-          "Tervigon Prime",
-          "Tervigon",
-          "Hive Harridan",
-          "Barbed Hierodule Prime",
-          "Barbed Hierodule",
-          "Scythed Hierodule Prime",
-          "Scythed Hierodule",
-          "Hierophant",
-          "Hydra Dominatrix",
-          "Hydraphant"
-        ],
-          "unitRules": [
-              "Heavy Armoured Vehicle (H-AV)"
-        ]
-      },
-      {
-        "from": "nidsNavy.json",
-        "units": [
-          "Mycetic Spore",
-          "Razorfiend",
-          "Hive Ship"
-        ],
-          "unitRules": [
-        ]
-      }
-    ],
-"sections": [
-  {
-    "name": "Primary Synapse Swarms",
-    "formations": [
     {
+      "from": "NIDS.json",
+      "units": [
+        "Brood Lord",
+        "Termagants",
+        "Hormagaunts",
+        "Gargoyles",
+        "Genestealers",
+        "Biovore",
+        "Tyranid Warriors",
+        "Zoanthrope",
+        "Lictor",
+        "Dimachaeron",
+        "Swarmlord",
+        "Hive Tyrant",
+        "Dactylis",
+        "Exocrine",
+        "Barbed Carnifex",
+        "Screamer-Killer Carnifex",
+        "Hive Crone",
+        "Viragon",
+        "Trygon Prime",
+        "Trygon",
+        "Tervigon Prime",
+        "Tervigon",
+        "Hive Harridan",
+        "Barbed Hierodule Prime",
+        "Barbed Hierodule",
+        "Scythed Hierodule Prime",
+        "Scythed Hierodule",
+        "Hierophant",
+        "Hydra Dominatrix",
+        "Hydraphant"
+      ],
+      "unitRules": [
+        "Heavy Armoured Vehicle (H-AV)"
+      ]
+    },
+    {
+      "from": "nidsNavy.json",
+      "units": [
+        "Mycetic Spore",
+        "Razorfiend",
+        "Hive Ship"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Primary Synapse Swarms",
+      "formations": [
+        {
           "name": "0-1 Nexus Spawn Swarm",
           "units": "One Hydra Dominatrix",
           "extraUnits": [
@@ -110,15 +108,15 @@
       "name": "Secondary Synapse Swarms",
       "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm.",
       "formations": [
-          {
-            "name": "Tervigon Spawn Swarm",
-            "units": "One Tervigon Prime",
-            "extraUnits": [
-              "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Support or Spawner",
-              "1+ Gaunts must be chosen"
-            ],
-            "points": 175
-          },
+        {
+          "name": "Tervigon Spawn Swarm",
+          "units": "One Tervigon Prime",
+          "extraUnits": [
+            "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Support or Spawner",
+            "1+ Gaunts must be chosen"
+          ],
+          "points": 175
+        },
         {
           "name": "Breacher Swarm",
           "units": "One Hierodule Prime (Barbed or Scythed)",
@@ -142,7 +140,6 @@
           "extraUnits": [
             "Add one Hive Harridan, four Gargoyles: 175 points",
             "Up to two Bio-Flyer Instinctive Swarms"
-
           ],
           "points": 200
         }
@@ -189,14 +186,14 @@
             "Replace the Razorfiend with a Hive Ship: 50 points"
           ],
           "points": 150
-      }
-    ]
-  }
-],
-"upgrades": {
-  "title": "Instinctive Swarms",
-  "description": "It is compulsory to buy the minimum amount of Instinctive Swarms.",
-  "items": [
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Instinctive Swarms",
+    "description": "It is compulsory to buy the minimum amount of Instinctive Swarms.",
+    "items": [
       {
         "name": "Gaunts",
         "description": "Five Termagants and/or Hormagaunts",
@@ -247,6 +244,6 @@
         "description": "Permits deployment via planetary assault rules if a Razorfiend or Hive Ship has been bought. This option is not allowed if the Dagon Overlord, Hive Tyrant and/or Tyranid Warriors have been upgraded to Shrike (Wings).",
         "points": "50 points"
       }
-  ]
-}
+    ]
+  }
 }

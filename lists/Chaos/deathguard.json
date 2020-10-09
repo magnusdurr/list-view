@@ -5,14 +5,13 @@
   "release": "2020-04-09",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "Death Guard Core, Elite, and Traitor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-  "specialRules":
-    [
-      "Summoning",
-      "Death Guard Summoning Rules",
-      "Augment Summoning (+x)",
-      "Daemonic Focus",
-      "Fickle Masters"
-    ],
+  "specialRules": [
+    "Summoning",
+    "Death Guard Summoning Rules",
+    "Augment Summoning (+x)",
+    "Daemonic Focus",
+    "Fickle Masters"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Death Guard, using their preferred operational methods."
   ],
@@ -37,33 +36,33 @@
         "Death Guard Vindicator",
         "Chaos Dreadnought",
         "Death Guard Stalker"
-    ],
-    "unitRules": [
+      ],
+      "unitRules": [
         "Death Guard Characters",
-    "Heavy Armoured Vehicle (H-AV)"
-    ]
+        "Heavy Armoured Vehicle (H-AV)"
+      ]
     },
     {
-        "from": "chaoscultists.json",
-        "units": [
-            "Plague Zombies of Nurgle"
-        ],
-        "unitRules": [
-          "Infestation"
-        ]
+      "from": "chaoscultists.json",
+      "units": [
+        "Plague Zombies of Nurgle"
+      ],
+      "unitRules": [
+        "Infestation"
+      ]
     },
     {
-        "from": "darkmechanicus.json",
-        "units": [
-            "Desecrator",
-            "Blight Drone",
-            "Contagion Engine",
-            "Plague Tower",
-            "Plague Reaper"
-        ],
-        "unitRules": [
-          "Daemon Engine (x)"
-        ]
+      "from": "darkmechanicus.json",
+      "units": [
+        "Desecrator",
+        "Blight Drone",
+        "Contagion Engine",
+        "Plague Tower",
+        "Plague Reaper"
+      ],
+      "unitRules": [
+        "Daemon Engine (x)"
+      ]
     },
     {
       "from": "daemons.json",
@@ -74,8 +73,8 @@
         "Great Unclean One"
       ],
       "unitRules": [
-    ]
-  },
+      ]
+    },
     {
       "from": "traitortitanlegions.json",
       "units": [
@@ -84,19 +83,18 @@
       ],
       "unitRules": [
         "Void Shields"
-    ]
-  },
-  {
-    "from": "chaosnavy.json",
-    "units": [
-      "Heldrake",
-      "Harbringer Bomber",
-      "Plagueship"
-  ],
-  "unitRules": [
-
-  ]
-  }
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Heldrake",
+        "Harbringer Bomber",
+        "Plagueship"
+      ],
+      "unitRules": [
+      ]
+    }
   ],
   "sections": [
     {
@@ -116,9 +114,7 @@
             "Dreadnoughts"
           ],
           "points": 300
-      }
-
-
+        }
       ]
     },
     {
@@ -131,7 +127,6 @@
           "extraUnits": [
             "Replace two Death Guard Rhinos with 2 Chaos Dreadnoughts: 75 points",
             "Vindicators"
-
           ],
           "points": 175
         },
@@ -144,89 +139,87 @@
             "Stalker"
           ],
           "points": 225
-      },
-      {
-        "name": "Death Guard Terminators",
-        "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
-        "extraUnits": [
+        },
+        {
+          "name": "Death Guard Terminators",
+          "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
+          "extraUnits": [
             "Supreme Commander",
             "Death Guard Transport",
             "Champion",
             "Icon Bearer",
             "Vindicators",
             "Dreadnoughts"
-        ],
-        "points": 350
-    }
-
-    ]
-  },
-  {
-    "name": "Death Guard Support Formations",
-    "description": "Up to two Support Formations may be taken per Core Formation.",
-    "formations": [
+          ],
+          "points": 350
+        }
+      ]
+    },
+    {
+      "name": "Death Guard Support Formations",
+      "description": "Up to two Support Formations may be taken per Core Formation.",
+      "formations": [
         {
           "name": "0-2 Plague Zombie Infestation",
           "units": "7 Plague Zombies",
           "points": 175
-          },
-          {
-      "name": "Plague Reaper",
-      "units": "One Plague Reaper",
-      "extraUnits": [
-      ],
-      "points": 225
-  },
+        },
+        {
+          "name": "Plague Reaper",
+          "units": "One Plague Reaper",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
         {
           "name": "Nurgle Defiler Pack",
           "units": "Four Desecrators",
           "extraUnits": [
-              "Add one Desecrator: 50 points"
+            "Add one Desecrator: 50 points"
           ],
           "points": 225
-      },
-      {
-        "name": "Blight Drones",
-        "units": "Seven Blight Drones",
-        "extraUnits": [
-        ],
-        "points": 250
+        },
+        {
+          "name": "Blight Drones",
+          "units": "Seven Blight Drones",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Plague Tower",
+          "units": "One Plague Tower",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Contagion Engines",
+          "units": "Four Contagion Engines",
+          "extraUnits": [
+          ],
+          "points": 325
+        }
+      ]
     },
     {
-      "name": "Plague Tower",
-      "units": "One Plague Tower",
-      "extraUnits": [
-      ],
-      "points": 275
-  },
-      {
-        "name": "Contagion Engines",
-        "units": "Four Contagion Engines",
-        "extraUnits": [
-        ],
-        "points": 325
-    }
-
-    ]
-  },
-        {
       "name": "Traitor Titans and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Plaguehound",
-            "units": "One Plaguehound Titan",
-            "extraUnits": [
-            ],
-            "points": 275
-          },
-          {
-            "name": "Repugnant",
-            "units": "One Repugnant Titan",
-            "extraUnits": [
-            ],
-            "points": 600
-          },
+        {
+          "name": "Plaguehound",
+          "units": "One Plaguehound Titan",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Repugnant",
+          "units": "One Repugnant Titan",
+          "extraUnits": [
+          ],
+          "points": 600
+        },
         {
           "name": "Heldrakes",
           "units": "Two Heldrakes",
@@ -243,23 +236,23 @@
           "points": 100
         }
       ]
-  },
-  {
-    "name": "Daemon Pool",
-    "description": "Any amount may be spent on Daemon Pool points",
-    "formations": [
+    },
+    {
+      "name": "Daemon Pool",
+      "description": "Any amount may be spent on Daemon Pool points",
+      "formations": [
         {
           "name": "Lesser Daemon Pool",
           "units": "Any amount of Lesser Daemon Pool points",
           "points": 15
-      },
-      {
-        "name": "Greater Daemon Pool",
-        "units": "Any amount of Greater Daemon Pool points. The first one is free.",
-        "points": 50
-      }
-    ]
-}
+        },
+        {
+          "name": "Greater Daemon Pool",
+          "units": "Any amount of Greater Daemon Pool points. The first one is free.",
+          "points": 50
+        }
+      ]
+    }
   ],
   "upgrades": {
     "title": "Death Guard Upgrades",
@@ -291,15 +284,15 @@
           {
             "description": "Add two Chaos Spartan Assault Tanks",
             "points": "150 points"
-        },
-        {
-          "description": "Add four Chaos Land Raiders",
-          "points": "200 points"
-      },
-        {
-          "description": "(No more than needed to transport the formation with no space left over)",
-          "points": ""
-      }
+          },
+          {
+            "description": "Add four Chaos Land Raiders",
+            "points": "200 points"
+          },
+          {
+            "description": "(No more than needed to transport the formation with no space left over)",
+            "points": ""
+          }
         ]
       },
       {

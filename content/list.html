@@ -6,29 +6,28 @@
         var race = urlSearchParams.get("race");
         var list = urlSearchParams.get("list");
 
-        if (race && list)
-        {
+        if (race && list) {
             $.when(units.loadSpecialRules(), units.loadWeapons()).done(function (specialRules, weapons) {
                 $.getJSON("lists/" + race + "/" + list + ".json", function (data) {
-                            $(document).prop('title',);
+                        $(document).prop('title',);
 
-                            var content = $("#content");
-                    content.append(eaTemplating.templates['error']({"errors": units.errors}));
+                        var content = $("#content");
+                        content.append(eaTemplating.templates['error']({"errors": units.errors}));
 
-                            content.append(eaTemplating.templates['army'](units.formatSpecialRules(data, specialRules)));
+                        content.append(eaTemplating.templates['army'](units.formatSpecialRules(data, specialRules)));
 
-                            units.formatUnits(data, specialRules, weapons).forEach(function (units) {
-                                content.append(eaTemplating.templates['units'](units));
-                            });
-                        }
+                        units.formatUnits(data, specialRules, weapons).forEach(function (units) {
+                            content.append(eaTemplating.templates['units'](units));
+                        });
+
+                        content.app
+                    }
                 ).fail(function (jqxhr, textStatus, error) {
                     $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid, error: ' + textStatus);
                     console.log("Fail!", error);
                 });
             });
-        }
-        else
-        {
+        } else {
             $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid');
         }
     });

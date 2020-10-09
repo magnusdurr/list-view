@@ -92,7 +92,8 @@
           "units": "Three Raven Guard Scouts, three Land Speeder Storms",
           "extraUnits": [
             "Commander",
-            "Land Speeders"          ],
+            "Land Speeders"
+          ],
           "points": 200
         },
         {
@@ -148,17 +149,17 @@
       "name": "Ravenguard Support Detachments",
       "description": "One Support Detachment may be taken per Core Detachment",
       "formations": [
-          {
-            "name": "Scout",
-            "units": "Four Raven Guard Scouts plus transport",
-            "extraUnits": [
-              "Commander",
-              "Land Speeders",
-              "Snipers",
-              "Razorbacks"
-            ],
-            "points": 150
-          },
+        {
+          "name": "Scout",
+          "units": "Four Raven Guard Scouts plus transport",
+          "extraUnits": [
+            "Commander",
+            "Land Speeders",
+            "Snipers",
+            "Razorbacks"
+          ],
+          "points": 150
+        },
         {
           "name": "Bikes",
           "units": "Any five of the following units: Attack Bike, Assault Bikes",
@@ -211,10 +212,10 @@
           "name": "Warhounds",
           "units": "One Warhound Titan",
           "extraUnits": [
-              "Add one additional Warhound Titan: 200 points"
+            "Add one additional Warhound Titan: 200 points"
           ],
           "points": 275
-      }
+        }
       ]
     }
   ],

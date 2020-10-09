@@ -6,7 +6,10 @@
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Space Wolves detachments and Aircraft formations.",
-  "specialRules": ["Space Marine Transports", "Extended Command"],
+  "specialRules": [
+    "Space Marine Transports",
+    "Extended Command"
+  ],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Space Wolves Chapter."
   ],
@@ -46,39 +49,42 @@
         "Strike Cruiser",
         "Drop Pod"
       ],
-      "unitRules": ["They Shall Know No Fear"]
-  },
-  {
-    "from": "QK.json",
-    "units": [
-      "Questoris Knight-Freeblade"
-    ],
       "unitRules": [
-          "Ion Shield (x)", "Lance"
-    ]
-  }
+        "They Shall Know No Fear"
+      ]
+    },
+    {
+      "from": "QK.json",
+      "units": [
+        "Questoris Knight-Freeblade"
+      ],
+      "unitRules": [
+        "Ion Shield (x)",
+        "Lance"
+      ]
+    }
   ],
   "sections": [
     {
       "name": "Space Wolves Core Packs",
       "description": "At least one Hunting Pack must be taken.",
       "formations": [
-          {
-            "name": "1+ Hunting Pack",
-            "units": "One Wolf Lord Captain, eight Grey Hunter Tacticals plus transport",
-            "extraUnits": [
-              "Replace three Grey Hunter Tacticals with Long Fang Devastators: 50 points",
-              "Add up to three Leman Russ Exterminators: 50 points each",
-              "Supreme Commander",
-              "Runekeeper",
-              "Land Raiders",
-              "Razorbacks",
-              "Anti-Air",
-              "Dreadnoughts"
-            ],
-            "points": 350
+        {
+          "name": "1+ Hunting Pack",
+          "units": "One Wolf Lord Captain, eight Grey Hunter Tacticals plus transport",
+          "extraUnits": [
+            "Replace three Grey Hunter Tacticals with Long Fang Devastators: 50 points",
+            "Add up to three Leman Russ Exterminators: 50 points each",
+            "Supreme Commander",
+            "Runekeeper",
+            "Land Raiders",
+            "Razorbacks",
+            "Anti-Air",
+            "Dreadnoughts"
+          ],
+          "points": 350
         },
-            {
+        {
           "name": "Blood Claw Assault Pack",
           "units": "Five Blood Claw Assaults plus transport",
           "extraUnits": [
@@ -88,65 +94,64 @@
           "points": 175
         },
         {
-      "name": "Sky Claw Assault Pack",
-      "units": "Five Sky Claw Assaults",
-      "extraUnits": [
-          "Runekeeper"
-      ],
-      "points": 175
+          "name": "Sky Claw Assault Pack",
+          "units": "Five Sky Claw Assaults",
+          "extraUnits": [
+            "Runekeeper"
+          ],
+          "points": 175
         }
-
       ]
     },
     {
       "name": "Space Wolf Support Packs",
       "description": "Two Support Packs may be taken per Core Pack",
       "formations": [
-          {
-            "name": "Wolf Guard Terminator Pack",
-            "units": "One Wolf Lord Captain, four Wolf Guard Terminators plus transport",
-            "extraUnits": [
-              "Replace any number of Wolf Guard Terminators with Wolf Guard Assault Terminators: Free",
-              "Supreme Commander",
-              "Runekeeper",
-              "Land Raiders",
-              "Dreadnoughts"
-            ],
-            "points": 400
-          },
-          {
-            "name": "Swift Claw Biker Pack",
-            "units": "Four Swift Claw Assault Bikes, two Fenrisian Wolves",
-            "extraUnits": [
-                "Runekeeper"
-            ],
-            "points": 200
+        {
+          "name": "Wolf Guard Terminator Pack",
+          "units": "One Wolf Lord Captain, four Wolf Guard Terminators plus transport",
+          "extraUnits": [
+            "Replace any number of Wolf Guard Terminators with Wolf Guard Assault Terminators: Free",
+            "Supreme Commander",
+            "Runekeeper",
+            "Land Raiders",
+            "Dreadnoughts"
+          ],
+          "points": 400
         },
-          {
-            "name": "Wolf Scout Pack",
-            "units": "Four Wolf Scout Veterans plus transport",
-            "extraUnits": [
-              "Runekeeper",
-              "Razorbacks"
-            ],
-            "points": 175
-          },
-          {
-            "name": "Land Raider Pack",
-            "units": "Three Land Raiders",
-            "extraUnits": [
-              "Add one Land Raider Wrath of Mjalnar: 125 points",
-              "Anti-Air"
-            ],
-            "points": 250
-          },
-          {
-            "name": "Predator Pack",
-            "units": "Four Predator Annihilators and/or Predator Destructors",
-            "extraUnits": [
-              "Anti-Air"
-            ],
-            "points": 250
+        {
+          "name": "Swift Claw Biker Pack",
+          "units": "Four Swift Claw Assault Bikes, two Fenrisian Wolves",
+          "extraUnits": [
+            "Runekeeper"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Wolf Scout Pack",
+          "units": "Four Wolf Scout Veterans plus transport",
+          "extraUnits": [
+            "Runekeeper",
+            "Razorbacks"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Land Raider Pack",
+          "units": "Three Land Raiders",
+          "extraUnits": [
+            "Add one Land Raider Wrath of Mjalnar: 125 points",
+            "Anti-Air"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Predator Pack",
+          "units": "Four Predator Annihilators and/or Predator Destructors",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 250
         },
         {
           "name": "Vindicator Pack",
@@ -163,15 +168,15 @@
             "Anti-Air"
           ],
           "points": 275
-      },
-    {
-      "name": "0-1 Orbital Support",
-      "units": "One Strike Cruiser",
-      "extraUnits": [
-        "Battle Barge"
-      ],
-      "points": 200
-    }
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
+        }
       ]
     },
     {
@@ -199,8 +204,7 @@
           "name": "0-1 Freeblade Knight",
           "units": "One Questoris Knight-Freeblade of any configuration",
           "points": 175
-      }
-
+        }
       ]
     }
   ],
@@ -211,7 +215,10 @@
       {
         "name": "Dreadnoughts",
         "description": "Add up to two Blizzard or Helfrost Dreadnoughts",
-        "points": ["50 points each", "75 points per pair"]
+        "points": [
+          "50 points each",
+          "75 points per pair"
+        ]
       },
       {
         "name": "Battle Barge",
@@ -226,7 +233,10 @@
       {
         "name": "Runekeeper",
         "description": "Add one Librarian or Chaplain to the formation",
-        "points": ["Librarian: 25 points", "Chaplain: 50 points"]
+        "points": [
+          "Librarian: 25 points",
+          "Chaplain: 50 points"
+        ]
       },
       {
         "name": "Anti-Air",

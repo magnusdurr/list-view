@@ -2,7 +2,6 @@
   {
     "name": "Adeptus Custodes Forces",
     "specialRules": [
-
     ],
     "unit": [
       {
@@ -73,8 +72,7 @@
         "weapons": [
           "Sentinel War Blade"
         ],
-        "notes":
-        "Reinforced Armour"
+        "notes": "Reinforced Armour"
       },
       {
         "name": "Warden",
@@ -87,8 +85,8 @@
           "Guardian Spear"
         ],
         "specialRules": [
-        "Reinforced Armour",
-        "Invunerable Save"
+          "Reinforced Armour",
+          "Invunerable Save"
         ]
       },
       {
@@ -101,7 +99,7 @@
         "weapons": [
           "Venatari Lance",
           "Archeotech Kinetic Destroyer"
-                  ],
+        ],
         "specialRules": [
           "Reinforced Armour",
           "Jump Packs",
@@ -142,7 +140,6 @@
           "Fearless"
         ]
       },
-
       {
         "name": "Vertus Praetors",
         "type": "LV",
@@ -284,18 +281,18 @@
       },
       {
         "name": "Null-Maiden Hunter",
-          "type": "AV",
-          "speed": 30,
-          "armour": 4,
-          "cc": 6,
-          "ff": 6,
-          "weapons": [
-            "Hunter-Killer"
-          ],
-          "specialRules": [
-            "Fearless"
-          ]
-        },
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Hunter-Killer"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
       {
         "name": "Orion Assault Ship",
         "type": "AC/WE",

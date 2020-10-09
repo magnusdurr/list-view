@@ -21,15 +21,14 @@
         ""
       ]
     },
-        {
-              "title": "Void Shields",
-              "description": [
-                  "Void shields that have been knocked down can be repaired. Each War Engine can repair one downed Void Shield in the End Phase of each turn.",
-                   "In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker).",
-                   ""
-              ]
-            },
-
+    {
+      "title": "Void Shields",
+      "description": [
+        "Void shields that have been knocked down can be repaired. Each War Engine can repair one downed Void Shield in the End Phase of each turn.",
+        "In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker).",
+        ""
+      ]
+    },
     {
       "title": "God Machine",
       "description": [
@@ -47,7 +46,6 @@
         ""
       ]
     },
-
     {
       "title": "Adeptus Custodians",
       "description": [
@@ -67,35 +65,34 @@
         "Support Craft do not block line of sight, must always use their Skimmer ability to force a firefight in engagements and Infantry in base contact with a Support Craft may not use it to count as being in cover.",
         ""
       ]
-  },
-
-          {
-            "title": "Indomitable",
-            "description": [
-              "All Squat formations ignores the -1 modifier for enemy formations within 30cm when rallying (does not apply to formations that exclusively consists of units with the 'Machine Spirit' special rule).",
-              ""
-            ]
-        },
-        {
-          "title": "Spirit Lords",
-          "description": [
-            "A formation with a Living Ancestor does not suffer a -1 modifier to their Action Test when attempting to retain the initiative.",
-            ""
-          ]
-      },
-      {
-        "title": "Tunneling Transports",
-        "description": [
-          "Formations including units with both the Transport and Tunneler special rules must start the game in the reserves, and may only enter the battlefield through tunneling. War Engines with these special rules may not start the game empty, but must transport another formation.",
-          ""
-        ]
     },
-      {
-        "title": "Shield Disruptor",
-        "description": [
-          "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
-          ""
-        ]
+    {
+      "title": "Indomitable",
+      "description": [
+        "All Squat formations ignores the -1 modifier for enemy formations within 30cm when rallying (does not apply to formations that exclusively consists of units with the 'Machine Spirit' special rule).",
+        ""
+      ]
+    },
+    {
+      "title": "Spirit Lords",
+      "description": [
+        "A formation with a Living Ancestor does not suffer a -1 modifier to their Action Test when attempting to retain the initiative.",
+        ""
+      ]
+    },
+    {
+      "title": "Tunneling Transports",
+      "description": [
+        "Formations including units with both the Transport and Tunneler special rules must start the game in the reserves, and may only enter the battlefield through tunneling. War Engines with these special rules may not start the game empty, but must transport another formation.",
+        ""
+      ]
+    },
+    {
+      "title": "Shield Disruptor",
+      "description": [
+        "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
+        ""
+      ]
     },
     {
       "title": "Bravery",
@@ -123,8 +120,8 @@
     {
       "title": "Ionic Flare Shield",
       "description": [
-          "Knights with 'Ionic Flare Shield' may also use their Ion Shield against CC attacks.",
-          ""
+        "Knights with 'Ionic Flare Shield' may also use their Ion Shield against CC attacks.",
+        ""
       ]
     },
     {
@@ -155,56 +152,40 @@
         ""
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "title": "Courage, Discipline and Loyalty",
       "description": [
         "When the Supreme Commander re-roll is used on a formation that contains a Commissar or a Ministorum Priest, the formation counts as having 1+ Initiative Rating when re-rolling the Action Test.",
         ""
-            ]
+      ]
     },
     {
       "title": "Grim Demeanour",
       "description": [
         "Valhallan formations that contain a Ministorum Priest gain +1 on their Action Test when attempting to Marshal.",
         ""
-            ]
+      ]
     },
     {
       "title": "Grav-Chutes",
       "description": [
         "Units with the 'Grav-Chutes' special rule may disembark up to 10cm from Skimmer transport vehicles instead of the normal 5cm.",
         ""
-            ]
+      ]
     },
-
     {
       "title": "Ethereal",
       "description": [
         "All units in a formation joined by an Ethereal gain Fearless. When the unit with the Ethereal is killed the formation loses Fearless and receives 1D3 Blast Markers.",
         ""
-        ]
+      ]
     },
     {
       "title": "Blitzkrieg",
       "description": [
         "Formations containing a unit with the Blitzkrieg ability receive a +1 modifier to their Action Test when attempting to Double.",
         ""
-        ]
+      ]
     },
     {
       "title": "Catachan Commanders",
@@ -213,7 +194,6 @@
         ""
       ]
     },
-
     {
       "title": "Fortified Positions",
       "description": [
@@ -235,21 +215,21 @@
       "description": [
         "When playing Epic tournament games, a Siegemaster army must include a Regimental HQ. The enemy counts as having achieved the “Break Their Spirit” goal by destroying this formation or by destroying the most expensive formation in the army (see Victory Conditions).",
         ""
-        ]
+      ]
     },
     {
       "title": "Vertical Envelopment",
       "description": [
         "Up to three formations that garrison may start on Overwatch instead of the usual two. In addition, one aircraft formation may start the game on CAP. The aircraft formation will follow all the rules for CAP, but is setup during the pre-game garrisoning phase.",
         ""
-        ]
+      ]
     },
     {
       "title": "Sky Talons",
       "description": [
         "The Elysian Drop Troops garrisons only need to have one unit within 30cm from an objective instead of the usual 15cm.",
         ""
-        ]
+      ]
     },
     {
       "title": "Siege Specialists",
@@ -257,7 +237,7 @@
         "Friendly units may re-roll failed dangerous terrain tests when making a move through Minefields or Razor Wire on the friendly part of the table, and friendly units with 'Walker' may use it against enemy Minefields or Razor Wire.",
         "In addition, up to three formations that garrison may start on Overwatch instead of the usual two.",
         ""
-        ]
+      ]
     },
     {
       "title": "Tunnelers",
@@ -267,67 +247,50 @@
         "Formations of multiple tunnellers need only record one location where they will surface. Place the first tunneller unit at this location. All other tunneller units must be placed within 5cm of another tunneller unit that has already been placed and fully within a 15cm radius of the original surfacing coordinates. After all tunnellers have been placed any units being transported are allowed to disembark immediately.",
         "Disembarking triggers overwatch fire as normal. Tunnellers, and any units being transported in them, may take an action on the turn they appear.",
         ""
-        ]
+      ]
     },
     {
       "title": "Self Planetfall",
       "description": [
         "Self Planetfall is plotted exactly as planetfall (see 4.4). Both the turn in which the formation arrives and the landing location is plotted. The only exception is that, because these units are much smaller than orbiting spacecraft, they may be plotted to arrive in the same turn that another spacecraft is present. On the designated turn the formation conducting Self Planetfall is activated in the normal activation sequence, as with spacecraft. Nominate the action for the formation and roll to activate. If the formation fails to activate its arrival is delayed to the next following turn. If the activation is successful, place the formation at the plotted landing zone and determine scatter according to 4.4 as if it were a normal planetfall, including loaded units disembarking up to 5cm. The formation’s action proceeds as normal in all respects from that point. In other words, the formation gets the “free move” from planetfall placement at the beginning of its action but in all other ways activates as normal. Note: The action is chosen at activation, before scatter is determined. Choose the action carefully as a poor scatter roll could render some actions ineffective.",
         ""
-        ]
+      ]
     },
-
-
-
-
-
-
-
-
-
-
-
     {
       "title": "Act of Faith",
       "description": [
         "When successfully performing an Engage action, units that have the 'Faithful' special rule gain Fearless and Invulnerable Save. This effect last until the end of the current turn.",
         ""
       ]
-  },
-
-
-
-
-      {
-          "title": "Cult of the Machine",
-          "description": [
-              "If a friendly Titan or an Iron Hands Venerable Dreadnought is destroyed, all formations within 30cm suffer one Blast Marker marking the deep loss it represents to the chapter.",
-              ""
-          ]
-      },
-
-  {
-          "title": "Bionics",
-          "description": [
-              "The extensive bionic modifications undergone by the Iron Hands and the Iron Warriors increases their resistance to physical trauma. Characters with the Bionics special rule increases the Armour of their unit to 3+ when added to a unit of INF.",
-              ""
-          ]
-      },
-      {
-              "title": "Battlefield Repairs",
-              "description": [
-                  "As long as a formation contains a unit with the 'Battlefield Repairs' special ability, all Armoured Vehicle units in the formation gains Invulnerable Save.",
-                  ""
-              ]
-          },
-      {
-              "title": "Extended Command",
-              "description": [
-                  "Formations with at least one unit with the 'Extended Command' ability extend the range at which Commanders within the formation can call other formations to follow them when they make a combined assault from 5cm to 15cm (see 2.1.2).",
-                  ""
-              ]
-          },
-
+    },
+    {
+      "title": "Cult of the Machine",
+      "description": [
+        "If a friendly Titan or an Iron Hands Venerable Dreadnought is destroyed, all formations within 30cm suffer one Blast Marker marking the deep loss it represents to the chapter.",
+        ""
+      ]
+    },
+    {
+      "title": "Bionics",
+      "description": [
+        "The extensive bionic modifications undergone by the Iron Hands and the Iron Warriors increases their resistance to physical trauma. Characters with the Bionics special rule increases the Armour of their unit to 3+ when added to a unit of INF.",
+        ""
+      ]
+    },
+    {
+      "title": "Battlefield Repairs",
+      "description": [
+        "As long as a formation contains a unit with the 'Battlefield Repairs' special ability, all Armoured Vehicle units in the formation gains Invulnerable Save.",
+        ""
+      ]
+    },
+    {
+      "title": "Extended Command",
+      "description": [
+        "Formations with at least one unit with the 'Extended Command' ability extend the range at which Commanders within the formation can call other formations to follow them when they make a combined assault from 5cm to 15cm (see 2.1.2).",
+        ""
+      ]
+    },
     {
       "title": "Space Marine Transports",
       "description": [
@@ -372,48 +335,48 @@
         "Before each game, after the opposing army is known but before objectives are placed, the White Scars player may choose which formations with the plus transport aspect are deployed in Rhinos or Drop Pods. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected.",
         ""
       ]
-  },
+    },
     {
       "title": "Navis Nobilite",
       "description": [
-          "Grey Knight spacecraft are among the fastest and best piloted ships in the Galaxy. If a Grey Knights Strike Cruiser has been bought, the Blood Ravens player counts as having a Strategy Rating of 6 for the purposes of choosing which turn the spacecraft will pass over the battlefield.",
-          ""
+        "Grey Knight spacecraft are among the fastest and best piloted ships in the Galaxy. If a Grey Knights Strike Cruiser has been bought, the Blood Ravens player counts as having a Strategy Rating of 6 for the purposes of choosing which turn the spacecraft will pass over the battlefield.",
+        ""
       ]
     },
     {
       "title": "Battle Veteran",
       "description": [
-          "Formations containing at least one model with the rule 'Battle Veteran' removes an additional blast marker whenever that formation rallies or regroups.",
-          ""
+        "Formations containing at least one model with the rule 'Battle Veteran' removes an additional blast marker whenever that formation rallies or regroups.",
+        ""
       ]
     },
     {
       "title": "Ad Hoc Detachments",
       "description": [
-          "By necessity, the Ordo Xenos has become experts of improvisation, rapidly mustering local allies and adapting to the Deathwatch's ever-changing roster of skills and individuals. For this reason, formations with Commander may also use the ability when their own or another friendly formation within 5cm of their formation is defending against an assault, declaring both formations to be intermingled (see 1.12.10). Once declared intermingled, the Commanders' formations follow all rules exactly as if the enemy had declared them intermingled. Note that if either player declares intermingling, the formations are intermingled.",
-          ""
+        "By necessity, the Ordo Xenos has become experts of improvisation, rapidly mustering local allies and adapting to the Deathwatch's ever-changing roster of skills and individuals. For this reason, formations with Commander may also use the ability when their own or another friendly formation within 5cm of their formation is defending against an assault, declaring both formations to be intermingled (see 1.12.10). Once declared intermingled, the Commanders' formations follow all rules exactly as if the enemy had declared them intermingled. Note that if either player declares intermingling, the formations are intermingled.",
+        ""
       ]
     },
     {
       "title": "Xenos Horrificus",
       "description": [
-          "Together, the Deathwatch and the Ordo Xenos contain a galaxy's worth of experience of the Imperium's foes. For this reason, the Deathwatch player may re-roll one Strategy Roll per game.",
-          ""
+        "Together, the Deathwatch and the Ordo Xenos contain a galaxy's worth of experience of the Imperium's foes. For this reason, the Deathwatch player may re-roll one Strategy Roll per game.",
+        ""
       ]
     },
     {
       "title": "Wings of the Sky Angel",
       "description": [
-          "All Deathwatch Detachments must start the game in the reserves, transported in either a Dark Hunter Class Destroyer, a Corvus Blackstar Dropship, or a Deathwatch Thunderhawk Transporter.",
-          "In addition, all AA shots have an additional -1 to hit against Corvus Blackstar Dropships.",
-          ""
+        "All Deathwatch Detachments must start the game in the reserves, transported in either a Dark Hunter Class Destroyer, a Corvus Blackstar Dropship, or a Deathwatch Thunderhawk Transporter.",
+        "In addition, all AA shots have an additional -1 to hit against Corvus Blackstar Dropships.",
+        ""
       ]
     },
     {
       "title": "Pack Hunters",
       "description": [
-          "Space Wolves units with the Commander ability extend the range at which they can call other formations to follow them when they make a combined assault from 5cm to 10cm (see 2.1.2).",
-          ""
+        "Space Wolves units with the Commander ability extend the range at which they can call other formations to follow them when they make a combined assault from 5cm to 10cm (see 2.1.2).",
+        ""
       ]
     },
     {
@@ -422,8 +385,7 @@
         "Uses the Orbital Barrage Template instead of the ordinary template.",
         ""
       ]
-  },
-
+    },
     {
       "title": "Independent",
       "description": [
@@ -438,7 +400,7 @@
         "In addition, formations that exclusively consists of models with Teleport may be set up in a spacecraft if such has been bought. From there, they can either teleport normally, or coordinate their teleport with the spacecraft's activation.",
         "Teleports coordinated with a spacecraft activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another. The entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns.",
         ""
-        ]
+      ]
     },
     {
       "title": "Honour Guard",
@@ -450,9 +412,9 @@
     {
       "title": "Lucifer Pattern Engine",
       "description": [
-          "Units with the 'Lucifer Pattern Engine' special rule gain an additional 5cm Speed when their formation performs an Engage Action.",
-          "Blood Angels formations with 'plus transport' may use Blood Angels Rhinos instead of normal Rhinos.",
-          ""
+        "Units with the 'Lucifer Pattern Engine' special rule gain an additional 5cm Speed when their formation performs an Engage Action.",
+        "Blood Angels formations with 'plus transport' may use Blood Angels Rhinos instead of normal Rhinos.",
+        ""
       ]
     },
     {
@@ -469,27 +431,26 @@
         ""
       ]
     },
-
     {
       "title": "Fleet of Foot",
       "description": [
         "Dark Eldar and Harlequin formations may still lend support fire in assaults, help claim a crossfire bonus, and fire AA after taking a March action.",
         ""
-        ]
+      ]
     },
     {
       "title": "Black Heart Coterie",
       "description": [
         "The army must include a Black Heart Coterie. The enemy counts as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army.",
         ""
-        ]
+      ]
     },
     {
       "title": "Wraithkind Coterie",
       "description": [
         "The army must include a Wraithkind Coterie. The enemy counts as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation and/or the most expensive formation in the army.",
         ""
-        ]
+      ]
     },
     {
       "title": "Webway Portal",
@@ -498,47 +459,35 @@
         "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only INF, LV, or AVs with the Walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
         "If a Webway is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible.",
         ""
-        ]
+      ]
     },
     {
       "title": "Large Webway Portal",
       "description": [
-          "Large Webway Portals follows all the rules for a normal Webway Portals, except AV units are not required to have Walker in order to enter the battlefield through it.",
-          ""
-        ]
+        "Large Webway Portals follows all the rules for a normal Webway Portals, except AV units are not required to have Walker in order to enter the battlefield through it.",
+        ""
+      ]
     },
     {
       "title": "Shadowfields",
       "description": [
         "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate Blast Markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2), meaning that all shooting (including AA) without the Ignore Cover ability receive a -1 to hit modifier.",
         ""
-        ]
+      ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "title": "Seers of Ulthwé",
       "description": [
-            "Seers of Ulthwé - Craftworld Ulthwé armies counts as having Strategy Rating 5 for all purposes except for the Strategy Roll at the start of a turn. In addition, Ulthwé armies gets +1 to the Strategy Roll on the turn their Avatar arrives.",
-            ""    ]
+        "Seers of Ulthwé - Craftworld Ulthwé armies counts as having Strategy Rating 5 for all purposes except for the Strategy Roll at the start of a turn. In addition, Ulthwé armies gets +1 to the Strategy Roll on the turn their Avatar arrives.",
+        ""
+      ]
     },
     {
       "title": "Black Guardians",
       "description": [
         "All Ulthwé formations containing a Seer Council, Farseer or Mounted Farseer counts as having +1 Initiative Rating.",
         ""
-        ]
+      ]
     },
     {
       "title": "Avatar (Biel-Tan)",
@@ -689,8 +638,6 @@
         ""
       ]
     },
-
-
     {
       "title": "Hit and Run",
       "description": [
@@ -704,8 +651,8 @@
         "Holofields provide a saving throw to the value of 'x'. This save may always be taken even against weapons with the Macro Weapon or Titan Killer abilities.",
         "If a unit has Reinforced Armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate Blast Markers, even if they have the Disrupt ability.",
         "Against Titan Killer attacks that cause extra damage make one Holofield save roll, if this is successful the unit takes no damage, if the roll fails it suffers all the damage.",
-         "Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the Sniper ability. If a unit with Holofield also has a save from being in Cover, it must choose which save to use.",
-         ""
+        "Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the Sniper ability. If a unit with Holofield also has a save from being in Cover, it must choose which save to use.",
+        ""
       ]
     },
     {
@@ -718,12 +665,11 @@
     {
       "title": "Independent Twins",
       "description": [
-      "Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one of the pair is destroyed, the surviving Revenant Twin receives a Blast Marker.",
-      "In addition, Independent Twins may use the Commander ability with its Twin. In this case, the Commander ability counts as having an unlimited range instead of the normal 5cm.",
-      ""
+        "Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one of the pair is destroyed, the surviving Revenant Twin receives a Blast Marker.",
+        "In addition, Independent Twins may use the Commander ability with its Twin. In this case, the Commander ability counts as having an unlimited range instead of the normal 5cm.",
+        ""
       ]
     },
-
     {
       "title": "Cegorach, the Laughing God",
       "description": [
@@ -749,7 +695,6 @@
         ""
       ]
     },
-
     {
       "title": "Dance of Shadows",
       "description": [
@@ -757,519 +702,454 @@
         ""
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     {
-       "title": "Summoning",
-       "description": [
-         "Any formation that either has a unit with Daemonic Pact or a Daemonic Pact formation upgrade may summon Daemons. Each Daemonic Pact in the army automatically provides one point to the Lesser Daemon Pool at the start of the battle (the player may also purchase additional Lesser Daemon Pool points and/or Greater Daemon Pool points).",
-         "Daemon Pools are not faction specific. The size of the Daemon Pools must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As daemons are summoned the pool must be changed to reflect its current size.",
-         "To summon daemons the formation declares its intention to summon before any action roll is made (but after the choice of action. If the formation that wishes to Summon is being transported inside another formation (e.g. a Chaos Thunderhawk) it cannot choose to Summon when the Chaos Thunderhawk prepares to activate). The player then rolls 2D3 to generate the number of Summoning Points available for this formation. The formation may then summon daemons up to the number of Summoning Points generated, with any points not used lost, up to the number of Lesser or Greater Daemon Pool points left.",
-         "Summoned units must be setup with their base completely within 5cm of any non-summoned unit in the summoning formation (i.e. You cannot place a chain of summoned units). If the summoning formation has the Transport ability, newly summoned units can be set up inside if there is space left. They cannot be placed in enemy zones of control or impassable terrain. Summoned units become part of the summoning formation for all rules purposes as long as they remain on the battlefield.",
-         "Summoned Lesser Daemons are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast Markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution.",
-         "Summoned units remain in play until the End Phase of the turn in which they were summoned. After all formations have attempted to rally any summoned units are removed from play and the total of their Daemon Pool cost is returned to the relevant Daemon Pool. This may cause the formation to break, if the number of Blast Markers now equals or exceeds the number of units in the formation.",
-         "When a formation becomes broken all its summoned units are destroyed.",
-         "When calculating victory points, the Lesser Daemon Pool scores half points if the pool has less than or equal to half (round up) its original number of daemons remaining. The Lesser Daemon Pool scores full points if the pool has less than or equal to a quarter (round up) its daemons remaining. Treat Greater Daemons as War Engines for the purpose of calculating victory points.",
-         ""
-       ]
-     },
-
-     {
-       "title": "Black Legion Summoning Rules",
-       "description": [
-         "All formations in the Black Legion worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1).",
-         "Greater Daemons: Slaanesh Keeper of Secrets (8), Nurgle Great Unclean One (8), Khorne Bloodthirster (8), Tzeentch Lord of Change (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
-         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-         ""
-       ]
-     },
-     {
-       "title": "Word Bearers Summoning Rules",
-       "description": [
-         "All formations in Word Bearers worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1).",
-         "Greater Daemons: Slaanesh Keeper of Secrets (8), Nurgle Great Unclean One (8), Khorne Bloodthirster (8), Tzeentch Lord of Change (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
-         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-         ""
-       ]
-     },
-     {
-       "title": "Emperor's Children Summoning Rules",
-       "description": [
-         "All formations in Emperor's Children worship the Prince of Pleasure, Slaanesh. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
-         "Greater Daemons: Keeper of Secrets (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
-         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-         ""
-       ]
-     },
-     {
-       "title": "Death Guard Summoning Rules",
-       "description": [
-         "All formations in Death Guard worship the Plague Lord, Nurgle. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
-         "Greater Daemons: Great Unclean One (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
-         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-         ""
-       ]
-     },
-     {
-       "title": "World Eaters Summoning Rules",
-       "description": [
-         "All formations in World Eaters worship the Blood God, Khorne. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
-         "Greater Daemons: Bloodthirster (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
-         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-         ""
-       ]
-     },
-     {
-       "title": "Thousand Sons Summoning Rules",
-       "description": [
-         "All formations in Thousand Sons worship the Changer of Ways, Tzeentch. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
-         "Lesser Daemons: Horrors of Tzeentch (1), Flamers of Tzeentch (1), Screamers of Tzeentch (2)",
-         "Greater Daemons: Lord of Change (8)",
-         "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
-         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-         "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Aspiring Sorcerer, Exalted Sorcerer, Daemon Prince of Tzeentch) or formation with Daemonic Pact.",
-         ""
-       ]
-     },
-     {
-       "title": "Lost and the Damned Summoning Rules",
-       "description": [
-           "All Chaos Cultists formations in the Lost and the Damned worship Chaos Undivided. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
-           "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1)",
-           "Greater Daemons: Keeper of Secrets (8), Great Unclean One (8), Bloodthirster (8), Lord of Change (8)",
-           "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
-           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-           ""
-       ]
-     },
-     {
-       "title": "Alpha Legion Summoning Rules",
-       "description": [
-           "All Alpha Legion Cultist formations worship Chaos Undivided. Formations with Daemonic Icon may summon the following Daemons (brackets indicating the Summoning Points cost):",
-           "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-           ""
-       ]
-     },
-     {
-       "title": "Night Lords Summoning Rules",
-       "description": [
-           "All Night Lords formations are aligned with Chaos Undivided. Formations with a unit with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
-           "Lesser Daemons: Furies of Chaos Undivided (2)",
-           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-           ""
-       ]
-     },
-     {
-       "title": "Slaves to Darkness Summoning Rules",
-       "description": [
-           "All formations in the Slaves to Darkness worship Chaos Undivided. Formations with either a Daemonic Icon unit or a Daemonic Pact formation upgrade may summon the following Daemons (brackets indicating the Summoning Points cost):",
-           "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-           "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit with Daemonic Icon, or formation with Daemonic Pact.",
-           ""
-       ]
-     },
-     {
-       "title": "Daemonic Incursion Summoning Rules",
-       "description": [
-           "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with (Portals & Mortals formations are aligned with Chaos Undivided). They do not need an upgrade to do so  (brackets indicating the Summoning Points cost):",
-           "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
-           "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
-           "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
-           "Tzeentch: Horrors of Tzeentch (1), Flamers of Tzeentch (1), Screamers  of Tzeentch (2)",
-           "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeentch (2), Daemonic Beasts of Chaos Undivided (1).",
-           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-
-           "When calculating Victory Points of the purposes of Tie Break, only the part of the Lesser Daemon Pool that was bought by itself is considered when checking if there is less than half remaining. Lesser Daemon Pool points that was bought as part of a formation are counted towards that formation's starting units.",
-           ""
-       ]
-     },
-     {
-       "title": "TTL Summoning Rules",
-       "description": [
-           "TTL formations with Daemonic Pact may summon Lesser Daemons from the power they are aligned with (brackets indicating the Summoning Points cost):",
-           "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
-           "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
-           "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
-           "Tzeentch: Horrors of Tzeentch (1), Flamers of Tzeentch (1)",
-           "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeentch (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-           ""
-       ]
-     },
-     {
-       "title": "QT Summoning Rules",
-       "description": [
-           "Formations with Daemonic Pact in a Questor Traitoris army may summon Lesser Daemons from the power they are aligned with (brackets indicating the Summoning Points cost):",
-           "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
-           "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
-           "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
-           "Tzeentch: Horrors of Tzeentch (1), Flamers of Tzeentch (1)",
-           "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeentch (2), Daemonic Beasts of Chaos Undivided (1)",
-           "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
-           ""
-       ]
-     },
-
-     {
-       "title": "Augment Summoning (+x)",
-       "description": [
-         "Units with Augment Summoning (+x) add a number of summoning points equal to 'x' when the formation they are in summons daemons (see Summoning). For example, a unit noted as having Augment Summoning (+2) would allow a formation with a Daemonic Pact to roll 2D3+2 for summoning points as opposed to the usual 2D3.",
-         ""
-       ]
-     },
-     {
-       "title": "CSM Characters",
-       "description": [
-         "Chaos Space Marine Characters may only be added to INF units that are not formation upgrades.",
-         ""
-       ]
-     },
-     {
-       "title": "Daemonic Focus",
-       "description": [
-         "Units with Daemonic focus may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Daemonic Focus may not be used to keep summoned units in play if the formation is broken. Multiples of Daemonic Focus have no additional effect.",
-         ""
-       ]
-     },
-     {
-       "title": "Fickle Masters",
-       "description": [
-         "In the Strategy Phase of each turn if the Chaos player rolls a 6, they are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled 1D3 summoning points is lost from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect.",
-         ""
-       ]
-     },
-     {
-       "title": "The Architect of Fate",
-       "description": [
-         "In the Strategy Phase of each turn if the Thousand Sons player rolls a 6, they count as having 5 in Strategy Rating that turn. If a 1 is rolled, they count as having 3 in Strategy Rating that turn.",
-         ""
-       ]
-     },
-
-
-     {
-        "title": "Daemon Engine (x)",
-        "description": [
-          "Formations where at least one unit has the Daemon Engine (x) special rule gain the bonus associated with that faction:",
-          "Slaanesh: Formation gains +1 to activate when attempting to Double.",
-          "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
-          "Khorne: Formation gains +1 to activate when attempting to Engage.",
-          "Tzeentch: Formation gains +1 to activate when attempting to Advance.",
-          "Chaos Undivided: Formation ignores the -1 modifier for enemy formations within 30cm when rallying.",
-          ""
-        ]
+    {
+      "title": "Summoning",
+      "description": [
+        "Any formation that either has a unit with Daemonic Pact or a Daemonic Pact formation upgrade may summon Daemons. Each Daemonic Pact in the army automatically provides one point to the Lesser Daemon Pool at the start of the battle (the player may also purchase additional Lesser Daemon Pool points and/or Greater Daemon Pool points).",
+        "Daemon Pools are not faction specific. The size of the Daemon Pools must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As daemons are summoned the pool must be changed to reflect its current size.",
+        "To summon daemons the formation declares its intention to summon before any action roll is made (but after the choice of action. If the formation that wishes to Summon is being transported inside another formation (e.g. a Chaos Thunderhawk) it cannot choose to Summon when the Chaos Thunderhawk prepares to activate). The player then rolls 2D3 to generate the number of Summoning Points available for this formation. The formation may then summon daemons up to the number of Summoning Points generated, with any points not used lost, up to the number of Lesser or Greater Daemon Pool points left.",
+        "Summoned units must be setup with their base completely within 5cm of any non-summoned unit in the summoning formation (i.e. You cannot place a chain of summoned units). If the summoning formation has the Transport ability, newly summoned units can be set up inside if there is space left. They cannot be placed in enemy zones of control or impassable terrain. Summoned units become part of the summoning formation for all rules purposes as long as they remain on the battlefield.",
+        "Summoned Lesser Daemons are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast Markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution.",
+        "Summoned units remain in play until the End Phase of the turn in which they were summoned. After all formations have attempted to rally any summoned units are removed from play and the total of their Daemon Pool cost is returned to the relevant Daemon Pool. This may cause the formation to break, if the number of Blast Markers now equals or exceeds the number of units in the formation.",
+        "When a formation becomes broken all its summoned units are destroyed.",
+        "When calculating victory points, the Lesser Daemon Pool scores half points if the pool has less than or equal to half (round up) its original number of daemons remaining. The Lesser Daemon Pool scores full points if the pool has less than or equal to a quarter (round up) its daemons remaining. Treat Greater Daemons as War Engines for the purpose of calculating victory points.",
+        ""
+      ]
     },
-
-
-     {
-       "title": "Black Legion Dreadclaws",
-       "description": [
-         "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
-
-         "The following units may be deployed using Dreadclaws: Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Obliterators, Chaos Dreadnoughts.",
-         ""
-       ]
-     },
-     {
-       "title": "Night Lords Dreadclaws",
-       "description": [
-         "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
-
-         "The following units may be deployed using Dreadclaws: Night Lords Assault Marines, Atramentar Terminators, Night Lords Dreadnoughts.",
-         ""
-       ]
-     },
-     {
-       "title": "Word Bearers Dreadclaws",
-       "description": [
-         "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
-
-         "The following units may be deployed using Dreadclaws: Chaos Space Marines, Havocs, Chaos Terminators, Word Bearers Possessed, Chaos Dreadnoughts.",
-         ""
-       ]
-     },
-     {
-       "title": "Alpha Legion Dreadclaws",
-       "description": [
-         "Dreadclaws allow Alpha Legion formations to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
-
-         "The following units may be deployed using Dreadclaws: Alpha Legion Marines, Alpha Legion Havocs, Headhunters, Lernaean Terminators, Alpha Legion Dreadnoughts.",
-         ""
-       ]
-     },
-
-     {
-       "title": "Emperor's Children Dreadclaws",
-       "description": [
-         "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
-
-         "The following units may be deployed using Dreadclaws: Noise Marines, Chaos Space Marines, Havocs, Sirenshriek Terminators, Chaos Dreadnoughts.",
-         ""
-       ]
-     },
-     {
-       "title": "Iron Warriors Dreadclaws",
-       "description": [
-         "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
-
-         "The following units may be deployed using Dreadclaws: Chaos Space Marines, Iron Warriors Assault Marines, Havocs, Obliterators, Tyrant Terminators, Chaos Dreadnoughts, Chaos Siege Dreadnoughts.",
-         ""
-       ]
-     },
-     {
-       "title": "World Eaters Dreadclaws",
-       "description": [
-         "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
-
-         "The following units may be deployed using Dreadclaws: Khorne Berzerkers, World Eaters Marines, Skullseeker Terminators, Dreadnoughts, Mutilators.",
-         ""
-       ]
-     },
-
-     {
-       "title": "Infestation",
-       "description": [
-         "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
-         "Formations containing any units with the infestation ability may only contest scenario objectives.",
-         ""
-       ]
-       },
-        {
-       "title": "LatD Eternal Animosity",
-       "description": [
-         "Each Support Coven in a Lost and the Damned army owes allegiance to either one of the Ruinous Powers or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
-         "A Lost and the Damned army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
-         "A Lost and the Damned army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
-         ""
-       ]
-        },
-        {
-       "title": "StD Eternal Animosity",
-       "description": [
-         "Each Dark Mechanicus allied formation in a Slaves to Darkness army owes allegiance to either one of the Ruinous Powers or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
-         "A Slaves to Darkness army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
-         "A Slaves to Darkness army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
-         ""
-       ]
-        },
-
-        {
-       "title": "DI Eternal Animosity",
-       "description": [
-         "Each Daemon Formation in a Daemonic Incursion army owes allegiance to either one of the Ruinous Powers. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
-         "A Daemonic Incursion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
-         "A Daemonic Incursion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
-         ""
-       ]
-        },
-        {
-       "title": "TTL Eternal Animosity",
-       "description": [
-         "Each formation in a Traitor Titan Legion army owes allegiance to either one of the Ruinous Powers or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
-         "A Traitor Titan Legion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
-         "A Traitor Titan Legion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
-         ""
-       ]
-        },
-        {
-       "title": "QT Eternal Animosity",
-       "description": [
-         "Each formation in a Questor Traitoris army owes allegiance to either one of the Ruinous Powers or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
-         "A Questor Traitoris army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
-         "A Questor Traitoris army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
-         ""
-       ]
-        },
-
-        {
-          "title": "Reign of Chaos",
-          "description": [
-            "During the Strategy Phase the Daemon Incursion player rolls 2d6 and picks the highest. In addition add the dice together and consult the following table:",
-            "(2-3) *Chaotic Ebb* All Daemon Legion units (friend and foe) loses their Invulnerable Save for the rest of the turn.",
-            "(4-5) *The Winds Recede* All players that can summon Daemons lose 1D3 Lesser Daemons Pool points. Daemon Incursion players lose an additional D3. If the pool is empty nothing happens.",
-            "(6-8) *Eye of the Storm* Nothing happens.",
-            "(9-10) *The Winds Wax* All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3.",
-            "(11-12) *Chaotic Surge* All Daemon Legion units (friend and foe) improves their Invulnerable Save to 5+ for the rest of the turn.",
-            ""
-          ]
-        },
-
-        {
-       "title": "The Great Ritual",
-       "description": [
-         "All Exalted Greater Daemons and all Daemon Legion formations must be held in the reserves at the start of the game. Exalted Greater Daemons must enter play through a Warp Rift. Daemon Legion formations may only enter the battlefield through a Chaos Gate.",
-         ""
-       ]
-        },
-
-        {
-       "title": "Terror From Beyond",
-       "description": [
-         "All Exalted Greater Daemon formations must be destroyed in order for the opponent to claim the Daemonic Incursion BTS objective. All Exalted Greater Daemon formations in the reserves are destroyed if they are still there during the End Phase of turn 3.",
-         "In addition, as long as the Daemon Incursion army still contains any Exalted Greater Daemons it may re-roll a single failed Initiative test of any type once per turn (unless all surviving Exalted Greater Daemons are located in the reserves).",
-         ""
-       ]
-        },
-        {
-       "title": "Daemonic Instability",
-       "description": [
-         "When any Exalted Greater Daemon formation or Daemon Legions formation becomes broken for any reason, it is immediately destroyed.",
-         ""
-       ]
-        },
-
-        {
-       "title": "Warp Rift",
-       "description": [
-         "Warp Rifts are plotted exactly as Self Planetfall. Both the turn in which the formation arrives and the landing coordinates must be recorded. The turn each formation arrives does not have to be announced.",
-         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with Self Planetfall.",
-         "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
-         "If the activation is successful, place a Warp Rift token at the plotted coordinates. This may be moved 15cm in any direction, and then scatters 3D6cm. If the Warp Rift token lands on terrain that is impassable or dangerous for it, or on top of any sort of unit (friend or foe), or in an enemy zone of control, then it is moved by the opposing player to the nearest area of clear ground. If this happens, also place a Blast Marker on the activating formation.",
-         "With the final location of the the Warp Rift determined, it attacks any enemy formations within range of the Warp Rift (15cm, AP6+/AT6+, Disrupt). Finally, the activated formation carries out the order determined at the start of its action, and must move the formation out of the Warp Rift, measuring all moves from the centre point of the token.",
-         "All units from the activating formation must move out of the Warp Rift. Any units that are unable to exit the Warp Rift are destroyed. The Warp Rift token is then removed from the battlefield.",
-         ""
-       ]
-        },
-        {
-       "title": "Chaos Gates",
-       "description": [
-         "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn.",
-         "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if that War Engine is destroyed.",
-         "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine.",
+    {
+      "title": "Black Legion Summoning Rules",
+      "description": [
+        "All formations in the Black Legion worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1).",
+        "Greater Daemons: Slaanesh Keeper of Secrets (8), Nurgle Great Unclean One (8), Khorne Bloodthirster (8), Tzeentch Lord of Change (8)",
+        "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Word Bearers Summoning Rules",
+      "description": [
+        "All formations in Word Bearers worship Chaos Undivided. Chaos Undivided formations with Daemonic Pact may summon any of the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1).",
+        "Greater Daemons: Slaanesh Keeper of Secrets (8), Nurgle Great Unclean One (8), Khorne Bloodthirster (8), Tzeentch Lord of Change (8)",
+        "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Emperor's Children Summoning Rules",
+      "description": [
+        "All formations in Emperor's Children worship the Prince of Pleasure, Slaanesh. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
+        "Greater Daemons: Keeper of Secrets (8)",
+        "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Death Guard Summoning Rules",
+      "description": [
+        "All formations in Death Guard worship the Plague Lord, Nurgle. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
+        "Greater Daemons: Great Unclean One (8)",
+        "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "World Eaters Summoning Rules",
+      "description": [
+        "All formations in World Eaters worship the Blood God, Khorne. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
+        "Greater Daemons: Bloodthirster (8)",
+        "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Thousand Sons Summoning Rules",
+      "description": [
+        "All formations in Thousand Sons worship the Changer of Ways, Tzeentch. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Horrors of Tzeentch (1), Flamers of Tzeentch (1), Screamers of Tzeentch (2)",
+        "Greater Daemons: Lord of Change (8)",
+        "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Aspiring Sorcerer, Exalted Sorcerer, Daemon Prince of Tzeentch) or formation with Daemonic Pact.",
+        ""
+      ]
+    },
+    {
+      "title": "Lost and the Damned Summoning Rules",
+      "description": [
+        "All Chaos Cultists formations in the Lost and the Damned worship Chaos Undivided. Formations with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1)",
+        "Greater Daemons: Keeper of Secrets (8), Great Unclean One (8), Bloodthirster (8), Lord of Change (8)",
+        "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can contain more than one Greater Daemon at a time.",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Alpha Legion Summoning Rules",
+      "description": [
+        "All Alpha Legion Cultist formations worship Chaos Undivided. Formations with Daemonic Icon may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1)",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Night Lords Summoning Rules",
+      "description": [
+        "All Night Lords formations are aligned with Chaos Undivided. Formations with a unit with Daemonic Pact may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Furies of Chaos Undivided (2)",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Slaves to Darkness Summoning Rules",
+      "description": [
+        "All formations in the Slaves to Darkness worship Chaos Undivided. Formations with either a Daemonic Icon unit or a Daemonic Pact formation upgrade may summon the following Daemons (brackets indicating the Summoning Points cost):",
+        "Lesser Daemons: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1)",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit with Daemonic Icon, or formation with Daemonic Pact.",
+        ""
+      ]
+    },
+    {
+      "title": "Daemonic Incursion Summoning Rules",
+      "description": [
+        "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with (Portals & Mortals formations are aligned with Chaos Undivided). They do not need an upgrade to do so  (brackets indicating the Summoning Points cost):",
+        "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
+        "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
+        "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
+        "Tzeentch: Horrors of Tzeentch (1), Flamers of Tzeentch (1), Screamers  of Tzeentch (2)",
+        "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeentch (2), Daemonic Beasts of Chaos Undivided (1).",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        "When calculating Victory Points of the purposes of Tie Break, only the part of the Lesser Daemon Pool that was bought by itself is considered when checking if there is less than half remaining. Lesser Daemon Pool points that was bought as part of a formation are counted towards that formation's starting units.",
+        ""
+      ]
+    },
+    {
+      "title": "TTL Summoning Rules",
+      "description": [
+        "TTL formations with Daemonic Pact may summon Lesser Daemons from the power they are aligned with (brackets indicating the Summoning Points cost):",
+        "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
+        "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
+        "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
+        "Tzeentch: Horrors of Tzeentch (1), Flamers of Tzeentch (1)",
+        "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeentch (2), Daemonic Beasts of Chaos Undivided (1)",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "QT Summoning Rules",
+      "description": [
+        "Formations with Daemonic Pact in a Questor Traitoris army may summon Lesser Daemons from the power they are aligned with (brackets indicating the Summoning Points cost):",
+        "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1)",
+        "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1)",
+        "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1)",
+        "Tzeentch: Horrors of Tzeentch (1), Flamers of Tzeentch (1)",
+        "Chaos Undivided: Daemonettes of Slaanesh (2), Plaguebearers of Nurgle (2), Bloodletters of Khorne (2), Horrors of Tzeentch (2), Daemonic Beasts of Chaos Undivided (1)",
+        "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
+        ""
+      ]
+    },
+    {
+      "title": "Augment Summoning (+x)",
+      "description": [
+        "Units with Augment Summoning (+x) add a number of summoning points equal to 'x' when the formation they are in summons daemons (see Summoning). For example, a unit noted as having Augment Summoning (+2) would allow a formation with a Daemonic Pact to roll 2D3+2 for summoning points as opposed to the usual 2D3.",
+        ""
+      ]
+    },
+    {
+      "title": "CSM Characters",
+      "description": [
+        "Chaos Space Marine Characters may only be added to INF units that are not formation upgrades.",
+        ""
+      ]
+    },
+    {
+      "title": "Daemonic Focus",
+      "description": [
+        "Units with Daemonic focus may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Daemonic Focus may not be used to keep summoned units in play if the formation is broken. Multiples of Daemonic Focus have no additional effect.",
+        ""
+      ]
+    },
+    {
+      "title": "Fickle Masters",
+      "description": [
+        "In the Strategy Phase of each turn if the Chaos player rolls a 6, they are rewarded with 1D3 summoning points to add to the Lesser Daemon Pool. However, if a 1 is rolled 1D3 summoning points is lost from the Lesser Daemon Pool. In the latter case, if no Lesser Daemon Pool has been purchased, or if it is empty, then there is no effect.",
+        ""
+      ]
+    },
+    {
+      "title": "The Architect of Fate",
+      "description": [
+        "In the Strategy Phase of each turn if the Thousand Sons player rolls a 6, they count as having 5 in Strategy Rating that turn. If a 1 is rolled, they count as having 3 in Strategy Rating that turn.",
+        ""
+      ]
+    },
+    {
+      "title": "Daemon Engine (x)",
+      "description": [
+        "Formations where at least one unit has the Daemon Engine (x) special rule gain the bonus associated with that faction:",
+        "Slaanesh: Formation gains +1 to activate when attempting to Double.",
+        "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
+        "Khorne: Formation gains +1 to activate when attempting to Engage.",
+        "Tzeentch: Formation gains +1 to activate when attempting to Advance.",
+        "Chaos Undivided: Formation ignores the -1 modifier for enemy formations within 30cm when rallying.",
+        ""
+      ]
+    },
+    {
+      "title": "Black Legion Dreadclaws",
+      "description": [
+        "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+        "The following units may be deployed using Dreadclaws: Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Obliterators, Chaos Dreadnoughts.",
+        ""
+      ]
+    },
+    {
+      "title": "Night Lords Dreadclaws",
+      "description": [
+        "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+        "The following units may be deployed using Dreadclaws: Night Lords Assault Marines, Atramentar Terminators, Night Lords Dreadnoughts.",
+        ""
+      ]
+    },
+    {
+      "title": "Word Bearers Dreadclaws",
+      "description": [
+        "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+        "The following units may be deployed using Dreadclaws: Chaos Space Marines, Havocs, Chaos Terminators, Word Bearers Possessed, Chaos Dreadnoughts.",
+        ""
+      ]
+    },
+    {
+      "title": "Alpha Legion Dreadclaws",
+      "description": [
+        "Dreadclaws allow Alpha Legion formations to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+        "The following units may be deployed using Dreadclaws: Alpha Legion Marines, Alpha Legion Havocs, Headhunters, Lernaean Terminators, Alpha Legion Dreadnoughts.",
+        ""
+      ]
+    },
+    {
+      "title": "Emperor's Children Dreadclaws",
+      "description": [
+        "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+        "The following units may be deployed using Dreadclaws: Noise Marines, Chaos Space Marines, Havocs, Sirenshriek Terminators, Chaos Dreadnoughts.",
+        ""
+      ]
+    },
+    {
+      "title": "Iron Warriors Dreadclaws",
+      "description": [
+        "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+        "The following units may be deployed using Dreadclaws: Chaos Space Marines, Iron Warriors Assault Marines, Havocs, Obliterators, Tyrant Terminators, Chaos Dreadnoughts, Chaos Siege Dreadnoughts.",
+        ""
+      ]
+    },
+    {
+      "title": "World Eaters Dreadclaws",
+      "description": [
+        "Dreadclaws  allow  a  chaos  formation  to  enter  play  using  the  planetfall  rules  if  a  spaceship  has  been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
+        "The following units may be deployed using Dreadclaws: Khorne Berzerkers, World Eaters Marines, Skullseeker Terminators, Dreadnoughts, Mutilators.",
+        ""
+      ]
+    },
+    {
+      "title": "Infestation",
+      "description": [
+        "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
+        "Formations containing any units with the infestation ability may only contest scenario objectives.",
+        ""
+      ]
+    },
+    {
+      "title": "LatD Eternal Animosity",
+      "description": [
+        "Each Support Coven in a Lost and the Damned army owes allegiance to either one of the Ruinous Powers or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+        "A Lost and the Damned army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+        "A Lost and the Damned army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
+        ""
+      ]
+    },
+    {
+      "title": "StD Eternal Animosity",
+      "description": [
+        "Each Dark Mechanicus allied formation in a Slaves to Darkness army owes allegiance to either one of the Ruinous Powers or to Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+        "A Slaves to Darkness army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+        "A Slaves to Darkness army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
+        ""
+      ]
+    },
+    {
+      "title": "DI Eternal Animosity",
+      "description": [
+        "Each Daemon Formation in a Daemonic Incursion army owes allegiance to either one of the Ruinous Powers. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+        "A Daemonic Incursion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+        "A Daemonic Incursion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
+        ""
+      ]
+    },
+    {
+      "title": "TTL Eternal Animosity",
+      "description": [
+        "Each formation in a Traitor Titan Legion army owes allegiance to either one of the Ruinous Powers or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+        "A Traitor Titan Legion army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+        "A Traitor Titan Legion army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
+        ""
+      ]
+    },
+    {
+      "title": "QT Eternal Animosity",
+      "description": [
+        "Each formation in a Questor Traitoris army owes allegiance to either one of the Ruinous Powers or Chaos Undivided. With the exception of Chaos Undivided, the different factions harbour eternal animosity against each other. This state of affairs is represented by the following rules:",
+        "A Questor Traitoris army with formations belonging to the faction of Khorne may not include formations from the faction of Slaanesh (and vice-versa).",
+        "A Questor Traitoris army with formations belonging to the faction of Nurgle may not include formations from the faction of Tzeentch (and vice-versa).",
+        ""
+      ]
+    },
+    {
+      "title": "Reign of Chaos",
+      "description": [
+        "During the Strategy Phase the Daemon Incursion player rolls 2d6 and picks the highest. In addition add the dice together and consult the following table:",
+        "(2-3) *Chaotic Ebb* All Daemon Legion units (friend and foe) loses their Invulnerable Save for the rest of the turn.",
+        "(4-5) *The Winds Recede* All players that can summon Daemons lose 1D3 Lesser Daemons Pool points. Daemon Incursion players lose an additional D3. If the pool is empty nothing happens.",
+        "(6-8) *Eye of the Storm* Nothing happens.",
+        "(9-10) *The Winds Wax* All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3.",
+        "(11-12) *Chaotic Surge* All Daemon Legion units (friend and foe) improves their Invulnerable Save to 5+ for the rest of the turn.",
+        ""
+      ]
+    },
+    {
+      "title": "The Great Ritual",
+      "description": [
+        "All Exalted Greater Daemons and all Daemon Legion formations must be held in the reserves at the start of the game. Exalted Greater Daemons must enter play through a Warp Rift. Daemon Legion formations may only enter the battlefield through a Chaos Gate.",
+        ""
+      ]
+    },
+    {
+      "title": "Terror From Beyond",
+      "description": [
+        "All Exalted Greater Daemon formations must be destroyed in order for the opponent to claim the Daemonic Incursion BTS objective. All Exalted Greater Daemon formations in the reserves are destroyed if they are still there during the End Phase of turn 3.",
+        "In addition, as long as the Daemon Incursion army still contains any Exalted Greater Daemons it may re-roll a single failed Initiative test of any type once per turn (unless all surviving Exalted Greater Daemons are located in the reserves).",
+        ""
+      ]
+    },
+    {
+      "title": "Daemonic Instability",
+      "description": [
+        "When any Exalted Greater Daemon formation or Daemon Legions formation becomes broken for any reason, it is immediately destroyed.",
+        ""
+      ]
+    },
+    {
+      "title": "Warp Rift",
+      "description": [
+        "Warp Rifts are plotted exactly as Self Planetfall. Both the turn in which the formation arrives and the landing coordinates must be recorded. The turn each formation arrives does not have to be announced.",
+        "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with Self Planetfall.",
+        "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
+        "If the activation is successful, place a Warp Rift token at the plotted coordinates. This may be moved 15cm in any direction, and then scatters 3D6cm. If the Warp Rift token lands on terrain that is impassable or dangerous for it, or on top of any sort of unit (friend or foe), or in an enemy zone of control, then it is moved by the opposing player to the nearest area of clear ground. If this happens, also place a Blast Marker on the activating formation.",
+        "With the final location of the the Warp Rift determined, it attacks any enemy formations within range of the Warp Rift (15cm, AP6+/AT6+, Disrupt). Finally, the activated formation carries out the order determined at the start of its action, and must move the formation out of the Warp Rift, measuring all moves from the centre point of the token.",
+        "All units from the activating formation must move out of the Warp Rift. Any units that are unable to exit the Warp Rift are destroyed. The Warp Rift token is then removed from the battlefield.",
+        ""
+      ]
+    },
+    {
+      "title": "Chaos Gates",
+      "description": [
+        "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn.",
+        "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if that War Engine is destroyed.",
+        "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine.",
         "If a Chaos Gate is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible.",
         ""
-       ]
-        },
-
-
-        {
-        "title": "The Harrowing",
-        "description": [
-            "Alpha Legion armies counts as having Strategy Rating 5 for all purposes except for the Strategy Roll at the start of a turn.",
-            ""
       ]
-       },
-       {
-       "title": "Sabotage",
-       "description": [
-         "Before rolling for the first turn and before teleports the player may select one enemy formation per formation of containing at least one unit with the 'Sabotage' special rule (both formations must have been deployed on the battlefield) and roll a D6.",
-         "On 2-5, the enemy formation begins the game with a Blast Marker. On a roll of 6, it begins with d3 Blast Markers. On a roll of 1, the formation with 'Sabotage' recieves a Blast Marker. No formation may be subject to Sabotage more than once, even if the first roll is a 1.",
-         ""
-     ]
-      },
-      {
+    },
+    {
+      "title": "The Harrowing",
+      "description": [
+        "Alpha Legion armies counts as having Strategy Rating 5 for all purposes except for the Strategy Roll at the start of a turn.",
+        ""
+      ]
+    },
+    {
+      "title": "Sabotage",
+      "description": [
+        "Before rolling for the first turn and before teleports the player may select one enemy formation per formation of containing at least one unit with the 'Sabotage' special rule (both formations must have been deployed on the battlefield) and roll a D6.",
+        "On 2-5, the enemy formation begins the game with a Blast Marker. On a roll of 6, it begins with d3 Blast Markers. On a roll of 1, the formation with 'Sabotage' recieves a Blast Marker. No formation may be subject to Sabotage more than once, even if the first roll is a 1.",
+        ""
+      ]
+    },
+    {
       "title": "Alpha Legion Transports",
       "description": [
-          "The Alpha Legion are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
-          "Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.",
-          "Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Storm Eagle, then you may do so.",
-          "In addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pods using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require a Chaos Strike Cruiser deploy the Drop Pods from.",
-          "Before each game, after the opposing army is known but before objectives are placed, the Alpha Legion player may choose which formations with the plus transport aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected.",
-          ""
-    ]
-     },
-     {
-     "title": "In Midnight Clad",
-     "description": [
+        "The Alpha Legion are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
+        "Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.",
+        "Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Storm Eagle, then you may do so.",
+        "In addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pods using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require a Chaos Strike Cruiser deploy the Drop Pods from.",
+        "Before each game, after the opposing army is known but before objectives are placed, the Alpha Legion player may choose which formations with the plus transport aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected.",
+        ""
+      ]
+    },
+    {
+      "title": "In Midnight Clad",
+      "description": [
         "Furies of Chaos Undivided that are killed in an assault do not count for Combat Resolution as long as the controlling Night Lords player initiated the assault.",
         ""
-     ]
-     },
-     {
-     "title": "Claws Forever Red",
-     "description": [
+      ]
+    },
+    {
+      "title": "Claws Forever Red",
+      "description": [
         "In addition to being counted for suppression, Night Lords units may also use Small Arms to shoot. While incapable of doing direct damage, this will still inflict a Blast Marker on enemy formations that come under fire.",
         ""
-     ]
-     },
+      ]
+    },
     {
       "title": "Amphibious",
       "description": [
-          "Units with the 'Amphibious' special rule ignore dangerous terrain tests from Marsh or Water terrain.",
-          ""
+        "Units with the 'Amphibious' special rule ignore dangerous terrain tests from Marsh or Water terrain.",
+        ""
       ]
     },
     {
       "title": "Nexus Brood",
       "description": [
-          "The army must include a Nexus Brood formation. The enemy will only count as having achieved their Break Their Spirit (BTS) victory condition if this formation is destroyed, even if it is not the single most expensive formation in the army.",
-          "All units in the Nexus Brood formation are considered Fearless as long as it contains a Genestealer Patriarch unit.",
-          "If the Genestealer Patriarch unit is killed, all Cult Formations (see 'Brood Brothers' special rule) suffers one Blast Marker.",
-          ""
+        "The army must include a Nexus Brood formation. The enemy will only count as having achieved their Break Their Spirit (BTS) victory condition if this formation is destroyed, even if it is not the single most expensive formation in the army.",
+        "All units in the Nexus Brood formation are considered Fearless as long as it contains a Genestealer Patriarch unit.",
+        "If the Genestealer Patriarch unit is killed, all Cult Formations (see 'Brood Brothers' special rule) suffers one Blast Marker.",
+        ""
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "title": "Necron Reserves",
       "description": [
         "Any Necron formation that can enter the battlefield by Teleport or via a Necron Portal can be held back in reserve. Any Necron formation located in the reserves during the End Phase of the third turn and onwards is considered destroyed for the purpose of tiebreak and the Break Their Spirit tournament scenario objective.",
         ""
-        ]
+      ]
     },
     {
       "title": "Necron Garrisons",
       "description": [
         "Only Necron Phalanx and Tomb Guardian formations may garrison in Epic Tournament scenarios. Necron Phalanx may only garrison from a Tomb Complex objective.",
         ""
-        ]
+      ]
     },
     {
       "title": "The Unbidden",
       "description": [
         "Necron armies must contain at least one 'The Unbidden' formation of Flayed Ones. Flayed Ones may only contest objectives, must start the game in the reserves, and may not use Necron Portals.",
         ""
-        ]
+      ]
     },
     {
       "title": "Regeneration",
@@ -1290,20 +1170,19 @@
         ""
       ]
     },
-
     {
       "title": "Implacable Advance",
       "description": [
         "Necron formations receive a +1 bonus when attempting to perform a Marshal action. Necron formations may not take March actions.",
         ""
-        ]
+      ]
     },
     {
       "title": "Ponderous",
       "description": [
         "Units with the Ponderous special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally.",
         ""
-        ]
+      ]
     },
     {
       "title": "Phase Out",
@@ -1317,19 +1196,8 @@
       "description": [
         "Necron formations containing units with 'Enduring' don’t phase out in the End Phase. If the formation has lost all units with 'Enduring' it phases out as normal.",
         ""
-        ]
+      ]
     },
-
-
-
-
-
-
-
-
-
-
-
     {
       "title": "Big Mek",
       "description": [
@@ -1349,49 +1217,36 @@
       "description": [
         "Whenever any type of Gargant passes an Action Test that allows movement, the player may opt to change the unit's speed rating to 20cm for the entire duration of the chosen Action, however if this ability is used the model will receive a Critical Hit for with each move that is carried out.",
         ""
-        ]
+      ]
     },
-
     {
       "title": "Mob Rule",
       "description": [
         "Orks believe that as long as there’s a bunch of them still fighting together (slightly more than they can count up to is ideal!) then there’s always a chance that they’ll prevail, no matter the odds. To represent this, Ork formations with more than five units (i.e., too many to count on the fingers of one hand), not including Gretchin or Big Gunz units, receive a +1 modifier to any rally rolls they make, and formations with more than 10 such units receive a +2 modifier. For the purposes of this rule War Engines count each point of starting damage capacity as a unit. War Engines with the 'God Machine' special rule always counts as being more than 10 units.",
         ""
-        ]
+      ]
     },
     {
       "title": "Power of the Waaagh!",
       "description": [
         "Orks are not noted for their organisational abilities, and thus usually have a pretty low Initiative. However, if there is one thing that will galvanise an Ork warband, it’s the thought of a good punch-up! Because of this, Ork formations that are attempting to take engage or double actions receive a +2 modifier to their Action Test roll. Ork Flyboyz similarly relish the chance to shoot things up, and receive a +2 modifier to their Action Test roll when attempting to carry out Interception or Ground Attack actions (see Aircraft).",
         ""
-        ]
+      ]
     },
-
     {
       "title": "Clan Goffs Warlord",
       "description": [
         "Every Warhorde army must include a Supreme Commander character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. If the army includes any Great Gargants, then the Warlord must be placed in one of them. Otherwise the Warlord will join a Gargant or Nobz unit.",
         ""
-        ]
+      ]
     },
-
     {
       "title": "Speed Freeks Warlord",
       "description": [
         "Every Speed Freeks army must include a Supreme Commander character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. The Warlord must be placed in a Nob Warbikes or a Nobz unit.",
         ""
-        ]
+      ]
     },
-
-
-
-
-
-
-
-
-
-
     {
       "title": "Coordinated Fire",
       "description": [
@@ -1431,7 +1286,6 @@
         ""
       ]
     },
-
     {
       "title": "Tiger Shark Gun Drones",
       "description": [
@@ -1439,11 +1293,6 @@
         ""
       ]
     },
-
-
-
-
-
     {
       "title": "Synapse",
       "description": [
@@ -1502,7 +1351,6 @@
         ""
       ]
     },
-
     {
       "title": "Swarm (x)",
       "description": [
@@ -1512,10 +1360,6 @@
         ""
       ]
     },
-
-
-
-
     {
       "title": "General Tournament Tiebreaker Rules",
       "description": [
@@ -1523,14 +1367,12 @@
         ""
       ]
     },
-
-
     {
       "title": "Broodmind",
       "description": [
         "As long as at least one Genestealer Patriarch, Genestealer Primus, or Genestealer Magus in the army is alive, all Genestealer Cult formations with 2+ in Initiative Rating receive a +1 modifier to the dice roll when attempting to make an Engage action or when rolling to rally in the End Phase.",
         ""
-        ]
+      ]
     },
     {
       "title": "Brood Brothers",
@@ -1538,13 +1380,13 @@
         "As long as a formation contains one Genestealer Patriarch, Genestealer Primus, Genestealer Magus, or Hybrid Iconward, units in in the same formation with the 'Brood Brother' special rule do not cause Blast Markers when they are destroyed, or when hit by a weapon with the 'Disrupt' special rule. This includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Units with 'Brood Brother' that are killed in an assault count for the purposes of working out its result.",
         ""
       ]
-  },
+    },
     {
       "title": "Broodcoven",
       "description": [
         "The army must include a Broodcoven formation. The enemy counts as having achieved the ‘Break Their Spirit’ (BTS) victory condition if they destroy this formation or the most expensive formation in the army.",
         ""
-        ]
+      ]
     }
   ]
 }

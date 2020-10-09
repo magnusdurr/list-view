@@ -5,12 +5,11 @@
   "release": "2020-07-11",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "Dark Mechanicus and Chaos Navy formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
-  "specialRules":
-    [
-        "Bionics",
-        "Battlefield Repairs",
-         "Iron Warriors Dreadclaws"
-    ],
+  "specialRules": [
+    "Bionics",
+    "Battlefield Repairs",
+    "Iron Warriors Dreadclaws"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
   ],
@@ -39,35 +38,34 @@
         "Chaos Siege Dreadnought",
         "Chaos Stalker",
         "Iron Warriors Stormsword"
-    ],
-    "unitRules": [
+      ],
+      "unitRules": [
         "Iron Warriors Characters",
         "Heavy Armoured Vehicle (H-AV)"
-    ]
+      ]
     },
     {
-        "from": "darkmechanicus.json",
-        "units": [
-            "Maulerfiend",
-            "Ordinatus Hereticus ",
-            "Ordinatus Cyclothrathe"
-        ],
-        "unitRules": [
-          "Daemon Engine (x)"
-        ]
+      "from": "darkmechanicus.json",
+      "units": [
+        "Maulerfiend",
+        "Ordinatus Hereticus ",
+        "Ordinatus Cyclothrathe"
+      ],
+      "unitRules": [
+        "Daemon Engine (x)"
+      ]
     },
-  {
-    "from": "chaosnavy.json",
-    "units": [
-      "Heldrake",
-      "Harbringer Bomber",
-      "Devastation Class Cruiser",
-      "Despoiler Class Battleship"
-  ],
-  "unitRules": [
-
-  ]
-  }
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Heldrake",
+        "Harbringer Bomber",
+        "Devastation Class Cruiser",
+        "Despoiler Class Battleship"
+      ],
+      "unitRules": [
+      ]
+    }
   ],
   "sections": [
     {
@@ -86,27 +84,27 @@
             "Dreadnoughts"
           ],
           "points": 225
-      },
-      {
-        "name": "Iron Warriors Armoured Company",
-        "units": "Six Chaos Vindicators",
-        "extraUnits": [
+        },
+        {
+          "name": "Iron Warriors Armoured Company",
+          "units": "Six Chaos Vindicators",
+          "extraUnits": [
             "Replace six Chaos Vindicators with six Chaos Predators (50 points) or six Chaos Land Raiders (150 points)",
             "Stalker"
-        ],
-        "points": 250
-    },
+          ],
+          "points": 250
+        },
         {
-      "name": "Havocs",
-      "units": "One Iron Warriors Warpsmith, four Havocs, two Chaos Land Raiders",
-      "extraUnits": [
-          "Supreme Commander",
-          "Stalker",
-          "Vindicators"
-      ],
-      "points": 300
+          "name": "Havocs",
+          "units": "One Iron Warriors Warpsmith, four Havocs, two Chaos Land Raiders",
+          "extraUnits": [
+            "Supreme Commander",
+            "Stalker",
+            "Vindicators"
+          ],
+          "points": 300
         }
-        ]
+      ]
     },
     {
       "name": "Iron Warriors Elite Formations",
@@ -118,7 +116,6 @@
           "extraUnits": [
             "Replace two Chaos Rhinos with two Chaos Dreadnoughts, or two Chaos Siege Dreadnoughts: 75 points",
             "Vindicators"
-
           ],
           "points": 150
         },
@@ -128,7 +125,7 @@
           "extraUnits": [
           ],
           "points": 200
-      },
+        },
         {
           "name": "Dreadnought Assault Pack",
           "units": "Four Chaos Dreadnoughts",
@@ -138,88 +135,88 @@
           ],
           "points": 250
         },
-      {
-        "name": "Tyrant Terminators",
-        "units": "One Iron Warriors Warpsmith, four Tyrant Siege Terminators",
-        "extraUnits": [
+        {
+          "name": "Tyrant Terminators",
+          "units": "One Iron Warriors Warpsmith, four Tyrant Siege Terminators",
+          "extraUnits": [
             "Obliterators",
             "Supreme Commander",
             "Dreadnoughts",
             "Dreadclaws"
-        ],
-        "points": 275
-    }
-    ]
-  },
+          ],
+          "points": 275
+        }
+      ]
+    },
     {
-    "name": "Iron Warriors Siege Formations",
-    "description": "One Siege formation may be taken per Core formation.",
-    "formations": [
+      "name": "Iron Warriors Siege Formations",
+      "description": "One Siege formation may be taken per Core formation.",
+      "formations": [
         {
           "name": "Heavy Siege Engine",
           "units": "Iron Warriors Stormsword",
           "extraUnits": [
             "Obliterators",
-              "Vindicators",
-              "Dreadnoughts"
+            "Vindicators",
+            "Dreadnoughts"
           ],
           "points": 225
-      },
-      {
-        "name": "Bezashk Siege Battery",
-        "units": "Four Bezashk Medusa",
-        "extraUnits": [
-        ],
-        "points": 250
-    },
-    {
+        },
+        {
+          "name": "Bezashk Siege Battery",
+          "units": "Four Bezashk Medusa",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
           "name": "Iron Warriors Artillery Battery",
           "units": "Three Iron Warriors Basilisks",
           "extraUnits": [
-              "Add one Iron Warriors Basilisk: 75 points"
+            "Add one Iron Warriors Basilisk: 75 points"
           ],
           "points": 250
-      },
-      {
-        "name": "Heavy Siege Tanks",
-        "units": "Two Chaos Typhon Heavy Siege Tanks",
-        "extraUnits": [
-            "Add one Chaos Typhon Heavy Siege Tank: 125 points"
-        ],
-        "points": 275
-    }
-          ]
-      },
+        },
         {
+          "name": "Heavy Siege Tanks",
+          "units": "Two Chaos Typhon Heavy Siege Tanks",
+          "extraUnits": [
+            "Add one Chaos Typhon Heavy Siege Tank: 125 points"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
       "name": "Dark Mechanicus and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "Maulerfiends",
-            "units": "Four Maulerfiends",
+        {
+          "name": "Maulerfiends",
+          "units": "Four Maulerfiends",
           "extraUnits": [
           ],
           "points": 200
-            },
-          {
-            "name": "Ordinatus Hereticus",
-            "units": "Two Ordinatus Hereticus",
-            "extraUnits": [
-            ],
-            "points": 325
-          },
-          {
-            "name": "0-1 Ordinatus Cyclothrathe",
-            "units": "One Ordinatus Cyclothrathe",
-            "extraUnits": [
-            ],
-            "points": 475
-          },
-          {
-            "name": "Heldrakes",
-            "units": "Two Heldrakes",
-            "points": 225
-          },
+        },
+        {
+          "name": "Ordinatus Hereticus",
+          "units": "Two Ordinatus Hereticus",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "0-1 Ordinatus Cyclothrathe",
+          "units": "One Ordinatus Cyclothrathe",
+          "extraUnits": [
+          ],
+          "points": 475
+        },
+        {
+          "name": "Heldrakes",
+          "units": "Two Heldrakes",
+          "points": 225
+        },
         {
           "name": "Harbringer",
           "units": "One Harbringer Bomber",
@@ -234,7 +231,7 @@
           "points": 150
         }
       ]
-  }
+    }
   ],
   "upgrades": {
     "title": "Iron Warriors Upgrades",
@@ -271,11 +268,11 @@
           {
             "description": "Add up to three Chaos Land Raiders",
             "points": "50 points each"
-        },
-        {
-          "description": "(No more than needed to transport the formation with no space left over)",
-          "points": ""
-      }
+          },
+          {
+            "description": "(No more than needed to transport the formation with no space left over)",
+            "points": ""
+          }
         ]
       },
       {

@@ -5,8 +5,18 @@
   "release": "2019-10-02",
   "strategy": "Fir Lirithion armies have a Strategy Rating of 4.",
   "Initiative": "Titans and Knights have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
-  "specialRules": ["Farsight","Hit and Run","May not Garrison (Fir Lirithion)", "Holofields (x)","Lance","Shield Piercer", "Shield Disruptor", "Webway Portal","Independent Twins", "Heavy Armoured Vehicle (H-AV)"],
+  "specialRules": [
+    "Farsight",
+    "Hit and Run",
+    "May not Garrison (Fir Lirithion)",
+    "Holofields (x)",
+    "Lance",
+    "Shield Piercer",
+    "Shield Disruptor",
+    "Webway Portal",
+    "Independent Twins",
+    "Heavy Armoured Vehicle (H-AV)"
+  ],
   "usage": [
     "The following army list allows you to field an army based on Eldar Titans and Eldar Knights."
   ],
@@ -29,7 +39,7 @@
         "Warlock Titan",
         " Phantom Titan"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -41,24 +51,22 @@
         "Wraithship",
         "Dragonship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Fir Lirithion Special",
       "formations": [
-          {
-            "name": "1 Avatar",
-            "units": "One Avatar",
-
-            "points": 0
-          },
+        {
+          "name": "1 Avatar",
+          "units": "One Avatar",
+          "points": 0
+        },
         {
           "name": "0-1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
-
           "points": 50
         }
       ]
@@ -95,19 +103,16 @@
           ],
           "points": 650
         }
-
       ]
     },
     {
       "name": "Fir Lirithion Troupes",
       "description": "Up to three Troupes for each Battle or Scout Titan formation.",
       "formations": [
-
         {
           "name": "Fire Gale Troupe",
           "units": "Two Fire Gale Knights",
           "extraUnits": [
-
           ],
           "points": 300
         },
@@ -115,7 +120,6 @@
           "name": "Bright Stallion Troupe",
           "units": "Two Bright Stallion Knights",
           "extraUnits": [
-
           ],
           "points": 250
         },
@@ -123,7 +127,6 @@
           "name": "Wraithknight Troupe",
           "units": "Three Wraithknights",
           "extraUnits": [
-
           ],
           "points": 325
         },
@@ -160,31 +163,30 @@
             "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
-      },
-      {
-        "name": "Phoenix Aerie",
-        "units": "Two Phoenix Bombers",
-        "extraUnits": [
-        "Add one Phoenix Bomber: 75 Points"
-        ],
-        "points": 250
-      },
-      {
-        "name": "Vampire",
-        "units": "One Vampire Raider",
-        "extraUnits": [
-
-        ],
-        "points": 200
-    },
-    {
-      "name": "0-1 Spacecraft",
-      "units": "One Wraithship",
-      "extraUnits": [
-        "Replace with a Dragonship: 150 Points"
-      ],
-      "points": 150
-    }
+        },
+        {
+          "name": "Phoenix Aerie",
+          "units": "Two Phoenix Bombers",
+          "extraUnits": [
+            "Add one Phoenix Bomber: 75 Points"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Vampire",
+          "units": "One Vampire Raider",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "0-1 Spacecraft",
+          "units": "One Wraithship",
+          "extraUnits": [
+            "Replace with a Dragonship: 150 Points"
+          ],
+          "points": 150
+        }
       ]
     }
   ],
@@ -196,22 +198,22 @@
         "name": "0-1 Bonesinger",
         "description": "Add one Bonesinger to the formation",
         "points": "50 points"
-    },
-    {
-      "name": "Wraithguard",
-      "description": "Add two Eldar Wraithguards",
-      "points": "75 points"
-    },
-    {
-      "name": "Wraithblades",
-      "description": "Add two Eldar Wraithblades",
-      "points": "50 points"
-    },
-    {
-      "name": "Wraithlord",
-      "description": "Add up to three Eldar Wraithlords",
-      "points": "50 points each"
-    }
+      },
+      {
+        "name": "Wraithguard",
+        "description": "Add two Eldar Wraithguards",
+        "points": "75 points"
+      },
+      {
+        "name": "Wraithblades",
+        "description": "Add two Eldar Wraithblades",
+        "points": "50 points"
+      },
+      {
+        "name": "Wraithlord",
+        "description": "Add up to three Eldar Wraithlords",
+        "points": "50 points each"
+      }
     ]
   }
 }

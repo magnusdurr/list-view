@@ -100,13 +100,13 @@
       "name": "Iron Hands Support Detachments",
       "description": "Two Support Detachments may be taken per Core Detachment",
       "formations": [
-          {
-            "name": "Scouts",
-            "units": "Three Scouts, three Razorbacks",
-            "extraUnits": [
-            ],
-            "points": 175
-          },
+        {
+          "name": "Scouts",
+          "units": "Three Scouts, three Razorbacks",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
         {
           "name": "Dreadnought Talon",
           "units": "Any four of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought. Plus transport.",
@@ -114,7 +114,6 @@
             "Venerable Dreadnought",
             "Ironclad Dreadnoughts",
             "Dreadnoughts"
-
           ],
           "points": 250
         },
@@ -137,7 +136,6 @@
           ],
           "points": 250
         },
-
         {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
@@ -159,18 +157,18 @@
           "name": "Whirlwinds",
           "units": "Three Whirlwinds",
           "extraUnits": [
-              "Add one Whirlwind to the formation: 50 points",
+            "Add one Whirlwind to the formation: 50 points",
             "Anti-Air"
           ],
           "points": 225
-      },
-      {
-        "name": "Siege Scouts",
-        "units": "Four Scouts, two Siege Rhinos and two Vindicators",
-        "extraUnits": [
-        ],
-        "points": 250
-      }
+        },
+        {
+          "name": "Siege Scouts",
+          "units": "Four Scouts, two Siege Rhinos and two Vindicators",
+          "extraUnits": [
+          ],
+          "points": 250
+        }
       ]
     },
     {
@@ -194,13 +192,12 @@
             "Upgrade both Warhounds to the Tank Hunter Configuration: 50 points"
           ],
           "points": 475
-      },
+        },
         {
           "name": "Reaver",
           "units": "One Reaver Titan, Hun Class",
           "points": 625
         }
-
       ]
     }
   ],
@@ -282,13 +279,13 @@
         "name": "Transports",
         "description": "Add any number of Razorbacks or Land Raider variants, up to the number required to transport the formation",
         "options": [
-            {
-              "description": "The formation may take Siege Rhinos instead of Rhinos",
-              "points": "25 points"
+          {
+            "description": "The formation may take Siege Rhinos instead of Rhinos",
+            "points": "25 points"
           },
-            {
-              "description": "Razorback",
-              "points": "25 points"
+          {
+            "description": "Razorback",
+            "points": "25 points"
           },
           {
             "description": "Land Raider",

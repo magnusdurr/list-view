@@ -16,40 +16,36 @@
 </div>
 <div>
     <table class="table table-striped">
-        <thead>
-        <tr>
-            <th scope="col">
-                <div class="row">
-                    <div class="col-3 col-md-2">Formation</div>
-                    <div class="col-6 col-md-4">Units</div>
-                    <div class="col-3 order-md-9 col-md-2" style="text-align: right">Cost</div>
-                    <div class="d-none d-md-inline col-md-4">Upgrades</div>
-                </div>
-            </th>
-        </tr>
-        </thead>
         <tbody>
         {{#each formations}}
         <tr>
             <td>
                 <div class="row">
-                    <div class="col-3 col-md-2">{{name}}</div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-9 col-lg-4">
+                        <span style="font-weight: 550">{{name}}</span><br>
                         {{units}}
                         {{#if notes}}
                         <br>
                         <small>{{notes}}</small>
                         {{/if}}
                     </div>
-                    <div class="col-3 order-md-9 col-md-2" style="text-align: right">
+                    <div class="col-3 order-lg-9" style="text-align: right">
                         {{#if points}}{{points}} points{{/if}}
                         {{#if pointsOptions}}
                         {{#each pointsOptions}}{{this.name}} - {{this.points}}{{#unless @last}}<br>{{/unless}}{{/each}}
                         {{/if}}
                     </div>
-                    <div class="col-12 col-md-4">
-                        <span class="d-inline d-md-none"><i>Upgrades:</i></span>
-                        {{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+                    <div class="col-12 col-lg-5">
+                        {{#if upgrades}}<span class="d-inline"><i>Upgrades</i></span>{{/if}}
+                        {{#if upgrades}}
+                        <ul style="padding-left: 1rem">
+                            {{#each upgrades}}
+                            <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+
+                        {{#if extraUnits}}<span class="d-inline"><i>Upgrades</i></span>{{/if}}
                         {{#if extraUnits}}
                         <ul style="padding-left: 1rem">
                             {{#each extraUnits}}
@@ -132,9 +128,14 @@
 {{/if}}
 
 {{#if usage}}
-<h5>Boosts, Tweaks & Nerfs</h5>
+{{> card-with-margin}}
+<div class="card-header"><b>Boosts, Tweaks & Nerfs</b></div>
+<div class="card-body">
 {{#each usage}}
 <p>{{{this}}}</p>
 {{/each}}
+</div>
+</div>
 {{/if}}
+
 {{/with}}

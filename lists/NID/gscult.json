@@ -8,9 +8,9 @@
   "specialRules": [
     "Broodcoven",
     "Broodmind",
-        "Brood Brothers",
-        "Honour Guard",
-        "Tunnelers"
+    "Brood Brothers",
+    "Honour Guard",
+    "Tunnelers"
   ],
   "usage": [],
   "units": [
@@ -69,13 +69,24 @@
         {
           "name": "1 Broodcoven",
           "units": "One Genestealer Patriarch and eight Acolyte Praetorians",
-          "extraUnits": ["Cult Transports", "Acolytes", "Technicals"],
+          "extraUnits": [
+            "Cult Transports",
+            "Acolytes",
+            "Technicals"
+          ],
           "points": 275
         },
         {
           "name": "Acolyte Coven",
           "units": "Acolyte Praetorians with Hybrid Iconward, and seven Acolyte Hybrids",
-          "extraUnits": ["Mineshaft Infiltrators", "Cult Transports", "Coven Leader", "Acolytes", "Biomorphs",  "Technicals"],
+          "extraUnits": [
+            "Mineshaft Infiltrators",
+            "Cult Transports",
+            "Coven Leader",
+            "Acolytes",
+            "Biomorphs",
+            "Technicals"
+          ],
           "points": 200
         }
       ]
@@ -93,25 +104,25 @@
           "points": 175
         }
       ]
-  },
+    },
     {
       "name": "Neophyte Formations",
       "description": "Up to one Neophyte formation per Acolyte or Purestrain formation",
       "formations": [
-          {
-            "name": "Cult Sentinel Squadron",
-            "units": "Four Sentinels",
-            "extraUnits": [],
-            "points": 100
-          },
-          {
-            "name": "Outrider Squadron",
-            "units": "One Hybrid Iconward, six Neophyte Outriders",
-            "extraUnits": [
-              "Ridgerunners"
-            ],
-            "points": 150
-          },
+        {
+          "name": "Cult Sentinel Squadron",
+          "units": "Four Sentinels",
+          "extraUnits": [],
+          "points": 100
+        },
+        {
+          "name": "Outrider Squadron",
+          "units": "One Hybrid Iconward, six Neophyte Outriders",
+          "extraUnits": [
+            "Ridgerunners"
+          ],
+          "points": 150
+        },
         {
           "name": "Neophyte Platoon",
           "units": "One Hybrid Iconward, eight Neophytes",
@@ -143,22 +154,20 @@
             "Hellhounds"
           ],
           "points": 250
-      },
-
-    {
-      "name": "Cult Leman Russ Squadron",
-      "units": "Four Leman Russ",
-      "extraUnits": [
-      ],
-      "points": 300
-    },
-
-    {
-      "name": "Thunderbolts",
-      "units": "Two Thunderbolts",
-      "extraUnits": [],
-      "points": 175
-    }
+        },
+        {
+          "name": "Cult Leman Russ Squadron",
+          "units": "Four Leman Russ",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Thunderbolts",
+          "units": "Two Thunderbolts",
+          "extraUnits": [],
+          "points": 175
+        }
       ]
     }
   ],
@@ -166,11 +175,11 @@
     "title": "Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
-        {
-          "name": "Mineshaft Infiltrators",
-          "description": "All units in the formation gains the 'Tunneling' special rule, may only have the 'Acolytes' and 'Biomorph' upgrades",
-          "points": "Free"
-        },
+      {
+        "name": "Mineshaft Infiltrators",
+        "description": "All units in the formation gains the 'Tunneling' special rule, may only have the 'Acolytes' and 'Biomorph' upgrades",
+        "points": "Free"
+      },
       {
         "name": "Acolyte Transports",
         "description": "Add Land Transporters, Coven Limousines, Goliath Trucks or Goliath Rockgrinders to the formation, up to the number required to transport all infantry units in the formation",

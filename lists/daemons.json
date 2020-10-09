@@ -4,30 +4,30 @@
     "specialRules": [
     ],
     "unit": [
-        {
-          "name": "Exalted Keeper of Secrets",
-          "type": "WE",
-          "speed": 20,
-          "armour": 4,
-          "cc": 3,
-          "ff": 4,
-          "weapons": [
-            "Slicing Shards",
-            "Lash of Torment"
-          ],
-          "specialRules": [
-              "Damage Capacity 4",
-              "Reinforced Armour",
-              "Invulnerable Save",
-              "Leader",
-              "Commander",
-              "Inspiring",
-              "Daemonic Focus",
-              "Walker",
-              "Augment Summoning (+2D3)"
+      {
+        "name": "Exalted Keeper of Secrets",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Slicing Shards",
+          "Lash of Torment"
         ],
-          "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
-        },
+        "specialRules": [
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Augment Summoning (+2D3)"
+        ],
+        "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
+      },
       {
         "name": "Keeper of Secrets",
         "type": "WE",
@@ -40,14 +40,14 @@
           "Lash of Torment"
         ],
         "specialRules": [
-            "Damage Capacity 3",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Augment Summoning (+D3)"
-      ],
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Augment Summoning (+D3)"
+        ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
       {
@@ -62,9 +62,9 @@
           "Cacophonic Blast"
         ],
         "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
-            ]
+          "Daemonic Focus",
+          "Invulnerable Save"
+        ]
       },
       {
         "name": "Herald of Slaanesh on Seeker Chariot",
@@ -78,9 +78,9 @@
           "Cacophonic Blast"
         ],
         "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
-            ]
+          "Daemonic Focus",
+          "Invulnerable Save"
+        ]
       },
       {
         "name": "Daemonettes of Slaanesh",
@@ -92,9 +92,9 @@
           "Piercing Claws"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
-            ]
+          "Expendable",
+          "Invulnerable Save"
+        ]
       },
       {
         "name": "Fiends of Slaanesh",
@@ -106,9 +106,9 @@
           "Claws"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
-            ]
+          "Expendable",
+          "Invulnerable Save"
+        ]
       },
       {
         "name": "Seekers of Slaanesh",
@@ -120,11 +120,11 @@
           "Barbed Claws"
         ],
         "specialRules": [
-            "Expendable",
-            "Mounted",
-            "Walker",
-            "Invulnerable Save"
-            ]
+          "Expendable",
+          "Mounted",
+          "Walker",
+          "Invulnerable Save"
+        ]
       },
       {
         "name": "Exalted Great Unclean One",
@@ -138,17 +138,17 @@
           "Filth Mace"
         ],
         "specialRules": [
-            "Damage Capacity 5",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Leader",
-            "Commander",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Augment Summoning (+2D3)"
+          "Damage Capacity 5",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Augment Summoning (+2D3)"
         ],
-         "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
+        "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
       {
         "name": "Great Unclean One",
@@ -162,13 +162,13 @@
           "Filth Mace"
         ],
         "specialRules": [
-            "Damage Capacity 4",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Augment Summoning (+D3)"
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Augment Summoning (+D3)"
         ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
@@ -184,8 +184,8 @@
           "Nurglings"
         ],
         "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -200,10 +200,10 @@
           "Blight Fly"
         ],
         "specialRules": [
-            "Daemonic Focus",
-            "Mounted",
-            "Jump Packs",
-            "Invulnerable Save"
+          "Daemonic Focus",
+          "Mounted",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
@@ -218,8 +218,8 @@
           "Cloud of Flies"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
@@ -232,8 +232,8 @@
           "Slobbering Affection"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
@@ -248,10 +248,10 @@
           "Blight Fly"
         ],
         "specialRules": [
-            "Expendable",
-            "Mounted",
-            "Jump Packs",
-            "Invulnerable Save"
+          "Expendable",
+          "Mounted",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
@@ -266,18 +266,18 @@
           "Lash of Khorne"
         ],
         "specialRules": [
-            "Damage Capacity 4",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Leader",
-            "Commander",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+2D3)"
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+2D3)"
         ],
-         "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
+        "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
       {
         "name": "Bloodthirster",
@@ -291,14 +291,14 @@
           "Lash of Khorne"
         ],
         "specialRules": [
-            "Damage Capacity 3",
-            "Reinforced Armour",
-              "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+D3)"
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+D3)"
         ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
@@ -313,8 +313,8 @@
           "Skull Cannon"
         ],
         "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -328,10 +328,10 @@
           "Juggernaut"
         ],
         "specialRules": [
-            "Mounted",
-            "Walker",
-            "Daemonic Focus",
-            "Invulnerable Save"
+          "Mounted",
+          "Walker",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -344,8 +344,8 @@
           "Hellblades"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
@@ -358,8 +358,8 @@
           "Claws and Fangs"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
@@ -372,11 +372,10 @@
           "Juggernaut"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save",
-            "Mounted",
-            "Walker"
-
+          "Expendable",
+          "Invulnerable Save",
+          "Mounted",
+          "Walker"
         ]
       },
       {
@@ -391,18 +390,18 @@
           "Bedlam Staff"
         ],
         "specialRules": [
-            "Damage Capacity 4",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Leader",
-            "Commander",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+2D3)"
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+2D3)"
         ],
-         "crit": "The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
+        "crit": "The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
       },
       {
         "name": "Lord of Change",
@@ -416,14 +415,14 @@
           "Bedlam Staff"
         ],
         "specialRules": [
-            "Damage Capacity 3",
-            "Reinforced Armour",
-              "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+D3)"
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+D3)"
         ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+."
       },
@@ -438,8 +437,8 @@
           "Violet Fire of Tzeentch"
         ],
         "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -453,9 +452,9 @@
           "Violet Fire of Tzeentch"
         ],
         "specialRules": [
-            "Jump Packs",
-            "Daemonic Focus",
-            "Invulnerable Save"
+          "Jump Packs",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -469,8 +468,8 @@
           "Sorcerous Bolts"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
@@ -484,8 +483,8 @@
           "Flames of Tzeentch"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
@@ -498,9 +497,9 @@
           "Claws and Fangs"
         ],
         "specialRules": [
-            "Expendable",
-            "Jump Packs",
-            "Invulnerable Save"
+          "Expendable",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
@@ -513,47 +512,44 @@
           "Claws"
         ],
         "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
+          "Expendable",
+          "Invulnerable Save"
         ]
-    },
-    {
-      "name": "Furies of Chaos Undivided",
-      "type": "INF",
-      "speed": 30,
-      "armour": 5,
-      "cc": 4,
-      "weapons": [
-        "Claws"
-      ],
-      "specialRules": [
+      },
+      {
+        "name": "Furies of Chaos Undivided",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "weapons": [
+          "Claws"
+        ],
+        "specialRules": [
           "In Midnight Clad",
           "Expendable",
           "Jump Packs",
           "Invulnerable Save"
-
-      ]
-  },
-    {
-      "name": "Soul Grinder",
-      "type": "AV",
-      "speed": 20,
-      "armour": 3,
-      "cc": 3,
-      "ff": 5,
-      "weapons": [
-        "Harvester Cannon",
-        "Warpsword"
-      ],
-      "specialRules": [
+        ]
+      },
+      {
+        "name": "Soul Grinder",
+        "type": "AV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Harvester Cannon",
+          "Warpsword"
+        ],
+        "specialRules": [
           "Daemonic Focus",
           "Infiltrators",
           "Walker",
           "Invulnerable Save"
-
-
-      ]
-    }
+        ]
+      }
     ]
   }
 ]

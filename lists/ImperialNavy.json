@@ -2,116 +2,109 @@
   {
     "name": "Imperial Navy",
     "specialRules": [
-        {
-          "title": "Shield Disruptor",
-          "description": [
-            "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
-            ""
-          ]
+      {
+        "title": "Shield Disruptor",
+        "description": [
+          "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
+          ""
+        ]
       }
     ],
     "unit": [
-        {
-          "name": "Lightning Strike Fighter",
-          "type": "AC",
-          "speed": "Fighter-Bomber",
-          "armour": 6,
-          "weapons": [
-            "AC Twin Lascannon||FxF",
-            "AC Underwing Rockets||FxF"
-          ],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Lightning Interceptor",
-          "type": "AC",
-          "speed": "Fighter",
-          "armour": 6,
-          "weapons": [
-            "AC Twin Lascannon||FxF",
-            "AC Autocannon"
-          ],
-          "specialRules": [
-
-          ]
-        },
-    {
-      "name": "Thunderbolt Fighter",
-      "type": "AC",
-      "speed": "Fighter-Bomber",
-      "armour": 6,
-      "weapons": [
-        "AC Multilaser||FxF",
-        "AC Underwing Rockets||FxF",
-        "AC Storm Bolters||FxF"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Avenger Strike Fighter",
-      "type": "AC",
-      "speed": "Fighter-Bomber",
-      "armour": 5,
-      "weapons": [
-        "AC Avenger Bolt Cannon||FxF",
-        "AC Twin Lascannon||FxF",
-        "AC Heavy Stubber Turret"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Marauder Bomber",
-      "type": "AC",
-      "speed": "Bomber",
-      "armour": 4,
-      "weapons": [
-        "AC Twin Lascannon||FxF",
-        "AC Bomb Racks||FxF",
-        "AC Twin Heavy Bolter Turret|2|"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Marauder Destroyer",
-      "type": "AC",
-      "speed": "Bomber",
-      "armour": 4,
-      "weapons": [
-        "AC Twin Autocannon|3|FxF",
-        "AC Missile Array||FxF",
-        "AC Twin Assault Cannon Turret||",
-        "AC Twin Heavy Bolter Turret||"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Marauder Colossus",
-      "type": "AC",
-      "speed": "Bomber",
-      "armour": 4,
-      "weapons": [
-        "AC Twin Lascannon||FxF",
-        "AC Colossus Bomb||FxF",
-        "AC Twin Heavy Bolter Turret|2|"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Lunar Class Cruiser",
-      "type": "SC",
-      "weapons": [
+      {
+        "name": "Lightning Strike Fighter",
+        "type": "AC",
+        "speed": "Fighter-Bomber",
+        "armour": 6,
+        "weapons": [
+          "AC Twin Lascannon||FxF",
+          "AC Underwing Rockets||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Lightning Interceptor",
+        "type": "AC",
+        "speed": "Fighter",
+        "armour": 6,
+        "weapons": [
+          "AC Twin Lascannon||FxF",
+          "AC Autocannon"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Thunderbolt Fighter",
+        "type": "AC",
+        "speed": "Fighter-Bomber",
+        "armour": 6,
+        "weapons": [
+          "AC Multilaser||FxF",
+          "AC Underwing Rockets||FxF",
+          "AC Storm Bolters||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Avenger Strike Fighter",
+        "type": "AC",
+        "speed": "Fighter-Bomber",
+        "armour": 5,
+        "weapons": [
+          "AC Avenger Bolt Cannon||FxF",
+          "AC Twin Lascannon||FxF",
+          "AC Heavy Stubber Turret"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Marauder Bomber",
+        "type": "AC",
+        "speed": "Bomber",
+        "armour": 4,
+        "weapons": [
+          "AC Twin Lascannon||FxF",
+          "AC Bomb Racks||FxF",
+          "AC Twin Heavy Bolter Turret|2|"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Marauder Destroyer",
+        "type": "AC",
+        "speed": "Bomber",
+        "armour": 4,
+        "weapons": [
+          "AC Twin Autocannon|3|FxF",
+          "AC Missile Array||FxF",
+          "AC Twin Assault Cannon Turret||",
+          "AC Twin Heavy Bolter Turret||"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Marauder Colossus",
+        "type": "AC",
+        "speed": "Bomber",
+        "armour": 4,
+        "weapons": [
+          "AC Twin Lascannon||FxF",
+          "AC Colossus Bomb||FxF",
+          "AC Twin Heavy Bolter Turret|2|"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Lunar Class Cruiser",
+        "type": "SC",
+        "weapons": [
           {
             "name": "Orbital Bombardment",
             "modes": [
@@ -119,14 +112,14 @@
                 "firepower": "3BP, MW"
               }
             ]
-        },
-        "Pin Point"
-      ]
-    },
-    {
-      "name": "Emperor Class Battleship",
-      "type": "SC",
-      "weapons": [
+          },
+          "Pin Point"
+        ]
+      },
+      {
+        "name": "Emperor Class Battleship",
+        "type": "SC",
+        "weapons": [
           {
             "name": "Orbital Bombardment",
             "modes": [
@@ -134,14 +127,12 @@
                 "firepower": "8BP, MW"
               }
             ]
-        }
-      ],
-      "specialRules": [
-        "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
-      ]
-    }
-
-
+          }
+        ],
+        "specialRules": [
+          "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
+        ]
+      }
     ]
   }
 ]

@@ -7,8 +7,8 @@
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all White Scars detachments and Aircraft formations.",
   "specialRules": [
-      "White Scars Transports",
-      "Extended Command"
+    "White Scars Transports",
+    "Extended Command"
   ],
   "units": [
     {
@@ -63,28 +63,28 @@
     {
       "name": "White Scars Core Detachments",
       "formations": [
-          {
-            "name": "Tacticals",
-            "units": "Six Tacticals plus transport",
-            "extraUnits": [
-              "Anti-Air",
-              "Commander",
-              "Razorbacks",
-              "Vindicators",
-              "Land Raiders",
-              "Damocles"
-            ],
-            "points": 275
-          },
-          {
-            "name": "Vindicators",
-            "units": "6 White Scars Vindicators",
-            "extraUnits": [
-              "Anti-Air",
-              "Commander",
-              "Damocles"
-            ],
-            "points": 300
+        {
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
+          "extraUnits": [
+            "Anti-Air",
+            "Commander",
+            "Razorbacks",
+            "Vindicators",
+            "Land Raiders",
+            "Damocles"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Vindicators",
+          "units": "6 White Scars Vindicators",
+          "extraUnits": [
+            "Anti-Air",
+            "Commander",
+            "Damocles"
+          ],
+          "points": 300
         },
         {
           "name": "Bikes",
@@ -95,45 +95,44 @@
             "Damocles"
           ],
           "points": 325
-      },
-      {
-        "name": "Terminators",
-        "units": "Four Terminators, two Land Raider Crusaders",
-        "extraUnits": [
-          "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
-          "Anti-Air",
-          "Commander",
-          "Vindicators",
-          "Damocles"
-        ],
-        "points": 450
-      }
-
+        },
+        {
+          "name": "Terminators",
+          "units": "Four Terminators, two Land Raider Crusaders",
+          "extraUnits": [
+            "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
+            "Anti-Air",
+            "Commander",
+            "Vindicators",
+            "Damocles"
+          ],
+          "points": 450
+        }
       ]
     },
     {
       "name": "White Scars Support Detachments",
       "description": "Two Support Detachments may be taken per Core Detachment",
       "formations": [
-          {
-            "name": "Assaults",
-            "units": "Four Assaults",
-            "extraUnits": [
-              "Commander",
-              "Vindicators",
-              "Damocles"
-            ],
-            "points": 175
-          },
-          {
-            "name": "Scout Bikes",
-            "units": "Five White Scars Scout Bikes",
-            "extraUnits": [
-              "Attack Bikes",
-              "Commander",
-              "Damocles"
-            ],
-            "points": 150
+        {
+          "name": "Assaults",
+          "units": "Four Assaults",
+          "extraUnits": [
+            "Commander",
+            "Vindicators",
+            "Damocles"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Scout Bikes",
+          "units": "Five White Scars Scout Bikes",
+          "extraUnits": [
+            "Attack Bikes",
+            "Commander",
+            "Damocles"
+          ],
+          "points": 150
         },
         {
           "name": "Land Speeder",
@@ -156,7 +155,7 @@
             "Damocles"
           ],
           "points": 225
-      },
+        },
         {
           "name": "Predators",
           "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
@@ -167,21 +166,20 @@
             "Damocles"
           ],
           "points": 250
-      },
-      {
-            "name": "Landing Craft",
-            "units": "One Landing Craft",
-            "points": 350
         },
-      {
-        "name": "0-1 Orbital Support",
-        "units": "One Strike Cruiser",
-        "extraUnits": [
-          "Battle Barge"
-        ],
-        "points": 200
-      }
-
+        {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 350
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
+        }
       ]
     },
     {
@@ -202,7 +200,7 @@
           "name": "Warhounds",
           "units": "One Warhound Titan",
           "extraUnits": [
-              "Add an additional Warhound Titan: 200 points"
+            "Add an additional Warhound Titan: 200 points"
           ],
           "points": 275
         }
@@ -232,14 +230,14 @@
         "name": "Commander",
         "description": "Add any one of the following characters to any unit in the formation",
         "options": [
-            {
-              "description": "Captain",
-              "points": "25 points"
-            },
-            {
-              "description": "Librarian",
-              "points": "25 points"
-            },
+          {
+            "description": "Captain",
+            "points": "25 points"
+          },
+          {
+            "description": "Librarian",
+            "points": "25 points"
+          },
           {
             "description": "Chaplain",
             "points": "50 points"
@@ -247,7 +245,7 @@
           {
             "description": "0–1 Supreme Commander",
             "points": "75 points"
-        }
+          }
         ]
       },
       {
@@ -287,9 +285,9 @@
           "75 points per pair"
         ]
       }
-  ],
-  "usage": [
-    "EA-R White Scars are based on the NetEA version of the list. Apart from the changes inherited from Codex Astares, the Terminator formation now has Land Raider Crusaders as standard, Scout Bikes and a Melta Attack Bike has been introduced and the army structure is a lot more rigid."
-  ]
+    ],
+    "usage": [
+      "EA-R White Scars are based on the NetEA version of the list. Apart from the changes inherited from Codex Astares, the Terminator formation now has Land Raider Crusaders as standard, Scout Bikes and a Melta Attack Bike has been introduced and the army structure is a lot more rigid."
+    ]
   }
 }

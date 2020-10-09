@@ -5,13 +5,12 @@
   "release": "2020-01-11",
   "strategy": "Baran Siegemaster armies have a Strategy Rating of 1.",
   "Initiative": "All formations have a Initiative Rating of 2+.",
-
   "specialRules": [
-      "Baran Regimental HQ",
-      "Siege Specialists",
-      "Courage, Discipline and Loyalty",
-      "Tunnelers",
-      "Fortified Positions"
+    "Baran Regimental HQ",
+    "Siege Specialists",
+    "Courage, Discipline and Loyalty",
+    "Tunnelers",
+    "Fortified Positions"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Baran Siegemasters"
@@ -46,22 +45,21 @@
         "Shadowsword",
         "Stormsword"
       ],
-        "unitRules": [
-            "Heavy Armoured Vehicle (H-AV)"
-
-          ]
+      "unitRules": [
+        "Heavy Armoured Vehicle (H-AV)"
+      ]
     },
     {
       "from": "ImperialNavy.json",
       "units": [
-          "Thunderbolt Fighter",
-          "Marauder Bomber"
+        "Thunderbolt Fighter",
+        "Marauder Bomber"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Core Company Formations",
       "description": "One Siegemaster Regimental HQ must be taken.",
@@ -70,10 +68,10 @@
           "name": "1 Siegemaster Regimental HQ",
           "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
-              "Support Weapons",
-              "Snipers",
-              "Heavy Tanks",
-              "Fortifications"
+            "Support Weapons",
+            "Snipers",
+            "Heavy Tanks",
+            "Fortifications"
           ],
           "points": 350
         },
@@ -81,56 +79,56 @@
           "name": "Siege Infantry Company",
           "units": "One Baran Commander with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
-              "Support Weapons",
-              "Snipers",
-              "Heavy Tanks",
-              "Fortifications"
+            "Support Weapons",
+            "Snipers",
+            "Heavy Tanks",
+            "Fortifications"
           ],
           "points": 300
-    }
-  ]
-},
+        }
+      ]
+    },
     {
       "name": "Baran Support Formations",
       "description": "Up to three Support Formations for each Core Company.",
       "formations": [
-          {
-            "name": "Heavy Tank Emplacement",
-            "units": "Four Ragnarok Heavy Tanks, four Gun Emplacements,",
-            "extraUnits": [
-                "Heavy Tanks"
-            ],
-            "points": 325
-          },
-          {
-            "name": "Macharius Company",
-            "units": "One Macharius Command with a Commissar, two Macharius",
-            "extraUnits": [
-            ],
-            "points": 375
-          },
+        {
+          "name": "Heavy Tank Emplacement",
+          "units": "Four Ragnarok Heavy Tanks, four Gun Emplacements,",
+          "extraUnits": [
+            "Heavy Tanks"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Macharius Company",
+          "units": "One Macharius Command with a Commissar, two Macharius",
+          "extraUnits": [
+          ],
+          "points": 375
+        },
         {
           "name": "Sapper Company",
           "units": "One Commissar, eight Sappers, one Hades Breaching Drill",
           "extraUnits": [
           ],
           "points": 250
-      },
-      {
-        "name": "Siege Artillery Emplacement",
-        "units": "Three Bombards and three Gun Emplacements or four Medusa Guns and four Gun Emplacements",
-        "extraUnits": [
+        },
+        {
+          "name": "Siege Artillery Emplacement",
+          "units": "Three Bombards and three Gun Emplacements or four Medusa Guns and four Gun Emplacements",
+          "extraUnits": [
             "Deathstrike"
-        ],
-        "points": 250
-      },
-      {
-        "name": "Super-Heavy Platoon",
-        "units": "One Baneblade or Stormsword",
-        "extraUnits": [
- ],
-        "points": 200
-      },
+          ],
+          "points": 250
+        },
+        {
+          "name": "Super-Heavy Platoon",
+          "units": "One Baneblade or Stormsword",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
         {
           "name": "Howitzer Emplacement",
           "units": "Four Howitzers, four Gun Emplacements",
@@ -145,78 +143,68 @@
           ],
           "points": 175
         },
-      {
-        "name": "Death Rider Platoon",
-        "units": "Six Death Riders",
-        "points": 150
-      },
-      {
-        "name": "Siege Recon Squadron",
-        "units": "Four Siegfried Light Tanks",
-        "extraUnits": [
-        ],
-        "points": 150
-      }
+        {
+          "name": "Death Rider Platoon",
+          "units": "Six Death Riders",
+          "points": 150
+        },
+        {
+          "name": "Siege Recon Squadron",
+          "units": "Four Siegfried Light Tanks",
+          "extraUnits": [
+          ],
+          "points": 150
+        }
       ]
     },
     {
       "name": "Imperial Navy Aircraft",
       "description": "Up to a third of the points available may be spent on Imperial Navy formations",
       "formations": [
-          {
-            "name": "Thunderbolt Squadron",
-            "units": "Two Thunderbolt Fighters",
-            "points": 175
-          },
-          {
-            "name": "Marauder Squadron",
-            "units": "Two Marauder Bombers",
-            "points": 250
-          }
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 175
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 250
+        }
       ]
     }
-
-
-
-
-
-
-
-
-
-
   ],
   "upgrades": {
     "title": "Baran Siegemaster Upgrades",
     "description": "Each upgrade may be taken once per formation. Max three upgrades per Company",
     "items": [
-        {
-          "name": "Deathstrike",
-          "options": [
-            {
-              "description": "Add one Deathstrike and a Gun Emplacement to the formation",
-              "points": "50 points"
-            }
-          ]
-        },
-        {
-          "name": "Support Weapons",
-          "description": "Add any one of the following options to the formation",
-          "options": [
-            {
-              "description": "Add four Rapiers, 16cm Trenches",
-              "points": "75 points"
-            },
-            {
-              "description": "Add three Mole Launchers, 12cm Trenches",
-              "points": "75 points"
-            },
-            {
-              "description": "Add three Thudd Guns, 12cm Trenches",
-              "points": "75 points"
-            }
-          ]
-        },
+      {
+        "name": "Deathstrike",
+        "options": [
+          {
+            "description": "Add one Deathstrike and a Gun Emplacement to the formation",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Support Weapons",
+        "description": "Add any one of the following options to the formation",
+        "options": [
+          {
+            "description": "Add four Rapiers, 16cm Trenches",
+            "points": "75 points"
+          },
+          {
+            "description": "Add three Mole Launchers, 12cm Trenches",
+            "points": "75 points"
+          },
+          {
+            "description": "Add three Thudd Guns, 12cm Trenches",
+            "points": "75 points"
+          }
+        ]
+      },
       {
         "name": "Snipers",
         "options": [
@@ -243,7 +231,7 @@
             "points": "25 points"
           }
         ]
-    }
+      }
     ]
   }
 }

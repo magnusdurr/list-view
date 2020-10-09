@@ -5,10 +5,19 @@
   "release": "2019-12-05",
   "strategy": "Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
-  "specialRules": ["Avatar (Yme-Loc)","May not Garrison (Yme-Loc)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Shield Disruptor",  "Webway Portal", "Large Webway Portal"],
-
-   "units": [
+  "specialRules": [
+    "Avatar (Yme-Loc)",
+    "May not Garrison (Yme-Loc)",
+    "Farsight",
+    "Hit and Run",
+    "Holofields (x)",
+    "Lance",
+    "Shield Piercer",
+    "Shield Disruptor",
+    "Webway Portal",
+    "Large Webway Portal"
+  ],
+  "units": [
     {
       "from": "EL.json",
       "units": [
@@ -40,7 +49,7 @@
         "Phantom Titan",
         "Warlock Titan"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -51,24 +60,22 @@
         "Wraithship",
         "Dragonship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Yme-Loc Special",
       "formations": [
         {
           "name": "1 Avatar",
           "units": "One Avatar",
-
           "points": 0
-      },
+        },
         {
           "name": "0-1 Gate of Vaul",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Gate of Vaul, this counts as an objective marker and a Large Webway Portal which may not be attacked or damaged in any way. ",
-
           "points": 100
         }
       ]
@@ -76,14 +83,14 @@
     {
       "name": "Yme-Loc Vaulhosts",
       "formations": [
-          {
-            "name": "Engines of Vaul",
-            "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
-            "extraUnits": [
-                "Add up to two additional Engines of Vaul for 200 points each",
-              "Bonesinger"
-            ],
-            "points": 250
+        {
+          "name": "Engines of Vaul",
+          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
+          "extraUnits": [
+            "Add up to two additional Engines of Vaul for 200 points each",
+            "Bonesinger"
+          ],
+          "points": 250
         },
         {
           "name": "Swords of Vaul",
@@ -94,37 +101,36 @@
             "Add six Guardians to the formation: 50 points"
           ],
           "points": 300
-      }
-    ]
-  },
+        }
+      ]
+    },
     {
       "name": "Yme-Loc Troupes",
       "description": "Up to two Yme-Loc Troupes may be taken for each Yme-Loc Vaulhost",
       "formations": [
-          {
-            "name": "Mounted Aspect Warrior Troupe",
-            "units": "Three Wave Serpents and six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions, Swooping Hawks",
-            "extraUnits": [
-              "Exarch"
-            ],
-            "points": 325
-          },
-          {
-            "name": "Mounted Guardian Troupe",
-            "units": "Two Wave Serpents, two Falcons, one Farseer, five Guardians",
-            "extraUnits": [
-                "Heavy Weapons"
-            ],
-            "points": 300
-          },
-          {
-            "name": "Lynx Troupe",
-            "units": "Two Lynx",
-            "extraUnits": [
-            ],
-            "points": 275
+        {
+          "name": "Mounted Aspect Warrior Troupe",
+          "units": "Three Wave Serpents and six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions, Swooping Hawks",
+          "extraUnits": [
+            "Exarch"
+          ],
+          "points": 325
         },
-
+        {
+          "name": "Mounted Guardian Troupe",
+          "units": "Two Wave Serpents, two Falcons, one Farseer, five Guardians",
+          "extraUnits": [
+            "Heavy Weapons"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Lynx Troupe",
+          "units": "Two Lynx",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
         {
           "name": "Wind Rider Troupe",
           "units": "Six Vypers",
@@ -152,15 +158,15 @@
           "extraUnits": [
           ],
           "points": 175
-      },
-      {
-        "name": "Hornet Troupe",
-        "units": "Four Hornets",
-        "extraUnits": [
+        },
+        {
+          "name": "Hornet Troupe",
+          "units": "Four Hornets",
+          "extraUnits": [
             "Add up to two Hornets: 50 points each"
-        ],
-        "points": 200
-    }
+          ],
+          "points": 200
+        }
       ]
     },
     {
@@ -186,7 +192,6 @@
           "name": "Revenants",
           "units": "Two Revenant Titans",
           "extraUnits": [
-
           ],
           "points": 650
         },
@@ -194,7 +199,7 @@
           "name": "Phantom",
           "units": "One Phantom Titan",
           "extraUnits": [
-              "Bonesinger"
+            "Bonesinger"
           ],
           "points": 700
         },
@@ -202,7 +207,6 @@
           "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
           "extraUnits": [
-
           ],
           "points": 850
         },
@@ -236,10 +240,8 @@
         "description": "Add one Bonesinger to a War Engine unit in the formation.",
         "points": "50 points"
       }
-  ],
-  "usage": [
-  ]
+    ],
+    "usage": [
+    ]
   }
-
-
 }

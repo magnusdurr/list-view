@@ -86,7 +86,7 @@
         "Warp Palace"
       ],
       "unitRules": [
-         "Regeneration",
+        "Regeneration",
         "Void Shields",
         "Daemon Engine (x)"
       ]
@@ -94,8 +94,8 @@
     {
       "from": "chaosnavy.json",
       "units": [
-          "Hell Blade Interceptor",
-          "Hell Talon Fighter-Bomber"
+        "Hell Blade Interceptor",
+        "Hell Talon Fighter-Bomber"
       ],
       "unitRules": []
     }
@@ -119,13 +119,13 @@
       "name": "Slaves to Darkness Support Formations",
       "description": "Up to one Support formation for each Core formation.",
       "formations": [
-          {
-            "name": "Flak Battery",
-            "units": "Three Hydras",
-            "extraUnits": [
-            ],
-            "points": 150
-          },
+        {
+          "name": "Flak Battery",
+          "units": "Three Hydras",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks",
@@ -167,24 +167,24 @@
       "name": "Slaves to Darkness Chaos Allies",
       "description": "Up to a third of the points available may be spent on Slaves to Darkness Chaos Allies",
       "formations": [
-          {
-            "name": "Hell Blade Squadron",
-            "units": "Three Hell Blade Interceptors",
-            "points": 200
-          },
-          {
-            "name": "Hell Talon Squadron",
-            "units": "Two Hell Talon Fighter-Bombers",
-            "points": 225
-          },
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
+        },
         {
           "name": "Chaos Space Marines of Chaos Undivided",
           "units": "Six Chaos Space Marines, three Chaos Rhinos",
           "extraUnits": [
-              "Add Daemonic Pact to the formation: 25 points"
+            "Add Daemonic Pact to the formation: 25 points"
           ],
           "points": 250
-      },
+        },
         {
           "name": "0-1 Decimator of Chaos Undivided",
           "units": "One Decimator",
@@ -201,7 +201,7 @@
           "upgrades": [
           ],
           "points": 300
-      },
+        },
         {
           "name": "0-1 Questor of Slaanesh",
           "units": "One Questor",
@@ -260,20 +260,19 @@
     "title": "Slaves to Darkness Upgrades",
     "description": "Each upgrade may be taken once per formation. Max 5 different upgrades per formation.",
     "items": [
-              {
-                "name": "Daemonic Icon",
-                "options": [
-                  {
-                    "description": "Add one Daemonic Icon to a Fallen Commander or Daemon Prince",
-                    "points": "25 points"
-                  },
-                  {
-                    "description": "Add one Daemonic Icon to a unit of Rough Riders",
-                    "points": "75 points"
-                  }
-                ]
-              },
-
+      {
+        "name": "Daemonic Icon",
+        "options": [
+          {
+            "description": "Add one Daemonic Icon to a Fallen Commander or Daemon Prince",
+            "points": "25 points"
+          },
+          {
+            "description": "Add one Daemonic Icon to a unit of Rough Riders",
+            "points": "75 points"
+          }
+        ]
+      },
       {
         "name": "(0-1 in the Army) Supreme Commander",
         "options": [
@@ -331,7 +330,10 @@
         "options": [
           {
             "description": "Add one, or add three Griffons",
-            "points": ["One Griffon: 25 points", "Three Griffons: 50 points"]
+            "points": [
+              "One Griffon: 25 points",
+              "Three Griffons: 50 points"
+            ]
           }
         ]
       },
@@ -340,7 +342,10 @@
         "options": [
           {
             "description": "Add one, or add three Leman Russ or Leman Russ Demolishers",
-            "points": ["One Leman Russ or Leman Russ Demolisher: 50 points", "Three Leman Russ or three Leman Russ Demolishers: 150 points"]
+            "points": [
+              "One Leman Russ or Leman Russ Demolisher: 50 points",
+              "Three Leman Russ or three Leman Russ Demolishers: 150 points"
+            ]
           }
         ]
       },

@@ -7,7 +7,9 @@
   "Initiative": "Tarantula and Hyperios Emplacement formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all non-'Machine Spirit' Imperial Fists detachments.",
   "specialRules": [
-    "Imperial Fists Transports", "Siege Specialists", "Fortified Positions"
+    "Imperial Fists Transports",
+    "Siege Specialists",
+    "Fortified Positions"
   ],
   "usage": [
     ""
@@ -58,9 +60,9 @@
       "units": [
         "Hyperios Sentry",
         "Tarantula"
-    ],
-        "unitRules": [
-         "Machine Spirit"
+      ],
+      "unitRules": [
+        "Machine Spirit"
       ]
     },
     {
@@ -94,12 +96,12 @@
           "name": "Devastators",
           "units": "Four Devastators plus transport",
           "extraUnits": [
-              "Support Weapons",
-              "Anti-Air",
-              "Commander",
-              "Land Raider Transport",
-              "Vindicators",
-              "Razorbacks"
+            "Support Weapons",
+            "Anti-Air",
+            "Commander",
+            "Land Raider Transport",
+            "Vindicators",
+            "Razorbacks"
           ],
           "points": 250
         },
@@ -112,7 +114,7 @@
             "Commander"
           ],
           "points": 275
-      },
+        },
         {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
@@ -187,7 +189,6 @@
           ],
           "points": 250
         },
-
         {
           "name": "Support Battery",
           "units": "Six Space Marine Rapiers and/or Space Marine Thunderfires",
@@ -196,34 +197,34 @@
             "Dreadnoughts"
           ],
           "points": 250
-      },
-      {
-        "name": "0-1 Heavy Siege Relics",
-        "units": "Two Typhon Heavy Siege Tanks",
-        "extraUnits": [
+        },
+        {
+          "name": "0-1 Heavy Siege Relics",
+          "units": "Two Typhon Heavy Siege Tanks",
+          "extraUnits": [
             "Add one Typhon Heavy Siege Tank: 125 points"
-        ],
-        "points": 300
-    },
-      {
-        "name": "0-1 Fellblade Relics",
-        "units": "Fellblade",
-        "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "0-1 Fellblade Relics",
+          "units": "Fellblade",
+          "extraUnits": [
             "Add one Fellblade: 250 points"
-        ],
-        "points": 300
-    }
+          ],
+          "points": 300
+        }
       ]
     },
     {
       "name": "Imperial Fists Static Defenses, Navy & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula Emplacement or Hyperios Emplacement for each Scout detachment.",
       "formations": [
-          {
-            "name": "Fortifications",
-            "units": "Two Bunkers, and 60cm Trenches and/or Minefields (exact proportions to be decided at the start of the game, before deploying objectives.)",
-            "points": 50
-          },
+        {
+          "name": "Fortifications",
+          "units": "Two Bunkers, and 60cm Trenches and/or Minefields (exact proportions to be decided at the start of the game, before deploying objectives.)",
+          "points": 50
+        },
         {
           "name": "Tarantula Emplacement",
           "units": "Four Tarantulas, four Gun Emplacements",
@@ -251,22 +252,22 @@
           "extraUnits": [
           ],
           "points": 600
-      }
-    ]
-  }
+        }
+      ]
+    }
   ],
   "upgrades": {
     "title": "Imperial Fists Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
-        {
-          "name": "Support Weapons",
-          "description": "Replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
-          "points": [
-              "50 points for two",
-              "125 points for four"
-          ]
-        },
+      {
+        "name": "Support Weapons",
+        "description": "Replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
+        "points": [
+          "50 points for two",
+          "125 points for four"
+        ]
+      },
       {
         "name": "Dreadnoughts",
         "description": "Add any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
@@ -278,10 +279,10 @@
         "name": "Commander",
         "description": "Add any one of the following characters to any unit in the formation",
         "options": [
-            {
-              "description": "Captain, Librarian",
-              "points": "25 points"
-            },
+          {
+            "description": "Captain, Librarian",
+            "points": "25 points"
+          },
           {
             "description": "Chaplain",
             "points": "50 points"

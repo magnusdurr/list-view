@@ -2,31 +2,31 @@
   {
     "name": "Collegia Titanica Forces",
     "specialRules": [
-        {
-          "title": "Void Shields",
-          "description": [
-              "Void shields that have been knocked down can be repaired. Each War Engine can repair one downed Void Shield in the End Phase of each turn.",
-               "In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker).",
-               ""
-          ]
-        },
-        {
-          "title": "God Machine",
-          "description": [
-            "War Engines with 8 or more DC are subject to the God Machine and Split Fire special rules.",
-            "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-            "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer one Blast Marker. Whenever a unit with God Machine special rule is destroyed, all friendly formations on the battlefield suffer D3 Blast Markers.",
-            "Units with the God Machine special rule are themselves immune to this effect.",
-            ""
-          ]
-        },
-        {
-          "title": "Split Fire",
-          "description": [
-            "A War Engine with this special rule may declare that it will Split Fire when attempting to perform a Sustain Fire or Advance Action. If the activation is successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon. If Split Fire is performed, the WE gets no +1 modifier for Sustain Fire, and suffers a -1 modifier for doing an Advance.",
-            ""
-          ]
-        },
+      {
+        "title": "Void Shields",
+        "description": [
+          "Void shields that have been knocked down can be repaired. Each War Engine can repair one downed Void Shield in the End Phase of each turn.",
+          "In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker).",
+          ""
+        ]
+      },
+      {
+        "title": "God Machine",
+        "description": [
+          "War Engines with 8 or more DC are subject to the God Machine and Split Fire special rules.",
+          "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
+          "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer one Blast Marker. Whenever a unit with God Machine special rule is destroyed, all friendly formations on the battlefield suffer D3 Blast Markers.",
+          "Units with the God Machine special rule are themselves immune to this effect.",
+          ""
+        ]
+      },
+      {
+        "title": "Split Fire",
+        "description": [
+          "A War Engine with this special rule may declare that it will Split Fire when attempting to perform a Sustain Fire or Advance Action. If the activation is successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon. If Split Fire is performed, the WE gets no +1 modifier for Sustain Fire, and suffers a -1 modifier for doing an Advance.",
+          ""
+        ]
+      },
       {
         "title": "Independent",
         "description": [
@@ -43,7 +43,7 @@
         ],
         "specialRules": [
           "Supreme Commander"
-              ]
+        ]
       },
       {
         "name": "Veteran Princeps",
@@ -158,7 +158,6 @@
           "Titan Plasma Cannon|0-2|FwA",
           "Volcano Cannon|0-1|FwA",
           "Plasma Destructor|0-1|FwA"
-
         ],
         "specialRules": [
           "Damage Capacity 8",
@@ -399,7 +398,6 @@
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.",
         "crit": "The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
       }
-
     ]
   }
 ]

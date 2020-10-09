@@ -2,13 +2,13 @@
   {
     "name": "Chaos Cultist Forces",
     "specialRules": [
-        {
-          "title": "Infestation",
-          "description": [
-            "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
-            "Formations containing any units with the infestation ability may only contest scenario objectives.",
-            ""
-          ]
+      {
+        "title": "Infestation",
+        "description": [
+          "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
+          "Formations containing any units with the infestation ability may only contest scenario objectives.",
+          ""
+        ]
       },
       {
         "title": "Augment Summoning (+x)",
@@ -26,15 +26,15 @@
       }
     ],
     "unit": [
-        {
-          "name": "Arch-Heretic",
-          "type": "CH",
-          "weapons": [
-              "Daemon Weapon"
-          ],
-          "specialRules": [
-              "Supreme Commander"
-          ]
+      {
+        "name": "Arch-Heretic",
+        "type": "CH",
+        "weapons": [
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+          "Supreme Commander"
+        ]
       },
       {
         "name": "Icon Bearer",
@@ -43,10 +43,10 @@
           "n/a"
         ],
         "specialRules": [
-            "Daemonic Focus",
-            "Augment Summoning (+1)",
-            "Leader",
-            "Invulnerable Save"
+          "Daemonic Focus",
+          "Augment Summoning (+1)",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -57,42 +57,41 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-            "Grenade Launchers",
-            "Daemon Weapon"
+          "Grenade Launchers",
+          "Daemon Weapon"
         ],
         "specialRules": [
-            "Invulnerable Save",
-            "Augment Summoning (+2D3)"
+          "Invulnerable Save",
+          "Augment Summoning (+2D3)"
         ]
-    },
-    {
-      "name": "Daemonic Icon",
-      "type": "CH",
-      "weapons": [
-      ],
-      "specialRules": [
+      },
+      {
+        "name": "Daemonic Icon",
+        "type": "CH",
+        "weapons": [
+        ],
+        "specialRules": [
           "Daemonic Pact",
-            "Augment Summoning (+1)"
-      ]
-  },
-    {
-      "name": "Aspiring Champion",
-      "type": "INF",
-      "speed": 15,
-      "armour": 4,
-      "cc": 4,
-      "ff": 4,
-      "weapons": [
+          "Augment Summoning (+1)"
+        ]
+      },
+      {
+        "name": "Aspiring Champion",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
           "Autocannon",
           "Daemon Weapon"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Commander",
           "Leader",
           "Invulnerable Save"
-      ]
-  },
-
+        ]
+      },
       {
         "name": "Fallen Commander",
         "type": "INF",
@@ -101,14 +100,14 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-            "Autocannon",
-            "Daemon Weapon"
+          "Autocannon",
+          "Daemon Weapon"
         ],
         "specialRules": [
-            "Commander",
-            "Invulnerable Save"
+          "Commander",
+          "Invulnerable Save"
         ]
-    },
+      },
       {
         "name": "Daemon Prince",
         "type": "INF",
@@ -117,8 +116,8 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-            "Warp Bolt",
-            "Æther Blade"
+          "Warp Bolt",
+          "Æther Blade"
         ],
         "specialRules": [
           "Supreme Commander",
@@ -136,24 +135,24 @@
         "cc": 5,
         "ff": 6,
         "weapons": [
-            "Grenade Launchers"
+          "Grenade Launchers"
         ],
         "specialRules": [
-            ]
-    },
-        {
-          "name": "Mutants",
-          "type": "INF",
-          "speed": 15,
-          "armour": 6,
-          "cc": 4,
-          "ff": 6,
-          "weapons": [
-              "Autopistols",
-              "Chainswords"
-          ],
-          "specialRules": [
-              ]
+        ]
+      },
+      {
+        "name": "Mutants",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Autopistols",
+          "Chainswords"
+        ],
+        "specialRules": [
+        ]
       },
       {
         "name": "Cultist Cavalry",
@@ -179,28 +178,27 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-            "Heavy Stubber|2|",
-            "Massive Melee Weapons"
+          "Heavy Stubber|2|",
+          "Massive Melee Weapons"
         ],
         "specialRules": [
-
         ],
         "notes": "Counts as two units of INF for the purpose of being transported."
-    },
-        {
-          "name": "Chaos Spawn",
-          "type": "INF",
-          "speed": 15,
-          "armour": 3,
-          "cc": 3,
-          "weapons": [
-              "Horrific Mutations"
-          ],
-          "specialRules": [
-              "Fearless",
-              "Invulnerable Save"
-          ],
-          "notes": "Counts as two units of INF for the purpose of being transported."
+      },
+      {
+        "name": "Chaos Spawn",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Horrific Mutations"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Invulnerable Save"
+        ],
+        "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Winged Chaos Spawn",
@@ -210,14 +208,14 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-            "Horrific Mutations",
-            "Sorcerous Bolts"
+          "Horrific Mutations",
+          "Sorcerous Bolts"
         ],
         "specialRules": [
-            "Fearless",
-            "Jump Packs"
+          "Fearless",
+          "Jump Packs"
         ]
-    },
+      },
       {
         "name": "Chaos Hounds",
         "type": "INF",
@@ -225,26 +223,26 @@
         "armour": 6,
         "cc": 4,
         "weapons": [
-            "Claws and Fangs"
+          "Claws and Fangs"
         ],
         "specialRules": [
-            "Expendable"
+          "Expendable"
         ],
-              "notes": "May not be transported."
-    },
-            {
-          "name": "Land Transporter",
-          "type": "LV",
-          "speed": 30,
-          "armour": 5,
-          "cc": 6,
-          "ff": 6,
-          "weapons": [
-              "Heavy Stubber"
-          ],
-          "specialRules": [
-          ],
-                "notes": "May transport two infantry units without Mounted or Jump Packs."
+        "notes": "May not be transported."
+      },
+      {
+        "name": "Land Transporter",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Heavy Stubber"
+        ],
+        "specialRules": [
+        ],
+        "notes": "May transport two infantry units without Mounted or Jump Packs."
       },
       {
         "name": "Technical",
@@ -254,22 +252,22 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-            "Twin Heavy Stubber Turret"
+          "Twin Heavy Stubber Turret"
         ],
         "specialRules": [
         ]
-    },
-    {
-      "name": "Chaos Altar",
-      "type": "WE",
-      "speed": 15,
-      "armour": 4,
-      "cc": 4,
-      "ff": 4,
-      "weapons": [
+      },
+      {
+        "name": "Chaos Altar",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
           "Arcane Technology"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Damage Capacity 3",
           "Reinforced Armour",
           "Invulnerable Save",
@@ -277,72 +275,73 @@
           "Inspiring",
           "Daemonic Focus",
           "Augmented Summoning (+D3)"
-      ],
-                "crit": "The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
-  },
-        {
-          "name": "Plague Zombies of Nurgle",
-          "type": "INF",
-          "speed": 10,
-          "cc": 6,
-          "weapons": ["Rotten Teeth"],
-          "specialRules": [
-            "Fearless",
-            "Infiltrators",
-            "Infestation"
-          ]
+        ],
+        "crit": "The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
       },
-        {
-          "name": "Tzaangors",
-          "type": "INF",
-          "speed": 15,
-          "armour": 6,
-          "cc": 4,
-          "ff": 6,
-          "weapons": [
-              "Autopistols",
-              "Chainswords"
-          ],
-          "specialRules": [
-          ]
+      {
+        "name": "Plague Zombies of Nurgle",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "weapons": [
+          "Rotten Teeth"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Infiltrators",
+          "Infestation"
+        ]
       },
-          {
-            "name": "Tzaangor Disc Riders",
-            "type": "INF",
-            "speed": 30,
-            "armour": 5,
-            "cc": 4,
-            "ff": 5,
-            "weapons": [
-                "Divining Spear"
-            ],
-            "specialRules": [
-                "Mounted",
-                "Jump Packs",
-                "Invulnerable Save"
-            ]
-        },
-        {
-          "name": "Mutalith Vortex Beast",
-          "type": "LV",
-          "speed": 15,
-          "armour": 5,
-          "cc": 5,
-          "ff": 5,
-          "weapons": [
-              "Beam of Unreality",
-              "Mælstrom of Madness"
-          ],
-          "specialRules": [
-              "Fearless",
-              "Walker",
-              "Reinforced Armour",
-              "Regeneration",
-              "Daemonic Focus",
-              "Augment Summoning (+2D3)"
-          ]
+      {
+        "name": "Tzaangors",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Autopistols",
+          "Chainswords"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Tzaangor Disc Riders",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Divining Spear"
+        ],
+        "specialRules": [
+          "Mounted",
+          "Jump Packs",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Mutalith Vortex Beast",
+        "type": "LV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Beam of Unreality",
+          "Mælstrom of Madness"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker",
+          "Reinforced Armour",
+          "Regeneration",
+          "Daemonic Focus",
+          "Augment Summoning (+2D3)"
+        ]
       }
-
     ]
   }
 ]

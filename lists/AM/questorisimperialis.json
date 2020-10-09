@@ -5,20 +5,17 @@
   "release": "2020-05-19",
   "strategy": "Questoris Imperialis armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+. In addition, all Knight Household formations are subject to the 'Bravery' special rule.",
-
   "specialRules": [
-          "Bravery",
-          "Ion Shield (x)",
-          "Lightning Charge",
-          "Fortified Positions"
-
+    "Bravery",
+    "Ion Shield (x)",
+    "Lightning Charge",
+    "Fortified Positions"
   ],
   "units": [
     {
       "from": "QK.json",
       "units": [
         "Seneschal",
-
         "Knight-Baron",
         "Knight-Protector",
         "Knight-Custodian",
@@ -28,9 +25,9 @@
         "Knight-Guardian Skysweeper",
         "Knight-Aggressor"
       ],
-              "unitRules": [
-                  "Heavy Armoured Vehicle (H-AV)",
-                  "Lance"
+      "unitRules": [
+        "Heavy Armoured Vehicle (H-AV)",
+        "Lance"
       ]
     },
     {
@@ -43,8 +40,8 @@
         "Howitzer",
         "Rough Riders",
         "Land Transporter"
-    ],
-        "unitRules": [
+      ],
+      "unitRules": [
       ]
     },
     {
@@ -53,11 +50,11 @@
         "Thunderbolt Fighter",
         "Marauder Bomber"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Questoris Imperialis Core Households",
       "formations": [
@@ -85,24 +82,24 @@
             "Knight-Custodians"
           ],
           "points": 275
-      },
-      {
-        "name": "Aggressor Household",
-        "units": "Three Knight-Aggressors",
-        "extraUnits": [
-          "Seneschal",
-          "Knight-Aggressors"
-        ],
-        "points": 300
-    },
-          {
-            "name": "Vanguard Household",
-            "units": "Three Knight-Vanguard",
-            "extraUnits": [
-              "Seneschal",
-              "Knight-Vanguard"
-            ],
-            "points": 325
+        },
+        {
+          "name": "Aggressor Household",
+          "units": "Three Knight-Aggressors",
+          "extraUnits": [
+            "Seneschal",
+            "Knight-Aggressors"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Vanguard Household",
+          "units": "Three Knight-Vanguard",
+          "extraUnits": [
+            "Seneschal",
+            "Knight-Vanguard"
+          ],
+          "points": 325
         },
         {
           "name": "Guardian Household",
@@ -112,7 +109,7 @@
             "Knight-Guardians"
           ],
           "points": 325
-      }
+        }
       ]
     },
     {
@@ -123,50 +120,49 @@
           "name": "Planetary Defense Platoon",
           "units": "Eight PDF Infantry",
           "extraUnits": [
-              "Land Transporters",
-              "Support Weapons",
-              "Entrenchments"
+            "Land Transporters",
+            "Support Weapons",
+            "Entrenchments"
           ],
           "points": 150
-      },
-      {
-        "name": "Rough Rider Platoon",
-        "units": "Six Rough Riders",
-        "extraUnits": [
-        ],
-        "points": 150
-    },
+        },
+        {
+          "name": "Rough Rider Platoon",
+          "units": "Six Rough Riders",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
         {
           "name": "Flak Emplacement",
           "units": "Four Heavy AA Guns, four Gun Emplacements",
           "extraUnits": [
           ],
           "points": 175
-      },
+        },
         {
           "name": "Howitzer Emplacement",
           "units": "Four Howitzers, four Gun Emplacements",
           "extraUnits": [
           ],
           "points": 250
-      }
+        }
       ]
-  },
-
+    },
     {
       "name": "Imperial Navy Formations",
       "description": "Up to a third of the points available may be spent on Imperial Navy Formations.",
       "formations": [
-          {
-            "name": "Thunderbolt Squadron",
-            "units": "Two Thunderbolt Fighters",
-            "points": 175
-          },
-          {
-            "name": "Marauder Squadron",
-            "units": "Two Marauder Bombers",
-            "points": 250
-          }
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 175
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 250
+        }
       ]
     }
   ],
@@ -174,69 +170,69 @@
     "title": "Questoris Imperialis Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-        {
-          "name": "Seneschal",
-          "options": [
-            {
-              "description": "Add a Seneschal to the formation",
-              "points": "25 points"
-            }
-          ]
-        },
-        {
-          "name": "0-1 Knight-Baron",
-          "options": [
-            {
-              "description": "Replace the Seneschal and its Knight with a Knight-Baron",
-              "points": "50 points"
-            }
-          ]
-        },
-        {
-          "name": "Knight-Custodians",
-          "options": [
-            {
-              "description": "Add up to two Knight-Custodians of any configuration",
-              "points": "100 points each"
-            }
-          ]
-        },
-        {
-          "name": "Knight-Vanguard",
-          "options": [
-            {
-              "description": "Add up to two Knight-Vanguard",
-              "points": "75 points each"
-            }
-          ]
-        },
-        {
-          "name": "Knight-Guardians",
-          "options": [
-            {
-              "description": "Add up to two Knight-Guardians of any configuration",
-              "points": "50 points each"
-            }
-          ]
-        },
-        {
-          "name": "Knight-Aggressors",
-          "options": [
-            {
-              "description": "Add up to two Knight-Aggressors",
-              "points": "75 points each"
-            }
-          ]
-        },
-        {
-          "name": "Land Transporters",
-          "options": [
-            {
-              "description": "Add four Land Transporters (may have no other upgrades)",
-              "points": "50 points"
-            }
-          ]
-        },
+      {
+        "name": "Seneschal",
+        "options": [
+          {
+            "description": "Add a Seneschal to the formation",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "0-1 Knight-Baron",
+        "options": [
+          {
+            "description": "Replace the Seneschal and its Knight with a Knight-Baron",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Knight-Custodians",
+        "options": [
+          {
+            "description": "Add up to two Knight-Custodians of any configuration",
+            "points": "100 points each"
+          }
+        ]
+      },
+      {
+        "name": "Knight-Vanguard",
+        "options": [
+          {
+            "description": "Add up to two Knight-Vanguard",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Knight-Guardians",
+        "options": [
+          {
+            "description": "Add up to two Knight-Guardians of any configuration",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
+        "name": "Knight-Aggressors",
+        "options": [
+          {
+            "description": "Add up to two Knight-Aggressors",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Land Transporters",
+        "options": [
+          {
+            "description": "Add four Land Transporters (may have no other upgrades)",
+            "points": "50 points"
+          }
+        ]
+      },
       {
         "name": "Support Weapons",
         "options": [
@@ -246,7 +242,6 @@
           }
         ]
       },
-
       {
         "name": "Entrenchments",
         "options": [
@@ -254,13 +249,13 @@
             "description": "40cm Razor Wire, 40cm Trenches",
             "points": "50 points"
           }
-      ]
-    }
-],
-"usage": [
-  "v1.0.0: The Questoris Imperialis list is a mix of the E-UK and NetEA Knight lists, with stats and structure taken from both. As these lists are based on the retro-40k 1990s fluff, most Knights have had their names changed to prevent naming conflicts with the Knights in the current fluff.",
-  "The biggest change from the E-UK and the NetEA Knights is obviously the fact that Knights no longer are DC2 WE, but are H-AV instead. This change makes Knight formations a lot more sane to play with/against, and makes it a lot easier to stay within the EA rules. It also means that sniping the Baron with a Pin-Point is no longer an issue.",
-  "Another significant change is that the Retainer formations are more accessible, making the list a bit more flexible."
-]
+        ]
+      }
+    ],
+    "usage": [
+      "v1.0.0: The Questoris Imperialis list is a mix of the E-UK and NetEA Knight lists, with stats and structure taken from both. As these lists are based on the retro-40k 1990s fluff, most Knights have had their names changed to prevent naming conflicts with the Knights in the current fluff.",
+      "The biggest change from the E-UK and the NetEA Knights is obviously the fact that Knights no longer are DC2 WE, but are H-AV instead. This change makes Knight formations a lot more sane to play with/against, and makes it a lot easier to stay within the EA rules. It also means that sniping the Baron with a Pin-Point is no longer an issue.",
+      "Another significant change is that the Retainer formations are more accessible, making the list a bit more flexible."
+    ]
   }
 }

@@ -5,15 +5,14 @@
   "release": "2020-03-31",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "The Word Bearers Retinue and all Word Bearers Elite formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-  "specialRules":
-    [
-      "Summoning",
-      "Word Bearers Summoning Rules",
-      "Augment Summoning (+x)",
-      "Daemonic Focus",
-      "Fickle Masters",
-      "Word Bearers Dreadclaws"
-      ],
+  "specialRules": [
+    "Summoning",
+    "Word Bearers Summoning Rules",
+    "Augment Summoning (+x)",
+    "Daemonic Focus",
+    "Fickle Masters",
+    "Word Bearers Dreadclaws"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Word Bearers, using their preferred operational methods."
   ],
@@ -36,38 +35,38 @@
         "Chaos Stalker",
         "Chaos Land Raider",
         "Chaos Dreadnought"
-    ],
-    "unitRules": [
-            "Word Bearers Characters"
-    ]
+      ],
+      "unitRules": [
+        "Word Bearers Characters"
+      ]
     },
     {
-        "from": "darkmechanicus.json",
-        "units": [
-            "Cerberite",
-            "Maulerfiend",
-            "Defiler",
-            "Death Wheel",
-            "Forgefiend",
-            "Knight-Dreadblade"
-            ],
-        "unitRules": [
-          "Daemon Engine (x)"
-        ]
+      "from": "darkmechanicus.json",
+      "units": [
+        "Cerberite",
+        "Maulerfiend",
+        "Defiler",
+        "Death Wheel",
+        "Forgefiend",
+        "Knight-Dreadblade"
+      ],
+      "unitRules": [
+        "Daemon Engine (x)"
+      ]
     },
     {
-    "from": "chaoscultists.json",
-    "units": [
+      "from": "chaoscultists.json",
+      "units": [
         "Demagogue",
         "Cultists",
         "Mutants",
         "Chaos Spawn",
         "Chaos Hounds",
         "Land Transporter"
-    ],
-    "unitRules": [
-    ]
-},
+      ],
+      "unitRules": [
+      ]
+    },
     {
       "from": "daemons.json",
       "units": [
@@ -82,20 +81,19 @@
         "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
-    ]
-  },
-  {
-    "from": "chaosnavy.json",
-    "units": [
-      "Heldrake",
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Heldrake",
         "Harbringer Bomber",
-      "Devastation Class Cruiser",
-      "Despoiler Class Battleship"
-  ],
-  "unitRules": [
-
-  ]
-  }
+        "Devastation Class Cruiser",
+        "Despoiler Class Battleship"
+      ],
+      "unitRules": [
+      ]
+    }
   ],
   "sections": [
     {
@@ -115,18 +113,18 @@
             "Dreadnoughts"
           ],
           "points": 350
-      },
-      {
-        "name": "Cultist Coven",
-        "units": "One Demagogue, nine Cultists and/or Mutants, Daemonic Pact",
-        "extraUnits": [
+        },
+        {
+          "name": "Cultist Coven",
+          "units": "One Demagogue, nine Cultists and/or Mutants, Daemonic Pact",
+          "extraUnits": [
             "Icon Bearer",
             "Add one Chaos Spawn: 35 points",
             "Add up to three Chaos Hounds: 10 points each",
             "Add enought Land Transporters to carry the entire formation with no space left over: 10 points each"
-        ],
-        "points": 250
-      }
+          ],
+          "points": 250
+        }
       ]
     },
     {
@@ -137,93 +135,93 @@
           "name": "Iconoclasts",
           "units": "One Diabolist, four Word Bearers Iconoclasts, Daemonic Pact",
           "extraUnits": [
-        "Icon Bearer"
+            "Icon Bearer"
           ],
           "points": 225
-      },
-          {
-        "name": "Havocs",
-        "units": "One Diabolist, four Havocs, two Chaos Rhinos, Daemonic Pact",
-        "extraUnits": [
+        },
+        {
+          "name": "Havocs",
+          "units": "One Diabolist, four Havocs, two Chaos Rhinos, Daemonic Pact",
+          "extraUnits": [
             "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
-          "Icon Bearer"
-        ],
-        "points": 250
+            "Icon Bearer"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Bike Company",
+          "units": "One Diabolist, eight Chaos Assault Bikes, Daemonic Pact",
+          "extraUnits": [
+            "Icon Bearer"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Chaos Terminators",
+          "units": "One Dark Apostle, four Chaos Terminators, Daemonic Pact",
+          "extraUnits": [
+            "Add up to two Chaos Terminators: 50 points each",
+            "Supreme Commander",
+            "Icon Bearer",
+            "Transport",
+            "Dreadclaws",
+            "Dreadnoughts"
+          ],
+          "points": 350
+        }
+      ]
     },
     {
-      "name": "Bike Company",
-      "units": "One Diabolist, eight Chaos Assault Bikes, Daemonic Pact",
-      "extraUnits": [
-          "Icon Bearer"
-      ],
-      "points": 325
-  },
-    {
-      "name": "Chaos Terminators",
-      "units": "One Dark Apostle, four Chaos Terminators, Daemonic Pact",
-      "extraUnits": [
-          "Add up to two Chaos Terminators: 50 points each",
-          "Supreme Commander",
-          "Icon Bearer",
-          "Transport",
-          "Dreadclaws",
-          "Dreadnoughts"
-      ],
-      "points": 350
-  }
-    ]
-  },
-  {
-    "name": "Daemon Engine Formations",
-    "description": "Up to two Daemon Engine formations may be taken per Cultist Coven formation.",
-    "formations": [
+      "name": "Daemon Engine Formations",
+      "description": "Up to two Daemon Engine formations may be taken per Cultist Coven formation.",
+      "formations": [
         {
           "name": "Cerberites",
           "units": "Three Cerberites",
-        "extraUnits": [
-        ],
-        "points": 200
-          },
-          {
-            "name": "Maulerfiends",
-            "units": "Four Maulerfiends",
-            "extraUnits": [
-            ],
-            "points": 200
-          },
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Maulerfiends",
+          "units": "Four Maulerfiends",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
         {
           "name": "Forgefiends",
           "units": "Three Forgefiends",
           "points": 250
-      },
-          {
-            "name": "Defilers",
-            "units": "Four Defilers",
-            "extraUnits": [
-            ],
-            "points": 225
-        }
-            ]
-          },
+        },
         {
+          "name": "Defilers",
+          "units": "Four Defilers",
+          "extraUnits": [
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
       "name": "War Engines & Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "0-1 Dreadblade",
-            "units": "Daemonic Pact, one Knight-Dreadblade of any configuration",
-            "extraUnits": [
-            ],
-            "points": 250
+        {
+          "name": "0-1 Dreadblade",
+          "units": "Daemonic Pact, one Knight-Dreadblade of any configuration",
+          "extraUnits": [
+          ],
+          "points": 250
         },
-          {
-            "name": "Death Wheel",
-            "units": "One Death Wheel",
-            "extraUnits": [
-            ],
-            "points": 300
+        {
+          "name": "Death Wheel",
+          "units": "One Death Wheel",
+          "extraUnits": [
+          ],
+          "points": 300
         },
-          {
+        {
           "name": "Heldrakes",
           "units": "Two Heldrakes",
           "points": 225
@@ -251,23 +249,23 @@
           "points": 150
         }
       ]
-  },
-  {
-    "name": "Daemon Pool",
-    "description": "Any amount may be spent on Daemon Pool points",
-    "formations": [
+    },
+    {
+      "name": "Daemon Pool",
+      "description": "Any amount may be spent on Daemon Pool points",
+      "formations": [
         {
           "name": "Lesser Daemon Pool",
           "units": "Any amount of Lesser Daemon Pool points. Add one for each Daemonic Pact in the army.",
           "points": 15
-      },
-      {
-        "name": "Greater Daemon Pool",
-        "units": "Any amount of Greater Daemon Pool points.",
-        "points": 50
-      }
-    ]
-}
+        },
+        {
+          "name": "Greater Daemon Pool",
+          "units": "Any amount of Greater Daemon Pool points.",
+          "points": 50
+        }
+      ]
+    }
   ],
   "upgrades": {
     "title": "Word Bearers Upgrades",
@@ -304,11 +302,11 @@
           {
             "description": "Add up to six Chaos Land Raiders",
             "points": "50 points each"
-        },
-        {
-          "description": "(No more than needed to transport the formation with no space left over)",
-          "points": ""
-      }
+          },
+          {
+            "description": "(No more than needed to transport the formation with no space left over)",
+            "points": ""
+          }
         ]
       },
       {

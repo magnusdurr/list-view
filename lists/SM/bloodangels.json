@@ -6,7 +6,11 @@
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
-  "specialRules": ["Space Marine Transports", "Honour Guard", "Lucifer Pattern Engine"],
+  "specialRules": [
+    "Space Marine Transports",
+    "Honour Guard",
+    "Lucifer Pattern Engine"
+  ],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Blood Angels Chapter."
   ],
@@ -49,14 +53,18 @@
         "Strike Cruiser",
         "Drop Pod"
       ],
-      "unitRules": ["They Shall Know No Fear"]
+      "unitRules": [
+        "They Shall Know No Fear"
+      ]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
-          "Warhound"
-        ],
-      "unitRules": ["Void Shields"]
+        "Warhound"
+      ],
+      "unitRules": [
+        "Void Shields"
+      ]
     }
   ],
   "sections": [
@@ -64,15 +72,15 @@
       "name": "Blood Angels Core Detachments",
       "description": "One Death Company formation must be taken.",
       "formations": [
-          {
-            "name": "1 Death Company",
-            "units": "One Chaplain, four Death Company Marines, two Death Company Rhinos",
-            "extraUnits": [
-                "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: Free",
-                "Replace two Death Company Rhinos with Drop Pods and add one Death Company Dreadnought: 100 points"
-            ],
-            "points": 250
-          },
+        {
+          "name": "1 Death Company",
+          "units": "One Chaplain, four Death Company Marines, two Death Company Rhinos",
+          "extraUnits": [
+            "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: Free",
+            "Replace two Death Company Rhinos with Drop Pods and add one Death Company Dreadnought: 100 points"
+          ],
+          "points": 250
+        },
         {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
@@ -84,64 +92,61 @@
             "Dreadnoughts"
           ],
           "points": 275
-      },
-      {
-        "name": "Assaults",
-        "units": "Four Assaults",
-        "extraUnits": [
+        },
+        {
+          "name": "Assaults",
+          "units": "Four Assaults",
+          "extraUnits": [
             "Sanguinary Guard",
             "Commander",
             "Predators"
-        ],
-        "points": 175
-    },
-    {
-      "name": "Baal Predators",
-      "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
-      "extraUnits": [
-        "Commander",
-        "Anti-Air"
-      ],
-      "points": 250
-  }
-
+          ],
+          "points": 175
+        },
+        {
+          "name": "Baal Predators",
+          "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
+          "extraUnits": [
+            "Commander",
+            "Anti-Air"
+          ],
+          "points": 250
+        }
       ]
     },
     {
       "name": "Blood Angels Support Detachments",
       "description": "Up to two Support Detachments may be taken per Core Detachment.",
       "formations": [
-
-          {
-            "name": "Land Raiders",
-            "units": "Any four of the following units: Land Raider, Land Raider Redeemer",
-            "extraUnits": [
-              "Commander",
-              "Anti-Air"
-            ],
-            "points": 325
+        {
+          "name": "Land Raiders",
+          "units": "Any four of the following units: Land Raider, Land Raider Redeemer",
+          "extraUnits": [
+            "Commander",
+            "Anti-Air"
+          ],
+          "points": 325
         },
-          {
-            "name": "Bikes",
-            "units": "Five Assault Bikes",
-            "extraUnits": [
-              "Attack Bikes",
-              "Commander"
-            ],
-            "points": 200
-          },
-
-          {
-            "name": "Devastators",
-            "units": "Four Devastators plus transport",
-            "extraUnits": [
-              "Land Raider Transport",
-              "Anti-Air",
-              "Commander",
-              "Predators",
-              "Dreadnoughts"
-            ],
-            "points": 250
+        {
+          "name": "Bikes",
+          "units": "Five Assault Bikes",
+          "extraUnits": [
+            "Attack Bikes",
+            "Commander"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Devastators",
+          "units": "Four Devastators plus transport",
+          "extraUnits": [
+            "Land Raider Transport",
+            "Anti-Air",
+            "Commander",
+            "Predators",
+            "Dreadnoughts"
+          ],
+          "points": 250
         },
         {
           "name": "Land Speeder",
@@ -156,10 +161,9 @@
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "extraUnits": [
-              "Commander",
+            "Commander",
             "Razorbacks",
             "Snipers"
-
           ],
           "points": 150
         },
@@ -167,9 +171,9 @@
           "name": "Blood Angels Terminators",
           "units": "Three Terminators",
           "extraUnits": [
-              "Assault Terminators",
-              "Land Raider Transport",
-              "Commander"
+            "Assault Terminators",
+            "Land Raider Transport",
+            "Commander"
           ],
           "points": 275
         },
@@ -182,14 +186,14 @@
           ],
           "points": 275
         },
-    {
-      "name": "0-1 Orbital Support",
-      "units": "One Strike Cruiser",
-      "extraUnits": [
-        "Battle Barge"
-      ],
-      "points": 200
-    }
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
+        }
       ]
     },
     {
@@ -205,7 +209,7 @@
           "name": "Storm Ravens",
           "units": "Two Storm Ravens",
           "extraUnits": [
-              "Add one Storm Raven: 75 points"
+            "Add one Storm Raven: 75 points"
           ],
           "points": 175
         },
@@ -213,10 +217,10 @@
           "name": "Warhounds",
           "units": "One Warhound Titan",
           "extraUnits": [
-              "Add an additional Warhound Titan: 200 points"
+            "Add an additional Warhound Titan: 200 points"
           ],
           "points": 275
-      }
+        }
       ]
     }
   ],
@@ -229,7 +233,6 @@
         "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes or Melta Bikes",
         "points": "Free"
       },
-
       {
         "name": "Predators",
         "description": "Add two Baal Predator Hades or two Baal Predator Infernus",

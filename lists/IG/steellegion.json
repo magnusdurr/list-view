@@ -5,8 +5,9 @@
   "release": "2019-11-24",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
-  "specialRules": ["Courage, Discipline and Loyalty"],
+  "specialRules": [
+    "Courage, Discipline and Loyalty"
+  ],
   "units": [
     {
       "from": "IG.json",
@@ -39,19 +40,22 @@
         "Shadowsword",
         "Baneblade"
       ],
-        "unitRules": [
-              ]
+      "unitRules": [
+      ]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
-          "Warhound",
-          "Reaver Titan",
-          "Warlord Titan"
-        ],
-      "unitRules": ["Void Shields", "God Machine", "Split Fire"]
+        "Warhound",
+        "Reaver Titan",
+        "Warlord Titan"
+      ],
+      "unitRules": [
+        "Void Shields",
+        "God Machine",
+        "Split Fire"
+      ]
     },
-
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -60,11 +64,11 @@
         "Lunar Class Cruiser",
         "Emperor Class Battleship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Company Formations",
       "formations": [
@@ -72,7 +76,7 @@
           "name": "Regimental HQ",
           "units": "One Steel Legion Supreme Commander with a Commissar, nine Infantry and five Chimeras",
           "extraUnits": [
-              "All"
+            "All"
           ],
           "points": 375
         },
@@ -80,7 +84,7 @@
           "name": "Mechanized Infantry Company",
           "units": "One Steel Legion Commander with a Commissar, nine Infantry and five Chimeras",
           "extraUnits": [
-              "All"
+            "All"
           ],
           "points": 325
         },
@@ -88,7 +92,7 @@
           "name": "Infantry Company",
           "units": "One Steel Legion Commander with a Commissar, eleven Infantry",
           "extraUnits": [
-              "All"
+            "All"
           ],
           "points": 250
         },
@@ -106,9 +110,9 @@
           "name": "Super-Heavy Company",
           "units": "One Commissar, three Baneblades and/or Shadowswords",
           "extraUnits": [
-              "Ogryns",
-              "Flak",
-              "Hellhounds"
+            "Ogryns",
+            "Flak",
+            "Hellhounds"
           ],
           "points": 525
         },
@@ -116,7 +120,7 @@
           "name": "Artillery Company",
           "units": "One Commissar, six Basilisks",
           "extraUnits": [
-              "Replace six Basilisks with Manticores: 50 points",
+            "Replace six Basilisks with Manticores: 50 points",
             "Add up to two Deathstrikes to the formation: 50 points each",
             "Flak"
           ],
@@ -128,14 +132,14 @@
       "name": "Support Formations",
       "description": "Up to two Support Formations for each Company.",
       "formations": [
-          {
-            "name": "Mechanized Infantry Platoon",
-            "units": "Six Infantry and three Chimeras",
-            "extraUnits": [
-                "Add up to three Hellhounds: 25 points each"
-            ],
-            "points": 225
-          },
+        {
+          "name": "Mechanized Infantry Platoon",
+          "units": "Six Infantry and three Chimeras",
+          "extraUnits": [
+            "Add up to three Hellhounds: 25 points each"
+          ],
+          "points": 225
+        },
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks or three Bombards",
@@ -176,7 +180,6 @@
           "units": "Six Leman Russ, Leman Russ Punishers or Leman Russ Demolishers",
           "points": 375
         },
-
         {
           "name": "Vulture Squadron",
           "units": "Three Vultures",
@@ -188,7 +191,7 @@
           "units": "Eight Storm Troopers, one with a Commissar",
           "points": 200,
           "extraUnits": [
-              "Add four Taurox or four Valkyries: 150 points"
+            "Add four Taurox or four Valkyries: 150 points"
           ]
         }
       ]
@@ -197,28 +200,28 @@
       "name": "Collegia Titanica and Imperial Navy Formations",
       "description": "Up to a third of the points available may be spent on Collegia Titanica and Imperial Navy Formations",
       "formations": [
-          {
-            "name": "Warhounds",
-            "units": "One Warhound Titan",
-            "extraUnits": [
-              "Add an additional Warhound Titan: 200 points"
-            ],
-            "points": 275
-          },
-          {
-              "name": "Reaver",
-              "units": "One Reaver Titan",
-              "extraUnits": [
-              ],
-              "points": 600
-          },
-          {
-              "name": "Warlord",
-              "units": "One Warlord Titan",
-              "extraUnits": [
-              ],
-              "points": 750
-          },
+        {
+          "name": "Warhounds",
+          "units": "One Warhound Titan",
+          "extraUnits": [
+            "Add an additional Warhound Titan: 200 points"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Reaver",
+          "units": "One Reaver Titan",
+          "extraUnits": [
+          ],
+          "points": 600
+        },
+        {
+          "name": "Warlord",
+          "units": "One Warlord Titan",
+          "extraUnits": [
+          ],
+          "points": 750
+        },
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
@@ -234,21 +237,11 @@
           "units": "One Lunar Class Cruiser",
           "points": 150,
           "extraUnits": [
-              "Replace with an Emperor Class Battleship: 50 points"
+            "Replace with an Emperor Class Battleship: 50 points"
           ]
         }
       ]
     }
-
-
-
-
-
-
-
-
-
-
   ],
   "upgrades": {
     "title": "Steel Legion Upgrades",
@@ -344,10 +337,10 @@
           }
         ]
       }
-  ],
-  "usage": [
-    "v1.0.0: The EA-R Steel Legion is based on the NetEA version, but with a number of changes to make the list more flexible and to make more types of builds possible. The most important difference are the reductions in size & price of the Regimental HQ / Mechanized Company / Artillery Company, the introduction of a Mechanized Platoon, and the replacement of the Deathstrike formation with a Deathstrike upgrade for IG artillery formations. There is now a price difference when taking the much more capable Manticores over the Bombard or Basilisk. The Leman Russ Company has been made slightly cheaper. Commissars have been made an integral part of a specific unit in each Company-type formation.",
-    "Other important changes: Vultures can be taken in formations of three, in order to make the formation more flexible. Valkyries have lost Scout, since having Scout on both transports and the units being transported easily got out of hand. Valkyries has a 1BP Rocket Pod instead of the 2BP Single Shot pod to eliminate the need for keeping track on which units had shots left. Rough Riders only have a single attack with FS, but has gained Walker. The Leman Russ Platoon can also take Leman Russ Punishers, and have been reduced in cost. Marauder Bombers have been reduced in price."
-  ]
+    ],
+    "usage": [
+      "v1.0.0: The EA-R Steel Legion is based on the NetEA version, but with a number of changes to make the list more flexible and to make more types of builds possible. The most important difference are the reductions in size & price of the Regimental HQ / Mechanized Company / Artillery Company, the introduction of a Mechanized Platoon, and the replacement of the Deathstrike formation with a Deathstrike upgrade for IG artillery formations. There is now a price difference when taking the much more capable Manticores over the Bombard or Basilisk. The Leman Russ Company has been made slightly cheaper. Commissars have been made an integral part of a specific unit in each Company-type formation.",
+      "Other important changes: Vultures can be taken in formations of three, in order to make the formation more flexible. Valkyries have lost Scout, since having Scout on both transports and the units being transported easily got out of hand. Valkyries has a 1BP Rocket Pod instead of the 2BP Single Shot pod to eliminate the need for keeping track on which units had shots left. Rough Riders only have a single attack with FS, but has gained Walker. The Leman Russ Platoon can also take Leman Russ Punishers, and have been reduced in cost. Marauder Bombers have been reduced in price."
+    ]
   }
 }

@@ -1,16 +1,15 @@
- {
+{
   "fraction": "Squats",
   "army": "Wodanaz Stronghold",
   "version": "1.0.0",
   "release": "2020-05-10",
   "strategy": "Squat armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
-
   "specialRules": [
-      "Spirit Lords",
-      "Support Craft",
-      "Tunnelers",
-      "Tunneling Transports"
+    "Spirit Lords",
+    "Support Craft",
+    "Tunnelers",
+    "Tunneling Transports"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Wodanaz Stronghold."
@@ -46,19 +45,22 @@
         "Cyclops",
         "Squat Land Train"
       ],
-        "unitRules": [
-          ]
+      "unitRules": [
+      ]
     },
     {
       "from": "AM.json",
       "units": [
-          "Kastelan Robot",
-          "Tarantula"
-        ],
-              "unitRules": ["Machine Spirit", "Ponderous"]
+        "Kastelan Robot",
+        "Tarantula"
+      ],
+      "unitRules": [
+        "Machine Spirit",
+        "Ponderous"
+      ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Wodanaz Stronghold Brotherhood Formations",
       "formations": [
@@ -66,24 +68,23 @@
           "name": "Warrior Brotherhood",
           "units": "Squat Hearthguards, nine Squat Warriors",
           "extraUnits": [
-              "Replace three Squat Warriors with three Rapiers: Free",
-              "Add two Squat Thunderers: 50 points",
-              "Add four Squat Warriors: 75 points",
-              "Warlord",
-              "Warrior Transport",
-              "Living Ancestor (Leviathan only)"
+            "Replace three Squat Warriors with three Rapiers: Free",
+            "Add two Squat Thunderers: 50 points",
+            "Add four Squat Warriors: 75 points",
+            "Warlord",
+            "Warrior Transport",
+            "Living Ancestor (Leviathan only)"
           ],
           "points": 200
-      },
-      {
-        "name": "Berserker Brotherhood",
-        "units": "Squat Hearthguards, seven Squat Berserkers, four Squat Rhinos",
-        "extraUnits": [
+        },
+        {
+          "name": "Berserker Brotherhood",
+          "units": "Squat Hearthguards, seven Squat Berserkers, four Squat Rhinos",
+          "extraUnits": [
             "Replace four Squat Rhinos with four Termites: 25 points"
-            ],
-        "points": 200
-    }
-
+          ],
+          "points": 200
+        }
       ]
     },
     {
@@ -94,8 +95,8 @@
           "name": "Bikers",
           "units": "Six Squat Bikers",
           "extraUnits": [
-              "Add one Guildmaster Trike: 25 points",
-              "Replace up to three Squat Bikers with Squat Trikes: Free"
+            "Add one Guildmaster Trike: 25 points",
+            "Replace up to three Squat Bikers with Squat Trikes: Free"
           ],
           "points": 175
         },
@@ -103,7 +104,7 @@
           "name": "Thunderers",
           "units": "Four Squat Thunderers, two Squat Rhinos",
           "extraUnits": [
-              "Thunderer Transport"
+            "Thunderer Transport"
           ],
           "points": 200
         },
@@ -125,10 +126,10 @@
           "name": "Thunderfire Battery",
           "units": "Three Squat Thunderfires",
           "extraUnits": [
-              "Add three Squat Rhinos: 25 points"
+            "Add three Squat Rhinos: 25 points"
           ],
           "points": 150
-      },
+        },
         {
           "name": "Gyrokopter Squadron",
           "units": "Four Iron Eagle Gyrokopters",
@@ -140,7 +141,7 @@
           "name": "Kastelan Maniple",
           "units": "One Squat Tech-Priest, five Kastelan Robots",
           "extraUnits": [
-              "Add up to two Kastelan Robots: 25 points each"
+            "Add up to two Kastelan Robots: 25 points each"
           ],
           "points": 175
         }
@@ -150,20 +151,20 @@
       "name": "Wodanaz Stronghold War Engines",
       "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines. Max one Hellbore for each Warrior Brotherhood formation with the 'Hellbore Transport' upgrade.",
       "formations": [
-          {
-            "name": "Hellbore",
-            "units": "One Hellbore",
-            "extraUnits": [
-            ],
-            "points": 150
-          },
-          {
-            "name": "Overlord",
-            "units": "One Overlord Dirigible",
-            "extraUnits": [
-            ],
-            "points": 250
-          },
+        {
+          "name": "Hellbore",
+          "units": "One Hellbore",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Overlord",
+          "units": "One Overlord Dirigible",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
         {
           "name": "Goliath Battery",
           "units": "Two Goliath Mega Cannons",
@@ -172,74 +173,75 @@
           "points": 350
         },
         {
-            "name": "Cyclops",
-            "units": "One Cyclops",
-            "extraUnits": [
-                "Living Ancestor"
-            ],
-            "points": 425
+          "name": "Cyclops",
+          "units": "One Cyclops",
+          "extraUnits": [
+            "Living Ancestor"
+          ],
+          "points": 425
         },
         {
-            "name": "Colossus",
-            "units": "One Colossus",
-            "extraUnits": [
-                "Living Ancestor"
-            ],
-            "points": 450
+          "name": "Colossus",
+          "units": "One Colossus",
+          "extraUnits": [
+            "Living Ancestor"
+          ],
+          "points": 450
         },
         {
-            "name": "Land Train",
-            "units": "One Squat Land Train and between two and four Battle Cars",
-            "extraUnits": [
-                "Living Ancestor",
-                "Dragon Battle Car: 75 points each",
-                "Siege Mortar Battle Car: 75 points each",
-                "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
-                "0-1 Bomb Battle Car: 125 points"
-            ],
-            "points": 200
+          "name": "Land Train",
+          "units": "One Squat Land Train and between two and four Battle Cars",
+          "extraUnits": [
+            "Living Ancestor",
+            "Dragon Battle Car: 75 points each",
+            "Siege Mortar Battle Car: 75 points each",
+            "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
+            "0-1 Bomb Battle Car: 125 points"
+          ],
+          "points": 200
         }
       ]
     }
-
-
   ],
   "upgrades": {
     "title": "Wodanaz Stronghold Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
-        {
-          "name": "Warlord",
-          "description": "Add one of the following units to the formation",
-          "options": [
-            {
-              "description": "Squat Warlord",
-              "points": "50 points"
-            },
-            {
-              "description": "(0-1 in the army) Squat Grand Warlord",
-              "points": "100 points"
-            }
-          ]
-        },
+      {
+        "name": "Warlord",
+        "description": "Add one of the following units to the formation",
+        "options": [
+          {
+            "description": "Squat Warlord",
+            "points": "50 points"
+          },
+          {
+            "description": "(0-1 in the army) Squat Grand Warlord",
+            "points": "100 points"
+          }
+        ]
+      },
       {
         "name": "Living Ancestor",
         "options": [
           {
             "description": "Add a Living Ancestor to a Leviathan, Cyclops, Colossus or Land Train.",
             "points": "25 points"
-        }
+          }
         ]
-    },
-    {
-      "name": "Thunderer Transport",
-      "options": [
-        {
-          "description": "Replace two Squat Rhinos with two Termites or two Land Raiders.",
-          "points": ["Termites: Free", "Land Raiders: 75 points"]
-      }
-      ]
-  },
+      },
+      {
+        "name": "Thunderer Transport",
+        "options": [
+          {
+            "description": "Replace two Squat Rhinos with two Termites or two Land Raiders.",
+            "points": [
+              "Termites: Free",
+              "Land Raiders: 75 points"
+            ]
+          }
+        ]
+      },
       {
         "name": "Warrior Transport",
         "description": "Choose one of the following options:",
@@ -250,25 +252,25 @@
               "Squat Rhinos: 10 points each",
               "Up to two Land Raiders: 50 points each"
             ]
-        },
-        {
-          "description": "Termite Transport: The entire formation is transported in Termites. May only be taken if the entire formation fits inside.",
-          "points": [
-            "15 points each"
-          ]
-      },
-      {
-        "description": "Hellbore Transport: The entire formation is transported in a Hellbore. May only be taken if the entire formation fits inside. The Hellbore is bought separately.",
-        "points": [
-          "25 points"
-        ]
-    },
-    {
-      "description": "Leviathan Transport: The entire formation is transported in a Leviathan. May only be taken if the entire formation fits inside.",
-      "points": [
-        "275 points"
-      ]
-  }
+          },
+          {
+            "description": "Termite Transport: The entire formation is transported in Termites. May only be taken if the entire formation fits inside.",
+            "points": [
+              "15 points each"
+            ]
+          },
+          {
+            "description": "Hellbore Transport: The entire formation is transported in a Hellbore. May only be taken if the entire formation fits inside. The Hellbore is bought separately.",
+            "points": [
+              "25 points"
+            ]
+          },
+          {
+            "description": "Leviathan Transport: The entire formation is transported in a Leviathan. May only be taken if the entire formation fits inside.",
+            "points": [
+              "275 points"
+            ]
+          }
         ]
       }
     ]

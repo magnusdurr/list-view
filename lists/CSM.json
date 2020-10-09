@@ -1,28 +1,27 @@
 [
   {
     "name": "Chaos Space Marine Forces",
-
     "specialRules": [
-        {
-          "title": "Heavy Armoured Vehicle (H-AV)",
-          "description": [
-            "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)) In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs may be targeted by Pin-Point attacks. H-AVs are treated like normal Armoured Vehicles in all other respects.",
-            ""
-          ]
-        },
-        {
-    			"title": "Machine Spirit",
-    			"description": [
-    				"A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally.",
-                    ""
-    			]
-    		},
-        {
-          "title": "Stubborn",
-          "description": [
-        "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, and reduce the number of extra hits from losing an assault by one.",
-        ""
-          ]
+      {
+        "title": "Heavy Armoured Vehicle (H-AV)",
+        "description": [
+          "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)) In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs may be targeted by Pin-Point attacks. H-AVs are treated like normal Armoured Vehicles in all other respects.",
+          ""
+        ]
+      },
+      {
+        "title": "Machine Spirit",
+        "description": [
+          "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally.",
+          ""
+        ]
+      },
+      {
+        "title": "Stubborn",
+        "description": [
+          "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, and reduce the number of extra hits from losing an assault by one.",
+          ""
+        ]
       },
       {
         "title": "Rubric of Ahriman",
@@ -95,95 +94,94 @@
         ]
       }
     ],
-
     "unit": [
-        {
-          "name": "Warlord",
-          "type": "CH",
-          "weapons": [
-            "Power Weapon"
-          ],
-          "specialRules": [
-            "Supreme Commander",
-            "Invulnerable Save"
-          ]
-        },
-        {
-          "name": "Iron Warriors Warsmith",
-          "type": "CH",
-          "weapons": [
-            "Servo Arm"
-          ],
-          "specialRules": [
-            "Supreme Commander",
-            "Battlefield Repairs",
-            "Bionics",
-            "Invulnerable Save"
-          ]
-        },
-        {
-          "name": "Night Lords First Captain",
-          "type": "CH",
-          "weapons": [
-            "Power Weapon"
-          ],
-          "specialRules": [
-            "Supreme Commander",
-            "Daemonic Pact",
-            "Invulnerable Save"
-          ]
-        },
-        {
-          "name": "Blood Lord",
-          "type": "CH",
-          "weapons": [
-            "Power Weapon"
-          ],
-          "specialRules": [
-            "Supreme Commander",
-            "Inspiring",
-            "Invulnerable Save"
-          ]
-        },
-        {
-          "name": "Grand Apostle",
-          "type": "CH",
-          "weapons": [
-            "Daemonic Bolt"
-          ],
-          "specialRules": [
-            "Supreme Commander",
-            "Inspiring",
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-          ]
-        },
-        {
-          "name": "Exalted Sorcerer",
-          "type": "CH",
-          "weapons": [
-              "Blue Fire of Metamorphosis",
-            "Daemon Weapon"
-          ],
-          "specialRules": [
-            "Supreme Commander",
-            "Teleport Homer",
-            "Invulnerable Save"
-          ]
-        },
-        {
-          "name": "Dark Apostle",
-          "type": "CH",
-          "weapons": [
-            "Daemonic Bolt"
-          ],
-          "specialRules": [
-            "Inspiring",
-            "Leader",
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-          ]
-        },
+      {
+        "name": "Warlord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Iron Warriors Warsmith",
+        "type": "CH",
+        "weapons": [
+          "Servo Arm"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Battlefield Repairs",
+          "Bionics",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Night Lords First Captain",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Daemonic Pact",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Blood Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Inspiring",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Grand Apostle",
+        "type": "CH",
+        "weapons": [
+          "Daemonic Bolt"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Inspiring",
+          "Augment Summoning (+2D3)",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Exalted Sorcerer",
+        "type": "CH",
+        "weapons": [
+          "Blue Fire of Metamorphosis",
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Teleport Homer",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Dark Apostle",
+        "type": "CH",
+        "weapons": [
+          "Daemonic Bolt"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Leader",
+          "Augment Summoning (+2D3)",
+          "Invulnerable Save"
+        ]
+      },
       {
         "name": "Chaos Lord",
         "type": "CH",
@@ -194,7 +192,6 @@
           "Commander",
           "Leader",
           "Invulnerable Save"
-
         ]
       },
       {
@@ -208,7 +205,6 @@
           "Battlefield Repairs",
           "Bionics",
           "Invulnerable Save"
-
         ]
       },
       {
@@ -221,7 +217,6 @@
           "Commander",
           "Leader",
           "Invulnerable Save"
-
         ]
       },
       {
@@ -270,8 +265,8 @@
           "Warp Bolt"
         ],
         "specialRules": [
-            "Leader",
-            "Invulnerable Save"
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -281,9 +276,9 @@
           "Daemonic Bolt"
         ],
         "specialRules": [
-            "Augment Summoning (+D3)",
-            "Leader",
-            "Invulnerable Save"
+          "Augment Summoning (+D3)",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -293,10 +288,9 @@
           "Warp Bolt"
         ],
         "specialRules": [
-            "Commander",
-            "Leader",
-            "Invulnerable Save"
-
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -306,8 +300,8 @@
           "Daemonic Possession"
         ],
         "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
+          "Augment Summoning (+2D3)",
+          "Invulnerable Save"
         ],
         "notes": "May be sacrificed. Before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker."
       },
@@ -315,7 +309,7 @@
         "name": "Night Lords Sergeant",
         "type": "CH",
         "weapons": [
-            "n/a"
+          "n/a"
         ],
         "specialRules": [
           "Commander",
@@ -329,10 +323,10 @@
           "n/a"
         ],
         "specialRules": [
-            "Augment Summoning (+1)",
-            "Daemonic Focus",
-            "Invulnerable Save",
-            "Leader"
+          "Augment Summoning (+1)",
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Leader"
         ]
       },
       {
@@ -343,8 +337,8 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-            "Warp Bolt",
-            "Æther Blade"
+          "Warp Bolt",
+          "Æther Blade"
         ],
         "specialRules": [
           "Supreme Commander",
@@ -364,8 +358,8 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-            "Warp Bolt",
-            "Warp Talons"
+          "Warp Bolt",
+          "Warp Talons"
         ],
         "specialRules": [
           "Supreme Commander",
@@ -386,8 +380,8 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-            "Daemonic Bolt",
-            "Rapturous Blade"
+          "Daemonic Bolt",
+          "Rapturous Blade"
         ],
         "specialRules": [
           "Supreme Commander",
@@ -407,8 +401,8 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-            "Plague Squall",
-            "Blade of Rot"
+          "Plague Squall",
+          "Blade of Rot"
         ],
         "specialRules": [
           "Supreme Commander",
@@ -428,8 +422,8 @@
         "cc": 2,
         "ff": 5,
         "weapons": [
-            "Lash of Khorne",
-            "Æther Blade"
+          "Lash of Khorne",
+          "Æther Blade"
         ],
         "specialRules": [
           "Supreme Commander",
@@ -449,9 +443,9 @@
         "cc": 4,
         "ff": 2,
         "weapons": [
-            "Pandæmonium",
-            "Blue Fire of Metamorphosis",
-            "Bedlam Staff"
+          "Pandæmonium",
+          "Blue Fire of Metamorphosis",
+          "Bedlam Staff"
         ],
         "specialRules": [
           "Supreme Commander",
@@ -472,10 +466,10 @@
         "ff": 4,
         "weapons": [
           "Autocannon"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn"
-      ]
+        ]
       },
       {
         "name": "Chaos Space Marines",
@@ -576,10 +570,10 @@
         "ff": 3,
         "weapons": [
           "Autocannon|2|"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn"
-      ]
+        ]
       },
       {
         "name": "Chosen",
@@ -590,10 +584,10 @@
         "ff": 4,
         "weapons": [
           "Autocannon"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Scout"
-      ]
+        ]
       },
       {
         "name": "Night Lords Chosen",
@@ -604,10 +598,10 @@
         "ff": 4,
         "weapons": [
           "Sniper Rifles"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Scout"
-      ]
+        ]
       },
       {
         "name": "Alpha Legion Headhunters",
@@ -619,13 +613,13 @@
         "weapons": [
           "Heavy Bolter",
           "Banestrike Combi-Bolters"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn",
           "Infiltrators",
           "Scout",
           "Sabotage"
-      ]
+        ]
       },
       {
         "name": "Raptors",
@@ -637,10 +631,10 @@
         "weapons": [
           "Plasma Pistols",
           "Chainswords"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Jump Packs"
-      ]
+        ]
       },
       {
         "name": "Night Raptors",
@@ -652,10 +646,10 @@
         "weapons": [
           "Plasma Guns",
           "Chainswords"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Jump Packs"
-      ]
+        ]
       },
       {
         "name": "Word Bearers Iconoclasts",
@@ -667,10 +661,10 @@
         "weapons": [
           "Bolt Pistols",
           "Iconoclast Axes"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Jump Packs"
-      ]
+        ]
       },
       {
         "name": "Chaos Destroyers",
@@ -681,12 +675,11 @@
         "ff": 4,
         "weapons": [
           "Rad Missile Launchers"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Jump Packs"
-      ]
+        ]
       },
-
       {
         "name": "Bezashk Destroyers",
         "type": "INF",
@@ -696,12 +689,11 @@
         "ff": 4,
         "weapons": [
           "Rad Missile Launchers"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Jump Packs"
-      ]
+        ]
       },
-
       {
         "name": "Alpha Legion Destroyers",
         "type": "INF",
@@ -711,11 +703,11 @@
         "ff": 4,
         "weapons": [
           "Rad Missile Launchers"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn",
           "Jump Packs"
-      ]
+        ]
       },
       {
         "name": "Noise Marines",
@@ -740,10 +732,10 @@
         "ff": 3,
         "weapons": [
           "Blastmaster|3|"
-      ],
-      "specialRules": [
-        "Fearless"
-      ]
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
       },
       {
         "name": "Plague Marines",
@@ -770,10 +762,10 @@
         "weapons": [
           "Bolt Pistols",
           "Chain Axes"
-      ],
-      "specialRules": [
-        "Fearless"
-      ]
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
       },
       {
         "name": "Rubric Marines",
@@ -786,7 +778,7 @@
           "Inferno Bolters"
         ],
         "specialRules": [
-            "Fearless"
+          "Fearless"
         ]
       },
       {
@@ -799,13 +791,13 @@
         "weapons": [
           "Warp Scream",
           "Warp Talons"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Teleport",
           "Jump Packs",
-            "Fearless"
-      ],
-      "notes": "Must start the game in the reserves, and may only enter the battlefield by Teleportation. May not be transported."
+          "Fearless"
+        ],
+        "notes": "Must start the game in the reserves, and may only enter the battlefield by Teleportation. May not be transported."
       },
       {
         "name": "Word Bearers Possessed",
@@ -818,7 +810,7 @@
           "Daemonic Possession"
         ],
         "specialRules": [
-            "Invulnerable Save"
+          "Invulnerable Save"
         ]
       },
       {
@@ -831,12 +823,12 @@
         "weapons": [
           "Reaper Autocannon|2|",
           "Power Weapons"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Atramentar Terminators",
@@ -848,12 +840,12 @@
         "weapons": [
           "Combi-Bolters",
           "Lightning Claws"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Tyrant Siege Terminators",
@@ -865,12 +857,12 @@
         "weapons": [
           "Cyclone Missile Launchers",
           "Power Weapons"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Lernaean Terminators",
@@ -882,13 +874,13 @@
         "weapons": [
           "Volkite Chargers",
           "Power Weapons"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Sirenshriek Terminators",
@@ -900,13 +892,13 @@
         "weapons": [
           "Doom Siren|2|",
           "Power Weapons"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Fearless",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Blightlord Terminators",
@@ -918,13 +910,13 @@
         "weapons": [
           "Reaper Autocannon|2|",
           "Power Weapons"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Fearless",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Skullseeker Terminators",
@@ -936,13 +928,13 @@
         "weapons": [
           "Combi-Bolters",
           "Lightning Claws"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Fearless",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Scarab Occult Terminators",
@@ -954,13 +946,13 @@
         "weapons": [
           "Inferno Combi-Bolters",
           "Power Weapons"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Fearless",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
-      ]
+        ]
       },
       {
         "name": "Obliterators",
@@ -995,7 +987,6 @@
           "Teleport"
         ]
       },
-
       {
         "name": "Sorcerer Disc Riders",
         "type": "INF",
@@ -1007,11 +998,10 @@
           "Sorcerous Bolts"
         ],
         "specialRules": [
-            "Jump Packs",
-            "Invulnerable Save"
+          "Jump Packs",
+          "Invulnerable Save"
         ]
-    },
-
+      },
       {
         "name": "Chaos Assault Bikes",
         "type": "INF",
@@ -1028,15 +1018,15 @@
         ]
       },
       {
-          "name": "Chaos Attack Bike",
-          "type": "LV",
-          "speed": 35,
-          "armour": 4,
-          "cc": 5,
-          "ff": 4,
-          "weapons": [
-              "Reaper Autocannon"
-          ]
+        "name": "Chaos Attack Bike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Reaper Autocannon"
+        ]
       },
       {
         "name": "Khorne Berzerker Assault Bikes",
@@ -1050,7 +1040,7 @@
           "Chain Axes"
         ],
         "specialRules": [
-            "Fearless",
+          "Fearless",
           "Mounted"
         ]
       },
@@ -1066,10 +1056,10 @@
           "Juggernaut"
         ],
         "specialRules": [
-            "Fearless",
-             "Mounted",
-             "Walker",
-             "Invulnerable Save"
+          "Fearless",
+          "Mounted",
+          "Walker",
+          "Invulnerable Save"
         ]
       },
       {
@@ -1081,11 +1071,11 @@
         "ff": 6,
         "weapons": [
           "Combi-Bolter"
-      ],
-      "specialRules": [
-        "Transport"
-    ],
-      "notes": "May transport two infantry units (except Terminators and Obliterators) without Jump Packs or Mounted."
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators and Obliterators) without Jump Packs or Mounted."
       },
       {
         "name": "Chaos Siege Rhino",
@@ -1096,12 +1086,12 @@
         "ff": 6,
         "weapons": [
           "Combi-Bolter"
-      ],
-      "specialRules": [
-        "Walker",
-        "Transport"
-    ],
-      "notes": "May transport two infantry units (except Terminators and Obliterators) without Jump Packs or Mounted."
+        ],
+        "specialRules": [
+          "Walker",
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators and Obliterators) without Jump Packs or Mounted."
       },
       {
         "name": "Alpha Legion Rhino",
@@ -1112,12 +1102,12 @@
         "ff": 6,
         "weapons": [
           "Combi-Bolter"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn",
-        "Transport"
-    ],
-      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Death Guard Rhino",
@@ -1128,11 +1118,11 @@
         "ff": 6,
         "weapons": [
           "Combi-Bolter"
-      ],
-      "specialRules": [
-        "Transport"
-    ],
-      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Chaos Land Raider",
@@ -1146,48 +1136,48 @@
           "Twin Heavy Bolter"
         ],
         "specialRules": [
-            "Reinforced Armour",
-            "Thick Rear Armour",
-            "Transport"
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
         ],
         "notes": "May transport two infantry units without Jump Packs or Mounted. Chaos Terminators, Obliterators counts as two units each."
-          },
-          {
-            "name": "Alpha Legion Land Raider",
-            "type": "AV",
-            "speed": 25,
-            "armour": 4,
-            "cc": 6,
-            "ff": 4,
-            "weapons": [
-              "Twin Lascannon|2|",
-              "Twin Heavy Bolter"
-            ],
-            "specialRules": [
-                "Stubborn",
-                "Reinforced Armour",
-                "Thick Rear Armour",
-                "Transport"
-            ],
-            "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
-              },
-        {
-          "name": "Emperor's Children Land Raider",
-          "type": "AV",
-          "speed": 25,
-          "armour": 4,
-          "cc": 6,
-          "ff": 4,
-          "weapons": [
-            "Twin Lascannon|2|",
-            "Blastmaster"
-          ],
-          "specialRules": [
-              "Reinforced Armour",
-              "Thick Rear Armour",
-              "Transport"
-          ],
-    "notes": "May transport one Sirenshriek Terminator unit or two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Alpha Legion Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2|",
+          "Twin Heavy Bolter"
+        ],
+        "specialRules": [
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ],
+        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Emperor's Children Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2|",
+          "Blastmaster"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ],
+        "notes": "May transport one Sirenshriek Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Death Guard Land Raider",
@@ -1201,49 +1191,49 @@
           "Twin Heavy Bolter"
         ],
         "specialRules": [
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Thick Rear Armour",
-            "Transport"
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Thick Rear Armour",
+          "Transport"
         ],
-  "notes": "May transport one Blightlord Terminator unit or two infantry units without Jump Packs or Mounted."
-    },
-    {
-      "name": "World Eaters Land Raider",
-      "type": "AV",
-      "speed": 25,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Reaper Autocannon|2|"
-       ],
-      "specialRules": [
+        "notes": "May transport one Blightlord Terminator unit or two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "World Eaters Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Reaper Autocannon|2|"
+        ],
+        "specialRules": [
           "Walker",
           "Reinforced Armour",
           "Thick Rear Armour",
           "Transport"
-      ],
-      "notes": "May transport two Terminators, Mutilators, or three infantry units without Jump Packs or Mounted."
-        },
-        {
-          "name": "Thousand Sons Land Raider",
-          "type": "AV",
-          "speed": 25,
-          "armour": 4,
-          "cc": 6,
-          "ff": 4,
-          "weapons": [
-            "Twin Lascannon|2|",
-            "Heavy Warpflamer"
-          ],
-          "specialRules": [
-              "Reinforced Armour",
-              "Thick Rear Armour",
-              "Transport"
-          ],
-          "notes": "May transport one Terminator or two infantry units without Jump Packs or Mounted."
-            },
+        ],
+        "notes": "May transport two Terminators, Mutilators, or three infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Thousand Sons Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2|",
+          "Heavy Warpflamer"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+        ],
+        "notes": "May transport one Terminator or two infantry units without Jump Packs or Mounted."
+      },
       {
         "name": "Chaos Predator",
         "type": "AV",
@@ -1256,7 +1246,6 @@
           "Heavy Bolter|2|"
         ]
       },
-
       {
         "name": "Alpha Legion Predator",
         "type": "AV",
@@ -1267,10 +1256,10 @@
         "weapons": [
           "Predator Cannon",
           "Heavy Bolter|2|"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn"
-      ]
+        ]
       },
       {
         "name": "Emperor's Children Predator",
@@ -1306,14 +1295,12 @@
         "weapons": [
           "Twin Accelerator Autocannon",
           "Heavy Bolter|3|"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Stubborn",
           "Reinforced Armour"
-
-      ]
+        ]
       },
-
       {
         "name": "Iron Warriors Basilisk",
         "type": "AV",
@@ -1322,10 +1309,10 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Earthshaker Cannon", "Heavy Bolter"
+          "Earthshaker Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
-
         ]
       },
       {
@@ -1336,10 +1323,10 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Mortar", "Heavy Bolter"
+          "Heavy Mortar",
+          "Heavy Bolter"
         ],
         "specialRules": [
-
         ]
       },
       {
@@ -1354,7 +1341,6 @@
           "Heavy Bolter"
         ],
         "specialRules": [
-
         ]
       },
       {
@@ -1395,8 +1381,8 @@
           "Demolisher"
         ],
         "specialRules": [
-            "Stubborn",
-            "Walker"
+          "Stubborn",
+          "Walker"
         ]
       },
       {
@@ -1423,21 +1409,20 @@
         "weapons": [
           "Hades Autocannon"
         ]
-    },
-    {
-      "name": "Death Guard Stalker",
-      "type": "AV",
-      "speed": 25,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Hades Autocannon"
-    ],
-    "specialRules": [
-    ]
-  },
-
+      },
+      {
+        "name": "Death Guard Stalker",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Hades Autocannon"
+        ],
+        "specialRules": [
+        ]
+      },
       {
         "name": "Chaos Dreadnought",
         "type": "AV",
@@ -1462,8 +1447,8 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-            "Reaper Autocannon",
-            "Power Fist"
+          "Reaper Autocannon",
+          "Power Fist"
         ],
         "specialRules": [
           "Walker"
@@ -1501,23 +1486,23 @@
         ]
       },
       {
-          "name": "Chaos Siege Dreadnought",
-          "type": "AV",
-          "speed": 15,
-          "armour": 3,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-              "Twin Heavy Bolter",
-              "Heavy Flamer",
-              "Siege Drill"
-          ],
-          "specialRules": [
-              "Fearless",
-              "Walker"
-          ]
+        "name": "Chaos Siege Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Twin Heavy Bolter",
+          "Heavy Flamer",
+          "Siege Drill"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker"
+        ]
       },
-          {
+      {
         "name": "Alpha Legion Dreadnought",
         "type": "AV",
         "speed": 15,
@@ -1577,48 +1562,47 @@
           "Twin Heavy Flamer"
         ],
         "specialRules": [
-            "Reinforced Armour",
-            "Thick Rear Armour",
-            "Transport"
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
         ],
         "notes": "May transport four infantry units without Jump Packs or Mounted. Terminators count as two units each."
-          },
-          {
-            "name": "Chaos Typhon Heavy Siege Tank",
-            "type": "H-AV",
-            "speed": 20,
-            "armour": 4,
-            "cc": 6,
-            "ff": 5,
-            "weapons": [
-              "Dreadhammer Siege Cannon",
-              "Lascannon|2|"
-            ],
-            "specialRules": [
-                "Reinforced Armour",
-                "Thick Rear Armour",
-                "Walker"
-            ]
-              },
-          {
-            "name": "Iron Warriors Stormsword",
-            "type": "WE",
-            "speed": 15,
-            "armour": 4,
-            "cc": 6,
-            "ff": 4,
-            "weapons": [
-              "Siege Cannon||FxF",
-              "Twin Heavy Bolter|3|FxF",
-              "Heavy Flamer |2|"
-            ],
-            "specialRules": [
-              "Damage Capacity 3",
-              "Reinforced Armour"
-            ],
-            "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
-        }
-
+      },
+      {
+        "name": "Chaos Typhon Heavy Siege Tank",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Dreadhammer Siege Cannon",
+          "Lascannon|2|"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Iron Warriors Stormsword",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Siege Cannon||FxF",
+          "Twin Heavy Bolter|3|FxF",
+          "Heavy Flamer |2|"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour"
+        ],
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
+      }
     ]
   }
 ]

@@ -5,8 +5,9 @@
   "release": "2019-11-24",
   "strategy": "Minervan Tank Legion armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
-
-  "specialRules": ["Courage, Discipline and Loyalty"],
+  "specialRules": [
+    "Courage, Discipline and Loyalty"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Minervan Tank Legion Regiment"
   ],
@@ -42,16 +43,18 @@
         "Stormsword",
         "Stormhammer"
       ],
-        "unitRules": [
-            "Lance"
-          ]
+      "unitRules": [
+        "Lance"
+      ]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
-          "Warhound"
-        ],
-      "unitRules": ["Void Shields"]
+        "Warhound"
+      ],
+      "unitRules": [
+        "Void Shields"
+      ]
     },
     {
       "from": "ImperialNavy.json",
@@ -61,11 +64,11 @@
         "Lunar Class Cruiser",
         "Emperor Class Battleship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Minervan Company Formations",
       "formations": [
@@ -84,47 +87,45 @@
           "name": "Minervan Super-Heavy Company",
           "units": "Three Baneblades, Stormblades, Stormswords, and/or Shadowswords, one with a Commissar-Captain",
           "extraUnits": [
-              "Upgrade one Baneblade to a Stormhammer: 25 points",
-              "Supreme Commander",
-              "Flak"
-
+            "Upgrade one Baneblade to a Stormhammer: 25 points",
+            "Supreme Commander",
+            "Flak"
           ],
           "points": 525
-      },
-      {
-        "name": "Artillery Company",
-        "units": "Six Basilisks, one with a Commissar-Captain",
-        "extraUnits": [
+        },
+        {
+          "name": "Artillery Company",
+          "units": "Six Basilisks, one with a Commissar-Captain",
+          "extraUnits": [
             "Replace six Basilisks with six Manticores: 50 points",
             "Add up to two Deathstrikes to the formation: 50 points each",
             "Flak"
-
-        ],
-        "points": 400
-    }
+          ],
+          "points": 400
+        }
       ]
     },
     {
       "name": "Minervan Support Formations",
       "description": "Up to three Support Formations for each Minervan Company.",
       "formations": [
-      {
-            "name": "Leman Russ Squadron",
-            "units": "Four Leman Russ",
-            "extraUnits": [
-                "Replace four Leman Russ with four Leman Russ Executioners, four Leman Russ Exterminators, four Leman Russ Demolishers, four Leman Russ Punishers, four Leman Russ Thunderers, or four Leman Russ Conquerors",
-                "Hellhounds"
-                ],
-            "points": 275
-          },
-          {
-            "name": "Mechanized Infantry Platoon",
-            "units": "Six Infantry and three Chimeras",
-            "extraUnits": [
-                "Hellhounds"
-            ],
-            "points": 225
-          },
+        {
+          "name": "Leman Russ Squadron",
+          "units": "Four Leman Russ",
+          "extraUnits": [
+            "Replace four Leman Russ with four Leman Russ Executioners, four Leman Russ Exterminators, four Leman Russ Demolishers, four Leman Russ Punishers, four Leman Russ Thunderers, or four Leman Russ Conquerors",
+            "Hellhounds"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Mechanized Infantry Platoon",
+          "units": "Six Infantry and three Chimeras",
+          "extraUnits": [
+            "Hellhounds"
+          ],
+          "points": 225
+        },
         {
           "name": "Artillery Battery",
           "units": "Three Basilisks, three Bombards or four Medusa",
@@ -134,12 +135,12 @@
           ],
           "points": 225
         },
-          {
-            "name": "Tank Hunter Squadron",
-            "units": "Three Leman Russ Destroyers",
-            "extraUnits": [
-            ],
-            "points": 200
+        {
+          "name": "Tank Hunter Squadron",
+          "units": "Three Leman Russ Destroyers",
+          "extraUnits": [
+          ],
+          "points": 200
         },
         {
           "name": "Super-Heavy Platoon",
@@ -152,14 +153,14 @@
           "name": "Flak Battery",
           "units": "Three Hydras",
           "extraUnits": [
-      ],
+          ],
           "points": 150
         },
         {
           "name": "Salamander Squadron",
           "units": "Four Salamander Scout Tanks",
           "extraUnits": [
-      ],
+          ],
           "points": 150
         },
         {
@@ -169,22 +170,20 @@
           ],
           "points": 175
         }
-
-
       ]
     },
     {
       "name": "Collegia Titanica and Imperial Navy Formations",
       "description": "Up to a third of the points available may be spent on Collegia Titanica and Imperial Navy Formations",
       "formations": [
-          {
-            "name": "Warhounds",
-            "units": "One Warhound Titan",
-            "extraUnits": [
-                "Add an additional Warhound Titan: 200 points"
-            ],
-            "points": 275
-          },
+        {
+          "name": "Warhounds",
+          "units": "One Warhound Titan",
+          "extraUnits": [
+            "Add an additional Warhound Titan: 200 points"
+          ],
+          "points": 275
+        },
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
@@ -200,12 +199,11 @@
           "units": "One Lunar Class Cruiser",
           "points": 150,
           "extraUnits": [
-              "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
+            "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
           ]
         }
       ]
     }
-
   ],
   "upgrades": {
     "title": "Minervan Tank Legion Upgrades",
@@ -220,24 +218,24 @@
           }
         ]
       },
+      {
+        "name": "Hellhounds",
+        "options": [
           {
-            "name": "Hellhounds",
-            "options": [
-              {
-                "description": "Add up to three Hellhounds",
-                "points": "25 points each"
-            }
-          ]
+            "description": "Add up to three Hellhounds",
+            "points": "25 points each"
+          }
+        ]
       },
       {
         "name": "Flak",
         "options": [
           {
             "description": "Add one Hydra",
-              "points": "50 points"
-        }
-      ]
-    }
-  ]
+            "points": "50 points"
+          }
+        ]
+      }
+    ]
   }
-  }
+}

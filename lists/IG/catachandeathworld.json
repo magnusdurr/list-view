@@ -5,8 +5,9 @@
   "release": "2020-02-25",
   "strategy": "Catachan Jungle Fighter armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
-
-  "specialRules": ["Catachan Commanders"],
+  "specialRules": [
+    "Catachan Commanders"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Catachan Jungle Fighters Regiment"
   ],
@@ -38,10 +39,9 @@
         "Stormblade",
         "Shadowsword"
       ],
-        "unitRules": [
-          ]
+      "unitRules": [
+      ]
     },
-
     {
       "from": "ImperialNavy.json",
       "units": [
@@ -50,11 +50,11 @@
         "Lunar Class Cruiser",
         "Emperor Class Battleship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Catachan Core Companies",
       "formations": [
@@ -62,11 +62,10 @@
           "name": "Catachan Regimental HQ",
           "units": "One Catachan Supreme Commander, seven Catachan Infantry",
           "extraUnits": [
-             "Death World Transport (Compulsory)",
-             "Flakk Teams",
-              "Ogryns",
-              "Devil Dogs"
-
+            "Death World Transport (Compulsory)",
+            "Flakk Teams",
+            "Ogryns",
+            "Devil Dogs"
           ],
           "points": 225
         },
@@ -74,32 +73,32 @@
           "name": "Catachan Company",
           "units": "One Catachan Commander, seven Catachan Infantry",
           "extraUnits": [
-             "Death World Transport (Compulsory)",
-             "Flakk Teams",
-              "Ogryns",
-              "Devil Dogs"
+            "Death World Transport (Compulsory)",
+            "Flakk Teams",
+            "Ogryns",
+            "Devil Dogs"
           ],
           "points": 150
-      }
+        }
       ]
-  },
+    },
     {
       "name": "Catachan Support Formations",
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
-          {
-            "name": "Leman Russ Platoon",
-            "units": "Six Leman Russ, Leman Russ Demolishers, or Leman Russ Exterminators",
-            "extraUnits": [
-                "Flak"
-            ],
-            "points": 375
+        {
+          "name": "Leman Russ Platoon",
+          "units": "Six Leman Russ, Leman Russ Demolishers, or Leman Russ Exterminators",
+          "extraUnits": [
+            "Flak"
+          ],
+          "points": 375
         },
         {
           "name": "Vulture Squadron",
           "units": "Four Vultures",
           "extraUnits": [
-              "Replace one Vulture with two Vendettas: 25 points"
+            "Replace one Vulture with two Vendettas: 25 points"
           ],
           "points": 300
         },
@@ -115,7 +114,7 @@
           "name": "Veteran Company",
           "units": "One Catachan Commander and seven Death World Veterans",
           "extraUnits": [
-              "Death World Transport"
+            "Death World Transport"
           ],
           "points": 200
         },
@@ -123,18 +122,17 @@
           "name": "Catachan Super-Heavy Platoon",
           "units": "One Hellhammer or Stormblade",
           "extraUnits": [
-              "Add two Ogryns: 50 points each"
+            "Add two Ogryns: 50 points each"
           ],
           "points": 200
-      },
-      {
-        "name": "Griffon Battery",
-        "units": "Three Griffons",
-        "extraUnits": [
-        ],
-        "points": 175
-    },
-
+        },
+        {
+          "name": "Griffon Battery",
+          "units": "Three Griffons",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
         {
           "name": "Devil Dog Squadron",
           "units": "Four Devil Dogs",
@@ -148,15 +146,14 @@
           "extraUnits": [
           ],
           "points": 150
-      },
-      {
-        "name": "Catachan Sentinel Squadron",
-        "units": "Four Catachan Sentinels",
-        "extraUnits": [
-
-        ],
-        "points": 125
-      }
+        },
+        {
+          "name": "Catachan Sentinel Squadron",
+          "units": "Four Catachan Sentinels",
+          "extraUnits": [
+          ],
+          "points": 125
+        }
       ]
     },
     {
@@ -172,15 +169,15 @@
           "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
           "points": 250
-      },
-      {
-        "name": "0–1 Orbital Support",
-        "units": "One Lunar Class Cruiser",
-        "points": 150,
-        "extraUnits": [
+        },
+        {
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
+          "points": 150,
+          "extraUnits": [
             "Replace the Cruiser with an Emperor Class Battleship: 50 points"
-        ]
-      }
+          ]
+        }
       ]
     }
   ],
@@ -196,7 +193,7 @@
             "points": "25 points each"
           }
         ]
-    },
+      },
       {
         "name": "Ogryns",
         "options": [
@@ -205,16 +202,16 @@
             "points": "50 points each"
           }
         ]
-    },
-    {
-      "name": "Devil Dogs",
-      "options": [
-        {
-          "description": "Add up to two Devil Dogs",
-          "points": "25 points each"
-        }
-      ]
-  },
+      },
+      {
+        "name": "Devil Dogs",
+        "options": [
+          {
+            "description": "Add up to two Devil Dogs",
+            "points": "25 points each"
+          }
+        ]
+      },
       {
         "name": "Flak",
         "options": [
@@ -223,26 +220,26 @@
             "points": "50 points"
           }
         ]
-    },
+      },
       {
         "name": "Death World Transport",
         "options": [
-            {
-              "description": "Choose one of the following:",
-              "points": ""
+          {
+            "description": "Choose one of the following:",
+            "points": ""
           },
           {
             "description": "Add enough Death World Chimeras to transport the entire formation with no space left over",
             "points": "25 points each"
-        },
-        {
-          "description": "Add four Valkyries",
-          "points": "150 points"
-      },
-        {
-          "description": "Add three Valkyries and two Vendettas",
-          "points": "175 points"
-        }
+          },
+          {
+            "description": "Add four Valkyries",
+            "points": "150 points"
+          },
+          {
+            "description": "Add three Valkyries and two Vendettas",
+            "points": "175 points"
+          }
         ]
       }
     ]

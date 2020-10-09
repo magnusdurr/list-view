@@ -5,8 +5,17 @@
   "release": "2019-12-05",
   "strategy": "Craftworld Saim-Hann armies have a Strategy Rating of 4.",
   "Initiative": "Shining Spears, Aspect Warriors, Titans and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
-  "specialRules": ["Avatar (Saim-Hann)","May not Garrison (Saim-Hann)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Webway Portal","Independent Twins"],
+  "specialRules": [
+    "Avatar (Saim-Hann)",
+    "May not Garrison (Saim-Hann)",
+    "Farsight",
+    "Hit and Run",
+    "Holofields (x)",
+    "Lance",
+    "Shield Piercer",
+    "Webway Portal",
+    "Independent Twins"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Saim-Hann."
   ],
@@ -42,7 +51,7 @@
         "Void Spinner",
         "Revenant Titan"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -54,31 +63,29 @@
         "Wraithship",
         "Dragonship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Saim-Hann Special",
       "formations": [
         {
           "name": "1 Avatar",
           "units": "One Avatar",
-
           "points": 0
         },
         {
           "name": "0-1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
-
           "points": 50
         }
       ]
     },
     {
       "name": "Saim-Hann Warhosts",
-          "description": "Up to one Aspect Warrior Host for each Wild Rider Warhost",
+      "description": "Up to one Aspect Warrior Host for each Wild Rider Warhost",
       "formations": [
         {
           "name": "Wild Rider Warhost",
@@ -131,9 +138,9 @@
           "name": "Swords of Vaul",
           "units": "Five Falcons",
           "extraUnits": [
-              "Replace up to two Falcons with Firestorms: Free",
-              "OR",
-              "Add five Guardians to the formation: 50 points"
+            "Replace up to two Falcons with Firestorms: Free",
+            "OR",
+            "Add five Guardians to the formation: 50 points"
           ],
           "points": 250
         },
@@ -166,17 +173,16 @@
             "Add up to two Saim-Hann Hornets: 50 points each"
           ],
           "points": 200
-      },
-      {
-        "name": "War Walker Troupe",
-        "units": "Four War Walkers",
-        "extraUnits": [
+        },
+        {
+          "name": "War Walker Troupe",
+          "units": "Four War Walkers",
+          "extraUnits": [
             "Add up to two additional War Walkers: 25 points each"
-        ],
-        "points": 150
-      }
-
-        ]
+          ],
+          "points": 150
+        }
+      ]
     },
     {
       "name": "Saim-Hann Aircraft, Spacecraft and Titans",
@@ -201,7 +207,6 @@
           "name": "Vampire Hunter",
           "units": "One Vampire Hunter",
           "extraUnits": [
-
           ],
           "points": 225
         },
@@ -209,18 +214,18 @@
           "name": "Revenants",
           "units": "Two Revenant Titans",
           "extraUnits": [
-              "Independent Twins"
+            "Independent Twins"
           ],
           "points": 650
-      },
-      {
-        "name": "0-1 Spacecraft",
-        "units": "One Wraithship",
-        "extraUnits": [
-          "Replace with a Dragonship: 150 Points"
-        ],
-        "points": 150
-      }
+        },
+        {
+          "name": "0-1 Spacecraft",
+          "units": "One Wraithship",
+          "extraUnits": [
+            "Replace with a Dragonship: 150 Points"
+          ],
+          "points": 150
+        }
       ]
     }
   ],

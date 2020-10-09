@@ -6,9 +6,9 @@
   "strategy": "Snakebite Clan armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
-                    "Snakebite Clan Warlords",
-                    "Mob Rule",
-                    "Power of the Waaagh!"
+    "Snakebite Clan Warlords",
+    "Mob Rule",
+    "Power of the Waaagh!"
   ],
   "usage": [
     "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows. The army list includes the following information:",
@@ -37,7 +37,7 @@
         "Steam Gargant"
       ],
       "unitRules": [
-          "Super-Expendable"
+        "Super-Expendable"
       ]
     }
   ],
@@ -77,10 +77,18 @@
             "Add up to one Orkeosaurus: 200 points (Big formations only)"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "175"},
-            {"name": "Big", "points":  "300"},
-            {"name": "'Uge", "points":  "N/A"}
-
+            {
+              "name": "Normal",
+              "points": "175"
+            },
+            {
+              "name": "Big",
+              "points": "300"
+            },
+            {
+              "name": "'Uge",
+              "points": "N/A"
+            }
           ]
         },
         {
@@ -100,9 +108,18 @@
             "Add up to one Pigdok: 35 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "150"},
-            {"name": "Big", "points":  "250"},
-            {"name": "'Uge", "points":  "350"}
+            {
+              "name": "Normal",
+              "points": "150"
+            },
+            {
+              "name": "Big",
+              "points": "250"
+            },
+            {
+              "name": "'Uge",
+              "points": "350"
+            }
           ]
         },
         {
@@ -123,9 +140,18 @@
             "Add up to one Wyrdboy: 50 points"
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "175"},
-            {"name": "Big", "points":  "275"},
-            {"name": "'Uge", "points":  "N/A"}
+            {
+              "name": "Normal",
+              "points": "175"
+            },
+            {
+              "name": "Big",
+              "points": "275"
+            },
+            {
+              "name": "'Uge",
+              "points": "N/A"
+            }
           ]
         },
         {
@@ -134,9 +160,18 @@
           "extraUnits": [
           ],
           "pointsOptions": [
-            {"name": "Normal", "points":  "250"},
-            {"name": "Big", "points":  "450"},
-            {"name": "'Uge", "points":  "650"}
+            {
+              "name": "Normal",
+              "points": "250"
+            },
+            {
+              "name": "Big",
+              "points": "450"
+            },
+            {
+              "name": "'Uge",
+              "points": "650"
+            }
           ]
         }
       ]

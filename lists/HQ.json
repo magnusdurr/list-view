@@ -2,158 +2,157 @@
   {
     "name": "Harlequin Forces",
     "specialRules": [
-
     ],
     "unit": [
-    {
-      "name": "Harlequin Avatar",
-      "type": "CH",
-      "weapons": [
-        "Harlequins Kiss"
-      ],
-      "specialRules": [
-        "Leader",
-        "Commander"
-    ]
-    },
-    {
-      "name": "Shadowseer",
-      "type": "CH",
-      "weapons": [
-        "Miststave",
-        "Shards of Light"
-      ],
-      "specialRules": [
-        "Leader",
-        "Invulnerable Save",
-        "Shadowsight"
-    ],
+      {
+        "name": "Harlequin Avatar",
+        "type": "CH",
+        "weapons": [
+          "Harlequins Kiss"
+        ],
+        "specialRules": [
+          "Leader",
+          "Commander"
+        ]
+      },
+      {
+        "name": "Shadowseer",
+        "type": "CH",
+        "weapons": [
+          "Miststave",
+          "Shards of Light"
+        ],
+        "specialRules": [
+          "Leader",
+          "Invulnerable Save",
+          "Shadowsight"
+        ],
         "notes": "May only join Harlequin Troupes."
-    },
-    {
-      "name": "Master Mime",
-      "type": "CH",
-      "weapons": [
-        "Monomolecular Blade"
-      ],
-      "specialRules": [
-        "Inspiring",
-        "Leader"
-      ]
-    },
-    {
-      "name": "Solitaire",
-      "type": "INF",
-      "speed": 20,
-      "cc": 3,
-      "weapons": [
-        "Harlequin's Caress",
-        "Harlequins Kiss"
-      ],
-      "specialRules": [
-        "Scout",
-        "Invulnerable Save",
-        "First Strike",
-        "Fearless",
-        "Infiltrators",
-        "Inspiring",
-        "Holofield (3+)",
-        "Teleport",
-        "Shadowsight"
-    ],
-    "notes": "No characters may join this unit"
-    },
-    {
-      "name": "Mimes",
-      "type": "INF",
-      "speed": 20,
-      "cc": 3,
-      "weapons": [
-        "Mime Concealed Blades"
-      ],
-      "specialRules": [
-        "Scout",
-        "Teleport",
-        "Holofield (5+)",
-        "Infiltrators"
-      ]
-    },
-    {
-      "name": "Death Jesters",
-      "type": "INF",
-      "speed": 15,
-      "cc": 5,
-      "ff": 3,
-      "weapons": [
-        "Shrieker Cannons"
-      ],
-      "specialRules": [
-        "Holofield (5+)",
-        "Infiltrators"
-      ]
-    },
-    {
-      "name": "Harlequin Troupe",
-      "type": "INF",
-      "speed": 15,
-      "cc": 3,
-      "ff": 6,
-      "weapons": [
-        "Harlequin's Embrace"
-      ],
-      "specialRules": [
-        "Holofield (5+)",
-        "Infiltrators"
-      ]
-    },
-    {
-      "name": "Skyweaver",
-      "type": "INF",
-      "speed": 40,
-      "armour": 5,
-      "cc": 3,
-      "ff": 5,
-      "weapons": [
-        "Shuriken Cannon",
-        "Zepyrglaive"
-      ],
-      "specialRules": [
-        "Skimmer",
-        "Holofield (5+)"
-      ]
-    },
-    {
-      "name": "Voidweaver",
-      "type": "LV",
-      "speed": 40,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Prismatic Cannon",
-        "Shuriken Cannon"
-      ],
-      "specialRules": [
-        "Skimmer",
-        "Holofield (5+)"
-      ]
-    },
-    {
-      "name": "Starweaver",
-      "type": "LV",
-      "speed": 40,
-      "armour": 4,
-      "cc": 6,
-      "ff": 4,
-      "weapons": [
-        "Shuriken Catapults"
-      ],
-      "specialRules": [
-        "Skimmer",
-        "Holofield (5+)",
-        "Transport 1 (May carry one Harlequins Troupe, Death Jesters, Mimes or Solitaire)"
-      ]
-    }
+      },
+      {
+        "name": "Master Mime",
+        "type": "CH",
+        "weapons": [
+          "Monomolecular Blade"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Solitaire",
+        "type": "INF",
+        "speed": 20,
+        "cc": 3,
+        "weapons": [
+          "Harlequin's Caress",
+          "Harlequins Kiss"
+        ],
+        "specialRules": [
+          "Scout",
+          "Invulnerable Save",
+          "First Strike",
+          "Fearless",
+          "Infiltrators",
+          "Inspiring",
+          "Holofield (3+)",
+          "Teleport",
+          "Shadowsight"
+        ],
+        "notes": "No characters may join this unit"
+      },
+      {
+        "name": "Mimes",
+        "type": "INF",
+        "speed": 20,
+        "cc": 3,
+        "weapons": [
+          "Mime Concealed Blades"
+        ],
+        "specialRules": [
+          "Scout",
+          "Teleport",
+          "Holofield (5+)",
+          "Infiltrators"
+        ]
+      },
+      {
+        "name": "Death Jesters",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Shrieker Cannons"
+        ],
+        "specialRules": [
+          "Holofield (5+)",
+          "Infiltrators"
+        ]
+      },
+      {
+        "name": "Harlequin Troupe",
+        "type": "INF",
+        "speed": 15,
+        "cc": 3,
+        "ff": 6,
+        "weapons": [
+          "Harlequin's Embrace"
+        ],
+        "specialRules": [
+          "Holofield (5+)",
+          "Infiltrators"
+        ]
+      },
+      {
+        "name": "Skyweaver",
+        "type": "INF",
+        "speed": 40,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Shuriken Cannon",
+          "Zepyrglaive"
+        ],
+        "specialRules": [
+          "Skimmer",
+          "Holofield (5+)"
+        ]
+      },
+      {
+        "name": "Voidweaver",
+        "type": "LV",
+        "speed": 40,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Prismatic Cannon",
+          "Shuriken Cannon"
+        ],
+        "specialRules": [
+          "Skimmer",
+          "Holofield (5+)"
+        ]
+      },
+      {
+        "name": "Starweaver",
+        "type": "LV",
+        "speed": 40,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Shuriken Catapults"
+        ],
+        "specialRules": [
+          "Skimmer",
+          "Holofield (5+)",
+          "Transport 1 (May carry one Harlequins Troupe, Death Jesters, Mimes or Solitaire)"
+        ]
+      }
     ]
   }
 ]

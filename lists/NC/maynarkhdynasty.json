@@ -5,17 +5,15 @@
   "release": "2019-06-05",
   "strategy": "Necron armies have a Strategy Rating of 2.",
   "Initiative": "All Necron formations have an Initiative Rating of 1+.",
-
   "specialRules": [
-            "Necron Reserves",
-            "Necron Garrisons",
-            "The Unbidden",
-            "Necron Portals",
-            "Implacable Advance",
-            "Phase Out",
-            "Enduring"
-          ],
-
+    "Necron Reserves",
+    "Necron Garrisons",
+    "The Unbidden",
+    "Necron Portals",
+    "Implacable Advance",
+    "Phase Out",
+    "Enduring"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Necrons of the Maynarkh Dynasty"
   ],
@@ -45,14 +43,12 @@
         "Seraptek Heavy Construct",
         "Triarch Stalker"
       ],
-        "unitRules": [
+      "unitRules": [
         "Heavy Armoured Vehicle (H-AV)",
         "Shield Piercer",
         "Regeneration",
         "Machine Spirit",
         "Ponderous"
-
-
       ]
     },
     {
@@ -62,18 +58,17 @@
         "Doom Scythe Fighter",
         "Cairn Class Tomb Ship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Maynarkh Dynasty Specials",
       "formations": [
         {
           "name": "0–1 Necron Tomb Complex",
           "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
-
           "points": 75
         }
       ]
@@ -86,20 +81,20 @@
           "name": "Necron Phalanx",
           "units": "Six Necron Warriors and one Necron Lord",
           "extraUnits": [
-              "Overlord",
-              "C'tan Shard",
-              "Add up to three Tomb Spyders: 50 points each",
-              "Add up to two Wraiths: 25 points each",
-              "Add three Immortals: 75 points"
+            "Overlord",
+            "C'tan Shard",
+            "Add up to three Tomb Spyders: 50 points each",
+            "Add up to two Wraiths: 25 points each",
+            "Add three Immortals: 75 points"
           ],
           "points": 250
-      },
-      {
-        "name": "1+ The Unbidden",
-        "units": "Six Flayed Ones",
-        "extraUnits": [
-        ],
-        "points": 200
+        },
+        {
+          "name": "1+ The Unbidden",
+          "units": "Six Flayed Ones",
+          "extraUnits": [
+          ],
+          "points": 200
         }
       ]
     },
@@ -118,11 +113,11 @@
           "name": "Destroyer Phalanx",
           "units": "Any six of the following units: Destroyers, Heavy Destroyers",
           "extraUnits": [
-              "Overlord",
-              "C'tan Shard",
-              "Replace one Destroyer with a Necron Destroyer Lord: 25 points",
-              "Add up to three Tomb Spyders: 50 points each",
-              "Replace up to three Destroyers with Wraiths: Free"
+            "Overlord",
+            "C'tan Shard",
+            "Replace one Destroyer with a Necron Destroyer Lord: 25 points",
+            "Add up to three Tomb Spyders: 50 points each",
+            "Replace up to three Destroyers with Wraiths: Free"
           ],
           "points": 225
         },
@@ -137,7 +132,7 @@
           "name": "Monolith Phalanx",
           "units": "Three Monoliths",
           "extraUnits": [
-              "Add up to one Obelisk: 50 points"
+            "Add up to one Obelisk: 50 points"
           ],
           "points": 275
         },
@@ -145,31 +140,31 @@
           "name": "Monolith Maniple",
           "units": "One Monolith, two Obelisks",
           "extraUnits": [
-              "Add up to one Obelisk: 50 points"
+            "Add up to one Obelisk: 50 points"
           ],
           "points": 200
         },
-      {
-        "name": "Stalker Maniple",
-        "units": "Four Triarch Stalkers",
-        "extraUnits": [
+        {
+          "name": "Stalker Maniple",
+          "units": "Four Triarch Stalkers",
+          "extraUnits": [
             "Replace up to two Triarch Stalkers with Seraptek Heavy Constructs: 75 points each"
-        ],
-        "points": 175
-      }
+          ],
+          "points": 175
+        }
       ]
     },
     {
       "name": "Maynarkh Dynasty Harvesters",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Megalith Conduit",
-            "units": "One Megalith",
-            "extraUnits": [
-                "Add up to two Obelisks (50 points each) and/or Monoliths (75 points each)"
-            ],
-            "points": 350
+        {
+          "name": "Megalith Conduit",
+          "units": "One Megalith",
+          "extraUnits": [
+            "Add up to two Obelisks (50 points each) and/or Monoliths (75 points each)"
+          ],
+          "points": 350
         },
         {
           "name": "0–1 Harvester Engine",
@@ -182,7 +177,6 @@
           "name": "0–1 Tomb Ship",
           "units": "One Cairn Class Tomb Ship",
           "upgrades": [
-
           ],
           "points": 200
         },
@@ -192,32 +186,31 @@
           "upgrades": [
           ],
           "points": 200
-      },
+        },
         {
           "name": "Doom Scythes",
           "units": "Two Doom Scythe Fighters",
           "upgrades": [
-
           ],
           "points": 225
         }
-    ]
+      ]
     }
-    ],
-    "upgrades": {
-      "title": "Maynarkh Dynasty Upgrades",
-      "description": "Each upgrade may be taken once per formation",
-      "items": [
-        {
-          "name": "0-1 Overlord",
-          "description": "Either replace one Necron Lord with a Necron Overlord, or replace a Necron Destroyer Lord with a Necron Destroyer Overlord",
-          "points": "75 points"
+  ],
+  "upgrades": {
+    "title": "Maynarkh Dynasty Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "0-1 Overlord",
+        "description": "Either replace one Necron Lord with a Necron Overlord, or replace a Necron Destroyer Lord with a Necron Destroyer Overlord",
+        "points": "75 points"
       },
       {
         "name": "0-1 C'tan Shard",
         "description": "Add one C'tan Shard to the formation",
         "points": "75 points"
       }
-      ]
-    }
+    ]
+  }
 }

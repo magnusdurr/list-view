@@ -5,16 +5,15 @@
   "release": "2020-03-15",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Thousand Sons are also subject to 'The Architect of Fate' special rule.",
   "Initiative": "The Thousand Sons Retinue, Havocs, Terminators, Armoured Company, Disc Riders, and Warphound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-  "specialRules":
-    [
-      "Summoning",
-      "Thousand Sons Summoning Rules",
-      "Augment Summoning (+x)",
-      "Daemonic Focus",
-      "The Architect of Fate",
-      "Teleport Homer",
-      "Regeneration"
-    ],
+  "specialRules": [
+    "Summoning",
+    "Thousand Sons Summoning Rules",
+    "Augment Summoning (+x)",
+    "Daemonic Focus",
+    "The Architect of Fate",
+    "Teleport Homer",
+    "Regeneration"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Thousand Sons with Chaos Mutant allies."
   ],
@@ -36,33 +35,33 @@
         "Thousand Sons Land Raider",
         "Thousand Sons Predator",
         "Thousand Sons Dreadnought"
-    ],
-    "unitRules": [
+      ],
+      "unitRules": [
         "Thousand Sons Characters"
-    ]
-    },
-        {
-        "from": "chaoscultists.json",
-        "units": [
-            "Tzaangors",
-            "Chaos Spawn",
-            "Mutalith Vortex Beast"
-        ],
-        "unitRules": [
-        ]
+      ]
     },
     {
-        "from": "darkmechanicus.json",
-        "units": [
-            "Deciever",
-            "Silver Tower",
-            "Warp Palace",
-            "Doomwing",
-            "Firelord"
-        ],
-        "unitRules": [
-          "Daemon Engine (x)"
-        ]
+      "from": "chaoscultists.json",
+      "units": [
+        "Tzaangors",
+        "Chaos Spawn",
+        "Mutalith Vortex Beast"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Deciever",
+        "Silver Tower",
+        "Warp Palace",
+        "Doomwing",
+        "Firelord"
+      ],
+      "unitRules": [
+        "Daemon Engine (x)"
+      ]
     },
     {
       "from": "daemons.json",
@@ -73,8 +72,8 @@
         "Lord of Change"
       ],
       "unitRules": [
-    ]
-  },
+      ]
+    },
     {
       "from": "traitortitanlegions.json",
       "units": [
@@ -82,18 +81,16 @@
       ],
       "unitRules": [
         "Void Shields"
-    ]
-  },
-  {
-    "from": "chaosnavy.json",
-    "units": [
-      "Devastation Class Cruiser"
-
-  ],
-  "unitRules": [
-
-  ]
-  }
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Devastation Class Cruiser"
+      ],
+      "unitRules": [
+      ]
+    }
   ],
   "sections": [
     {
@@ -113,109 +110,107 @@
             "Dreadnoughts"
           ],
           "points": 350
-      },
-      {
-        "name": "Thousand Sons Terminators",
-        "units": "One Aspiring Sorcerer, four Scarab Occult Terminators",
-        "extraUnits": [
+        },
+        {
+          "name": "Thousand Sons Terminators",
+          "units": "One Aspiring Sorcerer, four Scarab Occult Terminators",
+          "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
             "Thousand Sons Transport"
-        ],
-        "points": 400
-    }
+          ],
+          "points": 400
+        }
       ]
     },
     {
       "name": "Thousand Sons Support Formations",
       "description": "Up to three may be taken per Thousand Sons Core formation.",
       "formations": [
-          {
-            "name": "Tzaangor Host",
-            "units": "One Chaos Spawn, eight Tzaangors, Daemonic Pact",
-            "extraUnits": [
-                "Replace the Chaos Spawn with a Mutalith Warp Beast: 75 points"
-            ],
-            "points": 200
+        {
+          "name": "Tzaangor Host",
+          "units": "One Chaos Spawn, eight Tzaangors, Daemonic Pact",
+          "extraUnits": [
+            "Replace the Chaos Spawn with a Mutalith Warp Beast: 75 points"
+          ],
+          "points": 200
         },
         {
-        "name": "Defilers of Tzeentch",
-        "units": "Three Decievers",
-        "extraUnits": [
-        ],
-        "points": 200
+          "name": "Defilers of Tzeentch",
+          "units": "Three Decievers",
+          "extraUnits": [
+          ],
+          "points": 200
         },
-      {
-        "name": "Armoured Company",
-        "units": "Four Thousand Sons Predators",
-        "extraUnits": [
+        {
+          "name": "Armoured Company",
+          "units": "Four Thousand Sons Predators",
+          "extraUnits": [
             "Replace four Thousand Sons Predators with four Thousand Sons Land Raiders: 75 points"
-        ],
-        "points": 225
-    },
-    {
-      "name": "Havocs",
-      "units": "Four Thousand Sons Havocs, two Chaos Rhinos, Daemonic Pact",
-      "extraUnits": [
-        "Icon Bearer",
-        "Predators"
-      ],
-      "points": 225
-    },
-    {
-      "name": "Disc Riders",
-      "units": "One Aspiring Champion, six Sorcerer Disc Riders, Daemonic Pact",
-      "extraUnits": [
-      "Supreme Commander",
-      "Icon Bearer",
-      "Champion of Chaos"
-      ],
-      "points": 250
-  },
-
-            {
+          ],
+          "points": 225
+        },
+        {
+          "name": "Havocs",
+          "units": "Four Thousand Sons Havocs, two Chaos Rhinos, Daemonic Pact",
+          "extraUnits": [
+            "Icon Bearer",
+            "Predators"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Disc Riders",
+          "units": "One Aspiring Champion, six Sorcerer Disc Riders, Daemonic Pact",
+          "extraUnits": [
+            "Supreme Commander",
+            "Icon Bearer",
+            "Champion of Chaos"
+          ],
+          "points": 250
+        },
+        {
           "name": "Silver Towers of Tzeentch",
           "units": "Four Silver Towers",
           "extraUnits": [
           ],
           "points": 300
         }
-    ]
-  },
-        {
+      ]
+    },
+    {
       "name": "Dark Mechanicus and Thousand Sons Navy",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-          {
-            "name": "Warphound",
-            "units": "One Warphound Titan",
-            "extraUnits": [
-            ],
-            "points": 275
-          },
-          {
-            "name": "Warp Palace",
-            "units": "One Warp Palace",
+        {
+          "name": "Warphound",
+          "units": "One Warphound Titan",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Warp Palace",
+          "units": "One Warp Palace",
           "extraUnits": [
           ],
           "points": 450
-            },
-
-          {
-            "name": "Doomwings of Tzeench",
-            "units": "Three Doomwings",
-            "extraUnits": [
-            ],
-            "points": 175
-          },
-          {
-            "name": "Firelords of Tzeench",
-            "units": "Two Firelords",
-            "extraUnits": [
-              "Add one Firelord: 100 points"
-            ],
-            "points": 250
-          },
+        },
+        {
+          "name": "Doomwings of Tzeench",
+          "units": "Three Doomwings",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Firelords of Tzeench",
+          "units": "Two Firelords",
+          "extraUnits": [
+            "Add one Firelord: 100 points"
+          ],
+          "points": 250
+        },
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
@@ -224,22 +219,22 @@
           "points": 150
         }
       ]
-  },
-      {
-        "name": "Daemon Pool",
-        "description": "Any amount may be spent on Daemon Pool points.",
-        "formations": [
-            {
-              "name": "Lesser Daemon Pool",
-              "units": "Any amount of Lesser Daemon Pool points",
-              "points": 15
-          },
-          {
-            "name": "Greater Daemon Pool",
-            "units": "Any amount of Greater Daemon Pool points. The first one is free.",
-            "points": 50
-          }
-        ]
+    },
+    {
+      "name": "Daemon Pool",
+      "description": "Any amount may be spent on Daemon Pool points.",
+      "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+        },
+        {
+          "name": "Greater Daemon Pool",
+          "units": "Any amount of Greater Daemon Pool points. The first one is free.",
+          "points": 50
+        }
+      ]
     }
   ],
   "upgrades": {
@@ -272,11 +267,11 @@
           {
             "description": "Thousand Sons Land Raiders",
             "points": "50 points each"
-        },
-        {
-          "description": "(No more than the minimum needed to transport the formation)",
-          "points": ""
-      }
+          },
+          {
+            "description": "(No more than the minimum needed to transport the formation)",
+            "points": ""
+          }
         ]
       },
       {
@@ -298,7 +293,7 @@
         "name": "Predators",
         "description": "Add up to two Thousand Sons Predators to the formation",
         "points": "50 points each"
-    }
+      }
     ]
   }
 }

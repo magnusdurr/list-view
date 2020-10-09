@@ -5,15 +5,14 @@
   "release": "2019-10-24",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-  "specialRules":
-    [
-      "Summoning",
-      "Black Legion Summoning Rules",
-      "Augment Summoning (+x)",
-      "Daemonic Focus",
-      "Fickle Masters",
-      "Black Legion Dreadclaws"
-    ],
+  "specialRules": [
+    "Summoning",
+    "Black Legion Summoning Rules",
+    "Augment Summoning (+x)",
+    "Daemonic Focus",
+    "Fickle Masters",
+    "Black Legion Dreadclaws"
+  ],
   "units": [
     {
       "from": "CSM.json",
@@ -41,21 +40,21 @@
         "Chaos Vindicator",
         "Chaos Dreadnought",
         "Chaos Stalker"
-    ],
-    "unitRules": [
+      ],
+      "unitRules": [
         "Black Legion Characters"
-    ]
+      ]
     },
     {
-        "from": "darkmechanicus.json",
-        "units": [
-            "Defiler",
-            "Decimator",
-            "Death Wheel"
-        ],
-        "unitRules": [
-          "Daemon Engine (x)"
-        ]
+      "from": "darkmechanicus.json",
+      "units": [
+        "Defiler",
+        "Decimator",
+        "Death Wheel"
+      ],
+      "unitRules": [
+        "Daemon Engine (x)"
+      ]
     },
     {
       "from": "daemons.json",
@@ -71,8 +70,8 @@
         "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
-    ]
-  },
+      ]
+    },
     {
       "from": "traitortitanlegions.json",
       "units": [
@@ -84,20 +83,19 @@
         "Void Shields",
         "God Machine",
         "Split Fire"
-    ]
-  },
-  {
-    "from": "chaosnavy.json",
-    "units": [
-      "Hell Blade Interceptor",
-      "Hell Talon Fighter-Bomber",
-      "Devastation Class Cruiser",
-      "Despoiler Class Battleship"
-  ],
-  "unitRules": [
-
-  ]
-  }
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Hell Blade Interceptor",
+        "Hell Talon Fighter-Bomber",
+        "Devastation Class Cruiser",
+        "Despoiler Class Battleship"
+      ],
+      "unitRules": [
+      ]
+    }
   ],
   "sections": [
     {
@@ -140,108 +138,107 @@
           "name": "Chaos Terminators",
           "units": "One Chaos Lord or Sorcerer Lord, four Chaos Terminators",
           "extraUnits": [
-              "Supreme Commander",
-              "Champion",
-              "Transport",
-              "Dreadclaws",
-              "Icon Bearer",
-              "Obliterators",
-              "Dreadnoughts",
-              "Daemonic Pact"
+            "Supreme Commander",
+            "Champion",
+            "Transport",
+            "Dreadclaws",
+            "Icon Bearer",
+            "Obliterators",
+            "Dreadnoughts",
+            "Daemonic Pact"
           ],
           "points": 275
-      }
-    ]
-  },
-  {
-    "name": "Black Legion Support Formations",
-    "description": "Two Support formations may be taken per Core formation",
-    "formations": [
-            {
-              "name": "Raptor Cult",
-              "units": "One Chaos Lord or Sorcerer Lord, four Raptors",
-              "extraUnits": [
-                  "Add up to four Raptors: 30 points each",
-                  "Daemonic Pact"
-              ],
-              "points": 175
-          },
-          {
-            "name": "Armoured Company",
-            "units": "Four Chaos Predators",
-            "extraUnits": [
-                "Replace four Chaos Predators with four Chaos Land Raiders: 75 points",
-                "Stalker",
-                "Vindicators"
-            ],
-            "points": 200
-            },
-            {
+        }
+      ]
+    },
+    {
+      "name": "Black Legion Support Formations",
+      "description": "Two Support formations may be taken per Core formation",
+      "formations": [
+        {
+          "name": "Raptor Cult",
+          "units": "One Chaos Lord or Sorcerer Lord, four Raptors",
+          "extraUnits": [
+            "Add up to four Raptors: 30 points each",
+            "Daemonic Pact"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Armoured Company",
+          "units": "Four Chaos Predators",
+          "extraUnits": [
+            "Replace four Chaos Predators with four Chaos Land Raiders: 75 points",
+            "Stalker",
+            "Vindicators"
+          ],
+          "points": 200
+        },
+        {
           "name": "Havocs",
           "units": "One Chaos Lord or Sorcerer Lord, four Havocs, two Chaos Rhinos",
           "extraUnits": [
-              "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
-              "Daemonic Pact",
-              "Stalker",
-              "Vindicators"
+            "Replace two Chaos Rhinos with Chaos Land Raiders: 75 points",
+            "Daemonic Pact",
+            "Stalker",
+            "Vindicators"
           ],
           "points": 225
-      },
-            {
-              "name": "Bike Company",
-              "units": "One Chaos Lord or Sorcerer Lord, eight Chaos Assault Bikes",
-              "extraUnits": [
-                "Daemonic Pact",
-                "Icon Bearer"
-              ],
-              "points": 300
-          }
-
-            ]
-          },
+        },
         {
+          "name": "Bike Company",
+          "units": "One Chaos Lord or Sorcerer Lord, eight Chaos Assault Bikes",
+          "extraUnits": [
+            "Daemonic Pact",
+            "Icon Bearer"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
       "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Defiler Pack",
-            "units": "Four Defilers",
+        {
+          "name": "Defiler Pack",
+          "units": "Four Defilers",
           "extraUnits": [
             "Add up to two Defilers: 50 points each"
           ],
           "points": 225
-            },
-          {
-            "name": "Decimator",
-            "units": "One Decimator",
-            "extraUnits": [
-            ],
-            "points": 225
-          },
-          {
-            "name": "Chaos Warhound",
-            "units": "One Chaos Warhound Titan",
-            "extraUnits": [
-            ],
-            "points": 275
-          },
-          {
-            "name": "Death Wheel",
-            "units": "One Death Wheel",
-            "extraUnits": [
-            ],
-            "points": 300
-          },
-          {
-            "name": "Chaos Reaver",
-            "units": "One Chaos Reaver Titan",
-            "points": 600
-          },
-          {
-            "name": "Chaos Warlord",
-            "units": "One Chaos Warlord Titan",
-            "points": 750
-          },
+        },
+        {
+          "name": "Decimator",
+          "units": "One Decimator",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Chaos Warhound",
+          "units": "One Chaos Warhound Titan",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Death Wheel",
+          "units": "One Death Wheel",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Chaos Reaver",
+          "units": "One Chaos Reaver Titan",
+          "points": 600
+        },
+        {
+          "name": "Chaos Warlord",
+          "units": "One Chaos Warlord Titan",
+          "points": 750
+        },
         {
           "name": "Hell Blade Squadron",
           "units": "Three Hell Blade Interceptors",
@@ -252,7 +249,6 @@
           "units": "Two Hell Talon Fighter-Bombers",
           "points": 225
         },
-
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
@@ -262,23 +258,23 @@
           "points": 150
         }
       ]
-  },
-  {
-    "name": "Daemon Pool",
-    "description": "Any amount may be spent on Daemon Pool points",
-    "formations": [
+    },
+    {
+      "name": "Daemon Pool",
+      "description": "Any amount may be spent on Daemon Pool points",
+      "formations": [
         {
           "name": "Lesser Daemon Pool",
           "units": "Any amount of Lesser Daemon Pool points",
           "points": 15
-      },
-      {
-        "name": "Greater Daemon Pool",
-        "units": "Any amount of Greater Daemon Pool points",
-        "points": 50
-      }
-    ]
-}
+        },
+        {
+          "name": "Greater Daemon Pool",
+          "units": "Any amount of Greater Daemon Pool points",
+          "points": 50
+        }
+      ]
+    }
   ],
   "upgrades": {
     "title": "Black Legion Upgrades",
@@ -315,11 +311,11 @@
           {
             "description": "Add up to six Chaos Land Raiders",
             "points": "50 points each"
-        },
-        {
-          "description": "(No more than needed to transport the formation with no space left over)",
-          "points": ""
-      }
+          },
+          {
+            "description": "(No more than needed to transport the formation with no space left over)",
+            "points": ""
+          }
         ]
       },
       {
@@ -371,7 +367,7 @@
         "name": "Obliterators",
         "description": "Add up to two Obliterators",
         "points": "75 points each"
-    }
+      }
     ],
     "usage": [
       "The EA-R Black Legion list is based on the NetEA version, but has some significant differences. Factions are gone, and the list is instead Chaos Undivided, but with cheaper summoning costs. Horrors have replaced Flamers as the basic Tzeentch lesser daemon, and the Daemonic Beast has been replaced with the Furies. These two changes are both for thematic reasons but mostly to better balance the different basic lesser daemons against one another. All Daemon type units always have Invulnerable save, both for theme and to reduce confusion.",

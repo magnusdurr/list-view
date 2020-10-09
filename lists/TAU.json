@@ -142,7 +142,9 @@
         "type": "LV",
         "speed": 20,
         "armour": 5,
-        "weapons": ["n/a"],
+        "weapons": [
+          "n/a"
+        ],
         "specialRules": [
           "Markerlights",
           "Tau Jet Packs"
@@ -153,7 +155,9 @@
         "type": "LV",
         "speed": 25,
         "armour": 5,
-        "weapons": ["n/a"],
+        "weapons": [
+          "n/a"
+        ],
         "specialRules": [
           "Expendable",
           "Tau Jet Packs",
@@ -621,7 +625,6 @@
           "Walker"
         ]
       },
-
       {
         "name": "KV128 Stormsurge Ballistic Suit",
         "type": "WE",

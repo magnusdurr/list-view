@@ -5,7 +5,6 @@
   "release": "2019-02-22",
   "strategy": "Mymeara armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
   "specialRules": [
     "Avatar (Mymeara)",
     "May not Garrison (Mymeara)",
@@ -18,7 +17,6 @@
     "Holofields (x)",
     "Independent Twins",
     "Heavy Armoured Vehicle (H-AV)"
-
   ],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Mymeara."
@@ -58,9 +56,8 @@
         "Wraithknights",
         "Revenant Titan",
         "Mymeara Phantom Titan"
-
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -71,24 +68,22 @@
         "Wraithship",
         "Dragonship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Mymeara Craftworld Special",
       "formations": [
         {
           "name": "1 Avatar",
           "units": "One Avatar",
-
           "points": "0"
         },
         {
           "name": "0-1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
-
           "points": 50
         }
       ]
@@ -96,7 +91,6 @@
     {
       "name": "Craftworld Mymeara Hosts",
       "formations": [
-
         {
           "name": "0-1 Shadow Spectre Warhost",
           "units": "Eight Shadow Spectres",
@@ -131,7 +125,6 @@
           "name": "Wasp Walkers",
           "units": "Four Wasp Walkers",
           "upgrades": [
-
           ],
           "points": 150
         },
@@ -214,7 +207,6 @@
           "name": "Wraithknights",
           "units": "Three Wraithknights",
           "upgrades": [
-
           ],
           "points": 325
         },

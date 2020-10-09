@@ -5,8 +5,19 @@
   "release": "2020-10-07",
   "strategy": "Craftworld Eldar armies have a Strategy Rating of 4. Craftworld Ulthwé are also subject to the 'Seers of Ulthwé' special rule.",
   "Initiative": "Aspect Warriors, Titans, Eldar Knights and the Avatar formations have an Initiative Rating of 1+. In addition, formations containing a Seer Counci, Farseer or Mounted Farseer are subject to the 'Black Guardians' special rule.",
-
-  "specialRules": ["Seers of Ulthwé", "Black Guardians", "Avatar (Ulthwé)","May not Garrison (Ulthwé)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Shield Disruptor", "Webway Portal"],
+  "specialRules": [
+    "Seers of Ulthwé",
+    "Black Guardians",
+    "Avatar (Ulthwé)",
+    "May not Garrison (Ulthwé)",
+    "Farsight",
+    "Hit and Run",
+    "Holofields (x)",
+    "Lance",
+    "Shield Piercer",
+    "Shield Disruptor",
+    "Webway Portal"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Ulthwé."
   ],
@@ -48,8 +59,8 @@
         "Wraithknight",
         "Warlock Titan"
       ],
-        "unitRules": [
-            "Heavy Armoured Vehicle (H-AV)"
+      "unitRules": [
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -61,102 +72,99 @@
         "Wraithship",
         "Dragonship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Ulthwé Special",
       "formations": [
         {
           "name": "1 Avatar",
           "units": "One Avatar",
-
           "points": 0
         },
         {
           "name": "1 Wraithgates",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
           "extraUnits": [
-              "Add an additional Wraithgate: 75 points"
-
+            "Add an additional Wraithgate: 75 points"
           ],
           "points": 0
         }
       ]
     },
     {
-        "name": "Ulthwé Warhosts",
-        "formations": [
+      "name": "Ulthwé Warhosts",
+      "formations": [
         {
-            "name": "Black Guardian Warhost",
-            "units": "One Farseer, seven Eldar Guardians",
-            "extraUnits": [
-                "Replace up to three Eldar Guardians with Heavy Weapon Platforms: Free",
-              "Seer Council",
-              "Support Weapons",
-              "Wraithguards",
-              "Wraithlords"
+          "name": "Black Guardian Warhost",
+          "units": "One Farseer, seven Eldar Guardians",
+          "extraUnits": [
+            "Replace up to three Eldar Guardians with Heavy Weapon Platforms: Free",
+            "Seer Council",
+            "Support Weapons",
+            "Wraithguards",
+            "Wraithlords"
           ],
-            "points": 175
+          "points": 175
         },
         {
-            "name": "Mounted Black Guardian Warhost",
-            "units": "One Farseer, five Eldar Guardians, three Wave Serpents",
-            "extraUnits": [
-                "Replace two Guardians with two Wraithguards and a Wave Serpent: 100 points",
-                "Seer Council",
-                "Firestorm"
-            ],
-            "points": 275
+          "name": "Mounted Black Guardian Warhost",
+          "units": "One Farseer, five Eldar Guardians, three Wave Serpents",
+          "extraUnits": [
+            "Replace two Guardians with two Wraithguards and a Wave Serpent: 100 points",
+            "Seer Council",
+            "Firestorm"
+          ],
+          "points": 275
         }
-        ]
+      ]
     },
     {
-        "name": "Ulthwé High Troupes",
-        "description": "Up to one High Troupe for each Ulthwé Warhost taken",
-        "formations": [
+      "name": "Ulthwé High Troupes",
+      "description": "Up to one High Troupe for each Ulthwé Warhost taken",
+      "formations": [
         {
-            "name": "Windriders of Ulthwé",
-            "units": "One Mounted Farseer, five Eldar Jetbikes",
-            "extraUnits": [
-              "Replace up to five Eldar Jetbikes with Vypers: Free"
+          "name": "Windriders of Ulthwé",
+          "units": "One Mounted Farseer, five Eldar Jetbikes",
+          "extraUnits": [
+            "Replace up to five Eldar Jetbikes with Vypers: Free"
           ],
-            "points": 175
+          "points": 175
         },
         {
-            "name": "Swords of Ulthwé",
-            "units": "One Farseer, three Eldar Guardians, four Falcons",
-            "extraUnits": [
-                "Seer Council",
-                "Firestorm"
-            ],
-            "points": 275
+          "name": "Swords of Ulthwé",
+          "units": "One Farseer, three Eldar Guardians, four Falcons",
+          "extraUnits": [
+            "Seer Council",
+            "Firestorm"
+          ],
+          "points": 275
         },
         {
           "name": "Aspect Warrior Troupe",
           "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
           "extraUnits": [
             "Add one Exarch: 25 points"
-             ],
+          ],
           "points": 225
         }
-
-        ]
+      ]
     },
     {
       "name": "Ulthwé Line Troupes",
       "description": "Up to two Troupes for each Ulthwé Warhost taken",
       "formations": [
-          {
-            "name": "Rangers",
-            "units": "Five Eldar Rangers",
-            "extraUnits": [
-              "Add one Eldar Rangers unit: 25 points"
-            ],
-            "points": 125
-          },
+        {
+          "name": "Rangers",
+          "units": "Five Eldar Rangers",
+          "extraUnits": [
+            "Add one Eldar Rangers unit: 25 points"
+          ],
+          "points": 125
+        },
         {
           "name": "Engines of Vaul",
           "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
@@ -178,29 +186,29 @@
           "extraUnits": [
           ],
           "points": 175
-      },
-      {
-        "name": "War Walker Troupe",
-        "units": "Four War Walkers",
-        "extraUnits": [
+        },
+        {
+          "name": "War Walker Troupe",
+          "units": "Four War Walkers",
+          "extraUnits": [
             "Add up to two additional War Walkers: 25 points each"
-        ],
-        "points": 150
-      }
+          ],
+          "points": 150
+        }
       ]
     },
     {
       "name": "Ulthwé Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Nightwing Aerie",
-            "units": "Two Nightwing Interceptors",
-            "extraUnits": [
-              "Add one Nightwing Interceptor: 75 Points"
-            ],
-            "points": 225
-          },
+        {
+          "name": "Nightwing Aerie",
+          "units": "Two Nightwing Interceptors",
+          "extraUnits": [
+            "Add one Nightwing Interceptor: 75 Points"
+          ],
+          "points": 225
+        },
         {
           "name": "Hemlock Aerie",
           "units": "Two Hemlock Wraithfighters",
@@ -219,7 +227,6 @@
           "name": "Fire Gale Troupe",
           "units": "Two Fire Gale Knights",
           "extraUnits": [
-
           ],
           "points": 300
         },
@@ -227,7 +234,6 @@
           "name": "Wraithknights",
           "units": "Three Wraithknights",
           "extraUnits": [
-
           ],
           "points": 325
         },
@@ -235,7 +241,6 @@
           "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
           "extraUnits": [
-
           ],
           "points": 850
         },
@@ -264,7 +269,6 @@
         "description": "Add one Firestorm to the formation",
         "points": "50 points"
       },
-
       {
         "name": "Support Weapons",
         "description": "Add three Support Weapon Platforms",
@@ -274,12 +278,12 @@
         "name": "Wraithguards",
         "description": "Add two Eldar Wraithguards",
         "points": "75 points"
-    },
-    {
-      "name": "Wraithlords",
-      "description": "Add up to three Eldar Wraithlords",
-      "points": "50 points each"
-    }
+      },
+      {
+        "name": "Wraithlords",
+        "description": "Add up to three Eldar Wraithlords",
+        "points": "50 points each"
+      }
     ]
   }
 }

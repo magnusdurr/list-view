@@ -5,68 +5,67 @@
   "release": "2020-06-04",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Alpha Legion armies are also subject to 'The Harrowing' special rule.",
   "Initiative": "Cultist Coven and Cultist Support formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
-
   "specialRules": [
-      "The Harrowing",
-      "Sabotage",
-      "Alpha Legion Transports",
-      "Summoning",
-      "Alpha Legion Summoning Rules",
-      "Daemonic Focus",
-      "Augment Summoning (+x)",
-      "Fickle Masters"
+    "The Harrowing",
+    "Sabotage",
+    "Alpha Legion Transports",
+    "Summoning",
+    "Alpha Legion Summoning Rules",
+    "Daemonic Focus",
+    "Augment Summoning (+x)",
+    "Fickle Masters"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Alpha Legion with Traitor Imperial Guard allies."
   ],
   "units": [
-      {
-        "from": "CSM.json",
-        "units": [
-          "Alpha Legion Lord",
-          "Alpha Legion Sorcerer",
-          "Alpha Legion Marines",
-          "Alpha Legion Havocs",
-          "Alpha Legion Headhunters",
-          "Alpha Legion Destroyers",
-          "Lernaean Terminators",
-          "Alpha Legion Dreadnought",
-          "Alpha Legion Rhino",
-          "Alpha Legion Vindicator",
-          "Alpha Legion Predator",
-          "Alpha Legion Land Raider",
-          "Alpha Legion Sicarian Battle Tank"
+    {
+      "from": "CSM.json",
+      "units": [
+        "Alpha Legion Lord",
+        "Alpha Legion Sorcerer",
+        "Alpha Legion Marines",
+        "Alpha Legion Havocs",
+        "Alpha Legion Headhunters",
+        "Alpha Legion Destroyers",
+        "Lernaean Terminators",
+        "Alpha Legion Dreadnought",
+        "Alpha Legion Rhino",
+        "Alpha Legion Vindicator",
+        "Alpha Legion Predator",
+        "Alpha Legion Land Raider",
+        "Alpha Legion Sicarian Battle Tank"
       ],
       "unitRules": [
-          "Stubborn"
+        "Stubborn"
       ]
-      },
+    },
     {
       "from": "chaoscultists.json",
       "units": [
-          "Daemon Prince",
-          "Aspiring Champion",
-          "Daemonic Icon",
-          "Cultists",
-          "Mutants",
-          "Chaos Spawn",
-          "Chaos Hounds",
-          "Land Transporter"
+        "Daemon Prince",
+        "Aspiring Champion",
+        "Daemonic Icon",
+        "Cultists",
+        "Mutants",
+        "Chaos Spawn",
+        "Chaos Hounds",
+        "Land Transporter"
       ],
-        "unitRules": [
-          ]
+      "unitRules": [
+      ]
     },
     {
       "from": "IG.json",
       "units": [
-          "Chimera",
-          "Salamander Scout Tank",
-          "Griffon",
-          "Hydra",
-          "Rough Riders"
+        "Chimera",
+        "Salamander Scout Tank",
+        "Griffon",
+        "Hydra",
+        "Rough Riders"
       ],
-        "unitRules": [
-          ]
+      "unitRules": [
+      ]
     },
     {
       "from": "daemons.json",
@@ -78,23 +77,22 @@
         "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
-    ]
-},
+      ]
+    },
     {
       "from": "chaosnavy.json",
       "units": [
-          "Chaos Xiphon Interceptor",
-          "Alpha Legion Storm Eagle",
-          "Chaos Fire Raptor",
-          "Chaos Strike Cruiser",
-          "Alpha Legion Drop Pod"
-    ],
-    "unitRules": [
-
-    ]
+        "Chaos Xiphon Interceptor",
+        "Alpha Legion Storm Eagle",
+        "Chaos Fire Raptor",
+        "Chaos Strike Cruiser",
+        "Alpha Legion Drop Pod"
+      ],
+      "unitRules": [
+      ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Alpha Legion Core Formations",
       "description": "Up to one Cultist Coven formation for each Alpha Legion Marines formation",
@@ -103,65 +101,62 @@
           "name": "Alpha Legion Marines",
           "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Marines plus transport",
           "extraUnits": [
-              "Replace four Alpha Legion Marines with four Alpha Legion Havocs: 50 points",
-              "Add up to two Alpha Legion Land Raiders: 50 points each",
+            "Replace four Alpha Legion Marines with four Alpha Legion Havocs: 50 points",
+            "Add up to two Alpha Legion Land Raiders: 50 points each",
             "Supreme Commander",
-              "Dreadnoughts",
-              "Vindicators",
-              "Predators"
-
+            "Dreadnoughts",
+            "Vindicators",
+            "Predators"
           ],
           "points": 200
-      },
-      {
-        "name": "Cultist Coven",
-        "units": "One Aspiring Champion, nine Cultists and/or Mutants",
-        "extraUnits": [
-          "Add a Daemonic Icon to the Aspiring Champion: 25 points",
-          "Add enough Land Transporters to transport the formation: 10 points each",
-          "Replace any number of Land Transporters with Chimeras: 15 points each",
-          "Add up to three Chaos Hounds: 10 points each",
-          "Add one Chaos Spawn: 35 points",
-          "Add one Hydra: 50 points",
-          "Supreme Commander"
-        ],
-        "points": 225
-    }
-
+        },
+        {
+          "name": "Cultist Coven",
+          "units": "One Aspiring Champion, nine Cultists and/or Mutants",
+          "extraUnits": [
+            "Add a Daemonic Icon to the Aspiring Champion: 25 points",
+            "Add enough Land Transporters to transport the formation: 10 points each",
+            "Replace any number of Land Transporters with Chimeras: 15 points each",
+            "Add up to three Chaos Hounds: 10 points each",
+            "Add one Chaos Spawn: 35 points",
+            "Add one Hydra: 50 points",
+            "Supreme Commander"
+          ],
+          "points": 225
+        }
       ]
     },
     {
       "name": "Alpha Legion Elite Detachments",
       "description": "Up to one Alpha Legion Elite Detachment for each Alpha Legion Marines Formation.",
       "formations": [
-
-          {
-            "name": "Destroyers",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Destroyers",
-            "extraUnits": [
+        {
+          "name": "Destroyers",
+          "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Destroyers",
+          "extraUnits": [
             "Supreme Commander",
-                "Predators"
-            ],
-            "points": 200
-          },
-          {
-            "name": "Headhunters",
-            "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Headhunters plus transport",
-            "extraUnits": [
-              "Supreme Commander",
-              "Vindicators"
-            ],
-            "points": 250
+            "Predators"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Headhunters",
+          "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Alpha Legion Headhunters plus transport",
+          "extraUnits": [
+            "Supreme Commander",
+            "Vindicators"
+          ],
+          "points": 250
         },
         {
           "name": "Terminators",
           "units": "One Alpha Legion Lord or Alpha Legion Sorcerer, four Lernaean Terminators plus transport",
           "extraUnits": [
-              "Supreme Commander",
-              "Dreadnoughts"
+            "Supreme Commander",
+            "Dreadnoughts"
           ],
           "points": 275
-      },
+        },
         {
           "name": "Sicarians",
           "units": "Four Alpha Legion Sicarian Battle Tanks",
@@ -170,50 +165,47 @@
           ],
           "points": 275
         }
-
       ]
     },
     {
       "name": "Cultist Support Formations",
       "description": "Up to two Cultist Support Formations per Cultist Coven",
       "formations": [
-          {
-            "name": "Rough Rider Platoon",
-            "units": "Six Rough Riders",
-            "extraUnits": [
-              "Add a Daemonic Icon: 75 points"
-            ],
-            "points": 150
-          },
-          {
-            "name": "Salamander Squadron",
-            "units": "Four Salamander Scout Tanks",
-            "extraUnits": [
-                ],
-                "points": 150
-            },
-            {
-              "name": "Flak Battery",
-              "units": "Three Hydras",
-              "extraUnits": [
-                  ],
-                  "points": 150
-              },
-          {
-            "name": "Griffon Battery",
-            "units": "Three Griffons",
-            "extraUnits": [
-            ],
-            "points": 175
+        {
+          "name": "Rough Rider Platoon",
+          "units": "Six Rough Riders",
+          "extraUnits": [
+            "Add a Daemonic Icon: 75 points"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Salamander Squadron",
+          "units": "Four Salamander Scout Tanks",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Flak Battery",
+          "units": "Three Hydras",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Griffon Battery",
+          "units": "Three Griffons",
+          "extraUnits": [
+          ],
+          "points": 175
         }
-
-        ]
+      ]
     },
-   {
-    "name": "Alpha Legion Navy",
-    "description": "Up to a third of the points available may be spent on Alpha Legion Navy.",
-    "formations": [
-
+    {
+      "name": "Alpha Legion Navy",
+      "description": "Up to a third of the points available may be spent on Alpha Legion Navy.",
+      "formations": [
         {
           "name": "Storm Eagle",
           "units": "One Alpha Legion Storm Eagle",
@@ -221,7 +213,6 @@
           ],
           "points": 175
         },
-
         {
           "name": "Fire Raptor",
           "units": "One Chaos Fire Raptor",
@@ -243,60 +234,59 @@
           ],
           "points": 200
         }
-    ]
-        },
+      ]
+    },
+    {
+      "name": "Daemon Pool",
+      "formations": [
         {
-          "name": "Daemon Pool",
-          "formations": [
-          {
-            "name": "Lesser Daemon Pool",
-            "units": "Any amount of Lesser Daemon Pool points",
-            "points": 15
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
         }
-          ]
-        }
-
+      ]
+    }
   ],
   "upgrades": {
     "title": "Alpha Legion Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-        {
-      "name": "0-1 Supreme Commander",
-      "options": [
-        {
-          "description": "Choose one of the following options:",
-          "points": ""
-      },
       {
-        "description": "Upgrade the Aspiring Champion to a Daemon Prince",
-        "points": "100 points"
-    },
-      {
-        "description": "'I'm Alpharius!' The army benefits from the Supreme Commander rule as long as there is at least one Alpha Legion Lord on the battlefield. Formation must contain an Alpha Legion Lord.",
-        "points": "75 points"
-      }
-      ]
-  },
-        {
-      "name": "Vindicators",
-      "options": [
-        {
-          "description": "Add up to two Alpha Legion Vindicators",
-          "points": "35 points each"
-        }
-      ]
-      },
-      {
-    "name": "Predators",
-    "options": [
-      {
-        "description": "Add up to two Alpha Legion Predators",
-        "points": "50 points each"
-      }
-    ]
-    },
+        "name": "0-1 Supreme Commander",
+        "options": [
           {
+            "description": "Choose one of the following options:",
+            "points": ""
+          },
+          {
+            "description": "Upgrade the Aspiring Champion to a Daemon Prince",
+            "points": "100 points"
+          },
+          {
+            "description": "'I'm Alpharius!' The army benefits from the Supreme Commander rule as long as there is at least one Alpha Legion Lord on the battlefield. Formation must contain an Alpha Legion Lord.",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Vindicators",
+        "options": [
+          {
+            "description": "Add up to two Alpha Legion Vindicators",
+            "points": "35 points each"
+          }
+        ]
+      },
+      {
+        "name": "Predators",
+        "options": [
+          {
+            "description": "Add up to two Alpha Legion Predators",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
         "name": "Dreadnoughts",
         "options": [
           {
@@ -305,6 +295,6 @@
           }
         ]
       }
-  ]
-}
+    ]
+  }
 }

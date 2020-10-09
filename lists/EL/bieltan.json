@@ -5,10 +5,18 @@
   "release": "2019-06-05",
   "strategy": "Biel-Tan Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
-  "specialRules": ["Avatar (Biel-Tan)","May not Garrison (Biel-Tan)","Farsight","Hit and Run","Holofields (x)","Lance", "Shield Piercer", "Shield Disruptor", "Webway Portal"],
-
-   "units": [
+  "specialRules": [
+    "Avatar (Biel-Tan)",
+    "May not Garrison (Biel-Tan)",
+    "Farsight",
+    "Hit and Run",
+    "Holofields (x)",
+    "Lance",
+    "Shield Piercer",
+    "Shield Disruptor",
+    "Webway Portal"
+  ],
+  "units": [
     {
       "from": "EL.json",
       "units": [
@@ -46,7 +54,7 @@
         "Phantom Titan",
         "Warlock Titan"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -58,24 +66,22 @@
         "Wraithship",
         "Dragonship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Biel-Tan Special",
       "formations": [
         {
           "name": "1 Avatar",
           "units": "One Avatar",
-
           "points": 0
-      },
+        },
         {
           "name": "0-1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
-
           "points": 50
         }
       ]
@@ -107,7 +113,6 @@
       "name": "Biel-Tan Troupes",
       "description": "Up to two Biel-Tan Troupes may be taken for each Biel-Tan Warhost",
       "formations": [
-
         {
           "name": "Rangers",
           "units": "Five Eldar Rangers",
@@ -120,7 +125,7 @@
           "name": "War Walker Troupe",
           "units": "Four War Walkers",
           "extraUnits": [
-              "Add up to two War Walkers: 25 points each"
+            "Add up to two War Walkers: 25 points each"
           ],
           "points": 150
         },
@@ -172,7 +177,6 @@
           ],
           "points": 250
         }
-
       ]
     },
     {
@@ -198,7 +202,6 @@
           "name": "Vampire",
           "units": "One Vampire Raider",
           "extraUnits": [
-
           ],
           "points": 200
         },
@@ -206,7 +209,6 @@
           "name": "Revenants",
           "units": "Two Revenant Titans",
           "extraUnits": [
-
           ],
           "points": 650
         },
@@ -214,7 +216,6 @@
           "name": "Phantom",
           "units": "One Phantom Titan",
           "extraUnits": [
-
           ],
           "points": 700
         },
@@ -222,7 +223,6 @@
           "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
           "extraUnits": [
-
           ],
           "points": 850
         },
@@ -276,16 +276,13 @@
         "description": "Add up to three Eldar Wraithlords",
         "points": "50 points each"
       }
-  ],
-  "usage": [
-    "v1.0.0: The EA-R Craftworld Biel-Tan is based on the NetEA version of the list, with a number of changes and additions.",
-    "The army structure has been kept intact, but the number of Troupes per Warhost have been decreased to two. To compensate for this, the Guardian and Aspect Warrior Warhosts' Wave Serpents has become cheaper, in line with the general approach to similar transport options in other lists. Wraithguards has been changed to 3+ Armour to make them less frustrating for the opponent (not too much of an issue in Biel-Tan, but a huge issue with the Iyanden list). The basic size of the Rangers has been increased to five, which combined with the War Walkers being cheaper creates more of an equivalence between these two Scout / Garrison options. The War Walker has had its Armour simplified, replacing the oddball 6++ save with a straight 5+.",
-    "The Swords of Vaul Troupe has recieved an option to carry Guardians, which both utilizes their seldomly used transport capability and presents an option to field a very different kind of formation from the normal one. The Fire Prism formation (along with the Fire Prism stats) has been imported from E-UK.",
-    "The Void Spinner, being a very powerful choice, has been increased in points, while the Engines of Vaul formation now has a standard 50 point rebate when taking larger formations. The Engines also benefit the changes to the Holofield rule, having a 5+ Holofield Save. The Cobra now has the standarized 'Shield Piercer' rule.",
-    "The once rare Nightwings can now be taken in pairs, but has shorter range on their Shuriken Catapults. The Phoenix Bombers now has 3+ Armour instead of 5++, due to issues with Reinforced Armour on units that can Jink (giving them 4++ Armour). The fragile Vampire Raider has recieved a 5+ Holofield Save. The Phantom titan has been reduced in points. While a very powerful formation, it is also quite fragile, and a poor choice compared to the Warlock or the Revenants. The Phantom Titan has seen a slight increase in range on its Pulsar, making the dual Pulsar loadout slightly more viable. The Warlock Titan's Psychic Lance now benefits from the 'Shield Disruptor' rule."
-
-  ]
+    ],
+    "usage": [
+      "v1.0.0: The EA-R Craftworld Biel-Tan is based on the NetEA version of the list, with a number of changes and additions.",
+      "The army structure has been kept intact, but the number of Troupes per Warhost have been decreased to two. To compensate for this, the Guardian and Aspect Warrior Warhosts' Wave Serpents has become cheaper, in line with the general approach to similar transport options in other lists. Wraithguards has been changed to 3+ Armour to make them less frustrating for the opponent (not too much of an issue in Biel-Tan, but a huge issue with the Iyanden list). The basic size of the Rangers has been increased to five, which combined with the War Walkers being cheaper creates more of an equivalence between these two Scout / Garrison options. The War Walker has had its Armour simplified, replacing the oddball 6++ save with a straight 5+.",
+      "The Swords of Vaul Troupe has recieved an option to carry Guardians, which both utilizes their seldomly used transport capability and presents an option to field a very different kind of formation from the normal one. The Fire Prism formation (along with the Fire Prism stats) has been imported from E-UK.",
+      "The Void Spinner, being a very powerful choice, has been increased in points, while the Engines of Vaul formation now has a standard 50 point rebate when taking larger formations. The Engines also benefit the changes to the Holofield rule, having a 5+ Holofield Save. The Cobra now has the standarized 'Shield Piercer' rule.",
+      "The once rare Nightwings can now be taken in pairs, but has shorter range on their Shuriken Catapults. The Phoenix Bombers now has 3+ Armour instead of 5++, due to issues with Reinforced Armour on units that can Jink (giving them 4++ Armour). The fragile Vampire Raider has recieved a 5+ Holofield Save. The Phantom titan has been reduced in points. While a very powerful formation, it is also quite fragile, and a poor choice compared to the Warlock or the Revenants. The Phantom Titan has seen a slight increase in range on its Pulsar, making the dual Pulsar loadout slightly more viable. The Warlock Titan's Psychic Lance now benefits from the 'Shield Disruptor' rule."
+    ]
   }
-
-
 }

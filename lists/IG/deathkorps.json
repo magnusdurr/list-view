@@ -5,9 +5,9 @@
   "release": "2020-01-11",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
   "specialRules": [
-      "Courage, Discipline and Loyalty", "Fortified Positions"
+    "Courage, Discipline and Loyalty",
+    "Fortified Positions"
   ],
   "units": [
     {
@@ -42,17 +42,17 @@
         "Stormsword",
         "Shadowsword"
       ],
-        "unitRules": [
+      "unitRules": [
         "Heavy Armoured Vehicle (H-AV)"
-          ]
+      ]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
         "Warhound"
-          ],
-        "unitRules": [
-            "Void Shields"
+      ],
+      "unitRules": [
+        "Void Shields"
       ]
     },
     {
@@ -63,11 +63,11 @@
         "Lunar Class Cruiser",
         "Emperor Class Battleship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "DKoK Core Companies",
       "formations": [
@@ -75,9 +75,9 @@
           "name": "0-1 Death Korps Regimental HQ",
           "units": "One DKoK Supreme Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
-              "Add ten Assault Infantry and one Gorgon: 250 points",
-              "Leman Russ",
-              "Bane Wolves"
+            "Add ten Assault Infantry and one Gorgon: 250 points",
+            "Leman Russ",
+            "Bane Wolves"
           ],
           "points": 350
         },
@@ -85,31 +85,30 @@
           "name": "Assault Company",
           "units": "One DKoK Commander with a Commissar, nine Assault Infantry, one Gorgon",
           "extraUnits": [
-              "Leman Russ",
-              "Bane Wolves"
+            "Leman Russ",
+            "Bane Wolves"
           ],
           "points": 300
-    },
+        },
         {
           "name": "Death Rider Company",
           "units": "One Commissar, twelve Death Riders",
           "extraUnits": [
-          "Bane Wolves"
+            "Bane Wolves"
           ],
           "points": 300
-    }
-  ]
-},
+        }
+      ]
+    },
     {
       "name": "DKoK Support Formations",
       "description": "Up to two Support Formations for each Company Formation.",
       "formations": [
-
         {
           "name": "Leman Russ Platoon",
           "units": "Six Leman Russ, Leman Russ Thunderers, or Leman Russ Annihilators",
           "extraUnits": [
-              "Bane Wolves"
+            "Bane Wolves"
           ],
           "points": 375
         },
@@ -117,8 +116,8 @@
           "name": "Siege Infantry Company",
           "units": "DKoK Commander with Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
-              "Add four Rapiers and 16cm Trenches, or three Thudd Guns and 12cm Trenches: 75 points",
-              "Add up to two Snipers: 25 points each"
+            "Add four Rapiers and 16cm Trenches, or three Thudd Guns and 12cm Trenches: 75 points",
+            "Add up to two Snipers: 25 points each"
           ],
           "points": 300
         },
@@ -126,9 +125,9 @@
           "name": "Artillery Emplacement",
           "units": "Four Medusa Guns, four Gun Emplacements",
           "extraUnits": [
-              "Replace four Gun Emplacements with four Trojans: 25 points",
-              "Replace four Medusa Guns with four Earthshaker Guns: 25 points",
-              "Deathstrike"
+            "Replace four Gun Emplacements with four Trojans: 25 points",
+            "Replace four Medusa Guns with four Earthshaker Guns: 25 points",
+            "Deathstrike"
           ],
           "points": 250
         },
@@ -136,7 +135,7 @@
           "name": "Flak Emplacement",
           "units": "Four Heavy AA Guns, four Gun Emplacements",
           "upgrades": [
-              "Replace four Gun Emplacements with four Trojans: 25 points"
+            "Replace four Gun Emplacements with four Trojans: 25 points"
           ],
           "points": 175
         },
@@ -146,7 +145,7 @@
           "extraUnits": [
           ],
           "points": 200
-      },
+        },
         {
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade or Stormsword",
@@ -165,32 +164,32 @@
           "name": "Grenadier Company",
           "units": "One DKoK Commander with a Commissar, seven Grenadiers, four Storm Chimeras",
           "extraUnits": [
-              "Replace four Storm Chimeras with a Gorgon: Free",
-              "Bane Wolf"
+            "Replace four Storm Chimeras with a Gorgon: Free",
+            "Bane Wolf"
           ],
           "points": 325
-      },
-      {
-    "name": "Armoured Sentinel Squadron",
-    "units": "Four Armoured Sentinels",
-    "extraUnits": [
-    ],
-    "points": 125
-}
+        },
+        {
+          "name": "Armoured Sentinel Squadron",
+          "units": "Four Armoured Sentinels",
+          "extraUnits": [
+          ],
+          "points": 125
+        }
       ]
     },
     {
       "name": "Collegia Titanica & Imperial Navy Allies",
       "description": "Up to a third of the points available may be spent on Collegia Titanica & Imperial Navy formations",
       "formations": [
-              {
-            "name": "Warhounds",
-            "units": "One Warhound Titan",
-            "points": 275,
-            "extraUnits": [
-                "Add an additional Warhound Titan: 200 points"
-            ]
-          },
+        {
+          "name": "Warhounds",
+          "units": "One Warhound Titan",
+          "points": 275,
+          "extraUnits": [
+            "Add an additional Warhound Titan: 200 points"
+          ]
+        },
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
@@ -200,33 +199,23 @@
           "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
           "points": 250
-      },
-      {
-        "name": "0–1 Orbital Support",
-        "units": "One Lunar Class Cruiser",
-        "points": 150,
-        "upgrades": [
+        },
+        {
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
+          "points": 150,
+          "upgrades": [
             "Replace the Cruiser with an Emperor Class Battleship: 50 points"
-        ]
-      }
+          ]
+        }
       ]
     }
-
-
-
-
-
-
-
-
-
-
   ],
   "upgrades": {
     "title": "DKoK Upgrades",
     "description": "Each upgrade may be taken once per formation.",
     "items": [
-          {
+      {
         "name": "Bane Wolf",
         "options": [
           {
@@ -236,14 +225,14 @@
         ]
       },
       {
-    "name": "Deathstrike",
-    "options": [
-      {
-        "description": "Add one Deathstrike",
-        "points": "50 points"
-      }
-    ]
-  },
+        "name": "Deathstrike",
+        "options": [
+          {
+            "description": "Add one Deathstrike",
+            "points": "50 points"
+          }
+        ]
+      },
       {
         "name": "Leman Russ",
         "options": [
@@ -253,11 +242,11 @@
           }
         ]
       }
-  ],
-  "usage": [
-    "v1.0.0: Apart from the changes inherited from the Steel Legion list, the theme of the list has been changed to make it more 'siege assault' oriented, with the dedicated 'siege defense' role being given to their cousins the Baran Siege Masters. It is however possible to take Siege Companies that largely mirror those that are in the Baran list. The main change from the NetEA/E-UK versions of DKoK is that only the Regimental HQ can have more than one Gorgon, and that it is no longer possible to place the Commissar on the Gorgon.",
-    "Another major changes involve the Death Riders / Rough Riders, which has a new stat line which fits them better thematically.",
-    "The Macharius has been made slightly faster, but with less firepower, to differentiate it from the Super Heavy Tanks."
-  ]
+    ],
+    "usage": [
+      "v1.0.0: Apart from the changes inherited from the Steel Legion list, the theme of the list has been changed to make it more 'siege assault' oriented, with the dedicated 'siege defense' role being given to their cousins the Baran Siege Masters. It is however possible to take Siege Companies that largely mirror those that are in the Baran list. The main change from the NetEA/E-UK versions of DKoK is that only the Regimental HQ can have more than one Gorgon, and that it is no longer possible to place the Commissar on the Gorgon.",
+      "Another major changes involve the Death Riders / Rough Riders, which has a new stat line which fits them better thematically.",
+      "The Macharius has been made slightly faster, but with less firepower, to differentiate it from the Super Heavy Tanks."
+    ]
   }
 }

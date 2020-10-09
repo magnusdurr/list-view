@@ -5,16 +5,14 @@
   "release": "2020-03-19",
   "strategy": "Tau armies have a Strategy Rating of 3.",
   "Initiative": "Crisis Battlesuit and Manta formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
   "specialRules": [
-            "Coordinated Fire",
-            "Ethereal",
-            "Guided Missiles",
-            "Markerlights",
-            "Tau Jet Packs",
-            "Tiger Shark Gun Drones"
-          ],
-
+    "Coordinated Fire",
+    "Ethereal",
+    "Guided Missiles",
+    "Markerlights",
+    "Tau Jet Packs",
+    "Tiger Shark Gun Drones"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Sa'cea world of the Tau Empire"
   ],
@@ -44,8 +42,8 @@
         "Sky Ray",
         "Manta"
       ],
-        "unitRules": [
-            "Deflector Shield"
+      "unitRules": [
+        "Deflector Shield"
       ]
     },
     {
@@ -58,11 +56,11 @@
         "Custodian Class Battleship",
         "Protector Class Cruiser"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Sa'cea Cadres",
       "formations": [
@@ -80,15 +78,15 @@
           "name": "Fire Warrior Strike Cadre",
           "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish.",
           "extraUnits": [
-              "Broadsides",
-              "Ethereal",
-              "Piranhas",
-              "Fire Warriors",
-              "Pathfinders",
-              "Hammerheads",
-              "Sky Ray",
-              "Bonded Team",
-              "Gun Drones"
+            "Broadsides",
+            "Ethereal",
+            "Piranhas",
+            "Fire Warriors",
+            "Pathfinders",
+            "Hammerheads",
+            "Sky Ray",
+            "Bonded Team",
+            "Gun Drones"
           ],
           "points": 225
         }
@@ -107,7 +105,6 @@
             "Hammerheads",
             "Piranhas",
             "Sky Ray"
-
           ],
           "points": 200
         },
@@ -141,7 +138,7 @@
           "name": "Recon Skimmer Group",
           "units": "Any six of the following units: Piranha, Tetra",
           "extraUnits": [
-              "Add up to two Piranhas: 25 points each"
+            "Add up to two Piranhas: 25 points each"
           ],
           "points": 175
         },
@@ -149,7 +146,7 @@
           "name": "Skysweep Support Group",
           "units": "Three Sky Rays",
           "extraUnits": [
-              "Gun Drones"
+            "Gun Drones"
           ],
           "points": 250
         },
@@ -178,7 +175,7 @@
           "name": "Tiger Shark Squadron",
           "units": "Two Tiger Shark Bombers",
           "extraUnits": [
-                "Add six Gun Drones: 100 points"
+            "Add six Gun Drones: 100 points"
           ],
           "points": 175
         },
@@ -186,7 +183,6 @@
           "name": "AX-1-0s Squadron",
           "units": "Two Tiger Shark AX-1-0s",
           "extraUnits": [
-
           ],
           "points": 350
         },
@@ -194,7 +190,6 @@
           "name": "Orca Dropship",
           "units": "One Orca",
           "extraUnits": [
-
           ],
           "points": 150
         },
@@ -202,7 +197,6 @@
           "name": "Manta Dropship",
           "units": "One Manta",
           "extraUnits": [
-
           ],
           "points": 550
         },
@@ -210,7 +204,7 @@
           "name": "0–1 Spacecraft",
           "units": "Protector Class Cruiser",
           "extraUnits": [
-              "Replace the Protector with a Custodian Class Battleship: 25 points"
+            "Replace the Protector with a Custodian Class Battleship: 25 points"
           ],
           "points": 200
         }
@@ -253,7 +247,10 @@
         "options": [
           {
             "description": "Add two or four XV8 Crisis Battlesuits",
-            "points": ["75 points for two", "150 points for four"]
+            "points": [
+              "75 points for two",
+              "150 points for four"
+            ]
           }
         ]
       },
@@ -276,10 +273,10 @@
       {
         "name": "Pathfinders",
         "options": [
-            {
-              "description": "Add two Pathfinders and one Devilfish",
-              "points": "100 points"
-            }
+          {
+            "description": "Add two Pathfinders and one Devilfish",
+            "points": "100 points"
+          }
         ]
       },
       {

@@ -5,7 +5,6 @@
   "release": "2019-10-04",
   "strategy": "Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior, Harleqin, Titan and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
-
   "specialRules": [
     "May not Garrison (Lugganath)",
     "Farsight",
@@ -19,7 +18,6 @@
     "Cegorach, the Laughing God",
     "Shadowsight",
     "Masters of the Webway"
-
   ],
   "usage": [
     "The following army list allows you to field an army based on the Craftworld Lugganath, with Corsair support and Harlequin allies from the Masque of the Veiled Path."
@@ -55,7 +53,7 @@
         "Scorpion",
         "Revenant Titan"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -72,7 +70,7 @@
         "Starweaver",
         "Voidweaver"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     },
     {
@@ -84,24 +82,22 @@
         "Wraithship",
         "Dragonship"
       ],
-        "unitRules": [
+      "unitRules": [
       ]
     }
-],
-"sections": [
+  ],
+  "sections": [
     {
       "name": "Craftworld Lugganath Specials",
       "formations": [
-          {
-            "name": "0-1 Avatar",
-            "units": "One Avatar",
-
-            "points": 50
+        {
+          "name": "0-1 Avatar",
+          "units": "One Avatar",
+          "points": 50
         },
         {
           "name": "1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
-
           "points": 0
         }
       ]
@@ -118,27 +114,27 @@
             "Windriders"
           ],
           "points": 250
-      },
-    {
-      "name": "Lugganath Wraithhost",
-      "units": "One Spiritseer, four Wraithreapers, four Wave Serpents",
-      "extraUnits": [
-      ],
-      "points": 375
-    }
-        ]
+        },
+        {
+          "name": "Lugganath Wraithhost",
+          "units": "One Spiritseer, four Wraithreapers, four Wave Serpents",
+          "extraUnits": [
+          ],
+          "points": 375
+        }
+      ]
     },
     {
       "name": "Craftworld Lugganath Troupes",
       "description": "Up to one Lugganath Troupe for each Lugganath Warhost/Wraithhost",
       "formations": [
-          {
-            "name": "Corsair Scouts",
-            "units": "Four Ghost Walkers",
-            "extraUnits": [
-              "Replace four Ghost Walkers with four Wasp Walkers: Free"
-            ],
-            "points": 150
+        {
+          "name": "Corsair Scouts",
+          "units": "Four Ghost Walkers",
+          "extraUnits": [
+            "Replace four Ghost Walkers with four Wasp Walkers: Free"
+          ],
+          "points": 150
         },
         {
           "name": "Mounted Aspect Warrior Troupe",
@@ -146,7 +142,6 @@
           "extraUnits": [
             "Autarch",
             "Exarch"
-
           ],
           "points": 325
         },
@@ -161,9 +156,9 @@
           "name": "Swords of Vaul",
           "units": "Five Falcons",
           "extraUnits": [
-              "Replace up to two Falcons with Firestorms: Free",
-              "OR",
-              "Add five Guardians to the formation: 50 points"
+            "Replace up to two Falcons with Firestorms: Free",
+            "OR",
+            "Add five Guardians to the formation: 50 points"
           ],
           "points": 250
         },
@@ -181,30 +176,27 @@
       "name": "Masque of the Veiled Path Saedaths",
       "description": "Up to one Veiled Path Saedath for each Lugganath Warhost/Wraithhost",
       "formations": [
-          {
-            "name": "Cegorach's Escape",
-            "units": "One Harleqin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
-            "extraUnits": [
-
-            ],
-            "points": 200
-          },
-          {
-            "name": "Serpent's Scales",
-            "units": "One Harlequin Avatar, three Skyweavers, two Voidweavers",
-            "extraUnits": [
-
-            ],
-            "points": 225
-          },
-          {
-            "name": "Devourer's Hunt",
-            "units": "One Master Mime, six Mimes",
-            "extraUnits": [
-
-            ],
-            "points": 225
-          },
+        {
+          "name": "Cegorach's Escape",
+          "units": "One Harleqin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Serpent's Scales",
+          "units": "One Harlequin Avatar, three Skyweavers, two Voidweavers",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Devourer's Hunt",
+          "units": "One Master Mime, six Mimes",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
         {
           "name": "Cegorach's Revenge",
           "units": "One Harlequin Avatar, two Harlequin Troupes, two Death Jesters, four Starweavers, three Skyweavers",
@@ -216,11 +208,9 @@
           "name": "0-1 Devourer's Feast",
           "units": "One Master Mime, one Solitaire, eight Mimes",
           "extraUnits": [
-
           ],
           "points": 350
         },
-
         {
           "name": "0-1 Ynnead's Dream",
           "units": "One Harlequin Avatar, one Shadowseer, three Harlequin Troupes, three Death Jesters, six Starweavers",
@@ -234,14 +224,14 @@
       "name": "Craftworld Lugganath Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Nightwing Aerie",
-            "units": "Two Nightwing Interceptors",
-            "extraUnits": [
-              "Add one Nightwing Interceptor: 75 Points"
-            ],
-            "points": 225
-          },
+        {
+          "name": "Nightwing Aerie",
+          "units": "Two Nightwing Interceptors",
+          "extraUnits": [
+            "Add one Nightwing Interceptor: 75 Points"
+          ],
+          "points": 225
+        },
         {
           "name": "Hemlock Aerie",
           "units": "Two Hemlock Wraithfighters",
@@ -253,7 +243,6 @@
           "name": "Corsair Vampire Hunter",
           "units": "One Corsair Vampire Hunter",
           "extraUnits": [
-
           ],
           "points": 225
         },
@@ -261,7 +250,6 @@
           "name": "Revenants",
           "units": "Two Revenant Titans",
           "extraUnits": [
-
           ],
           "points": 650
         },
@@ -294,8 +282,7 @@
         "name": "Windriders",
         "description": "Add up to three Vypers or Eldar Jetbikes",
         "points": "25 points each"
-    }
-
+      }
     ]
   }
 }
