@@ -8,7 +8,28 @@
           "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)) In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs may be targeted by Pin-Point attacks. H-AVs are treated like normal Armoured Vehicles in all other respects.",
           ""
         ]
-      }
+    },
+    {
+      "title": "Lance",
+      "description": [
+        "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves.",
+        ""
+      ]
+    },
+    {
+      "title": "Shield Piercer",
+      "description": [
+        "Weapons with the 'Shield Piercer' special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields and Void Shields (Shadowfields still provide cover from shooting).",
+        ""
+      ]
+    },
+    {
+      "title": "Shield Disruptor",
+      "description": [
+        "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
+        ""
+      ]
+    }
     ],
     "unit": [
       {
@@ -580,7 +601,7 @@
         "ff": 4,
         "weapons": [
           "Eldar Power Fist",
-          "Bright Lance"
+          "Twin Bright Lance"
         ],
         "specialRules": [
           "Fearless",
@@ -777,26 +798,50 @@
       {
         "name": "Skathach Wraithknight",
         "type": "H-AV",
-        "speed": 35,
+        "speed": 30,
         "cc": 4,
         "ff": 3,
         "weapons": [
-          "Deathshroud Cannon|2"
+          "Twin Deathshroud Cannon|0-1|",
+          "Twin Inferno Lance|0-1|",
+          "Twin Shuriken Cannon"
         ],
         "specialRules": [
           "Holofield (4+)",
           "Fearless",
-          "Walker"
-        ]
+          "Walker",
+          "Teleport"
+      ],
+      "notes": "Skathach Wraithknights are armed with either a Twin Deathshroud Cannon or Twin Inferno Lance."
       },
       {
         "name": "Wraithknight",
         "type": "H-AV",
-        "speed": 35,
-        "cc": 4,
+        "speed": 30,
+        "armour": 5,
+        "cc": 3,
         "ff": 4,
         "weapons": [
-          "Wraithknight Cannons"
+          "Twin Heavy Wraithcannons|0-1|",
+          "Ghostglaive and Scattershield|0-1|",
+          "Suncannon|0-1|"
+        ],
+        "specialRules": [
+         "Holofield (4+)",
+         "Reinforced Armour (Scattershield)",
+          "Fearless",
+          "Walker"
+      ],
+      "notes": "Must be armed with either Twin Heavy Wraithcannons, Ghostglaive and Scattershield, or a Suncannon. Spec[*]: Scattershield grants the model Reinforced Armour."
+      },
+      {
+        "name": "Fire Gale Knight",
+        "type": "H-AV",
+        "speed": 30,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Knight Pulse Laser"
         ],
         "specialRules": [
           "Holofield (4+)",
@@ -805,28 +850,14 @@
         ]
       },
       {
-        "name": "Fire Gale",
+        "name": "Bright Stallion Knight",
         "type": "H-AV",
         "speed": 35,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Knight Psychic Lance"
-        ],
-        "specialRules": [
-          "Holofield (4+)",
-          "Fearless",
-          "Walker"
-        ]
-      },
-      {
-        "name": "Bright Stallion",
-        "type": "H-AV",
-        "speed": 35,
-        "cc": 4,
-        "ff": 5,
-        "weapons": [
-          "Pulse Laser"
+          "Knight Psychic Lance",
+          "Scatter Laser"
         ],
         "specialRules": [
           "Holofield (4+)",
@@ -836,13 +867,16 @@
         ]
       },
       {
-        "name": "Towering Destroyer",
+        "name": "Towering Destroyer Knight",
         "type": "H-AV",
-        "speed": 35,
+        "speed": 25,
+        "armour": 5,
         "cc": 4,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
-          "Wraithknight Cannons"
+          "Knight Psychic Lance",
+          "Scatter Laser",
+          "Eldar Power Fist"
         ],
         "specialRules": [
           "Holofield (4+)",

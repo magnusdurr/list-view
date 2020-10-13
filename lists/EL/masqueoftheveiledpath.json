@@ -4,14 +4,12 @@
   "version": "0.6.2",
   "release": "2019-10-04",
   "strategy": "Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior, Harleqin, Titan and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Aspect Warriors, Harleqins, Crimson Hunters, Skathach Wraithknights and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
+      "Avatar (Lugganath)",
     "May not Garrison (Lugganath)",
     "Farsight",
     "Hit and Run",
-    "Lance",
-    "Shield Piercer",
-    "Shield Disruptor",
     "Webway Portal",
     "Holofields (x)",
     "Fleet of Foot",
@@ -51,9 +49,13 @@
         "Cobra",
         "Storm Serpent",
         "Scorpion",
-        "Revenant Titan"
+        "Skathach Wraithknight"
       ],
       "unitRules": [
+          "Lance",
+          "Shield Piercer",
+          "Shield Disruptor"
+
       ]
     },
     {
@@ -76,7 +78,7 @@
     {
       "from": "eldarNavy.json",
       "units": [
-        "Nightwing Interceptor",
+        "Nightshade Interceptor",
         "Hemlock Wraithfighter",
         "Corsair Vampire Hunter",
         "Wraithship",
@@ -98,6 +100,9 @@
         {
           "name": "1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
+          "extraUnits": [
+            "Add an additional Wraithgate: 75 points"
+          ],
           "points": 0
         }
       ]
@@ -224,13 +229,19 @@
       "name": "Craftworld Lugganath Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
+          {
+            "name": "Skathach Wraithknights",
+            "units": "Two Skathach Wraithknights (may not mix configurations)",
+            "extraUnits": [
+            ],
+            "points": 300
+          },
         {
-          "name": "Nightwing Aerie",
-          "units": "Two Nightwing Interceptors",
+          "name": "Crimson Hunters",
+          "units": "Two Nightshade Interceptors",
           "extraUnits": [
-            "Add one Nightwing Interceptor: 75 Points"
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Hemlock Aerie",
@@ -245,13 +256,6 @@
           "extraUnits": [
           ],
           "points": 225
-        },
-        {
-          "name": "Revenants",
-          "units": "Two Revenant Titans",
-          "extraUnits": [
-          ],
-          "points": 650
         },
         {
           "name": "0-1 Spacecraft",

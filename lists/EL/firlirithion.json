@@ -4,8 +4,9 @@
   "version": "0.6.0",
   "release": "2019-10-02",
   "strategy": "Fir Lirithion armies have a Strategy Rating of 4.",
-  "Initiative": "Titans and Knights have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Titans, Wraithknights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
+    "Avatar (Fir Lirithion)",
     "Farsight",
     "Hit and Run",
     "May not Garrison (Fir Lirithion)",
@@ -24,13 +25,12 @@
     {
       "from": "EL.json",
       "units": [
+          "Avatar",
         "Bonesinger",
         "Spiritseer",
         "Wraithblades",
         "Wraithguards",
         "Wraithlord",
-        "Fire Gale",
-        "Bright Stallion",
         "Wraithknight",
         "Scorpion",
         "Cobra",
@@ -46,7 +46,7 @@
       "from": "eldarNavy.json",
       "units": [
         "Nightwing Interceptor",
-        "Phoenix Bomber",
+        "Vampire Hunter",
         "Vampire Raider",
         "Wraithship",
         "Dragonship"
@@ -110,22 +110,8 @@
       "description": "Up to three Troupes for each Battle or Scout Titan formation.",
       "formations": [
         {
-          "name": "Fire Gale Troupe",
-          "units": "Two Fire Gale Knights",
-          "extraUnits": [
-          ],
-          "points": 300
-        },
-        {
-          "name": "Bright Stallion Troupe",
-          "units": "Two Bright Stallion Knights",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
           "name": "Wraithknight Troupe",
-          "units": "Three Wraithknights",
+          "units": "Three Wraithknights (may not mix configurations)",
           "extraUnits": [
           ],
           "points": 325
@@ -165,12 +151,11 @@
           "points": 225
         },
         {
-          "name": "Phoenix Aerie",
-          "units": "Two Phoenix Bombers",
+          "name": "Vampire Hunter",
+          "units": "One Vampire Hunter",
           "extraUnits": [
-            "Add one Phoenix Bomber: 75 Points"
           ],
-          "points": 250
+          "points": 325
         },
         {
           "name": "Vampire",

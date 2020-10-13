@@ -4,7 +4,7 @@
   "version": "0.6.3",
   "release": "2020-03-19",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "All Wraithkind Kabal and Harleqin formations, as well as the Wych Cult and Tormentor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Wraithkind Kabals, Harleqins, Wych Cult, and Tormentor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Fleet of Foot",
     "Hit and Run",
@@ -66,7 +66,8 @@
       "units": [
         "Razorwing Interceptor",
         "Voidraven Interdictor",
-        "Slavebringer Assault Boat"
+        "Slavebringer Assault Boat",
+        "Torture Class Cruiser"
       ],
       "unitRules": [
         "Shield Disruptor"
@@ -78,9 +79,12 @@
       "name": "Wraithkind Special",
       "formations": [
         {
-          "name": "1 Wraithgate",
+          "name": "1 Wraithgates",
           "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
-          "points": 0
+          "extraUnits": [
+            "Add an additional Wraithgate: 75 points"
+          ],
+            "points": 0
         }
       ]
     },
@@ -249,7 +253,14 @@
           "extraUnits": [
           ],
           "points": 200
-        }
+      },
+      {
+        "name": "0-1 Orbital Support",
+        "units": "One Torture Class Cruiser",
+        "extraUnits": [
+        ],
+        "points": 250
+      }
       ]
     }
   ],

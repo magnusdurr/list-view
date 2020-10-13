@@ -2510,6 +2510,18 @@
       ]
     },
     {
+      "name": "Twin Bright Lance",
+      "modes": [
+        {
+          "firepower": "AT4+",
+          "range": 30,
+          "specialRules": [
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Burning Chariot",
       "modes": [
         {
@@ -3313,13 +3325,25 @@
       ]
     },
     {
-      "name": "Deathshroud Cannon",
+      "name": "Twin Deathshroud Cannon",
       "modes": [
         {
-          "firepower": "AP4+/AT4+",
+          "firepower": "2BP",
           "range": 45,
           "specialRules": [
             "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Inferno Lance",
+      "modes": [
+        {
+          "firepower": "MW2+",
+          "range": 30,
+          "specialRules": [
+              "TK(1)"
           ]
         }
       ]
@@ -6066,11 +6090,11 @@
       "name": "Knight Psychic Lance",
       "modes": [
         {
-          "firepower": "2BP",
+          "firepower": "1BP",
           "range": 15,
           "specialRules": [
             "IC",
-            "TK(1)",
+            "MW",
             "Shield Disruptor"
           ]
         },
@@ -6078,9 +6102,7 @@
           "firepower": "Small Arms",
           "join": "and",
           "specialRules": [
-            "EA(+1)",
-            "IC",
-            "TK(1)",
+            "MW",
             "Shield Disruptor"
           ]
         }
@@ -7297,6 +7319,7 @@
           "firepower": "1BP",
           "range": 45,
           "specialRules": [
+              "Ind",
             "D"
           ]
         }
@@ -8394,6 +8417,17 @@
       "modes": [
         {
           "firepower": "2x AT4+",
+          "range": 45,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight Pulse Laser",
+      "modes": [
+        {
+          "firepower": "2x AT3+",
           "range": 45,
           "specialRules": [
           ]
@@ -12055,7 +12089,19 @@
       ]
     },
     {
-      "name": "Wraithknight Cannons",
+      "name": "Ghostglaive and Scattershield",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "MW",
+            "Spec[*]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Heavy Wraithcannons",
       "modes": [
         {
           "firepower": "MW3+",

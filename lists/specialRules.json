@@ -501,7 +501,7 @@
     {
       "title": "Avatar (Lugganath)",
       "description": [
-        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer or Spiritseer unit.",
         "The Avatar counts as its own formation and may only enter play in this manner.",
         "Remove the Avatar in the End Phase of that turn, before rallying formations. Once removed it may not return.",
         ""
@@ -520,6 +520,15 @@
       "title": "Avatar (Iyanden)",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Spiritseer, Wraithseer or Farseer unit.",
+        "The Avatar counts as its own formation and may only enter play in this manner.",
+        "Remove the Avatar in the End Phase of that turn, before rallying formations. Once removed it may not return.",
+        ""
+      ]
+    },
+    {
+      "title": "Avatar (Fir Lirithion)",
+      "description": [
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Spiritseer unit.",
         "The Avatar counts as its own formation and may only enter play in this manner.",
         "Remove the Avatar in the End Phase of that turn, before rallying formations. Once removed it may not return.",
         ""
@@ -673,15 +682,14 @@
     {
       "title": "Cegorach, the Laughing God",
       "description": [
-        "As long as there is at least one unit with a Harlequin Shadowseer character present on the battlefield, all enemy non-Harlequin formations counts as being within 30cm of an enemy unit (for the purposes of rally tests during the End Phase).",
+        "As long as there is at least one Harlequin Shadowseer or Solitaire present on the battlefield, all enemy non-Harlequin formations counts as being within 30cm of an enemy unit for the purposes of rally tests during the End Phase.",
         ""
       ]
     },
     {
       "title": "Shadowsight",
       "description": [
-        "Harlequin formations that include a unit with the Shadowsight ability may ignore the -1 penalty to Action Test rolls when attempting to retain the Initiative.",
-        "In addition units that Teleport within 15cm from a friendly, unbroken unit with Shadowsight (including from teleporting formations) may re-roll 1:s when testing for Teleport Mishap.",
+        "Units that Teleport within 15cm from a friendly, unbroken unit with Shadowsight may re-roll 1:s when testing for Teleport Mishap.",
         ""
       ]
     },
@@ -689,9 +697,8 @@
       "title": "Masters of the Webway",
       "description": [
         "Harlequins are the unparallelled masters of the Webway. This is represented by the following rules:",
-        "* Harlequin formations ignore, and do not count for, the one per turn or once per game limit that normally applies to Webway Portals.",
-        "* Must start the game in reserves, and may only enter the battlefield by using Teleport or a Webway portal. Do not count towards the maxiumum number of formations placed in reserve per Webway Portal.",
-        "* Harlequin formations may move back into the Webway using normal or consolidation movement. If they do so they counts as having re-entered the reserves. If broken, they must successfully rally before they can re-enter the table (either by Teleporting or through a Webway Portal).",
+        "* Must start the game in reserves, and may only enter the battlefield by using Teleport or a Webway portal.",
+        "* Harlequin formations may move back into the Webway using normal or consolidation movement. If they do so they counts as having re-entered the reserves, and may not return to the table on the same turn. This does not prevent other units from using the same Webway portal. If broken, they must successfully rally before they can re-enter the table (either by Teleporting or through a Webway Portal).",
         ""
       ]
     },

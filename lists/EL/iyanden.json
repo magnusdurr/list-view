@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "release": "2019-10-10",
   "strategy": "Craftworld Iyanden armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Aspect Warrior formations, Titans, Wraithknights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Avatar (Iyanden)",
     "May not Garrison (Iyanden)",
@@ -54,8 +54,7 @@
         "Storm Serpent",
         "Wraithknight",
         "Revenant Titan",
-        "Phantom Titan",
-        "Warlock Titan"
+        "Phantom Titan"
       ],
       "unitRules": [
       ]
@@ -235,7 +234,7 @@
         },
         {
           "name": "Wraithknights",
-          "units": "Three Wraithknights",
+          "units": "Three Wraithknights (may not mix configurations)",
           "extraUnits": [
           ],
           "points": 325
@@ -253,13 +252,6 @@
           "extraUnits": [
           ],
           "points": 700
-        },
-        {
-          "name": "0-1 Warlock Titan",
-          "units": "One Warlock Titan",
-          "extraUnits": [
-          ],
-          "points": 850
         },
         {
           "name": "0-1 Spacecraft",

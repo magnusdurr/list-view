@@ -31,6 +31,7 @@
         "Eldar Farseer",
         "Mounted Farseer",
         "Eldar Guardians",
+        "Eldar Rangers",
         "Eldar Heavy Weapons Platform",
         "Support Weapons Platform",
         "Eldar Jetbikes",
@@ -44,7 +45,7 @@
         "Warp Spiders",
         "Wraithguards",
         "Vyper",
-        "Ulthwé War Walker",
+        "War Walker",
         "Wraithlord",
         "Wave Serpent",
         "Falcon",
@@ -54,9 +55,8 @@
         "Scorpion",
         "Cobra",
         "Storm Serpent",
-        "Void Spinner",
-        "Fire Gale",
         "Wraithknight",
+        "Revenant Titan",
         "Warlock Titan"
       ],
       "unitRules": [
@@ -224,19 +224,20 @@
           "points": 325
         },
         {
-          "name": "Fire Gale Troupe",
-          "units": "Two Fire Gale Knights",
-          "extraUnits": [
-          ],
-          "points": 300
-        },
-        {
           "name": "Wraithknights",
-          "units": "Three Wraithknights",
+          "units": "Three Wraithknights (may not mix configurations)",
           "extraUnits": [
           ],
           "points": 325
         },
+        {
+          "name": "Revenant Titans",
+          "units": "Two Revenant Titans",
+          "extraUnits": [
+          ],
+          "points": 650
+        },
+
         {
           "name": "0-1 Warlock Titan",
           "units": "One Warlock Titan",
