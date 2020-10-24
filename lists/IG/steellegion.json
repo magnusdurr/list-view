@@ -101,7 +101,7 @@
           "units": "One Leman Russ Vanquisher with a Commissar, seven Leman Russ",
           "extraUnits": [
             "Flak",
-            "Griffon Battery",
+            "Griffons",
             "Hellhounds"
           ],
           "points": 500
@@ -136,7 +136,7 @@
           "name": "Mechanized Infantry Platoon",
           "units": "Six Infantry and three Chimeras",
           "extraUnits": [
-            "Add up to three Hellhounds: 25 points each"
+            "Hellhounds"
           ],
           "points": 225
         },
@@ -248,20 +248,11 @@
     "description": "Each upgrade may be taken once per formation. No more than three upgrades per Company",
     "items": [
       {
-        "name": "Fire Support Platoon*",
+        "name": "Fire Support*",
         "options": [
           {
             "description": "Add two or four Fire Support Squads",
             "points": "50 points for two, 100 points for four"
-          }
-        ]
-      },
-      {
-        "name": "Deathstrike",
-        "options": [
-          {
-            "description": "Add up to two Deathstrikes to the formation",
-            "points": "50 points each"
           }
         ]
       },
@@ -275,7 +266,7 @@
         ]
       },
       {
-        "name": "Griffon Battery",
+        "name": "Griffons",
         "options": [
           {
             "description": "Add three Griffons",
@@ -284,7 +275,7 @@
         ]
       },
       {
-        "name": "Hellhound Squadron",
+        "name": "Hellhounds",
         "options": [
           {
             "description": "Add up to three Hellhounds",
@@ -293,7 +284,7 @@
         ]
       },
       {
-        "name": "Infantry Platoon*",
+        "name": "Infantry*",
         "options": [
           {
             "description": "Add six Infantry",

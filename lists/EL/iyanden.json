@@ -21,7 +21,6 @@
     {
       "from": "EL.json",
       "units": [
-        "Wraithseer",
         "Spiritseer",
         "Avatar",
         "Eldar Exarch",
@@ -30,7 +29,6 @@
         "Eldar Heavy Weapons Platform",
         "Support Weapons Platform",
         "Eldar Rangers",
-        "Eldar Jetbikes",
         "Dire Avengers",
         "Fire Dragons",
         "Dark Reapers",
@@ -41,9 +39,9 @@
         "Warp Spiders",
         "Wraithguards",
         "Wraithblades",
-        "Vyper",
         "War Walker",
         "Wraithlord",
+        "Wraithseer",
         "Wave Serpent",
         "Falcon",
         "Fire Prism",
@@ -63,7 +61,7 @@
       "from": "eldarNavy.json",
       "units": [
         "Nightwing Interceptor",
-        "Phoenix Bomber",
+        "Hemlock Wraithfighter",
         "Vampire Raider",
         "Wraithship",
         "Dragonship"
@@ -93,7 +91,7 @@
       "formations": [
         {
           "name": "Spirit Guard Wraithhost",
-          "units": "One Spiritseer character, four Wraithguards",
+          "units": "One Wraithguards with a Spiritseer character, three Wraithguards",
           "extraUnits": [
             "Wraithguards",
             "Wraithlords",
@@ -104,7 +102,7 @@
         },
         {
           "name": "Spirit Blade Wraithhost",
-          "units": "One Spiritseer character, four Wraithblades",
+          "units": "One Wraithblades with a Spiritseer character, three Wraithblades",
           "extraUnits": [
             "Wraithguards",
             "Wraithlords",
@@ -115,11 +113,11 @@
         },
         {
           "name": "Spirit Walker Wraithhost",
-          "units": "One Spiritseer character, six Wraithlords",
+          "units": "One Wraithguards or Wraithblades with a Spiritseer character, five Wraithlords",
           "extraUnits": [
             "Wraithseer"
           ],
-          "points": 350
+          "points": 325
         }
       ]
     },
@@ -129,7 +127,7 @@
       "formations": [
         {
           "name": "Guardian Warhost",
-          "units": "One Farseer unit and seven Guardians",
+          "units": "One Farseer and seven Guardians",
           "extraUnits": [
             "Heavy Weapons",
             "Support Weapons",
@@ -142,7 +140,7 @@
         },
         {
           "name": "Aspect Warrior Troupe",
-          "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
+          "units": "Six Aspect Warriors chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
           "extraUnits": [
             "Exarch"
           ],
@@ -161,7 +159,6 @@
           "units": "Five Falcons",
           "extraUnits": [
             "Replace up to two Falcons with Firestorms: Free",
-            "OR",
             "Add five Guardians to the formation: 50 points"
           ],
           "points": 250
@@ -194,14 +191,6 @@
           "extraUnits": [
           ],
           "points": 150
-        },
-        {
-          "name": "Wind Rider Troupe",
-          "units": "Six Jetbikes",
-          "extraUnits": [
-            "Vypers"
-          ],
-          "points": 200
         }
       ]
     },
@@ -218,12 +207,13 @@
           "points": 225
         },
         {
-          "name": "Phoenix Aerie",
-          "units": "Three Phoenix Bombers",
+          "name": "Hemlock Aerie",
+          "units": "Two Hemlock Wraithfighters",
           "extraUnits": [
           ],
-          "points": 325
+          "points": 225
         },
+
         {
           "name": "Vampire",
           "units": "One Vampire Raider",
@@ -269,7 +259,7 @@
     "items": [
       {
         "name": "0-1 Wraithseer",
-        "description": "Replace one Spiritseer character with an Wraithseer",
+        "description": "Replace one Spiritseer character and its unit with a Wraithseer",
         "points": "100 points"
       },
       {

@@ -77,7 +77,7 @@
           "upgrades": [
             "Add a 'Uge Banner of Gork (Inspiring, 50 points) or a Big Banner of Mork (Leader, 25 points. May not be combined with Big Mek)"
           ],
-          "points": 775
+          "points": 750
         },
         {
           "name": "Gargant",
@@ -85,7 +85,7 @@
           "upgrades": [
             "Add a Big Banner of Mork (Leader): 25 points"
           ],
-          "points": 575
+          "points": 550
         }
       ]
     },
@@ -107,6 +107,17 @@
             "0-2: Flash Gitz: 35 points each"
           ],
           "points": 225
+        },
+        {
+          "name": "Bad Moons Blitz Brigade",
+          "units": "Any four of the following units: Deffkopta, Flakwagon, Gunwagon",
+          "extraUnits": [
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
+            "0-1: Flash Gitz: 35 points",
+            "0-1: Gunfortress: 100 points",
+            "0-1: Add one Oddboy character to a Gunfortress or Gunwagon: 50 points"
+          ],
+          "points": 150
         },
         {
           "name": "Bad Moons Fortressmob",
@@ -161,7 +172,7 @@
             "Add any number of Deff Dreads: 35 points each",
             "Add any number of Stompas: 60 points each",
             "0-1: Meka Dread: 60 points",
-            "0-1: Supa-Stompa: 250 points"
+            "0-1: Supa-Stompa: 225 points"
           ],
           "points": 175
         }

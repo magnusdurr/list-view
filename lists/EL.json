@@ -108,18 +108,6 @@
         "notes": "The Seer Council can be used to summon the Avatar."
       },
       {
-        "name": "Wraithseer",
-        "type": "CH",
-        "weapons": [
-          "Singing Spear"
-        ],
-        "specialRules": [
-          "Supreme Commander",
-          "Farsight"
-        ],
-        "notes": "Units with a Wraithseer can be used to summon the Avatar."
-      },
-      {
         "name": "Spiritseer",
         "type": "CH",
         "weapons": [
@@ -359,7 +347,7 @@
         "speed": 15,
         "armour": 4,
         "cc": 6,
-        "ff": 3,
+        "ff": 4,
         "weapons": [
           "Reaper Missile Launchers"
         ],
@@ -593,6 +581,26 @@
         ]
       },
       {
+        "name": "Wraithseer",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Wraith Cannon",
+          "Singing Spear"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Farsight",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker"
+        ],
+        "notes": "The Wraithseer can be used to summon the Avatar."
+      },
+      {
         "name": "Wraithlord",
         "type": "AV",
         "speed": 15,
@@ -696,8 +704,10 @@
           "Firestorm Battery"
         ],
         "specialRules": [
-          "Skimmer"
-        ]
+          "Skimmer",
+          "Transport"
+        ],
+        "notes": "May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Swooping Hawks."
       },
       {
         "name": "Lynx",
@@ -721,7 +731,7 @@
       {
         "name": "Scorpion",
         "type": "WE",
-        "speed": 30,
+        "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 5,
@@ -740,7 +750,7 @@
       {
         "name": "Cobra",
         "type": "WE",
-        "speed": 30,
+        "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 5,
@@ -760,7 +770,7 @@
       {
         "name": "Storm Serpent",
         "type": "WE",
-        "speed": 30,
+        "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 4,
@@ -780,7 +790,7 @@
       {
         "name": "Void Spinner",
         "type": "WE",
-        "speed": 30,
+        "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 5,

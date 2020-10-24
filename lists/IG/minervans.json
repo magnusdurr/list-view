@@ -79,7 +79,8 @@
             "Replace seven Leman Russ with seven Leman Russ Thunderers: Free",
             "Replace the Leman Russ Vanquisher with a Leman Russ Thunderer: Free",
             "Supreme Commander",
-            "Flak"
+            "Flak",
+            "Hellhounds"
           ],
           "points": 500
         },
@@ -89,7 +90,8 @@
           "extraUnits": [
             "Upgrade one Baneblade to a Stormhammer: 25 points",
             "Supreme Commander",
-            "Flak"
+            "Flak",
+            "Leman Russ"
           ],
           "points": 525
         },
@@ -114,7 +116,8 @@
           "units": "Four Leman Russ",
           "extraUnits": [
             "Replace four Leman Russ with four Leman Russ Executioners, four Leman Russ Exterminators, four Leman Russ Demolishers, four Leman Russ Punishers, four Leman Russ Thunderers, or four Leman Russ Conquerors",
-            "Hellhounds"
+            "Hellhounds",
+            "Flak"
           ],
           "points": 275
         },
@@ -122,7 +125,8 @@
           "name": "Mechanized Infantry Platoon",
           "units": "Six Infantry and three Chimeras",
           "extraUnits": [
-            "Hellhounds"
+            "Hellhounds",
+            "Leman Russ"
           ],
           "points": 225
         },
@@ -215,6 +219,24 @@
           {
             "description": "Replace one Commissar-Captain in the army with a Lord Commissar",
             "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Griffons",
+        "options": [
+          {
+            "description": "Add three Griffons",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ",
+        "options": [
+          {
+            "description": "Add three Leman Russ, three Leman Russ Executioners, three Leman Russ Exterminators, three Leman Russ Demolishers, three Leman Russ Punishers, three Leman Russ Thunderers, or three Leman Russ Conquerors",
+            "points": "150 points"
           }
         ]
       },
