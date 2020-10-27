@@ -45,7 +45,7 @@
         "Defiler",
         "Cerberite",
         "Forgefiend",
-        "Heldrake",
+
         "Hell-Strider",
         "Subjugator",
         "Questor",
@@ -55,8 +55,7 @@
         "Daemonic Assault Engine",
         "Lord of Battles",
         "Silver Tower",
-        "Warp Palace",
-        "Firelord"
+        "Warp Palace"
       ],
       "unitRules": [
         "Regeneration",
@@ -73,6 +72,15 @@
       ],
       "unitRules": []
     },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Heldrake",
+        "Firelord"
+      ],
+      "unitRules": [
+      ]
+  },
     {
       "from": "daemons.json",
       "units": [
@@ -241,7 +249,7 @@
         {
           "name": "Greater Daemon Pool",
           "units": "Any amount of Greater Daemon Pool points.",
-          "points": 50
+          "points": 75
         }
       ]
     }

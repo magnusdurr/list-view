@@ -55,9 +55,7 @@
       "units": [
         "Deciever",
         "Silver Tower",
-        "Warp Palace",
-        "Doomwing",
-        "Firelord"
+        "Warp Palace"
       ],
       "unitRules": [
         "Daemon Engine (x)"
@@ -86,6 +84,8 @@
     {
       "from": "chaosnavy.json",
       "units": [
+          "Doomwing",
+          "Firelord",
         "Devastation Class Cruiser"
       ],
       "unitRules": [

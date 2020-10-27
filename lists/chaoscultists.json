@@ -6,7 +6,7 @@
         "title": "Infestation",
         "description": [
           "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
-          "Formations containing any units with the infestation ability may only contest scenario objectives.",
+        "In addition units with the infestation ability may never contest scenario objectives.",
           ""
         ]
       },
@@ -144,7 +144,7 @@
         "name": "Mutants",
         "type": "INF",
         "speed": 15,
-        "armour": 6,
+        "armour": 5,
         "cc": 4,
         "ff": 6,
         "weapons": [
@@ -241,6 +241,7 @@
           "Heavy Stubber"
         ],
         "specialRules": [
+            "Transport"
         ],
         "notes": "May transport two infantry units without Mounted or Jump Packs."
       },
