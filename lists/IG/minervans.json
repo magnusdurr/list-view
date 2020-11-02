@@ -44,7 +44,8 @@
         "Stormhammer"
       ],
       "unitRules": [
-        "Lance"
+        "Lance",
+          "Shield Disruptor"
       ]
     },
     {
@@ -100,7 +101,6 @@
           "units": "Six Basilisks, one with a Commissar-Captain",
           "extraUnits": [
             "Replace six Basilisks with six Manticores: 50 points",
-            "Add up to two Deathstrikes to the formation: 50 points each",
             "Flak"
           ],
           "points": 400
@@ -134,8 +134,7 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks, three Bombards or four Medusa",
           "extraUnits": [
-            "Replace three Basilisks with three Manticores: 25 points",
-            "Add one Deathstrike to the formation: 50 points"
+            "Replace three Basilisks with three Manticores: 25 points"
           ],
           "points": 225
         },
@@ -152,6 +151,13 @@
           "extraUnits": [
           ],
           "points": 200
+        },
+        {
+          "name": "Deathstrike Battery",
+          "units": "Two Deathstrikes",
+          "extraUnits": [
+          ],
+          "points": 225
         },
         {
           "name": "Flak Battery",

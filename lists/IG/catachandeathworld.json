@@ -40,6 +40,7 @@
         "Shadowsword"
       ],
       "unitRules": [
+                    "Shield Disruptor"
       ]
     },
     {
@@ -106,7 +107,13 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks",
           "extraUnits": [
-            "Add one Deathstrike: 50 points"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Deathstrike Battery",
+          "units": "Two Deathstrikes",
+          "extraUnits": [
           ],
           "points": 225
         },

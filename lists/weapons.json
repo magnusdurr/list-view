@@ -534,7 +534,7 @@
       "name": "AC Flakka-Dakka Turrets",
       "modes": [
         {
-          "firepower": "D3+3x AP5+/AA6+",
+          "firepower": "D3+1x AP5+/AA6+",
           "range": 15,
           "specialRules": [
           ]
@@ -3523,11 +3523,12 @@
       "name": "Deathstrike Missile",
       "modes": [
         {
-          "firepower": "MW2+",
+          "firepower": "MW3+",
           "range": "Unlimited",
           "specialRules": [
             "SS",
-            "TK(D6)"
+            "Ind",
+            "TK(D3)"
           ]
         }
       ]
@@ -11869,6 +11870,24 @@
       ]
     },
     {
+      "name": "Warp Blast",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+/AA6+",
+          "range": 45,
+          "specialRules": [
+          ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Warp Bolt",
       "modes": [
         {
@@ -11880,6 +11899,7 @@
         }
       ]
     },
+
     {
       "name": "Warpfire of Tzeentch",
       "modes": [

@@ -43,7 +43,8 @@
         "Shadowsword"
       ],
       "unitRules": [
-        "Heavy Armoured Vehicle (H-AV)"
+        "Heavy Armoured Vehicle (H-AV)",
+          "Shield Disruptor"
       ]
     },
     {
@@ -126,8 +127,7 @@
           "units": "Four Medusa Guns, four Gun Emplacements",
           "extraUnits": [
             "Replace four Gun Emplacements with four Trojans: 25 points",
-            "Replace four Medusa Guns with four Earthshaker Guns: 25 points",
-            "Deathstrike"
+            "Replace four Medusa Guns with four Earthshaker Guns: 25 points"
           ],
           "points": 250
         },
@@ -145,6 +145,13 @@
           "extraUnits": [
           ],
           "points": 200
+        },
+        {
+          "name": "Deathstrike Battery",
+          "units": "Two Deathstrikes",
+          "extraUnits": [
+          ],
+          "points": 225
         },
         {
           "name": "Super-Heavy Platoon",
@@ -221,15 +228,6 @@
           {
             "description": "Add up to three Bane Wolves",
             "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Deathstrike",
-        "options": [
-          {
-            "description": "Add one Deathstrike",
-            "points": "50 points"
           }
         ]
       },

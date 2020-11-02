@@ -41,6 +41,7 @@
         "Baneblade"
       ],
       "unitRules": [
+          "Shield Disruptor"
       ]
     },
     {
@@ -121,7 +122,6 @@
           "units": "One Commissar, six Basilisks",
           "extraUnits": [
             "Replace six Basilisks with Manticores: 50 points",
-            "Add up to two Deathstrikes to the formation: 50 points each",
             "Flak"
           ],
           "points": 400
@@ -144,8 +144,14 @@
           "name": "Artillery Battery",
           "units": "Three Basilisks or three Bombards",
           "extraUnits": [
-            "Replace three Basilisks with three Manticores: 25 points",
-            "Add one Deathstrike: 50 points"
+            "Replace three Basilisks with three Manticores: 25 points"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Deathstrike Battery",
+          "units": "Two Deathstrikes",
+          "extraUnits": [
           ],
           "points": 225
         },
