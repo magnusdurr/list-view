@@ -160,7 +160,14 @@
           "extraUnits": [
           ],
           "points": 275
-        }
+      },
+      {
+        "name": "Griffon Battery",
+        "units": "Three Griffons",
+        "extraUnits": [
+        ],
+        "points": 175
+      }
       ]
     },
     {
@@ -329,11 +336,8 @@
         "name": "Griffons",
         "options": [
           {
-            "description": "Add one, or add three Griffons",
-            "points": [
-              "One Griffon: 25 points",
-              "Three Griffons: 50 points"
-            ]
+            "description": "Add one Griffon",
+            "points": "25 points"
           }
         ]
       },

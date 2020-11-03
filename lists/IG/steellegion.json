@@ -125,7 +125,14 @@
             "Flak"
           ],
           "points": 400
-        }
+      },
+      {
+        "name": "Griffon Battery",
+        "units": "Three Griffons",
+        "extraUnits": [
+        ],
+        "points": 175
+      }
       ]
     },
     {
@@ -267,15 +274,6 @@
         "options": [
           {
             "description": "Add one Hydra",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Griffons",
-        "options": [
-          {
-            "description": "Add three Griffons",
             "points": "50 points"
           }
         ]
