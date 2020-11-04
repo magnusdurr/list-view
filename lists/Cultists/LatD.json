@@ -44,7 +44,6 @@
       "units": [
         "Defiler",
         "Cerberite",
-        "Forgefiend",
 
         "Hell-Strider",
         "Subjugator",
@@ -104,11 +103,11 @@
       "formations": [
         {
           "name": "Cultist Coven",
-          "units": "One Aspiring Champion or Demagogue, nine Chaos Cultists and/or Mutants, Daemonic Pact",
+          "units": "One Aspiring Champion, nine Chaos Cultists and/or Mutants, Daemonic Pact",
           "extraUnits": [
             "All"
           ],
-          "points": 225
+          "points": 200
         }
       ]
     },
@@ -130,13 +129,6 @@
           "extraUnits": [
           ],
           "points": 175
-        },
-        {
-          "name": "Forgefiends of Chaos Undivided",
-          "units": "Three Forgefiends",
-          "upgrades": [
-          ],
-          "points": 225
         },
         {
           "name": "Defilers of Chaos Undivided",
@@ -269,10 +261,15 @@
             "points": "50 points"
           },
           {
-            "description": "Replace a Demagogue or Aspiring Champion with a Daemon Prince",
+            "description": "Replace an Aspiring Champion with a Daemon Prince",
             "points": "100 points"
           }
         ]
+      },
+      {
+        "name": "Demagogue",
+        "description": "Replace the Aspiring Champion with a Demagogue",
+        "points": "25 points"
       },
       {
         "name": "Icon Bearer",
