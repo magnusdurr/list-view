@@ -22,13 +22,14 @@
         "Chaplain",
         "Librarian",
         "Supreme Commander",
-        "Scouts",
-        "Tacticals",
-        "Terminators",
         "Assault Centurions",
         "Devastator Centurions",
+        "Devastators",
+        "Scouts",
         "Space Marine Rapier",
         "Space Marine Thunderfire",
+        "Tacticals",
+        "Terminators",
         "Land Speeder",
         "Land Speeder Tornado",
         "Land Speeder Typhoon",
@@ -38,6 +39,7 @@
         "Hunter",
         "Stalker",
         "Land Raider",
+        "Land Raider Achilles",
         "Land Raider Crusader",
         "Predator Annihilator",
         "Predator Destructor",
@@ -46,13 +48,12 @@
         "Siege Rhino",
         "Whirlwind",
         "Vindicator",
-        "Storm Talon",
-        "Typhon Heavy Siege Tank",
-        "Fellblade"
+        "Bastion",
+        "Fellblade",
+        "Storm Talon"
       ],
       "unitRules": [
-        "They Shall Know No Fear",
-        "Heavy Armoured Vehicle (H-AV)"
+        "They Shall Know No Fear"
       ]
     },
     {
@@ -80,58 +81,52 @@
       "name": "Imperial Fists Core Detachments",
       "formations": [
         {
-          "name": "Tacticals",
-          "units": "Six Tacticals plus transport",
-          "extraUnits": [
-            "Support Weapons",
-            "Anti-Air",
-            "Commander",
-            "Land Raider Transport",
-            "Vindicators",
-            "Razorbacks"
-          ],
-          "points": 275
-        },
-        {
           "name": "Devastators",
           "units": "Four Devastators plus transport",
           "extraUnits": [
-            "Support Weapons",
+            "Achilles",
             "Anti-Air",
             "Commander",
             "Land Raider Transport",
-            "Vindicators",
-            "Razorbacks"
+            "Razorbacks",
+            "Support Weapons",
+            "Vindicators"
           ],
           "points": 250
-        },
-        {
-          "name": "Whirlwinds",
-          "units": "Four Whirlwinds",
-          "extraUnits": [
-            "Add two Whirlwinds: 75 points",
-            "Anti-Air",
-            "Commander"
-          ],
-          "points": 275
         },
         {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
           "extraUnits": [
             "Add one Land Raider: 75 points",
-            "Vindicators",
-            "Anti-Air"
+            "Achilles",
+            "Anti-Air",
+            "Commander",
+            "Vindicators"
           ],
           "points": 250
+        },
+        {
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
+          "extraUnits": [
+            "Achilles",
+            "Anti-Air",
+            "Commander",
+            "Land Raider Transport",
+            "Razorbacks",
+            "Support Weapons",
+            "Vindicators"
+          ],
+          "points": 275
         },
         {
           "name": "Vindicators",
           "units": "Four Vindicators",
           "extraUnits": [
-            "Vindicators",
             "Anti-Air",
-            "Commander"
+            "Commander",
+            "Vindicators"
           ],
           "points": 225
         }
@@ -163,9 +158,10 @@
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "extraUnits": [
-            "Vindicators",
+            "Commander",
             "Razorbacks",
-            "Snipers"
+            "Snipers",
+            "Vindicators"
           ],
           "points": 150
         },
@@ -173,21 +169,23 @@
           "name": "Terminators",
           "units": "Four Terminators",
           "extraUnits": [
-            "Vindicators",
+            "Achilles",
             "Commander",
-            "Land Raider Transport"
+            "Land Raider Transport",
+            "Vindicators"
           ],
-          "points": 325
+          "points": 350
         },
         {
           "name": "Centurions",
-          "units": "Four Assault Centurions and/or Devastator Centurions",
+          "units": "Four Assault and/or Devastator Centurions",
           "extraUnits": [
-            "Vindicators",
-            "Dreadnoughts",
-            "Land Raider Transport"
+            "Achilles",
+            "Commander",
+            "Land Raider Transport",
+            "Vindicators"
           ],
-          "points": 250
+          "points": 275
         },
         {
           "name": "Support Battery",
@@ -199,16 +197,18 @@
           "points": 250
         },
         {
-          "name": "0-1 Heavy Siege Relics",
-          "units": "Two Typhon Heavy Siege Tanks",
+          "name": "Whirlwinds",
+          "units": "Four Whirlwinds",
           "extraUnits": [
-            "Add one Typhon Heavy Siege Tank: 125 points"
+            "Add two Whirlwinds: 75 points",
+            "Anti-Air",
+            "Commander"
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "0-1 Fellblade Relics",
-          "units": "Fellblade",
+          "units": "One Fellblade",
           "extraUnits": [
             "Add one Fellblade: 250 points"
           ],
@@ -221,6 +221,14 @@
       "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula Emplacement or Hyperios Emplacement for each Scout detachment.",
       "formations": [
         {
+          "name": "Bastion",
+          "units": "One Bastion and two Space Marine Rapiers or Space Marine Thunderfires",
+          "extraUnits": [
+            "Add two Space Marine Rapiers or Space Marine Thunderfires: 75 points"
+          ],
+          "points": 275
+        },
+        {
           "name": "Fortifications",
           "units": "Two Bunkers, and 60cm Trenches and/or Minefields (exact proportions to be decided at the start of the game, before deploying objectives.)",
           "points": 50
@@ -228,29 +236,21 @@
         {
           "name": "Tarantula Emplacement",
           "units": "Four Tarantulas, four Gun Emplacements",
-          "extraUnits": [
-          ],
-          "points": 100
+          "points": 125
         },
         {
           "name": "Hyperios Emplacement",
           "units": "Three Hyperios Sentries, three Gun Emplacements",
-          "extraUnits": [
-          ],
-          "points": 150
+          "points": 125
         },
         {
           "name": "Storm Talons",
           "units": "Two Storm Talons",
-          "extraUnits": [
-          ],
           "points": 200
         },
         {
           "name": "Reaver",
           "units": "One Reaver Titan",
-          "extraUnits": [
-          ],
           "points": 600
         }
       ]
@@ -261,18 +261,22 @@
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
-        "name": "Support Weapons",
-        "description": "Replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
-        "points": [
-          "50 points for two",
-          "125 points for four"
-        ]
+        "name": "Achilles",
+        "description": "0-1 Replace any number of Land Raiders with Land Raider Achilles",
+        "points": "25 points"
       },
       {
-        "name": "Dreadnoughts",
-        "description": "Add any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
-        "points": [
-          "50 points each"
+        "name": "Anti-Air",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          }
         ]
       },
       {
@@ -294,17 +298,10 @@
         ]
       },
       {
-        "name": "Anti-Air",
-        "description": "Add any one of the following units to the formation",
-        "options": [
-          {
-            "description": "Add one Hunter",
-            "points": "75 points"
-          },
-          {
-            "description": "Add one Stalker",
-            "points": "50 points"
-          }
+        "name": "Dreadnoughts",
+        "description": "Add any two of the following: Dreadnought, Hellfire Dreadnought, Siege Dreadnought",
+        "points": [
+          "50 points each"
         ]
       },
       {
@@ -321,6 +318,14 @@
         "name": "Snipers",
         "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",
         "points": "25 points"
+      },
+      {
+        "name": "Support Weapons",
+        "description": "Replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
+        "points": [
+          "50 points for two",
+          "125 points for four"
+        ]
       },
       {
         "name": "Typhoons",

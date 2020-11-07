@@ -551,7 +551,7 @@
         "name": "Space Marine Rapier",
         "type": "INF",
         "speed": 10,
-        "armour": 6,
+        "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
@@ -564,7 +564,7 @@
         "name": "Space Marine Thudd Gun",
         "type": "INF",
         "speed": 10,
-        "armour": 6,
+        "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
@@ -577,7 +577,7 @@
         "name": "Space Marine Thunderfire",
         "type": "INF",
         "speed": 10,
-        "armour": 6,
+        "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
@@ -748,16 +748,16 @@
         "name": "Assault Centurions",
         "type": "INF",
         "speed": 15,
-        "armour": 3,
-        "cc": 3,
-        "ff": 5,
+        "armour": 5,
+        "cc": 4,
+        "ff": 4,
         "weapons": [
+          "Heavy Flamer",
           "Hurricane Bolters",
-          "Flamers",
           "Siege Drills"
         ],
         "specialRules": [
-          "Thick Rear Armour"
+          "Reinforced Armour"
         ],
         "notes": "Counts as Terminators for being transported."
       },
@@ -765,15 +765,16 @@
         "name": "Devastator Centurions",
         "type": "INF",
         "speed": 15,
-        "armour": 3,
-        "cc": 6,
+        "armour": 5,
+        "cc": 5,
         "ff": 4,
         "weapons": [
-          "Missile Launcher|2|",
-          "Twin Heavy Bolter|2|"
+          "Missile Launcher",
+          "Twin Lascannon",
+          "Twin Heavy Bolter"
         ],
         "specialRules": [
-          "Thick Rear Armour"
+          "Reinforced Armour"
         ],
         "notes": "Counts as Terminators for being transported."
       },
@@ -1933,12 +1934,11 @@
           "Twin Multi-Melta|2|"
         ],
         "specialRules": [
-          "Leader",
           "Reinforced Armour",
           "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
+        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
       },
       {
         "name": "Land Raider Anvilarum",
@@ -2002,7 +2002,7 @@
         "ff": 5,
         "weapons": [
           "Twin Lascannon|2",
-          "Twin Hyperios Launcher|0-1",
+          "Hyperios Launcher|0-1",
           "Whirlwind Launcher|0-1"
         ],
         "specialRules": [
@@ -2052,21 +2052,21 @@
         "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
-        "name": "Typhon Heavy Siege Tank",
-        "type": "H-AV",
-        "speed": 20,
+        "name": "Bastion",
+        "type": "WE",
+        "speed": "0",
         "armour": 4,
-        "cc": 6,
         "ff": 5,
         "weapons": [
-          "Dreadhammer Siege Cannon",
-          "Lascannon|2|"
+          "Twin Hyperios Launcher",
+          "Twin Heavy Bolter|2|"
         ],
         "specialRules": [
+          "Fearless",
           "Reinforced Armour",
-          "Thick Rear Armour",
-          "Walker"
-        ]
+          "Thick Rear Armour"
+        ],
+        "notes": "May transport any units bought as part of the same formation. May not transport units from other formations. Transported units may shoot and use their firefight in an assault. The unit counts as rubble once it is destroyed. Critical Hit Effect: The unit takes an extra point of damage."
       },
       {
         "name": "Fellblade",
