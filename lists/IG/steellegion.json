@@ -102,7 +102,6 @@
           "units": "One Leman Russ Vanquisher with a Commissar, seven Leman Russ",
           "extraUnits": [
             "Flak",
-            "Griffons",
             "Hellhounds"
           ],
           "points": 500
@@ -125,13 +124,6 @@
             "Flak"
           ],
           "points": 400
-      },
-      {
-        "name": "Griffon Battery",
-        "units": "Three Griffons",
-        "extraUnits": [
-        ],
-        "points": 175
       }
       ]
     },
@@ -162,6 +154,13 @@
           ],
           "points": 225
         },
+        {
+          "name": "Griffon Battery",
+          "units": "Three Griffons",
+          "extraUnits": [
+          ],
+          "points": 175
+      },
         {
           "name": "Flak Battery",
           "units": "Three Hydras",
