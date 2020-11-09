@@ -2054,7 +2054,7 @@
       {
         "name": "Bastion",
         "type": "WE",
-        "speed": "0",
+        "speed": "Immobile",
         "armour": 4,
         "ff": 5,
         "weapons": [
@@ -2062,11 +2062,13 @@
           "Twin Heavy Bolter|2|"
         ],
         "specialRules": [
+            "Damage Capacity: 3",
           "Fearless",
           "Reinforced Armour",
-          "Thick Rear Armour"
+          "Thick Rear Armour",
+          "Transport"
         ],
-        "notes": "May transport any units bought as part of the same formation. May not transport units from other formations. Transported units may shoot and use their firefight in an assault. The unit counts as rubble once it is destroyed.",
+        "notes": "May transport four Space Marine Rapiers, Thudd Guns or Thunderfire Cannons. May not transport units from other formations. Transported units may shoot and use their firefight in an assault. The unit counts as a ruins terrain piece once destroyed.",
         "crit": "The unit takes an extra point of damage."
       },
       {
