@@ -213,9 +213,10 @@
       },
       {
         "name": "Chaos Tarantula",
-        "type": "INF",
+        "type": "LV",
         "speed": "Immobile",
-        "ff": 5,
+        "armour": 5,
+        "ff": 4,
         "weapons": [
           "Reaper Autocannon"
         ],
@@ -630,28 +631,27 @@
       },
       {
         "name": "Knight-Dreadblade",
-        "type": "WE",
+        "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Twin Reaper Autocannon||FwA",
+          "Twin Reaper Autocannon",
           "Renegade Chainsword",
           ">Incarnate Slaughter<",
           "Hyperwave Clarion",
           "Thunderstrike Gauntlet",
           ">Gilded King<",
-          "Rapid Fire Battle Cannon||FwA",
-          "Ironstorm Missile Pod||FwA",
+          "Rapid Fire Battle Cannon",
+          "Ironstorm Missile Pod",
           ">Hatred of Krastellan<",
           "Heavy Neutron Laser",
           ">Litany of Destruction<",
-          "Laser Destructor||FwA",
-          "Stormspear Rocket Pod||FwA"
+          "Laser Destructor",
+          "Stormspear Rocket Pod"
         ],
         "specialRules": [
-          "Damage Capacity: 2",
           "Fearless",
           "Reinforced Armour",
           "Thick Rear Armour",
@@ -659,8 +659,7 @@
           "Invulnerable Save",
           "Daemonic Focus",
           "Daemon Engine (Chaos Undivided)"
-        ],
-        "crit": "The Knight-Dreadblade is destroyed."
+        ]
       },
       {
         "name": "Warp Altar",

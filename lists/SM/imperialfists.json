@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Imperial Fists",
-  "version": "0.5.2",
-  "release": "2020-04-18",
+  "version": "0.6.0",
+  "release": "2020-11-10",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "Tarantula and Hyperios Emplacement formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all non-'Machine Spirit' Imperial Fists detachments.",
@@ -69,7 +69,7 @@
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Reaver Titan"
+          "Reaver Titan, Goth Class"
       ],
       "unitRules": [
         "Void Shields"
@@ -90,9 +90,10 @@
             "Land Raider Transport",
             "Razorbacks",
             "Support Weapons",
-            "Vindicators"
+            "Vindicators",
+            "Dreadnoughts"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Land Raiders",
@@ -174,7 +175,7 @@
             "Land Raider Transport",
             "Vindicators"
           ],
-          "points": 350
+          "points": 325
         },
         {
           "name": "Centurions",
@@ -218,7 +219,7 @@
     },
     {
       "name": "Imperial Fists Static Defenses, Navy & Titan Legion Allies",
-      "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula Emplacement or Hyperios Emplacement for each Scout detachment.",
+      "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula or Hyperios formation for each Scout detachment.",
       "formations": [
         {
           "name": "Bastion",
@@ -234,14 +235,14 @@
           "points": 50
         },
         {
-          "name": "Tarantula Emplacement",
-          "units": "Four Tarantulas, four Gun Emplacements",
+          "name": "Tarantula",
+          "units": "Four Tarantulas",
           "points": 125
         },
         {
-          "name": "Hyperios Emplacement",
-          "units": "Three Hyperios Sentries, three Gun Emplacements",
-          "points": 125
+          "name": "Hyperios",
+          "units": "Three Hyperios Sentries",
+          "points": 150
         },
         {
           "name": "Storm Talons",
@@ -250,7 +251,7 @@
         },
         {
           "name": "Reaver",
-          "units": "One Reaver Titan",
+          "units": "One Reaver Titan (Goth Class)",
           "points": 600
         }
       ]

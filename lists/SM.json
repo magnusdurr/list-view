@@ -1630,7 +1630,7 @@
           "Extended Command",
           "Transport"
         ],
-        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+        "notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Blood Angels Rhino",
@@ -2058,7 +2058,7 @@
         "armour": 4,
         "ff": 5,
         "weapons": [
-          "Twin Hyperios Launcher",
+          "Hyperios Launcher",
           "Twin Heavy Bolter|2|"
         ],
         "specialRules": [
@@ -2068,8 +2068,8 @@
           "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport four Space Marine Rapiers, Thudd Guns or Thunderfire Cannons. May not transport units from other formations. Transported units may shoot and use their firefight in an assault. The unit counts as a ruins terrain piece once destroyed.",
-        "crit": "The unit takes an extra point of damage."
+        "notes": "May transport four Space Marine Rapiers, or Space Marine Thunderfire Cannons. May not transport units from other formations. Transported units may shoot and use their firefight in an assault. The unit counts as a ruins terrain piece once destroyed.",
+        "crit": "The unit takes an extra point of damage. 1D3 random units inside takes a hit."
       },
       {
         "name": "Fellblade",

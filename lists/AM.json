@@ -320,9 +320,10 @@
       },
       {
         "name": "Tarantula",
-        "type": "INF",
+        "type": "LV",
         "speed": "Immobile",
-        "ff": "6+/5",
+        "armour": 5,
+        "ff": "5+/4",
         "weapons": [
           {
             "name": "0-1x Twin Lascannon",
@@ -348,12 +349,13 @@
           "Fearless",
           "Expendable"
         ],
-        "notes": "Armed with either Twin Lascannon or Twin Heavy Bolter. Tarantulas armed with Twin Heavy Bolter have their firefight value increased to 5+."
+        "notes": "Armed with either Twin Lascannon or Twin Heavy Bolter. Tarantulas armed with Twin Heavy Bolter have their firefight value increased to 4+."
       },
       {
         "name": "Hyperios Sentry",
         "type": "LV",
         "speed": "Immobile",
+        "armour": 6,
         "ff": 6,
         "weapons": [
           "Hyperios Launcher"
