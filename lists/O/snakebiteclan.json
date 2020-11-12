@@ -57,8 +57,8 @@
             "Add up to two Nobz: 35 points each",
             "Add up to two Wyrdboyz: 50 points each",
             "Any number of Squiggoths: 40 points each",
-            "Add up to one Gargantuan Squiggoth: 115 points",
-            "Add up to one Orkeosaurus: 200 points",
+            "Add up to one Gargantuan Squiggoth: 100 points",
+            "Add up to one Orkeosaurus: 175 points",
             "Add up to one Steam Gargant: 200 points"
           ],
           "points": 225
@@ -73,21 +73,17 @@
             "Add up to one Nobz: 35 points each",
             "Add up to one Wyrdboy: 50 points",
             "Any number of Squiggoths: 40 points each",
-            "Add up to one Gargantuan Squiggoth: 115 points",
-            "Add up to one Orkeosaurus: 200 points (Big formations only)"
+            "Add up to one Gargantuan Squiggoth: 100 points",
+            "Add up to one Orkeosaurus: 175 points (Big formations only)"
           ],
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "175"
+              "points": "150"
             },
             {
               "name": "Big",
-              "points": "300"
-            },
-            {
-              "name": "'Uge",
-              "points": "N/A"
+              "points": "275"
             }
           ]
         },
@@ -114,11 +110,11 @@
             },
             {
               "name": "Big",
-              "points": "250"
+              "points": "225"
             },
             {
               "name": "'Uge",
-              "points": "350"
+              "points": "325"
             }
           ]
         },
@@ -162,15 +158,15 @@
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "250"
+              "points": "225"
             },
             {
               "name": "Big",
-              "points": "450"
+              "points": "375"
             },
             {
               "name": "'Uge",
-              "points": "650"
+              "points": "525"
             }
           ]
         }

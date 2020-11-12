@@ -109,7 +109,8 @@
           "Fist of Gork"
         ],
         "specialRules": [
-        ]
+        ]m
+        "notes": "May only be added to INF units."
       },
       {
         "name": "Pigdok",
@@ -1091,7 +1092,7 @@
           "Big Gun"
         ],
         "specialRules": [
-          "Damage Capacity: 2",
+          "Damage Capacity: 3",
           "Walker",
           "Transport"
         ],
@@ -1111,12 +1112,12 @@
           "Big Gun|2|"
         ],
         "specialRules": [
-          "Damage Capacity: 5",
+          "Damage Capacity: 6",
           "Walker",
           "Transport"
         ],
         "notes": "May carry up to sixteen of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to six Grotz in addition to any other units.",
-        "crit": "The Orkeosaurus takes one additional damage, and immediately rampages 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Orkeosaurus into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+."
+        "crit": "The Orkeosaurus takes one additional damage, and D3 units being carried by it takes a hit."
       },
       {
         "name": "Steam Gargant",
@@ -1124,14 +1125,14 @@
         "speed": "15cm",
         "armour": 4,
         "cc": 4,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Fist of Gork",
           "Soopagun|0-2|FxF",
           "Mega-Choppa|0-2|"
         ],
         "specialRules": [
-          "Damage Capacity: 4",
+          "Damage Capacity: 3",
           "Fearless",
           "Reinforced Armour",
           "Walker"
