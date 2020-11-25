@@ -36,7 +36,6 @@
         "Chaos Vindicator",
         "Chaos Dreadnought",
         "Chaos Siege Dreadnought",
-        "Chaos Stalker",
         "Iron Warriors Stormsword"
       ],
       "unitRules": [
@@ -78,7 +77,7 @@
             "Replace two Chaos Space Marines with two Havocs: 25 points",
             "Supreme Commander",
             "Transport",
-            "Stalker",
+            "Obliterators",
             "Dreadclaws",
             "Vindicators",
             "Dreadnoughts"
@@ -89,8 +88,7 @@
           "name": "Iron Warriors Armoured Company",
           "units": "Six Chaos Vindicators",
           "extraUnits": [
-            "Replace six Chaos Vindicators with six Chaos Predators (50 points) or six Chaos Land Raiders (150 points)",
-            "Stalker"
+            "Replace six Chaos Vindicators with six Chaos Predators (50 points) or six Chaos Land Raiders (150 points)"
           ],
           "points": 250
         },
@@ -99,7 +97,6 @@
           "units": "One Iron Warriors Warpsmith, four Havocs, two Chaos Land Raiders",
           "extraUnits": [
             "Supreme Commander",
-            "Stalker",
             "Vindicators"
           ],
           "points": 300
@@ -121,7 +118,7 @@
         },
         {
           "name": "Bezashk Destroyers",
-          "units": "Four Bezashk Destroyers",
+          "units": "One Iron Warriors Warpsmith, four Bezashk Destroyers",
           "extraUnits": [
             "Vindicators"
           ],
@@ -211,7 +208,7 @@
           "units": "One Ordinatus Cyclothrathe",
           "extraUnits": [
           ],
-          "points": 475
+          "points": 450
         },
         {
           "name": "Heldrakes",
@@ -263,8 +260,12 @@
         "name": "Transport",
         "options": [
           {
-            "description": "Add up to three Chaos Rhinos and/or Chaos Siege Rhinos",
+            "description": "Add up to three Chaos Rhinos",
             "points": "10 points each"
+          },
+          {
+            "description": "Add up to three Chaos Siege Rhinos",
+            "points": "15 points each"
           },
           {
             "description": "Add up to three Chaos Land Raiders",
@@ -285,11 +286,6 @@
         "name": "Dreadnoughts",
         "description": "Add up to two Chaos Dreadnoughts, or up to two Siege Dreadnoughts",
         "points": "50 points each"
-      },
-      {
-        "name": "Stalker",
-        "description": "Add one Chaos Stalker",
-        "points": "50 points"
       },
       {
         "name": "Dreadclaws",
