@@ -95,19 +95,18 @@
         },
         {
           "name": "Assaults",
-          "units": "Four Assaults",
+          "units": "Six Assaults",
           "extraUnits": [
             "Sanguinary Guard",
             "Commander",
             "Predators"
           ],
-          "points": 175
+          "points": 225
         },
         {
           "name": "Baal Predators",
           "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
           "extraUnits": [
-            "Commander",
             "Anti-Air"
           ],
           "points": 250
@@ -122,7 +121,6 @@
           "name": "Land Raiders",
           "units": "Any four of the following units: Land Raider, Land Raider Redeemer",
           "extraUnits": [
-            "Commander",
             "Anti-Air"
           ],
           "points": 325
@@ -152,7 +150,6 @@
           "name": "Land Speeder",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
           "extraUnits": [
-            "Commander",
             "Typhoons"
           ],
           "points": 200
@@ -161,7 +158,6 @@
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "extraUnits": [
-            "Commander",
             "Razorbacks",
             "Snipers"
           ],
@@ -181,8 +177,7 @@
           "name": "Whirlwinds",
           "units": "Four Whirlwinds",
           "extraUnits": [
-            "Anti-Air",
-            "Commander"
+            "Anti-Air"
           ],
           "points": 275
         },
@@ -250,8 +245,8 @@
       },
       {
         "name": "(0–1 in the army) Sanguinary Guard",
-        "description": "Add two Sanguinary Guards to a formation with a Supreme Commander character, adding it to either unit.",
-        "points": "75 points"
+        "description": "Replace two Assaults with Sanguinary Guards in a formation with a Supreme Commander character, adding it to either unit.",
+        "points": "50 points"
       },
       {
         "name": "Commander",
