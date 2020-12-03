@@ -12089,6 +12089,22 @@
       ]
     },
     {
+      "name": "Wraith Cannon",
+      "modes": [
+        {
+          "firepower": "MW5+",
+          "range": 15
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Wraith Cannons",
       "modes": [
         {

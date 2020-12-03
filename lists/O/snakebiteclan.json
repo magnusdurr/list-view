@@ -74,30 +74,33 @@
             "Add up to one Wyrdboy: 50 points",
             "Any number of Squiggoths: 40 points each",
             "Add up to one Gargantuan Squiggoth: 100 points",
-            "Add up to one Orkeosaurus: 175 points (Big formations only)"
+            "Add up to one Orkeosaurus: 175 points"
           ],
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "150"
+              "points": "175"
             },
             {
               "name": "Big",
-              "points": "275"
-            }
+              "points": "300"
+          },
+          {
+            "name": "Huge",
+            "points": "425"
+          }
           ]
         },
         {
-          "name": "Trappas",
-          "units": "Eight Wildboyz (gain 'Scouts' ability)",
+          "name": "Boarboyz Outriders",
+          "units": "Six Boarboyz (gain 'Scout' ability)",
           "extraUnits": [
-            "Up to one Nobz: 35 points"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Boarboyz Horde",
-          "units": "Six Boarboyz",
+          "units": "Eight Boarboyz",
           "extraUnits": [
             "Any number of Boarboyz: 25 points each",
             "Add up to one Wyrdboy: 50 points",
@@ -106,15 +109,15 @@
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "150"
+              "points": "175"
             },
             {
               "name": "Big",
-              "points": "225"
+              "points": "300"
             },
             {
               "name": "'Uge",
-              "points": "325"
+              "points": "425"
             }
           ]
         },
@@ -143,10 +146,6 @@
             {
               "name": "Big",
               "points": "275"
-            },
-            {
-              "name": "'Uge",
-              "points": "N/A"
             }
           ]
         },

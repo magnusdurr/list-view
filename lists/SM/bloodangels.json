@@ -119,11 +119,12 @@
       "formations": [
         {
           "name": "Land Raiders",
-          "units": "Any four of the following units: Land Raider, Land Raider Redeemer",
+          "units": "Any three of the following units: Land Raider, Land Raider Redeemer",
           "extraUnits": [
+              "Add one Land Raider or Land Raider Redeemer: 50 points",
             "Anti-Air"
           ],
-          "points": 325
+          "points": 275
         },
         {
           "name": "Bikes",
@@ -164,7 +165,7 @@
           "points": 150
         },
         {
-          "name": "Blood Angels Terminators",
+          "name": "Terminators",
           "units": "Three Terminators",
           "extraUnits": [
             "Assault Terminators",
