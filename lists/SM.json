@@ -770,7 +770,7 @@
         "ff": 4,
         "weapons": [
           "Missile Launcher",
-          "Twin Lascannon",
+          "Lascannon",
           "Twin Heavy Bolter"
         ],
         "specialRules": [
@@ -1934,11 +1934,12 @@
           "Twin Multi-Melta|2|"
         ],
         "specialRules": [
+          "Leader",
           "Reinforced Armour",
           "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
+        "notes": "May transport one infantry unit without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
       },
       {
         "name": "Land Raider Anvilarum",

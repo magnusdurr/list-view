@@ -89,7 +89,7 @@
             "Commander",
             "Land Raider Transport",
             "Razorbacks",
-            "Support Weapons",
+            "Siege Equipment",
             "Vindicators",
             "Dreadnoughts"
           ],
@@ -115,7 +115,7 @@
             "Commander",
             "Land Raider Transport",
             "Razorbacks",
-            "Support Weapons",
+            "Siege Equipment",
             "Vindicators"
           ],
           "points": 275
@@ -156,6 +156,7 @@
           "units": "Four Scouts plus transport",
           "extraUnits": [
             "Razorbacks",
+            "Siege Equipment",
             "Snipers"
           ],
           "points": 150
@@ -176,7 +177,6 @@
           "units": "Four Assault and/or Devastator Centurions",
           "extraUnits": [
             "Achilles",
-            "Commander",
             "Land Raider Transport",
             "Vindicators"
           ],
@@ -253,11 +253,6 @@
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
-        "name": "0-1 Achilles",
-        "description": "Replace any number of Land Raiders in one formation in the army with Land Raider Achilles",
-        "points": "25 points each"
-      },
-      {
         "name": "Anti-Air",
         "description": "Add any one of the following units to the formation",
         "options": [
@@ -283,6 +278,10 @@
             "description": "Chaplain",
             "points": "50 points"
           },
+          {
+            "description": "Land Raider Achilles",
+            "points": "75 points"
+        },
           {
             "description": "0–1 Supreme Commander",
             "points": "75 points"
@@ -312,11 +311,12 @@
         "points": "25 points"
       },
       {
-        "name": "Support Weapons",
-        "description": "Replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
+        "name": "Siege Equipment",
+        "description": "The formation may take Siege Rhinos instead of normal Rhinos, or replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
         "points": [
-          "50 points for two",
-          "125 points for four"
+          "25 points for Siege Rhinos",
+          "50 points for two Rapiers or two Thunderfires",
+          "125 points for four Rapiers or four Thunderfires"
         ]
       },
       {
