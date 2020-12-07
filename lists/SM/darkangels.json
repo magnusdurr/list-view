@@ -86,22 +86,6 @@
             "Commander"
           ],
           "points": 350
-        },
-        {
-          "name": "Deathwing Armour",
-          "units": "Three Land Raiders, three Terminators",
-          "extraUnits": [
-            "Commander"
-          ],
-          "points": 425
-        },
-        {
-          "name": "Ares Siege",
-          "units": "Three Land Raider Ares, two Vindicators",
-          "extraUnits": [
-            "Vindicators"
-          ],
-          "points": 350
         }
       ]
     },
@@ -109,15 +93,6 @@
       "name": "Dark Angels Support Detachments",
       "description": "Three Support Detachments may be taken per Core Detachment",
       "formations": [
-          {
-            "name": "Assaults",
-            "units": "Four Assaults",
-            "extraUnits": [
-              "Commander",
-              "Vindicators"
-            ],
-            "points": 175
-          },
         {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
@@ -128,16 +103,32 @@
           "points": 275
         },
         {
-          "name": "Dark Angels Devastators",
-          "units": "Four Dark Angels Devastators plus transport",
+          "name": "Ares Siege",
+          "units": "Three Land Raider Ares, two Vindicators",
           "extraUnits": [
-            "Razorbacks",
-            "Anti-Air",
-            "Commander",
-            "Land Raiders"
+            "Vindicators"
           ],
-          "points": 250
-        },
+          "points": 350
+      },
+      {
+        "name": "Devastators",
+        "units": "Four Dark Angels Devastators plus transport",
+        "extraUnits": [
+          "Razorbacks",
+          "Anti-Air",
+          "Commander",
+          "Land Raiders"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Deathwing Armour",
+        "units": "Three Land Raiders, three Terminators",
+        "extraUnits": [
+          "Commander"
+        ],
+        "points": 425
+    },
         {
           "name": "Predators",
           "units": "Any four of the following units: Predator Annihilators, Predator Destructors",
@@ -145,6 +136,15 @@
             "Anti-Air"
           ],
           "points": 250
+        },
+        {
+          "name": "Assaults",
+          "units": "Four Assaults",
+          "extraUnits": [
+            "Commander",
+            "Vindicators"
+          ],
+          "points": 175
         },
         {
           "name": "Ravenwing Support",
