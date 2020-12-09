@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Dagon",
-  "version": "1.0.0",
-  "release": "2020-06-26",
+  "version": "Beta 1.0.0",
+  "release": "2020-12-10",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "All Tyranid formations have an Initiative Rating of 1+.",
   "specialRules": [
@@ -90,13 +90,13 @@
         },
         {
           "name": "Assault Swarm",
-          "units": "Three Tyranid Warriors and/or Zoanthropes",
+          "units": "Two Tyranid Warriors and/or Zoanthropes",
           "extraUnits": [
             "Two to four Instinctive Swarms",
             "1+ Gaunts, Gargoyles or Biovores must be chosen",
             "Upgrade up to three Tyranid Warriors to Shrike (Wings): Free"
           ],
-          "points": 125
+          "points": 100
         }
       ]
     },
@@ -111,7 +111,7 @@
             "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Biovores or Bio-Support",
             "1+ Gaunts, Gargoyles or Biovores must be chosen"
           ],
-          "points": 125
+          "points": 150
         },
         {
           "name": "Breacher Swarm",
@@ -123,10 +123,10 @@
         },
         {
           "name": "Infestation Swarm",
-          "units": "Three Ravener Alphas",
+          "units": "Two Ravener Alphas",
           "extraUnits": [
             "One to two Burrower Instinctive Swarms",
-            "Replace three Ravener Alphas with a Trygon Prime: 25 points"
+            "Replace three Ravener Alphas with a Trygon Prime: 50 points"
           ],
           "points": 100
         },
@@ -155,9 +155,8 @@
         },
         {
           "name": "Lictor Swarm",
-          "units": "Five Lictors",
+          "units": "Four Lictors",
           "extraUnits": [
-            "Add up to two Lictors: 25 points each"
           ],
           "points": 225
         }
@@ -193,7 +192,7 @@
       {
         "name": "Gaunts",
         "description": "Five Termagants and/or Hormagaunts",
-        "points": "50 points"
+        "points": "75 points"
       },
       {
         "name": "Biovores",
@@ -203,7 +202,7 @@
       {
         "name": "Gargoyles",
         "description": "Four Gargoyles",
-        "points": "50 points"
+        "points": "75 points"
       },
       {
         "name": "Bio-Flyers",
@@ -233,7 +232,7 @@
       {
         "name": "Burrower",
         "description": "Two Trygons or five Raveners",
-        "points": "100 points"
+        "points": "125 points"
       },
       {
         "name": "Mycetic Spore (0-1 per Swarm)",

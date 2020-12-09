@@ -448,7 +448,7 @@
         "type": "H-AV",
         "speed": 25,
         "armour": 4,
-        "cc": 3,
+        "cc": 4,
         "ff": 6,
         "weapons": [
           "Bio-Electric Field",
@@ -466,7 +466,7 @@
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
-        "cc": 3,
+        "cc": 4,
         "ff": 6,
         "weapons": [
           "Bio-Electric Field",
@@ -600,7 +600,7 @@
         "name": "Hive Nest",
         "type": "WE",
         "speed": "Immobile",
-        "armour": 4,
+        "armour": 5,
         "cc": 5,
         "ff": 6,
         "weapons": [
@@ -610,7 +610,7 @@
           "Damage Capacity: 3",
           "Synapse",
           "Fearless",
-          "Reinforced Armour"
+          "Regeneration"
         ],
         "crit": "The Hive Nest is destroyed."
       },
