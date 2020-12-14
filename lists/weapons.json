@@ -7951,6 +7951,52 @@
       ]
     },
     {
+      "name": "Looted Gunz",
+      "modes": [
+        {
+          "firepower": "AP6+",
+          "range": 15,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lobba",
+      "modes": [
+        {
+          "firepower": "0.5BP",
+          "range": 30,
+          "specialRules": [
+            "Ind"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Supa-Lobba",
+      "modes": [
+        {
+          "firepower": "1BP",
+          "range": 45,
+          "specialRules": [
+            "Ind", "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fire Bombs",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Grot-Shootas and Knives",
       "modes": [
         {

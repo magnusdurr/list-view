@@ -987,18 +987,77 @@
         ],
         "notes": "May transport four Drop Roks and the units carried on them"
       },
+
       {
-        "name": "Wildboyz",
+        "name": "Boarboyz",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Choppas",
+          "Shootas"
+        ],
+        "specialRules": [
+          "Mounted",
+          "Walker",
+          "Infiltrators"
+        ]
+      },
+      {
+        "name": "Brutes",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Big Choppas"
+        ],
+        "specialRules": [
+          "Infiltrators"
+        ]
+      },
+      {
+        "name": "Huntas",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 4,
+        "ff": 6,
         "weapons": [
+          "Looted Gunz",
           "Choppas"
         ],
         "specialRules": [
           "Infiltrators"
         ]
+      },
+      {
+        "name": "Junkas",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Big Shootas"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Lobbas",
+        "type": "INF",
+        "speed": 10,
+        "armour": 6,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Lobba"
+        ],
+        "notes": "Partial BPs are rounded up"
       },
       {
         "name": "Madboyz",
@@ -1017,19 +1076,31 @@
         ]
       },
       {
-        "name": "Boarboyz",
+        "name": "Trappas",
         "type": "INF",
-        "speed": 20,
-        "armour": 5,
+        "speed": 15,
+        "armour": 6,
         "cc": 4,
-        "ff": 6,
+        "ff": 5,
         "weapons": [
-          "Choppas",
-          "Shootas"
+          "Looted Gunz",
+          "Fire Bombs"
         ],
         "specialRules": [
-          "Mounted",
-          "Walker",
+          "Infiltrators",
+          "Scout"
+        ]
+      },
+      {
+        "name": "Wildboyz",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "weapons": [
+          "Choppas"
+        ],
+        "specialRules": [
           "Infiltrators"
         ]
       },
@@ -1059,7 +1130,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May carry one of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry one Grotz in addition to any other units"
+        "notes": "May carry one unit of Junkas or Nobs. Units may Shoot and Firefight while being transported"
       },
       {
         "name": "Squiggoth",
@@ -1077,7 +1148,22 @@
           "Walker",
           "Transport"
         ],
-        "notes": "May carry up to four of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to two Grotz and one Squig Katapult in addition to any other units"
+        "notes": "May carry up to four of the following units: Brutes, Huntas, Nobz, Squig Katapult, Wildboyz. May carry up to two Grotz in addition to any other units"
+      },
+      {
+        "name": "Squiggoth Supa-Lobba",
+        "type": "LV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Supa-Lobba",
+          "Teeth and Horns"
+        ],
+        "specialRules": [
+          "Walker"
+        ]
       },
       {
         "name": "Gargantuan Squiggoth",
@@ -1096,7 +1182,7 @@
           "Walker",
           "Transport"
         ],
-        "notes": "May carry up to eight of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to four Grotz in addition to any other units.",
+        "notes": "May carry up to eight of the following units: Brutes, Huntas, Nobz, Squig Katapult, Wildboyz. May carry up to four Grotz in addition to any other units.",
         "crit": "The Gargantuan Squiggoth is killed."
       },
       {
@@ -1116,8 +1202,8 @@
           "Walker",
           "Transport"
         ],
-        "notes": "May carry up to sixteen of the following units: Boyz, Nobz, Wildboyz, Grotz. May carry up to six Grotz in addition to any other units.",
-        "crit": "The Orkeosaurus takes one additional damage, and D3 units being carried by it takes a hit."
+        "notes": "May carry up to sixteen of the following units: Brutes, Huntas, Nobz, Squig Katapult, Wildboyz. May carry up to six Grotz in addition to any other units.",
+        "crit": "The Orkeosaurus takes one additional damage, and D3 random units being transported takes a hit."
       },
       {
         "name": "Steam Gargant",

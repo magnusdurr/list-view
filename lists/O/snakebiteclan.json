@@ -23,15 +23,20 @@
         "Warlord",
         "Wyrdboy",
         "Pigdok",
-        "Boyz",
         "Grotz",
         "Nobz",
+        "Boarboyz",
+        "Brutes",
+        "Huntas",
+        "Junkas",
+        "Lobbas",
+        "Trappas",
         "Wildboyz",
         "Madboyz",
-        "Boarboyz",
         "Squig Katapult",
         "Junkatrukk",
         "Squiggoth",
+        "Squiggoth Supa-Lobba",
         "Gargantuan Squiggoth",
         "Orkeosaurus",
         "Steam Gargant"
@@ -47,56 +52,34 @@
       "formations": [
         {
           "name": "Snakebites Warband",
-          "units": "Two Nobz, six Boyz and two Grotz",
+          "units": "Two Nobz, six Huntas and two Grotz",
           "extraUnits": [
-            "Any number of Wildboyz: 15 points each",
-            "Any number of Boyz: 20 points",
+            "Any number of Huntas: 15 points each",
             "Any number of Boarboyz: 25 points each",
+            "Any up to two Brutes: 25 points each",
             "Add up to three Squig Katapults: 25 points each",
-            "Any number of Boyz + Grotz: 40 points",
-            "Add up to two Nobz: 35 points each",
-            "Add up to two Wyrdboyz: 50 points each",
-            "Any number of Squiggoths: 40 points each",
-            "Add up to one Gargantuan Squiggoth: 100 points",
-            "Add up to one Orkeosaurus: 175 points",
-            "Add up to one Steam Gargant: 150 points"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Wildboyz",
-          "units": "Two Nobz, six Wildboyz",
-          "extraUnits": [
-            "Any number of Wildboyz: 15 points each",
-            "Any number of Boarboyz: 25 points each",
-            "Add up to three Squig Katapults: 25 points each",
+            "Any number of Huntas + Grotz: 40 points",
             "Add up to one Nobz: 35 points each",
-            "Add up to one Wyrdboy: 50 points",
-            "Any number of Squiggoths: 40 points each",
+            "Add up to one Wyrdboyz: 50 points each",
+            "Any up to three Squiggoths: 40 points each",
+            "Add two to three Squiggoth Supa-Lobbas: 40 points each",
             "Add up to one Gargantuan Squiggoth: 100 points",
             "Add up to one Orkeosaurus: 175 points"
           ],
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "175"
+              "points": "200"
             },
             {
               "name": "Big",
-              "points": "300"
-          },
-          {
-            "name": "Huge",
-            "points": "425"
-          }
+              "points": "350"
+            },
+            {
+              "name": "'Uge",
+              "points": "500"
+            }
           ]
-        },
-        {
-          "name": "Boarboyz Outriders",
-          "units": "Six Boarboyz (gain 'Scout' ability)",
-          "extraUnits": [
-          ],
-          "points": 175
         },
         {
           "name": "Boarboyz Horde",
@@ -120,21 +103,25 @@
               "points": "425"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Snakebites Support Mobs",
+      "description": "One Snakebites Support Mob may be taken per Snakebites War Horde",
+      "formations": [
         {
-          "name": "0-1 Madboyz Horde",
-          "units": "Six Madboyz",
+          "name": "Boarboyz Outriders",
+          "units": "Six Boarboyz (gain 'Scout' ability)",
           "extraUnits": [
-            "Add up to six Madboyz: 25 points each",
-            "Add up to three Wyrdboys: 35 points each"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Junka Brigade",
-          "units": "Six Boyz and six Junkatrukks ",
+          "units": "Six Junkas and six Junkatrukks ",
           "extraUnits": [
-            "Any number of Boyz + Junkatrukk: 25 points",
+            "Any number of Junkas + Junkatrukk: 25 points",
             "Add up to one Nobz + Junkatrukk: 50 points",
             "Add up to one Wyrdboy: 50 points"
           ],
@@ -145,9 +132,35 @@
             },
             {
               "name": "Big",
-              "points": "275"
+              "points": "300"
             }
           ]
+        },
+        {
+          "name": "Lobba Mob",
+          "units": "Six Lobbas",
+          "extraUnits": [
+            "Add up to one Nobz: 35 points"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "150"
+            },
+            {
+              "name": "Big",
+              "points": "250"
+            }
+          ]
+        },
+        {
+          "name": "0-1 Madboyz Horde",
+          "units": "Six Madboyz",
+          "extraUnits": [
+            "Add up to six Madboyz: 25 points each",
+            "Add up to three Wyrdboys: 35 points each"
+          ],
+          "points": 150
         },
         {
           "name": "0-1 Steam Gargant Mob",
@@ -166,6 +179,37 @@
             {
               "name": "'Uge",
               "points": "525"
+            }
+          ]
+        },
+        {
+          "name": "Trappas Mob",
+          "units": "Six Trappas",
+          "extraUnits": [
+            "Add any number of Trappas: 25 points each"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Wildboyz",
+          "units": "Two Nobz, six Wildboyz",
+          "extraUnits": [
+            "Add any number of Wildboyz: 15 points each",
+            "Any up to two Brutes: 25 points each",
+            "Add up to one Nobz: 35 points each",
+            "Add up to one Wyrdboyz: 50 points",
+            "Any number of Squiggoths: 40 points each",
+            "Add up to one Gargantuan Squiggoth: 100 points",
+            "Add up to one Orkeosaurus: 175 points"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "150"
+            },
+            {
+              "name": "Big",
+              "points": "250"
             }
           ]
         }
