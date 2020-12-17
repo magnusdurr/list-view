@@ -51,15 +51,14 @@
       "formations": [
         {
           "name": "Snakebites Warband",
-          "units": "Two Nobz, six Huntas and two Grotz",
+          "units": "Two Feral Nobz, six Huntas and two Grotz",
           "extraUnits": [
             "Any number of Huntas: 15 points each",
             "Any number of Boarboyz: 25 points each",
-            "Any up to two Brutes: 25 points each",
             "Add up to three Squig Katapults: 25 points each",
             "Any number of Huntas + Grotz: 40 points",
             "Add up to one Feral Nobz: 35 points each",
-            "Add up to one Wyrdboyz: 35 points each",
+            "Add up to one Wyrdboy to a Feral Nobz unit: 35 points each",
             "Any up to three Squiggoths: 30 points each",
             "Add three Squiggoth Supa-Lobbas: 100 points",
             "Add up to one Gargantuan Squiggoth: 100 points",
@@ -109,7 +108,7 @@
       "description": "One Snakebites Support Mob may be taken per Snakebites War Horde",
       "formations": [
         {
-          "name": "Boarboyz Outriders",
+          "name": "Boarboyz Outrider Mob",
           "units": "Six Boarboyz (gain 'Scout' ability)",
           "extraUnits": [
           ],
@@ -121,7 +120,7 @@
           "extraUnits": [
             "Any number of Junkas + Junkatrukk: 25 points",
             "Add up to one Feral Nobz + Junkatrukk: 50 points",
-            "Add up to one Wyrdboy: 35 points"
+            "Add up to one Wyrdboy to a Feral Nobz unit: 35 points"
           ],
           "pointsOptions": [
             {
@@ -145,7 +144,7 @@
           "points": 125
         },
         {
-          "name": "Madboyz Horde",
+          "name": "Madboyz Mob",
           "units": "Six Madboyz",
           "extraUnits": [
             "Add up to six Madboyz: 25 points each",
@@ -169,14 +168,14 @@
           "points": 150
         },
         {
-          "name": "Wildboyz",
-          "units": "Two Nobz, six Wildboyz",
+          "name": "Wildboyz Mob",
+          "units": "Two Feral Nobz, six Wildboyz",
           "extraUnits": [
             "Add any number of Wildboyz: 15 points each",
             "Any up to two Brutes: 25 points each",
             "Add up to one Nobz: 35 points each",
-            "Add up to one Wyrdboyz: 35 points",
-            "Any number of Squiggoths: 40 points each",
+            "Add up to one Wyrdboy to a Feral Nobz unit: 35 points",
+            "Any number of Squiggoths: 30 points each",
             "Add up to one Gargantuan Squiggoth: 100 points",
             "Add up to one Orkeosaurus: 200 points"
           ],
