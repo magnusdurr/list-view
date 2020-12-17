@@ -1006,17 +1006,20 @@
         ]
       },
       {
-        "name": "Brutes",
+        "name": "Feral Nobz",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 4,
-        "ff": 6,
+        "ff": 5,
         "weapons": [
-          "Big Choppas"
+          "Big Choppas",
+          "Shootas"
         ],
         "specialRules": [
-          "Infiltrators"
+          "Commander",
+          "Infiltrators",
+          "Leader"
         ]
       },
       {
@@ -1065,10 +1068,8 @@
         "speed": 15,
         "armour": 6,
         "cc": 4,
-        "ff": 6,
         "weapons": [
-          "Choppas",
-          "Shootas"
+          "Choppas"
         ],
         "specialRules": [
           "Fearless",
@@ -1190,7 +1191,7 @@
         "type": "WE",
         "speed": 15,
         "armour": 3,
-        "cc": 3,
+        "cc": 4,
         "ff": 5,
         "weapons": [
           "Twin Big Shoota|4|",
@@ -1199,6 +1200,7 @@
         ],
         "specialRules": [
           "Damage Capacity: 6",
+          "Fearless",
           "Walker",
           "Transport"
         ],
@@ -1208,23 +1210,21 @@
       {
         "name": "Steam Gargant",
         "type": "WE",
-        "speed": "15cm",
+        "speed": "20cm",
         "armour": 4,
         "cc": 4,
         "ff": 5,
         "weapons": [
           "Fist of Gork",
-          "Soopagun|0-2|FxF",
-          "Mega-Choppa|0-2|"
+          "Stub Soopagun|2|FxF",
+          "Mega-Choppa"
         ],
         "specialRules": [
-          "Damage Capacity: 3",
+          "Damage Capacity: 4",
           "Fearless",
-          "Reinforced Armour",
-          "Walker"
+          "Reinforced Armour"
         ],
-        "notes": "May be armed with either 2 Soopaguns, Soopagun and Mega-Choppa, or 2 Mega-Choppas.",
-        "crit": "The Steam Gargant’s boiler explodes. The Steam Gargant is destroyed and any units within 5cm of the model suffers a hit."
+        "crit": "The Steam Gargant takes an additional damage."
       }
     ]
   }

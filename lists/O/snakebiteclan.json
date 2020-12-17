@@ -24,9 +24,8 @@
         "Wyrdboy",
         "Pigdok",
         "Grotz",
-        "Nobz",
+        "Feral Nobz",
         "Boarboyz",
-        "Brutes",
         "Huntas",
         "Junkas",
         "Lobbas",
@@ -59,12 +58,12 @@
             "Any up to two Brutes: 25 points each",
             "Add up to three Squig Katapults: 25 points each",
             "Any number of Huntas + Grotz: 40 points",
-            "Add up to one Nobz: 35 points each",
-            "Add up to one Wyrdboyz: 50 points each",
-            "Any up to three Squiggoths: 40 points each",
-            "Add two to three Squiggoth Supa-Lobbas: 40 points each",
+            "Add up to one Feral Nobz: 35 points each",
+            "Add up to one Wyrdboyz: 35 points each",
+            "Any up to three Squiggoths: 30 points each",
+            "Add three Squiggoth Supa-Lobbas: 100 points",
             "Add up to one Gargantuan Squiggoth: 100 points",
-            "Add up to one Orkeosaurus: 175 points"
+            "Add up to one Orkeosaurus: 200 points"
           ],
           "pointsOptions": [
             {
@@ -83,11 +82,10 @@
         },
         {
           "name": "Boarboyz Horde",
-          "units": "Eight Boarboyz",
+          "units": "One Pigdok, eight Boarboyz",
           "extraUnits": [
             "Any number of Boarboyz: 25 points each",
-            "Add up to one Wyrdboy: 50 points",
-            "Add up to one Pigdok: 35 points"
+            "Add up to one Wyrdboy: 35 points"
           ],
           "pointsOptions": [
             {
@@ -122,8 +120,8 @@
           "units": "Six Junkas and six Junkatrukks ",
           "extraUnits": [
             "Any number of Junkas + Junkatrukk: 25 points",
-            "Add up to one Nobz + Junkatrukk: 50 points",
-            "Add up to one Wyrdboy: 50 points"
+            "Add up to one Feral Nobz + Junkatrukk: 50 points",
+            "Add up to one Wyrdboy: 35 points"
           ],
           "pointsOptions": [
             {
@@ -140,47 +138,27 @@
           "name": "Lobba Mob",
           "units": "Six Lobbas",
           "extraUnits": [
-            "Add up to one Nobz: 35 points"
+            "Add up to one Feral Nobz: 35 points"
           ],
-          "pointsOptions": [
-            {
-              "name": "Normal",
-              "points": "150"
-            },
-            {
-              "name": "Big",
-              "points": "250"
-            }
-          ]
+          "extraUnits": [
+          ],
+          "points": 125
         },
         {
-          "name": "0-1 Madboyz Horde",
+          "name": "Madboyz Horde",
           "units": "Six Madboyz",
           "extraUnits": [
             "Add up to six Madboyz: 25 points each",
-            "Add up to three Wyrdboys: 35 points each"
+            "Add up to three Wyrdboys: 25 points each"
           ],
           "points": 150
         },
         {
-          "name": "0-1 Steam Gargant Mob",
+          "name": "Steam Gargant",
           "units": "One Steam Gargant",
           "extraUnits": [
           ],
-          "pointsOptions": [
-            {
-              "name": "Normal",
-              "points": "225"
-            },
-            {
-              "name": "Big",
-              "points": "375"
-            },
-            {
-              "name": "'Uge",
-              "points": "525"
-            }
-          ]
+          "points": 250
         },
         {
           "name": "Trappas Mob",
@@ -197,10 +175,10 @@
             "Add any number of Wildboyz: 15 points each",
             "Any up to two Brutes: 25 points each",
             "Add up to one Nobz: 35 points each",
-            "Add up to one Wyrdboyz: 50 points",
+            "Add up to one Wyrdboyz: 35 points",
             "Any number of Squiggoths: 40 points each",
             "Add up to one Gargantuan Squiggoth: 100 points",
-            "Add up to one Orkeosaurus: 175 points"
+            "Add up to one Orkeosaurus: 200 points"
           ],
           "pointsOptions": [
             {

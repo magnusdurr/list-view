@@ -4054,7 +4054,7 @@
       "name": "Fist of Gork",
       "modes": [
         {
-          "firepower": "MW5+/AA5+",
+          "firepower": "MW5+/AA6+",
           "range": 45,
           "specialRules": [
             "MW"
@@ -4504,7 +4504,7 @@
           "join": "or",
           "specialRules": [
             "EA(+1)",
-            "TK(D3)"
+            "TK(D6)"
           ]
         }
       ]
@@ -9685,6 +9685,18 @@
           "specialRules": [
             "IC",
             "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stub Soopagun",
+      "modes": [
+        {
+          "firepower": "2BP",
+          "range": 45,
+          "specialRules": [
+            "MW"
           ]
         }
       ]
