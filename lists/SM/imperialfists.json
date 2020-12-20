@@ -119,22 +119,30 @@
             "Vindicators"
           ],
           "points": 275
-        },
-        {
-          "name": "Vindicators",
-          "units": "Four Vindicators",
-          "extraUnits": [
-            "Anti-Air",
-            "Vindicators"
-          ],
-          "points": 225
-        }
+      },
+      {
+        "name": "Support Battery",
+        "units": "Six Space Marine Rapiers and/or Space Marine Thunderfires",
+        "extraUnits": [
+          "Dreadnoughts"
+        ],
+        "points": 250
+      }
       ]
     },
     {
       "name": "Imperial Fists Support Detachments",
       "description": "Up to two Support Detachments for each Core Detachment.",
       "formations": [
+          {
+            "name": "Vindicators",
+            "units": "Four Vindicators",
+            "extraUnits": [
+              "Anti-Air",
+              "Vindicators"
+            ],
+            "points": 225
+        },
         {
           "name": "Predators",
           "units": "Four Predator Annihilators and/or Predator Destructors",
@@ -182,14 +190,7 @@
           ],
           "points": 275
         },
-        {
-          "name": "Support Battery",
-          "units": "Six Space Marine Rapiers and/or Space Marine Thunderfires",
-          "extraUnits": [
-            "Dreadnoughts"
-          ],
-          "points": 250
-        },
+
         {
           "name": "Whirlwinds",
           "units": "Four Whirlwinds",
@@ -222,8 +223,8 @@
         },
         {
           "name": "Fortifications",
-          "units": "Two Bunkers, and 60cm Trenches and/or Minefields (exact proportions to be decided at the start of the game, before deploying objectives.)",
-          "points": 75
+          "units": "Two Bunkers, and 40cm Trenches and/or Minefields (exact proportions to be decided at the start of the game, before deploying objectives.)",
+          "points": 50
         },
         {
           "name": "Tarantula",
@@ -315,8 +316,8 @@
         "description": "The formation may take Siege Rhinos instead of normal Rhinos, or replace 'plus transport' with Space Marine Rapiers or Space Marine Thunderfires",
         "points": [
           "25 points for Siege Rhinos",
-          "50 points for two Rapiers or two Thunderfires",
-          "125 points for four Rapiers or four Thunderfires"
+          "25 points for two Rapiers or two Thunderfires",
+          "100 points for four Rapiers or four Thunderfires"
         ]
       },
       {
