@@ -102,7 +102,6 @@ var units = {
                         });
 
                         section.unit.sort(function (a, b) {
-                            console.log("[formatUnits] sorting", a, b);
                             typeSortNumber = typeSort(a.type) - typeSort(b.type)
 
                             if (typeSortNumber !== 0) {
