@@ -77,6 +77,21 @@ var units = {
 
     formatUnits: function (data, specialRules, weapons) {
         unitSections = [];
+
+        typeSort = function(type) {
+            switch (type) {
+                case "CH": return 0;
+                case "INF": return 1;
+                case "LV": return 2;
+                case "AV": return 3;
+                case "WE": return 4;
+                case "AC": return 5;
+                case "AC/WE": return 6;
+                case "SC": return 7;
+                default: return 10;
+            }
+        }
+
         data.units.forEach(function (unitSection) {
             $.ajax("lists/" + unitSection.from, {
                 async: false,
@@ -85,6 +100,17 @@ var units = {
                         section.unit = section.unit.filter(function (unit) {
                             return unitSection.units.includes(unit.name);
                         });
+
+                        section.unit.sort(function (a, b) {
+                            console.log("[formatUnits] sorting", a, b);
+                            typeSortNumber = typeSort(a.type) - typeSort(b.type)
+
+                            if (typeSortNumber !== 0) {
+                                return typeSortNumber
+                            } else {
+                                return a.name.localeCompare(b.name)
+                            }
+                        })
 
                         section.unit.forEach(function (unit) {
                             unit.weapons = unit.weapons.map(weapon => replaceWeapon(weapon, weapons, unit));
