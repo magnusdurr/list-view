@@ -369,6 +369,38 @@
         ]
       },
       {
+        "name": "Death Company Marines",
+        "type": "INF",
+        "speed": "15cm",
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Bolters",
+          "Chainswords"
+        ],
+        "specialRules": [
+          "Fearless", "Infiltrators"
+        ],
+        "notes": "Counts as Tacticals for being transported."
+      },
+      {
+        "name": "Death Company Assaults",
+        "type": "INF",
+        "speed": "30cm",
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Bolters",
+          "Chainswords"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Jump Packs"
+        ]
+      },
+      {
         "name": "Devastators",
         "type": "INF",
         "speed": 15,
@@ -518,36 +550,6 @@
         ]
       },
       {
-        "name": "Death Company Marines",
-        "type": "INF",
-        "speed": "15cm",
-        "armour": 3,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Bolters",
-          "Chainswords"
-        ],
-        "specialRules": [
-          "Fearless"
-        ]
-      },
-      {
-        "name": "Death Company Assaults",
-        "type": "INF",
-        "speed": "30cm",
-        "armour": 3,
-        "cc": 3,
-        "weapons": [
-          "Thunder Hammers and Storm Shields"
-        ],
-        "specialRules": [
-          "Fearless",
-          "Jump Packs",
-          "Invulnerable Save"
-        ]
-      },
-      {
         "name": "Space Marine Rapier",
         "type": "INF",
         "speed": 10,
@@ -625,10 +627,9 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 3,
+        "cc": 2,
         "weapons": [
-          "Thunder Hammers and Storm Shields",
-          "Lightning Claws"
+          "Thunder Hammer and Storm Shield"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -644,7 +645,7 @@
         "armour": 4,
         "cc": 3,
         "weapons": [
-          "Thunder Hammers and Storm Shields",
+          "Thunder Hammer and Storm Shield",
           "Lightning Claws"
         ],
         "specialRules": [
@@ -1236,21 +1237,6 @@
         ]
       },
       {
-        "name": "Furioso Dreadnought",
-        "type": "AV",
-        "speed": 15,
-        "armour": 3,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Power Fist",
-          "Frag Cannon"
-        ],
-        "specialRules": [
-          "Walker"
-        ]
-      },
-      {
         "name": "Librarian Dreadnought",
         "type": "AV",
         "speed": 15,
@@ -1323,8 +1309,10 @@
         ],
         "specialRules": [
           "Fearless",
+          "Lucifer Pattern Engine",
           "Walker"
-        ]
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported."
       },
       {
         "name": "Dreadnought, Mortis",
@@ -1338,7 +1326,8 @@
         ],
         "specialRules": [
           "Walker"
-        ]
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported."
       },
       {
         "name": "Dreadnought, Deathwing",
@@ -1353,7 +1342,25 @@
         ],
         "specialRules": [
           "Walker"
-        ]
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported."
+      },
+      {
+        "name": "Dreadnought, Furioso",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Power Fist",
+          "Frag Cannon"
+        ],
+        "specialRules": [
+          "Walker",
+          "Lucifer Pattern Engine"
+        ],
+        "notes": "Counts as a Dreadnought for the purposes of being transported."
       },
       {
         "name": "Dreadnought, Hellfire",
@@ -1467,7 +1474,7 @@
         "speed": 30,
         "armour": 4,
         "cc": 6,
-        "ff": 4,
+        "ff": 3,
         "weapons": [
           "Flamestorm Cannon ",
           "Heavy Flamer|2"
@@ -1768,20 +1775,6 @@
         "ff": 5,
         "weapons": [
           "Whirlwind Launcher"
-        ]
-      },
-      {
-        "name": "Blood Angels Whirlwind",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Whirlwind Launcher"
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine"
         ]
       },
       {
@@ -2232,8 +2225,7 @@
         "ff": 4,
         "weapons": [
           "AC Twin Assault Cannon||FxF",
-          "AC Twin Heavy Bolter||FxF",
-          "Hurricane Bolters||FxF"
+          "AC Twin Heavy Bolter||FxF"
         ],
         "specialRules": [
           "Damage Capacity: 1",
@@ -2241,7 +2233,7 @@
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport two infantry units without Mounted; Terminators counts as two units each. May in addition transport one Dreadnought. Counts as a Landing Craft for being transported."
+        "notes": "May transport three infantry units without Mounted; Terminators counts as 1.5 units each. May in addition transport one Dreadnought. Counts as a Landing Craft for being transported."
       },
       {
         "name": "Corvus Blackstar Dropship",

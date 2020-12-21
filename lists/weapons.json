@@ -2258,12 +2258,6 @@
             "EA(+1)",
             "MW"
           ]
-        },
-        {
-          "firepower": "Small Arms",
-          "join": "or",
-          "specialRules": [
-          ]
         }
       ]
     },
@@ -10605,12 +10599,12 @@
       ]
     },
     {
-      "name": "Thunder Hammers and Storm Shields",
+      "name": "Thunder Hammer and Storm Shield",
       "modes": [
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "MW"
+            "EA(+1)", "MW"
           ]
         }
       ]

@@ -1,8 +1,8 @@
 {
   "fraction": "Space Marines",
   "army": "Blood Angels",
-  "version": "0.6.6",
-  "release": "2019-10-17",
+  "version": "0.8",
+  "release": "2020-12-21",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
@@ -20,16 +20,17 @@
       "units": [
         "Captain",
         "Chaplain",
+        "Librarian",
         "Supreme Commander",
-        "Sanguinary Guards",
         "Assaults",
-        "Scouts",
-        "Tacticals",
         "Death Company Marines",
         "Death Company Assaults",
+        "Devastators",
+        "Sanguinary Guards",
+        "Scouts",
+        "Tacticals",
         "Death Company Rhino",
         "Death Company Dreadnought",
-        "Terminators",
         "Assault Terminators",
         "Assault Bikes",
         "Land Speeder",
@@ -37,7 +38,9 @@
         "Land Speeder Typhoon",
         "Melta Bike",
         "Attack Bike",
-        "Furioso Dreadnought",
+        "Dreadnought",
+        "Dreadnought, Furioso",
+        "Dreadnought, Hellfire",
         "Blood Angels Razorback",
         "Blood Angels Hunter",
         "Blood Angels Stalker",
@@ -46,7 +49,7 @@
         "Baal Predator Hades",
         "Baal Predator Infernus",
         "Blood Angels Rhino",
-        "Blood Angels Whirlwind",
+        "Whirlwind",
         "Storm Talon",
         "Storm Raven",
         "Battle Barge",
@@ -74,10 +77,21 @@
       "formations": [
         {
           "name": "1 Death Company",
-          "units": "One Chaplain, four Death Company Marines, two Death Company Rhinos",
+          "units": "One Chaplain, four Death Company Marines plus transport (Death Company Rhinos or Drop Pod)",
           "extraUnits": [
-            "Replace four Death Company Marines and two Death Company Rhinos with four Death Company Assaults: Free",
-            "Replace two Death Company Rhinos with Drop Pods and add one Death Company Dreadnought: 100 points"
+            "Replace four Death Company Marines with four Death Company Assaults: Free",
+            "Add up to two Death Company Dreadnoughts: 75 points each"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Assaults",
+          "units": "Six Assaults",
+          "extraUnits": [
+            "Commander",
+            "Dreadnoughts",
+            "Predators",
+            "Supreme Commander"
           ],
           "points": 250
         },
@@ -85,31 +99,15 @@
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "extraUnits": [
-            "Land Raider Transport",
             "Anti-Air",
             "Commander",
+            "Dreadnoughts",
+            "Land Raider Transport",
             "Predators",
-            "Dreadnoughts"
+            "Razorbacks",
+            "Supreme Commander"
           ],
           "points": 275
-        },
-        {
-          "name": "Assaults",
-          "units": "Six Assaults",
-          "extraUnits": [
-            "Sanguinary Guard",
-            "Commander",
-            "Predators"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Baal Predators",
-          "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
-          "extraUnits": [
-            "Anti-Air"
-          ],
-          "points": 250
         }
       ]
     },
@@ -118,13 +116,22 @@
       "description": "Up to two Support Detachments may be taken per Core Detachment.",
       "formations": [
         {
-          "name": "Land Raiders",
-          "units": "Any three of the following units: Land Raider, Land Raider Redeemer",
+          "name": "Assault Terminators",
+          "units": "Four Assault Terminators",
           "extraUnits": [
-              "Add one Land Raider or Land Raider Redeemer: 50 points",
-            "Anti-Air"
+            "Commander",
+            "Dreadnoughts",
+            "Land Raider Transport"
           ],
           "points": 275
+        },
+        {
+          "name": "Baal Predators",
+          "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 250
         },
         {
           "name": "Bikes",
@@ -139,13 +146,23 @@
           "name": "Devastators",
           "units": "Four Devastators plus transport",
           "extraUnits": [
-            "Land Raider Transport",
             "Anti-Air",
             "Commander",
+            "Dreadnoughts",
+            "Land Raider Transport",
             "Predators",
-            "Dreadnoughts"
+            "Razorbacks"
           ],
           "points": 250
+        },
+        {
+          "name": "Land Raiders",
+          "units": "Any three of the following units: Land Raider, Land Raider Redeemer",
+          "extraUnits": [
+            "Add one Land Raider or Land Raider Redeemer: 50 points",
+            "Anti-Air"
+          ],
+          "points": 275
         },
         {
           "name": "Land Speeder",
@@ -163,16 +180,6 @@
             "Snipers"
           ],
           "points": 150
-        },
-        {
-          "name": "Terminators",
-          "units": "Three Terminators",
-          "extraUnits": [
-            "Assault Terminators",
-            "Land Raider Transport",
-            "Commander"
-          ],
-          "points": 275
         },
         {
           "name": "Whirlwinds",
@@ -197,17 +204,14 @@
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
+          "name": "Storm Ravens",
+          "units": "Two Storm Ravens",
+          "points": 175
+        },
+        {
           "name": "Storm Talons",
           "units": "Two Storm Talons",
           "points": 200
-        },
-        {
-          "name": "Storm Ravens",
-          "units": "Two Storm Ravens",
-          "extraUnits": [
-            "Add one Storm Raven: 75 points"
-          ],
-          "points": 175
         },
         {
           "name": "Warhounds",
@@ -225,49 +229,6 @@
     "description": "Each upgrade may be taken once per detachment.",
     "items": [
       {
-        "name": "Attack Bikes",
-        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes or Melta Bikes",
-        "points": "Free"
-      },
-      {
-        "name": "Predators",
-        "description": "Add two Baal Predator Hades or two Baal Predator Infernus",
-        "points": "100 points"
-      },
-      {
-        "name": "Dreadnoughts",
-        "description": "Add up to three Furioso Dreadnoughts",
-        "points": "50 points each"
-      },
-      {
-        "name": "Battle Barge",
-        "description": "Replace the Strike Cruiser with a Battle Barge",
-        "points": "75 points"
-      },
-      {
-        "name": "(0–1 in the army) Sanguinary Guard",
-        "description": "Replace two Assaults with Sanguinary Guards in a formation with a Supreme Commander character, adding it to either unit.",
-        "points": "50 points"
-      },
-      {
-        "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation",
-        "options": [
-          {
-            "description": "Captain, Librarian",
-            "points": "25 points"
-          },
-          {
-            "description": "Chaplain",
-            "points": "50 points"
-          },
-          {
-            "description": "0–1 Supreme Commander",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
         "name": "Anti-Air",
         "description": "Add any one of the following units to the formation",
         "options": [
@@ -282,13 +243,47 @@
         ]
       },
       {
+        "name": "Attack Bikes",
+        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes or Melta Bikes",
+        "points": "Free"
+      },
+      {
+        "name": "Battle Barge",
+        "description": "Replace the Strike Cruiser with a Battle Barge",
+        "points": "75 points"
+      },
+      {
+        "name": "Commander",
+        "description": "Add any one of the following characters to any unit in the formation",
+        "options": [
+          {
+            "description": "Captain, Librarian",
+            "points": "25 points"
+          },
+          {
+            "description": "Chaplain",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Dreadnoughts",
+        "description": "Add up to two Dreadnoughts, Furioso Dreadnoughts or Hellfire Dreadnoughts",
+        "points": "50 points each"
+      },
+      {
         "name": "Land Raider Transport",
         "description": "Add any number of Land Raiders and/or Land Raider Redeemers, up to the number required to transport the formation",
         "points": "50 points each"
       },
       {
+        "name": "Predators",
+        "description": "Add up to two Baal Predator Hades or two Baal Predator Infernus",
+        "points": "50 points each"
+      },
+      {
         "name": "Razorbacks",
-        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "description": "Add any number of Blood Angels Razorbacks, up to the number required to transport the formation",
         "points": "25 points each"
       },
       {
@@ -297,9 +292,9 @@
         "points": "25 points"
       },
       {
-        "name": "Assault Terminators",
-        "description": "Replace up to four Terminators with Assault Terminators",
-        "points": "Free"
+        "name": "Supreme Commander (0–1 in the army)",
+        "description": "Replace two Assaults or Tacticals with Sanguinary Guards, one with a Supreme Commander character.",
+        "points": "125 points"
       },
       {
         "name": "Typhoons",
