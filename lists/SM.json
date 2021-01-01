@@ -1248,7 +1248,8 @@
           "Power Fist"
         ],
         "specialRules": [
-          "Walker"
+          "Walker",
+                    "Lucifer Pattern Engine"
         ]
       },
       {
@@ -1791,6 +1792,20 @@
         "weapons": [
           "Whirlwind Launcher"
         ]
+      },
+      {
+        "name": "Blood Angels Whirlwind",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Whirlwind Launcher"
+      ],
+      "specialRules": [
+        "Lucifer Pattern Engine"
+      ]
       },
       {
         "name": "White Scars Vindicator",
