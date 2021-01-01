@@ -38,12 +38,12 @@
         "Land Speeder Typhoon",
         "Melta Bike",
         "Attack Bike",
-        "Dreadnought",
+        "Blood Angels Dreadnought",
         "Dreadnought, Furioso",
-        "Dreadnought, Hellfire",
         "Blood Angels Razorback",
         "Blood Angels Hunter",
         "Blood Angels Stalker",
+        "Whirlwinds",
         "Land Raider",
         "Land Raider Redeemer",
         "Baal Predator Hades",
@@ -172,6 +172,14 @@
           "points": 150
         },
         {
+          "name": "Whirlwinds",
+          "units": "Four Whirlwinds",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 275
+        },
+        {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
           "extraUnits": [
@@ -250,7 +258,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts, Furioso Dreadnoughts or Hellfire Dreadnoughts",
+        "description": "Add up to two Blood Angels Dreadnoughts or Furioso Dreadnoughts",
         "points": "50 points each"
       },
       {
@@ -260,8 +268,8 @@
       },
       {
         "name": "Predators",
-        "description": "Add up to two Baal Predator Hades or two Baal Predator Infernus",
-        "points": "50 points each"
+        "description": "Add two Baal Predator Hades or two Baal Predator Infernus",
+        "points": "75 points"
       },
       {
         "name": "Razorbacks",

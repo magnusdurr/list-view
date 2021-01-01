@@ -129,14 +129,15 @@
         ],
         "points": 450
     },
-        {
-          "name": "Predators",
-          "units": "Any four of the following units: Predator Annihilators, Predator Destructors",
-          "extraUnits": [
-            "Anti-Air"
-          ],
-          "points": 250
-        },
+    {
+      "name": "Predators",
+      "units": "Four Predator Destructors",
+      "extraUnits": [
+          "Replace four Predator Destructors with four Predator Annihilators",
+        "Anti-Air"
+      ],
+      "points": 225
+    },
         {
           "name": "Assaults",
           "units": "Four Assaults",

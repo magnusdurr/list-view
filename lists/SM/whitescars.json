@@ -152,12 +152,13 @@
         },
         {
           "name": "Predators",
-          "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
+          "units": "Four Predator Destructors",
           "extraUnits": [
+              "Replace four Predator Destructor with four Predator Annihilators",
             "Anti-Air",
             "Vindicators"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Landing Craft",

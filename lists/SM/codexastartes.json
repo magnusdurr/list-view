@@ -72,6 +72,7 @@
   "sections": [
     {
       "name": "Codex Astartes Core Detachments",
+            "description": "Up to one Scout Detachment for each non-Scout Detachment.",
       "formations": [
         {
           "name": "Bikes",
@@ -143,11 +144,12 @@
         },
         {
           "name": "Predators",
-          "units": "Any four of the following units: Predator Annihilators, Predator Destructors",
+          "units": "Four Predator Destructors",
           "extraUnits": [
+              "Replace four Predator Destructors with four Predator Annihilators",
             "Anti-Air"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Land Speeders",
