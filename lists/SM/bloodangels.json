@@ -51,6 +51,7 @@
         "Blood Angels Rhino",
         "Storm Talon",
         "Storm Raven",
+        "Landing Craft",
         "Battle Barge",
         "Strike Cruiser",
         "Drop Pod"
@@ -107,23 +108,24 @@
             "Supreme Commander"
           ],
           "points": 275
-        }
+      },
+      {
+        "name": "Assault Terminators",
+        "units": "Four Assault Terminators",
+        "extraUnits": [
+          "Commander",
+          "Dreadnoughts",
+          "Land Raider Transport"
+        ],
+        "points": 325
+      }
       ]
     },
     {
       "name": "Blood Angels Support Detachments",
       "description": "Up to two Support Detachments may be taken per Core Detachment.",
       "formations": [
-        {
-          "name": "Assault Terminators",
-          "units": "Four Assault Terminators",
-          "extraUnits": [
-            "Commander",
-            "Dreadnoughts",
-            "Land Raider Transport"
-          ],
-          "points": 325
-        },
+
         {
           "name": "Baal Predators",
           "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
@@ -186,7 +188,12 @@
             "Battle Barge"
           ],
           "points": 200
-        }
+      },
+      {
+        "name": "Landing Craft",
+        "units": "One Landing Craft",
+        "points": 350
+      }
       ]
     },
     {
