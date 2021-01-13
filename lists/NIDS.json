@@ -33,8 +33,27 @@
       {
         "name": "Dagon Overlord",
         "type": "AV",
-        "speed": "20cm/30cm",
-        "armour": "3+/4",
+        "speed": "20cm",
+        "armour": "3",
+        "cc": 2,
+        "weapons": [
+          "Boneswords"
+        ],
+        "specialRules": [
+          "Hive Mind Locus",
+          "Inspiring",
+          "Synapse",
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Dagon Overlord Shrike",
+        "type": "AV",
+        "speed": "30cm",
+        "armour": "4",
         "cc": 2,
         "weapons": [
           "Boneswords"
@@ -47,15 +66,35 @@
           "Reinforced Armour",
           "Commander",
           "Leader",
-          "Jump Pack (Wings)"
-        ],
-        "notes": "Gains 30cm Speed, Jump Pack and 4+ Armour if upgraded to Shrike (Wings)"
+          "Jump Pack"
+        ]
       },
       {
         "name": "Swarmlord",
         "type": "AV",
-        "speed": "20cm/30cm",
-        "armour": "4+/5",
+        "speed": "20cm",
+        "armour": "4",
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Venom Cannon",
+          "Large Claws"
+        ],
+        "specialRules": [
+          "Hive Mind Locus",
+          "Inspiring",
+          "Synapse",
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Swarmlord Shrike",
+        "type": "AV",
+        "speed": "30cm",
+        "armour": "5",
         "cc": 3,
         "ff": 5,
         "weapons": [
@@ -70,15 +109,33 @@
           "Reinforced Armour",
           "Commander",
           "Leader",
-          "Jump Pack (Wings)"
-        ],
-        "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)"
+          "Jump Pack"
+        ]
       },
       {
         "name": "Hive Tyrant",
         "type": "AV",
-        "speed": "20cm/30cm",
-        "armour": "4+/5",
+        "speed": "20cm",
+        "armour": "4",
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Venom Cannon",
+          "Large Claws"
+        ],
+        "specialRules": [
+          "Synapse",
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Hive Tyrant Shrike",
+        "type": "AV",
+        "speed": "30cm",
+        "armour": "5",
         "cc": 3,
         "ff": 5,
         "weapons": [
@@ -91,15 +148,30 @@
           "Reinforced Armour",
           "Commander",
           "Leader",
-          "Jump Pack (Wings)"
-        ],
-        "notes": "Gains 30cm Speed, Jump Pack and 5+ Armour if upgraded to Shrike (Wings)."
+          "Jump Pack"
+        ]
       },
       {
         "name": "Tyranid Warriors",
         "type": "LV",
-        "speed": "20cm/30cm",
-        "armour": "5+/6",
+        "speed": "20cm",
+        "armour": "5",
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Deathspitters"
+        ],
+        "specialRules": [
+          "Synapse",
+          "Infiltrators",
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Tyranid Warrior Shrikes",
+        "type": "LV",
+        "speed": "30cm",
+        "armour": "5",
         "cc": 2,
         "ff": 5,
         "weapons": [
@@ -108,9 +180,8 @@
         "specialRules": [
           "Synapse",
           "Fearless",
-          "Jump Packs (Wings)"
-        ],
-        "notes": "Gains 30cm Speed, Jump Packs and 6+ Armour if upgraded to Shrike (Wings)."
+          "Jump Packs"
+        ]
       },
       {
         "name": "Zoanthrope",
@@ -311,13 +382,14 @@
         "name": "Exocrine",
         "type": "AV",
         "speed": 25,
-        "armour": 4,
+        "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
           "Bio-Plasmic Cannon"
         ],
         "specialRules": [
+            "Reinforced Armour"
         ]
       },
       {
@@ -358,7 +430,7 @@
         "speed": 20,
         "armour": 4,
         "cc": 3,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
           "Venom Cannon",
           "Claws"
@@ -384,9 +456,9 @@
       },
       {
         "name": "Tervigon Prime",
-        "type": "H-AV",
+        "type": "WE",
         "speed": 25,
-        "armour": 4,
+        "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
@@ -395,13 +467,15 @@
           "Gaunt Pouch"
         ],
         "specialRules": [
+          "Damage Capacity: 2",
           "Synapse",
           "Fearless",
           "Reinforced Armour",
           "Transport",
           "Swarm (2)"
         ],
-        "notes": "May transport two units of Termagants and Hormagaunts. May bring back two units of Termagants and/or Hormagaunts when Swarming."
+        "notes": "May transport two units of Termagants and Hormagaunts. May bring back two units of Termagants and/or Hormagaunts when Swarming.",
+        "crit": "The Tervigon Prime is killed."
       },
       {
         "name": "Tervigon",
@@ -445,9 +519,9 @@
       },
       {
         "name": "Trygon Prime",
-        "type": "H-AV",
+        "type": "WE",
         "speed": 25,
-        "armour": 4,
+        "armour": 5,
         "cc": 4,
         "ff": 6,
         "weapons": [
@@ -455,11 +529,13 @@
           "Large Claws"
         ],
         "specialRules": [
+          "Damage Capacity: 2",
           "Synapse",
           "Fearless",
           "Reinforced Armour",
           "Tunneler"
-        ]
+        ],
+        "crit": "The Trygon Prime is killed."
       },
       {
         "name": "Trygon",

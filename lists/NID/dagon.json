@@ -28,10 +28,13 @@
         "Biovore",
         "Ravener Alphas",
         "Tyranid Warriors",
+        "Tyranid Warrior Shrikes",
         "Zoanthrope",
         "Lictor",
         "Dagon Overlord",
+        "Dagon Overlord Shrike",
         "Hive Tyrant",
+        "Hive Tyrant Shrike",
         "Barbed Carnifex",
         "Screamer-Killer Carnifex",
         "Dactylis",
@@ -39,6 +42,7 @@
         "Haruspex",
         "Malefactor",
         "Harpy",
+        "Hive Crone",
         "Trygon Prime",
         "Trygon",
         "Harridan",
@@ -74,7 +78,7 @@
           "name": "0-1 Nexus Swarm",
           "units": "One Dagon Dominatrix",
           "extraUnits": [
-            "Two to four Instinctive Swarms (except Mycetic Spore)"
+            "One to four Instinctive Swarms (except Mycetic Spore)"
           ],
           "points": 425
         },
@@ -83,8 +87,9 @@
           "units": "One Hive Tyrant",
           "extraUnits": [
             "Two to four Instinctive Swarms",
+            "Replace the Hive Tyrant with a Hive Tyrant Shrike: Free",
             "0-1 Hive Tyrant in the army may be replaced with the Dagon Overlord: 100 points",
-            "Upgrade the Dagon Overlord, Hive Tyrant to Shrike (Wings): Free"
+            "Replace the Dagon Overlord with a Dagon Overlord Shrike: Free"
           ],
           "points": 150
         },
@@ -94,7 +99,7 @@
           "extraUnits": [
             "Two to four Instinctive Swarms",
             "1+ Gaunts, Gargoyles or Biovores must be chosen",
-            "Upgrade up to three Tyranid Warriors to Shrike (Wings): Free"
+            "Replace up to two Tyranid Warriors with Tyranid Warrior Shrikes: Free"
           ],
           "points": 100
         }
@@ -123,12 +128,11 @@
         },
         {
           "name": "Infestation Swarm",
-          "units": "Two Ravener Alphas",
+          "units": "Three Ravener Alphas or one Trygon Prime",
           "extraUnits": [
-            "One to two Burrower Instinctive Swarms",
-            "Replace three Ravener Alphas with a Trygon Prime: 50 points"
+            "One to two Burrower Instinctive Swarms"
           ],
-          "points": 100
+          "points": 150
         },
         {
           "name": "Harasser Swarm",
@@ -206,8 +210,8 @@
       },
       {
         "name": "Bio-Flyers",
-        "description": "Three Harpies",
-        "points": "125 points"
+        "description": "Three Harpies or three Hive Crones",
+        "points": "100 points"
       },
       {
         "name": "Carnifex",
@@ -216,12 +220,12 @@
       },
       {
         "name": "Bio-Support",
-        "description": "Three Dactylis or four Exocrine",
+        "description": "Three Dactylis",
         "points": "150 points"
       },
       {
         "name": "Bio-Attack",
-        "description": "Two Haruspex or two Malefactors",
+        "description": "Two Haruspex, two Exocrines, or two Malefactors",
         "points": "75 points"
       },
       {
@@ -232,11 +236,11 @@
       {
         "name": "Burrower",
         "description": "Two Trygons or five Raveners",
-        "points": "125 points"
+        "points": "100 points"
       },
       {
         "name": "Mycetic Spore (0-1 per Swarm)",
-        "description": "Permits deployment via planetary assault rules if a Razorfiend or Hive Ship has been bought. This option is not allowed if the Dagon Overlord, Hive Tyrant and/or Tyranid Warriors have been upgraded to Shrike (Wings).",
+        "description": "Permits deployment via planetary assault rules if a Razorfiend or Hive Ship has been bought. This option is not allowed if the Dagon Overlord, Hive Tyrant and/or Tyranid Warriors have been upgraded to Shrikes.",
         "points": "50 points"
       }
     ],

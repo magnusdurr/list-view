@@ -10095,9 +10095,10 @@
       "name": "Drool Cannon",
       "modes": [
         {
-          "firepower": "2x AP5+/AT6+",
+          "firepower": "AP4+",
           "range": 15,
           "specialRules": [
+              "IC"
           ]
         }
       ]
@@ -10425,7 +10426,7 @@
       "name": "Tentaclids",
       "modes": [
         {
-          "firepower": "AA6+",
+          "firepower": "AA4+",
           "range": 30,
           "specialRules": [
           ]

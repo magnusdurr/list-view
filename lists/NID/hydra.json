@@ -30,15 +30,18 @@
         "Genestealers",
         "Biovore",
         "Tyranid Warriors",
+        "Tyranid Warrior Shrikes",
         "Zoanthrope",
         "Lictor",
         "Dimachaeron",
         "Swarmlord",
+        "Swarmlord Shrike",
         "Hive Tyrant",
+        "Hive Tyrant Shrike",
         "Dactylis",
-        "Exocrine",
         "Barbed Carnifex",
         "Screamer-Killer Carnifex",
+        "Harpy",
         "Hive Crone",
         "Viragon",
         "Trygon Prime",
@@ -77,7 +80,7 @@
           "name": "0-1 Nexus Spawn Swarm",
           "units": "One Hydra Dominatrix",
           "extraUnits": [
-            "Two to four Instinctive Swarms (except Mycetic Spore)",
+            "One to four Instinctive Swarms (except Mycetic Spore)",
             "1+ Gaunts or Gargoyles must be chosen"
           ],
           "points": 450
@@ -87,8 +90,9 @@
           "units": "One Hive Tyrant",
           "extraUnits": [
             "Two to four Instinctive Swarms (except Spawner)",
+            "Replace a Hive Tyrant with a Hive Tyrant Shrike: Free",
             "0-1 Hive Tyrant in the army may be replaced with a Swarmlord: 75 points",
-            "Upgrade a Swarmlord, Hive Tyrant to Shrike (Wings): Free"
+            "Replace a Swarmlord with a Swarm Lord Shrike: Free"
           ],
           "points": 150
         },
@@ -98,7 +102,7 @@
           "extraUnits": [
             "Two to four Instinctive Swarms (except Spawner)",
             "1+ Gaunts, Gargoyles or Biovores must be chosen",
-            "Any Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+            "Any Tyranid Warriors may be upgraded to Tyranid Warrior Shrikes: Free"
           ],
           "points": 100
         }
@@ -211,8 +215,8 @@
       },
       {
         "name": "Bio-Flyers",
-        "description": "Three Hive Crones",
-        "points": "125 points"
+        "description": "Three Harpies or three Hive Crones",
+        "points": "100 points"
       },
       {
         "name": "Carnifex",
@@ -226,7 +230,7 @@
       },
       {
         "name": "Bio-Support",
-        "description": "Three Dactylis or four Exocrines",
+        "description": "Three Dactylis",
         "points": "150 points"
       },
       {
@@ -237,7 +241,7 @@
       {
         "name": "Burrower",
         "description": "Two Trygons",
-        "points": "125 points"
+        "points": "100 points"
       },
       {
         "name": "Mycetic Spore (0-1 per Swarm)",
