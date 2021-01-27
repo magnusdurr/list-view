@@ -46,6 +46,7 @@
         "Hydra",
         "Leman Russ",
         "Leman Russ Demolisher",
+        "Leman Russ Thunderer",
         "Shadowsword",
         "Baneblade"
       ],
@@ -156,7 +157,7 @@
         },
         {
           "name": "Leman Russ Squadron",
-          "units": "Four Leman Russ and/or Leman Russ Demolishers",
+          "units": "Four chosen from: Leman Russ, Leman Russ Demolisher, Leman Russ Thunderer",
           "extraUnits": [
           ],
           "points": 275
@@ -172,7 +173,7 @@
     },
     {
       "name": "Slaves to Darkness Chaos Allies",
-      "description": "Up to a third of the points available may be spent on Slaves to Darkness Chaos Allies",
+      "description": "Up to a third of the points available may be spent on Slaves to Darkness Chaos Allies. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations in the army.",
       "formations": [
         {
           "name": "Hell Blade Squadron",
@@ -193,59 +194,59 @@
           "points": 250
         },
         {
-          "name": "0-1 Decimator of Chaos Undivided",
+          "name": "Decimator of Chaos Undivided",
           "units": "One Decimator",
           "points": 225
         },
         {
-          "name": "0-1 Defilers of Chaos Undivided",
+          "name": "Defilers of Chaos Undivided",
           "units": "Four Defilers",
           "points": 225
         },
         {
-          "name": "0-1 Death Wheel of Chaos Undivided",
+          "name": "Death Wheel of Chaos Undivided",
           "units": "One Death Wheel",
           "upgrades": [
           ],
           "points": 300
         },
         {
-          "name": "0-1 Questor of Slaanesh",
+          "name": "Questor of Slaanesh",
           "units": "One Questor",
           "points": 275
         },
         {
-          "name": "0-1 Subjugator of Slaanesh",
+          "name": "Subjugator of Slaanesh",
           "units": "One Subjugator",
           "points": 275
         },
         {
-          "name": "0-1 Plague Reaper of Nurgle",
+          "name": "Plague Reaper of Nurgle",
           "units": "One Plague Reaper",
           "points": 225
         },
         {
-          "name": "0-1 Plague Tower of Nurgle",
+          "name": "Plague Tower of Nurgle",
           "units": "One Plague Tower",
           "points": 275
         },
         {
-          "name": "0-1 Daemonic Assault Engines of Khorne",
+          "name": "Daemonic Assault Engines of Khorne",
           "units": "Four Daemonic Assault Engines",
           "points": 225
         },
         {
-          "name": "0-1 Khorne Lord of Battles",
+          "name": "Khorne Lord of Battles",
           "units": "One Lord of Battles",
           "points": 425
         },
         {
-          "name": "0-1 Silver Towers of Tzeentch",
+          "name": "Silver Towers of Tzeentch",
           "units": "Four Silver Towers",
           "points": 300
         },
         {
-          "name": "0-1 Warp Palace of Tzeentch",
+          "name": "Warp Palace of Tzeentch",
           "units": "One Warp Palace",
           "points": 450
         }
@@ -345,10 +346,10 @@
         "name": "Leman Russ",
         "options": [
           {
-            "description": "Add one, or add three Leman Russ or Leman Russ Demolishers",
+            "description": "Add one, or add three Leman Russ, Leman Russ Demolishers, Leman Russ Thunderers",
             "points": [
-              "One Leman Russ or Leman Russ Demolisher: 50 points",
-              "Three Leman Russ or three Leman Russ Demolishers: 150 points"
+              "One Leman Russ, Leman Russ Demolisher, or Leman Russ Thunderer: 50 points",
+              "Three Leman Russ, three Leman Russ Demolishers, or three Leman Russ Thunderers: 150 points"
             ]
           }
         ]
