@@ -71,7 +71,7 @@
           "units": "One Genestealer Patriarch and eight Acolyte Praetorians",
           "extraUnits": [
             "Cult Transports",
-            "Acolytes",
+            "Genestealers",
             "Technicals"
           ],
           "points": 275
@@ -99,7 +99,7 @@
           "name": "Genestealer Swarm",
           "units": "One Brood Lord, six Genestealers",
           "extraUnits": [
-            "Add up to three Genestealers: 25 points each"
+            "Genestealers"
           ],
           "points": 175
         }
@@ -235,6 +235,11 @@
         "name": "Acolytes",
         "description": "Add up to four Acolyte Hybrids",
         "points": "15 points each"
+      },
+      {
+        "name": "Genestealers",
+        "description": "Add up to three Genestealers",
+        "points": "25 points each"
       },
       {
         "name": "Biomorphs",
