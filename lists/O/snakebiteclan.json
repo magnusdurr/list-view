@@ -8,6 +8,7 @@
   "specialRules": [
     "Snakebite Clan Warlords",
     "Mob Rule",
+    "‘Ere we Go",
     "Power of the Waaagh!"
   ],
   "usage": [
@@ -54,6 +55,7 @@
           "units": "Two Feral Nobz, six Huntas and two Grotz",
           "extraUnits": [
             "Any number of Huntas: 15 points each",
+            "Add any number of Wildboyz: 20 points each",
             "Any number of Boarboyz: 25 points each",
             "Add up to three Squig Katapults: 25 points each",
             "Any number of Huntas + Grotz: 40 points",
@@ -63,28 +65,6 @@
             "Add three Squiggoth Supa-Lobbas: 100 points",
             "Add up to one Gargantuan Squiggoth: 100 points",
             "Add up to one Orkeosaurus: 200 points"
-          ],
-          "pointsOptions": [
-            {
-              "name": "Normal",
-              "points": "200"
-            },
-            {
-              "name": "Big",
-              "points": "350"
-            },
-            {
-              "name": "'Uge",
-              "points": "500"
-            }
-          ]
-        },
-        {
-          "name": "Boarboyz Horde",
-          "units": "One Pigdok, eight Boarboyz",
-          "extraUnits": [
-            "Any number of Boarboyz: 25 points each",
-            "Add up to one Wyrdboy: 35 points"
           ],
           "pointsOptions": [
             {
@@ -100,6 +80,28 @@
               "points": "425"
             }
           ]
+        },
+        {
+          "name": "Boarboyz Horde",
+          "units": "One Pigdok, eight Boarboyz",
+          "extraUnits": [
+            "Any number of Boarboyz: 25 points each",
+            "Add up to one Wyrdboy: 35 points"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "200"
+            },
+            {
+              "name": "Big",
+              "points": "350"
+            },
+            {
+              "name": "'Uge",
+              "points": "500"
+            }
+          ]
         }
       ]
     },
@@ -112,7 +114,7 @@
           "units": "Six Boarboyz (gain 'Scout' ability)",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Junka Brigade",
@@ -139,14 +141,14 @@
           "extraUnits": [
             "Add up to one Feral Nobz: 35 points"
           ],
-          "points": 125
+          "points": 150
         },
         {
           "name": "Madboyz Mob",
           "units": "Six Madboyz",
           "extraUnits": [
             "Add up to six Madboyz: 25 points each",
-            "Add up to three Wyrdboys: 25 points each"
+            "Add up to three Wyrdboys: 35 points each"
           ],
           "points": 150
         },
@@ -163,13 +165,13 @@
           "extraUnits": [
             "Add any number of Trappas: 25 points each"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Wildboyz Mob",
           "units": "Two Feral Nobz, six Wildboyz",
           "extraUnits": [
-            "Add any number of Wildboyz: 15 points each",
+            "Add any number of Wildboyz: 20 points each",
             "Any up to two Brutes: 25 points each",
             "Add up to one Nobz: 35 points each",
             "Add up to one Wyrdboy to a Feral Nobz unit: 35 points",
@@ -180,11 +182,11 @@
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "150"
+              "points": "175"
             },
             {
               "name": "Big",
-              "points": "250"
+              "points": "300"
             }
           ]
         }
