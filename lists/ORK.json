@@ -96,10 +96,10 @@
         "weapons": [
           "Lifta-Droppa|0-1|",
           "D3 Power Fields|0-1|",
-          "Deff-Rolla & Red Paint Job|0-1|"
+          "Deff-Rolla & Fresh Paint Job|0-1|"
         ],
         "specialRules": [
-          "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3 Power Fields, or [**] is equipped with a Deff-Rolla (Walker) & Red Paint Job (Speed +5cm)"
+          "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3 Power Fields, or [**] is equipped with a Deff-Rolla (Walker) & Fresh Paint Job (Speed +5cm)"
         ]
       },
       {
@@ -186,7 +186,7 @@
         "type": "INF",
         "speed": 35,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 5,
         "weapons": [
           "Big Shoota|2|",
@@ -344,6 +344,7 @@
         "armour": 5,
         "cc": 5,
         "weapons": [
+            "n/a"
         ],
         "specialRules": [
           "Transport"
