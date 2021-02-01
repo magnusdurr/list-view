@@ -72,10 +72,10 @@
         "weapons": [
           "Supa-Zzap-Gun|0-1|",
           "Soopagun|0-1|",
-          "D3 Power Fields|0-1|"
+          "2 Power Fields|0-1|"
         ],
         "specialRules": [
-          "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3 power fields"
+          "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given 2 power fields"
         ]
       },
       {
@@ -84,22 +84,22 @@
         "weapons": [
           "Soopagun|0-1|",
           "Weirdboy Tower|0-1|",
-          "D3 Power Fields|0-1|"
+          "2 Power Fields|0-1|"
         ],
         "specialRules": [
         ],
-        "notes": "Replace one Big Gun weapon with either a Soopagun or Weirdboy Tower. Alternatively the unit may be given [*] D3 power fields"
+        "notes": "Replace one Big Gun weapon with either a Soopagun or Weirdboy Tower. Alternatively the unit may be given [*] 2 power fields"
       },
       {
         "name": "Speed Freek Oddboy",
         "type": "CH",
         "weapons": [
           "Lifta-Droppa|0-1|",
-          "D3 Power Fields|0-1|",
+          "2 Power Fields|0-1|",
           "Deff-Rolla & Fresh Paint Job|0-1|"
         ],
         "specialRules": [
-          "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds D3 Power Fields, or [**] is equipped with a Deff-Rolla (Walker) & Fresh Paint Job (Speed +5cm)"
+          "The unit either replaces a Big Gun with a Lifta Droppa, or [*] adds 2 Power Fields, or [**] is equipped with a Deff-Rolla (Walker) & Fresh Paint Job (Speed +5cm)"
         ]
       },
       {
@@ -349,7 +349,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "One unit of Boyz or Nobz. Units may Shoot and Firefight while being transported"
+        "notes": "One unit of Boyz or Nobz. Units may Shoot and Firefight while being transported, unless an enemy model is in base contact with the transport."
       },
       {
         "name": "Mekboy Speedsta",
@@ -1011,12 +1011,12 @@
         ]
       },
       {
-        "name": "Feral Nobz",
+        "name": "Brutes",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 3,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
           "Big Choppas",
           "Shootas"
@@ -1136,7 +1136,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May carry one unit of Junkas or Nobs. Units may Shoot and Firefight while being transported"
+        "notes": "May carry one unit of Junkas or Nobs. Units may Shoot and Firefight while being transported, unless an enemy model is in base contact with the transport."
       },
       {
         "name": "Squiggoth",
@@ -1154,7 +1154,7 @@
           "Walker",
           "Transport"
         ],
-        "notes": "May carry up to four of the following units: Brutes, Huntas, Nobz, Squig Katapult, Wildboyz. May carry up to two Grotz in addition to any other units"
+        "notes": "May carry up to four of the following units: Huntas, Brutes, Squig Katapult, Wildboyz. May carry up to two Grotz in addition to any other units"
       },
       {
         "name": "Squiggoth Supa-Lobba",
@@ -1188,7 +1188,7 @@
           "Walker",
           "Transport"
         ],
-        "notes": "May carry up to eight of the following units: Brutes, Huntas, Nobz, Squig Katapult, Wildboyz. May carry up to four Grotz in addition to any other units.",
+        "notes": "May carry up to eight of the following units: Huntas, Brutes, Squig Katapult, Wildboyz. May carry up to four Grotz in addition to any other units.",
         "crit": "The Gargantuan Squiggoth is killed."
       },
       {
@@ -1209,7 +1209,7 @@
           "Walker",
           "Transport"
         ],
-        "notes": "May carry up to sixteen of the following units: Brutes, Huntas, Nobz, Squig Katapult, Wildboyz. May carry up to six Grotz in addition to any other units.",
+        "notes": "May carry up to sixteen of the following units: Huntas, Brutes, Squig Katapult, Wildboyz. May carry up to six Grotz in addition to any other units.",
         "crit": "The Orkeosaurus takes one additional damage, and D3 random units being transported takes a hit."
       },
       {

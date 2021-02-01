@@ -25,7 +25,7 @@
         "Wyrdboy",
         "Pigdok",
         "Grotz",
-        "Feral Nobz",
+        "Brutes",
         "Boarboyz",
         "Huntas",
         "Junkas",
@@ -52,15 +52,15 @@
       "formations": [
         {
           "name": "Snakebites Warband",
-          "units": "Two Feral Nobz, six Huntas and two Grotz",
+          "units": "Two Brutes, six Huntas and three Grotz",
           "extraUnits": [
             "Any number of Huntas: 15 points each",
             "Any number of Wildboyz: 20 points each",
             "Any number of Boarboyz: 25 points each",
             "Add up to three Squig Katapults: 25 points each",
-            "Any number of Huntas + Grotz: 40 points",
-            "Add up to one Feral Nobz: 35 points each",
-            "Add up to one Wyrdboy to a Feral Nobz unit: 35 points each",
+            "Any number of Huntas + Grotz: 35 points",
+            "Add up to one Brutes: 35 points each",
+            "Add up to one Wyrdboy to a Brutes unit: 35 points each",
             "Any up to three Squiggoths: 30 points each",
             "Add three Squiggoth Supa-Lobbas: 100 points",
             "Add up to one Gargantuan Squiggoth: 100 points",
@@ -69,15 +69,15 @@
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "175"
+              "points": "200"
             },
             {
               "name": "Big",
-              "points": "300"
+              "points": "350"
             },
             {
               "name": "'Uge",
-              "points": "425"
+              "points": "500"
             }
           ]
         },
@@ -121,17 +121,17 @@
           "units": "Six Junkas and six Junkatrukks ",
           "extraUnits": [
             "Any number of Junkas + Junkatrukk: 25 points",
-            "Add up to one Feral Nobz + Junkatrukk: 50 points",
-            "Add up to one Wyrdboy to a Feral Nobz unit: 35 points"
+            "Add up to one Brutes + Junkatrukk: 50 points",
+            "Add up to one Wyrdboy to a Brutes unit: 35 points"
           ],
           "pointsOptions": [
             {
               "name": "Normal",
-              "points": "175"
+              "points": "200"
             },
             {
               "name": "Big",
-              "points": "300"
+              "points": "350"
             }
           ]
         },
@@ -139,7 +139,7 @@
           "name": "Lobba Mob",
           "units": "Six Lobbas",
           "extraUnits": [
-            "Add up to one Feral Nobz: 35 points"
+            "Add up to one Brutes: 35 points"
           ],
           "points": 150
         },
@@ -169,11 +169,11 @@
         },
         {
           "name": "Wildboyz Mob",
-          "units": "Two Feral Nobz, six Wildboyz",
+          "units": "Two Brutes, six Wildboyz",
           "extraUnits": [
             "Any number of Wildboyz: 20 points each",
-            "Add up to one Feral Nobz: 35 points each",
-            "Add up to one Wyrdboy to a Feral Nobz unit: 35 points",
+            "Add up to one Brutes: 35 points each",
+            "Add up to one Wyrdboy to a Brutes unit: 35 points",
             "Any number of Squiggoths: 30 points each",
             "Add up to one Gargantuan Squiggoth: 100 points",
             "Add up to one Orkeosaurus: 200 points"
