@@ -4,7 +4,7 @@
   "version": "Beta 1.0.0",
   "release": "2020-12-10",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
-  "Initiative": "All Tyranid formations have an Initiative Rating of 2+.",
+  "Initiative": "The Nexus Swarm has an Initiative Rating of 1+. All other Tyranid formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Synapse",
     "Hive Mind Locus",
@@ -241,7 +241,7 @@
       },
       {
         "name": "Mycetic Spore (0-1 per Swarm)",
-        "description": "Must deploy via planetary assault rules if a Razorfiend or Hive Ship has been bought.",
+        "description": "Formation may only contain one other Instinctive Swarm. Must deploy via planetary assault rules from a Razorfiend or Hive Ship.",
         "points": "50 points"
       }
     ],
