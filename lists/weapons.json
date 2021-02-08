@@ -4490,15 +4490,8 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "MW"
-          ]
-        },
-        {
-          "firepower": "Assault Weapons",
-          "join": "or",
-          "specialRules": [
-            "EA(+1)",
-            "TK(D6)"
+            "EA(+2)",
+            "TK(D3)"
           ]
         }
       ]
@@ -7948,7 +7941,7 @@
       "name": "Looted Gunz",
       "modes": [
         {
-          "firepower": "AP6+",
+          "firepower": "AP6+/AT6+",
           "range": 15,
           "specialRules": [
           ]

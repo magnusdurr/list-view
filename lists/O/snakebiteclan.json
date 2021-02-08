@@ -118,11 +118,11 @@
         },
         {
           "name": "Junka Brigade",
-          "units": "Six Junkas and six Junkatrukks ",
+          "units": "One Brutes, five Junkas and six Junkatrukks ",
           "extraUnits": [
             "Any number of Junkas + Junkatrukk: 30 points",
             "Add up to one Brutes + Junkatrukk: 50 points",
-            "Add up to one Wyrdboy to a Brutes unit: 25 points"
+            "Add up to one Wyrdboy to a Brutes unit: 35 points"
           ],
           "pointsOptions": [
             {
@@ -151,13 +151,6 @@
             "Add up to three Wyrdboys: 35 points each"
           ],
           "points": 150
-        },
-        {
-          "name": "Steam Gargant",
-          "units": "One Steam Gargant",
-          "extraUnits": [
-          ],
-          "points": 275
         },
         {
           "name": "Trappas Mob",
@@ -189,6 +182,20 @@
             }
           ]
         }
+      ]
+  },
+    {
+      "name": "Snakebites Gargants",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Snakebites Gargant Mob",
+            "units": "One Steam Gargant",
+            "extraUnits": [
+                "Add up to one Steam Gargant: 225 points"
+            ],
+            "points": 275
+          }
       ]
     }
   ]
