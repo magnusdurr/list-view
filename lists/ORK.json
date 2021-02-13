@@ -273,13 +273,14 @@
         "type": "LV",
         "speed": 10,
         "armour": 5,
-        "cc": 5,
-        "ff": 5,
+        "cc": 6,
+        "ff": 6,
         "weapons": [
           "Pulsa Rokkit"
         ],
         "specialRules": [
-        ]
+        ],
+                "notes": "Partial BPs are rounded up"
       },
       {
         "name": "Deffkopta",
