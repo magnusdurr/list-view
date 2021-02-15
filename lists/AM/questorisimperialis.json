@@ -1,9 +1,9 @@
 {
   "fraction": "Adeptus Mechanicus",
-  "army": "Questoris Imperialis",
+  "army": "Knight World",
   "version": "1.0.0",
   "release": "2020-05-19",
-  "strategy": "Questoris Imperialis armies have a Strategy Rating of 2.",
+  "strategy": "Knight World armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+. In addition, all Knight Household formations are subject to the 'Bravery' special rule.",
   "specialRules": [
     "Bravery",
@@ -56,7 +56,7 @@
   ],
   "sections": [
     {
-      "name": "Questoris Imperialis Core Households",
+      "name": "Knight World Core Households",
       "formations": [
         {
           "name": "Protector Household",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "name": "Questoris Imperialis Support Households",
+      "name": "Knight World Support Households",
       "description": "Up to two Support Households for each Core Household.",
       "formations": [
         {
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "Questoris Imperialis Retainer Formations",
+      "name": "Knight World Retainer Formations",
       "description": "Up to one Retainer Formation for each Core or Support Household.",
       "formations": [
         {
@@ -167,7 +167,7 @@
     }
   ],
   "upgrades": {
-    "title": "Questoris Imperialis Upgrades",
+    "title": "Knight World Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
@@ -253,7 +253,7 @@
       }
     ],
     "usage": [
-      "v1.0.0: The Questoris Imperialis list is a mix of the E-UK and NetEA Knight lists, with stats and structure taken from both. As these lists are based on the retro-40k 1990s fluff, most Knights have had their names changed to prevent naming conflicts with the Knights in the current fluff.",
+      "v1.0.0: The Knight World list is a mix of the E-UK and NetEA Knight lists, with stats and structure taken from both. As these lists are based on the retro-40k 1990s fluff, most Knights have had their names changed to prevent naming conflicts with the Knights in the current fluff.",
       "The biggest change from the E-UK and the NetEA Knights is obviously the fact that Knights no longer are DC2 WE, but are H-AV instead. This change makes Knight formations a lot more sane to play with/against, and makes it a lot easier to stay within the EA rules. It also means that sniping the Baron with a Pin-Point is no longer an issue.",
       "Another significant change is that the Retainer formations are more accessible, making the list a bit more flexible."
     ]
