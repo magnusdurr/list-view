@@ -7,7 +7,6 @@
   "Initiative": "All formations have an Initiative Rating of 2+, and are subject to the 'Broodmind' special rule.",
   "specialRules": [
     "Broodcoven",
-    "Broodmind",
     "Brood Brothers",
     "Honour Guard",
     "Tunnelers"
@@ -131,6 +130,13 @@
             "Fire Support"
           ],
           "points": 200
+        },
+        {
+          "name": "Cult Flak Battery",
+          "units": "Three Hydras",
+          "extraUnits": [
+          ],
+          "points": 175
         },
         {
           "name": "Cult Baneblade",
