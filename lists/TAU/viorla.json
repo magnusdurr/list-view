@@ -66,7 +66,8 @@
           "extraUnits": [
             "Commander",
             "Crisis Suits",
-            "Drones"
+            "Attack Drones",
+            "Support Drones"
           ],
           "points": 325
         },
@@ -75,8 +76,9 @@
           "units": "Three XV104 Riptide Battlesuits, three XV107 R'Varna Battlesuits or three XV109 Y'Vahra Battlesuits",
           "extraUnits": [
             "Commander",
-            "Drones",
-            "Heavy Battlesuits"
+            "Heavy Battlesuits",
+            "Attack Drones",
+            "Support Drones"
           ],
           "points": 325
         }
@@ -91,7 +93,8 @@
           "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish",
           "extraUnits": [
             "Broadsides",
-            "Drones",
+            "Attack Drones",
+            "Support Drones",
             "Sky Ray"
           ],
           "points": 225
@@ -100,7 +103,7 @@
           "name": "Drone Group",
           "units": "Eight Gun Drones",
           "extraUnits": [
-            "Replace two Gun Drones with two Missile Drones or two Shield Drones (free), or two Marker Drones (25 points)"
+            "Replace two Gun Drones with two Missile Drones, two Shield Drones, or two Marker Drones (Free)"
           ],
           "points": 175
         },
@@ -109,7 +112,8 @@
           "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
             "Replace three XV15 Stealth Battlesuits with three XV95 Ghostkeel Battlesuits: 75 points",
-            "Drones"
+            "Attack Drones",
+            "Support Drones"
           ],
           "points": 225
         },
@@ -117,7 +121,8 @@
           "name": "Skysweep Support Group",
           "units": "Three Sky Rays",
           "extraUnits": [
-            "Drones"
+              "Attack Drones",
+              "Support Drones"
           ],
           "points": 250
         },
@@ -125,7 +130,8 @@
           "name": "XV88 Broadside Group",
           "units": "Six XV88 Broadside Battlesuits",
           "extraUnits": [
-            "Drones"
+              "Attack Drones",
+              "Support Drones"
           ],
           "points": 300
         }
@@ -199,18 +205,23 @@
         ]
       },
       {
-        "name": "Drones",
+        "name": "Attack Drones",
         "options": [
           {
             "description": "Add two Gun Drones",
             "points": "25 points"
           },
           {
-            "description": "Add two Shield Drones",
-            "points": "25 points"
-          },
-          {
             "description": "Add two Missile Drones",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Support Drones",
+        "options": [
+          {
+            "description": "Add two Shield Drones",
             "points": "25 points"
           },
           {
