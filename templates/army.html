@@ -125,6 +125,10 @@
 </div>
 {{/with}}
 
+{{#if introduction}}
+<p>{{introduction}}</p>
+{{/if}}
+
 {{#if usage}}
 {{> card-with-margin}}
 <div class="card-header"><b>Boosts, Tweaks & Nerfs</b></div>
@@ -135,9 +139,3 @@
 </div>
 </div>
 {{/if}}
-
-{{#if introduction}}
-<p>{{introduction}}</p>
-{{/if}}
-
-{{/with}}
