@@ -84,11 +84,12 @@ var units = {
                 case "INF": return 1;
                 case "LV": return 2;
                 case "AV": return 3;
-                case "WE": return 4;
-                case "AC": return 5;
-                case "AC/WE": return 6;
-                case "SC": return 7;
-                default: return 10;
+                case "H-AV": return 4;
+                case "WE": return 5;
+                case "AC": return 6;
+                case "AC/WE": return 7;
+                case "SC": return 8;
+                default: return 9;
             }
         }
 

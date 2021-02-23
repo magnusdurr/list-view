@@ -66,8 +66,7 @@
           "extraUnits": [
             "Commander",
             "Crisis Suits",
-            "Attack Drones",
-            "Support Drones"
+            "Drones"
           ],
           "points": 325
         },
@@ -77,8 +76,7 @@
           "extraUnits": [
             "Commander",
             "Heavy Battlesuits",
-            "Attack Drones",
-            "Support Drones"
+            "Drones"
           ],
           "points": 325
         }
@@ -93,8 +91,7 @@
           "units": "Eight Fire Warriors, or six Fire Warriors and three Devilfish",
           "extraUnits": [
             "Broadsides",
-            "Attack Drones",
-            "Support Drones",
+            "Drones",
             "Sky Ray"
           ],
           "points": 225
@@ -112,8 +109,7 @@
           "units": "Six XV15 Stealth Battlesuits",
           "extraUnits": [
             "Replace three XV15 Stealth Battlesuits with three XV95 Ghostkeel Battlesuits: 75 points",
-            "Attack Drones",
-            "Support Drones"
+            "Drones"
           ],
           "points": 225
         },
@@ -121,8 +117,7 @@
           "name": "Skysweep Support Group",
           "units": "Three Sky Rays",
           "extraUnits": [
-              "Attack Drones",
-              "Support Drones"
+            "Drones"
           ],
           "points": 250
         },
@@ -130,8 +125,7 @@
           "name": "XV88 Broadside Group",
           "units": "Six XV88 Broadside Battlesuits",
           "extraUnits": [
-              "Attack Drones",
-              "Support Drones"
+            "Drones"
           ],
           "points": 300
         }
@@ -195,58 +189,23 @@
       },
       {
         "name": "Crisis Suits",
-        "options": [
-          {
-            "description": "Add two XV8 Crisis Battlesuits",
-            "points": [
-              "75 points"
-            ]
-          }
-        ]
+        "description": "Add two XV8 Crisis Battlesuits",
+        "points": "75 points"
       },
       {
-        "name": "Attack Drones",
-        "options": [
-          {
-            "description": "Add two Gun Drones",
-            "points": "25 points"
-          },
-          {
-            "description": "Add two Missile Drones",
-            "points": "25 points"
-          }
-        ]
-      },
-      {
-        "name": "Support Drones",
-        "options": [
-          {
-            "description": "Add two Shield Drones",
-            "points": "25 points"
-          },
-          {
-            "description": "Add two Marker Drones",
-            "points": "25 points"
-          }
-        ]
+        "name": "Drones",
+        "description": "Add two Gun Drones, two Missile Drones, two Shield Drones or two Marker Drones to the formation",
+        "points": "25 points"
       },
       {
         "name": "Sky Ray",
-        "options": [
-          {
-            "description": "Add one Sky Ray",
-            "points": "100 points"
-          }
-        ]
+        "description": "Add one Sky Ray",
+        "points": "100 points"
       },
       {
         "name": "Heavy Battlesuits",
-        "options": [
-          {
-            "description": "Add up to two XV104 Riptide Battlesuits, XV107 R'Varna Battlesuits, or XV109 Y'Vahra Battlesuits (the formation may not contain a mix of Heavy Battlesuits)",
-            "points": "75 points each"
-          }
-        ]
+        "description": "Add up to two XV104 Riptide Battlesuits, XV107 R'Varna Battlesuits, or XV109 Y'Vahra Battlesuits (the formation may not contain a mix of Heavy Battlesuits)",
+        "points": "75 points each"
       }
     ]
   }

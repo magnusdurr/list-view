@@ -65,67 +65,65 @@
 {{/each}}
 
 {{#with upgrades}}
-<div class="card" style="margin-top: .8rem">
-    <div class="card-header"><b>{{title}}</b><br>
-        <small>{{description}}</small>
-    </div>
-    <div>
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">Upgrades</th>
-                <th scope="col" colspan="2">Units</th>
-                <th scope="col">Cost</th>
-            </tr>
-            </thead>
-            <tbody>
-            {{#each items}}
-            {{#upgrade this}}
-            {{#unless options}}
-            <tr class="unit-row-{{oddEven @index}}">
-                <td>{{name}}</td>
-                <td colspan="2">{{description}}</td>
-                <td style="white-space: nowrap;">
-                    {{#if (isArray points)}}
-                    {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
-                    {{else}}
-                    {{points}}
-                    {{/if}}
-                </td>
-            </tr>
-            {{else}}
-            <tr class="unit-row-{{oddEven @index}}">
-                <td rowspan="{{@options}}">{{name}}</td>
-                {{#if description}}
-                <td rowspan="{{@options}}">{{description}}</td>
-                {{/if}}
-                {{#each options}}
-                {{#unless @first}}
-            <tr class="unit-row-{{oddEven @../index}}">{{/unless}}
-                {{#if ../description}}
-                <td>{{description}}</td>
-                {{else}}
-                <td colspan="2">{{description}}</td>
-                {{/if}}
-                <td>
-                    {{#if (isArray points)}}
-                    {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
-                    {{else}}
-                    {{points}}
-                    {{/if}}
-                </td>
-            </tr>
-            {{/each}}
-            {{/unless}}
-            {{/upgrade}}
-            {{/each}}
-            </tbody>
-        </table>
-    </div>
+{{> card-with-margin}}
+<div class="card-header"><b>{{title}}</b><br>
+    <small>{{description}}</small>
 </div>
-{{#if introduction}}
-<p>{{introduction}}</p>
-{{/if}}
+<div>
+    <table  class="table table-striped">
+        <tbody>
+        {{#each items}}
+        {{#upgrade this}}
+        <tr>
+            <td>
+                {{#unless options}}
+                <div class="row">
+                    <div class="col-12">
+                        <span style="font-weight: 550">{{name}}</span>
+                    </div>
+                    <div class="col-8 col-md-9">
+                        {{description}}
+                    </div>
+                    <div class="col-4 col-md-3" style="text-align: right">
+                        {{#if (isArray points)}}
+                        {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                        {{else}}
+                        {{points}}
+                        {{/if}}
+                    </div>
+                </div>
+                {{else}}
+                <div class="row">
+                    <div class="col-12">
+                        <span style="font-weight: 550">{{name}}</span>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        {{description}}
+                    </div>
+                    <div class="col-12 col-md-7">
+                    {{#each options}}
+                    <div class="row">
+                        <div class="col-8" style="text-align: right">{{description}}</div>
+                        <div class="col-4" style="text-align: right">
+                            {{#if (isArray points)}}
+                            {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                            {{else}}
+                            {{points}}
+                            {{/if}}
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+                {{/unless}}
+            </td>
+        </tr>
+        {{/upgrade}}
+        {{/each}}
+        </tbody>
+    </table>
+</div>
+</div>
+{{/with}}
 
 {{#if usage}}
 {{> card-with-margin}}
@@ -136,6 +134,10 @@
 {{/each}}
 </div>
 </div>
+{{/if}}
+
+{{#if introduction}}
+<p>{{introduction}}</p>
 {{/if}}
 
 {{/with}}
