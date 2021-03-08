@@ -8,7 +8,8 @@
   "specialRules": [
     "Guerilla Tactics",
     "Space Marine Transports",
-    "Expert Reconnaissance"
+    "Expert Reconnaissance",
+    "Land Speeder Escort"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Ravenguard Space Marine army and successor chapters."
@@ -258,8 +259,8 @@
         ]
       },
       {
-        "name": "Land Speeders",
-        "description": "Add any two of the following. If the formation can use Drop Pods, these units gain the 'Planetfall' special rule (only roll to scatter once for the entire formation).",
+        "name": "Raven Guard Land Speeders",
+        "description": "Add any two of the following. All Land Speeders bought as part of this upgrade are subject to the 'Land Speeder Escort' special rule.",
         "options": [
           {
             "description": "Land Speeder, Land Speeder Tornado",
@@ -284,11 +285,6 @@
         "name": "Snipers",
         "description": "All Scouts in the formation gain the 'Sniper' special rule on their Heavy Bolters",
         "points": "25 points"
-      },
-      {
-        "name": "Storms",
-        "description": "Replace the 'plus transport' with four Land Speeder Storms",
-        "points": "100 points"
       },
       {
         "name": "Tempest",
