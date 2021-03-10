@@ -27,7 +27,7 @@
         "Squat Bikers",
         "Squat Hearthguards",
         "Squat Thunderers",
-        "Mole Mortar",
+        "Mole Mortars",
         "Rapier",
         "Thudd Gun",
         "Guildmaster Trike",
@@ -68,8 +68,7 @@
           "name": "Warrior Brotherhood",
           "units": "Squat Hearthguards, nine Squat Warriors",
           "extraUnits": [
-            "Replace three Squat Warriors with three Rapiers: Free",
-            "Add two Squat Thunderers: 50 points",
+            "Replace two Squat Warriors with two Rapiers, or two Thunderers: 25 points",
             "Add four Squat Warriors: 75 points",
             "Warlord",
             "Warrior Transport",
@@ -155,6 +154,7 @@
           "name": "Hellbore",
           "units": "One Hellbore",
           "extraUnits": [
+              "Living Ancestor"
           ],
           "points": 150
         },
@@ -162,6 +162,7 @@
           "name": "Overlord",
           "units": "One Overlord Dirigible",
           "extraUnits": [
+              "Living Ancestor"
           ],
           "points": 250
         },
@@ -225,7 +226,7 @@
         "name": "Living Ancestor",
         "options": [
           {
-            "description": "Add a Living Ancestor to a Leviathan, Cyclops, Colossus or Land Train.",
+            "description": "Add a Living Ancestor to an Overlord Dirigible, Leviathan, Cyclops, Colossus or Land Train.",
             "points": "25 points"
           }
         ]
