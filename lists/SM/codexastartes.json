@@ -1,11 +1,13 @@
 {
   "fraction": "Space Marines",
   "army": "Codex Astartes",
-  "version": "1.0.0",
-  "release": "2019-04-03",
+  "version": "1.0.beta",
+  "release": "2021-03-18",
+  "intro": "The Codex Astartes army list allows you to field an army based on one of the Space Marine Chapters that follows the teachings of the Codex Astartes. The list has a flexible structure to allow you to build an army that represents your favorite Space Marine Chapter on the battlefield.",
+  "armyforge": "EAR_AdeptusAstartes_CodexAstartes",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "The Thunderbolt and Marauder Squadron formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
-  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Codex Astartes detachments and Aircraft formations.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Codex Astartes Detachments and Space Marine Aircraft formations.",
   "specialRules": [
     "Space Marine Transports"
   ],
@@ -71,18 +73,9 @@
   ],
   "sections": [
     {
-      "name": "Codex Astartes Core Detachments",
-            "description": "Up to one Scout Detachment for each non-Scout Detachment.",
+      "name": "Codex Astartes Detachments",
+      "description": "Up to one Scout Detachment for each non-Scout Detachment.",
       "formations": [
-        {
-          "name": "Bikes",
-          "units": "Five Assault Bikes",
-          "extraUnits": [
-            "Attack Bikes",
-            "Commander"
-          ],
-          "points": 200
-        },
         {
           "name": "Assaults",
           "units": "Four Assaults",
@@ -93,17 +86,13 @@
           "points": 175
         },
         {
-          "name": "Tacticals",
-          "units": "Six Tacticals plus transport",
+          "name": "Bikes",
+          "units": "Five Assault Bikes",
           "extraUnits": [
-            "Anti-Air",
-            "Commander",
-            "Dreadnoughts",
-            "Land Raider Transport",
-            "Razorback",
-            "Vindicators"
+            "Attack Bikes",
+            "Commander"
           ],
-          "points": 275
+          "points": 200
         },
         {
           "name": "Devastators",
@@ -119,21 +108,6 @@
           "points": 250
         },
         {
-          "name": "Terminators",
-          "units": "Four Terminators",
-          "extraUnits": [
-            "Commander",
-            "Land Raider Transport"
-          ],
-          "points": 350
-        }
-      ]
-    },
-    {
-      "name": "Codex Astartes Support Detachments",
-      "description": "Up to three Support Detachments for each Core Detachment.",
-      "formations": [
-        {
           "name": "Land Raiders",
           "units": "Three Land Raiders",
           "extraUnits": [
@@ -141,14 +115,6 @@
             "Anti-Air"
           ],
           "points": 275
-        },
-        {
-          "name": "Predators",
-          "units": "Four Predator Destructors and/or Predator Annihilators",
-          "extraUnits": [
-            "Anti-Air"
-          ],
-          "points": 250
         },
         {
           "name": "Land Speeders",
@@ -159,12 +125,25 @@
           "points": 200
         },
         {
-          "name": "Vindicators",
-          "units": "Four Vindicators",
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 350
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Predators",
+          "units": "Four Predator Destructors and/or Predator Annihilators",
           "extraUnits": [
             "Anti-Air"
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Scouts",
@@ -176,12 +155,34 @@
           "points": 150
         },
         {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
           "extraUnits": [
-            "Battle Barge"
+            "Anti-Air",
+            "Commander",
+            "Dreadnoughts",
+            "Land Raider Transport",
+            "Razorback",
+            "Vindicators"
           ],
-          "points": 200
+          "points": 275
+        },
+        {
+          "name": "Terminators",
+          "units": "Four Terminators",
+          "extraUnits": [
+            "Commander",
+            "Land Raider Transport"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Vindicators",
+          "units": "Four Vindicators",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 225
         },
         {
           "name": "Whirlwinds",
@@ -190,11 +191,6 @@
             "Anti-Air"
           ],
           "points": 275
-        },
-        {
-          "name": "Landing Craft",
-          "units": "One Landing Craft",
-          "points": 350
         }
       ]
     },
@@ -213,14 +209,14 @@
           "points": 225
         },
         {
-          "name": "Thunderbolt Squadron",
-          "units": "Two Thunderbolt Fighters",
-          "points": 175
-        },
-        {
           "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
           "points": 250
+        },
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 175
         },
         {
           "name": "Warhounds",
@@ -245,16 +241,23 @@
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
+        "name": "Anti-Air",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
         "name": "Attack Bikes",
         "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
         "points": "Free"
-      },
-      {
-        "name": "Dreadnoughts",
-        "description": "Add any two of the following: Dreadnought, Hellfire Dreadnought",
-        "points": [
-          "50 points each"
-        ]
       },
       {
         "name": "Battle Barge",
@@ -280,17 +283,10 @@
         ]
       },
       {
-        "name": "Anti-Air",
-        "description": "Add any one of the following units to the formation",
-        "options": [
-          {
-            "description": "Add one Hunter",
-            "points": "75 points"
-          },
-          {
-            "description": "Add one Stalker",
-            "points": "50 points"
-          }
+        "name": "Dreadnoughts",
+        "description": "Add any two of the following: Dreadnought, Hellfire Dreadnought",
+        "points": [
+          "50 points each"
         ]
       },
       {
@@ -322,11 +318,5 @@
         ]
       }
     ]
-  },
-  "about": [
-    "v1.0.0: The EA-R Codex Astartes list is based on the NetEA version. A great challenge with Codex Astartes is to keep it relevant while adding new Space Marine chapters, where each of will do a better job at a particular playstyle. To make it unique, it was decided to keep the wide-open structure of the original list, while making other Space Marine lists more rigid. It is also one of the few lists that has access to the very powerful Landing Craft. The Warlord was dropped, and the Thunderhawk was increased by 25 points, but the Imperial Aircraft has been retained, and the Storm Talon introduced as well. Warhounds can only be bought in pairs, but may be split up with the 'Independent' special rule.",
-    "Other major changes: The list now has access to the Stalker AA unit. Dreadnoughts are cheaper when bought in pairs. The 'Sniper' upgrade is cheaper. Assaults are 25 points cheaper. The Predator Destructor has recieved an additional shot on its main gun, bringing it to parity with the Annihilator. The seldom seen Land Raiders can now be taken in formations of three, and is also cheaper to take as a transport option.",
-    "The Battle Barge has had its Slow and Steady rule replaced with 'Slow to Arrive' (can be plotted from turn 2 onwards instead of turn 3 onwards) and is also significantly cheaper.",
-    "Last but not least, the ATSKNF rule has been amended so that Leaders with this rule only remove one extra Blast Marker instead of two, and Captains, Librarians and Supreme Commanders have been made 25 points cheaper across all relevant lists."
-  ]
+  }
 }

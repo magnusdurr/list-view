@@ -1,7 +1,14 @@
 <h2>{{fraction}} - {{army}}</h2>
 <p>
     <small>Version {{version}} - {{release}}</small>
+    {{#if armyforge}}
+    <br><small><b>Armyforge:</b> <a href="https://magnusdurr.github.io/snapfire/war/chooser.html?list={{armyforge}}" target="_blank" class="external">{{army}}</a></small>
+    {{/if}}
 </p>
+
+{{#if intro}}
+<p>{{{intro}}}</p>
+{{/if}}
 
 {{> special-rules}}
 

@@ -24,15 +24,10 @@ var eaTemplating = {
             eaTemplating.templates['units'] = Handlebars.compile(template);
         });
 
-        $.get("templates/about.html").done(function (template) {
-            eaTemplating.templates['about'] = Handlebars.compile(template);
-        });
-
         $.get("templates/menu.html").done(function (template) {
             eaTemplating.templates['menu'] = Handlebars.compile(template);
         });
 
-        // TODO: Deprecated
         $.get("templates/list.html").done(function (template) {
             eaTemplating.templates['list'] = Handlebars.compile(template);
         });
