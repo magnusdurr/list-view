@@ -1,4 +1,11 @@
 <h2>Armies</h2>
+
+<p class="lead">
+    Most Ragnarök list are based on lists developed by the NetEA group, Epic-UK group and the F-ERC group. We have
+    done a few general changes across all Ragnarök lists as well as tweaks, nerfs and boost to improve playability and
+    list balance. Each list contains a description of the list origin and the changes we made from the original.
+</p>
+<!--
 <div class="row">
     <div class="col-md-9 col-12" style="line-height: 1.0">
         <b>Approved</b> - Tournament ready and balanced<br>
@@ -22,6 +29,7 @@
         </div>
     </div>
 </div>
+-->
 
 <script>
     $(document).ready(function () {
@@ -32,17 +40,12 @@
 
         var states = ['approved'];
 
-        if (filter === 'beta')
-        {
+        if (filter === 'beta') {
             states.push('beta');
-        }
-        else if (filter === 'alpha')
-        {
+        } else if (filter === 'alpha') {
             states.push('beta');
             states.push('alpha');
-        }
-        else if (filter === 'all')
-        {
+        } else if (filter === 'all') {
             states.push('beta');
             states.push('alpha');
             states.push('experimental');
@@ -55,9 +58,9 @@
             console.log(data);
 
             filtered.index.forEach(section =>
-                    section.index.forEach(race => {
-                        race.lists = race.lists.filter(item => states.includes(item.status))
-                    }));
+                section.index.forEach(race => {
+                    race.lists = race.lists.filter(item => states.includes(item.status))
+                }));
 
             $("#content").append(eaTemplating.templates['list'](filtered))
         });
