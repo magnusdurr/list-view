@@ -56,13 +56,14 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 3,
+        "cc": 4,
         "ff": 6,
         "weapons": [
           "Tormentors",
           "Klaives"
         ],
         "specialRules": [
+            "Infiltrators"
         ]
       },
       {
@@ -99,14 +100,13 @@
       {
         "name": "Scourges",
         "type": "INF",
-        "speed": 35,
+        "speed": 30,
         "armour": 6,
         "cc": 6,
         "ff": 3,
         "weapons": [
           "Dark Lance",
-          "Splinter Cannon",
-          "Splinter Carbines"
+          "Splinter Cannon"
         ],
         "specialRules": [
           "Jump Packs",
@@ -117,7 +117,7 @@
         "name": "Haemonculi",
         "type": "INF",
         "speed": 15,
-        "armour": 4,
+        "armour": 5,
         "cc": 3,
         "ff": 5,
         "weapons": [
@@ -132,26 +132,28 @@
         "name": "Wracks",
         "type": "INF",
         "speed": 15,
-        "armour": 5,
+        "armour": 6,
         "cc": 3,
         "weapons": [
           "Poison Blades"
         ],
         "specialRules": [
-          "Fearless"
+          "Fearless",
+          "Expendable"
         ]
       },
       {
         "name": "Grotesques",
         "type": "INF",
         "speed": 15,
-        "armour": 3,
+        "armour": 4,
         "cc": 4,
         "weapons": [
           "Grotesques Blades"
         ],
         "specialRules": [
-          "Fearless"
+          "Fearless",
+          "Expendable"
         ]
       },
       {
@@ -394,7 +396,6 @@
         "type": "WE",
         "speed": 25,
         "armour": 5,
-        "cc": 6,
         "ff": 4,
         "weapons": [
           "Twin Heavy Phantom Lance||FxF",
