@@ -22,10 +22,10 @@
                 <span id="list-filter">Filter: </span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="content/armies.html?filter=approved">Approved</a>
-                <a class="dropdown-item" href="content/armies.html?filter=beta">Beta+</a>
-                <a class="dropdown-item" href="content/armies.html?filter=alpha">Alpha+</a>
-                <a class="dropdown-item" href="content/armies.html?filter=all">All lists</a>
+                <a class="dropdown-item" href="content/armies.html?display=approved">Approved</a>
+                <a class="dropdown-item" href="content/armies.html?display=beta">Beta+</a>
+                <a class="dropdown-item" href="content/armies.html?display=alpha">Alpha+</a>
+                <a class="dropdown-item" href="content/armies.html?display=all">All lists</a>
             </div>
         </div>
     </div>
@@ -36,8 +36,8 @@
     $(document).ready(function () {
         console.log("[document-ready] initializing armies...");
 
-        var urlSearchParams = new URLSearchParams(new URL('http://localhost' + history.state.url).search);
-        var filter = urlSearchParams.get("filter");
+        var urlSearchParams = new URLSearchParams(new URL(window.location).search);
+        var filter = urlSearchParams.get("display");
 
         var states = ['approved'];
 
