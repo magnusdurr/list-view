@@ -100,7 +100,7 @@
           "name": "Drone Group",
           "units": "Eight Gun Drones",
           "extraUnits": [
-            "Replace two Gun Drones with two Missile Drones, two Shield Drones, or two Marker Drones (Free)"
+            "Replace two Gun Drones with two Missile Drones or two Shield Drones (Free), or two Marker Drones (25 points)"
           ],
           "points": 150
         },
@@ -194,8 +194,17 @@
       },
       {
         "name": "Drones",
-        "description": "Add two Gun Drones, two Missile Drones, two Shield Drones or two Marker Drones to the formation",
-        "points": "25 points"
+        "description": "Add any one of the following upgrades to the formation",
+        "options": [
+          {
+            "description": "Two Gun Drones, Missile Drones or Shield Drones",
+            "points": "25 points"
+          },
+          {
+            "description": "Two Marker Drones",
+            "points": "50 points"
+          }
+        ]
       },
       {
         "name": "Sky Ray",
