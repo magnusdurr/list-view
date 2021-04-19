@@ -58,33 +58,13 @@
       "name": "Ork Formations",
       "formations": [
         {
-          "name": "Evil Sunz Gunfortress Mob",
-          "units": "One Gunfortress, one Nobz, three Boyz, one Grotz",
-          "extraUnits": [
-            "Add any number of Flakwagons, Gunwagons: 30 points each",
-            "0-1 Add one Speed Freek Oddboy character to a Gunfortress: 50 points"
-          ],
-          "pointsOptions": [
-            {
-              "name": "Normal",
-              "points": "225"
-            },
-            {
-              "name": "Big",
-              "points": "400"
-            },
-            {
-              "name": "'Uge",
-              "points": "575"
-            }
-          ]
-        },
-        {
-          "name": "Evil Sunz Battlefortress Mob",
+          "name": "Evil Sunz Fortress Mob",
           "units": "One Battlefortress, two Nobz, six Boyz, two Grotz",
           "extraUnits": [
             "Add any number of Flakwagons, Gunwagons: 30 points each",
-            "0-1 Add one Speed Freek Oddboy character to a Battlefortress: 50 points"
+            "0-1 Add one Speed Freek Oddboy character to a Battlefortress: 50 points",
+            "0-2 Add one Speed Freek Oddboy character to a Gunfortress: 50 points",
+            "Replace one Battlefortress with two Gunfortresses: 100 points"
           ],
           "pointsOptions": [
             {
