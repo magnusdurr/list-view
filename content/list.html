@@ -18,11 +18,17 @@
                             content.append(eaTemplating.templates['units'](units));
                         });
 
-                        $.get("lists/" + race + "/" + list + ".log.html", function(data) {
+                        $.get("lists/" + race + "/" + list + ".log.html", function (data) {
                             content.append("<h2>About the list</h2>")
                             content.append(data);
                         }).fail(function (jqxhr, textStatus, error) {
                             console.log("No list log provided");
+                        });
+
+                        $.get("lists/" + race + "/" + race + ".log.html", function (data) {
+                            content.append(data);
+                        }).fail(function (jqxhr, textStatus, error) {
+                            console.log("No race log provided");
                         });
                     }
                 ).fail(function (jqxhr, textStatus, error) {
