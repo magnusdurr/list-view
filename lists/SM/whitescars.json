@@ -1,8 +1,10 @@
 {
   "fraction": "Space Marines",
   "army": "White Scars",
-  "version": "1.0.Beta",
-  "release": "2020-07-11",
+  "version": "1.0.beta",
+  "release": "2021-02-23",
+  "armyforge": "EAR_AdeptusAstartes_WhiteScars",
+  "intro": "The following army list allows you to field an army based on the White Scars Space Marine chapter. The White Scars practice a highly mobile method of warfare, tearing into their enemies with lightning-quick attacks and vanishing before a response can be made.",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all White Scars detachments and Aircraft formations.",
@@ -277,8 +279,5 @@
         ]
       }
     ]
-  },
-  "usage": [
-    "EA-R White Scars are based on the NetEA version of the list. Apart from the changes inherited from Codex Astares, the Terminator formation now has Land Raider Crusaders as standard, Scout Bikes and a Melta Attack Bike has been introduced and the army structure is a lot more rigid."
-  ]
+  }
 }

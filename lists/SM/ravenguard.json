@@ -1,22 +1,18 @@
 {
   "fraction": "Space Marines",
   "army": "Ravenguard",
-  "version": "1.0.Beta",
-  "release": "2020-05-12",
+  "version": "1.0.beta",
+  "release": "2020-03-18",
+  "armyforge": "EAR_AdeptusAstartes_Ravenguard",
+  "intro": "The following army list allows you to field an army based on the Raven Guard Space Marine chapter. The Raven Guard specialise in guerrilla warfare, moving behind enemy lines with unrivalled stealth, and striking with precise application of force.",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
-    "Guerilla Tactics",
-    "Space Marine Transports",
     "Expert Reconnaissance",
-    "Land Speeder Escort"
+    "Guerilla Tactics",
+    "Land Speeder Escort",
+    "Space Marine Transports"
   ],
-  "usage": [
-    "The following army list allows you to field an army based on the Ravenguard Space Marine army and successor chapters."
-  ],
-  "theme": "",
-  "design": "",
-  "changeLog": [],
   "units": [
     {
       "from": "SM.json",
