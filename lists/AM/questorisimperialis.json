@@ -18,13 +18,13 @@
       "units": [
         "Seneschal",
         "Knight-Baron",
-        "Knight-Protector",
-        "Knight-Custodian",
-        "Knight-Vanguard",
-        "Knight-Guardian Demolisher",
-        "Knight-Guardian Vanquisher",
-        "Knight-Guardian Skysweeper",
-        "Knight-Aggressor"
+        "Knight-Paladin",
+        "Knight-Castellan",
+        "Knight-Lancer",
+        "Knight-Warden Demolisher",
+        "Knight-Warden Vanquisher",
+        "Knight-Warden Skysweeper",
+        "Knight-Errant"
       ],
       "unitRules": [
         "Lance"
@@ -60,10 +60,10 @@
       "formations": [
         {
           "name": "Protector Household",
-          "units": "Five Knight-Protectors",
+          "units": "Five Knight-Paladins",
           "extraUnits": [
             "Seneschal",
-            "Knight-Protectors",
+            "Knight-Paladins",
             "Knight-Baron"
           ],
           "points": 475
@@ -76,37 +76,37 @@
       "formations": [
         {
           "name": "Custodian Household",
-          "units": "Two Knight-Custodians (any combination configurations)",
+          "units": "Two Knight-Castellans (any combination configurations)",
           "extraUnits": [
             "Seneschal",
-            "Knight-Custodians"
+            "Knight-Castellans"
           ],
           "points": 300
         },
         {
           "name": "Aggressor Household",
-          "units": "Three Knight-Aggressors",
+          "units": "Three Knight-Errants",
           "extraUnits": [
             "Seneschal",
-            "Knight-Aggressors"
+            "Knight-Errants"
           ],
           "points": 325
         },
         {
           "name": "Vanguard Household",
-          "units": "Three Knight-Vanguard",
+          "units": "Three Knight-Lancer",
           "extraUnits": [
             "Seneschal",
-            "Knight-Vanguard"
+            "Knight-Lancer"
           ],
           "points": 350
         },
         {
           "name": "Guardian Household",
-          "units": "Four Knight-Guardians (any combination of configurations)",
+          "units": "Four Knight-Wardens (any combination of configurations)",
           "extraUnits": [
             "Seneschal",
-            "Knight-Guardians"
+            "Knight-Wardens"
           ],
           "points": 350
         }
@@ -189,37 +189,37 @@
         ]
       },
       {
-        "name": "Knight-Custodians",
+        "name": "Knight-Castellans",
         "options": [
           {
-            "description": "Add up to two Knight-Custodians of any configuration",
+            "description": "Add up to two Knight-Castellans of any configuration",
             "points": "125 points each"
           }
         ]
       },
       {
-        "name": "Knight-Vanguard",
+        "name": "Knight-Lancer",
         "options": [
           {
-            "description": "Add up to two Knight-Vanguard",
+            "description": "Add up to two Knight-Lancer",
             "points": "100 points each"
           }
         ]
       },
       {
-        "name": "Knight-Guardians",
+        "name": "Knight-Wardens",
         "options": [
           {
-            "description": "Add up to two Knight-Guardians of any configuration",
+            "description": "Add up to two Knight-Wardens of any configuration",
             "points": "75 points each"
           }
         ]
       },
       {
-        "name": "Knight-Aggressors",
+        "name": "Knight-Errants",
         "options": [
           {
-            "description": "Add up to two Knight-Aggressors",
+            "description": "Add up to two Knight-Errants",
             "points": "100 points each"
           }
         ]
