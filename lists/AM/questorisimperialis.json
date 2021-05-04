@@ -59,14 +59,14 @@
       "name": "Knight World Core Households",
       "formations": [
         {
-          "name": "Protector Household",
+          "name": "Paladin Household",
           "units": "Five Knight-Paladins",
           "extraUnits": [
             "Seneschal",
             "Knight-Paladins",
             "Knight-Baron"
           ],
-          "points": 475
+          "points": 450
         }
       ]
     },
@@ -75,7 +75,7 @@
       "description": "Up to two Support Households for each Core Household.",
       "formations": [
         {
-          "name": "Custodian Household",
+          "name": "Castellan Household",
           "units": "Two Knight-Castellans (any combination configurations)",
           "extraUnits": [
             "Seneschal",
@@ -84,7 +84,7 @@
           "points": 300
         },
         {
-          "name": "Aggressor Household",
+          "name": "Errant Household",
           "units": "Three Knight-Errants",
           "extraUnits": [
             "Seneschal",
@@ -93,7 +93,7 @@
           "points": 325
         },
         {
-          "name": "Vanguard Household",
+          "name": "Lancer Household",
           "units": "Three Knight-Lancer",
           "extraUnits": [
             "Seneschal",
@@ -102,7 +102,7 @@
           "points": 350
         },
         {
-          "name": "Guardian Household",
+          "name": "Warden Household",
           "units": "Four Knight-Wardens (any combination of configurations)",
           "extraUnits": [
             "Seneschal",
@@ -229,7 +229,7 @@
         "options": [
           {
             "description": "Add four Land Transporters (may have no other upgrades)",
-            "points": "50 points"
+            "points": "25 points"
           }
         ]
       },
