@@ -2,9 +2,9 @@
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
   "version": "1.0.Beta",
-  "release": "2019-06-05",
+  "release": "2021-05-24",
   "strategy": "Necron armies have a Strategy Rating of 2.",
-  "Initiative": "All Necron formations have an Initiative Rating of 1+.",
+  "Initiative": "Night Shroud and Doom Scythe formations have Initiative Rating of 2+. All other Necron formations have an Initiative Rating of 1+.",
   "specialRules": [
     "Necron Reserves",
     "Necron Garrisons",
@@ -68,8 +68,8 @@
       "formations": [
         {
           "name": "0–1 Necron Tomb Complex",
-          "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
-          "points": 75
+          "units": "Replace one objective marker in the Necron player's half of the table with a Tomb Complex. It may not be destroyed. Formations using the Portal should measure from the centre of the objective.",
+          "points": 50
         }
       ]
     },
@@ -99,6 +99,28 @@
       ]
     },
     {
+      "name": "Maynarkh Dynasty Portal Formations",
+      "description": "Up to one for each Necron Phalanx",
+      "formations": [
+        {
+          "name": "Monolith Phalanx",
+          "units": "Three Monoliths",
+          "extraUnits": [
+            "Add up to one Obelisk: 50 points"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Monolith Maniple",
+          "units": "One Monolith, two Obelisks",
+          "extraUnits": [
+            "Add up to one Obelisk: 50 points"
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
       "name": "Maynarkh Dynasty Support Formations",
       "description": "Up to two for each Necron Phalanx",
       "formations": [
@@ -107,7 +129,7 @@
           "units": "Six Obelisks",
           "extraUnits": [
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Destroyer Phalanx",
@@ -127,22 +149,6 @@
           "upgrades": [
           ],
           "points": 175
-        },
-        {
-          "name": "Monolith Phalanx",
-          "units": "Three Monoliths",
-          "extraUnits": [
-            "Add up to one Obelisk: 50 points"
-          ],
-          "points": 275
-        },
-        {
-          "name": "Monolith Maniple",
-          "units": "One Monolith, two Obelisks",
-          "extraUnits": [
-            "Add up to one Obelisk: 50 points"
-          ],
-          "points": 200
         },
         {
           "name": "Stalker Maniple",
