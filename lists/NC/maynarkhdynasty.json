@@ -75,7 +75,6 @@
     },
     {
       "name": "Maynarkh Dynasty Core Formations",
-      "description": "A Necron army must contain at least one 'The Unbidden' formation, but no more than than the number of Necron Phalanx formations",
       "formations": [
         {
           "name": "Necron Phalanx",
@@ -88,13 +87,6 @@
             "Add three Immortals: 75 points"
           ],
           "points": 250
-        },
-        {
-          "name": "1+ The Unbidden",
-          "units": "Six Flayed Ones",
-          "extraUnits": [
-          ],
-          "points": 200
         }
       ]
     },
@@ -122,8 +114,15 @@
     },
     {
       "name": "Maynarkh Dynasty Support Formations",
-      "description": "Up to two for each Necron Phalanx",
+      "description": "Up to two for each Necron Phalanx. A Necron army must contain at least one 'The Unbidden' formation.",
       "formations": [
+          {
+            "name": "1+ The Unbidden",
+            "units": "Six Flayed Ones",
+            "extraUnits": [
+            ],
+            "points": 200
+        },
         {
           "name": "Obelisk Phalanx",
           "units": "Six Obelisks",
@@ -191,7 +190,7 @@
           "units": "One Night Shroud Bomber",
           "upgrades": [
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Doom Scythes",
