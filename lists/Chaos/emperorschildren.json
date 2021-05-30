@@ -73,7 +73,8 @@
       "units": [
         "Hell Blade Interceptor",
         "Hell Talon Fighter-Bomber",
-        "Devastation Class Cruiser"
+        "Devastation Class Cruiser",
+        "Despoiler Class Battleship"
       ],
       "unitRules": [
       ]
@@ -210,6 +211,9 @@
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
+          "extraUnits": [
+            "Battleship"
+          ],
           "points": 150
         }
       ]
@@ -235,6 +239,11 @@
     "title": "Emperor's Children Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
+        {
+          "name": "Battleship",
+          "description": "Replace the Devastation Class Cruiser with a Despoiler Class Battleship",
+          "points": "50 points"
+        },
       {
         "name": "0-1 Supreme Commander",
         "options": [
