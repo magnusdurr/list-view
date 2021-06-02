@@ -117,6 +117,15 @@
       "name": "Iyanden Troupes",
       "description": "Up to two for each Iyanden Wraithhost taken",
       "formations": [
+          {
+            "name": "Guardians",
+            "units": "One Farseer unit and seven Guardians",
+            "extraUnits": [
+              "Heavy Weapons, Support Weapons, Wraithguards, Wraithblades, Wraithlords.",
+              "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
+            ],
+            "points": 150
+        },
         {
           "name": "Aspect Warrior Troupe",
           "units": "Six Aspect Warriors chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
@@ -256,6 +265,16 @@
         "name": "Vypers",
         "description": "Replace any number of Eldar Jetbikes with Eldar Vypers",
         "points": "Free"
+      },
+      {
+        "name": "Heavy Weapons",
+        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms",
+        "points": "Free"
+      },
+      {
+        "name": "Support Weapons",
+        "description": "Add three Eldar Support Weapon Platforms",
+        "points": "50 points"
       },
       {
         "name": "Wraithguard",
