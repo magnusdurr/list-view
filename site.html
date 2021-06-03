@@ -76,14 +76,18 @@
         console.log("[document-ready] initializing...");
         eaTemplating.initialize();
 
-        $('.nav-link').on('click', function () {
+        var navLinks = $('.nav-link');
+        navLinks.on('click', function () {
             $('.nav-link').removeClass('active');
             $(this).addClass('active');
         });
 
         $(document).on('click', 'a:not(.external,.page-link,.dropdown-toggle)', eaNav.linkHandler);
         $(window).on('popstate', eaNav.historyBackHandler);
-        eaNav.reload();
+
+        var url = eaNav.urlFromParams();
+        navLinks.filter($('a[href="' + url.contentUrl + '"]')).addClass("active")
+        eaNav.to(url.contentUrlWithParams)
     });
 </script>
 

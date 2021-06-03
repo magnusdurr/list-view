@@ -93,19 +93,15 @@
         });
 
         Handlebars.registerHelper('appendOnNumber', function (value, suffix) {
-            if (isNaN(value))
-            {
+            if (isNaN(value)) {
                 return value;
-            }
-            else
-            {
+            } else {
                 return value + suffix;
             }
         });
 
         Handlebars.registerHelper('upgrade', function (context, options) {
-            if (options.data)
-            {
+            if (options.data) {
                 var data = Handlebars.createFrame(options.data);
                 data.options = context.options !== undefined ? context.options.length : 0;
             }
@@ -114,13 +110,11 @@
         });
 
         Handlebars.registerHelper('unit', function (context, options) {
-            if (options.data)
-            {
+            if (options.data) {
                 var data = Handlebars.createFrame(options.data);
 
                 var count = 0;
-                for (weapon in context.weapons)
-                {
+                for (weapon in context.weapons) {
                     count += context.weapons[weapon].modes.length;
                 }
 
@@ -133,33 +127,8 @@
             return options.fn(context, {data: data})
         });
 
-        var urlSearchParams = new URLSearchParams(new URL(window.location.href).search);
-        var race = urlSearchParams.get("race");
-        var list = urlSearchParams.get("list");
-
-        if (race && list)
-        {
-            $.when(units.loadSpecialRules(), units.loadWeapons()).done(function (specialRules, weapons) {
-                $.getJSON("lists/" + race + "/" + list + ".json", function (data) {
-                            $("#content").html(armyTemplate(units.formatSpecialRules(data, specialRules)));
-
-                            units.formatUnits(data, specialRules, weapons).forEach(function (units) {
-                                $("#units").append(unitsTemplate(units));
-                            });
-
-                            $("#errors").html(errorTemplate({"errors": units.errors}))
-                        }
-                ).fail(function (jqxhr, textStatus, error) {
-                    $("#content").html('<h2 class="text-danger">These Are Not The Droids Youre Looking For</h2><p>File: lists/' + race + '/' + list + '.json missing or invalid, error: ' + textStatus);
-                    console.log("Fail!", error);
-                });
-            });
-        }
-        else
-        {
-            console.info("Redirecting to site");
-            window.location.replace("site.html");
-        }
+        console.info("Redirecting to site");
+        window.location.replace("site.html");
     });
 </script>
 </body>
