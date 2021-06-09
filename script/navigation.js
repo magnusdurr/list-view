@@ -35,7 +35,6 @@ var eaNav = (function () {
         loadContent(url);
     };
 
-
     var toUrlParams = function(url) {
         if (pattern.test(url)) {
             var content = pattern.exec(url)[1];
