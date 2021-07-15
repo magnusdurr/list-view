@@ -46,7 +46,9 @@
     {
       "from": "darkmechanicus.json",
       "units": [
+        "Defiler",
         "Maulerfiend",
+        "Decimator",
         "Ordinatus Hereticus ",
         "Ordinatus Cyclothrathe"
       ],
@@ -195,6 +197,20 @@
           "extraUnits": [
           ],
           "points": 225
+        },
+        {
+          "name": "Decimator",
+          "units": "One Decimator",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Defiler Pack",
+          "units": "Four Defilers",
+          "extraUnits": [
+          ],
+          "points": 250
         },
         {
           "name": "Ordinatus Hereticus",
