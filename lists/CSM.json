@@ -165,7 +165,6 @@
         ],
         "specialRules": [
           "Supreme Commander",
-          "Teleport Homer",
           "Invulnerable Save"
         ]
       },
@@ -253,7 +252,6 @@
         ],
         "specialRules": [
           "Leader",
-          "Teleport Homer",
           "Invulnerable Save"
         ]
       },
@@ -439,7 +437,7 @@
         "type": "INF",
         "speed": 30,
         "armour": 4,
-        "cc": 4,
+        "cc": 5,
         "ff": 2,
         "weapons": [
           "Pandæmonium",
@@ -450,7 +448,7 @@
           "Supreme Commander",
           "Reinforced Armour",
           "Jump Pack",
-          "Teleport",
+          "Warp Rift",
           "Fearless",
           "Daemonic Focus",
           "Invulnerable Save"
@@ -923,9 +921,9 @@
         "speed": 15,
         "armour": 4,
         "cc": 2,
-        "ff": 4,
+        "ff": 3,
         "weapons": [
-          "Combi-Bolters",
+          "Combi-Meltas",
           "Lightning Claws"
         ],
         "specialRules": [
@@ -940,7 +938,7 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 2,
         "weapons": [
           "Inferno Combi-Bolters",
@@ -949,7 +947,7 @@
         "specialRules": [
           "Fearless",
           "Reinforced Armour",
-          "Teleport",
+          "Warp Rift",
           "Thick Rear Armour"
         ]
       },
@@ -1117,6 +1115,52 @@
         "ff": 6,
         "weapons": [
           "Combi-Bolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Emperor's Children Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Doom Siren"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "World Eaters Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Combi-Melta"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Thousand Sons Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Combi-Bolter",
+          "Coruscating Flames"
         ],
         "specialRules": [
           "Transport"

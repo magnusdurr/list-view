@@ -1399,7 +1399,7 @@
       "name": "Arcane Cannons",
       "modes": [
         {
-          "firepower": "3x AP4+/AT4+",
+          "firepower": "2x AP4+/AT4+",
           "range": 45,
           "specialRules": [
           ]
@@ -2819,6 +2819,26 @@
       ]
     },
     {
+      "name": "Combi-Melta",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combi-Meltas",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Combi-Flamers",
       "modes": [
         {
@@ -2872,6 +2892,16 @@
           "range": 60,
           "specialRules": [
             "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coruscating Flames",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
           ]
         }
       ]

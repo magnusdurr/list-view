@@ -3,8 +3,8 @@
   "army": "Thousand Sons",
   "version": "1.0.Beta",
   "release": "2020-03-15",
-  "intro": "The World Eaters has great access to powerful Daemon Engines and can field some of the toughest formations in the game, allowing for a very aggressive playstyle.",
-  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4. Thousand Sons are also subject to 'The Architect of Fate' special rule.",
+  "intro": "The Thousand Sons have access to some of the most potent shooting and firefight units of all Cult Chaos Space Marine lists, and may utilize powerful Warp Rifts to enter the Battlefield. In exchange their formations are very expensive.",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "The Thousand Sons Retinue, Havocs, Terminators, Armoured Company, Disc Riders, and Warphound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Summoning",
@@ -12,7 +12,8 @@
     "Augment Summoning (+x)",
     "Daemonic Focus",
     "Fickle Masters",
-    "Teleport Homer",
+    "Warp Rift",
+    "Changer of Ways",
     "Regeneration"
   ],
   "usage": [
@@ -32,7 +33,7 @@
         "Scarab Occult Terminators",
         "Rubric Marines",
         "Sorcerer Disc Riders",
-        "Chaos Rhino",
+        "Thousand Sons Rhino",
         "Thousand Sons Land Raider",
         "Thousand Sons Predator",
         "Thousand Sons Dreadnought"
@@ -87,7 +88,7 @@
       "units": [
           "Doomwing",
           "Firelord",
-        "Devastation Class Cruiser"
+        "Warpship"
       ],
       "unitRules": [
       ]
@@ -118,7 +119,7 @@
           "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
-            "Thousand Sons Transport"
+            "Dreadnoughts"
           ],
           "points": 400
         }
@@ -153,7 +154,7 @@
         },
         {
           "name": "Havocs",
-          "units": "Four Thousand Sons Havocs, two Chaos Rhinos, Daemonic Pact",
+          "units": "Four Thousand Sons Havocs, two Thousand Sons Rhinos, Daemonic Pact",
           "extraUnits": [
             "Icon Bearer",
             "Predators"
@@ -162,7 +163,7 @@
         },
         {
           "name": "Disc Riders",
-          "units": "One Aspiring Champion, five Sorcerer Disc Riders, Daemonic Pact",
+          "units": "One Aspiring Sorcerer, five Sorcerer Disc Riders, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Icon Bearer",
@@ -175,7 +176,7 @@
           "units": "Four Silver Towers",
           "extraUnits": [
           ],
-          "points": 300
+          "points": 250
         }
       ]
     },
@@ -213,8 +214,8 @@
           "points": 250
         },
         {
-          "name": "0-1 Chaos Cruiser",
-          "units": "One Devastation Class Cruiser",
+          "name": "0-1 Warpship",
+          "units": "One Tzeentch Warpship",
           "extraUnits": [
           ],
           "points": 150
@@ -249,20 +250,25 @@
             "description": "Choose one of the following:"
           },
           {
-            "description": "Replace the Aspiring Sorcerer with an Exalted Sorcerer",
+            "description": "Replace the Aspiring Sorcerer with an Exalted Sorcerer (Retinue and Disc Riders Only).",
             "points": "50 points"
           },
           {
-            "description": "Replace the Aspiring Sorcerer and its unit with a Daemon Prince of Tzeentch",
+            "description": "Replace the Aspiring Sorcerer and its unit with a Daemon Prince of Tzeentch (Terminators Only).",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace the Aspiring Sorcerer and its unit with a Daemon Prince of Tzeentch (Retinue and Disc Riders Only).",
             "points": "100 points"
           }
         ]
       },
+
       {
         "name": "Thousand Sons Transport",
         "options": [
           {
-            "description": "Chaos Rhinos (Retinue and Initiates only)",
+            "description": "Thousand Sons Rhinos",
             "points": "10 points each"
           },
           {
