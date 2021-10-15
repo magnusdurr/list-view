@@ -6,11 +6,7 @@
   "strategy": "Questoris Mechanicus armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 2+. In addition, all Knight Banner formations are subject to the 'Chivalry' special rule.",
   "specialRules": [
-    "Chivalry",
-    "Stubborn",
-    "Ion Shield (x)",
-    "Ionic Flare Shield",
-    "Heavy Armoured Vehicle (H-AV)"
+    "Chivalry"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Questoris Mechanicus of the Adeptus Mechancius"
@@ -43,6 +39,10 @@
         "Acastus Relic Knight-Asterius"
       ],
       "unitRules": [
+        "Stubborn",
+        "Ion Shield (x)",
+        "Ionic Flare Shield",
+        "Heavy Armoured Vehicle (H-AV)",
         "Shield Piercer",
         "Shield Disruptor",
         "Lightning Charge",

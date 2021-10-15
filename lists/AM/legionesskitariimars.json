@@ -6,9 +6,6 @@
   "strategy": "The Legiones Skitarii have a Strategy Rating of 3.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have a Initiative Rating of 2+. In addition, the Questoris Banner formation is subject to the 'Chivalry' special rule.",
   "specialRules": [
-    "Machine Spirit",
-    "Ponderous",
-    "Shield Disruptor",
     "Tunnelers"
   ],
   "usage": [
@@ -39,7 +36,11 @@
         "Avenger Strike Fighter",
         "Ark Mechanicus Battleship"
       ],
-      "unitRules": []
+      "unitRules": [
+          "Machine Spirit",
+          "Ponderous",
+          "Shield Disruptor"
+      ]
     },
     {
       "from": "QK.json",

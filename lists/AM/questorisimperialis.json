@@ -7,9 +7,6 @@
   "Initiative": "All formations have an Initiative Rating of 2+. In addition, all Knight Household formations are subject to the 'Bravery' special rule.",
   "specialRules": [
     "Bravery",
-    "Ion Shield (x)",
-    "Lightning Charge",
-        "Heavy Armoured Vehicle (H-AV)",
     "Fortified Positions"
   ],
   "units": [
@@ -27,7 +24,10 @@
         "Knight-Errant"
       ],
       "unitRules": [
-        "Lance"
+          "Ion Shield (x)",
+          "Lightning Charge",
+          "Heavy Armoured Vehicle (H-AV)",
+          "Lance"
       ]
     },
     {

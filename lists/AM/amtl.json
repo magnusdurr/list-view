@@ -6,9 +6,6 @@
   "strategy": "Collegia Titanica armies have a Strategy Rating of 3.",
   "Initiative": "Battle Titan formations and the Warhounds formation have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. In addition, the Questoris Banner formation is subject to the 'Chivalry' special rule.",
   "specialRules": [
-    "Extended Command",
-    "Shield Disruptor",
-    "Shield Piercer"
   ],
   "units": [
     {
@@ -25,6 +22,9 @@
         "Warmonger Titan"
       ],
       "unitRules": [
+          "Extended Command",
+          "Shield Disruptor",
+          "Shield Piercer",
         "God Machine",
         "Split Fire",
         "Void Shields"
