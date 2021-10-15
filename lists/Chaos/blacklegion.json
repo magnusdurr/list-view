@@ -9,10 +9,9 @@
   "specialRules": [
     "Summoning",
     "Black Legion Summoning Rules",
-    "Augment Summoning (+x)",
-    "Daemonic Focus",
     "Fickle Masters",
-    "Black Legion Dreadclaws"
+    "Black Legion Dreadclaws",
+    "Black Legion Characters"
   ],
   "units": [
     {
@@ -43,7 +42,8 @@
         "Chaos Stalker"
       ],
       "unitRules": [
-        "Black Legion Characters"
+          "Augment Summoning (+x)",
+          "Daemonic Focus"
       ]
     },
     {

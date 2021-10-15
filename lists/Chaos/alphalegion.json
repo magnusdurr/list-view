@@ -7,12 +7,9 @@
   "Initiative": "Cultist Coven and Cultist Support formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "specialRules": [
     "The Harrowing",
-    "Sabotage",
     "Alpha Legion Transports",
     "Summoning",
     "Alpha Legion Summoning Rules",
-    "Daemonic Focus",
-    "Augment Summoning (+x)",
     "Fickle Masters"
   ],
   "usage": [
@@ -37,6 +34,7 @@
         "Alpha Legion Sicarian Battle Tank"
       ],
       "unitRules": [
+          "Sabotage",
         "Stubborn"
       ]
     },
@@ -53,6 +51,8 @@
         "Land Transporter"
       ],
       "unitRules": [
+          "Daemonic Focus",
+          "Augment Summoning (+x)"
       ]
     },
     {
