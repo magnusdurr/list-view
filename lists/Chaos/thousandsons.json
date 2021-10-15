@@ -7,14 +7,11 @@
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
   "Initiative": "The Thousand Sons Retinue, Havocs, Terminators, Armoured Company, Disc Riders, and Warphound formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
+    "Changer of Ways",
+    "Fickle Masters",
     "Summoning",
     "Thousand Sons Summoning Rules",
-    "Augment Summoning (+x)",
-    "Daemonic Focus",
-    "Fickle Masters",
-    "Warp Rift",
-    "Changer of Ways",
-    "Regeneration"
+    "Thousand Sons Characters"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Thousand Sons with Chaos Mutant allies."
@@ -39,8 +36,10 @@
         "Thousand Sons Dreadnought"
       ],
       "unitRules": [
-        "Thousand Sons Characters",
-        "Regeneration"
+        "Augment Summoning (+x)",
+        "Daemonic Focus",
+        "Regeneration",
+        "Warp Rift"
       ]
     },
     {
@@ -51,6 +50,8 @@
         "Mutalith Vortex Beast"
       ],
       "unitRules": [
+        "Augment Summoning (+x)",
+        "Daemonic Focus"
       ]
     },
     {
