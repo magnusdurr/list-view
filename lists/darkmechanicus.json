@@ -2,66 +2,7 @@
   {
     "name": "Dark Mechanicus Forces",
     "specialRules": [
-      {
-        "title": "God Machine",
-        "description": [
-          "War Engines with 8 or more DC are subject to the God Machine and Split Fire special rules.",
-          "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-          "For this reason, whenever a unit with God Machine special rule is broken (including if it is already broken but loses an Engage), all friendly formations suffer one Blast Marker. Whenever a unit with God Machine special rule is destroyed, all friendly formations on the battlefield suffer D3 Blast Markers.",
-          "Units with the God Machine special rule are themselves immune to this effect.",
-          ""
-        ]
-      },
-      {
-        "title": "Split Fire",
-        "description": [
-          "A War Engine with this special rule may declare that it will Split Fire when attempting to perform a Sustain Fire, Advance, or when firing as part of a Hold Action. The WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon. If Split Fire is performed, the WE gets no +1 modifier for Sustain Fire, and suffers a -1 modifier for doing an Advance or Hold.",
-          ""
-        ]
-      },
-      {
-        "title": "Regeneration",
-        "description": [
-          "Regeneration functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+.",
-          "Against Titan Killer attacks, WE and H-AV must make one Invulnerable Save against each point of damage.",
-          ""
-        ]
-      },
-      {
-        "title": "Machine Spirit",
-        "description": [
-          "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally.",
-          ""
-        ]
-      },
-      {
-        "title": "Ponderous",
-        "description": [
-          "Units with the Ponderous special rule may only make a single withdrawal move instead of two when becoming broken or failing to rally.",
-          ""
-        ]
-      },
-      {
-        "title": "Lance",
-        "description": [
-          "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves.",
-          ""
-        ]
-      },
-      {
-        "title": "Shield Piercer",
-        "description": [
-          "Ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields & Void Shields (Shadowfields still provide cover from shooting).",
-          ""
-        ]
-      },
-      {
-        "title": "Shield Disruptor",
-        "description": [
-          "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
-          ""
-        ]
-      }
+
     ],
     "unit": [
       {
