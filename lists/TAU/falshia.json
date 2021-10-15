@@ -6,12 +6,6 @@
   "strategy": "Tau armies have a Strategy Rating of 3.",
   "Initiative": "Crisis Battlesuit and Manta formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
-    "Coordinated Fire",
-    "Deflector Shield",
-    "Ethereal",
-    "Guided Missiles",
-    "Markerlights",
-    "Tau Jet Packs"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Ke’lshan Military world of the Tau Empire"
@@ -44,6 +38,12 @@
         "Manta"
       ],
       "unitRules": [
+          "Coordinated Fire",
+          "Deflector Shield",
+          "Ethereal",
+          "Guided Missiles",
+          "Markerlights",
+          "Tau Jet Packs"
       ]
     },
     {
