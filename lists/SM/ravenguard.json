@@ -8,10 +8,9 @@
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
-    "Expert Reconnaissance",
-    "Guerilla Tactics",
     "Land Speeder Escort",
-    "Space Marine Transports"
+    "Space Marine Transports",
+    "They Shall Know No Fear"
   ],
   "units": [
     {
@@ -47,7 +46,8 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "They Shall Know No Fear"
+          "Expert Reconnaissance",
+          "Guerilla Tactics"
       ]
     },
     {

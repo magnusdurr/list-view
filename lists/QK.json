@@ -2,64 +2,6 @@
   {
     "name": "Questoris Knights",
     "specialRules": [
-      {
-        "title": "Bravery",
-        "description": [
-          "All Knight formations receive a +1 modifier to their Action Test when carrying out an Engage action, and a +1 modifier to their rally tests.",
-          ""
-        ]
-      },
-      {
-        "title": "Chivalry",
-        "description": [
-          "All Knight formations receive a +1 modifier to their Action Test when carrying out an Engage or Double action, and a +1 modifier to their Rally Tests.",
-          ""
-        ]
-      },
-      {
-        "title": "Stubborn",
-        "description": [
-          "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, reduce the number of extra hits from losing an assault by one, requires an additional Blast Marker before the formation becomes broken, and may ignore one Blast Marker when determining suppression.",
-          ""
-        ]
-      },
-      {
-        "title": "Ion Shield (x)",
-        "description": [
-          "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
-          "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has Reinforced Armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
-          "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields).",
-          ""
-        ]
-      },
-      {
-        "title": "Shield Piercer",
-        "description": [
-          "Ignores Power Fields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting).",
-          ""
-        ]
-      },
-      {
-        "title": "Shield Disruptor",
-        "description": [
-          "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
-          ""
-        ]
-      },
-      {
-        "title": "Lightning Charge",
-        "description": [
-          "Weapon gains First Strike when the wielder's formation initiated the Engage.",
-          ""
-        ]
-      },
-      {
-        "title": "Lance",
-        "description": [
-          "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves.",
-          ""
-        ]
-      }
     ],
     "unit": [
       {

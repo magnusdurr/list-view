@@ -297,6 +297,24 @@
       ]
     },
     {
+      "title": "They Shall Know No Fear",
+      "description": [
+        "Space Marines are renowned for their tenacity and bravery. This is represented by the following rules:",
+        "* It takes 2 Blast Markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast Markers).",
+        "* Space Marine formations are only broken if they have 2 Blast Markers per unit in the formation.",
+        "* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down to a minimum of one). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.",
+        "* When a broken Space Marine formation rallies, it receives a number of Blast Markers equal to the number of units, rather than half this number.",
+        ""
+      ]
+    },
+    {
+      "title": "Iron Hands Characters",
+      "description": [
+        "Iron Hands characters may only be placed in units of INF unless otherwise specified.",
+        ""
+      ]
+  },
+    {
       "title": "Space Marine Transports",
       "description": [
         "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!",
@@ -1275,6 +1293,29 @@
       "title": "Big Mek",
       "description": [
         "Every Gargant Big Mob army must include a Supreme Command character called a Big Mek, which is free. If the army includes any Mega Gargant, then the Big Mek must be placed in it. If there are no Mega Gargants in the army then the Big Mek will join a Great Gargant.",
+        ""
+      ]
+    },
+    {
+      "title": "Battlefortresses and Gunfortresses",
+      "description": [
+        "Battlefortresses and Gunfortresses may only transport units from their own formation (i.e., the rules for War Engine transports do not apply to them when using the tournament army lists).",
+        ""
+      ]
+    },
+    {
+      "title": "Power Fields",
+      "description": [
+        "Some Ork war engines are protected by banks of power fields. The number each war engine has is noted on its datasheet. Power fields work in exactly the same manner as Void Shields (see Void Shields), with the sole exception that they may not be repaired once they have been knocked down by a hit, and will instead remain down for the remainder of the battle. In the case of a variable amount of power fields, roll for them straight after the formation is deployed on the table or offboard.",
+        ""
+      ]
+    },
+    {
+      "title": "Super-Expendable",
+      "description": [
+        "A formation does not receive a Blast Marker when a unit with Super-Expendable is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. If a Super-Expendable unit is hit by a weapon with Disrupt it does not inflict a Blast Marker.",
+        "Super-Expendable units killed in an assault do not count when working out the result.",
+        "Formations comprised completely of Expendable and/or Super-Expendable units do not benefit from any of the rules above.",
         ""
       ]
     },

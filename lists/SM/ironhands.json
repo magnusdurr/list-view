@@ -9,10 +9,8 @@
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Iron Hands detachments and aircraft formations.",
   "specialRules": [
-    "Bionics",
-    "Extended Command",
-    "Battlefield Repairs",
-    "Space Marine Transports"
+    "Space Marine Transports",
+    "They Shall Know No Fear"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Iron Hands, or one of their successor chapters, using their preferred operational methods."
@@ -51,7 +49,9 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "They Shall Know No Fear",
+        "Bionics",
+        "Extended Command",
+        "Battlefield Repairs",
         "Lance"
       ]
     },

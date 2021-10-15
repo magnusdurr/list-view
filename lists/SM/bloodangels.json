@@ -8,8 +8,7 @@
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
   "specialRules": [
     "Space Marine Transports",
-    "Honour Guard",
-    "Lucifer Pattern Engine"
+    "They Shall Know No Fear"
   ],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Blood Angels Chapter."
@@ -57,7 +56,8 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "They Shall Know No Fear"
+          "Honour Guard",
+          "Lucifer Pattern Engine"
       ]
     },
     {

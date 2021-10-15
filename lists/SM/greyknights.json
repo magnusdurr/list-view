@@ -8,11 +8,10 @@
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all formations.",
   "specialRules": [
     "Teleport Homer",
-    "Act of Faith",
-    "Psybolts",
     "Navis Nobilite",
     "Space Marine Transports",
-    "Grey Knights Transports"
+    "Grey Knights Transports",
+    "They Shall Know No Fear"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Blood Ravens with Ordo Malleus allies"
@@ -60,7 +59,8 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "They Shall Know No Fear"
+        "Act of Faith",
+        "Psybolts"
       ]
     }
   ],
