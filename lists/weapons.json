@@ -2902,7 +2902,7 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-              IC
+            "IC"
           ]
         }
       ]
@@ -3381,7 +3381,7 @@
           "firepower": "MW2+",
           "range": 30,
           "specialRules": [
-              "TK(1)"
+            "TK(1)"
           ]
         }
       ]
@@ -3723,14 +3723,14 @@
           "specialRules": [
             "FS"
           ]
-      },
-      {
-        "firepower": "Small Arms",
-        "join": "and",
-        "specialRules": [
-          "FS"
-        ]
-      }
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "FS"
+          ]
+        }
       ]
     },
     {
@@ -7387,7 +7387,7 @@
           "firepower": "1BP",
           "range": 45,
           "specialRules": [
-              "Ind",
+            "Ind",
             "D"
           ]
         }
@@ -8040,7 +8040,8 @@
           "firepower": "1BP",
           "range": 30,
           "specialRules": [
-            "Ind", "MW"
+            "Ind",
+            "MW"
           ]
         }
       ]
@@ -10163,7 +10164,7 @@
           "firepower": "AP4+",
           "range": 15,
           "specialRules": [
-              "IC"
+            "IC"
           ]
         }
       ]
@@ -10670,7 +10671,8 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+1)", "MW"
+            "EA(+1)",
+            "MW"
           ]
         }
       ]
@@ -12025,7 +12027,6 @@
         }
       ]
     },
-
     {
       "name": "Warpfire of Tzeentch",
       "modes": [
