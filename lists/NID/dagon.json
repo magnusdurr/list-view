@@ -11,9 +11,7 @@
     "Shoot the Big Ones!",
     "Broodmind",
     "Extreme Mobility",
-    "Gaunts",
     "Tunnelers",
-    "Regeneration",
     "Dagon Vanguard Organisms"
   ],
   "units": [
@@ -57,6 +55,8 @@
         "Hydraphant"
       ],
       "unitRules": [
+          "Gaunts",
+          "Regeneration",
         "Heavy Armoured Vehicle (H-AV)"
       ]
     },

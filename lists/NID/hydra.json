@@ -11,8 +11,6 @@
     "Broodmind",
     "Shoot the Big Ones!",
     "Extreme Mobility",
-    "Regeneration",
-    "Gaunts",
     "Swarm (x)",
     "Tunnelers",
     "Hydra Vanguard Organisms"
@@ -59,6 +57,8 @@
         "Hydraphant"
       ],
       "unitRules": [
+          "Regeneration",
+          "Gaunts",
         "Heavy Armoured Vehicle (H-AV)"
       ]
     },
