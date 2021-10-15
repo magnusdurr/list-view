@@ -39,7 +39,8 @@
         "Thousand Sons Dreadnought"
       ],
       "unitRules": [
-        "Thousand Sons Characters"
+        "Thousand Sons Characters",
+        "Regeneration"
       ]
     },
     {
@@ -86,8 +87,8 @@
     {
       "from": "chaosnavy.json",
       "units": [
-          "Doomwing",
-          "Firelord",
+        "Doomwing",
+        "Firelord",
         "Warpship"
       ],
       "unitRules": [
@@ -103,7 +104,7 @@
           "name": "Thousand Sons Retinue",
           "units": "One Aspiring Sorcerer, five Rubric Marines, four Thousand Sons Marines, Daemonic Pact",
           "extraUnits": [
-            "Replace five Thousand Sons Marines with five Thousand Sons Havocs: 50 points",
+            "Replace four Thousand Sons Marines with four Thousand Sons Havocs: 50 points",
             "Supreme Commander",
             "Icon Bearer",
             "Champion of Chaos",
@@ -302,5 +303,17 @@
         "points": "50 points each"
       }
     ]
-  }
+  },
+  "feedback": [
+    "Summoning wording is spread out",
+    "Mobility: Give teleport to retinues (for a cost?), give the list access to a webway portal",
+    "Silver Towers: Less shooting, more armor, lower cost",
+    "Warp Palace: Weak?",
+    "Thousand sons dreadnought is useless, make it melee",
+    "Scarab Occult Terminators suck",
+    "Thousand Sons Predator: warp flamers x2?",
+    "One -Aspiring Champion-, five Sorcerer Disc Riders, Daemonic Pact",
+    "Defilers of Tzeentch 4 (250)",
+    "Havocs - character"
+  ]
 }

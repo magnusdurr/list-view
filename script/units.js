@@ -116,8 +116,20 @@ var units = {
                             unit.weapons = unit.weapons.map(weapon => replaceWeapon(weapon, weapons, unit));
                         });
 
-                        section.specialRules = section.specialRules.filter(function (rule) {
-                            return unitSection.unitRules.includes(rule.title);
+                        section.specialRules.forEach(function(rule) {
+                            specialRules[rule.title] = rule
+                        })
+
+                        section.specialRules =  unitSection.unitRules.map(function(rule) {
+                            if (specialRules[rule] !== undefined) {
+                                return specialRules[rule]
+                            }
+                            else {
+                                return {
+                                    "name": "ERROR",
+                                    "description": "Unknown special rule: " + rule
+                                }
+                            }
                         })
                     });
 
