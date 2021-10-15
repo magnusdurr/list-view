@@ -8,13 +8,10 @@
   "specialRules": [
     "Summoning",
     "Daemonic Incursion Summoning Rules",
-    "Augment Summoning (+x)",
-    "Daemonic Focus",
     "Daemonic Instability",
     "Reign of Chaos",
     "The Great Ritual",
     "Terror From Beyond",
-    "Warp Rift",
     "Chaos Gates",
     "DI Eternal Animosity"
   ],
@@ -57,6 +54,9 @@
         "Soul Grinder"
       ],
       "unitRules": [
+          "Augment Summoning (+x)",
+          "Daemonic Focus",
+          "Warp Rift"
       ]
     },
     {

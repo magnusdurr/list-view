@@ -8,8 +8,6 @@
   "specialRules": [
     "Summoning",
     "Slaves to Darkness Summoning Rules",
-    "Augment Summoning (+x)",
-    "Daemonic Focus",
     "Fickle Masters",
     "StD Eternal Animosity"
   ],
@@ -29,7 +27,10 @@
         "Technical",
         "Land Transporter"
       ],
-      "unitRules": []
+      "unitRules": [
+          "Augment Summoning (+x)",
+          "Daemonic Focus"
+      ]
     },
     {
       "from": "IG.json",
