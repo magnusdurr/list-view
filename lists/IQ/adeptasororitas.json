@@ -6,7 +6,6 @@
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "Ordo Hereticus and Imperial Navy formations have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
   "specialRules": [
-    "Act of Faith"
   ],
   "units": [
     {
@@ -38,6 +37,7 @@
         "Sororitas Stormlord"
       ],
       "unitRules": [
+            "Act of Faith",
         "Machine Spirit"
       ]
     },

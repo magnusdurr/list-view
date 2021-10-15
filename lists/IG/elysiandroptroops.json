@@ -7,10 +7,8 @@
   "Initiative": "All formations have a Initiative of 2+.",
   "specialRules": [
     "Courage, Discipline and Loyalty",
-    "Grav-Chutes",
     "Vertical Envelopment",
-    "Sky Talons",
-    "Sabotage"
+    "Sky Talons"
   ],
   "usage": [
     "The following army list allows you to field an army based on the Elysian Drop Troop Regiment"
@@ -36,6 +34,8 @@
         "Vulture"
       ],
       "unitRules": [
+      "Grav-Chutes",
+      "Sabotage"
       ]
     },
     {

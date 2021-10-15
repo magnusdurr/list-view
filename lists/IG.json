@@ -2,34 +2,6 @@
   {
     "name": "Astra Militarum Forces",
     "specialRules": [
-      {
-        "title": "Lance",
-        "description": [
-          "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves.",
-          ""
-        ]
-      },
-      {
-        "title": "Shield Disruptor",
-        "description": [
-          "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
-          ""
-        ]
-      },
-      {
-        "title": "Machine Spirit",
-        "description": [
-          "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally.",
-          ""
-        ]
-      },
-      {
-        "title": "Ponderous",
-        "description": [
-          "May only make a single withdrawal move instead of two when becoming broken or failing to rally.",
-          ""
-        ]
-      }
     ],
     "unit": [
       {
