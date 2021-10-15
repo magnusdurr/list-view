@@ -3,13 +3,6 @@
     "name": "Chaos Space Marine Forces",
     "specialRules": [
       {
-        "title": "Heavy Armoured Vehicle (H-AV)",
-        "description": [
-          "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)). In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs may be targeted by Pin-Point attacks, but does not target individual models. Instead, hits are randomized in the formation. H-AVs are treated like normal Armoured Vehicles in all other respects.",
-          ""
-        ]
-      },
-      {
         "title": "Machine Spirit",
         "description": [
           "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally.",
@@ -19,7 +12,7 @@
       {
         "title": "Stubborn",
         "description": [
-        "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, reduce the number of extra hits from losing an assault by one, requires an additional Blast Marker before the formation becomes broken, and may ignore one Blast Marker when determining suppression.",
+          "Any formation where at least one unit has Stubborn reduce the damage caused by Blast Markers while the formation is broken by one, reduce the number of extra hits from losing an assault by one, requires an additional Blast Marker before the formation becomes broken, and may ignore one Blast Marker when determining suppression.",
           ""
         ]
       },

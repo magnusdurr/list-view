@@ -3,33 +3,26 @@
     "name": "Eldar Forces",
     "specialRules": [
       {
-        "title": "Heavy Armoured Vehicle (H-AV)",
+        "title": "Lance",
         "description": [
-          "Units with the unit type H-AV can take two damage before they are killed, and counts as two units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AV are treated as WE when hit by weapons that do multiple points of damage (e.g. TK(D3)). In addition it is possible to critically hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs may be targeted by Pin-Point attacks, but does not target individual models. Instead, hits are randomized in the formation. H-AVs are treated like normal Armoured Vehicles in all other respects.",
+          "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves.",
           ""
         ]
-    },
-    {
-      "title": "Lance",
-      "description": [
-        "When units with Reinforced Armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves.",
-        ""
-      ]
-    },
-    {
-      "title": "Shield Piercer",
-      "description": [
-        "Weapons with the 'Shield Piercer' special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields and Void Shields (Shadowfields still provide cover from shooting).",
-        ""
-      ]
-    },
-    {
-      "title": "Shield Disruptor",
-      "description": [
-        "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
-        ""
-      ]
-    }
+      },
+      {
+        "title": "Shield Piercer",
+        "description": [
+          "Weapons with the 'Shield Piercer' special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields and Void Shields (Shadowfields still provide cover from shooting).",
+          ""
+        ]
+      },
+      {
+        "title": "Shield Disruptor",
+        "description": [
+          "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields.",
+          ""
+        ]
+      }
     ],
     "unit": [
       {
@@ -148,8 +141,8 @@
         ],
         "specialRules": [
           "Inspiring"
-      ],
-      "notes": "Exarchs 'Extra Attacks' gain any special rules that the Aspect Warriors they are attached to have."
+        ],
+        "notes": "Exarchs 'Extra Attacks' gain any special rules that the Aspect Warriors they are attached to have."
       },
       {
         "name": "Mounted Farseer",
@@ -823,8 +816,8 @@
           "Fearless",
           "Walker",
           "Teleport"
-      ],
-      "notes": "Skathach Wraithknights are armed with either a Twin Deathshroud Cannon or Twin Inferno Lance."
+        ],
+        "notes": "Skathach Wraithknights are armed with either a Twin Deathshroud Cannon or Twin Inferno Lance."
       },
       {
         "name": "Wraithknight",
@@ -837,15 +830,15 @@
           "Twin Heavy Wraithcannons|0-1|",
           "Ghostglaive and Scattershield|0-1|",
           "Suncannon|0-1|",
-      "Twin Shuriken Cannon"
+          "Twin Shuriken Cannon"
         ],
         "specialRules": [
-         "Holofield (3+)",
-         "Reinforced Armour (Scattershield)",
+          "Holofield (3+)",
+          "Reinforced Armour (Scattershield)",
           "Fearless",
           "Walker"
-      ],
-      "notes": "Must be armed with either Twin Heavy Wraithcannons, Ghostglaive and Scattershield, or a Suncannon. Spec[*]: Scattershield grants the model Reinforced Armour."
+        ],
+        "notes": "Must be armed with either Twin Heavy Wraithcannons, Ghostglaive and Scattershield, or a Suncannon. Spec[*]: Scattershield grants the model Reinforced Armour."
       },
       {
         "name": "Fire Gale Knight",
