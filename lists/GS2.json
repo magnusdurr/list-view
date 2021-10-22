@@ -24,7 +24,8 @@
           "Psychic Powers"
         ],
         "specialRules": [
-          "Inspiring",
+          "Commander",
+          "Extended Command",
           "Invulnerable Save",
           "Leader"
         ]
@@ -36,8 +37,7 @@
           "Large Rending Claws||EA(+1)"
         ],
         "specialRules": [
-          "Commander",
-          "Extended Command",
+          "Inspiring",
           "Invulnerable Save",
           "Leader"
         ]
@@ -99,7 +99,7 @@
         "name": "Aberrants",
         "type": "INF",
         "speed": 20,
-        "armour": 4,
+        "armour": 5,
         "cc": 4,
         "weapons": [
           "Giant Mauls"
