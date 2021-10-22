@@ -3412,6 +3412,18 @@
       ]
     },
     {
+      "name": "Retrofited Defense Laser",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 90,
+          "specialRules": [
+            "TK(D6)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Deff-Rolla & Fresh Paint Job",
       "modes": [
         {
@@ -4169,6 +4181,17 @@
     },
     {
       "name": "Flamer",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hand Flamer",
       "modes": [
         {
           "firepower": "Small Arms",
@@ -5193,7 +5216,7 @@
       "name": "Heavy Mining Laser",
       "modes": [
         {
-          "firepower": "AT3+",
+          "firepower": "AT4+",
           "range": 15
         }
       ]
@@ -9305,6 +9328,17 @@
       ]
     },
     {
+      "name": "Excavator Power Arms",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "TK(D3)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Shards of Light",
       "modes": [
         {
@@ -10166,7 +10200,7 @@
       "name": "Drilldozer Blade",
       "modes": [
         {
-          "firepower": "Assault Weapon",
+          "firepower": "Assault Weapons",
           "specialRules": [
             "MW"
           ]

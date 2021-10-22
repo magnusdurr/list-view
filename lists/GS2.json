@@ -11,9 +11,10 @@
           "Large Rending Claws||EA(+1)"
         ],
         "specialRules": [
-          "Supreme Commander",
+          "Extended Command",
           "Inspiring",
-          "Invulnerable Save"
+          "Invulnerable Save",
+          "Supreme Commander"
         ]
       },
       {
@@ -24,8 +25,8 @@
         ],
         "specialRules": [
           "Inspiring",
-          "Leader",
-          "Invulnerable Save"
+          "Invulnerable Save",
+          "Leader"
         ]
       },
       {
@@ -36,8 +37,9 @@
         ],
         "specialRules": [
           "Commander",
-          "Leader",
-          "Invulnerable Save"
+          "Extended Command",
+          "Invulnerable Save",
+          "Leader"
         ]
       },
       {
@@ -47,8 +49,8 @@
           "n/a"
         ],
         "specialRules": [
-          "Commander",
-          "Invulnerable Save"
+          "Invulnerable Save",
+          "Leader"
         ]
       },
       {
@@ -64,51 +66,18 @@
         ]
       },
       {
-        "name": "Acolyte Praetorians",
-        "type": "INF",
-        "speed": 20,
-        "armour": 5,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Seismic Cannon",
-          "Claws"
-        ],
-        "specialRules": [
-          "Brood Brothers",
-          "Infiltrators",
-          "Honour Guard"
-        ]
-      },
-      {
-        "name": "Acolyte Iconward",
-        "type": "INF",
-        "speed": 20,
-        "armour": 4,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Seismic Cannon",
-          "Rending Claws"
-        ],
-        "specialRules": [
-          "Brood Brothers"
-        ]
-      },
-      {
         "name": "Acolyte Hybrids",
         "type": "INF",
         "speed": 20,
-        "armour": 6,
         "cc": 4,
         "ff": 6,
         "weapons": [
           "Heavy Stubber",
           "Autopistols",
-          "Claws"
+          "Rending Claws"
         ],
         "specialRules": [
-          "Brood Brothers"
+          "Expendable"
         ],
         "notes": "One in every two units (rounding up) has a Heavy Stubber"
       },
@@ -136,7 +105,6 @@
           "Giant Mauls"
         ],
         "specialRules": [
-          "Brood Brothers"
         ],
         "notes": "Counts as two units of INF for the purpose of being transported."
       },
@@ -146,11 +114,14 @@
         "speed": 20,
         "armour": 5,
         "cc": 3,
+        "ff": 5,
         "weapons": [
+          "Hand Flamer",
           "Rending Claws"
         ],
         "specialRules": [
-          "Brood Brothers"
+          "Infiltrators",
+          "Honour Guard"
         ]
       },
       {
@@ -163,9 +134,6 @@
           "Autocannon",
           "Autoguns"
         ],
-        "specialRules": [
-          "Brood Brothers"
-        ],
         "notes": "One in every two units (rounding up) has an Autocannon"
       },
       {
@@ -176,9 +144,16 @@
         "ff": 4,
         "weapons": [
           "Autocannon|2"
-        ],
-        "specialRules": [
-          "Brood Brothers"
+        ]
+      },
+      {
+        "name": "Neophyte Mortar",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Heavy Mortar"
         ]
       },
       {
@@ -193,8 +168,18 @@
           "Chainswords"
         ],
         "specialRules": [
-          "Brood Brothers",
           "Mounted"
+        ]
+      },
+      {
+        "name": "Outrider Quadbike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Atalan Incinerator"
         ]
       },
       {
@@ -203,12 +188,12 @@
         "speed": 35,
         "armour": 5,
         "cc": 6,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
-          "Twin Heavy Stubber"
+          "Heavy Mining Laser|0-1",
+          "Seismic Heavy Cannon|0-1"
         ],
-        "specialRules": [
-        ]
+        "notes": "Armed with either a Heavy Mining Laser or a Seismic Heavy Cannon."
       },
       {
         "name": "Technical",
@@ -266,6 +251,7 @@
         "speed": 25,
         "armour": 4,
         "cc": 4,
+        "ff": 5,
         "weapons": [
           "Drilldozer Blade"
         ],
@@ -273,6 +259,42 @@
           "Walker"
         ],
         "notes": "May transport two infantry unit without Jump Packs or Mounted. Aberrants takes two spaces each."
+      },
+      {
+        "name": "Haul Truck Cannon",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Retrofited Defense Laser||FxF",
+          "Twin Heavy Stubber|2|FxF"
+        ],
+        "specialRules": [
+          "Damage Capacity 4",
+          "Fearless"
+        ],
+        "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All units within 15cm of the model suffer a hit on a roll of 5+."
+      },
+      {
+        "name": "Assault Excavator",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Excavator Power Arms",
+          "Twin Heavy Stubber|2|FxF"
+        ],
+        "specialRules": [
+          "Damage Capacity 4",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker"
+        ],
+        "crit": "The unit takes an extra point of damage."
       }
     ]
   }

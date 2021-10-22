@@ -20,7 +20,6 @@
         "Genestealer Patriarch",
         "Genestealer Primus",
         "Hybrid Iconward",
-        "Acolyte Praetorians",
         "Acolyte Hybrids",
         "Genestealers",
         "Aberrants",
@@ -28,28 +27,32 @@
         "Neophytes",
         "Neophyte Outriders",
         "Neophyte Fire Support",
+        "Neophyte Mortar",
         "Ridgerunner",
         "Land Transporter",
+        "Outrider Quadbike",
         "Technical",
         "Coven Limousine",
         "Goliath Truck",
-        "Goliath Rockgrinder"
+        "Goliath Rockgrinder",
+        "Haul Truck Cannon",
+        "Assault Excavator"
       ],
       "unitRules": [
-          "Brood Brothers",
-          "Honour Guard"
+        "Expendable",
+        "Extended Command",
+        "Honour Guard"
       ]
     },
     {
       "from": "IG.json",
       "units": [
-        "Chimera",
         "Basilisk",
+        "Chimera",
         "Hellhound",
         "Hydra",
         "Leman Russ",
-        "Sentinel",
-        "Baneblade"
+        "Sentinel"
       ],
       "unitRules": []
     },
@@ -68,7 +71,7 @@
       "formations": [
         {
           "name": "1 Broodcoven",
-          "units": "One Genestealer Patriarch and eight Acolyte Praetorians",
+          "units": "One Genestealer Patriarch and eight Metamorph Hybrids",
           "extraUnits": [
             "Cult Transports",
             "Genestealers",
@@ -78,13 +81,14 @@
         },
         {
           "name": "Acolyte Coven",
-          "units": "Acolyte Praetorians with Hybrid Iconward, and seven Acolyte Hybrids",
+          "units": "One Metamorph Hybrids with Hybrid Iconward, and seven Acolyte Hybrids",
           "extraUnits": [
             "Mineshaft Infiltrators",
-            "Cult Transports",
-            "Coven Leader",
+            "Aberrants",
             "Acolytes",
-            "Biomorphs",
+            "Coven Leader",
+            "Cult Transports",
+            "Heavy Mining Machinery",
             "Technicals"
           ],
           "points": 200
@@ -92,9 +96,19 @@
       ]
     },
     {
-      "name": "Purestrain Formations",
-      "description": "Up to one Purestrain formation per Acolyte formation",
+      "name": "Elite Formations",
+      "description": "Up to one Elite formation per Acolyte Formation",
       "formations": [
+        {
+          "name": "Atalan Jackals",
+          "units": "One Hybrid Iconward, ten Neophyte Outriders",
+          "extraUnits": [
+            "Coven Leader",
+            "Quadbikes",
+            "Technicals"
+          ],
+          "points": 250
+        },
         {
           "name": "Genestealer Swarm",
           "units": "One Brood Lord, six Genestealers",
@@ -102,35 +116,51 @@
             "Genestealers"
           ],
           "points": 175
+        },
+        {
+          "name": "Shock Assault Coven",
+          "units": "One Hybrid Iconward, 4 Aberrants and 4 Goliath Rock Grinders",
+          "extraUnits": [
+            "Coven Leader",
+            "Technicals"
+          ],
+          "points": 300
         }
       ]
     },
     {
-      "name": "Neophyte Formations",
-      "description": "Up to one Neophyte formation per Acolyte or Purestrain formation",
+      "name": "Support Formations",
+      "description": "Up to one Support Formation per Acolyte formation",
       "formations": [
+        {
+          "name": "Ridgerunners",
+          "units": "Six Ridgerunner",
+          "points": 200
+        },
+        {
+          "name": "Mechanized Neophyte Platoon",
+          "units": "One Hybrid Iconward, six Neophytes and three Chimeras",
+          "extraUnits": [
+            "Coven Leader",
+            "Flak",
+            "Hellhounds"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Neophyte Company",
+          "units": "One Hybrid Iconward, thirteen Neophytes",
+          "extraUnits": [
+            "Coven Leader",
+            "Support Weapons"
+          ],
+          "points": 250
+        },
         {
           "name": "Cult Sentinel Squadron",
           "units": "Four Sentinels",
           "extraUnits": [],
           "points": 125
-        },
-        {
-          "name": "Outrider Squadron",
-          "units": "One Hybrid Iconward, six Neophyte Outriders",
-          "extraUnits": [
-            "Ridgerunners"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Neophyte Platoon",
-          "units": "One Hybrid Iconward, eight Neophytes",
-          "extraUnits": [
-            "Flak",
-            "Fire Support"
-          ],
-          "points": 200
         },
         {
           "name": "Cult Flak Battery",
@@ -140,25 +170,9 @@
           "points": 175
         },
         {
-          "name": "Cult Baneblade",
-          "units": "One Baneblade",
-          "extraUnits": [
-          ],
-          "points": 225
-        },
-        {
           "name": "Cult Artillery Battery",
-          "units": "Three Basilisk",
+          "units": "Three Basilisks",
           "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
-          "name": "Mechanized Neophyte Platoon",
-          "units": "One Hybrid Iconward, six Neophytes and three Chimeras",
-          "extraUnits": [
-            "Flak",
-            "Hellhounds"
           ],
           "points": 250
         },
@@ -184,8 +198,18 @@
     "items": [
       {
         "name": "Mineshaft Infiltrators",
-        "description": "All units in the formation gains the 'Tunneling' special rule, may only have the 'Acolytes' and 'Biomorph' upgrades",
+        "description": "All units in the formation gains the 'Tunneling' special rule, may only have the 'Acolytes', 'Aberrants' and 'Coven Leader' upgrades",
         "points": "Free"
+      },
+      {
+        "name": "Aberrants",
+        "description": "Replace up to two Acolyte Hybrids with Aberrants",
+        "points": "15 points each"
+      },
+      {
+        "name": "Acolytes",
+        "description": "Add up to four Acolyte Hybrids",
+        "points": "15 points each"
       },
       {
         "name": "Acolyte Transports",
@@ -211,7 +235,7 @@
       },
       {
         "name": "Coven Leader",
-        "description": "Replace a Hybrid Iconward with a Genestealer Primus or Genestealer Magus ",
+        "description": "Replace a Hybrid Iconward with a Genestealer Primus or Genestealer Magus",
         "options": [
           {
             "description": "Genestealer Primus",
@@ -219,14 +243,22 @@
           },
           {
             "description": "Genestealer Magus",
-            "points": "50 points"
+            "points": "25 points"
           }
         ]
       },
       {
-        "name": "Fire Support",
-        "description": "Add two Neophyte Fire Supports",
-        "points": "75 points"
+        "name": "Support Weapons",
+        "options": [
+          {
+            "description": "Add two Neophyte Fire Support units",
+            "points": "50 points"
+          },
+          {
+            "description": "Add three Neophyte Mortar units",
+            "points": "75 points"
+          }
+        ]
       },
       {
         "name": "Flak",
@@ -234,38 +266,33 @@
         "points": "50 points"
       },
       {
-        "name": "Hellhounds",
-        "description": "Add up to two Hellhounds",
-        "points": "25 points each"
-      },
-      {
-        "name": "Acolytes",
-        "description": "Add up to four Acolyte Hybrids",
-        "points": "15 points each"
-      },
-      {
         "name": "Genestealers",
         "description": "Add up to three Genestealers",
         "points": "25 points each"
       },
       {
-        "name": "Biomorphs",
-        "description": "Replace up to three Acolyte Hybrids with Aberrants and/or Metamorph Hybrids",
+        "name": "Hellhounds",
+        "description": "Add up to two Hellhounds",
+        "points": "25 points each"
+      },
+      {
+        "name": "Heavy Mining Machinery",
+        "description": "Add one of the following units to the formation",
         "options": [
           {
-            "description": "Aberrants",
-            "points": "15 points each"
+            "description": "Assault Excavator",
+            "points": "225 points"
           },
           {
-            "description": "Metamorph Hybrids",
-            "points": "10 points each"
+            "description": "Haul Truck Cannon",
+            "points": "150 points"
           }
         ]
       },
       {
-        "name": "Ridgerunners",
-        "description": "Add up to three Ridgerunners",
-        "points": "20 points each"
+        "name": "Quadbikes",
+        "description": "Replace up to five Neophyte Outriders with Outrider Quadbikes",
+        "points": "Free"
       },
       {
         "name": "Technicals",
