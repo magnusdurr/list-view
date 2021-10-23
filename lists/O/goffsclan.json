@@ -70,8 +70,8 @@
               "Add any number of Ork Boyz: 15 points each",
               "Add any number of Battlewagons: 20 points each",
             "Add any number of Killa Kans, Big Gunz, Kommandos, Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
-            "Add any number of Deff Dreads: 35 points each",
+            "Add any number of Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Deff Dreads, Deffkoptas: 35 points each",
             "Add any number of Boyz + Grotz: 35 points each",
             "0-1 Battlefortresses: 100 points each",
             "0-2 Gunfortresses: 100 points each",
@@ -99,7 +99,8 @@
           "units": "Any four of the following units: Deffkopta, Flakwagon, Gunwagon",
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Deffkoptas: 35 points each",
             "0-1 Gunfortress: 100 points",
             "0-1 Add one Oddboy character to a Gunfortress or Gunwagon: 50 points"
           ],
@@ -123,7 +124,8 @@
           "units": "Any eight of the following units: Skorchas, Warbikes, Warbuggies",
           "extraUnits": [
             "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
-            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Deffkoptas: 35 points each",
             "0-1 Add one Oddboy character to a Gunwagon: 50 points"
           ],
           "pointsOptions": [
@@ -145,7 +147,8 @@
           "name": "Kommandos Warhorde",
           "units": "Six Kommandos",
           "extraUnits": [
-            "Add any number of Skorchas, Warbikes, Warbuggies, Kommandos, Stormboyz: 25 points each"
+            "Add any number of Skorchas, Warbikes, Warbuggies, Kommandos, Stormboyz: 25 points each",
+            "Add any number of Deffkoptas: 35 points each"
           ],
           "points": 150
         },
@@ -153,7 +156,8 @@
           "name": "Stormboyz Warhorde",
           "units": "Six Stormboyz",
           "extraUnits": [
-            "Add any number of Skorchas, Warbikes, Warbuggies, Kommandos, Stormboyz: 25 points each"
+            "Add any number of Skorchas, Warbikes, Warbuggies, Kommandos, Stormboyz: 25 points each",
+            "Add any number of Deffkoptas: 35 points each"
           ],
           "points": 150
         },
@@ -228,7 +232,7 @@
           "units": "One Gargant",
           "upgrades": [
           ],
-          "points": 550
+          "points": 575
         },
         {
           "name": "Great Gargant",
