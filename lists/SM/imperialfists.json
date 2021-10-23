@@ -95,16 +95,14 @@
           "points": 225
         },
         {
-          "name": "Land Raiders",
-          "units": "Three Land Raiders",
+          "name": "Vindicators",
+          "units": "Four Vindicators",
           "extraUnits": [
-            "Add one Land Raider: 50 points",
-            "Achilles",
             "Anti-Air",
             "Vindicators"
           ],
-          "points": 275
-        },
+          "points": 225
+      },
         {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
@@ -134,14 +132,17 @@
       "description": "Up to two Support Detachments for each Core Detachment.",
       "formations": [
           {
-            "name": "Vindicators",
-            "units": "Four Vindicators",
+            "name": "Land Raiders",
+            "units": "Three Land Raiders",
             "extraUnits": [
+              "Add one Land Raider: 50 points",
+              "Achilles",
               "Anti-Air",
               "Vindicators"
             ],
-            "points": 225
-        },
+            "points": 275
+          },
+
         {
           "name": "Predators",
           "units": "Four Predator Destructors and/or Predator Annihilators",

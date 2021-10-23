@@ -78,13 +78,16 @@
           ],
           "points": 275
         },
+
         {
-          "name": "Vindicators",
-          "units": "6 White Scars Vindicators",
+          "name": "Assaults",
+          "units": "Four Assaults",
           "extraUnits": [
-            "Anti-Air"
+            "Commander",
+            "Vindicators",
+            "Damocles"
           ],
-          "points": 300
+          "points": 175
         },
         {
           "name": "Bikes",
@@ -112,18 +115,16 @@
     },
     {
       "name": "White Scars Support Detachments",
-      "description": "Three Support Detachments may be taken per Core Detachment",
+      "description": "Two Support Detachments may be taken per Core Detachment",
       "formations": [
-        {
-          "name": "Assaults",
-          "units": "Four Assaults",
-          "extraUnits": [
-            "Commander",
-            "Vindicators",
-            "Damocles"
-          ],
-          "points": 175
-        },
+          {
+            "name": "Vindicators",
+            "units": "6 White Scars Vindicators",
+            "extraUnits": [
+              "Anti-Air"
+            ],
+            "points": 300
+          },
         {
           "name": "Scout Bikes",
           "units": "Five White Scars Scout Bikes",
