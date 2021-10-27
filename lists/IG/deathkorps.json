@@ -44,7 +44,7 @@
       ],
       "unitRules": [
         "Heavy Armoured Vehicle (H-AV)",
-          "Shield Disruptor"
+        "Shield Disruptor"
       ]
     },
     {
@@ -224,27 +224,14 @@
     "items": [
       {
         "name": "Bane Wolf",
-        "options": [
-          {
-            "description": "Add up to three Bane Wolves",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to three Bane Wolves",
+        "points": "25 points each"
       },
       {
         "name": "Leman Russ",
-        "options": [
-          {
-            "description": "Add three Leman Russ, three Leman Russ Thunderers, or three Leman Russ Annihilators",
-            "points": "150 points"
-          }
-        ]
+        "description": "Add three Leman Russ, three Leman Russ Thunderers, or three Leman Russ Annihilators",
+        "points": "150 points"
       }
     ]
-  },
-  "about": [
-    "v1.0.Beta: Apart from the changes inherited from the Steel Legion list, the theme of the list has been changed to make it more 'siege assault' oriented, with the dedicated 'siege defense' role being given to their cousins the Baran Siege Masters. It is however possible to take Siege Companies that largely mirror those that are in the Baran list. The main change from the NetEA/E-UK versions of DKoK is that only the Regimental HQ can have more than one Gorgon, and that it is no longer possible to place the Commissar on the Gorgon.",
-    "Another major changes involve the Death Riders / Rough Riders, which has a new stat line which fits them better thematically.",
-    "The Macharius has been made slightly faster, but with less firepower, to differentiate it from the Super Heavy Tanks."
-  ]
+  }
 }

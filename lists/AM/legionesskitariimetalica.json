@@ -36,9 +36,9 @@
         "Ark Mechanicus Battleship"
       ],
       "unitRules": [
-          "Machine Spirit",
-          "Ponderous",
-          "Shield Disruptor"
+        "Machine Spirit",
+        "Ponderous",
+        "Shield Disruptor"
       ]
     },
     {
@@ -202,79 +202,56 @@
     "items": [
       {
         "name": "0-1 Supreme Commander",
-        "options": [
-          {
-            "description": "Replace the Magos with an Magos Dominus",
-            "points": "75 points"
-          }
-        ]
+        "description": "Replace the Magos with an Magos Dominus",
+        "points": "75 points"
       },
       {
         "name": "Hypaspist Transport",
+        "description": "Add one Gorgon, five Chimeras, or five Chimedons",
         "options": [
           {
-            "description": "Add one Gorgon, five Chimeras, or five Chimedons",
-            "points": [
-              "Gorgon: 100 points",
-              "Chimeras: 125 points",
-              "Chimedons: 125 point"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Hydra",
-        "options": [
+            "description": "One Gorgon",
+            "points": "100 points"
+          },
           {
-            "description": "Add one Hydra",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Minoris",
-        "options": [
+            "description": "Five Chimeras",
+            "points": "125 points"
+          },
           {
-            "description": "Add one Ordinatus Minoris",
+            "description": "Five Chimedons",
             "points": "125 points"
           }
         ]
       },
       {
+        "name": "Hydra",
+        "description": "Add one Hydra",
+        "points": "50 points"
+      },
+      {
+        "name": "Minoris",
+        "description": "Add one Ordinatus Minoris",
+        "points": "125 points"
+      },
+      {
         "name": "Minoris Support Weapon",
-        "options": [
-          {
-            "description": "Upgrade one Minoris to carry a Support Weapon",
-            "points": "25 points"
-          }
-        ]
+        "description": "Upgrade one Minoris to carry a Support Weapon",
+        "points": "25 points"
       },
       {
         "name": "Ordinatus Mars",
-        "options": [
-          {
-            "description": "Replace the Ordinatus Armageddon with an Ordinatus Mars (Sonic Disruptor)",
-            "points": "Free"
-          }
-        ]
+        "description": "Replace the Ordinatus Armageddon with an Ordinatus Mars (Sonic Disruptor)",
+        "points": "Free"
       },
       {
         "name": "Ordinatus Golgotha",
-        "options": [
-          {
-            "description": "Replace the Ordinatus Armageddon with an Ordinatus Golgotha (Hellfire Missiles)",
-            "points": "50 points"
-          }
-        ]
+        "description": "Replace the Ordinatus Armageddon with an Ordinatus Golgotha (Hellfire Missiles)",
+        "points": "50 points"
       },
       {
         "name": "Tank Hunter",
-        "options": [
-          {
-            "description": "Upgrade both Warhounds to Tank Hunter Configuration",
-            "points": "50 points"
-          }
-        ]
+        "description": "Upgrade both Warhounds to Tank Hunter Configuration",
+        "points": "50 points"
       }
     ]
   }

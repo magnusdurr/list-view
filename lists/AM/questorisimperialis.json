@@ -24,10 +24,10 @@
         "Knight-Errant"
       ],
       "unitRules": [
-          "Ion Shield (x)",
-          "Lightning Charge",
-          "Heavy Armoured Vehicle (H-AV)",
-          "Lance"
+        "Ion Shield (x)",
+        "Lightning Charge",
+        "Heavy Armoured Vehicle (H-AV)",
+        "Lance"
       ]
     },
     {
@@ -172,84 +172,48 @@
     "items": [
       {
         "name": "Seneschal",
-        "options": [
-          {
-            "description": "Add a Seneschal to the formation",
-            "points": "25 points"
-          }
-        ]
+        "description": "Add a Seneschal to the formation",
+        "points": "25 points"
       },
       {
         "name": "0-1 Knight-Baron",
-        "options": [
-          {
-            "description": "Replace the Seneschal and its Knight with a Knight-Baron",
-            "points": "50 points"
-          }
-        ]
+        "description": "Replace the Seneschal and its Knight with a Knight-Baron",
+        "points": "50 points"
       },
       {
         "name": "Knight-Castellans",
-        "options": [
-          {
-            "description": "Add up to two Knight-Castellans of any configuration",
-            "points": "125 points each"
-          }
-        ]
+        "description": "Add up to two Knight-Castellans of any configuration",
+        "points": "125 points each"
       },
       {
         "name": "Knight-Lancer",
-        "options": [
-          {
-            "description": "Add up to two Knight-Lancer",
-            "points": "100 points each"
-          }
-        ]
+        "description": "Add up to two Knight-Lancer",
+        "points": "100 points each"
       },
       {
         "name": "Knight-Wardens",
-        "options": [
-          {
-            "description": "Add up to two Knight-Wardens of any configuration",
-            "points": "75 points each"
-          }
-        ]
+        "description": "Add up to two Knight-Wardens of any configuration",
+        "points": "75 points each"
       },
       {
         "name": "Knight-Errants",
-        "options": [
-          {
-            "description": "Add up to two Knight-Errants",
-            "points": "100 points each"
-          }
-        ]
+        "description": "Add up to two Knight-Errants",
+        "points": "100 points each"
       },
       {
         "name": "Land Transporters",
-        "options": [
-          {
-            "description": "Add four Land Transporters (may have no other upgrades)",
-            "points": "25 points"
-          }
-        ]
+        "description": "Add four Land Transporters (may have no other upgrades)",
+        "points": "25 points"
       },
       {
         "name": "Support Weapons",
-        "options": [
-          {
-            "description": "Add three Rapiers or two Thudd Guns",
-            "points": "50 points"
-          }
-        ]
+        "description": "Add three Rapiers or two Thudd Guns",
+        "points": "50 points"
       },
       {
         "name": "Entrenchments",
-        "options": [
-          {
-            "description": "40cm Razor Wire, 40cm Trenches",
-            "points": "50 points"
-          }
-        ]
+        "description": "40cm Razor Wire, 40cm Trenches",
+        "points": "50 points"
       }
     ]
   },

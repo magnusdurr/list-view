@@ -260,10 +260,8 @@
     "items": [
       {
         "name": "0-1 Supreme Commander",
+        "description": "Choose one of the following:",
         "options": [
-          {
-            "description": "Choose one of the following:"
-          },
           {
             "description": "Replace the Chaos Lord with a Warlord",
             "points": "50 points"
@@ -276,6 +274,7 @@
       },
       {
         "name": "Death Guard Transport",
+        "description": "Add transports to the formation, up to the number required to transport all infantry units in the formation",
         "options": [
           {
             "description": "Add four Death Guard Rhinos (Retinue only)",
@@ -288,10 +287,6 @@
           {
             "description": "Add four Chaos Land Raiders",
             "points": "200 points"
-          },
-          {
-            "description": "(No more than needed to transport the formation with no space left over)",
-            "points": ""
           }
         ]
       },

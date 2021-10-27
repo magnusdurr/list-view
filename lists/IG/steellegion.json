@@ -123,7 +123,7 @@
             "Flak"
           ],
           "points": 400
-      }
+        }
       ]
     },
     {
@@ -159,7 +159,7 @@
           "extraUnits": [
           ],
           "points": 175
-      },
+        },
         {
           "name": "Flak Battery",
           "units": "Three Hydras",
@@ -260,75 +260,46 @@
     "items": [
       {
         "name": "Fire Support*",
-        "options": [
-          {
-            "description": "Add two or four Fire Support Squads",
-            "points": "50 points for two, 100 points for four"
-          }
+        "description": "Add two or four Fire Support Squads",
+        "points": [
+          "50 points for two",
+          "100 points for four"
         ]
       },
       {
         "name": "Flak",
-        "options": [
-          {
-            "description": "Add one Hydra",
-            "points": "50 points"
-          }
-        ]
+        "description": "Add one Hydra",
+        "points": "50 points"
       },
       {
         "name": "Hellhounds",
-        "options": [
-          {
-            "description": "Add up to three Hellhounds",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to three Hellhounds",
+        "points": "25 points each"
       },
       {
         "name": "Infantry*",
-        "options": [
-          {
-            "description": "Add six Infantry",
-            "points": "75 points"
-          }
-        ]
+        "description": "Add six Infantry",
+        "points": "75 points"
       },
       {
         "name": "Ogryns*",
-        "options": [
-          {
-            "description": "Add up to two Ogryns",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to two Ogryns",
+        "points": "25 points each"
       },
       {
         "name": "Snipers*",
-        "options": [
-          {
-            "description": "Add up to two Snipers",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to two Snipers",
+        "points": "25 points each"
       },
       {
         "name": "Leman Russ",
-        "options": [
-          {
-            "description": "Add three Leman Russ, Leman Russ Punishers, or Leman Russ Demolishers",
-            "points": "150 points"
-          }
-        ]
+        "description": "Add three Leman Russ, Leman Russ Punishers, or Leman Russ Demolishers",
+        "points": "150 points"
       },
       {
         "name": "",
-        "options": [
-          {
-            "description": "* These upgrades may add Chimeras. If the formation contains Chimeras, then all INF in the formation must be transported in Chimeras.",
-            "points": "25 points each"
-          }
-        ]
+        "description": "* These upgrades may add Chimeras. If the formation contains Chimeras, then all INF in the formation must be transported in Chimeras.",
+        "points": "25 points each"
       }
     ]
   },

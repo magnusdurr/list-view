@@ -34,7 +34,7 @@
         "Alpha Legion Sicarian Battle Tank"
       ],
       "unitRules": [
-          "Sabotage",
+        "Sabotage",
         "Stubborn"
       ]
     },
@@ -51,8 +51,8 @@
         "Land Transporter"
       ],
       "unitRules": [
-          "Daemonic Focus",
-          "Augment Summoning (+x)"
+        "Daemonic Focus",
+        "Augment Summoning (+x)"
       ]
     },
     {
@@ -253,11 +253,8 @@
     "items": [
       {
         "name": "0-1 Supreme Commander",
+        "description": "Choose one of the following options:",
         "options": [
-          {
-            "description": "Choose one of the following options:",
-            "points": ""
-          },
           {
             "description": "Upgrade the Aspiring Champion to a Daemon Prince",
             "points": "100 points"
@@ -270,30 +267,18 @@
       },
       {
         "name": "Vindicators",
-        "options": [
-          {
-            "description": "Add up to two Alpha Legion Vindicators",
-            "points": "35 points each"
-          }
-        ]
+        "description": "Add up to two Alpha Legion Vindicators",
+        "points": "35 points each"
       },
       {
         "name": "Predators",
-        "options": [
-          {
-            "description": "Add up to two Alpha Legion Predators",
-            "points": "50 points each"
-          }
-        ]
+        "description": "Add up to two Alpha Legion Predators",
+        "points": "50 points each"
       },
       {
         "name": "Dreadnoughts",
-        "options": [
-          {
-            "description": "Add up to two Alpha Legion Dreadnoughts",
-            "points": "50 points each"
-          }
-        ]
+        "description": "Add up to two Alpha Legion Dreadnoughts",
+        "points": "50 points each"
       }
     ]
   }

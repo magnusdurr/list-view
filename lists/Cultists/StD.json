@@ -28,8 +28,8 @@
         "Land Transporter"
       ],
       "unitRules": [
-          "Augment Summoning (+x)",
-          "Daemonic Focus"
+        "Augment Summoning (+x)",
+        "Daemonic Focus"
       ]
     },
     {
@@ -153,7 +153,7 @@
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade",
           "extraUnits": [
-              "Replace the Baneblade with a Shadowsword: Free"
+            "Replace the Baneblade with a Shadowsword: Free"
           ],
           "points": 200
         },
@@ -163,14 +163,14 @@
           "extraUnits": [
           ],
           "points": 275
-      },
-      {
-        "name": "Griffon Battery",
-        "units": "Three Griffons",
-        "extraUnits": [
-        ],
-        "points": 175
-      }
+        },
+        {
+          "name": "Griffon Battery",
+          "units": "Three Griffons",
+          "extraUnits": [
+          ],
+          "points": 175
+        }
       ]
     },
     {
@@ -284,11 +284,9 @@
         ]
       },
       {
-        "name": "(0-1 in the Army) Supreme Commander",
+        "name": "0-1 Supreme Commander",
+        "description": "Choose one of the following:",
         "options": [
-          {
-            "description": "Choose one of the following:"
-          },
           {
             "description": "Add an Arch-Heretic to a Fallen Commander",
             "points": "50 points"
@@ -301,78 +299,52 @@
       },
       {
         "name": "Fire Support Platoon",
-        "options": [
-          {
-            "description": "Add up to two Fire Support Squads",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to two Fire Support Squads",
+        "points": "25 points each"
       },
       {
         "name": "Ogryns",
-        "options": [
-          {
-            "description": "Add up to two units of Ogryns",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to two units of Ogryns",
+        "points": "25 points each"
       },
       {
         "name": "Flak",
-        "options": [
-          {
-            "description": "Add one Hydra",
-            "points": "50 points"
-          }
-        ]
+        "description": "Add one Hydra",
+        "points": "50 points"
       },
       {
         "name": "Hellhounds",
-        "options": [
-          {
-            "description": "Add up to two Hellhounds",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to two Hellhounds",
+        "points": "25 points each"
       },
       {
         "name": "Griffons",
-        "options": [
-          {
-            "description": "Add one Griffon",
-            "points": "25 points"
-          }
-        ]
+        "description": "Add one Griffon",
+        "points": "25 points"
       },
       {
         "name": "Leman Russ",
+        "description": "Add one or three Leman Russ, Leman Russ Demolishers or Leman Russ Thunderers",
         "options": [
           {
-            "description": "Add one, or add three Leman Russ, Leman Russ Demolishers, Leman Russ Thunderers",
-            "points": [
-              "One Leman Russ, Leman Russ Demolisher, or Leman Russ Thunderer: 50 points",
-              "Three Leman Russ, three Leman Russ Demolishers, or three Leman Russ Thunderers: 150 points"
-            ]
+            "description": "One Leman Russ variant",
+            "points": "50 points"
+          },
+          {
+            "description": "Three Leman Russ variants",
+            "points": "150 points"
           }
         ]
       },
       {
         "name": "Mutants",
-        "options": [
-          {
-            "description": "Add up to four Mutants",
-            "points": "10 points each"
-          }
-        ]
+        "description": "Add up to four Mutants",
+        "points": "10 points each"
       },
       {
         "name": "Technicals",
-        "options": [
-          {
-            "description": "Add up to two Technicals",
-            "points": "20 points each"
-          }
-        ]
+        "description": "Add up to two Technicals",
+        "points": "20 points each"
       },
       {
         "name": "Chaos Spawn",
@@ -381,6 +353,7 @@
       },
       {
         "name": "Transport",
+        "description": "Add transports to the formation, up to the number required to transport all infantry units in the formation",
         "options": [
           {
             "description": "Add any number of Land Transporters",
@@ -389,10 +362,6 @@
           {
             "description": "Add any number of Chimeras",
             "points": "25 points each"
-          },
-          {
-            "description": "(No more than needed to transport the formation)",
-            "points": ""
           }
         ]
       }

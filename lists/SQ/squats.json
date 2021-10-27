@@ -44,8 +44,8 @@
         "Squat Land Train"
       ],
       "unitRules": [
-              "Spirit Lords",
-              "Support Craft"
+        "Spirit Lords",
+        "Support Craft"
       ]
     },
     {
@@ -154,7 +154,7 @@
           "name": "Hellbore",
           "units": "One Hellbore",
           "extraUnits": [
-              "Living Ancestor"
+            "Living Ancestor"
           ],
           "points": 150
         },
@@ -162,7 +162,7 @@
           "name": "Overlord",
           "units": "One Overlord Dirigible",
           "extraUnits": [
-              "Living Ancestor"
+            "Living Ancestor"
           ],
           "points": 250
         },
@@ -224,53 +224,46 @@
       },
       {
         "name": "Living Ancestor",
-        "options": [
-          {
-            "description": "Add a Living Ancestor to an Overlord Dirigible, Leviathan, Cyclops, Colossus or Land Train.",
-            "points": "25 points"
-          }
-        ]
+        "description": "Add a Living Ancestor to an Overlord Dirigible, Leviathan, Cyclops, Colossus or Land Train.",
+        "points": "25 points"
       },
       {
         "name": "Thunderer Transport",
+        "description": "Replace two Squat Rhinos with two Termites or two Land Raiders.",
         "options": [
           {
-            "description": "Replace two Squat Rhinos with two Termites or two Land Raiders.",
-            "points": [
-              "Termites: Free",
-              "Land Raiders: 75 points"
-            ]
+            "description": "Termites",
+            "points": "Free"
+          },
+          {
+            "description": "Land Raiders",
+            "points": "75 points"
           }
         ]
       },
       {
         "name": "Warrior Transport",
-        "description": "Choose one of the following options:",
+        "description": "Add transports to the formation, up to the number required to transport all infantry units in the formation. Termites, Hellbore and Leviathan transports can not be combined with other transport options. Transports can only be taken if the entire formation can be transported.",
         "options": [
           {
-            "description": "Add enough Squat Rhinos and/or Land Raiders to transport the entire formation with no space left over.",
-            "points": [
-              "Squat Rhinos: 10 points each",
-              "Up to two Land Raiders: 50 points each"
-            ]
+            "description": "Squat Rhinos",
+            "points": "10 points each"
           },
           {
-            "description": "Termite Transport: The entire formation is transported in Termites. May only be taken if the entire formation fits inside.",
-            "points": [
-              "15 points each"
-            ]
+            "description": "Land Raiders",
+            "points": "50 points each"
           },
           {
-            "description": "Hellbore Transport: The entire formation is transported in a Hellbore. May only be taken if the entire formation fits inside. The Hellbore is bought separately.",
-            "points": [
-              "Free"
-            ]
+            "description": "Termites",
+            "points": "15 points each"
           },
           {
-            "description": "Leviathan Transport: The entire formation is transported in a Leviathan. May only be taken if the entire formation fits inside.",
-            "points": [
-              "275 points"
-            ]
+            "description": "Hellbore Transport (bought separately)",
+            "points": "Free"
+          },
+          {
+            "description": "Leviathan",
+            "points": "275 points"
           }
         ]
       }

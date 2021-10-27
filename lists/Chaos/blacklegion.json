@@ -286,35 +286,30 @@
         "points": "50 points"
       },
       {
-        "name": "(0-1 per army) Supreme Commander",
+        "name": "Supreme Commander (0-1 per army)",
+        "description": "Choose one of the following:",
         "options": [
-          {
-            "description": "Choose one of the following:"
-          },
           {
             "description": "Replace the Chaos Lord with a Warlord",
             "points": "50 points"
           },
           {
-            "description": "Replace the Chaos Lord and its unit with a Daemon Prince",
+            "description": "Replace the Chaos Lord & unit with a Daemon Prince",
             "points": "100 points"
           }
         ]
       },
       {
         "name": "Transport",
+        "description": "Add Chaos Rhinos or Chaos Land Raiders, up to the number required to transport all infantry units in the formation",
         "options": [
           {
-            "description": "Add up to four Chaos Rhinos (Retinue only)",
+            "description": "Chaos Rhinos (Retinue only)",
             "points": "10 points each"
           },
           {
-            "description": "Add up to six Chaos Land Raiders",
+            "description": "Chaos Land Raiders",
             "points": "50 points each"
-          },
-          {
-            "description": "(No more than needed to transport the formation with no space left over)",
-            "points": ""
           }
         ]
       },

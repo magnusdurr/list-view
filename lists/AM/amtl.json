@@ -22,9 +22,9 @@
         "Warmonger Titan"
       ],
       "unitRules": [
-          "Extended Command",
-          "Shield Disruptor",
-          "Shield Piercer",
+        "Extended Command",
+        "Shield Disruptor",
+        "Shield Piercer",
         "God Machine",
         "Split Fire",
         "Void Shields"
@@ -187,30 +187,18 @@
     "items": [
       {
         "name": "0-1 Legate",
-        "options": [
-          {
-            "description": "Add one Legate to the formation",
-            "points": "50 points"
-          }
-        ]
+        "description": "Add one Legate to the formation",
+        "points": "50 points"
       },
       {
         "name": "Veteran Princeps",
-        "options": [
-          {
-            "description": "Add one Veteran Princeps to the formation. May not be combined with Legate",
-            "points": "25 points"
-          }
-        ]
+        "description": "Add one Veteran Princeps to the formation. May not be combined with Legate",
+        "points": "25 points"
       },
       {
         "name": "Tank Hunter",
-        "options": [
-          {
-            "description": "Upgrade all Warhounds in the formation to the Tank Hunter Configuration",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Upgrade all Warhounds in the formation to the Tank Hunter Configuration",
+        "points": "25 points each"
       }
     ]
   },

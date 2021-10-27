@@ -143,7 +143,7 @@
           "extraUnits": [
           ],
           "points": 175
-      },
+        },
         {
           "name": "Tank Hunter Squadron",
           "units": "Three Leman Russ Destroyers",
@@ -220,48 +220,28 @@
     "items": [
       {
         "name": "0-1 Supreme Commander",
-        "options": [
-          {
-            "description": "Replace one Commissar-Captain in the army with a Lord Commissar",
-            "points": "75 points"
-          }
-        ]
+        "description": "Replace one Commissar-Captain in the army with a Lord Commissar",
+        "points": "75 points"
       },
       {
         "name": "Griffons",
-        "options": [
-          {
-            "description": "Add three Griffons",
-            "points": "50 points"
-          }
-        ]
+        "description": "Add three Griffons",
+        "points": "50 points"
       },
       {
         "name": "Leman Russ",
-        "options": [
-          {
-            "description": "Add three Leman Russ, three Leman Russ Executioners, three Leman Russ Exterminators, three Leman Russ Demolishers, three Leman Russ Punishers, three Leman Russ Thunderers, or three Leman Russ Conquerors",
-            "points": "150 points"
-          }
-        ]
+        "description": "Add three Leman Russ, Leman Russ Executioners, Leman Russ Exterminators, Leman Russ Demolishers, Leman Russ Punishers, Leman Russ Thunderers, or Leman Russ Conquerors",
+        "points": "150 points"
       },
       {
         "name": "Hellhounds",
-        "options": [
-          {
-            "description": "Add up to three Hellhounds",
-            "points": "25 points each"
-          }
-        ]
+        "description": "Add up to three Hellhounds",
+        "points": "25 points each"
       },
       {
         "name": "Flak",
-        "options": [
-          {
-            "description": "Add one Hydra",
-            "points": "50 points"
-          }
-        ]
+        "description": "Add one Hydra",
+        "points": "50 points"
       }
     ]
   }

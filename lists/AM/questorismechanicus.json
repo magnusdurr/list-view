@@ -198,21 +198,13 @@
     "items": [
       {
         "name": "Seneschal",
-        "options": [
-          {
-            "description": "Add one Seneschal to the formation",
-            "points": "25 points"
-          }
-        ]
+        "description": "Add one Seneschal to the formation",
+        "points": "25 points"
       },
       {
-        "name": "(0-1 per Army) Lord Seneschal",
-        "options": [
-          {
-            "description": "Replace the Seneschal with a Lord Seneschal",
-            "points": "50 points"
-          }
-        ]
+        "name": "Lord Seneschal (0-1 per Army)",
+        "description": "Replace the Seneschal with a Lord Seneschal",
+        "points": "50 points"
       }
     ]
   }

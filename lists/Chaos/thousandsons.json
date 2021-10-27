@@ -248,10 +248,8 @@
     "items": [
       {
         "name": "0-1 Supreme Commander",
+        "description": "Choose one of the following:",
         "options": [
-          {
-            "description": "Choose one of the following:"
-          },
           {
             "description": "Replace the Aspiring Sorcerer with an Exalted Sorcerer (Retinue and Disc Riders Only).",
             "points": "50 points"
@@ -268,6 +266,7 @@
       },
       {
         "name": "Thousand Sons Transport",
+        "description": "Add transports to the formation, up to the number required to transport all infantry units in the formation",
         "options": [
           {
             "description": "Thousand Sons Rhinos",
@@ -276,10 +275,6 @@
           {
             "description": "Thousand Sons Land Raiders",
             "points": "50 points each"
-          },
-          {
-            "description": "(No more than the minimum needed to transport the formation)",
-            "points": ""
           }
         ]
       },
