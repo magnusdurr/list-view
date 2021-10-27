@@ -1843,6 +1843,16 @@
       ]
     },
     {
+      "name": "Blasting Charges",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Beam Blaster",
       "modes": [
         {
@@ -4188,6 +4198,17 @@
     },
     {
       "name": "Hand Flamer",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hand Flamers",
       "modes": [
         {
           "firepower": "Small Arms",
@@ -8445,6 +8466,19 @@
           "specialRules": [
             "EA(+1)",
             "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mental Onslaught",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)",
+            "MW",
+            "FS"
           ]
         }
       ]

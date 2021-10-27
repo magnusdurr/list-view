@@ -22,7 +22,7 @@
         "name": "Genestealer Magus",
         "type": "CH",
         "weapons": [
-          "Psychic Powers"
+          "Mental Onslaught"
         ],
         "specialRules": [
           "Commander",
@@ -117,7 +117,8 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Hand Flamer",
+          "Blasting Charges",
+          "Hand Flamers",
           "Rending Claws"
         ],
         "specialRules": [
@@ -252,7 +253,7 @@
         "speed": 25,
         "armour": 4,
         "cc": 4,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
           "Drilldozer Blade"
         ],
@@ -276,15 +277,15 @@
           "Damage Capacity 4",
           "Fearless"
         ],
-        "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All units within 15cm of the model suffer a hit on a roll of 5+."
+        "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All units within 5cm of the model suffer a hit on a roll of 4+."
       },
       {
         "name": "Assault Excavator",
         "type": "WE",
         "speed": 20,
         "armour": 5,
-        "cc": 4,
-        "ff": 5,
+        "cc": 5,
+        "ff": 6,
         "weapons": [
           "Excavator Power Arms",
           "Twin Heavy Stubber|2|FxF"
