@@ -10,6 +10,7 @@
     "Broodcoven",
     "Broodmind",
     "Extreme Mobility (Genestealer Cult)",
+    "Genestealer Cult Characters",
     "Tunnelers"
   ],
   "units": [
@@ -119,7 +120,7 @@
         },
         {
           "name": "Shock Assault Coven",
-          "units": "One Hybrid Iconward, 4 Aberrants and 4 Goliath Rock Grinders",
+          "units": "One Hybrid Iconward, 4 Aberrants, and either 4 Goliath Trucks or 4 Goliath Rock Grinders",
           "extraUnits": [
             "Coven Leader",
             "Technicals"
@@ -198,7 +199,7 @@
     "items": [
       {
         "name": "Mineshaft Infiltrators",
-        "description": "All units in the formation gains the 'Tunneling' special rule, may only have the 'Acolytes', 'Aberrants' and 'Coven Leader' upgrades",
+        "description": "All units in the formation gains the 'Tunneling' special rule, but may only have the 'Acolytes', 'Aberrants' and 'Coven Leader' upgrades",
         "points": "Free"
       },
       {
@@ -235,7 +236,7 @@
       },
       {
         "name": "Coven Leader",
-        "description": "Replace a Hybrid Iconward with a Genestealer Primus or Genestealer Magus",
+        "description": "Replace a Hybrid Iconward with a Genestealer Primus or Genestealer Magus.",
         "options": [
           {
             "description": "Genestealer Primus",
