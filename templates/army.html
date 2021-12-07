@@ -37,9 +37,9 @@
                         {{/if}}
                     </div>
                     <div class="col-3 order-lg-9" style="text-align: right">
-                        {{#if points}}{{points}} points{{/if}}
+                        {{#if points}}{{appendOnNumber points ' points'}}{{/if}}
                         {{#if pointsOptions}}
-                        {{#each pointsOptions}}{{this.name}} - {{this.points}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                        {{#each pointsOptions}}{{this.name}} - {{appendOnNumber points ' points'}}{{#unless @last}}<br>{{/unless}}{{/each}}
                         {{/if}}
                     </div>
                     <div class="col-12 col-lg-5">
@@ -113,9 +113,9 @@
                         <div class="col-8" style="text-align: right">{{description}}</div>
                         <div class="col-4" style="text-align: right">
                             {{#if (isArray points)}}
-                            {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                            {{#each points}}{{appendOnNumber this ' points'}}{{#unless @last}}<br>{{/unless}}{{/each}}
                             {{else}}
-                            {{points}}
+                            {{appendOnNumber points ' points'}}
                             {{/if}}
                         </div>
                     </div>
