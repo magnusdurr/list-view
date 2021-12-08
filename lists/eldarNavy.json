@@ -9,12 +9,13 @@
         "name": "Nightwing Interceptor",
         "type": "AC",
         "speed": "Fighter",
-        "armour": 4,
+        "armour": 5,
         "weapons": [
           "AC Twin Shuriken Cannon",
-          "AC Twin Bright Lance"
+          "AC Bright Lance|2"
         ],
         "specialRules": [
+          "Reinforced Armour"
         ]
       },
       {
@@ -32,13 +33,14 @@
         "name": "Phoenix Bomber",
         "type": "AC",
         "speed": "Fighter-Bomber",
-        "armour": 3,
+        "armour": 5,
         "weapons": [
           "AC Twin Shuriken Cannon",
           "AC Pulse Laser",
           "AC Spinner Array"
         ],
         "specialRules": [
+          "Reinforced Armour"
         ]
       },
       {

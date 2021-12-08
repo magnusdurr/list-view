@@ -4,7 +4,7 @@
   "version": "1.0.Beta",
   "release": "2020-11-12",
   "strategy": "Craftworld Eldar armies have a Strategy Rating of 4. Craftworld Ulthwé are also subject to the 'Seers of Ulthwé' special rule.",
-  "Initiative": "Ulthwé Warhosts, Aspect Warriors, Titans, Wraithknights and the Avatar formations have an Initiative Rating of 1+.",
+  "Initiative": "Ulthwé Warhosts, Ulthwé Support Warhosts, Aspect Warriors, Titans and the Avatar formations have an Initiative Rating of 1+.",
   "specialRules": [
     "Seers of Ulthwé",
     "Avatar (Ulthwé)",
@@ -49,16 +49,14 @@
         "Scorpion",
         "Cobra",
         "Storm Serpent",
-        "Wraithknight",
         "Revenant Titan",
         "Warlock Titan"
       ],
       "unitRules": [
-          "Holofields (x)",
-          "Lance",
-          "Shield Piercer",
-          "Shield Disruptor",
-        "Heavy Armoured Vehicle (H-AV)"
+        "Holofields (x)",
+        "Lance",
+        "Shield Piercer",
+        "Shield Disruptor"
       ]
     },
     {
@@ -79,16 +77,16 @@
       "name": "Ulthwé Special",
       "formations": [
         {
-          "name": "1 Avatar",
+          "name": "0-1 Avatar",
           "units": "One Avatar",
-          "points": 0
+          "points": 50
         },
         {
-          "name": "0-1 Wraithgate",
+          "name": "1 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
           "extraUnits": [
           ],
-          "points": 50
+          "points": "Free"
         }
       ]
     },
@@ -99,60 +97,59 @@
           "name": "Black Guardian Warhost",
           "units": "Two Farseers, six Eldar Guardians",
           "extraUnits": [
-            "Replace up to three Eldar Guardians with Heavy Weapon Platforms: Free",
             "Seer Council",
-            "Support Weapons",
-            "Wraithguards",
-            "Wraithlords"
+            "Replace up to three Eldar Guardians with an equal number of Eldar Heavy Weapon Platform units: Free",
+            "Replace three Eldar Guardians with Support Weapons Platforms (all armed with the same weapon): 50 points",
+            "Add two Eldar Wraithguards: 75 points",
+            "Add up to three Eldar Wraithlords: 50 points each"
           ],
           "points": 175
         },
         {
           "name": "Mounted Black Guardian Warhost",
-          "units": "One Farseer, five Eldar Guardians, three Wave Serpents",
+          "units": "Two Farseers, six Eldar Guardians and four Wave Serpents",
           "extraUnits": [
-            "Replace two Guardians with two Wraithguards and a Wave Serpent: 100 points",
-            "Seer Council"
+            "Seer Council",
+            "Replace up to three Eldar Guardians with an equal number of Eldar Heavy Weapon Platform units: Free",
+            "Replace any number of Wave Serpents with two Falcons each: 50 points each",
+            "Replace one Wave Serpent with two Firestorms: 50 points"
           ],
-          "points": 275
-      },
-            {
-              "name": "Swords of Ulthwé",
-              "units": "Four Eldar Guardians, four Falcons",
-              "extraUnits": [
-                "Replace one Falcon with a Firestorm: Free"
-              ],
-              "points": 300
-          }
-        ]
-      },
+          "points": 325
+        }
+      ]
+    },
     {
-      "name": "Ulthwé Line Troupes",
-      "description": "Up to one Troupe for each Ulthwé Warhost taken",
+      "name": "Ulthwé Support Warhosts",
+      "description": "Up to one Ulthwé Support Warhosts for each Ulthwé Warhost taken",
       "formations": [
-          {
-            "name": "Windriders",
-            "units": "Six Eldar Jetbikes",
-            "extraUnits": [
-              "Replace up to six Eldar Jetbikes with Vypers: Free"
-            ],
-            "points": 200
-          },
-          {
-            "name": "Aspect Warrior Troupe",
-            "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
-            "extraUnits": [
-              "Add one Exarch: 25 points"
-            ],
-            "points": 225
+        {
+          "name": "Black Guardian War Walker Troupe",
+          "units": "Six War Walkers",
+          "extraUnits": [
+          ],
+          "points": 200
         },
         {
-          "name": "Rangers",
-          "units": "Five Eldar Rangers",
+          "name": "Black Guardian Windriders",
+          "units": "Six Eldar Jetbikes",
           "extraUnits": [
-            "Add one Eldar Rangers unit: 25 points"
+            "Replace up to six Eldar Jetbikes with Vypers: Free"
           ],
-          "points": 125
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Ulthwé Line Troupes",
+      "description": "Up to one Ulthwé Line Troupes for each Ulthwé Warhost or Ulthwé Support Warhost taken",
+      "formations": [
+        {
+          "name": "Aspect Warrior Troupe",
+          "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders. The formation may not mix aspects.",
+          "extraUnits": [
+            "Add one Exarch: 25 points"
+          ],
+          "points": 250
         },
         {
           "name": "Engines of Vaul",
@@ -177,11 +174,20 @@
           "points": 175
         },
         {
-          "name": "War Walker Troupe",
-          "units": "Six War Walkers",
+          "name": "Rangers",
+          "units": "Five Eldar Rangers",
           "extraUnits": [
+            "Add one Eldar Rangers unit: 25 points"
           ],
-          "points": 200
+          "points": 125
+        },
+        {
+          "name": "Swords of Vaul",
+          "units": "Five Falcons",
+          "extraUnits": [
+            "Replace up to two Falcons with Firestorms: Free"
+          ],
+          "points": 250
         }
       ]
     },
@@ -212,13 +218,6 @@
           "points": 200
         },
         {
-          "name": "Wraithknights",
-          "units": "Two Wraithknights (may not mix configurations)",
-          "extraUnits": [
-          ],
-          "points": 350
-        },
-        {
           "name": "Revenant Titans",
           "units": "Two Revenant Titans",
           "extraUnits": [
@@ -245,27 +244,12 @@
   ],
   "upgrades": {
     "title": "Ulthwé Upgrades",
-    "description": "Each upgrade may be taken once per formation",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
         "name": "0-1 Seer Council",
-        "description": "Replace one Farseer with an Seer Council",
+        "description": "Replace one Farseer with a Seer Council.",
         "points": "50 points"
-      },
-      {
-        "name": "Support Weapons",
-        "description": "Add three Support Weapon Platforms",
-        "points": "50 points"
-      },
-      {
-        "name": "Wraithguards",
-        "description": "Add two Eldar Wraithguards",
-        "points": "75 points"
-      },
-      {
-        "name": "Wraithlords",
-        "description": "Add up to three Eldar Wraithlords",
-        "points": "50 points each"
       }
     ]
   }

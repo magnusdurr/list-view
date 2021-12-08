@@ -847,7 +847,7 @@
       "name": "AC Bright Lance",
       "modes": [
         {
-          "firepower": "AT5+/AA5+",
+          "firepower": "AT5+/AA6+",
           "range": 30,
           "specialRules": [
             "Lance",
@@ -1588,6 +1588,18 @@
       ]
     },
     {
+      "name": "Ancient Weapons",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Autocannon",
       "modes": [
         {
@@ -1814,10 +1826,7 @@
       "name": "Banshee Mask",
       "modes": [
         {
-          "firepower": "Assault Weapons",
-          "specialRules": [
-            "FS"
-          ]
+          "firepower": "Assault Weapons"
         }
       ]
     },
@@ -3523,13 +3532,38 @@
       ]
     },
     {
+      "name": "Vibro Cannon",
+      "modes": [
+        {
+          "firepower": "2x AP4+/AT6+",
+          "range": 45,
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Support D-Cannon",
       "modes": [
         {
-          "firepower": "MW5+",
+          "firepower": "1BP",
           "range": 30,
           "specialRules": [
+            "MW",
             "Shield Piercer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shadow Weaver",
+      "modes": [
+        {
+          "firepower": "2x AP4+",
+          "range": 45,
+          "specialRules": [
+            "D"
           ]
         }
       ]
@@ -4006,18 +4040,6 @@
       ]
     },
     {
-      "name": "Executioner",
-      "modes": [
-        {
-          "firepower": "Assault Weapons",
-          "specialRules": [
-            "EA(+1)",
-            "FS"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Exorcist Launcher",
       "modes": [
         {
@@ -4110,10 +4132,10 @@
       "name": "Firepike",
       "modes": [
         {
-          "firepower": "Small Arms",
+          "firepower": "MW3+",
+          "range": 30,
           "specialRules": [
-            "EA(+1)",
-            "MW"
+            "IC"
           ]
         }
       ]
@@ -4400,8 +4422,11 @@
       "name": "Fusion Guns",
       "modes": [
         {
-          "firepower": "MW5+",
-          "range": 15
+          "firepower": "MW4+",
+          "range": 15,
+          "specialRules": [
+            "IC"
+          ]
         },
         {
           "firepower": "Small Arms",
@@ -8998,13 +9023,11 @@
       ]
     },
     {
-      "name": "Reaper Missile Launchers",
+      "name": "Reaper Launcher",
       "modes": [
         {
-          "firepower": "2x AP5+",
-          "range": 45,
-          "specialRules": [
-          ]
+          "firepower": "AP3+/AT6+",
+          "range": 60
         }
       ]
     },
@@ -11765,7 +11788,7 @@
       ]
     },
     {
-      "name": "Vibro Cannon",
+      "name": "Titan Vibro Cannon",
       "modes": [
         {
           "firepower": "5x AT2+",

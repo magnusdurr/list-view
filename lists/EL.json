@@ -42,13 +42,18 @@
         "name": "Eldar Autarch",
         "type": "CH",
         "weapons": [
-          "Eldar Power Weapon",
-          "Autarch Ranged Weapon"
+          "Eldar Power Weapon"
         ],
         "specialRules": [
           "Supreme Commander",
-          "Invulnerable Save",
-          "Inspiring"
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Court of the Young King",
+        "type": "CH",
+        "weapons": [
+          "Ancient Weapons"
         ]
       },
       {
@@ -115,13 +120,16 @@
         "name": "Eldar Exarch",
         "type": "CH",
         "weapons": [
-          "Exarch Ranged Weapon",
-          "Exarch Close Combat Weapon"
+          "Exarch Ranged Weapon|0-1",
+          "Exarch Close Combat Weapon|0-1",
+          "Firepike|0-1",
+          "Reaper Launcher|0-1",
+          "Starlance|0-1"
         ],
         "specialRules": [
           "Inspiring"
         ],
-        "notes": "Exarchs 'Extra Attacks' gain any special rules that the Aspect Warriors they are attached to have."
+        "notes": "Dire Avengers, Swooping Hawks and Warp Spiders have an Exarch Ranged Weapon. Howling Banshees and Striking Scorpions have an Exarch Close Combat Weapon. Dark Reapers have a Reaper Launcher, Fire Dragons have a Firepike and Shining Spears have a Starlance."
       },
       {
         "name": "Mounted Farseer",
@@ -191,10 +199,10 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Support D-Cannon"
+          "Vibro Cannon|0-1",
+          "Support D-Cannon|0-1"
         ],
-        "specialRules": [
-        ]
+        "notes": "Armed with either a Vibro Cannon or a Support D-Cannon"
       },
       {
         "name": "Eldar Rangers",
@@ -306,13 +314,11 @@
         "name": "Fire Dragons",
         "type": "INF",
         "speed": 15,
-        "armour": 4,
+        "armour": 5,
         "cc": 5,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Fusion Guns"
-        ],
-        "specialRules": [
         ]
       },
       {
@@ -320,12 +326,10 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 6,
-        "ff": 3,
+        "cc": 5,
+        "ff": 4,
         "weapons": [
-          "Reaper Missile Launchers"
-        ],
-        "specialRules": [
+          "Reaper Launcher"
         ]
       },
       {
@@ -355,6 +359,7 @@
           "Shuriken Pistols"
         ],
         "specialRules": [
+          "First Strike",
           "Infiltrators"
         ]
       },
@@ -606,7 +611,7 @@
           "Skimmer",
           "Transport"
         ],
-        "notes": "May carry up to two of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Swooping Hawks. Wraithguards and Wraithblades take two spaces each."
+        "notes": "May carry up to two of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Swooping Hawks, Wraithblades or Wraithguards. Wraithblades and Wraithguards take two spaces each."
       },
       {
         "name": "Falcon",
@@ -623,7 +628,7 @@
           "Skimmer",
           "Transport"
         ],
-        "notes": "May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Swooping Hawks."
+        "notes": "May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers or Swooping Hawks."
       },
       {
         "name": "Fire Prism",
@@ -681,7 +686,7 @@
           "Skimmer",
           "Transport"
         ],
-        "notes": "May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Swooping Hawks."
+        "notes": "May carry up to one of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers or Swooping Hawks."
       },
       {
         "name": "Lynx",
@@ -711,12 +716,13 @@
         "ff": 5,
         "weapons": [
           "Twin Pulsar",
-          "Shuriken Cannon"
+          "Shuriken Cannon",
+          "Scatter Laser|2"
         ],
         "specialRules": [
           "Damage Capacity: 3",
           "Reinforced Armour",
-          "Holofield (5+)",
+          "Holofield (4+)",
           "Skimmer"
         ],
         "crit": "The Scorpion is destroyed. Any units within 5cm take a hit on 6+."
@@ -736,7 +742,7 @@
         "specialRules": [
           "Damage Capacity: 3",
           "Reinforced Armour",
-          "Holofield (5+)",
+          "Holofield (4+)",
           "Skimmer"
         ],
         "crit": "The Cobra is destroyed. Any units within 5cm take a hit on 6+."
@@ -755,7 +761,7 @@
         "specialRules": [
           "Damage Capacity: 3",
           "Reinforced Armour",
-          "Holofield (5+)",
+          "Holofield (4+)",
           "Webway Portal",
           "Skimmer"
         ],
@@ -924,7 +930,7 @@
           "Titan Pulsar",
           "Dire Pulsar",
           "Star Pulsar",
-          "Vibro Cannon",
+          "Titan Vibro Cannon",
           "Titan D-Cannon",
           "Eldar Titan Power Fist|0-1|",
           "Ashuna-Valcry'le|0-1|",
