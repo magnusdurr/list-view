@@ -112,7 +112,7 @@
             "Seer Council",
             "Replace up to three Eldar Guardians with an equal number of Eldar Heavy Weapon Platform units: Free",
             "Replace any number of Wave Serpents with two Falcons each: 50 points each",
-            "Replace one Wave Serpent with two Firestorms: 50 points"
+            "Replace one Wave Serpent with two Firestorms: 75 points"
           ],
           "points": 325
         }
@@ -124,10 +124,11 @@
       "formations": [
         {
           "name": "Black Guardian War Walker Troupe",
-          "units": "Six War Walkers",
+          "units": "Five War Walkers",
           "extraUnits": [
+              "Add one War Walker: 25 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Black Guardian Windriders",
@@ -135,7 +136,7 @@
           "extraUnits": [
             "Replace up to six Eldar Jetbikes with Vypers: Free"
           ],
-          "points": 225
+          "points": 200
         }
       ]
     },
@@ -149,7 +150,7 @@
           "extraUnits": [
             "Add one Exarch: 25 points"
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Engines of Vaul",
@@ -216,6 +217,13 @@
           "extraUnits": [
           ],
           "points": 200
+        },
+        {
+          "name": "Wraithknights",
+          "units": "Two Wraithknights (may not mix configurations)",
+          "extraUnits": [
+          ],
+          "points": 300
         },
         {
           "name": "Revenant Titans",
