@@ -214,7 +214,7 @@
     {
       "title": "Act of Faith",
       "description": [
-        "When successfully performing an Engage action, units that have the 'Faithful' special rule gain Fearless. This effect last until the end of the current turn."
+        "When successfully performing an Engage action, units that have the 'Faithful' special rule gain Fearless. This effect last until the end of the current turn. In addition, formations where at least one model have gained Fearless in this way ignores the -1 modifier for enemy formations within 30cm when rallying."
       ]
     },
     {
@@ -376,6 +376,7 @@
       "description": [
         "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
         "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only INF, LV, or AVs with the Walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise.",
+        "Each time a formation uses a broken Portal it receives one Blast Marker.",
         "If a Webway is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
       ]
     },
