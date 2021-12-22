@@ -89,6 +89,7 @@
     },
     {
       "name": "Biel-Tan Warhosts",
+      "description": "Up to one Guardian Warhost may be taken for each Aspect or Mounted Aspect Warhost",
       "formations": [
         {
           "name": "Mounted Aspect Warrior Warhost",
@@ -126,24 +127,23 @@
     },
     {
       "name": "Biel-Tan Troupes",
-      "description": "Up to two Biel-Tan Troupes may be taken for each Biel-Tan Warhost",
+      "description": "Up to three Biel-Tan Troupes may be taken for each Biel-Tan Warhost",
       "formations": [
-        {
-          "name": "Rangers",
-          "units": "Five Eldar Rangers",
-          "extraUnits": [
-            "Add one Eldar Rangers: 25 points"
-          ],
-          "points": 125
-        },
-        {
-          "name": "War Walker Troupe",
-          "units": "Five War Walkers",
-          "extraUnits": [
-              "Add one War Walker: 25 points"
-          ],
-          "points": 175
-        },
+          {
+            "name": "Rangers",
+            "units": "Four Eldar Rangers",
+            "extraUnits": [
+            ],
+            "points": 100
+          },
+          {
+            "name": "War Walker Troupe",
+            "units": "Four War Walkers",
+            "extraUnits": [
+                "Add up to two War Walkers: 25 points each"
+            ],
+            "points": 150
+          },
         {
           "name": "Wind Rider Troupe ",
           "units": "Six Jetbike units",
@@ -242,9 +242,9 @@
           "name": "0-1 Spacecraft",
           "units": "One Wraithship",
           "extraUnits": [
-            "Replace with a Dragonship: 125 Points"
+            "Replace with a Dragonship: 150 Points"
           ],
-          "points": 175
+          "points": 150
         }
       ]
     }

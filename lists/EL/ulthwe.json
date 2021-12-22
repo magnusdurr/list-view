@@ -46,6 +46,7 @@
         "Fire Prism",
         "Night Spinner",
         "Firestorm",
+        "Wraithknight",
         "Scorpion",
         "Cobra",
         "Storm Serpent",
@@ -119,31 +120,25 @@
       ]
     },
     {
-      "name": "Ulthwé Support Warhosts",
-      "description": "Up to one Ulthwé Support Warhosts for each Ulthwé Warhost taken",
-      "formations": [
-        {
-          "name": "Black Guardian War Walker Troupe",
-          "units": "Five War Walkers",
-          "extraUnits": [
-              "Add one War Walker: 25 points"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Black Guardian Windriders",
-          "units": "Six Eldar Jetbikes",
-          "extraUnits": [
-            "Replace up to six Eldar Jetbikes with Vypers: Free"
-          ],
-          "points": 200
-        }
-      ]
-    },
-    {
       "name": "Ulthwé Line Troupes",
-      "description": "Up to one Ulthwé Line Troupes for each Ulthwé Warhost or Ulthwé Support Warhost taken",
+      "description": "Up to two Ulthwé Line Troupes for each Ulthwé Warhost",
       "formations": [
+          {
+            "name": "War Walkers",
+            "units": "Four War Walkers",
+            "extraUnits": [
+                "Add up to two War Walkers: 25 points each"
+            ],
+            "points": 150
+          },
+          {
+            "name": "Windriders",
+            "units": "Six Eldar Jetbikes",
+            "extraUnits": [
+              "Replace up to six Eldar Jetbikes with Vypers: Free"
+            ],
+            "points": 200
+        },
         {
           "name": "Aspect Warrior Troupe",
           "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders. The formation may not mix aspects.",
@@ -176,12 +171,12 @@
         },
         {
           "name": "Rangers",
-          "units": "Five Eldar Rangers",
+          "units": "Four Eldar Rangers",
           "extraUnits": [
-            "Add one Eldar Rangers unit: 25 points"
           ],
-          "points": 125
+          "points": 100
         },
+
         {
           "name": "Swords of Vaul",
           "units": "Five Falcons",
@@ -243,9 +238,9 @@
           "name": "0-1 Spacecraft",
           "units": "One Wraithship",
           "extraUnits": [
-            "Replace with a Dragonship: 125 Points"
+            "Replace with a Dragonship: 150 Points"
           ],
-          "points": 175
+          "points": 150
         }
       ]
     }
