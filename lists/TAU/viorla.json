@@ -9,9 +9,6 @@
   "specialRules": [
     "Tiger Shark Gun Drones"
   ],
-  "usage": [
-    "The following army list allows you to field an army based on the Vior'la Military world of the Tau Empire"
-  ],
   "units": [
     {
       "from": "TAU.json",
@@ -174,6 +171,11 @@
     "title": "Upgrades",
     "description": "Each upgrade may be taken once by a formation",
     "items": [
+      {
+        "name": "Broadsides",
+        "description": "Add three XV88 Broadside Battlesuits",
+        "points": "125 points"
+      },
       {
         "name": "Commander",
         "description": "Add any one of the following characters to any unit in the formation:",
