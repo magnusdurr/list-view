@@ -11,9 +11,6 @@
     "Space Marine Transports",
     "They Shall Know No Fear"
   ],
-  "usage": [
-    "The following army list allows you to field an army of Space Marines from the Blood Angels Chapter."
-  ],
   "units": [
     {
       "from": "SM.json",
@@ -24,12 +21,10 @@
         "Supreme Commander",
         "Assaults",
         "Death Company Marines",
-        "Death Company Assaults",
         "Devastators",
         "Sanguinary Guards",
         "Scouts",
         "Tacticals",
-        "Death Company Rhino",
         "Death Company Dreadnought",
         "Assault Terminators",
         "Assault Bikes",
@@ -38,27 +33,26 @@
         "Land Speeder Typhoon",
         "Melta Bike",
         "Attack Bike",
-        "Blood Angels Dreadnought",
         "Dreadnought, Furioso",
-        "Blood Angels Razorback",
-        "Blood Angels Hunter",
-        "Blood Angels Stalker",
-        "Blood Angels Whirlwind",
+        "Dreadnought",
+        "Hunter",
+        "Razorback",
+        "Rhino",
+        "Stalker",
         "Land Raider",
         "Land Raider Redeemer",
         "Baal Predator Hades",
         "Baal Predator Infernus",
-        "Blood Angels Rhino",
         "Storm Talon",
-        "Storm Raven",
+        "Stormraven",
         "Landing Craft",
         "Battle Barge",
         "Strike Cruiser",
+        "Vanguard Class Light Cruiser",
         "Drop Pod"
       ],
       "unitRules": [
-          "Honour Guard",
-          "Lucifer Pattern Engine"
+        "Honour Guard"
       ]
     },
     {
@@ -78,9 +72,9 @@
       "formations": [
         {
           "name": "1 Death Company",
-          "units": "One Chaplain, four Death Company Marines plus transport (Death Company Rhinos, Drop Pods or on foot)",
+          "units": "One Chaplain, four Death Company Marines plus transport (Drop Pods or on foot only)",
           "extraUnits": [
-            "Replace four Death Company Marines plus transport with four Death Company Assaults: Free",
+            "Add two Death Company Marines: 75 points",
             "Add up to two Death Company Dreadnoughts: 75 points each"
           ],
           "points": 250
@@ -90,9 +84,10 @@
           "units": "Six Assaults",
           "extraUnits": [
             "Commander",
-            "Dreadnoughts",
+            "Dreadnought replacements",
+            "Honor Guards",
             "Predators",
-            "Supreme Commander"
+            "Stormraven Transports"
           ],
           "points": 250
         },
@@ -102,31 +97,32 @@
           "extraUnits": [
             "Anti-Air",
             "Commander",
-            "Dreadnoughts",
+            "Dreadnought replacements",
+            "Honor Guards",
             "Land Raider Transport",
             "Predators",
             "Razorbacks",
-            "Supreme Commander"
+            "Stormraven Transports"
           ],
           "points": 275
-      },
-      {
-        "name": "Assault Terminators",
-        "units": "Four Assault Terminators",
-        "extraUnits": [
-          "Commander",
-          "Dreadnoughts",
-          "Land Raider Transport"
-        ],
-        "points": 325
-      }
+        },
+        {
+          "name": "Assault Terminators",
+          "units": "Four Assault Terminators",
+          "extraUnits": [
+            "Commander",
+            "Dreadnoughts",
+            "Land Raider Transport",
+            "Stormraven Transports"
+          ],
+          "points": 325
+        }
       ]
     },
     {
       "name": "Blood Angels Support Detachments",
       "description": "Up to two Support Detachments may be taken per Core Detachment.",
       "formations": [
-
         {
           "name": "Baal Predators",
           "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
@@ -153,7 +149,8 @@
             "Dreadnoughts",
             "Land Raider Transport",
             "Predators",
-            "Razorbacks"
+            "Razorbacks",
+            "Stormraven Transports"
           ],
           "points": 250
         },
@@ -166,6 +163,19 @@
           "points": 200
         },
         {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 350
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Vanguard Class Light Cruiser",
+          "extraUnits": [
+            "Replace the Vanguard Class Light Cruiser with a Strike Cruiser: 50 points, or a Battle Barge: 125 points"
+          ],
+          "points": 150
+        },
+        {
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "extraUnits": [
@@ -173,39 +183,13 @@
             "Snipers"
           ],
           "points": 150
-        },
-        {
-          "name": "Whirlwinds",
-          "units": "Four Blood Angels Whirlwinds",
-          "extraUnits": [
-            "Anti-Air"
-          ],
-          "points": 275
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "extraUnits": [
-            "Battle Barge"
-          ],
-          "points": 200
-      },
-      {
-        "name": "Landing Craft",
-        "units": "One Landing Craft",
-        "points": 350
-      }
+        }
       ]
     },
     {
       "name": "Blood Angels Aircraft & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
-        {
-          "name": "Storm Ravens",
-          "units": "Two Storm Ravens",
-          "points": 200
-        },
         {
           "name": "Storm Talons",
           "units": "Two Storm Talons",
@@ -261,13 +245,27 @@
           {
             "description": "Chaplain",
             "points": "50 points"
+          },
+          {
+            "description": "0–1 Supreme Commander",
+            "points": "75 points"
           }
         ]
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Blood Angels Dreadnoughts or Furioso Dreadnoughts",
+        "description": "Add up to two Dreadnoughts or Furioso Dreadnoughts to the formation",
         "points": "50 points each"
+      },
+      {
+        "name": "Dreadnought replacements",
+        "description": "Replace up to two Assaults or Tacticals with a Dreadnought or Furioso Dreadnought",
+        "points": "25 points each"
+      },
+      {
+        "name": "Honor Guards",
+        "description": "In a formation containing a Supreme Commander character: replace up to two Assaults or Tacticals with Sanguinary Guards",
+        "points": "25 points each"
       },
       {
         "name": "Land Raider Transport",
@@ -281,7 +279,7 @@
       },
       {
         "name": "Razorbacks",
-        "description": "Add any number of Blood Angels Razorbacks, up to the number required to transport the formation",
+        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
         "points": "25 points each"
       },
       {
@@ -290,9 +288,9 @@
         "points": "25 points"
       },
       {
-        "name": "Supreme Commander (0–1 in the army)",
-        "description": "Replace two Assaults or Tacticals with Sanguinary Guards, one with a Supreme Commander character.",
-        "points": "125 points"
+        "name": "Stormraven Transports",
+        "description": "Add any number of Stormravens, up to the number required to transport the formation",
+        "points": "50 points each"
       },
       {
         "name": "Typhoons",

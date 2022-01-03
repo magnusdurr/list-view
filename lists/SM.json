@@ -2,7 +2,6 @@
   {
     "name": "Space Marine Forces",
     "specialRules": [
-
     ],
     "unit": [
       {
@@ -343,31 +342,16 @@
         "speed": "15cm",
         "armour": 4,
         "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Bolters",
-          "Chainswords"
-        ],
-        "specialRules": [
-          "Fearless", "Infiltrators"
-        ],
-        "notes": "Counts as Tacticals for being transported."
-      },
-      {
-        "name": "Death Company Assaults",
-        "type": "INF",
-        "speed": "30cm",
-        "armour": 4,
-        "cc": 3,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
           "Bolters",
           "Chainswords"
         ],
         "specialRules": [
           "Fearless",
-          "Jump Packs"
-        ]
+          "Infiltrators"
+        ],
+        "notes": "Counts as Tacticals for the purposes of being transported."
       },
       {
         "name": "Devastators",
@@ -599,7 +583,7 @@
         "cc": 2,
         "ff": 5,
         "weapons": [
-            "Storm Bolters",
+          "Storm Bolters",
           "Thunder Hammer and Storm Shield"
         ],
         "specialRules": [
@@ -617,7 +601,7 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-            "Storm Bolters",
+          "Storm Bolters",
           "Thunder Hammer and Storm Shield"
         ],
         "specialRules": [
@@ -732,7 +716,7 @@
         "specialRules": [
           "Reinforced Armour"
         ],
-        "notes": "Counts as Terminators for being transported."
+        "notes": "Counts as Terminators for the purposes of being transported."
       },
       {
         "name": "Devastator Centurions",
@@ -749,7 +733,7 @@
         "specialRules": [
           "Reinforced Armour"
         ],
-        "notes": "Counts as Terminators for being transported."
+        "notes": "Counts as Terminators for the purposes of being transported."
       },
       {
         "name": "Sanguinary Guards",
@@ -765,7 +749,8 @@
         "specialRules": [
           "Honour Guard",
           "Jump Packs"
-        ]
+        ],
+        "notes": "Counts as Assaults for the purposes of being transported."
       },
       {
         "name": "Sternguard Veterans",
@@ -1209,22 +1194,6 @@
         ]
       },
       {
-        "name": "Blood Angels Dreadnought",
-        "type": "AV",
-        "speed": 15,
-        "armour": 3,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Assault Cannon",
-          "Power Fist"
-        ],
-        "specialRules": [
-          "Walker",
-                    "Lucifer Pattern Engine"
-        ]
-      },
-      {
         "name": "Librarian Dreadnought",
         "type": "AV",
         "speed": 15,
@@ -1297,7 +1266,7 @@
         ],
         "specialRules": [
           "Fearless",
-          "Lucifer Pattern Engine",
+          "Infiltrators",
           "Walker"
         ],
         "notes": "Counts as a Dreadnought for the purposes of being transported."
@@ -1345,8 +1314,7 @@
           "Frag Cannon"
         ],
         "specialRules": [
-          "Walker",
-          "Lucifer Pattern Engine"
+          "Walker"
         ],
         "notes": "Counts as a Dreadnought for the purposes of being transported."
       },
@@ -1451,9 +1419,6 @@
         "weapons": [
           "Twin Assault Cannon",
           "Multi-Melta|2"
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine"
         ]
       },
       {
@@ -1466,9 +1431,6 @@
         "weapons": [
           "Flamestorm Cannon ",
           "Heavy Flamer|2"
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine"
         ]
       },
       {
@@ -1511,39 +1473,6 @@
           }
         ],
         "specialRules": [
-          "Transport"
-        ],
-        "notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannon or Twin Heavy Bolter. Razorbacks armed with Twin Heavy Bolter have their firefight value increased to 4+."
-      },
-      {
-        "name": "Blood Angels Razorback",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": "5+/4",
-        "weapons": [
-          {
-            "name": "0-1 Twin Lascannon",
-            "modes": [
-              {
-                "firepower": "AT4+",
-                "range": 45
-              }
-            ]
-          },
-          {
-            "name": "0-1 Twin Heavy Bolter",
-            "modes": [
-              {
-                "firepower": "AP4+",
-                "range": 30
-              }
-            ]
-          }
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine",
           "Transport"
         ],
         "notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannon or Twin Heavy Bolter. Razorbacks armed with Twin Heavy Bolter have their firefight value increased to 4+."
@@ -1628,39 +1557,6 @@
         "notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted."
       },
       {
-        "name": "Blood Angels Rhino",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 6,
-        "weapons": [
-          "Storm Bolter"
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine",
-          "Transport"
-        ],
-        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
-      },
-      {
-        "name": "Death Company Rhino",
-        "type": "AV",
-        "speed": 15,
-        "armour": 5,
-        "cc": 6,
-        "ff": 6,
-        "weapons": [
-          "Storm Bolter"
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine",
-          "Fearless",
-          "Transport"
-        ],
-        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
-      },
-      {
         "name": "Grey Knights Rhino",
         "type": "AV",
         "speed": 30,
@@ -1689,20 +1585,6 @@
         ]
       },
       {
-        "name": "Blood Angels Hunter",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 6,
-        "weapons": [
-          "Hunter-Killer"
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine"
-        ]
-      },
-      {
         "name": "Stalker",
         "type": "AV",
         "speed": 30,
@@ -1713,20 +1595,6 @@
           "Icarus Stormcannons"
         ],
         "specialRules": [
-        ]
-      },
-      {
-        "name": "Blood Angels Stalker",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Icarus Stormcannons"
-        ],
-        "specialRules": [
-          "Lucifer Pattern Engine"
         ]
       },
       {
@@ -1764,20 +1632,6 @@
         "weapons": [
           "Whirlwind Launcher"
         ]
-      },
-      {
-        "name": "Blood Angels Whirlwind",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Whirlwind Launcher"
-      ],
-      "specialRules": [
-        "Lucifer Pattern Engine"
-      ]
       },
       {
         "name": "White Scars Vindicator",
@@ -2061,7 +1915,7 @@
           "Thunderfire Cannon|0-2|"
         ],
         "specialRules": [
-            "Damage Capacity: 4",
+          "Damage Capacity: 4",
           "Fearless",
           "Reinforced Armour",
           "Thick Rear Armour"
@@ -2167,7 +2021,7 @@
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Landing Craft for being transported.",
+        "notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Landing Craft for the purposes of being transported.",
         "crit": "The Stormwolf and all units being carried are destroyed."
       },
       {
@@ -2220,24 +2074,24 @@
         ]
       },
       {
-        "name": "Storm Raven",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
+        "name": "Stormraven",
+        "type": "AV",
+        "speed": 35,
+        "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "AC Twin Assault Cannon||FxF",
-          "AC Twin Heavy Bolter||FxF",
+          "Twin Assault Cannon",
+          "Bloodstrike Missiles",
           "Hurricane Bolters"
         ],
         "specialRules": [
-          "Damage Capacity: 1",
           "Reinforced Armour",
+          "Skimmer",
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport three infantry units without Mounted; Terminators counts as 1.5 units each. May in addition transport one Dreadnought. Counts as a Landing Craft for the purpose of being transported."
+        "notes": "May transport one Terminator or two infantry units without Mounted. May in addition transport one Dreadnought. Counts as a Landing Craft for the purpose of being transported."
       },
       {
         "name": "Corvus Blackstar Dropship",
@@ -2540,7 +2394,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport ten infantry units, Attack Bikes, or Dreadnoughts; plus five light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus three Thunderhawks and enough Drop Pods or Landing Craft to transport any other units being carried."
+        "notes": "May transport 10 infantry units, Attack Bikes, or Dreadnoughts; plus five light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus three Thunderhawks and enough Drop Pods or Landing Craft to transport any other units being carried."
       },
       {
         "name": "Strike Cruiser",
