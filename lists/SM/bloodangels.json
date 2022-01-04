@@ -2,7 +2,7 @@
   "fraction": "Space Marines",
   "army": "Blood Angels",
   "version": "1.0.Beta",
-  "release": "2021-02-15",
+  "release": "2022-01-04",
   "intro": "The following army list allows you to field an army based on the Blood Angels Space Marine chapter. The Blood Angels are well-known across the galaxy for their bloodthirsty nature in battle, and feared for the curse of flawed gene-seed they carry.",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
@@ -81,15 +81,16 @@
         },
         {
           "name": "Assaults",
-          "units": "Six Assaults",
+          "units": "Four Assaults",
           "extraUnits": [
+            "Assaults",
             "Commander",
-            "Dreadnought replacements",
+            "Dreadnoughts",
             "Honor Guards",
             "Predators",
             "Stormraven Transports"
           ],
-          "points": 250
+          "points": 175
         },
         {
           "name": "Tacticals",
@@ -97,7 +98,7 @@
           "extraUnits": [
             "Anti-Air",
             "Commander",
-            "Dreadnought replacements",
+            "Dreadnoughts",
             "Honor Guards",
             "Land Raider Transport",
             "Predators",
@@ -112,8 +113,7 @@
           "extraUnits": [
             "Commander",
             "Dreadnoughts",
-            "Land Raider Transport",
-            "Stormraven Transports"
+            "Replace one Assault Terminator with three Stormravens or three Land Raiders: 100 points, or add two Land Raider Redeemers: 100 points"
           ],
           "points": 325
         }
@@ -225,6 +225,11 @@
         ]
       },
       {
+        "name": "Assaults",
+        "description": "Add two Assaults to the formation",
+        "points": "75 points"
+      },
+      {
         "name": "Attack Bikes",
         "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes or Melta Bikes",
         "points": "Free"
@@ -256,11 +261,6 @@
         "name": "Dreadnoughts",
         "description": "Add up to two Dreadnoughts or Furioso Dreadnoughts to the formation",
         "points": "50 points each"
-      },
-      {
-        "name": "Dreadnought replacements",
-        "description": "Replace up to two Assaults or Tacticals with a Dreadnought or Furioso Dreadnought",
-        "points": "25 points each"
       },
       {
         "name": "Honor Guards",
