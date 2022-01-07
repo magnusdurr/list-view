@@ -4493,7 +4493,7 @@
       "name": "Necron Warscythes",
       "modes": [
         {
-          "firepower": "AP5+/AT6+",
+          "firepower": "AP5+/AT5+",
           "range": 30,
           "specialRules": [
           ]
@@ -4502,7 +4502,8 @@
           "firepower": "Assault Weapons",
           "join": "and",
           "specialRules": [
-            "MW"
+            "TK(1)"
+
           ]
         }
       ]

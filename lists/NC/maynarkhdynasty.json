@@ -78,8 +78,8 @@
           "extraUnits": [
             "Overlord",
             "Canoptek Wraiths",
-            "Add one Canoptek Spyder: 50 points",
-            "Add one Pariahs: 50 points",
+            "Canoptek Spyder",
+            "Replace two Necron Warriors with two Pariahs: 25 points",
             "Replace three Necron Warriors with three Immortals: 50 points"
 
           ],
@@ -92,18 +92,12 @@
       "description": "Up to one for each Necron Phalanx",
       "formations": [
         {
-          "name": "Monolith Phalanx",
-          "units": "Four Monoliths",
+          "name": "Portal Phalanx",
+          "units": "One Monolith, two Obelisks",
           "extraUnits": [
+              "Replace up to two Obelisks with Monoliths: 25 points each"
           ],
-          "points": 300
-        },
-        {
-          "name": "Monolith Maniple",
-          "units": "One Monolith, three Obelisks",
-          "extraUnits": [
-          ],
-          "points": 225
+          "points": 200
         }
       ]
     },
@@ -113,17 +107,17 @@
       "formations": [
           {
             "name": "1+ The Unbidden",
-            "units": "Seven Flayed Ones",
+            "units": "Six Flayed Ones",
             "extraUnits": [
             ],
-            "points": 225
+            "points": 200
         },
         {
           "name": "Obelisk Phalanx",
-          "units": "Seven Obelisks",
+          "units": "Five Obelisks",
           "extraUnits": [
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Destroyer Phalanx",
@@ -131,6 +125,7 @@
           "extraUnits": [
             "Overlord",
             "Canoptek Wraiths",
+            "Canoptek Spyder",
             "Replace one Destroyer with a Necron Destroyer Lord: 25 points"
 
           ],
@@ -177,7 +172,7 @@
           "units": "One Cairn Class Tomb Ship",
           "upgrades": [
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Doom Scythes",
