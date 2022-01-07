@@ -28,26 +28,22 @@
         "Heavy Destroyers",
         "Flayed Ones",
         "Immortals",
+        "Pariahs",
         "Necron Warriors",
-        "Cryptek",
-        "Wraiths",
+        "Canoptek Swarm",
+        "Canoptek Wraiths",
         "Monolith",
         "Obelisk",
-        "Tomb Spyder",
+        "Canoptek Spyder",
         "Abattoir",
         "Æonic Orb",
         "Pylon",
-        "Megalith",
-        "C’tan Shard",
-        "Seraptek Heavy Construct",
-        "Triarch Stalker"
+        "Megalith"
       ],
       "unitRules": [
-        "Heavy Armoured Vehicle (H-AV)",
-        "Shield Piercer",
         "Regeneration",
         "Machine Spirit",
-        "Ponderous",
+        "Harvester",
         "Enduring"
       ]
     },
@@ -81,10 +77,11 @@
           "units": "Six Necron Warriors and one Necron Lord",
           "extraUnits": [
             "Overlord",
-            "C'tan Shard",
-            "Add up to three Tomb Spyders: 50 points each",
-            "Add up to two Wraiths: 25 points each",
+            "Canoptek Wraiths",
+            "Add one Canoptek Spyder: 50 points",
+            "Add one Pariahs: 50 points",
             "Add three Immortals: 75 points"
+
           ],
           "points": 250
         }
@@ -118,29 +115,28 @@
       "formations": [
           {
             "name": "1+ The Unbidden",
-            "units": "Six Flayed Ones",
+            "units": "Five Flayed Ones",
             "extraUnits": [
             ],
-            "points": 200
+            "points": 175
         },
         {
           "name": "Obelisk Phalanx",
-          "units": "Six Obelisks",
+          "units": "Five Obelisks",
           "extraUnits": [
           ],
-          "points": 275
+          "points": 225
         },
         {
           "name": "Destroyer Phalanx",
-          "units": "Any six of the following units: Destroyers, Heavy Destroyers",
+          "units": "Any five of the following units: Destroyers, Heavy Destroyers",
           "extraUnits": [
             "Overlord",
-            "C'tan Shard",
-            "Replace one Destroyer with a Necron Destroyer Lord: 25 points",
-            "Add up to three Tomb Spyders: 50 points each",
-            "Replace up to three Destroyers with Wraiths: Free"
+            "Canoptek Wraiths",
+            "Replace one Destroyer with a Necron Destroyer Lord: 25 points"
+
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Tomb Guardian",
@@ -150,10 +146,10 @@
           "points": 175
         },
         {
-          "name": "Stalker Maniple",
-          "units": "Four Triarch Stalkers",
+          "name": "Canoptek Swarm",
+          "units": "One Canoptek Spyder, four Canoptek Scarabs",
           "extraUnits": [
-            "Replace up to two Triarch Stalkers with Seraptek Heavy Constructs: 75 points each"
+            "Canoptek Wraiths",
           ],
           "points": 175
         }
@@ -210,11 +206,11 @@
         "name": "0-1 Overlord",
         "description": "Either replace one Necron Lord with a Necron Overlord, or replace a Necron Destroyer Lord with a Necron Destroyer Overlord",
         "points": "75 points"
-      },
+      }
       {
-        "name": "0-1 C'tan Shard",
-        "description": "Add one C'tan Shard to the formation",
-        "points": "75 points"
+        "name": "Canoptec Wraiths",
+        "description": "Add up to two Canoptek Wraiths",
+        "points": "25 points each"
       }
     ]
   }

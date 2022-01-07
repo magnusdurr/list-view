@@ -18,7 +18,8 @@
           "Supreme Commander",
           "Fearless",
           "Inspiring",
-          "Regeneration"
+          "Regeneration",
+          "Enduring"
         ]
       },
       {
@@ -37,7 +38,8 @@
           "Inspiring",
           "Regeneration",
           "Mounted",
-          "Skimmer"
+          "Skimmer",
+          "Enduring"
         ]
       },
       {
@@ -78,8 +80,8 @@
         "name": "Necron Warriors",
         "type": "INF",
         "speed": 15,
-        "armour": 5,
-        "cc": 6,
+        "armour": 4,
+        "cc": 5,
         "ff": 4,
         "weapons": [
           "Gauss Flayers"
@@ -94,7 +96,7 @@
         "name": "Flayed Ones",
         "type": "INF",
         "speed": 15,
-        "armour": 5,
+        "armour": 4,
         "cc": 3,
         "weapons": [
           "Claws"
@@ -110,8 +112,8 @@
         "name": "Immortals",
         "type": "INF",
         "speed": 15,
-        "armour": 5,
-        "cc": 6,
+        "armour": 4,
+        "cc": 5,
         "ff": 4,
         "weapons": [
           "Gauss Blasters"
@@ -121,28 +123,56 @@
         ]
       },
       {
-        "name": "Tomb Spyder",
+        "name": "Pariahs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Necron Warscythes"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Regeneration"
+        ]
+      },
+      {
+        "name": "Canoptek Spyder",
         "type": "LV",
-        "speed": 20,
+        "speed": 15,
         "armour": 3,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Scarab Swarm",
+          "Particle Beamer",
           "Tomb Spyder Claws"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Regeneration",
+          "Walker",
+          "Leader",
+          "Harvester"
+        ]
+      },
+      {
+        "name": "Canoptek Scarabs",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "weapons": [
+          "Swarm Attack"
         ],
         "specialRules": [
           "Fearless",
           "Machine Spirit",
           "Expendable",
-          "Skimmer",
-          "Leader",
-          "Regeneration",
-          "Walker"
+          "Regeneration"
         ]
       },
       {
-        "name": "Wraiths",
+        "name": "Canoptek Wraiths",
         "type": "INF",
         "speed": 25,
         "armour": 5,
@@ -163,7 +193,7 @@
         "name": "Destroyers",
         "type": "INF",
         "speed": 25,
-        "armour": 5,
+        "armour": 4,
         "cc": 5,
         "ff": 4,
         "weapons": [
@@ -179,7 +209,7 @@
         "name": "Heavy Destroyers",
         "type": "INF",
         "speed": 20,
-        "armour": 5,
+        "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
@@ -256,9 +286,7 @@
           "Portal",
           "Skimmer",
           "Teleport",
-          "Thick Rear Armour",
-          "Ponderous",
-          "Enduring"
+          "Thick Rear Armour"
         ]
       },
       {
@@ -276,9 +304,7 @@
           "Regeneration",
           "Skimmer",
           "Teleport",
-          "Thick Rear Armour",
-          "Ponderous",
-          "Enduring"
+          "Thick Rear Armour"
         ]
       },
       {
@@ -462,9 +488,8 @@
           "Skimmer",
           "Teleport",
           "Thick Rear Armour",
-          "Ponderous",
-          "Enduring",
-          "Transport"
+          "Transport",
+          "Enduring"
         ],
         "notes": "May transport up to two Monoliths or Obelisks",
         "crit": "The Megalith's Portal is destroyed. Subsequent critical hits cause one additional damage."
@@ -484,7 +509,6 @@
           "Regeneration",
           "Support Craft",
           "Thick Rear Armour",
-          "Ponderous",
           "Enduring"
         ],
         "crit": "The Æonic Orb is destroyed. All units within 5cm suffer a hit."
@@ -495,10 +519,10 @@
         "speed": 20,
         "armour": 4,
         "cc": 2,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
-          "Scarab Torrent",
-          "Harvesters"
+          "Gauss Flux Array",
+          "Harvester Tendrils"
         ],
         "specialRules": [
           "Damage Capacity 6",
@@ -507,7 +531,6 @@
           "Portal",
           "Skimmer",
           "Thick Rear Armour",
-          "Ponderous",
           "Enduring"
         ],
         "crit": "The Abattoir's Portal is destroyed. Subsequent critical hits cause one additional damage."

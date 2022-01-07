@@ -1004,13 +1004,13 @@
     {
       "title": "Necron Garrisons",
       "description": [
-        "Only Necron Phalanx, Scarab Swarms, and Tomb Guardian formations may garrison in Epic Tournament scenarios. Necron Phalanx formations may only garrison from a Tomb Complex objective."
+        "Only Necron Phalanx, Canoptek Swarm, and Tomb Guardian formations may garrison in Epic Tournament scenarios. Necron Phalanx formations may only garrison from a Tomb Complex objective."
       ]
     },
     {
       "title": "The Unbidden",
       "description": [
-        "Necron armies must contain at least one 'The Unbidden' formation of Flayed Ones. Flayed Ones may only contest objectives, must start the game in the reserves, and may not use Necron Portals."
+        "Necron armies must contain at least one 'The Unbidden' formation. Flayed Ones may only contest objectives, must start the game in the reserves, and may not use Necron Portals."
       ]
     },
     {
@@ -1022,16 +1022,16 @@
     {
       "title": "Harvester",
       "description": [
-        "Once per action, if a formation with a unit with the Harvester special rule takes damage, it may reroll one failed Regeneration save. During Enganges, one reroll may be made per round."
+        "Once per action by any formation, if a formation with a unit with the Harvester special rule takes damage, it may reroll one failed Regeneration save. During Enganges, one reroll may be made per round."
       ]
     },
     {
       "title": "Necron Portals",
       "description": [
         "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each portal can be used only once per turn for either entering or exiting the battlefield, but not both.",
-        "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves. Formations with teleport that have re-entered the reserves may teleport at the start of the next turn as normal.",
+        "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves.",
         "Any units that are out of coherency at the end of any move is destroyed.",
-        "Each time a formation uses a broken Portal it receives one Blast Marker.",
+        "Each time a formation uses a Portal on a unit that is broken, it receives one Blast Marker.",
         "If a Portal is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
       ]
     },
@@ -1050,7 +1050,7 @@
     {
       "title": "Phase Out",
       "description": [
-        "At the end of each action, if a Necron formation has lost more than half of its starting number of units, it phases out and is removed from the battlefield. It counts as destroyed for victory condition purposes."
+        "At the end of any action by any formation, if a Necron formation has lost more than half of its starting number of units, it phases out and is removed from the battlefield. It counts as destroyed for victory condition purposes."
       ]
     },
     {

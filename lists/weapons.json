@@ -4480,10 +4480,49 @@
       ]
     },
     {
+      "name": "Swarm Attack",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Necron Warscythes",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 30,
+          "specialRules": [
+          ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Particle Beamer",
+      "modes": [
+        {
+          "firepower": "AP5+/AT6+",
+          "range": 30,
+          "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Gauss Blasters",
       "modes": [
         {
-          "firepower": "2x AP5+/AT6+",
+          "firepower": "2x AP5+/AT5+",
           "range": 30,
           "specialRules": [
           ]
@@ -4494,7 +4533,7 @@
       "name": "Gauss Cannons",
       "modes": [
         {
-          "firepower": "AP4+/AT6+",
+          "firepower": "2x AP5+/AT5+",
           "range": 30,
           "specialRules": [
           ]
@@ -4876,7 +4915,7 @@
       ]
     },
     {
-      "name": "Harvesters",
+      "name": "Harvester Tendrils",
       "modes": [
         {
           "firepower": "Assault Weapons",
@@ -5129,7 +5168,7 @@
       "name": "Heavy Gauss Cannons",
       "modes": [
         {
-          "firepower": "AP3+/AT5+",
+          "firepower": "AP5+/AT3+",
           "range": 45,
           "specialRules": [
           ]
@@ -7578,7 +7617,7 @@
           "join": "or",
           "range": 90,
           "specialRules": [
-            "TK(1)"
+            "MW"
           ]
         }
       ]
@@ -9231,13 +9270,12 @@
       ]
     },
     {
-      "name": "Scarab Torrent",
+      "name": "Gauss Torrent",
       "modes": [
         {
           "firepower": "4x AP5+/AT6",
-          "range": 15,
+          "range": 30,
           "specialRules": [
-            "IC"
           ]
         },
         {
