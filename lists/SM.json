@@ -1419,6 +1419,9 @@
         "weapons": [
           "Twin Assault Cannon",
           "Multi-Melta|2"
+      ],
+        "specialRules": [
+          "Lucifer Pattern Engine"
         ]
       },
       {
@@ -1431,7 +1434,10 @@
         "weapons": [
           "Flamestorm Cannon ",
           "Heavy Flamer|2"
-        ]
+        ],
+          "specialRules": [
+            "Lucifer Pattern Engine"
+          ]
       },
       {
         "name": "Deimos Predator Executioner",
@@ -1474,6 +1480,39 @@
         ],
         "specialRules": [
           "Transport"
+        ],
+        "notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannon or Twin Heavy Bolter. Razorbacks armed with Twin Heavy Bolter have their firefight value increased to 4+."
+      },
+      {
+        "name": "Blood Angels Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": "5+/4",
+        "weapons": [
+          {
+            "name": "0-1x Twin Lascannon",
+            "modes": [
+              {
+                "firepower": "AT4+",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "0-1x Twin Heavy Bolter",
+            "modes": [
+              {
+                "firepower": "AP4+",
+                "range": 30
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport",
+          "Lucifer Pattern Engine"
         ],
         "notes": "May transport one infantry unit (except Terminators) without Jump Packs or Mounted. Armed with either Twin Lascannon or Twin Heavy Bolter. Razorbacks armed with Twin Heavy Bolter have their firefight value increased to 4+."
       },
@@ -1521,6 +1560,22 @@
         ],
         "specialRules": [
           "Transport"
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Blood Angels Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Storm Bolter"
+        ],
+        "specialRules": [
+          "Transport",
+          "Lucifer Pattern Engine"
         ],
         "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
@@ -1585,7 +1640,21 @@
         ]
       },
       {
-        "name": "Stalker",
+        "name": "Blood Angels Hunter",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Hunter-Killer"
+      ],
+      "specialRules": [
+          "Lucifer Pattern Engine"
+      ]
+      },
+      {
+        "name": "Blood Angels Stalker",
         "type": "AV",
         "speed": 30,
         "armour": 5,
@@ -1595,6 +1664,7 @@
           "Icarus Stormcannons"
         ],
         "specialRules": [
+            "Lucifer Pattern Engine"
         ]
       },
       {

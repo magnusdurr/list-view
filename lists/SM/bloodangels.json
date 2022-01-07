@@ -9,6 +9,7 @@
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
   "specialRules": [
     "Space Marine Transports",
+    "Blood Angels Rhinos",
     "They Shall Know No Fear"
   ],
   "units": [
@@ -35,10 +36,10 @@
         "Attack Bike",
         "Dreadnought, Furioso",
         "Dreadnought",
-        "Hunter",
-        "Razorback",
-        "Rhino",
-        "Stalker",
+        "Blood Angels Hunter",
+        "Blood Angels Razorback",
+        "Blood Angels Rhino",
+        "Blood Angels Stalker",
         "Land Raider",
         "Land Raider Redeemer",
         "Baal Predator Hades",
@@ -53,7 +54,8 @@
       ],
       "unitRules": [
         "Honour Guard",
-        "Descent of Angels"
+        "Descent of Angels",
+        "Lucifer Pattern Engine"
       ]
     },
     {
@@ -275,7 +277,7 @@
       },
       {
         "name": "Razorbacks",
-        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "description": "Add any number of Blood Angels Razorbacks, up to the number required to transport the formation",
         "points": "25 points each"
       },
       {

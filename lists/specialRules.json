@@ -302,6 +302,18 @@
       ]
     },
     {
+      "title": "Lucifer Pattern Engine",
+      "description": [
+        "Units with the Lucifer Pattern Engine special rule gain an additional 5cm speed when carrying out an Engage action."
+      ]
+    },
+    {
+      "title": "Blood Angels Rhinos",
+      "description": [
+        "Blood Angels formations with 'plus transport' may take Blood Angels Rhinos instead of normal Rhinos."
+      ]
+    },
+    {
       "title": "Pack Hunters",
       "description": [
         "Space Wolves units with the Commander ability extend the range at which they can call other formations to follow them when they make a combined assault from 5cm to 10cm (see 2.1.2)."
@@ -331,7 +343,7 @@
     {
       "title": "Honour Guard",
       "description": [
-        "Units with the <i>Honour Guard</i> special rule are <i>Fearless</i> as long as their formation contains a character with the <i>Supreme Commander</i> special rule."
+        "Units with the Honour Guard special rule are Fearless as long as their formation contains a character with the Supreme Commander special rule. If they are in the same formation, the Supreme Commander may be added to a unit with this special rule."
       ]
     },
     {
@@ -992,7 +1004,7 @@
     {
       "title": "Necron Garrisons",
       "description": [
-        "Only Necron Phalanx and Tomb Guardian formations may garrison in Epic Tournament scenarios. Necron Phalanx formations may only garrison from a Tomb Complex objective."
+        "Only Necron Phalanx, Scarab Swarms, and Tomb Guardian formations may garrison in Epic Tournament scenarios. Necron Phalanx formations may only garrison from a Tomb Complex objective."
       ]
     },
     {
@@ -1005,6 +1017,12 @@
       "title": "Regeneration",
       "description": [
         "Regeneration functions exactly like an Invulnerable Save except that it is a 5+ save rather than 6+. Against Titan Killer attacks, WE and H-AV must make one Invulnerable Save against each point of damage."
+      ]
+    },
+    {
+      "title": "Harvester",
+      "description": [
+        "Once per action, if a formation with a unit with the Harvester special rule takes damage, it may reroll one failed Regeneration save. During Enganges, one reroll may be made per round."
       ]
     },
     {
@@ -1032,13 +1050,13 @@
     {
       "title": "Phase Out",
       "description": [
-        "At the beginning of each turn's End Phase, before rallying, remove all broken Necron formations (except formations where at least one unit has 'Enduring') from the board into the reserves. Formations that fail to rally in the End Phase must remain in the reserves until the next turn's End Phase."
+        "At the end of each action, if a Necron formation has lost more than half of its starting number of units, it phases out and is removed from the battlefield. It counts as destroyed for victory condition purposes."
       ]
     },
     {
       "title": "Enduring",
       "description": [
-        "Necron formations containing units with 'Enduring' don’t phase out in the End Phase. If the formation has lost all units with 'Enduring' it phases out as normal."
+        "Necron formations containing units with 'Enduring' don’t Phase Out. If the formation has lost all units with 'Enduring' it Phases Out as normal."
       ]
     },
     {
