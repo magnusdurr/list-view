@@ -7614,16 +7614,16 @@
       "name": "Particle Accelerator",
       "modes": [
         {
-          "firepower": "MW4+",
-          "range": 90,
+          "firepower": "MW3+",
+          "range": 60,
           "specialRules": [
             "TK(D3)"
           ]
         },
         {
-          "firepower": "AA6+",
+          "firepower": "AA5+",
           "join": "or",
-          "range": 90,
+          "range": 60,
           "specialRules": [
             "MW"
           ]
