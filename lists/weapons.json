@@ -6872,12 +6872,20 @@
         }
       ]
     },
+
     {
       "name": "Maw Cannon",
       "modes": [
         {
           "firepower": "AP4+",
           "range": 15,
+          "specialRules": [
+            "IC"
+          ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
           "specialRules": [
             "IC"
           ]
