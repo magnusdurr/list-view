@@ -10,7 +10,7 @@
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all White Scars detachments and Aircraft formations.",
   "specialRules": [
     "White Scars Transports",
-            "They Shall Know No Fear"
+    "They Shall Know No Fear"
   ],
   "units": [
     {
@@ -48,7 +48,7 @@
         "Drop Pod"
       ],
       "unitRules": [
-            "Extended Command"
+        "Extended Command"
       ]
     },
     {
@@ -78,7 +78,6 @@
           ],
           "points": 275
         },
-
         {
           "name": "Assaults",
           "units": "Four Assaults",
@@ -98,34 +97,34 @@
             "Damocles"
           ],
           "points": 325
-      },
-      {
-        "name": "Terminators",
-        "units": "Four Terminators, two Land Raider Crusaders",
-        "extraUnits": [
-          "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
-          "Anti-Air",
-          "Commander",
-          "Vindicators",
-          "Damocles"
-        ],
-        "points": 425
-    }
+        },
+        {
+          "name": "Terminators",
+          "units": "Four Terminators, two Land Raider Crusaders",
+          "extraUnits": [
+            "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
+            "Anti-Air",
+            "Commander",
+            "Vindicators",
+            "Damocles"
+          ],
+          "points": 425
+        }
       ]
     },
     {
       "name": "White Scars Support Detachments",
       "description": "Two Support Detachments may be taken per Core Detachment",
       "formations": [
-          {
-            "name": "Vindicators",
-            "units": "4 White Scars Vindicators",
-            "extraUnits": [
-              "Anti-Air",
-              "Vindicators"
-            ],
-            "points": 225
-          },
+        {
+          "name": "Vindicators",
+          "units": "4 White Scars Vindicators",
+          "extraUnits": [
+            "Anti-Air",
+            "Vindicators"
+          ],
+          "points": 225
+        },
         {
           "name": "Scout Bikes",
           "units": "Five White Scars Scout Bikes",
@@ -166,7 +165,6 @@
           "units": "One Landing Craft",
           "points": 350
         },
-
         {
           "name": "0-1 Orbital Support",
           "units": "One Strike Cruiser",
