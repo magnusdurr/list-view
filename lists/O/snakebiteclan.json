@@ -2,7 +2,7 @@
   "fraction": "Ork",
   "army": "Snakebite Clan, WAAAGH! Ghazghkull",
   "version": "Approved 1.0.Beta",
-  "release": "2021-09-16",
+  "release": "2022-01-10",
   "armyforge": "EAR_Ork_FeralOrk",
   "intro": "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows.</p><p>Some Ork formations come in different sizes: Normal, Big & 'Uge. A Big formation is double in size and a 'Uge formation is triple. If there is a limitation to formation upgrades, then the limit is doubled for a big formation and tripled for a ’uge formation. For example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2, and a 'Uge Kult of Speed can include 0–3.",
   "strategy": "Snakebite Clan armies have a Strategy Rating of 3.",
@@ -31,6 +31,7 @@
         "Squig Katapult",
         "Junkatrukk",
         "Squiggoth",
+        "Squiggoth Flakka",
         "Squiggoth Supa-Lobba",
         "Gargantuan Squiggoth",
         "Orkeosaurus",
@@ -57,10 +58,9 @@
             "Any number of Huntas + Grotz: 35 points",
             "Add one Brutes: 35 points each",
             "Add one Wyrdboy to a Brutes unit: 35 points each",
-            "Add up to three Squiggoths: 25 points each",
+            "Add up to two Squiggoth Flakkas: 40 points each",
             "Add three Squiggoth Supa-Lobbas: 100 points",
-            "Add one Gargantuan Squiggoth: 75 points",
-            "Add one Orkeosaurus: 175 points"
+            "Add enough Squiggoths to transport the entire formation: 30 points each, one Gargantuan Squiggoth: 75 points or one Orkeosaurus: 175 points"
           ],
           "pointsOptions": [
             {
@@ -105,13 +105,6 @@
       "name": "Snakebites Support Mobs",
       "description": "One Snakebites Support Mob may be taken per Snakebites War Horde",
       "formations": [
-        {
-          "name": "Boarboyz Outrider Mob",
-          "units": "Six Boarboyz (gain 'Scout' ability)",
-          "extraUnits": [
-          ],
-          "points": 175
-        },
         {
           "name": "Junka Brigade",
           "units": "One Brutes, five Junkas and six Junkatrukks ",
@@ -163,9 +156,9 @@
             "Any number of Wildboyz: 15 points each",
             "Add one Brutes: 35 points each",
             "Add one Wyrdboy to a Brutes unit: 35 points",
-            "Any number of Squiggoths: 25 points each",
-            "Add one Gargantuan Squiggoth: 75 points",
-            "Add one Orkeosaurus: 175 points"
+            "Add up to two Squiggoth Flakkas: 40 points each",
+            "Add three Squiggoth Supa-Lobbas: 100 points",
+            "Add enough Squiggoths to transport the entire formation: 30 points each, one Gargantuan Squiggoth: 75 points or one Orkeosaurus: 175 points"
           ],
           "pointsOptions": [
             {
@@ -182,15 +175,15 @@
   },
     {
       "name": "Snakebites Gargants",
-      "description": "Up to a third of the points available may be spent on these formations",
+      "description": "Up to 25% of the points available may be spent on these formations",
       "formations": [
           {
             "name": "Snakebites Gargant Mob",
             "units": "One Steam Gargant",
             "extraUnits": [
-                "Add up to one Steam Gargant: 225 points"
+                "Add one Steam Gargant: 175 points"
             ],
-            "points": 275
+            "points": 225
           }
       ]
     }
