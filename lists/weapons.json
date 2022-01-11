@@ -3454,6 +3454,7 @@
           "firepower": "Assault Weapon",
           "specialRules": [
             "EA(+1)",
+            "MW",
             "Spec[**]"
           ]
         }
@@ -6345,6 +6346,11 @@
       "name": "Kustom Blasta",
       "modes": [
         {
+          "firepower": "MW5+",
+          "range": 15
+        },
+        {
+          "join": "and",
           "firepower": "Small Arms",
           "specialRules": [
             "EA(+1)",
@@ -8221,6 +8227,18 @@
     },
     {
       "name": "Power Claw",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Choppa Blades",
       "modes": [
         {
           "firepower": "Assault Weapons",
