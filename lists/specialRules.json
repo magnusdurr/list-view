@@ -1028,17 +1028,17 @@
     {
       "title": "Harvester",
       "description": [
-        "Once per action by any formation, if a formation with a unit with the Harvester special rule takes damage, it may reroll one failed Regeneration save. During Enganges, one reroll may be made per round."
+        "Once per action by any formation, if a formation with a unit with the Harvester special rule takes damage, it may reroll one failed <i>Regeneration</i> save. During Enganges, one reroll may be made per round."
       ]
     },
     {
       "title": "Necron Portals",
       "description": [
-        "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each portal can be used only once per turn for either entering or exiting the battlefield, but not both.",
-        "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves.",
+        "Necron Portals can only be used by INF and by any unit that has <i>Walker</i>. Each portal can be used only once per turn for either entering or exiting the battlefield, but not both.",
+        "A formation that is in the reserves may enter play via a unit with <i>Portal</i> as part of any activation that allows movement. Measure their movement using the centre of the objective (in case of a Tomb Complex) or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves.",
         "Any units that are out of coherency at the end of any move is destroyed.",
-        "Each time a formation uses a Portal on a unit that is broken, it receives one Blast Marker.",
-        "If a Portal is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
+        "Each time a formation uses a Portal on a unit that is broken, it receives one Blast Marker. This also goes for broken formations using a broken portal, meaning that one unit will be lost unless all units are fearless.",
+        "If a Portal is in an enemy zone of control, any formation that enters through it must Engage the blocking formation. In addition, if it is also directly under an enemy unit, the portal can still be used to enter the battlefield but the formation that enters must maximize base contact as much as possible with the blocking units."
       ]
     },
     {
@@ -1062,7 +1062,7 @@
     {
       "title": "Enduring",
       "description": [
-        "Necron formations containing units with 'Enduring' don’t Phase Out. If the formation has lost all units with 'Enduring' it Phases Out as normal."
+        "Necron formations containing units with <i>Enduring</i> don’t <i>Phase Out</i>. If the formation has lost all units with <i>Enduring</i> it <i>Phase Out</i> as normal."
       ]
     },
     {
