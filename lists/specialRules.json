@@ -1034,11 +1034,11 @@
     {
       "title": "Necron Portals",
       "description": [
-        "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each portal can be used only once per turn for either entering or exiting the battlefield, but not both.",
-        "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves.",
+        "Necron Portals can only be used by INF and by any unit that has 'Walker'. Each portal can be used only once per turn by a single formation for either entering or exiting the battlefield, but not both.",
+        "A formation that is in the reserves may enter play via a unit with 'Portal' as part of any activation that allows movement. Measure their movement using the centre of the objective token or edge of the unit. Additionally, formations may leave the board and re-enter the reserves by moving into a Portal, or having a unit with Portal move over them as part of any type of movement. Once in the reserves they can re-enter play immediately via another Portal (provided they have any moves left) or stay in the reserves.",
         "Any units that are out of coherency at the end of any move is destroyed.",
-        "Each time a formation uses a Portal on a unit that is broken, it receives one Blast Marker.",
-        "If a Portal is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
+        "Each time a formation uses a Portal that is on a broken unit, it receives one Blast Marker.",
+        "If a Portal is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible.
       ]
     },
     {
@@ -1056,7 +1056,7 @@
     {
       "title": "Phase Out",
       "description": [
-        "At the end of any action by any formation, if a Necron formation has lost half or more of its starting number of units, it Phases Out. This means that it is removed from the battlefield, and counts as destroyed for victory condition purposes."
+        "At the end of any action by any formation, if a Necron formation is both broken and has lost half or more of its starting number of units, it Phases Out. This means that it is removed from the battlefield, and counts as destroyed for victory condition purposes."
       ]
     },
     {
