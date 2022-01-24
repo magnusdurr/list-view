@@ -282,7 +282,7 @@
         ],
         "specialRules": [
           "Fearless",
-          "Regeneration",
+          "Living Metal",
           "Portal",
           "Skimmer",
           "Teleport",
@@ -302,7 +302,7 @@
         ],
         "specialRules": [
           "Fearless",
-          "Regeneration",
+          "Living Metal",
           "Skimmer",
           "Teleport",
           "Thick Rear Armour"
@@ -454,7 +454,7 @@
         "name": "Pylon",
         "type": "WE",
         "speed": "Immobile",
-        "armour": 3,
+        "armour": 4,
         "ff": 4,
         "weapons": [
           "Particle Accelerator",
@@ -464,7 +464,7 @@
           "Damage Capacity 2",
           "Fearless",
           "Machine Spirit",
-          "Regeneration",
+          "Living Metal",
           "Thick Rear Armour",
           "Teleport",
           "Enduring"
@@ -486,7 +486,7 @@
           "Damage Capacity 4",
           "Fearless",
           "Portal",
-          "Regeneration",
+          "Living Metal",
           "Skimmer",
           "Teleport",
           "Thick Rear Armour",
@@ -500,7 +500,7 @@
         "name": "Æonic Orb",
         "type": "WE",
         "speed": 15,
-        "armour": 4,
+        "armour": 5,
         "ff": 6,
         "weapons": [
           "Star Cage"
@@ -508,9 +508,8 @@
         "specialRules": [
           "Damage Capacity 6",
           "Fearless",
-          "Regeneration",
+          "Living Metal",
           "Support Craft",
-          "Thick Rear Armour",
           "Enduring"
         ],
         "crit": "The Æonic Orb is destroyed. All units within 5cm suffer a hit."
@@ -529,10 +528,9 @@
         "specialRules": [
           "Damage Capacity 6",
           "Fearless",
-          "Regeneration",
+          "Living Metal",
           "Portal",
           "Skimmer",
-          "Thick Rear Armour",
           "Enduring"
         ],
         "crit": "The Abattoir's Portal is destroyed. Subsequent critical hits cause one additional damage."
