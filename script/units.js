@@ -26,16 +26,12 @@ var units = {
 
             data.weapons.forEach(function (item) {
                 item.modes.forEach(function (mode) {
-                    if (mode.specialRules)
-                    {
+                    if (mode.specialRules) {
                         mode.specialRules = mode.specialRules.map(function (sRule) {
-                            if (rules[sRule])
-                            {
+                            if (rules[sRule]) {
                                 return rules[sRule];
-                            }
-                            else
-                            {
-                                error("Unknown special rule '" + sRule +"' for weapon: " + item.name);
+                            } else {
+                                error("Unknown special rule '" + sRule + "' for weapon: " + item.name);
                                 return {
                                     "name": "ERROR",
                                     "description": "Unknown special rule " + sRule
@@ -55,19 +51,13 @@ var units = {
 
     formatSpecialRules: function (data, specialRules) {
         data.specialRules = data.specialRules.map(function (rule) {
-            if (typeof rule === 'string')
-            {
-                if (specialRules[rule])
-                {
+            if (typeof rule === 'string') {
+                if (specialRules[rule]) {
                     return specialRules[rule];
-                }
-                else
-                {
+                } else {
                     error("Unknown army special rule '" + rule + "'");
                 }
-            }
-            else
-            {
+            } else {
                 return rule;
             }
         });
@@ -78,7 +68,7 @@ var units = {
     formatUnits: function (data, specialRules, weapons) {
         unitSections = [];
 
-        typeSort = function(type) {
+        typeSort = function (type) {
             switch (type) {
                 case "CH": return 0;
                 case "INF": return 1;
@@ -96,7 +86,7 @@ var units = {
         data.units.forEach(function (unitSection) {
             $.ajax("lists/" + unitSection.from, {
                 async: false,
-                success: function(units) {
+                success: function (units) {
                     units.forEach(function (section) {
                         section.unit = section.unit.filter(function (unit) {
                             return unitSection.units.includes(unit.name);
@@ -116,15 +106,14 @@ var units = {
                             unit.weapons = unit.weapons.map(weapon => replaceWeapon(weapon, weapons, unit));
                         });
 
-                        section.specialRules.forEach(function(rule) {
+                        section.specialRules.forEach(function (rule) {
                             specialRules[rule.title] = rule
                         })
 
-                        section.specialRules =  unitSection.unitRules.map(function(rule) {
+                        section.specialRules = unitSection.unitRules.map(function (rule) {
                             if (specialRules[rule] !== undefined) {
                                 return specialRules[rule]
-                            }
-                            else {
+                            } else {
                                 return {
                                     "name": "ERROR",
                                     "description": "Unknown special rule: " + rule
@@ -142,20 +131,16 @@ var units = {
     },
 };
 
-function error(message)
-{
+function error(message) {
     units.errors.push(message);
     console.error(message);
 }
 
-function replaceWeapon(weapon, weapons, unit)
-{
-    if (typeof weapon === 'string')
-    {
+function replaceWeapon(weapon, weapons, unit) {
+    if (typeof weapon === 'string') {
         var values = weapon.split('|');
 
-        if (!weapons.weapons[values[0]])
-        {
+        if (!weapons.weapons[values[0]]) {
             error("Unknown weapon '" + values[0] + "' for unit: " + unit.name);
 
             return {
@@ -169,41 +154,32 @@ function replaceWeapon(weapon, weapons, unit)
         var weaponObject = JSON.parse(JSON.stringify(weapons.weapons[values[0]]));
 
         // More than one weapon
-        if (values.length > 1 && values[1])
-        {
+        if (values.length > 1 && values[1]) {
             weaponObject.count = values[1];
         }
 
         // Extra special rules
-        if (values.length > 2 && values[2])
-        {
+        if (values.length > 2 && values[2]) {
             weaponObject.modes.forEach(function (mode) {
-                if (!mode.specialRules)
-                {
+                if (!mode.specialRules) {
                     mode.specialRules = [];
                 }
 
-                if (weapons.rules[values[2]])
-                {
+                if (weapons.rules[values[2]]) {
                     mode.specialRules.push(weapons.rules[values[2]]);
-                }
-                else
-                {
-                    error("Unknown special rule '" + values[2] +"' for weapon: " + weaponObject.name +
-                            ", on unit: " + unit.name);
-                    mode.specialRules.push({"name":"ERROR","description":"Unknown special rule: " + values[2]});
+                } else {
+                    error("Unknown special rule '" + values[2] + "' for weapon: " + weaponObject.name +
+                        ", on unit: " + unit.name);
+                    mode.specialRules.push({"name": "ERROR", "description": "Unknown special rule: " + values[2]});
                 }
             });
         }
 
-        if (weaponObject === null)
-        {
+        if (weaponObject === null) {
             console.log("Undefined weapon, values ", values);
         }
         return weaponObject;
-    }
-    else
-    {
+    } else {
         return weapon;
     }
 }

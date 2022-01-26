@@ -26,12 +26,8 @@
             states.push('experimental');
         }
 
-        $("#list-filter").append(filter);
-
         $.getJSON("lists/index.json", function (data) {
             var filtered = data;
-            console.log(data);
-
             filtered.index.forEach(section =>
                 section.index.forEach(race => {
                     race.lists = race.lists.filter(item => states.includes(item.status))
