@@ -765,7 +765,8 @@
         ],
         "specialRules": [
           "Guerilla Tactics",
-          "Infiltrators"
+          "Infiltrators",
+          "Lightning Charge"
         ]
       },
       {
@@ -781,7 +782,8 @@
         ],
         "specialRules": [
           "Guerilla Tactics",
-          "Jump Packs"
+          "Jump Packs",
+          "Lightning Charge"
         ]
       },
       {
@@ -1107,13 +1109,13 @@
       },
       {
         "name": "Land Speeder Tempest",
-        "type": "LV",
+        "type": "AV",
         "speed": 35,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Tempest Missile Launcher",
+          "Twin Missile Launcher",
           "Assault Cannon"
         ],
         "specialRules": [
@@ -2162,7 +2164,7 @@
           "Descent of Angels",
           "Transport"
         ],
-        "notes": "May transport one Terminator or two infantry units without Mounted. May in addition transport one Dreadnought. Counts as a Landing Craft for the purpose of being transported."
+        "notes": "May transport one Terminator or two infantry units without Mounted. May in addition transport one Dreadnought. Counts as a Drop Pod for the purpose of being transported."
       },
       {
         "name": "Corvus Blackstar Dropship",
@@ -2465,7 +2467,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport 12 infantry units, Attack Bikes, or Dreadnoughts; plus five light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus three Thunderhawks and enough Drop Pods or Landing Craft to transport any other units being carried."
+        "notes": "May transport 12 infantry units, Attack Bikes, or Dreadnoughts; plus five light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus two Thunderhawks and enough Drop Pods to transport any other units being carried."
       },
       {
         "name": "Strike Cruiser",

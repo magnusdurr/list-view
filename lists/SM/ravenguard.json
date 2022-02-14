@@ -26,6 +26,7 @@
         "Sternguard Veterans",
         "Tacticals",
         "Devastators",
+        "Cyclone Terminators",
         "Terminators",
         "Vanguard Veterans",
         "Attack Bike",
@@ -40,14 +41,14 @@
         "Stalker",
         "Storm Eagle",
         "Storm Talon",
-        "Thunderhawk",
-        "Battle Barge",
         "Strike Cruiser",
+        "Vanguard Class Light Cruiser",
         "Drop Pod"
       ],
       "unitRules": [
           "Expert Reconnaissance",
-          "Guerilla Tactics"
+          "Guerilla Tactics",
+          "Lightning Charge"
       ]
     },
     {
@@ -64,26 +65,6 @@
     {
       "name": "Ravenguard Core Detachments",
       "formations": [
-        {
-          "name": "Assaults",
-          "units": "Four Assaults",
-          "extraUnits": [
-            "Commander",
-            "Land Speeders"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Devastators",
-          "units": "Four Devastators plus transport",
-          "extraUnits": [
-            "Anti-Air",
-            "Commander",
-            "Land Speeders",
-            "Razorbacks"
-          ],
-          "points": 250
-        },
         {
           "name": "Storm Scouts",
           "units": "Three Raven Guard Scouts, three Land Speeder Storms",
@@ -129,11 +110,11 @@
             "Commander",
             "Land Speeders"
           ],
-          "points": 225
+          "points": 250
         },
         {
-          "name": "0-1 Terminators",
-          "units": "Four Terminators",
+          "name": "Terminators",
+          "units": "Any four of the following units: Terminators, Cyclone Terminators",
           "extraUnits": [
             "Commander"
           ],
@@ -143,17 +124,16 @@
     },
     {
       "name": "Ravenguard Support Detachments",
-      "description": "One Support Detachment may be taken per Core Detachment",
+      "description": "Two Support Detachment may be taken per Core Detachment",
       "formations": [
         {
-          "name": "Scout",
-          "units": "One Captain, four Raven Guard Scouts plus transport",
+          "name": "Assaults",
+          "units": "Four Assaults",
           "extraUnits": [
-            "Land Speeders",
-            "Snipers",
-            "Razorbacks"
+            "Commander",
+            "Land Speeders"
           ],
-          "points": 150
+          "points": 175
         },
         {
           "name": "Bikes",
@@ -165,21 +145,41 @@
           "points": 200
         },
         {
+          "name": "Devastators",
+          "units": "Four Devastators plus transport",
+          "extraUnits": [
+            "Anti-Air",
+            "Commander",
+            "Land Speeders",
+            "Razorbacks"
+          ],
+          "points": 250
+        },
+        {
           "name": "Land Speeders",
           "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
           "extraUnits": [
-            "Tempest",
-            "Typhoon"
+            "Land Speeder Variants"
           ],
           "points": 200
         },
         {
           "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
+          "units": "One Vanguard Class Light Cruiser",
           "extraUnits": [
-            "Battle Barge"
+            "Strike Cruiser"
           ],
-          "points": 200
+          "points": 150
+        },
+        {
+          "name": "Scout",
+          "units": "Four Raven Guard Scouts plus transport",
+          "extraUnits": [
+            "Land Speeders",
+            "Snipers",
+            "Razorbacks"
+          ],
+          "points": 150
         }
       ]
     },
@@ -198,11 +198,6 @@
           "points": 175
         },
         {
-          "name": "Thunderhawk",
-          "units": "One Thunderhawk",
-          "points": 225
-        },
-        {
           "name": "Warhounds",
           "units": "One Warhound Titan",
           "extraUnits": [
@@ -218,9 +213,18 @@
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
-        "name": "Battle Barge",
-        "description": "Replace the Strike Cruiser with a Battle Barge",
-        "points": "75 points"
+        "name": "Anti-Air",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          }
+        ]
       },
       {
         "name": "Commander",
@@ -241,18 +245,9 @@
         ]
       },
       {
-        "name": "Anti-Air",
-        "description": "Add any one of the following units to the formation",
-        "options": [
-          {
-            "description": "Add one Hunter",
-            "points": "75 points"
-          },
-          {
-            "description": "Add one Stalker",
-            "points": "50 points"
-          }
-        ]
+        "name": "Land Speeder Variants",
+        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Typhoons or Land Speeder Tempests",
+        "points": "10 points each"
       },
       {
         "name": "Raven Guard Land Speeders",
@@ -283,14 +278,9 @@
         "points": "25 points"
       },
       {
-        "name": "Tempest",
-        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Tempest",
-        "points": "15 points each"
-      },
-      {
-        "name": "Typhoons",
-        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Typhoons",
-        "points": "10 points each"
+        "name": "Strike Cruiser",
+        "description": "Replace the Vanguard Class Light Cruiser with a Strike Cruiser",
+        "points": "50 points"
       }
     ]
   }
