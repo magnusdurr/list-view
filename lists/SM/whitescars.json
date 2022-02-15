@@ -9,6 +9,7 @@
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all White Scars detachments and Aircraft formations.",
   "specialRules": [
+    "Lightning Assault",
     "White Scars Transports",
     "They Shall Know No Fear"
   ],
@@ -27,18 +28,18 @@
         "Land Speeder",
         "Land Speeder Tornado",
         "Land Speeder Typhoon",
+        "Land Speeder Tempest",
         "White Scars Attack Bike",
         "White Scars Melta Bike",
         "Hunter",
         "Land Raider",
         "Land Raider Crusader",
-        "Predator Annihilator",
-        "Predator Destructor",
         "Razorback",
         "Rhino",
-        "Damocles Command Rhino",
         "Stalker",
         "Whirlwind",
+        "White Scars Predator Annihilator",
+        "White Scars Predator Destructor",
         "White Scars Vindicator",
         "Landing Craft",
         "Storm Talon",
@@ -66,47 +67,42 @@
       "name": "White Scars Core Detachments",
       "formations": [
         {
+          "name": "Bikes",
+          "units": "Eight White Scars Assault Bikes",
+          "extraUnits": [
+            "Attack Bikes",
+            "Commander"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Land Speeder",
+          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+          "extraUnits": [
+            "Commander",
+            "Land Speeder Variants"
+          ],
+          "points": 225
+        },
+        {
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "extraUnits": [
             "Anti-Air",
             "Commander",
             "Razorbacks",
-            "Vindicators",
-            "Land Raiders",
-            "Damocles"
+            "Vindicators"
           ],
           "points": 275
-        },
-        {
-          "name": "Assaults",
-          "units": "Four Assaults",
-          "extraUnits": [
-            "Commander",
-            "Vindicators",
-            "Damocles"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Bikes",
-          "units": "Eight White Scars Assault Bikes",
-          "extraUnits": [
-            "Attack Bikes",
-            "Commander",
-            "Damocles"
-          ],
-          "points": 325
         },
         {
           "name": "Terminators",
           "units": "Four Terminators, two Land Raider Crusaders",
           "extraUnits": [
-            "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
+            "Replace up to two Land Raider Crusaders with two Land Raiders each: 75 points each",
             "Anti-Air",
             "Commander",
-            "Vindicators",
-            "Damocles"
+            "Vindicators"
           ],
           "points": 425
         }
@@ -117,48 +113,13 @@
       "description": "Two Support Detachments may be taken per Core Detachment",
       "formations": [
         {
-          "name": "Vindicators",
-          "units": "4 White Scars Vindicators",
+          "name": "Assaults",
+          "units": "Four Assaults",
           "extraUnits": [
-            "Anti-Air",
+            "Commander",
             "Vindicators"
           ],
-          "points": 225
-        },
-        {
-          "name": "Scout Bikes",
-          "units": "Five White Scars Scout Bikes",
-          "extraUnits": [
-            "Attack Bikes"
-          ],
-          "points": 150
-        },
-        {
-          "name": "Land Speeder",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "extraUnits": [
-            "Typhoons"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Whirlwinds",
-          "units": "Three Whirlwinds",
-          "extraUnits": [
-            "Add one Whirlwind: 50 points",
-            "Anti-Air",
-            "Vindicators"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Predators",
-          "units": "Four Predator Destructors and/or Predator Annihilators",
-          "extraUnits": [
-            "Anti-Air",
-            "Vindicators"
-          ],
-          "points": 250
+          "points": 175
         },
         {
           "name": "Landing Craft",
@@ -172,6 +133,39 @@
             "Battle Barge"
           ],
           "points": 200
+        },
+        {
+          "name": "Predators",
+          "units": "Four White Scars Predator Destructors or White Scars Predator Annihilators",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Scout Bikes",
+          "units": "Five White Scars Scout Bikes",
+          "extraUnits": [
+            "Attack Bikes"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Vindicators",
+          "units": "Four White Scars Vindicators",
+          "extraUnits": [
+            "Anti-Air",
+            "Vindicators"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Whirlwinds",
+          "units": "Four Whirlwinds",
+          "extraUnits": [
+            "Anti-Air"
+          ],
+          "points": 275
         }
       ]
     },
@@ -205,6 +199,20 @@
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
+        "name": "Anti-Air",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
         "name": "Attack Bikes",
         "description": "Replace up to three White Scars Assault Bikes, or one White Scars Scout Bikes, with an equal number of White Scars Attack or Melta Bikes",
         "points": "Free"
@@ -213,11 +221,6 @@
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
         "points": "75 points"
-      },
-      {
-        "name": "Damocles",
-        "description": "Add one Damocles Command Rhino to the formation (formation must contain a Captain or Supreme Commander)",
-        "points": "25 points"
       },
       {
         "name": "Commander",
@@ -242,23 +245,9 @@
         ]
       },
       {
-        "name": "Anti-Air",
-        "description": "Add any one of the following units to the formation",
-        "options": [
-          {
-            "description": "Add one Hunter",
-            "points": "75 points"
-          },
-          {
-            "description": "Add one Stalker",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Land Raiders",
-        "description": "Add any number of Land Raiders or Land Raider Crusaders, up to the number required to transport the formation",
-        "points": "50 points each"
+        "name": "Land Speeder Variants",
+        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Typhoons or Land Speeder Tempests",
+        "points": "10 points each"
       },
       {
         "name": "Razorbacks",
@@ -266,17 +255,9 @@
         "points": "25 points each"
       },
       {
-        "name": "Typhoons",
-        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
-        "points": "10 points each"
-      },
-      {
         "name": "Vindicators",
         "description": "Add up to two White Scars Vindicators",
-        "points": [
-          "50 points each",
-          "75 points per pair"
-        ]
+        "points": "50 points each"
       }
     ]
   }

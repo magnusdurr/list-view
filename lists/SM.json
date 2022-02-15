@@ -1400,6 +1400,17 @@
         ]
       },
       {
+        "name": "White Scars Predator Annihilator",
+        "type": "AV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Twin Lascannon"
+        ]
+      },
+      {
         "name": "Predator Destructor",
         "type": "AV",
         "speed": 30,
@@ -1409,6 +1420,17 @@
         "weapons": [
           "Predator Cannon",
           "Heavy Bolter|2"
+        ]
+      },
+      {
+        "name": "White Scars Predator Destructor",
+        "type": "AV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Predator Cannon"
         ]
       },
       {
@@ -1654,6 +1676,17 @@
       "specialRules": [
           "Lucifer Pattern Engine"
       ]
+      },
+      {
+        "name": "Stalker",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Icarus Stormcannons"
+        ]
       },
       {
         "name": "Blood Angels Stalker",
