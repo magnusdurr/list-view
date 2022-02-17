@@ -9,7 +9,6 @@
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all White Scars detachments and Aircraft formations.",
   "specialRules": [
-    "Lightning Assault",
     "White Scars Transports",
     "They Shall Know No Fear"
   ],
@@ -25,10 +24,10 @@
         "Terminators",
         "White Scars Assault Bikes",
         "White Scars Scout Bikes",
-        "Land Speeder",
-        "Land Speeder Tornado",
-        "Land Speeder Typhoon",
-        "Land Speeder Tempest",
+        "White Scars Land Speeder",
+        "White Scars Land Speeder Tornado",
+        "White Scars Land Speeder Typhoon",
+        "White Scars Land Speeder Tempest",
         "White Scars Attack Bike",
         "White Scars Melta Bike",
         "Hunter",
@@ -38,8 +37,7 @@
         "Rhino",
         "Stalker",
         "Whirlwind",
-        "White Scars Predator Annihilator",
-        "White Scars Predator Destructor",
+        "White Scars Predator",
         "White Scars Vindicator",
         "Landing Craft",
         "Storm Talon",
@@ -49,7 +47,8 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "Extended Command"
+        "Extended Command",
+        "Lightning Assault"
       ]
     },
     {
@@ -77,10 +76,10 @@
         },
         {
           "name": "Land Speeder",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+          "units": "Any five of the following units: White Scars Land Speeder, White Scars Land Speeder Tornado",
           "extraUnits": [
             "Commander",
-            "Land Speeder Variants"
+            "Typhoons"
           ],
           "points": 225
         },
@@ -99,7 +98,7 @@
           "name": "Terminators",
           "units": "Four Terminators, two Land Raider Crusaders",
           "extraUnits": [
-            "Replace up to two Land Raider Crusaders with two Land Raiders each: 75 points each",
+            "Replace up to two Land Raider Crusaders with two Land Raiders each: 50 points each",
             "Anti-Air",
             "Commander",
             "Vindicators"
@@ -136,10 +135,7 @@
         },
         {
           "name": "Predators",
-          "units": "Four White Scars Predator Destructors or White Scars Predator Annihilators",
-          "extraUnits": [
-            "Anti-Air"
-          ],
+          "units": "Four White Scars Predators",
           "points": 225
         },
         {
@@ -157,15 +153,16 @@
             "Anti-Air",
             "Vindicators"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Whirlwinds",
-          "units": "Four Whirlwinds",
+          "units": "Three Whirlwinds",
           "extraUnits": [
+            "Add one Whirlwind: 50 points",
             "Anti-Air"
           ],
-          "points": 275
+          "points": 225
         }
       ]
     },
@@ -245,8 +242,8 @@
         ]
       },
       {
-        "name": "Land Speeder Variants",
-        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Typhoons or Land Speeder Tempests",
+        "name": "Typhoons",
+        "description": "Replace any number of White Scars Land Speeders with an equal number of White Scars Land Speeder Typhoons",
         "points": "10 points each"
       },
       {
@@ -257,7 +254,10 @@
       {
         "name": "Vindicators",
         "description": "Add up to two White Scars Vindicators",
-        "points": "50 points each"
+        "points": [
+          "50 points for one",
+          "75 points for two"
+        ]
       }
     ]
   }

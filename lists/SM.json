@@ -989,6 +989,22 @@
         ]
       },
       {
+        "name": "White Scars Land Speeder",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multi-Melta"
+        ],
+        "specialRules": [
+          "Lightning Assault",
+          "Scout",
+          "Skimmer"
+        ]
+      },
+      {
         "name": "Ravenwing Land Speeder",
         "type": "LV",
         "speed": 35,
@@ -1017,6 +1033,23 @@
           "Heavy Bolter"
         ],
         "specialRules": [
+          "Scout",
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "White Scars Land Speeder Tornado",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Assault Cannon",
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Lightning Assault",
           "Scout",
           "Skimmer"
         ]
@@ -1074,10 +1107,27 @@
         ]
       },
       {
-        "name": "Land Speeder Tempest",
-        "type": "AV",
+        "name": "White Scars Land Speeder Typhoon",
+        "type": "LV",
         "speed": 35,
         "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Twin Typhoon Missile",
+          "Heavy Bolter"
+        ],
+        "specialRules": [
+          "Lightning Assault",
+          "Scout",
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "Land Speeder Tempest",
+        "type": "LV",
+        "speed": 35,
+        "armour": 3,
         "cc": 6,
         "ff": 5,
         "weapons": [
@@ -1116,6 +1166,7 @@
           "Heavy Bolter"
         ],
         "specialRules": [
+          "Lightning Assault",
           "Walker"
         ]
       },
@@ -1130,6 +1181,7 @@
           "Multi-Melta"
         ],
         "specialRules": [
+          "Lightning Assault",
           "Walker"
         ]
       },
@@ -1366,17 +1418,6 @@
         ]
       },
       {
-        "name": "White Scars Predator Annihilator",
-        "type": "AV",
-        "speed": 35,
-        "armour": 4,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Twin Lascannon"
-        ]
-      },
-      {
         "name": "Predator Destructor",
         "type": "AV",
         "speed": 30,
@@ -1389,7 +1430,7 @@
         ]
       },
       {
-        "name": "White Scars Predator Destructor",
+        "name": "White Scars Predator",
         "type": "AV",
         "speed": 35,
         "armour": 4,
@@ -1397,6 +1438,9 @@
         "ff": 4,
         "weapons": [
           "Predator Cannon"
+        ],
+        "specialRules": [
+          "Lightning Assault"
         ]
       },
       {
@@ -1409,7 +1453,7 @@
         "weapons": [
           "Twin Assault Cannon",
           "Multi-Melta|2"
-      ],
+        ],
         "specialRules": [
           "Lucifer Pattern Engine"
         ]
