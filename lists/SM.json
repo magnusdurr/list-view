@@ -830,6 +830,7 @@
           "Chainswords"
         ],
         "specialRules": [
+          "Born in the Saddle",
           "Mounted",
           "Walker"
         ]
@@ -846,6 +847,7 @@
           "Chainswords"
         ],
         "specialRules": [
+          "Born in the Saddle",
           "Mounted",
           "Scout",
           "Walker"
@@ -999,7 +1001,7 @@
           "Multi-Melta"
         ],
         "specialRules": [
-          "Lightning Assault",
+          "Born in the Saddle",
           "Scout",
           "Skimmer"
         ]
@@ -1049,7 +1051,7 @@
           "Heavy Bolter"
         ],
         "specialRules": [
-          "Lightning Assault",
+          "Born in the Saddle",
           "Scout",
           "Skimmer"
         ]
@@ -1118,7 +1120,7 @@
           "Heavy Bolter"
         ],
         "specialRules": [
-          "Lightning Assault",
+          "Born in the Saddle",
           "Scout",
           "Skimmer"
         ]
@@ -1127,14 +1129,30 @@
         "name": "Land Speeder Tempest",
         "type": "LV",
         "speed": 35,
-        "armour": 3,
+        "armour": 4,
         "cc": 6,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
           "Twin Missile Launcher",
           "Assault Cannon"
         ],
         "specialRules": [
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "White Scars Land Speeder Tempest",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Missile Launcher",
+          "Assault Cannon"
+        ],
+        "specialRules": [
+          "Born in the Saddle",
           "Skimmer"
         ]
       },
@@ -1166,7 +1184,7 @@
           "Heavy Bolter"
         ],
         "specialRules": [
-          "Lightning Assault",
+          "Born in the Saddle",
           "Walker"
         ]
       },
@@ -1181,7 +1199,7 @@
           "Multi-Melta"
         ],
         "specialRules": [
-          "Lightning Assault",
+          "Born in the Saddle",
           "Walker"
         ]
       },
@@ -1427,20 +1445,6 @@
         "weapons": [
           "Predator Cannon",
           "Heavy Bolter|2"
-        ]
-      },
-      {
-        "name": "White Scars Predator",
-        "type": "AV",
-        "speed": 35,
-        "armour": 4,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "Predator Cannon"
-        ],
-        "specialRules": [
-          "Lightning Assault"
         ]
       },
       {

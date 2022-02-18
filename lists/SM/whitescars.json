@@ -37,7 +37,6 @@
         "Rhino",
         "Stalker",
         "Whirlwind",
-        "White Scars Predator",
         "White Scars Vindicator",
         "Landing Craft",
         "Storm Talon",
@@ -47,8 +46,7 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "Extended Command",
-        "Lightning Assault"
+        "Born in the Saddle"
       ]
     },
     {
@@ -79,7 +77,7 @@
           "units": "Any five of the following units: White Scars Land Speeder, White Scars Land Speeder Tornado",
           "extraUnits": [
             "Commander",
-            "Typhoons"
+            "Land Speeder Variants"
           ],
           "points": 225
         },
@@ -132,11 +130,6 @@
             "Battle Barge"
           ],
           "points": 200
-        },
-        {
-          "name": "Predators",
-          "units": "Four White Scars Predators",
-          "points": 225
         },
         {
           "name": "Scout Bikes",
@@ -242,8 +235,8 @@
         ]
       },
       {
-        "name": "Typhoons",
-        "description": "Replace any number of White Scars Land Speeders with an equal number of White Scars Land Speeder Typhoons",
+        "name": "Land Speeder Variants",
+        "description": "Replace any number of White Scars Land Speeders with an equal number of White Scars Land Speeder Typhoons or White Scars Land Speeder Tempest",
         "points": "10 points each"
       },
       {
