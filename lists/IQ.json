@@ -11,8 +11,7 @@
           "Power Weapon"
         ],
         "specialRules": [
-          "Supreme Commander",
-          "Inspiring"
+          "Supreme Commander"
         ]
       },
       {
@@ -34,23 +33,22 @@
         ],
         "specialRules": [
           "Faithful",
-          "Inspiring",
           "Leader"
         ]
       },
       {
         "name": "Living Saint",
         "type": "INF",
-        "speed": 30,
+        "speed": 35,
         "armour": 3,
-        "cc": 4,
+        "cc": 3,
         "ff": 4,
         "weapons": [
           "Ardent Blade"
         ],
         "specialRules": [
           "Fearless",
-          "Inspiring",
+          "Leader",
           "Jump Packs",
           "Invulnerable Save"
         ]
@@ -86,9 +84,10 @@
         ],
         "specialRules": [
           "Commander",
+          "Leader",
           "Scout",
-          "Invulnerable Save",
-          "Leader"
+          "Invulnerable Save"
+
         ]
       },
       {
