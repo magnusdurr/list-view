@@ -163,14 +163,6 @@
           "points": 200
         },
         {
-          "name": "0-1 Orbital Support",
-          "units": "One Vanguard Class Light Cruiser",
-          "extraUnits": [
-            "Strike Cruiser"
-          ],
-          "points": 150
-        },
-        {
           "name": "Scout",
           "units": "Four Raven Guard Scouts plus transport",
           "extraUnits": [
@@ -183,7 +175,7 @@
       ]
     },
     {
-      "name": "Ravenguard Aircraft & Collegia Titanica Allies",
+      "name": "Ravenguard Navy & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -195,6 +187,14 @@
           "name": "Storm Eagle",
           "units": "One Storm Eagle",
           "points": 175
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Vanguard Class Light Cruiser",
+          "extraUnits": [
+            "Strike Cruiser"
+          ],
+          "points": 150
         },
         {
           "name": "Warhounds",

@@ -124,14 +124,6 @@
           "points": 275
         },
         {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "extraUnits": [
-            "Battle Barge"
-          ],
-          "points": 200
-        },
-        {
           "name": "Predators",
           "units": "Four Predator Destructors and/or Predator Annihilators",
           "extraUnits": [
@@ -174,7 +166,7 @@
       ]
     },
     {
-      "name": "Iron Hands Aircraft & Collegia Titanica Allies",
+      "name": "Iron Hands Navy & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -186,6 +178,14 @@
           "name": "Thunderhawk Transporters",
           "units": "Two Thunderhawk Transporters",
           "points": 275
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
         },
         {
           "name": "Warhound Pack",

@@ -125,19 +125,6 @@
           "points": 200
         },
         {
-          "name": "Landing Craft",
-          "units": "One Landing Craft",
-          "points": 350
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "extraUnits": [
-            "Battle Barge"
-          ],
-          "points": 200
-        },
-        {
           "name": "Predators",
           "units": "Four Predator Destructors and/or Predator Annihilators",
           "extraUnits": [
@@ -195,7 +182,7 @@
       ]
     },
     {
-      "name": "Codex Astartes, Imperial Aircraft & Collegia Titanica Allies",
+      "name": "Codex Astartes Navy, Imperial Aircraft & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
@@ -217,6 +204,19 @@
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
           "points": 175
+        },
+        {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 325
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
         },
         {
           "name": "Warhounds",

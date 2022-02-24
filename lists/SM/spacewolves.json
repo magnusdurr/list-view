@@ -168,19 +168,11 @@
             "Anti-Air"
           ],
           "points": 275
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "extraUnits": [
-            "Battle Barge"
-          ],
-          "points": 200
         }
       ]
     },
     {
-      "name": "Space Wolf Aircraft and Freeblade Knights",
+      "name": "Space Wolf Navy and Freeblade Knights",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -200,6 +192,14 @@
           "units": "One Stormfang Gunship",
           "points": 150
         },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
+      },
         {
           "name": "0-1 Freeblade Knight",
           "units": "One Questoris Knight-Freeblade of any configuration",

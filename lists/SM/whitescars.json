@@ -46,7 +46,8 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "Born in the Saddle"
+        "Born in the Saddle",
+        "Wind-Swift"
       ]
     },
     {
@@ -71,15 +72,6 @@
             "Commander"
           ],
           "points": 325
-        },
-        {
-          "name": "Land Speeder",
-          "units": "Any five of the following units: White Scars Land Speeder, White Scars Land Speeder Tornado",
-          "extraUnits": [
-            "Commander",
-            "Land Speeder Variants"
-          ],
-          "points": 225
         },
         {
           "name": "Tacticals",
@@ -119,17 +111,12 @@
           "points": 175
         },
         {
-          "name": "Landing Craft",
-          "units": "One Landing Craft",
-          "points": 350
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
+          "name": "Land Speeder",
+          "units": "Any five of the following units: White Scars Land Speeder, White Scars Land Speeder Tornado",
           "extraUnits": [
-            "Battle Barge"
+            "Land Speeder Variants"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Scout Bikes",
@@ -172,6 +159,19 @@
           "name": "Thunderhawk",
           "units": "One Thunderhawk",
           "points": 225
+        },
+        {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 325
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
         },
         {
           "name": "Warhounds",

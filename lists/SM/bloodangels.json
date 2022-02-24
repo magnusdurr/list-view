@@ -167,19 +167,6 @@
           "points": 200
         },
         {
-          "name": "Landing Craft",
-          "units": "One Landing Craft",
-          "points": 350
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Vanguard Class Light Cruiser",
-          "extraUnits": [
-            "Replace the Vanguard Class Light Cruiser with a Strike Cruiser: 50 points, or a Battle Barge: 125 points"
-          ],
-          "points": 150
-        },
-        {
           "name": "Scouts",
           "units": "Four Scouts plus transport",
           "extraUnits": [
@@ -191,13 +178,26 @@
       ]
     },
     {
-      "name": "Blood Angels Aircraft & Titan Legion Allies",
+      "name": "Blood Angels Navy & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
           "name": "Storm Talons",
           "units": "Two Storm Talons",
           "points": 200
+        },
+        {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 325
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Vanguard Class Light Cruiser",
+          "extraUnits": [
+            "Replace the Vanguard Class Light Cruiser with a Strike Cruiser: 50 points, or a Battle Barge: 125 points"
+          ],
+          "points": 150
         },
         {
           "name": "Warhounds",
