@@ -114,6 +114,23 @@
       "name": "Black Heart Partisan Formations",
       "description": "Up to two Partisan Formations may be taken for each Kabal Formation",
       "formations": [
+          {
+            "name": "Mandrake Throng",
+            "units": "Four Mandrakes",
+            "extraUnits": [
+                "Add up to two Mandrakes: 25 points each"
+            ],
+            "points": 125
+          },
+          {
+            "name": "Hellion Murder",
+            "units": "Four Hellion Skyboards",
+            "extraUnits": [
+              "Add up to two Hellion Skyboards: 25 points each",
+              "Add up to two Warp Beasts: 25 points each"
+            ],
+            "points": 150
+          },
         {
           "name": "Reaver Gang",
           "units": "Six Reaver Jet Bikes",
@@ -123,26 +140,11 @@
           "points": 200
         },
         {
-          "name": "Mandrake Throng",
-          "units": "Six Mandrakes",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
-        {
           "name": "Wych Cult",
           "units": "One Succubus, four Wyches",
           "extraUnits": [
             "Portable Webway",
             "Black Heart Transport"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Hellion Murder",
-          "units": "Six Hellion Skyboards",
-          "extraUnits": [
-            "Add up to two Warp Beasts: 25 points each"
           ],
           "points": 200
         },

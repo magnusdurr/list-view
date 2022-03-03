@@ -48,7 +48,9 @@
         "Storm Troopers",
         "Chimera",
         "Hydra",
-        "Hellhound"
+        "Hellhound",
+        "Vulture",
+        "Valkyrie"
       ],
       "unitRules": [
       ]
@@ -74,7 +76,7 @@
           "name": "Mission",
           "units": "One Palatine, eight Battle Sisters",
           "extraUnits": [
-            "Replace two units of Battle Sisters with two Exorcist Prioris: 35 points",
+            "Replace two units of Battle Sisters with two Exorcist Prioris: 50 points",
             "Ordo Hereticus Superior",
             "Hunter",
             "Transport"
@@ -91,9 +93,8 @@
           "name": "Immolation",
           "units": "One Palatine, three Celestian Sisters, three Sororitas Immolators",
           "extraUnits": [
-            "Hunter"
           ],
-          "points": 275
+          "points": 250
         },
         {
           "name": "Exorcism",
@@ -116,7 +117,7 @@
           "name": "Retribution",
           "units": "One Palatine, four Retributor Sisters, two Sororitas Rhinos",
           "extraUnits": [
-            "Replace two Sororitas Rhinos with two Sororitas Repressors: 25 points"
+            "Replace two Sororitas Rhinos with two Sororitas Repressors: 20 points"
           ],
           "points": 225
         },
@@ -131,7 +132,7 @@
           "name": "Dominus",
           "units": "One Palatine, four Dominion Sisters, two Sororitas Rhinos",
           "extraUnits": [
-            "Replace two Sororitas Rhinos with two Sororitas Repressors: 25 points"
+            "Replace two Sororitas Rhinos with two Sororitas Repressors: 20 points"
           ],
           "points": 175
         }
@@ -146,10 +147,17 @@
           "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
           "extraUnits": [
             "Add one Hydra: 50 points",
+            "Replace three Chimeras with three Valkyries: 50 points",
             "Hellhounds",
             "Ordo Hereticus Superior"
           ],
           "points": 250
+        },
+        {
+          "name": "Vulture",
+          "units": "Four Vultures",
+          "points": 300,
+          "extraUnits": []
         },
         {
           "name": "Redemption",
@@ -237,11 +245,11 @@
         "options": [
           {
             "description": "Add one Sororitas Stormlord (Mission only)",
-            "points": "125 points"
+            "points": "100 points"
           },
           {
             "description": "Add any number of Sororitas Immolators",
-            "points": "35 points each"
+            "points": "30 points each"
           },
           {
             "description": "Add any number of Sororitas Repressors",
