@@ -46,7 +46,8 @@
       "unitRules": [
       "Lance",
       "Shadowfields",
-      "Support Craft"
+      "Support Craft",
+      "Wind-Swift"
       ]
     },
     {
@@ -131,6 +132,15 @@
             ],
             "points": 150
           },
+          {
+            "name": "Wych Cult",
+            "units": "One Succubus, four Wyches",
+            "extraUnits": [
+              "Portable Webway",
+              "Black Heart Transport"
+            ],
+            "points": 175
+          },
         {
           "name": "Reaver Gang",
           "units": "Six Reaver Jet Bikes",
@@ -139,15 +149,7 @@
           ],
           "points": 200
         },
-        {
-          "name": "Wych Cult",
-          "units": "One Succubus, four Wyches",
-          "extraUnits": [
-            "Portable Webway",
-            "Black Heart Transport"
-          ],
-          "points": 200
-        },
+
         {
           "name": "Haemonculi Coven",
           "units": "Haemonculus Ancient, two Haemonculi and four Wracks",

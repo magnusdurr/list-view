@@ -77,6 +77,7 @@
           "Splinter Cannon"
         ],
         "specialRules": [
+            "Wind-Swift"
         ]
       },
       {
@@ -108,7 +109,8 @@
         ],
         "specialRules": [
           "Jump Packs",
-          "Teleport"
+          "Teleport",
+          "Wind-Swift"
         ]
       },
       {
@@ -157,7 +159,7 @@
       {
         "name": "Talos",
         "type": "AV",
-        "speed": 15,
+        "speed": 20,
         "armour": 5,
         "cc": 4,
         "ff": 5,
@@ -262,7 +264,8 @@
         ],
         "specialRules": [
           "Skimmer",
-          "Transport"
+          "Transport",
+          "Wind-Swift"
         ],
         "notes": "May carry one unit of Warriors, Incubi, Haemonculi, Wracks or Wyches"
       },
@@ -278,7 +281,8 @@
         ],
         "specialRules": [
           "Skimmer",
-          "Transport"
+          "Transport",
+          "Wind-Swift"
         ],
         "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches."
       },
@@ -294,7 +298,8 @@
           "Splinter Blast"
         ],
         "specialRules": [
-          "Skimmer"
+          "Skimmer",
+          "Wind-Swift"
         ]
       },
       {
