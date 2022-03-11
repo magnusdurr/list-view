@@ -8,6 +8,18 @@
         "name": "Warlord",
         "type": "CH",
         "weapons": [
+          "Doom Siren"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+          "Supreme Commander",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Emperor's Children Warlord",
+        "type": "CH",
+        "weapons": [
           "Power Weapon"
         ],
         "specialRules": [
@@ -103,6 +115,19 @@
         ]
       },
       {
+        "name": "Noise Lord",
+        "type": "CH",
+        "weapons": [
+          "Doom Siren"
+        ],
+        "specialRules": [
+          "Daemonic Focus",
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
+        ]
+      },
+      {
         "name": "Iron Warriors Warpsmith",
         "type": "CH",
         "weapons": [
@@ -171,6 +196,19 @@
           "Warp Bolt"
         ],
         "specialRules": [
+          "Leader",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Sorcerer of Slaanesh",
+        "type": "CH",
+        "weapons": [
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+        "Augment Summoning (+1)",
+        "Daemonic Focus",
           "Leader",
           "Invulnerable Save"
         ]

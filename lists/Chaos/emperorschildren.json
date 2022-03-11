@@ -18,11 +18,10 @@
     {
       "from": "CSM.json",
       "units": [
-        "Warlord",
-        "Chaos Lord",
-        "Sorcerer Lord",
+        "Emperor's Childen Warlord",
+        "Noise Lord",
+        "Sorcerer of Slaanesh",
         "Champion of Chaos",
-        "Icon Bearer",
         "Daemon Prince of Slaanesh",
         "Chaos Space Marines",
         "Noise Marine Havocs",
@@ -87,15 +86,15 @@
       "formations": [
         {
           "name": "Emperor's Children Retinue",
-          "units": "One Chaos Lord or Sorcerer Lord, three Noise Marines, three Chaos Space Marines, Daemonic Pact",
+          "units": "One Noise Lord or Sorcerer of Slaanesh, three Noise Marines, three Chaos Space Marines, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Retinue Transport",
             "Champion",
             "Stalker",
             "Dreadclaws",
-            "Icon Bearer",
             "Noise Marine Havocs",
+            "Predators",
             "Dreadnoughts"
           ],
           "points": 275
@@ -110,24 +109,31 @@
           "name": "Chosen",
           "units": "Four Chosen, two Emperor's Children Rhinos, Daemonic Pact",
           "extraUnits": [
-            "Replace two Emperor's Children Rhinos with two Emperor's Children Dreadnoughts: 75 points"
+              "Predators"
           ],
           "points": 175
         },
         {
           "name": "Emperor's Children Terminators",
-          "units": "One Chaos Lord or Sorcerer Lord, four Sirenshriek Terminators, Daemonic Pact",
+          "units": "One Noise Lord or Sorcerer of Slaanesh, four Sirenshriek Terminators, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Terminator Transport",
             "Champion",
             "Daemonic Pact",
             "Dreadclaws",
-            "Icon Bearer",
             "Dreadnoughts"
           ],
           "points": 400
-        }
+      },
+      {
+        "name": "Dreadnought Assault Pack",
+        "units": "Four Emperor's Children Dreadnoughts",
+        "extraUnits": [
+          "Dreadclaws"
+        ],
+        "points": 250
+      }
       ]
     },
     {
@@ -136,17 +142,17 @@
       "formations": [
         {
           "name": "Bike Company",
-          "units": "One Chaos Lord or Sorcerer Lord, six Chaos Assault Bikes, Daemonic Pact",
+          "units": "One Noise Lord or Sorcerer of Slaanesh, six Chaos Assault Bikes, Daemonic Pact",
           "extraUnits": [
-            "Icon Bearer"
+              "Predators"
           ],
           "points": 250
         },
         {
           "name": "Raptor Cult",
-          "units": "One Chaos Lord or Sorcerer Lord, four Raptors, Daemonic Pact",
+          "units": "One Noise Lord or Sorcerer of Slaanesh, four Raptors, Daemonic Pact",
           "extraUnits": [
-            "Add up to four Raptors: 30 points each"
+            "Predators"
           ],
           "points": 200
         },
@@ -226,12 +232,12 @@
         {
           "name": "Lesser Daemon Pool",
           "units": "Any amount of Lesser Daemon Pool points",
-          "points": 10
+          "points": 15
         },
         {
           "name": "Greater Daemon Pool",
           "units": "Any amount of Greater Daemon Pool points. The first one is free.",
-          "points": 40
+          "points": 50
         }
       ]
     }
@@ -250,11 +256,11 @@
         "description": "Choose one of the following:",
         "options": [
           {
-            "description": "Replace the Chaos Lord with a Warlord",
+            "description": "Replace the Noise Lord with a Emperor's Childen Warlord",
             "points": "50 points"
           },
           {
-            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Slaanesh",
+            "description": "Replace the Noise Lord and its unit with a Daemon Prince of Slaanesh",
             "points": "100 points"
           }
         ]
@@ -275,8 +281,8 @@
       },
       {
         "name": "Terminator Transport",
-        "description": "Add four Emperor's Children Land Raiders",
-        "points": "200 points"
+        "description": "Replace one Sirenshriek Terminator with three Emperor's Children Land Raiders",
+        "points": "75 points"
       },
       {
         "name": "Dreadnoughts",
@@ -289,14 +295,14 @@
         "points": "50 points"
       },
       {
-        "name": "Icon Bearer",
-        "description": "Add one Icon Bearer character",
-        "points": "25 points"
-      },
-      {
         "name": "Stalker",
         "description": "Add one Chaos Stalker to the formation",
         "points": "50 points"
+      },
+      {
+        "name": "Predators",
+        "description": "Add up to two Emperor's Children Predators",
+        "points": "50 points each"
       },
       {
         "name": "Dreadclaws",
