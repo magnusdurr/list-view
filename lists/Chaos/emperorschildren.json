@@ -18,9 +18,8 @@
     {
       "from": "CSM.json",
       "units": [
-        "Emperor's Childen Warlord",
+        "Noise Warlord",
         "Noise Lord",
-        "Sorcerer of Slaanesh",
         "Champion of Chaos",
         "Daemon Prince of Slaanesh",
         "Chaos Space Marines",
@@ -86,7 +85,7 @@
       "formations": [
         {
           "name": "Emperor's Children Retinue",
-          "units": "One Noise Lord or Sorcerer of Slaanesh, three Noise Marines, three Chaos Space Marines, Daemonic Pact",
+          "units": "One Noise Lord, three Noise Marines, three Chaos Space Marines, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Retinue Transport",
@@ -115,7 +114,7 @@
         },
         {
           "name": "Emperor's Children Terminators",
-          "units": "One Noise Lord or Sorcerer of Slaanesh, four Sirenshriek Terminators, Daemonic Pact",
+          "units": "One Noise Lord, four Sirenshriek Terminators, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
             "Terminator Transport",
@@ -142,7 +141,7 @@
       "formations": [
         {
           "name": "Bike Company",
-          "units": "One Noise Lord or Sorcerer of Slaanesh, six Chaos Assault Bikes, Daemonic Pact",
+          "units": "One Noise Lord, six Chaos Assault Bikes, Daemonic Pact",
           "extraUnits": [
               "Predators"
           ],
@@ -150,7 +149,7 @@
         },
         {
           "name": "Raptor Cult",
-          "units": "One Noise Lord or Sorcerer of Slaanesh, four Raptors, Daemonic Pact",
+          "units": "One Noise Lord, four Raptors, Daemonic Pact",
           "extraUnits": [
             "Predators"
           ],
@@ -256,7 +255,7 @@
         "description": "Choose one of the following:",
         "options": [
           {
-            "description": "Replace the Noise Lord with a Emperor's Childen Warlord",
+            "description": "Replace the Noise Lord with a Noise Warlord",
             "points": "50 points"
           },
           {
