@@ -6,7 +6,7 @@
   "armyforge": "EAR_Chaos_EmperorsChildren",
   "intro": "The Emperor's Children is superficially similar to Black Legion, but has better access to quick and dependable Daemon Engines, as well as powerful Fearless units.",
   "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
-  "Initiative": "All Emperor's Children Core, Elite and Support formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "All Emperor's Children Core, Support and the Chosen formation have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Summoning",
     "Emperor's Children Summoning Rules",
@@ -97,8 +97,19 @@
             "Dreadnoughts"
           ],
           "points": 275
-        }
-      ]
+        },
+        {
+          "name": "Emperor's Children Terminators",
+          "units": "One Noise Lord, four Sirenshriek Terminators, Daemonic Pact",
+          "extraUnits": [
+            "Supreme Commander",
+            "Terminator Transport",
+            "Champion",
+            "Dreadclaws",
+            "Dreadnoughts"
+          ],
+          "points": 400
+      }      ]
     },
     {
       "name": "Emperor's Children Elite Formations",
@@ -111,19 +122,13 @@
               "Replace two Emperor's Children Rhinos with two Emperor's Children Dreadnoughts: 75 points"
           ],
           "points": 175
-        },
-        {
-          "name": "Emperor's Children Terminators",
-          "units": "One Noise Lord, four Sirenshriek Terminators, Daemonic Pact",
-          "extraUnits": [
-            "Supreme Commander",
-            "Terminator Transport",
-            "Champion",
-            "Daemonic Pact",
-            "Dreadclaws",
-            "Dreadnoughts"
-          ],
-          "points": 400
+      },
+      {
+        "name": "Slaanesh Defiler Pack",
+        "units": "Four Debasers",
+        "extraUnits": [
+        ],
+        "points": 250
       }
       ]
     },
@@ -163,13 +168,6 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Slaanesh Defiler Pack",
-          "units": "Four Debasers",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
           "name": "Hell-Striders of Slaanesh",
           "units": "Four Hell-Striders",
           "upgrades": [
@@ -179,12 +177,12 @@
         {
           "name": "Hell Knights",
           "units": "Three Hell Knights",
-          "points": 350
+          "points": 325
         },
         {
           "name": "Hell Scourges",
           "units": "Three Hell Scourges",
-          "points": 350
+          "points": 325
         },
         {
           "name": "Questor",
