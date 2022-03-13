@@ -79,8 +79,8 @@
         "Defiler",
         "Decimator",
         "Death Wheel",
-        "Subjugator",
-        "Questor",
+        "Hell-Knight",
+        "Hell-Scourge",
         "Plague Tower",
         "Plague Reaper",
         "Daemonic Assault Engine",
@@ -91,7 +91,8 @@
       "unitRules": [
         "Regeneration",
         "Void Shields",
-        "Daemon Engine (x)"
+        "Daemon Engine (x)",
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -214,14 +215,14 @@
           "points": 300
         },
         {
-          "name": "Questor of Slaanesh",
-          "units": "One Questor",
-          "points": 275
+          "name": "Hell-Knights",
+          "units": "Three Hell-Knights",
+          "points": 325
         },
         {
-          "name": "Subjugator of Slaanesh",
-          "units": "One Subjugator",
-          "points": 275
+          "name": "Hell-Scourges",
+          "units": "Three Hell-Scourges",
+          "points": 325
         },
         {
           "name": "Plague Reaper of Nurgle",
