@@ -5,7 +5,7 @@
   "release": "2020-01-11",
   "armyforge": "EAR_Inquisition_AdeptaSororitas",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
-  "Initiative": "Ordo Hereticus and Imperial Navy formations have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
+  "Initiative": "Ordo Hereticus formations including the Inquisitor Retinue, and Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
   "specialRules": [
   ],
   "units": [
@@ -82,7 +82,18 @@
             "Transport"
           ],
           "points": 250
-        }
+      },
+      {
+        "name": "0-1 Ordo Hereticus Inquisitor Retinue",
+        "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
+        "extraUnits": [
+          "Add one Hydra: 50 points",
+          "Replace three Chimeras with three Valkyries: 50 points",
+          "Hellhounds",
+          "Ordo Hereticus Superior"
+        ],
+        "points": 250
+      }
       ]
     },
     {
@@ -140,19 +151,8 @@
     },
     {
       "name": "Ordo Hereticus Formations",
-      "description": "One Ordo Hereticus Formation may be taken per Adepta Sororitas Core Formation or Inquisitor Retinue",
+      "description": "One Ordo Hereticus Formation may be taken per Adepta Sororitas Core Formation",
       "formations": [
-        {
-          "name": "0-1 Ordo Hereticus Inquisitor Retinue",
-          "units": "One Ordo Hereticus Inquisitor, five Storm Troopers, three Chimeras",
-          "extraUnits": [
-            "Add one Hydra: 50 points",
-            "Replace three Chimeras with three Valkyries: 50 points",
-            "Hellhounds",
-            "Ordo Hereticus Superior"
-          ],
-          "points": 250
-        },
         {
           "name": "Vulture",
           "units": "Four Vultures",
@@ -163,7 +163,7 @@
           "name": "Redemption",
           "units": "One Ministorum Priest, eight Redemptionists, four Ordo Hereticus Land Transporters",
           "extraUnits": [
-            "Replace four Ordo Hereticus Land Transporters with three Arco-Flagellants or two Penitent Engines: Free"
+            "Replace four Ordo Hereticus Land Transporters and four Redemptionists with six Arco-Flagellants, or four Penitent Engines: 75 points"
           ],
           "points": 150
         },
