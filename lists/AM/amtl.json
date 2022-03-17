@@ -39,10 +39,11 @@
         "Secutarii Hoplites",
         "Secutarii Pelasts",
         "Electro-Priests",
+        "Chimera",
+        "Chimedon",
         "Kastelan Robot",
         "Castellax Battle-Automata",
         "Ordinatus Minoris ",
-        "Gorgon",
         "Avenger Strike Fighter",
         "Lysander Fighter",
         "Ark Mechanicus Battleship"
@@ -128,13 +129,12 @@
       "formations": [
         {
           "name": "Secutarii Titan Guard",
-          "units": "One Secutarii Axiarch, ten Secutarii Hoplites and/or Secutarii Pelasts",
+          "units": "One Secutarii Axiarch, eight Secutarii Hoplites or eight Secutarii Pelasts",
           "extraUnits": [
-            "Replace up to four Secutarii Hoplites with Electro-Priests: Free",
-            "Add one Gorgon: 100 points",
-            "Add one Ordinatus Minoris: 125 points"
+            "Add two Electro-Priests: 25 points",
+            "Replace two Secutarii Hoplites or Pelasts with three Chimeras or three Chimedons: 25 points"
           ],
-          "points": 225
+          "points": 175
         },
         {
           "name": "Kastelan Maniple",
@@ -152,11 +152,12 @@
           "points": 175
         },
         {
-          "name": "Minoris Maniple",
-          "units": "Two Ordinatus Minoris",
+          "name": "Minoris",
+          "units": "Ordinatus Minoris",
           "extraUnits": [
+              "Add one Ordinatus Minoris: 125 points"
           ],
-          "points": 325
+          "points": 200
         }
       ]
     },
