@@ -111,11 +111,13 @@
       "formations": [
         {
           "name": "Traitor Guard",
-          "units": "One Fallen Commander, seven units of Infantry",
+          "units": "One Fallen Commander, nine units of Infantry",
           "extraUnits": [
+            "Replace two units of Infantry with four Land Transporters: 25 points",
+            "Replace four units of Infantry with three Chimeras: 25 points",
             "All"
           ],
-          "points": 175
+          "points": 200
         }
       ]
     },
@@ -316,8 +318,8 @@
       },
       {
         "name": "Hellhounds",
-        "description": "Add up to two Hellhounds",
-        "points": "25 points each"
+        "description": "Add one Hellhound",
+        "points": "25 points"
       },
       {
         "name": "Griffons",
@@ -333,7 +335,7 @@
             "points": "50 points"
           },
           {
-            "description": "Three Leman Russ variants",
+            "description": "Three Leman Russ of one variant",
             "points": "150 points"
           }
         ]
