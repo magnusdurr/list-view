@@ -58,7 +58,7 @@ var eaNav = (function () {
         var urlSearchParams = new URLSearchParams(new URL(window.location.href).search);
         var content = urlSearchParams.get("content");
         if (!content) {
-            content = "armies" // Default content
+            content = "intro" // Default content
         }
         var contentUrl = "content/" + content + ".html"
         $('.nav-link').filter($('a[href="' + contentUrl + '"]')).addClass("active")
