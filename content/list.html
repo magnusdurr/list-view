@@ -1,6 +1,10 @@
 <script>
     $(document).ready(function () {
         console.log("[document-ready] initializing army list...");
+        var content = $("#content");
+        content.append("<div class=\"progress\" style=\"margin-top: 5em\">\n" +
+            "    <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 50%\"></div>\n" +
+            "</div>")
 
         var urlSearchParams = new URLSearchParams(new URL('http://localhost' + history.state.url).search);
         var race = urlSearchParams.get("race");
@@ -9,7 +13,8 @@
         if (race && list) {
             $.when(units.loadSpecialRules(), units.loadWeapons()).done(function (specialRules, weapons) {
                 $.getJSON("lists/" + race + "/" + list + ".json", function (data) {
-                        var content = $("#content");
+
+                        content.empty()
                         content.append(eaTemplating.templates['error']({"errors": units.errors}));
 
                         content.append(eaTemplating.templates['army'](units.formatSpecialRules(data, specialRules)));
