@@ -28,12 +28,11 @@
         "Daemon Prince of Nurgle",
         "Chaos Space Marines",
         "Havocs",
-        "Chosen",
         "Blightlord Terminators",
         "Plague Marines",
         "Death Guard Rhino",
         "Chaos Spartan Assault Tank",
-        "Chaos Land Raider",
+        "Death Guard Land Raider",
         "Death Guard Vindicator",
         "Chaos Dreadnought",
         "Death Guard Stalker"
@@ -47,7 +46,7 @@
     {
       "from": "chaoscultists.json",
       "units": [
-        "Plague Zombies of Nurgle"
+        "Poxwalkers of Nurgle"
       ],
       "unitRules": [
         "Infestation"
@@ -63,6 +62,7 @@
         "Plague Reaper"
       ],
       "unitRules": [
+        "Regeneration",
         "Daemon Engine (x)"
       ]
     },
@@ -107,7 +107,7 @@
           "units": "One Chaos Lord or Sorcerer Lord, four Plague Marines, three Chaos Space Marines, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
-            "Death Guard Transport",
+            "Retinue Transport",
             "Champion",
             "Stalker",
             "Icon Bearer",
@@ -115,14 +115,14 @@
             "Havocs",
             "Dreadnoughts"
           ],
-          "points": 325
+          "points": 300
         },
         {
           "name": "Death Guard Terminators",
           "units": "One Chaos Lord or Sorcerer Lord, four Blightlord Terminators, Daemonic Pact",
           "extraUnits": [
             "Supreme Commander",
-            "Death Guard Transport",
+            "Terminator Transport",
             "Champion",
             "Icon Bearer",
             "Vindicators",
@@ -137,20 +137,23 @@
       "description": "One Elite formation may be taken per Core formation",
       "formations": [
         {
-          "name": "Chosen",
-          "units": "Four Chosen, two Death Guard Rhinos, Daemonic Pact",
+          "name": "Havocs",
+          "units": "One Chaos Lord or Sorcerer Lord, four Havocs, Daemonic Pact",
           "extraUnits": [
-            "Replace two Death Guard Rhinos with 2 Chaos Dreadnoughts: 75 points",
-            "Vindicators"
+            "Havoc Transport",
+            "Dreadnoughts",
+            "Vindicators",
+            "Icon Bearer",
+            "Stalker"
           ],
-          "points": 175
+          "points": 225
         },
         {
           "name": "Armoured Company",
           "units": "Five Death Guard Vindicators",
           "extraUnits": [
-            "Replace five Death Guard Vindicators with four Chaos Land Raiders: 25 points",
-            "Vindicators",
+            "Replace five Death Guard Vindicators with four Death Guard Land Raiders: 25 points",
+            "Add two Death Guard Vindicators: 80 points",
             "Stalker"
           ],
           "points": 250
@@ -159,26 +162,27 @@
     },
     {
       "name": "Death Guard Support Formations",
-      "description": "Up to two Support Formations may be taken per Core Formation. In addition, Plague Zombie Infestation are 0-1 for each part of 1500 points in the army",
+      "description": "Up to two Support Formations may be taken per Core Formation.",
       "formations": [
         {
-          "name": "Plague Zombie Infestation",
-          "units": "7 Plague Zombies",
-          "points": 200
+          "name": "Poxwalker Infestation",
+          "units": "7 Poxwalkers",
+          "points": 150
         },
         {
-          "name": "Plague Reaper",
+          "name": "Plague Reapers",
           "units": "One Plague Reaper",
           "extraUnits": [
+              "Add up to two Plague Reapers: 150 points each"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Nurgle Defiler Pack",
           "units": "Four Desecrators",
           "extraUnits": [
           ],
-          "points": 225
+          "points": 275
         },
         {
           "name": "Blight Drones",
@@ -192,7 +196,7 @@
           "units": "One Plague Tower",
           "extraUnits": [
           ],
-          "points": 275
+          "points": 225
         },
         {
           "name": "Contagion Engines",
@@ -274,11 +278,11 @@
         ]
       },
       {
-        "name": "Death Guard Transport",
-        "description": "Add transports to the formation, up to the number required to transport all infantry units in the formation",
+        "name": "Retinue Transport",
+        "description": "Choose one of the following:",
         "options": [
           {
-            "description": "Add four Death Guard Rhinos (Retinue only)",
+            "description": "Add four Death Guard Rhinos",
             "points": "50 points"
           },
           {
@@ -286,14 +290,46 @@
             "points": "150 points"
           },
           {
-            "description": "Add four Chaos Land Raiders",
+            "description": "Add four Death Guard Land Raiders",
             "points": "200 points"
           }
         ]
       },
       {
+        "name": "Terminator Transport",
+        "description": "Choose one of the following:",
+        "options": [
+          {
+            "description": "Add two Chaos Spartan Assault Tanks",
+            "points": "150 points"
+          },
+          {
+            "description": "Replace one Blightlord Terminator with three Land Raiders",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Retinue Transport",
+        "description": "Choose one of the following:",
+        "options": [
+          {
+            "description": "Add two Death Guard Rhinos",
+            "points": "25 points"
+          },
+          {
+            "description": "Add a Chaos Spartan Assault Tank",
+            "points": "75 points"
+          },
+          {
+            "description": "Add two Death Guard Land Raiders",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
         "name": "Dreadnoughts",
-        "description": "Add up to two Death Guard Dreadnoughts to the formation",
+        "description": "Add up to two Dreadnoughts to the formation",
         "points": "50 points each"
       },
       {
@@ -313,8 +349,8 @@
       },
       {
         "name": "Vindicators",
-        "description": "Add two Death Guard Vindicators",
-        "points": "100 points"
+        "description": "Add up to 2 Death Guard Vindicators",
+        "points": "40 points each"
       },
       {
         "name": "Havocs",

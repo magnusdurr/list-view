@@ -1169,7 +1169,7 @@
         ],
         "specialRules": [
           "Reinforced Armour",
-          "Invulnerable Save",
+          "Walker",
           "Thick Rear Armour",
           "Transport"
         ],
@@ -1530,10 +1530,10 @@
       {
         "name": "Chaos Spartan Assault Tank",
         "type": "H-AV",
-        "speed": 25,
+        "speed": 20,
         "armour": 4,
         "cc": 6,
-        "ff": 4,
+        "ff": 3,
         "weapons": [
           "Twin Reaper Autocannon|2|",
           "Twin Heavy Flamer"
@@ -1541,6 +1541,7 @@
         "specialRules": [
           "Reinforced Armour",
           "Thick Rear Armour",
+          "Walker",
           "Transport"
         ],
         "notes": "May transport four infantry units without Jump Packs or Mounted. Terminators count as two units each."

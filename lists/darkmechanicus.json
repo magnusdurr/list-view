@@ -785,10 +785,10 @@
       {
         "name": "Desecrator",
         "type": "AV",
-        "speed": 20,
+        "speed": 15,
         "armour": 4,
         "cc": 4,
-        "ff": 3,
+        "ff": 4,
         "weapons": [
           "Reaper Autocannon",
           "Vomit Cannon",
@@ -798,7 +798,7 @@
           "Fearless",
           "Walker",
           "Infiltrators",
-          "Invulnerable Save",
+          "Regeneration",
           "Daemon Engine (Nurgle)"
         ]
       },
@@ -816,7 +816,7 @@
         "specialRules": [
           "Fearless",
           "Skimmer",
-          "Invulnerable Save",
+          "Regeneration",
           "Daemon Engine (Nurgle)"
         ]
       },
@@ -833,7 +833,7 @@
         ],
         "specialRules": [
           "Fearless",
-          "Invulnerable Save",
+          "Regeneration",
           "Daemon Engine (Nurgle)"
         ]
       },
@@ -841,7 +841,7 @@
         "name": "Plague Reaper",
         "type": "WE",
         "speed": 15,
-        "armour": 4,
+        "armour": 5,
         "cc": 5,
         "ff": 3,
         "weapons": [
@@ -855,7 +855,7 @@
           "Damage Capacity 3",
           "Reinforced Armour",
           "Fearless",
-          "Invulnerable Save",
+          "Regeneration",
           "Daemon Engine (Nurgle)"
         ],
         "crit": "The Plague Reaper is destroyed. All units within 5cm suffers a hit on 6+."
@@ -878,7 +878,7 @@
           "Walker",
           "Reinforced Armour",
           "Thick Rear Armour",
-          "Invulnerable Save",
+          "Regeneration",
           "Daemon Engine (Nurgle)"
         ],
         "crit": "The Knight-Desecrator is destroyed."
@@ -897,9 +897,9 @@
           "Nurglings"
         ],
         "specialRules": [
-          "Damage Capacity 5",
+          "Damage Capacity 4",
           "Fearless",
-          "Invulnerable Save",
+          "Regeneration",
           "Daemon Engine (Nurgle)",
           "Transport"
         ],

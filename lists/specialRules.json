@@ -91,9 +91,9 @@
     {
       "title": "Ion Shield (x)",
       "description": [
-        "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
+        "Knights make use of Ion Shields to deflect shooting and firefight attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
         "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (each point of damage from a Titan Killer hit must be saved separately. Is affected normally by hits with the Disrupt special rule). If the unit has Reinforced Armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
-        "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
+        "Ion Shields may only be used against shooting unless the unit is in a Crossfire, and against FF unless the hit is caused by a unit in support. They may not be used against CC attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields."
       ]
     },
     {
@@ -872,8 +872,8 @@
     {
       "title": "Infestation",
       "description": [
-        "Formations completely made up of units with the infestation special rule must be held in reserve and deployed using the teleport rules.",
-        "In addition units with the infestation ability may never contest scenario objectives."
+        "Formations completely made up of units with the 'Infestation' special rule must be held in reserve and deployed using the teleport rules.",
+        "In addition units with the infestation ability may only contest scenario objectives."
       ]
     },
     {

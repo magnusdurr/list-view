@@ -259,15 +259,15 @@
         "crit": "The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
       },
       {
-        "name": "Plague Zombies of Nurgle",
+        "name": "Poxwalkers of Nurgle",
         "type": "INF",
         "speed": 10,
         "cc": 6,
         "weapons": [
-          "Rotten Teeth"
+          "Walking Pox"
         ],
         "specialRules": [
-          "Fearless",
+          "Regeneration",
           "Infiltrators",
           "Infestation"
         ]
