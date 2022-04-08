@@ -28,6 +28,7 @@
         "Obliterators",
         "Iron Warriors Basilisk",
         "Bezashk Medusa",
+        "Chaos Spartan Assault Tank",
         "Chaos Typhon Heavy Siege Tank",
         "Chaos Rhino",
         "Chaos Siege Rhino",
@@ -91,18 +92,19 @@
           "name": "Iron Warriors Armoured Company",
           "units": "Six Chaos Vindicators",
           "extraUnits": [
-            "Replace six Chaos Vindicators with six Chaos Predators (25 points) or six Chaos Land Raiders (125 points)"
+            "Replace six Chaos Vindicators with six Chaos Predators (25 points), three Chaos Spartan Assault Tanks (75 points), or six Chaos Land Raiders (125 points)"
           ],
           "points": 275
         },
         {
           "name": "Havocs",
-          "units": "One Iron Warriors Warpsmith, four Havocs, two Chaos Land Raiders",
+          "units": "One Iron Warriors Warpsmith, four Havocs, Chaos Spartan Assault Tank",
           "extraUnits": [
+            "Replace the Chaos Spartan Assault Tank with two Chaos Land Raiders: 25 points",
             "Supreme Commander",
             "Vindicators"
           ],
-          "points": 300
+          "points": 275
         }
       ]
     },
@@ -286,7 +288,11 @@
           {
             "description": "Add up to three Chaos Land Raiders",
             "points": "50 points each"
-          }
+        },
+        {
+          "description": "Add up to two Chaos Spartan Assault Tanks",
+          "points": "75 points each"
+        }
         ]
       },
       {
