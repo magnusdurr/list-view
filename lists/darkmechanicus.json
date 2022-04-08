@@ -785,13 +785,13 @@
       {
         "name": "Desecrator",
         "type": "AV",
-        "speed": 15,
+        "speed": 20,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 4,
         "weapons": [
-          "Reaper Autocannon",
-          "Vomit Cannon",
+          "Twin Reaper Autocannon",
+          "Plague Cannon",
           "Battle Claws"
         ],
         "specialRules": [
@@ -900,7 +900,6 @@
           "Damage Capacity 4",
           "Fearless",
           "Regeneration",
-          "Walker",
           "Daemon Engine (Nurgle)",
           "Transport"
         ],
