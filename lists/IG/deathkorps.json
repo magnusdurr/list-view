@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "1.0.Beta",
-  "release": "2022-04-01",
+  "version": "1.0.Beta-2",
+  "release": "2022-05-06",
   "armyforge": "EAR_ImperialGuard_DKoK",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -29,6 +29,7 @@
         "Earthshaker Gun",
         "Heavy AA Gun",
         "Trojan",
+        "Bombard",
         "Griffon",
         "Deathstrike",
         "Bane Wolf",
@@ -81,7 +82,7 @@
             "Leman Russ",
             "Bane Wolves"
           ],
-          "points": 325
+          "points": 300
         },
         {
           "name": "Assault Company",
@@ -90,7 +91,7 @@
             "Leman Russ",
             "Bane Wolves"
           ],
-          "points": 275
+          "points": 250
         },
         {
           "name": "Death Rider Company",
@@ -107,12 +108,12 @@
       "description": "Up to two Support Formations for each Company Formation.",
       "formations": [
         {
-          "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ, Leman Russ Thunderers, or Leman Russ Annihilators",
+          "name": "Leman Russ Squadron",
+          "units": "Four Leman Russ, Leman Russ Thunderers, or Leman Russ Annihilators",
           "extraUnits": [
             "Bane Wolves"
           ],
-          "points": 375
+          "points": 275
         },
         {
           "name": "Siege Infantry Company",
@@ -141,6 +142,13 @@
           "points": 175
         },
         {
+          "name": "Bombard Battery",
+          "units": "Three Bombards",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
           "name": "Griffon Battery",
           "units": "Three Griffons",
           "extraUnits": [
@@ -166,7 +174,7 @@
           "units": "One Macharius Command with a Commissar, two Macharius",
           "upgrades": [
           ],
-          "points": 375
+          "points": 350
         },
         {
           "name": "Grenadier Company",
@@ -175,7 +183,7 @@
             "Replace four Storm Chimeras with a Gorgon: Free",
             "Bane Wolf"
           ],
-          "points": 350
+          "points": 325
         },
         {
           "name": "Armoured Sentinel Squadron",
