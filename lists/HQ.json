@@ -13,22 +13,19 @@
         "specialRules": [
           "Leader",
           "Commander"
-        ]
+        ],
+        "notes": "May only join Harlequin Troupes or Skyweaver Jetbikes."
       },
       {
         "name": "Shadowseer",
         "type": "CH",
         "weapons": [
-          "Miststave",
           "Shards of Light"
         ],
         "specialRules": [
-          "Leader",
-          "Invulnerable Save",
-          "Farsight",
           "Shadowsight"
         ],
-        "notes": "May only join Harlequin Troupes."
+        "notes": "May only join Harlequin Troupes or Skyweaver Jetbikes."
       },
       {
         "name": "Master Mime",
@@ -37,7 +34,6 @@
           "Monomolecular Blade"
         ],
         "specialRules": [
-          "Inspiring",
           "Leader"
         ]
       },
@@ -51,13 +47,12 @@
           "Harlequins Kiss"
         ],
         "specialRules": [
+          "Holofield (3+)",
           "Scout",
-          "Invulnerable Save",
           "First Strike",
           "Fearless",
           "Infiltrators",
           "Inspiring",
-          "Holofield (3+)",
           "Teleport",
           "Shadowsight"
         ],
@@ -72,10 +67,10 @@
           "Mime Concealed Blades"
         ],
         "specialRules": [
-          "Scout",
-          "Teleport",
           "Holofield (5+)",
-          "Infiltrators"
+          "Scout",
+          "Infiltrators",
+        "Teleport"
         ]
       },
       {
@@ -89,7 +84,9 @@
         ],
         "specialRules": [
           "Holofield (5+)",
-          "Infiltrators"
+          "Infiltrators",
+          "Teleport",
+          "Wind-Swift"
         ]
       },
       {
@@ -103,11 +100,12 @@
         ],
         "specialRules": [
           "Holofield (5+)",
-          "Infiltrators"
+          "Infiltrators",
+          "Teleport"
         ]
       },
       {
-        "name": "Skyweaver",
+        "name": "Skyweaver Jetbikes",
         "type": "INF",
         "speed": 40,
         "armour": 5,
@@ -118,8 +116,10 @@
           "Zepyrglaive"
         ],
         "specialRules": [
+          "Holofield (5+)",
           "Skimmer",
-          "Holofield (5+)"
+          "Teleport",
+          "Wind-Swift"
         ]
       },
       {
@@ -134,8 +134,10 @@
           "Shuriken Cannon"
         ],
         "specialRules": [
-          "Skimmer",
-          "Holofield (5+)"
+            "Holofield (5+)",
+            "Skimmer",
+            "Teleport",
+            "Wind-Swift"
         ]
       },
       {
@@ -149,9 +151,10 @@
           "Shuriken Catapults"
         ],
         "specialRules": [
-          "Skimmer",
-          "Holofield (5+)",
-          "Transport 1 (May carry one Harlequins Troupe, Death Jesters, Mimes or Solitaire)"
+        "Holofield (5+)",
+            "Skimmer",
+            "Teleport",
+          "Transport 1 (May carry one Harlequins Troupe, Death Jesters, or Solitaire)"
         ]
       }
     ]

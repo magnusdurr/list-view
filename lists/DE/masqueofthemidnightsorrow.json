@@ -4,7 +4,7 @@
   "version": "0.6.3",
   "release": "2022-04-01",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Wraithkind Kabals, Harleqins, Wych Cult, and Tormentor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Wraithkind Kabals, Harlequins, Wych Cult, and Tormentor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Fleet of Foot",
     "Hit and Run",
@@ -12,7 +12,6 @@
     "May not Garrison (Wraithkind)",
     "Webway Portal",
     "Cegorach, the Laughing God",
-    "Shadowsight",
     "Masters of the Webway"
   ],
   "usage": [
@@ -42,7 +41,8 @@
       ],
       "unitRules": [
           "Lance",
-          "Shadowfields"
+          "Shadowfields",
+          "Wind-Swift"
       ]
     },
     {
@@ -55,11 +55,12 @@
         "Mimes",
         "Death Jesters",
         "Harlequin Troupe",
-        "Skyweaver",
+        "Skyweaver Jetbikes",
         "Starweaver",
         "Voidweaver"
       ],
       "unitRules": [
+          "Shadowsight"
       ]
     },
     {
@@ -80,12 +81,11 @@
       "name": "Wraithkind Special",
       "formations": [
         {
-          "name": "1 Wraithgates",
+          "name": "0-1 Wraithgate",
           "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
           "extraUnits": [
-            "Add an additional Wraithgate: 75 points"
           ],
-            "points": 0
+            "points": 50
         }
       ]
     },
@@ -130,28 +130,29 @@
       "name": "Wraithkind Partisans",
       "description": "Up to one Wraithkind Partisans for each Wraithkind Kabal",
       "formations": [
+          {
+            "name": "Hellion Murder",
+            "units": "Six Hellion Skyboards",
+            "extraUnits": [
+                "Add up to two Hellion Skyboards: 25 points each",
+                "Add up to two Warp Beasts: 25 points each"
+            ],
+            "points": 150
+          },
+          {
+            "name": "Wych Cult",
+            "units": "One Succubus, four Wyches",
+            "extraUnits": [
+              "Portable Webway Portal",
+              "Wraithkind Transport"
+            ],
+            "points": 175
+          },
         {
           "name": "Reaver Gang",
           "units": "Six Reaver Jet Bikes",
           "extraUnits": [
             "Add up to two Reaver Jet Bikes: 25 points each"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Hellion Murder",
-          "units": "Six Hellion Skyboards",
-          "extraUnits": [
-            "Add up to two Warp Beasts: 25 points each"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Wych Cult",
-          "units": "One Succubus, four Wyches",
-          "extraUnits": [
-            "Portable Webway Portal",
-            "Wraithkind Transport"
           ],
           "points": 200
         },
@@ -176,50 +177,38 @@
       "description": "Up to one Midnight Sorrow Saedath for each Wraithkind Kabal",
       "formations": [
         {
-          "name": "Cegorach's Escape",
-          "units": "One Harleqin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
+          "name": "Asuryan's Wager",
+          "units": "One Harlequin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
           "extraUnits": [
+             "Portable Webway Portal",
+             "Shadowseer"
           ],
           "points": 200
         },
         {
-          "name": "Asuryan's Wager",
-          "units": "One Harlequin Avatar, one Harlequin Troupe, three Death Jesters, four Starweavers",
-          "extraUnits": [
-            "Portable Webway Portal"
-          ],
-          "points": 275
-        },
-        {
           "name": "Serpent's Blood",
-          "units": "One Harlequin Avatar, four Skyweavers, three Voidweavers",
+          "units": "One Harlequin Avatar, three Skyweaver Jetbikes, three Voidweavers",
           "extraUnits": [
-            "Portable Webway Portal"
+              "Portable Webway Portal",
+              "Shadowseer"
           ],
-          "points": 275
+          "points": 225
         },
         {
           "name": "Cegorach's Revenge",
-          "units": "One Harlequin Avatar, two Harlequin Troupes, two Death Jesters, four Starweavers, three Skyweavers",
+          "units": "One Harlequin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers, three Skyweaver Jetbikes",
           "extraUnits": [
-            "Portable Webway Portal"
+              "Portable Webway Portal",
+              "Shadowseer"
           ],
-          "points": 325
+          "points": 250
         },
         {
           "name": "0-1 Devourer's Feast",
-          "units": "One Master Mime, one Solitaire, eight Mimes",
+          "units": "One Master Mime, one Solitaire, six Mimes",
           "extraUnits": [
           ],
-          "points": 350
-        },
-        {
-          "name": "0-1 Isha's Tears",
-          "units": "One Harlequin Avatar, one Shadowseer, two Harlequin Troupes, four Death Jesters, six Starweavers",
-          "extraUnits": [
-            "Portable Webway Portal"
-          ],
-          "points": 450
+          "points": 300
         }
       ]
     },
@@ -232,7 +221,7 @@
           "units": "One Tormentor Titan",
           "extraUnits": [
           ],
-          "points": 350
+          "points": 375
         },
         {
           "name": "Razorwing Cast",
@@ -248,13 +237,6 @@
           ],
           "points": 225
         },
-        {
-          "name": "Slavebringer",
-          "units": "One Slavebringer Assault Boat",
-          "extraUnits": [
-          ],
-          "points": 200
-      },
       {
         "name": "0-1 Orbital Support",
         "units": "One Torture Class Cruiser",
@@ -297,7 +279,12 @@
           "Tantalus: 25 points",
           "0-1 Barge of Pleasure: 125 points"
         ]
-      }
+        },
+    {
+      "name": "Shadowseer",
+      "description": "Add a Shadowseer to a unit of Harlequin Troupes, or Skyweaver Jetbikes.",
+      "points": "50 points"
+    }
     ]
   }
 }
