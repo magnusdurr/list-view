@@ -70,6 +70,7 @@
           "name": "1 Siegemaster Regimental HQ",
           "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
+            "Siege Infantry",
             "Support Weapons",
             "Snipers",
             "Heavy Tanks",
@@ -82,6 +83,7 @@
           "name": "Siege Infantry Company",
           "units": "One Baran Commander with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
           "extraUnits": [
+            "Siege Infantry",
             "Support Weapons",
             "Snipers",
             "Heavy Tanks",
@@ -220,6 +222,15 @@
           {
             "description": "Add three Thudd Guns, 12cm Trenches",
             "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Siege Infantry",
+        "options": [
+          {
+            "description": "Replace 40cm of Trenches and 40cm of Razor Wire with 5 Siege Infantry",
+            "points": "Free"
           }
         ]
       },
