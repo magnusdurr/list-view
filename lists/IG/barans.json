@@ -32,6 +32,8 @@
         "Heavy AA Gun",
         "Medusa Gun",
         "Bombard",
+        "Griffon",
+        "Bane Wolf",
         "Deathstrike",
         "Howitzer",
         "Ragnarok Heavy Tank",
@@ -87,7 +89,15 @@
             "Deathstrike"
           ],
           "points": 275
-        }
+      },
+      {
+        "name": "Heavy Tank Emplacement",
+        "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements,",
+        "extraUnits": [
+          "Heavy Tanks"
+        ],
+        "points": 400
+      }
       ]
     },
     {
@@ -95,17 +105,10 @@
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
         {
-          "name": "Heavy Tank Emplacement",
-          "units": "Four Ragnarok Heavy Tanks, four Gun Emplacements,",
-          "extraUnits": [
-            "Heavy Tanks"
-          ],
-          "points": 325
-        },
-        {
           "name": "Macharius Company",
           "units": "One Macharius Command with a Commissar, two Macharius",
           "extraUnits": [
+              "Bane Wolf"
           ],
           "points": 350
         },
@@ -127,6 +130,7 @@
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade, Shadowsword, or Stormsword",
           "extraUnits": [
+              "Bane Wolf"
           ],
           "points": 200
         },
@@ -146,14 +150,26 @@
           "points": 175
         },
         {
+          "name": "Griffon Battery",
+          "units": "Three Griffons",
+          "extraUnits": [
+              "Bane Wolf"
+          ],
+          "points": 175
+        },
+        {
           "name": "Death Rider Platoon",
           "units": "Six Death Riders",
+          "extraUnits": [
+              "Bane Wolf"
+          ],
           "points": 150
         },
         {
           "name": "Siege Recon Squadron",
           "units": "Four Siegfried Light Tanks",
           "extraUnits": [
+              "Bane Wolf"
           ],
           "points": 150
         }
@@ -208,6 +224,15 @@
         ]
       },
       {
+        "name": "Bane Wolf",
+        "options": [
+          {
+            "description": "Add up to two Bane Wolves",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
         "name": "Snipers",
         "options": [
           {
@@ -221,7 +246,7 @@
         "options": [
           {
             "description": "Add three Ragnarok Heavy Tanks and three Gun Emplacements, or two Malcadors, or two Malcador Annihilators",
-            "points": "175 points"
+            "points": "150 points"
           }
         ]
       },
