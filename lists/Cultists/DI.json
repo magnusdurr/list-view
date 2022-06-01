@@ -4,7 +4,7 @@
   "version": "0.1.Beta",
   "release": "2022-05-27",
   "strategy": "Daemonic Incursion armies have a Strategy Rating of 0.",
-  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Portals & Mortals formations have an Initiative Rating of 2+.",
+  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Mortal formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Summoning",
     "Daemonic Incursion Summoning Rules",
@@ -67,19 +67,10 @@
         "Cultists",
         "Mutants",
         "Chaos Spawn",
-        "Land Transporter"
-      ],
-      "unitRules": [
-      ]
-    },
-    {
-      "from": "darkmechanicus.json",
-      "units": [
-        "Defiler",
+        "Land Transporter",
         "Warp Altar"
       ],
       "unitRules": [
-        "Daemon Engine (x)"
       ]
     }
   ],
@@ -90,7 +81,7 @@
       "formations": [
         {
           "name": "1 Chaos Gate",
-          "units": "Replace one objective marker in the Daemonic Incursion player's half of the table with a Chaos Gate. It counts both as an objective and a Chaos Gate.",
+          "units": "Replace the Blitz objective marker in the Daemonic Incursion player's half of the table with a Chaos Gate. It counts both as an objective and a Chaos Gate.",
           "upgrades": [
           ],
           "points": "0"
@@ -98,7 +89,7 @@
       ]
     },
     {
-      "name": "1+ Exalted Greater Daemons. Max one for each part of 1000 points in the army.",
+      "name": "1+ Exalted Greater Daemons. Max one for each part of 1500 points in the army.",
       "formations": [
         {
           "name": "Exalted Greater Daemon of Slaanesh",
@@ -142,7 +133,7 @@
           "name": "Slaneesh Legion of Excess",
           "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Slaanesh with a Keeper of Secrets: 100 points",
+            "Replace three Herald of Slaanesh with a Keeper of Secrets: 150 points",
             "Replace three Herald of Slaanesh with three Herald of Slaanesh on Seeker Chariot: Free",
             "Soul Grinder"
           ],
@@ -152,7 +143,7 @@
           "name": "Nurgle Plague Legion ",
           "units": "Three Herald of Nurgle on Palanquin, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Nurgle on Palanquin with a Great Unclean One: 100 points",
+            "Replace three Herald of Nurgle on Palanquin with a Great Unclean One: 150 points",
             "Replace three Herald of Nurgle on Palanquin with three Herald of Nurgle on Blight Fly: Free",
             "Soul Grinder"
           ],
@@ -162,7 +153,7 @@
           "name": "Khorne Blood Legion",
           "units": "Three Herald of Khorne on Juggernauts, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Khorne on Juggernaut with a Bloodthirster: 100 points",
+            "Replace three Herald of Khorne on Juggernaut with a Bloodthirster: 150 points",
             "Replace three Herald of Khorne on Juggernaut with three Herald of Khorne on Skull Cannon: Free",
             "Soul Grinder"
           ],
@@ -172,7 +163,7 @@
           "name": "Tzeentch Scintillating Legion",
           "units": "Three Herald of Tzeentch, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Tzeentch with a Lord of Change: 100 points",
+            "Replace three Herald of Tzeentch with a Lord of Change: 150 points",
             "Replace three Herald of Tzeentch with three Herald of Tzeentch on Burning Chariot: Free",
             "Soul Grinder"
           ],
@@ -181,23 +172,16 @@
       ]
     },
     {
-      "name": "Portals & Mortals",
-      "description": "Up to a fourth of the points available may be spent on these formations. Portals & Mortals formations are aligned with Chaos Undivided.",
+      "name": "Mortals",
+      "description": "Up to half of the points available may be spent on Mortal formations. Mortal formations are aligned with Chaos Undivided.",
       "formations": [
-        {
-          "name": "Warp Altar",
-          "units": "One Warp Altar and two Defilers",
-          "extraUnits": [
-            "Defilers"
-          ],
-          "points": 325
-        },
         {
           "name": "Lost and the Damned",
           "units": "One Demagogue or Aspiring Champion, seven Chaos Cultists and/or Mutants",
           "extraUnits": [
             "Chaos Spawn",
-            "Land Transporters"
+            "Land Transporters",
+            "Warp Altar"
           ],
           "points": 175
         }
@@ -210,7 +194,7 @@
         {
           "name": "Lesser Daemon Pool",
           "units": "Any amount of Lesser Daemon Pool points",
-          "points": 15
+          "points": 20
         }
       ]
     }
@@ -225,11 +209,6 @@
         "points": "75 points"
       },
       {
-        "name": "Defilers",
-        "description": "Add up to two Defiler of Chaos Undivided",
-        "points": "50 points each"
-      },
-      {
         "name": "Chaos Spawn",
         "description": "Replace up to two Cultists/Mutants with Chaos Spawn",
         "points": "25 points each"
@@ -238,7 +217,12 @@
         "name": "Land Transporters",
         "description": "Add enough Land Transporters to transport the formation with no space left over",
         "points": "10 points each"
-      }
+    },
+    {
+      "name": "Warp Altar",
+      "description": "Add one Warp Altar",
+      "points": "150 points"
+    }
     ]
   }
 }

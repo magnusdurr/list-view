@@ -927,14 +927,14 @@
     {
       "title": "The Great Ritual",
       "description": [
-        "All Exalted Greater Daemons and all Daemon Legion formations must be held in the reserves at the start of the game. Exalted Greater Daemons must enter play through a Warp Rift. Daemon Legion formations may only enter the battlefield through a Chaos Gate."
+        "All Exalted Greater Daemons and all Daemon Legion formations must be held in the reserves at the start of the game. Exalted Greater Daemons may either enter the battlefield through a Warp Rift, or they can enter through a Chaos Gate (even if they had previously plotted a Warp Rift). Daemon Legion formations may only enter the battlefield through a Chaos Gate."
       ]
     },
     {
       "title": "Terror From Beyond",
       "description": [
         "All Exalted Greater Daemon formations must be destroyed in order for the opponent to claim the Daemonic Incursion BTS objective. All Exalted Greater Daemon formations in the reserves are destroyed if they are still there during the End Phase of turn 3.",
-        "In addition, as long as the Daemon Incursion army still contains any Exalted Greater Daemons it may re-roll a single failed Initiative test of any type once per turn (unless all surviving Exalted Greater Daemons are located in the reserves)."
+        "In addition, as long as the Daemon Incursion army still contains any Exalted Greater Daemons it may re-roll a single failed Initiative test of any type once per turn. If all Exalted Greater Daemons are in the Reserves they may only use the re-roll on themselves."
       ]
     },
     {
@@ -946,12 +946,12 @@
     {
       "title": "Warp Rift",
       "description": [
-        "Formations with at least one model with the Warp Rift special rule must start the game in the reserves, and may only enter the battlefield through a Warp Rift.",
+        "Formations with at least one model with the Warp Rift special rule must start the game in the reserves, and may only enter the battlefield through a Warp Rift or a Chaos Gate.",
         "Warp Rifts are plotted exactly as Self Planetfall. Both the turn in which the formation arrives and the landing coordinates must be recorded. The turn each formation arrives does not have to be announced.",
         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with Self Planetfall.",
-        "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is delayed to the next following turn.",
-        "If the activation is successful, place a Warp Rift token at the plotted coordinates, and scatters it 2D6cm. If the Warp Rift tokes scatters off the battlefield, the formation is destroyed.",
-        "If a Warp Rift would open on terrain that is impassable for units in the formation that will enter through it, under a friendly unit, or in an enemy zone of control, then it is assumed that will divert towards another entry point. The location for the Warp Rift should be moved to the nearest area where it can open.",
+        "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the unit fails to activate its arrival is either delayed to the following turn, or it may take a Hold action and enter through a Chaos Gate if any is available.",
+        "If the activation is successful, place a Warp Rift token at the plotted coordinates, and scatter it 2D6cm. If the Warp Rift tokes scatters off the battlefield, the formation is destroyed.",
+        "If a Warp Rift would open on terrain that is impassable for units in the formation that will enter through it, under a friendly unit, or in an enemy zone of control, then it is assumed that will divert towards another entry point. The location for the Warp Rift should be moved to the nearest point where it can open.",
         "Finally, the activated formation carries out the order determined at the start of its action, and must move the formation out of the Warp Rift. Measure all distances from the centre point of the token.",
         "All units from the activating formation must move out of the Warp Rift. Any units that are unable to exit the Warp Rift are destroyed. The Warp Rift token is then removed from the battlefield."
       ]
@@ -959,9 +959,9 @@
     {
       "title": "Chaos Gate",
       "description": [
-        "Chaos Gates functions as permanent Warp Rift tokens. Any number of formations can use a Chaos Gate per turn.",
-        "Chaos Gates that are also objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if that War Engine is destroyed.",
-        "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre the token, or the edge of the War Engine.",
+        "Daemonic Incursion formations that are located in the Reserves may use Chaos Gates to enter the battlefield. Any number of formations can use a Chaos Gate per turn if it is part of an objective, but only one formation per turn can use a Chaos Gate mounted on a War Engine.",
+        "Chaos Gates that are part of objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if that War Engine is destroyed.",
+        "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre of the token, or the edge of the War Engine.",
         "If a Chaos Gate is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."
       ]
     },

@@ -42,10 +42,7 @@
         "Macharius",
         "Macharius Command",
         "Malcador",
-        "Malcador Annihilator",
-        "Baneblade",
-        "Shadowsword",
-        "Stormsword"
+        "Malcador Annihilator"
       ],
       "unitRules": [
         "Heavy Armoured Vehicle (H-AV)"
@@ -93,8 +90,8 @@
           "points": 275
       },
       {
-        "name": "Heavy Tank Emplacement",
-        "units": "Six Ragnarok Heavy Tanks, six Gun Emplacements,",
+        "name": "Heavy Tank Company",
+        "units": "One Commissar, six Ragnarok Heavy Tanks",
         "extraUnits": [
           "Heavy Tanks"
         ],
@@ -129,20 +126,13 @@
           "points": 250
         },
         {
-          "name": "Super-Heavy Platoon",
-          "units": "One Baneblade, Shadowsword, or Stormsword",
+          "name": "Howitzer Emplacement",
+          "units": "Three Howitzers, three Gun Emplacements",
           "extraUnits": [
-              "Bane Wolf"
+              "Add three Howitzers and three Gun Emplacements: 125 points",
+              "Add one Heavy AA Gun and one Gun Emplacement: 50 points"
           ],
           "points": 200
-        },
-        {
-          "name": "Howitzer Emplacement",
-          "units": "Four Howitzers, four Gun Emplacements",
-          "extraUnits": [
-              "Add two Howitzers and two Gun Emplacements: 75 points"
-          ],
-          "points": 275
         },
         {
           "name": "Flak Emplacement",
@@ -202,7 +192,7 @@
         "name": "Deathstrike",
         "options": [
           {
-            "description": "Add one Deathstrike and a Gun Emplacement to the formation",
+            "description": "Add one Deathstrike to the formation",
             "points": "75 points"
           }
         ]
@@ -256,7 +246,7 @@
         "name": "Heavy Tanks",
         "options": [
           {
-            "description": "Add three Ragnarok Heavy Tanks and three Gun Emplacements, or two Malcadors, or two Malcador Annihilators",
+            "description": "Add three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Annihilators",
             "points": "150 points"
           }
         ]

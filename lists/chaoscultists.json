@@ -259,6 +259,26 @@
         "crit": "The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
       },
       {
+        "name": "Warp Altar",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Arcane Technology"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Fearless",
+          "Daemonic Focus",
+          "Chaos Gate"
+        ],
+        "crit": "The Warp Altar is destroyed. All Daemon Legion units within 5cm are destroyed, all other units within 5cm suffers a MW hit on 6+."
+      },
+      {
         "name": "Poxwalkers of Nurgle",
         "type": "INF",
         "speed": 10,
