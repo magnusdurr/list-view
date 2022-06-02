@@ -15,6 +15,7 @@
     {
       "title": "Void Shields",
       "description": [
+        "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the War Engine may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
         "Void shields that have been knocked down can be repaired. Each War Engine can repair one downed Void Shield in the End Phase of each turn.",
         "In addition, if a War Engine regroups (either by performing a Hold or a Marshal action) it can use the dice roll both to repair Void Shields and remove Blast Markers. However, only half the points generated (fractions rounded up) may be spent on restoring Void Shields (e.g. if you rolled a 3 you could remove three Blast Markers, or repair two Void Shields and remove one Blast Marker)."
       ]
@@ -1293,6 +1294,12 @@
       "title": "Thousand Sons Characters",
       "description": [
         "Thousand Sons characters may only be added to units of Chaos Space Marines, Rubric Marines, Scarab Occult Terminators, or Sorcerer Disc Riders."
+      ]
+    },
+    {
+      "title": "Overlord Insertion",
+      "description": [
+        "Some Primaris Space Marines are equipped with heavy jump packs or grav-chutes designed to be dropped from low orbit onto the battlefield from the assault bays of low-orbiting attack crafts. This ability is represented by the formation gaining the <i>Self Planetfall</i> special rule, with one exception: Roll to scatter only for the first unit in the formation, then place the rest of the units within 5cm of the first unit."
       ]
     }
   ]

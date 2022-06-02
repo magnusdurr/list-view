@@ -2593,6 +2593,332 @@
           "Transport"
         ],
         "notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Blood Claw Assaults, Wolf Guard Terminators, Grey Knights Strike Squad, Grey Knights Purgation Squad. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
+      },
+
+
+      {
+        "name": "Intercessor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolt Rifle"
+        ]
+      },
+      {
+        "name": "Assault Intercessor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Heavy Bolt Pistol & Chainsword"
+        ],
+        "specialRules": [
+          "Infiltrate"
+        ]
+      },
+      {
+        "name": "Heavy Intercessor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Heavy Bolt Rifle"
+        ]
+      },
+      {
+        "name": "Inceptor",
+        "type": "INF",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Assault Bolter"
+        ],
+        "specialRules": [
+          "Jump Packs",
+          "Reinforced Armor",
+          "Overlord Insertion"
+        ]
+      },
+      {
+        "name": "Hellblaster",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          " Plasma Incinerator|2"
+        ]
+      },
+      {
+        "name": "Outrider",
+        "type": "INF",
+        "speed": "35",
+        "armour": 3,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Heavy Bolt Pistol & Chainsword"
+        ],
+        "specialRules": [
+          "Mounted"
+        ]
+      },
+      {
+        "name": "Eradicator",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Heavy Melta Rifle"
+        ],
+        "specialRules": [
+          "Reinforced Armor"
+        ]
+      },
+      {
+        "name": "Aggressor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Flame Gauntlet|2"
+        ],
+        "specialRules": [
+          "Reinforced Armor"
+        ]
+      },
+      {
+        "name": "Suppressor",
+        "type": "INF",
+        "speed": "30",
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Accelerator Autocannon"
+        ],
+        "specialRules": [
+          "Jump Packs",
+          "Overlord Insertion",
+          "Reinforced Armor"
+        ]
+      },
+      {
+        "name": "Reiver",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+
+        ],
+        "specialRules": [
+          "Infiltrate",
+          "Overlord Insertion",
+          "Scout"
+        ]
+      },
+      {
+        "name": "Eliminator",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Bolt Sniper Rife"
+        ],
+        "specialRules": [
+          "Scout"
+        ]
+      },
+      {
+        "name": "Infiltrator",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+        ],
+        "specialRules": [
+          "Teleport"
+        ]
+      },
+      {
+        "name": "Invader",
+        "type": "LV",
+        "speed": "35",
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Onslaught Gatling Cannon"
+        ]
+      },
+      {
+        "name": "Invictor Warsuit",
+        "type": "LV",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Twin Autocannon",
+          "Servo Arm"
+        ],
+        "specialRules": [
+          "Reinforced Armor",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Redemptor Dreadnought",
+        "type": "AV",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Onslaught Heavy Gatling Cannon",
+          "Icarus Rocket Pods",
+          "Power Fist"
+        ],
+        "specialRules": [
+          "Reinforced Armor",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Impulsor",
+        "type": "AV",
+        "speed": "35",
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Missile Launcher"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport two infantry units without Jump Packs or Mounted. Aggressors and Eradicators counts as two units each."
+      },
+      {
+        "name": "Repulsor",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Onslaught Gatling Cannon",
+          "Las-Talon"
+        ],
+        "specialRules": [
+          "Reinforced Armor",
+          "Transport"
+        ],
+        "notes": "May transport two infantry units without Jump Packs or Mounted. Aggressors and Eradicators counts as two units each."
+      },
+      {
+        "name": "Gladiator, Lancer",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Heavy Laser Destroyer"
+        ]
+      },
+      {
+        "name": "Gladiator, Valiant",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Twin Las-Talon",
+          "Multi-Melta|2"
+        ]
+      },
+      {
+        "name": "Gladiator, Reaper",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Onslaught Heavy Gatling Cannon"
+        ]
+      },
+      {
+        "name": "Storm Speeder, Thunderstrike",
+        "type": "AV",
+        "speed": "35",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Stormfury Missiles",
+          "Icarus Rocket Pods",
+          "Las-Talon"
+        ],
+        "specialRules": [
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "Storm Speeder, Hammerstrike",
+        "type": "AV",
+        "speed": "35",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Melta Destroyer",
+          "Hammerstrike Launcher"
+        ],
+        "specialRules": [
+          "Skimmer"
+        ]
+      },
+      {
+        "name": "Astraeus",
+        "type": "WE",
+        "speed": "20",
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Macro-Accelerator Cannon",
+          "Plasma Eradicator|2|FxF",
+          "Twin Heavy Bolter||FxF"
+        ],
+        "specialRules": [
+          "Damage Capacity: 4",
+          "Void Shields 2",
+          "Reinforced Armour"
+        ],
+        "crit": "The Astraeus is destroyed. All units within 5cm suffer a hit on a 5+."
       }
     ]
   }

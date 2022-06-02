@@ -12521,6 +12521,233 @@
           ]
         }
       ]
+    },
+
+
+    {
+      "name": "Bolt Rifle",
+      "modes": [
+        {
+          "firepower": "Small Arms",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Bolt Pistol & Chainsword",
+      "modes": [
+        {
+          "firepower": "Assault Weapon",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Bolt Rifle",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Assault Bolter",
+      "modes": [
+        {
+          "firepower": "Assault Weapon",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": " Plasma Incinerator",
+      "modes": [
+        {
+          "firepower": "AP4+/AT4+",
+          "range": 15
+        }
+      ]
+    },
+    {
+      "name": "Heavy Melta Rifle",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 15
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flame Gauntlet",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 15,
+          "specialRules": [
+            "IC"
+          ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accelerator Autocannon",
+      "modes": [
+        {
+          "firepower": "AP3+/AT3+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Bolt Sniper Rife",
+      "modes": [
+        {
+          "firepower": "AP4+",
+          "range": 45,
+          "specialRules": [
+            "S"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Onslaught Gatling Cannon",
+      "modes": [
+        {
+          "firepower": "3x AP6+/AT6+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Onslaught Heavy Gatling Cannon",
+      "modes": [
+        {
+          "firepower": "3x AP5+/AT5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Las-Talon",
+      "modes": [
+        {
+          "firepower": "AT4+",
+          "range": 15,
+          "specialRules": [
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Las-Talon",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 15,
+          "specialRules": [
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Laser Destroyer",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 60,
+          "specialRules": [
+            "Lance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Icarus Rocket Pods",
+      "modes": [
+        {
+          "firepower": "AA5+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Stormfury Missiles",
+      "modes": [
+        {
+          "firepower": "2x AT4+",
+          "range": 45
+        }
+      ]
+    },
+    {
+      "name": "Hammerstrike Launcher",
+      "modes": [
+        {
+          "firepower": "2x AP4+/AT5+",
+          "range": 30
+        }
+      ]
+    },
+    {
+      "name": "Melta Destroyer",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 15
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Macro-Accelerator Cannon",
+      "modes": [
+        {
+          "firepower": "2x MW3+",
+          "range": 75,
+          "specialRules": [
+            "TK(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plasma Eradicator",
+      "modes": [
+        {
+          "firepower": "2x AP4+/AT4+",
+          "range": 30
+        }
+      ]
     }
   ],
   "rules": [
