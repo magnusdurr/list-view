@@ -312,21 +312,23 @@
           "Storm Vortex Projector"
         ],
         "specialRules": [
-          "Skimmer"
+          "Skimmer",
+          "Wind-Swift"
         ]
       },
       {
         "name": "Tantalus",
         "type": "LV",
-        "speed": 30,
-        "armour": 3,
+        "speed": 35,
+        "armour": 4,
         "cc": 6,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Pulse Disintegrator|2|"
         ],
         "specialRules": [
           "Skimmer",
+          "Wind-Swift",
           "Transport"
         ],
         "notes": "May carry two units of Warriors, Incubi, Haemonculi, Wracks or Wyches. Grotesques counts as two units each."
@@ -379,7 +381,7 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Twin Void Lance|2|",
+          "Twin Shadow Lance|2|",
           "Splinter Blast",
           "Tormentor Blades"
         ],

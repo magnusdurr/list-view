@@ -26,10 +26,10 @@
         "Succubus",
         "Incubi",
         "Dark Eldar Warriors",
-        "Warp Beasts",
+        "Wyches",
         "Reavers",
         "Scourges",
-        "Hellion Skyboards",
+        "Mandrakes",
         "Reaver Jet Bikes",
         "Reaper",
         "Ravager",
@@ -68,7 +68,6 @@
       "units": [
         "Razorwing Interceptor",
         "Voidraven Interdictor",
-        "Slavebringer Assault Boat",
         "Torture Class Cruiser"
       ],
       "unitRules": [
@@ -131,13 +130,12 @@
       "description": "Up to one Wraithkind Partisans for each Wraithkind Kabal",
       "formations": [
           {
-            "name": "Hellion Murder",
-            "units": "Six Hellion Skyboards",
+            "name": "Mandrake Throng",
+            "units": "Four Mandrakes",
             "extraUnits": [
-                "Add up to two Hellion Skyboards: 25 points each",
-                "Add up to two Warp Beasts: 25 points each"
+                "Add up to two Mandrakes: 25 points each"
             ],
-            "points": 150
+            "points": 125
           },
           {
             "name": "Wych Cult",
@@ -201,7 +199,7 @@
               "Portable Webway Portal",
               "Shadowseer"
           ],
-          "points": 250
+          "points": 275
         },
         {
           "name": "0-1 Devourer's Feast",
