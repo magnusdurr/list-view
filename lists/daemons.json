@@ -25,7 +25,7 @@
           "Daemonic Focus",
           "Warp Rift",
           "Walker",
-          "Augment Summoning (+2D3)"
+          "Augment Summoning (+D3)"
         ],
         "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
@@ -47,7 +47,7 @@
           "Inspiring",
           "Daemonic Focus",
           "Walker",
-          "Augment Summoning (+D3)"
+          "Augment Summoning (+1)"
         ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
@@ -115,8 +115,8 @@
         "name": "Seekers of Slaanesh",
         "type": "INF",
         "speed": 35,
-        "armour": 4,
-        "cc": 3,
+        "armour": 5,
+        "cc": 2,
         "weapons": [
           "Barbed Claws"
         ],
@@ -148,7 +148,7 @@
           "Daemonic Focus",
           "Warp Rift",
           "Walker",
-          "Augment Summoning (+2D3)"
+          "Augment Summoning (+D3)"
         ],
         "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
@@ -170,7 +170,7 @@
           "Inspiring",
           "Daemonic Focus",
           "Walker",
-          "Augment Summoning (+D3)"
+          "Augment Summoning (+1)"
         ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
@@ -226,7 +226,7 @@
       {
         "name": "Beasts of Nurgle",
         "type": "INF",
-        "speed": 25,
+        "speed": 20,
         "armour": 4,
         "cc": 3,
         "weapons": [
@@ -241,9 +241,9 @@
         "name": "Plague Drones of Nurgle",
         "type": "INF",
         "speed": 25,
-        "armour": 3,
-        "cc": 4,
-        "ff": 5,
+        "armour": 4,
+        "cc": 3,
+        "ff": 6,
         "weapons": [
           "Death's Heads",
           "Blight Fly"
@@ -277,7 +277,7 @@
           "Warp Rift",
           "Walker",
           "Jump Pack",
-          "Augment Summoning (+2D3)"
+          "Augment Summoning (+D3)"
         ],
         "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
@@ -300,17 +300,17 @@
           "Daemonic Focus",
           "Walker",
           "Jump Pack",
-          "Augment Summoning (+D3)"
+          "Augment Summoning (+1)"
         ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
       {
         "name": "Herald of Khorne on Skull Cannon",
         "type": "LV",
-        "speed": 25,
+        "speed": 20,
         "armour": 3,
-        "cc": 3,
-        "ff": 5,
+        "cc": 4,
+        "ff": 6,
         "weapons": [
           "Skull Cannon"
         ],
@@ -368,7 +368,7 @@
         "name": "Bloodcrushers of Khorne",
         "type": "INF",
         "speed": 25,
-        "armour": 3,
+        "armour": 4,
         "cc": 2,
         "weapons": [
           "Juggernaut"
@@ -402,7 +402,7 @@
           "Warp Rift",
           "Walker",
           "Jump Pack",
-          "Augment Summoning (+2D3)"
+          "Augment Summoning (+D3)"
         ],
         "crit": "The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
       },
@@ -425,7 +425,7 @@
           "Daemonic Focus",
           "Walker",
           "Jump Pack",
-          "Augment Summoning (+D3)"
+          "Augment Summoning (+1)"
         ],
         "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+."
       },
@@ -495,7 +495,7 @@
         "type": "INF",
         "speed": 30,
         "armour": 4,
-        "cc": 3,
+        "cc": 4,
         "weapons": [
           "Claws and Fangs"
         ],

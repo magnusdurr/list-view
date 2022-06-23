@@ -62,12 +62,15 @@
     {
       "from": "chaoscultists.json",
       "units": [
-        "Demagogue",
+        "Icon Bearer",
         "Aspiring Champion",
         "Cultists",
         "Mutants",
+        "Big Mutants",
         "Chaos Spawn",
         "Land Transporter",
+        "Technical",
+        "Chaos Hounds",
         "Warp Altar"
       ],
       "unitRules": [
@@ -137,7 +140,7 @@
             "Replace three Herald of Slaanesh with three Herald of Slaanesh on Seeker Chariot: Free",
             "Soul Grinder"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Nurgle Plague Legion ",
@@ -147,7 +150,7 @@
             "Replace three Herald of Nurgle on Palanquin with three Herald of Nurgle on Blight Fly: Free",
             "Soul Grinder"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Khorne Blood Legion",
@@ -157,7 +160,7 @@
             "Replace three Herald of Khorne on Juggernaut with three Herald of Khorne on Skull Cannon: Free",
             "Soul Grinder"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Tzeentch Scintillating Legion",
@@ -167,7 +170,7 @@
             "Replace three Herald of Tzeentch with three Herald of Tzeentch on Burning Chariot: Free",
             "Soul Grinder"
           ],
-          "points": 200
+          "points": 225
         }
       ]
     },
@@ -176,10 +179,15 @@
       "description": "Up to half of the points available may be spent on Mortal formations. Mortal formations are aligned with Chaos Undivided.",
       "formations": [
         {
-          "name": "Lost and the Damned",
-          "units": "One Demagogue or Aspiring Champion, seven Chaos Cultists and/or Mutants",
+          "name": "Cultist Coven",
+          "units": "Daemonic Pact, Aspiring Champion, nine Chaos Cultists and/or Mutants",
           "extraUnits": [
+            "Cultists/Mutants",
+            "Chaos Hounds",
+            "Technicals",
             "Chaos Spawn",
+            "Big Mutants",
+            "Icon Bearer",
             "Land Transporters",
             "Warp Altar"
           ],
@@ -209,13 +217,43 @@
         "points": "75 points"
       },
       {
+        "name": "Demagogue",
+        "description": "Replace the Aspiring Champion with a Demagogue",
+        "points": "25 points"
+      },
+      {
+        "name": "Icon Bearer",
+        "description": "Add one Icon Bearer character",
+        "points": "25 points"
+      },
+      {
+        "name": "Cultists/Mutants",
+        "description": "Add up to four Cultists/Mutants",
+        "points": "10 points each"
+      },
+      {
+        "name": "Big Mutants",
+        "description": "Replace up to four Cultists/Mutants with Big Mutants",
+        "points": "15 points each"
+      },
+      {
         "name": "Chaos Spawn",
-        "description": "Replace up to two Cultists/Mutants with Chaos Spawn",
-        "points": "25 points each"
+        "description": "Add one Chaos Spawn",
+        "points": "35 points"
+      },
+      {
+        "name": "Chaos Hounds",
+        "description": "Add up to three Chaos Hounds",
+        "points": "10 points each"
+      },
+      {
+        "name": "Technicals",
+        "description": "Add up to four Technicals",
+        "points": "20 points each"
       },
       {
         "name": "Land Transporters",
-        "description": "Add enough Land Transporters to transport the formation with no space left over",
+        "description": "Add enough Land Transporters to transport the formation",
         "points": "10 points each"
     },
     {
