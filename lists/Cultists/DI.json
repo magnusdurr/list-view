@@ -136,7 +136,7 @@
           "name": "Slaneesh Legion of Excess",
           "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Slaanesh with a Keeper of Secrets: 150 points",
+            "Replace three Herald of Slaanesh with a Keeper of Secrets: 125 points",
             "Replace three Herald of Slaanesh with three Herald of Slaanesh on Seeker Chariot: Free",
             "Soul Grinder"
           ],
@@ -146,7 +146,7 @@
           "name": "Nurgle Plague Legion ",
           "units": "Three Herald of Nurgle on Palanquin, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Nurgle on Palanquin with a Great Unclean One: 150 points",
+            "Replace three Herald of Nurgle on Palanquin with a Great Unclean One: 125 points",
             "Replace three Herald of Nurgle on Palanquin with three Herald of Nurgle on Blight Fly: Free",
             "Soul Grinder"
           ],
@@ -156,7 +156,7 @@
           "name": "Khorne Blood Legion",
           "units": "Three Herald of Khorne on Juggernauts, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Khorne on Juggernaut with a Bloodthirster: 150 points",
+            "Replace three Herald of Khorne on Juggernaut with a Bloodthirster: 125 points",
             "Replace three Herald of Khorne on Juggernaut with three Herald of Khorne on Skull Cannon: Free",
             "Soul Grinder"
           ],
@@ -166,7 +166,7 @@
           "name": "Tzeentch Scintillating Legion",
           "units": "Three Herald of Tzeentch, five Lesser Daemon Pool points",
           "extraUnits": [
-            "Replace three Herald of Tzeentch with a Lord of Change: 150 points",
+            "Replace three Herald of Tzeentch with a Lord of Change: 125 points",
             "Replace three Herald of Tzeentch with three Herald of Tzeentch on Burning Chariot: Free",
             "Soul Grinder"
           ],
@@ -213,13 +213,8 @@
     "items": [
       {
         "name": "Soul Grinder",
-        "description": "Add one Soul Grinder",
-        "points": "75 points"
-      },
-      {
-        "name": "Demagogue",
-        "description": "Replace the Aspiring Champion with a Demagogue",
-        "points": "25 points"
+        "description": "Add up to two Soul Grinders",
+        "points": "50 points each"
       },
       {
         "name": "Icon Bearer",

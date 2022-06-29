@@ -6989,7 +6989,7 @@
       ]
     },
     {
-      "name": "Melta Cannon",
+      "name": "Titan Melta Cannon",
       "modes": [
         {
           "firepower": "MW2+",
@@ -7010,7 +7010,7 @@
       ]
     },
     {
-      "name": "Melta Cannon ",
+      "name": "Titan Melta Cannon ",
       "modes": [
         {
           "firepower": "MW2+",
@@ -7031,7 +7031,7 @@
       ]
     },
     {
-      "name": "Paired Melta Cannons",
+      "name": "Paired Titan Melta Cannons",
       "modes": [
         {
           "firepower": "2x MW2+",
@@ -11663,6 +11663,22 @@
     },
     {
       "name": "Twin Multi-Melta",
+      "modes": [
+        {
+          "firepower": "MW4+",
+          "range": 15
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Melta Cannon",
       "modes": [
         {
           "firepower": "MW4+",
