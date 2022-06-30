@@ -33,8 +33,9 @@
         "Medusa Gun",
         "Bombard",
         "Griffon",
+        "Hellhound",
         "Bane Wolf",
-        "Deathstrike",
+        "Devil Dog",
         "Howitzer",
         "Ragnarok Heavy Tank",
         "Siegfried Light Tank",
@@ -42,7 +43,8 @@
         "Macharius",
         "Macharius Command",
         "Malcador",
-        "Malcador Annihilator"
+        "Malcador Annihilator",
+        "Baran Bastion"
       ],
       "unitRules": [
         "Heavy Armoured Vehicle (H-AV)"
@@ -61,41 +63,30 @@
   "sections": [
     {
       "name": "Core Company Formations",
-      "description": "One Siegemaster Regimental HQ must be taken.",
+      "description": "One Siegemaster Regimental HQ must be taken. Each Core Company formation must take between one and three upgrades. Each upgrade may be taken only once.",
       "formations": [
         {
           "name": "1 Siegemaster Regimental HQ",
-          "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
+          "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry",
           "extraUnits": [
-            "Siege Infantry",
-            "Support Weapons",
-            "Snipers",
-            "Heavy Tanks",
-            "Fortifications",
-            "Deathstrike"
+            "40cm of Razor Wire and 4cm of trenches for each unit of INF in the formation: 50 points. Add two Bunkers: 25 points.",
+            "Five Siege Infantry, or three Snipers: 50 points",
+            "Four Rapiers, or four Sappers, or three Mole Launcher Squads, or three Thudd Guns: 75 points",
+            "One Baran Bastion, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Annihilators: 150 points"
           ],
-          "points": 325
+          "points": 250
         },
         {
           "name": "Siege Infantry Company",
-          "units": "One Baran Commander with a Commissar, nine Siege Infantry, 40cm Trenches, 40cm Razor Wire",
+          "units": "One Baran Commander with a Commissar, nine Siege Infantry",
           "extraUnits": [
-            "Siege Infantry",
-            "Support Weapons",
-            "Snipers",
-            "Heavy Tanks",
-            "Fortifications",
-            "Deathstrike"
+              "Two Bunkers: 25 points",
+              "40cm of Razor Wire and 4cm of trenches for each unit of INF in the formation: 50 points",
+              "Five Siege Infantry, or three Snipers: 50 points",
+              "Four Rapiers, or four Sappers, or three Mole Launcher Squads, or three Thudd Guns: 75 points",
+              "One Baran Bastion, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Annihilators: 150 points"
           ],
-          "points": 275
-      },
-      {
-        "name": "Heavy Tank Company",
-        "units": "One Commissar, six Ragnarok Heavy Tanks",
-        "extraUnits": [
-          "Heavy Tanks"
-        ],
-        "points": 400
+          "points": 200
       }
       ]
     },
@@ -103,11 +94,19 @@
       "name": "Baran Support Formations",
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
+          {
+            "name": "Heavy Tank Company",
+            "units": "One Commissar, six Ragnarok Heavy Tanks",
+            "extraUnits": [
+              "Add three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Annihilators: 150 points"
+            ],
+            "points": 375
+        },
         {
           "name": "Macharius Company",
           "units": "One Macharius Command with a Commissar, two Macharius",
           "extraUnits": [
-              "Bane Wolf"
+              "Add two Hellhounds, two Bane Wolves, or two Devil Dogs: 50 points"
           ],
           "points": 350
         },
@@ -145,7 +144,7 @@
           "name": "Griffon Battery",
           "units": "Three Griffons",
           "extraUnits": [
-              "Bane Wolf"
+              "Add two Hellhounds, two Bane Wolves, or two Devil Dogs: 50 points"
           ],
           "points": 175
         },
@@ -153,7 +152,7 @@
           "name": "Death Rider Platoon",
           "units": "Six Death Riders",
           "extraUnits": [
-              "Bane Wolf"
+              "Add two Hellhounds, two Bane Wolves, or two Devil Dogs: 50 points"
           ],
           "points": 150
         },
@@ -161,7 +160,7 @@
           "name": "Siege Recon Squadron",
           "units": "Four Siegfried Light Tanks",
           "extraUnits": [
-              "Bane Wolf"
+              "Add two Hellhounds, two Bane Wolves, or two Devil Dogs: 50 points"
           ],
           "points": 150
         }
@@ -183,83 +182,5 @@
         }
       ]
     }
-  ],
-  "upgrades": {
-    "title": "Baran Siegemaster Upgrades",
-    "description": "Each upgrade may be taken once per formation. Max three upgrades per Company",
-    "items": [
-      {
-        "name": "Deathstrike",
-        "options": [
-          {
-            "description": "Add one Deathstrike to the formation",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
-        "name": "Support Weapons",
-        "description": "Add any one of the following options to the formation",
-        "options": [
-          {
-            "description": "Add four Rapiers, 16cm Trenches",
-            "points": "75 points"
-          },
-          {
-            "description": "Add three Mole Launchers, 12cm Trenches",
-            "points": "75 points"
-          },
-          {
-            "description": "Add three Thudd Guns, 12cm Trenches",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
-        "name": "Siege Infantry",
-        "options": [
-          {
-            "description": "Replace 40cm of Trenches and 40cm of Razor Wire with 5 Siege Infantry",
-            "points": "Free"
-          }
-        ]
-      },
-      {
-        "name": "Bane Wolf",
-        "options": [
-          {
-            "description": "Add up to two Bane Wolves",
-            "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Snipers",
-        "options": [
-          {
-            "description": "Add up to two Snipers",
-            "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Heavy Tanks",
-        "options": [
-          {
-            "description": "Add three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Annihilators",
-            "points": "150 points"
-          }
-        ]
-      },
-      {
-        "name": "Fortifications",
-        "options": [
-          {
-            "description": "Replace 20cm Trenches with two Bunkers",
-            "points": "25 points"
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }

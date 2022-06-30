@@ -1596,6 +1596,23 @@
         "crit": "The Macharius is destroyed."
       },
       {
+        "name": "Baran Bastion",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Planetary Defense Laser",
+          "Twin Heavy Stubber|4|"
+        ],
+        "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour"
+        ],
+        "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All units within 5cm of the model suffer a hit on a roll of 4+."
+      },
+      {
         "name": "Gorgon",
         "type": "WE",
         "speed": 20,
