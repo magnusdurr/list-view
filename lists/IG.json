@@ -1457,8 +1457,7 @@
         "ff": 4,
         "weapons": [
           "Battle Cannon",
-          "Heavy Bolter",
-          "Heavy Stubber|2|"
+          "Heavy Bolter|3|"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -1476,6 +1475,22 @@
           "Twin Lascannon",
           "Demolisher",
           "Heavy Stubber|2|"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Malcador Defender",
+        "type": "H-AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Demolisher",
+          "Heavy Bolter Array"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -1596,7 +1611,7 @@
         "crit": "The Macharius is destroyed."
       },
       {
-        "name": "Baran Bastion",
+        "name": "Defense Laser",
         "type": "WE",
         "speed": "Immobile",
         "armour": 4,
@@ -1608,6 +1623,7 @@
         ],
         "specialRules": [
           "Damage Capacity 3",
+          "Fearless",
           "Reinforced Armour"
         ],
         "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All units within 5cm of the model suffer a hit on a roll of 4+."
