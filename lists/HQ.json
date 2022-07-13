@@ -8,7 +8,7 @@
         "name": "Harlequin Avatar",
         "type": "CH",
         "weapons": [
-          "Harlequins Kiss"
+          "Harlequin Kiss"
         ],
         "specialRules": [
           "Leader",
@@ -23,9 +23,9 @@
           "Shards of Light"
         ],
         "specialRules": [
-          "Shadowsight"
+          "Leader"
         ],
-        "notes": "May only join Harlequin Troupes or Skyweaver Jetbikes."
+        "notes": "May only join Harlequin Troupes."
       },
       {
         "name": "Master Mime",
@@ -40,23 +40,18 @@
       {
         "name": "Solitaire",
         "type": "INF",
-        "speed": 20,
+        "speed": 15,
         "cc": 3,
         "weapons": [
-          "Harlequin's Caress",
-          "Harlequins Kiss"
+        "Harlequin's Embrace",
+          "Harlequin Kiss"
         ],
         "specialRules": [
-          "Holofield (3+)",
-          "Scout",
-          "First Strike",
-          "Fearless",
+          "Holofield (5+)",
           "Infiltrators",
           "Inspiring",
-          "Teleport",
-          "Shadowsight"
-        ],
-        "notes": "No characters may join this unit"
+          "Teleport"
+        ]
       },
       {
         "name": "Mimes",
@@ -78,7 +73,7 @@
         "type": "INF",
         "speed": 15,
         "cc": 5,
-        "ff": 3,
+        "ff": 5,
         "weapons": [
           "Shrieker Cannons"
         ],
@@ -94,7 +89,7 @@
         "type": "INF",
         "speed": 15,
         "cc": 3,
-        "ff": 6,
+        "ff": 5,
         "weapons": [
           "Harlequin's Embrace"
         ],
@@ -147,15 +142,16 @@
         "speed": 40,
         "armour": 4,
         "cc": 6,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
-          "Shuriken Catapults"
+          "Shuriken Cannon"
         ],
         "specialRules": [
         "Holofield (5+)",
             "Skimmer",
             "Teleport",
-          "Transport 1 (May carry one Harlequins Troupe, Death Jesters, or Solitaire)"
+            "Wind-Swift",
+          "Transport 1 (May carry one Harlequins Troupe or Death Jesters. May in addition transport one Solitaire unit.)"
         ]
       }
     ]

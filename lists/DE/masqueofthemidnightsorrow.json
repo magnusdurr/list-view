@@ -2,20 +2,20 @@
   "fraction": "Dark Eldar / Harlequins",
   "army": "Kabal of the Wraithkind",
   "version": "0.1.Beta",
-  "release": "2022-05-27",
+  "release": "2022-07-13",
   "strategy": "Dark Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Wraithkind Kabals, Harlequins, Wych Cult, and Tormentor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Wraithkind Kabals, Harlequins, and Tormentor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Fleet of Foot",
     "Hit and Run",
     "Wraithkind Coterie",
     "May not Garrison (Wraithkind)",
     "Webway Portal",
-    "Cegorach, the Laughing God",
-    "Masters of the Webway"
+    "Masters of the Webway",
+    "Cegorach, the Laughing God"
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Kabal of the Wraithkind, with Harlequin Allies from the Masque of the Midnight Sorrow."
+    "The following army list allows you to field an army based on the Kabal of the Wraithkind, with Harlequin Allies."
   ],
   "units": [
     {
@@ -23,14 +23,16 @@
       "units": [
         "Archon",
         "Dracon",
-        "Succubus",
+        "Haemonculus Ancient",
         "Incubi",
         "Dark Eldar Warriors",
-        "Wyches",
         "Reavers",
         "Scourges",
+        "Haemonculi",
+        "Wracks",
+        "Grotesques",
         "Mandrakes",
-        "Reaver Jet Bikes",
+        "Talos",
         "Reaper",
         "Ravager",
         "Raider",
@@ -48,11 +50,8 @@
     {
       "from": "HQ.json",
       "units": [
-        "Harlequin Avatar",
         "Shadowseer",
-        "Master Mime",
         "Solitaire",
-        "Mimes",
         "Death Jesters",
         "Harlequin Troupe",
         "Skyweaver Jetbikes",
@@ -60,7 +59,6 @@
         "Voidweaver"
       ],
       "unitRules": [
-          "Shadowsight"
       ]
     },
     {
@@ -138,22 +136,24 @@
             "points": 125
           },
           {
-            "name": "Wych Cult",
-            "units": "One Succubus, four Wyches",
+            "name": "Haemonculi Coven",
+            "units": "Haemonculus Ancient, two Haemonculi and four Wracks",
             "extraUnits": [
-              "Portable Webway Portal",
+              "Add up to two Grotesques: 25 points each",
+              "Portable Webway",
+              "Talos",
               "Wraithkind Transport"
             ],
-            "points": 175
+            "points": 225
           },
-        {
-          "name": "Reaver Gang",
-          "units": "Six Reaver Jet Bikes",
-          "extraUnits": [
-            "Add up to two Reaver Jet Bikes: 25 points each"
-          ],
-          "points": 200
-        },
+          {
+            "name": "Talos Swarm",
+            "units": "Four Talos",
+            "extraUnits": [
+              "Talos"
+            ],
+            "points": 225
+          },
         {
           "name": "Scourge Flight",
           "units": "Six Scourges",
@@ -171,43 +171,18 @@
       ]
     },
     {
-      "name": "Masque of the Midnight Sorrow Saedaths",
-      "description": "Up to one Midnight Sorrow Saedath for each Wraithkind Kabal",
+      "name": "Harlequin Masques",
+      "description": "Up to one Harlequin Masque for each Wraithkind Kabal",
       "formations": [
         {
-          "name": "Asuryan's Wager",
-          "units": "One Harlequin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers",
+          "name": "Harlequin Masque",
+          "units": "One Shadowseer, two Harlequin Troupes, one Death Jesters, three Starweavers",
           "extraUnits": [
-             "Portable Webway Portal",
-             "Shadowseer"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Serpent's Blood",
-          "units": "One Harlequin Avatar, three Skyweaver Jetbikes, three Voidweavers",
-          "extraUnits": [
-              "Portable Webway Portal",
-              "Shadowseer"
+             "Add up to three Skyweaver Jetbikes: 25 points each",
+             "Add up to three Voidweavers: 25 points each",
+             "(0-1 in the army) Add one Solitaire: 75 points"
           ],
           "points": 225
-        },
-        {
-          "name": "Cegorach's Revenge",
-          "units": "One Harlequin Avatar, two Harlequin Troupes, one Death Jesters, three Starweavers, three Skyweaver Jetbikes",
-          "extraUnits": [
-              "Portable Webway Portal",
-              "Shadowseer"
-          ],
-          "points": 275
-        },
-        {
-          "name": "0-1 Devourer's Feast",
-          "units": "One Master Mime, one Solitaire, six Mimes",
-          "extraUnits": [
-              "Portable Webway Portal"
-          ],
-          "points": 300
         }
       ]
     },
@@ -252,17 +227,25 @@
     "items": [
       {
         "name": "Warriors",
-        "description": "Add two Dark Eldar Warriors",
+        "description": "Add two Dark Eldar Warriors.",
         "points": "50 points"
       },
       {
         "name": "Ravagers",
-        "description": "Add up to two Dark Eldar Ravagers",
+        "description": "Add up to two Dark Eldar Ravagers.",
         "points": "50 points each"
       },
       {
+        "name": "Talos",
+        "description": "Add up to two Talos",
+        "points": [
+          "50 points for one",
+          "75 points for two"
+        ]
+      },
+      {
         "name": "(0-1 in the army) Portable Webway",
-        "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubs, Harlequin Avatar or Master Mime character. This Portable Webway may be used once in a game. After the character's formation (or the formation carrying it) completes an action you may place a small barrage template marker completely within 15cm of the character's unit (or the unit carrying it) and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
+        "description": "Add a Portable Webway Portal to an Archon, Dracon, or Haemonculus Ancient character. This Portable Webway may be used once in a game. After the character's formation (or the formation carrying it) completes an action you may place a small barrage template marker completely within 15cm of the character's unit (or the unit carrying it) and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
         "points": "50 points"
       },
       {
@@ -273,12 +256,7 @@
           "Tantalus: 25 points",
           "0-1 Barge of Pleasure: 125 points"
         ]
-        },
-    {
-      "name": "Shadowseer",
-      "description": "Add a Shadowseer to a unit of Harlequin Troupes, or Skyweaver Jetbikes.",
-      "points": "50 points"
-    }
+        }
     ]
   }
 }

@@ -4965,7 +4965,7 @@
       ]
     },
     {
-      "name": "Harlequins Kiss",
+      "name": "Harlequin Kiss",
       "modes": [
         {
           "firepower": "Assault Weapons",
@@ -9555,7 +9555,7 @@
         {
           "firepower": "Small Arms",
           "specialRules": [
-            "EA(+2)"
+            "EA(+1)"
           ]
         }
       ]
@@ -9609,11 +9609,31 @@
       "name": "Shrieker Cannons",
       "modes": [
         {
-          "firepower": "2x AP4+",
+          "firepower": "2x AP5+",
           "range": 30,
           "specialRules": [
             "IC",
             "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shrieker Cannons",
+      "modes": [
+        {
+            "firepower": "2x AP5+",
+            "range": 30,
+            "specialRules": [
+              "IC",
+              "D"
+            ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "and",
+          "specialRules": [
+            "EA(+1)"
           ]
         }
       ]
