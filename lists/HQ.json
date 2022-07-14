@@ -17,17 +17,6 @@
         "notes": "May only join Harlequin Troupes or Skyweaver Jetbikes."
       },
       {
-        "name": "Shadowseer",
-        "type": "CH",
-        "weapons": [
-          "Shards of Light"
-        ],
-        "specialRules": [
-          "Leader"
-        ],
-        "notes": "May only join Harlequin Troupes."
-      },
-      {
         "name": "Master Mime",
         "type": "CH",
         "weapons": [
@@ -39,18 +28,22 @@
       },
       {
         "name": "Solitaire",
-        "type": "INF",
-        "speed": 15,
-        "cc": 3,
+        "type": "CH",
         "weapons": [
-        "Harlequin's Embrace",
           "Harlequin Kiss"
         ],
         "specialRules": [
-          "Holofield (5+)",
-          "Infiltrators",
-          "Inspiring",
-          "Teleport"
+          "Inspiring"
+        ]
+      },
+      {
+        "name": "Shadowseer",
+        "type": "CH",
+        "weapons": [
+          "Shards of Light"
+        ],
+        "specialRules": [
+          "Leader"
         ]
       },
       {
@@ -151,7 +144,7 @@
             "Skimmer",
             "Teleport",
             "Wind-Swift",
-          "Transport 1 (May carry one Harlequins Troupe or Death Jesters. May in addition transport one Solitaire unit.)"
+          "Transport 1 (May carry one Harlequins Troupe or Death Jesters)"
         ]
       }
     ]
