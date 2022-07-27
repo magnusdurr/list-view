@@ -82,7 +82,6 @@
             "Canoptek Wraiths",
             "Canoptek Spyder",
             "Replace three Necron Warriors with three Pariahs or three Immortals: 50 points"
-
           ],
           "points": 300
         }
@@ -96,7 +95,7 @@
           "name": "Portal Phalanx",
           "units": "One Monolith, two Obelisks",
           "extraUnits": [
-              "Replace up to two Obelisks with Monoliths: 25 points each"
+            "Replace up to two Obelisks with Monoliths: 25 points each"
           ],
           "points": 175
         }
@@ -106,12 +105,12 @@
       "name": "Maynarkh Dynasty Support Formations",
       "description": "Up to two for each Necron Phalanx. A Necron army must contain at least one 'The Unbidden' formation.",
       "formations": [
-          {
-            "name": "1+ The Unbidden",
-            "units": "Seven Flayed Ones",
-            "extraUnits": [
-            ],
-            "points": 200
+        {
+          "name": "1+ The Unbidden",
+          "units": "Seven Flayed Ones",
+          "extraUnits": [
+          ],
+          "points": 200
         },
         {
           "name": "Obelisk Phalanx",
@@ -126,7 +125,6 @@
           "extraUnits": [
             "Overlord",
             "Replace one Destroyer with a Necron Destroyer Lord: 25 points"
-
           ],
           "points": 275
         },
@@ -179,7 +177,7 @@
           "upgrades": [
           ],
           "points": 200
-      },
+        },
         {
           "name": "Night Shrouds",
           "units": "One Night Shroud Bomber",
@@ -198,11 +196,16 @@
         "name": "0-1 Overlord",
         "description": "Either replace one Necron Lord with a Necron Overlord, or replace a Necron Destroyer Lord with a Necron Destroyer Overlord",
         "points": "75 points"
-    },
+      },
       {
         "name": "Canoptec Wraiths",
         "description": "Add up to two Canoptek Wraiths",
         "points": "25 points each"
+      },
+      {
+        "name": "Canoptek Spyder",
+        "description": "Add one Canoptek Spyder",
+        "points": "50 points"
       }
     ]
   }
