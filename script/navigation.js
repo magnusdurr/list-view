@@ -61,7 +61,7 @@ var eaNav = (function () {
             content = "intro" // Default content
         }
         var contentUrl = "content/" + content + ".html"
-        $('.nav-link').filter($('a[href="' + contentUrl + '"]')).addClass("active")
+        $('.nav-link').filter($('a[href="' + contentUrl.substring(0, content.indexOf("/")) + '"]')).addClass("active")
 
         // Preserve url params
         var urlWithParams = contentUrl + '?'
@@ -92,6 +92,7 @@ var eaNav = (function () {
 
     var loadContent = function (page) {
         $("#content").load(page);
+        window.scrollTo(0, 0);
     };
 
     return {
