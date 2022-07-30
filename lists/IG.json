@@ -89,7 +89,7 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Heavy Bolter",
+          "Lasguns",
           "Power Weapon"
         ],
         "specialRules": [
@@ -133,7 +133,7 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Heavy Bolter"
+          "Lasguns"
         ],
         "specialRules": [
           "Grav-Chutes",
@@ -371,12 +371,11 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Bolter"
+          "Lasguns"
         ],
         "specialRules": [
           "Grav-Chutes"
-        ],
-        "notes": "One in every two units (rounding up) has a Heavy Bolter"
+        ]
       },
       {
         "name": "Whiteshields",
@@ -428,20 +427,6 @@
         ]
       },
       {
-        "name": "Elysian Flakk Team",
-        "type": "INF",
-        "speed": 15,
-        "armour": 5,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Flakk Missile Launcher|2|"
-        ],
-        "specialRules": [
-          "Grav-Chutes"
-        ]
-      },
-      {
         "name": "Ogryns",
         "type": "INF",
         "speed": 15,
@@ -488,21 +473,6 @@
           "Infiltrators",
           "Mounted",
           "Walker",
-          "Scout"
-        ]
-      },
-      {
-        "name": "Elysian Snipers",
-        "type": "INF",
-        "speed": 15,
-        "armour": 5,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Sniper Rifles"
-        ],
-        "specialRules": [
-          "Grav-Chutes",
           "Scout"
         ]
       },
@@ -655,7 +625,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Heavy Bolter|2|"
+          "Missile Launcher"
         ],
         "specialRules": [
           "Grav-Chutes"
@@ -757,7 +727,8 @@
       {
         "name": "Drop Sentinel",
         "type": "LV",
-        "speed": 15,
+        "speed": 20,
+        "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
@@ -785,7 +756,7 @@
       {
         "name": "Tauros",
         "type": "LV",
-        "speed": 35,
+        "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 5,
@@ -799,14 +770,12 @@
       {
         "name": "Tauros Venator",
         "type": "LV",
-        "speed": 35,
+        "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
           "Twin Autocannon"
-        ],
-        "specialRules": [
         ]
       },
       {
@@ -1130,16 +1099,14 @@
         ]
       },
       {
-        "name": "Heavy Mortar",
-        "type": "LV",
-        "speed": 10,
-        "armour": 6,
+        "name": "Elysian Mortar Squad",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Heavy Mortar"
-        ],
-        "specialRules": [
+          "Accatran Mortar"
         ]
       },
       {
@@ -1403,7 +1370,7 @@
         "speed": 35,
         "armour": 5,
         "cc": 6,
-        "ff": 6,
+        "ff": 5,
         "weapons": [
           "Heavy Bolter"
         ],
@@ -1411,7 +1378,7 @@
           "Skimmer",
           "Transport"
         ],
-        "notes": "May transport up to two Tauros or Drop Sentinels, or one Sentinel, Support Sentinel, Tauros Venator, Tauros Flak or Heavy Mortar."
+        "notes": "May transport one Light Vehicle (LV) or two Drop Sentinels."
       },
       {
         "name": "Vulture",
@@ -1438,14 +1405,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Lascannon|3|",
+          "Twin Lascannon|3|",
           "Heavy Bolter|2|"
         ],
         "specialRules": [
           "Skimmer",
           "Transport"
         ],
-        "notes": "May carry one infantry unit and/or Drop Sentinel."
+        "notes": "May carry two infantry units or one Drop Sentinel."
       },
       {
         "name": "Malcador",
