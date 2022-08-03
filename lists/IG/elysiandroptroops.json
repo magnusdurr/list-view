@@ -37,8 +37,7 @@
         "Vulture"
       ],
       "unitRules": [
-        "Grav-Chutes",
-        "Sabotage"
+        "Grav-Chutes"
       ]
     },
     {
@@ -74,8 +73,7 @@
           "extraUnits": [
             "Drop Sentinels",
             "Fire Support",
-            "Infantry Platoon",
-            "Vendettas"
+            "Infantry Platoon"
           ],
           "points": 375
         },
@@ -85,8 +83,7 @@
           "extraUnits": [
             "Drop Sentinels",
             "Fire Support",
-            "Infantry Platoon",
-            "Vendettas"
+            "Infantry Platoon"
           ],
           "points": 325
         }
@@ -100,8 +97,9 @@
           "name": "Sentinel Squadron",
           "units": "Four Sentinels",
           "extraUnits": [
-            "Replace all Sentinel with Armoured Sentinels: 25 points",
-            "Replace all Sentinel with Support Sentinels: 75 points"
+            "Replace all Sentinels with Armoured Sentinels: 25 points",
+            "Replace all Sentinels with Support Sentinels: 75 points",
+            "Replace four Sentinels with six Drop Sentinels: 100 points"
           ],
           "points": 100
         },
@@ -113,19 +111,17 @@
         {
           "name": "Storm Trooper Company",
           "units": "Eight Elysian Storm Troopers, one with a Commissar, and four Valkyries.",
+          "extraUnits": [
+            "Replace all Valkyries with Vendettas: 50 points"
+          ],
           "points": 350
         },
         {
           "name": "Support Platoon",
           "units": "Four Elysian Support Squads or four Elysian Mortar Squads, and two Valkyries",
           "extraUnits": [
-            "Replace two Valkyries with Vendettas: 25 points"
+            "Replace all Valkyries with Vendettas: 25 points"
           ],
-          "points": 200
-        },
-        {
-          "name": "Sentinel Support Platoon",
-          "units": "Six Drop Sentinels",
           "points": 200
         },
         {
