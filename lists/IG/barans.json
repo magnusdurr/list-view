@@ -26,6 +26,7 @@
         "Sappers",
         "Death Riders",
         "Snipers",
+        "Ogryns",
         "Thudd Gun",
         "Rapier",
         "Mole Launcher Squad",
@@ -71,10 +72,10 @@
           "extraUnits": [
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
               "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
-              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements: 75 points",
+              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or three Ogryns: 75 points",
               "One Defense Laser, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Siege Infantry Company",
@@ -82,10 +83,10 @@
           "extraUnits": [
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
               "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
-              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements: 75 points",
+              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or three Ogryns: 75 points",
               "One Defense Laser, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
-          "points": 200
+          "points": 175
       }
       ]
     },
@@ -97,7 +98,8 @@
             "name": "Heavy Tank Company",
             "units": "One Commissar, six Ragnarok Heavy Tanks",
             "extraUnits": [
-              "Add three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
+              "Add three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points",
+              "Add up to two Ogryns: 25 points each"
             ],
             "points": 375
         },
@@ -113,6 +115,7 @@
           "name": "Sapper Company",
           "units": "One Commissar, eight Sappers, one Hades Breaching Drill",
           "extraUnits": [
+              "Add up to two Ogryns: 25 points each"
           ],
           "points": 225
         },
@@ -120,7 +123,8 @@
           "name": "Siege Artillery Emplacement",
           "units": "Four Medusa Guns and four Gun Emplacements",
           "extraUnits": [
-              "Replace four Medusa Guns and four Gun Emplacements with three Bombards and three Gun Emplacements: 25 points"
+              "Replace four Medusa Guns and four Gun Emplacements with three Bombards and three Gun Emplacements: 25 points",
+              "Add up to two Ogryns: 25 points each"
           ],
           "points": 225
         },
@@ -129,7 +133,8 @@
           "units": "Three Howitzers, three Gun Emplacements",
           "extraUnits": [
               "Add three Howitzers and three Gun Emplacements: 125 points",
-              "Add one Heavy AA Gun and one Gun Emplacement: 50 points"
+              "Add one Heavy AA Gun and one Gun Emplacement: 50 points",
+              "Add up to two Ogryns: 25 points each"
           ],
           "points": 200
         },
@@ -137,6 +142,7 @@
           "name": "Flak Emplacement",
           "units": "Three Heavy AA Guns, three Gun Emplacements",
           "extraUnits": [
+              "Add up to two Ogryns: 25 points each"
           ],
           "points": 175
         },
@@ -144,6 +150,7 @@
           "name": "Light Artillery Emplacement",
           "units": "Five Rapiers, five Thudd Guns, or five Mole Launchers, with 20cm Trenches",
           "extraUnits": [
+              "Add up to two Ogryns: 25 points each"
           ],
           "points": 200
         },
@@ -170,7 +177,15 @@
               "Add up to three Hellhounds, Bane Wolves, or Devil Dogs: 25 points each"
           ],
           "points": 150
-        }
+      },
+      {
+        "name": "Defense Laser",
+        "units": "One Defense Laser",
+        "extraUnits": [
+            "Add up to two Ogryns: 25 points each"
+        ],
+        "points": 225
+      }
       ]
     },
     {
