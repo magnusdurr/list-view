@@ -171,18 +171,26 @@
       ]
     },
     {
-      "name": "Harlequin Masques",
-      "description": "Up to one Harlequin Masque for each Wraithkind Kabal",
+      "name": "Harlequins",
+      "description": "Up to one Harlequin formation for each Wraithkind Kabal, and up to one Harlequin Support for each Harlequin Masque",
       "formations": [
         {
           "name": "Harlequin Masque",
           "units": "One Shadowseer, three Harlequin Troupes, one Death Jesters, four Starweavers",
           "extraUnits": [
+              "Replace four Starweavers with one Harlequin Troupe and one Death Jesters: Free",
              "Add up to three Skyweaver Jetbikes: 25 points each",
-             "Add up to three Voidweavers: 25 points each",
              "(0-1 in the army) Add one Solitaire to a Harlequin Troupe: 75 points"
           ],
           "points": 275
+      },
+        {
+          "name": "Harlequin Support",
+          "units": "Four Voidweavers",
+          "extraUnits": [
+             "Add up to three Skyweaver Jetbikes: 25 points each"
+          ],
+          "points": 250
         }
       ]
     },
