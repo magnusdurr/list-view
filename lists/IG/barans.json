@@ -73,7 +73,7 @@
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
               "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
               "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or three Ogryns: 75 points",
-              "One Defense Laser, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
+              "One Defense Laser, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
           "points": 225
         },
@@ -84,7 +84,7 @@
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
               "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
               "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or three Ogryns: 75 points",
-              "One Defense Laser, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
+              "One Defense Laser, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
           "points": 175
       }
@@ -98,9 +98,9 @@
             "name": "Heavy Tank Company",
             "units": "One Commissar, six Ragnarok Heavy Tanks",
             "extraUnits": [
-              "Add three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
+              "Add three Ragnarok Heavy Tanks: 125 points"
             ],
-            "points": 375
+            "points": 350
         },
         {
           "name": "Macharius Company",
@@ -121,30 +121,30 @@
           "extraUnits": [
               "Replace four Medusa Guns and four Gun Emplacements with three Bombards and three Gun Emplacements: 25 points"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Howitzer Emplacement",
           "units": "Three Howitzers, three Gun Emplacements",
           "extraUnits": [
-              "Add three Howitzers and three Gun Emplacements: 125 points",
+              "Add three Howitzers and three Gun Emplacements (100 points), or add a Commissar, six Howitzers, and six Gun Emplacements (200 points)",
               "Add one Heavy AA Gun and one Gun Emplacement: 50 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Flak Emplacement",
           "units": "Three Heavy AA Guns, three Gun Emplacements",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Light Artillery Emplacement",
           "units": "Five Rapiers, five Thudd Guns, or five Mole Launchers, with 20cm Trenches",
           "extraUnits": [
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Griffon Battery",
@@ -168,7 +168,7 @@
           "extraUnits": [
               "Add up to three Hellhounds, Bane Wolves, or Devil Dogs: 25 points each"
           ],
-          "points": 150
+          "points": 125
       },
       {
         "name": "Defense Laser",
