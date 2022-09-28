@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Minervan Tank Legion",
-  "version": "1.0.Beta",
-  "release": "2022-04-01",
+  "version": "1.0.Beta-2",
+  "release": "2022-09-29",
   "armyforge": "EAR_ImperialGuard_Minervans",
   "strategy": "Minervan Tank Legion armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
@@ -91,7 +91,7 @@
             "Flak",
             "Leman Russ"
           ],
-          "points": 525
+          "points": 500
         },
         {
           "name": "Artillery Company",
@@ -153,8 +153,9 @@
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade, Stormsword, Shadowsword, or Stormblade",
           "extraUnits": [
+              "Replace a Baneblade with a Shadowsword: 25 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Deathstrike Battery",

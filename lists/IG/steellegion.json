@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "1.0.Beta",
-  "release": "2022-04-01",
+  "version": "1.0.Beta-2",
+  "release": "2022-09-29",
   "armyforge": "EAR_ImperialGuard_SteelLegion",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -114,7 +114,7 @@
             "Flak",
             "Hellhounds"
           ],
-          "points": 525
+          "points": 500
         },
         {
           "name": "Artillery Company",
@@ -182,10 +182,11 @@
         },
         {
           "name": "Super-Heavy Platoon",
-          "units": "One Baneblade or Shadowsword",
+          "units": "One Baneblade",
           "extraUnits": [
+              "Replace a Baneblade with a Shadowsword: 25 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Leman Russ Platoon",

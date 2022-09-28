@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Death Korps of Krieg",
-  "version": "1.0.Beta-3",
-  "release": "2022-08-17",
+  "version": "1.0.Beta-4",
+  "release": "2022-09-29",
   "armyforge": "EAR_ImperialGuard_DKoK",
   "strategy": "DKoK armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -164,10 +164,11 @@
         },
         {
           "name": "Super-Heavy Platoon",
-          "units": "One Baneblade, Shadowsword, or Stormsword",
+          "units": "One Baneblade or Stormsword",
           "extraUnits": [
+              "Replace a Baneblade with a Shadowsword: 25 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Macharius Company",

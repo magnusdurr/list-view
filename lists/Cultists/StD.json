@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Slaves to Darkness",
-  "version": "1.0.Beta-2",
-  "release": "2022-04-01",
+  "version": "1.0.Beta-3",
+  "release": "2022-09-29",
   "armyforge": "EAR_Chaos_StD",
   "strategy": "Slaves to Darkness armies have a Strategy Rating of 1.",
   "Initiative": "Chaos Space Marine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -155,9 +155,9 @@
           "name": "Super-Heavy Platoon",
           "units": "One Baneblade",
           "extraUnits": [
-            "Replace the Baneblade with a Shadowsword: Free"
+            "Replace the Baneblade with a Shadowsword: 25 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Leman Russ Squadron",
