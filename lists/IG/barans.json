@@ -3,7 +3,7 @@
   "army": "Baran Siegemasters",
   "version": "0.1.Beta",
   "release": "2022-05-27",
-  "strategy": "Baran Siegemaster armies have a Strategy Rating of 1.",
+  "strategy": "Baran Siegemaster armies have a Strategy Rating of 2.",
   "Initiative": "All formations have a Initiative Rating of 2+.",
   "specialRules": [
     "Baran Regimental HQ",
@@ -37,6 +37,7 @@
         "Hellhound",
         "Bane Wolf",
         "Devil Dog",
+        "Deathstrike",
         "Howitzer",
         "Ragnarok Heavy Tank",
         "Siegfried Light Tank",
@@ -55,7 +56,9 @@
       "from": "ImperialNavy.json",
       "units": [
         "Thunderbolt Fighter",
-        "Marauder Bomber"
+        "Marauder Bomber",
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
       ],
       "unitRules": [
       ]
@@ -71,8 +74,8 @@
           "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry",
           "extraUnits": [
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
-              "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
-              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or three Ogryns: 75 points",
+              "Five Siege Infantry, or two Snipers, or two Sappers, or two Ogryns: 50 points",
+              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or one Deathstrike: 75 points",
               "One Defense Laser, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
           "points": 225
@@ -82,8 +85,8 @@
           "units": "One Baran Commander with a Commissar, nine Siege Infantry",
           "extraUnits": [
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
-              "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
-              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or three Ogryns: 75 points",
+              "Five Siege Infantry, or two Snipers, or two Sappers, or two Ogryns: 50 points",
+              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or one Deathstrike: 75 points",
               "One Defense Laser, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
           "points": 175
@@ -182,7 +185,7 @@
       ]
     },
     {
-      "name": "Imperial Navy Aircraft",
+      "name": "Imperial Navy",
       "description": "Up to a third of the points available may be spent on Imperial Navy formations",
       "formations": [
         {
@@ -194,7 +197,15 @@
           "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
           "points": 250
-        }
+      },
+      {
+        "name": "0–1 Orbital Support",
+        "units": "One Lunar Class Cruiser",
+        "points": 125,
+        "extraUnits": [
+          "Replace with an Emperor Class Battleship: 50 points"
+        ]
+      }
       ]
     }
   ]
