@@ -74,7 +74,15 @@
       ],
       "unitRules": [
       ]
-    }
+  },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+      "Heldrake"
+    ],
+    "unitRules": [
+    ]
+  }
   ],
   "sections": [
     {
@@ -174,8 +182,8 @@
       ]
     },
     {
-      "name": "Mortals",
-      "description": "Up to half of the points available may be spent on Mortal formations.",
+      "name": "Mortals and Daemon Engines",
+      "description": "Up to half of the points available may be spent on Mortals and Daemon Engines formations.",
       "formations": [
         {
           "name": "Cultist Coven",
@@ -191,7 +199,12 @@
             "Warp Altar"
           ],
           "points": 175
-        }
+      },
+      {
+        "name": "Heldrakes",
+        "units": "Two Heldrakes",
+        "points": 225
+      }
       ]
     },
     {
