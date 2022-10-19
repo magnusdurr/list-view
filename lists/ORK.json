@@ -559,7 +559,7 @@
           "Transport"
         ],
         "notes": "Eight Boyz, Flash Gitz, Nobz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry four units of Grotz in addition to any other units transported.",
-        "crit": "The Battlefortress is destroyed."
+        "crit": "The Battlefortress is destroyed, all units being carried are killed unless roll they a 6+."
       },
       {
         "name": "Gunfortress",
@@ -577,7 +577,7 @@
           "Transport"
         ],
         "notes": "Four Boyz, Nobz, Flash Gitz, Kommandos, Grotz. Big Gunz takes two spaces each. May carry two units of Grotz in addition to any other units transported.",
-        "crit": "The Gunfortress is destroyed."
+        "crit": "The Gunfortress is destroyed, all units being carried are killed unless roll they a 6+."
       },
       {
         "name": "Flakkafortress",
@@ -593,7 +593,7 @@
         "specialRules": [
           "Damage Capacity 3"
         ],
-        "crit": "The Flakkafortress is destroyed."
+        "crit": "The Flakkafortress is destroyed, all units being carried are killed unless roll they a 6+."
       },
       {
         "name": "Skullhamma",
