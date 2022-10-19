@@ -54,7 +54,7 @@
           "Walker"
         ],
         "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide.",
-        "crit": "The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        "crit": "The unit takes a point of damage."
       },
       {
         "name": "Plaguehound",
@@ -74,7 +74,8 @@
           "Reinforced Armour",
           "Walker"
         ],
-        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide.",
+        "crit": "The unit takes a point of damage."
       },
       {
         "name": "Bloodhound",
@@ -97,7 +98,8 @@
           "Walker",
           "Must be armed with either Death Storm or Plasma Furnace"
         ],
-        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide.",
+        "crit": "The unit takes a point of damage."
       },
       {
         "name": "Warphound",
@@ -118,7 +120,8 @@
           "Reinforced Armour",
           "Walker"
         ],
-        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide.",
+        "crit": "The unit takes a point of damage."
       },
       {
         "name": "Chaos Warbringer",
