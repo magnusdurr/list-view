@@ -8,8 +8,7 @@
   "specialRules": [
     "Courage, Discipline and Loyalty",
     "Air Superiority",
-    "Deep Strike",
-    "Sky Talons"
+    "Deep Strike"
   ],
   "units": [
     {
@@ -91,25 +90,27 @@
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
         {
+          "name": "Drop Sentinel Squadron",
+          "units": "Six Drop Sentinels",
+          "extraUnits": [
+            "Add three Sky Talons: 75 points"
+          ],
+          "points": 175
+        },
+        {
           "name": "Sentinel Squadron",
           "units": "Four Sentinels",
           "extraUnits": [
             "Replace all Sentinels with Armoured Sentinels: 25 points",
-            "Replace all Sentinels with Support Sentinels: 75 points",
-            "Replace four Sentinels with six Drop Sentinels: 100 points"
+            "Replace all Sentinels with Support Sentinels: 75 points"
           ],
           "points": 100
-        },
-        {
-          "name": "Sky Talon Squadron",
-          "units": "Four Sky Talons.",
-          "points": 175
         },
         {
           "name": "Storm Trooper Company",
           "units": "Eight Elysian Storm Troopers, one with a Commissar, and four Valkyries.",
           "extraUnits": [
-            "Replace all Valkyries with Vendettas: 50 points"
+            "Replace all Valkyries with Vendettas: 75 points"
           ],
           "points": 350
         },
@@ -131,7 +132,7 @@
         },
         {
           "name": "Tauros Recon Squadron",
-          "units": "Four Tauros",
+          "units": "Five Tauros",
           "points": 150
         },
         {
@@ -148,7 +149,7 @@
         {
           "name": "Tarantula",
           "units": "Four Tarantulas",
-          "points": 100
+          "points": 125
         },
         {
           "name": "Thunderbolt Squadron",
@@ -188,12 +189,12 @@
       {
         "name": "Drop Sentinels",
         "description": "Replace two Elysian Drop Troops and one Valkyrie with two Drop Sentinels and one Sky Talon",
-        "points": "25 points"
+        "points": "Free"
       },
       {
         "name": "Fire Support",
         "description": "Replace two Elysian Drop Troops and one Valkyrie with two Elysian Fire Support Squads and one Vendetta",
-        "points": "50 points"
+        "points": "25 points"
       },
       {
         "name": "Infantry Platoon",
