@@ -32,7 +32,13 @@
     {
       "title": "Split Fire",
       "description": [
-        "A War Engine with this special rule may declare that it will Split Fire when attempting to perform a Sustain Fire, Advance, or when firing as part of a Hold Action. The WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon. If Split Fire is performed, the WE gets no +1 modifier for Sustain Fire, and suffers a -1 modifier for doing an Advance or Hold."
+        "A War Engine with this special rule may declare that it will Split Fire when attempting to perform a Sustain Fire or Advance action, suffering a -1 modifier on the roll. If the action is successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon."
+      ]
+    },
+    {
+      "title": "Stomp ’em Good",
+      "description": [
+        "A War Engine with this special rule may declare that it will Split Fire when attempting to perform a Sustain Fire action, suffering a -1 modifier on the roll. Regardless if the action succeeds or if the formation is forced to Hold, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon."
       ]
     },
     {
@@ -183,8 +189,15 @@
     {
       "title": "Deep Strike",
       "description": [
-        "An Elysian Drop Troops army that includes a Spacecraft may deploy formations transported in Valkyries, Vendettas or Sky Talons in the Spacecraft. A Lunar Class Cruiser can hold one formation, and a Emperor Class Battleship up to two formations. All transport vehicles in a formation deployed in a Spacecraft gains the <i>Planetfall</i> special rule. Roll for scatter individually for each transport vehicle.",
-        "Before each game, after the opposing army is known but before objectives are placed, the Imperial Guard player may choose which formation(s), if any, that should be deployed in the Spaceship."
+        "An Elysian Drop Troops army that includes a Spacecraft may deploy one formation transported in Valkyries/Vendettas or one Sky Talon Squadron (together with any formation they transport) in the Spacecraft. All transport vehicles in a formation deployed in a Spacecraft gains the <i>Planetfall</i> special rule. Roll for scatter individually for each transport vehicle."
+      ]
+    },
+    {
+      "title": "Sky Talons",
+      "description": [
+        "The Sky Talon Squadron are an exception to the rule that transport vehicles may only carry units from their own formation. The Sky Talon Squadron can carry units from another formation, as long as the entire formation can transported (the Sky Talon Squadron has enough transport capacity). The Sky Talon Squadron can also start the game transporting another formation, given that all units form the transported formation can fit in the Sky Talons.",
+        "If the Sky Talon Squadron pick up a formation that has already activated this turn, their action ends immediately. They may not shoot, make an additional move as part of a double action etc. Once the action has ended where the transported formation disembarked from the Sky Talon Squadron they again count as two independent formations.",
+        "Other than the exceptions above, the Sky Talons and the units they carry follow all the normal rules for Transport Vehicles (NetEA Epic Game Rules 1.7.5)."
       ]
     },
     {
