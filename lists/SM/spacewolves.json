@@ -5,10 +5,11 @@
   "release": "2022-04-01",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Space Wolves detachments and Aircraft formations.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Space Wolves detachments and Aircraft formations. <i>Pack Mentality</i> applies to all Core and Elite Packs.",
   "specialRules": [
+    "Pack Mentality",
     "Space Marine Transports",
-            "They Shall Know No Fear"
+    "They Shall Know No Fear"
   ],
   "usage": [
     "The following army list allows you to field an army of Space Marines from the Space Wolves Chapter."
@@ -17,31 +18,30 @@
     {
       "from": "SM.json",
       "units": [
-        "Wolf Lord Captain",
-        "Chaplain",
         "Great Wolf Supreme Commander",
-        "Librarian",
+        "Wolf Lord Captain",
         "Blood Claw Assaults",
         "Sky Claw Assaults",
         "Grey Hunter Tacticals",
         "Wolf Guard Terminators",
-        "Wolf Guard Assault Terminators",
         "Long Fang Devastators",
         "Swift Claw Assault Bikes",
         "Fenrisian Wolves",
-        "Wolf Scout Veterans",
+        "Thunderwolf Cavalry",
+        "Wolf Scouts",
         "Land Speeder",
-        "Blizzard Dreadnought",
-        "Helfrost Dreadnought",
-        "Leman Russ Exterminator",
-        "Stalker",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Dreadnought",
+        "Dreadnought, Wulfen",
         "Hunter",
         "Land Raider",
-        "Land Raider Wrath of Mjalnar",
+        "Predator Annihilator",
+        "Predator Destructor",
         "Rhino",
+        "Stalker",
         "Whirlwind",
         "Vindicator",
-        "Questoris Knight-Freeblade",
         "Storm Talon",
         "Stormwolf Assault Boat",
         "Stormfang Gunship",
@@ -50,103 +50,133 @@
         "Drop Pod"
       ],
       "unitRules": [
-            "Extended Command"
+        "Extended Command"
       ]
     },
     {
-      "from": "QK.json",
+      "from": "ImperialAllies.json",
       "units": [
-        "Questoris Knight-Freeblade"
+        "Warhound"
       ],
       "unitRules": [
-        "Ion Shield (x)",
-        "Lance"
+        "Void Shields"
       ]
     }
   ],
   "sections": [
     {
       "name": "Space Wolves Core Packs",
-      "description": "At least one Hunting Pack must be taken.",
       "formations": [
         {
-          "name": "1+ Hunting Pack",
-          "units": "One Wolf Lord Captain, eight Grey Hunter Tacticals plus transport",
+          "name": "Hunting Pack",
+          "units": "One Wolf Lord Captain, six Grey Hunter Tacticals plus transport",
           "extraUnits": [
-            "Replace three Grey Hunter Tacticals with Long Fang Devastators: 50 points",
-            "Add up to three Leman Russ Exterminators: 50 points each",
-            "Supreme Commander",
-            "Runekeeper",
-            "Land Raiders",
-            "Razorbacks",
+            "Replace two Grey Hunter Tacticals with Long Fang Devastators: 50 points",
             "Anti-Air",
-            "Dreadnoughts"
+            "Dreadnoughts",
+            "Fenrisian Wolves",
+            "Heavy Transports",
+            "Supreme Commander"
           ],
-          "points": 350
+          "points": 275
         },
         {
           "name": "Blood Claw Assault Pack",
-          "units": "Five Blood Claw Assaults plus transport",
+          "units": "Six Blood Claw Assaults",
           "extraUnits": [
-            "Runekeeper",
-            "Razorbacks"
+            "Add 'plus transport' to the formation: 25 points",
+            "Dreadnoughts",
+            "Fenrisian Wolves",
+            "Wolf Lord Captain"
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Sky Claw Assault Pack",
-          "units": "Five Sky Claw Assaults",
+          "units": "Six Sky Claw Assaults",
           "extraUnits": [
-            "Runekeeper"
+            "Fenrisian Wolves",
+            "Wolf Lord Captain"
           ],
-          "points": 175
+          "points": 200
+        },
+        {
+          "name": "Swift Claw Bikes Pack",
+          "units": "Six Swift Claw Assault Bikes",
+          "extraUnits": [
+            "Fenrisian Wolves",
+            "Wolf Lord Captain"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Space Wolf Elite Packs",
+      "description": "One Elite Pack may be taken per Hunting Pack (note: not one per Core Pack)",
+      "formations": [
+        {
+          "name": "Long Fang Pack",
+          "units": "One Wolf Lord Captain, four Long Fang Devastators",
+          "extraUnits": [
+            "Dreadnoughts",
+            "Fenrisian Wolves",
+            "Heavy Transports",
+            "Supreme Commander"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Thunderwolf Cavalry",
+          "units": "One Wolf Lord Captain, four Thunderwolf Cavalry",
+          "extraUnits": [
+            "Fenrisian Wolves",
+            "Supreme Commander"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Wolf Guard Terminator Pack",
+          "units": "One Wolf Lord Captain, four Wolf Guard Terminators plus transport",
+          "extraUnits": [
+            "Dreadnoughts",
+            "Supreme Commander"
+          ],
+          "points": 375
+        },
+        {
+          "name": "Wolf Scout Pack",
+          "units": "One Wolf Lord Captain, four Wolf Scouts plus transport",
+          "extraUnits": [
+            "Fenrisian Wolves"
+          ],
+          "points": 200
         }
       ]
     },
     {
       "name": "Space Wolf Support Packs",
-      "description": "Two Support Packs may be taken per Core Pack",
+      "description": "Two Support Packs may be taken per Hunting Pack (note: not one per Core Pack)",
       "formations": [
         {
-          "name": "Wolf Guard Terminator Pack",
-          "units": "One Wolf Lord Captain, four Wolf Guard Terminators plus transport",
-          "extraUnits": [
-            "Replace any number of Wolf Guard Terminators with Wolf Guard Assault Terminators: Free",
-            "Supreme Commander",
-            "Runekeeper",
-            "Land Raiders",
-            "Dreadnoughts"
-          ],
-          "points": 400
-        },
-        {
-          "name": "Swift Claw Biker Pack",
-          "units": "Four Swift Claw Assault Bikes, two Fenrisian Wolves",
-          "extraUnits": [
-            "Runekeeper"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Wolf Scout Pack",
-          "units": "Four Wolf Scout Veterans plus transport",
-          "extraUnits": [
-            "Runekeeper",
-            "Razorbacks"
-          ],
-          "points": 175
-        },
-        {
-          "name": "Land Raider Pack",
+          "name": "Land Raiders",
           "units": "Three Land Raiders",
           "extraUnits": [
-            "Add one Land Raider Wrath of Mjalnar: 125 points",
+            "Add one Land Raider: 50 points",
             "Anti-Air"
           ],
           "points": 275
         },
         {
-          "name": "Predator Pack",
+          "name": "Land Speeders",
+          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+          "extraUnits": [
+            "Typhoons"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Predators",
           "units": "Four Predator Annihilators and/or Predator Destructors",
           "extraUnits": [
             "Anti-Air"
@@ -154,7 +184,7 @@
           "points": 250
         },
         {
-          "name": "Vindicator Pack",
+          "name": "Vindicators",
           "units": "Four Vindicators",
           "extraUnits": [
             "Anti-Air"
@@ -162,7 +192,7 @@
           "points": 225
         },
         {
-          "name": "Whirlwind Pack",
+          "name": "Whirlwinds",
           "units": "Four Whirlwinds",
           "extraUnits": [
             "Anti-Air"
@@ -172,11 +202,19 @@
       ]
     },
     {
-      "name": "Space Wolf Navy and Freeblade Knights",
+      "name": "Space Wolf Navy & Collegia Titanica Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Storm Talon Pack",
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "extraUnits": [
+            "Battle Barge"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Storm Talons",
           "units": "Two Storm Talons",
           "points": 200
         },
@@ -185,25 +223,20 @@
           "units": "One Stormwolf Assault Boat",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 200
         },
         {
           "name": "Stormfang Gunship",
           "units": "One Stormfang Gunship",
-          "points": 150
+          "points": 175
         },
         {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
+          "name": "Warhounds",
+          "units": "One Warhound Titan",
           "extraUnits": [
-            "Battle Barge"
+            "Add one additional Warhound Titan: 200 points"
           ],
-          "points": 200
-      },
-        {
-          "name": "0-1 Freeblade Knight",
-          "units": "One Questoris Knight-Freeblade of any configuration",
-          "points": 175
+          "points": 275
         }
       ]
     }
@@ -213,11 +246,17 @@
     "description": "Each upgrade may be taken once per pack",
     "items": [
       {
-        "name": "Dreadnoughts",
-        "description": "Add up to two Blizzard or Helfrost Dreadnoughts",
-        "points": [
-          "50 points each",
-          "75 points per pair"
+        "name": "Anti-Air",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Stalker",
+            "points": "50 points"
+          }
         ]
       },
       {
@@ -226,41 +265,42 @@
         "points": "75 points"
       },
       {
-        "name": "Supreme Commander",
-        "description": "(0-1 in the army) Replace a Wolf Lord Captain with a Great Wolf Supreme Commander",
-        "points": "50 points"
-      },
-      {
-        "name": "Runekeeper",
-        "description": "Add one Librarian or Chaplain to the formation",
-        "points": [
-          "Librarian: 25 points",
-          "Chaplain: 50 points"
-        ]
-      },
-      {
-        "name": "Anti-Air",
-        "description": "Add any one of the following units to the formation",
+        "name": "Dreadnoughts",
+        "description": "Add up to two Dreadnoughts or one Wulfen Dreadnought to the formation",
         "options": [
           {
-            "description": "Add one Hunter",
-            "points": "75 points"
+            "description": "Dreadnoughts",
+            "points": "50 points each"
           },
           {
-            "description": "Add one Stalker",
-            "points": "50 points"
+            "description": "Wulfen Dreadnought",
+            "points": "75 points"
           }
         ]
       },
       {
-        "name": "Land Raiders",
-        "description": "Add any number of Land Raiders, up to the number required to transport the formation",
-        "points": "50 points each"
+        "name": "Fenrisian Wolves",
+        "description": "Add up to two Fenrisian Wolves",
+        "points": "25 points each"
       },
       {
-        "name": "Razorbacks",
-        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
-        "points": "25 points each"
+        "name": "Heavy Transports",
+        "description": "Add any number of Razorbacks or Land Raiders, up to the number required to transport the formation",
+        "options": [
+          {
+            "description": "Razorback",
+            "points": "25 points each"
+          },
+          {
+            "description": "Land Raider",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
+        "name": "0-1 Supreme Commander",
+        "description": "Replace a Wolf Lord Captain with a Great Wolf Supreme Commander",
+        "points": "50 points"
       }
     ]
   }

@@ -235,8 +235,8 @@
         "name": "Blood Claw Assaults",
         "type": "INF",
         "speed": 15,
-        "armour": 5,
-        "cc": 3,
+        "armour": 4,
+        "cc": 4,
         "ff": 5,
         "weapons": [
           "Bolt Pistols",
@@ -245,14 +245,14 @@
         "specialRules": [
           "Infiltrators"
         ],
-        "notes": "May use Drop Pods."
+        "notes": "Counts as Tacticals for all transport purposes."
       },
       {
         "name": "Sky Claw Assaults",
         "type": "INF",
         "speed": 15,
-        "armour": 5,
-        "cc": 3,
+        "armour": 4,
+        "cc": 4,
         "ff": 5,
         "weapons": [
           "Bolt Pistols",
@@ -281,9 +281,9 @@
         "name": "Swift Claw Assault Bikes",
         "type": "INF",
         "speed": 35,
-        "armour": 5,
-        "cc": 3,
-        "ff": 4,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
         "weapons": [
           "Twin Bolter",
           "Chainswords"
@@ -303,6 +303,23 @@
         ],
         "specialRules": [
         ]
+      },
+      {
+        "name": "Thunderwolf Cavalry",
+        "type": "INF",
+        "speed": 30,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Thunder Hammer and Storm Shield"
+        ],
+        "specialRules": [
+          "Invulnerable Save",
+          "Mounted",
+          "Walker"
+        ],
+        "notes": "Counts as Terminators for the purpose of being transported."
       },
       {
         "name": "Death Company Marines",
@@ -348,12 +365,13 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 6,
+        "cc": 5,
         "ff": 3,
         "weapons": [
-          "Multiple Lascannons",
-          "Multiple Heavy Bolters"
-        ]
+          "Lascannon|2",
+          "Heavy Bolter"
+        ],
+        "notes": "Count as Devastators for all transport purposes."
       },
       {
         "name": "Dark Angels Devastators",
@@ -410,14 +428,14 @@
         ]
       },
       {
-        "name": "Wolf Scout Veterans",
+        "name": "Wolf Scouts",
         "type": "INF",
         "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 5,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
         "weapons": [
-          "Sniper Rifles"
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Infiltrators",
@@ -445,7 +463,8 @@
         "weapons": [
           "Bolters",
           "Chainswords"
-        ]
+        ],
+        "notes": "Count as Tacticals for all transport purposes."
       },
       {
         "name": "Deathwatch Tacticals",
@@ -541,7 +560,7 @@
           "Reinforced Armour",
           "Thick Rear Armour"
         ],
-        "notes": "May use Drop Pods."
+        "notes": "May be deployed in Drop Pods."
       },
       {
         "name": "Assault Terminators",
@@ -560,24 +579,6 @@
           "Thick Rear Armour",
           "Invulnerable Save"
         ]
-      },
-      {
-        "name": "Wolf Guard Assault Terminators",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Storm Bolters",
-          "Thunder Hammer and Storm Shield"
-        ],
-        "specialRules": [
-          "Reinforced Armour",
-          "Thick Rear Armour",
-          "Invulnerable Save"
-        ],
-        "notes": "May use Drop Pods."
       },
       {
         "name": "Deathwatch Terminators",
@@ -1252,31 +1253,19 @@
         ]
       },
       {
-        "name": "Blizzard Dreadnought",
+        "name": "Dreadnought, Wulfen",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 3,
-        "weapons": [
-          "Fenrisian Axe and Blizzard Shield"
-        ],
-        "specialRules": [
-          "Invulnerable Save",
-          "Walker"
-        ]
-      },
-      {
-        "name": "Helfrost Dreadnought",
-        "type": "AV",
-        "speed": 15,
-        "armour": 3,
-        "cc": 4,
         "ff": 3,
         "weapons": [
           "Helfrost Cannon",
-          "Power Fist"
+          "Great Wolf Claw"
         ],
         "specialRules": [
+          "Fearless",
+          "Infiltrators",
           "Walker"
         ]
       },
@@ -1476,9 +1465,9 @@
           "Flamestorm Cannon ",
           "Heavy Flamer|2"
         ],
-          "specialRules": [
-            "Lucifer Pattern Engine"
-          ]
+        "specialRules": [
+          "Lucifer Pattern Engine"
+        ]
       },
       {
         "name": "Deimos Predator Executioner",
@@ -1689,10 +1678,10 @@
         "ff": 6,
         "weapons": [
           "Hunter-Killer"
-      ],
-      "specialRules": [
+        ],
+        "specialRules": [
           "Lucifer Pattern Engine"
-      ]
+        ]
       },
       {
         "name": "Stalker",
@@ -1716,7 +1705,7 @@
           "Icarus Stormcannons"
         ],
         "specialRules": [
-            "Lucifer Pattern Engine"
+          "Lucifer Pattern Engine"
         ]
       },
       {
@@ -1764,22 +1753,6 @@
         "ff": 4,
         "weapons": [
           "Demolisher"
-        ]
-      },
-      {
-        "name": "Leman Russ Exterminator",
-        "type": "AV",
-        "speed": 25,
-        "armour": 4,
-        "cc": 6,
-        "ff": 4,
-        "weapons": [
-          "Twin Autocannon",
-          "Heavy Flamer",
-          "Heavy Bolter|2|"
-        ],
-        "specialRules": [
-          "Reinforced Armour"
         ]
       },
       {
@@ -2014,9 +1987,6 @@
           "Twin Helfrost Cannon"
         ],
         "specialRules": [
-          "Commander",
-          "Pack Hunters",
-          "Leader",
           "Reinforced Armour",
           "Thick Rear Armour",
           "Transport"
@@ -2143,7 +2113,7 @@
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport four infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Landing Craft for the purposes of being transported.",
+        "notes": "May transport six infantry units without Mounted; Terminators and Dreadnoughts count as two units each. Counts as a Landing Craft for the purposes of being transported.",
         "crit": "The Stormwolf and all units being carried are destroyed."
       },
       {
@@ -2592,10 +2562,8 @@
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Blood Claw Assaults, Wolf Guard Terminators, Grey Knights Strike Squad, Grey Knights Purgation Squad. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
+        "notes": "May transport one formation of only the following units: Tacticals, Devastators, Dreadnought, Sternguard Veterans, Wolf Guard Terminators, Grey Knights Strike Squad, Grey Knights Purgation Squad. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
       },
-
-
       {
         "name": "Intercessor",
         "type": "INF",
@@ -2618,7 +2586,7 @@
           "Heavy Bolt Pistol & Chainsword"
         ],
         "specialRules": [
-          "Infiltrate"
+          "Infiltrators"
         ]
       },
       {
@@ -2725,10 +2693,9 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-
         ],
         "specialRules": [
-          "Infiltrate",
+          "Infiltrators",
           "Overlord Insertion",
           "Scout"
         ]
