@@ -1,8 +1,8 @@
 {
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
-  "version": "1.0.Beta-2",
-  "release": "2022-12-01",
+  "version": "1.0.Beta-3",
+  "release": "2023-01-09",
   "armyforge": "EAR_Inquisition_AdeptaSororitas",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "Ordo Hereticus formations including the Inquisitor Retinue, and Imperial Navy formations, have an Initiative Rating of 2+. All other formations have an Initiative of 1+.",
@@ -140,12 +140,19 @@
           "points": 175
         },
         {
-          "name": "Dominus",
-          "units": "One Palatine, four Dominion Sisters, two Sororitas Rhinos",
-          "extraUnits": [
-            "Replace two Sororitas Rhinos with two Sororitas Repressors: 20 points"
-          ],
-          "points": 175
+            "name": "Dominus",
+            "units": "One Palatine, four Dominion Sisters, two Sororitas Rhinos",
+            "extraUnits": [
+                "Replace two Sororitas Rhinos with two Sororitas Repressors: 20 points"
+            ],
+            "points": 175
+        },
+        {
+            "name": "Stormlord",
+            "units": "One Sororitas Stormlord",
+            "extraUnits": [
+            ],
+            "points": 175
         }
       ]
     },
@@ -242,10 +249,6 @@
         "name": "Transport",
         "description": "You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible",
         "options": [
-          {
-            "description": "Add one Sororitas Stormlord (Mission only)",
-            "points": "100 points"
-          },
           {
             "description": "Add any number of Sororitas Immolators",
             "points": "30 points each"
