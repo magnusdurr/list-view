@@ -160,13 +160,6 @@
           "extraUnits": [
           ],
           "points": 250
-        },
-        {
-          "name": "Vessel of Pain",
-          "units": "One Vessel of Pain",
-          "extraUnits": [
-          ],
-          "points": 250
         }
       ]
     },
@@ -180,7 +173,7 @@
           "extraUnits": [
               "Replace four Starweavers with two Harlequin Troupe and one Death Jesters: Free",
              "Add up to three Skyweaver Jetbikes: 25 points each",
-             "(0-1 in the army) Add one Solitaire to a Harlequin Troupe: 75 points"
+             "(0-1 in the army) Add one Solitaire to a Harlequin Troupe: 50 points"
           ],
           "points": 275
       },
@@ -197,36 +190,43 @@
     {
       "name": "Commorragh Navy & War Engines",
       "description": "Up to a third of the points available may be spent on Commorragh Navy and War Engine formations",
-      "formations": [
-        {
-          "name": "Tormentor",
-          "units": "One Tormentor Titan",
-          "extraUnits": [
-          ],
-          "points": 375
-        },
-        {
-          "name": "Razorwing Cast",
-          "units": "Two Razorwing Interceptors",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
-        {
-          "name": "Voidraven Cast",
-          "units": "Two Voidraven Interdictors",
-          "extraUnits": [
-          ],
-          "points": 225
-        },
-      {
-        "name": "0-1 Orbital Support",
-        "units": "One Torture Class Cruiser",
-        "extraUnits": [
-        ],
-        "points": 250
-      }
-      ]
+        "formations": [
+            {
+                "name": "Vessel of Pain",
+                "units": "One Vessel of Pain",
+                "extraUnits": [
+                ],
+                "points": 250
+            },
+            {
+                "name": "Tormentor",
+                "units": "One Tormentor Titan",
+                "extraUnits": [
+                ],
+                "points": 350
+            },
+            {
+                "name": "Razorwing Cast",
+                "units": "Two Razorwing Interceptors",
+                "extraUnits": [
+                ],
+                "points": 200
+            },
+            {
+                "name": "Voidraven Cast",
+                "units": "Two Voidraven Interdictors",
+                "extraUnits": [
+                ],
+                "points": 225
+            },
+            {
+                "name": "0-1 Orbital Support",
+                "units": "One Torture Class Cruiser",
+                "extraUnits": [
+                ],
+                "points": 250
+            }
+        ]
     }
   ],
   "upgrades": {
