@@ -8,7 +8,8 @@
   "specialRules": [
     "Courage, Discipline and Loyalty",
     "Air Superiority",
-    "Deep Strike"
+    "Deep Strike",
+    "Elysian Transports"
   ],
   "units": [
     {
@@ -65,7 +66,7 @@
       "formations": [
         {
           "name": "0-1 Regimental HQ",
-          "units": "One Elysian Supreme Commander with a Commissar, seven Elysian Drop Troops, four Valkyries.",
+          "units": "One Elysian Supreme Commander with a Commissar and seven Elysian Drop Troops plus transport.",
           "extraUnits": [
             "Drop Sentinels",
             "Fire Support",
@@ -75,7 +76,7 @@
         },
         {
           "name": "Drop Troop Company",
-          "units": "One Elysian Commander with a Commissar, seven Elysian Drop Troops, four Valkyries.",
+          "units": "One Elysian Commander with a Commissar and seven Elysian Drop Troops plus transport.",
           "extraUnits": [
             "Drop Sentinels",
             "Fire Support",
@@ -108,19 +109,13 @@
         },
         {
           "name": "Storm Trooper Company",
-          "units": "Eight Elysian Storm Troopers, one with a Commissar, and four Valkyries.",
-          "extraUnits": [
-            "Replace all Valkyries with Vendettas: 75 points"
-          ],
+          "units": "Eight Elysian Storm Troopers, one with a Commissar, plus transport.",
           "points": 350
         },
         {
           "name": "Support Platoon",
-          "units": "Four Elysian Support Squads or four Elysian Mortar Squads, and two Valkyries",
-          "extraUnits": [
-            "Replace all Valkyries with Vendettas: 25 points"
-          ],
-          "points": 200
+          "units": "Four Elysian Support Squads or four Elysian Mortar Squads plus transport",
+          "points": 225
         },
         {
           "name": "Tauros Venator Squadron",
@@ -132,7 +127,7 @@
         },
         {
           "name": "Tauros Recon Squadron",
-          "units": "Five Tauros",
+          "units": "Four Tauros",
           "points": 150
         },
         {
@@ -188,17 +183,17 @@
     "items": [
       {
         "name": "Drop Sentinels",
-        "description": "Replace two Elysian Drop Troops and one Valkyrie with two Drop Sentinels and one Sky Talon",
+        "description": "Replace two Elysian Drop Troops with two Drop Sentinels and one Sky Talon",
         "points": "Free"
       },
       {
         "name": "Fire Support",
-        "description": "Replace two Elysian Drop Troops and one Valkyrie with two Elysian Fire Support Squads and one Vendetta",
+        "description": "Replace two Elysian Drop Troops with two Elysian Fire Support Squads",
         "points": "25 points"
       },
       {
         "name": "Infantry Platoon",
-        "description": "Add two Elysian Drop Troops and one Valkyrie",
+        "description": "Add two Elysian Drop Troops",
         "points": "75 points"
       }
     ]

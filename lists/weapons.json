@@ -5188,6 +5188,15 @@
       ]
     },
     {
+      "name": "Lascannon Array",
+      "modes": [
+        {
+          "firepower": "AT3+",
+          "range": 45
+        }
+      ]
+    },
+    {
       "name": "Heavy Bolter AA Turret",
       "modes": [
         {
@@ -5392,7 +5401,7 @@
       "name": "Accatran Mortar",
       "modes": [
         {
-          "firepower": "1BP",
+          "firepower": "2x AP5+",
           "range": 30,
           "specialRules": [
             "Ind"
