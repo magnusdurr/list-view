@@ -132,22 +132,23 @@
             "notes": "Dire Avengers, Swooping Hawks and Warp Spiders have an Exarch Ranged Weapon. Howling Banshees and Striking Scorpions have an Exarch Close Combat Weapon. Dark Reapers have a Reaper Launcher, Fire Dragons have a Firepike and Shining Spears have a Starlance."
         },
         {
-            "name": "Mounted Farseer",
+            "name": "Saim-Hann Mounted Farseer",
             "type": "INF",
             "speed": 35,
             "armour": 4,
             "cc": 4,
-            "ff": 4,
+            "ff": 5,
             "weapons": [
                 "Witch Blades",
-                "Twin Shuriken Catapult"
+                "Shuriken Cannon"
             ],
             "specialRules": [
                 "Commander",
                 "Farsight",
                 "Invulnerable Save",
                 "Mounted",
-                "Skimmer"
+                "Skimmer",
+                "Wind-Swift"
             ],
             "notes": "The Mounted Farseer can be used to summon the Avatar."
         },

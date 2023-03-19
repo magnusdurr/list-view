@@ -1,10 +1,10 @@
 {
   "fraction": "Eldar",
   "army": "Craftworld Saim-Hann",
-  "version": "Alpha 0.8.4",
-  "release": "2022-04-01",
-  "strategy": "Craftworld Saim-Hann armies have a Strategy Rating of 4.",
-  "Initiative": "Shining Spears, Aspect Warriors, Titans, and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "version": "Beta 0.1.1",
+  "release": "2023-03-19",
+  "strategy": "Craftworld Eldar armies have a Strategy Rating of 4.",
+  "Initiative": "Aspect Warriors, Titans, and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Avatar (Saim-Hann)",
     "May not Garrison (Saim-Hann)",
@@ -24,6 +24,8 @@
         "Avatar",
         "Eldar Exarch",
         "Eldar Guardians",
+        "Farseer",
+        "Saim-Hann Mounted Farseer",
         "Heavy Weapon Platform",
         "War Walker",
         "Saim-Hann Wild Riders",
@@ -87,25 +89,24 @@
     },
     {
       "name": "Saim-Hann Warhosts",
-      "description": "Up to one Aspect Warrior or Mounted Guardian Warhost for each Wild Rider Warhost",
+      "description": "Up to one Aspect Warrior Warhost and one Mounted Guardian Warhost for each Wild Rider Warhost",
         "formations": [
             {
                 "name": "Wild Rider Warhost",
-                "units": "Eight Saim-Hann Wild Riders",
+                "units": "Eight Saim-Hann Wild Riders, Saim-Hann Mounted Farseer",
                 "extraUnits": [
-                    "Replace up to four Wild Riders with Saim-Hann Vypers: Free",
-                    "Replace up to two Wild Riders with Saim-Hann Shroud Runners: Free",
+                    "Replace up to four Wild Riders with Saim-Hann Vypers and/or Shroud Runners: Free",
                     "(0-1 per army) Replace one unit of Wild Riders with a Wild Rider Chieftain: 50 points",
                     "Add one Saim-Hann Hornet: 50 points"
                 ],
-                "points": 275
+                "points": 325
             },
             {
                 "name": "Mounted Guardian Warhost",
                 "units": "Three Wave Serpents, Farseer, five Guardians",
                 "extraUnits": [
                     "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms: Free",
-                    "Add one Firestorm: 50 points"
+                    "Add one Saim-Hann Hornet: 50 points"
                 ],
                 "points": 250
             },
@@ -128,8 +129,7 @@
                 "name": "Wild Rider Troupe",
                 "units": "Six Saim-Hann Wild Riders",
                 "extraUnits": [
-                    "Replace up to two Wild Riders with Saim-Hann Vypers: Free",
-                    "Replace one Wild Riders with Saim-Hann Shroud Runners: Free",
+                    "Replace up to three Wild Riders with Saim-Hann Vypers and/or Shroud Runners: Free",
                     "Add one Saim-Hann Hornet: 50 points"
                 ],
                 "points": 200
