@@ -27,6 +27,7 @@
         "Heavy Weapon Platform",
         "War Walker",
         "Saim-Hann Wild Riders",
+        "Saim-Hann Shroud Runners",
         "Dire Avengers",
         "Fire Dragons",
         "Dark Reapers",
@@ -90,10 +91,12 @@
         "formations": [
             {
                 "name": "Wild Rider Warhost",
-                "units": "Nine Saim-Hann Wild Riders",
+                "units": "Eight Saim-Hann Wild Riders",
                 "extraUnits": [
-                    "Replace any number of Wild Riders with Saim-Hann Vypers: Free",
-                    "(0-1 per army) Replace one unit of Wild Riders with a Wild Rider Chieftain: 50 points"
+                    "Replace up to four Wild Riders with Saim-Hann Vypers: Free",
+                    "Replace up to two Wild Riders with Saim-Hann Shroud Runners: Free",
+                    "(0-1 per army) Replace one unit of Wild Riders with a Wild Rider Chieftain: 50 points",
+                    "Add one Saim-Hann Hornet: 50 points"
                 ],
                 "points": 275
             },
@@ -125,7 +128,9 @@
                 "name": "Wild Rider Troupe",
                 "units": "Six Saim-Hann Wild Riders",
                 "extraUnits": [
-                    "Replace any number of Wild Riders with Saim-Hann Vypers: Free"
+                    "Replace up to two Wild Riders with Saim-Hann Vypers: Free",
+                    "Replace one Wild Riders with Saim-Hann Shroud Runners: Free",
+                    "Add one Saim-Hann Hornet: 50 points"
                 ],
                 "points": 200
             },
@@ -150,7 +155,7 @@
                 "units": "Five Falcons",
                 "extraUnits": [
                     "Replace up to two Falcons with Firestorms: Free",
-                    "Add five Guardians to the formation: 75 points",
+                    "Add one Farseer and four Guardians to the formation: 100 points",
                     "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms: Free"
                 ],
                 "points": 250
@@ -166,17 +171,16 @@
                 "name": "Night Spinner Troupe",
                 "units": "Three Night Spinners",
                 "extraUnits": [
-                    "Add one Night Spinner: 50 points"
+                    "Add one Night Spinner: 75 points"
                 ],
                 "points": 175
             },
             {
                 "name": "Hornet Troupe",
-                "units": "Four Saim-Hann Hornets",
+                "units": "Three Saim-Hann Hornets",
                 "extraUnits": [
-                    "Add up to two Saim-Hann Hornets: 50 points each"
                 ],
-                "points": 200
+                "points": 175
             },
             {
                 "name": "War Walker Troupe",

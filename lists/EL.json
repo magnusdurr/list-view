@@ -286,7 +286,7 @@
             "type": "INF",
             "speed": 35,
             "armour": 5,
-            "cc": 5,
+            "cc": 4,
             "ff": 5,
             "weapons": [
                 "Shuriken Cannon"
@@ -294,6 +294,24 @@
             "specialRules": [
                 "Mounted",
                 "Skimmer",
+                "Invulnerable Save",
+                "Wind-Swift"
+            ]
+        },
+        {
+            "name": "Saim-Hann Shroud Runners",
+            "type": "INF",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Sniper Rifle"
+            ],
+            "specialRules": [
+                "Mounted",
+                "Skimmer",
+                "Scout",
                 "Invulnerable Save",
                 "Wind-Swift"
             ]
@@ -533,7 +551,7 @@
             "name": "Hornet",
             "type": "LV",
             "speed": 40,
-            "armour": 4,
+            "armour": 5,
             "cc": 6,
             "ff": 5,
             "weapons": [
@@ -548,7 +566,7 @@
             "name": "Saim-Hann Hornet",
             "type": "LV",
             "speed": 40,
-            "armour": 4,
+            "armour": 5,
             "cc": 6,
             "ff": 5,
             "weapons": [
