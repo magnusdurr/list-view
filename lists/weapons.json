@@ -8606,6 +8606,18 @@
             ]
         },
         {
+            "name": "Prism Lance",
+            "modes": [
+                {
+                    "firepower": "AP5+/AT4+",
+                    "range": 60,
+                    "specialRules": [
+                        "Lance"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Deathstalker Prism Cannon",
             "modes": [
                 {
@@ -8619,7 +8631,7 @@
             ]
         },
         {
-            "name": "Prism Launcher",
+            "name": "Prism Projector",
             "modes": [
                 {
                     "firepower": "MW3+",

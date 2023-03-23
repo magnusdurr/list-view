@@ -70,7 +70,7 @@
         ]
       },
       {
-        "name": "Support Dragon",
+        "name": "Skyward Dragon",
         "type": "LV",
         "speed": 30,
         "armour": 4,
@@ -140,18 +140,20 @@
         ]
       },
       {
-        "name": "Skyprism Megadon",
+        "name": "Voidprism Megadon",
         "type": "AV",
         "speed": 25,
         "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Prism Cannon"
+          "Prism Lance|0-1",
+          "Prism Cannon|0-1"
         ],
         "specialRules": [
           "Walker"
-        ]
+        ],
+        "notes": "Armed with a Prism Lance, can be upgraded to a Prism Cannon"
       },
       {
         "name": "Fire Gale Knight",
@@ -211,7 +213,7 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Prism Launcher||FxF"
+          "Prism Projector||FxF"
         ],
         "specialRules": [
           "Damage Capacity: 3",
@@ -220,12 +222,12 @@
         "crit": "The Great Megadon is killed."
       },
       {
-        "name": "Great Drake",
+        "name": "Eternal Drake",
         "type": "WE",
-        "speed": 30,
+        "speed": 25,
         "armour": 3,
         "cc": 3,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Blazing Breath",
           "Claws, Teeth & Tail"
@@ -236,7 +238,7 @@
           "Fearless",
           "Jump Packs"
         ],
-        "crit": "The Great Drake is killed."
+        "crit": "The Eternal Drake is killed. All Exodite Eldar formations (friend and foe) with a line of sight to the Eternal Drake receive one Blast Marker."
       },
       {
         "name": "Colossal Carnosaur",
