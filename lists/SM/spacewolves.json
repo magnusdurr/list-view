@@ -1,11 +1,11 @@
 {
   "fraction": "Space Marines",
   "army": "Space Wolves",
-  "version": "0.6.0",
-  "release": "2022-04-01",
+  "version": "0.9.0",
+  "release": "2023-03-24",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Space Wolves detachments and Aircraft formations. <i>Pack Mentality</i> applies to all Core and Elite Packs.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Space Wolves Packs and Aircraft formations. <i>Pack Mentality</i> applies to all Core and Elite Packs.",
   "specialRules": [
     "Pack Mentality",
     "Space Marine Transports",
@@ -38,6 +38,7 @@
         "Land Raider",
         "Predator Annihilator",
         "Predator Destructor",
+        "Razorback",
         "Rhino",
         "Stalker",
         "Whirlwind",
@@ -71,7 +72,7 @@
           "name": "Hunting Pack",
           "units": "One Wolf Lord Captain, six Grey Hunter Tacticals plus transport",
           "extraUnits": [
-            "Replace two Grey Hunter Tacticals with Long Fang Devastators: 50 points",
+            "Replace up to two Grey Hunter Tacticals with Long Fang Devastators: +25 points each",
             "Anti-Air",
             "Dreadnoughts",
             "Fenrisian Wolves",
@@ -119,6 +120,7 @@
           "name": "Long Fang Pack",
           "units": "One Wolf Lord Captain, four Long Fang Devastators",
           "extraUnits": [
+            "Anti-Air",
             "Dreadnoughts",
             "Fenrisian Wolves",
             "Heavy Transports",
@@ -266,15 +268,15 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts or one Wulfen Dreadnought to the formation",
+        "description": "Add up to of the following units to the formation",
         "options": [
           {
-            "description": "Dreadnoughts",
+            "description": "Dreadnought",
             "points": "50 points each"
           },
           {
             "description": "Wulfen Dreadnought",
-            "points": "75 points"
+            "points": "75 points each"
           }
         ]
       },
