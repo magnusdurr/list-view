@@ -125,6 +125,20 @@
         "notes": "Armed with either a Support D-Cannon or a Shadow Weaver"
       },
       {
+        "name": "Exodite Wraithguards",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Wraith Cannons"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
+      {
         "name": "Bloodfang Megadon",
         "type": "AV",
         "speed": 30,
