@@ -27,6 +27,7 @@
         "Farseer",
         "Saim-Hann Mounted Farseer",
         "Heavy Weapon Platform",
+        "Wraithguards",
         "War Walker",
         "Saim-Hann Wild Riders",
         "Saim-Hann Shroud Runners",
@@ -97,7 +98,7 @@
                 "extraUnits": [
                     "Replace up to four Wild Riders with Saim-Hann Vypers and/or Shroud Runners: Free",
                     "(0-1 per army) Replace one unit of Wild Riders with a Wild Rider Chieftain: 50 points",
-                    "Add one Saim-Hann Hornet: 50 points"
+                    "Add up to two Saim-Hann Hornets: 50 points each"
                 ],
                 "points": 325
             },
@@ -105,8 +106,7 @@
                 "name": "Mounted Guardian Warhost",
                 "units": "Three Wave Serpents, Farseer, five Guardians",
                 "extraUnits": [
-                    "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms: Free",
-                    "Add one Saim-Hann Hornet: 50 points"
+                    "Replace two Eldar Guardians with two Eldar Heavy Weapon Platforms or one Wraithguards: Free"
                 ],
                 "points": 250
             },
@@ -130,7 +130,7 @@
                 "units": "Six Saim-Hann Wild Riders",
                 "extraUnits": [
                     "Replace up to three Wild Riders with Saim-Hann Vypers and/or Shroud Runners: Free",
-                    "Add one Saim-Hann Hornet: 50 points"
+                    "Add up to two Saim-Hann Hornets: 50 points each"
                 ],
                 "points": 200
             },
@@ -152,13 +152,12 @@
             },
             {
                 "name": "Swords of Vaul",
-                "units": "Five Falcons",
+                "units": "Three Falcons, three Eldar Guardians",
                 "extraUnits": [
-                    "Replace up to two Falcons with Firestorms: Free",
-                    "Add one Farseer and four Guardians to the formation: 100 points",
+                    "Replace one Falcon with a Firestorm: Free",
                     "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms: Free"
                 ],
-                "points": 250
+                "points": 200
             },
             {
                 "name": "Fire Prism Troupe",
@@ -240,11 +239,6 @@
     "title": "Saim-Hann Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-      {
-        "name": "Exarch",
-        "description": "Add one Eldar Exarch to a unit of Aspect Warriors",
-        "points": "25 points"
-      }
     ]
   }
 }
