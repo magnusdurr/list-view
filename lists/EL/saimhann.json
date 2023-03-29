@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Craftworld Saim-Hann",
-  "version": "Beta 0.1.1",
-  "release": "2023-03-19",
+  "version": "Beta 0.1.2",
+  "release": "2023-03-29",
   "strategy": "Craftworld Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warriors, Titans, and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -24,7 +24,7 @@
         "Avatar",
         "Eldar Exarch",
         "Eldar Guardians",
-        "Farseer",
+        "Eldar Farseer",
         "Saim-Hann Mounted Farseer",
         "Heavy Weapon Platform",
         "Wraithguards",
@@ -106,7 +106,7 @@
                 "name": "Mounted Guardian Warhost",
                 "units": "Three Wave Serpents, Farseer, five Guardians",
                 "extraUnits": [
-                    "Replace two Eldar Guardians with two Eldar Heavy Weapon Platforms or one Wraithguards: Free"
+                    "Replace two Eldar Guardians with two Eldar Heavy Weapon Platforms (Free) or one Wraithguards (25 points)"
                 ],
                 "points": 250
             },
