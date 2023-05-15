@@ -21,6 +21,7 @@
       "units": [
         "Great Wolf Supreme Commander",
         "Wolf Lord Captain",
+        "Wolf Standard Bearer",
         "Blood Claw Assaults",
         "Sky Claw Assaults",
         "Grey Hunter Tacticals",
@@ -37,6 +38,7 @@
         "Dreadnought, Wulfen",
         "Hunter",
         "Land Raider",
+        "Leman Russ Executioner",
         "Predator Annihilator",
         "Predator Destructor",
         "Razorback",
@@ -71,11 +73,11 @@
       "formations": [
         {
           "name": "Hunting Pack",
-          "units": "One Wolf Lord Captain, six Grey Hunter Tacticals plus transport",
+          "units": "One Wolf Lord Captain, one Wolf Standard Bearer and six Grey Hunter Tacticals plus transport",
           "extraUnits": [
-            "Replace up to two Grey Hunter Tacticals with Long Fang Devastators: +25 points each",
             "Anti-Air",
             "Dreadnoughts",
+            "Executioners",
             "Fenrisian Wolves",
             "Heavy Transports",
             "Supreme Commander"
@@ -115,7 +117,7 @@
     },
     {
       "name": "Space Wolf Elite Packs",
-      "description": "One Elite Pack may be taken per Hunting Pack (note: not one per Core Pack)",
+      "description": "You may not have more Elite Packs of any one type than you have Hunting Packs",
       "formations": [
         {
           "name": "Long Fang Pack",
@@ -123,11 +125,12 @@
           "extraUnits": [
             "Anti-Air",
             "Dreadnoughts",
+            "Executioners",
             "Fenrisian Wolves",
             "Heavy Transports",
             "Supreme Commander"
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Thunderwolf Cavalry",
@@ -136,7 +139,7 @@
             "Fenrisian Wolves",
             "Supreme Commander"
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Wolf Guard Terminator Pack",
@@ -149,17 +152,18 @@
         },
         {
           "name": "Wolf Scout Pack",
-          "units": "One Wolf Lord Captain, four Wolf Scouts plus transport",
+          "units": "Four Wolf Scouts plus transport",
           "extraUnits": [
-            "Fenrisian Wolves"
+            "Fenrisian Wolves",
+            "Wolf Lord Captain"
           ],
-          "points": 200
+          "points": 175
         }
       ]
     },
     {
       "name": "Space Wolf Support Packs",
-      "description": "Two Support Packs may be taken per Hunting Pack (note: not one per Core Pack)",
+      "description": "One Support Pack may be taken per Core Pack",
       "formations": [
         {
           "name": "Land Raiders",
@@ -269,7 +273,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to of the following units to the formation",
+        "description": "Add up to two of the following units to the formation",
         "options": [
           {
             "description": "Dreadnought",
@@ -280,6 +284,11 @@
             "points": "75 points each"
           }
         ]
+      },
+      {
+        "name": "Executioners",
+        "description": "Add up to two Leman Russ Executioners",
+        "points": "50 points each"
       },
       {
         "name": "Fenrisian Wolves",
