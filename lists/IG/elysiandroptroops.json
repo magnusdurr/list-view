@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Elysian Drop Troops",
-  "version": "0.9.0",
-  "release": "2022-08-03",
+  "version": "0.9.1",
+  "release": "2023-07-01",
   "strategy": "Elysian Drop Troops armies have a Strategy Rating of 3.",
   "Initiative": "All formations have a Initiative of 2+.",
   "specialRules": [
@@ -21,6 +21,7 @@
         "Elysian Drop Troops",
         "Elysian Fire Support Squad",
         "Elysian Mortar Squad",
+        "Rapier",
         "Elysian Storm Troopers",
         "Armoured Sentinel",
         "Drop Sentinel",
@@ -114,7 +115,7 @@
         },
         {
           "name": "Support Platoon",
-          "units": "Four Elysian Support Squads or four Elysian Mortar Squads plus transport",
+          "units": "Four Rapiers or four Elysian Mortar Squads plus transport",
           "points": 225
         },
         {
