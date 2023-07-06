@@ -227,6 +227,19 @@
         ]
       },
       {
+        "name": "Barbgaunts",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Gaunt Bio-Cannon"
+        ],
+        "specialRules": [
+          "Gaunts"
+        ]
+      },
+      {
         "name": "Hormagaunts",
         "type": "INF",
         "speed": 20,
@@ -276,6 +289,19 @@
         "ff": 5,
         "weapons": [
           "Spore Mines"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Pyrovore",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Flamespurt"
         ],
         "specialRules": [
         ]
@@ -403,7 +429,7 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport up to four units of Termagants, Hormagaunts, Gargoyles and Raveners. Biovores, Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
+        "notes": "May transport up to four units of Barbgaunts, Termagants, Hormagaunts, Gargoyles and Raveners. Biovores, Pyrovores, Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
       },
       {
         "name": "Barbed Carnifex",
@@ -436,25 +462,18 @@
         ]
       },
       {
-        "name": "Tervigon Prime",
-        "type": "H-AV",
-        "speed": 25,
+        "name": "Hive Guard",
+        "type": "AV",
+        "speed": 10,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Frag Spines",
-          "Large Claws",
-          "Gaunt Pouch"
+          "Impaler Cannon"
         ],
         "specialRules": [
-          "Synapse",
-          "Fearless",
-          "Reinforced Armour",
-          "Transport",
-          "Swarm (2)"
-        ],
-        "notes": "May transport two units of Termagants and Hormagaunts. May bring back two units of Termagants and/or Hormagaunts when Swarming."
+          "Reinforced Armour"
+        ]
       },
       {
         "name": "Tervigon",
@@ -471,9 +490,24 @@
         "specialRules": [
           "Reinforced Armour",
           "Transport",
-          "Swarm (1)"
+          "Swarm(2)",
+          "Synapse"
         ],
-        "notes": "May transport two units of Termagants and Hormagaunts. May bring back one unit of Termagants and/or Hormagaunts when Swarming."
+        "notes": "May transport two units with the 'Gaunts' special rule."
+      },
+      {
+        "name": "Tyrannofex",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Rupture Cannon"
+        ],
+        "specialRules": [
+          "Reinforced Armour"
+        ]
       },
       {
         "name": "Viragon",
@@ -572,7 +606,7 @@
           "Skimmer",
           "Reinforced Armour",
           "Transport",
-          "Swarm (1)"
+          "Swarm(1)"
         ],
         "notes": "May transport up to four units of Gargoyles. May bring back one unit of Gargoyles when Swarming.",
         "crit": "The Harridan is killed."
@@ -668,6 +702,25 @@
         "crit": "The Hive Nest is destroyed."
       },
       {
+        "name": "Spawn Nest",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Ripper Swarms"
+        ],
+        "specialRules": [
+          "Damage Capacity: 3",
+          "Synapse",
+          "Fearless",
+          "Regeneration",
+          "Enhanced Swarming"
+        ],
+        "crit": "The Spawn Nest is destroyed."
+      },
+      {
         "name": "Dagon Dominatrix",
         "type": "WE",
         "speed": 25,
@@ -717,7 +770,7 @@
           "Reinforced Armour",
           "Regeneration",
           "Transport",
-          "Swarm (3)"
+          "Swarm(3)"
         ],
         "notes": "May transport five units of Termagants, Hormagaunts and Gargoyles. May bring back three units of Termagants, Hormagaunts and/or Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
         "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."

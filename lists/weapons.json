@@ -2090,6 +2090,17 @@
             ]
         },
         {
+            "name": "Gaunt Bio-Cannon",
+            "modes": [
+                {
+                    "firepower": "AP5+/AT6+",
+                    "range": 30,
+                    "specialRules": [
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Bio-Cannon",
             "modes": [
                 {
@@ -10443,6 +10454,39 @@
                         "Ind",
                         "D"
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Flamespurt",
+            "modes": [
+                {
+                    "firepower": "AP4+",
+                    "range": 30,
+                    "specialRules": [
+                        "IC"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Impaler Cannon",
+            "modes": [
+                {
+                    "firepower": "AP6+/AT3+",
+                    "range": 45,
+                    "specialRules": [
+                        "IC"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rupture Cannon",
+            "modes": [
+                {
+                    "firepower": "MW3+",
+                    "range": 45
                 }
             ]
         },

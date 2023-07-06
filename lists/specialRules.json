@@ -1275,7 +1275,7 @@
     {
       "title": "Gaunts",
       "description": [
-        "Half (rounding up) of Termagants, Hormagaunts, Gargoyles, and Raveners that are killed in an assault do not count for combat resolution and are Expendable as long as there is at least one model with Synapse still present in the formation."
+        "Half (rounding up) of all units with the <i>Gaunts</i> special rule that are killed in an assault do not count for combat resolution. <i>Gaunts</i> are also <i>Expendable</i> as long as there is at least one unit with <i>Synapse</i> still present in the formation."
       ]
     },
     {
@@ -1287,15 +1287,28 @@
     {
       "title": "Hydra Vanguard Organisms",
       "description": [
-        "Only Genestealers, Lictors, and Dimachaeron may deploy as garrisons."
+        "Only Spawn Nests, Genestealer Swarms and Infiltrator Swarms may be deployed as garrisons."
       ]
     },
     {
-      "title": "Swarm (x)",
+      "title": "Swarming",
       "description": [
-        "In the End Phase, before formations have rallied, all unbroken Tyranid formations with both Swarm (x) and Synapse creatures may 'Swarm'.",
-        "For each Swarm point, one unit with the 'Gaunts' rule that has been lost during the battle may be added to the formation, but each unit with 'Swarm (x)' may only bring back the types of units that are within brackets next to its 'Gaunt Pouch'.",
-        "All units returned to play in this manner must be placed within 5cm of a unit from the formation that was there prior to Swarming, and may not be placed in enemy zones of control or impassable terrain. Not all generated Swarm points need to be used, but may not be saved for future turns."
+        "The Hive Fleet Hydra army may spawn creatures during battle to strengthen their ranks. The army can buy units that starts in the army’s off-board swarm pool. In addition, units with <i>Gaunts</i> special rule are placed in the swarm pool when they are destroyed. These units may be returned to play via swarming",
+        "In the End Phase, before formations have rallied, all unbroken Tyranid formations with at least one <i>Synapse</i> creatures may swarm. Total up all the swarm values in the formation, this is the number of swarm points available to the formation. For each swarm point one unit from the swarm pool may be added to the formation.",
+        "In addition, a formation that regroups can use the dice roll to either return units from the swarm pool or remove blast markers. The regrouping formation can not return more units than the formation has swarm points. (e.g., a unit with one swarm points that rolled a 3 can remove 3 blast markers or return 1 unit and remove 2 blast marker)",
+        "All units returned to play in this manner must be placed within 5cm of a unit from the formation that was there prior to the swarming, and may not be placed in enemy zones of control or impassable terrain. Not all of the swarm points available need to be used, but any leftover are discarded."
+      ]
+    },
+    {
+      "title": "Swarm(x)",
+      "description": [
+        "Units with Swarm(x) adds x number of points to the formations swarm points."
+      ]
+    },
+    {
+      "title": "Enhanced Swarming",
+      "description": [
+        "Any formation within 15cm of the unit with <i>Enhanced Swarming</i> (including the formation it is part of) may add one to its swarm points. Multiple units with <i>Enhanced Swarming</i> adds one point each. Formations without swarm points on their own can use <i>Enhanced Swarming</i> to be able to swarm."
       ]
     },
     {
