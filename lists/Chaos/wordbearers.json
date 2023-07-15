@@ -9,7 +9,6 @@
     "Summoning",
     "Word Bearers Summoning Rules",
     "Fickle Masters",
-    "Heralds of Truth",
     "Word Bearers Characters"
   ],
   "usage": [
@@ -36,7 +35,8 @@
       ],
       "unitRules": [
           "Augment Summoning (+x)",
-          "Daemonic Focus"
+          "Daemonic Focus",
+          "Heralds of Truth"
       ]
     },
     {
@@ -165,6 +165,7 @@
           "units": "One Word Bearer Coryphaus, three Chaos Terminators, three Chaos Land Raiders, Daemonic Pact",
           "extraUnits": [
             "Replace one Chaos Terminators unit with two Word Bearers Possessed: Free",
+            "Replace three Chaos Land Raiders with three Chaos Dreadnoughts: Free",
             "Supreme Commander",
             "Icon Bearer",
             "Stalker",
@@ -212,11 +213,11 @@
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
-          "name": "Dreadblade",
+          "name": "0-1 Dreadblade",
           "units": "Daemonic Pact, one Knight-Dreadblade of any configuration",
           "extraUnits": [
           ],
-          "points": 275
+          "points": 250
         },
                 {
           "name": "Decimator",
