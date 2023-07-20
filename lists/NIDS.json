@@ -231,7 +231,7 @@
         "type": "INF",
         "speed": 15,
         "cc": 6,
-        "ff": 5,
+        "ff": 6,
         "weapons": [
           "Gaunt Bio-Cannon"
         ],
@@ -320,8 +320,8 @@
         "specialRules": [
           "First Strike",
           "Infiltrators",
-          "Scout",
           "Invulnerable Save",
+          "Scout",
           "Teleport"
         ]
       },
@@ -329,14 +329,14 @@
         "name": "Dimachaeron",
         "type": "LV",
         "speed": 15,
-        "armour": 3,
-        "cc": 3,
+        "armour": 5,
+        "cc": 2,
         "weapons": [
-          "Spine-Ringed Maw",
           "Large Claws"
         ],
         "specialRules": [
           "Infiltrators",
+          "Regeneration",
           "Scout"
         ]
       },
@@ -608,7 +608,7 @@
           "Transport",
           "Swarm(1)"
         ],
-        "notes": "May transport up to four units of Gargoyles. May bring back one unit of Gargoyles when Swarming.",
+        "notes": "May transport up to four units of Gargoyles.",
         "crit": "The Harridan is killed."
       },
       {
@@ -772,7 +772,7 @@
           "Transport",
           "Swarm(3)"
         ],
-        "notes": "May transport five units of Termagants, Hormagaunts and Gargoyles. May bring back three units of Termagants, Hormagaunts and/or Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+        "notes": "May transport five units with the <i>Gaunt</i> rule. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
         "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
       },
       {

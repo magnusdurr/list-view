@@ -97,10 +97,12 @@
           "points": 150
         },
         {
-          "name": "Spawn Nest",
-          "units": "One Spawn Nest",
+          "name": "Tyrant Swarm",
+          "units": "One Hive Tyrant",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Biovores, Bio-Support or Nest-Guard"
+            "One to four Instinctive Swarms",
+            "Replace a Hive Tyrant with a Hive Tyrant Shrike: Free",
+            "0-1 Hive Tyrant in the army may be replaced with a Swarmlord or a Swarmlord Shrike: 75 points"
           ],
           "points": 150
         }
@@ -111,22 +113,11 @@
       "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm.",
       "formations": [
         {
-          "name": "Tyrant Swarm",
-          "units": "One Hive Tyrant",
-          "extraUnits": [
-            "One to four Instinctive Swarms",
-            "Replace a Hive Tyrant with a Hive Tyrant Shrike: Free",
-            "0-1 Hive Tyrant in the army may be replaced with a Swarmlord: 75 points",
-            "Replace a Swarmlord with a Swarm Lord Shrike: Free"
-          ],
-          "points": 150
-        },
-        {
           "name": "Assault Swarm",
           "units": "Two Tyranid Warriors and/or Zoanthropes",
           "extraUnits": [
             "Two to four Instinctive Swarms",
-            "1+ Gaunts, Gargoyles or Biovores must be chosen",
+            "1+ Gaunts, Gargoyles or Light Artillery must be chosen",
             "Any Tyranid Warriors may be upgraded to Tyranid Warrior Shrikes: Free"
           ],
           "points": 100
@@ -137,6 +128,14 @@
           "extraUnits": [
             "Add one Hive Harridan: 100 points",
             "One to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Spawn Nest",
+          "units": "One Spawn Nest",
+          "extraUnits": [
+            "One to two Instinctive Swarms chosen from Gaunts, Light Artillery, Bio-Support or Nest-Guard"
           ],
           "points": 150
         }
@@ -192,7 +191,7 @@
       "formations": [
         {
           "name": "Gaunt",
-          "units": "Two Termagant, Hormagaunt, Barbgaunt or Gargoyle",
+          "units": "One Termagant, Hormagaunt, Barbgaunt or Gargoyle",
           "points": 10
         }
       ]
@@ -208,7 +207,7 @@
         "points": "75 points"
       },
       {
-        "name": "Biovores",
+        "name": "Light Artillery",
         "description": "Four Biovores and/or Pyrovores",
         "points": "75 points"
       },
