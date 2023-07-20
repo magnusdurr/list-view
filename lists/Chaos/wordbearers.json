@@ -2,7 +2,7 @@
   "fraction": "Chaos Space Marines",
   "army": "Word Bearers",
   "version": "Beta-1",
-  "release": "2023-07-15",
+  "release": "2023-07-20",
   "strategy": "Word Bearer armies have a Strategy Rating of 3.",
   "Initiative": "The Word Bearers Retinue and all Word Bearers Elite formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
@@ -29,7 +29,6 @@
         "Chaos Rhino",
         "Chaos Stalker",
         "Chaos Predator",
-        "Chaos Vindicator",
         "Chaos Land Raider",
         "Chaos Dreadnought"
       ],
@@ -48,7 +47,7 @@
         "Decimator",
         "Death Wheel",
         "Forgefiend",
-        "Knight-Dreadblade"
+        "Knight-Renegade"
       ],
       "unitRules": [
         "Daemon Engine (x)",
@@ -61,7 +60,8 @@
         "Cultists",
         "Chaos Spawn",
         "Chaos Hounds",
-        "Land Transporter"
+        "Land Transporter",
+        "Chaos Altar"
       ],
       "unitRules": [
       ]
@@ -97,7 +97,7 @@
   "sections": [
     {
       "name": "Word Bearers Core Formations",
-      "description": "Up to two Cultist Covens may be taken per Word Bearer Retinue.",
+      "description": "Up to two Cultist Hosts may be taken per Word Bearer Retinue.",
       "formations": [
         {
           "name": "Word Bearers Retinue",
@@ -115,13 +115,14 @@
           "points": 300
         },
         {
-          "name": "Cultist Coven",
+          "name": "Cultist Host",
           "units": "One Word Bearer Coryphaus, ten Cultists, Daemonic Pact",
           "extraUnits": [
             "Icon Bearer",
             "Replace up to two Cultists with Chaos Spawn: 25 points each",
             "Replace up to four Cultists with Chaos Hounds: Free",
-            "Add enough Land Transporters to transport the formation with no space left over: 10 points each"
+            "Add enough Land Transporters to transport the formation with no space left over: 10 points each",
+            "Add one Chaos Altar: 150 points"
           ],
           "points": 225
         }
@@ -151,11 +152,11 @@
         },
         {
           "name": "Armoured Company",
-          "units": "Six Chaos Vindicators",
+          "units": "Four Chaos Predators",
           "extraUnits": [
-            "Replace six Chaos Vindicators with six Chaos Predators (25 points), or six Chaos Land Raiders (125 points)"
+            "Replace four Chaos Predators with four Chaos Land Raiders: 75 points"
           ],
-          "points": 275
+          "points": 200
         },
         {
           "name": "The Anointed",
@@ -174,7 +175,7 @@
     },
     {
       "name": "Daemon Engine Formations",
-      "description": "Up to one Daemon Engine formation may be taken per Cultist Coven formation.",
+      "description": "Up to one Daemon Engine formation may be taken per Cultist Host formation.",
       "formations": [
         {
           "name": "Cerberites",
@@ -209,18 +210,18 @@
       "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
-          "name": "0-1 Dreadblade",
-          "units": "Daemonic Pact, one Knight-Dreadblade of any configuration",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-                {
           "name": "Decimator",
           "units": "One Decimator",
           "extraUnits": [
           ],
           "points": 225
+        },
+        {
+          "name": "Renegades",
+          "units": "Two Knight-Renegades, Daemonic Pact",
+          "extraUnits": [
+          ],
+          "points": 300
         },
         {
           "name": "Death Wheel",
@@ -312,7 +313,7 @@
       },
       {
         "name": "Icon Bearer",
-        "description": "Add one Icon Bearer character.",
+        "description": "Add one Icon Bearer character",
         "points": "25 points"
       },
       {

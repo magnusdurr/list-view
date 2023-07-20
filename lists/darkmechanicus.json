@@ -441,15 +441,15 @@
         ]
       },
       {
-        "name": "Word Bearers Cerberus Heavy Tank Destroyer",
+        "name": "Word Bearers Cerberus Heavy Tank",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Neutron Laser Array",
-          "Lascannon|2|"
+          "Heavy Ectoplasma Array",
+          "Ectoplasma Cannon|2|"
         ],
         "specialRules": [
           "Fearless",
@@ -500,7 +500,7 @@
       },
       {
         "name": "Knight-Renegade",
-        "type": "WE",
+        "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
@@ -511,15 +511,13 @@
           "Renegade Chainsword"
         ],
         "specialRules": [
-          "Damage Capacity: 2",
           "Fearless",
           "Reinforced Armour",
           "Thick Rear Armour",
           "Walker",
           "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
-        ],
-        "crit": "The Knight-Renegade is destroyed."
+        ]
       },
       {
         "name": "Knight-Tyrant",
