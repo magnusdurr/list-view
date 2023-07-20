@@ -26,10 +26,10 @@
         "Word Bearers Possessed",
         "Word Bearers Iconoclasts",
         "Chaos Terminators",
-        "Chaos Assault Bikes",
         "Chaos Rhino",
         "Chaos Stalker",
         "Chaos Predator",
+        "Chaos Vindicator",
         "Chaos Land Raider",
         "Chaos Dreadnought"
       ],
@@ -59,8 +59,6 @@
       "from": "chaoscultists.json",
       "units": [
         "Cultists",
-        "Mutants",
-        "Big Mutants",
         "Chaos Spawn",
         "Chaos Hounds",
         "Land Transporter"
@@ -118,13 +116,12 @@
         },
         {
           "name": "Cultist Coven",
-          "units": "One Word Bearer Coryphaus, ten Cultists and/or Mutants, Daemonic Pact",
+          "units": "One Word Bearer Coryphaus, ten Cultists, Daemonic Pact",
           "extraUnits": [
             "Icon Bearer",
-            "Replace up to four Cultists/Mutants with Big Mutants: 15 points each",
-            "Add one Chaos Spawn: 35 points",
-            "Add up to three Chaos Hounds: 10 points each",
-            "Add enought Land Transporters to carry the entire formation with no space left over: 10 points each"
+            "Replace up to two Cultists with Chaos Spawn: 25 points each",
+            "Replace up to four Cultists with Chaos Hounds: Free",
+            "Add enough Land Transporters to transport the formation with no space left over: 10 points each"
           ],
           "points": 225
         }
@@ -132,7 +129,7 @@
     },
     {
       "name": "Word Bearers Elite Formations",
-      "description": "Up to one Elite formation may be taken per Cultist Coven formation.",
+      "description": "Up to one Elite formation may be taken per Word Bearers Retinue.",
       "formations": [
         {
           "name": "Iconoclasts",
@@ -153,12 +150,12 @@
           "points": 250
         },
         {
-          "name": "Bike Company",
-          "units": "One Word Bearer Coryphaus, eight Chaos Assault Bikes, Daemonic Pact",
+          "name": "Armoured Company",
+          "units": "Six Chaos Vindicators",
           "extraUnits": [
-            "Icon Bearer"
+            "Replace six Chaos Vindicators with six Chaos Predators (25 points), or six Chaos Land Raiders (125 points)"
           ],
-          "points": 325
+          "points": 275
         },
         {
           "name": "The Anointed",
@@ -198,7 +195,6 @@
           ],
           "points": 225
         },
-
         {
           "name": "Defilers",
           "units": "Four Defilers",
