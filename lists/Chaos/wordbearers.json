@@ -23,11 +23,12 @@
         "Word Bearers Coryphaus",
         "Chaos Space Marines",
         "Havocs",
-        "Word Bearers Possessed",
+        "Daemonkin",
         "Word Bearers Iconoclasts",
         "Chaos Terminators",
         "Chaos Rhino",
         "Chaos Stalker",
+        "Chaos Vindicator",
         "Chaos Predator",
         "Chaos Land Raider",
         "Chaos Dreadnought"
@@ -136,7 +137,8 @@
           "name": "Iconoclasts",
           "units": "One Word Bearer Coryphaus, four Word Bearers Iconoclasts, Daemonic Pact",
           "extraUnits": [
-            "Icon Bearer"
+            "Icon Bearer",
+            "Predators"
           ],
           "points": 225
         },
@@ -144,9 +146,11 @@
           "name": "Havocs",
           "units": "One Word Bearer Coryphaus, four Havocs, two Chaos Rhinos, Daemonic Pact",
           "extraUnits": [
-            "Replace two Havocs with two Word Bearers Possessed: Free",
+            "Replace two Havocs with two Daemonkin: Free",
             "Replace two Chaos Rhinos with Chaos Land Raiders, two Chaos Dreadnoughts: 75 points",
-            "Icon Bearer"
+            "Icon Bearer",
+            "Predators",
+            "Stalker"
           ],
           "points": 250
         },
@@ -154,7 +158,8 @@
           "name": "Armoured Company",
           "units": "Four Chaos Predators",
           "extraUnits": [
-            "Replace four Chaos Predators with four Chaos Land Raiders: 75 points"
+            "Replace four Chaos Predators with four Chaos Vindicators (Free), or four Chaos Land Raiders (75 points)",
+            "Stalker"
           ],
           "points": 200
         },
@@ -162,7 +167,7 @@
           "name": "The Anointed",
           "units": "One Word Bearer Coryphaus, three Chaos Terminators, three Chaos Land Raiders, Daemonic Pact",
           "extraUnits": [
-            "Replace one Chaos Terminators unit with two Word Bearers Possessed: Free",
+            "Replace one Chaos Terminators unit with two Daemonkin: Free",
             "Replace three Chaos Land Raiders with three Chaos Dreadnoughts: Free",
             "Supreme Commander",
             "Icon Bearer",
@@ -248,7 +253,7 @@
           "extraUnits": [
             "Battleship"
           ],
-          "points": 150
+          "points": 125
         }
       ]
     },
@@ -338,7 +343,7 @@
       },
       {
         "name": "Possessed",
-        "description": "Replace two Chaos Space Marines with two Word Bearers Possessed",
+        "description": "Replace two Chaos Space Marines with two Daemonkin",
         "points": "25 points"
       }
     ]

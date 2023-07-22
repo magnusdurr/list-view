@@ -98,6 +98,7 @@
         "specialRules": [
           "Inspiring",
           "Supreme Commander",
+          "Heralds of Truth",
           "Augment Summoning (+D3)",
           "Invulnerable Save"
         ]
@@ -207,10 +208,10 @@
             "n/a"
         ],
         "specialRules": [
+          "Heralds of Truth",
           "Augment Summoning (+D3)",
           "Leader",
-          "Invulnerable Save",
-          "Heralds of Truth"
+          "Invulnerable Save"
         ]
       },
       {
@@ -329,6 +330,7 @@
         ],
         "specialRules": [
           "Supreme Commander",
+          "Heralds of Truth",
           "Reinforced Armour",
           "Jump Pack",
           "Fearless",
@@ -765,16 +767,17 @@
         "notes": "Must start the game in the reserves, and may only enter the battlefield by Teleportation. May not be transported."
       },
       {
-        "name": "Word Bearers Possessed",
+        "name": "Daemonkin",
         "type": "INF",
         "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
         "weapons": [
-          "Daemonic Possession"
+          "Daemonic Claws"
         ],
         "specialRules": [
+          "Infiltrators",
           "Invulnerable Save"
         ]
       },
