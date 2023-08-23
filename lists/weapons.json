@@ -3475,7 +3475,7 @@
             "modes": [
                 {
                     "firepower": "3BP",
-                    "range": 45,
+                    "range": 30,
                     "specialRules": [
                         "MW",
                         "IC"
@@ -10489,6 +10489,13 @@
                 {
                     "firepower": "AP4+",
                     "range": 30,
+                    "specialRules": [
+                        "IC"
+                    ]
+                },
+                {
+                    "firepower": "Small Arms",
+                    "join": "and",
                     "specialRules": [
                         "IC"
                     ]
