@@ -62,16 +62,6 @@
         "Regeneration",
         "Swarm(x)"
       ]
-    },
-    {
-      "from": "nidsNavy.json",
-      "units": [
-        "Mycetic Spore",
-        "Razorfiend",
-        "Hive Ship"
-      ],
-      "unitRules": [
-      ]
     }
   ],
   "sections": [
@@ -240,11 +230,6 @@
         "name": "Nest-Guard (only Swarm Nest formations)",
         "description": "Three Hive Guard.",
         "points": "75 points"
-      },
-      {
-        "name": "Mycetic Spore (0-1 per Swarm, may only be added if the swarm fits inside)",
-        "description": "Must deploy via planetary assault rules from a Razorfiend or Hive Ship.",
-        "points": "50 points"
       }
     ]
   }
