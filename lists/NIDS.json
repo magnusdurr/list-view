@@ -67,7 +67,7 @@
           "Large Claws"
         ],
         "specialRules": [
-          "Enhanced Swarming",
+          "Assisted Swarming",
           "Hive Mind Locus",
           "Inspiring",
           "Synapse",
@@ -89,7 +89,7 @@
           "Large Claws"
         ],
         "specialRules": [
-          "Enhanced Swarming",
+          "Assisted Swarming",
           "Hive Mind Locus",
           "Inspiring",
           "Synapse",
@@ -494,7 +494,7 @@
         "specialRules": [
           "Reinforced Armour",
           "Transport",
-          "Swarm(2)",
+          "Augmented Swarming(+1)",
           "Synapse",
           "Fearless"
         ],
@@ -610,8 +610,7 @@
           "Fearless",
           "Skimmer",
           "Reinforced Armour",
-          "Transport",
-          "Swarm(1)"
+          "Transport"
         ],
         "notes": "May transport up to four units of Gargoyles.",
         "crit": "The Harridan is killed."
@@ -719,9 +718,9 @@
         "specialRules": [
           "Damage Capacity: 3",
           "Synapse",
+          "Assisted Swarming",
           "Fearless",
-          "Regeneration",
-          "Enhanced Swarming"
+          "Regeneration"
         ],
         "crit": "The Spawn Nest is destroyed."
       },
@@ -775,7 +774,7 @@
           "Reinforced Armour",
           "Regeneration",
           "Transport",
-          "Swarm(3)"
+          "Augmented Swarming(+D3)"
         ],
         "notes": "May transport five units with the 'Gaunts' special rule. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
         "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."

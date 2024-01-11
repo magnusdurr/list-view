@@ -1305,22 +1305,23 @@
     {
       "title": "Swarming",
       "description": [
-        "The Hive Fleet Hydra army may spawn gaunts during battle to strengthen their ranks. The army starts the game with an off-board swarm pool. Swarm pool points are bought during army creation and allows you to add units with the <i>Gaunts</i> special rule to spawning formations. The size of the swarm pool must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As gaunts are spawned the pool must be changed to reflect its current size. You can spawn any type of unit with the <i>Gaunts</i> special rule available in the army regardless the original unit composition of the spawning formation.",
-        "In the End Phase, before formations have rallied, all Tyranid formations with at least one <i>Synapse</i> creatures may swarm. Calculate the swarm value of the formation (see <i>Swarm(x)</i> and <i>Enhanced Swarming</i> unit special rules), this is the maximum number of units the formation can spawn. For each unit added to the formation one point is removed from the spawn pool. Formations that are broken may also swarm but must pay two spawn points for each unit added to the formation.",
-        "In addition, a formation that regroups can use the dice roll to either spawn units from the swarm pool or remove blast markers. The regrouping formation can not spawn more units than the formation has swarm value. (e.g., a unit with swarm value 1 that rolled a 3 can remove 3 blast markers or spawn 1 unit and remove 2 blast marker)",
-        "All units added in this manner must be placed within 5cm of a unit that was part of the formation prior to the swarming, and may not be placed in enemy zones of control or impassable terrain."
+        "The Hive Fleet Hydra army may spawn gaunts during battle to strengthen their ranks. The army starts the game with an off-board swarm pool. Swarm pool points are bought during army creation and allows you to add units with the <i>Gaunts</i> special rule to spawning formations. The size of the swarm pool must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As gaunts are spawned the pool size must be changed to reflect its current size. You can spawn any type of unit with the <i>Gaunts</i> special rule available in the army regardless the original unit composition of the spawning formation.",
+
+        "In the End Phase, before formations have rallied, all Tyranid formations with at least one <i>Synapse</i> creatures may swarm. Roll 2D3 to generate the number of spawning points available to the formation. The formation may then spawn gaunts up to the number of spawning points generated. All units added in this manner must be placed within 5cm of a unit that was part of the formation prior to the swarming, and may not be placed in enemy zones of control or impassable terrain. Formations that are broken may also swarm but must spend two spawn points for each unit added to the formation. Unit special rules may affect the number of spawning points available to a formation (see <i>Augmented Swarming(+x)</i> and <i>Assisted Swarming</i> unit special rules).",
+
+        "In addition, a formation that regroups can use the dice roll to either spawn units from the swarm pool or remove blast markers. E.g. a formation rolling a 3 when regrouping can remove three blastmarkers, spawn three gaunts, remove one blastmarker and spawn two gaunts, etc..."
       ]
     },
     {
-      "title": "Swarm(x)",
+      "title": "Augmented Swarming(+x)",
       "description": [
-        "Units with Swarm(x) adds x points to the formations swarm value (see <i>Swarming</i>)."
+        "Units with <i>Augment Swarming(+x)</i> adds a number of spawning points equal to <i>x</i> when the formation they are in is swarming (see <i>Swarming</i> army rule)."
       ]
     },
     {
-      "title": "Enhanced Swarming",
+      "title": "Assisted Swarming",
       "description": [
-        "Any formation within 15cm of the unit with <i>Enhanced Swarming</i> (including the formation it is part of) may add one point to the formations swarm value (see <i>Swarming</i>). Multiple units with <i>Enhanced Swarming</i> adds one point each. Formations without swarm value on their own can use <i>Enhanced Swarming</i> to be able to swarm."
+        "Units with <i>Assisted Swarming</i> adds one spawning point to friendly formations withing 15cm of the unit (including the formation it is part of) during swarming (see <i>Swarming</i> army rule). Multiple units with <i>Assisted Swarming</i> adds one point each."
       ]
     },
     {
