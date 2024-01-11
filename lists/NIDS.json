@@ -333,6 +333,7 @@
         "speed": 15,
         "armour": 4,
         "cc": 2,
+        "ff": 6,
         "weapons": [
           "Large Claws"
         ],
@@ -385,6 +386,7 @@
           "Bio-Acid-Venom Pods"
         ],
         "specialRules": [
+          "Reinforced Armour"
         ]
       },
       {
@@ -393,7 +395,7 @@
         "speed": 25,
         "armour": 5,
         "cc": 5,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
           "Bio-Plasmic Cannon"
         ],
@@ -480,7 +482,7 @@
       {
         "name": "Tervigon",
         "type": "H-AV",
-        "speed": 25,
+        "speed": 20,
         "armour": 5,
         "cc": 5,
         "ff": 5,
@@ -501,10 +503,10 @@
       {
         "name": "Tyrannofex",
         "type": "H-AV",
-        "speed": 25,
+        "speed": 20,
         "armour": 5,
         "cc": 5,
-        "ff": 4,
+        "ff": 5,
         "weapons": [
           "Rupture Cannon"
         ],
