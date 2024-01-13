@@ -4542,14 +4542,26 @@
                 }
             ]
         },
+                {
+            "name": "Psilencer",
+            "modes": [
+                {
+                    "firepower": "AP4+/AT5+",
+                    "range": 30,
+                    "specialRules": [
+                        "Psybolts"
+                    ]
+                }
+            ]
+        },
         {
             "name": "Gatling Psilencer",
             "modes": [
                 {
-                    "firepower": "3x AP5+/AT5+",
+                    "firepower": "2x AP4+/AT5+",
                     "range": 45,
                     "specialRules": [
-                        "D"
+                        "Psybolts"
                     ]
                 }
             ]
@@ -5358,6 +5370,27 @@
                     "join": "and",
                     "specialRules": [
                         "IC"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Incinerator",
+            "modes": [
+                {
+                    "firepower": "AP4+",
+                    "range": 15,
+                    "specialRules": [
+                        "IC",
+                        "Psybolts"
+                    ]
+                },
+                {
+                    "firepower": "Small Arms",
+                    "join": "and",
+                    "specialRules": [
+                        "IC",
+                        "Psybolts"
                     ]
                 }
             ]
@@ -8777,7 +8810,7 @@
             "name": "Psycannon",
             "modes": [
                 {
-                    "firepower": "AP4+/AT5+",
+                    "firepower": "AP5+/AT6+",
                     "range": 30,
                     "specialRules": [
                         "Psybolts"
@@ -8801,7 +8834,7 @@
             "name": "Twin Psycannon",
             "modes": [
                 {
-                    "firepower": "AP3+/AT4+",
+                    "firepower": "AP4+/AT5+",
                     "range": 30,
                     "specialRules": [
                         "Psybolts"
@@ -8813,7 +8846,7 @@
             "name": "AC Twin Psycannon",
             "modes": [
                 {
-                    "firepower": "AP4+/AT4+/AA5+",
+                    "firepower": "AP4+/AT5+/AA5+",
                     "range": 15,
                     "specialRules": [
                         "Psybolts"

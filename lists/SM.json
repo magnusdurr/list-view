@@ -68,7 +68,9 @@
           "n/a"
         ],
         "specialRules": [
+          "Extended Command",
           "Commander",
+          "Teleport Homer",
           "Leader"
         ]
       },
@@ -207,9 +209,9 @@
           "Heavy Daemon Hammer"
         ],
         "specialRules": [
-          "Inspiring",
           "Invulnerable Save",
           "Supreme Commander",
+          "Extended Command",
           "Teleport Homer"
         ]
       },
@@ -667,7 +669,7 @@
         "cc": 2,
         "ff": 3,
         "weapons": [
-          "Psycannon|2|",
+          "Psilencer|2|",
           "Holocaust",
           "Nemesis Daemon Hammers"
         ],
@@ -803,7 +805,7 @@
         "cc": 4,
         "ff": 3,
         "weapons": [
-          "Psycannon|3|",
+          "Incinerator|2|",
           "Holocaust"
         ],
         "specialRules": [
@@ -905,7 +907,7 @@
         "cc": 3,
         "ff": 3,
         "weapons": [
-          "Heavy Psycannon",
+          "Gatling Psilencer",
           "Nemesis Daemon Hammer"
         ],
         "specialRules": [
@@ -1592,7 +1594,7 @@
         "speed": 30,
         "armour": 5,
         "cc": 6,
-        "ff": 4,
+        "ff": 6,
         "weapons": [
           "Twin Psycannon"
         ],
@@ -1675,6 +1677,23 @@
         "ff": 6,
         "weapons": [
           "Storm Bolter"
+        ],
+        "specialRules": [
+          "Transport",
+          "Faithful",
+          "Invulnerable Save"
+        ],
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+            {
+        "name": "Grey Knights Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Psycannon"
         ],
         "specialRules": [
           "Transport",
@@ -1864,12 +1883,14 @@
         "ff": 4,
         "weapons": [
           "Twin Psycannon",
-          "Flamestorm Incinerator|2"
+          "Incinerator|2"
         ],
         "specialRules": [
           "Reinforced Armour",
+          "Faithful",
           "Thick Rear Armour",
-          "Transport"
+          "Transport",
+          "Invulnerable Save"
         ],
         "notes": "May transport three infantry units without Jump Packs or Mounted; Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
       },
