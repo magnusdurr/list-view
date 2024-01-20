@@ -285,7 +285,7 @@
       {
         "name": "Biovore",
         "type": "INF",
-        "speed": 20,
+        "speed": 15,
         "armour": 6,
         "cc": 6,
         "ff": 5,
@@ -298,7 +298,7 @@
       {
         "name": "Pyrovore",
         "type": "INF",
-        "speed": 20,
+        "speed": 15,
         "armour": 6,
         "cc": 6,
         "ff": 5,
@@ -330,7 +330,7 @@
       {
         "name": "Dimachaeron",
         "type": "LV",
-        "speed": 15,
+        "speed": 30,
         "armour": 4,
         "cc": 2,
         "ff": 6,
@@ -338,7 +338,6 @@
           "Large Claws"
         ],
         "specialRules": [
-          "Infiltrators",
           "Regeneration",
           "Scout"
         ]

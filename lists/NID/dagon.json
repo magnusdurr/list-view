@@ -97,13 +97,14 @@
         },
         {
           "name": "Assault Swarm",
-          "units": "Two Tyranid Warriors and/or Zoanthropes",
+          "units": "Two Tyranid Warriors",
           "extraUnits": [
             "One to two Instinctive Swarms",
-            "1+ Gaunts, Gargoyles or Biovores must be chosen",
-            "Replace up to two Tyranid Warriors with Tyranid Warrior Shrikes: Free"
+            "1+ Gaunts, Gargoyles, or Bio-Support must be chosen",
+            "Replace two Tyranid Warriors with Tyranid Warrior Shrikes: Free",
+            "Replace two Tyranid Warriors with Zoanthropes: 25pts"
           ],
-          "points": 125
+          "points": 100
         }
       ]
     },
@@ -115,7 +116,7 @@
           "name": "Nest Swarm",
           "units": "One Hive Nest",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Biovores or Bio-Support",
+            "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Bio-Support, or Bio-Artillery",
             "1+ Gaunts, Gargoyles or Biovores must be chosen"
           ],
           "points": 150
@@ -198,17 +199,17 @@
       {
         "name": "Gaunts",
         "description": "Five Termagants, five Barbgaunts, or five Hormagaunts",
-        "points": "50 points"
+        "points": "75 points"
       },
       {
-        "name": "Biovores",
+        "name": "Bio-Support",
         "description": "Four Biovores",
         "points": "75 points"
       },
       {
         "name": "Gargoyles",
         "description": "Four Gargoyles",
-        "points": "50 points"
+        "points": "75 points"
       },
       {
         "name": "Bio-Flyers",
@@ -217,13 +218,13 @@
       },
       {
         "name": "Carnifex",
-        "description": "Three Barbed Carnifex or three Screamer-Killer Carnifex",
-        "points": "125 points"
+        "description": "two Barbed Carnifex or two Screamer-Killer Carnifex",
+        "points": "75 points"
       },
       {
-        "name": "Bio-Support",
+        "name": "Bio-Artillery",
         "description": "Three Dactylis",
-        "points": "150 points"
+        "points": "125 points"
       },
       {
         "name": "Bio-Attack",

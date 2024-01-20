@@ -2093,7 +2093,7 @@
             "name": "Gaunt Bio-Cannon",
             "modes": [
                 {
-                    "firepower": "AP6+",
+                    "firepower": "AP5+",
                     "range": 30,
                     "specialRules": [
                     ]
@@ -10550,7 +10550,7 @@
             "name": "Rupture Cannon",
             "modes": [
                 {
-                    "firepower": "2x MW4+",
+                    "firepower": "MW3+",
                     "range": 45
                 }
             ]
@@ -12560,6 +12560,7 @@
                     "firepower": "Small Arms",
                     "join": "and",
                     "specialRules": [
+                        "EA(+1)",
                         "MW"
                     ]
                 }

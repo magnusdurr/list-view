@@ -88,13 +88,14 @@
         },
         {
           "name": "Assault Swarm",
-          "units": "Two Tyranid Warriors and/or Zoanthropes",
+          "units": "Two Tyranid Warriors",
           "extraUnits": [
             "One to two Instinctive Swarms",
-            "1+ Gaunts, Gargoyles or Light Artillery must be chosen",
-            "Any Tyranid Warriors may be upgraded to Tyranid Warrior Shrikes: Free"
+            "1+ Gaunts, Gargoyles or Bio-Support must be chosen",
+            "Replace two Tyranid Warriors with Tyranid Warrior Shrikes: Free",
+            "Replace two Tyranid Warriors with Zoanthropes: 25pts"
           ],
-          "points": 125
+          "points": 100
         }
       ]
     },
@@ -124,7 +125,7 @@
           "name": "Spawn Nest",
           "units": "One Spawn Nest",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Light Artillery, Bio-Support or Nest-Guard"
+            "One to two Instinctive Swarms chosen from Gaunts, Bio-Artillery, Bio-Support or Nest-Guard"
           ],
           "points": 150
         }
@@ -185,17 +186,17 @@
       {
         "name": "Gaunts",
         "description": "Five Termagants, Hormagaunts and/or Barbgaunts",
-        "points": "50 points"
+        "points": "75 points"
       },
       {
-        "name": "Light Artillery",
+        "name": "Bio-Support",
         "description": "Four Biovores and/or Pyrovores",
         "points": "75 points"
       },
       {
         "name": "Gargoyles",
         "description": "Four Gargoyles",
-        "points": "50 points"
+        "points": "75 points"
       },
       {
         "name": "Bio-Flyers",
@@ -204,8 +205,8 @@
       },
       {
         "name": "Carnifex",
-        "description": "Three Barbed Carnifex or three Screamer-Killer Carnifex",
-        "points": "125 points"
+        "description": "Two Barbed Carnifex or two Screamer-Killer Carnifex",
+        "points": "75 points"
       },
       {
         "name": "Bio-Attack",
@@ -213,13 +214,13 @@
         "points": "75 points"
       },
       {
-        "name": "Bio-Support",
+        "name": "Bio-Artillery",
         "description": "Three Dactylis, or two Tyrannofexes",
-        "points": "150 points"
+        "points": "125 points"
       },
       {
         "name": "Nest-Guard (only Swarm Nest formations)",
-        "description": "Two Hive Guard.",
+        "description": "Two Hive Guard",
         "points": "50 points"
       }
     ]
