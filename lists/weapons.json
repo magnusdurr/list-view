@@ -9487,10 +9487,16 @@
         {
             "name": "Ripper Swarms",
             "modes": [
+                           {
+                    "firepower": "Small Arms",
+                    "specialRules": [
+                       "EA(+2)"
+                    ]
+                },
                 {
                     "firepower": "Assault Weapons",
                     "specialRules": [
-                        "EA(+1)"
+                        "EA(+2)"
                     ]
                 }
             ]
