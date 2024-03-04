@@ -140,11 +140,11 @@
       },
       {
         "name": "Bloodfang Megadon",
-        "type": "AV",
+        "type": "LV",
         "speed": 30,
-        "armour": 4,
-        "cc": 3,
-        "ff": 6,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
         "weapons": [
           "Scatter Laser",
           "Claws, Teeth & Tail"
@@ -161,13 +161,11 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Prism Lance|0-1",
-          "Prism Cannon|0-1"
+          "Prism Lance"
         ],
         "specialRules": [
           "Walker"
-        ],
-        "notes": "Armed with a Prism Lance, can be upgraded to a Prism Cannon"
+        ]
       },
       {
         "name": "Fire Gale Knight",
@@ -259,19 +257,18 @@
         "type": "WE",
         "speed": 25,
         "armour": 3,
-        "cc": 3,
+        "cc": 4,
         "ff": 5,
         "weapons": [
           "Suncannon|2|FxF",
           "Ferocious Bite"
         ],
         "specialRules": [
-          "Damage Capacity: 6",
+          "Damage Capacity: 5",
           "Fearless",
-          "Invulnerable Save",
           "Walker"
         ],
-        "crit": "The Colossal Carnosaur is killed."
+        "crit": "The Colossal Carnosaur takes an additional point of damage."
       }
     ]
   }

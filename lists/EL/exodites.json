@@ -6,13 +6,14 @@
   "armyforge": "EAR_Eldar_Exodites",
   "intro": "The following army list allows you to field an Exodite Eldar army.",
   "strategy": "Exodite armies have a strategy rating of 4.",
-  "Initiative": "All formations have an initiative rating of 2+.",
+  "Initiative": "All formations have an initiative rating of 2+. The Dragon Knight, Wind Knight, and Exodite Knight Warhosts are subject to the Bravery special rule.",
   "specialRules": [
     "Farsight",
     "Eternal Drake",
     "Innate Mobility",
     "Hit and Run",
-    "Webway Portal"
+    "Webway Portal",
+    "Bravery"
   ],
   "units": [
     {
@@ -55,7 +56,8 @@
         "Corsair Veteran",
         "Corsair Wasp Walker",
         "Corsair Venom",
-        "Corsair Vampire Raider"
+        "Corsair Vampire Raider",
+        "Corsair Nightwing Interceptor"
       ],
       "unitRules": [
       ]
@@ -137,7 +139,6 @@
           "units": "Four Voidprism Megadons",
           "points": "225",
           "extraUnits": [
-            "Upgrade one Voidprism Megadon to replace its Prism Lance with a Prism Cannon for 25 points"
           ]
         },
         {
@@ -151,7 +152,7 @@
         {
           "name": "Colossal Carnosaur",
           "units": "One Colossal Carnosaur",
-          "points": "375"
+          "points": "350"
         }
       ]
     },
@@ -177,17 +178,26 @@
           ],
           "points": 200
         },
+                {
+          "name": "Corsair Nightwings",
+          "units": "Two Nightwing Interceptors",
+          "extraUnits": [
+            "Add one Nightwing Interceptor: 75 Points"
+          ],
+          "points": 225
+        },
         {
           "name": "Corsairs Fire Support (0-1 per raiding party)",
           "units": "Four Corsair Wasp Walkers",
-          "points": 200
+          "points": 150
         },
         {
-          "name": "Exodite Knights",
+          "name": "Exodite Knight Warhost",
           "units": "Two Fire Gale, or two Bright Stallion, or two Towering Destroyer Knights",
           "points": 275,
           "extraUnits": [
-            "Add one Knight of the same configuration to the formation: 100 points"
+            "Add one Knight of the same configuration to the formation: 100 points",
+            "Add one Worldsinger character for 50 points"
           ]
         }
       ]
