@@ -61,9 +61,9 @@
       "formations": [
         {
           "name": "XV8 Crisis Battlesuit Cadre",
-          "units": "Six XV8 Crisis Battlesuits",
+          "units": "One Shas'el, Six XV8 Crisis Battlesuits",
           "extraUnits": [
-            "Commander",
+            "Shas'o",
             "Crisis Suits",
             "Drones"
           ],
@@ -71,9 +71,9 @@
         },
         {
           "name": "Heavy Battlesuit Cadre",
-          "units": "Three XV104 Riptide Battlesuits, three XV107 R'Varna Battlesuits or three XV109 Y'Vahra Battlesuits",
+          "units": "One Shas'el and Three XV104 Riptide Battlesuits, three XV107 R'Varna Battlesuits or three XV109 Y'Vahra Battlesuits",
           "extraUnits": [
-            "Commander",
+            "Shas'o",
             "Heavy Battlesuits",
             "Drones"
           ],
@@ -178,18 +178,9 @@
         "points": "125 points"
       },
       {
-        "name": "Commander",
-        "description": "Add any one of the following characters to any unit in the formation:",
-        "options": [
-          {
-            "description": "Shas'el",
-            "points": "25 points"
-          },
-          {
-            "description": "0-1 Shas'o per army",
-            "points": "100 points"
-          }
-        ]
+        "name": "0–1 Shas'o",
+        "description": "Replace one Shas'el character with a Shas'o character",
+        "points": "75 points"
       },
       {
         "name": "Crisis Suits",
