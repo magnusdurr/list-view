@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Hydra",
-  "version": "1.0.Beta",
-  "release": "2024-04-15",
+  "version": "1.0.Beta-2",
+  "release": "2024-05-21",
   "armyforge": "EAR_Tyranid_HiveFleetHydra",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "The Nexus Spawn Swarm has an Initiative Rating of 1+. All other Tyranid formations have an Initiative Rating of 2+. In addition, all formations are subject to the Hive Mind special rule.",
@@ -117,7 +117,7 @@
           "units": "One Hive Harridan",
           "extraUnits": [
             "Add one Hive Harridan: 100 points",
-            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers"
+            "Zero to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers"
           ],
           "points": 175
         },
@@ -141,7 +141,7 @@
           "extraUnits": [
             "Add up to three Genestealers: 25 points each"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Infiltrator Swarm",

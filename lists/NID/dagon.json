@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Dagon",
-  "version": "1.0.beta-3",
-  "release": "2024-01-18",
+  "version": "1.0.beta-4",
+  "release": "2024-05-21",
   "armyforge": "EAR_Tyranid_HiveFleetDagon",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "The Nexus Swarm has an Initiative Rating of 1+. All other Tyranid formations have an Initiative Rating of 2+. In addition, all formations are subject to the 'Hive Mind' special rule.",
@@ -80,7 +80,7 @@
           "name": "0-1 Nexus Swarm",
           "units": "One Dagon Dominatrix",
           "extraUnits": [
-            "One to four Instinctive Swarms (except Mycetic Spore)"
+            "One to four Instinctive Swarms"
           ],
           "points": 400
         },
@@ -91,7 +91,8 @@
             "Two to four Instinctive Swarms",
             "Replace the Hive Tyrant with a Hive Tyrant Shrike: Free",
             "0-1 Hive Tyrant in the army may be replaced with the Dagon Overlord: 75 points",
-            "Replace the Dagon Overlord with a Dagon Overlord Shrike: Free"
+            "Replace the Dagon Overlord with a Dagon Overlord Shrike: Free",
+            "Transport the formation in a Mycetic Spore (all units must be able to be transported) and deploy via planetary assault rules from a Razorfiend or Hive Ship: 50 points"
           ],
           "points": 125
         },
@@ -102,7 +103,8 @@
             "One to two Instinctive Swarms",
             "1+ Gaunts, Gargoyles, or Bio-Support must be chosen",
             "Replace two Tyranid Warriors with Tyranid Warrior Shrikes: Free",
-            "Replace two Tyranid Warriors with Zoanthropes: 25pts"
+            "Replace two Tyranid Warriors with Zoanthropes: 25pts",
+            "Transport the formation in a Mycetic Spore (all units must be able to be transported) and deploy via planetary assault rules from a Razorfiend or Hive Ship: 50 points"
           ],
           "points": 100
         }
@@ -126,7 +128,7 @@
           "extraUnits": [
             "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Burrower, Carnifex or Bio-Attack"
           ],
-          "points": 150
+          "points": 125
         },
         {
           "name": "Infestation Swarm",
@@ -140,7 +142,7 @@
           "name": "Harasser Swarm",
           "units": "One Harridan",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers",
+            "Zero to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers",
             "Add one Harridan: 100 points"
           ],
           "points": 175
@@ -157,7 +159,7 @@
           "extraUnits": [
             "Add up to three Genestealers: 25 points each"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Lictor Swarm",
@@ -239,15 +241,7 @@
         "name": "Burrower",
         "description": "Two Trygons or five Raveners",
         "points": "100 points"
-      },
-      {
-        "name": "Mycetic Spore (0-1 per Swarm)",
-        "description": "Must deploy via planetary assault rules from a Razorfiend or Hive Ship.",
-        "points": "50 points"
       }
     ]
-  },
-  "about": [
-    ""
-  ]
+  }
 }
