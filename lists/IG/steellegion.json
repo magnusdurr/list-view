@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Steel Legion",
-  "version": "1.0.Beta-2",
-  "release": "2022-09-29",
+  "version": "1.0.Beta-3",
+  "release": "2025-11-23",
   "armyforge": "EAR_ImperialGuard_SteelLegion",
   "strategy": "Steel Legion armies have a Strategy Rating of 2.",
   "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
@@ -102,6 +102,7 @@
           "name": "Leman Russ Company",
           "units": "One Leman Russ Vanquisher with a Commissar, seven Leman Russ",
           "extraUnits": [
+            "Add two Leman Russ: 100 points",
             "Flak",
             "Hellhounds"
           ],
@@ -281,8 +282,8 @@
       },
       {
         "name": "Infantry*",
-        "description": "Add six Infantry",
-        "points": "75 points"
+        "description": "Add four Infantry",
+        "points": "50 points"
       },
       {
         "name": "Ogryns*",
@@ -296,7 +297,7 @@
       },
       {
         "name": "Leman Russ",
-        "description": "Add three Leman Russ, Leman Russ Punishers, or Leman Russ Demolishers",
+        "description": "Add two Leman Russ, Leman Russ Punishers, or Leman Russ Demolishers",
         "points": "150 points"
       },
       {

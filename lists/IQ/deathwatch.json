@@ -61,7 +61,8 @@
         "Thudd Gun",
         "Armoured Sentinel",
         "Leman Russ",
-        "Leman Russ Thunderer",
+        "Leman Russ Exterminator",
+        "Leman Russ Punisher",
         "Land Transporter"
       ],
       "unitRules": []
@@ -74,14 +75,14 @@
       "formations": [
         {
           "name": "0-1 Officio Assassinorum",
-          "units": "Once per battle, during an Assault that the Deathwatch player initiated (after all units have finished moving), a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules. Any damage caused by these hits counts towards combat resolution (unless the target is Super-Expendable).",
+          "units": "Once per battle, during an Assault that the Deathwatch player initiated (after all units have finished moving), a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules. Any damage caused by these hits counts towards combat resolution.",
           "points": 50
         }
       ]
     },
     {
       "name": "Deathwatch Detachments",
-      "description": "",
+      "description": "One Dark Hunter formation must be taken",
       "formations": [
         {
           "name": "Deathwatch Kill-Team",
@@ -141,7 +142,7 @@
           "units": "Ordo Xenos Inquisitor, nine Arbitrators, five Arbites Repressors",
           "extraUnits": [
             "Supreme Commander",
-            "Add three Leman Russ Thunderers: 150 points"
+            "Add three Leman Russ, three Leman Russ Exterminators, or three Leman Russ Punishers: 150 points"
           ],
           "points": 300
         },
@@ -163,7 +164,7 @@
         },
         {
           "name": "Leman Russ Squadron",
-          "units": "Four Leman Russ or four Leman Russ Thunderers",
+          "units": "Four Leman Russ, four Leman Russ Exterminators, or four Leman Russ Punishers",
           "extraUnits": [
           ],
           "points": 275
